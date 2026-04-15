@@ -16,6 +16,14 @@ yarn-error.log*
 # OS
 .DS_Store
 Thumbs.db
+desktop.ini
+**/desktop.ini
+
+# Screenshots and scratch images at repo root (user-local, not repo assets)
+/Capture*.png
+/Capture*.jpg
+/screenshot*.png
+/screenshot*.jpg
 
 # Environment — NEVER commit real secrets
 .env

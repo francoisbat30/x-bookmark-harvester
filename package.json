@@ -17,7 +17,8 @@
     "skill:status": "tsx --env-file=.env.local scripts/skills/status.ts",
     "skill:filter": "tsx --env-file=.env.local scripts/skills/filter.ts",
     "skill:enrich:list": "tsx --env-file=.env.local scripts/skills/enrich-list.ts",
-    "skill:enrich:write": "tsx --env-file=.env.local scripts/skills/enrich-write.ts"
+    "skill:enrich:write": "tsx --env-file=.env.local scripts/skills/enrich-write.ts",
+    "skill:deepsearch": "tsx --env-file=.env.local scripts/skills/deep-search.ts"
   },
   "dependencies": {
     "next": "^16.2.3",

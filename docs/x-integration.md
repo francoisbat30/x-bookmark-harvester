@@ -65,9 +65,76 @@ On-demand enrichment of a single bookmark. Reads the post + its entire comment t
 - `key_replies` — top 5 insight-dense individual replies
 
 ### Shared plumbing (`lib/x/xai-responses.ts`)
-- `callResponses({ apiKey, model, instructions, input, tools? })` — one POST helper.
+- `callResponses({ apiKey, model, instructions, input, tools? })` — one POST helper. Hard timeout of 120 s (Grok with `x_search` routinely takes 30–90 s and the server action must not hang indefinitely on a stalled upstream).
 - `extractText(payload)` — pulls `output_text` or assembles it from `output[].content[]`.
 - `stripJsonFences(text)` — normalizes LLM JSON output (handles ```json fences and falls back to outermost `{…}`).
+
+## 4. Deep Search — multi-query research pipeline (`lib/x/deep-search.ts`)
+
+Deep Search is an orchestrator that takes a natural-language research theme and returns 20-35 scored X candidates. It runs in 6 stages:
+
+```
+naturalQuery
+  ↓ [1] callResponses(expansion)                  — Grok, no tools
+6 sub-queries (JSON)
+  ↓ [2] Promise.all(callResponses × 6)            — Grok with x_search
+~60 raw candidates
+  ↓ [3] Promise.all(searchRecentTweets × 7)       — X API v2 /search/recent
++N ground-truth candidates (last 7 days only)
+  ↓ [4] rankCandidates                            — dedup + mechanical score
+~25-35 unique scored candidates
+  ↓ [5] callResponses(aggregationRerank)          — Grok, no tools, 1-5 + rationale
+final ordered list
+  ↓ [6] markAlreadyCached                         — flag against .raw/
+DeepSearchResult
+```
+
+### Stage 1 — sub-query expansion
+Single Grok call with `tools: []` and temperature 0.4. Instructions force variation on vocabulary, angle, content format, and audience, returning a strict JSON shape.
+
+### Stage 2 — parallel Grok search
+6 concurrent Grok calls, each with `x_search` tool enabled. Instructions prioritize recall: "return at least 10 URLs, do NOT filter for popularity, prefer long-form articles and 5+ tweet threads". Temperature 0.3 to diversify the parallel calls without going wild.
+
+### Stage 3 — X API v2 augmentation
+`lib/x/api.ts::searchRecentTweets(query, bearer, max)` calls `GET /2/tweets/search/recent` with `-is:retweet` filter, 20 results per sub-query, 7 concurrent requests. This is the ground-truth complement: anything returned by the public index directly, no LLM hallucination possible.
+
+### Stage 4 — mechanical ranking
+Dedup by `tweetId` into a `Map`. Merge `foundBy` arrays across sources. Score formula:
+
+```
+mechanicalScore =
+    foundByCount * 10               // multi-match boost
+  + log(likes + 1) * 2
+  + log(retweets + 1) * 4
+  + log(replies + 1) * 3
+  + (format === "article" ? 15 : 0)
+  + (format === "thread" ? 8 : 0)
+  - (alreadyCached ? 5 : 0)
+```
+
+### Stage 5 — aggregation rerank
+Top-50 candidates are serialized (tweetId + author + snippet + format + metrics) and passed back to Grok (no tools) with instructions to re-rank by true relevance, assigning a 1-5 score and a one-line rationale. `finalScore = mechanicalScore + llmScore * 5`.
+
+### Stage 6 — already-cached flag
+`hasCache(tweetId)` is called in parallel for each candidate. The UI deprioritizes already-cached candidates and flags them so the user can skip re-extraction.
+
+### Cache (`lib/obsidian/deep-search-cache.ts`)
+Results are persisted to `<vault>/.deepsearch/<queryHash>.json` with a 2-hour TTL. The hash is `sha1(query.toLowerCase().trim() + "|" + subQueryCount)`, so case and whitespace don't create cache misses. `listDeepSearchHistory()` powers the history drawer in the UI and the CLI.
+
+### CLI skill
+`scripts/skills/deep-search.ts` wraps the same `runDeepSearch` entry point and shares the cache. Invoked via `npm run skill:deepsearch -- "query"` or the `/bookmark-deepsearch` slash command in Claude Code. Output is JSON on stdout, identical shape to the web UI's `DeepSearchResult`.
+
+### Cost model
+Rough per-search breakdown for `grok-4`:
+
+| Stage | Calls | Cost |
+|---|---|---|
+| Expansion | 1 | ~$0.02 |
+| Search (with x_search) | 6 | ~$0.72 |
+| Aggregation rerank | 1 | ~$0.08 |
+| **Total** | **8** | **~$0.82** |
+
+X API v2 calls are free within your rate limits. The cost estimate is displayed in the UI before running and the real post-run cost is returned in `stats.estimatedCost`.
 
 ## Environment variables
 

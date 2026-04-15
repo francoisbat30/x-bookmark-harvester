@@ -79,3 +79,63 @@ export interface ExtractError {
   ok: false;
   error: string;
 }
+
+/* ───────── Deep Search ───────── */
+
+export type DeepSearchFormat = "post" | "thread" | "article";
+export type DeepSearchSource = "grok" | "xapi" | "both";
+
+export interface DeepSearchCandidate {
+  tweetId: string;
+  url: string;
+  authorHandle: string;
+  authorName: string;
+  /** Short snippet, first ~240 chars of the tweet text. */
+  text: string;
+  /** ISO date (YYYY-MM-DD) or empty. */
+  date: string;
+  format: DeepSearchFormat;
+  metrics: {
+    likes: number;
+    retweets: number;
+    replies: number;
+    views?: number;
+  } | null;
+  /** Sub-queries that matched this candidate. */
+  foundBy: string[];
+  source: DeepSearchSource;
+  /** One-line rationale: from Grok search or aggregation rerank. */
+  rationale: string;
+  mechanicalScore: number;
+  /** Optional 1-5 score from the aggregation rerank call. */
+  llmScore?: number;
+  finalScore: number;
+  alreadyCached: boolean;
+}
+
+export interface DeepSearchStats {
+  grokCallCount: number;
+  xApiCallCount: number;
+  estimatedCost: number;
+  elapsedMs: number;
+}
+
+export interface DeepSearchResult {
+  ok: true;
+  queryHash: string;
+  query: string;
+  createdAt: string;
+  fromCache: boolean;
+  subQueries: string[];
+  candidates: DeepSearchCandidate[];
+  stats: DeepSearchStats;
+}
+
+export interface DeepSearchHistoryEntry {
+  queryHash: string;
+  query: string;
+  createdAt: string;
+  lastAccessedAt: string;
+  candidateCount: number;
+  estimatedCost: number;
+}

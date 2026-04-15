@@ -529,3 +529,313 @@
 
 .muted { color: var(--muted); }
 .dim { color: var(--text-dim); }
+
+/* ── Deep Search ─────────────────────────────────────────────────── */
+
+.deep-search {
+  border-left: 2px solid var(--accent);
+}
+
+.deep-search-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.ds-cost {
+  font-size: 10px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.ds-cost::before {
+  content: "// ";
+  color: var(--accent);
+}
+
+.ds-result {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+.ds-meta {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-dim);
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.ds-subqueries {
+  margin-bottom: 14px;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  background: var(--bg-deep);
+  font-size: 11px;
+}
+.ds-subqueries summary {
+  cursor: pointer;
+  color: var(--text-dim);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.ds-subqueries summary::before {
+  content: "[";
+  color: var(--accent);
+  margin-right: 4px;
+}
+.ds-subqueries summary::after {
+  content: "]";
+  color: var(--accent);
+  margin-left: 4px;
+}
+.ds-subqueries ul {
+  margin: 8px 0 0;
+  padding-left: 20px;
+  color: var(--text);
+}
+.ds-subqueries li {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  padding: 2px 0;
+}
+.ds-subqueries li::marker {
+  color: var(--accent);
+}
+
+.ds-actions {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  padding: 8px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.ds-candidates {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.ds-row {
+  display: flex;
+  gap: 10px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-left-width: 2px;
+  background: var(--surface);
+  cursor: pointer;
+  transition: background 150ms, border-color 150ms;
+  align-items: flex-start;
+}
+.ds-row:hover {
+  background: var(--surface-hover);
+  border-color: var(--border-hover);
+}
+.ds-row.sel {
+  border-left-color: var(--accent);
+  background: var(--accent-ghost);
+}
+.ds-row input[type="checkbox"] {
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.ds-row-body {
+  flex: 1;
+  min-width: 0;
+  font-family: var(--font-mono);
+}
+
+.ds-row-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  font-size: 11px;
+  margin-bottom: 4px;
+}
+
+.ds-author {
+  color: var(--accent-light);
+  font-weight: 700;
+}
+.ds-date {
+  color: var(--text-dim);
+}
+.ds-format {
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1px 6px;
+  border: 1px solid var(--border-strong);
+  font-weight: 700;
+}
+.ds-format-article {
+  color: var(--warn);
+  border-color: var(--warn);
+  background: var(--warn-soft);
+}
+.ds-format-thread {
+  color: var(--accent-light);
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+.ds-format-post {
+  color: var(--text-dim);
+}
+.ds-cached {
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--muted);
+  padding: 1px 6px;
+  border: 1px solid var(--border-strong);
+}
+.ds-llm-score {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--good);
+  padding: 1px 6px;
+  border: 1px solid rgba(63, 214, 124, 0.4);
+  background: var(--good-soft);
+}
+.ds-metrics {
+  color: var(--muted);
+  font-size: 10px;
+  margin-left: auto;
+}
+
+.ds-snippet {
+  font-size: 11px;
+  color: var(--text);
+  line-height: 1.5;
+  margin: 4px 0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.ds-rationale {
+  font-size: 10px;
+  color: var(--accent-light);
+  font-style: italic;
+  margin: 2px 0;
+}
+
+.ds-row-footer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 4px;
+  font-size: 10px;
+}
+.ds-link {
+  color: var(--text-dim);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 440px;
+}
+.ds-link:hover {
+  color: var(--accent-light);
+}
+.ds-foundby {
+  color: var(--muted);
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+/* ── Deep Search history drawer ──────────────────────────────────── */
+
+.ds-history {
+  margin-top: 12px;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  background: var(--bg-deep);
+  animation: fade-in-up 200ms both;
+}
+.ds-history-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+.ds-history-header strong {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  color: var(--text-dim);
+}
+.ds-history-empty {
+  font-size: 11px;
+  color: var(--muted);
+  padding: 8px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.ds-history-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.ds-history-row {
+  display: flex;
+  gap: 8px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
+  align-items: center;
+}
+.ds-history-main {
+  flex: 1;
+  background: transparent;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 140px 1fr 180px;
+  gap: 12px;
+  color: var(--text);
+  padding: 4px 0;
+  font-family: var(--font-mono);
+}
+.ds-history-main:hover {
+  color: var(--accent-light);
+}
+.ds-history-date {
+  font-size: 10px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.ds-history-query {
+  font-size: 11px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ds-history-count {
+  font-size: 10px;
+  color: var(--text-dim);
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}

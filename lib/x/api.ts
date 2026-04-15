@@ -1,4 +1,9 @@
-import type { PostExtraction, PostComment, PostMedia } from "../types";
+import type {
+  DeepSearchCandidate,
+  PostComment,
+  PostExtraction,
+  PostMedia,
+} from "../types";
 import { recordApiCall } from "./usage";
 
 const BASE = "https://api.x.com/2";
@@ -288,4 +293,66 @@ function indexMedia(media: XMedia[]): Map<string, PostMedia> {
     map.set(m.media_key, { type, url });
   }
   return map;
+}
+
+/* ───────── /2/tweets/search/recent (Deep Search augmentation) ───────── */
+
+/**
+ * Query the public X API v2 recent search (last 7 days) with a natural
+ * text query. Used by Deep Search to complement Grok's x_search with
+ * ground-truth results straight from X's search index.
+ *
+ * Limits: 7-day window on the basic tier. Retweets are excluded via the
+ * `-is:retweet` operator.
+ */
+export async function searchRecentTweets(
+  query: string,
+  bearerToken: string,
+  maxResults = 20,
+): Promise<DeepSearchCandidate[]> {
+  const params = new URLSearchParams({
+    query: `${query} -is:retweet`,
+    max_results: String(Math.min(Math.max(maxResults, 10), 100)),
+    "tweet.fields": "created_at,public_metrics,text,author_id,entities",
+    expansions: "author_id",
+    "user.fields": "username,name",
+  });
+  const data = await xFetch<XSearchResponse>(
+    `/tweets/search/recent?${params}`,
+    bearerToken,
+  );
+  if (data.errors?.length) {
+    throw new Error(`X API errors: ${JSON.stringify(data.errors)}`);
+  }
+  const users = new Map(
+    (data.includes?.users ?? []).map((u) => [u.id, u]),
+  );
+  const out: DeepSearchCandidate[] = [];
+  for (const t of data.data ?? []) {
+    const user = users.get(t.author_id);
+    const handle = user?.username ?? "";
+    if (!handle) continue; // skip if author not resolved
+    out.push({
+      tweetId: t.id,
+      url: `https://x.com/${handle}/status/${t.id}`,
+      authorHandle: handle,
+      authorName: user?.name ?? "",
+      text: (t.text ?? "").slice(0, 240),
+      date: (t.created_at ?? "").slice(0, 10),
+      format: "post",
+      metrics: {
+        likes: t.public_metrics?.like_count ?? 0,
+        retweets: t.public_metrics?.retweet_count ?? 0,
+        replies: t.public_metrics?.reply_count ?? 0,
+        views: t.public_metrics?.impression_count,
+      },
+      foundBy: [], // set by caller
+      source: "xapi",
+      rationale: "",
+      mechanicalScore: 0,
+      finalScore: 0,
+      alreadyCached: false,
+    });
+  }
+  return out;
 }
