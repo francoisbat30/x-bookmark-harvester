@@ -20,24 +20,24 @@ export function SyncPreview({
   return (
     <div className="sync-preview">
       <div className="sync-preview-header">
-        <strong>Found {data.total} bookmark(s)</strong>
+        <strong>{data.total} bookmark(s) on your account</strong>
         <span className="counts">
           <span className="c-done">{data.newCount} new</span>
-          <span className="c-muted">{data.knownCount} already in vault</span>
+          <span className="c-muted">{data.knownCount} already saved</span>
         </span>
       </div>
+
       {data.newCount === 0 ? (
-        <div className="sync-preview-body">
-          Your vault is already in sync with your X bookmarks. Nothing to do.
+        <div className="sync-preview-empty">
+          Your vault is in sync with X. Nothing to do.
         </div>
       ) : (
-        <div className="sync-preview-body">
+        <>
           <div className="sync-limit-row">
             <label htmlFor="sync-limit">
-              How many to process first?
+              Process how many first?
               <span className="sync-limit-help">
-                Test a small batch to measure actual X API credit consumption
-                before committing to all {data.newCount}.
+                Test a small batch before committing all {data.newCount}.
               </span>
             </label>
             <input
@@ -51,26 +51,31 @@ export function SyncPreview({
             />
           </div>
           <div className="sync-limit-estimate">
-            → will process <strong>{effectiveLimit}</strong> bookmark(s) ·{" "}
-            ~{estimatedCalls} X API calls · ~{estimatedSeconds}s
+            → {effectiveLimit} bookmark(s) · ~{estimatedCalls} X API calls · ~
+            {estimatedSeconds}s
           </div>
-        </div>
+        </>
       )}
+
       <div className="sync-preview-actions">
-        <button type="button" onClick={onCancel} className="btn-secondary">
+        <button type="button" className="btn btn-ghost" onClick={onCancel}>
           Cancel
         </button>
         {data.newCount > 0 && (
           <>
             <button
               type="button"
+              className="btn btn-outline"
               onClick={() => onProcess(effectiveLimit)}
-              className="btn-secondary"
             >
-              Process first {effectiveLimit}
+              First {effectiveLimit}
             </button>
-            <button type="button" onClick={() => onProcess()}>
-              Process all {data.newCount}
+            <button
+              type="button"
+              className="btn btn-primary"
+              onClick={() => onProcess()}
+            >
+              All {data.newCount}
             </button>
           </>
         )}

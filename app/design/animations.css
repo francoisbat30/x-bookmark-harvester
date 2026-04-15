@@ -1,0 +1,78 @@
+/* Keyframes used across the design system */
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
+  }
+}
+
+@keyframes glow-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 4px var(--accent);
+    opacity: 1;
+  }
+  50% {
+    box-shadow: 0 0 12px var(--accent), 0 0 20px var(--accent-glow);
+    opacity: 0.85;
+  }
+}
+
+@keyframes glow-pulse-green {
+  0%,
+  100% {
+    box-shadow: 0 0 4px var(--good);
+  }
+  50% {
+    box-shadow: 0 0 10px var(--good), 0 0 16px rgba(63, 214, 124, 0.5);
+  }
+}
+
+@keyframes cursor-blink {
+  0%,
+  49% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes glitch-shift {
+  0%, 100% { transform: translate(0); }
+  20% { transform: translate(-1px, 0.5px); }
+  40% { transform: translate(1px, -0.5px); }
+  60% { transform: translate(-0.5px, -1px); }
+  80% { transform: translate(0.5px, 1px); }
+}
+
+.glitch-hover:hover {
+  animation: glitch-shift 0.3s ease-in-out;
+}

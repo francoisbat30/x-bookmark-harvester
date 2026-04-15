@@ -78,11 +78,11 @@ describe("renderNote", () => {
     expect(note.content).toContain("date: 2026-04-15");
     expect(note.content).toContain("likes: 100");
     expect(note.content).toContain("status: raw");
-    expect(note.content).toContain("## Contenu du post");
+    expect(note.content).toContain("## Post");
   });
 
   it("omits Médias section when no media", () => {
-    expect(renderNote(basePost).content).not.toContain("## Médias");
+    expect(renderNote(basePost).content).not.toContain("## Media");
   });
 
   it("includes Médias section with remote URL when media not downloaded", () => {
@@ -90,7 +90,7 @@ describe("renderNote", () => {
       ...basePost,
       media: [{ type: "image", url: "https://pbs.twimg.com/media/foo.jpg" }],
     });
-    expect(note.content).toContain("## Médias");
+    expect(note.content).toContain("## Media");
     expect(note.content).toContain(
       "[image] https://pbs.twimg.com/media/foo.jpg",
     );
@@ -117,9 +117,9 @@ describe("renderNote", () => {
     );
   });
 
-  it("omits Commentaires notables when no comments", () => {
+  it("omits Notable comments section when no comments", () => {
     expect(renderNote(basePost).content).not.toContain(
-      "## Commentaires notables",
+      "## Notable comments",
     );
   });
 
@@ -135,7 +135,7 @@ describe("renderNote", () => {
         },
       ],
     });
-    expect(note.content).toContain("## Commentaires notables");
+    expect(note.content).toContain("## Notable comments");
     expect(note.content).toContain("**@other**");
     expect(note.content).toContain("> reply text");
   });
@@ -159,7 +159,7 @@ describe("renderNote", () => {
     expect(note.content).toContain("**@someone**");
   });
 
-  it("places Grok Insights before Commentaires notables", () => {
+  it("places Grok Insights before Notable comments", () => {
     const note = renderNote(
       {
         ...basePost,
@@ -177,7 +177,7 @@ describe("renderNote", () => {
       },
     );
     const grokIdx = note.content.indexOf("## Grok Insights");
-    const commentsIdx = note.content.indexOf("## Commentaires notables");
+    const commentsIdx = note.content.indexOf("## Notable comments");
     expect(grokIdx).toBeGreaterThan(0);
     expect(commentsIdx).toBeGreaterThan(grokIdx);
   });

@@ -51,7 +51,7 @@ describe("frontmatter round-trip", () => {
     };
     const serialized = serializeBookmark(
       fm,
-      "## Summary\n\nSome summary\n\n## Contenu du post\n\nbody",
+      "## Summary\n\nSome summary\n\n## Post\n\nbody",
     );
     const parsed = extractFrontmatter(serialized);
     expect(parsed.frontmatter.status).toBe("enriched");

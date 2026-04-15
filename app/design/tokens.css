@@ -1,0 +1,48 @@
+/* Design tokens — Red Echo SOC / cyberpunk terminal
+   Palette, typography scale, geometry. All downstream files consume these. */
+
+:root {
+  /* Core surfaces */
+  --bg: #0a0a0a;
+  --bg-deep: #060606;
+  --surface: #0e0e0e;
+  --surface-hover: #141414;
+  --surface-alt: #181818;
+
+  /* Borders */
+  --border: #1e1e1e;
+  --border-strong: #2e2e2e;
+  --border-hover: #3a3a3a;
+
+  /* Text */
+  --ink: #e4e4e4;
+  --text: #c4c4c4;
+  --text-dim: #9a9a9a;
+  --muted: #6a6a6a;
+  --muted-soft: #444;
+
+  /* Accent — red */
+  --accent: #c0392b;
+  --accent-hover: #e74c3c;
+  --accent-light: #ff6b5c;
+  --accent-soft: rgba(192, 57, 43, 0.18);
+  --accent-ghost: rgba(192, 57, 43, 0.08);
+  --accent-glow: rgba(231, 76, 60, 0.35);
+
+  /* Status */
+  --good: #3fd67c;
+  --good-soft: rgba(63, 214, 124, 0.12);
+  --warn: #ffb347;
+  --warn-soft: rgba(255, 179, 71, 0.12);
+  --bad: #ff5a4e;
+
+  /* Geometry */
+  --gap: 12px;
+  --pad: 14px;
+  --radius: 0px;
+  --header-h: 48px;
+
+  /* Font */
+  --font-mono: var(--font-jetbrains-mono), "JetBrains Mono", "Consolas",
+    "Monaco", monospace;
+}

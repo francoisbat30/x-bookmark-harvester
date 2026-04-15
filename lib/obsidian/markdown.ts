@@ -91,7 +91,7 @@ function buildBody(post: PostExtraction, options: RenderOptions): string {
   const { insights, downloadedImages } = options;
   const sections: string[] = [];
 
-  sections.push("## Contenu du post\n\n" + (post.text || "_(empty)_"));
+  sections.push("## Post\n\n" + (post.text || "_(empty)_"));
 
   if (post.media.length > 0) {
     const localByUrl = new Map(
@@ -104,7 +104,7 @@ function buildBody(post: PostExtraction, options: RenderOptions): string {
       }
       return `- [${m.type}] ${m.url}`;
     });
-    sections.push("## Médias\n\n" + mediaLines.join("\n"));
+    sections.push("## Media\n\n" + mediaLines.join("\n"));
   }
 
   if (insights) {
@@ -120,7 +120,7 @@ function buildBody(post: PostExtraction, options: RenderOptions): string {
         .join("\n");
       return `${header}\n${quoted}`;
     });
-    sections.push("## Commentaires notables\n\n" + commentBlocks.join("\n\n"));
+    sections.push("## Notable comments\n\n" + commentBlocks.join("\n\n"));
   }
 
   return sections.join("\n\n");

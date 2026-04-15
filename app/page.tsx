@@ -10,7 +10,7 @@ import { AuthPanel } from "./components/AuthPanel";
 import { UsagePanel } from "./components/UsagePanel";
 import { SyncPreview } from "./components/SyncPreview";
 import { ResultsList } from "./components/ResultsList";
-import { SettingsPanel } from "./components/SettingsPanel";
+import { VaultBadge, VaultEdit } from "./components/SettingsPanel";
 import type {
   AuthStatus,
   BookmarksListResponse,
@@ -36,6 +36,7 @@ export default function Home() {
   const [isPending, startTransition] = useTransition();
   const [auth, setAuth] = useState<AuthStatus | null>(null);
   const [usage, setUsage] = useState<UsageSnapshot | null>(null);
+  const [editingVault, setEditingVault] = useState(false);
   const [syncState, setSyncState] = useState<
     | { phase: "idle" }
     | { phase: "listing" }
@@ -231,45 +232,40 @@ export default function Home() {
   ).length;
 
   return (
-    <main>
-      <h1>X Bookmark Harvester</h1>
-      <p className="subtitle">
-        Sync ton compte X pour récupérer tous tes bookmarks, ou colle une liste
-        de liens manuellement. X API v2 est la source ; Grok s&apos;utilise à
-        la demande pour enrichir un bookmark spécifique.
+    <main className="main page">
+      <h1 className="dash-title">X Bookmark Harvester</h1>
+      <p className="tagline">
+        Sync your X bookmarks into an Obsidian vault · Grok on demand
       </p>
 
-      <SettingsPanel />
+      <div className="topbar">
+        <VaultBadge
+          editing={editingVault}
+          onToggleEdit={() => setEditingVault((v) => !v)}
+        />
+        <AuthPanel auth={auth} onLogout={handleLogout} />
+        <div className="topbar-spacer" />
+        {auth?.authenticated && (
+          <button
+            type="button"
+            className="btn btn-primary btn-sm"
+            onClick={handleSyncClick}
+            disabled={syncState.phase === "listing" || isPending}
+          >
+            {syncState.phase === "listing" ? "Fetching…" : "Sync"}
+          </button>
+        )}
+      </div>
 
-      <AuthPanel auth={auth} onLogout={handleLogout} />
+      {editingVault && (
+        <VaultEdit onDone={() => setEditingVault(false)} />
+      )}
 
       {usage && usage.callCount > 0 && <UsagePanel usage={usage} />}
 
       {authToast && (
-        <div className={`toast toast-${authToast.kind}`}>
+        <div className={`toast ${authToast.kind}`}>
           {authToast.kind === "ok" ? "✓" : "✗"} {authToast.message}
-        </div>
-      )}
-
-      {auth?.authenticated && (
-        <div className="sync-card">
-          <div>
-            <strong>Sync from your X account</strong>
-            <div className="subtitle-sm">
-              Fetches your bookmarks list via X API, dedups against your vault,
-              then processes only the new ones.
-            </div>
-          </div>
-          <button
-            type="button"
-            onClick={handleSyncClick}
-            disabled={syncState.phase === "listing" || isPending}
-            className="sync-btn"
-          >
-            {syncState.phase === "listing"
-              ? "Fetching list…"
-              : "Sync my bookmarks"}
-          </button>
         </div>
       )}
 
@@ -282,19 +278,19 @@ export default function Home() {
       )}
 
       {syncState.phase === "error" && (
-        <div className="result err">
-          <strong>Sync failed</strong>
-          {syncState.message}
+        <div className="toast err">
+          <strong>Sync failed</strong> — {syncState.message}
         </div>
       )}
 
-      <form onSubmit={handleSubmit} className="card">
-        <label htmlFor="urls">
-          Manual paste — URLs des posts X (un par ligne)
+      <form onSubmit={handleSubmit} className="panel">
+        <label htmlFor="urls" className="panel-label">
+          Paste X post URLs (one per line)
         </label>
         <textarea
           id="urls"
           name="urls"
+          className="textarea"
           placeholder={
             "https://x.com/user/status/1234567890\nhttps://x.com/other/status/9876543210"
           }
@@ -303,9 +299,13 @@ export default function Home() {
           disabled={isPending}
         />
 
-        <div className="row">
-          <button type="submit" disabled={isPending}>
-            {isPending ? `Extraction ${doneCount}/${totalCount}…` : "Extraire"}
+        <div className="panel-actions">
+          <button
+            type="submit"
+            className="btn btn-primary"
+            disabled={isPending}
+          >
+            {isPending ? `Extracting ${doneCount}/${totalCount}…` : "Extract"}
           </button>
           <label className="checkbox">
             <input type="checkbox" name="refetch" disabled={isPending} />

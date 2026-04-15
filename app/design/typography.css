@@ -1,0 +1,117 @@
+/* Headings + title system with terminal prompt prefixes */
+
+.dash-title {
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 0;
+  line-height: 1;
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  font-family: var(--font-mono);
+}
+.dash-title::before {
+  content: ">";
+  color: var(--accent);
+  font-weight: 900;
+  font-size: 34px;
+  text-shadow: 0 0 8px var(--accent-glow);
+}
+.dash-title::after {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 20px;
+  background: var(--accent);
+  margin-left: 2px;
+  animation: cursor-blink 1s step-end infinite;
+  align-self: center;
+}
+
+.tagline {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 8px 0 20px 26px;
+}
+.tagline::before {
+  content: "// ";
+  color: var(--accent);
+}
+
+.page-title {
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 0 0 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+}
+.page-title::before {
+  content: ">";
+  color: var(--accent);
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.section-title {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin: 0 0 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+}
+.section-title::before {
+  content: "[";
+  color: var(--accent);
+  font-weight: 800;
+}
+.section-title::after {
+  content: "]";
+  color: var(--accent);
+  font-weight: 800;
+  margin-left: auto;
+}
+
+/* Terminal bracket prefix utility */
+.bracket::before {
+  content: "[";
+  color: var(--accent);
+  margin-right: 4px;
+}
+.bracket::after {
+  content: "]";
+  color: var(--accent);
+  margin-left: 4px;
+}
+
+.text-accent {
+  color: var(--accent);
+}
+.text-muted {
+  color: var(--muted);
+}
+.text-dim {
+  color: var(--text-dim);
+}
+.text-bright {
+  color: var(--ink);
+}

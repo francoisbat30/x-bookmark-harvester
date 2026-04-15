@@ -5,7 +5,6 @@ import path from "node:path";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import {
-  loadUserConfig,
   saveUserConfig,
   resolveVaultConfig,
   type ResolvedVaultConfig,
@@ -14,10 +13,9 @@ import {
 const execFileAsync = promisify(execFile);
 
 export interface VaultPathInfo {
-  vaultPath: string;
-  subfolder: string;
-  source: ResolvedVaultConfig["source"];
+  /** Absolute, fully-resolved path where bookmarks will be written. */
   resolvedAbsolute: string;
+  source: ResolvedVaultConfig["source"];
   exists: boolean;
   writable: boolean;
 }
@@ -51,25 +49,11 @@ export async function getCurrentVaultPath(): Promise<VaultPathInfo> {
     const stat = await fs.stat(abs);
     exists = stat.isDirectory();
   } catch {
-    // also check the vault root even if the subfolder doesn't exist yet
-    try {
-      const stat = await fs.stat(
-        path.isAbsolute(resolved.vaultPath)
-          ? resolved.vaultPath
-          : path.resolve(process.cwd(), resolved.vaultPath),
-      );
-      exists = stat.isDirectory();
-    } catch {
-      exists = false;
-    }
+    exists = false;
   }
   if (exists) {
     try {
-      // probe writability by attempting to create (and remove) a marker file
-      const probeDir = path.isAbsolute(resolved.vaultPath)
-        ? resolved.vaultPath
-        : path.resolve(process.cwd(), resolved.vaultPath);
-      const probe = path.join(probeDir, `.xbm-probe-${Date.now()}`);
+      const probe = path.join(abs, `.xbm-probe-${Date.now()}`);
       await fs.writeFile(probe, "", "utf8");
       await fs.unlink(probe);
       writable = true;
@@ -78,10 +62,8 @@ export async function getCurrentVaultPath(): Promise<VaultPathInfo> {
     }
   }
   return {
-    vaultPath: resolved.vaultPath,
-    subfolder: resolved.subfolder,
-    source: resolved.source,
     resolvedAbsolute: abs,
+    source: resolved.source,
     exists,
     writable,
   };
@@ -89,7 +71,6 @@ export async function getCurrentVaultPath(): Promise<VaultPathInfo> {
 
 export async function validateVaultPath(
   vaultPath: string,
-  subfolder = "x-bookmarks",
 ): Promise<ValidationResult> {
   const trimmed = vaultPath.trim();
   if (!trimmed) {
@@ -120,32 +101,22 @@ export async function validateVaultPath(
     return { ok: false, error: "Directory exists but is not writable" };
   }
 
-  return {
-    ok: true,
-    resolvedAbsolute: path.join(trimmed, subfolder),
-  };
+  return { ok: true, resolvedAbsolute: trimmed };
 }
 
 export async function saveVaultPath(
   vaultPath: string,
-  subfolder = "x-bookmarks",
 ): Promise<ValidationResult> {
-  const validation = await validateVaultPath(vaultPath, subfolder);
+  const validation = await validateVaultPath(vaultPath);
   if (!validation.ok) return validation;
 
-  const existing = await loadUserConfig();
   await saveUserConfig({
     vaultPath: vaultPath.trim(),
-    subfolder: subfolder.trim() || existing?.subfolder || "x-bookmarks",
+    // Single-folder UX: the picked directory IS the target. We always set
+    // subfolder to "" so resolveTargetDir returns the picked path as-is.
+    subfolder: "",
     updatedAt: new Date().toISOString(),
   });
-
-  // Ensure the subfolder exists so that the rest of the app can write immediately.
-  try {
-    await fs.mkdir(validation.resolvedAbsolute!, { recursive: true });
-  } catch {
-    // validation already proved the parent is writable — ignore
-  }
 
   return validation;
 }
@@ -173,29 +144,52 @@ export async function browseForVaultPath(): Promise<BrowseResult> {
 }
 
 async function browseWindows(): Promise<BrowseResult> {
-  const ps = [
-    "Add-Type -AssemblyName System.Windows.Forms | Out-Null;",
-    "$f = New-Object System.Windows.Forms.FolderBrowserDialog;",
-    "$f.Description = 'Select the folder to store your X Bookmark vault';",
-    "$f.ShowNewFolderButton = $true;",
-    "$result = $f.ShowDialog();",
-    "if ($result -eq 'OK') { [Console]::Out.Write($f.SelectedPath) } else { exit 2 }",
-  ].join(" ");
+  // Windows Forms requires Single-Threaded Apartment mode; without -Sta
+  // the FolderBrowserDialog silently hangs forever. -NonInteractive was
+  // previously set and also contributed to the hang — it's dropped here.
+  // -EncodedCommand sidesteps all shell-escaping concerns for the script.
+  const script = [
+    "Add-Type -AssemblyName System.Windows.Forms",
+    "$f = New-Object System.Windows.Forms.FolderBrowserDialog",
+    "$f.Description = 'Select your Obsidian vault folder'",
+    "$f.ShowNewFolderButton = $true",
+    "$result = $f.ShowDialog()",
+    "if ($result -eq [System.Windows.Forms.DialogResult]::OK) {",
+    "  [Console]::Out.Write($f.SelectedPath)",
+    "  exit 0",
+    "}",
+    "exit 2",
+  ].join("\n");
+  // -EncodedCommand expects a UTF-16 LE base64 string (Microsoft docs).
+  const encoded = Buffer.from(script, "utf16le").toString("base64");
   try {
     const { stdout } = await execFileAsync(
       "powershell.exe",
-      ["-NoProfile", "-NonInteractive", "-Command", ps],
-      { timeout: 5 * 60 * 1000, windowsHide: true },
+      [
+        "-NoProfile",
+        "-Sta",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-EncodedCommand",
+        encoded,
+      ],
+      { timeout: 90_000, windowsHide: true },
     );
     const picked = stdout.trim();
     if (!picked) return { supported: true, cancelled: true };
     return { supported: true, path: picked };
   } catch (e) {
-    const err = e as { code?: number; message?: string };
+    const err = e as { code?: number; killed?: boolean; message?: string };
     if (err.code === 2) return { supported: true, cancelled: true };
+    if (err.killed) {
+      return {
+        supported: false,
+        error: "Folder picker timed out (90s)",
+      };
+    }
     return {
       supported: false,
-      error: err.message ?? "PowerShell dialog failed",
+      error: err.message ?? "Folder picker failed",
     };
   }
 }

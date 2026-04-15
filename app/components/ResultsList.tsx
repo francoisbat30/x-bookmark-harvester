@@ -23,13 +23,13 @@ export function ResultsList({
   };
 
   return (
-    <div className="results-list">
+    <div className="results">
       <div className="results-header">
-        <strong>{rows.length} URL(s)</strong>
+        <span>{rows.length} URL(s)</span>
         <span className="counts">
           {counts.done > 0 && <span className="c-done">✓ {counts.done}</span>}
           {counts.duplicate > 0 && (
-            <span className="c-warn">⚠ {counts.duplicate} déjà traité</span>
+            <span className="c-warn">⚠ {counts.duplicate} already saved</span>
           )}
           {counts.error > 0 && <span className="c-err">✗ {counts.error}</span>}
           {counts.processing > 0 && (
@@ -86,12 +86,12 @@ function ResultRow({
 
   const enrichLabel =
     row.enrich === "running"
-      ? "⟳ Grok running…"
+      ? "⟳ Grok…"
       : row.enrich === "done"
         ? "✨ Enriched"
         : row.enrich === "error"
           ? "✗ Retry"
-          : "✨ Grok insights";
+          : "✨ Enrich";
 
   const retryLabel =
     row.retry === "running"
@@ -101,16 +101,16 @@ function ResultRow({
           ? `⟲ ${row.retryResult.commentsAfter} replies`
           : "⟲ Done"
         : row.retry === "error"
-          ? "✗ Retry replies"
-          : "⟲ Retry replies with Grok";
+          ? "✗ Retry"
+          : "⟲ Retry replies";
 
   return (
     <div className={`row-item row-${row.status}`}>
-      <span className="icon">{icon}</span>
+      <span className="row-icon">{icon}</span>
       <div className="row-body">
         <div className="row-url">{row.url}</div>
         {row.status === "done" && row.result?.ok && (
-          <div className="row-detail">
+          <div className="row-detail ok">
             {row.result.source === "xapi"
               ? "X API"
               : row.result.source === "grok"
@@ -121,19 +121,19 @@ function ResultRow({
         )}
         {row.status === "duplicate" && row.result?.ok && (
           <div className="row-detail">
-            Déjà dans le vault — {row.result.filename}
+            Already in vault — {row.result.filename}
           </div>
         )}
         {row.status === "error" && row.result && !row.result.ok && (
-          <div className="row-detail">{row.result.error}</div>
+          <div className="row-detail err">{row.result.error}</div>
         )}
         {row.enrichResult && !row.enrichResult.ok && (
-          <div className="row-detail row-enrich-error">
+          <div className="row-detail err">
             Grok: {row.enrichResult.error}
           </div>
         )}
         {row.enrichResult && row.enrichResult.ok && (
-          <div className="row-detail row-enrich-summary">
+          <div className="row-detail">
             {row.enrichResult.insights.notable_links.length} link(s),{" "}
             {row.enrichResult.insights.key_replies.length} key replies
             {row.enrichResult.insights.author_additions
@@ -142,27 +142,25 @@ function ResultRow({
           </div>
         )}
         {canRetryComments && row.retry === "idle" && (
-          <div className="row-detail row-stale-hint">
-            X API missed all replies on this post — Grok can probably recover them.
+          <div className="row-detail hint">
+            X API missed replies on this post — Grok can usually recover them.
           </div>
         )}
         {row.retryResult && row.retryResult.ok && (
-          <div className="row-detail row-enrich-summary">
+          <div className="row-detail">
             Comments: {row.retryResult.commentsBefore} →{" "}
             {row.retryResult.commentsAfter}
           </div>
         )}
         {row.retryResult && !row.retryResult.ok && (
-          <div className="row-detail row-enrich-error">
-            Retry: {row.retryResult.error}
-          </div>
+          <div className="row-detail err">Retry: {row.retryResult.error}</div>
         )}
       </div>
       <div className="row-actions">
         {canRetryComments && (
           <button
             type="button"
-            className={`retry-btn retry-${row.retry}`}
+            className="btn btn-outline btn-sm"
             onClick={onRetry}
             disabled={row.retry === "running" || row.retry === "done"}
           >
@@ -172,7 +170,7 @@ function ResultRow({
         {canEnrich && (
           <button
             type="button"
-            className={`enrich-btn enrich-${row.enrich}`}
+            className="btn btn-outline btn-sm"
             onClick={onEnrich}
             disabled={row.enrich === "running" || row.enrich === "done"}
           >
