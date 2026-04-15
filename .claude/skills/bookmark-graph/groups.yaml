@@ -1,0 +1,42 @@
+# Obsidian graph view color groups for the X bookmark vault.
+# Edit this file, then run: npm run skill:graph -- apply
+#
+# Query syntax: Obsidian search. Common patterns:
+#   tag:#foo                    — notes with the foo tag
+#   tag:#foo OR tag:#bar        — union
+#   path:x-bookmarks/           — under a folder
+#
+# Color: 6-digit hex. The script converts to Obsidian's {a, rgb} format.
+
+groups:
+  - name: Claude & agentic coding
+    query: "tag:#claude-code OR tag:#claude-md OR tag:#agentic-coding OR tag:#agent-harness OR tag:#ai-agents OR tag:#autonomous-agents OR tag:#openclaw OR tag:#anthropic"
+    color: "#a855f7"
+
+  - name: Local LLM / inference
+    query: "tag:#local-inference OR tag:#mlx OR tag:#apple-silicon OR tag:#qwen OR tag:#llamacpp OR tag:#quantization OR tag:#benchmarks OR tag:#llm OR tag:#gemma OR tag:#kimi OR tag:#minimax OR tag:#ollama OR tag:#nvfp4 OR tag:#small-models OR tag:#long-context"
+    color: "#3b82f6"
+
+  - name: Prompting & generative AI
+    query: "tag:#prompting OR tag:#image-generation OR tag:#nano-banana OR tag:#midjourney OR tag:#generative-ai OR tag:#veo-3-1 OR tag:#lyria-3 OR tag:#video-generation OR tag:#music-generation"
+    color: "#10b981"
+
+  - name: Design — visual
+    query: "tag:#design-inspiration OR tag:#visual-reference OR tag:#color-palette OR tag:#typography OR tag:#color-theory OR tag:#backgrounds OR tag:#gradients OR tag:#minimalism OR tag:#3d"
+    color: "#f59e0b"
+
+  - name: Design — UI/UX
+    query: "tag:#ui-design OR tag:#web-design OR tag:#mobile-design OR tag:#figma-plugin OR tag:#design-tools OR tag:#dashboard OR tag:#hero-section OR tag:#chat-ui OR tag:#landing-page OR tag:#ios"
+    color: "#f97316"
+
+  - name: Branding & logo
+    query: "tag:#branding OR tag:#brand-identity OR tag:#logo-design OR tag:#portfolio"
+    color: "#ef4444"
+
+  - name: Security & privacy
+    query: "tag:#cybersecurity OR tag:#privacy OR tag:#prompt-injection OR tag:#supply-chain OR tag:#fraud OR tag:#malware OR tag:#red-team"
+    color: "#64748b"
+
+  - name: FR content
+    query: "tag:#french"
+    color: "#22c55e"

@@ -1,0 +1,36 @@
+{
+  "name": "x-bookmark-harvester",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "spike:grok": "tsx --env-file=.env.local scripts/spike-grok.ts",
+    "spike:xapi": "tsx --env-file=.env.local scripts/spike-xapi.ts",
+    "render": "tsx --env-file=.env.local scripts/render.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "skill:tags": "tsx --env-file=.env.local scripts/skills/tags.ts",
+    "skill:graph": "tsx --env-file=.env.local scripts/skills/graph.ts",
+    "skill:status": "tsx --env-file=.env.local scripts/skills/status.ts",
+    "skill:filter": "tsx --env-file=.env.local scripts/skills/filter.ts",
+    "skill:enrich:list": "tsx --env-file=.env.local scripts/skills/enrich-list.ts",
+    "skill:enrich:write": "tsx --env-file=.env.local scripts/skills/enrich-write.ts"
+  },
+  "dependencies": {
+    "next": "^16.2.3",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "yaml": "^2.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "@types/react": "19.0.2",
+    "@types/react-dom": "19.0.2",
+    "tsx": "4.19.2",
+    "typescript": "5.7.2",
+    "vitest": "^4.1.4"
+  }
+}
