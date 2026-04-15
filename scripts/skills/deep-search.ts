@@ -18,17 +18,36 @@ import {
   touchDeepSearchCache,
   writeDeepSearchCache,
 } from "../../lib/obsidian/deep-search-cache";
+import type { DeepSearchTimeRange } from "../../lib/types";
 
 const DEFAULT_SUB_QUERIES = 6;
+
+function parseTimeRange(args: string[]): DeepSearchTimeRange {
+  const flag = args.find((a) => a.startsWith("--since="));
+  if (!flag) return "all";
+  const v = flag.slice(8);
+  if (
+    v === "all" ||
+    v === "year" ||
+    v === "6months" ||
+    v === "3months" ||
+    v === "month" ||
+    v === "week"
+  ) {
+    return v;
+  }
+  return "all";
+}
 
 async function main() {
   const args = process.argv.slice(2);
   const forceFresh = args.includes("--fresh");
+  const timeRange = parseTimeRange(args);
   const query = args.filter((a) => !a.startsWith("--")).join(" ").trim();
 
   if (!query) {
     console.error(
-      'Usage: tsx scripts/skills/deep-search.ts [--fresh] "<natural query>"',
+      'Usage: tsx scripts/skills/deep-search.ts [--fresh] [--since=<all|year|6months|3months|month|week>] "<natural query>"',
     );
     process.exit(1);
   }
@@ -38,8 +57,15 @@ async function main() {
     console.error("XAI_API_KEY is not set in .env.local");
     process.exit(1);
   }
+  const bearerToken = process.env.X_API_BEARER_TOKEN;
+  if (!bearerToken) {
+    console.error(
+      "X_API_BEARER_TOKEN is not set — required for tweet validation",
+    );
+    process.exit(1);
+  }
 
-  const queryHash = hashQuery(query, DEFAULT_SUB_QUERIES);
+  const queryHash = hashQuery(query, DEFAULT_SUB_QUERIES, timeRange);
 
   if (!forceFresh) {
     const cached = await readDeepSearchCache(queryHash);
@@ -51,6 +77,7 @@ async function main() {
             ok: true,
             queryHash: cached.queryHash,
             query: cached.query,
+            timeRange: cached.timeRange,
             createdAt: cached.createdAt,
             fromCache: true,
             subQueries: cached.subQueries,
@@ -73,14 +100,16 @@ async function main() {
       options: {
         subQueryCount: DEFAULT_SUB_QUERIES,
         enableAggregationRerank: true,
-        bearerToken: process.env.X_API_BEARER_TOKEN,
+        bearerToken,
+        timeRange,
       },
     });
     await writeDeepSearchCache({
-      version: 1,
+      version: 2,
       queryHash: result.queryHash,
       query: result.query,
       subQueryCount: DEFAULT_SUB_QUERIES,
+      timeRange: result.timeRange,
       createdAt: result.createdAt,
       lastAccessedAt: result.createdAt,
       subQueries: result.subQueries,

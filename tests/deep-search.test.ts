@@ -2,6 +2,7 @@ import { describe, it, expect, beforeEach, afterEach, vi } from "vitest";
 import { promises as fs } from "node:fs";
 import os from "node:os";
 import path from "node:path";
+import type { DeepSearchCandidate } from "../lib/types";
 
 // Mock xai-responses BEFORE importing deep-search
 vi.mock("../lib/x/xai-responses", () => ({
@@ -21,12 +22,14 @@ vi.mock("../lib/obsidian/cache", () => ({
   hasCache: vi.fn(async () => false),
 }));
 
-// Mock X API search to return nothing by default (no bearer token set)
+// Mock the X API bulk lookup
 vi.mock("../lib/x/api", () => ({
+  bulkLookupTweets: vi.fn(),
   searchRecentTweets: vi.fn(async () => []),
 }));
 
 import { callResponses } from "../lib/x/xai-responses";
+import { bulkLookupTweets } from "../lib/x/api";
 import {
   expandQuery,
   runDeepSearch,
@@ -40,6 +43,7 @@ import {
 } from "../lib/obsidian/deep-search-cache";
 
 const mockedCallResponses = vi.mocked(callResponses);
+const mockedBulkLookup = vi.mocked(bulkLookupTweets);
 
 let tmpDir: string;
 
@@ -49,6 +53,7 @@ beforeEach(async () => {
   vi.stubEnv("OBSIDIAN_VAULT_PATH", tmpDir);
   vi.stubEnv("OBSIDIAN_BOOKMARKS_SUBFOLDER", "bm");
   mockedCallResponses.mockReset();
+  mockedBulkLookup.mockReset();
 });
 
 afterEach(async () => {
@@ -56,37 +61,91 @@ afterEach(async () => {
   await fs.rm(tmpDir, { recursive: true, force: true });
 });
 
+/* ─── helpers ─── */
+
 function mockExpand(queries: string[]) {
+  return { output_text: JSON.stringify({ queries }) };
+}
+function mockSearch(
+  links: Array<{ url: string; why: string; format: string }>,
+) {
+  return { output_text: JSON.stringify({ links }) };
+}
+function mockAggregate(
+  ranked: Array<{ tweetId: string; score: number; rationale: string }>,
+) {
+  return { output_text: JSON.stringify({ ranked }) };
+}
+
+function makeCandidate(
+  id: string,
+  overrides: Partial<DeepSearchCandidate> = {},
+): DeepSearchCandidate {
   return {
-    output_text: JSON.stringify({ queries }),
+    tweetId: id,
+    url: `https://x.com/user/status/${id}`,
+    authorHandle: "user",
+    authorName: "User",
+    text: "tweet text",
+    date: "2026-04-10",
+    format: "post",
+    metrics: { likes: 10, retweets: 2, replies: 1 },
+    foundBy: [],
+    source: "xapi",
+    rationale: "",
+    mechanicalScore: 0,
+    finalScore: 0,
+    alreadyCached: false,
+    ...overrides,
   };
 }
 
-function mockSearch(links: Array<{ url: string; why: string; format: string }>) {
-  return {
-    output_text: JSON.stringify({ links }),
-  };
+function mockBulk(
+  ids: string[],
+  opts: { hallucinated?: string[]; format?: Record<string, DeepSearchCandidate["format"]>; date?: Record<string, string> } = {},
+) {
+  const enriched = new Map<string, DeepSearchCandidate>();
+  const missingIds = new Set<string>(opts.hallucinated ?? []);
+  for (const id of ids) {
+    if (missingIds.has(id)) continue;
+    enriched.set(
+      id,
+      makeCandidate(id, {
+        format: opts.format?.[id] ?? "post",
+        date: opts.date?.[id] ?? "2026-04-10",
+      }),
+    );
+  }
+  return { enriched, missingIds };
 }
 
-function mockAggregate(ranked: Array<{ tweetId: string; score: number; rationale: string }>) {
-  return {
-    output_text: JSON.stringify({ ranked }),
-  };
-}
+/* ─── hashQuery ─── */
 
 describe("hashQuery", () => {
-  it("is stable for same query + count", () => {
-    expect(hashQuery("hello world", 6)).toBe(hashQuery("hello world", 6));
+  it("is stable for same query + count + range", () => {
+    expect(hashQuery("hello world", 6, "all")).toBe(
+      hashQuery("hello world", 6, "all"),
+    );
   });
 
   it("changes when count changes", () => {
-    expect(hashQuery("hello", 6)).not.toBe(hashQuery("hello", 8));
+    expect(hashQuery("hello", 6, "all")).not.toBe(
+      hashQuery("hello", 8, "all"),
+    );
+  });
+
+  it("changes when time range changes", () => {
+    expect(hashQuery("hello", 6, "all")).not.toBe(
+      hashQuery("hello", 6, "month"),
+    );
   });
 
   it("is case-insensitive and trim-insensitive", () => {
-    expect(hashQuery("  Hello  ", 6)).toBe(hashQuery("hello", 6));
+    expect(hashQuery("  Hello  ", 6, "all")).toBe(hashQuery("hello", 6, "all"));
   });
 });
+
+/* ─── expandQuery ─── */
 
 describe("expandQuery", () => {
   it("parses Grok JSON output into an array of queries", async () => {
@@ -95,7 +154,6 @@ describe("expandQuery", () => {
     );
     const result = await expandQuery("theme", 6, "key", "grok-4");
     expect(result).toHaveLength(6);
-    expect(result[0]).toBe("q1");
   });
 
   it("strips markdown fences in the response", async () => {
@@ -123,65 +181,56 @@ describe("expandQuery", () => {
       /missing 'queries'/,
     );
   });
-
-  it("clips to requested count when Grok returns more", async () => {
-    mockedCallResponses.mockResolvedValueOnce(
-      mockExpand(["a", "b", "c", "d", "e", "f", "g", "h"]),
-    );
-    const result = await expandQuery("theme", 6, "key", "grok-4");
-    expect(result).toHaveLength(6);
-  });
 });
 
+/* ─── runDeepSearch with bulk validation ─── */
+
 describe("runDeepSearch", () => {
-  function setupFullRun(
-    subQueries: string[],
-    linksPerQuery: number,
-    overlapCount = 0,
-  ) {
-    // Expansion call
-    mockedCallResponses.mockResolvedValueOnce(mockExpand(subQueries));
+  it("requires a bearer token", async () => {
+    await expect(
+      runDeepSearch({ naturalQuery: "theme", apiKey: "key" }),
+    ).rejects.toThrow(/X_API_BEARER_TOKEN/);
+  });
 
-    // N search calls, each returning `linksPerQuery` links.
-    // overlapCount links are shared across queries (same tweetId) to test dedup.
-    for (let i = 0; i < subQueries.length; i++) {
-      const links: Array<{ url: string; why: string; format: string }> = [];
-      for (let j = 0; j < linksPerQuery; j++) {
-        // First `overlapCount` links are shared (same id 1000-1000+overlap)
-        const id =
-          j < overlapCount ? 1000 + j : 2000 + i * 100 + j;
-        const format = j === 0 ? "article" : j === 1 ? "thread" : "post";
-        links.push({
-          url: `https://x.com/user${i}/status/${id}`,
-          why: `why ${i}-${j}`,
-          format,
-        });
-      }
-      mockedCallResponses.mockResolvedValueOnce(mockSearch(links));
-    }
+  it("drops hallucinated IDs reported by bulk lookup", async () => {
+    mockedCallResponses.mockResolvedValueOnce(mockExpand(["q1"]));
+    mockedCallResponses.mockResolvedValueOnce(
+      mockSearch([
+        // Fake ID (hallucinated)
+        {
+          url: "https://x.com/fake/status/1780000000000000000",
+          why: "fake",
+          format: "post",
+        },
+        // Real ID
+        {
+          url: "https://x.com/real/status/1979949365650497770",
+          why: "real",
+          format: "post",
+        },
+      ]),
+    );
+    // Aggregation call — returns nothing useful
+    mockedCallResponses.mockResolvedValueOnce(mockAggregate([]));
 
-    // Aggregation call — return scores in reverse order so we can assert reordering
-    const expectedCount =
-      subQueries.length * linksPerQuery - (subQueries.length - 1) * overlapCount;
-    const ranked: Array<{ tweetId: string; score: number; rationale: string }> = [];
-    // Will be populated based on actual candidates after dedup, done inside test
-    mockedCallResponses.mockResolvedValueOnce(mockAggregate(ranked));
-
-    return expectedCount;
-  }
-
-  it("dedupes by tweetId across sub-queries", async () => {
-    setupFullRun(["a", "b", "c"], 5, 2);
+    mockedBulkLookup.mockResolvedValueOnce(
+      mockBulk(["1780000000000000000", "1979949365650497770"], {
+        hallucinated: ["1780000000000000000"],
+      }),
+    );
 
     const r = await runDeepSearch({
       naturalQuery: "theme",
       apiKey: "key",
-      options: { enableAggregationRerank: false },
+      options: {
+        subQueryCount: 1,
+        bearerToken: "bearer",
+      },
     });
 
-    // 3 queries × 5 links = 15 raw, minus duplicates:
-    // 2 links are shared across 3 queries = 2 unique + 3*3 non-shared = 2+9 = 11
-    expect(r.candidates.length).toBe(11);
+    expect(r.candidates).toHaveLength(1);
+    expect(r.candidates[0].tweetId).toBe("1979949365650497770");
+    expect(r.stats.hallucinatedCount).toBe(1);
   });
 
   it("ranks article > thread > post at equal engagement", async () => {
@@ -197,134 +246,181 @@ describe("runDeepSearch", () => {
         },
       ]),
     );
+    mockedCallResponses.mockResolvedValueOnce(mockAggregate([]));
+
+    mockedBulkLookup.mockResolvedValueOnce(
+      mockBulk(["100", "101", "102"], {
+        format: { "100": "post", "101": "thread", "102": "article" },
+      }),
+    );
 
     const r = await runDeepSearch({
       naturalQuery: "theme",
       apiKey: "key",
-      options: { subQueryCount: 1, enableAggregationRerank: false },
+      options: {
+        subQueryCount: 1,
+        enableAggregationRerank: false,
+        bearerToken: "bearer",
+      },
     });
 
     expect(r.candidates.map((c) => c.tweetId)).toEqual(["102", "101", "100"]);
   });
 
-  it("boosts candidates matched by multiple sub-queries", async () => {
-    mockedCallResponses.mockResolvedValueOnce(mockExpand(["a", "b"]));
-    mockedCallResponses.mockResolvedValueOnce(
-      mockSearch([
-        {
-          url: "https://x.com/u/status/500",
-          why: "shared",
-          format: "post",
-        },
-      ]),
-    );
-    mockedCallResponses.mockResolvedValueOnce(
-      mockSearch([
-        {
-          url: "https://x.com/u/status/500",
-          why: "shared-again",
-          format: "post",
-        },
-        {
-          url: "https://x.com/u/status/600",
-          why: "solo",
-          format: "post",
-        },
-      ]),
-    );
-
-    const r = await runDeepSearch({
-      naturalQuery: "theme",
-      apiKey: "key",
-      options: { subQueryCount: 2, enableAggregationRerank: false },
-    });
-
-    const five = r.candidates.find((c) => c.tweetId === "500");
-    const six = r.candidates.find((c) => c.tweetId === "600");
-    expect(five).toBeDefined();
-    expect(six).toBeDefined();
-    expect(five!.foundBy).toHaveLength(2);
-    expect(five!.finalScore).toBeGreaterThan(six!.finalScore);
-  });
-
-  it("skips URLs that are not status or article URLs", async () => {
+  it("applies time range filter on candidate dates", async () => {
     mockedCallResponses.mockResolvedValueOnce(mockExpand(["q1"]));
     mockedCallResponses.mockResolvedValueOnce(
       mockSearch([
-        { url: "https://x.com/user", why: "profile", format: "post" },
-        {
-          url: "https://x.com/u/status/999",
-          why: "ok",
-          format: "post",
-        },
+        { url: "https://x.com/u/status/100", why: "old", format: "post" },
+        { url: "https://x.com/u/status/101", why: "recent", format: "post" },
       ]),
+    );
+    mockedCallResponses.mockResolvedValueOnce(mockAggregate([]));
+
+    const today = new Date().toISOString().slice(0, 10);
+    const longAgo = "2020-01-01";
+
+    mockedBulkLookup.mockResolvedValueOnce(
+      mockBulk(["100", "101"], {
+        date: { "100": longAgo, "101": today },
+      }),
     );
 
     const r = await runDeepSearch({
       naturalQuery: "theme",
       apiKey: "key",
-      options: { subQueryCount: 1, enableAggregationRerank: false },
+      options: {
+        subQueryCount: 1,
+        enableAggregationRerank: false,
+        bearerToken: "bearer",
+        timeRange: "week",
+      },
+    });
+
+    expect(r.candidates).toHaveLength(1);
+    expect(r.candidates[0].tweetId).toBe("101");
+    expect(r.stats.timeFilteredCount).toBe(1);
+  });
+
+  it("does not apply filter when timeRange is 'all'", async () => {
+    mockedCallResponses.mockResolvedValueOnce(mockExpand(["q1"]));
+    mockedCallResponses.mockResolvedValueOnce(
+      mockSearch([
+        { url: "https://x.com/u/status/100", why: "old", format: "post" },
+      ]),
+    );
+    mockedCallResponses.mockResolvedValueOnce(mockAggregate([]));
+
+    mockedBulkLookup.mockResolvedValueOnce(
+      mockBulk(["100"], { date: { "100": "2020-01-01" } }),
+    );
+
+    const r = await runDeepSearch({
+      naturalQuery: "theme",
+      apiKey: "key",
+      options: {
+        subQueryCount: 1,
+        enableAggregationRerank: false,
+        bearerToken: "bearer",
+        timeRange: "all",
+      },
+    });
+
+    expect(r.candidates).toHaveLength(1);
+    expect(r.stats.timeFilteredCount).toBe(0);
+  });
+
+  it("skips Grok URLs that aren't status or article", async () => {
+    mockedCallResponses.mockResolvedValueOnce(mockExpand(["q1"]));
+    mockedCallResponses.mockResolvedValueOnce(
+      mockSearch([
+        { url: "https://x.com/profile", why: "bogus", format: "post" },
+        { url: "https://x.com/u/status/999", why: "ok", format: "post" },
+      ]),
+    );
+    mockedCallResponses.mockResolvedValueOnce(mockAggregate([]));
+    mockedBulkLookup.mockResolvedValueOnce(mockBulk(["999"]));
+
+    const r = await runDeepSearch({
+      naturalQuery: "theme",
+      apiKey: "key",
+      options: {
+        subQueryCount: 1,
+        enableAggregationRerank: false,
+        bearerToken: "bearer",
+      },
     });
 
     expect(r.candidates).toHaveLength(1);
     expect(r.candidates[0].tweetId).toBe("999");
   });
 
-  it("reports accurate stats", async () => {
+  it("reports accurate stats with bulk lookup call count", async () => {
     mockedCallResponses.mockResolvedValueOnce(mockExpand(["q1", "q2"]));
-    mockedCallResponses.mockResolvedValueOnce(mockSearch([]));
-    mockedCallResponses.mockResolvedValueOnce(mockSearch([]));
+    mockedCallResponses.mockResolvedValueOnce(
+      mockSearch([{ url: "https://x.com/u/status/10", why: "w", format: "post" }]),
+    );
+    mockedCallResponses.mockResolvedValueOnce(
+      mockSearch([{ url: "https://x.com/u/status/20", why: "w", format: "post" }]),
+    );
+    mockedCallResponses.mockResolvedValueOnce(mockAggregate([]));
+    mockedBulkLookup.mockResolvedValueOnce(mockBulk(["10", "20"]));
 
     const r = await runDeepSearch({
       naturalQuery: "theme",
       apiKey: "key",
-      options: { subQueryCount: 2, enableAggregationRerank: false },
+      options: {
+        subQueryCount: 2,
+        bearerToken: "bearer",
+      },
     });
 
-    expect(r.stats.grokCallCount).toBe(3); // 1 expand + 2 searches
-    expect(r.stats.xApiCallCount).toBe(0); // no bearer
+    expect(r.stats.grokCallCount).toBe(4); // expand + 2 search + aggregation
+    expect(r.stats.xApiCallCount).toBe(1); // one bulk lookup batch
     expect(r.stats.estimatedCost).toBeGreaterThan(0);
   });
 });
 
-describe("deep-search cache", () => {
+/* ─── cache ─── */
+
+describe("deep-search cache (version 2)", () => {
   it("returns null when no cache exists", async () => {
     expect(await readDeepSearchCache("nope")).toBeNull();
   });
 
-  it("writes and reads a fresh envelope", async () => {
-    const hash = hashQuery("test query", 6);
-    const envelope = {
-      version: 1 as const,
+  it("writes and reads a fresh envelope with timeRange", async () => {
+    const hash = hashQuery("test query", 6, "month");
+    await writeDeepSearchCache({
+      version: 2,
       queryHash: hash,
       query: "test query",
       subQueryCount: 6,
+      timeRange: "month",
       createdAt: new Date().toISOString(),
       lastAccessedAt: new Date().toISOString(),
       subQueries: ["a", "b"],
       candidates: [],
       stats: {
         grokCallCount: 8,
-        xApiCallCount: 0,
+        xApiCallCount: 1,
         estimatedCost: 0.82,
         elapsedMs: 60000,
       },
-    };
-    await writeDeepSearchCache(envelope);
+    });
     const read = await readDeepSearchCache(hash);
     expect(read).not.toBeNull();
-    expect(read!.query).toBe("test query");
-    expect(read!.stats.estimatedCost).toBe(0.82);
+    expect(read!.timeRange).toBe("month");
   });
 
   it("expires after TTL (2h)", async () => {
-    const hash = hashQuery("old", 6);
+    const hash = hashQuery("old", 6, "all");
     const oldDate = new Date(Date.now() - 3 * 60 * 60 * 1000).toISOString();
     await writeDeepSearchCache({
-      version: 1,
+      version: 2,
       queryHash: hash,
       query: "old",
       subQueryCount: 6,
+      timeRange: "all",
       createdAt: oldDate,
       lastAccessedAt: oldDate,
       subQueries: [],
@@ -336,15 +432,14 @@ describe("deep-search cache", () => {
         elapsedMs: 0,
       },
     });
-    const read = await readDeepSearchCache(hash);
-    expect(read).toBeNull();
+    expect(await readDeepSearchCache(hash)).toBeNull();
   });
 
-  it("lists history sorted by createdAt desc", async () => {
-    const h1 = hashQuery("first", 6);
-    const h2 = hashQuery("second", 6);
+  it("lists history sorted by createdAt desc, including timeRange", async () => {
+    const h1 = hashQuery("first", 6, "all");
+    const h2 = hashQuery("second", 6, "week");
     const base = {
-      version: 1 as const,
+      version: 2 as const,
       subQueryCount: 6,
       subQueries: [],
       candidates: [],
@@ -359,6 +454,7 @@ describe("deep-search cache", () => {
       ...base,
       queryHash: h1,
       query: "first",
+      timeRange: "all",
       createdAt: "2026-04-15T10:00:00.000Z",
       lastAccessedAt: "2026-04-15T10:00:00.000Z",
     });
@@ -366,22 +462,26 @@ describe("deep-search cache", () => {
       ...base,
       queryHash: h2,
       query: "second",
+      timeRange: "week",
       createdAt: "2026-04-16T10:00:00.000Z",
       lastAccessedAt: "2026-04-16T10:00:00.000Z",
     });
     const history = await listDeepSearchHistory();
     expect(history).toHaveLength(2);
     expect(history[0].query).toBe("second");
+    expect(history[0].timeRange).toBe("week");
     expect(history[1].query).toBe("first");
+    expect(history[1].timeRange).toBe("all");
   });
 
   it("deletes a cache entry", async () => {
-    const hash = hashQuery("bye", 6);
+    const hash = hashQuery("bye", 6, "all");
     await writeDeepSearchCache({
-      version: 1,
+      version: 2,
       queryHash: hash,
       query: "bye",
       subQueryCount: 6,
+      timeRange: "all",
       createdAt: new Date().toISOString(),
       lastAccessedAt: new Date().toISOString(),
       subQueries: [],

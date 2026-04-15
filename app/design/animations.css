@@ -76,3 +76,19 @@
 .glitch-hover:hover {
   animation: glitch-shift 0.3s ease-in-out;
 }
+
+/* Elon "thinking" bounce — same pattern as the gojo coach icon.
+   Plays while Deep Search is in flight so the user has a playful
+   visual anchor on the 60-120s Grok call. */
+@keyframes elon-think {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-3px) rotate(-5deg);
+  }
+  75% {
+    transform: translateY(-3px) rotate(5deg);
+  }
+}

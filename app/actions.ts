@@ -31,6 +31,7 @@ import {
 import type {
   DeepSearchHistoryEntry,
   DeepSearchResult,
+  DeepSearchTimeRange,
   ExtractError,
   ExtractResult,
   GrokEnrichResult,
@@ -304,7 +305,7 @@ const DEEP_SEARCH_SUB_QUERIES = 6;
 
 export async function deepSearchAction(
   naturalQuery: string,
-  options?: { forceFresh?: boolean },
+  options?: { forceFresh?: boolean; timeRange?: DeepSearchTimeRange },
 ): Promise<DeepSearchResult | ExtractError> {
   const query = naturalQuery.trim();
   if (!query) {
@@ -315,8 +316,17 @@ export async function deepSearchAction(
   if (!apiKey) {
     return { ok: false, error: "XAI_API_KEY is not set in .env.local" };
   }
+  const bearerToken = process.env.X_API_BEARER_TOKEN;
+  if (!bearerToken) {
+    return {
+      ok: false,
+      error:
+        "Deep Search requires X_API_BEARER_TOKEN for tweet validation. Set it in .env.local.",
+    };
+  }
 
-  const queryHash = hashQuery(query, DEEP_SEARCH_SUB_QUERIES);
+  const timeRange: DeepSearchTimeRange = options?.timeRange ?? "all";
+  const queryHash = hashQuery(query, DEEP_SEARCH_SUB_QUERIES, timeRange);
 
   // 1. Cache hit (unless forced fresh)
   if (!options?.forceFresh) {
@@ -327,6 +337,7 @@ export async function deepSearchAction(
         ok: true,
         queryHash: cached.queryHash,
         query: cached.query,
+        timeRange: cached.timeRange,
         createdAt: cached.createdAt,
         fromCache: true,
         subQueries: cached.subQueries,
@@ -345,15 +356,17 @@ export async function deepSearchAction(
       options: {
         subQueryCount: DEEP_SEARCH_SUB_QUERIES,
         enableAggregationRerank: true,
-        bearerToken: process.env.X_API_BEARER_TOKEN,
+        bearerToken,
+        timeRange,
       },
     });
     // 3. Persist cache
     await writeDeepSearchCache({
-      version: 1,
+      version: 2,
       queryHash: result.queryHash,
       query: result.query,
       subQueryCount: DEEP_SEARCH_SUB_QUERIES,
+      timeRange: result.timeRange,
       createdAt: result.createdAt,
       lastAccessedAt: result.createdAt,
       subQueries: result.subQueries,
@@ -388,6 +401,7 @@ export async function getDeepSearchByHashAction(
     ok: true,
     queryHash: cached.queryHash,
     query: cached.query,
+    timeRange: cached.timeRange,
     createdAt: cached.createdAt,
     fromCache: true,
     subQueries: cached.subQueries,

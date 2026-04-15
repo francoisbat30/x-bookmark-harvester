@@ -543,6 +543,57 @@
   margin-bottom: 8px;
 }
 
+.ds-elon {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  flex-shrink: 0;
+  filter: drop-shadow(1px 2px 3px rgba(0, 0, 0, 0.35));
+  transition: transform 0.2s;
+  cursor: default;
+}
+.ds-elon:hover {
+  transform: scale(1.18) rotate(-6deg);
+}
+.ds-elon.think {
+  animation: elon-think 1s ease-in-out infinite;
+}
+
+.ds-actions-row {
+  flex-wrap: wrap;
+}
+
+.ds-range-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--text-dim);
+  font-weight: 700;
+}
+.ds-range-label span::before {
+  content: "[";
+  color: var(--accent);
+  margin-right: 2px;
+}
+.ds-range-label span::after {
+  content: "]";
+  color: var(--accent);
+  margin-left: 2px;
+}
+
+.ds-range-select {
+  width: auto;
+  height: 28px;
+  padding: 0 28px 0 10px;
+  font-size: 11px;
+  min-width: 140px;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
 .ds-cost {
   font-size: 10px;
   color: var(--muted);

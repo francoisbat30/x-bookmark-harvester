@@ -295,7 +295,124 @@ function indexMedia(media: XMedia[]): Map<string, PostMedia> {
   return map;
 }
 
-/* ───────── /2/tweets/search/recent (Deep Search augmentation) ───────── */
+/* ───────── /2/tweets?ids=… bulk lookup (Deep Search validation) ───────── */
+
+export interface BulkLookupResult {
+  enriched: Map<string, DeepSearchCandidate>;
+  missingIds: Set<string>;
+}
+
+interface BulkTweetsResponse {
+  data?: XTweet[];
+  includes?: XIncludes;
+  errors?: Array<{
+    resource_id?: string;
+    title?: string;
+    detail?: string;
+    resource_type?: string;
+  }>;
+}
+
+/**
+ * Bulk-resolve tweet IDs via GET /2/tweets?ids=... (up to 100 per call).
+ * The primary purpose in Deep Search is to DETECT HALLUCINATED IDs
+ * returned by Grok: X returns real tweets in `data` and an `errors` entry
+ * per unknown ID, so we can drop the fakes and keep only verified content.
+ *
+ * Returns a Map<id, DeepSearchCandidate> for the successful lookups and
+ * a Set<id> of IDs X did not recognize (hallucinated or deleted).
+ *
+ * Available on all X API v2 tiers (same endpoint used for single-tweet
+ * extraction), unlike /search/recent which requires Basic+.
+ */
+export async function bulkLookupTweets(
+  tweetIds: string[],
+  bearerToken: string,
+): Promise<BulkLookupResult> {
+  const enriched = new Map<string, DeepSearchCandidate>();
+  const missingIds = new Set<string>();
+
+  const uniqueIds = Array.from(new Set(tweetIds.filter((id) => /^\d+$/.test(id))));
+  if (uniqueIds.length === 0) {
+    return { enriched, missingIds };
+  }
+
+  // Batch into chunks of 100 (X API limit per call)
+  const batchSize = 100;
+  for (let i = 0; i < uniqueIds.length; i += batchSize) {
+    const batch = uniqueIds.slice(i, i + batchSize);
+    const params = new URLSearchParams({
+      ids: batch.join(","),
+      "tweet.fields":
+        "created_at,public_metrics,text,author_id,note_tweet,article,referenced_tweets",
+      expansions: "author_id",
+      "user.fields": USER_FIELDS,
+    });
+    const data = await xFetch<BulkTweetsResponse>(
+      `/tweets?${params}`,
+      bearerToken,
+    );
+
+    const users = new Map(
+      (data.includes?.users ?? []).map((u) => [u.id, u]),
+    );
+
+    // Track which of the requested IDs came back in `data`
+    const receivedIds = new Set((data.data ?? []).map((t) => t.id));
+    for (const id of batch) {
+      if (!receivedIds.has(id)) missingIds.add(id);
+    }
+    // Also mark explicitly errored IDs (in case some appear in errors[])
+    for (const err of data.errors ?? []) {
+      if (err.resource_id && err.resource_type === "tweet") {
+        missingIds.add(err.resource_id);
+      }
+    }
+
+    for (const t of data.data ?? []) {
+      const user = users.get(t.author_id);
+      const handle = user?.username ?? "";
+      // Article detection: an X Article has a non-null `article` field.
+      // Thread heuristic: tweet references a replied_to from same author.
+      const isArticle = !!t.article;
+      const repliedToSameAuthor = (t.referenced_tweets ?? []).some(
+        (r) => r.type === "replied_to",
+      );
+      const format: "article" | "thread" | "post" = isArticle
+        ? "article"
+        : t.note_tweet || repliedToSameAuthor
+          ? "thread"
+          : "post";
+      // Prefer note_tweet (long-form) text when present
+      const fullText = t.note_tweet?.text ?? t.text ?? "";
+      enriched.set(t.id, {
+        tweetId: t.id,
+        url: `https://x.com/${handle || "i"}/status/${t.id}`,
+        authorHandle: handle,
+        authorName: user?.name ?? "",
+        text: fullText.slice(0, 240),
+        date: (t.created_at ?? "").slice(0, 10),
+        format,
+        metrics: {
+          likes: t.public_metrics?.like_count ?? 0,
+          retweets: t.public_metrics?.retweet_count ?? 0,
+          replies: t.public_metrics?.reply_count ?? 0,
+          views: t.public_metrics?.impression_count,
+        },
+        foundBy: [],
+        source: "xapi",
+        rationale: "",
+        mechanicalScore: 0,
+        finalScore: 0,
+        alreadyCached: false,
+      });
+    }
+  }
+
+  return { enriched, missingIds };
+}
+
+/* ───────── /2/tweets/search/recent (legacy — paid tier only) ───────── */
 
 /**
  * Query the public X API v2 recent search (last 7 days) with a natural

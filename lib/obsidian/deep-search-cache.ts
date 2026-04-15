@@ -15,6 +15,7 @@ import type {
   DeepSearchCandidate,
   DeepSearchHistoryEntry,
   DeepSearchStats,
+  DeepSearchTimeRange,
 } from "../types";
 import { getVaultConfig, resolveTargetDir } from "./vault";
 
@@ -22,10 +23,11 @@ const CACHE_SUBDIR = ".deepsearch";
 const TTL_MS = 2 * 60 * 60 * 1000; // 2 hours
 
 export interface DeepSearchCacheEnvelope {
-  version: 1;
+  version: 2;
   queryHash: string;
   query: string;
   subQueryCount: number;
+  timeRange: DeepSearchTimeRange;
   createdAt: string;
   lastAccessedAt: string;
   subQueries: string[];
@@ -47,7 +49,9 @@ export async function readDeepSearchCache(
   try {
     const raw = await fs.readFile(cachePath(queryHash), "utf8");
     const parsed = JSON.parse(raw) as DeepSearchCacheEnvelope;
-    if (!parsed || parsed.version !== 1) return null;
+    // v1 envelopes (pre-bulk-validation) are intentionally invalidated
+    // so stale hallucinated caches disappear on the next read.
+    if (!parsed || parsed.version !== 2) return null;
     const age = Date.now() - new Date(parsed.createdAt).getTime();
     if (age > TTL_MS) return null;
     return parsed;
@@ -104,10 +108,11 @@ export async function listDeepSearchHistory(): Promise<
     try {
       const raw = await fs.readFile(path.join(cacheDir(), entry), "utf8");
       const parsed = JSON.parse(raw) as DeepSearchCacheEnvelope;
-      if (!parsed || parsed.version !== 1) continue;
+      if (!parsed || parsed.version !== 2) continue;
       out.push({
         queryHash: parsed.queryHash,
         query: parsed.query,
+        timeRange: parsed.timeRange,
         createdAt: parsed.createdAt,
         lastAccessedAt: parsed.lastAccessedAt,
         candidateCount: parsed.candidates.length,

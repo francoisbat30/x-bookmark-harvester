@@ -11,7 +11,20 @@ import type {
   DeepSearchCandidate,
   DeepSearchHistoryEntry,
   DeepSearchResult,
+  DeepSearchTimeRange,
 } from "@/lib/types";
+
+const TIME_RANGE_OPTIONS: Array<{
+  value: DeepSearchTimeRange;
+  label: string;
+}> = [
+  { value: "all", label: "any time" },
+  { value: "year", label: "past year" },
+  { value: "6months", label: "past 6 months" },
+  { value: "3months", label: "past 3 months" },
+  { value: "month", label: "past month" },
+  { value: "week", label: "past week" },
+];
 
 interface DeepSearchProps {
   onExtract: (urls: string[], refetch: boolean) => void;
@@ -40,6 +53,7 @@ function useElapsed(active: boolean): number {
 
 export function DeepSearch({ onExtract, disabled }: DeepSearchProps) {
   const [query, setQuery] = useState("");
+  const [timeRange, setTimeRange] = useState<DeepSearchTimeRange>("all");
   const [busy, setBusy] = useState(false);
   const [result, setResult] = useState<DeepSearchResult | null>(null);
   const [selected, setSelected] = useState<Set<string>>(new Set());
@@ -54,7 +68,7 @@ export function DeepSearch({ onExtract, disabled }: DeepSearchProps) {
     setBusy(true);
     setError(null);
     try {
-      const r = await deepSearchAction(trimmed, { forceFresh });
+      const r = await deepSearchAction(trimmed, { forceFresh, timeRange });
       if (!r.ok) {
         setError(r.error);
         return;
@@ -81,6 +95,7 @@ export function DeepSearch({ onExtract, disabled }: DeepSearchProps) {
     if (r.ok) {
       setResult(r);
       setQuery(r.query);
+      setTimeRange(r.timeRange);
       setSelected(
         new Set(
           r.candidates.filter((c) => !c.alreadyCached).map((c) => c.tweetId),
@@ -155,7 +170,16 @@ export function DeepSearch({ onExtract, disabled }: DeepSearchProps) {
         disabled={busy || disabled}
       />
 
-      <div className="panel-actions">
+      <div className="panel-actions ds-actions-row">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/elon.png"
+          alt="Grok is thinking"
+          title={busy ? "Grok is thinking…" : "Ready"}
+          className={`ds-elon ${busy ? "think" : ""}`}
+          width={42}
+          height={42}
+        />
         <button
           type="button"
           className="btn btn-primary"
@@ -164,6 +188,23 @@ export function DeepSearch({ onExtract, disabled }: DeepSearchProps) {
         >
           {buttonLabel}
         </button>
+        <label className="ds-range-label">
+          <span>Since</span>
+          <select
+            value={timeRange}
+            onChange={(e) =>
+              setTimeRange(e.target.value as DeepSearchTimeRange)
+            }
+            disabled={busy || disabled}
+            className="ds-range-select"
+          >
+            {TIME_RANGE_OPTIONS.map((o) => (
+              <option key={o.value} value={o.value}>
+                {o.label}
+              </option>
+            ))}
+          </select>
+        </label>
         <span className="ds-cost">~${ESTIMATED_COST.toFixed(2)} · 60–120s</span>
         {result && !busy && (
           <button
@@ -216,24 +257,37 @@ function DeepSearchResultView({
   onSelectNone: () => void;
   onExtract: () => void;
 }) {
-  const { candidates, subQueries, stats, fromCache } = result;
-  const grokOnly = candidates.filter((c) => c.source === "grok").length;
-  const xapiOnly = candidates.filter((c) => c.source === "xapi").length;
-  const both = candidates.filter((c) => c.source === "both").length;
+  const { candidates, subQueries, stats, fromCache, timeRange } = result;
+  const articles = candidates.filter((c) => c.format === "article").length;
+  const threads = candidates.filter((c) => c.format === "thread").length;
+  const posts = candidates.filter((c) => c.format === "post").length;
+  const rangeLabel =
+    TIME_RANGE_OPTIONS.find((o) => o.value === timeRange)?.label ?? timeRange;
 
   return (
     <div className="ds-result">
       <div className="ds-meta">
         <span className="counts">
-          <span className="c-done">{candidates.length} candidates</span>
+          <span className="c-done">{candidates.length} verified</span>
           <span className="c-muted">
-            {grokOnly} grok · {xapiOnly} xapi · {both} both
+            {articles} article · {threads} thread · {posts} post
           </span>
+          {typeof stats.hallucinatedCount === "number" &&
+            stats.hallucinatedCount > 0 && (
+              <span className="c-err">
+                ✗ {stats.hallucinatedCount} hallucinated
+              </span>
+            )}
+          {typeof stats.timeFilteredCount === "number" &&
+            stats.timeFilteredCount > 0 && (
+              <span className="c-warn">
+                ⏱ {stats.timeFilteredCount} out of range
+              </span>
+            )}
           <span className="c-muted">
-            {stats.grokCallCount} grok calls ·{" "}
-            {stats.xApiCallCount} xapi calls ·{" "}
-            ~${stats.estimatedCost.toFixed(2)} ·{" "}
-            {Math.round(stats.elapsedMs / 1000)}s
+            {stats.grokCallCount}× grok · {stats.xApiCallCount}× xapi · $
+            {stats.estimatedCost.toFixed(2)} ·{" "}
+            {Math.round(stats.elapsedMs / 1000)}s · {rangeLabel}
             {fromCache && " · from cache"}
           </span>
         </span>

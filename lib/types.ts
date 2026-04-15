@@ -85,6 +85,20 @@ export interface ExtractError {
 export type DeepSearchFormat = "post" | "thread" | "article";
 export type DeepSearchSource = "grok" | "xapi" | "both";
 
+/**
+ * Time window the user can narrow a Deep Search to. "all" disables the
+ * filter. Every other value applies both a prompt hint (to Grok) and a
+ * hard post-filter on the candidate.date once the bulk lookup resolves
+ * real dates.
+ */
+export type DeepSearchTimeRange =
+  | "all"
+  | "year"
+  | "6months"
+  | "3months"
+  | "month"
+  | "week";
+
 export interface DeepSearchCandidate {
   tweetId: string;
   url: string;
@@ -118,12 +132,19 @@ export interface DeepSearchStats {
   xApiCallCount: number;
   estimatedCost: number;
   elapsedMs: number;
+  /** Candidates returned by Grok that X rejected as unknown tweet IDs. */
+  hallucinatedCount?: number;
+  /** Candidates dropped by the time-range post-filter. */
+  timeFilteredCount?: number;
+  /** Candidates that never got a real tweet ID resolution. */
+  unverifiedCount?: number;
 }
 
 export interface DeepSearchResult {
   ok: true;
   queryHash: string;
   query: string;
+  timeRange: DeepSearchTimeRange;
   createdAt: string;
   fromCache: boolean;
   subQueries: string[];
@@ -134,6 +155,7 @@ export interface DeepSearchResult {
 export interface DeepSearchHistoryEntry {
   queryHash: string;
   query: string;
+  timeRange: DeepSearchTimeRange;
   createdAt: string;
   lastAccessedAt: string;
   candidateCount: number;
