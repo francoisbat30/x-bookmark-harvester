@@ -1,6 +1,30 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import type { Row } from "./types";
+
+/**
+ * Local per-row counter that ticks while `active` is true. Used to show
+ * elapsed seconds on Grok calls (which genuinely take 30–120s) so the
+ * user has feedback beyond a frozen spinner.
+ */
+function useElapsed(active: boolean): number {
+  const [elapsed, setElapsed] = useState(0);
+  useEffect(() => {
+    if (!active) {
+      setElapsed(0);
+      return;
+    }
+    const start = Date.now();
+    setElapsed(0);
+    const i = setInterval(
+      () => setElapsed(Math.floor((Date.now() - start) / 1000)),
+      1000,
+    );
+    return () => clearInterval(i);
+  }, [active]);
+  return elapsed;
+}
 
 export function ResultsList({
   rows,
@@ -67,6 +91,9 @@ function ResultRow({
   onEnrich: () => void;
   onRetry: () => void;
 }) {
+  const retryElapsed = useElapsed(row.retry === "running");
+  const enrichElapsed = useElapsed(row.enrich === "running");
+
   const icon =
     row.status === "pending"
       ? "⋯"
@@ -86,7 +113,7 @@ function ResultRow({
 
   const enrichLabel =
     row.enrich === "running"
-      ? "⟳ Grok…"
+      ? `⟳ Grok… ${enrichElapsed}s`
       : row.enrich === "done"
         ? "✨ Enriched"
         : row.enrich === "error"
@@ -95,7 +122,7 @@ function ResultRow({
 
   const retryLabel =
     row.retry === "running"
-      ? "⟳ Fetching…"
+      ? `⟳ Fetching… ${retryElapsed}s`
       : row.retry === "done"
         ? row.retryResult?.ok
           ? `⟲ ${row.retryResult.commentsAfter} replies`

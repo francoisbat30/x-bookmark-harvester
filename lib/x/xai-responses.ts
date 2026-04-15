@@ -30,6 +30,15 @@ export interface CallResponsesOptions {
  * POST to the Responses API and return the parsed payload.
  * Throws with a trimmed body on non-2xx.
  */
+/**
+ * Max time we'll wait for a single Grok call. With the x_search tool,
+ * Grok routinely takes 30–90 seconds reading a post + its full comment
+ * thread. 120 s gives headroom for long threads and mild backpressure
+ * without letting the server action hang forever on a stalled
+ * upstream.
+ */
+const GROK_TIMEOUT_MS = 120_000;
+
 export async function callResponses(
   options: CallResponsesOptions,
 ): Promise<ResponsesPayload> {
@@ -42,14 +51,25 @@ export async function callResponses(
     store: false,
   };
 
-  const res = await fetch(XAI_RESPONSES_ENDPOINT, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${options.apiKey}`,
-    },
-    body: JSON.stringify(body),
-  });
+  let res: Response;
+  try {
+    res = await fetch(XAI_RESPONSES_ENDPOINT, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${options.apiKey}`,
+      },
+      body: JSON.stringify(body),
+      signal: AbortSignal.timeout(GROK_TIMEOUT_MS),
+    });
+  } catch (e) {
+    if (e instanceof Error && e.name === "TimeoutError") {
+      throw new Error(
+        `Grok API timed out after ${Math.round(GROK_TIMEOUT_MS / 1000)}s`,
+      );
+    }
+    throw e;
+  }
 
   if (!res.ok) {
     const errText = await res.text();
