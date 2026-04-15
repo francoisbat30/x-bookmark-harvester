@@ -1,9 +1,16 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { getValidAccessToken } from "@/lib/x/auth";
 import { fetchAllBookmarks } from "@/lib/x/bookmarks";
 import { hasCache } from "@/lib/obsidian/cache";
+import { isSameOrigin } from "@/lib/http-guards";
 
-export async function GET() {
+export async function GET(req: NextRequest) {
+  if (!isSameOrigin(req)) {
+    return NextResponse.json(
+      { error: "cross-origin request refused" },
+      { status: 403 },
+    );
+  }
   const accessToken = await getValidAccessToken();
   if (!accessToken) {
     return NextResponse.json(

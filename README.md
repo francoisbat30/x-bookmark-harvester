@@ -53,6 +53,15 @@ The vault folder is where your `.md` notes are written. It can be set three ways
 
 Your OAuth tokens (`auth.json`) and user config (`config.json`) are deliberately stored **outside** the vault, in the OS-specific per-user data directory, so that cloud-syncing your vault (OneDrive, iCloud, Dropbox) can't leak credentials.
 
+## Security notes
+
+- The dev server **only binds to 127.0.0.1** (see `package.json`). It is not reachable from other machines on your network, and it is not hardened for multi-tenant use. Do not expose it via a tunnel, reverse proxy, or `--hostname 0.0.0.0` unless you add your own authentication layer — anyone who can reach the port can consume your X API quota and change your vault location.
+- **OAuth refresh tokens are stored in plaintext** on your user data directory (`%APPDATA%` / `~/Library/Application Support` / `~/.config`). They are not inside the vault on purpose (see `docs/x-integration.md`), but any process running as your OS user can read them. A compromised account = compromised tokens.
+- Image downloads are **restricted to a host allowlist** (`pbs.twimg.com`, `video.twimg.com`, `abs.twimg.com`, `ton.twimg.com`) with a 20 MB cap to prevent SSRF via crafted tweet content and DoS via oversized responses.
+- Note writes are **guarded against path traversal**: filenames that resolve outside the vault directory throw rather than writing.
+- State-changing API routes (`/api/auth/x/logout`, `/api/bookmarks/list`) reject cross-origin requests via `sec-fetch-site` / `Origin` checks.
+- Report vulnerabilities by opening a GitHub issue.
+
 ## Documentation
 
 Architecture and design docs for developers:

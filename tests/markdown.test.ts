@@ -42,6 +42,31 @@ describe("buildFilename", () => {
     });
     expect(fn).toMatch(/^2026-04-15_user-name_/);
   });
+
+  it("falls back to 0000-00-00 when date is not a strict ISO date", () => {
+    const fn = buildFilename({ ...basePost, date: "../../../etc" });
+    expect(fn.startsWith("0000-00-00_")).toBe(true);
+    expect(fn).not.toContain("..");
+  });
+
+  it("falls back when date is missing", () => {
+    const fn = buildFilename({ ...basePost, date: "" });
+    expect(fn.startsWith("0000-00-00_")).toBe(true);
+  });
+
+  it("rejects non-canonical but plausible-looking dates", () => {
+    // not YYYY-MM-DD
+    expect(
+      buildFilename({ ...basePost, date: "2026/04/15" }).startsWith(
+        "0000-00-00_",
+      ),
+    ).toBe(true);
+    expect(
+      buildFilename({ ...basePost, date: "2026-4-15" }).startsWith(
+        "0000-00-00_",
+      ),
+    ).toBe(true);
+  });
 });
 
 describe("renderNote", () => {

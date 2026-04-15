@@ -39,6 +39,25 @@ export function resolveTargetDir(config: VaultConfig): string {
   return path.join(root, config.subfolder);
 }
 
+/**
+ * Ensure that `filename` resolves to a path strictly inside `dir`.
+ * Throws otherwise. Prevents path-traversal via malformed filenames
+ * reaching writeFile from anywhere in the codebase.
+ */
+function assertWithinDir(dir: string, filename: string): string {
+  const normalizedDir = path.resolve(dir);
+  const candidate = path.resolve(normalizedDir, filename);
+  if (
+    candidate !== normalizedDir &&
+    !candidate.startsWith(normalizedDir + path.sep)
+  ) {
+    throw new Error(
+      `Refusing to write outside vault dir (filename=${JSON.stringify(filename)})`,
+    );
+  }
+  return candidate;
+}
+
 async function readTweetIdFromFile(fullPath: string): Promise<string | null> {
   try {
     const content = await fs.readFile(fullPath, "utf8");
@@ -92,7 +111,7 @@ export async function writeNote(
     collisionResolved = resolved.resolved;
   }
 
-  const absolutePath = path.join(dir, finalFilename);
+  const absolutePath = assertWithinDir(dir, finalFilename);
 
   if (!options.overwrite) {
     try {

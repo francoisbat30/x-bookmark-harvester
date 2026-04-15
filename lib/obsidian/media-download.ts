@@ -8,8 +8,34 @@ export interface DownloadedImage {
   localFilename: string;
 }
 
+/** Max bytes we'll ever commit to disk for a single image. */
+const MAX_IMAGE_BYTES = 20 * 1024 * 1024;
+
+/**
+ * Hosts we trust for media downloads. The URL usually comes from the X API
+ * (pbs.twimg.com / video.twimg.com) but can also be emitted by Grok, which
+ * is LLM output influenced by tweet content — so we hard-gate the hostname
+ * to prevent SSRF via crafted tweets.
+ */
+const ALLOWED_MEDIA_HOSTS = new Set([
+  "pbs.twimg.com",
+  "video.twimg.com",
+  "abs.twimg.com",
+  "ton.twimg.com",
+]);
+
 function assetsDir(): string {
   return path.join(resolveTargetDir(getVaultConfig()), "assets");
+}
+
+function isAllowedUrl(url: string): boolean {
+  try {
+    const u = new URL(url);
+    if (u.protocol !== "https:" && u.protocol !== "http:") return false;
+    return ALLOWED_MEDIA_HOSTS.has(u.hostname);
+  } catch {
+    return false;
+  }
 }
 
 function extensionFor(url: string, contentType?: string): string {
@@ -45,12 +71,30 @@ async function downloadOne(
   url: string,
   targetPath: string,
 ): Promise<{ ok: true } | { ok: false; error: string }> {
+  if (!isAllowedUrl(url)) {
+    return { ok: false, error: "host not in media allowlist" };
+  }
   try {
-    const res = await fetch(url);
+    const res = await fetch(url, {
+      signal: AbortSignal.timeout(30_000),
+    });
     if (!res.ok) {
       return { ok: false, error: `HTTP ${res.status}` };
     }
+    const declared = Number(res.headers.get("content-length") ?? "0");
+    if (declared > MAX_IMAGE_BYTES) {
+      return {
+        ok: false,
+        error: `declared size ${declared}B exceeds ${MAX_IMAGE_BYTES}B`,
+      };
+    }
     const buf = Buffer.from(await res.arrayBuffer());
+    if (buf.length > MAX_IMAGE_BYTES) {
+      return {
+        ok: false,
+        error: `actual size ${buf.length}B exceeds ${MAX_IMAGE_BYTES}B`,
+      };
+    }
     await fs.writeFile(targetPath, buf);
     return { ok: true };
   } catch (e) {

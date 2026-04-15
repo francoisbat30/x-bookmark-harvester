@@ -32,8 +32,12 @@ function buildTitle(text: string): string {
   return clipped || "(untitled post)";
 }
 
+const ISO_DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+
 export function buildFilename(post: PostExtraction): string {
-  const date = post.date || "0000-00-00";
+  // defense-in-depth: only accept a strict ISO date — every other byte
+  // risks path traversal via `${date}_…` since date is not slugged.
+  const date = ISO_DATE_RE.test(post.date ?? "") ? post.date : "0000-00-00";
   const handle = slug(post.author.handle || "unknown");
   const words = slug(firstWords(post.text, 6)) || "post";
   return `${date}_${handle}_${words}.md`;
