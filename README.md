@@ -4,9 +4,11 @@ Turn your X (Twitter) bookmarks into a searchable, structured [Obsidian](https:/
 
 Local-first, single-user, your data never leaves your machine.
 
+![X Bookmark Harvester home page](./docs/screenshots/homepage.png)
+
 ## Features
 
-- **Deep Search** — type a natural-language research topic, Deep Search decomposes it into 6 sub-queries, runs them in parallel against Grok's `x_search` tool AND the X API v2 `/search/recent` endpoint, deduplicates, mechanically scores, then reranks via a final Grok aggregation call. Expect **20-35 candidate posts/threads/articles** per search vs. the 5-6 you'd get from a single Grok prompt. Candidates are displayed with a preview + checkbox list, and selected URLs flow into the normal extraction pipeline. Results are cached for 2h and browsable from a history drawer.
+- **Deep Search** — type a natural-language research topic, Deep Search decomposes it into 6 sub-queries, runs them in parallel against Grok's `x_search` tool, **validates every returned tweet ID via the X API bulk-lookup endpoint** (drops hallucinations), applies an optional time-range filter (past week → past year), mechanically scores, then reranks via a final Grok aggregation call. Expect **20-30 verified candidates** (not the 50 raw that Grok alone returns — hallucinations are filtered out). Candidates are displayed with a preview + checkbox list, stats show how many were dropped as fake, and selected URLs flow into the normal extraction pipeline. Results are cached for 2h and browsable from a history drawer.
 - **Sync your X bookmarks** from `GET /users/:id/bookmarks` with OAuth 2.0 PKCE — dedups against what's already in the vault, processes only the new ones.
 - **Manual paste mode** — drop any list of X post URLs and extract them in batch.
 - **Rich extraction** — full post text (including long-form and threads), author, date, metrics, media, top comments sorted by likes.
