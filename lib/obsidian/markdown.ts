@@ -82,6 +82,7 @@ function buildFrontmatter(post: PostExtraction, title: string): string {
     `views: ${post.metrics.views}`,
     `tags: [x-bookmark]`,
     `status: raw`,
+    `statut: source`,
     "---",
   ];
   return lines.join("\n");
