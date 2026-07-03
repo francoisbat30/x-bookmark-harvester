@@ -87,6 +87,7 @@ export async function listBookmarks(): Promise<ParsedBookmark[]> {
   for (const entry of entries) {
     if (!entry.endsWith(".md")) continue;
     if (entry.startsWith(".")) continue;
+    if (entry === "00 Report.md") continue; // generated report, not a bookmark
     const full = path.join(dir, entry);
     const stat = await fs.stat(full);
     if (!stat.isFile()) continue;
