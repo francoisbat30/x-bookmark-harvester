@@ -14,6 +14,9 @@ export interface BookmarkSummary {
 export interface FetchBookmarksOptions {
   accessToken: string;
   maxPages?: number;
+  /** Pre-resolved identity (from getAuthenticatedUserId) to skip the /users/me
+   * round-trip when the caller already knows who this token belongs to. */
+  me?: { id: string; username: string; name: string };
 }
 
 interface XUser {
@@ -73,7 +76,7 @@ export async function fetchAllBookmarks(
   options: FetchBookmarksOptions,
 ): Promise<BookmarkSummary[]> {
   const { accessToken, maxPages = 20 } = options;
-  const me = await getAuthenticatedUserId(accessToken);
+  const me = options.me ?? (await getAuthenticatedUserId(accessToken));
 
   const tweetFields = "created_at,author_id,text";
   const expansions = "author_id";

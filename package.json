@@ -15,6 +15,7 @@
     "skill:tags": "tsx --env-file=.env.local scripts/skills/tags.ts",
     "skill:graph": "tsx --env-file=.env.local scripts/skills/graph.ts",
     "skill:status": "tsx --env-file=.env.local scripts/skills/status.ts",
+    "skill:accounts": "tsx --env-file=.env.local scripts/skills/accounts.ts",
     "skill:filter": "tsx --env-file=.env.local scripts/skills/filter.ts",
     "skill:enrich:list": "tsx --env-file=.env.local scripts/skills/enrich-list.ts",
     "skill:enrich:write": "tsx --env-file=.env.local scripts/skills/enrich-write.ts",

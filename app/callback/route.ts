@@ -3,8 +3,10 @@ import { timingSafeEqual } from "node:crypto";
 import {
   exchangeCodeForTokens,
   getOAuthConfig,
+  saveAccountTokens,
   saveTokens,
 } from "@/lib/x/auth";
+import { getAuthenticatedUserId } from "@/lib/x/bookmarks";
 
 function safeStateEquals(a: string, b: string): boolean {
   const bufA = Buffer.from(a);
@@ -65,9 +67,19 @@ export async function GET(req: NextRequest) {
     );
   }
 
+  let connectedAs = "";
   try {
     const tokens = await exchangeCodeForTokens(config, code, storedVerifier);
-    await saveTokens(tokens);
+    // Resolve the account's @handle so we can store one token file per account
+    // (auth.<handle>.json) and never overwrite an existing connection. If the
+    // identity lookup fails, fall back to the legacy default slot.
+    try {
+      const me = await getAuthenticatedUserId(tokens.access_token);
+      await saveAccountTokens(tokens, me);
+      connectedAs = me.username;
+    } catch {
+      await saveTokens(tokens);
+    }
   } catch (e) {
     const msg = e instanceof Error ? e.message : String(e);
     return clearAuthCookies(
@@ -77,7 +89,8 @@ export async function GET(req: NextRequest) {
     );
   }
 
-  return clearAuthCookies(
-    NextResponse.redirect(new URL("/?auth=ok", req.url)),
-  );
+  const okUrl = connectedAs
+    ? `/?auth=ok&account=${encodeURIComponent(connectedAs)}`
+    : "/?auth=ok";
+  return clearAuthCookies(NextResponse.redirect(new URL(okUrl, req.url)));
 }
