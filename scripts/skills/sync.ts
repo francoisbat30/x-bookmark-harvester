@@ -27,7 +27,8 @@ import {
   getAuthenticatedUserId,
   type BookmarkSummary,
 } from "../../lib/x/bookmarks";
-import { extractPostWithXApi } from "../../lib/x/api";
+import { extractPost } from "../../lib/x/extract";
+import { mcpConfigFromEnv } from "../../lib/x/mcp-source";
 import { downloadImages } from "../../lib/obsidian/media-download";
 import { renderNote } from "../../lib/obsidian/markdown";
 import { writeNote } from "../../lib/obsidian/vault";
@@ -37,7 +38,6 @@ import {
   writeDownloadedImages,
   hasCache,
 } from "../../lib/obsidian/cache";
-import type { PostExtraction } from "../../lib/types";
 
 interface Args {
   limit: number | null;
@@ -86,12 +86,19 @@ interface ProcessErr {
 async function processBookmark(
   id: string,
   bearer: string,
+  authorHandle: string,
 ): Promise<ProcessOk | ProcessErr> {
   try {
-    const post: PostExtraction = await extractPostWithXApi(id, {
+    // Source chain: X API (or MCP if enabled) primary → Grok fallback when the
+    // primary fails or is missing text/author/comments. See lib/x/extract.ts.
+    const { post, source } = await extractPost(id, {
+      url: `https://x.com/${authorHandle || "i"}/status/${id}`,
       bearerToken: bearer,
+      grokApiKey: process.env.XAI_API_KEY,
+      grokModel: process.env.XAI_MODEL,
+      mcp: mcpConfigFromEnv(),
     });
-    await writeCache(id, post, "xapi");
+    await writeCache(id, post, source);
 
     const downloaded = await downloadImages(id, post.media);
     if (downloaded.length > 0) {
@@ -224,7 +231,7 @@ async function main() {
   const failed: ProcessErr[] = [];
   for (let i = 0; i < pending.length; i++) {
     const b = pending[i];
-    const result = await processBookmark(b.id, bearer);
+    const result = await processBookmark(b.id, bearer, b.authorHandle);
     if (result.ok) processed.push(result);
     else failed.push(result);
     console.error(

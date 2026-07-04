@@ -2,9 +2,13 @@
 
 import { promises as fs } from "node:fs";
 import path from "node:path";
-import { createHash } from "node:crypto";
-import { extractPostWithXApi } from "@/lib/x/api";
 import { extractPostWithGrok } from "@/lib/x/grok-extract";
+import {
+  extractPost,
+  detectStaleComments,
+  mergeComments,
+} from "@/lib/x/extract";
+import { mcpConfigFromEnv } from "@/lib/x/mcp-source";
 import { fetchGrokInsights } from "@/lib/x/grok-enrich";
 import { parseTweetRef } from "@/lib/x/tweet-id";
 import { hashQuery, runDeepSearch } from "@/lib/x/deep-search";
@@ -35,35 +39,9 @@ import type {
   ExtractError,
   ExtractResult,
   GrokEnrichResult,
-  PostComment,
   PostExtraction,
   RetryCommentsResult,
 } from "@/lib/types";
-
-function detectStaleComments(post: PostExtraction): boolean {
-  return post.comments.length === 0 && post.metrics.replies > 0;
-}
-
-function commentKey(c: PostComment): string {
-  const normalized = `${c.handle.toLowerCase()}|${c.text.replace(/\s+/g, " ").trim()}`;
-  return createHash("sha1").update(normalized).digest("hex");
-}
-
-function mergeComments(
-  existing: PostComment[],
-  incoming: PostComment[],
-): PostComment[] {
-  const seen = new Set<string>(existing.map(commentKey));
-  const merged = [...existing];
-  for (const c of incoming) {
-    const k = commentKey(c);
-    if (!seen.has(k)) {
-      seen.add(k);
-      merged.push(c);
-    }
-  }
-  return merged;
-}
 
 async function fileExists(p: string): Promise<boolean> {
   try {
@@ -136,10 +114,16 @@ export async function extractBookmark(
         error: "X_API_BEARER_TOKEN is not set in .env.local",
       };
     }
-    const post: PostExtraction = await extractPostWithXApi(ref.id, {
+    // Source chain: X API (or MCP if enabled) primary → Grok fallback when the
+    // primary fails or is missing text/author/comments. See lib/x/extract.ts.
+    const { post, source } = await extractPost(ref.id, {
+      url: `https://x.com/i/status/${ref.id}`,
       bearerToken: bearer,
+      grokApiKey: process.env.XAI_API_KEY,
+      grokModel: process.env.XAI_MODEL,
+      mcp: mcpConfigFromEnv(),
     });
-    await writeCache(ref.id, post, "xapi");
+    await writeCache(ref.id, post, source);
 
     const downloaded = await downloadImages(ref.id, post.media);
     if (downloaded.length > 0) {
@@ -161,7 +145,7 @@ export async function extractBookmark(
       isDuplicate: false,
       filename: written.filename,
       absolutePath: written.absolutePath,
-      source: "xapi",
+      source,
       staleCommentsDetected: detectStaleComments(post),
     };
   } catch (e) {

@@ -7,7 +7,7 @@ import { stateDir } from "../state";
 const CACHE_SUBDIR = ".raw";
 
 export interface CacheEnvelope {
-  source: "grok" | "xapi" | "apify";
+  source: "grok" | "xapi" | "apify" | "mcp";
   fetchedAt: string;
   tweetId: string;
   post: PostExtraction;
