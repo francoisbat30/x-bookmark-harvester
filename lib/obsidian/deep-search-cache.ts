@@ -17,7 +17,7 @@ import type {
   DeepSearchStats,
   DeepSearchTimeRange,
 } from "../types";
-import { getVaultConfig, resolveTargetDir } from "./vault";
+import { stateDir } from "../state";
 
 const CACHE_SUBDIR = ".deepsearch";
 const TTL_MS = 2 * 60 * 60 * 1000; // 2 hours
@@ -36,7 +36,8 @@ export interface DeepSearchCacheEnvelope {
 }
 
 function cacheDir(): string {
-  return path.join(resolveTargetDir(getVaultConfig()), CACHE_SUBDIR);
+  // Cache de deep search : hors du vault (matière brute, cf. lib/state.ts).
+  return path.join(stateDir(), CACHE_SUBDIR);
 }
 
 function cachePath(queryHash: string): string {

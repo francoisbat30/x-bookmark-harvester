@@ -44,6 +44,11 @@ desktop.ini
 .idea/
 *.swp
 
+# État interne hors vault (matière brute). On VERSIONNE .raw + taxonomie
+# (dédoublonnage + tags curés = durables ; git est le seul backup de C:\Dev),
+# on ignore le cache jetable de deep search (TTL 2h).
+state/.deepsearch/
+
 # Vault content — keep directory structure via .gitkeep, ignore everything else
 vault/*
 !vault/x-bookmarks

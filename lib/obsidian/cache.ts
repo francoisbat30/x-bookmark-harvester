@@ -2,7 +2,7 @@ import { promises as fs } from "node:fs";
 import path from "node:path";
 import type { GrokInsights, PostExtraction } from "../types";
 import type { DownloadedImage } from "./media-download";
-import { getVaultConfig, resolveTargetDir } from "./vault";
+import { stateDir } from "../state";
 
 const CACHE_SUBDIR = ".raw";
 
@@ -19,8 +19,8 @@ export interface CacheEnvelope {
 }
 
 function cacheDir(): string {
-  const base = resolveTargetDir(getVaultConfig());
-  return path.join(base, CACHE_SUBDIR);
+  // Cache brut d'extraction : hors du vault (matière brute, cf. lib/state.ts).
+  return path.join(stateDir(), CACHE_SUBDIR);
 }
 
 function cachePath(tweetId: string): string {

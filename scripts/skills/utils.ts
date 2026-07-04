@@ -2,6 +2,7 @@ import { promises as fs } from "node:fs";
 import path from "node:path";
 import { parse as parseYaml, stringify as stringifyYaml } from "yaml";
 import { getVaultConfig, resolveTargetDir } from "../../lib/obsidian/vault";
+import { stateDir } from "../../lib/state";
 
 export interface BookmarkFrontmatter {
   title: string;
@@ -59,18 +60,20 @@ export function vaultDir(): string {
   return resolveTargetDir(getVaultConfig());
 }
 
+// Matière brute / état de l'app → hors du vault (cf. lib/state.ts).
 export function rawDir(): string {
-  return path.join(vaultDir(), ".raw");
+  return path.join(stateDir(), ".raw");
 }
 
 export function taxonomyPath(): string {
-  return path.join(vaultDir(), ".taxonomy.yaml");
+  return path.join(stateDir(), ".taxonomy.yaml");
 }
 
 export function entitiesPath(): string {
-  return path.join(vaultDir(), ".entities.yaml");
+  return path.join(stateDir(), ".entities.yaml");
 }
 
+// Livrable (résumés consultables) → reste dans le vault.
 export function digestsDir(): string {
   return path.join(vaultDir(), "digests");
 }
