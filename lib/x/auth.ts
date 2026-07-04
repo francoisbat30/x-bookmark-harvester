@@ -20,12 +20,40 @@ export interface OAuthConfig {
   redirectUri: string;
 }
 
+export interface AccountIdentity {
+  id: string;
+  username: string;
+  name: string;
+}
+
 export interface StoredTokens {
   access_token: string;
   refresh_token?: string;
   token_type: "bearer";
   scope: string;
   expires_at: number;
+  /**
+   * Identity of the X account these tokens belong to. Written at OAuth
+   * callback time (via saveAccountTokens). Absent on the legacy single-account
+   * auth.json until it is refreshed by an account-aware code path.
+   */
+  account?: AccountIdentity;
+}
+
+/**
+ * Multi-account model — one token file per account:
+ *   - the legacy `auth.json` is the account labelled DEFAULT_LABEL ("default"),
+ *   - every other account lives in `auth.<label>.json` (label = @handle).
+ * The tweet-id dedup (lib/obsidian/cache.ts) is global, so the same tweet
+ * bookmarked by several accounts still converges to a single note.
+ */
+export const DEFAULT_LABEL = "default";
+
+export interface Account {
+  label: string;
+  filePath: string;
+  /** From token metadata when available (no network call). */
+  username?: string;
 }
 
 export function getOAuthConfig(): OAuthConfig | null {
@@ -154,8 +182,31 @@ function toStored(data: TokenResponse): StoredTokens {
   };
 }
 
+/** Sanitize an account label for safe use in a filename. X handles are
+ * already `[A-Za-z0-9_]{1,15}`, but stay defensive against odd input. */
+function sanitizeLabel(label: string): string {
+  return label.replace(/[^A-Za-z0-9_-]/g, "_") || DEFAULT_LABEL;
+}
+
+/** Resolve the token file for a given account label.
+ * DEFAULT_LABEL → the legacy `auth.json`; anything else → `auth.<label>.json`. */
+function accountFilePath(label: string = DEFAULT_LABEL): string {
+  const name =
+    label === DEFAULT_LABEL ? "auth.json" : `auth.${sanitizeLabel(label)}.json`;
+  return path.join(appDataDir(), name);
+}
+
+/** Extract an account label from a token filename, or null if it is not one.
+ * `auth.json` → "default"; `auth.francois.json` → "francois"; other → null
+ * (so config.json and unrelated files are ignored). */
+export function parseAccountLabel(filename: string): string | null {
+  const m = /^auth(?:\.(.+))?\.json$/.exec(filename);
+  if (!m) return null;
+  return m[1] ?? DEFAULT_LABEL;
+}
+
 function authFilePath(): string {
-  return path.join(appDataDir(), "auth.json");
+  return accountFilePath(DEFAULT_LABEL);
 }
 
 function legacyAuthFilePath(): string {
@@ -192,43 +243,132 @@ async function migrateLegacyAuth(): Promise<void> {
   }
 }
 
-export async function saveTokens(tokens: StoredTokens): Promise<void> {
-  const p = authFilePath();
+export async function saveTokens(
+  tokens: StoredTokens,
+  label: string = DEFAULT_LABEL,
+): Promise<void> {
+  const p = accountFilePath(label);
   await fs.mkdir(path.dirname(p), { recursive: true });
   await fs.writeFile(p, JSON.stringify(tokens, null, 2), "utf8");
   await fs.chmod(p, 0o600).catch(() => {});
 }
 
-export async function loadTokens(): Promise<StoredTokens | null> {
-  await migrateLegacyAuth();
+export async function loadTokens(
+  label: string = DEFAULT_LABEL,
+): Promise<StoredTokens | null> {
+  // Legacy vault → appDataDir migration only concerns the default account.
+  if (label === DEFAULT_LABEL) await migrateLegacyAuth();
   try {
-    const raw = await fs.readFile(authFilePath(), "utf8");
+    const raw = await fs.readFile(accountFilePath(label), "utf8");
     return JSON.parse(raw) as StoredTokens;
   } catch {
     return null;
   }
 }
 
-export async function clearTokens(): Promise<void> {
+export async function clearTokens(
+  label: string = DEFAULT_LABEL,
+): Promise<void> {
   try {
-    await fs.unlink(authFilePath());
+    await fs.unlink(accountFilePath(label));
   } catch {
     // already gone
   }
-  // also clean legacy location if it still exists
-  try {
-    await fs.unlink(legacyAuthFilePath());
-  } catch {
-    // already gone
+  // the legacy vault location only ever held the default account
+  if (label === DEFAULT_LABEL) {
+    try {
+      await fs.unlink(legacyAuthFilePath());
+    } catch {
+      // already gone
+    }
   }
+}
+
+/**
+ * Persist tokens for a freshly-connected account, keyed by its @handle, with
+ * the account identity embedded. Used by the OAuth callback so a second (third…)
+ * login never overwrites the existing `auth.json` / another account's file.
+ * Returns the label the account was saved under.
+ */
+export async function saveAccountTokens(
+  tokens: StoredTokens,
+  identity: AccountIdentity,
+): Promise<string> {
+  const label = sanitizeLabel(identity.username);
+  await saveTokens({ ...tokens, account: identity }, label);
+  return label;
+}
+
+/**
+ * Enumerate every connected account (default first). Runs the one-shot legacy
+ * migration, then scans appDataDir for `auth*.json`. Best-effort reads the
+ * embedded identity for display (no network call).
+ */
+export async function listAccounts(): Promise<Account[]> {
+  await migrateLegacyAuth();
+  const dir = appDataDir();
+  let entries: string[] = [];
+  try {
+    entries = await fs.readdir(dir);
+  } catch {
+    return [];
+  }
+
+  const accounts: Account[] = [];
+  for (const f of entries) {
+    const label = parseAccountLabel(f);
+    if (label === null) continue;
+    const filePath = path.join(dir, f);
+    let username: string | undefined;
+    try {
+      const t = JSON.parse(await fs.readFile(filePath, "utf8")) as StoredTokens;
+      username = t.account?.username;
+    } catch {
+      // unreadable / not our shape — still list it by label
+    }
+    accounts.push({ label, filePath, username });
+  }
+
+  accounts.sort((a, b) => {
+    if (a.label === DEFAULT_LABEL) return -1;
+    if (b.label === DEFAULT_LABEL) return 1;
+    return a.label.localeCompare(b.label);
+  });
+  return accounts;
+}
+
+/**
+ * Return a valid (refreshed) access token for every connected account.
+ * Accounts whose refresh fails are skipped with a warning rather than
+ * aborting the whole run — one dead session must not block the others.
+ */
+export async function getAllValidAccessTokens(): Promise<
+  Array<{ label: string; accessToken: string; username?: string }>
+> {
+  const accounts = await listAccounts();
+  const out: Array<{ label: string; accessToken: string; username?: string }> =
+    [];
+  for (const acc of accounts) {
+    const accessToken = await getValidAccessToken(acc.label);
+    if (accessToken) {
+      out.push({ label: acc.label, accessToken, username: acc.username });
+    } else {
+      console.warn(
+        `[xauth] account "${acc.label}" has no valid token — reconnect it in the app.`,
+      );
+    }
+  }
+  return out;
 }
 
 const REFRESH_MARGIN_MS = 60_000;
 
-export async function getValidAccessToken(): Promise<string | null> {
+export async function getValidAccessToken(
+  label: string = DEFAULT_LABEL,
+): Promise<string | null> {
   const config = getOAuthConfig();
   if (!config) return null;
-  const tokens = await loadTokens();
+  const tokens = await loadTokens(label);
   if (!tokens) return null;
 
   if (tokens.expires_at - REFRESH_MARGIN_MS > Date.now()) {
@@ -241,10 +381,14 @@ export async function getValidAccessToken(): Promise<string | null> {
 
   try {
     const refreshed = await refreshTokens(config, tokens.refresh_token);
-    await saveTokens(refreshed);
+    // Preserve the embedded account identity across refreshes.
+    await saveTokens(
+      tokens.account ? { ...refreshed, account: tokens.account } : refreshed,
+      label,
+    );
     return refreshed.access_token;
   } catch {
-    await clearTokens();
+    await clearTokens(label);
     return null;
   }
 }

@@ -6,6 +6,7 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import { listBookmarks, rawDir, tweetIdFromSource } from "./utils";
+import { listAccounts, loadTokens, DEFAULT_LABEL } from "../../lib/x/auth";
 
 interface Issue {
   severity: "warn" | "info";
@@ -104,6 +105,30 @@ async function main() {
     );
   }
   console.log(`   Cached raw JSON       : ${cachedSet.size}`);
+
+  // Connected accounts (network-free: reads token files, never refreshes).
+  // The tweet-id dedup above is global, so these counters are unaffected by
+  // how many accounts are connected.
+  const accounts = await listAccounts();
+  if (accounts.length > 0) {
+    console.log(`\n   Connected accounts (${accounts.length}):`);
+    const now = Date.now();
+    for (const acc of accounts) {
+      const tokens = await loadTokens(acc.label);
+      let state = "unreadable";
+      if (tokens) {
+        state =
+          tokens.expires_at > now
+            ? "valid"
+            : tokens.refresh_token
+              ? "refreshable"
+              : "expired";
+      }
+      const who = acc.username ? `@${acc.username}` : "(handle unknown)";
+      const tag = acc.label === DEFAULT_LABEL ? " [default]" : "";
+      console.log(`     ${acc.label}${tag} — ${who} — ${state}`);
+    }
+  }
 
   const topAuthors = Object.entries(authors)
     .sort((a, b) => b[1] - a[1])

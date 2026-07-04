@@ -34,7 +34,7 @@ export interface ExtractResult {
   ok: true;
   filename: string;
   absolutePath: string;
-  source: "cache" | "grok" | "xapi";
+  source: "cache" | "grok" | "xapi" | "mcp";
   isDuplicate: boolean;
   cachedAt?: string;
   staleCommentsDetected?: boolean;

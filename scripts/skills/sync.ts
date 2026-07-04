@@ -18,9 +18,17 @@
  * Output is a JSON summary so a Claude routine can act on the result.
  */
 import path from "node:path";
-import { getValidAccessToken } from "../../lib/x/auth";
-import { fetchAllBookmarks } from "../../lib/x/bookmarks";
-import { extractPostWithXApi } from "../../lib/x/api";
+import {
+  getValidAccessToken,
+  getAllValidAccessTokens,
+} from "../../lib/x/auth";
+import {
+  fetchAllBookmarks,
+  getAuthenticatedUserId,
+  type BookmarkSummary,
+} from "../../lib/x/bookmarks";
+import { extractPost } from "../../lib/x/extract";
+import { mcpConfigFromEnv } from "../../lib/x/mcp-source";
 import { downloadImages } from "../../lib/obsidian/media-download";
 import { renderNote } from "../../lib/obsidian/markdown";
 import { writeNote } from "../../lib/obsidian/vault";
@@ -30,18 +38,19 @@ import {
   writeDownloadedImages,
   hasCache,
 } from "../../lib/obsidian/cache";
-import type { PostExtraction } from "../../lib/types";
 
 interface Args {
   limit: number | null;
   dryRun: boolean;
   delayMs: number;
+  account: string | null;
 }
 
 function parseArgs(argv: string[]): Args {
   let limit: number | null = null;
   let dryRun = false;
   let delayMs = 0;
+  let account: string | null = null;
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === "--limit") {
@@ -52,9 +61,11 @@ function parseArgs(argv: string[]): Args {
     } else if (a === "--delay") {
       const n = Number(argv[++i]);
       delayMs = Number.isFinite(n) && n >= 0 ? Math.floor(n) : 0;
+    } else if (a === "--account") {
+      account = argv[++i] ?? null;
     }
   }
-  return { limit, dryRun, delayMs };
+  return { limit, dryRun, delayMs, account };
 }
 
 const sleep = (ms: number) =>
@@ -75,12 +86,19 @@ interface ProcessErr {
 async function processBookmark(
   id: string,
   bearer: string,
+  authorHandle: string,
 ): Promise<ProcessOk | ProcessErr> {
   try {
-    const post: PostExtraction = await extractPostWithXApi(id, {
+    // Source chain: X API (or MCP if enabled) primary → Grok fallback when the
+    // primary fails or is missing text/author/comments. See lib/x/extract.ts.
+    const { post, source } = await extractPost(id, {
+      url: `https://x.com/${authorHandle || "i"}/status/${id}`,
       bearerToken: bearer,
+      grokApiKey: process.env.XAI_API_KEY,
+      grokModel: process.env.XAI_MODEL,
+      mcp: mcpConfigFromEnv(),
     });
-    await writeCache(id, post, "xapi");
+    await writeCache(id, post, source);
 
     const downloaded = await downloadImages(id, post.media);
     if (downloaded.length > 0) {
@@ -111,21 +129,69 @@ async function processBookmark(
 async function main() {
   const args = parseArgs(process.argv.slice(2));
 
-  const accessToken = await getValidAccessToken();
-  if (!accessToken) {
-    console.error(
-      "Not authenticated. Open the app and connect X once (the OAuth token is then refreshed automatically).",
-    );
-    process.exit(1);
-  }
-
   const bearer = process.env.X_API_BEARER_TOKEN;
   if (!bearer) {
     console.error("X_API_BEARER_TOKEN is not set in .env.local");
     process.exit(1);
   }
 
-  const bookmarks = await fetchAllBookmarks({ accessToken });
+  // 1. Resolve which accounts to sync: a single --account <label>, else every
+  //    connected account (auth.json + auth.<handle>.json), each token refreshed.
+  let sessions: Array<{ label: string; accessToken: string }>;
+  if (args.account) {
+    const token = await getValidAccessToken(args.account);
+    if (!token) {
+      console.error(
+        `Account "${args.account}" is not connected (or its token expired). Run: npm run skill:accounts`,
+      );
+      process.exit(1);
+    }
+    sessions = [{ label: args.account, accessToken: token }];
+  } else {
+    sessions = await getAllValidAccessTokens();
+    if (sessions.length === 0) {
+      console.error(
+        "No connected account. Open the app and connect X once (the OAuth token is then refreshed automatically).",
+      );
+      process.exit(1);
+    }
+  }
+
+  // 2. Fetch each account's bookmarks, dedup accounts by X user id (so the same
+  //    account reachable under two labels isn't fetched twice), then merge all
+  //    bookmarks into one set keyed by tweet id. The cache-level dedup
+  //    (state/.raw/<id>.json) already converges cross-account duplicates to a
+  //    single note; this in-memory dedup keeps counts honest and avoids
+  //    processing the same tweet twice within one run.
+  const seenUsers = new Set<string>();
+  const accountsInfo: Array<{ label: string; username: string; total: number }> =
+    [];
+  const merged = new Map<string, BookmarkSummary>();
+
+  for (const s of sessions) {
+    let me: { id: string; username: string; name: string };
+    try {
+      me = await getAuthenticatedUserId(s.accessToken);
+    } catch (e) {
+      console.error(
+        `[${s.label}] identity lookup failed — skipping: ${e instanceof Error ? e.message : String(e)}`,
+      );
+      continue;
+    }
+    if (seenUsers.has(me.id)) {
+      console.error(
+        `[${s.label}] same X user as an already-synced account (@${me.username}) — skipping duplicate.`,
+      );
+      continue;
+    }
+    seenUsers.add(me.id);
+
+    const bms = await fetchAllBookmarks({ accessToken: s.accessToken, me });
+    for (const b of bms) if (!merged.has(b.id)) merged.set(b.id, b);
+    accountsInfo.push({ label: s.label, username: me.username, total: bms.length });
+  }
+
+  const bookmarks = [...merged.values()];
 
   const withStatus = await Promise.all(
     bookmarks.map(async (b) => ({ ...b, alreadyCached: await hasCache(b.id) })),
@@ -143,6 +209,7 @@ async function main() {
         {
           ok: true,
           dryRun: true,
+          accounts: accountsInfo,
           total: withStatus.length,
           known: known.length,
           new: pending.length + skippedByLimit,
@@ -164,7 +231,7 @@ async function main() {
   const failed: ProcessErr[] = [];
   for (let i = 0; i < pending.length; i++) {
     const b = pending[i];
-    const result = await processBookmark(b.id, bearer);
+    const result = await processBookmark(b.id, bearer, b.authorHandle);
     if (result.ok) processed.push(result);
     else failed.push(result);
     console.error(
@@ -178,6 +245,7 @@ async function main() {
     JSON.stringify(
       {
         ok: true,
+        accounts: accountsInfo,
         total: withStatus.length,
         known: known.length,
         processed: processed.length,
