@@ -11,7 +11,6 @@ import {
 import { mcpConfigFromEnv } from "@/lib/x/mcp-source";
 import { fetchGrokInsights } from "@/lib/x/grok-enrich";
 import { parseTweetRef } from "@/lib/x/tweet-id";
-import { hashQuery, runDeepSearch } from "@/lib/x/deep-search";
 import { downloadImages } from "@/lib/obsidian/media-download";
 import { renderNote } from "@/lib/obsidian/markdown";
 import {
@@ -25,17 +24,7 @@ import {
   writeDownloadedImages,
   writeInsights,
 } from "@/lib/obsidian/cache";
-import {
-  deleteDeepSearchCache,
-  listDeepSearchHistory,
-  readDeepSearchCache,
-  touchDeepSearchCache,
-  writeDeepSearchCache,
-} from "@/lib/obsidian/deep-search-cache";
 import type {
-  DeepSearchHistoryEntry,
-  DeepSearchResult,
-  DeepSearchTimeRange,
   ExtractError,
   ExtractResult,
   GrokEnrichResult,
@@ -283,123 +272,3 @@ export async function enrichWithGrok(
   }
 }
 
-/* ───────── Deep Search actions ───────── */
-
-const DEEP_SEARCH_SUB_QUERIES = 6;
-
-export async function deepSearchAction(
-  naturalQuery: string,
-  options?: { forceFresh?: boolean; timeRange?: DeepSearchTimeRange },
-): Promise<DeepSearchResult | ExtractError> {
-  const query = naturalQuery.trim();
-  if (!query) {
-    return { ok: false, error: "Query is empty" };
-  }
-
-  const apiKey = process.env.XAI_API_KEY;
-  if (!apiKey) {
-    return { ok: false, error: "XAI_API_KEY is not set in .env.local" };
-  }
-  const bearerToken = process.env.X_API_BEARER_TOKEN;
-  if (!bearerToken) {
-    return {
-      ok: false,
-      error:
-        "Deep Search requires X_API_BEARER_TOKEN for tweet validation. Set it in .env.local.",
-    };
-  }
-
-  const timeRange: DeepSearchTimeRange = options?.timeRange ?? "all";
-  const queryHash = hashQuery(query, DEEP_SEARCH_SUB_QUERIES, timeRange);
-
-  // 1. Cache hit (unless forced fresh)
-  if (!options?.forceFresh) {
-    const cached = await readDeepSearchCache(queryHash);
-    if (cached) {
-      await touchDeepSearchCache(queryHash);
-      return {
-        ok: true,
-        queryHash: cached.queryHash,
-        query: cached.query,
-        timeRange: cached.timeRange,
-        createdAt: cached.createdAt,
-        fromCache: true,
-        subQueries: cached.subQueries,
-        candidates: cached.candidates,
-        stats: cached.stats,
-      };
-    }
-  }
-
-  // 2. Run fresh
-  try {
-    const result = await runDeepSearch({
-      naturalQuery: query,
-      apiKey,
-      model: process.env.XAI_MODEL,
-      options: {
-        subQueryCount: DEEP_SEARCH_SUB_QUERIES,
-        enableAggregationRerank: true,
-        bearerToken,
-        timeRange,
-      },
-    });
-    // 3. Persist cache
-    await writeDeepSearchCache({
-      version: 2,
-      queryHash: result.queryHash,
-      query: result.query,
-      subQueryCount: DEEP_SEARCH_SUB_QUERIES,
-      timeRange: result.timeRange,
-      createdAt: result.createdAt,
-      lastAccessedAt: result.createdAt,
-      subQueries: result.subQueries,
-      candidates: result.candidates,
-      stats: result.stats,
-    });
-    return result;
-  } catch (e) {
-    const msg = e instanceof Error ? e.message : String(e);
-    return { ok: false, error: msg };
-  }
-}
-
-export async function listDeepSearchHistoryAction(): Promise<
-  DeepSearchHistoryEntry[]
-> {
-  return listDeepSearchHistory();
-}
-
-export async function getDeepSearchByHashAction(
-  queryHash: string,
-): Promise<DeepSearchResult | ExtractError> {
-  if (!/^[a-f0-9]+$/.test(queryHash)) {
-    return { ok: false, error: "Invalid queryHash" };
-  }
-  const cached = await readDeepSearchCache(queryHash);
-  if (!cached) {
-    return { ok: false, error: "Deep Search result not found or expired" };
-  }
-  await touchDeepSearchCache(queryHash);
-  return {
-    ok: true,
-    queryHash: cached.queryHash,
-    query: cached.query,
-    timeRange: cached.timeRange,
-    createdAt: cached.createdAt,
-    fromCache: true,
-    subQueries: cached.subQueries,
-    candidates: cached.candidates,
-    stats: cached.stats,
-  };
-}
-
-export async function deleteDeepSearchAction(
-  queryHash: string,
-): Promise<{ ok: true } | ExtractError> {
-  if (!/^[a-f0-9]+$/.test(queryHash)) {
-    return { ok: false, error: "Invalid queryHash" };
-  }
-  await deleteDeepSearchCache(queryHash);
-  return { ok: true };
-}

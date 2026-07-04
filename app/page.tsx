@@ -11,7 +11,6 @@ import { UsagePanel } from "./components/UsagePanel";
 import { SyncPreview } from "./components/SyncPreview";
 import { ResultsList } from "./components/ResultsList";
 import { VaultBadge, VaultEdit } from "./components/SettingsPanel";
-import { DeepSearch } from "./components/DeepSearch";
 import type {
   AuthStatus,
   BookmarksListResponse,
@@ -283,11 +282,6 @@ export default function Home() {
           <strong>Sync failed</strong> — {syncState.message}
         </div>
       )}
-
-      <DeepSearch
-        onExtract={(urls, refetch) => processUrls(urls, refetch)}
-        disabled={isPending}
-      />
 
       <form onSubmit={handleSubmit} className="panel">
         <label htmlFor="urls" className="panel-label">
