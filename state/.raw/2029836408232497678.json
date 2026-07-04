@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:08.090Z",
+  "tweetId": "2029836408232497678",
+  "post": {
+    "url": "https://x.com/BharukaShraddha/status/2029836408232497678",
+    "author": {
+      "handle": "BharukaShraddha",
+      "name": "Shraddha Bharuka"
+    },
+    "date": "2026-03-06",
+    "text": "Most people treat CLAUDE.md like a prompt file.\n\nThat’s the mistake.\n\nIf you want Claude Code to feel like a senior engineer living inside your repo, your project needs structure.\n\nClaude needs 4 things at all times:\n\n• the why → what the system does\n• the map → where things live\n• the rules → what’s allowed / not allowed\n• the workflows → how work gets done\n\nI call this:\n\nThe Anatomy of a Claude Code Project 👇\n\n━━━━━━━━━━━━━━━\n\n1️⃣ CLAUDE.md = Repo Memory (keep it short)\n\nThis is the north star file.\n\nNot a knowledge dump. Just:\n\n• Purpose (WHY)\n• Repo map (WHAT)\n• Rules + commands (HOW)\n\nIf it gets too long, the model starts missing important context.\n\n━━━━━━━━━━━━━━━\n\n2️⃣ .claude/skills/ = Reusable Expert Modes\n\nStop rewriting instructions.\n\nTurn common workflows into skills:\n\n• code review checklist\n• refactor playbook\n• release procedure\n• debugging flow\n\nResult:\nConsistency across sessions and teammates.\n\n━━━━━━━━━━━━━━━\n\n3️⃣ .claude/hooks/ = Guardrails\n\nModels forget.\n\nHooks don’t.\n\nUse them for things that must be deterministic:\n\n• run formatter after edits\n• run tests on core changes\n• block unsafe directories (auth, billing, migrations)\n\n━━━━━━━━━━━━━━━\n\n4️⃣ docs/ = Progressive Context\n\nDon’t bloat prompts.\n\nClaude just needs to know where truth lives:\n\n• architecture overview\n• ADRs (engineering decisions)\n• operational runbooks\n\n━━━━━━━━━━━━━━━\n\n5️⃣ Local CLAUDE.md for risky modules\n\nPut small files near sharp edges:\n\nsrc/auth/CLAUDE.md\nsrc/persistence/CLAUDE.md\ninfra/CLAUDE.md\n\nNow Claude sees the gotchas exactly when it works there.\n\n━━━━━━━━━━━━━━━\n\nPrompting is temporary.\n\nStructure is permanent.\n\nWhen your repo is organized this way, Claude stops behaving like a chatbot…\n\n…and starts acting like a project-native engineer.",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HCttcqwbYAA5h_e.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 6628,
+      "retweets": 965,
+      "replies": 160,
+      "views": 1052445
+    },
+    "comments": []
+  }
+}

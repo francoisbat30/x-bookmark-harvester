@@ -1,0 +1,33 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:29.603Z",
+  "tweetId": "2058918458067435800",
+  "post": {
+    "url": "https://x.com/The_Cyber_News/status/2058918458067435800",
+    "author": {
+      "handle": "The_Cyber_News",
+      "name": "Cyber Security News"
+    },
+    "date": "2026-05-25",
+    "text": "⚠️ WhatsApp Chat Histories Stored Unencrypted on macOS and iOS \n\nSource: https://t.co/81kaKGR6V6\n\nNew research has revealed that WhatsApp chat histories may be stored unencrypted on both macOS and iOS devices, raising fresh concerns about local data protection and cross-application access within the Apple ecosystem.\n\nWhile WhatsApp uses strong end-to-end encryption (E2EE) to secure messages in transit, this protection does not extend to how data is stored locally once the user accesses it.\n\nThe issue affects both iOS devices and macOS systems running WhatsApp, particularly where shared app containers are utilized. On macOS, where file system access is more flexible, the risk may be more pronounced if endpoint security controls are weak.\n\n#cybersecuritynews #WhatsApp",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HJK_ZU9aQAAo582.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 767,
+      "retweets": 226,
+      "replies": 24,
+      "views": 63503
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HJK_ZU9aQAAo582.jpg",
+      "localFilename": "2058918458067435800_1.jpg"
+    }
+  ]
+}

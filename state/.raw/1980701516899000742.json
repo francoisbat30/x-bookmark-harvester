@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:54.270Z",
+  "tweetId": "1980701516899000742",
+  "post": {
+    "url": "https://x.com/kimmonismus/status/1980701516899000742",
+    "author": {
+      "handle": "kimmonismus",
+      "name": "Chubby♨️"
+    },
+    "date": "2025-10-21",
+    "text": "ChatGPT Atlas: my first impressions\n\nI'm really trying to see the value in the AI browser, honestly. But so far, I don't see any added value, not even compared to Perplexity Comet.\n\nBut maybe that's because I'm not the target audience. For those who don't work with ChatGPT, Claude, or Gemini every day, every hour, it might be exciting to have a browser you can ask questions.\n\nBut all the features that have been implemented are ones I could already use in ChatGPT: ChatGPT Agent, summaries, follow-up questions.\n\nThe advertised features, such as having the agent do tasks for me, would probably take longer than if I just did the clicks myself, to be honest.\n\nAgain, for those who use ChatGPT or any AI on a daily basis, this browser will offer little added value. I think it is intended to appeal to those who have not yet come into daily contact with AI.\n\nIt is intended to lower the inhibition threshold and improve access to ChatGPT, similar to the integration of ChatGPT into WhatsApp or via phone call. For these people, it is certainly great to be able to ask questions on their daily news page.\n\nLet's see if I can get better access to Atlas in the next few days.\n\nBut maybe I'm overlooking something and you see it completely differently. What is your impression? I would be really interested to know!",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3zdVhoXEAA4_u0.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1309,
+      "retweets": 75,
+      "replies": 309,
+      "views": 194936
+    },
+    "comments": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:39.071Z",
+  "tweetId": "2047034226806292493",
+  "post": {
+    "url": "https://x.com/OpenSwarm_/status/2047034226806292493",
+    "author": {
+      "handle": "OpenSwarm_",
+      "name": "Open Swarm"
+    },
+    "date": "2026-04-22",
+    "text": "Introducing Open Swarm 👾 \n\nOne Canvas. An army of AI Agents\n\nBe the boss \n\nhttps://t.co/cwiYsfEkKn https://t.co/F3oEgs5CDe",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2047031968060325888/vid/avc1/1920x1080/ku2dmURzG87yA1LI.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 3201,
+      "retweets": 227,
+      "replies": 84,
+      "views": 285036
+    },
+    "comments": []
+  }
+}

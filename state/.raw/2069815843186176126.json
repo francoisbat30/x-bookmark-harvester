@@ -1,0 +1,101 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:07.669Z",
+  "tweetId": "2069815843186176126",
+  "post": {
+    "url": "https://x.com/SpikeCalls/status/2069815843186176126",
+    "author": {
+      "handle": "SpikeCalls",
+      "name": "Spike 1%"
+    },
+    "date": "2026-06-24",
+    "text": "Claude + Obsidian turned 400 dead notes into a brain that answers in 2 seconds\n\nClaude reads it, links it, files it. Your second brain now builds itself for $0.\nMost note apps are graveyards. You dump 400 notes in, you never link them, you never find them again. Notion locks your data in a database you rent. Obsidian gives you the files but leaves the work to you.\nThis fixes the work. You drop a source. Claude reads it, pulls out the people and ideas, cross-links everything, and files it into a clean Obsidian vault of plain Markdown you own. Ask a question 3 months later, it answers from everything it has read and cites the exact pages. Knowledge compounds like interest.\nIt is built on Andrej Karpathy's LLM Wiki pattern. 6,800 stars. MIT licensed. No subscription, no database, no lock-in.\nHere is the full build.\n \nPART 1 — Setup. 2 lines, 2 minutes.\nClone the repo and run the setup script.\n \nThat one script wires up your graph view, color scheme, CSS, and the full wiki skeleton. Open the folder in Obsidian: Manage Vaults → Open folder as vault → select claude-obsidian/.\nOpen Claude Code in the same folder. Type 1 word:\n \nClaude checks the setup, asks you 1 question \"What is this vault for?\" and scaffolds the entire structure. Done.\n \nPART 2 — Install it as a plugin instead (cleaner).\nIf you'd rather not clone, install it as a Claude Code plugin. 2 steps.\n \nConfirm it landed:\n \nThen /wiki in any session.\n \nPART 3 — The 6 commands you'll actually use daily.\nThis is the whole loop. Memorize these 6 and you're running.\nFeed it a source. It creates 8 to 15 linked pages:\n \nFeed it a pile at once. Parallel agents read all of them, then cross-reference:\n \nAsk your brain anything. It reads the cache, scans the index, drills into pages, cites them:\n \nTurn the current conversation into a permanent note:\n \nRun autonomous web research 3 rounds, search, fetch, synthesize, file:\n \nClean the vault. Finds orphans, dead links, stale claims, missing links:\n \nAt the end of every session Claude refreshes a hot cache. Next session opens with full recent context. No recap, no re-explaining.\n \nPART 4 — Kill the copy-paste with MCP.\nBy default you paste sources in. MCP lets Claude read and write vault notes directly. The filesystem option needs no plugin at all paste this into your terminal:\n \nSwap /path/to/your/vault for your real path. Now Claude touches your notes itself.\n \nPART 5 — The real unlock: one brain, every project.\nThis is the move 95% of people miss. Point every other Claude Code project at this same vault. Drop this into any project's CLAUDE.md:\n \nYour coding projects, your content workflow, your research all drinking from 1 knowledge base. Read it once, use it everywhere.\n \nPART 6 — Stack kepano's official Obsidian skills on top.\nThe Obsidian creator ships 5 agent skills 35,000 stars that teach any agent the native formats: Markdown, Bases, JSON Canvas, the CLI. The vault above is already aligned with them. Add them in 2 lines:\n \nNow Claude writes proper wikilinks, callouts, and database views instead of dumb text.\n \nAdd this to any existing vault (no clone).\nAlready have a vault you love? Copy WIKI.md into its root, then paste this exact prompt into Claude:\n \n \n5 lifehacks that change the math.\nSet the vault as a Personal use case with PARA mode projects, areas, resources, archives. Your todo brain and your idea brain stop fighting:\n \nInstall the Obsidian Web Clipper browser extension. Every article you read hits .raw/ in 1 click, ready for ingest all of these on Sunday night.\nRun lint the wiki once a week. It surfaces contradictions as [!contradiction] callouts with both sources. Your brain flags when it disagrees with itself.\nTurn on Obsidian Git. The vault auto commits every 15 minutes. Your second brain has a full undo history.\nUse /think before any hard decision. It runs a 10-stage reasoning loop over the problem instead of a snap answer.\n \n \nThe honest progression.\nDay 1: 5 seeded pages, a tiny graph. Week 2: 40 sources in, the graph is a web, queries start citing things you forgot you read. Month 2: you stop searching Google for things you already know you ask your own vault first. It answers in 2 seconds with sources.\nThe spoon-feeding stops. The brain starts feeding you.\nYou own every byte. Plain Markdown, on your disk, forever.",
+    "media": [],
+    "metrics": {
+      "likes": 392,
+      "retweets": 80,
+      "replies": 10,
+      "views": 1046008
+    },
+    "comments": [
+      {
+        "handle": "Truntr_",
+        "name": "Truntr",
+        "date": "2026-06-24",
+        "text": "This is the most complete second-brain build I've seen this quarter. Real repo, real MCP (@bitbonsai/mcpvault), real Karpathy LLM Wiki lineage, real kepano skills stack on top, real eval layer (lint the wiki).\nThe one piece I'd add for truly compounding while you sleep: a scheduler (cron/launchd/scheduled task) that fires /autoresearch and lint the wiki on a weekly cadence without you triggering them.\nFive layers covered. The sixth is the loop runner. Bookmarking."
+      },
+      {
+        "handle": "nelulazar",
+        "name": "Nelu Lazar",
+        "date": "2026-06-28",
+        "text": "Love it, and that’s a great starter. But a plaintext-markdown brain is readable by anything on disk (privacy issue), answers by re-reading the vault (non-deterministic, pricier as it grows), and gets silently rewritten by the agent that \"cleans\" it (less human-judgement-in-the-loop). My preprint paper measured exactly this: on LongMemEval, the Graphnosis multi-graph is worth +13.2 points over flat top-k .md (GPT-4o), and +5.8 on a 3B model running fully on-device — same seeds, with the multi-graph vs flat .md. I envisioned Graphnosis as encrypted, deterministic, indelible job memory that fixes the second brain’s glitches — like an un-brain. And it ingests Obsidian notes in seconds, to get to the next step. Would love your feedback if you try it. Link below."
+      },
+      {
+        "handle": "0xWemoox",
+        "name": "Wemoo",
+        "date": "2026-06-25",
+        "text": "@SpikeCalls i've been doing the junk drawer + blame claude routine for weeks ngl"
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-06-29",
+        "text": "LouisHerzogx12 Solid concept. Karpathy's LLM Wiki pattern + Obsidian + Claude Code turns your notes into a self-maintaining, queryable second brain in plain Markdown you fully own.\n\nAutomatic ingestion, linking, indexing, and cleanup beats manual note graveyards. Local files + graph view is the real unlock.\n\nThe $0 claim assumes you already have Claude access. Worth testing if you live in Obsidian already.\n\nWhat specifically are you wondering about?"
+      },
+      {
+        "handle": "saadmasood9",
+        "name": "Saad Masood",
+        "date": "2026-06-29",
+        "text": "@SpikeCalls Why Obsidian? Why not OpenKnowledge?"
+      },
+      {
+        "handle": "nelulazar",
+        "name": "Nelu Lazar",
+        "date": "2026-06-28",
+        "text": "@SpikeCalls The Un-Brain: https://t.co/uKA0iTqcNk"
+      },
+      {
+        "handle": "LeelaNairii",
+        "name": "Leela Nair",
+        "date": "2026-06-26",
+        "text": "@Truntr_ @SpikeCalls great suggestion, thanks"
+      },
+      {
+        "handle": "rahilpirani",
+        "name": "Rahil Pirani",
+        "date": "2026-06-30",
+        "text": "Karpathy’s Obsidian memory system is cool but worth knowing the trade-off.\n\nIt only works when Obsidian is open. Only on that one device. No semantic layer.\n\nSecond Brain runs on Cloudflare. Claude on your phone, ChatGPT on your laptop, Cursor at work – same memory, everywhere, always on.\n\n(https://t.co/t4BYgIlEvt)"
+      },
+      {
+        "handle": "LilysAI_",
+        "name": "Lilys.ai",
+        "date": "2026-06-29",
+        "text": "@tetumemo @SpikeCalls @tetumemo 要約ノートができました👉 https://t.co/LwDn3lOTLN\n\n- Claudeがソースを読み、人物や概念を抽出。\n- それらを相互リンクし、ObsidianのMarkdown保管庫に整理。\n- 3か月後の質問にも、読んだ内容全体から出典付きで答える。 https://t.co/HMJiizhid7"
+      },
+      {
+        "handle": "tetumemo",
+        "name": "テツメモ｜AI図解×検証｜Newsletter",
+        "date": "2026-06-29",
+        "text": "@SpikeCalls @LilysAI_ 要約して"
+      },
+      {
+        "handle": "RicardoIQSource",
+        "name": "Ricardo Arguello",
+        "date": "2026-06-29",
+        "text": "We run a version of this in production, not as a personal vault but as the company's memory: every client call, proposal and decision gets read, linked and filed, then queried before any new proposal. The unlock isn't the notes, it's that the answer comes back with the receipts attached. @IqSource1445"
+      },
+      {
+        "handle": "LouisHerzogx12",
+        "name": "Louis Herzog",
+        "date": "2026-06-29",
+        "text": "@SpikeCalls @grok ?!"
+      },
+      {
+        "handle": "uttamm_gupta",
+        "name": "Uttam Gupta",
+        "date": "2026-06-26",
+        "text": "The real leverage here isn't capture, it's retrieval. Most second-brain setups die because notes go in and never come back out. Pairing Claude with a structured vault only works if the output stays queryable later, otherwise you've just built a prettier graveyard. Auto-linking is the unlock."
+      }
+    ]
+  }
+}

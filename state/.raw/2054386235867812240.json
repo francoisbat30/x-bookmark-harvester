@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:35.725Z",
+  "tweetId": "2054386235867812240",
+  "post": {
+    "url": "https://x.com/IndieDevHailey/status/2054386235867812240",
+    "author": {
+      "handle": "IndieDevHailey",
+      "name": "开发者Hailey"
+    },
+    "date": "2026-05-13",
+    "text": "恐怖！用家Wi-Fi就能知道隔壁墙后的人在干什么！\n开源项目 RuView 在GitHub已经冲到 5万+星，直接炸了！\n\n完全不用摄像头，也不用戴任何设备，就靠家里普通的WiFi信号，就能穿墙透视：\n\n- 隔壁有几个人、在哪个位置、是走路还是躺着，全看得见\n- 实时看人体姿态（17个关键点）\n- 睡觉时自动测呼吸和心率\n- 有人跌倒立刻报警，动作识别超准\n\n用WiFi CSI + AI，把你家路由器直接变成隐形雷达！\n没有视频、没有录像，隐私安全拉满，天然符合GDPR，完全本地跑，不上云。\nESP32几块钱就能玩，Docker零硬件也能直接试。",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2054385857713627136/vid/avc1/2290x1080/9e9QrlWVWw77CKa5.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 11428,
+      "retweets": 1649,
+      "replies": 766,
+      "views": 1777298
+    },
+    "comments": []
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:39.609Z",
+  "tweetId": "2046982383430496444",
+  "post": {
+    "url": "https://x.com/zan2434/status/2046982383430496444",
+    "author": {
+      "handle": "zan2434",
+      "name": "Zain Shah"
+    },
+    "date": "2026-04-22",
+    "text": "Imagine every pixel on your screen, streamed live directly from a model. No HTML, no layout engine, no code. Just exactly what you want to see.\n\n@eddiejiao_obj, @drewocarr and I built a prototype to see how this could actually work, and set out to make it real. We're calling it Flipbook. (1/5)",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2046982244917809152/vid/avc1/1716x1080/bbBD3UPpNDnrjm4T.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 28880,
+      "retweets": 3747,
+      "replies": 1145,
+      "views": 5983814
+    },
+    "comments": [
+      {
+        "handle": "FrontierModal",
+        "name": "Frontier Modal",
+        "date": "2026-06-24",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr There's a rather vast chasm between \"from a model\" and \"exactly what you want to see\". Even LLMs can do that yet."
+      },
+      {
+        "handle": "Obscua_ai",
+        "name": "Obscua",
+        "date": "2026-06-25",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr looks insane"
+      },
+      {
+        "handle": "DarkEyEinc",
+        "name": "Kai",
+        "date": "2026-06-25",
+        "text": "@zan2434 Dieses Konzept auf Basis von Grok würde mich noch mehr interessieren.\nhttps://t.co/1iHqJk8oU5"
+      },
+      {
+        "handle": "DarkEyEinc",
+        "name": "Kai",
+        "date": "2026-06-25",
+        "text": "@zan2434 @karpathy @eddiejiao_obj @drewocarr Looks great 🥹\nThe interface must feel mind blowing 😍"
+      }
+    ]
+  }
+}

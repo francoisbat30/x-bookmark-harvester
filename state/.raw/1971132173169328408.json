@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:05.479Z",
+  "tweetId": "1971132173169328408",
+  "post": {
+    "url": "https://x.com/stevelauda_/status/1971132173169328408",
+    "author": {
+      "handle": "stevelauda_",
+      "name": "Steve Lauda"
+    },
+    "date": "2025-09-25",
+    "text": "Robot fleet interface.\n\nA client work with modified content due to confidentiality purposes. https://t.co/yPUeCRQlSS",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G1reHjcasAAMO8B.png"
+      }
+    ],
+    "metrics": {
+      "likes": 367,
+      "retweets": 8,
+      "replies": 30,
+      "views": 23660
+    },
+    "comments": []
+  }
+}

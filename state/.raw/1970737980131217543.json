@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:06.250Z",
+  "tweetId": "1970737980131217543",
+  "post": {
+    "url": "https://x.com/dariusdan/status/1970737980131217543",
+    "author": {
+      "handle": "dariusdan",
+      "name": "Darius Dan"
+    },
+    "date": "2025-09-24",
+    "text": "Simple shapes for you to relax.⚫️ https://t.co/acLyesL7Zs",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G1l3WzHX0AAqx9B.png"
+      }
+    ],
+    "metrics": {
+      "likes": 1012,
+      "retweets": 44,
+      "replies": 53,
+      "views": 33427
+    },
+    "comments": []
+  }
+}

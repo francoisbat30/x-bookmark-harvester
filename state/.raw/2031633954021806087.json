@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:04.337Z",
+  "tweetId": "2031633954021806087",
+  "post": {
+    "url": "https://x.com/iamsupersocks/status/2031633954021806087",
+    "author": {
+      "handle": "iamsupersocks",
+      "name": "Supersocks"
+    },
+    "date": "2026-03-11",
+    "text": "Le mec qui a créé Claude Code (@bcherny) vient de montrer comment son équipe dresse l’IA.\n\nUn fichier. CLAUDE.md. Tu le poses à la racine de ton projet. Dedans : les erreurs passées, les conventions, les règles. Claude le lit à chaque session.\n\nRésultat : l’agent s’améliore sans que tu retouches une ligne de code. Chaque bug corrigé devient une règle permanente.\nBoris Cherny utilise ça tous les jours chez Anthropic. Je vous mets son template ici.\n\nPrêt à copier/coller et à adapter à votre guise :\n\n### 1. Plan Mode Default\n- Enter plan mode for ANY non-trivial task (3+ steps or architectural decisions)\n- If something goes sideways, STOP and re-plan immediately — don't keep pushing\n- Use plan mode for verification steps, not just building\n- Write detailed specs upfront to reduce ambiguity\n\n### 2. Subagent Strategy\n- Use subagents liberally to keep main context window clean\n- Offload research, exploration, and parallel analysis to subagents\n- For complex problems, throw more compute at it via subagents\n- One task per subagent for focused execution\n\n### 3. Self-Improvement Loop\n- After ANY correction from the user: update `tasks/lessons. md` with the pattern\n- Write rules for yourself that prevent the same mistake\n- Ruthlessly iterate on these lessons until mistake rate drops\n- Review lessons at session start for relevant project\n\n### 4. Verification Before Done\n- Never mark a task complete without proving it works\n- Diff behavior between main and your changes when relevant\n- Ask yourself: \"Would a staff engineer approve this?\"\n- Run tests, check logs, demonstrate correctness\n\n### 5. Demand Elegance (Balanced)\n- For non-trivial changes: pause and ask \"is there a more elegant way?\"\n- If a fix feels hacky: \"Knowing everything I know now, implement the elegant solution\"\n- Skip this for simple, obvious fixes — don't over-engineer\n- Challenge your own work before presenting it\n\n### 6. Autonomous Bug Fixing\n- When given a bug report: just fix it. Don't ask for hand-holding\n- Point at logs, errors, failing tests — then resolve them\n- Zero context switching required from the user\n- Go fix failing CI tests without being told how\n\n## Task Management\n\n1. **Plan First**: Write plan to `tasks/todo.md` with checkable items  \n2. **Verify Plan**: Check in before starting implementation  \n3. **Track Progress**: Mark items complete as you go  \n4. **Explain Changes**: High-level summary at each step  \n5. **Document Results**: Add review section to `tasks/todo. md`  \n6. **Capture Lessons**: Update `tasks/lessons. md` after corrections  \n\n## Core Principles\n\n- **Simplicity First**: Make every change as simple as possible. Impact minimal code.\n- **No Laziness**: Find root causes. No temporary fixes. Senior developer standards.",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HDHQT_SbkAAAyow.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 2688,
+      "retweets": 259,
+      "replies": 36,
+      "views": 303351
+    },
+    "comments": []
+  }
+}

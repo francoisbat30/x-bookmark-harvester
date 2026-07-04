@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:11.775Z",
+  "tweetId": "2028141965355975139",
+  "post": {
+    "url": "https://x.com/RoundtableSpace/status/2028141965355975139",
+    "author": {
+      "handle": "RoundtableSpace",
+      "name": "0xMarioNawfal"
+    },
+    "date": "2026-03-01",
+    "text": "Qwen3.5-35B-A3B running locally on an M4 chip at 49.5 tokens per second.\n\nA 35B model. On a laptop. In real time.\n\nLOCAL AI IS GETTING SCARY FAST.   \n\nhttps://t.co/K74GXjw3Vy",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2027182019676098560/vid/avc1/1280x740/Jy2eAE7EnAK-sA05.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 5787,
+      "retweets": 454,
+      "replies": 214,
+      "views": 476845
+    },
+    "comments": []
+  }
+}

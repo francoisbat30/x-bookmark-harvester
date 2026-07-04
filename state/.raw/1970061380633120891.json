@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:08.764Z",
+  "tweetId": "1970061380633120891",
+  "post": {
+    "url": "https://x.com/AngryTomtweets/status/1970061380633120891",
+    "author": {
+      "handle": "AngryTomtweets",
+      "name": "Angry Tom"
+    },
+    "date": "2025-09-22",
+    "text": "Open source models are crazy.\n\nAlibaba just dropped Wan 2.2 Animate, a new model that can animate any character based on a simple souce image.\n\nIt handles facial expressions and body movements like no other model.\n\n10 insane examples: (sound on) https://t.co/ztLwlWDfZb",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1970061316259016704/vid/avc1/1440x720/8rzlJGm_BwXM7RIK.mp4?tag=14"
+      }
+    ],
+    "metrics": {
+      "likes": 4489,
+      "retweets": 481,
+      "replies": 106,
+      "views": 4256273
+    },
+    "comments": []
+  }
+}

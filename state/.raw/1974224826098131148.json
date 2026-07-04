@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:01.220Z",
+  "tweetId": "1974224826098131148",
+  "post": {
+    "url": "https://x.com/kimmonismus/status/1974224826098131148",
+    "author": {
+      "handle": "kimmonismus",
+      "name": "Chubby♨️"
+    },
+    "date": "2025-10-03",
+    "text": "GPT-5 consumes like a country, it ranks #81 in global electricity use\n\nGPT-5’s estimated annual electricity consumption is about 16.4 TWh; it consumes way more energy than Slovenia as a country. https://t.co/1E49a1SClW",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G2XbA_GXkAA4vrs.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 3720,
+      "retweets": 384,
+      "replies": 195,
+      "views": 375228
+    },
+    "comments": []
+  }
+}

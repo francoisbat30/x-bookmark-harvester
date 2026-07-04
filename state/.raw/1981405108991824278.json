@@ -1,0 +1,22 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:51.590Z",
+  "tweetId": "1981405108991824278",
+  "post": {
+    "url": "https://x.com/GoogleResearch/status/1981405108991824278",
+    "author": {
+      "handle": "GoogleResearch",
+      "name": "Google Research"
+    },
+    "date": "2025-10-23",
+    "text": "Today, we are announcing the latest advancements to Google Earth AI — a platform designed to unlock a new level of planetary understanding. This includes new research on Geospatial Reasoning and expanded access to our specialized models. 🧵↓",
+    "media": [],
+    "metrics": {
+      "likes": 675,
+      "retweets": 78,
+      "replies": 13,
+      "views": 70184
+    },
+    "comments": []
+  }
+}

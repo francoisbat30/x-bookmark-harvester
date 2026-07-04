@@ -1,0 +1,544 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:17.524Z",
+  "tweetId": "2071025590145003686",
+  "post": {
+    "url": "https://x.com/tom_doerr/status/2071025590145003686",
+    "author": {
+      "handle": "tom_doerr",
+      "name": "Tom Dörr"
+    },
+    "date": "2026-06-28",
+    "text": "Fitness dataset with animation GIFs and bilingual instructions\n\nhttps://t.co/JsCroM0Lye https://t.co/Mrr3kVjLqv",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HL3CzLVXQAAYBVV.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 8452,
+      "retweets": 596,
+      "replies": 55,
+      "views": 510604
+    },
+    "comments": [
+      {
+        "handle": "ecomsein",
+        "name": "Sein",
+        "date": "2026-06-28",
+        "text": "@tom_doerr Someone scraped @HevyApp lol"
+      },
+      {
+        "handle": "hasaneyldrm",
+        "name": "Hasan Yıldırım",
+        "date": "2026-06-28",
+        "text": "@tom_doerr Hi,\n\nThanks for sharing🙏🏻\n\nI recently shared an open-source mobile app project too. It’s called Logpress\n\nFeel free to take a look if you’re interested"
+      },
+      {
+        "handle": "Arktavos",
+        "name": "Arktavos",
+        "date": "2026-06-28",
+        "text": "@tom_doerr https://t.co/2Sao9UbXqC"
+      },
+      {
+        "handle": "twit_ings",
+        "name": "Worker X",
+        "date": "2026-06-28",
+        "text": "@tom_doerr Stolen data, what a surprise \n“This repository is provided for educational and non-commercial research purposes only. All exercise media (images, videos) belong to their respective copyright holders.”"
+      },
+      {
+        "handle": "FredrikPaulin",
+        "name": "Fredrik Paulin",
+        "date": "2026-06-28",
+        "text": "@tom_doerr Trained a conditional diffusion model on decoded data from this dataset - it’s a bit rough around the edges but something fun to experiment with if anyone wants to fork it here: \n\nhttps://t.co/SyiIdoOhxA"
+      },
+      {
+        "handle": "wiesson",
+        "name": "Arne Wiese",
+        "date": "2026-06-28",
+        "text": "@tom_doerr It looks like it has been obtained by scraping an app or so, also no license …"
+      },
+      {
+        "handle": "hasaneyldrm",
+        "name": "Hasan Yıldırım",
+        "date": "2026-06-28",
+        "text": "@wiesson @tom_doerr The repo is based on a public Kaggle dataset listed under MIT license, and I’m trying to improve it as a community-based exercise dataset.\n\nIf you own any specific file in it, just contact me/open an issue and I’ll remove it.\n\ndataset:\n\nhttps://t.co/sT0poMKKov"
+      },
+      {
+        "handle": "dciccale",
+        "name": "denis",
+        "date": "2026-06-28",
+        "text": "@tom_doerr videos and images are from https://t.co/v2l6znPAYi"
+      },
+      {
+        "handle": "samadgr",
+        "name": "Samadgr",
+        "date": "2026-06-28",
+        "text": "@ecomsein @tom_doerr @HevyApp It's https://t.co/Puw2eSt5Fc Gymvisual offers around 9,000 animations."
+      },
+      {
+        "handle": "hasaneyldrm",
+        "name": "Hasan Yıldırım",
+        "date": "2026-06-28",
+        "text": "@ecomsein @tom_doerr @HevyApp https://t.co/a3WX51nffX"
+      },
+      {
+        "handle": "lukestanley",
+        "name": "Luke Stanley",
+        "date": "2026-06-28",
+        "text": "@tom_doerr I'll get my agent to do it for me."
+      },
+      {
+        "handle": "avatarKonshu",
+        "name": "rodolfo",
+        "date": "2026-06-28",
+        "text": "@Don__Artur @tom_doerr I see them in the Hevy app"
+      },
+      {
+        "handle": "domo326",
+        "name": "TechThatOut",
+        "date": "2026-06-29",
+        "text": "@tom_doerr Now I just need to make a personal app that I can incorporate this into to use. Tired of paying for fitness apps lol"
+      },
+      {
+        "handle": "adeelibr",
+        "name": "Adeel Imran",
+        "date": "2026-06-28",
+        "text": "@tom_doerr These are no licenses and Web scrapped resources. I have the original images that I bought from a vendor with it's licence to use."
+      },
+      {
+        "handle": "dnlmchn",
+        "name": "D N L M",
+        "date": "2026-06-28",
+        "text": "@kodseveradam @tom_doerr Strictly what"
+      },
+      {
+        "handle": "kavirkaycee",
+        "name": "Kavir",
+        "date": "2026-06-28",
+        "text": "@dnlmchn @kodseveradam @tom_doerr They got to him before he could complete the sentence."
+      },
+      {
+        "handle": "kai_fell",
+        "name": "Kai Fall",
+        "date": "2026-06-28",
+        "text": "@tom_doerr did lil bro discover scraping? 😭"
+      },
+      {
+        "handle": "agustinanfosso",
+        "name": "Agustín (Kaizer)",
+        "date": "2026-06-29",
+        "text": "@alebogado_dev @tom_doerr @kaizer_app Buenas Ale, nosotros los pagamos los videos porque conocemos de primera mano gente que por usarlos tuvieron problemas y preferimos evitarlos.\n\nGracias por pensar en nosotros!"
+      },
+      {
+        "handle": "JustSuperHuman_",
+        "name": "bro",
+        "date": "2026-06-28",
+        "text": "@tortyl @tom_doerr @Bro Interesting find!"
+      },
+      {
+        "handle": "Rob1Ham",
+        "name": "Rob Hamilton",
+        "date": "2026-06-28",
+        "text": "@tom_doerr @bradmillscan maybe good for your health agent"
+      },
+      {
+        "handle": "tortyl",
+        "name": "𝔗𝔬𝔯𝔱𝔶𝔩 🐢",
+        "date": "2026-06-28",
+        "text": "@tom_doerr @bro not sure if this would be helpful!"
+      },
+      {
+        "handle": "snzzy0",
+        "name": "☀️",
+        "date": "2026-06-28",
+        "text": "@tom_doerr This seems like the same ones from Musclewiki? I don't believe this is actually free to use"
+      },
+      {
+        "handle": "Don__Artur",
+        "name": "Don Artur",
+        "date": "2026-06-28",
+        "text": "@tom_doerr isn't it from Lyfta app?"
+      },
+      {
+        "handle": "BurkanYilmaz",
+        "name": "Burkan Yılmaz",
+        "date": "2026-06-28",
+        "text": "@tom_doerr Follow for more @hasaneyldrm"
+      },
+      {
+        "handle": "nabsdev",
+        "name": "Nabilayi",
+        "date": "2026-06-29",
+        "text": "@tom_doerr didn’t know this was open source, one of the main reasons i use @HevyApp"
+      },
+      {
+        "handle": "anandch23157938",
+        "name": "Anand Raj",
+        "date": "2026-06-29",
+        "text": "@tom_doerr exercise db is thr \nhttps://t.co/UcsgC9978j"
+      },
+      {
+        "handle": "alebogado_dev",
+        "name": "Ale Bogado 🅺",
+        "date": "2026-06-29",
+        "text": "@tom_doerr @kaizer_app te sirve amigo?"
+      },
+      {
+        "handle": "JustSuperHuman_",
+        "name": "bro",
+        "date": "2026-06-28",
+        "text": "@Arktavos @tom_doerr Check out https://t.co/MsQ3g7Pghn for the real library ;)"
+      },
+      {
+        "handle": "bradmillscan",
+        "name": "Brad Mills 🔑⚡️",
+        "date": "2026-06-28",
+        "text": "@Rob1Ham @tom_doerr looks like it was ripped straight from @HevyApp"
+      },
+      {
+        "handle": "_ayhansipahi",
+        "name": "Ayhan Sipahi",
+        "date": "2026-06-28",
+        "text": "@twit_ings @tom_doerr MIT license buddy chill"
+      },
+      {
+        "handle": "wiesson",
+        "name": "Arne Wiese",
+        "date": "2026-06-28",
+        "text": "@hasaneyldrm @tom_doerr I‘m looking for sth like this for https://t.co/tgKy5lkc18 👀"
+      },
+      {
+        "handle": "lynxd93eth",
+        "name": "lynxd.eth",
+        "date": "2026-06-28",
+        "text": "@tom_doerr @clanker_world launch a token on base\nname : Exercises Dataset\nticker : EXERDATA"
+      },
+      {
+        "handle": "EmilianoFacio77",
+        "name": "Gabriel Emiliano Facio",
+        "date": "2026-06-28",
+        "text": "@tom_doerr It helps me a lot as I'm developing a open source gym platform. Thank you!"
+      },
+      {
+        "handle": "CharlesUchi_Dev",
+        "name": "CharlesUChi",
+        "date": "2026-06-28",
+        "text": "@ecomsein @tom_doerr @HevyApp Eh it’s not heavy it’s an exercise database that hevy licensed. Probably illegal to be open source soooo download while you still can"
+      },
+      {
+        "handle": "snzzy0",
+        "name": "☀️",
+        "date": "2026-06-28",
+        "text": "@CryptoDondoy @tom_doerr AI image gen is easiest if you dont wanna get a 3d model and do work on that"
+      },
+      {
+        "handle": "CryptoDondoy",
+        "name": "Donds 🇵🇭",
+        "date": "2026-06-28",
+        "text": "@tom_doerr How to create these manually?"
+      },
+      {
+        "handle": "dcwhatwhat",
+        "name": "Jamie Madden",
+        "date": "2026-06-28",
+        "text": "@tom_doerr These look identical to the animations in @HevyApp"
+      },
+      {
+        "handle": "Daboor_142",
+        "name": "Daboor",
+        "date": "2026-06-28",
+        "text": "@tom_doerr Bro are you tracking me ?"
+      },
+      {
+        "handle": "bywayofmj",
+        "name": "MJ 🇯🇲 🇺🇸 🇯🇵",
+        "date": "2026-06-30",
+        "text": "@tom_doerr @grok what’s the cost?"
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-06-30",
+        "text": "No, not freely. Those GIF animations and thumbnail images are copyrighted by AscendAPI/ExerciseDB. The GitHub repo explicitly limits everything to educational and non-commercial use only. Commercial use, redistribution of the media files, or integration into products requires a paid license from the original owners. Check https://t.co/40XdYB3eNG for their rules (limited-use license, no standalone resale of GIFs). Personal/research use may be okay with attribution, but verify yourself. Not legal advice."
+      },
+      {
+        "handle": "bywayofmj",
+        "name": "MJ 🇯🇲 🇺🇸 🇯🇵",
+        "date": "2026-06-30",
+        "text": "@tom_doerr @grok is it lawful to use these images and animations?"
+      },
+      {
+        "handle": "Theo_March",
+        "name": "Theo March",
+        "date": "2026-06-30",
+        "text": "@nabsdev @tom_doerr @HevyApp same"
+      },
+      {
+        "handle": "twit_ings",
+        "name": "Worker X",
+        "date": "2026-06-30",
+        "text": "@_ayhansipahi @tom_doerr No lol"
+      },
+      {
+        "handle": "dominikgstoehl",
+        "name": "Dominik Gstöhl",
+        "date": "2026-06-29",
+        "text": "@tom_doerr cloned and archived"
+      },
+      {
+        "handle": "Younes_Belouche",
+        "name": "Younes Belouche",
+        "date": "2026-06-29",
+        "text": "@tom_doerr I would love to know how he got em 😅\nI know, I know, the answer is obvious but I wanna hear it since he added a license."
+      },
+      {
+        "handle": "KeisukeIshikawa",
+        "name": "Keisuke",
+        "date": "2026-06-29",
+        "text": "@tom_doerr https://t.co/UZSLIkaIAy"
+      },
+      {
+        "handle": "uzoran",
+        "name": "Zoran Usancevic",
+        "date": "2026-06-29",
+        "text": "@tom_doerr 👏🏻"
+      },
+      {
+        "handle": "bywayofmj",
+        "name": "MJ 🇯🇲 🇺🇸 🇯🇵",
+        "date": "2026-06-29",
+        "text": "@adeelibr @tom_doerr @grok how do i go about purchasing the actual images/animations so i can use on my app and what would it cost?"
+      },
+      {
+        "handle": "bywayofmj",
+        "name": "MJ 🇯🇲 🇺🇸 🇯🇵",
+        "date": "2026-06-29",
+        "text": "@tom_doerr i love you so much"
+      },
+      {
+        "handle": "teawa_",
+        "name": "teawa",
+        "date": "2026-06-29",
+        "text": "@tom_doerr Who’s making an Opensource gym app so I can upload it to the App Store and share with my friends"
+      },
+      {
+        "handle": "jinnorg",
+        "name": "Jinn",
+        "date": "2026-06-29",
+        "text": "@tom_doerr Those are as old as time itself, try something like https://t.co/qzQgn0QoJo"
+      },
+      {
+        "handle": "tolgaozisik",
+        "name": "tolgaozisik",
+        "date": "2026-06-29",
+        "text": "@tom_doerr 🇹🇷🇹🇷"
+      },
+      {
+        "handle": "CryptoDondoy",
+        "name": "Donds 🇵🇭",
+        "date": "2026-06-29",
+        "text": "@snzzy0 @tom_doerr like how"
+      },
+      {
+        "handle": "ankurkumarz",
+        "name": "Ankur Kumar",
+        "date": "2026-06-29",
+        "text": "@tom_doerr That’s handy for all - specially for techies"
+      },
+      {
+        "handle": "FuZeTuberr",
+        "name": "Nick Abbrams",
+        "date": "2026-06-29",
+        "text": "@tom_doerr https://t.co/68nSCUIC1L took advantage of this :p"
+      },
+      {
+        "handle": "MaxHirsch13",
+        "name": "max",
+        "date": "2026-06-29",
+        "text": "@tom_doerr How many exercises in the dataset? This is sweet"
+      },
+      {
+        "handle": "perepechin",
+        "name": "Sergey Perepechin 🇺🇦",
+        "date": "2026-06-28",
+        "text": "@tom_doerr Find 5,000+ more exercises in my app and on my website. Link in bio.👇\nhttps://t.co/3fcJaEOPDm"
+      },
+      {
+        "handle": "JustSuperHuman_",
+        "name": "bro",
+        "date": "2026-06-28",
+        "text": "@Don__Artur @tom_doerr It’s from justgains 😱"
+      },
+      {
+        "handle": "JustSuperHuman_",
+        "name": "bro",
+        "date": "2026-06-28",
+        "text": "@tom_doerr Check out https://t.co/MsQ3g7Pghn for the real library ;)"
+      },
+      {
+        "handle": "JustSuperHuman_",
+        "name": "bro",
+        "date": "2026-06-28",
+        "text": "@FredrikPaulin @tom_doerr What’s it do 🤔"
+      },
+      {
+        "handle": "fernandopdcosta",
+        "name": "Fernando",
+        "date": "2026-06-28",
+        "text": "@tom_doerr I've been looking for something like this. Thanks"
+      },
+      {
+        "handle": "KevinIvano95932",
+        "name": "Kevin Ivanov",
+        "date": "2026-06-28",
+        "text": "@tom_doerr @matheusgobbidev"
+      },
+      {
+        "handle": "VitinHs7",
+        "name": "Vitor Santos",
+        "date": "2026-06-28",
+        "text": "@tom_doerr Obrigado por compartilhar"
+      },
+      {
+        "handle": "RenhaTou",
+        "name": "🏳️‍🌈 Renha 🦄",
+        "date": "2026-06-28",
+        "text": "@tom_doerr Just a bunch of hallucinated data, I wouldn’t recommend trusting anything health-related to sloperators https://t.co/4YLMs3Bhir"
+      },
+      {
+        "handle": "_ayhansipahi",
+        "name": "Ayhan Sipahi",
+        "date": "2026-06-28",
+        "text": "@dciccale @tom_doerr These are datasets from Kaggle under an MIT license."
+      },
+      {
+        "handle": "ofentsenglazi",
+        "name": "Ofentse Nglazi",
+        "date": "2026-06-28",
+        "text": "@dnlmchn @kodseveradam @tom_doerr For Biden."
+      },
+      {
+        "handle": "akoskm",
+        "name": "Akos",
+        "date": "2026-06-28",
+        "text": "@tom_doerr @hiretimsf man i was wondering where everyone is getting these from. thanks!"
+      },
+      {
+        "handle": "n3tic_",
+        "name": "yoel",
+        "date": "2026-06-28",
+        "text": "@tom_doerr who are the owners of the images?"
+      },
+      {
+        "handle": "Jay_dobariya_",
+        "name": "Jay dobariya",
+        "date": "2026-06-28",
+        "text": "@tom_doerr 🫡"
+      },
+      {
+        "handle": "sykoscum",
+        "name": "rafi",
+        "date": "2026-06-28",
+        "text": "@tom_doerr exactly what I needed. thanks!"
+      },
+      {
+        "handle": "clanker_world",
+        "name": "clanker",
+        "date": "2026-06-28",
+        "text": "@lynxd93eth @tom_doerr https://t.co/wTwdfltzk4\nExercises Dataset ($EXERDATA) is live on Base. Time to get those reps in — onchain."
+      },
+      {
+        "handle": "justinwitz",
+        "name": "Justin Witz 🏰🚀",
+        "date": "2026-06-28",
+        "text": "@tom_doerr This is pretty slick. Biggest problem with so many workout sites is they show an image and describe the movement, this actually gives you the perspective on what to do. \n\nI still use and follow Jeff from Athlean-X though"
+      },
+      {
+        "handle": "vlady_nyz",
+        "name": "vlady",
+        "date": "2026-06-28",
+        "text": "@tom_doerr dope"
+      },
+      {
+        "handle": "_lAdaml_",
+        "name": "Aдam 🇺🇦",
+        "date": "2026-06-28",
+        "text": "@dcwhatwhat @tom_doerr @HevyApp And Lyfta, and Strong"
+      },
+      {
+        "handle": "colorvivo",
+        "name": "Color Vivo Internet",
+        "date": "2026-06-28",
+        "text": "@tom_doerr Mola, habrá que lanzar uno que sea de uso comercial 😂"
+      },
+      {
+        "handle": "__pitza_",
+        "name": "pitza",
+        "date": "2026-06-28",
+        "text": "@dnlmchn @kodseveradam @tom_doerr Commercial use is strictly"
+      },
+      {
+        "handle": "DylanTientcheu",
+        "name": "panachaud",
+        "date": "2026-06-28",
+        "text": "@dnlmchn @kodseveradam @tom_doerr strictly"
+      },
+      {
+        "handle": "kodseveradam",
+        "name": "adem",
+        "date": "2026-06-28",
+        "text": "@tom_doerr Commercial use is strictly"
+      },
+      {
+        "handle": "Ollievander2077",
+        "name": "Ollievander 💸",
+        "date": "2026-06-28",
+        "text": "@hasaneyldrm @tom_doerr Funny I think I saw the exact same images on a fitness commercial app"
+      },
+      {
+        "handle": "srhtokn",
+        "name": "Sectumsempra",
+        "date": "2026-06-28",
+        "text": "@tom_doerr As bayrakları as"
+      },
+      {
+        "handle": "igor9silva",
+        "name": "Igor Silva",
+        "date": "2026-06-28",
+        "text": "@tom_doerr They seem extracted from SmartGym"
+      },
+      {
+        "handle": "hasaneyldrm",
+        "name": "Hasan Yıldırım",
+        "date": "2026-06-28",
+        "text": "@BurkanYilmaz @tom_doerr 🙏🏻🙏🏻🙏🏻"
+      },
+      {
+        "handle": "XSpectreEdge",
+        "name": "XSpectreEdge 𝕏",
+        "date": "2026-06-28",
+        "text": "@tom_doerr Interesting"
+      },
+      {
+        "handle": "0xSuperior",
+        "name": "Superior",
+        "date": "2026-06-28",
+        "text": "@tom_doerr THANK YOUUUUUU"
+      },
+      {
+        "handle": "ryo_uit2606",
+        "name": "Ryo",
+        "date": "2026-06-28",
+        "text": "@tom_doerr Animated GIFs for fitness seems like an interesting way to distract from the workout."
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HL3CzLVXQAAYBVV.jpg",
+      "localFilename": "2071025590145003686_1.jpg"
+    }
+  ]
+}

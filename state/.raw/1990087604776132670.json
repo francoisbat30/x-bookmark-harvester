@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:45.669Z",
+  "tweetId": "1990087604776132670",
+  "post": {
+    "url": "https://x.com/typelabo/status/1990087604776132670",
+    "author": {
+      "handle": "typelabo",
+      "name": "Type Labo©"
+    },
+    "date": "2025-11-16",
+    "text": "how to build striking palettes with bold red and deep gunmetal https://t.co/Bp0CNen6yU",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G542IK3XMAAmTXM.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1583,
+      "retweets": 104,
+      "replies": 3,
+      "views": 39426
+    },
+    "comments": []
+  }
+}

@@ -1,0 +1,814 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T16:30:50.391Z",
+  "tweetId": "2043675576452706814",
+  "post": {
+    "url": "https://x.com/MaziyarPanahi/status/2043675576452706814",
+    "author": {
+      "handle": "MaziyarPanahi",
+      "name": "Maziyar PANAHI"
+    },
+    "date": "2026-04-13",
+    "text": "Gemma 4 analyzes the video. Generates key questions. Calls Falcon Perception.\n\n\"Find all the people.\" 156 found.\n\"Detect only white cars.\" 8 found.\n\nA 26B model is running agentic multi-QA vision orchestration.\n\nThe models are running locally on a MacBook with MLX. No API. https://t.co/OXDV9kORGD\n\nRunning Falcon Perception model thanks to @TIIuae. \n\n68.0 Macro-F1 vs SAM 3's 62.3 on SA-Co. +13.4 on OCR-guided queries.\n\nBlog post: https://t.co/v4rPbtHm9S\n\nRunning via mlx-vlm by @Prince_Canuma.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2043673677238038528/vid/avc1/1920x1080/0AFqLdln6Sa_XO30.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 1533,
+      "retweets": 125,
+      "replies": 51,
+      "views": 153371
+    },
+    "comments": [
+      {
+        "handle": "LuckyPhelps",
+        "name": "Lucky Phelps",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi There are people building off-line AI security camera monitors that alert you when an event occurs. This is the future."
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@Prince_Canuma @dahou_yasser OCR with layout detection would be great for a model with that size! 🔥"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@LuckyPhelps the greatest thing ever for 100% privacy! it should be mandatory honestly with all these vibe-coded apps and their security issues! everyone's gonna see me in my home! 😂"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@ObinnaUkwueze i am home just dropping spells! https://t.co/HMOfTN6fTx"
+      },
+      {
+        "handle": "ObinnaUkwueze",
+        "name": "Obinna Ukwueze",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi This is sorcery."
+      },
+      {
+        "handle": "chapin_stuart",
+        "name": "Stuart Chapin",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi @TIIuae @Prince_Canuma This would work great with my webcam Mcp https://t.co/BVI8zioh0G"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@moskstraum21745 I love the 31B dense model, super smart. But i am not gonna lie, on my M2 Max which is 3 years old is pretty slow. The 26B is a MoE and it’s Q4 running on @lmstudio pretty fast and still without any issues. If i had mac studio or Nvidia Spark i would run the 31B"
+      },
+      {
+        "handle": "ktoprakucar",
+        "name": "Kemal Toprak Uçar",
+        "date": "2026-04-14",
+        "text": "@MaziyarPanahi @TIIuae @Prince_Canuma how could you run this model on your mac ? :D"
+      },
+      {
+        "handle": "IAmBuckeye17",
+        "name": "Chris Raper",
+        "date": "2026-04-14",
+        "text": "@MaziyarPanahi @engineerrprompt Apologies. I was thrown off because the post was made today, whereas the YouTube video was posted 6 days ago. I wasn't aware of prior posts about the same work."
+      },
+      {
+        "handle": "dahou_yasser",
+        "name": "Yasser Dahou",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi Finetuning code coming soon 😏"
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-13",
+        "text": "Real-time object segmentation in video powers tons of apps across domains. Here's a quick list:\n\n- Autonomous driving: Instantly spots pedestrians, vehicles, and obstacles for safer navigation.\n- Surveillance/security: Flags intruders or anomalies in live feeds for instant alerts.\n- Sports analytics: Tracks players, balls, and equipment for real-time stats and highlights.\n- Retail: Monitors shelves and customers for inventory or theft prevention.\n- Robotics/warehousing: Guides arms to pick/avoid items on conveyor belts.\n- Healthcare: Analyzes endoscopic or surgical videos to highlight tissues in real time.\n- AR/VR: Overlays digital info on moving objects for immersive experiences.\n- Traffic management: Detects congestion or accidents from city cams.\n\nRuns locally like your Gemma 4 demo—huge for edge devices!"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@OtterThatCodes This is M2 Max, 3 years old laptop"
+      },
+      {
+        "handle": "moskstraum21745",
+        "name": "moskstraumen",
+        "date": "2026-04-13",
+        "text": "@ivanfioravanti @MaziyarPanahi @lmstudio Well, it's slow at PP. \nFor generation, it goes at a very acceptable 22 t/s (Unsloth q4)."
+      },
+      {
+        "handle": "thestreamingdev",
+        "name": "thestreamingdev()",
+        "date": "2026-04-13",
+        "text": "@OtterThatCodes @MaziyarPanahi I got this running on a 16GB ram MacBook no issue you probably can get away with 8GB ram https://t.co/2lRFqdgoft"
+      },
+      {
+        "handle": "ivanfioravanti",
+        "name": "Ivan Fioravanti ᯅ",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi @moskstraum21745 @lmstudio 31B is slow even on M3 Ultra, unified memory shines with MoE. In M5 Ultra we trust!"
+      },
+      {
+        "handle": "im_yeyito",
+        "name": "Yeyito",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi this is exactly the kind of local multimodal stack that feels real to me. not one giant magical model, but a reasoning model delegating perception to a smaller specialized model and doing it all on-device. way more actionable than another cloud demo"
+      },
+      {
+        "handle": "JoePro",
+        "name": "JoePro",
+        "date": "2026-04-14",
+        "text": "@MaziyarPanahi Ahhh. Thats sweet.  The collaboration between the two is really cool.  I like how it's identifying in a chaotic scene.  Shows true skill over identifying a bowl of fruit or something.  Nice."
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-14",
+        "text": "@JoePro So the vision segmentations are done by Gemma 4 calling Falcon Perception model. Which is meant for this task. I don’t believe for generic videos we need to fine-tune gemma unless the scene contains objects the model has never seen before"
+      },
+      {
+        "handle": "JoePro",
+        "name": "JoePro",
+        "date": "2026-04-14",
+        "text": "@MaziyarPanahi Meant fine tuning.  Really.  That is impressive.  \n\nWas curious if fine tuning was needed as I don't believe Mac's can do that.  I could be wrong and have honestly been wanting the unified memory Mac's have.  Cool video!"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-14",
+        "text": "@JoePro Yeah the final model they released. No fine-tuning. It can analyze the video and make some questions and call some tools"
+      },
+      {
+        "handle": "JoePro",
+        "name": "JoePro",
+        "date": "2026-04-14",
+        "text": "@MaziyarPanahi Was this done with a pretrained Gemma 4?"
+      },
+      {
+        "handle": "zhangchn",
+        "name": "zhang 🍒.🌰.",
+        "date": "2026-04-14",
+        "text": "@MaziyarPanahi gemma4 could generate bbox output, right?"
+      },
+      {
+        "handle": "LeadEscapeGoat",
+        "name": "EscapeGoat",
+        "date": "2026-04-14",
+        "text": "@MaziyarPanahi I have hope for a project now. \n\nThank you"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-14",
+        "text": "@hbcbh1999 It does, but i am nit gonna lie the laptop does get hot! 😂 i recommend a mac mini or studio or any desktop station"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-14",
+        "text": "@bywayofmj @grok Nice!"
+      },
+      {
+        "handle": "im_yeyito",
+        "name": "Yeyito",
+        "date": "2026-04-14",
+        "text": "@MaziyarPanahi yeah exactly. the coordinator can stay relatively small if it knows when to hand perception off to the right specialist. that feels way more real to me than forcing one giant model to do everything itself"
+      },
+      {
+        "handle": "bywayofmj",
+        "name": "MJ 🇯🇲 🇺🇸 🇯🇵",
+        "date": "2026-04-14",
+        "text": "@MaziyarPanahi @grok how do i start setting this up locally with an M4 Pro 24GB running Tahoe?"
+      },
+      {
+        "handle": "engineerrprompt",
+        "name": "Prompt",
+        "date": "2026-04-14",
+        "text": "@IAmBuckeye17 @MaziyarPanahi No, the video was actually inspired by this post :)"
+      },
+      {
+        "handle": "wedietrying",
+        "name": "graxa",
+        "date": "2026-04-14",
+        "text": "@IAmBuckeye17 @MaziyarPanahi @engineerrprompt how about you appreciate the work these guys are doing and not be that guy... Look at the date of this post below. https://t.co/DAxySkM9EO"
+      },
+      {
+        "handle": "hbcbh1999",
+        "name": "Frankenstein (Hao)",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi truly awesome. will local setup support long job?"
+      },
+      {
+        "handle": "Prince_Canuma",
+        "name": "Prince Canuma",
+        "date": "2026-04-13",
+        "text": "@dahou_yasser @MaziyarPanahi Can’t wait, it would be would awesome to finetune to various use cases\n\nMaybe even OCR 😜"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@KarnikShreyas Try it locally, you’re gonna have fun"
+      },
+      {
+        "handle": "KarnikShreyas",
+        "name": "Shreyas Karnik",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi Really cool!"
+      },
+      {
+        "handle": "angeldzzz23",
+        "name": "Angel",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi Will have to try this. Got it to run on a Mac app of mine and I’m amazed to how good it works for basic stuff"
+      },
+      {
+        "handle": "dk8996",
+        "name": "Dimitry Kudryavtsev",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi Looks like it had a problem finding motorcycles. Still very impressive."
+      },
+      {
+        "handle": "MSuperbadr",
+        "name": "Nobody",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi @lmstudio What do i need to have it run agentic tasks, ollama, lmstudio and a bridge on top or just lmstudio?"
+      },
+      {
+        "handle": "mantis5x5",
+        "name": "Mantis",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi For that training we used 4 x RTX Pro 6000 for speed alone. But our edge device right now running this is a minisforum MS-02 295HX with an RTX Pro 2000 SFF. @Hi_MINISFORUM @NVIDIAAI"
+      },
+      {
+        "handle": "IAmBuckeye17",
+        "name": "Chris Raper",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi Seems like you are claiming the work of @engineerrprompt?\nhttps://t.co/MtOPrMLZ3x"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@DustdrifterX please share some on youtube that go well with demos, i'll use them next, i promise"
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-13",
+        "text": "@GrokProduct @MaziyarPanahi Nein, leider nicht – bei M3 MacBooks ist der RAM fest verlötet und nicht upgradbar. Du bräuchtest ein neues Modell mit mindestens 32 GB Unified Memory für das Setup (mit 8 GB wird’s extrem langsam oder gar nicht laufen). 😅"
+      },
+      {
+        "handle": "DustdrifterX",
+        "name": "GalacticGazer_",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi What a poor taste in music..."
+      },
+      {
+        "handle": "GrokProduct",
+        "name": "Grok products",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi @grok welches macbook brauche ich mindestens dafür?"
+      },
+      {
+        "handle": "mantis5x5",
+        "name": "Mantis",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi Sure, let me put together a longer thread, I will tag you."
+      },
+      {
+        "handle": "mantis5x5",
+        "name": "Mantis",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi Falcon next."
+      },
+      {
+        "handle": "mantis5x5",
+        "name": "Mantis",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi Heres what we did SAM 3.1 + Gemma 4  generated: 367K COCO annotations across 5,316 frames - 300K person + 32K vehicle + 35K bag detections  Per-person natural language descriptions (clothing, items, age range, body language) Scene-level behavioral summaries."
+      },
+      {
+        "handle": "mantis5x5",
+        "name": "Mantis",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi Yep! Love it. Room for both in our stack!"
+      },
+      {
+        "handle": "mantis5x5",
+        "name": "Mantis",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi Love this, we have been benchmarking this vs SAM3.1 not on performance but on capability GEMMA 4 is here to stay... for now :)"
+      },
+      {
+        "handle": "thestreamingdev",
+        "name": "thestreamingdev()",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi @OtterThatCodes I’m sure next week we will have another model we are all raving about 😅"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@robrichardson_ @im_yeyito These are tiny models to be honest. So they’re perfect for a laptop that is three years old but if you really want low latency, you wouldn’t want any of these things on a three-year old laptop, you get a decent rig but important thing is that it’s gonna be local."
+      },
+      {
+        "handle": "robrichardson_",
+        "name": "Rob Richardson",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi @im_yeyito The local angle is interesting but I keep coming back to latency. Calling out to a specialized model mid-task adds real overhead. Do the round trips compound enough to matter for longer workflows?"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@BillW22441 Cool! But i am not sure Qwen3.6 is 26B, might be the 30B A3B. Or did they say the size?"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@Mrflow91583526 So many! In so many domains. Let’s have @grok list some use cases for real-time objects segmentation in a video"
+      },
+      {
+        "handle": "BillW22441",
+        "name": "Bill Williams",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi Right now I'm listening to a song entitled \"Anything You Can Do, I Can Do Better\" being played by Qwen 3.6 26B"
+      },
+      {
+        "handle": "BillW22441",
+        "name": "Bill Williams",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi Right now I'm listening to a song entitled \"Anything You Can Do, I Can Do Better\" being played by Qwen 3.6 26B"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@thestreamingdev @OtterThatCodes Awesome! I think i am ready now to move on to E4B model and replace the 26b. I wanted to use the best i could locally handle, see what does “best” look like for my workflow before going lower. Hopefully, everything stays the same"
+      },
+      {
+        "handle": "thestreamingdev",
+        "name": "thestreamingdev()",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi @OtterThatCodes https://t.co/QMwAsl5Y0z yeah it would probably be better to try with this smaller model"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@moskstraum21745 @lmstudio Oh we’ve been all waiting for that one! When they announce and when then start shipping seems unknown unfortunately"
+      },
+      {
+        "handle": "moskstraum21745",
+        "name": "moskstraumen",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi @lmstudio M5 Ultra will help a lot with its neural accelerators (\"tensor cores\") 😉"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@moskstraum21745 @lmstudio Damn! So maybe R6000 Pro 😆"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@Mizter_Brown It can, SAM and Falcon can be used on realtime. But not sure if they visually impaired is on the go or behind the station."
+      },
+      {
+        "handle": "iabom",
+        "name": "tarun bana",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi Insane levels of surveillance tech, i guess u still need the satellite, but government already got that"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@OtterThatCodes I have 96G, but you really don’t need that much. 16, or 24. If you can get 48G mean you are very comfortable"
+      },
+      {
+        "handle": "Mizter_Brown",
+        "name": "Uncle Joe",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi Could this be deployed to run in real time to help with navigation for the visually impaired by detecting objects? And is it only prompt-based?"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@thestreamingdev @OtterThatCodes Wow that’s super cool! 16G is like minimum memory! But it means the 8G nee macbook cannot run these things"
+      },
+      {
+        "handle": "OtterThatCodes",
+        "name": "Sans Nom",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi Thanks. How much ram does it have?"
+      },
+      {
+        "handle": "moskstraum21745",
+        "name": "moskstraumen",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi @lmstudio You would be quite unhappy with the 31B dense on a Spark 😏. It would be slow as hell at decoding.\n\nJust out of curiosity, which q4 are you using for the moe? (E.g. UD gguf, UD mlx, APEX, plain uniform mlx's q4, etc..)"
+      },
+      {
+        "handle": "OtterThatCodes",
+        "name": "Sans Nom",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi What are the specs on the macbook?"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@chapin_stuart @TIIuae @Prince_Canuma give it a shot! let me know how it went"
+      },
+      {
+        "handle": "ivanfioravanti",
+        "name": "Ivan Fioravanti ᯅ",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi @moskstraum21745 @lmstudio True! 🚀"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@ivanfioravanti @moskstraum21745 @lmstudio it's like going from gpt-4 or gpt-4.5 to these new gpt-5.x models!!!"
+      },
+      {
+        "handle": "ivanfioravanti",
+        "name": "Ivan Fioravanti ᯅ",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi @moskstraum21745 @lmstudio True!"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@ivanfioravanti @moskstraum21745 @lmstudio Thank you! I think we got so used to MoE locally, it might be hard for us to go back to dense models of the same size! Haha"
+      },
+      {
+        "handle": "moskstraum21745",
+        "name": "moskstraumen",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi Have you made side-by-side comparisons between 26B and 31B dense?\nFor this task, of course."
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@im_yeyito This is the way! Specialized models being called by a local model good in agentic workflow"
+      },
+      {
+        "handle": "HKalaichev",
+        "name": "Heorhii Kalaichev",
+        "date": "2026-04-15",
+        "text": "@MaziyarPanahi It’s quite impressive how modern Mac computers can effectively run modern big models. I’m just curious, why do we need this technology stack? We can use a single DETR model to track cars, humans, and other objects."
+      },
+      {
+        "handle": "ItaiWeiser",
+        "name": "Itai Weiser",
+        "date": "2026-04-15",
+        "text": "@MaziyarPanahi This is truly amazing"
+      },
+      {
+        "handle": "TwisstedToast",
+        "name": "twissted",
+        "date": "2026-04-14",
+        "text": "@MaziyarPanahi What do you gain from this"
+      },
+      {
+        "handle": "coinkong",
+        "name": "Coinkong",
+        "date": "2026-04-14",
+        "text": "@MaziyarPanahi truly awesome. will local setup support long job?"
+      },
+      {
+        "handle": "MrBowtie007",
+        "name": "MrBowtie.crypto",
+        "date": "2026-04-14",
+        "text": "@MaziyarPanahi @TIIuae @Prince_Canuma What kind of Mac do you have ?"
+      },
+      {
+        "handle": "Madhav_2077",
+        "name": "Madhav Agarwal",
+        "date": "2026-04-14",
+        "text": "@MaziyarPanahi Works on a frame or whole video?"
+      },
+      {
+        "handle": "NigelHiggs7",
+        "name": "Nigel Higgs",
+        "date": "2026-04-14",
+        "text": "@MaziyarPanahi My experience with these types of projects is they break really easily when you run them on 1000 examples. Like super simple obvious examples will break and your only solution is to keep prompting and it’s kinda a nightmare to work with."
+      },
+      {
+        "handle": "LenaWithAI",
+        "name": "LenaWithAI",
+        "date": "2026-04-14",
+        "text": "@MaziyarPanahi local 26b models don't hallucinate that many white cars without a server farm.\nthis feels like the classic demo where they pre-select the frames before hitting record"
+      },
+      {
+        "handle": "24AInor",
+        "name": "24AIGlobal",
+        "date": "2026-04-14",
+        "text": "@MaziyarPanahi MLX on Apple Silicon is quietly becoming the real story for local inference. that pipeline running on a MacBook a year ago would've been a datacenter problem."
+      },
+      {
+        "handle": "millerscoded",
+        "name": "Raghav",
+        "date": "2026-04-14",
+        "text": "@MaziyarPanahi 26B locally on a MacBook? How does that scale for actual enterprise use?"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-14",
+        "text": "@zhangchn I think so, but it won’t be as fast nor accurate. It’s a vlm, not really meant for tasks like this. (You have no idea how fast some of these objects move in the video)"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-14",
+        "text": "@IAmBuckeye17 @engineerrprompt You are correct to question it, the video on youtube should have given credits to all the other resources it has shown in its production. You can’t just recycle people’s works without credit somewhere else. Should input an ugly watermark all over my videos? Perhaps."
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-14",
+        "text": "The 26B Gemma 4 (A4B MoE variant) in that demo runs locally via MLX on Apple Silicon.\n\nMinimum spec for 4-bit quantized inference (the version shown): 16 GB unified memory on an M1/M2/M3/M4 MacBook (or equivalent). It loads but runs tight with vision tasks—expect some swap and slower tokens/sec (~6-15 t/s).\n\nFor smooth multimodal orchestration (like the video demo): 24 GB+ unified memory recommended. No discrete GPU needed; MLX handles it on-device with ~15-18 GB peak usage."
+      },
+      {
+        "handle": "GrumpyTechChad",
+        "name": "GrumpyTechChad",
+        "date": "2026-04-14",
+        "text": "@MaziyarPanahi @grok what is the minimum spec required to run this model?"
+      },
+      {
+        "handle": "sumonkabir_ai",
+        "name": "Sumon Kabir",
+        "date": "2026-04-14",
+        "text": "@MaziyarPanahi Insightful take on perception tech; progress ahead"
+      },
+      {
+        "handle": "WestRay257614",
+        "name": "West Ray",
+        "date": "2026-04-14",
+        "text": "@MaziyarPanahi Did you send all frames to the gemma4?"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-14",
+        "text": "@LeadEscapeGoat You are welcome! Have fun building it"
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-14",
+        "text": "Hey bywayofmj, easy start on your M4 Pro 24GB (Tahoe/macOS) with MLX—no API needed.\n\n1. Install Ollama (auto-uses MLX backend for Apple Silicon): \nbrew install --cask ollama \nThen: ollama pull gemma4:9b (or quantized 27b-4bit if it fits—test first, 24GB handles ~13GB VRAM usage).\n\n2. For vision/agentic like the demo (Gemma 4 + Falcon Perception): \npip install mlx-vlm \nUse mlx-community models on HF: \nfrom mlx_vlm import load, generate \nmodel, processor = load(\"mlx-community/gemma-4-27b-it-4bit\") \n\nRun video analysis via code from mlx-examples repo (git clone https://t.co/VwAAlORb70). \n\nStart with basic generate()—scales to 26B fine quantized. Ping if stuck!"
+      },
+      {
+        "handle": "aiseomastery",
+        "name": "AI Mastery Guide",
+        "date": "2026-04-14",
+        "text": "@MaziyarPanahi Local 26B model doing this in real time… the gap between 'research demo' and 'runs on your laptop' closed faster than anyone expected."
+      },
+      {
+        "handle": "LuckyPhelps",
+        "name": "Lucky Phelps",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi Btw - time to wash those socks 🧦"
+      },
+      {
+        "handle": "gregdotcomm",
+        "name": "Greg Dot Com",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi its dumb as shit in open code i can tell ya that, waste of time"
+      },
+      {
+        "handle": "paulmarin90",
+        "name": "Paul Marin",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi @Prince_Canuma @dahou_yasser I find the Qwen3 and 3.5s a lot more precise at layout detection than the Gemmas. Qwen3.5s 27b dense and 122b-a10b are quite strong. I wonder if precision can be fine tuned for, given that the Gemmas have a hard cap for image tokens."
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@angeldzzz23 these new models in 2026 do amazing stuff locally! i am just having fun over here!"
+      },
+      {
+        "handle": "mantis5x5",
+        "name": "Mantis",
+        "date": "2026-04-13",
+        "text": "Slower but we still have not tested larger batches. H100s are busy right now, as soon as we have idle time or Runpod opens up some more availability I can test. We’re also pushing hard for better performance on MLX specifically pushing some of the inference to the local client on our Mac OS app. But more testing needed. More devs needed 😬"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@dk8996 it did miss some. but i guess with a fine-tune that could be done easily. i am guessing there were not a lot of satellite and aerial images in the training https://t.co/oxRi4Zt07R"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@MSuperbadr @lmstudio so the @lmstudio is serving the gemma 4, i have a lightweight agent loop in python that calls gemma 4 api with tool calling and .... one of the the tools is Falcon Perceptron and what it should do"
+      },
+      {
+        "handle": "no_la_ves_no",
+        "name": "La IA te va a reemplazar!",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi re falso, que tenes? acceso a los satelites del pentagono en tiempo real??"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@MSuperbadr Gemma 4 26b is running on @lmstudio"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@mantis5x5 @Hi_MINISFORUM @NVIDIAAI love the specs!!! how fast was RTX PRO 6k compared to H100/H200?"
+      },
+      {
+        "handle": "MSuperbadr",
+        "name": "Nobody",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi Is this running off only omlx? I was running the vanilla 31B and it kept begging me to add a harness on top."
+      },
+      {
+        "handle": "Liqui_Sniper",
+        "name": "Liquidity Sniper",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi Insane results, 156 people and only 8 white cars. Running a 26B agent locally on a MacBook with MLX and no API is straight-up next-level flex, mad respect."
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@dahou_yasser That would be dope!!!! 🔥 Very much looking forward to this"
+      },
+      {
+        "handle": "efim_rebrov",
+        "name": "Ef",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi У вас есть подробное руководство, как реализовать подобное самостоятельно? Заранее спасибо за помощь."
+      },
+      {
+        "handle": "ModernGrindTech",
+        "name": "Dave | Solo Dev",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi local 26B doing agentic vision orchestration on a macbook is wild to me. no api, no"
+      },
+      {
+        "handle": "sig_prime",
+        "name": "Signal Prime",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi hahahahahahahahahahahahahahaha\n(deep breath)\nhahahahahaahahahaahah"
+      },
+      {
+        "handle": "GrokProduct",
+        "name": "Grok products",
+        "date": "2026-04-13",
+        "text": "@grok @MaziyarPanahi @grok kann ich den ram bei meinem Macbook Pro M3 erhöhen? :-D Ich hab nur 8 GB"
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-13",
+        "text": "Für diesen Agentic-Vision-Setup (Gemma 4 26B + Falcon Perception via MLX, Video-Analyse lokal) reicht theoretisch ein MacBook Pro M2 Pro/Max oder neuer (M3/M4) mit 32–64 GB Unified Memory aus – quantisiert läuft’s dann flüssig genug. \n\nDer Ersteller (MaziyarPanahi) nutzt ein 3 Jahre altes MacBook Pro M2 Max mit 96 GB. Mit weniger (z. B. 16–24 GB) wird’s langsamer und heiß beim Video-Processing. Kein Cloud, alles offline!"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@mantis5x5 much appreciated! 🙏"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@mantis5x5 this model's gonna fly! you can batch way higher on this size"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@mantis5x5 Wow that’s impressive!!! Do you mind sharing your hardware specs and how long it took?"
+      },
+      {
+        "handle": "MoeinGhorshi",
+        "name": "Moe1n",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi @Luigi_Dintrono this use case is super interesting"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@mantis5x5 beautiful! haven't fine-tuned any of them yet, so not sure how easy it is to do that"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@mantis5x5 Falcon Perception is much smaller model compared to SAM 3.x model, but both are very capable in the features they are providing."
+      },
+      {
+        "handle": "Kamongravity",
+        "name": "Kam Cambyses",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi Palantir in making"
+      },
+      {
+        "handle": "Shone20918822",
+        "name": "Shone",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi What would be the best commercial use for this in your opinion?"
+      },
+      {
+        "handle": "newlinedotco",
+        "name": "💥 \\newline",
+        "date": "2026-04-13",
+        "text": "running a 26b vision-agent loop locally on mlx is the real benchmark for where desktop engineering is at. most people are still burning tokens on cloud credits for basic object detection while mlx is hitting the metal with zero latency\n\nthe orchestration is the hard part here. if you aren't using pydantic to enforce schema between the question generator and the perception tool the agent logic usually falls apart on the third or fourth recursive call. actually seeing the vision feedback loop happen without an api is a massive win for privacy-first dev workflows"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@thestreamingdev @OtterThatCodes hey, one can only hope! 🤗"
+      },
+      {
+        "handle": "tejalogs",
+        "name": "Teja",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi mlx is cool until someone asks it to run reliably for 1000 users at once"
+      },
+      {
+        "handle": "SuperMiche017",
+        "name": "NotSuperMiche17",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi find all motorcycles and it highlighted 1 when there are 10 more up the street? https://t.co/1kpeSvqWMM"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@techietaro Don’t know why but the German part scared me a little!"
+      },
+      {
+        "handle": "techietaro",
+        "name": "Taro Bushidō",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi This MLX implementation proves 26B vision models can handle complex automation tasks locally. Zero API calls. German firms are underestimating edge AI potential."
+      },
+      {
+        "handle": "BillW22441",
+        "name": "Bill Williams",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi Good point, it's actually 27B.  But all your base still belong to us."
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@grok @Mrflow91583526 Thank you Grok! 😊"
+      },
+      {
+        "handle": "Mrflow91583526",
+        "name": "Tito_krypto",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi @grok Yes pls, im confused as to what are those"
+      },
+      {
+        "handle": "Mrflow91583526",
+        "name": "Tito_krypto",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi Case use for this ?"
+      },
+      {
+        "handle": "MaziyarPanahi",
+        "name": "Maziyar PANAHI",
+        "date": "2026-04-13",
+        "text": "@iabom We tend to think for more positive use cases 😂"
+      },
+      {
+        "handle": "ApplyWiseAi",
+        "name": "Applywise-Ai",
+        "date": "2026-04-13",
+        "text": "@MaziyarPanahi 26b moe handling multi-qa vision local on mac? efficiency like that changes prototyping forever"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:47:59.228Z",
+  "tweetId": "2040059394126205233",
+  "post": {
+    "url": "https://x.com/outsource_/status/2040059394126205233",
+    "author": {
+      "handle": "outsource_",
+      "name": "Eric ⚡️ Building..."
+    },
+    "date": "2026-04-03",
+    "text": "BREAKING:🚨 NVIDIA just quantized Gemma 4 31B on Hugging Face 🔥\n\nNVFP4 compression = 4x smaller weights with frontier-level accuracy.  \n\n✅99.7% of baseline on GPQA\n(75.46% vs 75.71%).  \n📈256K context window.  \n🧐Multimodal (text + images + video).  \nvLLM-ready + Blackwell optimized.\n\nVRAM requirements:  \n\n⚡️Weights only: ~16–21 GB  \n🚀Everyday use: Runs on 24 GB GPUs  \n📈Full 256K context = 32 GB VRAM sweet spot (RTX 5090-class consumer GPUs)\n\nThis is the 31B-class frontier model you can actually run locally on a high-end rig. \n\nTry it today👉 https://t.co/0E6wO3PZN4",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HE-_ND6XoAE9fqF.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 3622,
+      "retweets": 372,
+      "replies": 85,
+      "views": 483092
+    },
+    "comments": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:46.043Z",
+  "tweetId": "1989717607767818438",
+  "post": {
+    "url": "https://x.com/theatashka/status/1989717607767818438",
+    "author": {
+      "handle": "theatashka",
+      "name": "Ata"
+    },
+    "date": "2025-11-15",
+    "text": "One of my favorite designs that I have ever created. https://t.co/TD8z7MUE8G",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G5zlVxmXUAA1zcH.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 656,
+      "retweets": 27,
+      "replies": 89,
+      "views": 22428
+    },
+    "comments": []
+  }
+}

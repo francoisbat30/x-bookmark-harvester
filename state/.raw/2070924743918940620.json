@@ -1,0 +1,142 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:15.604Z",
+  "tweetId": "2070924743918940620",
+  "post": {
+    "url": "https://x.com/HowToPrompt__/status/2070924743918940620",
+    "author": {
+      "handle": "HowToPrompt__",
+      "name": "How To Prompt"
+    },
+    "date": "2026-06-27",
+    "text": "someone open-sourced a tool that checks if any email address exists, without ever sending a single email.\n\nand it's 100% free and open-source. https://t.co/hzXMPBeHHN\n\nGitHub: https://t.co/qY3fnSETO0",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HL1nAYGbEAAshSf.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1040,
+      "retweets": 75,
+      "replies": 13,
+      "views": 91425
+    },
+    "comments": [
+      {
+        "handle": "BarnB",
+        "name": "дядя миша / uncle Mischa",
+        "date": "2026-06-28",
+        "text": "@HowToPrompt__ hereby I give my version also to Open Source\neverybody may use it free of charge 😉 https://t.co/GwE2A8Tb8v"
+      },
+      {
+        "handle": "SuerUser37224",
+        "name": "User Suer",
+        "date": "2026-06-28",
+        "text": "@HowToPrompt__ what is the point for this project? you still have to send an email to them to check if thats the right person, this is completely useless abstraction level to write a \"correct\" code"
+      },
+      {
+        "handle": "idemasler",
+        "name": "adem işler",
+        "date": "2026-06-28",
+        "text": "@HowToPrompt__ “Without sending an email” is useful for filtering obvious bad addresses, but it can’t be 100% accurate.\nMany mail servers use catch-all, greylisting, or intentionally hide whether a mailbox exists."
+      },
+      {
+        "handle": "asynchronizd",
+        "name": "Bijoy",
+        "date": "2026-06-28",
+        "text": "@HowToPrompt__ They must be using DNS. It's not a good idea to use dns."
+      },
+      {
+        "handle": "simonwesterlund",
+        "name": "Simon Westerlund",
+        "date": "2026-06-28",
+        "text": "@asynchronizd @HowToPrompt__ It's only one of the methods https://t.co/a4FVUG5wdk"
+      },
+      {
+        "handle": "LordBallas",
+        "name": "Mike Ballas",
+        "date": "2026-06-28",
+        "text": "@HowToPrompt__ Yea and then you figure out you need proxies to run it and they try and sell it to you"
+      },
+      {
+        "handle": "SuerUser37224",
+        "name": "User Suer",
+        "date": "2026-06-28",
+        "text": "@vikasdfghjl @HowToPrompt__ point of what?"
+      },
+      {
+        "handle": "vikasdfghjl",
+        "name": "Vikas",
+        "date": "2026-06-28",
+        "text": "@SuerUser37224 @HowToPrompt__ I'm asking this normally, as you asked what's the point of this?"
+      },
+      {
+        "handle": "anonfunct",
+        "name": "Deploy & Pray Inc.",
+        "date": "2026-06-28",
+        "text": "@HowToPrompt__ Is jack@reacher.email still available?"
+      },
+      {
+        "handle": "BarnB",
+        "name": "дядя миша / uncle Mischa",
+        "date": "2026-06-28",
+        "text": "@snipget @HowToPrompt__ 😂😂😂😂😂😂😂😂"
+      },
+      {
+        "handle": "sebuzdugan",
+        "name": "Sebastian Buzdugan",
+        "date": "2026-06-28",
+        "text": "@HowToPrompt__ saw many catch-all domains accept every address so email existence checks become a guess"
+      },
+      {
+        "handle": "SuerUser37224",
+        "name": "User Suer",
+        "date": "2026-06-28",
+        "text": "@vikasdfghjl @HowToPrompt__ lol why are you asking this to me? what did i say?"
+      },
+      {
+        "handle": "vikasdfghjl",
+        "name": "Vikas",
+        "date": "2026-06-28",
+        "text": "@SuerUser37224 @HowToPrompt__ do you know about Email Bouncing? and how svcs like AWS SES handles Email bouncing ?"
+      },
+      {
+        "handle": "snipget",
+        "name": "Snipget",
+        "date": "2026-06-28",
+        "text": "For those that are interested in this topic, and may have the perception that checks like this will tell you the email will get to the person intended, here is reality.\n\nAn email address can be evaluated across multiple independent layers. Each layer increases confidence, but no combination of these checks can definitively prove who will ultimately receive and read the message.\n\nLayer 1: Domain Validation (DNS)\n- Does the domain exist?\n- Does the domain publish MX records?\n- Does the domain publish SPF records?\n- Does the domain publish DKIM records?\n- Does the domain publish a DMARC policy?\n- Is DNSSEC enabled?\n\nThese checks establish that the domain is real and configured to send and receive email.\n\nLayer 2: Mail Infrastructure (Network)\n- Is the MX server reachable?\n- Does it respond to SMTP?\n- Does it advertise STARTTLS?\n- Is the TLS certificate valid?\n- Does reverse DNS (PTR) exist?\n- Does forward-confirmed reverse DNS (FCrDNS) validate correctly?\n\nThese checks establish that the mail system is functioning and professionally configured.\n\nLayer 3: Domain Reputation\n- Domain age\n- Domain expiration date\n- Registrar reputation\n- Recently registered or transferred\n- Suspicious or uncommon TLD\n- Presence on known spam or abuse blocklists\n\nLayer 4: Email Address Analysis (Code)\n\nEvaluate the local-part (before the @). Classify whether the address appears to be:\n\n- Generic\n- Catch-all\n- No-reply\n- Functional role (support, sales, billing, accounting)\n- Distribution group\n- Individual person\n- Randomly generated\n- High entropy\n- Disposable email provider\n\nLayer 5: Organization Validation\n\n- Website exists\n- HTTPS configured\n- Valid TLS certificate\n- Contact information published\n- Privacy policy\n- Company information\n- Public business presence\n\nThese checks establish that the email domain appears to belong to a real organization.\n\nLayer 6: Pattern Analysis\n\n- Typosquatting\n- Homograph attacks\n- Excessive numbers\n- Excessive hyphens\n- Long randomized domains\n- Lookalike brands\n- Recently registered impersonation domains\n\nThese checks identify domains intentionally designed to deceive.\n\nLayer 7: Optional SMTP Validation\n\nWhere supported by the receiving mail server:\n- SMTP banner inspection\n- EHLO capability analysis\n- Recipient validation (if permitted)\n- VRFY/EXPN support (rare)\n- Open relay detection\n\nThese checks provide additional technical confidence without actually sending an email.\n\nThe Fundamental Limitation\n\nEven if every validation above succeeds, there is still one question that cannot be answered through technical inspection alone:\n\nIs the person I intend to communicate with actually the person who owns, controls, will receive, and will open this mailbox?\n\nNone of these layers can determine:\n\n- Whether the mailbox has changed owners.\n- Whether multiple people have access to the mailbox.\n- Whether the mailbox is forwarded elsewhere.\n- Whether it is monitored by assistants, contractors, or automated systems.\n- Whether the intended individual still uses the address.\n- Whether the intended recipient is the one who will ultimately read the message.\n\nThese validation layers establish confidence in the email infrastructure, the domain, and the address itself. They do not establish confidence in the identity of the human being behind the mailbox.\n\nUltimately, an email address identifies a mailbox, not a verified person."
+      },
+      {
+        "handle": "cyberforget",
+        "name": "CyberForget",
+        "date": "2026-06-28",
+        "text": "@HowToPrompt__ Hmm trying to think a cool use case.\n\nMaybe getting something like elvispresly@gmail.com\n\nOr some fresh og users that look cool on your CV but i am not sure how much of a flex it is."
+      },
+      {
+        "handle": "leocade_333",
+        "name": "zahir",
+        "date": "2026-06-28",
+        "text": "@HowToPrompt__ That’s a good thing"
+      },
+      {
+        "handle": "azemsahinn",
+        "name": "Azem Şahin",
+        "date": "2026-06-28",
+        "text": "@HowToPrompt__ i swear i saw it in my dream, i was trying to do that"
+      },
+      {
+        "handle": "KritishIoT",
+        "name": "Kritish Mohapatra",
+        "date": "2026-06-28",
+        "text": "@HowToPrompt__ Completed 100 days 100 iot projects with Micropython \nhttps://t.co/pALpXnczaB https://t.co/hJ3Dc8Xgxl"
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HL1nAYGbEAAshSf.jpg",
+      "localFilename": "2070924743918940620_1.jpg"
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+# X Bookmark taxonomy — managed by /bookmark-tags skill
+tags:
+  autonomous-agents: {}
+  agent-harness: {}
+  open-source: {}
+  benchmarks: {}
+  azure-ai: {}
+  certification: {}
+  microsoft: {}
+  speculative-decoding: {}
+  mlx: {}
+  local-inference: {}
+  qwen: {}
+  apple-silicon: {}
+  copilot-cli: {}
+  agentic-coding: {}
+  github: {}
+  remote-agent: {}
+  gemma: {}
+  vlm: {}
+  video-analysis: {}
+  figma-plugin: {}
+  design-tools: {}
+  mockups: {}
+  3d: {}
+  shadows: {}
+  ui-design:
+    aliases:
+      - ux-design
+  resource-list: {}
+  ai-tools: {}
+  tech-stack: {}
+  workflow: {}
+  figma: {}
+  color-palette: {}
+  design-inspiration:
+    aliases:
+      - design-reference
+      - concept
+      - poster-design
+  visual-reference: {}
+  photography: {}
+  travel: {}
+  branding:
+    aliases:
+      - brand-direction
+  screen-recording: {}
+  architecture: {}
+  social-commentary: {}
+  data-chart: {}
+  education: {}
+  google-research: {}
+  edtech: {}
+  reference:
+    aliases:
+      - link
+      - mention
+  logo-design: {}
+  portfolio:
+    aliases:
+      - showcase
+  3d-generation: {}
+  generative-ai:
+    aliases:
+      - genai
+  world-models: {}
+  world-labs: {}
+  rag: {}
+  llm: {}
+  ml-interview: {}
+  hallucinations: {}
+  debugging: {}
+  business-ideas: {}
+  entrepreneurship: {}
+  ideation: {}
+  brand-identity:
+    aliases:
+      - brand-guidelines
+  evaluation: {}
+  quality-assessment: {}
+  feel-good: {}
+  video: {}
+  personal: {}
+  video-generation: {}
+  character-animation: {}
+  alibaba: {}
+  wan-2-2: {}
+  meme:
+    aliases:
+      - humor
+  minimalism: {}
+  chat-ui: {}
+  dashboard: {}
+  robotics: {}
+  enterprise-ux: {}
+  image-generation: {}
+  prompting:
+    aliases:
+      - prompt-engineering
+  nano-banana:
+    aliases:
+      - gemini-nano-banana
+  character-design: {}
+  animation: {}
+  ios: {}
+  mobile-design: {}
+  typography: {}
+  fonts: {}
+  gpt-5: {}
+  ai-energy: {}
+  sustainability: {}
+  infrastructure: {}
+  economics: {}
+  europe: {}
+  market-data: {}
+  statistics: {}
+  color-theory: {}
+  design-principles: {}
+  onboarding: {}
+  audio-ui: {}
+  elevenlabs: {}
+  ui-components: {}
+  anthropic: {}
+  context-engineering: {}
+  ai-agents:
+    aliases:
+      - multi-agent
+      - parallel-agents
+      - personal-assistant
+  web-design: {}
+  google: {}
+  voice-search: {}
+  speech-to-retrieval: {}
+  nlp: {}
+  search: {}
+  hardware: {}
+  fpga: {}
+  openai: {}
+  ai-chips: {}
+  career: {}
+  hero-section: {}
+  tutorial: {}
+  veo-3-1: {}
+  google-gemini:
+    aliases:
+      - gemini
+  product-launch: {}
+  chatgpt: {}
+  perplexity: {}
+  ai-productivity: {}
+  workplace-ai: {}
+  prompt-injection: {}
+  ai-browser: {}
+  comet: {}
+  brave: {}
+  claude-code: {}
+  product-management: {}
+  course:
+    aliases:
+      - courses
+  privacy: {}
+  duckduckgo: {}
+  data-removal: {}
+  browser: {}
+  system-prompt: {}
+  chatgpt-atlas: {}
+  product-review: {}
+  icons: {}
+  geospatial: {}
+  earth-ai: {}
+  ai-models: {}
+  copilot: {}
+  product-update: {}
+  claude: {}
+  model-comparison: {}
+  pricing: {}
+  finance: {}
+  client-work: {}
+  public-safety: {}
+  mushrooms: {}
+  health: {}
+  scraping: {}
+  redesign: {}
+  midjourney: {}
+  style-reference: {}
+  admin-template: {}
+  photos: {}
+  notebooklm: {}
+  swiss-design: {}
+  smart-contracts: {}
+  red-team: {}
+  visual-style: {}
+  email: {}
+  developer-tools:
+    aliases:
+      - tools
+  exa: {}
+  embeddings: {}
+  people-search: {}
+  retrieval: {}
+  motion-design: {}
+  design-resources: {}
+  asset-pack: {}
+  promotion: {}
+  backgrounds: {}
+  gradients: {}
+  transcription: {}
+  audio: {}
+  learnlm: {}
+  startups: {}
+  resources: {}
+  process: {}
+  design-tutorial: {}
+  note-taking: {}
+  self-hosted: {}
+  observability: {}
+  landing-page: {}
+  copywriting: {}
+  cost-optimization: {}
+  competition: {}
+  on-device: {}
+  whisper: {}
+  translation: {}
+  kanban: {}
+  productivity: {}
+  desktop-app: {}
+  replit: {}
+  mobile: {}
+  x-twitter: {}
+  recommendation-algorithm: {}
+  transparency: {}
+  ollama: {}
+  voice-ai: {}
+  nvidia: {}
+  full-duplex: {}
+  speech-model: {}
+  funding: {}
+  kimi: {}
+  cloud: {}
+  deepseek: {}
+  ocr: {}
+  unsloth: {}
+  macos: {}
+  ai-monitoring: {}
+  generative-art: {}
+  visualization: {}
+  webmcp: {}
+  mcp: {}
+  chrome: {}
+  web-standards: {}
+  minimax: {}
+  quantization: {}
+  seo: {}
+  nvfp4: {}
+  rtx-6000: {}
+  openclaw: {}
+  lyria-3: {}
+  music-generation: {}
+  research: {}
+  french:
+    aliases:
+      - france
+  cybersecurity:
+    aliases:
+      - security
+  fraud: {}
+  banking: {}
+  ficoba: {}
+  product-safety: {}
+  headphones: {}
+  bisphenols: {}
+  ai-market: {}
+  adoption: {}
+  opinion: {}
+  tco: {}
+  claude-md: {}
+  osint: {}
+  geopolitics: {}
+  intelligence: {}
+  small-models: {}
+  discord: {}
+  jan: {}
+  rtx-3090: {}
+  open-data: {}
+  government: {}
+  exolabs: {}
+  multi-device: {}
+  llamacpp: {}
+  optimization: {}
+  markitdown: {}
+  document-processing: {}
+  vibe-coding: {}
+  prototyping: {}
+  fintech: {}
+  learning: {}
+  moe: {}
+  hands-on: {}
+  clawhub: {}
+  ultrathink: {}
+  extended-thinking: {}
+  business: {}
+  cursor: {}
+  project-structure: {}
+  skills: {}
+  hooks: {}
+  ai-labor: {}
+  job-automation: {}
+  beads: {}
+  issue-tracking: {}
+  dag: {}
+  agent-memory: {}
+  data-visualization: {}
+  web-app: {}
+  botany: {}
+  interactive: {}
+  statusline: {}
+  customization: {}
+  piracy: {}
+  torrents: {}
+  yggtorrent: {}
+  guide: {}
+  notch: {}
+  fun: {}
+  testing: {}
+  tdd: {}
+  sprite-animation: {}
+  pixel-art: {}
+  gpt-image: {}
+  game-dev: {}
+  template: {}
+  trading: {}
+  hyperliquid: {}
+  oil: {}
+  nemotron: {}
+  long-context: {}
+  real-estate: {}
+  audit: {}
+  copropriete: {}
+  auto-mode: {}
+  permissions: {}
+  polymarket: {}
+  sports-betting: {}
+  ml: {}
+  real-time: {}
+  mlx-audio: {}
+  tts: {}
+  asr: {}
+  supply-chain: {}
+  npm: {}
+  axios: {}
+  malware: {}
+  lead-generation: {}
+  sales: {}
+  seedance: {}
+  cinematic: {}
+  capcut: {}
+  higgsfield: {}

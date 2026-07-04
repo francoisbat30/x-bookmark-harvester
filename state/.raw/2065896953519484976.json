@@ -1,0 +1,118 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:24.901Z",
+  "tweetId": "2065896953519484976",
+  "post": {
+    "url": "https://x.com/durov/status/2065896953519484976",
+    "author": {
+      "handle": "durov",
+      "name": "Pavel Durov"
+    },
+    "date": "2026-06-13",
+    "text": "We now support rich formatting for all chatbots.\n\nTables, nested lists, inline media, formulas, headers and more — right in Telegram messages.\n\n🔨 Start building! Docs: https://t.co/zgzPOOUJF5 https://t.co/H9z3bkNCkX",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2065896883407540224/vid/avc1/1920x1920/cINbFkx0Le-NseKn.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 8234,
+      "retweets": 555,
+      "replies": 488,
+      "views": 892346
+    },
+    "comments": [
+      {
+        "handle": "KamikaSafina",
+        "name": "Kamilla",
+        "date": "2026-06-30",
+        "text": "@durov Pavel, I'm writing to you with tears in my eyes and for a chance for a normal life.. to be honest, I don't want to live anymore, I'm so tired of fighting debts and poverty .. I don't know how to get out of this .. give me a chance for a normal life ...@durov"
+      },
+      {
+        "handle": "Paipup",
+        "name": "Vaibhav Tiwari",
+        "date": "2026-06-29",
+        "text": "@durov https://t.co/R6Pb0j2Wvq"
+      },
+      {
+        "handle": "jmazzahacks",
+        "name": "Jason Byteforge",
+        "date": "2026-06-28",
+        "text": "@durov Support for this just shipped! \n\nhttps://t.co/YHq60Zgdyz"
+      },
+      {
+        "handle": "abakarova1985",
+        "name": "амина абакарова",
+        "date": "2026-06-25",
+        "text": "@durov https://t.co/w6P4XqliFE"
+      },
+      {
+        "handle": "abakarova1985",
+        "name": "амина абакарова",
+        "date": "2026-06-25",
+        "text": "@durov I love you 😍 💋 💗"
+      },
+      {
+        "handle": "_forever____smi",
+        "name": "Ваша солоденька",
+        "date": "2026-06-25",
+        "text": "@durov Навіть таке вже є😳"
+      },
+      {
+        "handle": "SofiaCryptoVibe",
+        "name": "𝓢𝓸𝓯𝓲𝓪 𝓭𝓮 𝔀𝓻𝓲𝓽𝓮𝓻",
+        "date": "2026-06-24",
+        "text": "@durov tables go crazy 😆"
+      },
+      {
+        "handle": "fariz12444",
+        "name": "Lev..",
+        "date": "2026-06-24",
+        "text": "@durov @Web3Automated @JayMarWeb3"
+      },
+      {
+        "handle": "YounesKeraqsa",
+        "name": "Younes Keraressi",
+        "date": "2026-06-24",
+        "text": "@durov Fuck you STOP TAKING ABOUT FEATURE while you're fucking support 3 years cant resolve an issue... i urge everyone to delete this shitty app"
+      },
+      {
+        "handle": "wangdage1949",
+        "name": "王大哥",
+        "date": "2026-06-23",
+        "text": "Telegram必须立刻升级的事情，强制退出其他设备，不要用时间做为限制，应该用手机验证码加邮箱验证码限制，我的账号被入侵了，但是我无法登出入侵者的设备，理由是我的设备是新登陆的，你要知道，入侵者把我所有设备都登出了，我再登陆肯定是新设备，此时我是否应该用手机验证码或者邮箱验证码来确认我的身份？我目前就受到了这个困惑，我的账号不停的被登出，我就一直无法让旧日设备下线，那注册的时候要手机号还干嘛呢"
+      },
+      {
+        "handle": "abakarova1985",
+        "name": "амина абакарова",
+        "date": "2026-06-23",
+        "text": "@durov I love you 😍 💋 💗"
+      },
+      {
+        "handle": "abakarova1985",
+        "name": "амина абакарова",
+        "date": "2026-06-23",
+        "text": "@durov https://t.co/BtpFRcQ6B3"
+      },
+      {
+        "handle": "abakarova1985",
+        "name": "амина абакарова",
+        "date": "2026-06-23",
+        "text": "@durov https://t.co/4B17qyqqlg"
+      },
+      {
+        "handle": "abakarova1985",
+        "name": "амина абакарова",
+        "date": "2026-06-23",
+        "text": "@durov https://t.co/DEDp21LnVO"
+      },
+      {
+        "handle": "abakarova1985",
+        "name": "амина абакарова",
+        "date": "2026-06-23",
+        "text": "@durov https://t.co/3o0LXkDedi"
+      }
+    ]
+  }
+}

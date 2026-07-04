@@ -1,0 +1,39 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:12.343Z",
+  "tweetId": "1967980105793507522",
+  "post": {
+    "url": "https://x.com/keilethh/status/1967980105793507522",
+    "author": {
+      "handle": "keilethh",
+      "name": "Keileth"
+    },
+    "date": "2025-09-16",
+    "text": "These logos are available for purchase. https://t.co/5Qabrtayec",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G0-rSTIXQAAc-v3.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G0-rTyhW8AApvSX.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G0-rUipXYAA-eJh.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G0-rVWtXkAAoIvh.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1067,
+      "retweets": 39,
+      "replies": 35,
+      "views": 45185
+    },
+    "comments": []
+  }
+}

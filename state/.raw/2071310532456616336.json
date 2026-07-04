@@ -1,0 +1,1248 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:11.634Z",
+  "tweetId": "2071310532456616336",
+  "post": {
+    "url": "https://x.com/AlexFinn/status/2071310532456616336",
+    "author": {
+      "handle": "AlexFinn",
+      "name": "Alex Finn"
+    },
+    "date": "2026-06-28",
+    "text": "Everyone on planet Earth is talking about local AI right now\n\nAnd for good reason\n\nGovernments are banning models. Hardware prices are 10xing\n\nYou NEED to be getting into local AI. The number 1 questions everyone has though is which computer to buy?\n\nHere's your answer:\n\nYou basically have 3 options:\n\n1. MAC STUDIO (high memory, low bandwidth)-\n\nMac Studios are excellent devices for local AI. They can run MASSIVE models. I'm running GLM 5.2 right now on a single Mac Studio. The model is Opus 4.8 level\n\nThe issue is, Mac Studios have very low memory bandwidth. Meaning, the models run very slow\n\nMac Studios are a good choice for you if you want frontier level intelligence, but are fine running the intelligence passively\n\nMeaning you get top intelligence, but it runs more in the background rather than on demand\n\nAs an example, I have GLM 5.2 running security checks on my codebase every hour. It creates a report. I review this later in the day\n\n2. POWERHOUSE NVIDIA CHIPS (RTX 5090, 6000 Pro)\n\nNvidia is the most valuable company in the world, and for good reason\n\nThey make the world's best GPUs.\n\nThey have decent VRAM (32gb on the 5090, 96gb on the 6000 Pro) and INSANE bandwidth. Meaning the local models run at unbelievable speeds\n\nI'm running Qwen 3.6 locally on a 5090 and it's just as fast as cloud models\n\nI'd go this route if you want to run an AI agent like Hermes off a local model, still get decent intelligence, but have it able to work lightning fast\n\n3. AI WORKSTATIONS (DGX Spark type computers)\n\nThe DGX Spark is an excellent AI computer\n\nIt has high memory (128gb unified memory) and has decent speeds because of the Nvidia CUDA architecture\n\nIt is basically the sweet spot between a cutting edge Nvidia chip and a Mac Studio\n\nYou can run medium sized models, and get usable speeds out of them\n\nYou're not going to get the same performance as cloud models, but it will allow you to offload small secondary tasks to your local models for them to handle\n\nThey are also the absolute easiest to get up and running\n\nYou plug it in, then tell your agent on your main computer to go onto it and set it up. You don't even need it connected to a monitor\n\nCONCLUSION\n\nHere's what it comes down to: how high intelligence do you need, what speeds do you need, and how plug and play do you want?\n\nWant the highest speeds, like you are used to with cloud compute? Build a computer around an RTX 5090\n\nWant to run frontier level intelligence, and don't mind slow speeds, go with a Mac Studio\n\nEither way, it's never been more important to get into local AI",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HL7C_M7bYAAsbRW.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HL7DC8abAAAtyhc.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 915,
+      "retweets": 76,
+      "replies": 162,
+      "views": 92759
+    },
+    "comments": [
+      {
+        "handle": "Shane_Wray",
+        "name": "Shane Wray",
+        "date": "2026-06-28",
+        "text": "@AlexFinn &gt; Governments are banning models. Hardware prices are 10xing\n\nThis is so silly and wasteful! Nobody is banning small models. It's far cheaper and more efficient to rent compute from datacenters. This is only hurting your wallet and worsening hardware shortages"
+      },
+      {
+        "handle": "AlexFinn",
+        "name": "Alex Finn",
+        "date": "2026-06-28",
+        "text": "@jackson23_x I have 3 Mac Studio 512gbs"
+      },
+      {
+        "handle": "jefbanks",
+        "name": "Jeffrey Banks",
+        "date": "2026-06-28",
+        "text": "@AlexFinn We talk about this at my global consultancy.\n\nThere is no Micro Center in Orlando where I live.\n\nDo you have any recommendations for online/mail order distributors who can help with a project to build for local AI?"
+      },
+      {
+        "handle": "ruider92545",
+        "name": "William Ruider",
+        "date": "2026-06-28",
+        "text": "People complain about the Mac Studio because they’re spoiled. A lack of RDMA means latency in the 3-millisecond range (about the time it takes to blink or fart); limited URAM? You can always build a cluster. Slow token generation? So what, I’d rather have a slow, powerful thinker than a skinny idiot running in circles; I buy what’s available, cluster it using EXO Labs, and run large LLMs."
+      },
+      {
+        "handle": "kitledru",
+        "name": "Kit Ledru",
+        "date": "2026-06-29",
+        "text": "@bsd_robert @AlexFinn try Gemma 4 12B\na fine tune like this guy's\n(e.g. coder or agentic depending on your needs)\nhttps://t.co/Wl0k2iukdq"
+      },
+      {
+        "handle": "_navicstein",
+        "name": "Your village people",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Everyone on planet Earth is not talking about local AI. Tech Twitter is. Normal people are trying to use their computers without spending k on a machine to run a model that will be slower than the free version on the cloud. This is the same FOMO as crypto mining rigs in 2021"
+      },
+      {
+        "handle": "ColeGlasgoww",
+        "name": "Cole Glasgow",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Wouldn’t it be cheaper to just use a frontier lab subscription like OpenAI and Anthropic to get their models, which would save you money on buying hardware and then using money on tokens?\n\nThe local model use case seems very very niche."
+      },
+      {
+        "handle": "AdaLkgn",
+        "name": "Ada",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Number one question is Why the fuck would you do that. \nWhat are you going to use the token for anyway ?\nGive us some real use case which generated real ROI.\nSpending thousands of money for nothing is what I see."
+      },
+      {
+        "handle": "tradingtulips",
+        "name": "tradingtulips🌷",
+        "date": "2026-06-28",
+        "text": "@AlexFinn the only economical choice is to build it yourself, repurpose old servers, etc."
+      },
+      {
+        "handle": "AlexFinn",
+        "name": "Alex Finn",
+        "date": "2026-06-28",
+        "text": "@jefbanks if you can't get to a microcenter, just find a prebuilt. but I highly recommend figuring out a way to build a computer at microcenter. best experience ever"
+      },
+      {
+        "handle": "Dagnum_PI",
+        "name": "Dagnum²",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Local is great.... Until you are away and have no way to access it https://t.co/kUkq9xGB4Y"
+      },
+      {
+        "handle": "bigsumoWD",
+        "name": "Sumo",
+        "date": "2026-06-28",
+        "text": "@tradingtulips @AlexFinn And Sibyl helps here as well :)"
+      },
+      {
+        "handle": "AlexFinn",
+        "name": "Alex Finn",
+        "date": "2026-06-28",
+        "text": "@roleandtell Playing cyberpunk at ultra with ultra realistic 4k mods. It’s awesome"
+      },
+      {
+        "handle": "roleandtell",
+        "name": "Charles Truax",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Bonus that you can run cutting edge raytracing video games and VR on that 5090 as well. But good lord it’s insanely over priced right now, it launched at 2 grand and they’re selling for double that now :0"
+      },
+      {
+        "handle": "AgentsUniverse",
+        "name": "Cream",
+        "date": "2026-06-28",
+        "text": "@ASPIEHERE @AlexFinn 😂😂"
+      },
+      {
+        "handle": "ASPIEHERE",
+        "name": "isthisthematrix",
+        "date": "2026-06-28",
+        "text": "@AgentsUniverse @AlexFinn Yeah he got the money to buy all this stuff off of grifting like everyday you even see him ask that computer company to please sponsor me lol 😆  so Desperate"
+      },
+      {
+        "handle": "TomGlassAI",
+        "name": "Tom Henke",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Question for you experts, why not just use a cloud server with your own model?"
+      },
+      {
+        "handle": "AgentsUniverse",
+        "name": "Cream",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Why do you keep showing this to us! We get it you have this setup… stop justifying your purchase to us no one gives a shit tbh"
+      },
+      {
+        "handle": "danielkleach",
+        "name": "Daniel Leach",
+        "date": "2026-06-28",
+        "text": "I need to build a new PC just for gaming, and at this point can't really justify it based on the prices.\n\nI agree that local models are going to be the future, but unless you are already making good money, you are pretty much left in the cold.\n\nThese prices are insane. (coming from someone making twice household median income)"
+      },
+      {
+        "handle": "nexamorph",
+        "name": "nexamorph",
+        "date": "2026-06-28",
+        "text": "@AlexFinn I can assure you that everybody on earth is not talking about local AI right now. What an incredibly deceptive statement."
+      },
+      {
+        "handle": "sciencentechfan",
+        "name": "Science and Technology Dude",
+        "date": "2026-06-29",
+        "text": "@ColeGlasgoww @AlexFinn Atm almost no-one of the general population uses frontier models at scale. Double or triple the current user base and there 's not enough compute. It won't stay that cheap for long"
+      },
+      {
+        "handle": "sciencentechfan",
+        "name": "Science and Technology Dude",
+        "date": "2026-06-29",
+        "text": "@bsd_robert @AlexFinn Gemma 4 12b treating me well @16  GB VRAM"
+      },
+      {
+        "handle": "rele_ch",
+        "name": "Rele",
+        "date": "2026-06-29",
+        "text": "@AlexFinn We need specialised small models. VibeThinker is showing us what's possible. Its an excellent mathematics focused model, it's very good at STEM reasoning and designing algorithms. and it can run on a macbook neo. The future is when we decouple all these experts for focused tasks"
+      },
+      {
+        "handle": "Pashoke1",
+        "name": "Yaori (Opinion Arc )🗣️",
+        "date": "2026-06-29",
+        "text": "@AlexFinn local ai is the talk of the town lately everyone is jumping on the bandwagon"
+      },
+      {
+        "handle": "RZero45",
+        "name": "RZero",
+        "date": "2026-06-29",
+        "text": "@AlexFinn A great 4th option is to read every day, practice meditation, eat healthy, trust your intellect, and tell everything related to AI to go to hell."
+      },
+      {
+        "handle": "orlixx003",
+        "name": "Orlixx",
+        "date": "2026-06-29",
+        "text": "@AlexFinn The future probably isn’t local or cloud. It’s using each where it makes the most sense."
+      },
+      {
+        "handle": "caboken",
+        "name": "Ken Williams",
+        "date": "2026-06-29",
+        "text": "@AlexFinn Images of people enjoying the beaches of Brazil"
+      },
+      {
+        "handle": "bsd_robert",
+        "name": "Robert",
+        "date": "2026-06-29",
+        "text": "@AlexFinn Sorry to bother you with what is probably a silly question. \n\nI have NVIDIA GeForce RTX 4070 SUPER with 16GB of vRAM, 64GB of RAM, and a 12-core AMD Ryzen 9 7900X. I haven't had much luck running LLMs with it.\n\nWhat could I expect with this hardware? Bad match? Thanks a lot."
+      },
+      {
+        "handle": "ChrisMasterjohn",
+        "name": "Chris Masterjohn",
+        "date": "2026-06-29",
+        "text": "@AlexFinn So there’s no option that has opus 4.8 level model at lightning speed?"
+      },
+      {
+        "handle": "Shane_Wray",
+        "name": "Shane Wray",
+        "date": "2026-06-28",
+        "text": "Can you run 10T models locally? 5T? 2T??? Nobody is banning or planning on banning the only models you can feasibly run at home and it's far cheaper and more sensible to pay a datacenter leveraging economies-of-scale to serve you GLM 5.2 and all the future iterations that will be too big for your aging hardware in ~6 months"
+      },
+      {
+        "handle": "D4pp3rD1scourse",
+        "name": "DapperDiscourse",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Got a dgx spark!!!!! Running an abilerated Orinth.... not bad!"
+      },
+      {
+        "handle": "ktusing34",
+        "name": "Kyle Tusing",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Welcome to the local AI side!\n\nI know you’ve got a lot more hardware than me, what are you running locally right now?\n\nGLM 5.2?"
+      },
+      {
+        "handle": "cryppinfluence",
+        "name": "Crypp",
+        "date": "2026-06-28",
+        "text": "@AlexFinn do open sourced model can really replace frontier ones (like claude or gpt)\n\ni tried many but all of them absolutelly unusable (except of Kimi, dat was really cool)"
+      },
+      {
+        "handle": "Stewart_of_Mars",
+        "name": "Eric Stewart",
+        "date": "2026-06-28",
+        "text": "@AlexFinn If you have a use case, YES. Lol... stop driving prices up!"
+      },
+      {
+        "handle": "i_mika_el",
+        "name": "Mikhail Rogov",
+        "date": "2026-06-28",
+        "text": "@AlexFinn local AI makes sense, but most people should probably start from the model/workload, not the computer."
+      },
+      {
+        "handle": "VibeCoderOfek",
+        "name": "Ofek Shaked",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Mac Studio for passive frontier intelligence and RTX 5090 for fast local agents is the right split but most people will still underestimate how quickly the power and cooling requirements scale once you run sustained agent loops."
+      },
+      {
+        "handle": "stevencheng",
+        "name": "Steven Cheng",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Don't forget bandwidth matters more than VRAM for inference speed. That's why Macs feel sluggish despite huge memory pools."
+      },
+      {
+        "handle": "dicemanorama",
+        "name": "Aaron",
+        "date": "2026-06-28",
+        "text": "@AlexFinn In the near term, the winners will be agentic harnesses that squeeze every ounce of capability from 9B models, until consumer hardware catches up."
+      },
+      {
+        "handle": "strakedev",
+        "name": "Rob Newton",
+        "date": "2026-06-28",
+        "text": "@AlexFinn What was the cost of your Mac studios if you don’t mind me asking?"
+      },
+      {
+        "handle": "TendiesOfWisdom",
+        "name": "Tendies Of Wisdom",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Check out this model\n\nhttps://t.co/Ph4dnZI8Ct"
+      },
+      {
+        "handle": "future_grandpa",
+        "name": "Dr. Holmes",
+        "date": "2026-06-28",
+        "text": "@AlexFinn You somehow forgot the most important part, cost."
+      },
+      {
+        "handle": "itsthedonhashim",
+        "name": "Hussain Hashim | Building SundayBack",
+        "date": "2026-06-28",
+        "text": "@AlexFinn @AlexFinn legit question, do you think it's gonna get easier to pick the right hardware soon? prices are wild right now"
+      },
+      {
+        "handle": "lexiconicshuffl",
+        "name": "OTHERWIS3",
+        "date": "2026-06-28",
+        "text": "@jefbanks @AlexFinn I’m using @companionintel’s core server. It’s a custom build, that’s tailored for inference, and  they’ve got a growing ecosystem that works on Docker and has VPN access. The OpenClaw and Hermes setups were basically two clicks."
+      },
+      {
+        "handle": "lmedinas",
+        "name": "Luis Medinas",
+        "date": "2026-06-28",
+        "text": "@AlexFinn That’s good advice. As for me, I went the RTX route, since it can run great coding models like Qwen 27B and 35B at very high speeds. If you want frontier models, you can rely on the $20 Codex sub for planning and Qwen for execution."
+      },
+      {
+        "handle": "myprojectpluto",
+        "name": "Project Pluto",
+        "date": "2026-06-28",
+        "text": "Luckily I have quite a few gaming rigs that allow me to run local LLMs while I am not gaming, Still have a closet full of GPUs from mining crypto I am thinking of tapping into as well. Highly recommend everyone check out Hermes if you have not as even if you cant run it locally you can link it to Grok with Premium+ and still run some great projects with persistent memory!"
+      },
+      {
+        "handle": "jackson23_x",
+        "name": "Jackson",
+        "date": "2026-06-28",
+        "text": "@AlexFinn What ram is play on your studio to be running that? I’ve got an M2 Ultra with 192gb and assume it’s too big for mine…"
+      },
+      {
+        "handle": "Samsara4567B4",
+        "name": "This is too dark for South Park",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Great local AI guide! One correction: Mac Studios actually have MASSIVE memory bandwidth (up to 800GB/s), not low. That's exactly why they run huge models so well. Otherwise, your conclusion is spot on: Mac for size, RTX 5090 for speed, &amp; DGX Spark for balance.👍"
+      },
+      {
+        "handle": "Anti_PC_Man",
+        "name": "TheRogue",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Great post, thank you. One thing to factor into a local setup is energy consumption and heat output. Compared to the DGX Spark, the Mac Studio and similar Nvidia-based systems have very different power and cooling requirements."
+      },
+      {
+        "handle": "ldreisi",
+        "name": "FancyRocket",
+        "date": "2026-06-28",
+        "text": "@AlexFinn I hope my 4x 3090s Rig and my MacBook M5 Max 128GB is enough."
+      },
+      {
+        "handle": "joseph_mugen",
+        "name": "Mugen",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Supporting local AI just like I support local businesses"
+      },
+      {
+        "handle": "cyberDev_D",
+        "name": "Cyber Dev",
+        "date": "2026-06-28",
+        "text": "it's crazy how many people are sleeping on opportunities local AI unlocks. \n\nthis breakdown is spot on tho, \n- Mac Studio for big slow brains, \n- 5090 for actual speed, \n- workstation for the easy middle ground.\n\nBut personally i will be going 5090, because i need my agents fast, not thinking for an hour 😄."
+      },
+      {
+        "handle": "milan_kovacx",
+        "name": "Milan Kovac",
+        "date": "2026-06-30",
+        "text": "@AlexFinn 5090 lets agents reply instantly like cloud ones with zero lag ⚡ ish"
+      },
+      {
+        "handle": "jrespoir6",
+        "name": "Espoir_pro",
+        "date": "2026-06-30",
+        "text": "@myprojectpluto @AlexFinn Great to hear you're already mining with GPUs! Mine Litecoin Now! with https://t.co/VojkOz3vUV &amp; earn 2.5-4% daily profit, plus 10% referral bonus. Link your rigs: https://t.co/tzVrXcsHY6 #invest #LTC #mining #now"
+      },
+      {
+        "handle": "AllenBe18556959",
+        "name": "Chywe",
+        "date": "2026-06-30",
+        "text": "@AlexFinn Local AI is becoming a necessity, not a hobby. With governments threatening model bans and API costs climbing, owning your inference pipeline is the only long-term bet. The 256 Mac Mini cluster running GLM-5.2 proves you can self-host serious models today."
+      },
+      {
+        "handle": "evo_shamar",
+        "name": "Wisdom Aguosuo",
+        "date": "2026-06-29",
+        "text": "@AlexFinn Please what do you mean by plug and play, I'll do my little research buh I'll like to hear in your own words Sir"
+      },
+      {
+        "handle": "evo_shamar",
+        "name": "Wisdom Aguosuo",
+        "date": "2026-06-29",
+        "text": "@AlexFinn You know ur stuff Alex. \n\nI appreciate the research you do. \nGod bless you, brother 🙇🏾"
+      },
+      {
+        "handle": "Arslandev97",
+        "name": "Arslan Yousaf",
+        "date": "2026-06-29",
+        "text": "@AlexFinn Local AI's three hardware paths each have real tradeoffs."
+      },
+      {
+        "handle": "trustmetobro",
+        "name": "Trustmebro",
+        "date": "2026-06-29",
+        "text": "@AlexFinn I’m not, so not everyone! Words matter!"
+      },
+      {
+        "handle": "QuantumWidgets",
+        "name": "Newton's Ai",
+        "date": "2026-06-29",
+        "text": "@AlexFinn What is your official crypto?  Cb?  Lets buy some og nft god futures..."
+      },
+      {
+        "handle": "pawzzard",
+        "name": "Pawzard",
+        "date": "2026-06-29",
+        "text": "@AlexFinn bro wrote a PC part picker guide but made it sound like prepping for a government siege"
+      },
+      {
+        "handle": "MDAIS_Shrish",
+        "name": "Million Dollar AI Studio",
+        "date": "2026-06-29",
+        "text": "Useful split here: local AI is not one computer.\n\nMac Studio makes sense for passive intelligence: security scans, repo audits, overnight research. 5090-class boxes make sense when the agent loop has to move fast. The mistake is buying hardware before naming the job, latency tolerance, model size, proof check, and human approval point.\n\nBuy the route, not the vibes.\n\nhttps://t.co/Ny4S3VwhK7\nIG: milliondollaraistudio\nLinkedIn: https://t.co/PtwBlqpTuk\n\nBuilding this local/cloud routing layer too. We should stay connected."
+      },
+      {
+        "handle": "time_s6801",
+        "name": "God's time Freddy",
+        "date": "2026-06-29",
+        "text": "@AlexFinn 针对这种高并发的 Token 消耗，我一直是用 @tntaiapi666 推荐的那家接入方案，实测延迟确实比官网低很多，挺稳。"
+      },
+      {
+        "handle": "tonitrades_",
+        "name": "toni",
+        "date": "2026-06-29",
+        "text": "@AlexFinn Hardware prices going up 10x sounds like a reason to wait, not rush.\n\nBuying at peak hype usually means paying twice as much for the same thing next year."
+      },
+      {
+        "handle": "TintWrapCompany",
+        "name": "The Tint & Wrap Company, Newry, Northern Ireland",
+        "date": "2026-06-29",
+        "text": "@AlexFinn You just fly where ever the wind takes you... first help Mac to rump up prices now you are pushing for RTX 5090 to help nvidia unload the stock they still have siting in the warehouses. I did watch all your steams till now but with time I see what you are doing... bias..."
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-06-29",
+        "text": "是的，這些高階 PC 或 Mac 配置確實不便宜！\n\n更實惠方案：\n1. 先用現有電腦：RTX 4060/5060 系列 + Ollama/LM Studio 跑量化模型，日常任務就夠。\n2. 二手 RTX 3090（24GB VRAM），性價比高。\n3. 新預算卡如 RTX 5060 Ti，價格親民。\n4. Mac Mini M4 系列，比 Studio 便宜很多。\n\n先下載 Ollama 測試現有硬體最划算！告訴我你現在的 GPU/RAM，我給精準建議。"
+      },
+      {
+        "handle": "Zenul_Abidin",
+        "name": "Ali Sherief",
+        "date": "2026-06-29",
+        "text": "@AlexFinn Thanks for giving us the shopping list"
+      },
+      {
+        "handle": "JAKEVIN16",
+        "name": "JAKEVIN🐾🐕️",
+        "date": "2026-06-29",
+        "text": "@AlexFinn @Grok 這套買下來，也太貴了吧。有其他方案嗎"
+      },
+      {
+        "handle": "hulmeheights",
+        "name": "hulmeheights",
+        "date": "2026-06-29",
+        "text": "@AlexFinn mac studio solves this and then some"
+      },
+      {
+        "handle": "benellsworth01",
+        "name": "Ben Ellsworth",
+        "date": "2026-06-29",
+        "text": "@AlexFinn Local still struggles with long context in my experience"
+      },
+      {
+        "handle": "pixeL_laugh",
+        "name": "JessePinkman 🦇🔊",
+        "date": "2026-06-29",
+        "text": "@AlexFinn Problem is 1 5090 not enough and its too expensive"
+      },
+      {
+        "handle": "mkemka_",
+        "name": "Martin Kemka",
+        "date": "2026-06-29",
+        "text": "@AlexFinn Missing out on Mac mini. Gemma 12b quant can go well in 16gb."
+      },
+      {
+        "handle": "_navicstein",
+        "name": "Your village people",
+        "date": "2026-06-29",
+        "text": "@fabos_fali @AlexFinn WTF! bro - you're using AI? shame!"
+      },
+      {
+        "handle": "douglaskarr",
+        "name": "Douglas Karr",
+        "date": "2026-06-29",
+        "text": "@LeMonJoshua @AlexFinn You mean: “on your Chinese-manufactured compute”? 🤷"
+      },
+      {
+        "handle": "TheJonMorales",
+        "name": "Jon Morales",
+        "date": "2026-06-29",
+        "text": "@AlexFinn Sick setup Alex!"
+      },
+      {
+        "handle": "details_with_ai",
+        "name": "Rasel Hosen",
+        "date": "2026-06-29",
+        "text": "@AlexFinn Hardware recommendations are the missing piece for most people."
+      },
+      {
+        "handle": "MyCreativeOwls",
+        "name": "Creative Owls 🫟",
+        "date": "2026-06-29",
+        "text": "@AlexFinn https://t.co/YmD16aScnJ"
+      },
+      {
+        "handle": "SeMiHAL9000",
+        "name": "SebHal9000",
+        "date": "2026-06-29",
+        "text": "@AlexFinn Believe me. You have more options than these three"
+      },
+      {
+        "handle": "shiyam_kashfiq",
+        "name": "Shiyam Kashfiq",
+        "date": "2026-06-29",
+        "text": "@AlexFinn Makes sense-balancing model size vs bandwidth is the real decision point. How do you handle model updates on the Mac Studio?"
+      },
+      {
+        "handle": "AcdNrg",
+        "name": "Acid Energy",
+        "date": "2026-06-29",
+        "text": "@AlexFinn nvidia spark: 273 GB/s. Mac studio: 546-819 GB/s. But the Mac is the one that lacks memory bandwidth 🤡"
+      },
+      {
+        "handle": "sebuzdugan",
+        "name": "Sebastian Buzdugan",
+        "date": "2026-06-29",
+        "text": "@AlexFinn 24gb vram beats a faster cpu for most local model work"
+      },
+      {
+        "handle": "Tim3W4rp",
+        "name": ".btc",
+        "date": "2026-06-29",
+        "text": "@AlexFinn Not everyone on planet Earth. Just a subset of people on X."
+      },
+      {
+        "handle": "AbdulStudios0",
+        "name": "Abdulstudios",
+        "date": "2026-06-29",
+        "text": "@AlexFinn Is Mac studio actually good or just myth"
+      },
+      {
+        "handle": "jwalgo",
+        "name": "jquant",
+        "date": "2026-06-29",
+        "text": "@AlexFinn Was the Mac Studio 512gb the greatest bargain in computing, ever? ChatGPT says: Your $10k Mac Studio gives maybe 1/2 to 1/8 the speed of an 8× H100 box for GLM-5.2-style inference, but the H100 box costs about $20k–$36k/month, and sometimes $50k+/month."
+      },
+      {
+        "handle": "CarlosBB666",
+        "name": "Carlos BB",
+        "date": "2026-06-29",
+        "text": "@AlexFinn Alex there isn’t anywhere near to enough hardware around for all of us to run locally and stay at a decent frontier even at OSS level, you know that. https://t.co/mn169pqt4K"
+      },
+      {
+        "handle": "_ReverseAI_",
+        "name": "ReverseAI",
+        "date": "2026-06-29",
+        "text": "@AlexFinn Agreed! This is the last call to act before the prices get out of hand. Most people won't be willing to pay more than $3K into a local system.\n\nThe main challenge is finding a decent model to run on it that can actually do a reasonably good job with the limited resources."
+      },
+      {
+        "handle": "BramanAnalytics",
+        "name": "Kevin Braman",
+        "date": "2026-06-29",
+        "text": "@AlexFinn Limping by here with my 5070."
+      },
+      {
+        "handle": "nat3hall",
+        "name": "Nate Hall",
+        "date": "2026-06-29",
+        "text": "@AlexFinn Looks like your boy Dario is begging the government to shut down local models because he can't monitor them for \"safety\" whatever that means."
+      },
+      {
+        "handle": "SlopToSignal",
+        "name": "Slop to Signal",
+        "date": "2026-06-29",
+        "text": "@AlexFinn bro wrote a whole buyer's guide and still called mac studio 'low bandwidth' like thats the dealbreaker when the real dealbreaker is the price lmaooo 💀"
+      },
+      {
+        "handle": "maestroalvarez",
+        "name": "Danny Wallace",
+        "date": "2026-06-29",
+        "text": "@AlexFinn Wrong: \n\nMac bandwidth is massive, not low.\n\nNo ban on small local models.\n\nIMHO"
+      },
+      {
+        "handle": "mmmonk",
+        "name": "Monk",
+        "date": "2026-06-29",
+        "text": "@AlexFinn The real bottleneck is RAM. Go big or go home."
+      },
+      {
+        "handle": "nztester",
+        "name": "Jason Langis",
+        "date": "2026-06-29",
+        "text": "@AlexFinn Nobody is talking about it. Because only  1% or less of the global population has any clue what it means. They dont even have a paid LLM sub."
+      },
+      {
+        "handle": "MorthenMSJensen",
+        "name": "Morthen Jensen",
+        "date": "2026-06-29",
+        "text": "@AlexFinn It isn't Governments but one government, the USA. \nBut in any case, you are very right. We need to learn Local LLM. \n\nThank you for all of your content."
+      },
+      {
+        "handle": "fabos_fali",
+        "name": "Fabos Fali",
+        "date": "2026-06-29",
+        "text": "@_navicstein @AlexFinn &lt;think&gt;\nOkay, the user is talking about how regular people aren't really into local AI because they just want to use their computers without huge investments, comparing it to crypto mining rigs in 2021. I need to connect that to the Lite..."
+      },
+      {
+        "handle": "farukguney",
+        "name": "Faruk Guney",
+        "date": "2026-06-29",
+        "text": "@AlexFinn I think the real next breakthrough would be building a computer that can run 5.2 level model fully on local machine at full bandwidth, and totally unquantized."
+      },
+      {
+        "handle": "lor1961",
+        "name": "Wombosi",
+        "date": "2026-06-29",
+        "text": "@nexamorph @AlexFinn What do you expect from Alex \"loudmouth\" Finn?"
+      },
+      {
+        "handle": "rAndOmHaMlifE",
+        "name": "randomhamlife",
+        "date": "2026-06-29",
+        "text": "@AlexFinn 1st world problems.\n\nLet’s remember what we are."
+      },
+      {
+        "handle": "ViralWisdomWave",
+        "name": "Based Semite",
+        "date": "2026-06-29",
+        "text": "@Dagnum_PI @AlexFinn Ah I see the other way to do it ans I've done it as well is cloudflare tunnel. Attaxh an domain to you're LLM interface and have cloudflare access control for your devices allowed. That way you have an public domain that isn't open to anyone and you can access anywhere"
+      },
+      {
+        "handle": "Sakura_dacc",
+        "name": "Sakura 🌸 🐰",
+        "date": "2026-06-29",
+        "text": "@AlexFinn Missing angle: GPU memory bandwidth matters more than raw RAM for LLM inference. Mac Studio's unified memory is fast but can't beat a used RTX 3090 + Linux for $700."
+      },
+      {
+        "handle": "kitledru",
+        "name": "Kit Ledru",
+        "date": "2026-06-29",
+        "text": "@danielkleach @AlexFinn 3090s still accessible though, and pretty capable\ncheck out club-3090 on github for instance, lots of cool info\nhttps://t.co/GEQwgbd6TD"
+      },
+      {
+        "handle": "sharmeh95",
+        "name": "Powersteering",
+        "date": "2026-06-29",
+        "text": "@Jokerbernrin @AlexFinn Gm boss"
+      },
+      {
+        "handle": "Jokerbernrin",
+        "name": "NCD",
+        "date": "2026-06-29",
+        "text": "@AlexFinn Local AI is just getting started"
+      },
+      {
+        "handle": "lingoledger",
+        "name": "Chingun Erdene-Ochir 🇲🇳🇦🇺",
+        "date": "2026-06-29",
+        "text": "@AlexFinn I currently have a setup with 15 RTX 3090TIs that are Liquid cooled, it was an insanely lucky situation where I got them for $1200 aud each in a government auction earlier this year."
+      },
+      {
+        "handle": "daniel_du",
+        "name": "Daniel Du",
+        "date": "2026-06-29",
+        "text": "@AlexFinn seems Mac Studio is the most compact and power efficient,  which option do you prefer?"
+      },
+      {
+        "handle": "hutchonthego",
+        "name": "Hutch⚡💡",
+        "date": "2026-06-29",
+        "text": "@AlexFinn What do you think about twin 5090's rather than a 6000 pro?\n\nWondering how expandability in the 5090 route is with an Intel i9."
+      },
+      {
+        "handle": "LFGDigital",
+        "name": "Dan Atomic",
+        "date": "2026-06-29",
+        "text": "@AlexFinn I’m running 4080 super \nDebating on getting the 5090 also $7k is a bit much."
+      },
+      {
+        "handle": "readwise",
+        "name": "Readwise",
+        "date": "2026-06-29",
+        "text": "@hacker34 @AlexFinn @hacker34 First public save of this tweet! 🏆\n\nStats:\n• 579 total saves of AlexFinn's tweets (ranked #506)"
+      },
+      {
+        "handle": "hacker34",
+        "name": "Johnny Hacking",
+        "date": "2026-06-29",
+        "text": "@AlexFinn @readwise save"
+      },
+      {
+        "handle": "LeMonJoshua",
+        "name": "Joshua LeMon Powell",
+        "date": "2026-06-29",
+        "text": "@letsrolepod @AlexFinn Look no further than crypto access."
+      },
+      {
+        "handle": "StevenMadec",
+        "name": "Ste -",
+        "date": "2026-06-29",
+        "text": "@AlexFinn conclusion : we need to stand-by and wait the release of the next gen Mac Studio or DGX Spark to run local Ai smoothly at 50tkns/s..."
+      },
+      {
+        "handle": "digitalnoah",
+        "name": "Noah King",
+        "date": "2026-06-28",
+        "text": "@AlexFinn I would argue that less than 2% of people even know what local AI is. Of those people, less than 10% are talking about local AI.\n\nBe aware of the echo chamber you're within"
+      },
+      {
+        "handle": "spactastical",
+        "name": "SpackySpacky",
+        "date": "2026-06-28",
+        "text": "@AlexFinn This is the only way you can run 10000\nAgents and not produce or anything ..while\nExpending power and watching costs get cheaper..lil something called moores law."
+      },
+      {
+        "handle": "DocHollidayUSA",
+        "name": "Doc Holliday",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Here me out, what if the government is just giving them an excuse to give less compute to people in the short term so their model improvements/training get a short term supercharge.    I don't believe that improvements aren't still happening behind the scenes"
+      },
+      {
+        "handle": "Dagnum_PI",
+        "name": "Dagnum²",
+        "date": "2026-06-28",
+        "text": "@ViralWisdomWave @AlexFinn This was my tailscale... The DGX went offline for some reason and zero way for me to access until I get back."
+      },
+      {
+        "handle": "flowconz",
+        "name": "flowco ltd",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Obviously would be great but for those of us who are basically in second world (New Zealand) - it’s 10k for an nvidia spark. How am I meant to rationalise that?"
+      },
+      {
+        "handle": "roleandtell",
+        "name": "Charles Truax",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Do yourself a favor my friend, get the HD rework it’s incredible.\n\nhttps://t.co/YWLJGONqai"
+      },
+      {
+        "handle": "DAX_ST50_LINE",
+        "name": "DAX｜ダックス",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Too expensive now — can’t afford it."
+      },
+      {
+        "handle": "letsrolepod",
+        "name": "Free Pizza",
+        "date": "2026-06-28",
+        "text": "@LeMonJoshua @AlexFinn Allow? We’ve been doing it for years now.\n\nThey can’t even stop you from downloading movies and you think they’ll suddenly be able to stop us from getting ai tools? 😂"
+      },
+      {
+        "handle": "SJRonanMD",
+        "name": "Stephen J Ronan MD",
+        "date": "2026-06-28",
+        "text": "@AlexFinn There are more options. There is a DGX Station with RTX Pro 6000."
+      },
+      {
+        "handle": "LeMonJoshua",
+        "name": "Joshua LeMon Powell",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Don’t be naive.  Do you really think the government will allow you to have Chinese models running on your compute?"
+      },
+      {
+        "handle": "MemesOfMars",
+        "name": "Dreams of Mars 🕊❤️🚀🌕",
+        "date": "2026-06-28",
+        "text": "no you need to get into Hybrid AI - local AI is about 10x slower than frontiers inference in the cloud - so going only LOCAL = slow inference - going only CLOUD = super high costs. \n\nWhat you wanna do is offload simple tasks to local models that also don’t need to be ultra fast and use cloud frontier models for high intelligence requirements.\n\nThe future is: HYBRID\n=> SMART INTELLIGENCE ROUTING\n\nnot jumping from one maximalist isolationist solution to the next (all clouds max! all Mac MINI! all OpenSource! all Local ... wait FABLE is back? All Fable!)"
+      },
+      {
+        "handle": "harshalx",
+        "name": "Na Bhooto Na Bhavishyati",
+        "date": "2026-06-28",
+        "text": "@AlexFinn @jackson23_x Where do you get all the money from to buy all these? Are you a billionaire?"
+      },
+      {
+        "handle": "ViralWisdomWave",
+        "name": "Based Semite",
+        "date": "2026-06-28",
+        "text": "@Dagnum_PI @AlexFinn Use tailscale and or interface the local model with open webui or and other gui interface and tailscale into it"
+      },
+      {
+        "handle": "SogradCo",
+        "name": "SogradCo",
+        "date": "2026-06-28",
+        "text": "@AlexFinn very affordable 😥"
+      },
+      {
+        "handle": "J90236317",
+        "name": "Gallery Bot",
+        "date": "2026-06-28",
+        "text": "@AlexFinn 프런티어 급이 아니라면 비용투자대비 이득이 안나오는것 같습니다. 마치 빅테크기업들도 돈이 안되는데 인프라에 투자하는 것과 같은 현상입니다."
+      },
+      {
+        "handle": "BenPielstick",
+        "name": "Ben Pielstick",
+        "date": "2026-06-28",
+        "text": "@AlexFinn The new Mac Studio will be interesting when it comes out, as will the new RTX Spark. For the vast majority of people though using open models via cloud API is astronomically cheaper than buying hardware. The US closed banning US models is quite different from banning open models."
+      },
+      {
+        "handle": "Heston83",
+        "name": "Heston",
+        "date": "2026-06-28",
+        "text": "@Shane_Wray @AlexFinn Fable5 is offline right now because the govt sent anthropic a letter soooo.."
+      },
+      {
+        "handle": "YasaarBiladama",
+        "name": "Yaz | www.eggsplain.com",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Let's go plug and play https://t.co/qnqSk5iPwu 🥚🚀"
+      },
+      {
+        "handle": "olegbrovchenko",
+        "name": "Oleg Brovchenko",
+        "date": "2026-06-28",
+        "text": "@AlexFinn M5 ultra will be a monster, can’t wait for it"
+      },
+      {
+        "handle": "nifty0x",
+        "name": "Nifty",
+        "date": "2026-06-28",
+        "text": "@AlexFinn There may be no single best option. Just use what works for you I guess."
+      },
+      {
+        "handle": "0xlife_ai",
+        "name": "LIFE",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Nvidia chips win for anything that needs to feel responsive."
+      },
+      {
+        "handle": "JohnnyVenom",
+        "name": "Johnny Venom",
+        "date": "2026-06-28",
+        "text": "@AlexFinn What about a Framework Desktop?"
+      },
+      {
+        "handle": "LoganFlagg",
+        "name": "Flagg",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Or there is Mac minis for the beginners"
+      },
+      {
+        "handle": "LoganFlagg",
+        "name": "Flagg",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Or there is Mac minis for the beginners"
+      },
+      {
+        "handle": "julesjulius",
+        "name": "Jules",
+        "date": "2026-06-28",
+        "text": "@AlexFinn tldr: he wen't to microcenter and bought a prebuilt, or got them to custom build it."
+      },
+      {
+        "handle": "JoeR_LM",
+        "name": "Velvet Eclipse Designs",
+        "date": "2026-06-28",
+        "text": "@AlexFinn I wonder if the Mac Studio M5 will solve the memory bandwidth issue."
+      },
+      {
+        "handle": "ianpsplace",
+        "name": "Ian Summerfield",
+        "date": "2026-06-28",
+        "text": "@AlexFinn @jackson23_x Hey legend @AlexFinn any recommended local models for coding, or are we not quite there yet"
+      },
+      {
+        "handle": "builtwithasl",
+        "name": "Erwin | Non-coder • Builder",
+        "date": "2026-06-28",
+        "text": "Unfortunately, not everyone can drop thousands of dollars on a Mac Studio overnight (and they’re not always easy to get, either).\n\nWhile you’re saving for more compute, another option is to become more efficient with the compute you already have.\n\nI’ve been experimenting with an open-source execution layer called Signet.\n\nInstead of giving a local model an entire project every time, Signet breaks work into governed tasks, keeps long-term state outside the model, reuses verified receipts instead of repeatedly reasoning over completed work, and only feeds the model the context it actually needs.\n\nThe goal isn’t to magically turn a 7B model into a 70B model.\n\nThe goal is to help smaller local models tackle larger workflows by reducing wasted context, unnecessary reasoning, and repeated work.\n\nIf you’re curious what that looks like in practice, I recently posted a sample Signet 300 agent orchestration packet on my profile."
+      },
+      {
+        "handle": "AToolsdaily",
+        "name": "AI_ToolsDaily",
+        "date": "2026-06-28",
+        "text": "@AlexFinn And all of that is out of my price range. Feel like I'm missing out here"
+      },
+      {
+        "handle": "GillelandKristi",
+        "name": "Roman",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Add to that that these big companies are getting overbearing and treating everybody like we're guilty until proven innocent. \nAll they can do that because they're companies, the concentration of power is crushing."
+      },
+      {
+        "handle": "bananajoexbt",
+        "name": "Banana Joe 🍌",
+        "date": "2026-06-28",
+        "text": "@AlexFinn $100 / month “vibe coding academy” lol"
+      },
+      {
+        "handle": "kelvinailaps",
+        "name": "Kelvin",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Currently I have a DGX spark and a Mac Studio m4 max 64gb , and I am waiting for the Mac Studio m5 ultra 512 gb to add it to my AI home lap."
+      },
+      {
+        "handle": "0xYaper",
+        "name": "Yaper",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Local is where it’s at. I need to get another machine"
+      },
+      {
+        "handle": "GaryLovesTesla",
+        "name": "G Goldstein",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Do you hook them together with Ethernet to share resources or for other reasons?"
+      },
+      {
+        "handle": "saltyq",
+        "name": "Salty",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Now that's a process I should follow"
+      },
+      {
+        "handle": "ExplosionsOf_BS",
+        "name": "Explosions of Bullshit",
+        "date": "2026-06-28",
+        "text": "@AlexFinn that 3 month lead time on mac studios directly from Apple is soul crushing. Delivery 13-14 weeks out for the M3 ultra 96gb"
+      },
+      {
+        "handle": "BeastModeTech82",
+        "name": "💻 ☁️ BeastModeTechLife ☁️ 🤖",
+        "date": "2026-06-28",
+        "text": "@AlexFinn The future of tech, I built my own ai network co pilot,  building my home lab expanding."
+      },
+      {
+        "handle": "RodJacson",
+        "name": "Rodolphe Jacson",
+        "date": "2026-06-28",
+        "text": "@AlexFinn No very good or perfect solution seems available yet. But thanks for this tour of current options."
+      },
+      {
+        "handle": "AusWay69",
+        "name": "Waylon Payne",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Once again bad financial advice, a cursor sub is a better financial decision."
+      },
+      {
+        "handle": "jrespoir6",
+        "name": "Espoir_pro",
+        "date": "2026-06-28",
+        "text": "@myprojectpluto @AlexFinn Great gaming rigs can double as mining machines. Mine Litecoin Now! with 2.5-4% daily profits &amp; 10% referral bonus: https://t.co/tzVrXcsHY6 #invest #LTC #mining #now"
+      },
+      {
+        "handle": "jackson23_x",
+        "name": "Jackson",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Jesus 🤯"
+      },
+      {
+        "handle": "Levi_Researcher",
+        "name": "Levi",
+        "date": "2026-06-28",
+        "text": "@AlexFinn kinda feels like this is about freedom, not hardware right?"
+      },
+      {
+        "handle": "Nick_Hineline",
+        "name": "Ned Hineline",
+        "date": "2026-06-28",
+        "text": "@AlexFinn @jackson23_x Have you considered someone like myself to upgrade the NAND flash memory on the units from 512GB to say 1TB or even higher"
+      },
+      {
+        "handle": "Marcology1776",
+        "name": "MARCOLOGY",
+        "date": "2026-06-28",
+        "text": "@AlexFinn I have a \n4090\n120gb Ram \nWill this do?"
+      },
+      {
+        "handle": "SayItLoud19",
+        "name": "A fierce pancake",
+        "date": "2026-06-28",
+        "text": "@AlexFinn your baseline should be running glm5.2, the only vaguely competitive open source model, comparable to frontier labs. wonder how much that hardware for that would cost?"
+      },
+      {
+        "handle": "AdaLkgn",
+        "name": "Ada",
+        "date": "2026-06-28",
+        "text": "@OG_TechNodeX @AlexFinn Codex limits are broken right now."
+      },
+      {
+        "handle": "__jaypio__",
+        "name": "jaypio",
+        "date": "2026-06-28",
+        "text": "@AlexFinn chatgpt usage limit has been wonky. \nyesterday my account dropped 70% weekly usage with barely any use."
+      },
+      {
+        "handle": "Johnvqtl",
+        "name": "John",
+        "date": "2026-06-28",
+        "text": "@AlexFinn What tokens per second are you getting on the studio? What inference engine/tweaks are you using?"
+      },
+      {
+        "handle": "MacroLiquidity",
+        "name": "💰The Macro Liquidity Report",
+        "date": "2026-06-28",
+        "text": "@AlexFinn You going to get tracked and hacked using those non-US models"
+      },
+      {
+        "handle": "jeffrbode",
+        "name": "Jeff Bode",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Using GLM for vibe coding and marketing"
+      },
+      {
+        "handle": "1776ish",
+        "name": "Jacob",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Def not buying near the top"
+      },
+      {
+        "handle": "OG_TechNodeX",
+        "name": "A Salty Vet",
+        "date": "2026-06-28",
+        "text": "I mean I have a mini ecosystem of my own right now. A 390 plugging away on some small models of the 4090 OC doing some work, a Mac mini I got a while ago that is kind of facilitating as a touch point that pushes everything to my VPS (which is small and not used for AI at all). Then my Mac book. It makes sense to move off of frontier to conserve costs because you want to try to maximize workflow without creating a massive overhead before you get your first dollar of business. When we're watching hardware costs and frontier model cost just absolutely skyrocket it's a problem. I paid for the $100 Open AI tier 2 days ago and today I've run out of regular chat until to July. I don't even do anything with regular chat that often other than curate a few tweets here and there and it ran out that fast."
+      },
+      {
+        "handle": "lexiconicshuffl",
+        "name": "OTHERWIS3",
+        "date": "2026-06-28",
+        "text": "@OG_TechNodeX @AlexFinn Right? companion intelligence launched a local first ecosystem that turns ANY computer into a personal inference server. No promises on speed or the size of the models you’ll be able to use, but the software is free! https://t.co/d9fa6hMYSZ"
+      },
+      {
+        "handle": "HarryTandy",
+        "name": "Harry Tandy",
+        "date": "2026-06-28",
+        "text": "@AlexFinn picking hardware based on latency vs capacity dictates agentic performance completely"
+      },
+      {
+        "handle": "sheikhakash69",
+        "name": "Akash.eth🌊",
+        "date": "2026-06-28",
+        "text": "@AlexFinn That is the exact guide I have been looking for lately"
+      },
+      {
+        "handle": "Simple_AI_00",
+        "name": "Simple AI",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Local AI is the future for privacy &amp; speed. Mac Studio for massive models, RTX 5090 for lightning agents, DGX for easy balance."
+      },
+      {
+        "handle": "yagi_dsn",
+        "name": "YAGII",
+        "date": "2026-06-28",
+        "text": "@AlexFinn The spec question comes second. The first question is whether your inference runs on silicon you own, or in a datacenter someone else can throttle, audit, or shut down."
+      },
+      {
+        "handle": "WallyBuckLive",
+        "name": "Wally Buck",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Where does the DGX spark fit into your conclusions?"
+      },
+      {
+        "handle": "yeabu369",
+        "name": "Yeab - engg / core was in MIAMI🌴",
+        "date": "2026-06-28",
+        "text": "@AlexFinn are you running GLM on ollama or do you have a custom setup?"
+      },
+      {
+        "handle": "tinkerersanky",
+        "name": "Sanket",
+        "date": "2026-06-28",
+        "text": "@AlexFinn what if government bans hardware or asks you to fill a use case form before buying? 🤔"
+      },
+      {
+        "handle": "ColeGlasgoww",
+        "name": "Cole Glasgow",
+        "date": "2026-06-28",
+        "text": "@AlexFinn I do like the GLM 5.2 use case with the Mac Studio."
+      },
+      {
+        "handle": "__vandos__",
+        "name": "Vandos ❓",
+        "date": "2026-06-28",
+        "text": "Solid breakdown, though worth flagging: GLM-5.2 is close to Opus 4.8 on some benchmarks (within ~1pt on FrontierSWE), but the gap widens a lot on long-horizon tasks — +13 on SWE-Marathon, ~24 on DeepSWE. So calling it ‘Opus 4.8 level’ overstates it for anything beyond short/medium tasks, which actually matters for the ‘runs slow in the background’ use case you described."
+      },
+      {
+        "handle": "egesea009",
+        "name": "egesea",
+        "date": "2026-06-28",
+        "text": "@AlexFinn You're not really buying hardware.\nYou're choosing which AI workflows become possible on your machine.\nThe computer simply defines their limits."
+      },
+      {
+        "handle": "MrPeterLMorris",
+        "name": "Peter Morris",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Which do you prefer. The GB10 or M3, and why (other than 4x memory size)?"
+      },
+      {
+        "handle": "d_a_v_e_ai",
+        "name": "Dave AI",
+        "date": "2026-06-28",
+        "text": "@AlexFinn It’s a control mechanism, kind of like cars that aren’t EMP proof. At any moment you sent control or own what you once thought you did. \n\nSame with property, you buy it outright and still pay taxes on it. If you don’t pay those taxes you don’t own that property."
+      },
+      {
+        "handle": "AdaLkgn",
+        "name": "Ada",
+        "date": "2026-06-28",
+        "text": "@OG_TechNodeX @AlexFinn I actually can afford some compute, but I don't see why I would. Seems stupid"
+      },
+      {
+        "handle": "OG_TechNodeX",
+        "name": "A Salty Vet",
+        "date": "2026-06-28",
+        "text": "His use case is that like many of us he made hundreds of apps and one of them finally stuck. Now he charges people $100 a month which is wild to teach them how to use AI as a \" vibe quoting academy\". So he does have a proven track record of a successful thing just like the open clock creator it took way more than just a one shot to get an ROI. So now all he does is tell us that we need local AI while showing what's probably close to $100,000 in computers these days because of inflation, but telling the average person they need to go all the way in on local AI like we all can just sell a house or mortgage a freaking organ in our body to pay for this crap. No one is talking about local AI that a real average user can make real products with."
+      },
+      {
+        "handle": "OG_TechNodeX",
+        "name": "A Salty Vet",
+        "date": "2026-06-28",
+        "text": "@AlexFinn So are you going to start financing people or are we just going to flash like $80,000 in hardware and tell people they should be a part of this neat trend?"
+      },
+      {
+        "handle": "CodeMode53",
+        "name": "Jan Swanepoel",
+        "date": "2026-06-28",
+        "text": "@AlexFinn You dont say anything sbout the mac studio ram limitatios now.."
+      },
+      {
+        "handle": "reachvortex_",
+        "name": "Chris Vox",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Says the dumbest person on this planet. Your hardware will soon be outdated."
+      },
+      {
+        "handle": "realsimontian",
+        "name": "Simon Tian",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Such a good question — been wondering about governments too."
+      },
+      {
+        "handle": "Tiger_Strat",
+        "name": "Flying Tiger Strategies",
+        "date": "2026-06-28",
+        "text": "@AlexFinn How do you feel about a set up with a DGX Spark paired with something like a dual 3090 rig? With Mac studios basically impossible to find right now, this seems to be the best sweet spot for both speed and model choice"
+      },
+      {
+        "handle": "Barbaneth",
+        "name": "LiCHtsLiCH",
+        "date": "2026-06-28",
+        "text": "@AlexFinn That's right, you should all be mining bitcoin. Super critical, remember, plug it into the internet. https://t.co/QdCe09tIQi"
+      },
+      {
+        "handle": "kylerootbeer",
+        "name": "Kyle",
+        "date": "2026-06-28",
+        "text": "@AlexFinn 6000 rig components on their way, cheers to a new era"
+      },
+      {
+        "handle": "brunocordista",
+        "name": "Bruno Cordista",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Alex, the local AI ambassador"
+      },
+      {
+        "handle": "hulmeheights",
+        "name": "hulmeheights",
+        "date": "2026-06-28",
+        "text": "@AlexFinn mac studio sorts this out completely"
+      },
+      {
+        "handle": "Ferbin08",
+        "name": "Ferbin",
+        "date": "2026-06-28",
+        "text": "@AlexFinn GPU prices fluctuate. Inference costs cratered.\n\nWhich countries actually banned local models? Most restrictions target training or sensitive sectors, not local inference."
+      },
+      {
+        "handle": "Jason2K14",
+        "name": "Jason",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Hard pass."
+      },
+      {
+        "handle": "thejsnode",
+        "name": "jsnode",
+        "date": "2026-06-28",
+        "text": "@AlexFinn I'm definitely interested in local AI! What are some specific models or hardware you recommend?"
+      },
+      {
+        "handle": "mzebearr",
+        "name": "mzebear",
+        "date": "2026-06-28",
+        "text": "@AlexFinn You forgot open source models + @modal \n\n👀 @AlexFinn"
+      },
+      {
+        "handle": "Rezzi_sol",
+        "name": "Rezzi",
+        "date": "2026-06-28",
+        "text": "@AlexFinn passive background intelligence as a compute model is the real shift"
+      },
+      {
+        "handle": "myrarenft",
+        "name": "myrare",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Giveaway?👀👏🏼"
+      },
+      {
+        "handle": "tarnishedWiz",
+        "name": "TarnishedG",
+        "date": "2026-06-28",
+        "text": "@AlexFinn gpu shortage is about to hit a whole new level of pain ngl\n\nmac studio owners gonna be alright till a model needs 48gb+ vram"
+      },
+      {
+        "handle": "RrichPRMR",
+        "name": "Rich",
+        "date": "2026-06-28",
+        "text": "@AlexFinn this is actually a really helpful breakdown"
+      },
+      {
+        "handle": "RrichPRMR",
+        "name": "Rich",
+        "date": "2026-06-28",
+        "text": "@AlexFinn this is actually a really helpful breakdown"
+      },
+      {
+        "handle": "intocryptoast",
+        "name": "toast",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Although it’s best to get the best hardware you can afford to run local ai, I think it’s wise to also promote the idea that smaller models (ran on lower tier hw) can also be useful for some applications. The future of local will be routing and utilising ai at different levels"
+      },
+      {
+        "handle": "Trav_Sol",
+        "name": "Trav 🇨🇦",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Dude... Is that a desktop or a Lambo? \n\nSeriously... I wouldn't know which has more power. \n\nInspired and geeking out so hard right now 😍"
+      },
+      {
+        "handle": "HeyToddles",
+        "name": "Todd Darimont",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Need a great platform for all those models to build in. https://t.co/yt4KJ6fCxn"
+      },
+      {
+        "handle": "ASSEENONAI",
+        "name": "OUTLAW RAIDER",
+        "date": "2026-06-28",
+        "text": "@AlexFinn I’m considering doing this. I need one to run my business 24/7"
+      },
+      {
+        "handle": "TomGiant1",
+        "name": "TomGiant",
+        "date": "2026-06-28",
+        "text": "@AlexFinn You always say we have 3 option, but option 1 Mac Studio is not available atm. So only 2 options…"
+      },
+      {
+        "handle": "UTD_Mavin",
+        "name": "Mavin",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Not everyone bro"
+      },
+      {
+        "handle": "UTD_Mavin",
+        "name": "Mavin",
+        "date": "2026-06-28",
+        "text": "@AlexFinn Hmmm"
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HL7C_M7bYAAsbRW.jpg",
+      "localFilename": "2071310532456616336_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HL7DC8abAAAtyhc.jpg",
+      "localFilename": "2071310532456616336_2.jpg"
+    }
+  ]
+}

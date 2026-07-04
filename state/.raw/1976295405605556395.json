@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:58.953Z",
+  "tweetId": "1976295405605556395",
+  "post": {
+    "url": "https://x.com/santu_design/status/1976295405605556395",
+    "author": {
+      "handle": "santu_design",
+      "name": "Santu"
+    },
+    "date": "2025-10-09",
+    "text": "footer design https://t.co/yEYK7MEn9X",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G202LCwWIAA0S-6.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 2219,
+      "retweets": 61,
+      "replies": 87,
+      "views": 89952
+    },
+    "comments": []
+  }
+}

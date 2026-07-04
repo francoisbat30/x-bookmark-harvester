@@ -1,0 +1,22 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:21.860Z",
+  "tweetId": "2024069380162936992",
+  "post": {
+    "url": "https://x.com/kimmonismus/status/2024069380162936992",
+    "author": {
+      "handle": "kimmonismus",
+      "name": "Chubby♨️"
+    },
+    "date": "2026-02-18",
+    "text": "lol what: Researchers found that repeating the exact same prompt twice dramatically improves LLM performance (one model improved from 21% to 97% accuracy on a name-search task) without longer outputs, slower responses, fine-tuning, or fancy prompt engineering.\n\nBecause models process text left to right, duplicating the input gives every token a second chance to “see” the full context, leading to measurable gains across 7 benchmarks and 7 major models.",
+    "media": [],
+    "metrics": {
+      "likes": 2297,
+      "retweets": 155,
+      "replies": 103,
+      "views": 426574
+    },
+    "comments": []
+  }
+}

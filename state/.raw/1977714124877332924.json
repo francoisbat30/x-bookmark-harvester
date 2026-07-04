@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:56.195Z",
+  "tweetId": "1977714124877332924",
+  "post": {
+    "url": "https://x.com/MAQIB135/status/1977714124877332924",
+    "author": {
+      "handle": "MAQIB135",
+      "name": "Aqib"
+    },
+    "date": "2025-10-13",
+    "text": "This is a secret tutorial 🤫 Copy it https://t.co/FQw5W3lbP6",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3JAU-EXoAAjQdt.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 842,
+      "retweets": 26,
+      "replies": 25,
+      "views": 41325
+    },
+    "comments": []
+  }
+}

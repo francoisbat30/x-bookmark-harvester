@@ -1,0 +1,22 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:12.160Z",
+  "tweetId": "2027361802913214474",
+  "post": {
+    "url": "https://x.com/ivanfioravanti/status/2027361802913214474",
+    "author": {
+      "handle": "ivanfioravanti",
+      "name": "Ivan Fioravanti ᯅ"
+    },
+    "date": "2026-02-27",
+    "text": "Qwen3.5-35B-A3B UD-Q3_K_XL 3090 vs M3 Ultra with Llamacpp\n\nI've finally installed Linux on my PC with RTX 3090 and I'm ready to do some perf tests versus M3 Ultra 512GB.\nResults\nFor this first one I went for llama-bench using the amazing UD-Q3_K_XL quantized GGUF from @UnslothAI and... Spoiler: \n🥇 3090\n🥈 M3 Ultra \nBUT... MLX is much faster compared to llamacpp as you can see from my previous article here. So we need to take these results with a grain of salt.\nLook at the charts here and tables for detail comparison\n \n \nThis should be a table, but X Articles don't support markdown or tables yet.\nI leave it here in md style, while waiting for @nikitabier to fix this 🤭\n--- Prefill Speedup: RTX 3090 vs M3 Ultra ---\nTokens | RTX 3090 t/s | M3 Ultra t/s | Speedup\n----------------------------------------------\n256    | 1911.84      | 1365.67      | 1.40x  \n512    | 2551.71      | 1721.94      | 1.48x  \n1024   | 2523.80      | 1708.32      | 1.48x  \n2048   | 2501.85      | 1702.84      | 1.47x  \n4096   | 2454.99      | 1674.11      | 1.47x  \n8192   | 2362.39      | 1599.86      | 1.48x  \n16384  | 2223.85      | 1467.74      | 1.52x  \n32768  | 1939.89      | 1230.07      | 1.58x  \n65536  | 1452.91      | 832.85       | 1.74x  \n--- Decode Speedup: RTX 3090 vs M3 Ultra ---\nTokens | RTX 3090 t/s | M3 Ultra t/s | Speedup\n----------------------------------------------\n128    | 111.92       | 57.35        | 1.95x  \n256    | 112.53       | 57.52        | 1.96x  \n512    | 111.82       | 57.54        | 1.94x  \n1024   | 111.79       | 56.92        | 1.96x  \n2048   | 111.15       | 56.61        | 1.96x  \n4096   | 109.66       | 55.60        | 1.97x  \n8192   | 107.19       | 54.39        | 1.97x  \nNext steps\nClearly the difference in speed between llamacpp implementation and MLX  on these @Alibaba_Qwen QWEN3.5 Medium models is so relevant that we need to figure out a different way to compare the two platform.\nI will try to use MLX on CUDA to see if we can something different. \nStay tuned!",
+    "media": [],
+    "metrics": {
+      "likes": 99,
+      "retweets": 4,
+      "replies": 13,
+      "views": 25167
+    },
+    "comments": []
+  }
+}

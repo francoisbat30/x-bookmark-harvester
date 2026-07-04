@@ -1,0 +1,22 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:00.841Z",
+  "tweetId": "2028388499179581656",
+  "post": {
+    "url": "https://x.com/MoodiSadi/status/2028388499179581656",
+    "author": {
+      "handle": "MoodiSadi",
+      "name": "Sadi Moodi"
+    },
+    "date": "2026-03-02",
+    "text": "@ivanfioravanti Running Qwen3.5 Medium locally on M3 Ultra is no joke. Key tips: 1) Use MLX for GPU acceleration, 2) Quantize to 4-bit for ~2x speedup with minimal quality loss, 3) Keep context under 8K for best throughput. What's your VRAM usage per model?",
+    "media": [],
+    "metrics": {
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0,
+      "views": 1247
+    },
+    "comments": []
+  }
+}

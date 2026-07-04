@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:34.324Z",
+  "tweetId": "2008380527141941420",
+  "post": {
+    "url": "https://x.com/deedydas/status/2008380527141941420",
+    "author": {
+      "handle": "deedydas",
+      "name": "Deedy"
+    },
+    "date": "2026-01-06",
+    "text": "🚨 ChatGPT traffic has fallen -22% in the last 6 weeks, since the Gemini 3 launch.\n\n7-day avg visitors has gone from ~203M to ~158M. Might be the holiday slump, but Gemini, their biggest consumer competitor, has remained flat and is now ~40% of ChatGPT.\n\nSource: SimilarWeb. https://t.co/lud3N6pRzK",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G98zcema8AAgxrO.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 2063,
+      "retweets": 251,
+      "replies": 337,
+      "views": 418779
+    },
+    "comments": []
+  }
+}

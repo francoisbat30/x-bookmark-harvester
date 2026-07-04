@@ -1,0 +1,22 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:11.197Z",
+  "tweetId": "1968658985285734523",
+  "post": {
+    "url": "https://x.com/athleticKoder/status/1968658985285734523",
+    "author": {
+      "handle": "athleticKoder",
+      "name": "anshuman"
+    },
+    "date": "2025-09-18",
+    "text": "You're in a ML Engineer interview at Perplexity, and the interviewer asks: \n\n\"Your RAG system is hallucinating in production. How do you diagnose what's broken - the retriever or the generator?\" \n\nHere's how you can answer:",
+    "media": [],
+    "metrics": {
+      "likes": 2894,
+      "retweets": 216,
+      "replies": 47,
+      "views": 360554
+    },
+    "comments": []
+  }
+}

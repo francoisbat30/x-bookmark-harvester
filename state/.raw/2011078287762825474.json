@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:33.547Z",
+  "tweetId": "2011078287762825474",
+  "post": {
+    "url": "https://x.com/victormustar/status/2011078287762825474",
+    "author": {
+      "handle": "victormustar",
+      "name": "Victor M"
+    },
+    "date": "2026-01-13",
+    "text": "Funny how you can do the same thing with a local model without sending all your data to a remote cloud. https://t.co/SGkjF1nB7S https://t.co/YbmNCNaAf0",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2011076954955374592/vid/avc1/854x480/J0secxm0sxTpwGMB.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 12240,
+      "retweets": 695,
+      "replies": 197,
+      "views": 1194089
+    },
+    "comments": []
+  }
+}

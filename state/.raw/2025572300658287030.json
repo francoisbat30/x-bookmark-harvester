@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:17.376Z",
+  "tweetId": "2025572300658287030",
+  "post": {
+    "url": "https://x.com/heygurisingh/status/2025572300658287030",
+    "author": {
+      "handle": "heygurisingh",
+      "name": "Guri Singh"
+    },
+    "date": "2026-02-22",
+    "text": "Holy shit.\n\nThe guy who BUILT Claude Code just shared his actual workflow.\n\nBoris Cherny runs 10-15 Claude sessions in parallel every single day.\n\nWhile you're prompting one AI, he has 5 in his terminal + 5-10 on the web all shipping code simultaneously.\n\nAnd the real weapon?\n\nHis https://t.co/WT9VOBmiGo file.\n\nEvery time Claude makes a mistake, the team adds a rule so it NEVER happens again.\n\nBoris literally said: \"After every correction, end with: Update your https://t.co/WT9VOBmiGo so you don't make that mistake again.\"\n\nClaude writes rules for itself.\n\nThe longer you use it, the smarter it gets on YOUR codebase.\n\nHis other insane detail: he hasn't written a single line of SQL in 6+ months.\n\nClaude just pulls BigQuery data directly via CLI.\n\nClaude Code now accounts for 4% of ALL public GitHub commits.\n\nEngineers who haven't set this up yet are already behind.\n\nThis https://t.co/WT9VOBmiGo template is the difference between using AI as a chatbot vs using it as a fleet of senior engineers.\n\nDrop it in any project. Free.",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HBxHRd3agAAH7er.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 9252,
+      "retweets": 861,
+      "replies": 313,
+      "views": 1547233
+    },
+    "comments": []
+  }
+}

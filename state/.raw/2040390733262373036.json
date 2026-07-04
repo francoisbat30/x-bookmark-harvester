@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:47:58.834Z",
+  "tweetId": "2040390733262373036",
+  "post": {
+    "url": "https://x.com/Trump_Fact_News/status/2040390733262373036",
+    "author": {
+      "handle": "Trump_Fact_News",
+      "name": "Trump Fact News 🇺🇸"
+    },
+    "date": "2026-04-04",
+    "text": "🚨🌍 DERNIÈRE MINUTE : Un outil d’IA capable de scraper des entreprises, analyser leurs avis clients et générer des emails personnalisés de prospection suscite l’attention pour ses capacités avancées de génération de leads. (F) https://t.co/TlA3EJ3XrB",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2040390002744741888/vid/avc1/1724x1080/IVy1JiDrSaMEnkzM.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 656,
+      "retweets": 61,
+      "replies": 9,
+      "views": 61578
+    },
+    "comments": []
+  }
+}

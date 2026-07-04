@@ -1,0 +1,33 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:16.605Z",
+  "tweetId": "2070799231212818656",
+  "post": {
+    "url": "https://x.com/tom_doerr/status/2070799231212818656",
+    "author": {
+      "handle": "tom_doerr",
+      "name": "Tom Dörr"
+    },
+    "date": "2026-06-27",
+    "text": "Parses Google Flights data using Python with Base64-encoded Protobuf strings\n\nhttps://t.co/PBncFqj0o3 https://t.co/7QMk921dbk",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HLz07WiWQAETV4s.png"
+      }
+    ],
+    "metrics": {
+      "likes": 192,
+      "retweets": 17,
+      "replies": 0,
+      "views": 14353
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HLz07WiWQAETV4s.png",
+      "localFilename": "2070799231212818656_1.png"
+    }
+  ]
+}

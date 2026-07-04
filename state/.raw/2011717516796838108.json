@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:32.312Z",
+  "tweetId": "2011717516796838108",
+  "post": {
+    "url": "https://x.com/GithubProjects/status/2011717516796838108",
+    "author": {
+      "handle": "GithubProjects",
+      "name": "GitHub Projects Community"
+    },
+    "date": "2026-01-15",
+    "text": "Build a local audio transcription tool using whisper https://t.co/fAw549iA6c",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G-sOa6BbkAENj-i.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 235,
+      "retweets": 33,
+      "replies": 5,
+      "views": 14653
+    },
+    "comments": []
+  }
+}

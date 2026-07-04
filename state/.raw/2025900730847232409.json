@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:17.023Z",
+  "tweetId": "2025900730847232409",
+  "post": {
+    "url": "https://x.com/theo/status/2025900730847232409",
+    "author": {
+      "handle": "theo",
+      "name": "Theo - t3.gg"
+    },
+    "date": "2026-02-23",
+    "text": "You should delete your CLAUDE․md/AGENTS․md file. I have a study to prove it. https://t.co/jOUNE53y7m",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2025900236108152832/vid/avc1/3840x2160/bSp7Kth_58TrB_6R.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 7601,
+      "retweets": 499,
+      "replies": 313,
+      "views": 2407760
+    },
+    "comments": []
+  }
+}

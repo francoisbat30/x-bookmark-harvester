@@ -1,0 +1,57 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:33.590Z",
+  "tweetId": "2054526785858031940",
+  "post": {
+    "url": "https://x.com/Prefet74/status/2054526785858031940",
+    "author": {
+      "handle": "Prefet74",
+      "name": "Préfète de la Haute-Savoie"
+    },
+    "date": "2026-05-13",
+    "text": "#G7Evian2026 Le Sommet du G7 se tiendra pendant la période des épreuves du baccalauréat prévues du 11 au 18 juin. L’activation des zones de protection prendra effet dès le jeudi 11 juin à 00h00 et emportera donc des conséquences sur l'organisation des épreuves. + d'infos ici ⤵️ https://t.co/Br5Umv3KYn",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HIMlEYIWUAA0Ycj.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HIMlEbnXEAAb93Z.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HIMlEbQX0AA98Zb.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HIMlEbJWMAAlq94.png"
+      }
+    ],
+    "metrics": {
+      "likes": 3,
+      "retweets": 3,
+      "replies": 1,
+      "views": 794
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HIMlEYIWUAA0Ycj.jpg",
+      "localFilename": "2054526785858031940_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HIMlEbnXEAAb93Z.jpg",
+      "localFilename": "2054526785858031940_2.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HIMlEbQX0AA98Zb.jpg",
+      "localFilename": "2054526785858031940_3.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HIMlEbJWMAAlq94.png",
+      "localFilename": "2054526785858031940_4.png"
+    }
+  ]
+}

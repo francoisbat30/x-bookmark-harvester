@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:07.715Z",
+  "tweetId": "2030051147264970893",
+  "post": {
+    "url": "https://x.com/bearlyai/status/2030051147264970893",
+    "author": {
+      "handle": "bearlyai",
+      "name": "Bearly AI"
+    },
+    "date": "2026-03-06",
+    "text": "Cursor internal analysis shows how hard Anthropic is subsidizing Claude Code.\n\nLast year, a $200 monthly subscription could use $2,000 in compute. Now, the same $200 monthly plan can consume $5,000 in compute (2.5x increase). https://t.co/JFdmzNJirl",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HCwwwgWb0AAhH7U.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 4014,
+      "retweets": 323,
+      "replies": 221,
+      "views": 2347859
+    },
+    "comments": []
+  }
+}

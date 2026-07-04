@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:05.104Z",
+  "tweetId": "1971178202593886538",
+  "post": {
+    "url": "https://x.com/TechieBySA/status/1971178202593886538",
+    "author": {
+      "handle": "TechieBySA",
+      "name": "TechieSA"
+    },
+    "date": "2025-09-25",
+    "text": "Origami Characters by Nano Banana on @BasedLabsAI 📄✂️\n\nPrompt👇🏻 https://t.co/J2csDHjNpV",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G1sIH-wWIAAmhs6.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1261,
+      "retweets": 137,
+      "replies": 44,
+      "views": 97972
+    },
+    "comments": []
+  }
+}

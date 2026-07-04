@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:37.025Z",
+  "tweetId": "2006159814724853919",
+  "post": {
+    "url": "https://x.com/tom_doerr/status/2006159814724853919",
+    "author": {
+      "handle": "tom_doerr",
+      "name": "Tom Dörr"
+    },
+    "date": "2025-12-31",
+    "text": "Architecture for multi-agent systems with observability and security layers\n\nhttps://t.co/EpaILmLZAF https://t.co/nCJbK9aSWc",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G9dPuEKXwAApqNu.png"
+      }
+    ],
+    "metrics": {
+      "likes": 904,
+      "retweets": 176,
+      "replies": 13,
+      "views": 55107
+    },
+    "comments": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:23.102Z",
+  "tweetId": "2023843493765157235",
+  "post": {
+    "url": "https://x.com/MatthewBerman/status/2023843493765157235",
+    "author": {
+      "handle": "MatthewBerman",
+      "name": "Matthew Berman"
+    },
+    "date": "2026-02-17",
+    "text": "I've spent 2.54 BILLION tokens perfecting OpenClaw.\n\nThe use cases I discovered have changed the way I live and work.\n\n...and now I'm sharing them with the world.\n\nHere are 21 use cases I use daily:\n\n0:00 Intro\n0:50 What is OpenClaw?\n1:35 MD Files\n2:14 Memory System\n3:55 CRM System\n7:19 Fathom Pipeline\n9:18 Meeting to Action Items\n10:46 Knowledge Base System\n13:51 X Ingestion Pipeline\n14:31 Business Advisory Council\n16:13 Security Council\n18:21 Social Media Tracking\n19:18 Video Idea Pipeline\n21:40 Daily Briefing Flow\n22:23 Three Councils\n22:57 Automation Schedule\n24:15 Security Layers\n26:09 Databases and Backups\n28:00 Video/Image Gen\n29:14 Self Updates\n29:56 Usage & Cost Tracking\n30:15 Prompt Engineering\n31:15 Developer Infrastructure\n32:06 Food Journal",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2023837879081070593/vid/avc1/3840x2160/47z9VezP0QBpaakd.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 13914,
+      "retweets": 1608,
+      "replies": 434,
+      "views": 3347844
+    },
+    "comments": []
+  }
+}

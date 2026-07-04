@@ -1,0 +1,39 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:02.796Z",
+  "tweetId": "1971676668256571392",
+  "post": {
+    "url": "https://x.com/EthanDriskill/status/1971676668256571392",
+    "author": {
+      "handle": "EthanDriskill",
+      "name": "Ethan Driskill"
+    },
+    "date": "2025-09-26",
+    "text": "No moodboards here, just ideas &amp; execution https://t.co/R5s24yAtaI",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G1zNZKZXoAA8t9s.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G1zNZKYW0AASXsL.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G1zNZKdXIAApETU.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G1zNZKbX0AAHNIN.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 419,
+      "retweets": 16,
+      "replies": 33,
+      "views": 22059
+    },
+    "comments": []
+  }
+}

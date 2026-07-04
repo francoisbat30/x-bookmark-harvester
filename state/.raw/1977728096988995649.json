@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:57.375Z",
+  "tweetId": "1977728096988995649",
+  "post": {
+    "url": "https://x.com/DesignsByGolem/status/1977728096988995649",
+    "author": {
+      "handle": "DesignsByGolem",
+      "name": "Golem | UI Designer"
+    },
+    "date": "2025-10-13",
+    "text": "Another hero exploration ,\ngive honest feedback🙏 https://t.co/fgqna0OG2i",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3JMYGtX0AAGvUH.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 748,
+      "retweets": 24,
+      "replies": 90,
+      "views": 54122
+    },
+    "comments": []
+  }
+}

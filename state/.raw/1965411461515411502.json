@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:18.282Z",
+  "tweetId": "1965411461515411502",
+  "post": {
+    "url": "https://x.com/purelivn/status/1965411461515411502",
+    "author": {
+      "handle": "purelivn",
+      "name": "𝑝𝑢𝑟𝑒"
+    },
+    "date": "2025-09-09",
+    "text": "Venice, Italy https://t.co/A7NZfVhADe",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G0aLTuHXcAADekq.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 7394,
+      "retweets": 821,
+      "replies": 37,
+      "views": 110070
+    },
+    "comments": []
+  }
+}

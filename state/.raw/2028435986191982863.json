@@ -1,0 +1,22 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:10.136Z",
+  "tweetId": "2028435986191982863",
+  "post": {
+    "url": "https://x.com/nlw/status/2028435986191982863",
+    "author": {
+      "handle": "nlw",
+      "name": "Nathaniel Whittemore"
+    },
+    "date": "2026-03-02",
+    "text": "@kevinakwok Built a self-directed program for you to do this step by step https://t.co/3rOgxPMMfb",
+    "media": [],
+    "metrics": {
+      "likes": 6,
+      "retweets": 0,
+      "replies": 0,
+      "views": 1065
+    },
+    "comments": []
+  }
+}

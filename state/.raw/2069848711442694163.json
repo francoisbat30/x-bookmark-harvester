@@ -1,0 +1,178 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:19.276Z",
+  "tweetId": "2069848711442694163",
+  "post": {
+    "url": "https://x.com/olesovhcom/status/2069848711442694163",
+    "author": {
+      "handle": "olesovhcom",
+      "name": "Octave Klaba"
+    },
+    "date": "2026-06-24",
+    "text": "Contexte IA\n\nL'inflation des composants informatiques a continué depuis mon dernier tweet de février. À la base, c'est l'IA qui a besoin de GPU, qui ont eux-mêmes besoin de RAM. Les 3 fournisseurs mondiaux de RAM ont reconfiguré leurs usines pour produire une RAM très rentable (HBM) au détriment de la RAM standard (DDR4/DDR5).\n\nCe mois-ci, en juin 2026, nous payons la RAM 6× le prix que nous avons payé en juin 2025. Nous savons déjà qu'elle sera à ×9 en septembre 2026, alors que les prévisions pour début 2027 sont à ×12 !?\n\nEn plus de ce ×12 en 16 mois sur la RAM, du ×7 sur les disques NVMe et du ×3,5 sur les disques HDD, on entend dire que les hausses de prix vont aussi toucher les puces — et donc les CPU, les cartes mères et les cartes réseau — de +15 à 20 %… pour l'instant.\n\nNos offres\n\nLe principal souci qu'on veut éviter, c'est de manquer de pièces et de ne pas pouvoir vous livrer le Cloud. D'autant plus que vous êtes nombreux, nouveaux clients, à vous rendre compte que le matériel informatique est hors de prix, ou à n'avoir aucune certitude de l'avoir au bon moment. Et donc vous passez au Cloud.\n\nPour rappel, pour une partie des clients existants et les nouvelles commandes, nous avons revu les prix de nos offres en avril. Nous avons par ailleurs anticipé avec succès les augmentations de juin 2026, et nous n'avons donc pas à changer nos prix avant septembre 2026. En revanche, vu que les prix continuent d'augmenter, nous ne pourrons pas maintenir nos prix actuels au-delà de septembre 2026.\n\nDe la même manière qu'en avril, nous allons augmenter les prix pour nos clients existants et les nouvelles commandes fin août 2026, pour les deux dernières générations de chaque gamme (la génération actuelle et la précédente) — par exemple Advance Gen4 et Gen3, Scale Gen3 et Gen2.\n\nAucun client des gammes antérieures (Gen-2) ne sera impacté, comme en avril — par exemple Kimsufi, Rise, Advance Gen2 et Gen1, Scale Gen1.\n\nLes détails seront communiqués fin juillet / début août.\n\nLe calendrier\n\n- À partir de début juillet 2026, nous changeons les prix des options RAM et disques pour les nouvelles commandes.\n- À partir de début septembre 2026, nous changeons les prix de nos offres Gen et Gen-1 pour les nouvelles commandes.\n- À partir de début octobre 2026, nous changeons les prix pour les clients existants Gen et Gen-1.\n- Pour garder vos prix actuels, vous pouvez renouveler vos services en payant 12 / 24 / 48 mois en avance (upfront), ce qui fige les prix sur la période.\n\nPerspective\n\nLa situation est exceptionnelle et va durer jusqu'en 2028. La demande IA est folle à tous les niveaux : les datacenters, les GPU, le token-as-a-service, l'IA agentique. Tout le monde en veut, tout le monde l'utilise. C'est ce qui provoque un impact sur tout le business qui n'est pas « IA ».\n\nNous restons pleinement transparents avec vous. En février, nous vous avions dit ce qui allait se passer ; cela s'est passé, et vous l'avez subi avec nous. Aujourd'hui, nous vous redisons ce qui s'en vient. À vous de prendre les devants et de décider ce qui est le mieux pour vous. De notre côté, nous continuerons à jouer le jeu de la transparence et à faire le choix de l'anticipation.\n\nEn savoir plus:\nhttps://t.co/gl6Fo18NXy",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HLmUbXvXMAAzidV.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 193,
+      "retweets": 46,
+      "replies": 13,
+      "views": 47747
+    },
+    "comments": [
+      {
+        "handle": "LaurentCREPET",
+        "name": "Laurent CREPET",
+        "date": "2026-06-24",
+        "text": "@olesovhcom Sous prétexte de faire de l'IA, on va arrêter de faire de l'IT.\nQuelle époque formidable."
+      },
+      {
+        "handle": "olesovhcom",
+        "name": "Octave Klaba",
+        "date": "2026-06-24",
+        "text": "@dlxinorbit je vous partageais la projection mars 2027 qu'on nous donne alors que le graphique représente ce qu'on a désormais en juin 2026."
+      },
+      {
+        "handle": "clementvermot",
+        "name": "Clément",
+        "date": "2026-06-24",
+        "text": "@olesovhcom J'ai acheté 2 disques de 16 To il y a un mois sur Amazon (des Seagate IronWolf Pro), 540€ pièce. Aujourd'hui ils sont proposés à 610€... \n\nJuste dingue !"
+      },
+      {
+        "handle": "squallgofsc",
+        "name": "Seb 🇺🇦",
+        "date": "2026-06-25",
+        "text": "@olesovhcom Elle explose bientôt cette bulle IA de merde ?"
+      },
+      {
+        "handle": "WormChester33",
+        "name": "🦁🐺 W⊕ям™ 🌕🚀",
+        "date": "2026-06-24",
+        "text": "@olesovhcom Le serveur dédié que je loue depuis des années est déjà largement amorti mais on se retrouve à payer des augmentations de ram...comme si nous avions du nouveau matériel. Un peu triste quand même."
+      },
+      {
+        "handle": "olesovhcom",
+        "name": "Octave Klaba",
+        "date": "2026-06-25",
+        "text": "@WormChester33 @Pascalmessan Gen3 d'ADV va avoir une augmentation comme en Avril. elle sera plus faible que Gen4."
+      },
+      {
+        "handle": "WormChester33",
+        "name": "🦁🐺 W⊕ям™ 🌕🚀",
+        "date": "2026-06-25",
+        "text": "Merci pour votre réponse.\n\nJ'ai bien lu le post en entier, et je n'ai pas mentionné 5 ans.\n\nJ'ai pourtant déjà reçu le mail d'augmentation d'avril sur mon ADVANCE-1 | AMD EPYC 4244P, commandé en 2024, pour le dédié, le VPS et les IPv4. Ce serveur est donc visiblement déjà dans le périmètre impacté.\n\nPar ailleurs, la notion de \"Gen actuelle et Gen-1\" n'est pas forcément évidente pour tout le monde — d'autant que sur votre propre catalogue, les serveurs sont identifiés par année (2024, 2026) et non par numéro de génération. Il serait utile de publier une correspondance claire entre ces deux nomenclatures, pour que chacun puisse vérifier facilement où se situe son matériel.\n\nAu niveau client, 2 augmentations en moins de 2 ans sur une machine de 2024, ça fait quand même mal."
+      },
+      {
+        "handle": "Pascalmessan",
+        "name": "pas_calino",
+        "date": "2026-06-25",
+        "text": "@WormChester33 @olesovhcom Je ne pense pas qu'un serveur commandé depuis des années reste en l'état. C'est comme tout ! il faut entretenir la bécane avec de nouvelles pièces."
+      },
+      {
+        "handle": "iapourtous_off",
+        "name": "IA pour tous",
+        "date": "2026-06-25",
+        "text": "@olesovhcom Ce ×12 sur la RAM a un effet de bord que peu anticipent: héberger son IA en local devient un luxe. Du coup les boîtes basculent vers le cloud même quand elles voulaient garder leurs données chez elles. La vraie facture de l'IA arrive par où personne regardait."
+      },
+      {
+        "handle": "manson_richard",
+        "name": "Richard",
+        "date": "2026-06-24",
+        "text": "@dlxinorbit @olesovhcom Comment la demande sur les mémoires peut multiplier par 3 le prix des disques durs traditionnels qui comportent qu'un petit cache embarqué ?\nCela ressemble à un jeu artificiel sur l'offre et la demande sous prétexte de la demande accrue pour les DC \"AI\""
+      },
+      {
+        "handle": "chat_0511",
+        "name": "Jérôme Renaudie",
+        "date": "2026-06-24",
+        "text": "@olesovhcom Qu'adviendra-t-il des vps ?"
+      },
+      {
+        "handle": "dlxinorbit",
+        "name": "David L.",
+        "date": "2026-06-24",
+        "text": "@olesovhcom D'après votre propre graphique, les prix des disques durs (HDD) n'ont pas été multipliés par 3,5 (ce qui ferait +250 %), mais ont augmenté de 48% (de 100 à 148)..."
+      },
+      {
+        "handle": "expert_reseau",
+        "name": "Thibault",
+        "date": "2026-06-24",
+        "text": "@olesovhcom Merci j'ai lu un article sur twitter qui disait que les chinois allait produire de la ram en masse pour les PC je pense à partir du 2e semestre 2027, j'ai retrouvé un tweet qui supportait ce que j'avais lu là :\nhttps://t.co/le5BugFCDq"
+      },
+      {
+        "handle": "ovh_support_fr",
+        "name": "OVHcloud Support FR",
+        "date": "2026-06-26",
+        "text": "@DanielWoin69134 @olesovhcom Bonjour,\n\nJe suis navrée de ce retour d'expérience.\n\nLorsqu'un nom de domaine est supprimé, l'offre MX Plan, étant fournie avec un hébergement, n'est pas suspendue.\nLe titulaire de l'offre dispose d'un délai de 7 jours avant la suppression définitive de l'offre MX Plan.\n\n^VirD"
+      },
+      {
+        "handle": "DanielWoin69134",
+        "name": "Daniel Woin-Woin",
+        "date": "2026-06-25",
+        "text": "@olesovhcom Ouais ben avant de penser IA faudrait penser à rendre vos services performant. Parce que le délai d'une semaine pour obtenir les adresses mails liés a un plan MX parce que l'ancien propriétaire n'a pas récupéré ses données depuis plus d'un an  c'est fort de café ..."
+      },
+      {
+        "handle": "custos_fr",
+        "name": "Custos 🇫🇷 🇺🇦",
+        "date": "2026-06-25",
+        "text": "@expert_reseau @olesovhcom C'est risqué sur le plan industriel de travailler avec des fournisseurs sur lesquels on a aucun recul. Comme avec le capacitor plague."
+      },
+      {
+        "handle": "ulhgard",
+        "name": "ulhgard",
+        "date": "2026-06-25",
+        "text": "@clementvermot @olesovhcom Oui, j'ai fournis des HDD pour un serveur à un client (au vu de ses besoins je trouvais ça un peu juste et ça n'a pas raté) 8 mois plus tard il me demande d'en prendre d'autres pour augmenter la taille du pool.\nBah il a pris une pilule point de vue tarif le bon monsieur."
+      },
+      {
+        "handle": "dvdsnchzIT",
+        "name": "David S.",
+        "date": "2026-06-25",
+        "text": "@olesovhcom Bonjour Octave, le graphique de hausse des prix  des composants c'est depuis les tarifs que vous négociez avec les fournisseurs ? Ou en recoupant des infos du web ?\nMerci !"
+      },
+      {
+        "handle": "olesovhcom",
+        "name": "Octave Klaba",
+        "date": "2026-06-25",
+        "text": "@WormChester33 @Pascalmessan comme dit dans mon post (si vous l'aviez lu), on parle de la Gen en cours et Gen-1 qui vont avoir une augmentation de prix. \n\net comme j'avais dit Gen-2 ou KS SYS ou de plus vieux serveurs (5 ans tu dis ?) ne sont pas impactés comme ils n'étaient pas impactés en avril."
+      },
+      {
+        "handle": "WormChester33",
+        "name": "🦁🐺 W⊕ям™ 🌕🚀",
+        "date": "2026-06-25",
+        "text": "@Pascalmessan @olesovhcom Serveur allumé h24, donc oui ça peut tomber en panne.\nMais depuis des années juste aucune coupure donc aucun coût supplémentaire pour ovh.\nJuste du profit actuellement sur mon contrat."
+      },
+      {
+        "handle": "olivierb",
+        "name": "Olivier Bonnaure 🥑 ⚡🇫🇷🇬🇷",
+        "date": "2026-06-25",
+        "text": "@olesovhcom perso je recommande aux dev d'utiliser des stacks peu énergivores. fini les Laravel / RoR / react / next / node / django / etc ... Bienvenue aux micro frameworks spécialisés"
+      },
+      {
+        "handle": "pause_ai",
+        "name": "Pause IA",
+        "date": "2026-06-25",
+        "text": "@olesovhcom ram ×12 d'ici 2027. les llm c'est devenu l'airbnb du gpu : le mec qui voulait juste upgrader sa machine reste sur le carreau."
+      },
+      {
+        "handle": "digitalErmit",
+        "name": "Adam",
+        "date": "2026-06-24",
+        "text": "@SimonLM_Dev @olesovhcom ils veulent court-circuiter l'open source, empêcher la démocratisation de la technologie"
+      },
+      {
+        "handle": "SimonLM_Dev",
+        "name": "Simon LM | LostInTab",
+        "date": "2026-06-24",
+        "text": "@olesovhcom Cela commence à être vraiment inquiétant."
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HLmUbXvXMAAzidV.jpg",
+      "localFilename": "2069848711442694163_1.jpg"
+    }
+  ]
+}

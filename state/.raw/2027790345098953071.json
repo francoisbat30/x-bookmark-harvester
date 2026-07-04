@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:13.712Z",
+  "tweetId": "2027790345098953071",
+  "post": {
+    "url": "https://x.com/LysandreBL/status/2027790345098953071",
+    "author": {
+      "handle": "LysandreBL",
+      "name": "Lysandre"
+    },
+    "date": "2026-02-28",
+    "text": "Je me suis amusé a faire un logiciel de courtage en prêt immobilier avec Perplexity\n\nEn 6h de taff il m'a sorti ça https://t.co/AhWHXSMJPO",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HCQokANW8AAzbXS.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 820,
+      "retweets": 32,
+      "replies": 71,
+      "views": 164100
+    },
+    "comments": []
+  }
+}

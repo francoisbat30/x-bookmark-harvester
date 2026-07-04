@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:15.378Z",
+  "tweetId": "2026270421432078451",
+  "post": {
+    "url": "https://x.com/jordymaui/status/2026270421432078451",
+    "author": {
+      "handle": "jordymaui",
+      "name": "jordy"
+    },
+    "date": "2026-02-24",
+    "text": "STOP using telegram for your OpenClaw agent!\n\nDiscord is the play and it's not even close.\n\n- dedicated channels per skill (x strategy, your finances, your content, your trading - all separate)\n- full chat history your agent can reference & read back through if it crashes\n- threads for deep dives without cluttering the main flows\n- multiple people can interact with your agent in different channels (something i haven't seen enough of)\n- pin important outputs so your agent doesn't lose context\n- embed images, files, links natively\n- run different workflows in parallel without them bleeding into each other (ask your agents to spawn subagents amongst channels)\n\ntelegram is one long chat. discord is a workspace.\n\ni run 15+ channels and each one has its own skill, its own context, its own purpose. my agent knows exactly what mode it's in based on where i message it. and they can even use skills across channels if and when needed.\n\nif you're still cramming everything into one telegram thread you're leaving half the power on the table.",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HB7CKtjWgAAc4KT.png"
+      }
+    ],
+    "metrics": {
+      "likes": 499,
+      "retweets": 31,
+      "replies": 118,
+      "views": 45299
+    },
+    "comments": []
+  }
+}

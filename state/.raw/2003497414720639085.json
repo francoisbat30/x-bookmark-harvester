@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:38.586Z",
+  "tweetId": "2003497414720639085",
+  "post": {
+    "url": "https://x.com/viktoroddy/status/2003497414720639085",
+    "author": {
+      "handle": "viktoroddy",
+      "name": "Viktor Oddy"
+    },
+    "date": "2025-12-23",
+    "text": "AI generated heros\n\nwhich one looks the best? https://t.co/o71lmLYmRU",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2003497252728250369/vid/avc1/1482x1080/zmbJ-AEXP8KY5pK1.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 344,
+      "retweets": 12,
+      "replies": 42,
+      "views": 40092
+    },
+    "comments": []
+  }
+}

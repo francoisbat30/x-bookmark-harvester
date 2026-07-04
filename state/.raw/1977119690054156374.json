@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:57.755Z",
+  "tweetId": "1977119690054156374",
+  "post": {
+    "url": "https://x.com/MarkKnd/status/1977119690054156374",
+    "author": {
+      "handle": "MarkKnd",
+      "name": "Mark Vassilevskiy"
+    },
+    "date": "2025-10-11",
+    "text": "Wanna design an app for iOS?\n\nHere's a full guide on paddings\n\nSave it for later: 🧵 https://t.co/oiEAfB8Fto",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3AjkVMa4AAoi-U.png"
+      }
+    ],
+    "metrics": {
+      "likes": 1699,
+      "retweets": 103,
+      "replies": 33,
+      "views": 166287
+    },
+    "comments": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:35.469Z",
+  "tweetId": "2006747506311397413",
+  "post": {
+    "url": "https://x.com/hewarsaber/status/2006747506311397413",
+    "author": {
+      "handle": "hewarsaber",
+      "name": "Hewar"
+    },
+    "date": "2026-01-01",
+    "text": "Anatomy of a $4,875 Landing Page\n\n(Bookmark it) https://t.co/B362RJ5cpy",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G9lmOCdWkAAqpi-.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 2710,
+      "retweets": 172,
+      "replies": 62,
+      "views": 202468
+    },
+    "comments": []
+  }
+}

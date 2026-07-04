@@ -1,0 +1,52 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T22:36:58.174Z",
+  "tweetId": "2042316457623564783",
+  "post": {
+    "url": "https://x.com/knoxtwts/status/2042316457623564783",
+    "author": {
+      "handle": "knoxtwts",
+      "name": "KNOX"
+    },
+    "date": "2026-04-09",
+    "text": "while you spend 4 hours watching netflix tonight, someone is learning how to make film scenes\n\nseedance 2.0 just went live globally on higgsfield. been testing it for weeks.\n\nhere's what actually works:\n\n> structure your prompt in layers: subject first (who, wardrobe, setting), then ONE action verb (stacked verbs = muddled motion), then camera movement early, then lighting anchor, then quality suffix\n> always end with \"4K, Ultra HD, Rich details, Cinematic texture, Natural colors.\" skipping this = visible drop in sharpness\n> the reference system is where it separates. load up to 9 images + 3 videos + 3 audio files. first image slot carries the most weight so put your key reference there\n> for consistent characters: 3 angles of the same face (front, three-quarter, profile) as separate images. not a grid collage\n> for image-to-video: don't describe the character in text. let the image carry identity. describe only action + environment. keep under 80 words or the prompt fights the image\n\na full 35-second multi-shot video costs under $8.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2042315911835582464/vid/avc1/1920x1080/IDI52pxTdDvQ6dIB.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 21,
+      "retweets": 3,
+      "replies": 2,
+      "views": 1495
+    },
+    "comments": [
+      {
+        "handle": "ShamiWeb3",
+        "name": "Shami",
+        "date": "2026-04-09",
+        "text": "@knoxtwts This breakdown is insanely useful, next-level workflow insight 🔥"
+      },
+      {
+        "handle": "leohuynh139",
+        "name": "LEO",
+        "date": "2026-04-09",
+        "text": "@knoxtwts This prompt layering hack just leveled up my AI film game 😎\nWhat’s your go-to structure that actually delivers clean motion?"
+      },
+      {
+        "handle": "knoxtwts",
+        "name": "KNOX",
+        "date": "2026-04-09",
+        "text": "one verb per shot. that's the whole thing. \"he slowly turns to face the camera\" gives you clean motion every time. the moment you stack two actions in one prompt it tries to cram both into the duration and everything looks rushed and muddled. put your camera movement in the first half of the prompt too, seedance prioritizes early tokens so if you bury it at the end it gets soft-ignored."
+      },
+      {
+        "handle": "knoxtwts",
+        "name": "KNOX",
+        "date": "2026-04-09",
+        "text": "@ShamiWeb3 glad it helps"
+      }
+    ]
+  }
+}

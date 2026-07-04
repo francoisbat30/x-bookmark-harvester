@@ -1,0 +1,40 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:40.252Z",
+  "tweetId": "2046254937559237012",
+  "post": {
+    "url": "https://x.com/HowToPrompt__/status/2046254937559237012",
+    "author": {
+      "handle": "HowToPrompt__",
+      "name": "How To Prompt"
+    },
+    "date": "2026-04-20",
+    "text": "Yann LeCun was right the entire time. And generative AI might be a dead end.\n\nFor the last three years, the entire industry has been obsessed with building bigger LLMs. Trillions of parameters. Billions in compute.\n\nThe theory was simple: if you make the model big enough, it will eventually understand how the world works.\n\nYann LeCun said that was stupid.\n\nHe argued that generative AI is fundamentally inefficient.\n\nWhen an AI predicts the next word, or generates the next pixel, it wastes massive amounts of compute on surface-level details.\n\nIt memorizes patterns instead of learning the actual physics of reality.\n\nHe proposed a different path: JEPA (Joint-Embedding Predictive Architecture).\n\nInstead of forcing the AI to paint the world pixel by pixel, JEPA forces it to predict abstract concepts. It predicts what happens next in a compressed \"thought space.\"\n\nBut for years, JEPA had a fatal flaw.\n\nIt suffered from \"representation collapse.\"\n\nBecause the AI was allowed to simplify reality, it would cheat. It would simplify everything so much that a dog, a car, and a human all looked identical.\n\nIt learned nothing.\n\nTo fix it, engineers had to use insanely complex hacks, frozen encoders, and massive compute overheads.\n\nUntil today.\n\nResearchers just dropped a paper called \"LeWorldModel\" (LeWM).\n\nThey completely solved the collapse problem.\n\nThey replaced the complex engineering hacks with a single, elegant mathematical regularizer.\n\nIt forces the AI's internal \"thoughts\" into a perfect Gaussian distribution.\n\nThe AI can no longer cheat. It is forced to understand the physical structure of reality to make its predictions.\n\nThe results completely rewrite the economics of AI.\n\nLeWM didn't need a massive, centralized supercomputer.\n\nIt has just 15 million parameters.\n\nIt trains on a single, standard GPU in a few hours.\n\nYet it plans 48x faster than massive foundation world models. It intrinsically understands physics. It instantly detects impossible events.\n\nWe spent billions trying to force massive server farms to memorize the internet.\n\nNow, a tiny model running locally on a single graphics card is actually learning how the real world works.",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HGXB-TTb0AASwdD.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 12266,
+      "retweets": 2088,
+      "replies": 434,
+      "views": 1296951
+    },
+    "comments": [
+      {
+        "handle": "collinskenley1",
+        "name": "Kenley Collins",
+        "date": "2026-06-24",
+        "text": "@HowToPrompt__ Solving representation collapse with a single regularizer instead of all the usual hacks is a clean fix. Would you be open to working on something together?"
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HGXB-TTb0AASwdD.jpg",
+      "localFilename": "2046254937559237012_1.jpg"
+    }
+  ]
+}

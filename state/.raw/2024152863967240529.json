@@ -1,0 +1,22 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:22.250Z",
+  "tweetId": "2024152863967240529",
+  "post": {
+    "url": "https://x.com/GeminiApp/status/2024152863967240529",
+    "author": {
+      "handle": "GeminiApp",
+      "name": "Google Gemini"
+    },
+    "date": "2026-02-18",
+    "text": "Introducing Lyria 3, our new music generation model in Gemini that lets you turn any idea, photo, or video into a high-fidelity track with custom lyrics. \n\nFrom funny jingles to lo-fi beats, you can create custom 30-second soundtracks for any moment.\n\nSee how it works. 🧵",
+    "media": [],
+    "metrics": {
+      "likes": 8823,
+      "retweets": 1258,
+      "replies": 504,
+      "views": 4642608
+    },
+    "comments": []
+  }
+}

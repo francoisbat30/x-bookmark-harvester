@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:32.641Z",
+  "tweetId": "2057019521114759343",
+  "post": {
+    "url": "https://x.com/BlackBondPtv/status/2057019521114759343",
+    "author": {
+      "handle": "BlackBondPtv",
+      "name": "Black Bond PTV"
+    },
+    "date": "2026-05-20",
+    "text": "🚨 LE CRÉATEUR DE CLAUDE CODE BALANCE TOUT\n\nBoris Cherny (Anthropic) explique ENFIN comment écrire des prompts qui marchent vraiment :\n\n- Fichiers CLAUDE.md \n- Raccourcis mémoire \n- Sessions parallèles \n- Patterns de prompting ultra-efficaces\n\nTout ça en une seule vidéo, gratuit, et sans bullshit.\n\nSi tu utilises Claude pour coder, bosser ou créer… tu vas gagner un temps fou.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2057012286447828992/vid/avc1/1920x1080/LDwgMMoYtEFpBrGG.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 1904,
+      "retweets": 468,
+      "replies": 13,
+      "views": 132536
+    },
+    "comments": []
+  }
+}

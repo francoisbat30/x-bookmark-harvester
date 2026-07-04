@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:50.438Z",
+  "tweetId": "1985051785153626264",
+  "post": {
+    "url": "https://x.com/koltregaskes/status/1985051785153626264",
+    "author": {
+      "handle": "koltregaskes",
+      "name": "Kol Tregaskes"
+    },
+    "date": "2025-11-02",
+    "text": "Peter compares ChatGPT (GPT-5), Claude (4.5), and Gemini (2.5) across 10 tasks, recommending the best model for each based on personal use.\n\n- Prefers ChatGPT for everyday answers due to speed, conciseness, and fewer rate limits compared to Claude.\n- Chooses Claude for writing and editing, trained on personal style examples to match output.\n- Recommends Claude Code or OpenAI Codex for coding, with Codex better at fixing complex bugs.\n- Selects Gemini for web search for faster real-time info retrieval.\n- Favours Claude for deep research to generate concise five-page reports.\n- Picks ChatGPT for voice chat despite interruptions, prefers third-party apps like Wispr Flow for dictation.\n- Recommends Gemini's Nano Banana for image generation and Veo 3.1 for video, but uses Sora for personal videos.\n- Finds no model useful for live camera or computer use.\n- Dismisses Grok due to its AI companions marketing, seen as unprofessional for work.\n- Highlights AI Projects, preferring Claude for attaching plain text files.\n- Shares tips: attach Google Workspace files, specify output styles, iterate prompts.\n- Details top three projects for product work: edit product reviews/PRDs, draft performance reviews, write interview summaries.\n- For creator work: prep podcast interviews, draft post-production, edit newsletter posts.\n- For personal work: get life advice, plan weekends/trips, home improvement tips.\n- Describes Deep Research as preferred for complex problems, with five steps to optimise (details not fully provided).\n\nPeter provides practical workflows and preferences to maximise AI for daily tasks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G4mCyDEXkAAhPg5.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1164,
+      "retweets": 116,
+      "replies": 74,
+      "views": 270036
+    },
+    "comments": []
+  }
+}

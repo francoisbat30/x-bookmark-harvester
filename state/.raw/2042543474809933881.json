@@ -1,0 +1,522 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T22:36:59.416Z",
+  "tweetId": "2042543474809933881",
+  "post": {
+    "url": "https://x.com/voxelplot/status/2042543474809933881",
+    "author": {
+      "handle": "voxelplot",
+      "name": "VoxelPlot"
+    },
+    "date": "2026-04-10",
+    "text": "3. Prompt the details to reinforce the guidance\nThe reference video lacks animation details such as the movement of clothing or hair; prompt these instructions so they appear in the final video.\n\nSeedance 2.0 has high prompt adherence, and even if you have uploaded images and a video, it still gives significant weight to text guidelines.\n\nAdditionally, describing what happens in the final scene helps the final generation stay coherent. \n\nIf you don't provide instructions, Seedance 2.0 will tend to simply color your mannequin instead of creating a complete animated scene with clothes, hair, background elements, particles, effects, etc.\n\nPrompt Vídeo 1: Create a an animation based on \"Video1\" but with the character of\"Image1\" and the artistic style and background of \"Image2\"\n\nPrompt Vídeo 2: Create a an animation based on \"Video1\"but with the character of \"Image1\". Take poses from \"Video1\"but add animations of hair and clothes that are not in the original video. Style japanese high budget anime series, $100 million dollar budget\n\nPrompt Vídeo 3: \"Video1\" = framing, composition and movement . \"Image1\" = character. \"Image2\" = background. \"Image3\" = first frame\nThe character of \"Image1\" falls down a vertical tunnel shaft with his hair and clothes moving because of the air. His loose pants ripple and flutter in the rushing air. His oversized upper clothing flaps wildly as he falls. The backpack sways slightly with the motion, while the loose fabric on his back streams and whips violently behind him. Preserve character consitency with \"Image1\"\n\nPrompt Vídeo 4: Create a an animation based on \"Video1\" but with the character of \"Image1\". Take poses from \"Video1\" but add animations of hair and clothes that are not in the original video. Add moving background visual FX and animations, smeared background in handrawn sketched pencil style. \"Image1\"is the first frame. Style japanese high budget anime series, 100$ million dollar budget\n\n1. Basic video sketch reference\nYou might be a traditional animator working on a 2D animation, or a 3D animator with a basic blockout from Blender or other 3D software.\n\nYou can use AI to get an idea of what the final look will be, or simply let the AI handle all the detailing and final look while you manually guide the composition and movement.\n\n2. Reference images\nYou will provide Seedance with a character reference image and a background image so it can generate the final animation. \n\nYou can also create a full-color first frame with the same composition as the first frame of the video; this way, Seedance will carry the character and background throughout the rest of the video frames.",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HFiRpLcXkAAbMJN.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HFiRrDIakAUR9Si.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 33,
+      "retweets": 2,
+      "replies": 2,
+      "views": 4356
+    },
+    "comments": [
+      {
+        "handle": "voxelplot",
+        "name": "VoxelPlot",
+        "date": "2026-04-10",
+        "text": "Seedance 2.0 - Advanced Workflow Series\n\n6. Rough to Final Animation\nUse basic sketches and provide character and environment references to Seedance to receive a full-color final animation or render.\n\nWorkflow + Prompts 👇 https://t.co/dfM57nNtXY"
+      },
+      {
+        "handle": "voxelplot",
+        "name": "VoxelPlot",
+        "date": "2026-04-10",
+        "text": "@bdvd_25 Yes it is. Didn't want to use any handrawm animation without consent and this video was made solely to show the power of the model.\n\nBut It can be used with handrawm 2D sketch animation."
+      },
+      {
+        "handle": "MaxBlaze93",
+        "name": "Rendered ARC",
+        "date": "2026-04-10",
+        "text": "@voxelplot That’s actually exactly where I’m heading with my anime series workflow. I think this is the ultimate way to go if you’re serious about making a dedicated series because it gives you so much freedom. Plus, you can definitely make this work with 3D models too."
+      },
+      {
+        "handle": "bdvd_25",
+        "name": "bdvd_25",
+        "date": "2026-04-10",
+        "text": "@voxelplot is it me or the reference video is ai generated to?"
+      },
+      {
+        "handle": "voxelplot",
+        "name": "VoxelPlot",
+        "date": "2026-04-10",
+        "text": "@MaxBlaze93 I will post examples of 3d rendering with AI"
+      },
+      {
+        "handle": "voxelplot",
+        "name": "VoxelPlot",
+        "date": "2026-04-10",
+        "text": "@HurQlez It doesn'y care. There is a lot of drama around AI. Just use the tools and support artists, no need to categorize everything"
+      },
+      {
+        "handle": "Framer_X",
+        "name": "Framer 🇱🇹",
+        "date": "2026-04-10",
+        "text": "@voxelplot Amazing buddy keep going!"
+      },
+      {
+        "handle": "horacedodd",
+        "name": "Horace Dodd",
+        "date": "2026-04-10",
+        "text": "@voxelplot @1t01c1p10 Big for traditional artists!🎯"
+      },
+      {
+        "handle": "pt5films",
+        "name": "Mike Miller",
+        "date": "2026-04-10",
+        "text": "@voxelplot Awesome workflow. May need to try this and see if it gets me past face restrictions on @runwayml. Thanks for sharing!"
+      },
+      {
+        "handle": "Dalniery1",
+        "name": "Dalniery",
+        "date": "2026-04-10",
+        "text": "@voxelplot Así se harán las próximas animaciones"
+      },
+      {
+        "handle": "kayinsho",
+        "name": "kayinsho",
+        "date": "2026-04-11",
+        "text": "@voxelplot @ty3rome I have an animatic I worked on. This would be dope!"
+      },
+      {
+        "handle": "wadjetmc",
+        "name": "Wadjet.art",
+        "date": "2026-04-10",
+        "text": "@voxelplot Very promising! Thanks for sharing"
+      },
+      {
+        "handle": "bitprestontech1",
+        "name": "Bitpreston🤿",
+        "date": "2026-04-10",
+        "text": "@voxelplot This is so insightful to learn from.\n\nThank you Voxel, I'm enjoying your tutorials 🙏"
+      },
+      {
+        "handle": "voxelplot",
+        "name": "VoxelPlot",
+        "date": "2026-04-10",
+        "text": "@TheRealRealQ Try to preserve plain surfaces without details and erase the joints, ai will tend to follow lines and draw details there"
+      },
+      {
+        "handle": "TheRealRealQ",
+        "name": "Q",
+        "date": "2026-04-10",
+        "text": "@voxelplot Very good, VoxelPlot.\n\nThis is something i wanted to test with handdrawn rough animatics.\n\nI think we are at the dawn of something amazing."
+      },
+      {
+        "handle": "MaxBlaze93",
+        "name": "Rendered ARC",
+        "date": "2026-04-10",
+        "text": "@voxelplot Good stuff mate!"
+      },
+      {
+        "handle": "voxelplot",
+        "name": "VoxelPlot",
+        "date": "2026-04-10",
+        "text": "Yes, it will reproduce the animatic but, \n\nimportant!!! \n\nEvery line of the sketch seedance will try to draw an element or detail from it. \n\nIf you make animatics specifically for AI try to use models with plain figures and erase first the joints of the sketch.\n\nIt can add secondary animations for clothes and hair, with minimal movement.\n\nIt works better for wide shots than for medium shots."
+      },
+      {
+        "handle": "DrProton85",
+        "name": "Dr. Proton",
+        "date": "2026-04-10",
+        "text": "@voxelplot This is too awesome.\n\n@ProtonStudiosX"
+      },
+      {
+        "handle": "voxelplot",
+        "name": "VoxelPlot",
+        "date": "2026-04-10",
+        "text": "@Dalniery1 Sobretodo fondos, color y VFX"
+      },
+      {
+        "handle": "casey_lau",
+        "name": "casey",
+        "date": "2026-04-10",
+        "text": "@voxelplot Liked, followed and bookmarked. 🙏🏼"
+      },
+      {
+        "handle": "Ankit_patel211",
+        "name": "ANKIT PATEL 🇮🇳 | AI",
+        "date": "2026-04-10",
+        "text": "@voxelplot Really wonderful video creation!"
+      },
+      {
+        "handle": "RachelVT42",
+        "name": "Rachel V",
+        "date": "2026-04-10",
+        "text": "@voxelplot This is amazing, I’m looking forward to seeing more creators learn how to leverage these tools."
+      },
+      {
+        "handle": "jbettinaldi",
+        "name": "Jacopo Bettinaldi",
+        "date": "2026-04-10",
+        "text": "@voxelplot Work so good!!"
+      },
+      {
+        "handle": "voxelplot",
+        "name": "VoxelPlot",
+        "date": "2026-04-10",
+        "text": "@Framer_X https://t.co/jA5gvU0Txy"
+      },
+      {
+        "handle": "FOTOAGUADO",
+        "name": "Dolcefoto",
+        "date": "2026-04-10",
+        "text": "@voxelplot Really cool!! Thanks for sharing 🤗"
+      },
+      {
+        "handle": "uri_journey",
+        "name": "Uri Riera",
+        "date": "2026-04-10",
+        "text": "@voxelplot Cool!"
+      },
+      {
+        "handle": "Ecomaxi_1111",
+        "name": "ChainRogue",
+        "date": "2026-04-10",
+        "text": "@voxelplot Really awesome. Will try this approach"
+      },
+      {
+        "handle": "pokas_io",
+        "name": "Pokas",
+        "date": "2026-04-10",
+        "text": "@voxelplot 🔥✍️🔥"
+      },
+      {
+        "handle": "q8rambos",
+        "name": "كويت رامبو",
+        "date": "2026-04-11",
+        "text": "@voxelplot Question: If I perform the action, for example, and insert the video, will it be easy to make the animation move like me?"
+      },
+      {
+        "handle": "Sim49373Jackson",
+        "name": "barrydono",
+        "date": "2026-04-11",
+        "text": "@voxelplot I have a question how can I do seedance 2.0 stuff?"
+      },
+      {
+        "handle": "julezrz",
+        "name": "Julan",
+        "date": "2026-04-11",
+        "text": "@voxelplot The most powerful thing here is that the intent stayed intact from sketch to render."
+      },
+      {
+        "handle": "LyanLab",
+        "name": "lYan",
+        "date": "2026-04-11",
+        "text": "@voxelplot This is the way ✌️😎 sketchs/ 3d anime or whatever you’re more comfortable with works well and give control."
+      },
+      {
+        "handle": "abanrats102",
+        "name": "abanrats (wayangwave)",
+        "date": "2026-04-11",
+        "text": "@DeweyDWynn @voxelplot thanks for the tips and tricks mate, really helpfull"
+      },
+      {
+        "handle": "LetsDestroy01",
+        "name": "Lets Destroy The World",
+        "date": "2026-04-11",
+        "text": "@voxelplot MEJOREN ONE PUNCH MAN 🗿"
+      },
+      {
+        "handle": "VelhoPilantra",
+        "name": "Velho Pilantra",
+        "date": "2026-04-11",
+        "text": "@voxelplot This short demo has more frames per second than the entire 3º season of *One Punch Man*."
+      },
+      {
+        "handle": "roberthintz0",
+        "name": "Robert Hintz",
+        "date": "2026-04-10",
+        "text": "@voxelplot That workflow is perfect!"
+      },
+      {
+        "handle": "KorinaIsFine",
+        "name": "Korina",
+        "date": "2026-04-10",
+        "text": "@voxelplot Incredible!"
+      },
+      {
+        "handle": "voxelplot",
+        "name": "VoxelPlot",
+        "date": "2026-04-10",
+        "text": "@GumVue You habe to fine tune both the clip and prompt. Very complex clips might not work"
+      },
+      {
+        "handle": "ElenSatt",
+        "name": "Ellen's Dream",
+        "date": "2026-04-10",
+        "text": "@voxelplot WOW! 🤩\nThe barrier to entry is dropping fast. \nWhich means there's officially no excuse left between an idea and reality."
+      },
+      {
+        "handle": "GumVue",
+        "name": "Gumvue Studio",
+        "date": "2026-04-10",
+        "text": "@voxelplot If I upload some video . Will that work with a y image? This looks like controlnet"
+      },
+      {
+        "handle": "Skullenity",
+        "name": "Skull",
+        "date": "2026-04-10",
+        "text": "@voxelplot Great work"
+      },
+      {
+        "handle": "curiousMazor",
+        "name": "CuriousShubham007 aka truth$",
+        "date": "2026-04-10",
+        "text": "@voxelplot Amazing @voxelplot  at this point those who merge their traditional animations skill with ai will have advantage over prompters"
+      },
+      {
+        "handle": "voxelplot",
+        "name": "VoxelPlot",
+        "date": "2026-04-10",
+        "text": "@TheRealRealQ It is a tool that can be involved in any part of the process the artist and producer find it useful"
+      },
+      {
+        "handle": "HurQlez",
+        "name": "HurQlez",
+        "date": "2026-04-10",
+        "text": "@voxelplot If an animator traced the seedance video to clean it up and make the final animation, does that still count as human made animation even if it uses AI in the middle of production?"
+      },
+      {
+        "handle": "dbenyamin",
+        "name": "Dan Benyamin (Æ)",
+        "date": "2026-04-10",
+        "text": "@voxelplot @threadreaderapp unroll"
+      },
+      {
+        "handle": "rafalors",
+        "name": "RafaSimon",
+        "date": "2026-04-10",
+        "text": "@voxelplot Thanks for this Vox!"
+      },
+      {
+        "handle": "TheRealRealQ",
+        "name": "Q",
+        "date": "2026-04-10",
+        "text": "Yes, i think a lot of testing will be needed and results discussed with the illustrator/animator. In my head i always thought this would be the best use of AI gen for animation and especially to get results that we want rather than letting the ai guess or have to create multiple scenes before we are happy the one that fits best."
+      },
+      {
+        "handle": "shahidiqbal1980",
+        "name": "shahid iqbal",
+        "date": "2026-04-10",
+        "text": "@voxelplot https://t.co/BE06r1O8oc"
+      },
+      {
+        "handle": "DeweyDWynn",
+        "name": "Sp@ce_MOnky",
+        "date": "2026-04-10",
+        "text": "@voxelplot great post. thanks for the education"
+      },
+      {
+        "handle": "teren0894",
+        "name": "Teren",
+        "date": "2026-04-10",
+        "text": "@voxelplot Thank you"
+      },
+      {
+        "handle": "voxelplot",
+        "name": "VoxelPlot",
+        "date": "2026-04-10",
+        "text": "@RetroAnime88 Next tutorial will be storyboarding, stay alert"
+      },
+      {
+        "handle": "VistaLargaGames",
+        "name": "Vista Larga Games | ᯅ",
+        "date": "2026-04-10",
+        "text": "@voxelplot Perfect example of ai being a great tool"
+      },
+      {
+        "handle": "TdotsSolutionsz",
+        "name": "Balance",
+        "date": "2026-04-10",
+        "text": "@voxelplot https://t.co/84EznPDUIS"
+      },
+      {
+        "handle": "TheYngblackking",
+        "name": "Gun yamazaki",
+        "date": "2026-04-10",
+        "text": "@voxelplot EWWWWW YUCK AI SLOP!!!!!🤢🤢🤢"
+      },
+      {
+        "handle": "RetroAnime88",
+        "name": "レトロアニメ 88",
+        "date": "2026-04-10",
+        "text": "@voxelplot Thanks for the heads up! If Seedance can convert my storyboards/animatics directly then I wouldn't need generate individual scene images. 🤔"
+      },
+      {
+        "handle": "RetroAnime88",
+        "name": "レトロアニメ 88",
+        "date": "2026-04-10",
+        "text": "@voxelplot Thanks for the info. I'm a professional storyboard artist and this workflow would be useful. I'm guessing Seedance would be able to translate my animatic matching my timing and cutting similar to a 2D/3D studio pipeline when my boards are handed to the animation team."
+      },
+      {
+        "handle": "voxelplot",
+        "name": "VoxelPlot",
+        "date": "2026-04-10",
+        "text": "@teren0894 Best place is https://t.co/9AEMzsyPEy, the official."
+      },
+      {
+        "handle": "teren0894",
+        "name": "Teren",
+        "date": "2026-04-10",
+        "text": "@voxelplot How can I use seedance or how can I access?"
+      },
+      {
+        "handle": "Dalniery1",
+        "name": "Dalniery",
+        "date": "2026-04-10",
+        "text": "@voxelplot Exacto, vendrán mejores modelos, los artistas van a estar más ágil, harán las cosas rápido porque ellos conocen esa área , dibujan rápido un boceto"
+      },
+      {
+        "handle": "OpreliaAI",
+        "name": "Oprèlia AI",
+        "date": "2026-04-10",
+        "text": "@voxelplot great styff"
+      },
+      {
+        "handle": "aiCreativeDir",
+        "name": "JC | AI Creative Director",
+        "date": "2026-04-10",
+        "text": "@voxelplot Thanks. It’s very helpful"
+      },
+      {
+        "handle": "nick_tagny",
+        "name": "Nick T.",
+        "date": "2026-04-10",
+        "text": "@voxelplot This is great !"
+      },
+      {
+        "handle": "bdvd_25",
+        "name": "bdvd_25",
+        "date": "2026-04-10",
+        "text": "@voxelplot it makes sense!,"
+      },
+      {
+        "handle": "voxelplot",
+        "name": "VoxelPlot",
+        "date": "2026-04-10",
+        "text": "@uri_journey 🔥"
+      },
+      {
+        "handle": "voxelplot",
+        "name": "VoxelPlot",
+        "date": "2026-04-10",
+        "text": "@FOTOAGUADO 😉"
+      },
+      {
+        "handle": "voxelplot",
+        "name": "VoxelPlot",
+        "date": "2026-04-11",
+        "text": "@q8rambos Yeah, It will work. You have a very good tool for thqt case that is Kling Motion control (perfect for 3d animation) and replacement for CGI reslistic characters and realistic characters.\n\nFor 2D the program can replace it, but it will look like CGI cel-shading style"
+      },
+      {
+        "handle": "TrueZulu",
+        "name": "OsubM",
+        "date": "2026-04-11",
+        "text": "@voxelplot wait can it do regular show style animation? what do you do on it exactly? feed it hand drawn references and then it generates for you?"
+      },
+      {
+        "handle": "sanamilmi",
+        "name": "sanami",
+        "date": "2026-04-11",
+        "text": "@voxelplot It's working now, just use Dreamina."
+      },
+      {
+        "handle": "sanamilmi",
+        "name": "sanami",
+        "date": "2026-04-11",
+        "text": "@voxelplot @MaxBlaze93 Dreamina is now available for free to try, and it's accessible through the official website."
+      },
+      {
+        "handle": "sanamilmi",
+        "name": "sanami",
+        "date": "2026-04-11",
+        "text": "@bdvd_25 @voxelplot You can try Dreamina; it can generate greatvideos in any language."
+      },
+      {
+        "handle": "NoNARed999999",
+        "name": "NoNaRED23",
+        "date": "2026-04-11",
+        "text": "@voxelplot why bother generating a rough if u could just generate the whole thing like if ur gonna be lazy js be lazy ur wasting everyones time (and water)"
+      },
+      {
+        "handle": "BadDeadPool23",
+        "name": "Merc with a Mouth-Not a hero Definitely not DC",
+        "date": "2026-04-11",
+        "text": "@voxelplot I've done this just with photo generation to get everything they way I wanted. Sneak that one pose in there somewhere too 🔞Bad.deapool. This clip is 🔥"
+      },
+      {
+        "handle": "Alice1544577",
+        "name": "Alice1544",
+        "date": "2026-04-11",
+        "text": "@voxelplot Slop"
+      },
+      {
+        "handle": "auTechArena",
+        "name": "techarena.au",
+        "date": "2026-04-10",
+        "text": "@voxelplot Love this! Seedance 2.0 looks legit. Can’t wait to feed rough sketches in and get polished, full-color animations back. Gonna be fire."
+      },
+      {
+        "handle": "gatomewmota",
+        "name": "swagman",
+        "date": "2026-04-10",
+        "text": "@voxelplot looks ass"
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-04-10",
+        "text": "@dbenyamin @voxelplot @dbenyamin Salam, here is your unroll: https://t.co/JPImn3ubSP Share this if you think it's interesting. 🤖"
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-04-10",
+        "text": "@dbenyamin @voxelplot @dbenyamin Salam, the unroll you asked for: https://t.co/JPImn3ubSP Talk to you soon. 🤖"
+      },
+      {
+        "handle": "petamarket",
+        "name": "Petsmarket",
+        "date": "2026-04-10",
+        "text": "@voxelplot Yo, the SeedDances AI Video API is coming to my app soon. Check It Out."
+      },
+      {
+        "handle": "voxelplot",
+        "name": "VoxelPlot",
+        "date": "2026-04-10",
+        "text": "@Ecomaxi_1111 😉"
+      },
+      {
+        "handle": "voxelplot",
+        "name": "VoxelPlot",
+        "date": "2026-04-10",
+        "text": "@nick_tagny 😃"
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HFiRpLcXkAAbMJN.jpg",
+      "localFilename": "2042543474809933881_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HFiRrDIakAUR9Si.jpg",
+      "localFilename": "2042543474809933881_2.jpg"
+    }
+  ]
+}

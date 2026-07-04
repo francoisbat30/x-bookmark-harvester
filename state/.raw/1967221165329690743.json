@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:17.143Z",
+  "tweetId": "1967221165329690743",
+  "post": {
+    "url": "https://x.com/SpencerHakimian/status/1967221165329690743",
+    "author": {
+      "handle": "SpencerHakimian",
+      "name": "Spencer Hakimian"
+    },
+    "date": "2025-09-14",
+    "text": "It’s not the video games. https://t.co/0JF0VUVI7R",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G0z5OTtWAAAoP9q.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 24819,
+      "retweets": 4039,
+      "replies": 724,
+      "views": 820713
+    },
+    "comments": []
+  }
+}

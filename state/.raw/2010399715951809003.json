@@ -1,0 +1,31 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:33.953Z",
+  "tweetId": "2010399715951809003",
+  "post": {
+    "url": "https://x.com/appariciojunior/status/2010399715951809003",
+    "author": {
+      "handle": "appariciojunior",
+      "name": "AJ"
+    },
+    "date": "2026-01-11",
+    "text": "This is actually a good prompt to add to a portfolio website, or like a creative agency figurines. Really nice. https://t.co/RCrCluU2Cg https://t.co/d2UGL84sLf",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G-Zf4vZWkAAwVNc.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G-Zf4vZXkAAZNlg.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 5061,
+      "retweets": 197,
+      "replies": 18,
+      "views": 840522
+    },
+    "comments": []
+  }
+}

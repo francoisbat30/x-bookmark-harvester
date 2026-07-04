@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:15.751Z",
+  "tweetId": "2026259156219601253",
+  "post": {
+    "url": "https://x.com/sukh_saroy/status/2026259156219601253",
+    "author": {
+      "handle": "sukh_saroy",
+      "name": "Sukh Sroay"
+    },
+    "date": "2026-02-24",
+    "text": "🚨BREAKING: Someone just solved the #1 problem with local AI.\n\nIt's called llmfit and it tells you exactly which LLMs will run on YOUR hardware before you waste hours downloading the wrong model.\n\nNo guessing. No trial and error. No \"out of memory\" crashes.\n\nHere's how it works:\n\nOne command scans your full setup\n\n→ Detects your RAM, CPU, GPU, and VRAM\n→ Scores every model on quality, speed, fit, and context\n→ Picks the best quantization automatically\n→ Ranks what's perfect, good, or marginal for your machine\n\nHere's the wildest part:\n\nIt handles MoE architectures properly.\n\nMixtral 8x7B has 46.7B total parameters but only activates 12.9B per token.\n\nllmfit accounts for that. Most tools don't.\n\n94 models. 30 providers. One command.\n\n100% Opensource.\n\nLink in the first comment.",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HB639u1agAAiOof.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 2469,
+      "retweets": 322,
+      "replies": 67,
+      "views": 150384
+    },
+    "comments": []
+  }
+}

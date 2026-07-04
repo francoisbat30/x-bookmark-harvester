@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:31.914Z",
+  "tweetId": "2013363880395739391",
+  "post": {
+    "url": "https://x.com/AlternativeTo/status/2013363880395739391",
+    "author": {
+      "handle": "AlternativeTo",
+      "name": "AlternativeTo"
+    },
+    "date": "2026-01-19",
+    "text": "Free and open-source Kanban app that runs fully on your desktop. No account, no tracking, and no self-hosting required https://t.co/XsAFzYTrdq https://t.co/5ZfSswdmLX",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/ext_tw_video/2013363862108528640/pu/vid/avc1/720x750/ySOER5CE8oZoWuXi.mp4?tag=12"
+      }
+    ],
+    "metrics": {
+      "likes": 524,
+      "retweets": 52,
+      "replies": 5,
+      "views": 28963
+    },
+    "comments": []
+  }
+}

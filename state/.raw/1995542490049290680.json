@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:42.555Z",
+  "tweetId": "1995542490049290680",
+  "post": {
+    "url": "https://x.com/AmirMushich/status/1995542490049290680",
+    "author": {
+      "handle": "AmirMushich",
+      "name": "AmirMušić"
+    },
+    "date": "2025-12-01",
+    "text": "Nano Banana prompt\n\nSwiss design geometric logo stylization\n\nPrompt below👇 https://t.co/5AMehVES3K",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G7GW1EjWgAAgtWV.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 3728,
+      "retweets": 216,
+      "replies": 50,
+      "views": 240919
+    },
+    "comments": []
+  }
+}

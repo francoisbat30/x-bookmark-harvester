@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:09.193Z",
+  "tweetId": "1970118384806515030",
+  "post": {
+    "url": "https://x.com/Mericamemed/status/1970118384806515030",
+    "author": {
+      "handle": "Mericamemed",
+      "name": "MERICA MEMED"
+    },
+    "date": "2025-09-22",
+    "text": "This is so true https://t.co/d6PdilLvy4",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1969980131880886272/vid/avc1/718x1280/qMT_8fMIK5HzM1uP.mp4?tag=16"
+      }
+    ],
+    "metrics": {
+      "likes": 8465,
+      "retweets": 436,
+      "replies": 19,
+      "views": 717505
+    },
+    "comments": []
+  }
+}

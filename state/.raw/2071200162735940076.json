@@ -1,0 +1,52 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:13.965Z",
+  "tweetId": "2071200162735940076",
+  "post": {
+    "url": "https://x.com/RodmanAi/status/2071200162735940076",
+    "author": {
+      "handle": "RodmanAi",
+      "name": "Leonard Rodman"
+    },
+    "date": "2026-06-28",
+    "text": "A guy tested almost every AI mini PC so you don't have to.\n\nWhat surprised me is that they all had the same AMD Ryzen AI Max+ 395 chip and 128GB of memory.\n\nOn paper, they should've been nearly identical.\n\nThey weren't.\n\nThe biggest differences came from things most people ignore:\n\n→ Dual 10Gb Ethernet\n→ USB4 V2 (80 Gbit/s)\n→ PCIe expansion\n→ Memory configuration\n\nThe wildest part?\n\nJust changing how the memory was allocated improved AI performance by up to 15% on the exact same hardware.\n\nNo new chip.\nNo overclocking.\nJust better configuration.\n\nThat tells you where we're headed.\n\nAI hardware is becoming interchangeable.\n\nThe companies that win won't necessarily have the fastest chip, they'll have the best software, the smartest engineering, and the strongest ecosystem.\n\nWe're moving into a different kind of AI hardware race.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2071199728549986304/vid/avc1/1280x720/Oqux70KZiCVda9Wa.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 122,
+      "retweets": 18,
+      "replies": 3,
+      "views": 12915
+    },
+    "comments": [
+      {
+        "handle": "nickventuri",
+        "name": "Nick Venturi",
+        "date": "2026-06-29",
+        "text": "@RodmanAi always comes down to the cooling 🙄"
+      },
+      {
+        "handle": "NeilMcCauley27",
+        "name": "Slick",
+        "date": "2026-06-29",
+        "text": "@Belcebuu1 @RodmanAi Why ? Not authentic ?\n\nFake information?\n\nPlease explain"
+      },
+      {
+        "handle": "Belcebuu1",
+        "name": "Belcebuu",
+        "date": "2026-06-29",
+        "text": "@RodmanAi Paid pathethic content"
+      },
+      {
+        "handle": "shamimai1",
+        "name": "Shamim Hossain",
+        "date": "2026-06-28",
+        "text": "@RodmanAi That’s great"
+      }
+    ]
+  }
+}

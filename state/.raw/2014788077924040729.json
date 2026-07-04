@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:30.234Z",
+  "tweetId": "2014788077924040729",
+  "post": {
+    "url": "https://x.com/HuggingModels/status/2014788077924040729",
+    "author": {
+      "handle": "HuggingModels",
+      "name": "Hugging Models"
+    },
+    "date": "2026-01-23",
+    "text": "NVIDIA just dropped PersonaPlex-7B 🤯\n\nA full-duplex voice model that listens and talks at the same time.\nNo pauses. No turn-taking. Real conversation.\n\n100% open source. Free.\nVoice AI just leveled up.\n\nhttps://t.co/YfzFQfBzMS https://t.co/L46XE1d3zz",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2014788026703216642/vid/avc1/746x480/PMP7FBS1gZccH1vl.mp4?tag=14"
+      }
+    ],
+    "metrics": {
+      "likes": 9542,
+      "retweets": 1048,
+      "replies": 153,
+      "views": 2620786
+    },
+    "comments": []
+  }
+}

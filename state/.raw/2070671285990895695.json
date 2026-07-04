@@ -1,0 +1,124 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:18.066Z",
+  "tweetId": "2070671285990895695",
+  "post": {
+    "url": "https://x.com/DarkWebInformer/status/2070671285990895695",
+    "author": {
+      "handle": "DarkWebInformer",
+      "name": "Dark Web Informer"
+    },
+    "date": "2026-06-27",
+    "text": "🚨 CVE-2026-3227 PoC released for TP-Link routers\n\nhttps://t.co/xvWBBjKWP6\n\nA public GitHub repo has been released for CVE-2026-3227, an authenticated OS command injection vulnerability affecting multiple TP-Link router models.\n\nThe flaw exists in the router configuration backup / restore process and can allow an attacker with admin access to execute commands as root, potentially leading to full device compromise or persistent disruption.\n\nRepo includes:\n\n• Python PoC\n• QEMU hook tooling\n• Config payload generator\n• Root-cause analysis\n• Firmware reverse-engineering notes\n• Exploit workflow documentation\n\nDetails:\n\n• Vendor: TP-Link\n• CVE: CVE-2026-3227\n• Affected: TL-WR802N v4, TL-WR841N v14, TL-WR840N v6\n• Type: Authenticated OS command injection\n• Impact: Root command execution\n• CWE: CWE-78\n• Fixed versions: Latest TP-Link firmware releases\n\nAdmins/Users should update affected TP-Link routers to the latest firmware.",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HLx_yF-XAAAZ7WA.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 640,
+      "retweets": 137,
+      "replies": 9,
+      "views": 71731
+    },
+    "comments": [
+      {
+        "handle": "ZhurgGaming",
+        "name": "Zhurg",
+        "date": "2026-06-27",
+        "text": "@DarkWebInformer If an attacker already had admit privileges, they are already in. lol."
+      },
+      {
+        "handle": "defchildBen",
+        "name": "Onetimato",
+        "date": "2026-06-27",
+        "text": "@DarkWebInformer An authenticated admin might exploit my router?! 😭"
+      },
+      {
+        "handle": "YogSoth0",
+        "name": "YogSotho",
+        "date": "2026-06-27",
+        "text": "@DarkWebInformer \"Authenticated...\"\n👎🏻"
+      },
+      {
+        "handle": "CIA_0786_AX33",
+        "name": "Dev",
+        "date": "2026-06-27",
+        "text": "@DarkWebInformer Who in their right mind would use CCP products? Using CCP products is just what they deserve to be invaded"
+      },
+      {
+        "handle": "ratmidnight",
+        "name": "MidnightRat IV 🇬🇧🇧🇷",
+        "date": "2026-06-27",
+        "text": "@ZhurgGaming @DarkWebInformer Yeah but then they couldn't write a big scary article about it 😂"
+      },
+      {
+        "handle": "hazelcaffed",
+        "name": "Hazel",
+        "date": "2026-06-27",
+        "text": "@DarkWebInformer LET'S FUCKING GO"
+      },
+      {
+        "handle": "r3l0z",
+        "name": "hed0rah",
+        "date": "2026-06-28",
+        "text": "@ZhurgGaming @DarkWebInformer this could potentially be used to pivot or in some longer exploit chain i guess, but yeah this is a bit ridiculous to raise much alarm about. i guess if someone was tricked into restoring a malicious config, but who would be restoring a 3rd party config on their router"
+      },
+      {
+        "handle": "cyberforget",
+        "name": "CyberForget",
+        "date": "2026-06-28",
+        "text": "@DarkWebInformer So even if your own latest firmware your effected?"
+      },
+      {
+        "handle": "dump_tcp",
+        "name": "tcpdump",
+        "date": "2026-06-28",
+        "text": "@DarkWebInformer Does this affect my Archer AXE300 router and is there other vulnerabilities for it?"
+      },
+      {
+        "handle": "kgonzaleztoledo",
+        "name": "Kenneth González",
+        "date": "2026-06-27",
+        "text": "@DarkWebInformer Pdyrkegekrgekgrjryekegwjeyuwteufekruwekwhwkgwjwekrielteiegteyeeituegejdmvsndvkdgejsvsndvjsgdjxjfgdjhejirgdidgdieydieuoe\n\nNeihejdhekehdjdhkehkdhekehkrgeid"
+      },
+      {
+        "handle": "lovelyrobin4192",
+        "name": "gonk",
+        "date": "2026-06-27",
+        "text": "@ZhurgGaming @DarkWebInformer I think it's good thing to jailbreak carrier locked devices."
+      },
+      {
+        "handle": "J4ck3LSyN",
+        "name": "Jλckλι",
+        "date": "2026-06-27",
+        "text": "@hazelcaffed @DarkWebInformer *Authenticated* Root LCE.\n\nCool that you can play with it (as admin ^.^), I would land wanna land a shell quick for extra introspection on traffic and stuffs. \n\nKeep an eye on future firmware updates, people use routers for botnets all the time. https://t.co/lVhwJkfJLR"
+      },
+      {
+        "handle": "hazelcaffed",
+        "name": "Hazel",
+        "date": "2026-06-27",
+        "text": "@J4ck3LSyN @DarkWebInformer Root LCE on MY router 🥹"
+      },
+      {
+        "handle": "J4ck3LSyN",
+        "name": "Jλckλι",
+        "date": "2026-06-27",
+        "text": "@hazelcaffed @DarkWebInformer https://t.co/GOOFOwCpoi"
+      },
+      {
+        "handle": "potassiumlov",
+        "name": "potassium",
+        "date": "2026-06-27",
+        "text": "@DarkWebInformer YIPPIEEEE"
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HLx_yF-XAAAZ7WA.jpg",
+      "localFilename": "2070671285990895695_1.jpg"
+    }
+  ]
+}

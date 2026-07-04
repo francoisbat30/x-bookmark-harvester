@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:25.842Z",
+  "tweetId": "2020936942901395487",
+  "post": {
+    "url": "https://x.com/dom_scholz/status/2020936942901395487",
+    "author": {
+      "handle": "dom_scholz",
+      "name": "Dominik Scholz"
+    },
+    "date": "2026-02-09",
+    "text": "visualizing OpenClaw 🦞🎶 https://t.co/yLi4SkzQ6a https://t.co/j81ooXk6o9",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2020935876579303424/vid/avc1/1888x1446/oL4eTuxg8AP-txLj.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 6857,
+      "retweets": 587,
+      "replies": 332,
+      "views": 785807
+    },
+    "comments": []
+  }
+}

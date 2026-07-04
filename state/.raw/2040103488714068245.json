@@ -1,0 +1,47 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:12.205Z",
+  "tweetId": "2040103488714068245",
+  "post": {
+    "url": "https://x.com/TheAhmadOsman/status/2040103488714068245",
+    "author": {
+      "handle": "TheAhmadOsman",
+      "name": "Ahmad"
+    },
+    "date": "2026-04-03",
+    "text": "GPU Memory Math for LLMs (2026 Edition)\n\nIf you’re running models locally, thinking “model → VRAM” falls apart once you account for how the weights were trained and quantized in the first place.\nThere’s a better way to think about it:\nVRAM (in GB) ≈ Parameters (in billions) x (effective bits per weight ÷ 8)\nThat’s it.\nThis one formula explains everything across:\nFP16 / BF16\nFP8 / INT8\nGPTQ / AWQ / NF4\nGGUF variants\nbasically every format you’ll use\nThe Only Conversion You Actually Need\nHere’s the core intuition:\nFP16 / BF16 → 16 bits → ~2 GB per 1B params\nFP8 / INT8 → 8 bits → ~1 GB per 1B params\n4-bit quants → ~4 bits → ~0.5 GB per 1B params\nGGUF formats sit in between depending on the exact scheme:\nQ6_K → ~0.82 GB per 1B\nQ5_K → ~0.69 GB per 1B\nQ4_K → ~0.56 GB per 1B\nQ3_K → ~0.43 GB per 1B\nQ2_K → ~0.33 GB per 1B\nUltra-aggressive quants go even lower, but at a cost.\nIf you remember nothing else, remember this:\nFP16 = 2x model size\nFP8 = 1x model size\n4-bit = 0.5x model size\nEverything else is just variations on that theme.\nSide Note: The VRAM Tax Nobody Talks About\n \nBefore you even think about weights, understand this: the model itself is only part of your VRAM bill. The real killer is everything around it. KV cache grows with context length and will quietly eat your memory alive at 32K, 128K, or higher. Activations vary by runtime and optimization level but can spike under certain execution paths. Batching and concurrency multiply memory usage fast, especially in agent-style workloads. Framework overhead adds its own tax depending on whether you’re using Transformers, vLLM, TensorRT-LLM, or llama.cpp. And then there’s CUDA Graphs, which trade extra reserved memory for much better latency and throughput stability. Bottom line: if you only budget for weights, you’re already out of memory.\nWhat This Looks Like in Practice\nLet’s translate that into real model sizes.\nA 7B model:\nFP16 → ~14 GB\nFP8 → ~7 GB\n4-bit → ~3.5–4 GB\nA 13B model:\nFP16 → ~26 GB\nFP8 → ~13 GB\n4-bit → ~6–7 GB\nA 70B model:\nFP16 → ~140 GB\nFP8 → ~70 GB\n4-bit → ~35–40 GB\nA 405B model:\nFP16 → ~810 GB\nFP8 → ~405 GB\n4-bit → ~200+ GB\nNow you understand why people either:\nquantize aggressively\nshard across GPUs (e.g. Tensor Parallelism)\nor just give up and say “cloud it is”\nGPU Reality: What Actually Fits\nHere’s the practical translation into GPUs people actually own.\n8 GB VRAM:\n~3B in FP16\n~6–7B in FP8\n~12–13B in 4-bit\n12 GB VRAM:\n~5B FP16\n~10B FP8\n~18–20B 4-bit\n16 GB VRAM:\n~7B FP16\n~13B FP8\n~25B 4-bit\n24 GB VRAM:\n~10–12B FP16\n~20B FP8\n~35–40B 4-bit\n48 GB VRAM:\n~20–24B FP16\n~40B FP8\n~70–80B 4-bit\n80 GB VRAM:\n~35–40B FP16\n~70B FP8\n~140B-class 4-bit\nThis is the “what actually fits” version for model weights.\nWhy Your Model Still Crashes\nAs we said earlier, even if the math says it fits, you can still run out of memory.\nBecause weights are only part of the story.\nYou also need memory for:\nKV cache (this explodes with long context)\nactivations (depending on runtime)\nbatching / concurrency\nframework overhead\nRule of thumb:\nAdd 10–30% extra VRAM for a safe run.\nIf you’re doing:\nlong context (32K, 128K, etc)\nhigh concurrency\nagent workflows\n…you’ll need even more.\nThe MoE Trap\nMixture-of-Experts models confuse people.\nExample:\n“8x7B” sounds like 56B\nbut only a subset of experts run per token\nSo compute cost ≠ memory cost.\nWhat matters:\ntotal parameters → affects memory footprint\nactive parameters → affects speed\nDepending on how the model is loaded:\nyou may still need memory for all experts\nor you can shard them across GPUs\nIf you treat MoE like dense, you’ll either overestimate or underestimate badly.\nGGUF Is Not Magic\nGGUF gets treated like a cheat code.\nIt’s not.\nIt’s a container + quantization strategy optimized for:\nllama.cpp-style inference\nCPU + GPU hybrid setups\nultra-efficient memory usage\nBut:\nThose memory numbers only apply in that runtime.\nThe moment you move into other frameworks:\nweights may be dequantized\nmemory usage can jump dramatically\nSo “it fits in 6 GB” is not universal truth. It’s runtime-specific truth.\nThe Only Mental Model That Matters\nThere isn’t a giant compatibility matrix you need to memorize.\nThere’s just this:\nVRAM ≈ B x (bits ÷ 8)\nThen adjust for:\nruntime overhead\nKV cache\nconcurrency\nThat’s it.\nOnce you internalize this, you stop guessing.\nYou start designing systems.\nAnd more importantly, you stop asking: “Can I run this?”\nYou start asking: “How do I want to run this?”\nThat’s when things get interesting.\nUntil next time.",
+    "media": [],
+    "metrics": {
+      "likes": 1890,
+      "retweets": 261,
+      "replies": 46,
+      "views": 484780
+    },
+    "comments": [
+      {
+        "handle": "IronWolve",
+        "name": "Seattle Sysop",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman 26.2 GB Qwen3.5-122B-A10B-REAP-30-abliterated-IQ2_XS.gguf  and a qwen 0.8B mtp draft in front of it.  Have fun!"
+      },
+      {
+        "handle": "westdecker",
+        "name": "West Decker",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman It might be interesting to see prefill and token generation speed differences on the different hardware.\n\nBut this is a fantastic resource. Thank you"
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-06-25",
+        "text": "@Mg3Paulo @TheAhmadOsman @Mg3Paulo Saluti, here is your unroll: https://t.co/2jAzfhF8Du See you soon. 🤖"
+      },
+      {
+        "handle": "Mg3Paulo",
+        "name": "Paulo Roberto",
+        "date": "2026-06-25",
+        "text": "@TheAhmadOsman @threadreaderapp unroll"
+      }
+    ]
+  }
+}

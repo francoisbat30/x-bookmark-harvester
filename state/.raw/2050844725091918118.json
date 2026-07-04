@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:36.228Z",
+  "tweetId": "2050844725091918118",
+  "post": {
+    "url": "https://x.com/brain_stimulus/status/2050844725091918118",
+    "author": {
+      "handle": "brain_stimulus",
+      "name": "Philippe T"
+    },
+    "date": "2026-05-03",
+    "text": "😱❗ CE PAIEMENT DE 10 000 $ A ÉTÉ EFFECTUÉ SUR UN IPHONE VERROUILLÉ !\n\n  💥Aucun Face ID.\n\n 💥Aucun code d’accès.\n\n🚨Marques Brownlee (MKBHD) avait encore l’air dubitatif après avoir vu son téléphone verrouillé se faire débiter de 5 $ via Apple Pay.\n\nL’équipe de Veritasium a donc posé une question complètement folle :\n\n« Et si on essayait 10 000 $ ? »\n\nIls ont placé son iPhone sur un appareil pendant qu’il était encore verrouillé.\n\nPuis, à l’aide d’un autre appareil, ils ont approché un terminal de paiement.\n\nInstantanément, 10 000 $ ont été débités.\n\nAucune déverrouillage.\n\nAucun Face ID.\n\nAucun code d’accès.Juste un tapotement… et l’argent avait disparu.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2050844649884155905/vid/avc1/1918x1080/k9LStWjncQFuxAjO.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 60,
+      "retweets": 29,
+      "replies": 1,
+      "views": 16919
+    },
+    "comments": []
+  }
+}

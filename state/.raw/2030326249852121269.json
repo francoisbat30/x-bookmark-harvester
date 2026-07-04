@@ -1,0 +1,22 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:06.908Z",
+  "tweetId": "2030326249852121269",
+  "post": {
+    "url": "https://x.com/eliaswalyba/status/2030326249852121269",
+    "author": {
+      "handle": "eliaswalyba",
+      "name": "Elias Waly Ba"
+    },
+    "date": "2026-03-07",
+    "text": "Un de mes collègues m'a montré Beads il y a quelques jours et ça a fondamentalement changé ma façon d'utiliser les agents IA comme Claude Code.\n\nLe problème de fond: les agents n'ont pas de mémoire persistante. Chaque session repart de zéro. On compense avec des fichiers markdown dans le repo, des CLAUDE.md, des notes de contexte, mais c'est fragile, non structuré, et ça scale mal dès que le projet grossit ou que tu veux paralléliser.\n\nBeads résout ça proprement. C'est un issue tracker en graphe orienté acyclique (DAG), stocké dans Dolt (une base SQL versionnée, Git-compatible), optimisé pour être consommé par des agents. Tes tâches ont des dépendances explicites. Un agent fait bd ready et récupère exactement ce qui est prêt à être traité, sans blocker, sans ambiguïté.\n\nCe qui change concrètement dans mon workflow: Avant, je planifiais dans Claude Code, le plan vivait dans le contexte de la session, et à la prochaine session je re-expliquais tout. Maintenant, Claude génère le backlog directement dans Beads au début d'une feature. Les tâches sont liées par dépendances. Un agent claim une tâche (bd update <id> --claim), l'exécute, log les bugs découverts avec le tag discovered-from, et passe à la suivante. Le contexte survit à la session.\n\nLa partie qui m'a le plus surpris: le mécanisme de compaction. Les tâches fermées sont résumées sémantiquement pour ne pas exploser la fenêtre de contexte sur les projets long-terme. C'est de la gestion de mémoire, littéralement.\n\nLes IDs sont hash-based (bd-a1b2) pour éviter les conflits de merge dans les workflows multi-agents sur plusieurs branches, détail qui montre que le design a été pensé pour du vrai usage distribué, pas juste du prototypage.\n\nJe l'utilise maintenant sur tous mes projets qui impliquent des tâches longues, multi-sessions, avec des dépendances complexes entre composants. Je vous recommande Beads vivement.\n\nMerci beaucoup @Steve_Yegge https://t.co/wtTGOVfvn7",
+    "media": [],
+    "metrics": {
+      "likes": 471,
+      "retweets": 54,
+      "replies": 20,
+      "views": 36022
+    },
+    "comments": []
+  }
+}

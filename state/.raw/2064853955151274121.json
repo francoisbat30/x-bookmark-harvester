@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:25.905Z",
+  "tweetId": "2064853955151274121",
+  "post": {
+    "url": "https://x.com/vargastartup/status/2064853955151274121",
+    "author": {
+      "handle": "vargastartup",
+      "name": "Alex Varga /✦"
+    },
+    "date": "2026-06-10",
+    "text": "nvidia/LocateAnything-3B:\n\n12.7 boxes per second on one H100 (10x faster than Qwen3-VL) is a no joke. https://t.co/dzMc19bp6Y",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2064853617748971520/vid/avc1/1626x1440/MkUa1-6iXe_2_NEp.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 930,
+      "retweets": 49,
+      "replies": 12,
+      "views": 68742
+    },
+    "comments": []
+  }
+}

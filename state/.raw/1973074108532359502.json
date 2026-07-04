@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:02.022Z",
+  "tweetId": "1973074108532359502",
+  "post": {
+    "url": "https://x.com/DrFonts/status/1973074108532359502",
+    "author": {
+      "handle": "DrFonts",
+      "name": "Dr Fonts©"
+    },
+    "date": "2025-09-30",
+    "text": "Vitrium Opus - 3D Glass Typography Posters - Ion Lucin https://t.co/2IcdTr4QcF",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G2HEQrOXoAAwFi1.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 3860,
+      "retweets": 168,
+      "replies": 15,
+      "views": 101301
+    },
+    "comments": []
+  }
+}

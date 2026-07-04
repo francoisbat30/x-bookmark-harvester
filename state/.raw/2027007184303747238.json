@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:14.549Z",
+  "tweetId": "2027007184303747238",
+  "post": {
+    "url": "https://x.com/AbdelStark/status/2027007184303747238",
+    "author": {
+      "handle": "AbdelStark",
+      "name": "abdel"
+    },
+    "date": "2026-02-26",
+    "text": "Official MCP server for the data(.)gouv(.)fr French governmental platform. \nHonestly I am genuinely surprised. Usually French is pretty slow (despite having some of the best talents in tech, math, AI etc) to adopt innovations especially for governmental services.\nI tried the MCP, works flawlessly and can be very useful.\nI think the repo can be more agentic native / friendly but it's a very nice initiative, love it!  \nFranchement bravo",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HCFf9nfXIAAq_eB.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 947,
+      "retweets": 100,
+      "replies": 37,
+      "views": 178885
+    },
+    "comments": []
+  }
+}

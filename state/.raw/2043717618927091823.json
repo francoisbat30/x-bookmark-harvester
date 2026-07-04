@@ -1,0 +1,610 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:10:11.657Z",
+  "tweetId": "2043717618927091823",
+  "post": {
+    "url": "https://x.com/_Evan_Boyle/status/2043717618927091823",
+    "author": {
+      "handle": "_Evan_Boyle",
+      "name": "Evan Boyle"
+    },
+    "date": "2026-04-13",
+    "text": "Remote control is now live in the Copilot CLI!\n\nRun Copilot on your local machine, leave it plugged in, head to the beach, and drive the agent from your mobile phone 😎 https://t.co/0pDSQdItkS\n\nBlog post: https://t.co/0MJbwwyexA",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2043717274176245760/vid/avc1/3444x1976/PIiNcjZC8mEHRFHN.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 966,
+      "retweets": 153,
+      "replies": 50,
+      "views": 115998
+    },
+    "comments": [
+      {
+        "handle": "burkeholland",
+        "name": "Burke Holland",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle Ok! https://t.co/zgSd7rdfAg"
+      },
+      {
+        "handle": "_Evan_Boyle",
+        "name": "Evan Boyle",
+        "date": "2026-04-13",
+        "text": "@N8Duff @JamesMontemagno Yes! We have some fun new things we're building internally ontop of the SDK that are already have support for remote control 🙂"
+      },
+      {
+        "handle": "_Evan_Boyle",
+        "name": "Evan Boyle",
+        "date": "2026-04-13",
+        "text": "@yigitkonur Right now it uses pretty naive polling to power it. Works well and is very reliable. \n\nWe will move to web sockets to power all of this at some point for various reasons."
+      },
+      {
+        "handle": "OrenMe",
+        "name": "Oren Melamed",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle @JamesMontemagno I foresee many people getting better tan in the next summer"
+      },
+      {
+        "handle": "_Evan_Boyle",
+        "name": "Evan Boyle",
+        "date": "2026-04-14",
+        "text": "@scottdotnetdev @CesarDemi81 @tiagonbotelho and team are working on making this work for arbitrary folders on your machine."
+      },
+      {
+        "handle": "_Evan_Boyle",
+        "name": "Evan Boyle",
+        "date": "2026-04-13",
+        "text": "@BleedingDev Autopilot, plan mode, changing models, yes. Slash commands are not wired up yet but @tiagonbotelho and team are working on bringing that soon!"
+      },
+      {
+        "handle": "_Evan_Boyle",
+        "name": "Evan Boyle",
+        "date": "2026-04-13",
+        "text": "@blaken @pierceboggan and I are working together on this ☺️"
+      },
+      {
+        "handle": "_Evan_Boyle",
+        "name": "Evan Boyle",
+        "date": "2026-04-13",
+        "text": "@EttemaDev Working on support for running this in a plan folder vs the repo root requirement cc @tiagonbotelho"
+      },
+      {
+        "handle": "EttemaDev",
+        "name": "ettema.dev",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle This looks great, but I usually have my copilot run in a directory with a collection of worktrees to make changes across repositories. 🤔"
+      },
+      {
+        "handle": "_Evan_Boyle",
+        "name": "Evan Boyle",
+        "date": "2026-04-13",
+        "text": "@BleedingDev @tiagonbotelho Typescript, custom cell based diffing engine for the TUI. JSON RPC server that powers the TUI and copilot SDK."
+      },
+      {
+        "handle": "_Evan_Boyle",
+        "name": "Evan Boyle",
+        "date": "2026-04-13",
+        "text": "@philwisniewski iOS support is in beta and the team is iterating very quickly on it."
+      },
+      {
+        "handle": "_Evan_Boyle",
+        "name": "Evan Boyle",
+        "date": "2026-04-13",
+        "text": "@nathanj815 @MarkJohnson_SA Only works with GitHub repos right now but we are fast following with support for any folder on your local machine."
+      },
+      {
+        "handle": "yigitkonur",
+        "name": "Yigit Konur",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle i love how big companies don't overengineer to ship stuff and just iterate toward a better solution"
+      },
+      {
+        "handle": "N8Duff",
+        "name": "Nate Duff",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle @JamesMontemagno Any chance the copilot SDK has/gets the ability to operate against a remote CLI session? https://t.co/Lpn5bMRmx2"
+      },
+      {
+        "handle": "_Evan_Boyle",
+        "name": "Evan Boyle",
+        "date": "2026-04-14",
+        "text": "@nathanj815 @bygregorr The CLI pushes session into a service in GitHub, that is what is rendered in web and mobile. The CLI in parallel queries that service for new events like new user messages, changing modes, etc."
+      },
+      {
+        "handle": "CesarDemi81",
+        "name": "César",
+        "date": "2026-04-14",
+        "text": "@scottdotnetdev @_Evan_Boyle @tiagonbotelho Agree. The guys should have added that to the release notes, because otherwise this might be a bummer for many and make them opt for Claude instead of sticking on GH Copilot."
+      },
+      {
+        "handle": "red___square",
+        "name": "red_square",
+        "date": "2026-04-14",
+        "text": "@_Evan_Boyle @pierceboggan Thanks, will try again this morning"
+      },
+      {
+        "handle": "_Evan_Boyle",
+        "name": "Evan Boyle",
+        "date": "2026-04-14",
+        "text": "@JNBY_CN please give us your feedback on what you want to see improved. \n\n@maaslalani is cranking away on improving our TUI and CLI experience all up"
+      },
+      {
+        "handle": "scottdotnetdev",
+        "name": "Scott | Free Speech Dev 🇺🇲",
+        "date": "2026-04-14",
+        "text": "@CesarDemi81 @_Evan_Boyle Yeah, this is a problem, not all of our repos are on GitHub"
+      },
+      {
+        "handle": "Kphummingbird",
+        "name": "Kp",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle @DanWahlin Awesome. Is it possible to use with Github Enterprise?"
+      },
+      {
+        "handle": "BleedingDev",
+        "name": "Petr Glaser",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle Will try. So far I love Copilot CLI.\n\nEverything else works as usual? Fleet, autopilot etc.?"
+      },
+      {
+        "handle": "_Evan_Boyle",
+        "name": "Evan Boyle",
+        "date": "2026-04-13",
+        "text": "@BleedingDev It should! But I haven't tested that scenario."
+      },
+      {
+        "handle": "_Evan_Boyle",
+        "name": "Evan Boyle",
+        "date": "2026-04-13",
+        "text": "@nathanj815 @bygregorr Yes. It uses polling so you can reconnect from your phone/other devices."
+      },
+      {
+        "handle": "simoncveracity",
+        "name": "Simon C",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle Trying this right now - so cool. You guys are full of surprises right now!"
+      },
+      {
+        "handle": "pseudotrending",
+        "name": "Sonni Vasquez",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle My account got flagged after using Copilot with agents like Hermes. I sent a ticket 2 weeks ago and nobody has answered until now."
+      },
+      {
+        "handle": "MarkJohnson_SA",
+        "name": "Mark Johnson",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle This is great!  Will it work outside of GitHub?  We use Azure DevOps and GitLab repos"
+      },
+      {
+        "handle": "tiagonbotelho",
+        "name": "Tiago Botelho",
+        "date": "2026-04-15",
+        "text": "@BleedingDev @_Evan_Boyle Non-GitHub repo support is coming soon! In the meantime, could you share with us what you are seeing when trying remote control on a GitHub repository? I’ll be happy to help"
+      },
+      {
+        "handle": "red___square",
+        "name": "red_square",
+        "date": "2026-04-15",
+        "text": "@_Evan_Boyle @PMelliebennett Fixed it, had to re-login to copilot and give access to the org I am part of!!"
+      },
+      {
+        "handle": "gpt3_eth",
+        "name": "Frank ✈️ (📜,📜)",
+        "date": "2026-04-14",
+        "text": "@_Evan_Boyle Finally taking the agent to the beach."
+      },
+      {
+        "handle": "_Evan_Boyle",
+        "name": "Evan Boyle",
+        "date": "2026-04-14",
+        "text": "@robbyrussell Grateful every day for your work 🙏"
+      },
+      {
+        "handle": "robbyrussell",
+        "name": "Robby Russell",
+        "date": "2026-04-14",
+        "text": "@_Evan_Boyle Nice shell prompt"
+      },
+      {
+        "handle": "mmk_dev",
+        "name": "MMK",
+        "date": "2026-04-14",
+        "text": "@_Evan_Boyle @nathanj815 @bygregorr Hi Evan, I updated to the latest version of CLI and all GPT xhigh models are no longer available while is supported on the IDE is this intentional or bug."
+      },
+      {
+        "handle": "BleedingDev",
+        "name": "Petr Glaser",
+        "date": "2026-04-14",
+        "text": "@_Evan_Boyle @tiagonbotelho Wasn't able to get it work. I tried empty folder, required to be on GitHub (any plans to fix? I usually want remote coding agent for wild experiments that don't have repo yet) and even after I created it, it failed to be run, not sure why. :("
+      },
+      {
+        "handle": "nathanj815",
+        "name": "Nate",
+        "date": "2026-04-14",
+        "text": "@_Evan_Boyle @bygregorr Is it polling the session jsonl/sqlite db? or polling something in memory?"
+      },
+      {
+        "handle": "ParkPerry84239",
+        "name": "Perry Park",
+        "date": "2026-04-14",
+        "text": "@_Evan_Boyle But how to open a new session remotely"
+      },
+      {
+        "handle": "hyesun_zhu",
+        "name": "Hyesun Zhu",
+        "date": "2026-04-14",
+        "text": "@_Evan_Boyle Excellent! Will we get it in the Agents APP?"
+      },
+      {
+        "handle": "neilghosh",
+        "name": "Neil Ghosh",
+        "date": "2026-04-14",
+        "text": "@_Evan_Boyle @ashleymcnamara On ADO ?"
+      },
+      {
+        "handle": "red___square",
+        "name": "red_square",
+        "date": "2026-04-14",
+        "text": "@_Evan_Boyle @PMelliebennett https://t.co/r8gPd4CrTU"
+      },
+      {
+        "handle": "red___square",
+        "name": "red_square",
+        "date": "2026-04-14",
+        "text": "@PMelliebennett @_Evan_Boyle It is in a repo"
+      },
+      {
+        "handle": "uccmen",
+        "name": "Ucchishta Sivaguru 🤓",
+        "date": "2026-04-14",
+        "text": "@_Evan_Boyle only works with Github repos 😢. Will it support repos on Gitlab/Bitbucket in the future?"
+      },
+      {
+        "handle": "_Evan_Boyle",
+        "name": "Evan Boyle",
+        "date": "2026-04-14",
+        "text": "@red___square @PMelliebennett For now, needs to be run in a github repo."
+      },
+      {
+        "handle": "red___square",
+        "name": "red_square",
+        "date": "2026-04-14",
+        "text": "@PMelliebennett @_Evan_Boyle Still the same https://t.co/0PVFLYon4K"
+      },
+      {
+        "handle": "slaveoftime1",
+        "name": "binwen",
+        "date": "2026-04-14",
+        "text": "@_Evan_Boyle You can use open-relay for all CLI tools, claude code, codex, copilot, qwen etc. And you also get notifications, agent to agent etc. All in one simple CLI proxy. Support windows, macos and linux. https://t.co/a39ItqE1Q8"
+      },
+      {
+        "handle": "JNBY_CN",
+        "name": "Untitled-1",
+        "date": "2026-04-14",
+        "text": "@_Evan_Boyle dont like the copilot cli so much - it is not elegant enough"
+      },
+      {
+        "handle": "demyte",
+        "name": "James Summerton",
+        "date": "2026-04-14",
+        "text": "@_Evan_Boyle Please please please say that this will be supported from Agents as well???!!!"
+      },
+      {
+        "handle": "DanWahlin",
+        "name": "Dan Wahlin",
+        "date": "2026-04-14",
+        "text": "@Kphummingbird @PMelliebennett @_Evan_Boyle Sounds like it had to be enabled by an admin:\n\n\"Note: If you’re a Copilot Business or Copilot Enterprise user, an administrator will have to enable remote control and CLI policies before you can use it.\"\n\nhttps://t.co/BFkG2nnz1X"
+      },
+      {
+        "handle": "aias_0",
+        "name": "AI fan",
+        "date": "2026-04-14",
+        "text": "@_Evan_Boyle Wow good news"
+      },
+      {
+        "handle": "Kphummingbird",
+        "name": "Kp",
+        "date": "2026-04-14",
+        "text": "@PMelliebennett @_Evan_Boyle @DanWahlin @PMelliebennett Thanks. We already have access to copilot. My question was for /remote feature added recently if and when it’s coming for github enterprise."
+      },
+      {
+        "handle": "aiseomastery",
+        "name": "AI Mastery Guide",
+        "date": "2026-04-14",
+        "text": "@_Evan_Boyle Remote controlling an agent from your phone while it runs on your local machine is a genuinely underrated use case. Nice to see this shipping!"
+      },
+      {
+        "handle": "scottdotnetdev",
+        "name": "Scott | Free Speech Dev 🇺🇲",
+        "date": "2026-04-14",
+        "text": "@_Evan_Boyle @CesarDemi81 @tiagonbotelho Excellent news"
+      },
+      {
+        "handle": "draginol",
+        "name": "Brad Wardell",
+        "date": "2026-04-14",
+        "text": "@_Evan_Boyle Copilot is pretty amazing.\n\nHowever, you can already securely run Github Copilot CLI from remote.  No special setup. No VPN. No steps. You just install, run.  (https://t.co/BVUwfq20G0). https://t.co/JVUyoiroIO"
+      },
+      {
+        "handle": "aiandcloud",
+        "name": "Jintao Zhang",
+        "date": "2026-04-14",
+        "text": "@_Evan_Boyle Good job 👍 \n\nI'm wondering if it's possible for it to become a continuously running daemon, so I can connect my servers like a GHA runner and have them complete tasks whenever needed."
+      },
+      {
+        "handle": "samjarman",
+        "name": "Sam Jarman",
+        "date": "2026-04-14",
+        "text": "@_Evan_Boyle Does this work on copilot in VScode too?"
+      },
+      {
+        "handle": "PMelliebennett",
+        "name": "Ellie",
+        "date": "2026-04-14",
+        "text": "@Kphummingbird @_Evan_Boyle @DanWahlin Here's the latest info  on which plans give you access to Copilot: https://t.co/0bsIkg1J0E"
+      },
+      {
+        "handle": "PMelliebennett",
+        "name": "Ellie",
+        "date": "2026-04-14",
+        "text": "@red___square @_Evan_Boyle Can you try again and let me know if you're still seeing this?"
+      },
+      {
+        "handle": "PMelliebennett",
+        "name": "Ellie",
+        "date": "2026-04-13",
+        "text": "@DemetriusZhomir @_Evan_Boyle Model switching coming soon"
+      },
+      {
+        "handle": "zeki_s_a",
+        "name": "zekicodes",
+        "date": "2026-04-13",
+        "text": "@k_krastew @_Evan_Boyle No it's not exclusively for Copilot Pro+; it is available to all users with a qualifying GitHub Copilot subscription. \n\nFor Copilot Business and Enterprise users, an administrator may need to explicitly enable the \"Copilot CLI\" remote policy in the settings for it to work."
+      },
+      {
+        "handle": "_Evan_Boyle",
+        "name": "Evan Boyle",
+        "date": "2026-04-13",
+        "text": "@red___square I believe that there was a policy caching issue that we’re working on resolving cc @pierceboggan"
+      },
+      {
+        "handle": "red___square",
+        "name": "red_square",
+        "date": "2026-04-13",
+        "text": "@MindMentors_ @_Evan_Boyle Decent value"
+      },
+      {
+        "handle": "red___square",
+        "name": "red_square",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle I keep getting Remote session disabled: could not resolve repository. I have turner on the policy in our sccount"
+      },
+      {
+        "handle": "MindMentors_",
+        "name": "MindMentors",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle Why? Why would someone use Copilot?"
+      },
+      {
+        "handle": "CesarDemi81",
+        "name": "César",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle Yeah, I was very excited until I found out that it requires being on a git repo that can only be hosted on Github...\nWHY?!\nAmazing way to waste a chance in front of Claude, which doesn't enforce such a dumb requirement.\nI work on Azure DevOps and this means nothing now 💀"
+      },
+      {
+        "handle": "BleedingDev",
+        "name": "Petr Glaser",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle @tiagonbotelho Great, love that!\n\nBTW can you share more about how Copilot CLI is built? I mean, it's closed source but at least language, TUI library etc.?"
+      },
+      {
+        "handle": "BleedingDev",
+        "name": "Petr Glaser",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle Love it! Will it work with local LLMs? Because as far as I know, it is broken in Claude Code when you don't use their models."
+      },
+      {
+        "handle": "philwisniewski",
+        "name": "Philippe Wisniewski",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle Nice!!"
+      },
+      {
+        "handle": "Whitelines84",
+        "name": "WL",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle @JamesMontemagno Finally just what was missing!"
+      },
+      {
+        "handle": "philwisniewski",
+        "name": "Philippe Wisniewski",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle Does the session open in the GitHub app if installed on device (iPhone)?"
+      },
+      {
+        "handle": "nneverov",
+        "name": "nneverov",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle @_Evan_Boyle What about us ADO poor souls? Any chance for official support remote control through non-GitHub integration?"
+      },
+      {
+        "handle": "nathanj815",
+        "name": "Nate",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle @MarkJohnson_SA Awesome - thanks! I had just recently started a project for controlling copilot CLI sessions remotely. I'll probably just put that on hold haha. Looking forward to this!"
+      },
+      {
+        "handle": "MarkJohnson_SA",
+        "name": "Mark Johnson",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle @nathanj815 Awesome!  Looking forward to it!"
+      },
+      {
+        "handle": "davidpuplava",
+        "name": "David Puplava",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle Well this is awesome"
+      },
+      {
+        "handle": "nathanj815",
+        "name": "Nate",
+        "date": "2026-04-13",
+        "text": "@MarkJohnson_SA @_Evan_Boyle ADO is used heavily within Microsoft so I'm hoping it works. I'm about to try it out!"
+      },
+      {
+        "handle": "FarideIlanda",
+        "name": "Faride Ilanda",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle @davidfowl Amazing!"
+      },
+      {
+        "handle": "nathanj815",
+        "name": "Nate",
+        "date": "2026-04-13",
+        "text": "@bygregorr @_Evan_Boyle I'm guessing the agent itself is all still running on the machine. Your phone is just streaming the output from copilot and sending prompts to it."
+      },
+      {
+        "handle": "suryaforr",
+        "name": "surya kushwaha",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle why you guys retired opus 4.6 (30x) preview 🥲"
+      },
+      {
+        "handle": "DrReinhold",
+        "name": "jeppeReinhold 🇩🇰",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle I've been waiting very impatiently for this, fantastic! 🎉\n\nIs there a way to activate the remote capability when starting sessions from VSCode?"
+      },
+      {
+        "handle": "PieterWillemen",
+        "name": "Pieter Willemen",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle So the repo does not need to be in github then for this?"
+      },
+      {
+        "handle": "k_krastew",
+        "name": "Krastyo Krastev",
+        "date": "2026-04-13",
+        "text": "@zeki_s_a @_Evan_Boyle So its not for copilot pro subscribers?"
+      },
+      {
+        "handle": "alfranklino",
+        "name": "Albert Franklin",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle @davidfowl Any timeline for the release of the ‘/loop’ version of the GitHub CLI?"
+      },
+      {
+        "handle": "alfranklino",
+        "name": "Albert Franklin",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle @davidfowl No way!!!! I saw it this morning, when, unfortunately I had already left the house. Had I seen it earlier, I would have been remote-coding instead of tweeting… 😂"
+      },
+      {
+        "handle": "_zg_c",
+        "name": "Λουίγιος 🇪🇺 👨‍👩‍👦🐶🏉",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle @tgrall Why?? you can enjoy the sun,a drink and read a good book instead..."
+      },
+      {
+        "handle": "zeki_s_a",
+        "name": "zekicodes",
+        "date": "2026-04-13",
+        "text": "@k_krastew @_Evan_Boyle Remote control is turned off by default for enterprise and organizations at the org level, you can contact your org admin and ask them to enable it."
+      },
+      {
+        "handle": "PawarBI",
+        "name": "Sandeep Pawar",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle @gregor_suttie Awesome. Also sad to take work to the beach. I will resist the temptation."
+      },
+      {
+        "handle": "blaken",
+        "name": "Blake Niemyjski",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle Any idea when this will come to vscode?"
+      },
+      {
+        "handle": "ModernGrindTech",
+        "name": "Dave | Solo Dev",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle this is the dream. beach"
+      },
+      {
+        "handle": "N8Duff",
+        "name": "Nate Duff",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle @JamesMontemagno Looking forward to this, the teams hard work is appreciated"
+      },
+      {
+        "handle": "yigitkonur",
+        "name": "Yigit Konur",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle yaay! are you gonna share the internal protocol details (like MCP notifications used by CC?), or are you just using the raw copilot sdk primitives?"
+      },
+      {
+        "handle": "uiweo",
+        "name": "パスカル",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle 新たな脆弱性の予感がする"
+      },
+      {
+        "handle": "ConnectBhawna",
+        "name": "Bhawna🌱",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle This is so amazing 🚀"
+      },
+      {
+        "handle": "WonsonYo",
+        "name": "Jeremy",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle Dude, you are cooking!!!"
+      },
+      {
+        "handle": "k_krastew",
+        "name": "Krastyo Krastev",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle I am getting this error and I am unable to find where in Github should I approve remote sessions for a specific repository\n\"Remote sessions are not enabled for this repository. Contact your organization administrator to enable remote sessions.\"\nAny help?"
+      },
+      {
+        "handle": "achingono",
+        "name": "Alfero Chingono",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle How does the remote control feature in Copilot CLI handle potential issues like network latency or disconnections?"
+      },
+      {
+        "handle": "neerajgrg674",
+        "name": "Neeraj garg",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle I hope there should be option for Ctrl + C if anything start going wrong 😀"
+      },
+      {
+        "handle": "toolyhun",
+        "name": "froyo",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle this is incredible. CoPilot is moving insanely quickly - truly becoming competitive in the AI Agents Space. Hot damn! Cheers CoPilot team!"
+      },
+      {
+        "handle": "bygregorr",
+        "name": "Gregor",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle I'm not sure I'd trust my phone's connection at the beach enough to let an agent run commands on my machine. What happens if you lose signal mid-execution?"
+      },
+      {
+        "handle": "k_krastew",
+        "name": "Krastyo Krastev",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle This is nice. Will try it for sure"
+      },
+      {
+        "handle": "DemetriusZhomir",
+        "name": "This is Dmitry Zhomir",
+        "date": "2026-04-13",
+        "text": "@_Evan_Boyle Does it support model switching too?\nDidn't notice it in the videos, while the blog post says \"Remote sessions support all of the features you expect from the Copilot CLI\"\n\nAnd why does Opus use 6x in the video there?\nI thought it's 3x... Inflation's coming? :))"
+      }
+    ]
+  }
+}

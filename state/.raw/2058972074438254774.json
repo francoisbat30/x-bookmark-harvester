@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:32.184Z",
+  "tweetId": "2058972074438254774",
+  "post": {
+    "url": "https://x.com/Jouhatsu_ai/status/2058972074438254774",
+    "author": {
+      "handle": "Jouhatsu_ai",
+      "name": "Jouhatsu | AI Influence Operator"
+    },
+    "date": "2026-05-25",
+    "text": "Un ingénieur IA senior chez Microsoft vient de dévoiler comment les équipes de Microsoft créent des agents IA avec Anthropic.\n\n34 minutes de workshop gratuit, directement par l’équipe Microsoft.\n\nRegarde le workshop. Ajoute en signet 🔖\n\nOpus 4.7 + plus de 1 400 outils MCP déjà prêts à l’emploi.\n\nTu connectes Claude à un agent → tu lui ajoutes des outils → tu déploies en production.\n\nPlus utile que la majorité des formations de vibe-coding vendues 500 $.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2058970357957079040/vid/avc1/1920x1080/YaeQV5MEwQpl0dKu.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 5588,
+      "retweets": 615,
+      "replies": 60,
+      "views": 5240832
+    },
+    "comments": []
+  }
+}

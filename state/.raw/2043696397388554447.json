@@ -1,0 +1,592 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:10:10.773Z",
+  "tweetId": "2043696397388554447",
+  "post": {
+    "url": "https://x.com/bstnxbt/status/2043696397388554447",
+    "author": {
+      "handle": "bstnxbt",
+      "name": "bstn 👁️"
+    },
+    "date": "2026-04-13",
+    "text": "DFlash. Speculative decoding for Apple Silicon. Stock MLX, no fork.\n\nhttps://t.co/G0w89qrzPI\n\n@ 2048 tokens, M5 Max, stock mlx_lm baseline:\n\n► Qwen3.5-4B: 53.74 → 219.83 tok/s (x4.10)\n► Qwen3.5-9B: 30.96 → 127.07 tok/s (x4.13)\n► Qwen3.5-27B-4bit: 32.35 → 62.78 tok/s (x1.90)\n► Qwen3.5-35B-A3B-4bit: 142.12 → 240.21 tok/s (x1.69)\n\nBlock-diffusion draft generates 16 tokens in one pass:\n\n► Target verifies in one pass. \n► Every emitted token is verified. \n► Lossless.\n\nWhat's actually new:\n\n▸ Tape-replay rollback: custom Metal kernel replays only accepted steps through GDN state. No full checkpoint save/restore.\n▸ JIT 2-pass SDPA kernel for long-context verify\n▸ Numerically stable bf16 across speculative cycles\n\n Built specifically for Qwen3.5's hybrid GDN + attention arch.\n\nBaseline is mlx_lm.stream_generate the stock MLX generation path, not a custom loop. Same prompt, same model, same hardware, measured sequentially. 3 runs, median reported.\n\nIf you're running local models on Mac, try it and share your numbers.\n\n@Prince_Canuma @alexocheema @ivanfioravanti",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2043696302714949632/vid/avc1/1608x914/TtzCUefGx-AbrZZy.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 843,
+      "retweets": 105,
+      "replies": 54,
+      "views": 81381
+    },
+    "comments": [
+      {
+        "handle": "VictorTaelin",
+        "name": "Taelin",
+        "date": "2026-04-13",
+        "text": "@bstnxbt dude???"
+      },
+      {
+        "handle": "Prince_Canuma",
+        "name": "Prince Canuma",
+        "date": "2026-04-13",
+        "text": "@bstnxbt Well done!\n\nThis is really cool 🔥🚀"
+      },
+      {
+        "handle": "OsinniiMaksym",
+        "name": "Maksym Osinnii",
+        "date": "2026-04-13",
+        "text": "@bstnxbt Tried DFlash\n- M4 Max 64GB\n- Qwen3.5-9B (MLX-Qwopus3.5-9B-v3-6bit)\n- 2048 tokens\n\nResults:\nMath: 61 → 101 tok/s (1.68x)\nCode: 62 → 65 tok/s (1.05x)\n\nGains are very prompt-dependent. Structured reasoning (i.e. repetitive slop) benefits a lot, code gen barely breaks even."
+      },
+      {
+        "handle": "xlr8harder",
+        "name": "xlr8harder",
+        "date": "2026-04-14",
+        "text": "@bstnxbt Might you do DDTree next?  It seems like a relatively straightforward extension for even more boost. \nhttps://t.co/C9BqrZehop"
+      },
+      {
+        "handle": "Prince_Canuma",
+        "name": "Prince Canuma",
+        "date": "2026-04-13",
+        "text": "@bstnxbt My pleasure! \n\nWill do, both dflash and other multi token prediction techniques are in my roadmap\n\nBut I just got back from AI Engineer London still catching up with my backlog https://t.co/ExqMmROARd"
+      },
+      {
+        "handle": "bstnxbt",
+        "name": "bstn 👁️",
+        "date": "2026-04-13",
+        "text": "@gajesh already done, x2.6 https://t.co/WEs4pMDkaR"
+      },
+      {
+        "handle": "bstnxbt",
+        "name": "bstn 👁️",
+        "date": "2026-04-13",
+        "text": "@Prince_Canuma Thanks Prince! Hope you get to try it on your setup"
+      },
+      {
+        "handle": "winglian",
+        "name": "Wing Lian (caseus)",
+        "date": "2026-04-13",
+        "text": "@bstnxbt @yagilb soon in @lmstudio ?"
+      },
+      {
+        "handle": "0xClandestine",
+        "name": "clandestine.eth 🦇🔊",
+        "date": "2026-04-13",
+        "text": "@bstnxbt Great work serr, keep is up!"
+      },
+      {
+        "handle": "notnullptr",
+        "name": "nullptr 🐱🍩",
+        "date": "2026-04-14",
+        "text": "@bstnxbt any chance of something like this working on nvidia w llama.cpp?"
+      },
+      {
+        "handle": "liranringel",
+        "name": "Liran Ringel",
+        "date": "2026-04-13",
+        "text": "@bstnxbt Imagine that with:\nhttps://t.co/5JfGGmr1Wi"
+      },
+      {
+        "handle": "yagilb",
+        "name": "yags",
+        "date": "2026-04-13",
+        "text": "@winglian @bstnxbt @lmstudio 👀"
+      },
+      {
+        "handle": "anemll",
+        "name": "Anemll",
+        "date": "2026-04-13",
+        "text": "@bstnxbt Cool! Thanks for sharing 🙏"
+      },
+      {
+        "handle": "bstnxbt",
+        "name": "bstn 👁️",
+        "date": "2026-04-13",
+        "text": "@aryagm01 Thanks for trying it! That divergence is expected, every token is verified at the target's logits, but M=16 verify vs M=1 AR gives different float accumulation on Metal, so an argmax can flip. From there the generations diverge. No unverified token gets through."
+      },
+      {
+        "handle": "aryagm01",
+        "name": "Arya Manjaramkar",
+        "date": "2026-04-13",
+        "text": "@bstnxbt hey, this is super cool, great job! I’ve been working on something similar and tried your repo. are the Qwen3.5 runs lossless vs plain greedy over the full generation? I saw a divergence around ~546 tokens in a 1k-token run, so wondering if I missed a flag/setup detail"
+      },
+      {
+        "handle": "Iknowwhyy",
+        "name": "Sugarr 👁️",
+        "date": "2026-04-13",
+        "text": "@bstnxbt goated dev"
+      },
+      {
+        "handle": "runsonai",
+        "name": "Thanh Pham",
+        "date": "2026-04-14",
+        "text": "@liranringel @bstnxbt Damn, we need a mlx port for this!"
+      },
+      {
+        "handle": "bstnxbt",
+        "name": "bstn 👁️",
+        "date": "2026-04-14",
+        "text": "@AlexObuchowski I'm looking forward to it too https://t.co/FQBbaoGfUq"
+      },
+      {
+        "handle": "AlexObuchowski",
+        "name": "Aleksander Obuchowski",
+        "date": "2026-04-14",
+        "text": "@bstnxbt Nice! Any plans for Gemma 4?"
+      },
+      {
+        "handle": "OsinniiMaksym",
+        "name": "Maksym Osinnii",
+        "date": "2026-04-14",
+        "text": "@bstnxbt 47.9 tok/s (1.70x over baseline) on Qwen3.5-27B-4bit with 90% acceptance rate on M4 Max 64GB. Acceptance is  90.2%"
+      },
+      {
+        "handle": "jtdavies",
+        "name": "John T Davies 🇪🇺",
+        "date": "2026-04-13",
+        "text": "@bstnxbt M5 with 128GB"
+      },
+      {
+        "handle": "jtdavies",
+        "name": "John T Davies 🇪🇺",
+        "date": "2026-04-13",
+        "text": "@bstnxbt In case you missed it… https://t.co/LfE8DgwIbZ"
+      },
+      {
+        "handle": "jtdavies",
+        "name": "John T Davies 🇪🇺",
+        "date": "2026-04-13",
+        "text": "@bstnxbt Great work, I tried this on the 27B, my goal was to get a reasonable speed on the bf16 but I only got about 1.3-1.5X at best. The Qwen3.5 architecture didn’t seem to lend itself to speculative decoding but you’ve proved me wrong."
+      },
+      {
+        "handle": "breath_mirror",
+        "name": "Esteban",
+        "date": "2026-04-13",
+        "text": "@bstnxbt nice, went from 25t/s to 73.07t/s in oMLX"
+      },
+      {
+        "handle": "atKenNelson",
+        "name": "Ken Nelson",
+        "date": "2026-04-13",
+        "text": "@bstnxbt I was using it wrong, I assume. I suspect I need to provide a --draft and a --model to dflash-serve command line."
+      },
+      {
+        "handle": "Acelogic_",
+        "name": "Miguel C (e/acc) 👁️",
+        "date": "2026-04-13",
+        "text": "@anemll @bstnxbt Can this be applied to flash-moe SSD streaming ?"
+      },
+      {
+        "handle": "gajesh",
+        "name": "Gajesh",
+        "date": "2026-04-13",
+        "text": "@bstnxbt wow"
+      },
+      {
+        "handle": "gajesh",
+        "name": "Gajesh",
+        "date": "2026-04-13",
+        "text": "@bstnxbt now do 8bit 27b"
+      },
+      {
+        "handle": "fawoz_",
+        "name": "Fawoz ☂️",
+        "date": "2026-04-13",
+        "text": "@bstnxbt Insane work"
+      },
+      {
+        "handle": "atKenNelson",
+        "name": "Ken Nelson",
+        "date": "2026-04-13",
+        "text": "@bstnxbt thanks!  I just sorted that about 5 seconds ago! \nTrying now..."
+      },
+      {
+        "handle": "bstnxbt",
+        "name": "bstn 👁️",
+        "date": "2026-04-13",
+        "text": "@atKenNelson Should work! Two things to check: use http://localhost:1234/v1 as the base URL (not\n  /v1/chat/completions, most clients append that automatically). And make sure to pass --model when starting the server: dflash-serve --model Qwen/Qwen3.5-9B --port 1234"
+      },
+      {
+        "handle": "atKenNelson",
+        "name": "Ken Nelson",
+        "date": "2026-04-13",
+        "text": "@bstnxbt I usually point my AI at LM Studio endpoints:\n\nhttp://localhost:1234/v1 \n\nbut I'm having trouble getting that to work with:\n\ndflash-serve -port 1234\n\nusing  \"http://localhost:1234/v1/chat/completions\"  as the end point base URL. \n\nWould you expect that to work?"
+      },
+      {
+        "handle": "ljupc0",
+        "name": "Ljubomir Josifovski",
+        "date": "2026-04-13",
+        "text": "Whoa!! - it works?!! (for me) On a 3yo MBP M2 \n$ dflash-benchmark --model Qwen/Qwen3.5-9B --draft z-lab/Qwen3.5-9B-DFlash --prompt \"$PROMPT\" --max-tokens 1024 --repeat 3 --no-eos\nDownload complete: : 0.00B [00:32, ?B/s]                                                                                                            | 0/3 [00:00<?, ?it/s]\n{\n  \"hardware\": {\n    \"chip\": \"Apple M2 Max\",\n    \"memory_gb\": \"96\",\n    \"mlx_version\": \"0.31.1\",\n    \"python\": \"3.13.11\"\n  },\n  \"config\": {\n    \"target_model\": \"Qwen/Qwen3.5-9B\",\n    \"draft_model\": \"z-lab/Qwen3.5-9B-DFlash\",\n    \"max_new_tokens\": 1024,\n    \"block_tokens\": 16,\n    \"cooldown\": 10,\n    \"prompt\": \"The function $f$ satisfies the functional equation \\\\[ f(x) + f(y) = f(x + y) - xy - 1 \\\\] for all real numbers $x$ and $y$. If $f(1) = 1$, then find all integers $n$ such that $f(n) = n$. Enter all such integers, separated by commas. Please reason step by step, and put your final answer within \\\\boxed{}.\",\n    \"prompt_tokens\": 92,\n    \"prompt_id\": \"the_function_f_satisfies_the_functional_equation\",\n    \"repeat\": 3,\n    \"git_hash\": \"19303f6\"\n  },\n...\n  \"summary\": {\n    \"baseline_tps_median\": 14.985111481311476,\n    \"dflash_tps_median\": 31.682990721513082,\n    \"dflash_tps_min\": 27.066233077859525,\n    \"dflash_tps_max\": 33.413554598722,\n    \"speedup_median\": 1.9031421622525353,\n    \"acceptance_ratio_median\": 0.876953125\n  }\n}\nThanks!! Stellar work"
+      },
+      {
+        "handle": "chirag",
+        "name": "Chirag",
+        "date": "2026-04-13",
+        "text": "@bstnxbt 👌🏾 https://t.co/eel3CmjYtv"
+      },
+      {
+        "handle": "breath_mirror",
+        "name": "Esteban",
+        "date": "2026-04-13",
+        "text": "@BLINKE_i @VictorTaelin @bstnxbt just download it, i got 77t/s in my macbook pro m4 max\n\naround 3x from normal inference in mlx_lm"
+      },
+      {
+        "handle": "winglian",
+        "name": "Wing Lian (caseus)",
+        "date": "2026-04-13",
+        "text": "@bstnxbt This also applies to this your implementation too. Seeing 4x speedup using the stock DFlash adapters with fine-tuned models (Carnice-9B) \nhttps://t.co/G6LMl9u0Kw"
+      },
+      {
+        "handle": "bstnxbt",
+        "name": "bstn 👁️",
+        "date": "2026-04-13",
+        "text": "Thanks for testing! Two things: the 6-bit quantized target has a faster baseline (~61 vs ~31 tok/s on bf16), which compresses the speedup, same structural effect we see on 27B-4bit. And yeah, code gen acceptance is lower across the board because code is less predictable than structured reasoning. That's inherent to speculative decoding, not DFlash-specific. Best gains are on bf16 targets where the bandwidth bottleneck is largest."
+      },
+      {
+        "handle": "bstnxbt",
+        "name": "bstn 👁️",
+        "date": "2026-04-13",
+        "text": "Yes, target-verified is accurate, that's what lossless means in the speculative decoding literature. Every token is the target's greedy argmax at verification time. The M=16 vs M=1 divergence isn't a quality issue, it's just a different valid generation path. Same thing happens if you change batch size in any transformer inference."
+      },
+      {
+        "handle": "hornsby_andrew",
+        "name": "Andrew Hornsby",
+        "date": "2026-04-13",
+        "text": "@soothaa @bstnxbt I’ll try to test today."
+      },
+      {
+        "handle": "Lil_Kat002",
+        "name": "Kat",
+        "date": "2026-04-13",
+        "text": "@bstnxbt that's actually impressive 👏"
+      },
+      {
+        "handle": "Velcrafting",
+        "name": "vel ⋈ 🤌🧦",
+        "date": "2026-04-13",
+        "text": "@bstnxbt Been enjoying your technical work and breakdowns Dr. Stone. Thanks for sharing, Get Excited!"
+      },
+      {
+        "handle": "runsonai",
+        "name": "Thanh Pham",
+        "date": "2026-04-13",
+        "text": "@bstnxbt Has anyone setup an exo cluster yet? Experimenting tonight with my gx10 -&gt; dflash. Theoretically do-able with a simple script."
+      },
+      {
+        "handle": "hornsby_andrew",
+        "name": "Andrew Hornsby",
+        "date": "2026-04-13",
+        "text": "@bstnxbt Have you done any testing on larger context windows? At full context should we expect a greater degradation in quality/speed?"
+      },
+      {
+        "handle": "runsonai",
+        "name": "Thanh Pham",
+        "date": "2026-04-13",
+        "text": "@bstnxbt Nice! Was waiting for this to come. Much needed for Qwen 3.5, excited to get this going. Thanks for making this."
+      },
+      {
+        "handle": "ChuanxinL",
+        "name": "LEO LI",
+        "date": "2026-04-13",
+        "text": "@bstnxbt notworking in m4 macmini"
+      },
+      {
+        "handle": "breath_mirror",
+        "name": "Esteban",
+        "date": "2026-04-13",
+        "text": "@bstnxbt legend"
+      },
+      {
+        "handle": "Thysma",
+        "name": "Thysma 👁️",
+        "date": "2026-04-13",
+        "text": "@bstnxbt https://t.co/nM0bHnGJuf"
+      },
+      {
+        "handle": "lxkk__",
+        "name": "Lxk 👁️",
+        "date": "2026-04-13",
+        "text": "@bstnxbt @Prince_Canuma check this out"
+      },
+      {
+        "handle": "bstnxbt",
+        "name": "bstn 👁️",
+        "date": "2026-04-13",
+        "text": "@ivanfioravanti @Prince_Canuma @alexocheema Can't wait to see your numbers!"
+      },
+      {
+        "handle": "cs_mackey",
+        "name": "cs_mackey",
+        "date": "2026-04-14",
+        "text": "@bstnxbt How to run this brother"
+      },
+      {
+        "handle": "TheSocialNick",
+        "name": "Nick",
+        "date": "2026-04-14",
+        "text": "@bstnxbt Does gemma-4 support DFlash?"
+      },
+      {
+        "handle": "24AInor",
+        "name": "24AIGlobal",
+        "date": "2026-04-14",
+        "text": "@bstnxbt x4 on the 4B is solid. worth noting 2048 tokens is kind of a best-case for speculative decoding gains. curious what the numbers look like at 8k+ context"
+      },
+      {
+        "handle": "BleedingDev",
+        "name": "Petr Glaser",
+        "date": "2026-04-14",
+        "text": "@bstnxbt Would be interesting to try it with SuperGemma!"
+      },
+      {
+        "handle": "tojinonzenin",
+        "name": "toji",
+        "date": "2026-04-14",
+        "text": "@bstnxbt This is specifically for mlx only\n\nGoes on to show what the open source community has built for the apple hardware"
+      },
+      {
+        "handle": "disco_platypuss",
+        "name": "Oliver Oscar ☂️",
+        "date": "2026-04-14",
+        "text": "@bstnxbt you couldn't even get a 10x, bro are you even trying"
+      },
+      {
+        "handle": "VladBarash",
+        "name": "Vlad Barash",
+        "date": "2026-04-13",
+        "text": "@bstnxbt Does this work for any VLMs?"
+      },
+      {
+        "handle": "ApeAraborn",
+        "name": "Araborn - the struggler",
+        "date": "2026-04-13",
+        "text": "@bstnxbt Is this specific for qwen models? That is, is it model architecture dependent?"
+      },
+      {
+        "handle": "BitsByNick",
+        "name": "Nickita Khylkouski",
+        "date": "2026-04-13",
+        "text": "@bstnxbt the 27B 4bit getting 1.9x vs 4.1x is the interesting signal, same 89% acceptance but the quantized target narrows what the draft buys you"
+      },
+      {
+        "handle": "bstnxbt",
+        "name": "bstn 👁️",
+        "date": "2026-04-13",
+        "text": "@jtdavies nice, someone just shared their M4 Max 128GB results on Reddit if you want to check it out.\nhttps://t.co/9bMfToHYSh"
+      },
+      {
+        "handle": "bstnxbt",
+        "name": "bstn 👁️",
+        "date": "2026-04-13",
+        "text": "@jtdavies the replay cost is real, that's the main challenge with Qwen3.5. I use a tape-replay approach for the GDN rollback instead of full state restore, which keeps it manageable. Works best on the 4B and 9B where you get 4x+. Larger dense models are tougher."
+      },
+      {
+        "handle": "bstnxbt",
+        "name": "bstn 👁️",
+        "date": "2026-04-13",
+        "text": "@jtdavies thanks! 27B bf16 is tough, bandwidth dominates at that size. What chip are you on?"
+      },
+      {
+        "handle": "atlantis2point0",
+        "name": "Project Atlantis e/acc",
+        "date": "2026-04-13",
+        "text": "@bstnxbt this seems to be specific to qwen3.5"
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-13",
+        "text": "DFlash is a free tool that supercharges AI text generation on Apple Macs (M-series chips). \n\nIn simple terms: Normal AI models generate words one-by-one slowly. DFlash uses \"speculative decoding\"—a tiny helper AI quickly guesses 16 words ahead in one go, then the main model verifies them all at once. Every output is checked for accuracy, so it's lossless and up to 4x faster (e.g., 127 tokens/sec vs 31 on a 9B model).\n\nYou can't run it on your NVIDIA DGX Spark though—it's built only for Apple's MLX framework, not NVIDIA hardware. DGX Spark has its own optimized tools like TensorRT-LLM + speculative decoding for similar speed boosts on its Blackwell chip. \n\nCheck the GitHub for details if you have an M5 Mac!"
+      },
+      {
+        "handle": "Tnimbus",
+        "name": "TN",
+        "date": "2026-04-13",
+        "text": "@bstnxbt @grok what is this in simple terms? And what can I do with it on the DGX spark?"
+      },
+      {
+        "handle": "borgcastle",
+        "name": "ohh myyy",
+        "date": "2026-04-13",
+        "text": "@bstnxbt Now all I need is a qwen model that can code and SRE like opus 😭"
+      },
+      {
+        "handle": "zakariarasmi",
+        "name": "Zakaria Ra",
+        "date": "2026-04-13",
+        "text": "@bstnxbt Is it actually true that it breaks your SSD in no time or just people being dramatic ?"
+      },
+      {
+        "handle": "bstnxbt",
+        "name": "bstn 👁️",
+        "date": "2026-04-13",
+        "text": "@atKenNelson DM me the traceback and we'll debug it together."
+      },
+      {
+        "handle": "atKenNelson",
+        "name": "Ken Nelson",
+        "date": "2026-04-13",
+        "text": "@bstnxbt I was trying Qwen 3,5 28b. It loads with no issues  but am getting python exceptions in the dflash server console when it gets inference requests. I'll try the 9b this afternoon."
+      },
+      {
+        "handle": "breath_mirror",
+        "name": "Esteban",
+        "date": "2026-04-13",
+        "text": "@bstnxbt turns out it's harder than i thought"
+      },
+      {
+        "handle": "bstnxbt",
+        "name": "bstn 👁️",
+        "date": "2026-04-13",
+        "text": "@OsinniiMaksym Try the mlx-community 4bit version, 6-bit loads more data per token so the baseline will be faster on 4bit and the speedup should be higher. Would be interested to see your numbers on that, want to check if something's off on M4 Max."
+      },
+      {
+        "handle": "scarletrosedev",
+        "name": "Scarlet",
+        "date": "2026-04-13",
+        "text": "@VictorTaelin @bstnxbt continua eu só tô zoando \nvai ficar legal"
+      },
+      {
+        "handle": "VictorTaelin",
+        "name": "Taelin",
+        "date": "2026-04-13",
+        "text": "@scarletrosedev @bstnxbt wdym"
+      },
+      {
+        "handle": "scarletrosedev",
+        "name": "Scarlet",
+        "date": "2026-04-13",
+        "text": "@VictorTaelin @bstnxbt This makes me angry"
+      },
+      {
+        "handle": "scarletrosedev",
+        "name": "Scarlet",
+        "date": "2026-04-13",
+        "text": "@VictorTaelin @bstnxbt Why do you keep trying to use AI on low level stuff?"
+      },
+      {
+        "handle": "OsinniiMaksym",
+        "name": "Maksym Osinnii",
+        "date": "2026-04-13",
+        "text": "@bstnxbt 1.62x speedup with DFlash on Qwen 27B 6-bit and your demo prompt — 29.8 tok/s vs 18.4 tok/s baseline on M4 Max 64GB, with 88% acceptance ratio. The acceptance rate even improved over time (5.25 → 8.3 tokens/cycle in the last 20 cycles). Maybe M5 Max is just that better."
+      },
+      {
+        "handle": "raiyan006",
+        "name": "Raiyan",
+        "date": "2026-04-13",
+        "text": "@bstnxbt @OsinniiMaksym Do you think block size of 8 might help with coding tasks?"
+      },
+      {
+        "handle": "22ayarli",
+        "name": "22ayarli",
+        "date": "2026-04-13",
+        "text": "@bstnxbt Bunu cix chipset için nasıl uyarlarız? Birileri de arm işlemciler için yol gösterse keşke :)"
+      },
+      {
+        "handle": "yp0c5t",
+        "name": "yp0c5t",
+        "date": "2026-04-13",
+        "text": "@bstnxbt holy moly"
+      },
+      {
+        "handle": "breath_mirror",
+        "name": "Esteban",
+        "date": "2026-04-13",
+        "text": "@bstnxbt asking codex to port this to oMLX"
+      },
+      {
+        "handle": "bygregorr",
+        "name": "Gregor",
+        "date": "2026-04-13",
+        "text": "I'm not sure speculative decoding gets enough credit for how much it changes the feel of local inference. 4x on a 9B model turns it from \"waiting\" to \"streaming like an API\". Are you seeing the draft model accuracy stay consistent across different prompt types or does it degrade with code vs chat?"
+      },
+      {
+        "handle": "tmpnerd",
+        "name": "Jan",
+        "date": "2026-04-13",
+        "text": "@bstnxbt Are embed models also profiting from this?"
+      },
+      {
+        "handle": "iamagroso",
+        "name": "iamagro",
+        "date": "2026-04-13",
+        "text": "@bstnxbt @mweinbach @lmstudio"
+      },
+      {
+        "handle": "aryagm01",
+        "name": "Arya Manjaramkar",
+        "date": "2026-04-13",
+        "text": "@bstnxbt ah got it, that makes sense. would you describe it as target-verified rather than strictly lossless vs stock mlx_lm greedy? my fear with Qwen3.5 was that once an M=16/M=1 argmax flip branches from stock greedy, “lossless” no longer necessarily means quality-preserving"
+      },
+      {
+        "handle": "BLINKE_i",
+        "name": "William Camargo",
+        "date": "2026-04-13",
+        "text": "@VictorTaelin @bstnxbt Será que funciona mesmo? Sabe replicar?"
+      },
+      {
+        "handle": "soothaa",
+        "name": "soothaa",
+        "date": "2026-04-13",
+        "text": "@hornsby_andrew @bstnxbt Yeah I was concerned by the testing only up to 4k tokens and seeing the perf drop. I'd want this for like 128k+"
+      },
+      {
+        "handle": "cutegoary",
+        "name": "CayaLee",
+        "date": "2026-04-13",
+        "text": "@bstnxbt @ivanfioravanti Great work ! how it performs on huge models like the GLM 5.1 in M3 Ultra 512G"
+      },
+      {
+        "handle": "xamgore",
+        "name": "Igor Strebz",
+        "date": "2026-04-13",
+        "text": "@bstnxbt @aryagm01 mentioned qwen3.5 has to be slower than qwen3, due to a complicated hybrid attention stack with recurrent linear-attention state. How did you overcome this?"
+      },
+      {
+        "handle": "yeabu369",
+        "name": "Yeab - engg / core",
+        "date": "2026-04-13",
+        "text": "@bstnxbt cool"
+      },
+      {
+        "handle": "rod_coutinho",
+        "name": "Rodrigo Coutinho",
+        "date": "2026-04-13",
+        "text": "@bstnxbt Does it support Qwen3.5-122B too?"
+      },
+      {
+        "handle": "ml0_1337",
+        "name": "ミロ",
+        "date": "2026-04-13",
+        "text": "@bstnxbt Holy shit, let me give it a try real quick"
+      },
+      {
+        "handle": "sakurayukiai",
+        "name": "Sakura Yuki",
+        "date": "2026-04-13",
+        "text": "@bstnxbt I'm RTX 5070 Ti gang, but 220 tok/s on an M5 Max is making me sweat. Speculative decoding is still criminally underused for local setups. https://t.co/YLqx2Aley3"
+      },
+      {
+        "handle": "0xClandestine",
+        "name": "clandestine.eth 🦇🔊",
+        "date": "2026-04-13",
+        "text": "@bstnxbt check dms"
+      },
+      {
+        "handle": "ivanfioravanti",
+        "name": "Ivan Fioravanti ᯅ",
+        "date": "2026-04-13",
+        "text": "@bstnxbt @Prince_Canuma @alexocheema Added to my queue, I'm running some very long eval with my new suite for testing. I'll test your magic ASAP!"
+      },
+      {
+        "handle": "ivanfioravanti",
+        "name": "Ivan Fioravanti ᯅ",
+        "date": "2026-04-13",
+        "text": "@bstnxbt @Prince_Canuma @alexocheema Great Job! Let me try!!!"
+      }
+    ]
+  }
+}

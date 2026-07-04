@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:29.179Z",
+  "tweetId": "2063205421024727290",
+  "post": {
+    "url": "https://x.com/_3emeOeil/status/2063205421024727290",
+    "author": {
+      "handle": "_3emeOeil",
+      "name": "𝟑 𝐞̀𝐦𝐞 𝐎𝐞𝐢𝐥"
+    },
+    "date": "2026-06-06",
+    "text": "🤖 Microsoft imagine un futur où les applications disparaissent complètement 📱\n\nLors de sa conférence Build, Microsoft a présenté Project Solara, un concept de système d'exploitation où les utilisateurs n'interagissent plus avec des applications classiques.\n\nÀ la place, un agent IA devient l'interface principale : vous lui parlez, il comprend votre demande et exécute les tâches nécessaires en arrière-plan, sans que vous ayez à ouvrir une application spécifique.\n\nPour illustrer cette vision, Microsoft a montré deux appareils expérimentaux : un terminal de bureau ressemblant à un assistant vocal intelligent avec reconnaissance faciale, et un badge portable équipé d'une caméra, d'un scanner d'empreintes et d'un bouton permettant d'activer instantanément l'agent IA. L'appareil peut écouter, transcrire des conversations, analyser l'environnement visuel et interagir avec l'utilisateur en temps réel.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/ext_tw_video/2063205354368839680/pu/vid/avc1/1280x720/iBR0PMqp-_hYRsFv.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 587,
+      "retweets": 59,
+      "replies": 19,
+      "views": 417043
+    },
+    "comments": []
+  }
+}

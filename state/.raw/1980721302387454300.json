@@ -1,0 +1,31 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:53.527Z",
+  "tweetId": "1980721302387454300",
+  "post": {
+    "url": "https://x.com/aaditsh/status/1980721302387454300",
+    "author": {
+      "handle": "aaditsh",
+      "name": "Aadit Sheth"
+    },
+    "date": "2025-10-21",
+    "text": "Perplexity just quietly dropped a 42-page internal guide on how they actually use AI at work.\n\nWhat I found most useful:\n\n→ How they automate the small stuff. Email, meeting prep, research (all done by AI)\n→ Using AI to amplify your curiosity, not replace it.\n→ Their prompting playbook is simple, practical, and genuinely good.\n\nComment “AI” and I’ll send it to you for free.",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3zvhkoawAAA7wr.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3zvhxVa4AAX9jv.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 13001,
+      "retweets": 1352,
+      "replies": 5951,
+      "views": 1601857
+    },
+    "comments": []
+  }
+}

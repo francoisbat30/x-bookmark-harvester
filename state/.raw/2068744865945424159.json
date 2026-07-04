@@ -1,0 +1,46 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:21.388Z",
+  "tweetId": "2068744865945424159",
+  "post": {
+    "url": "https://x.com/SeterMD/status/2068744865945424159",
+    "author": {
+      "handle": "SeterMD",
+      "name": "Seter"
+    },
+    "date": "2026-06-21",
+    "text": "You can animate pixel art in Spine2D.\nTested myself today. It's pretty cool. I am super pumped about this!\nArt by my buddy @m3nsha \n#madewithspine https://t.co/rIDDlkyt2Q",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2068743409418817536/vid/avc1/1920x1080/ZpyNBa2QeJIketuo.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 10223,
+      "retweets": 585,
+      "replies": 82,
+      "views": 529380
+    },
+    "comments": [
+      {
+        "handle": "Newgrounds88",
+        "name": "Salomon",
+        "date": "2026-06-27",
+        "text": "@SeterMD @m3nsha That looks surprisingly clean, pixel art animation in Spine is such a game changer."
+      },
+      {
+        "handle": "Lucis_YP",
+        "name": "Paul Lion",
+        "date": "2026-06-24",
+        "text": "@SeterMD @m3nsha Wow"
+      },
+      {
+        "handle": "Pay126_",
+        "name": "Pay 💀",
+        "date": "2026-06-23",
+        "text": "@SeterMD @m3nsha Looks neat"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:37.822Z",
+  "tweetId": "2004491374658543958",
+  "post": {
+    "url": "https://x.com/thisguyknowsai/status/2004491374658543958",
+    "author": {
+      "handle": "thisguyknowsai",
+      "name": "Brady Long"
+    },
+    "date": "2025-12-26",
+    "text": "🚨 BREAKING: Google Research just dropped the textbook killer.\n\nIts called \"Learn Your Way\" and it uses LearnLM to transform any PDF into 5 personalized learning formats. Students using it scored 78% vs 67% on retention tests.\n\nThe education revolution is here. https://t.co/O8ka4IfvPS",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2004491317980880896/vid/avc1/1280x720/Nqh17DMk-bCAh6A7.mp4?tag=14"
+      }
+    ],
+    "metrics": {
+      "likes": 17351,
+      "retweets": 1787,
+      "replies": 174,
+      "views": 1332470
+    },
+    "comments": []
+  }
+}

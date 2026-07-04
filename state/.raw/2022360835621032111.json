@@ -1,0 +1,22 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:25.051Z",
+  "tweetId": "2022360835621032111",
+  "post": {
+    "url": "https://x.com/ivanfioravanti/status/2022360835621032111",
+    "author": {
+      "handle": "ivanfioravanti",
+      "name": "Ivan Fioravanti ᯅ"
+    },
+    "date": "2026-02-13",
+    "text": "MiniMax M2.5 context benchmarks on M3 Ultra 512GB\n\nMiniMax M2.5 is here! Weights released open on Hugging Face.\nLet's make a quick context benchmark test using MLX, with:\nsingle request (no batching VLLM style here)\nno caching of previous request\nMac Studio with M3 Ultra 512GB 80 GPU cores\n4,5,6 and 8 bits quantization. \nmlx_lm 0.30.7 (directly from source)\nPersonally I suggest 5bit and above with these settings:\ntemp = 1.0\ntop_p = 0.95\ntop_k = 40\nComparison\nRaw results as prompt processing / text generation / peak memory:\n4bit: 540 / 35.1 TPS / 161.6 GB\n5bit 530.3 / 33 TPS / 190.2 GB\n6bit 414.3 / 31 TPS / 218.8 GB\n8bit 390.1 / 28.4 TPS / 276 GB\n \nA Mac Studio with 256GB is perfect to run up to 6bit.\n4bit details\nRaw results as prompt processing / text generation / peak memory:\n0.5k pp 474 tg 49 t/s 129.2GB\n1k pp 664 tg 49 t/s 129.6GB\n2k pp 797 tg 46 t/s 130.1GB\n4k pp 769 tg 44 t/s 130.6GB\n8k pp 708 tg 39 t/s 131.5GB\n16k pp 597 tg 34 t/s 133.4GB\n32k pp 450 tg 25 t/s 137.4GB\n64k pp 252 tg 18 t/s 145.3GB\n128k pp 149 tg 11 t/s 161.6GB\n \n4bit is ok for basic tests with small context, it starts to derail around 8K.\n5bit details\nRaw results as prompt processing / text generation / peak memory:\n0.5k pp 469 tg 46 t/s 157.8GB\n1k pp 625 tg 45 t/s 158.1GB\n2k pp 766 tg 43 t/s 158.7GB\n4k pp 743 tg 40 t/s 159.2GB\n8k pp 687 tg 37 t/s 160.1GB\n16k pp 582 tg 32 t/s 162.0GB\n32k pp 443 tg 25 t/s 166.0GB\n64k pp 294 tg 17 t/s 173.9GB\n128k pp 164 tg 11 t/s 190.2GB\n \nThis is the best compromise quality/speed.\n6bit details\nRaw results as prompt processing / text generation / peak memory:\n0.5k pp 206 tg 41 t/s 186.4GB\n1k pp 316 tg 41 t/s 186.6GB\n2k pp 536 tg 40 t/s 187.3GB\n4k pp 611 tg 38 t/s 187.8GB\n8k pp 626 tg 35 t/s 188.7GB\n16k pp 561 tg 30 t/s 190.5GB\n32k pp 441 tg 24 t/s 194.5GB\n64k pp 275 tg 17 t/s 202.5GB\n128k pp 158 tg 11 t/s 218.8GB\n \nMy personal preference go to 6bit!\n8bit details\nRaw results as prompt processing / text generation / peak memory:\n0.5k pp 181 tg 38 t/s 243.5GB\n1k pp 280 tg 37 t/s 243.8GB\n2k pp 479 tg 36 t/s 244.5GB\n4k pp 572 tg 35 t/s 244.9GB\n8k pp 599 tg 32 t/s 245.8GB\n16k pp 546 tg 28 t/s 247.7GB\n32k pp 433 tg 23 t/s 251.7GB\n64k pp 267 tg 16 t/s 259.7GB\n128k pp 154 tg 11 t/s 276.0GB\n \nConclusions\nIn real life you can use 5bit with OpenCode and the prefill slowness is less relevant, because you'll not start with a 128K context, you'll add tokens step by step to the KV Cache. \nWhat a model! Local AI is reaching incredible levels and M5 Ultra will unlock even more power! 🔥",
+    "media": [],
+    "metrics": {
+      "likes": 202,
+      "retweets": 19,
+      "replies": 13,
+      "views": 55964
+    },
+    "comments": []
+  }
+}

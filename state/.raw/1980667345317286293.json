@@ -1,0 +1,22 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:54.680Z",
+  "tweetId": "1980667345317286293",
+  "post": {
+    "url": "https://x.com/brave/status/1980667345317286293",
+    "author": {
+      "handle": "brave",
+      "name": "Brave"
+    },
+    "date": "2025-10-21",
+    "text": "The security vulnerability we found in Perplexity’s Comet browser this summer is not an isolated issue.\n\nIndirect prompt injections are a systemic problem facing Comet and other AI-powered browsers.\n\nToday we’re publishing details on more security vulnerabilities we uncovered.",
+    "media": [],
+    "metrics": {
+      "likes": 17259,
+      "retweets": 2682,
+      "replies": 377,
+      "views": 3545174
+    },
+    "comments": []
+  }
+}

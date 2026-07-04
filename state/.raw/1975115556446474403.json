@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:00.118Z",
+  "tweetId": "1975115556446474403",
+  "post": {
+    "url": "https://x.com/pietrobaudin/status/1975115556446474403",
+    "author": {
+      "handle": "pietrobaudin",
+      "name": "Pietro Baudin"
+    },
+    "date": "2025-10-06",
+    "text": "how to use 60-30-10 rule in your designs https://t.co/PKupns5Moh",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G2kFIXJWoAAXgC9.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 2656,
+      "retweets": 126,
+      "replies": 5,
+      "views": 138661
+    },
+    "comments": []
+  }
+}

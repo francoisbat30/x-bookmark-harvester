@@ -1,0 +1,22 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:16.654Z",
+  "tweetId": "2026354821389799720",
+  "post": {
+    "url": "https://x.com/itsPaulAi/status/2026354821389799720",
+    "author": {
+      "handle": "itsPaulAi",
+      "name": "Paul Couvert"
+    },
+    "date": "2026-02-24",
+    "text": "Wow they did it 🔥\n\n\"Qwen3.5-35B-A3B now surpasses Qwen3-235B-A22B-2507\"\n\nSo in 6 months they've trained a model which is:\n\n- 6.7x smaller than the previous one\n- Better in all benchmarks\n- Available locally on a laptop\n\nWe're just at the very beginning of local LLMs and, at some point, we'll have an Opus 4.6 intelligence running on a phone.",
+    "media": [],
+    "metrics": {
+      "likes": 2088,
+      "retweets": 180,
+      "replies": 74,
+      "views": 398771
+    },
+    "comments": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:22.697Z",
+  "tweetId": "2024031047264899403",
+  "post": {
+    "url": "https://x.com/_Re_/status/2024031047264899403",
+    "author": {
+      "handle": "_Re_",
+      "name": "René Cotton"
+    },
+    "date": "2026-02-18",
+    "text": "🤯 Colle ton prompt deux fois.\n\nC'est tout. C'est le hack. \n\nGoogle Research a testé sur 7 modèles, 7 benchmarks.\n→ 47 victoires sur 70\n→ Zéro défaite\n→ Gemini Flash : de 21% à 97% de précision\n\nPourquoi ça marche ? Les LLM lisent de gauche à droite. Chaque token ne voit que ce qui le précède. En répétant, tu donnes une seconde passe à tout le contexte.",
+    "media": [],
+    "metrics": {
+      "likes": 304,
+      "retweets": 28,
+      "replies": 14,
+      "views": 104974
+    },
+    "comments": []
+  }
+}

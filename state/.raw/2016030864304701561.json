@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:26.977Z",
+  "tweetId": "2016030864304701561",
+  "post": {
+    "url": "https://x.com/UnslothAI/status/2016030864304701561",
+    "author": {
+      "handle": "UnslothAI",
+      "name": "Unsloth AI"
+    },
+    "date": "2026-01-27",
+    "text": "DeepSeek releases DeepSeek-OCR 2. 🐋\n\nThe new 3B model achieves SOTA visual, document and OCR understanding.\nDeepEncoder V2 is introduced which enables the model scan images in same logical order as humans, boosting OCR accuracy.\nInstead of traditional vision LLMs which read an image in a fixed grid (top-left → bottom-right), DeepEncoder V2 first builds a global understanding, then learns a human-like reading order - what to attend to first, next, and so on.\n\nThis improves OCR on complex layouts helping it follow columns, link labels to values, read tables coherently, and handle mixed text + structure more reliably.\n\nDeepSeek-OCR 2 outperforms Gemini 3 Pro on benchmarks and is >4% improvement over the previous DeepSeek-OCR.\n\nYou can now run and fine-tune DeepSeek-OCR 2 with Unsloth and our guide.\n\nGuide: https://t.co/z5Hu7J7KkW\nModel: https://t.co/OuVLY7SvhP",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G_pg-TdbEAAfutf.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 3167,
+      "retweets": 419,
+      "replies": 51,
+      "views": 219092
+    },
+    "comments": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:07.505Z",
+  "tweetId": "1729985855370960980",
+  "post": {
+    "url": "https://x.com/bentenwoodring/status/1729985855370960980",
+    "author": {
+      "handle": "bentenwoodring",
+      "name": "Benten"
+    },
+    "date": "2023-11-29",
+    "text": "Our design team at @bunsenstudio is compiling a list of our favorite Figma plugins.\n\nWhat are we missing?\n\n• Logo layout\n• Remove BG\n• Assign Color Value to Text\n• Chromatic Figma\n• Batch Styler\n• Font Swap\n• Loom Embed\n• Above the Fold\n• Unsplash\n• Use Contrast\n• Gifmock\n• Pitchdeck Presentation Studio\n• Lorem Ipsum\n• Noise & Texture\n• PasteSVG\n• Deck\n• Insert Big Image\n• TinyImage Compressor",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/GAIkMf2WQAAuiDR.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 303,
+      "retweets": 23,
+      "replies": 39,
+      "views": 57272
+    },
+    "comments": []
+  }
+}

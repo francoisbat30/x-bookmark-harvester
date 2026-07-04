@@ -1,0 +1,39 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:50.031Z",
+  "tweetId": "1986862660772655320",
+  "post": {
+    "url": "https://x.com/designbyaron/status/1986862660772655320",
+    "author": {
+      "handle": "designbyaron",
+      "name": "aron"
+    },
+    "date": "2025-11-07",
+    "text": "This is what $3500 brand direction looks like when you work with me. https://t.co/i49E2mGHm0",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G5LAEAWWYAEfxfI.png"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G5LAFVhWQAEVN67.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G5LAGM7XEAAkify.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G5LAJhSWoAAnyfq.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 2946,
+      "retweets": 92,
+      "replies": 171,
+      "views": 148952
+    },
+    "comments": []
+  }
+}

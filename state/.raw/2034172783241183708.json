@@ -1,0 +1,100 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T22:43:40.083Z",
+  "tweetId": "2034172783241183708",
+  "post": {
+    "url": "https://x.com/socialwithaayan/status/2034172783241183708",
+    "author": {
+      "handle": "socialwithaayan",
+      "name": "Muhammad Ayan"
+    },
+    "date": "2026-03-18",
+    "text": "🚨 BREAKING: The ultimate prompt library for Seedance 2.0 AI video generation just dropped on GitHub.\n\nThis repo is the complete collection of high-fidelity, battle-tested prompts for ByteDance's Sora-level video model.\n\nYou can now generate pro-level videos in seconds using copy-paste prompts for:\n\n→ Cinematic film styles (Hollywood racing scenes, Denis Villeneuve deserts, Wong Kar-wai rainy nights)\n→ Viral memes and social media shorts (giant cat Godzilla memes, mirror glitches)\n→ Anime and animation sequences (Nezha battles, Van Gogh oil-paint styles, Luffy coding)\n→ Advertising and commercial branding (MUJI promos, perfume animations)\n→ UGC content, short dramas, and wild visual effects (surreal sky zippers, megalophobia)\n\nEach prompt includes exact timing, camera moves, character consistency tricks, and motion details that actually deliver.\n\nPlus full Seedance API guides and advanced workflows so you can scale it into real projects.\n\nNo more random guessing. These are sourced from top prompt engineers on X and WeChat and proven to work.\n\nPerfect for filmmakers, creators, advertisers, and everyday users who want cinematic AI videos without the headache.\n\n100% free and open source.",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HDrVXcQaIAAsp0L.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 461,
+      "retweets": 85,
+      "replies": 23,
+      "views": 36636
+    },
+    "comments": [
+      {
+        "handle": "semonxue",
+        "name": "Semon",
+        "date": "2026-03-18",
+        "text": "Yo this is sick! While playing around with Seedance 2.0 I ended up collecting a bunch of prompts that actually slap (with previews so you can see the vibe before copying). If you're into that kinda thing: https://awesomevideoprompts.com – it's growing fast lol"
+      },
+      {
+        "handle": "ScaleWthAI",
+        "name": "Saman Ahmed",
+        "date": "2026-03-18",
+        "text": "The real winners here will be people who combine this with strong storytelling prompts get you visuals, story keeps people watching"
+      },
+      {
+        "handle": "benjamin_woods",
+        "name": "Benji",
+        "date": "2026-03-18",
+        "text": "a library of copy-paste video prompts is useful.\n\nbut it's already the ceiling for everyone who uses it.\n\nthe people who study why those prompts work and build their own systems around them?\n\ndifferent game entirely."
+      },
+      {
+        "handle": "rhnxai",
+        "name": "Rehan Tahir",
+        "date": "2026-03-18",
+        "text": "Great resource drop! High-quality prompt engineering is still the #1 unlock for getting consistent, pro-level outputs from AI video models. Having a battle-tested library like this openly available lowers the barrier significantly for creators. Thanks for sharing 🙌"
+      },
+      {
+        "handle": "charliejhills",
+        "name": "Charlie Hills",
+        "date": "2026-03-18",
+        "text": "This removes one of the biggest excuses tbh. you don’t need expensive gear anymore to produce something visually impressive"
+      },
+      {
+        "handle": "BohdanDJA",
+        "name": "₿ohdan CryptoLions 🦁",
+        "date": "2026-03-18",
+        "text": "This is gold! I just connected 4 different AI video models into one drag-and-drop editor - what used to take 2 weeks now takes 4 hours.  Prompt libraries like this + multi-model chaining = 50-100x speed.  The era of manual video work is over. Who's already building with Seedance or similar?"
+      },
+      {
+        "handle": "abxxai",
+        "name": "Abdul Șhakoor",
+        "date": "2026-03-18",
+        "text": "this looks insane level value for creators, finally prompts that actually save hours not just hype"
+      },
+      {
+        "handle": "whatsuphabibi90",
+        "name": "huh",
+        "date": "2026-03-18",
+        "text": "What’s the point when Seedance 2.0 can’t be use"
+      },
+      {
+        "handle": "nrqa__",
+        "name": "Nelly;",
+        "date": "2026-03-18",
+        "text": "which prompts worked best for you so far???"
+      },
+      {
+        "handle": "ghashki",
+        "name": "Athena 🪽",
+        "date": "2026-03-18",
+        "text": "If everyone will copy prompt from GitHub ! Do we get same output?"
+      },
+      {
+        "handle": "maodali0306",
+        "name": "Cool大西儿",
+        "date": "2026-03-18",
+        "text": "Prompt工程正在成为新的电影摄影术——关键不在于懂得镜头怎么运作，而在于你知道自己想讲什么故事。Seedance 2.0降低了门槛，但天花板依然是纯粹的人类创造力 🎬"
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HDrVXcQaIAAsp0L.jpg",
+      "localFilename": "2034172783241183708_1.jpg"
+    }
+  ]
+}

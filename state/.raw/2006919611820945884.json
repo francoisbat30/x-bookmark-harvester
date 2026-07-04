@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:35.099Z",
+  "tweetId": "2006919611820945884",
+  "post": {
+    "url": "https://x.com/nextstepst/status/2006919611820945884",
+    "author": {
+      "handle": "nextstepst",
+      "name": "Next Step ©"
+    },
+    "date": "2026-01-02",
+    "text": "Best gradient golden edition https://t.co/tLIVywEWAh",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G9oCv_VWwAA_rZu.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 3127,
+      "retweets": 227,
+      "replies": 6,
+      "views": 94917
+    },
+    "comments": []
+  }
+}

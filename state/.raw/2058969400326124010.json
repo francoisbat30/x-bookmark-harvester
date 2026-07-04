@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:30.672Z",
+  "tweetId": "2058969400326124010",
+  "post": {
+    "url": "https://x.com/FredGaulois/status/2058969400326124010",
+    "author": {
+      "handle": "FredGaulois",
+      "name": "🇫🇷 fred le gaulois 🇫🇷 Uniondesdroites 🐱🐱"
+    },
+    "date": "2026-05-25",
+    "text": "300 000 français sont victimes d'une usurpation d'identité, les conséquences peuvent être terribles.\nIl existe un moyen pour se protéger : rajouter un filigrane avant d'envoyer vos papiers d'identité sur internet, un site officiel existe, il est gratuit : https://t.co/by5jBO0gWT \nA diffuser largement 🙏",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2058968192635060224/vid/avc1/1600x884/mIu-PlKQE6OuNWiB.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 1654,
+      "retweets": 1021,
+      "replies": 70,
+      "views": 100248
+    },
+    "comments": []
+  }
+}

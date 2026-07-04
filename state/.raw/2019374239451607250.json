@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:26.212Z",
+  "tweetId": "2019374239451607250",
+  "post": {
+    "url": "https://x.com/tom_doerr/status/2019374239451607250",
+    "author": {
+      "handle": "tom_doerr",
+      "name": "Tom Dörr"
+    },
+    "date": "2026-02-05",
+    "text": "Tracks AI usage limits from the macOS menu bar\n\nhttps://t.co/s0As43Yb2w https://t.co/VVEBaTOzUc",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HAZCK0wXEAAXJId.png"
+      }
+    ],
+    "metrics": {
+      "likes": 2977,
+      "retweets": 195,
+      "replies": 64,
+      "views": 269866
+    },
+    "comments": []
+  }
+}

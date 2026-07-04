@@ -1,0 +1,52 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:05.732Z",
+  "tweetId": "2030874360060518412",
+  "post": {
+    "url": "https://x.com/rubanlah/status/2030874360060518412",
+    "author": {
+      "handle": "rubanlah",
+      "name": "ruban (in sf 13-18 🇺🇸)"
+    },
+    "date": "2026-03-09",
+    "text": "i made a tamagotchi that lives in your notch and reacts to your claude code sessions. \n\nit cries when you yell at claude and gets happy when you praise it. https://t.co/YYFEz8NyGy",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2030871616763334656/vid/avc1/2132x1080/Hp7fe_blIfqaF0js.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 2435,
+      "retweets": 107,
+      "replies": 102,
+      "views": 275563
+    },
+    "comments": [
+      {
+        "handle": "rubanlah",
+        "name": "ruban (in sf 13-18 🇺🇸)",
+        "date": "2026-04-13",
+        "text": "@JeremyNguyenPhD soon! on it https://t.co/qw1XuSdgDT"
+      },
+      {
+        "handle": "JeremyNguyenPhD",
+        "name": "Jeremy Nguyen ✍🏼 🚢",
+        "date": "2026-04-13",
+        "text": "@rubanlah I use notchi every day, Ruban, thank you so much!\n\nDoes it support Codex at all?"
+      },
+      {
+        "handle": "JeremyNguyenPhD",
+        "name": "Jeremy Nguyen ✍🏼 🚢",
+        "date": "2026-04-13",
+        "text": "@rubanlah ps. I'm so curious what a codex icon is going to look like"
+      },
+      {
+        "handle": "JeremyNguyenPhD",
+        "name": "Jeremy Nguyen ✍🏼 🚢",
+        "date": "2026-04-13",
+        "text": "@rubanlah thank you so much!"
+      }
+    ]
+  }
+}

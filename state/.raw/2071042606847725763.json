@@ -1,0 +1,130 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:16.180Z",
+  "tweetId": "2071042606847725763",
+  "post": {
+    "url": "https://x.com/watari_toriyuki/status/2071042606847725763",
+    "author": {
+      "handle": "watari_toriyuki",
+      "name": "渡鳥之"
+    },
+    "date": "2026-06-28",
+    "text": "PixelOver試してみました \n\nやはりドット絵アニメーションの最先端はボーン操作なのか。フレーム補完した細かい差分まで作れますね https://t.co/UWtLK7svQT\n\n一度設定さえ作ってしまえば、ボーンに使ってる画像を差し替えるだけで人間他キャラなら同じ動作が作れるので作業もだいぶ短縮できるはず",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2071039915316633600/vid/avc1/1080x720/pMKey9o2_4y3EhAi.mp4?tag=14"
+      }
+    ],
+    "metrics": {
+      "likes": 1422,
+      "retweets": 118,
+      "replies": 17,
+      "views": 58134
+    },
+    "comments": [
+      {
+        "handle": "Luneder1",
+        "name": "Justen Moore",
+        "date": "2026-06-29",
+        "text": "@watari_toriyuki I actually use this for work it is great. A game I work on has an avatar the outfits can be changed so I just rigged up each piece and just make the set on an unanimated version then save each piece and open them on the rig and then save the animated pieces."
+      },
+      {
+        "handle": "dipperdao",
+        "name": "Dipper",
+        "date": "2026-06-28",
+        "text": "@watari_toriyuki so it just rive?"
+      },
+      {
+        "handle": "RedaOuVT",
+        "name": "Reda-OuーUltimate Villain ➥『 𝖘𝖔𝖚𝖙𝖍 𝖘𝖎𝖉𝖊 』",
+        "date": "2026-06-28",
+        "text": "@watari_toriyuki I'm really interested in this approach. I thought about rigging 3/4 (or at least not side-profile) sprites like this but I thought it would be difficult to get looking correct with more extreme poses. Does this work well for attack animations?"
+      },
+      {
+        "handle": "CoderX404",
+        "name": "Fantancy",
+        "date": "2026-06-28",
+        "text": "@watari_toriyuki 这是一个什么样的工具？能解决骨骼动画自动绑定骨骼的问题吗？"
+      },
+      {
+        "handle": "watari_toriyuki",
+        "name": "渡鳥之",
+        "date": "2026-06-28",
+        "text": "@DominoKorean 私は以前のバージョンを知りませんが、概ね快適に作業できており、なかなかお気に入りですよ"
+      },
+      {
+        "handle": "raunchysturdy",
+        "name": "raunchysturdy",
+        "date": "2026-06-29",
+        "text": "@watari_toriyuki Now if this were combined with genAI to make your job easier and run an algorithm that ensures that the frames look right, or to create baseline animations that you could tweak, would you still use it?"
+      },
+      {
+        "handle": "GranIdeaGames",
+        "name": "Gran Idea Games",
+        "date": "2026-06-28",
+        "text": "@watari_toriyuki Great app. I feel like I've been missing out by not using it..."
+      },
+      {
+        "handle": "MadChadLTC",
+        "name": "MadChad",
+        "date": "2026-06-28",
+        "text": "@watari_toriyuki Impressive"
+      },
+      {
+        "handle": "LineGutter",
+        "name": "Kojiro 幸次郎 Brushard (open 0/4)",
+        "date": "2026-06-28",
+        "text": "@watari_toriyuki Is it free and in English?"
+      },
+      {
+        "handle": "AerunFE",
+        "name": "Aerun",
+        "date": "2026-06-28",
+        "text": "@watari_toriyuki PixelOver is really a great software to use, yeah"
+      },
+      {
+        "handle": "ClauCosturas",
+        "name": "Klmmrs",
+        "date": "2026-06-28",
+        "text": "@watari_toriyuki ピクセルがごちゃごちゃにならないようにするにはどうすればいいですか？ スケールを変更しましたか？ 一度試してみましたが、ピクセルはまだかなり乱雑に見えます。"
+      },
+      {
+        "handle": "GlassySundew",
+        "name": "GlassySundew",
+        "date": "2026-06-28",
+        "text": "@watari_toriyuki dude you can just use spine with pixel snapping"
+      },
+      {
+        "handle": "sa1ntsdiego",
+        "name": "dinho",
+        "date": "2026-06-28",
+        "text": "@watari_toriyuki do you intend to distribute it as open source or for free?"
+      },
+      {
+        "handle": "PoudingCZ",
+        "name": "Pouding",
+        "date": "2026-06-28",
+        "text": "@watari_toriyuki yooo that is sick is a free app to use?"
+      },
+      {
+        "handle": "DominoKorean",
+        "name": "DominoKorean",
+        "date": "2026-06-28",
+        "text": "@watari_toriyuki 요즘은 쓸만한가요? 작년에 호기심에 써봤을때는 UI도 불친절하고 재생 Space단축키가 다른 키와 같이 할당돼있어 작동하지 않거나 버그도 많고 여러모로 실제 작업을 고려하지 않고 제작한 툴이라는 느낌을 많이 받았었는데"
+      },
+      {
+        "handle": "watari_toriyuki",
+        "name": "渡鳥之",
+        "date": "2026-06-28",
+        "text": "@ayane_15 最終的にはボーンごとにパーツ分けて当てるのが一番安定しました \nそこまでに若干の面倒さはあるかなと"
+      },
+      {
+        "handle": "ayane_15",
+        "name": "朱音",
+        "date": "2026-06-28",
+        "text": "@watari_toriyuki ボーンをツール側から設定後付けしていく感じなんですかね。体の部品は全部わけてるのかなぁ"
+      }
+    ]
+  }
+}

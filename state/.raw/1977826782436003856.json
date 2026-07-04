@@ -1,0 +1,22 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:55.831Z",
+  "tweetId": "1977826782436003856",
+  "post": {
+    "url": "https://x.com/beaversteever/status/1977826782436003856",
+    "author": {
+      "handle": "beaversteever",
+      "name": "Steve the Beaver"
+    },
+    "date": "2025-10-13",
+    "text": "openai is building its own chips and youre still trying to learn CUDA \n\npick up an fpga and learn",
+    "media": [],
+    "metrics": {
+      "likes": 2105,
+      "retweets": 88,
+      "replies": 63,
+      "views": 886529
+    },
+    "comments": []
+  }
+}

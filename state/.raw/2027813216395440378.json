@@ -1,0 +1,22 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:10.981Z",
+  "tweetId": "2027813216395440378",
+  "post": {
+    "url": "https://x.com/guillaume_rygn/status/2027813216395440378",
+    "author": {
+      "handle": "guillaume_rygn",
+      "name": "code w/Guillaume 💻"
+    },
+    "date": "2026-02-28",
+    "text": "@james_alleyy Si tu veux optimiser ton setup je t invite a lire ça (voir meme juste l envoyer a ton clawbot et lui demander de s auto-optimise)\nhttps://t.co/MvKl0zVD7R",
+    "media": [],
+    "metrics": {
+      "likes": 87,
+      "retweets": 5,
+      "replies": 3,
+      "views": 21581
+    },
+    "comments": []
+  }
+}

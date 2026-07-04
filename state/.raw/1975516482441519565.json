@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:59.740Z",
+  "tweetId": "1975516482441519565",
+  "post": {
+    "url": "https://x.com/adriankuleszo/status/1975516482441519565",
+    "author": {
+      "handle": "adriankuleszo",
+      "name": "Adrian"
+    },
+    "date": "2025-10-07",
+    "text": "How to design better onboarding flows https://t.co/N8MakhzqbO",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G2pxxQHbUAATqEt.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 509,
+      "retweets": 21,
+      "replies": 22,
+      "views": 104660
+    },
+    "comments": []
+  }
+}

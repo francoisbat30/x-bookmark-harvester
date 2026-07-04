@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:59.336Z",
+  "tweetId": "1975595730166509660",
+  "post": {
+    "url": "https://x.com/dnaijatechguy/status/1975595730166509660",
+    "author": {
+      "handle": "dnaijatechguy",
+      "name": "Design Chief Priest"
+    },
+    "date": "2025-10-07",
+    "text": "Elevenlabs just open sourced a bunch of their audio UI components. These look really good.\n\nLink on the thread https://t.co/KCrN3uHZXN",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G2q5WHOXMAEDN03.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 2190,
+      "retweets": 126,
+      "replies": 25,
+      "views": 122614
+    },
+    "comments": []
+  }
+}

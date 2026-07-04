@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:48.364Z",
+  "tweetId": "1986723014352966019",
+  "post": {
+    "url": "https://x.com/sujon_co/status/1986723014352966019",
+    "author": {
+      "handle": "sujon_co",
+      "name": "Sujon Hossain"
+    },
+    "date": "2025-11-07",
+    "text": "Finance Dashboard Design https://t.co/WPYA4AumLq",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G5JCDHSbUAAtAqi.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 430,
+      "retweets": 24,
+      "replies": 34,
+      "views": 14877
+    },
+    "comments": []
+  }
+}

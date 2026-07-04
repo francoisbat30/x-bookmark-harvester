@@ -1,0 +1,34 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:33.139Z",
+  "tweetId": "2056839665551024474",
+  "post": {
+    "url": "https://x.com/HappyyPablo/status/2056839665551024474",
+    "author": {
+      "handle": "HappyyPablo",
+      "name": "Shubham Sharma"
+    },
+    "date": "2026-05-19",
+    "text": "open sourcing Marlin-2B 🐟\na tiny VLM to extract structured information from videos\n\nMarlin is finetuned for two questions devs want to ask in their videos: what is happening, and when?\n\nBest open model in its weight class, competitive with Gemini-2.5-flash at only 2B params 🧵",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2056829100376104961/vid/avc1/1080x1080/QkrmTplqiqUCC5ft.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 4606,
+      "retweets": 520,
+      "replies": 135,
+      "views": 308031
+    },
+    "comments": [
+      {
+        "handle": "choucisa",
+        "name": "choucisan",
+        "date": "2026-06-27",
+        "text": "@HappyyPablo If you want to use NBA games to train your long video understanding model, you can follow this project🔥：\nhttps://t.co/VeVvqp1G6t"
+      }
+    ]
+  }
+}

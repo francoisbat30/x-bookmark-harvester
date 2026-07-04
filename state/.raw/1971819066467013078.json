@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:03.914Z",
+  "tweetId": "1971819066467013078",
+  "post": {
+    "url": "https://x.com/UiSavior/status/1971819066467013078",
+    "author": {
+      "handle": "UiSavior",
+      "name": "UI/UX Savior"
+    },
+    "date": "2025-09-27",
+    "text": "Fonts that feel like a logo 🎨✨ https://t.co/97a5bLPK4r",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G11O--YW8AA3ffj.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 2909,
+      "retweets": 228,
+      "replies": 39,
+      "views": 204474
+    },
+    "comments": []
+  }
+}

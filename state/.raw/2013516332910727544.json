@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:31.516Z",
+  "tweetId": "2013516332910727544",
+  "post": {
+    "url": "https://x.com/testingcatalog/status/2013516332910727544",
+    "author": {
+      "handle": "testingcatalog",
+      "name": "TestingCatalog News 🗞"
+    },
+    "date": "2026-01-20",
+    "text": "BREAKING 🚨: The X algorithm has been open-sourced by the X team to let users observe how it evolves transparently. https://t.co/96IKQCs58m https://t.co/vcLBsvdtRq",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G_Fx1MkXEAApXqc.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1550,
+      "retweets": 148,
+      "replies": 29,
+      "views": 270914
+    },
+    "comments": []
+  }
+}

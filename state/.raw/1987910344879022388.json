@@ -1,0 +1,39 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:47.247Z",
+  "tweetId": "1987910344879022388",
+  "post": {
+    "url": "https://x.com/keilethh/status/1987910344879022388",
+    "author": {
+      "handle": "keilethh",
+      "name": "Keileth"
+    },
+    "date": "2025-11-10",
+    "text": "--sref 3653740444 https://t.co/ppJUrbTFEj https://t.co/RV7FV3pXE1",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G5Z5Y8QXwAAP-J9.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G5Z5aIGXAAA9aNv.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G5Z5biSXQAAn3HX.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G5Z55e3WYAAiuMG.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 3374,
+      "retweets": 176,
+      "replies": 16,
+      "views": 173573
+    },
+    "comments": []
+  }
+}

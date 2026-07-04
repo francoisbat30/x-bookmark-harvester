@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:16.190Z",
+  "tweetId": "2026414089556168963",
+  "post": {
+    "url": "https://x.com/mkurman88/status/2026414089556168963",
+    "author": {
+      "handle": "mkurman88",
+      "name": "Mariusz Kurman"
+    },
+    "date": "2026-02-24",
+    "text": "Running Qwen 3.5 35B A3B locally on an RTX 3090 24GB, with 72 TPS. Amazing times.\n\nJan, of course :)\n\nCongrats, Qwen TEAM!\nThanks, Unsloth, for the quants! https://t.co/KSEOnYRke7 https://t.co/yOkbH8Qk0R",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HB9EseeWEAANk8_.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 938,
+      "retweets": 40,
+      "replies": 45,
+      "views": 105060
+    },
+    "comments": []
+  }
+}

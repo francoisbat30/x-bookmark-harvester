@@ -1,0 +1,39 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:04.733Z",
+  "tweetId": "1971191454283292982",
+  "post": {
+    "url": "https://x.com/_artasaka/status/1971191454283292982",
+    "author": {
+      "handle": "_artasaka",
+      "name": "Artasaka"
+    },
+    "date": "2025-09-25",
+    "text": "Chat interfaces https://t.co/B5MNvtJseE",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G0qznBpWQAEKdsv.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G0qzm9_WYAAusln.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G0qzm9_XsAAWGpF.png"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G0qznB2XEAAcagp.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 259,
+      "retweets": 11,
+      "replies": 6,
+      "views": 16955
+    },
+    "comments": []
+  }
+}

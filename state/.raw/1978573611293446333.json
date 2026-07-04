@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:55.073Z",
+  "tweetId": "1978573611293446333",
+  "post": {
+    "url": "https://x.com/GeminiApp/status/1978573611293446333",
+    "author": {
+      "handle": "GeminiApp",
+      "name": "Google Gemini"
+    },
+    "date": "2025-10-15",
+    "text": "Ready to create with Veo 3.1? \n\nLearn how to build more refined details and add different camera movements into your videos with a prompt breakdown for this video ↓",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1978571541538656256/vid/avc1/1920x1080/a-SozvujyTnwYaPv.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 1252,
+      "retweets": 302,
+      "replies": 84,
+      "views": 4929909
+    },
+    "comments": []
+  }
+}

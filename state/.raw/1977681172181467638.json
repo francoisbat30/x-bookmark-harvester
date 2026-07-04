@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:56.577Z",
+  "tweetId": "1977681172181467638",
+  "post": {
+    "url": "https://x.com/aigleeson/status/1977681172181467638",
+    "author": {
+      "handle": "aigleeson",
+      "name": "Louis Gleeson"
+    },
+    "date": "2025-10-13",
+    "text": "🚨 Google just did it again.\n\nThey built a voice model that doesn’t transcribe speech it understands it.\n\nIt’s called Speech-to-Retrieval (S2R) and it’s about to make voice search feel telepathic.\n\nHere’s how it works (and why it’s a bigger deal than you think) ↓ https://t.co/kc2Dk6YDK2",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1977681118037155840/vid/avc1/888x720/_aCM6rtDAHqKL2_2.mp4?tag=14"
+      }
+    ],
+    "metrics": {
+      "likes": 519,
+      "retweets": 66,
+      "replies": 25,
+      "views": 57632
+    },
+    "comments": []
+  }
+}

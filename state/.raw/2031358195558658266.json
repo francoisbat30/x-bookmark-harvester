@@ -1,0 +1,22 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:04.826Z",
+  "tweetId": "2031358195558658266",
+  "post": {
+    "url": "https://x.com/tangming2005/status/2031358195558658266",
+    "author": {
+      "handle": "tangming2005",
+      "name": "Ming \"Tommy\" Tang"
+    },
+    "date": "2026-03-10",
+    "text": "Single biggest improvement I made to my CLAUDE.md:\n\n\"When I report a bug, don't start by trying to fix it. Instead, start by writing a test that reproduces the bug. Then, have subagents try to fix the bug and prove it with a passing test.\"",
+    "media": [],
+    "metrics": {
+      "likes": 12828,
+      "retweets": 514,
+      "replies": 133,
+      "views": 585764
+    },
+    "comments": []
+  }
+}

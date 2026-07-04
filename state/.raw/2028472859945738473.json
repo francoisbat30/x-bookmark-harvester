@@ -1,0 +1,22 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:10.571Z",
+  "tweetId": "2028472859945738473",
+  "post": {
+    "url": "https://x.com/_sahilrajput/status/2028472859945738473",
+    "author": {
+      "handle": "_sahilrajput",
+      "name": "Sahil Rajput"
+    },
+    "date": "2026-03-02",
+    "text": "I actually ran it on my machine.\n\nIt’s a 35B parameter model that only activates 3B at a time. That’s the trick. That’s why it runs on your laptop.\n\nOn benchmarks, it’s trading blows with Claude Sonnet 4.5 and GPT-5 mini. Not Opus. Not GPT-5.\n\nWhat actually impressed me? The speed is wild for a local model. No API key, no rate limits, no data leaving your machine.\n\nWhat didn’t impress me? The moment you throw complex multi-file coding tasks at it, it falls apart. It can spot a bug but can’t hold the full picture of your codebase together. Writing quality gets repetitive, it is not actually Sonnet 4.5 level in real usage. Benchmarks and vibes are two different things.\n\nBut the real story is that the floor for what you can run locally just jumped two years ahead in a single release.\n\nOpen source is compounding.",
+    "media": [],
+    "metrics": {
+      "likes": 2890,
+      "retweets": 139,
+      "replies": 91,
+      "views": 389676
+    },
+    "comments": []
+  }
+}

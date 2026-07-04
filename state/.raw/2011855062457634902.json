@@ -1,0 +1,22 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:32.715Z",
+  "tweetId": "2011855062457634902",
+  "post": {
+    "url": "https://x.com/itsPaulAi/status/2011855062457634902",
+    "author": {
+      "handle": "itsPaulAi",
+      "name": "Paul Couvert"
+    },
+    "date": "2026-01-15",
+    "text": "So we now have a 100% open source and local Google Translate\n\nAnd the smaller 4B model runs on a phone. Offline.\n\nInsane. https://t.co/JM3X40T1Rm",
+    "media": [],
+    "metrics": {
+      "likes": 9177,
+      "retweets": 544,
+      "replies": 73,
+      "views": 680581
+    },
+    "comments": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:36.632Z",
+  "tweetId": "2006067677916254601",
+  "post": {
+    "url": "https://x.com/tom_doerr/status/2006067677916254601",
+    "author": {
+      "handle": "tom_doerr",
+      "name": "Tom Dörr"
+    },
+    "date": "2025-12-30",
+    "text": "Curated resources for startup founders\n\nhttps://t.co/TsZ3NbMMZ3 https://t.co/aafI9DM9cS",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G9b76_zXEAAasaT.png"
+      }
+    ],
+    "metrics": {
+      "likes": 553,
+      "retweets": 73,
+      "replies": 4,
+      "views": 26083
+    },
+    "comments": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:40.969Z",
+  "tweetId": "2000884207028179418",
+  "post": {
+    "url": "https://x.com/azed_ai/status/2000884207028179418",
+    "author": {
+      "handle": "azed_ai",
+      "name": "Amira Zairi"
+    },
+    "date": "2025-12-16",
+    "text": "This Nano Banana Pro prompt works with everything 🤩 https://t.co/toZiGJ55nd https://t.co/VX0zggRlFx",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G8SPDCaXMAIdGmg.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 3143,
+      "retweets": 245,
+      "replies": 47,
+      "views": 474636
+    },
+    "comments": []
+  }
+}

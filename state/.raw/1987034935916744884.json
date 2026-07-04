@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:48.765Z",
+  "tweetId": "1987034935916744884",
+  "post": {
+    "url": "https://x.com/AmenaiSabuwala/status/1987034935916744884",
+    "author": {
+      "handle": "AmenaiSabuwala",
+      "name": "Amena"
+    },
+    "date": "2025-11-08",
+    "text": "My client project is now live https://t.co/dLGPzYnG2m🥹 https://t.co/u41xPOWMlR",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G5Ndvl5bIAArhfi.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 401,
+      "retweets": 11,
+      "replies": 28,
+      "views": 24745
+    },
+    "comments": []
+  }
+}

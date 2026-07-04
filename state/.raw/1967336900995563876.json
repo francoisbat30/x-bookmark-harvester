@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:16.746Z",
+  "tweetId": "1967336900995563876",
+  "post": {
+    "url": "https://x.com/architectvibes/status/1967336900995563876",
+    "author": {
+      "handle": "architectvibes",
+      "name": "𝐀𝐫𝐜𝐡𝐢𝐭𝐞𝐜𝐭𝐮𝐫𝐚𝐥 𝐕𝐢𝐛𝐞𝐬"
+    },
+    "date": "2025-09-14",
+    "text": "https://t.co/lwH3PinY6N",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G01ifEXXYAAOeo0.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 11640,
+      "retweets": 1155,
+      "replies": 24,
+      "views": 269442
+    },
+    "comments": []
+  }
+}

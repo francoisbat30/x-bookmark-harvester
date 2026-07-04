@@ -1,0 +1,52 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:01.921Z",
+  "tweetId": "2036503582166393240",
+  "post": {
+    "url": "https://x.com/claudeai/status/2036503582166393240",
+    "author": {
+      "handle": "claudeai",
+      "name": "Claude"
+    },
+    "date": "2026-03-24",
+    "text": "New in Claude Code: auto mode.\n\nInstead of approving every file write and bash command, or skipping permissions entirely, auto mode lets Claude make permission decisions on your behalf.\n\nSafeguards check each action before it runs. https://t.co/kHbTN2jrWw",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2036502255298285568/vid/avc1/2560x1440/aiqBaCfI9QvpHLq1.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 39198,
+      "retweets": 2883,
+      "replies": 2127,
+      "views": 7664512
+    },
+    "comments": [
+      {
+        "handle": "YetAnotherEng",
+        "name": "Alessandro Marchetti",
+        "date": "2026-04-14",
+        "text": "@claudeai When will it be available on individual Max plans?"
+      },
+      {
+        "handle": "yuutanman",
+        "name": "yuutanman 💐:*.",
+        "date": "2026-04-14",
+        "text": "@claudeai https://t.co/7AJAnZ7y5u"
+      },
+      {
+        "handle": "tarikdursun18",
+        "name": "tarik dursun",
+        "date": "2026-04-14",
+        "text": "@claudeai THERE IS A THIEF. They withdrew $120 from my k. card, which I used for subscription, without my knowledge and they do not return it, they say they sent a gift, but neither did anyone ask for the gift, nor did they notify me. They withdrew it directly. Scammers. https://t.co/Wjr4cxjDFP"
+      },
+      {
+        "handle": "geyunfei",
+        "name": "老拐瘦",
+        "date": "2026-04-11",
+        "text": "@claudeai Auto mode is the first thing I've seen that materially lowers the drop-off.\n\nIn our workflow, once approvals move from every step to policy-based gates, task completion jumps. But if the boundaries are fuzzy, failures also scale faster."
+      }
+    ]
+  }
+}

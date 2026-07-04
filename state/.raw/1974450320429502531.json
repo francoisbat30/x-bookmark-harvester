@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:00.841Z",
+  "tweetId": "1974450320429502531",
+  "post": {
+    "url": "https://x.com/stats_feed/status/1974450320429502531",
+    "author": {
+      "handle": "stats_feed",
+      "name": "World of Statistics"
+    },
+    "date": "2025-10-04",
+    "text": "Europe now has 0 companies left in the global top 25. https://t.co/BhUYDfYO04",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G2aoGXQXkAA8BEt.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 9231,
+      "retweets": 1171,
+      "replies": 451,
+      "views": 867950
+    },
+    "comments": []
+  }
+}

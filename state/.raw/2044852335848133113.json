@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:43.257Z",
+  "tweetId": "2044852335848133113",
+  "post": {
+    "url": "https://x.com/GoogleAIStudio/status/2044852335848133113",
+    "author": {
+      "handle": "GoogleAIStudio",
+      "name": "Google AI Studio"
+    },
+    "date": "2026-04-16",
+    "text": "[pumped] gemini 3.1 flash text-to-speech just landed in ai studio.\n\nyou can now trigger specific vocal delivery like pace and accent by including [tags] in front of dialogue.\n\niterate in composer view then export the code to start building. https://t.co/pULBVx3cWz",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2044851749329240064/vid/avc1/1920x1164/Y-ZNi0yEqSkk6NXJ.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 1018,
+      "retweets": 101,
+      "replies": 56,
+      "views": 109160
+    },
+    "comments": []
+  }
+}

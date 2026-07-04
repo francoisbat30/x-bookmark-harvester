@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:23.941Z",
+  "tweetId": "2022925134496252395",
+  "post": {
+    "url": "https://x.com/TheAhmadOsman/status/2022925134496252395",
+    "author": {
+      "handle": "TheAhmadOsman",
+      "name": "Ahmad"
+    },
+    "date": "2026-02-15",
+    "text": "MiniMax-M2.5 NVFP4\nrunning on 2x RTX 6000\n\n&gt; 83 tokens/sec single stream\n&gt; allows up to 32 concurrent users\n&gt; pushing 1000+ tokens/sec\n\n&gt; this costs ~2x 512GB Mac Studios\n&gt; except Mac = 1 prompt at a time\n&gt; and even slower tokens/sec\n\n&gt; model on HF\n&gt; lukealonso/MiniMax-M2.5-NVFP4 https://t.co/iRKr6FLjQK https://t.co/aQWoAcTGbg",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HBLfr9jWkAAAE1V.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 408,
+      "retweets": 36,
+      "replies": 39,
+      "views": 129715
+    },
+    "comments": []
+  }
+}

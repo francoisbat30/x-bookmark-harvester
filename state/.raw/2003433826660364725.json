@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:38.217Z",
+  "tweetId": "2003433826660364725",
+  "post": {
+    "url": "https://x.com/tom_doerr/status/2003433826660364725",
+    "author": {
+      "handle": "tom_doerr",
+      "name": "Tom Dörr"
+    },
+    "date": "2025-12-23",
+    "text": "Transcribes audio and video files with timestamps\n\nhttps://t.co/OuRocByF7r https://t.co/ZFJutchqdk",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G82gcvOXgAAl4mL.png"
+      }
+    ],
+    "metrics": {
+      "likes": 654,
+      "retweets": 67,
+      "replies": 4,
+      "views": 24884
+    },
+    "comments": []
+  }
+}

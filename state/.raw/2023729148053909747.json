@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:23.560Z",
+  "tweetId": "2023729148053909747",
+  "post": {
+    "url": "https://x.com/RoundtableSpace/status/2023729148053909747",
+    "author": {
+      "handle": "RoundtableSpace",
+      "name": "0xMarioNawfal"
+    },
+    "date": "2026-02-17",
+    "text": "THE NEW OPENCLAW UPDATE IS GOATED\n\n- Kimi K2.5 is now free\n\n- Agents run without paid APIs\n\n- Skills can be saved and reused\n\n- Everything runs faster\n\nhttps://t.co/76MyEcuDd7",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2023373479513624576/vid/avc1/1280x720/jpbqJbZEzqya1-bX.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 3153,
+      "retweets": 231,
+      "replies": 150,
+      "views": 330163
+    },
+    "comments": []
+  }
+}

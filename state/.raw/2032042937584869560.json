@@ -1,0 +1,22 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:00.419Z",
+  "tweetId": "2032042937584869560",
+  "post": {
+    "url": "https://x.com/KrakowiakK/status/2032042937584869560",
+    "author": {
+      "handle": "KrakowiakK",
+      "name": "Kris Krakowiak"
+    },
+    "date": "2026-03-12",
+    "text": "Cold long-context comparison on Apple M3 Ultra\n(same quantization on both models: UD-Q4_K_XL)\n\nQwen3.5-122B-A10B\n- 2k:    prefill  940.74 tok/s, decode  43.97 tok/s\n- 128k:  prefill  275.19 tok/s, decode  25.55 tok/s\n\nNVIDIA Nemotron-3-Super-120B-A12B\n- 2k:    prefill  598.70 tok/s, decode  34.20 tok/s\n- 128k:  prefill  482.38 tok/s, decode  31.08 tok/s\n\n2k -> 128k drop:\n- Qwen3.5:   prefill -70.7%, decode -41.9%\n- Nemotron:  prefill -19.4%, decode  -9.1%\n\nQwen is faster at 2k.\nNemotron preserves long-context throughput much better at 128k, with a large prefill advantage and a clear decode advantage.\n\nTest profile (llama.cpp):\n--parallel 1\n--no-cont-batching\n--cache-prompt\n--cache-ram -1\n--flash-attn on\n--cache-type-k f16\n--cache-type-v f16\n--batch-size 2048\n--ubatch-size 1024\n--no-context-shift",
+    "media": [],
+    "metrics": {
+      "likes": 97,
+      "retweets": 10,
+      "replies": 7,
+      "views": 10808
+    },
+    "comments": []
+  }
+}

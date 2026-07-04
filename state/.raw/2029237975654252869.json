@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:08.887Z",
+  "tweetId": "2029237975654252869",
+  "post": {
+    "url": "https://x.com/adocomplete/status/2029237975654252869",
+    "author": {
+      "handle": "adocomplete",
+      "name": "Ado"
+    },
+    "date": "2026-03-04",
+    "text": "Ultrathink is back! https://t.co/b76siv1Uvn",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2029237851276062721/vid/avc1/1404x1080/SgtEd-Eu2PVr2mu0.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 2264,
+      "retweets": 118,
+      "replies": 160,
+      "views": 229609
+    },
+    "comments": []
+  }
+}

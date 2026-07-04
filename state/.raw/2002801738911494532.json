@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:39.781Z",
+  "tweetId": "2002801738911494532",
+  "post": {
+    "url": "https://x.com/BrettFromDJ/status/2002801738911494532",
+    "author": {
+      "handle": "BrettFromDJ",
+      "name": "Brett"
+    },
+    "date": "2025-12-21",
+    "text": "I heard you guys like liquid metal. https://t.co/4CtoMNAJ7Q https://t.co/CFhlAm9pEk",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2002801592240652289/vid/avc1/3088x2160/upX5nmKLB_oGIVSO.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 3429,
+      "retweets": 106,
+      "replies": 135,
+      "views": 256374
+    },
+    "comments": []
+  }
+}

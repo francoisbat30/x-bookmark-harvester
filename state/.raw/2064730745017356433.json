@@ -1,0 +1,33 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:27.346Z",
+  "tweetId": "2064730745017356433",
+  "post": {
+    "url": "https://x.com/Ced_haurus/status/2064730745017356433",
+    "author": {
+      "handle": "Ced_haurus",
+      "name": "Christophe Boutry"
+    },
+    "date": "2026-06-10",
+    "text": "📲 Saviez-vous que dans iOS 27, Apple a prévu une liste de pays où le chiffrement des messages RCS (SMS) est interdit ?\n\nChine 🇨🇳. Corée du Sud 🇰🇷. France 🇫🇷.\n\nLe reste du monde déploie l'E2EE, le chiffrement de bout en bout entre iPhone et Android. Une avancée majeure pour la confidentialité de vos SMS.\n\nEn France, c'est bloqué.\n\nLes opérateurs sont prêts techniquement. Ce n'est pas un problème d'infrastructure. C'est un choix politique.\n\nLes raisons sont multiples, la France ayant toujours une longueur d'avance pour affaiblir votre sécurité et s'assurer de pouvoir garder un oeil sur vous. Mais l'une des pistes probables : La PNIJ - la Plateforme Nationale des Interceptions Judiciaires. Un outil qui permet à l'État d'accéder à vos communications. Le chiffrement de bout en bout sur ces millions d'échanges quotidiens lui couperait l'accès. Définitivement.\n\nAlors notre gouvernement fait tout pour que vous restiez exposés.",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HKdjN4JWcAAlhJM.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 2967,
+      "retweets": 1281,
+      "replies": 76,
+      "views": 177651
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HKdjN4JWcAAlhJM.jpg",
+      "localFilename": "2064730745017356433_1.jpg"
+    }
+  ]
+}

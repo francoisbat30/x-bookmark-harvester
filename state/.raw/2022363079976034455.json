@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:25.405Z",
+  "tweetId": "2022363079976034455",
+  "post": {
+    "url": "https://x.com/ChromiumDev/status/2022363079976034455",
+    "author": {
+      "handle": "ChromiumDev",
+      "name": "Chrome for Developers"
+    },
+    "date": "2026-02-13",
+    "text": "WebMCP is available for early preview → https://t.co/bZMcANfg37\n\nWebMCP aims to provide a standard way for exposing structured tools, ensuring AI agents can perform actions on your side with increased speed, reliability, and precision. https://t.co/9NvSi6rMdV",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HBDggPEXgAEzy4q.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 5942,
+      "retweets": 909,
+      "replies": 205,
+      "views": 2096955
+    },
+    "comments": []
+  }
+}

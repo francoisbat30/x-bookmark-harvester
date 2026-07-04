@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:33.127Z",
+  "tweetId": "2011501067725402232",
+  "post": {
+    "url": "https://x.com/fs0c131y/status/2011501067725402232",
+    "author": {
+      "handle": "fs0c131y",
+      "name": "Baptiste Robert"
+    },
+    "date": "2026-01-14",
+    "text": "I love the concept ! https://t.co/pBfa17SFGS https://t.co/sULTXraLDZ https://t.co/Z2E4ANASoS",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G-pJjmzXQAAv4OU.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 90026,
+      "retweets": 4336,
+      "replies": 472,
+      "views": 7169458
+    },
+    "comments": []
+  }
+}

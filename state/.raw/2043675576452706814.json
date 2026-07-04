@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:44.906Z",
+  "tweetId": "2043675576452706814",
+  "post": {
+    "url": "https://x.com/MaziyarPanahi/status/2043675576452706814",
+    "author": {
+      "handle": "MaziyarPanahi",
+      "name": "Maziyar PANAHI"
+    },
+    "date": "2026-04-13",
+    "text": "Gemma 4 analyzes the video. Generates key questions. Calls Falcon Perception.\n\n\"Find all the people.\" 156 found.\n\"Detect only white cars.\" 8 found.\n\nA 26B model is running agentic multi-QA vision orchestration.\n\nThe models are running locally on a MacBook with MLX. No API. https://t.co/OXDV9kORGD",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2043673677238038528/vid/avc1/1920x1080/0AFqLdln6Sa_XO30.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 1546,
+      "retweets": 126,
+      "replies": 51,
+      "views": 158710
+    },
+    "comments": []
+  }
+}

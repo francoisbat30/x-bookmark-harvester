@@ -1,0 +1,31 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:17.875Z",
+  "tweetId": "1965523104404304369",
+  "post": {
+    "url": "https://x.com/ItsMaclouis/status/1965523104404304369",
+    "author": {
+      "handle": "ItsMaclouis",
+      "name": "Mac Louis"
+    },
+    "date": "2025-09-09",
+    "text": "color inspiration - #079 https://t.co/sMjlD8elTA",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G0bs9j7W0AALGnG.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G0bs9j6XYAAJV9-.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 3432,
+      "retweets": 170,
+      "replies": 9,
+      "views": 92607
+    },
+    "comments": []
+  }
+}

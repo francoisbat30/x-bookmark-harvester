@@ -1,0 +1,29 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:24.263Z",
+  "tweetId": "2031092624166174907",
+  "post": {
+    "url": "https://x.com/DokPepper/status/2031092624166174907",
+    "author": {
+      "handle": "DokPepper",
+      "name": "Pepper, MD"
+    },
+    "date": "2026-03-09",
+    "text": "Les bases, c'est quoi un torrent ? C'est un fichier .torrent à mettre dans un logiciel de téléchargement qui va ainsi récupérer le fichier que vous avez besoin.\n\nEt YggTorrent était un \"annuaire\" de ces fichiers.\n\nComme https://t.co/0Px5zYTg8h ou https://t.co/tE8bn8GuF1\n\n/4",
+    "media": [],
+    "metrics": {
+      "likes": 75,
+      "retweets": 5,
+      "replies": 3,
+      "views": 37176
+    },
+    "comments": [
+      {
+        "handle": "BulmaVegeta732",
+        "name": "Bulma-Vegeta",
+        "date": "2026-06-25",
+        "text": "@DokPepper Merci de tout cœur pour ces explications \nC'est mal de télécharger, bof moi, ça m'a insisté à acheter des originaux quand ça me plaisait.\nEt oui, trouvé des trucs introuvables. Après on s'étonne que la culture est à la ramasse. Les trucs super disparaissent.  vivE les BitTorrent"
+      }
+    ]
+  }
+}

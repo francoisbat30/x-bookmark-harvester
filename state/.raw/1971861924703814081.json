@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:03.548Z",
+  "tweetId": "1971861924703814081",
+  "post": {
+    "url": "https://x.com/basit_designs/status/1971861924703814081",
+    "author": {
+      "handle": "basit_designs",
+      "name": "Basit A. Khan"
+    },
+    "date": "2025-09-27",
+    "text": "Let's do some magic! https://t.co/Z2iy49rMOC",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1971861853883019264/vid/avc1/2018x1836/qPTO14Xkw91JPtpd.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 1195,
+      "retweets": 40,
+      "replies": 57,
+      "views": 47179
+    },
+    "comments": []
+  }
+}

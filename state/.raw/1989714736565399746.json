@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:46.812Z",
+  "tweetId": "1989714736565399746",
+  "post": {
+    "url": "https://x.com/yacineMTB/status/1989714736565399746",
+    "author": {
+      "handle": "yacineMTB",
+      "name": "kache"
+    },
+    "date": "2025-11-15",
+    "text": "https://t.co/thsYkoeVYO https://t.co/Oybhb6CDJI",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G5zjAkKWMAAAD4b.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 4905,
+      "retweets": 221,
+      "replies": 43,
+      "views": 381985
+    },
+    "comments": []
+  }
+}

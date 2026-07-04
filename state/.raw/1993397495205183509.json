@@ -1,0 +1,31 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:43.727Z",
+  "tweetId": "1993397495205183509",
+  "post": {
+    "url": "https://x.com/riomadeit/status/1993397495205183509",
+    "author": {
+      "handle": "riomadeit",
+      "name": "RIO"
+    },
+    "date": "2025-11-25",
+    "text": "Using Nano Banana Pro to create fake process sketches of my existing logo designs https://t.co/mGThN5C7Ol",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G6n4dSUXcAAK5QS.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G6n4dSQXUAAJkSB.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 6811,
+      "retweets": 192,
+      "replies": 210,
+      "views": 1820679
+    },
+    "comments": []
+  }
+}

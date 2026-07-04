@@ -1,0 +1,214 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:15.075Z",
+  "tweetId": "2071020631072616698",
+  "post": {
+    "url": "https://x.com/TraffAlex/status/2071020631072616698",
+    "author": {
+      "handle": "TraffAlex",
+      "name": "AlexAImaginator"
+    },
+    "date": "2026-06-27",
+    "text": "Outgrown 32–64 GB VRAM and unsure\nwhat's next? (myself included 😅)\n\nThe answer: DGX Spark.\n128 GB unified memory. $4,699.\nRuns models your GPU can't even load.\n\nHere's everything — 2x Spark cluster\nsetup, best models with benchmarks,\nworking docker commands, and the flags\nthat actually matter. All sourced from\ntested community results on https://t.co/IrZFzgs2ry +\nofficial NVIDIA docs.\n\n🔩 HARDWARE — DGX Spark\n\n• SoC: NVIDIA GB10 Grace Blackwell\n• Memory: 128 GB unified (CPU + GPU\n  shared pool)\n• Price: $4,699 / unit\n• Network: ConnectX-7 (CX7) 200GbE\n  QSFP ports\n• Storage: 4TB NVMe M.2 (encrypted)\n• Size: 150mm x 150mm x 50.5mm\n• Performance: 1 PFLOPS FP4\n\n🔗 2x SPARK CLUSTER — \"Sweet Spot\"\n\n(Tested and verified by @MiaAI_lab)\n\nHardware needed:\n  • 2x NVIDIA DGX Spark\n  • 1x QSFP cable (direct 200GbE\n    link — full bandwidth, 1 cable)\n\nSetup (from official NVIDIA\n      dgx-spark-playbooks on GitHub):\n\n  1. Make sure both units have the\n     same username:\n     $ whoami\n     (if not: sudo useradd -m nvidia\n      && sudo usermod -aG sudo nvidia\n      && sudo passwd nvidia\n      && su - nvidia)\n\n  2. Physically connect QSFP cable,\n     identify active interface:\n     $ ibdev2netdev\n     (look for \"Up\" — each port has\n      2 names, use enp1s0f... not\n      enP2p...)\n\n  3. Network config — choose ONE:\n\n     A) Automatic (link-local) —\n        1 QSFP cable only:\n        $ sudo tee /etc/netplan/\n          40-cx7.yaml > /dev/null\n          <<EOF\n        network:\n          version: 2\n          ethernets:\n            enp1s0f0np0:\n              link-local: [ ipv4 ]\n            enp1s0f1np1:\n              link-local: [ ipv4 ]\n        EOF\n        $ sudo chmod 600 /etc/netplan/\n          40-cx7.yaml\n        $ sudo netplan apply\n\n     B) Manual static IPs\n        (recommended):\n        # Node 1:\n        $ sudo tee /etc/netplan/\n          40-cx7.yaml > /dev/null\n          <<EOF\n        network:\n          version: 2\n          ethernets:\n            enp1s0f0np0:\n              addresses:\n                - 192.168.100.10/24\n              dhcp4: no\n            enp1s0f1np1:\n              addresses:\n                - 192.168.200.12/24\n              dhcp4: no\n        EOF\n        # Node 2:\n        $ sudo tee /etc/netplan/\n          40-cx7.yaml > /dev/null\n          <<EOF\n        network:\n          version: 2\n          ethernets:\n            enp1s0f0np0:\n              addresses:\n                - 192.168.100.11/24\n              dhcp4: no\n            enp1s0f1np1:\n              addresses:\n                - 192.168.200.13/24\n              dhcp4: no\n        EOF\n        $ sudo chmod 600 /etc/netplan/\n          40-cx7.yaml\n        $ sudo netplan apply\n\n     C) Manual CLI (temporary —\n        resets on reboot):\n        # Node 1:\n        $ sudo ip addr add\n          192.168.100.10/24\n          dev enp1s0f1np1\n        $ sudo ip link set\n          enp1s0f1np1 up\n        # Node 2:\n        $ sudo ip addr add\n          192.168.100.11/24\n          dev enp1s0f1np1\n        $ sudo ip link set\n          enp1s0f1np1 up\n\n  4. Passwordless SSH:\n     $ ssh-keygen -t ed25519\n     $ ssh-copy-id user@192.168.100.11\n\n     Or use official script:\n       $ bash ./discover-sparks\n       (from dgx-spark-playbooks)\n\n  5. Verify connectivity both\n     directions:\n     $ ssh 192.168.100.11 hostname\n     $ ssh 192.168.100.10 hostname\n\n  6. NCCL test — confirm distributed\n     communication works\n     (driver versions must match on\n      both units)\n\n  🔙 Rollback (if something breaks):\n     $ sudo rm /etc/netplan/\n       40-cx7.yaml\n     $ sudo netplan apply\n     Or for CLI method:\n     $ sudo ip addr del\n       192.168.100.10/24\n       dev enp1s0f0np0\n\n  🐛 Troubleshooting:\n     \"Network unreachable\"\n       → verify netplan YAML,\n         run sudo netplan apply\n     SSH failures\n       → re-run ./discover-sparks,\n         enter passwords\n     Node 2 not visible\n       → check QSFP cable,\n         confirm IP config\n     NCCL fails\n       → driver versions MUST be\n         identical on both units\n\n🏆 BEST MODELS — What Runs\n\n  1x DGX Spark:\n    • Qwen 3.6 35B NVFP4\n      → 256k ctx, 110 tok/s\n      (Alibaba, April 2026,\n       Apache 2.0 license)\n    • DeepSeek V4 Flash REAP\n      → HF: 0xSero/\n        DeepSeek-v4-Flash-REAP\n    • Qwen 3.6 27B\n      → 256k ctx, 19 tok/s\n    • Nemotron Super\n      → NVIDIA's own model,\n        optimized for DGX Spark\n\n  2x DGX Sparks ← SWEET SPOT\n    (recommended by @MiaAI_lab):\n    • DeepSeek V4 Flash\n      → 1M ctx, 40-45 tok/s\n        (1 session)\n        ~79 tok/s with 3 concurrent\n        sessions (NVFP4 quantization)\n        Repo: https://t.co/ZfQSdSBJoe\n          deepseek-ai/\n          DeepSeek-V4-Flash-DSpark\n    • Step-3.7-Flash (StepFun)\n      → 256k ctx, image support,\n        30 tok/s\n        Available via NVIDIA NIM\n\n  4x DGX Sparks:\n    • GLM 5.2 NVFP4 (Zhipu)\n      → ~20 tok/s, 1M context\n    • 2x DeepSeek V4 Flash\n      (each on its own 2x Spark pair)\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🚀 HOW TO RUN — vLLM Docker\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n  A) Single Spark — Best model:\n\n     $ docker run -d --name vllm \\\n       --ipc=host \\\n       --restart unless-stopped \\\n       --gpus all -p 8000:8000 \\\n       -e HF_TOKEN=\"$HF_TOKEN\" \\\n       -v ~/.cache/huggingface:\\\n       /root/.cache/huggingface \\\n       vllm/vllm-openai:cu130-nightly \\\n       vllm serve nvidia/\\\n       NVIDIA-Nemotron-3-Super-\\\n       120B-A12B-NVFP4 \\\n       --served-model-name \\\n         nemotron-3-super \\\n       --trust-remote-code \\\n       --max-model-len 131072 \\\n       --gpu-memory-utilization 0.85 \\\n       --max-num-seqs 4 \\\n       --reasoning-parser \\\n         nemotron_v3 \\\n       --enable-auto-tool-choice \\\n       --tool-call-parser \\\n         qwen3_coder\n\n  B) 2x Spark — Distributed\n     inference:\n\n     Add --tensor-parallel-size 2\n     to the serve command.\n\n     # Node 1:\n     $ docker run -d --name vllm \\\n       --ipc=host --network=host \\\n       --gpus all \\\n       -e HF_TOKEN=\"$HF_TOKEN\" \\\n       -v ~/.cache/huggingface:\\\n       /root/.cache/huggingface \\\n       vllm/vllm-openai:cu130-nightly \\\n       vllm serve deepseek-ai/\\\n       DeepSeek-V4-Flash-DSpark \\\n       --tensor-parallel-size 2 \\\n       --max-model-len 1048576 \\\n       --gpu-memory-utilization 0.85 \\\n       --max-num-seqs 4 \\\n       --trust-remote-code\n\n     # Node 2 — same model + same\n     --tensor-parallel-size 2\n     (vLLM auto-discovers the second\n      node over 200GbE link)\n\n  C) Quick start — Qwen 3.6 35B\n     NVFP4 (1x Spark):\n\n     $ docker run -d --name vllm \\\n       --ipc=host \\\n       --gpus all -p 8000:8000 \\\n       -e HF_TOKEN=\"$HF_TOKEN\" \\\n       -v ~/.cache/huggingface:\\\n       /root/.cache/huggingface \\\n       vllm/vllm-openai:cu130-nightly \\\n       vllm serve Qwen/\\\n       Qwen3.6-35B-NVFP4 \\\n       --max-model-len 262144 \\\n       --gpu-memory-utilization 0.85 \\\n       --max-num-seqs 4 \\\n       --trust-remote-code\n\n💡 CRITICAL FLAGS & TIPS\n\n  • --gpu-memory-utilization 0.85\n    → leaves room for OS, kernel\n      page cache, container\n\n  • --max-num-seqs 4\n    → above 4 concurrent streams,\n      bandwidth tax outweighs\n      batching gains\n\n  • --max-model-len\n    → set per model\n      (131072 / 262144 / 1048576)\n\n  • --kv-cache-dtype fp8\n    → optional, eases memory strain\n      (may affect predictability)\n\n  • NVFP4 → pre-quantized, NEVER\n    add --quantization flag, engine\n    auto-detects\n\n  • Keep CUDA graphs active\n    → default behavior, don't\n      disable\n\n  • Quantization/MoE backends\n    → default to auto, usually\n      optimal\n\n  • Cache models before serving\n    → download weights first\n      (safetensors = 10-15 min\n       default load)\n\n  • Try InstantTensor /\n    fastsafetensors\n    → faster weight loading\n\n  • Warm-up request after boot\n    → fire a tiny request to warm\n      JIT kernels (~25s cold start)\n\n  • Pin specific image digest\n    → don't rely on moving nightly\n      tags in production\n\n🔌 EXPANDING TO BIGGER CLUSTERS\n\n  For 4-8 Sparks, you'll need\n  a 200GbE switch:\n\n  • MikroTik CRS504\n    → up to 4 Sparks\n    (~1% slower vs direct 200Gb)\n  • Check MikroTik's lineup for\n    8-port 200GbE options\n\n  (Note: specific switch model\n   numbers from original source\n   could not be independently\n   verified — check https://t.co/GXCkIFqxE3\n   for current 200GbE lineup)\n\n📚 OFFICIAL RESOURCES\n\n  • NVIDIA DGX Spark page:\n    https://t.co/RZg1dX8gfq\n    workstations/dgx-spark/\n\n  • Buy ($4,699):\n    https://t.co/wSm7BPxbAV\n    developer/dgx-spark/\n\n  • Playbooks (GitHub):\n    https://t.co/wvU99eF6K0\n    dgx-spark-playbooks\n\n  • 2x Connect guide:\n    nvidia/connect-two-sparks/\n\n  • vLLM guide:\n    https://t.co/fqSjes5oyT\n    vllm-dgx-spark\n\n  • User Manual:\n    https://t.co/7pTT2eZ7af\n    dgx-spark/\n\n  • Quick Start PDF:\n    https://t.co/0vDag1IpAB\n    Solutions/dgx-spark/\n    DGX-Spark-Quick-Start-Guide.pdf\n\n🐦 KEY SOURCES (https://t.co/IrZFzgs2ry)\n\n  • @MiaAI_lab\n    — tested models, benchmarks,\n      2x sweet spot config\n    (34K views on original tweet)\n\n  • @WescheNex1q\n    — cluster switch recommendations\n\n  • @mr_r0b0t\n    — GitHub playbooks, NCCL tips\n\n  • @sudoingX\n    — DGX Spark vs AMD Strix Halo\n      benchmarks\n\n  • @aijoey\n    — real setup photos + experience",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HL2-MuFXwAATbUm.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 324,
+      "retweets": 27,
+      "replies": 18,
+      "views": 66149
+    },
+    "comments": [
+      {
+        "handle": "ivanfioravanti",
+        "name": "Ivan Fioravanti ᯅ",
+        "date": "2026-06-28",
+        "text": "@TraffAlex Great post! Bookmarked! I love this kind of detailed and straight to the point posts! Bravo! 👏"
+      },
+      {
+        "handle": "mr_r0b0t",
+        "name": "mr-r0b0t",
+        "date": "2026-06-28",
+        "text": "@TraffAlex This is a tremendous resource! Thanks for putting this together and much appreciation for the shout out 😛"
+      },
+      {
+        "handle": "weijianzhang_",
+        "name": "Weijian Zhang",
+        "date": "2026-06-28",
+        "text": "@TraffAlex Good stuff! Just bought one myself ;)"
+      },
+      {
+        "handle": "SteveSTechMan",
+        "name": "Steve",
+        "date": "2026-06-28",
+        "text": "Bro, good job man. So a few notes. Drop the $HF_TOKEN, as well as the huggingface default path (mine is custom) into the system environment file. I try to make the vLLM start code as minimal as possible. \nAlso, outside of kicking off both nodes, if you are going to use any tools you will need the —enable-auto-tooling (I think?) as well as the correct parser (OpenAI, etc) in order to integrate results. Ie. Using searXNG to integrate web searches for up to date into into the response. \nI created vLLM kick off scripts for every model I use. \nOn a dual setup, GWEN3.6-122B-A10B is wonderful"
+      },
+      {
+        "handle": "nickventuri",
+        "name": "Nick Venturi",
+        "date": "2026-06-28",
+        "text": "@TraffAlex my wallet did not need to see this today 🥲"
+      },
+      {
+        "handle": "SteveSTechMan",
+        "name": "Steve",
+        "date": "2026-06-29",
+        "text": "@TraffAlex I’ll have to load it back up and test. Messing with GPT OSS 120B right now, getting close to 30 tps, trying to see what I can do to tweak it more. And that s NOT NVFP4"
+      },
+      {
+        "handle": "apptor_at",
+        "name": "Apptor",
+        "date": "2026-06-28",
+        "text": "@fraserpricee @TraffAlex I’d like to have two to host glm 5.2"
+      },
+      {
+        "handle": "TraffAlex",
+        "name": "AlexAImaginator",
+        "date": "2026-06-28",
+        "text": "@paras1094 Yeah fair point. It's a trade-off — you get the integrated package and 128GB unified out of the box, but you're locked into that config. For most people running inference, 128GB is plenty. But if you need flexibility, custom build with discrete GPUs is still the way to go."
+      },
+      {
+        "handle": "_Curious_Human_",
+        "name": "Jiri Bernovsky",
+        "date": "2026-06-28",
+        "text": "@TraffAlex Too slow for anything serious, unusable for coding agents. Unless u settle with 35B MoE. My 5k machine with 4x3090 can run 3.6-27b at 80 +tps (fp8). The Spark memory  is just too slow."
+      },
+      {
+        "handle": "paras1094",
+        "name": "paras_bakshi",
+        "date": "2026-06-28",
+        "text": "@TraffAlex I feel like the benefits of DGX Spark setup are its  biggest disadvantages . In your typical custom setup , you can swap the CPU, add a 2nd  GPU or buy more storage later. The DGX Spark’s fully integrated system on chip; you can’t  upgrade the internal RAM or change the GPU arch."
+      },
+      {
+        "handle": "Pkizouix",
+        "name": "PK",
+        "date": "2026-06-28",
+        "text": "@TraffAlex 🙏"
+      },
+      {
+        "handle": "D4pp3rD1scourse",
+        "name": "DapperDiscourse",
+        "date": "2026-06-28",
+        "text": "@TraffAlex Make this into an article!!"
+      },
+      {
+        "handle": "TraffAlex",
+        "name": "AlexAImaginator",
+        "date": "2026-06-28",
+        "text": "@mr_r0b0t Thank you! Glad you liked it .)"
+      },
+      {
+        "handle": "tekNico",
+        "name": "tekNico",
+        "date": "2026-06-29",
+        "text": "@TraffAlex Or maybe get a used Apple Mac, or a Framework Desktop, both with 128 GB unified memory.\n\nhttps://t.co/si1rVQOYMb"
+      },
+      {
+        "handle": "gcampton",
+        "name": "Garratt Campton ⚔️",
+        "date": "2026-06-29",
+        "text": "@TraffAlex or goto tenstorrent 1TB Ram - $110,000"
+      },
+      {
+        "handle": "gcampton",
+        "name": "Garratt Campton ⚔️",
+        "date": "2026-06-29",
+        "text": "@TraffAlex Just go to DGX station. It's only $80k"
+      },
+      {
+        "handle": "DratzJoseph",
+        "name": "Joseph Dratz",
+        "date": "2026-06-29",
+        "text": "@TraffAlex what is the recurring cost for the DGX spark license? - looks free for 90days..."
+      },
+      {
+        "handle": "iwanttomasterai",
+        "name": "iwanttomasterai",
+        "date": "2026-06-28",
+        "text": "@TraffAlex Thankyou very helpful i will be using this"
+      },
+      {
+        "handle": "bartdarebel",
+        "name": "Bart S.",
+        "date": "2026-06-28",
+        "text": "@TraffAlex Please put that into an article. Thanks 🙏"
+      },
+      {
+        "handle": "fraserpricee",
+        "name": "Fraser Price",
+        "date": "2026-06-28",
+        "text": "@apptor_at @TraffAlex do elaborate, would love to know what your plan is for that"
+      },
+      {
+        "handle": "_Curious_Human_",
+        "name": "Jiri Bernovsky",
+        "date": "2026-06-28",
+        "text": "@TraffAlex I just cooked a bit and run Deepseek - v4 flash from 0xsero (REAP) via Dwarfstar. At 96k context the prefill was 190 tps, gen speed 24 tps. The model performed badly so now downloading Antirez gguf. Other than that I can run glm5.2 at 8 tps gen, also 122B models, 397B models ... https://t.co/RFJi5f3v35"
+      },
+      {
+        "handle": "akiraxtwo",
+        "name": "Akiraxtwo Super",
+        "date": "2026-06-28",
+        "text": "@TraffAlex 這文章很有價值，導致bookmark找不到"
+      },
+      {
+        "handle": "fraserpricee",
+        "name": "Fraser Price",
+        "date": "2026-06-28",
+        "text": "@TraffAlex This is such a psyop at this point lmao, stop getting people to waste money on shit hardware.\n\nIt has like 1/4 mem bandwidth of a 3090, or 15% that of an RTX Pro. Why would you ever get one of these (let alone multiple...?). What is the use-case?\n\nsmells like astroturf"
+      },
+      {
+        "handle": "AusWay69",
+        "name": "Waylon Payne",
+        "date": "2026-06-28",
+        "text": "@TraffAlex My Mac is 128gb"
+      },
+      {
+        "handle": "TraffAlex",
+        "name": "AlexAImaginator",
+        "date": "2026-06-28",
+        "text": "@_Curious_Human_ 4x3090 is solid for smaller models, but you're capped at 96GB VRAM total. Spark's 128GB lets you run larger models like DeepSeek V4 Flash or Qwen 3.6 122B that won't fit. Different tools for different jobs — your setup is great for 27B, Spark shines at 70B+."
+      },
+      {
+        "handle": "TraffAlex",
+        "name": "AlexAImaginator",
+        "date": "2026-06-28",
+        "text": "@SteveSTechMan Good tips! Yeah HF_TOKEN in env is cleaner. The --enable-auto-tool-choice flag is what you're thinking of. And nice, Qwen 3.6 122B on dual setup sounds sweet - what tok/s are you getting?"
+      },
+      {
+        "handle": "TraffAlex",
+        "name": "AlexAImaginator",
+        "date": "2026-06-28",
+        "text": "@AusWay69 True, MacBook Pro M4 Max has higher bandwidth (~546 GB/s vs ~273 GB/s). But Spark gives you 128GB unified vs 36/48GB on Mac. Different trade-offs - depends on what models you're running."
+      },
+      {
+        "handle": "TraffAlex",
+        "name": "AlexAImaginator",
+        "date": "2026-06-28",
+        "text": "@ivanfioravanti Thanks a lot bro! 😉"
+      },
+      {
+        "handle": "AusWay69",
+        "name": "Waylon Payne",
+        "date": "2026-06-28",
+        "text": "@TraffAlex Slower memory bandwidth than a MacBook Pro 😂"
+      },
+      {
+        "handle": "SamJWasserman",
+        "name": "Sam Wasserman",
+        "date": "2026-06-28",
+        "text": "@mr_r0b0t @TraffAlex Those are some great people to follow if interested in this space."
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HL2-MuFXwAATbUm.jpg",
+      "localFilename": "2071020631072616698_1.jpg"
+    }
+  ]
+}

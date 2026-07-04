@@ -1,0 +1,35 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:49.208Z",
+  "tweetId": "1987082670107730172",
+  "post": {
+    "url": "https://x.com/Prefet74/status/1987082670107730172",
+    "author": {
+      "handle": "Prefet74",
+      "name": "Préfète de la Haute-Savoie"
+    },
+    "date": "2025-11-08",
+    "text": "🍄#champignons | Vous allez à la cueillette de champignons ce week-end ?\n\n⚠️🍄Chaque année, de nombreuses #intoxications par des champignons sont rapportées au centre antipoison alors limitez les risques en suivant nos conseils :\nℹ️ https://t.co/QUO276Zzfu https://t.co/gwaMMHFMML",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G46ExZQXsAA1Xj9.png"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G46ExXhXYAApsq2.png"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G46EzokWcAE7bwr.png"
+      }
+    ],
+    "metrics": {
+      "likes": 2,
+      "retweets": 2,
+      "replies": 0,
+      "views": 541
+    },
+    "comments": []
+  }
+}

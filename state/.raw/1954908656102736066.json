@@ -1,0 +1,22 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:15.534Z",
+  "tweetId": "1954908656102736066",
+  "post": {
+    "url": "https://x.com/BrettFromDJ/status/1954908656102736066",
+    "author": {
+      "handle": "BrettFromDJ",
+      "name": "Brett"
+    },
+    "date": "2025-08-11",
+    "text": "My entire design/AI tech stack (25 tools):\n\n1. Figma (design)\n2. Jitter (animation)\n3. Framer (currently learning)\n4. Bolt (ui exploration)\n5. Streamline (icons)\n6. Creative Market (mockups)\n7. Midjourney (Image + video gen)\n8. Runway (cinematic video gen)\n9. Veo 3 (video + sound gen)\n10. ChatGPT 4o (everything)\n11. Claude (coding help)\n12. Astra (4k video upscaling + detail)\n13. Bloom (image upscaling + detail)\n14. Landbook (landing page inspo)\n15. Pinterest (general design inspo)\n16. Pixel Buddah (photoshop effects)\n17. Contra (brand payments)\n18. Stripe (agency invoicing)\n19. Loom (client communication)\n20. Screen Studio (screen recording)\n21. Artlist (sound effects)\n22. Restream (live streaming)\n23. Figma Slides (slide decks)\n24. Trello (project management)\n25. Spark (email)",
+    "media": [],
+    "metrics": {
+      "likes": 5890,
+      "retweets": 466,
+      "replies": 157,
+      "views": 639355
+    },
+    "comments": []
+  }
+}

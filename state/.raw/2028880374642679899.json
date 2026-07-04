@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:09.279Z",
+  "tweetId": "2028880374642679899",
+  "post": {
+    "url": "https://x.com/MehdiBuilds/status/2028880374642679899",
+    "author": {
+      "handle": "MehdiBuilds",
+      "name": "Mehdi ⚡️ Builds with AI"
+    },
+    "date": "2026-03-03",
+    "text": "@majoragv Pas de clawhub, pas de pb https://t.co/bbDs4wyBiG",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HCgH8VRXwAIqvS-.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "views": 171
+    },
+    "comments": []
+  }
+}

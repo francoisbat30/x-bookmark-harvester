@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:08.363Z",
+  "tweetId": "1970195734906519914",
+  "post": {
+    "url": "https://x.com/UiSavior/status/1970195734906519914",
+    "author": {
+      "handle": "UiSavior",
+      "name": "UI/UX Savior"
+    },
+    "date": "2025-09-22",
+    "text": "I think I love this color palette 🎨 https://t.co/BdZyAHdbAo",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G1eKjqgWEAAdo8j.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1487,
+      "retweets": 97,
+      "replies": 13,
+      "views": 42557
+    },
+    "comments": []
+  }
+}

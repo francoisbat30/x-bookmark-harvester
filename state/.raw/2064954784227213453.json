@@ -1,0 +1,33 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:26.366Z",
+  "tweetId": "2064954784227213453",
+  "post": {
+    "url": "https://x.com/Ced_haurus/status/2064954784227213453",
+    "author": {
+      "handle": "Ced_haurus",
+      "name": "Christophe Boutry"
+    },
+    "date": "2026-06-11",
+    "text": "Petite découverte utile : Web-Check, un outil de reconnaissance passive vraiment complet pour analyser n'importe quel site web.\n\nEn quelques secondes : IP et hébergeur, certificat SSL, DNS, cookies, whois, robots.txt, ports ouverts, traceroute, DNSSEC, historique de redirections, performances...\n\nUtile pour de l'OSINT, un audit en 5s ou simplement savoir ce que ton propre site expose.\n\n👉 https://t.co/hY4jLpBlUm",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HKfDO7bWwAAIlIe.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 562,
+      "retweets": 116,
+      "replies": 16,
+      "views": 27444
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HKfDO7bWwAAIlIe.jpg",
+      "localFilename": "2064954784227213453_1.jpg"
+    }
+  ]
+}

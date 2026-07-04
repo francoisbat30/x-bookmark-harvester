@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:03.959Z",
+  "tweetId": "2031513457678495935",
+  "post": {
+    "url": "https://x.com/msdev/status/2031513457678495935",
+    "author": {
+      "handle": "msdev",
+      "name": "Microsoft Developer"
+    },
+    "date": "2026-03-10",
+    "text": "We just released a free, open-source course: GitHub Copilot CLI for Beginners.\n\nIt includes 8 chapters and a hands-on project that walks through installing Copilot CLI, using context, creating custom agents, working with skills, connecting MCP servers, and more. https://t.co/pjF9w75lUa",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HDFiIkYaMAAIUpo.png"
+      }
+    ],
+    "metrics": {
+      "likes": 1583,
+      "retweets": 236,
+      "replies": 47,
+      "views": 107407
+    },
+    "comments": []
+  }
+}

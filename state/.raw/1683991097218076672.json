@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:13.562Z",
+  "tweetId": "1683991097218076672",
+  "post": {
+    "url": "https://x.com/ADPList/status/1683991097218076672",
+    "author": {
+      "handle": "ADPList",
+      "name": "ADPList"
+    },
+    "date": "2023-07-26",
+    "text": "5. Beautiful Shadows by @alexwidua\n\nThis plugin allows you to create beautiful shadows by simply dragging a 'light source' which casts a shadow on selected elements.\n\nGet it here: https://t.co/sVC2JjtGuT https://t.co/6NikGVw9hK",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/ext_tw_video/1683991070949113858/pu/vid/1094x720/oJUAPrXqlyE-4e5D.mp4?tag=12"
+      }
+    ],
+    "metrics": {
+      "likes": 67,
+      "retweets": 6,
+      "replies": 2,
+      "views": 4274
+    },
+    "comments": []
+  }
+}

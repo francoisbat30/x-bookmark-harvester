@@ -1,0 +1,47 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:08.129Z",
+  "tweetId": "2071675824466542852",
+  "post": {
+    "url": "https://x.com/CoderNolimit/status/2071675824466542852",
+    "author": {
+      "handle": "CoderNolimit",
+      "name": "Nolimit"
+    },
+    "date": "2026-06-29",
+    "text": "Comment faire sa veille techno dans l'IT?: \n\nAller sur https://t.co/zlIyes5pWv\n\nTu trouves littéralement toutes les dernières nouveautés du secteur",
+    "media": [],
+    "metrics": {
+      "likes": 116,
+      "retweets": 10,
+      "replies": 2,
+      "views": 10746
+    },
+    "comments": [
+      {
+        "handle": "iFeyz2",
+        "name": "iFeyz",
+        "date": "2026-06-29",
+        "text": "@CoderNolimit y'a des pépites mais y'a bcp de slop là bas je trouve"
+      },
+      {
+        "handle": "YIISOWAK",
+        "name": "Antoine",
+        "date": "2026-06-30",
+        "text": "@iFeyz2 @CoderNolimit C’était pareil à vivatech il y avait tellement de Ai slop"
+      },
+      {
+        "handle": "CoderNolimit",
+        "name": "Nolimit",
+        "date": "2026-06-30",
+        "text": "@iFeyz2 Oui, c'est important de faire le tri"
+      },
+      {
+        "handle": "_yaksan",
+        "name": "Yak",
+        "date": "2026-06-29",
+        "text": "@CoderNolimit yep"
+      }
+    ]
+  }
+}

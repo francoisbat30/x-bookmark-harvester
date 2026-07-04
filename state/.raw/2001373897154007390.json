@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:40.572Z",
+  "tweetId": "2001373897154007390",
+  "post": {
+    "url": "https://x.com/ExaAILabs/status/2001373897154007390",
+    "author": {
+      "handle": "ExaAILabs",
+      "name": "Exa"
+    },
+    "date": "2025-12-17",
+    "text": "Introducing state-of-the-art People Search:\n\nYou can now semantically search over 1 billion people using a hybrid retrieval system backed by finetuned Exa embeddings.\n\nTry it: https://t.co/cQ6UlWHnKY\nWe also created an eval: https://t.co/2OIAryN7MT https://t.co/12BdYDWJU1",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G8ZOsWZaoAA2vdk.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 3065,
+      "retweets": 138,
+      "replies": 132,
+      "views": 3556814
+    },
+    "comments": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:00.483Z",
+  "tweetId": "1974426104464380007",
+  "post": {
+    "url": "https://x.com/UiSavior/status/1974426104464380007",
+    "author": {
+      "handle": "UiSavior",
+      "name": "UI/UX Savior"
+    },
+    "date": "2025-10-04",
+    "text": "Check out the Best Figma Plugins Collection! 🎨✨ https://t.co/WljqqjCZ6W",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G2aSEbCXkAAitnO.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 664,
+      "retweets": 76,
+      "replies": 9,
+      "views": 35829
+    },
+    "comments": []
+  }
+}

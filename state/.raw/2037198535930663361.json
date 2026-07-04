@@ -1,0 +1,40 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:01.372Z",
+  "tweetId": "2037198535930663361",
+  "post": {
+    "url": "https://x.com/zostaff/status/2037198535930663361",
+    "author": {
+      "handle": "zostaff",
+      "name": "zostaff"
+    },
+    "date": "2026-03-26",
+    "text": "I BUILT A BOT THAT SEES THE FUTURE 8 SECONDS AHEAD\n\nPenalty, red card, goal - probability jumps 15-30 points instantly.\n                                                                                   \nBut Polymarket updates in 15-20 seconds, my bot in 8.\n\nLive stadium data through Sportradar WebSocket - player coordinates, speed, xG, pressing, all in realtime, not from broadcast.\n\n$12K/year, same data bookmakers buy.\n\nML model recalculates probability after every event. Lineup, form, fatigue, minute, score. 3 months of training, $2K on GPU.\n\nPrivate RPC on Polygon - $200/mo, 3-5 seconds faster than public nodes.\n\nGas overpay for block priority - $800/mo at 8 matches per week.\n\nUp to 8 matches in parallel. Champions League, EPL, La Liga. Each match - separate instance, separate wallet.\n\nTotal cost: $18K/year.\n\nBut I see the future 8 seconds ahead.\n\nI don't know who will win, but I know exactly where the oracle falls behind.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2037197845682651136/vid/avc1/3840x2062/afi_tzbkixcjOR2t.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 1392,
+      "retweets": 62,
+      "replies": 86,
+      "views": 351155
+    },
+    "comments": [
+      {
+        "handle": "BuildAiHQ",
+        "name": "HT Websolution",
+        "date": "2026-04-11",
+        "text": "@zostaff That’s impressive!"
+      },
+      {
+        "handle": "JermelFuego",
+        "name": "Jermel Fuego",
+        "date": "2026-04-09",
+        "text": "@zostaff Is this on GitHub? Would like to know if  this is open source?"
+      }
+    ]
+  }
+}

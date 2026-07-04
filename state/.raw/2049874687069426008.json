@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:37.295Z",
+  "tweetId": "2049874687069426008",
+  "post": {
+    "url": "https://x.com/zodchiii/status/2049874687069426008",
+    "author": {
+      "handle": "zodchiii",
+      "name": "darkzodchi"
+    },
+    "date": "2026-04-30",
+    "text": "> open Claude Code\n> your .env gets read before you type anything\n> your API keys are now in the chat\n> your password is now in the chat\n> you add \"don't read .env\" to CLAUDE.md\n> doesn't work\n> 29 million secrets leaked on GitHub last year\n> one line in settings.json actually blocks it\n> there's a config that blocks all of this",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2049872941622460416/vid/avc1/1920x960/b2FCaoWoZvy6PnkC.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 2653,
+      "retweets": 207,
+      "replies": 78,
+      "views": 1051322
+    },
+    "comments": []
+  }
+}

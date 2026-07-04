@@ -1,0 +1,41 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:35.257Z",
+  "tweetId": "2054987444664377374",
+  "post": {
+    "url": "https://x.com/AnthropicAI/status/2054987444664377374",
+    "author": {
+      "handle": "AnthropicAI",
+      "name": "Anthropic"
+    },
+    "date": "2026-05-14",
+    "text": "We've published a paper that explains our views on AI competition between the US and China.\n\nThe US and democratic allies hold the lead in frontier AI today. Read more on what it’ll take to keep that lead: https://t.co/TgJBeodWYK",
+    "media": [],
+    "metrics": {
+      "likes": 5978,
+      "retweets": 1047,
+      "replies": 1250,
+      "views": 5009481
+    },
+    "comments": [
+      {
+        "handle": "Linyitian84",
+        "name": "Linyitian",
+        "date": "2026-06-29",
+        "text": "@AnthropicAI 干你娘dario，滚回你爹屁眼里去含你娘的屌！ fucking asshole, you god damn you and your mother screw you!"
+      },
+      {
+        "handle": "ashesoftime_37",
+        "name": "ashesoftime_",
+        "date": "2026-06-30",
+        "text": "@AnthropicAI 傻逼"
+      },
+      {
+        "handle": "ashesoftime_37",
+        "name": "ashesoftime_",
+        "date": "2026-06-30",
+        "text": "@CuiMao @AnthropicAI 好"
+      }
+    ]
+  }
+}

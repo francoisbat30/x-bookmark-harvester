@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:03.150Z",
+  "tweetId": "1971874670749360228",
+  "post": {
+    "url": "https://x.com/heysatya_/status/1971874670749360228",
+    "author": {
+      "handle": "heysatya_",
+      "name": "Satya"
+    },
+    "date": "2025-09-27",
+    "text": "iOS safe area guide https://t.co/32pIdD2crs",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G12BjfwWAAAhkqy.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1615,
+      "retweets": 89,
+      "replies": 21,
+      "views": 92346
+    },
+    "comments": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:08.469Z",
+  "tweetId": "2029737146383487334",
+  "post": {
+    "url": "https://x.com/TheRundownAI/status/2029737146383487334",
+    "author": {
+      "handle": "TheRundownAI",
+      "name": "The Rundown AI"
+    },
+    "date": "2026-03-06",
+    "text": "Anthropic just studied which jobs AI can theoretically replace vs. which ones it's actually automating right now.\n\nComputer & math: 94% exposed. Legal: ~90%. Management, architecture, arts & media: all 60%+.\n\nObserved usage so far? A fraction of that.\n\nBut the gap is closing fast. Every field where the blue line towers over the red is borrowed time.\n\nGrounds maintenance and construction are sitting at near-zero on both.\n\nMight be a good year to learn landscaping!",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HCsSUKAXAAEH_sS.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 3151,
+      "retweets": 519,
+      "replies": 192,
+      "views": 421121
+    },
+    "comments": []
+  }
+}

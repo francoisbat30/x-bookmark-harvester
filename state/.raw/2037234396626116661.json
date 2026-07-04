@@ -1,0 +1,52 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T22:36:57.183Z",
+  "tweetId": "2037234396626116661",
+  "post": {
+    "url": "https://x.com/0xInk_/status/2037234396626116661",
+    "author": {
+      "handle": "0xInk_",
+      "name": "INK"
+    },
+    "date": "2026-03-26",
+    "text": "Let me share my current Seedance 2 workflow\n\nYou can also copy this base template to your Claude and teach him to prompt on Seedance 2\n\n[CINEMATIC SETUP]\n[Film stock / lens / aperture / camera behavior]. [Color grade]. [Lighting source]. [Atmosphere]. [Audio: sound FX only / no music]. Face stable, no deformation.\n\n[@ image1] is [role]. [@ image2] is [reference for X].\n\n0-1s: [Shot type]. [@ image1] [precise action]. [Camera move]. [Sound.]\n1-3s: [Shot type]. [Action sequence with physics]. [Camera behavior]. [Sound FX.]\n3-5s: ...\n...\n13-15s: [Closing shot]. [Final action / movement]. [Sound fade or impact.]",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2037229407803510784/vid/avc1/3840x2160/xumPsHI8TWyclZ8N.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 821,
+      "retweets": 97,
+      "replies": 67,
+      "views": 50510
+    },
+    "comments": [
+      {
+        "handle": "PromptlyAI_YT",
+        "name": "PromptlyAI",
+        "date": "2026-04-11",
+        "text": "@0xInk_ Looks great. Thanks for sharing. 😎"
+      },
+      {
+        "handle": "rebel_thecat",
+        "name": "Rebel 🏴‍☠️",
+        "date": "2026-04-11",
+        "text": "@0xInk_ Words cannot express how much I appreciate you doing this. 🙏🏻🙏🏻🙏🏻🙏🏻"
+      },
+      {
+        "handle": "brianlife",
+        "name": "LiFe",
+        "date": "2026-04-11",
+        "text": "@0xInk_ Dig it!"
+      },
+      {
+        "handle": "ArsenNio130079",
+        "name": "EdwinLu711",
+        "date": "2026-04-10",
+        "text": "@0xInk_ How bro"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:25.460Z",
+  "tweetId": "2065185238397899169",
+  "post": {
+    "url": "https://x.com/skalskip92/status/2065185238397899169",
+    "author": {
+      "handle": "skalskip92",
+      "name": "SkalskiP"
+    },
+    "date": "2026-06-11",
+    "text": "looks like we are working on the same thing haha; more soon https://t.co/9fO4NKYoYQ https://t.co/lL9nliQlTZ",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2065184564163518464/vid/avc1/1920x1080/hqIRwBBFLyCQ7x4B.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 3615,
+      "retweets": 179,
+      "replies": 55,
+      "views": 652069
+    },
+    "comments": []
+  }
+}

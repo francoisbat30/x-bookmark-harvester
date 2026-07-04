@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:52.349Z",
+  "tweetId": "1980712886780776479",
+  "post": {
+    "url": "https://x.com/DuckDuckGo/status/1980712886780776479",
+    "author": {
+      "handle": "DuckDuckGo",
+      "name": "DuckDuckGo"
+    },
+    "date": "2025-10-21",
+    "text": "🆕 Want to know how many sites have your personal info? 👀 \n\nPersonal Information Removal scans are now available for free on the DuckDuckGo Windows and Mac browsers — no subscription needed.\n\nhttps://t.co/QNfnevMB5N https://t.co/DtGDnvLchF",
+    "media": [
+      {
+        "type": "gif",
+        "url": "https://pbs.twimg.com/tweet_video_thumb/G3zngBlWcAAF4_b.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 304,
+      "retweets": 43,
+      "replies": 32,
+      "views": 30952
+    },
+    "comments": []
+  }
+}

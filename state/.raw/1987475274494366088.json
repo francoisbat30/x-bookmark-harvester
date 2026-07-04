@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:47.991Z",
+  "tweetId": "1987475274494366088",
+  "post": {
+    "url": "https://x.com/GithubProjects/status/1987475274494366088",
+    "author": {
+      "handle": "GithubProjects",
+      "name": "GitHub Projects Community"
+    },
+    "date": "2025-11-09",
+    "text": "Swiss-army tool for scraping and extracting data from online assets, made for hackers https://t.co/4uiPPh1NrR",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G5TuOq8boAABInl.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1920,
+      "retweets": 146,
+      "replies": 3,
+      "views": 93784
+    },
+    "comments": []
+  }
+}

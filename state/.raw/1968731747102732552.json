@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:10.828Z",
+  "tweetId": "1968731747102732552",
+  "post": {
+    "url": "https://x.com/iamnotsrc/status/1968731747102732552",
+    "author": {
+      "handle": "iamnotsrc",
+      "name": "src"
+    },
+    "date": "2025-09-18",
+    "text": "latest brand identity highlights 📹 https://t.co/e0BZra4Oye",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1968479605896949760/vid/avc1/3840x2160/kWUCniOYRnHh_2yo.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 375,
+      "retweets": 15,
+      "replies": 22,
+      "views": 14344
+    },
+    "comments": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:12.716Z",
+  "tweetId": "1967986124963692715",
+  "post": {
+    "url": "https://x.com/theworldlabs/status/1967986124963692715",
+    "author": {
+      "handle": "theworldlabs",
+      "name": "World Labs"
+    },
+    "date": "2025-09-16",
+    "text": "Generate persistent 3D worlds from a single image, bigger and better than ever! \n\nWe’re excited to share our latest results and invite you to try out our world generation model in a limited beta preview. https://t.co/HkPO4E5X2g",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1967984897685082112/vid/avc1/1920x1080/J-E2z6fE8hYhg6ok.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 3558,
+      "retweets": 509,
+      "replies": 205,
+      "views": 832506
+    },
+    "comments": []
+  }
+}

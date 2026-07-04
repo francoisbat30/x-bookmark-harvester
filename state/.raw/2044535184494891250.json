@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:44.430Z",
+  "tweetId": "2044535184494891250",
+  "post": {
+    "url": "https://x.com/googlegemma/status/2044535184494891250",
+    "author": {
+      "handle": "googlegemma",
+      "name": "Google Gemma"
+    },
+    "date": "2026-04-15",
+    "text": "Check out this amazing combo using Gemma4 + Falcon Perception for video tracking!\n\n1️⃣Give Gemma 4 video frames\n2️⃣It describes what it sees\n3️⃣Falcon Perception takes those descriptions, segments the objects, and tracks them across the video!\n\nThe best part? All running locally! https://t.co/K4LZKE0kxs",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2044535014176763905/vid/avc1/1280x720/ewR7ThA_nXSeSRw-.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 1212,
+      "retweets": 143,
+      "replies": 25,
+      "views": 83712
+    },
+    "comments": []
+  }
+}

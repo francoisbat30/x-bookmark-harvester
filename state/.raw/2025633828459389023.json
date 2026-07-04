@@ -1,0 +1,101 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T22:39:26.937Z",
+  "tweetId": "2025633828459389023",
+  "post": {
+    "url": "https://x.com/alex_prompter/status/2025633828459389023",
+    "author": {
+      "handle": "alex_prompter",
+      "name": "Alex Prompter"
+    },
+    "date": "2026-02-22",
+    "text": "Seedance 2.0 tips that actually matter:\n\n→ Adding \"cinematic\" or \"4K\" at the end consistently improves output quality \n→ \"Slow motion\" = smoother, more controlled movement \n→ First 20-30 words carry the most weight. Put your subject there. \n→ For image-to-video: describe MOTION and CAMERA only. Don't re-describe the image. \n→ Start with 5-10 second clips. Lock one shot, then expand.",
+    "media": [],
+    "metrics": {
+      "likes": 900,
+      "retweets": 72,
+      "replies": 22,
+      "views": 85385
+    },
+    "comments": [
+      {
+        "handle": "Pravonapadenie",
+        "name": "Полковник РВСН",
+        "date": "2026-02-23",
+        "text": "And you end up with slop."
+      },
+      {
+        "handle": "Vitalz1000",
+        "name": "Vitalz.eth 🦍",
+        "date": "2026-02-22",
+        "text": "Insane, when north America?"
+      },
+      {
+        "handle": "RR_07_ronie",
+        "name": "Xroniie",
+        "date": "2026-02-22",
+        "text": "if seedance 2.0 comes public. Its sad to see they are suppressing the availability of the model cuz its too good."
+      },
+      {
+        "handle": "tabascoaistudio",
+        "name": "ChrisTabasco",
+        "date": "2026-02-23",
+        "text": "Can you share the prompt :) ?"
+      },
+      {
+        "handle": "umairguitar",
+        "name": "Umair 🛠️ chief slop officer @ openslop.ai",
+        "date": "2026-02-23",
+        "text": "solid tips. one thing id add: for production pipelines, batch generate all your stills first with consistent character refs, then only animate the 10-20% that actually need motion. saves a ton at scale"
+      },
+      {
+        "handle": "second_bassoon",
+        "name": "Monique Pryce",
+        "date": "2026-02-23",
+        "text": "Bookmarked for whenever Seedance 2.0 is finally released to the public. 😭😭"
+      },
+      {
+        "handle": "flutterwhat",
+        "name": "Flutterwhat",
+        "date": "2026-02-23",
+        "text": "Why use the backwards arrow example output when it's just an obvious artifact of using \"slow motion\" in the shot?"
+      },
+      {
+        "handle": "achew39",
+        "name": "achew⛩️",
+        "date": "2026-02-23",
+        "text": "do you mean fix the first scene/vid and reupload it to expand from there?  my exprience with expanding video is first it would cost more, and second the expanded vid might sometimes be ‘shorter’  because first 1-2 sec might b repeated scenes from ref vid. but it does make the vid more consistent in style"
+      },
+      {
+        "handle": "bygregorr",
+        "name": "Gregor",
+        "date": "2026-02-22",
+        "text": "I'm not convinced \"cinematic\" or \"4K\" magically improves output quality, I've seen better results focusing on clear image selection and minimal effects."
+      },
+      {
+        "handle": "Ramosw994",
+        "name": "Ramos",
+        "date": "2026-02-23",
+        "text": "Já dá pra usar sem VPN?"
+      },
+      {
+        "handle": "chishanAI",
+        "name": "持山 | Chishan",
+        "date": "2026-02-24",
+        "text": "the cinematic trick works across most video models. it's like adding 'high quality' to image prompts"
+      },
+      {
+        "handle": "codymclain",
+        "name": "Cody McLain",
+        "date": "2026-02-24",
+        "text": "the \"first 20-30 words\" tip is huge. most people bury their subject halfway through the prompt then wonder why the AI gets confused"
+      },
+      {
+        "handle": "OpenFire78",
+        "name": "Yahya Nazimuddin",
+        "date": "2026-02-22",
+        "text": "I’d like to see what Hollywood has to say about this 😆"
+      }
+    ]
+  }
+}

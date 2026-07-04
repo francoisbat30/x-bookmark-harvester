@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:02.724Z",
+  "tweetId": "2031879090442002826",
+  "post": {
+    "url": "https://x.com/RoundtableSpace/status/2031879090442002826",
+    "author": {
+      "handle": "RoundtableSpace",
+      "name": "0xMarioNawfal"
+    },
+    "date": "2026-03-11",
+    "text": "TRADING TOOLS ARE GETTING STUPIDLY GOOD.\n\nSomeone just built a dashboard that tracks Iran military ops and trades oil on Hyperliquid off it.\n\nhttps://t.co/0kCEWYS40W",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2031795166852628484/vid/avc1/1920x1080/eql0fd4Z2tvXKcTP.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 1678,
+      "retweets": 182,
+      "replies": 96,
+      "views": 211412
+    },
+    "comments": []
+  }
+}

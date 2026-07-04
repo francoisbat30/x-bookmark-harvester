@@ -1,0 +1,41 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:28.125Z",
+  "tweetId": "2063261890361672011",
+  "post": {
+    "url": "https://x.com/LearnWithBishal/status/2063261890361672011",
+    "author": {
+      "handle": "LearnWithBishal",
+      "name": "Bishal Nandi"
+    },
+    "date": "2026-06-06",
+    "text": "🚨Just 120 hours ago, PewDiePie dropped an AI assistant.\n\nNo subscriptions.\n\nNo account.\n\nNo cloud.\n\nRuns on your computer.\n\n57,000+ GitHub stars already: 🧵 https://t.co/mhq53m4h3M",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HKIrHV3bkAAUXiw.png"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HKItMBLboAEHwhl.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 13818,
+      "retweets": 603,
+      "replies": 186,
+      "views": 1867985
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HKIrHV3bkAAUXiw.png",
+      "localFilename": "2063261890361672011_1.png"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HKItMBLboAEHwhl.jpg",
+      "localFilename": "2063261890361672011_2.jpg"
+    }
+  ]
+}

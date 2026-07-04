@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:53.910Z",
+  "tweetId": "1980547827123261727",
+  "post": {
+    "url": "https://x.com/masumparvej_/status/1980547827123261727",
+    "author": {
+      "handle": "masumparvej_",
+      "name": "Masum"
+    },
+    "date": "2025-10-21",
+    "text": "Hugeicons makes your UI blush https://t.co/8p50I6u6qe",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3xRkmuWUAAiG3_.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 376,
+      "retweets": 8,
+      "replies": 35,
+      "views": 24851
+    },
+    "comments": []
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:40.769Z",
+  "tweetId": "2045784379155226971",
+  "post": {
+    "url": "https://x.com/DataChaz/status/2045784379155226971",
+    "author": {
+      "handle": "DataChaz",
+      "name": "Charly Wargnier"
+    },
+    "date": "2026-04-19",
+    "text": "🚨 STOP BURNING YOUR TOKENS!\n\nIf you use Claude Code, you are probably wasting 80% of your context window.\n\nI found 10 ace tools that will completely rescue your API bill.\n\n1. Caveman Claude\n- Literally makes Claude talk like a caveman\n- Slashes 75% of output tokens with zero loss in accuracy\nRepo → https://t.co/eEvSOvHutG\n\n2. RTK (Rust Token Killer)\n- A blazing fast proxy that filters terminal output\n- 60-90% reduction and completely dependency-free\nRepo → https://t.co/lDfjbsbPD5\n\n3. Code Review Graph\n- Claude reads only what matters using a Tree-sitter graph\n- An unbelievable 49x token reduction on huge monorepos\nRepo → https://t.co/xGn6Pp88yX\n\n4. Context Mode\n- Sandboxes raw output into SQLite instead of your context\n- A staggering 98% context reduction on logs & GitHub\nRepo → https://t.co/Jut2bvBMUD\n\n5. Claude Token Optimizer\n- Brilliant setup prompts that optimize any project\n- 90% token savings, taking docs from 11K to 1.3K\nRepo → https://t.co/0uOFODbG7e\n\n6. Token Optimizer\n- Hunts down the invisible ghost tokens eating your context\n- Fully restores and protects your context quality\nRepo → https://t.co/LUOzjECXKm\n\n7. Token Optimizer MCP\n- Adds aggressive caching and compression to your MCP tools\n- 95%+ token reduction through pure intelligence\nRepo → https://t.co/b5Eqruo2PM\n\n8. Claude Context\n- Zilliz’s hybrid vector search MCP\n- Makes your entire codebase the context for 40% less cost\nRepo → https://t.co/hPG6pb0j3G\n\n9. Claude Token Efficient\n- Just drop one CLAUDE.md file into your repo\n- Enforces strict terseness with zero code changes\nRepo → https://t.co/fNrl6nwItF\n\n10. Token Savior\n- Navigates your code by symbols, not giant files\n- 97% reduction on code navigation with persistent memory\nRepo → https://t.co/lkILPhfwJh\n\n----\n\n[ The god-tier stack ]\nPick 2-3 based on what’s draining you:\n> Massive repo? Code Review Graph + Token Savior\n> Heavy terminal output? RTK\n> MCP data dumps? Context Mode\n> Need an instant fix? Caveman + Claude Token Efficient\n\nMost devs are bleeding tokens.\n\nRun `/context` in a fresh session and watch the savings roll in 👀",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HGQWA_7WIAAS7uW.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 4379,
+      "retweets": 672,
+      "replies": 143,
+      "views": 808151
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HGQWA_7WIAAS7uW.jpg",
+      "localFilename": "2045784379155226971_1.jpg"
+    }
+  ]
+}

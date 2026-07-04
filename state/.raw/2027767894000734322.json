@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:13.336Z",
+  "tweetId": "2027767894000734322",
+  "post": {
+    "url": "https://x.com/hasantoxr/status/2027767894000734322",
+    "author": {
+      "handle": "hasantoxr",
+      "name": "Hasan Toor"
+    },
+    "date": "2026-02-28",
+    "text": "🚨 Microsoft just quietly dropped a tool that turns ANY document into LLM-ready data in seconds.\n\nIt's called MarkItDown, a lightweight Python library that converts PDFs, Word, Excel, PowerPoint, images, audio, and YouTube URLs into clean Markdown your LLM can actually use.\n\nNo custom parsers. No brittle pipelines. No preprocessing hell.\n\nBuilt by the AutoGen team and battle-tested across 87K GitHub stars.\n\nThe numbers don't lie:\n→ pip install markitdown and you're converting files in under 60 seconds\n→ 10+ file formats supported out of the box\n→ Native MCP server for direct Claude Desktop integration\n\nAnd it works everywhere:\n→ Command line: markitdown file.pdf > doc .md\n→ Python API: 3 lines of code\n→ Docker\n→ Azure Document Intelligence for enterprise OCR\n\n100% Opensource. MIT license.\n\nThis is the document preprocessing tool your RAG pipeline has been waiting for LLM-ready output without the LLM-ready headache.\n\nLink in the first comment 👇",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HCQUJ0xaYAAjQMp.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 3221,
+      "retweets": 411,
+      "replies": 106,
+      "views": 417607
+    },
+    "comments": []
+  }
+}

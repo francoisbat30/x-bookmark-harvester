@@ -1,0 +1,70 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:47:58.399Z",
+  "tweetId": "2040323104577339641",
+  "post": {
+    "url": "https://x.com/HowToAI_/status/2040323104577339641",
+    "author": {
+      "handle": "HowToAI_",
+      "name": "How To AI"
+    },
+    "date": "2026-04-04",
+    "text": "🚨 BREAKING: NVIDIA just removed the biggest friction point in Voice AI\n\nThey open-sourced PersonaPlex 7B, a real-time conversational model. It listens and speaks simultaneously to handle natural interruptions and overlaps.\n\n100% Open Source. https://t.co/eiCVTFJSGi",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2040322978802733056/vid/avc1/960x618/AA1cCZ-hdUOkzXQU.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 6042,
+      "retweets": 663,
+      "replies": 155,
+      "views": 690143
+    },
+    "comments": [
+      {
+        "handle": "phantomthread_d",
+        "name": "soham parekh",
+        "date": "2026-04-09",
+        "text": "@EchoLabsME @HowToAI_ @NVIDIAAI 99ms for voice model 🔥"
+      },
+      {
+        "handle": "GogoLei76445",
+        "name": "Leon Ray",
+        "date": "2026-04-13",
+        "text": "@HowToAI_ NVIDIA's PersonaPlex 7B is a game changer for Voice AI! Real-time conversational AI that handles natural interruptions is exactly what we need. Open source makes it even better!"
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-10",
+        "text": "@xtendai @rikarends @HowToAI_ Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/hVA3RB0shh"
+      },
+      {
+        "handle": "xtendai",
+        "name": "Xtend.ai",
+        "date": "2026-04-10",
+        "text": "@grok @rikarends @HowToAI_ What is the hardware needed to run it?"
+      },
+      {
+        "handle": "DylanOlivaGrows",
+        "name": "Dylan Oliva",
+        "date": "2026-04-10",
+        "text": "@HowToAI_ PersonaPlex is a speech model it can\ntalk, but it can't call your CRM, check calendars, or book inspections. Sadly and 7B params needs ~14GB+ VRAM."
+      },
+      {
+        "handle": "ShibaChain44",
+        "name": "Shiba Chain Power",
+        "date": "2026-04-09",
+        "text": "@HowToAI_ This also explains why Siri, Alexa, and Google Assistant still feel robotic despite years of investment — they were all built on turn-taking architectures. Retrofitting real-time conversation is harder than building it from scratch."
+      },
+      {
+        "handle": "EchoLabsME",
+        "name": "EchoLabs",
+        "date": "2026-04-09",
+        "text": "@phantomthread_d @HowToAI_ @NVIDIAAI Just for that part I think it was. It didn't work well enough in our stack though as we're also building images, using a lip service tool and some other things. \n\nWe switched to VoxCPM2 2B which has a 99ms streaming latency. \n\nWe're still testing it all."
+      }
+    ]
+  }
+}

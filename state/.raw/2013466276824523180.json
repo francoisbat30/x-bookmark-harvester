@@ -1,0 +1,22 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:31.002Z",
+  "tweetId": "2013466276824523180",
+  "post": {
+    "url": "https://x.com/mattyp/status/2013466276824523180",
+    "author": {
+      "handle": "mattyp",
+      "name": "matt palmer"
+    },
+    "date": "2026-01-20",
+    "text": "Run Claude Code on your phone in 5 minutes\n\nThis guide will walk through running Claude Code on your phone in under 5 minutes and 500 words. To get started, you'll need:\nAn Anthropic subscription or API key\nA Replit account\nIt's easiest to start on your laptop. First, head to this template and click Remix\n \nYou'll see a prompt that secrets are missing in the bottom right, click it and you'll be taken to the Secrets pane.\n \nPaste in `/home/runner/workspace/.claude-user` (no quotes) as the value for CLAUDE_CONFIG_DIR - don't forget to click \"Add Secret\"\n \nNow, click the plus icon next to the \"Secrets\" tab and search for \"Shell\" \n \nOpen the Shell and type in \"claude\" - voila! Claude Code is running\n \nFollow the authorization prompts, when a new window is opened and you're prompted to authorize, do not - instead, go back to the terminal and there will be a URL.\nCopy / paste the URL, get the resulting code, and paste that in your terminal\n \nNow the fun part.\nInstall the Replit mobile app on your phone. \nOpen it up and sign in. You will see your app from before - select it.\nClick the \"three rectangles\" icon in the bottom right to open the tools\n \nSearch for \"Shell\" - tap it!\n \nTap the Shell selector in the top left - you'll see our \"claude\" command from before\n \nBoom! Claude Code is running on your phone... You might notice it's sync with the version on your desktop! (more on that below)\n \nFrom here on out, you can simply open up the Shell in the app on your phone and type \"claude\" to run Claude Code. \nIMPORTANT: this app has your credentials in the `.claude-user` directory. It will be ignored by git, but you should not share this app with anyone or make it public without first deleting that directory\n \nWhat we just did:\nWe created a \"sandbox:\" every Replit app is it's own isolated environment, running in the cloud. You might also hear this called a container or a virtual environment.\nReplit apps allow you to write and execute code, we normally do that with our own agent - Replit Agent. You can see it on the left hand side of the app.\nClaude Code was already configured in this template, so you started the package in our Shell, which is just a terminal\nAuthorizing Claude wrote credentials to the `.claude-user` directory, which is necessary to persist through Replit environment restarts.\nOpening Replit on your phone loaded the same virtual environment as the one running on your laptop. That's because the environment is running on a remote server in the cloud. \nReplit can display the same environment in real time on multiple devices, what we call \"multiplayer\" - this is thanks to some amazing engineering by the team. \nNow, you can control Claude from both your phone & your computer. The same is true of Replit Agent and any other project on Replit.\nYou can follow the same process in any Replit app that has Claude Code installed, which may be done from the command line. You can also install Skills, plugins, MCP servers, and Hooks as you would normally.\nHappy building ✌️",
+    "media": [],
+    "metrics": {
+      "likes": 1846,
+      "retweets": 138,
+      "replies": 103,
+      "views": 540011
+    },
+    "comments": []
+  }
+}

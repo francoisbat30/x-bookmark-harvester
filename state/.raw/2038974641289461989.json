@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:47:59.620Z",
+  "tweetId": "2038974641289461989",
+  "post": {
+    "url": "https://x.com/_SaxX_/status/2038974641289461989",
+    "author": {
+      "handle": "_SaxX_",
+      "name": "SaxX ¯\\_(ツ)_/¯"
+    },
+    "date": "2026-03-31",
+    "text": "🚨🔴 CYBERALERT CRITIQUE | Axios, une des plus grosses librairies JS attaquée. \n\nUne alerte critique sur Axios secoue l'industrie IT.\nAxios, c'est la librairie HTTP la plus utilisée en JavaScript entre 100M et 300M de téléchargements/semaine.\n\nSi vous êtes un peu geek, technique, codeur du dimanche ou développeur averti vous avez déjà certainement dû faire un `npm install axios` depuis votre terminal ! \n\nCe matin -enfin la nuit  dernière- entre 00h21 et 01h00 UTC, un attaquant a compris le package ! \n👉🏾Il a pris le contrôle du compte npm du maintainer principal, jasonsaayman\n👉🏾 Il a changé son email et l'a fait pointer vers une adresse ProtonMail \n👉🏾 Il a ensuite publié 2 versions : axios@1.14.1 et axios@0.30.4 en 39 minutes...\n\nL'attaque est bien pensée ! Elle ne touche pas le code axios mais concerne une dépendance fantôme injectée : `plain-crypto-js@4.2.1`\n\nUn package qui n'existait pas avant hier... et qui se fait passer pour le package légitime `crypto-js` dont le seul rôle est d'installer un RAT !\nNOTA: `plain-crypto-js@4.2.0` (version propre) avait été publiée 18h avant l'attaque pour construire une crédibilité... C'est le détail le plus frappant de toute cette affaire...\n\nLe hack est très propre, mais ô combien dévastateur. \n\nLe payload est activé via un dropper `setup.js` qui touche du cross-platform :\n👉🏾 macOS → /Library/Caches/com.apple.act.mond\n👉🏾 Windows → %PROGRAMDATA%\\wt.exe\n👉🏾 Linux → /tmp/ld.py\n\nLe RAT contacte ensuite un C2 -sfrclak[.]com:8000- après 1s à peine axios est installé.\n\nLa cible compromise, le dropper `setup.js` se supprime, ne laissant aucune trace visible...\n\nLa kill chain attack était très très vraisemblablement préméditée ! On est pas sur un attaque fortuite ! \nLe niveau de préparation évoque un acteur organisé, pas un cybercriminel lambda. \n\nIl y a quelques IoCs pour savoir si vous êtes touché... Vérifiez maintenant sur votre système :\n\n👉🏾 `npm list axios | grep -E \"1\\.14\\.1|0\\.30\\.4\"`\n👉🏾 `grep -A1 '\"axios\"' package-lock.json | grep -E \"1\\.14\\.1|0\\.30\\.4\"`\n👉🏾 `ls node_modules/plain-crypto-js && echo \"GAME OVER\"`\n\nIl y a d'autres artefacts aussi à chercher.\n\nSi vous êtes compromis :\n👉🏾 Isolez la machine\n👉🏾 Ajoutez --ignore-scripts dans vos pipelines CI/CD\n👉🏾 Auditez tous vos builds du 31/03 entre 00h21 et 03h29 UTC\n👉🏾 Bloquez sfrclak[.]com en egress\n👉🏾 Rotation COMPLÈTE de tous vos secrets : npm tokens, clés cloud, SSH, secrets CI/CD\n\nNOTA : Les versions sont maintenant retirées. NPM a supprimé les versions malveillantes à 03h29 UTC.\n\nOn a certainement frôlé le pire... jusqu'à la prochaine fois !",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HEvknzkXMAAOvdA.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 831,
+      "retweets": 209,
+      "replies": 17,
+      "views": 139885
+    },
+    "comments": []
+  }
+}

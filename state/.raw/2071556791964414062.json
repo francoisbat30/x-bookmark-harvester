@@ -1,0 +1,844 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:09.357Z",
+  "tweetId": "2071556791964414062",
+  "post": {
+    "url": "https://x.com/kimmonismus/status/2071556791964414062",
+    "author": {
+      "handle": "kimmonismus",
+      "name": "Chubby♨️"
+    },
+    "date": "2026-06-29",
+    "text": "A quick fact-check on AI’s water usage, including data centers, based on the cited source.\n https://t.co/cyoELoWqlK",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2071522285610004480/vid/avc1/1088x1088/-quFJtalY_RJ0gy1.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 1901,
+      "retweets": 219,
+      "replies": 105,
+      "views": 164663
+    },
+    "comments": [
+      {
+        "handle": "aatxcus",
+        "name": "Atticus",
+        "date": "2026-06-29",
+        "text": "@kimmonismus The average anti AI mind cannot comprehend this."
+      },
+      {
+        "handle": "ApoStructura",
+        "name": "ApoStructura",
+        "date": "2026-06-29",
+        "text": "@kimmonismus There are so many useless things that use a lot more water and nobody complains about them"
+      },
+      {
+        "handle": "kimmonismus",
+        "name": "Chubby♨️",
+        "date": "2026-06-29",
+        "text": "@ApoStructura yeah, fashion for example. Such a waste, especially for fast fashion."
+      },
+      {
+        "handle": "kimmonismus",
+        "name": "Chubby♨️",
+        "date": "2026-06-29",
+        "text": "@aatxcus sadly, yes. less fashion, more data center."
+      },
+      {
+        "handle": "MancerAI_",
+        "name": "MancerAI",
+        "date": "2026-06-29",
+        "text": "@kimmonismus Made this a few months ago if you want some more context https://t.co/1yGREW9SHj"
+      },
+      {
+        "handle": "GoingBallistic5",
+        "name": "Humanoid Scott",
+        "date": "2026-06-29",
+        "text": "@kimmonismus Whatever you do, do not show the amount of water needed for a pair of blue jeans\n\nhttps://t.co/AVnXU8imF8"
+      },
+      {
+        "handle": "koltregaskes",
+        "name": "Kol Tregaskes",
+        "date": "2026-06-29",
+        "text": "@kimmonismus Source please?"
+      },
+      {
+        "handle": "crizcraig",
+        "name": "Craig Quiter",
+        "date": "2026-06-30",
+        "text": "@kimmonismus This is 2023 data and doesn’t include chip fab use which roughly doubles the total. The chart also shows about four OOMs until AI uses all freshwater. If we’re scaling at one OOM per year then 2023 to 2026 -&gt; using 10% of all freshwater. Pretty alarming actually."
+      },
+      {
+        "handle": "an0n_an0n_an0n",
+        "name": "An0n",
+        "date": "2026-06-29",
+        "text": "@kimmonismus Its also like people forget this part. They assume these data centers are just make the water disappear forever. Removed from existence forever. https://t.co/YIyvUFGNDt"
+      },
+      {
+        "handle": "JefeMcOwnage",
+        "name": "Jeffrey",
+        "date": "2026-06-29",
+        "text": "@kimmonismus seems like it will 1000x though. i think the concern isn't about where it is now but where it clearly will go."
+      },
+      {
+        "handle": "iJaadee",
+        "name": "pink",
+        "date": "2026-06-29",
+        "text": "@kimmonismus the almonds part is extremely true"
+      },
+      {
+        "handle": "BinaryRot",
+        "name": "Binary Rot",
+        "date": "2026-06-29",
+        "text": "@kimmonismus Stupid almonds. I bet the majority of that is for almond milk"
+      },
+      {
+        "handle": "ApoStructura",
+        "name": "ApoStructura",
+        "date": "2026-06-29",
+        "text": "@kimmonismus cigarettes is the craziest one for me. It’s obviously bad, if we have to cut something this has to go. But we don’t have to cut anything because we have more than enough freshwater"
+      },
+      {
+        "handle": "TRESMITH322",
+        "name": "Tre Smith",
+        "date": "2026-06-29",
+        "text": "this is so misleading. all construction uses water. \n\njust because building buildings uses water doesn't mean they use it for AI. \n\nconcrete uses water. \nall infrastructure in all cities use tons of water. \n\nsaying AI's water usage is a joke.\n\ncooling the racks is a closed system that doesn't waste any water. \n\nif they use water to clean up a job site it's counted. using water in concrete is counted. this could be for building skyscrapers too. you know how much water it takes to build 1 building? what's inside the building doesn't matter."
+      },
+      {
+        "handle": "sandes_tiwari",
+        "name": "Sandesh Tiwari",
+        "date": "2026-06-29",
+        "text": "@kimmonismus I have seen so many people mislead and only present half baked data about this. Such a shame people don’t verify data they see"
+      },
+      {
+        "handle": "lechattys",
+        "name": "le chattys",
+        "date": "2026-06-29",
+        "text": "@kimmonismus idk why anti AI people love to talk about water so much there’s literally so many other valid ish arguments about why AI is bad but they talk about water usage"
+      },
+      {
+        "handle": "wilsonyimby",
+        "name": "Wilson is Running 🇲🇾",
+        "date": "2026-06-30",
+        "text": "@kimmonismus Bet it was generated with AI"
+      },
+      {
+        "handle": "thefelipefaria",
+        "name": "Felipe",
+        "date": "2026-06-30",
+        "text": "@kimmonismus Gemini is the new source of truth for most 'half-informed' people today. A self-reinforcing loop of badly regurgitated information. https://t.co/sIa7FduYxe"
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-06-30",
+        "text": "The chart cites:\n\n- **AI/data centres (0.5 km³/yr)**: Li et al. (2023) \"Making AI Less 'Thirsty'\" (arXiv preprint, ~860 citations; UCR researchers, solid methods; later CACM refs). Current global estimate.\n\n- **Food/cotton/livestock**: Mekonnen & Hoekstra (Water Footprint Network) — multiple peer-reviewed papers (Ecosystems 2012, PNAS). Field standard, high reputation.\n\n- **Steel**: Gerbens-Leenes et al. (2018) Water Resources and Industry — peer-reviewed, cited.\n\n- **Human use**: Hoekstra & Mekonnen (2012) PNAS — peer-reviewed, highly cited.\n\n- **Renewable totals**: FAO AQUASTAT — authoritative UN data.\n\n* items = estimates. Academic sources strong overall."
+      },
+      {
+        "handle": "NtokozoAI",
+        "name": "NTK AI",
+        "date": "2026-06-29",
+        "text": "The chart answers a question almost nobody is actually asking.\nThe water concern was never about total volume. \n\nAI clearly uses less than eggs or steel in aggregate, and this chart proves it. The concern is concentration. A single data center can draw from one watershed, in one county, during the exact months that region is already under stress.\n\nEggs and agriculture spread that demand across thousands of farms and seasons. A hyperscale data center does not."
+      },
+      {
+        "handle": "JustaH37074",
+        "name": "Justa Human",
+        "date": "2026-06-29",
+        "text": "@BinaryRot @kimmonismus Who knew milking almonds used so much water. Wow!"
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-06-29",
+        "text": "The graph is accurate. Global data center water use (AI included) sits around 0.5 km³/year per estimates from Water Footprint Network, Li et al., and others—tiny vs. agriculture’s 1,000+ km³ blue water or total renewable freshwater (~40,000+ km³).\n\nIt gets called a problem due to local effects in drought-prone spots where centers cluster, plus fast AI growth projections and evaporative cooling. Per-query headlines exaggerate; globally it’s negligible next to farming, beef, or almonds. Efficiency and replenishment are improving."
+      },
+      {
+        "handle": "tsteele93",
+        "name": "Tom Steele",
+        "date": "2026-06-29",
+        "text": "@kimmonismus So they basically lie to everyone and get their emotions in an uproar."
+      },
+      {
+        "handle": "javi_2326",
+        "name": "Javier",
+        "date": "2026-06-29",
+        "text": "@kimmonismus Agreed. The source seems 2023 though."
+      },
+      {
+        "handle": "Trashmusen",
+        "name": "Tommy Raz",
+        "date": "2026-06-29",
+        "text": "@kimmonismus Add golf course irrigation, residential law watering, and municipal water loss if you really want to make the point. Most people are fine with agg use."
+      },
+      {
+        "handle": "NuancedLiberal",
+        "name": "Eon Recoil",
+        "date": "2026-06-29",
+        "text": "@kimmonismus https://t.co/e1CBzrpQGE"
+      },
+      {
+        "handle": "unsignedbytes",
+        "name": "Charles",
+        "date": "2026-06-29",
+        "text": "@kimmonismus Honestly, this is such shit data and a shit chart. You must be getting paid."
+      },
+      {
+        "handle": "InfiniteHexx",
+        "name": "InfiniteHexx",
+        "date": "2026-06-29",
+        "text": "@koltregaskes @kimmonismus Source: my ideology."
+      },
+      {
+        "handle": "TeksEdge",
+        "name": "David Hendrickson",
+        "date": "2026-06-29",
+        "text": "@kimmonismus New Polaroid advertising campaign. https://t.co/8BWaldiO05"
+      },
+      {
+        "handle": "TheShiftReportX",
+        "name": "ShiftReport",
+        "date": "2026-06-29",
+        "text": "@aatxcus @kimmonismus why are their plumbing pipes giving them brown water out of their tap? why is their water pressure reduced to 50%+? regardless how much water consumption is magically estimated for the data centers - what is the source of these other water related issues?"
+      },
+      {
+        "handle": "10MY01",
+        "name": "John",
+        "date": "2026-06-29",
+        "text": "@kimmonismus That's absolutely untrue, starting from the date of that \"research\". Fast forward https://t.co/smbmAwgT7X and then plot for another 3 years of growth. Do better."
+      },
+      {
+        "handle": "Ucillente",
+        "name": "🫠🫠🫠",
+        "date": "2026-06-29",
+        "text": "@kimmonismus I think it’s interesting how every anti-AI person I’ve spoken to has only mentioned water and energy, but seems to completely overlook its uses in government, military, etc.\n\nThey also conveniently ignore other things they use everyday that consumes more water"
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-06-29",
+        "text": "Earth's surface is roughly 71% water. Converting water to steam via evaporation, as in cooling systems, releases vapor into the atmosphere where it joins the global water cycle and returns as rain. Data centers' share is negligible next to natural ocean evaporation or agriculture. Water is abundant globally, though fresh water can be locally limited by geography and demand."
+      },
+      {
+        "handle": "jason_haugh",
+        "name": "Jason Haugh",
+        "date": "2026-06-29",
+        "text": "@kimmonismus Unfortunately - AI is now a political stance just like healthcare, taxes, and the environment. \n\nAnd any time a group of people get behind an idea with political ideologies, they are going to spin the narrative to fit their beliefs."
+      },
+      {
+        "handle": "johnway",
+        "name": "@johnway",
+        "date": "2026-06-29",
+        "text": "@kimmonismus Holy fucking shit \n\nBut people will retort that AI isn’t useful enough to use this water, and that beef is *needed but AI datacenters are not"
+      },
+      {
+        "handle": "hellonearthis",
+        "name": "Brett Cooper",
+        "date": "2026-06-29",
+        "text": "@kimmonismus You know, if the data centre is powered by  hydro power,  they count the evaporated water from the lakes as water use by the data center.\nTheir math would mean your microwave uses 4000L a year in water."
+      },
+      {
+        "handle": "hvo_e_acc",
+        "name": "AuraAI - Local Superintelligence Project",
+        "date": "2026-06-29",
+        "text": "@kimmonismus the people who believe that AI uses that much water are low info pedophile cultists and slaves"
+      },
+      {
+        "handle": "pamelabacon5",
+        "name": "pamela s bacon",
+        "date": "2026-06-29",
+        "text": "@kimmonismus @ApoStructura Put this in a table so it can be easily read? A moving graph is not helpful"
+      },
+      {
+        "handle": "Rezzi_sol",
+        "name": "Rezzi",
+        "date": "2026-06-29",
+        "text": "@kimmonismus water usage becoming a real signal for infrastructure scaling\n\nonce you track resource consumption it shifts how you evaluate the entire stack not just power but water too"
+      },
+      {
+        "handle": "ECLresearch",
+        "name": "Eclipse 🌖",
+        "date": "2026-06-29",
+        "text": "@kimmonismus The source link isn’t accessible so I can’t verify the data, but water usage from AI inference is often overstated when compared to cooling methods for legacy compute."
+      },
+      {
+        "handle": "josh_herzberg",
+        "name": "Josh Herzberg",
+        "date": "2026-06-30",
+        "text": "@kimmonismus The whole water usage thing was always completely misguided/false."
+      },
+      {
+        "handle": "VincentLejeune",
+        "name": "Vincent Lejeune",
+        "date": "2026-06-30",
+        "text": "@kimmonismus Numbers from 2023 ? 😆"
+      },
+      {
+        "handle": "Antialpha8",
+        "name": "Antialpha",
+        "date": "2026-06-30",
+        "text": "@kimmonismus I'm so glad you are spreading awareness about this."
+      },
+      {
+        "handle": "Grintorresser",
+        "name": "Torres",
+        "date": "2026-06-30",
+        "text": "@kimmonismus We should have a global innitiative to build data centers and open source AI. Too bad we are cucked and are being ruled by Psychopaths."
+      },
+      {
+        "handle": "Sasha_zinoviev_",
+        "name": "Sasha",
+        "date": "2026-06-30",
+        "text": "@fluorinespark @kimmonismus What do people mean 'used' when referring to something using water. Water doesn't disappear because you grew a plant or fed an animal, or cooled a server.. it just changes form."
+      },
+      {
+        "handle": "zorazzhole",
+        "name": "zorazzhole",
+        "date": "2026-06-30",
+        "text": "@kimmonismus https://t.co/PHYFXTtY44"
+      },
+      {
+        "handle": "yagi_dsn",
+        "name": "YAGII",
+        "date": "2026-06-30",
+        "text": "@kimmonismus The volume was never the problem. Cooling exponential compute with the same liquid we drink is.\n\nWater cooling is a ground tax. The vacuum doesn't charge it."
+      },
+      {
+        "handle": "Kashyap1339202",
+        "name": "Kashyap",
+        "date": "2026-06-30",
+        "text": "@theholy_hermit @kimmonismus everything included together"
+      },
+      {
+        "handle": "Kashyap1339202",
+        "name": "Kashyap",
+        "date": "2026-06-30",
+        "text": "@TheShiftReportX @aatxcus @kimmonismus municipalities and some companies cutting their cost\n\nnot the whole AI technology"
+      },
+      {
+        "handle": "fluorinespark",
+        "name": "Florence",
+        "date": "2026-06-30",
+        "text": "@kimmonismus I remember doing some research about whether canvas duffle bags are indeed environmentally friendly. They are better than single-use plastic bags, sure, but not exactly \"friendly\" to the environment because of how much water it takes to make those things."
+      },
+      {
+        "handle": "kevanmacgee",
+        "name": "Kevan MacGee",
+        "date": "2026-06-30",
+        "text": "@kimmonismus I want to see Netflix on that."
+      },
+      {
+        "handle": "yogesshrl",
+        "name": "yogi",
+        "date": "2026-06-30",
+        "text": "@kimmonismus European Eco friendly people won't believe this."
+      },
+      {
+        "handle": "Emotelligent_AI",
+        "name": "Robert Neufeld",
+        "date": "2026-06-30",
+        "text": "@kimmonismus Yah but AI bad so it takes more\nthan in the graph."
+      },
+      {
+        "handle": "rustchild",
+        "name": "Justin Coope",
+        "date": "2026-06-30",
+        "text": "@kimmonismus You forgot golf courses and corn ethanol. Those are both HUGE."
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-06-30",
+        "text": "@MichaelSuede @kimmonismus According to the USGS, the contiguous United States receives enough precipitation each year to cover the lower 48 states in about 30 inches of rain and snow. That's roughly **1,430 cubic miles** of freshwater falling from the sky annually. Alaska and Hawaii add more on top."
+      },
+      {
+        "handle": "MichaelSuede",
+        "name": "Michael Suede",
+        "date": "2026-06-30",
+        "text": "@kimmonismus @grok how much fresh water falls out of the sky every year on to American soil?"
+      },
+      {
+        "handle": "atgorans_k",
+        "name": "Goran k",
+        "date": "2026-06-30",
+        "text": "@kimmonismus Who are you? You seem to be a nice person. I like that you always seem to fact check things"
+      },
+      {
+        "handle": "Patrictpp",
+        "name": "Ether Whales",
+        "date": "2026-06-30",
+        "text": "@TheShiftReportX @aatxcus @kimmonismus It’s problem during construction which some company are irresponsible, AI cooling system water alone don’t produce brown water"
+      },
+      {
+        "handle": "gcampton",
+        "name": "Garratt Campton ⚔️",
+        "date": "2026-06-30",
+        "text": "@kimmonismus eggs surprised me. chickens really don't drink a lot."
+      },
+      {
+        "handle": "kraton0903",
+        "name": "KraTon",
+        "date": "2026-06-30",
+        "text": "@sandes_tiwari @kimmonismus could you if you have any?"
+      },
+      {
+        "handle": "adairemafunde",
+        "name": "Adaire Mafunde",
+        "date": "2026-06-30",
+        "text": "@kimmonismus This is misleading because the other industries serve billions more. Though I agree with the sentiment and I believe it's a matter of energy cost needing to offset the impact of this trillion dollar industry which is AI. This is a clear negative externality which is not paid for."
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-06-30",
+        "text": "Here are direct links to the sources:\n\nAI (Li et al. 2023): https://t.co/0WnMg7aSeS (arXiv preprint, ~860 citations; later CACM)\n\nFarm animals (Mekonnen & Hoekstra 2012, Ecosystems): https://t.co/jBkcD9uCff (peer-reviewed; free PDF at https://t.co/HG7NSzUmNB)\n\nHuman (Hoekstra & Mekonnen 2012, PNAS): https://t.co/RNMjS684YM (highly cited, peer-reviewed)\n\nSteel (Gerbens-Leenes et al. 2018): https://t.co/q6DrcbLmPs (peer-reviewed)\n\nFAO AQUASTAT: https://t.co/4JFlM3Q2Xp (UN data)\n\nCrops/cotton in related Mekonnen & Hoekstra 2011 HESS paper. All strong academic sources."
+      },
+      {
+        "handle": "bywayofmj",
+        "name": "MJ 🇯🇲 🇺🇸 🇯🇵",
+        "date": "2026-06-30",
+        "text": "@grok @kimmonismus provide links to these sources so i can review"
+      },
+      {
+        "handle": "bywayofmj",
+        "name": "MJ 🇯🇲 🇺🇸 🇯🇵",
+        "date": "2026-06-30",
+        "text": "@kimmonismus @grok provide the citations for this data and their ratings in regards to peer review and reputation"
+      },
+      {
+        "handle": "TRESMITH322",
+        "name": "Tre Smith",
+        "date": "2026-06-29",
+        "text": "@ShawnFumo @kimmonismus Old system. No newly built data center will use evaporated cooling"
+      },
+      {
+        "handle": "g023dev",
+        "name": "g023",
+        "date": "2026-06-29",
+        "text": "@TRESMITH322 @kimmonismus They just love to twist that narrative. Those AI hyperscale datacenters are being dropped in peoples' back yards, and to top it off, we are getting cut off from the AI that uses them."
+      },
+      {
+        "handle": "g023dev",
+        "name": "g023",
+        "date": "2026-06-29",
+        "text": "@kimmonismus Now do natural gas and diesel... they drink that stuff like no one has ever seen before."
+      },
+      {
+        "handle": "Kindred_Creator",
+        "name": "Kindred Creator",
+        "date": "2026-06-29",
+        "text": "@kimmonismus They need highly purified/sanitized water to protect the electronics.\n\nWater like that is on short supply.\n\nDo try to be more genuine about your arguments, this line is very misleading"
+      },
+      {
+        "handle": "Kindred_Creator",
+        "name": "Kindred Creator",
+        "date": "2026-06-29",
+        "text": "@kimmonismus It’s a local capacity issue not a consumption issue.\n\nIf the local watershed can only provide 1000 gallons a day and a data centre eats 50% of that capacity, the rest of the community is without adequate water supply.\n\nThe next town over having surplus is irrelevant\n\nUseless fact"
+      },
+      {
+        "handle": "BinaryRot",
+        "name": "Binary Rot",
+        "date": "2026-06-29",
+        "text": "@JustaH37074 @kimmonismus Yeah that’s insane lol"
+      },
+      {
+        "handle": "Lobo67383079",
+        "name": "Lobo",
+        "date": "2026-06-29",
+        "text": "@kimmonismus This is misleading. \n\n1. AI is totally and completely unnecessary… &amp; it might even be counter-productive for societal well-being. \n\n2. Cumulative uses are what matter… We were already over the edge &amp; AI plants are pushing many communities over the edge\n\n3. It's just starting"
+      },
+      {
+        "handle": "ShawnFumo",
+        "name": "Shawn Fumo",
+        "date": "2026-06-29",
+        "text": "@kimmonismus Recommend this for a fairly balanced look at AI and water usage: https://t.co/Vld01yBCa9"
+      },
+      {
+        "handle": "FlockonUS",
+        "name": "Fab 🇧🇷🇨🇦",
+        "date": "2026-06-29",
+        "text": "@kimmonismus fucking food and clothes man, taking up all the water 😡"
+      },
+      {
+        "handle": "ShawnFumo",
+        "name": "Shawn Fumo",
+        "date": "2026-06-29",
+        "text": "@TRESMITH322 @kimmonismus Water usage claims are often overstated (often include water used in the generation of the power used), but many data centers do use evaporative cooling. The outside has big metal heat sink things that they spray water on. Assuming low enough humidity of the area."
+      },
+      {
+        "handle": "UsefulPick",
+        "name": "Cooperate Lizerd 🦎",
+        "date": "2026-06-29",
+        "text": "@kimmonismus The argument that ai consumes water is so funny, don't those ppl know how radiators and water cooling work. \nIt's a fucking closed system where few water escapes. \nI have liquid cooling in my PC and I have filled it twice for the last four years."
+      },
+      {
+        "handle": "cooleddie001_",
+        "name": "eddie",
+        "date": "2026-06-29",
+        "text": "@kimmonismus People like to complain"
+      },
+      {
+        "handle": "tsteele93",
+        "name": "Tom Steele",
+        "date": "2026-06-29",
+        "text": "@kimmonismus @grok, how accurate is this graph. What does AI water use look like compared to other uses and why are we being told that it is a problem?"
+      },
+      {
+        "handle": "DesmondHudkan",
+        "name": "Dësmond Hudkan",
+        "date": "2026-06-29",
+        "text": "@kimmonismus https://t.co/IkczpTx8wa"
+      },
+      {
+        "handle": "BlaiseBits",
+        "name": "BlaiseBits",
+        "date": "2026-06-29",
+        "text": "Best I can tell that chart compares globalized sectors vs data centers, which are geographically concentrated.\n\nAgricultural production is spread worldwide; Data center water is pulled locally from specific municipal or groundwater sources.\n\nThere is no global water cache to pull from, it has to pulled somewhat near the point of usage."
+      },
+      {
+        "handle": "slooowshutter",
+        "name": "Marc 📸",
+        "date": "2026-06-29",
+        "text": "@kimmonismus Everytime people talk about AI water usage I think about almond trees consuming close to 10x the water"
+      },
+      {
+        "handle": "fffoxiegd",
+        "name": "fffoxie",
+        "date": "2026-06-29",
+        "text": "@kimmonismus OMG THANK YOU. I needed this!"
+      },
+      {
+        "handle": "morgan_defi",
+        "name": "Morgan | Alpha Hunter",
+        "date": "2026-06-29",
+        "text": "@kimmonismus funny how data centers get blamed while we still waste oceans on fast fashion"
+      },
+      {
+        "handle": "tmallard",
+        "name": "tmallard",
+        "date": "2026-06-29",
+        "text": "All that needs to happen is for water users at that volume can install a standard wastewater treatment plant onsite with cistern-pond capacity to close their system \n\nN.LkTahoe has fully recycled its wastewater since late 1970s, no excuses \n\nTo add nextgen in-design all_photonic chips-to-storage networks already with prototype machines don't need water !\n\nWe use on-chip cooling & other advancements for 1000-times the throughput as what exists & planned lossy-sloth digital probabilistic wideband processing, DPWP\n\nThese can never attain AGI, that's a big fat unsubstantiated turd"
+      },
+      {
+        "handle": "not_nthni3l",
+        "name": "Lavinia",
+        "date": "2026-06-29",
+        "text": "@WillHaver88 @kimmonismus What kind of golf courses do you usually prefer? Links style, beach or mountain style?"
+      },
+      {
+        "handle": "singulieroblige",
+        "name": "MJ",
+        "date": "2026-06-29",
+        "text": "@kimmonismus Define \"use\". An AI data center should not be sending water down a sewer line."
+      },
+      {
+        "handle": "mattbenyo",
+        "name": "Ruth Baader-Meinhof",
+        "date": "2026-06-29",
+        "text": "@Rebel_Nation @kimmonismus @grok Gottem"
+      },
+      {
+        "handle": "WillHaver88",
+        "name": "Will",
+        "date": "2026-06-29",
+        "text": "@kimmonismus Next do golf course courses. we aren’t ready for that conversation"
+      },
+      {
+        "handle": "GrahamJCampbell",
+        "name": "Graham Campbell 🐘",
+        "date": "2026-06-29",
+        "text": "@kimmonismus I think the nature of the complaint is not the amount of water use, it's the particular locations where it's used where there's insufficient infrastructure/availability similar to all utilities. The rate of growth is hard to cope with, when grids are used to less than 1% growth."
+      },
+      {
+        "handle": "henryhndev",
+        "name": "Henry Nguyen",
+        "date": "2026-06-29",
+        "text": "@kimmonismus This is a solid breakdown. Planning for water reuse and location-aware cooling early in design seems like a smarter move than playing catch-up later."
+      },
+      {
+        "handle": "RaviTejaKNTS",
+        "name": "Teja",
+        "date": "2026-06-29",
+        "text": "@JefeMcOwnage @kimmonismus Yeah, we can cry later when that even remotely happens"
+      },
+      {
+        "handle": "radachowsky",
+        "name": "jeremy radachowsky 💚🌱",
+        "date": "2026-06-29",
+        "text": "@kimmonismus We need to use AI to figure out how to use fewer cows"
+      },
+      {
+        "handle": "FosbinderRules",
+        "name": "Stieg Fosbinder",
+        "date": "2026-06-29",
+        "text": "@kimmonismus https://t.co/3JeV3n0kVX"
+      },
+      {
+        "handle": "animebeach00",
+        "name": "anime beach",
+        "date": "2026-06-29",
+        "text": "@kimmonismus why are you clowns focusing in on this water strawman"
+      },
+      {
+        "handle": "theholy_hermit",
+        "name": "peer.plexed",
+        "date": "2026-06-29",
+        "text": "@kimmonismus Anyone knows what AI is meant to measure in this chart? Is it one ChatGPT query? One epoch of pre training? On hour of inference? Asking for a friend that doesnt want to go into the source to check :P"
+      },
+      {
+        "handle": "Darbybailey",
+        "name": "Darby Bailey McDonough, Ph.D. 🖍️💫",
+        "date": "2026-06-29",
+        "text": "@kimmonismus @ApoStructura Fast fashion water use of off the charts"
+      },
+      {
+        "handle": "panicfeed",
+        "name": "panicfeed.com",
+        "date": "2026-06-29",
+        "text": "@kimmonismus How do you see water efficiency improvements in AI data centers impacting sustainability goals for tech companies?"
+      },
+      {
+        "handle": "Arslandev97",
+        "name": "Arslan Yousaf",
+        "date": "2026-06-29",
+        "text": "@kimmonismus That 0.3 ml vs. 519 ml per query gap is just about what they count, on-site cooling vs. total grid water."
+      },
+      {
+        "handle": "lavalabsai",
+        "name": "LAVALabs AI",
+        "date": "2026-06-29",
+        "text": "@kimmonismus Context and relation... so important"
+      },
+      {
+        "handle": "cpaulsenn",
+        "name": "Christian Paulsen",
+        "date": "2026-06-29",
+        "text": "@kimmonismus more people need to see this"
+      },
+      {
+        "handle": "alcreon",
+        "name": "Alcreon",
+        "date": "2026-06-29",
+        "text": "@kimmonismus AI uses so little water it’s almost comical that it even became a topic"
+      },
+      {
+        "handle": "Weichaus",
+        "name": "•",
+        "date": "2026-06-29",
+        "text": "@kimmonismus but if done correctly they can increase the carbon content and actually increase water retention for that field, whereas monocrop usually pulls carbon and degrades retention over time"
+      },
+      {
+        "handle": "Weichaus",
+        "name": "•",
+        "date": "2026-06-29",
+        "text": "@kimmonismus But even then it doesn't matter a ton, since much of that can be recycled. For example livestock will use some up, but much of it is then put back to the ground and only the fraction into the meat will be \"pulled away\" from the land"
+      },
+      {
+        "handle": "Weichaus",
+        "name": "•",
+        "date": "2026-06-29",
+        "text": "@kimmonismus likewise for these other things technically it can also be done for much of them on the graph. But they already spent capex putting in the older systems so they'll have some fraction of older methods and newer ones. Obv food and water consumptions you can't fully get around"
+      },
+      {
+        "handle": "Weichaus",
+        "name": "•",
+        "date": "2026-06-29",
+        "text": "@kimmonismus It all comes down to the process they have in place. Data centers can just use recirc water without issue, just need to make sure it's polished off and clean. They'll  \"use\" a ton, but it can all be recirc so it's yearly turnover shouldn't be much"
+      },
+      {
+        "handle": "kensavage",
+        "name": "Ken Savage",
+        "date": "2026-06-29",
+        "text": "@kimmonismus @gheorgheiuga Spread that fear! 🙄"
+      },
+      {
+        "handle": "ravnfrost",
+        "name": "Ravn",
+        "date": "2026-06-29",
+        "text": "@kimmonismus Twitter shoving me clanker suckers on my tl, not falling for this ragebait."
+      },
+      {
+        "handle": "RelaxedPop",
+        "name": "Charles Waters",
+        "date": "2026-06-29",
+        "text": "@kimmonismus I had to watch this several times to see that AI was the first block."
+      },
+      {
+        "handle": "mcray69",
+        "name": "mcray",
+        "date": "2026-06-29",
+        "text": "@kimmonismus normies think this is fake"
+      },
+      {
+        "handle": "ShivankM17",
+        "name": "ShivankM",
+        "date": "2026-06-29",
+        "text": "@kimmonismus water use is the dumbest claim ever. should be energy use"
+      },
+      {
+        "handle": "1M_pertama",
+        "name": "KJ || Otw 1 M pertama 💰",
+        "date": "2026-06-29",
+        "text": "@kimmonismus I love how the AI bar is so tiny it didn't even make it past the floor of the graph. We really out here panicking over a drop of water in an entire ocean of bad takes."
+      },
+      {
+        "handle": "adamNsingh",
+        "name": "Asterisk 🇬🇾",
+        "date": "2026-06-29",
+        "text": "I think the people complaining are just looking at on AI datacenter and see how massive it is and then just assuming it means they use the most water.\n\nBut in reality the amount of datacenters compared to the amount of manufacturing plants, plantations, pastures, etc. there are is an enormous difference."
+      },
+      {
+        "handle": "PunmasterStp",
+        "name": "PunmasterSTP ⏩",
+        "date": "2026-06-29",
+        "text": "@kimmonismus @ForHumanityPod any comment?"
+      },
+      {
+        "handle": "tonitrades_",
+        "name": "toni",
+        "date": "2026-06-29",
+        "text": "@kimmonismus Data centers use water.\n\nSo do millions of factories making physical goods.\n\nHigh usage doesn't equal high harm - per-task efficiency flips the whole AI water panic."
+      },
+      {
+        "handle": "tonitrades_",
+        "name": "toni",
+        "date": "2026-06-29",
+        "text": "@kimmonismus Data centers use water.\n\nSo do millions of factories making physical goods.\n\nHigh usage doesn't equal high harm - per-task efficiency flips the whole AI water panic."
+      },
+      {
+        "handle": "AndAIyou",
+        "name": "Luke",
+        "date": "2026-06-29",
+        "text": "@kimmonismus So by this logic, since AI uses less water than almonds — should we ban almonds instead of regulating data centers? Genuinely asking, because that's exactly what this argument implies."
+      },
+      {
+        "handle": "BleedingHartL1b",
+        "name": "Bleeding Heart Liberal",
+        "date": "2026-06-29",
+        "text": "@kimmonismus This stuff about water is CCP propaganda to sabotage American data center development."
+      },
+      {
+        "handle": "korshunovwow",
+        "name": "Vlad Korsh",
+        "date": "2026-06-29",
+        "text": "@an0n_an0n_an0n @kimmonismus yes... YES!!! Finally somebody mentioned that! Even when water \"evaporates due to AI datacenters\" it'll come down as rainwater in the **same** amount..."
+      },
+      {
+        "handle": "Eclicity",
+        "name": "Eclicity",
+        "date": "2026-06-29",
+        "text": "@kimmonismus Great.  Now show the relative power and water use of a community where a data center exists.\n\nLots of disingenuous deflection X has."
+      },
+      {
+        "handle": "80sGeek",
+        "name": "Mild Mannered Maniac",
+        "date": "2026-06-29",
+        "text": "@kimmonismus Truth and logic just dont matter, you are dealing with internet retards, nothing will convince them."
+      },
+      {
+        "handle": "rykgto",
+        "name": "r",
+        "date": "2026-06-29",
+        "text": "@kimmonismus Anti-AI crowd will see this and unfortunately choose to ignore it, and in return… will continue to indulge in Anti-AI propaganda that has been continually disproven. Would be interesting to show a water usage tied to economic growth report for each vertical shown here."
+      },
+      {
+        "handle": "Mindless_ai",
+        "name": "Mindless Knight",
+        "date": "2026-06-29",
+        "text": "@kimmonismus How accurate is this?"
+      },
+      {
+        "handle": "pa1ar",
+        "name": "Pavel Larionov",
+        "date": "2026-06-29",
+        "text": "@kimmonismus are you suggesting prioritizing the issue based on it's impact in policy making and public communication? \n\nthat would be crazy"
+      },
+      {
+        "handle": "samboffa",
+        "name": "Sam",
+        "date": "2026-06-29",
+        "text": "@kimmonismus To be fair, most hate around AI and water usage is about generative AI (Video Gen)"
+      },
+      {
+        "handle": "fanofaliens",
+        "name": "Tornado guy",
+        "date": "2026-06-29",
+        "text": "@kimmonismus we must ban both Cigarettes and Alcohol"
+      },
+      {
+        "handle": "filicroval",
+        "name": "filipe",
+        "date": "2026-06-29",
+        "text": "@kimmonismus from recent discussions i have heard, more people realize that the \"ai drains lake\" narrative is exaggerated, which is good news\n\nspreading those kind of graphs greatly helps this cause!"
+      },
+      {
+        "handle": "Lang_Enthused",
+        "name": "Sophie Namir",
+        "date": "2026-06-29",
+        "text": "@kimmonismus This is why I always want the denominator. A lot of scary AI water claims leave out climate, siting, and cooling design."
+      },
+      {
+        "handle": "daxesh_iroid",
+        "name": "Daxesh",
+        "date": "2026-06-29",
+        "text": "@kimmonismus ok guys time to move manual, enough AI for now"
+      },
+      {
+        "handle": "hulmeheights",
+        "name": "hulmeheights",
+        "date": "2026-06-29",
+        "text": "@kimmonismus bet most people sharing that stat never read the source"
+      },
+      {
+        "handle": "MichaelKraw2005",
+        "name": "Nero",
+        "date": "2026-06-29",
+        "text": "@kimmonismus It doesn’t really matter. Decels will make anything up to have us stay in the Stone Age - like they did with Nuclear ☢️"
+      },
+      {
+        "handle": "Mr__Viking",
+        "name": "MrViking",
+        "date": "2026-06-29",
+        "text": "@kimmonismus @grok how many percent of earths surface is water. And what happens if we convert more water to steam?\nAlso. Is water a scarcity?"
+      },
+      {
+        "handle": "notjazii",
+        "name": "J A Z I I",
+        "date": "2026-06-29",
+        "text": "@kimmonismus wait watt\n\nAI really uses this much less water?"
+      },
+      {
+        "handle": "bullbear_info",
+        "name": "BullBear.News",
+        "date": "2026-06-29",
+        "text": "@kimmonismus So you are saying my AI girlfriend is drinking more water than a small village? Good to know! 💧🤖"
+      },
+      {
+        "handle": "Yairtech",
+        "name": "Yair | principal engineer / founder at night",
+        "date": "2026-06-29",
+        "text": "@kimmonismus Haha that’s epic I just saw this on r/accelerate - wanted to post it myself but was out and about 😆"
+      },
+      {
+        "handle": "0xSecta",
+        "name": "Secta",
+        "date": "2026-06-29",
+        "text": "@kimmonismus water usage is the next infra bottleneck most people are ignoring"
+      },
+      {
+        "handle": "scifi_techph",
+        "name": "Paul Techniker",
+        "date": "2026-06-29",
+        "text": "@kimmonismus The chart is blank. That's the fact-check. AI's water footprint vanishes when you plot actual numbers. Same pattern as EV and renewable scare narratives."
+      },
+      {
+        "handle": "azz_xav925",
+        "name": "azxav",
+        "date": "2026-06-29",
+        "text": "@kimmonismus wow, did not expected this"
+      }
+    ]
+  }
+}

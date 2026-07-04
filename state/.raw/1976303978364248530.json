@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:58.582Z",
+  "tweetId": "1976303978364248530",
+  "post": {
+    "url": "https://x.com/Hesamation/status/1976303978364248530",
+    "author": {
+      "handle": "Hesamation",
+      "name": "ℏεsam"
+    },
+    "date": "2025-10-09",
+    "text": "I just read Anthropic's guide on effective context engineering for AI agents. \n\nIt rewires how you think about context, with beautiful simple explanations.\n\n📩 Bookmark this.\n\nHere's what you need to know:\n\n- Context Rot is real. As the number of tokens in the context window grows, the model’s ability to accurately recall info from that context drops. Happens with every LLM, even with a 1M context window.\n\n- Prompt and Context engineering don’t contradict. They go hand in hand. Prompt engineering is about writing clear instructions to get the output you want. Context engineering is more programmatic, the art and science of filling the context window with just the right info.\n\n- System prompts drive the whole performance of your model. A good system prompt balances it out: specific enough to guide behavior, but flexible enough to give the model strong heuristics. Don’t make it too vague or too restrictive.\n\n- Tools must have clear names, separation of concerns, solid error handling, and return results without being too verbose. If a human engineer can’t say which tool to use in a situation, an AI agent won’t either.\n\n- Providing examples in prompts and tool descriptions helps. But it has to be a set of diverse examples that add something. \"Teams will often stuff a laundry list of edge cases into a prompt trying to cover every rule the LLM should follow for a task. We don’t recommend this.\"\n\n- It pays off to spend time pre-processing to get the right info to the LLM. It’s fine. Otherwise, dumping info into context backfires. Without guidance, an agent wastes context by misusing tools, chasing dead ends, or missing key info.\n\nCommon context engineering techniques:\n\nCompaction: have the agent summarize its message history when you’re near the context limit. The art is in which critical info you keep: unresolved issues, overall goal, execution steps, etc.\n\nStructured note-taking: the agent can jot down notes outside the context window and pull them in when needed.\n\nSub-agent architectures: if your main agent needs to do a task that’s not critical to the main workflow, have it spawn sub-agents, return results, then dump their context. Your main agent might search for info -> call a sub-agent to search -> get the results. Keeps the main context clean.",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G209_OSWkAAS-Oz.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 2092,
+      "retweets": 229,
+      "replies": 28,
+      "views": 166126
+    },
+    "comments": []
+  }
+}

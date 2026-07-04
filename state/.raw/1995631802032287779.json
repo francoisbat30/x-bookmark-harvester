@@ -1,0 +1,22 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:42.185Z",
+  "tweetId": "1995631802032287779",
+  "post": {
+    "url": "https://x.com/AnthropicAI/status/1995631802032287779",
+    "author": {
+      "handle": "AnthropicAI",
+      "name": "Anthropic"
+    },
+    "date": "2025-12-01",
+    "text": "New on our Frontier Red Team blog: We tested whether AIs can exploit blockchain smart contracts.\n\nIn simulated testing, AI agents found $4.6M in exploits.\n\nThe research (with @MATSprogram and the Anthropic Fellows program) also developed a new benchmark: https://t.co/QpGPMqlDRG",
+    "media": [],
+    "metrics": {
+      "likes": 4784,
+      "retweets": 699,
+      "replies": 351,
+      "views": 2116730
+    },
+    "comments": []
+  }
+}

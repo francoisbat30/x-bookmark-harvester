@@ -1,0 +1,52 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:14.457Z",
+  "tweetId": "2070991809174515804",
+  "post": {
+    "url": "https://x.com/tom_doerr/status/2070991809174515804",
+    "author": {
+      "handle": "tom_doerr",
+      "name": "Tom Dörr"
+    },
+    "date": "2026-06-27",
+    "text": "Guide to building a zero-employee company with Paperclip\n\nhttps://t.co/OfNWFsKApY https://t.co/DDnB2qDjLV",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HL2kE2_WoAAudR-.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 187,
+      "retweets": 14,
+      "replies": 2,
+      "views": 13224
+    },
+    "comments": [
+      {
+        "handle": "_ar9av",
+        "name": "Arnav Gupta",
+        "date": "2026-06-28",
+        "text": "@henryhndev @tom_doerr Try to skip the part let it go rogue \nWe take care of that @prismor_dev \nHappy to talk"
+      },
+      {
+        "handle": "henryhndev",
+        "name": "Henry Nguyen",
+        "date": "2026-06-28",
+        "text": "@tom_doerr This looks clean. Curious how you handle the edge cases when the agent workflows need human oversight mid-process though."
+      },
+      {
+        "handle": "nickventuri",
+        "name": "Nick Venturi",
+        "date": "2026-06-28",
+        "text": "@tom_doerr finally a setup where i am the only bottleneck"
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HL2kE2_WoAAudR-.jpg",
+      "localFilename": "2070991809174515804_1.jpg"
+    }
+  ]
+}

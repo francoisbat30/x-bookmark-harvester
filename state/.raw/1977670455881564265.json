@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:56.964Z",
+  "tweetId": "1977670455881564265",
+  "post": {
+    "url": "https://x.com/UiSavior/status/1977670455881564265",
+    "author": {
+      "handle": "UiSavior",
+      "name": "UI/UX Savior"
+    },
+    "date": "2025-10-13",
+    "text": "UI/UX https://t.co/TUjiB6gp0v",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3IYyLFX0AA5PMb.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 909,
+      "retweets": 72,
+      "replies": 9,
+      "views": 29082
+    },
+    "comments": []
+  }
+}

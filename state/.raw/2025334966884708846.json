@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:17.749Z",
+  "tweetId": "2025334966884708846",
+  "post": {
+    "url": "https://x.com/JohnLeFevre/status/2025334966884708846",
+    "author": {
+      "handle": "JohnLeFevre",
+      "name": "John LeFevre"
+    },
+    "date": "2026-02-21",
+    "text": "84% of people have never used AI, and just 0.3% of users pay for premium services.\n\nAnyone who thinks AI is a bubble isn't paying attention. https://t.co/6cCo4Kjp8q",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HBtu66GWkAAUoFN.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 3769,
+      "retweets": 670,
+      "replies": 558,
+      "views": 1582117
+    },
+    "comments": []
+  }
+}

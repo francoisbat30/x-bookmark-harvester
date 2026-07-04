@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:06.526Z",
+  "tweetId": "2030369024056422562",
+  "post": {
+    "url": "https://x.com/Eng_china5/status/2030369024056422562",
+    "author": {
+      "handle": "Eng_china5",
+      "name": "China pulse 🇨🇳"
+    },
+    "date": "2026-03-07",
+    "text": "A Chinese student builds a website that allows users to see the distribution of flowers around the world at a glance. The site visually displays records of vegetation growth and allows users to filter plants by type, climate, altitude, and other criteria. It also includes a global real-time weather system, making it an interactive tool for understanding nature and the distribution of plants across the planet. 🌍🌸\n\nhttps://t.co/IhPlaztXej",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2030367589235671040/vid/avc1/1080x1324/FRstKLcMPNpy5Dxc.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 12894,
+      "retweets": 1929,
+      "replies": 77,
+      "views": 332665
+    },
+    "comments": []
+  }
+}

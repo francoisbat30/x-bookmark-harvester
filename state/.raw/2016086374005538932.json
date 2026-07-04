@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:27.380Z",
+  "tweetId": "2016086374005538932",
+  "post": {
+    "url": "https://x.com/ollama/status/2016086374005538932",
+    "author": {
+      "handle": "ollama",
+      "name": "ollama"
+    },
+    "date": "2026-01-27",
+    "text": "🎉🎉🎉 Kimi K2.5 is on Ollama's cloud \n\nollama run kimi-k2.5:cloud \n\nYou can connect it to Claude Code, Codex, OpenCode, Clawdbot, and Droid via ollama launch!\n\nollama launch claude --model kimi-k2.5:cloud",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G_qTJ_FbAAMFvIW.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 4964,
+      "retweets": 372,
+      "replies": 124,
+      "views": 542117
+    },
+    "comments": []
+  }
+}

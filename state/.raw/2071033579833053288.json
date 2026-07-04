@@ -1,0 +1,652 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:13.424Z",
+  "tweetId": "2071033579833053288",
+  "post": {
+    "url": "https://x.com/TheAhmadOsman/status/2071033579833053288",
+    "author": {
+      "handle": "TheAhmadOsman",
+      "name": "Ahmad"
+    },
+    "date": "2026-06-28",
+    "text": "Local AI hardware = capacity X bandwidth X software stack\n\n- Capacity tells you what fits\n- Bandwidth tells you how hard the box can breathe\n- The software stack tells you how much of the spec sheet you can actually cash out.\n\nHardware by Memory Bandwidth\n- Mac Studio M3 Ultra: up to 512GB @ 819 GB/s\n- RTX PRO 6000 Blackwell: 96GB @ 1792 GB/s\n- RTX 5090: 32GB @ 1792 GB/s\n- RTX 4090: 24GB @ 1008 GB/s\n- RX 7900 XTX: 24GB @ 960 GB/s\n- Radeon PRO W7900: 48GB @ 864 GB/s\n- AMD Radeon AI PRO R9700: 32GB @ 640 GB/s\n- Intel Arc Pro B65: 32GB @ ~608 GB/s\n- Tenstorrent Wormhole n300: 24GB @ 576 GB/s\n- Tenstorrent Blackhole p150: 32GB @ 512 GB/s + 800G\n- MacBook Pro M5 Max: 460-614 GB/s\n- MacBook Pro M5 Pro: 307 GB/s\n- DGX Spark: 128GB @ 273 GB/s (coherent + CUDA)\n- Mac mini M4 Pro: 273 GB/s\n- Ryzen AI Max / Strix Halo: ~256 GB/s (~96GB usable GPU)\n- MacBook Air M5: 153 GB/s\n- Snapdragon X2 Elite: 152-228 GB/s\n- Intel Lunar Lake: 136 GB/s\n- Snapdragon X Elite: 135 GB/s\n- Mac mini M4: 120 GB/s\n- Arc Pro B60: 24GB @ ~456 GB/s\n\nVerdict\n\n- GPUs are still the bandwidth kings\n\n- Apple wins: stupid amounts of memory, don't want to shard across GPUs\n- Apple loses: when raw tokens/sec & concurrency matter more\n\n- DGX Spark: coherent memory + NVIDIA stack\n\n- Strix Halo / Ryzen AI Max: first real x86 unified-memory contender\n\n- Tenstorrent: fully OSS stack, excited to see this mature\n\nFitting != serving\n\nEven if it fits, you still pay for\n- bandwidth during decode\n- KV cache growth\n- dequantization\n- batching + concurrency\n- scheduler quality\n- framework overhead\n\nThe only mental model that matters:\n\n1. What must fit?\n2. What bandwidth tier do I need?\n3. What software stack can actually deliver it?\n\nIn short:\n- NVIDIA -> fastest raw speed\n- Apple Studio M3 Ultra -> biggest one-box memory\n- Strix Halo -> first real x86 unified\n- DGX Spark -> coherent NVIDIA dev appliance\n- AMD / Intel Arc -> rising alternatives\n- Tenstorrent -> fully opensource stack\n\nDo ask: \"which bottleneck am I buying?\"\n\nNot: \"which hardware is best?\"",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HL3J5CPaYAAf1V2.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1721,
+      "retweets": 242,
+      "replies": 88,
+      "views": 203864
+    },
+    "comments": [
+      {
+        "handle": "LeTechLead",
+        "name": "Le TechLead🔰",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman 3090: https://t.co/m02p34on3u"
+      },
+      {
+        "handle": "tthomson",
+        "name": "Travis",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman I asked Claude to add prices to the infographic. Disclaimer: I haven’t checked all these by hand, but I did spot check some of it and it sounds right.\n\nWhen used shows higher than new, it says it’s because they’re rarely available new. https://t.co/bAmJWfCjEo"
+      },
+      {
+        "handle": "darkzOGx",
+        "name": "darkzOGx 🔦",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Where would the 3090 be in this?"
+      },
+      {
+        "handle": "JxyHelper",
+        "name": "J",
+        "date": "2026-06-28",
+        "text": "@tthomson @TheAhmadOsman pretty bad for the impatient. i have the r9700. with qwen 27b q6, i get 650-750 pp/s 30-40 tg/s in my agent stack. so for the same model at ~1/3 bandwidth, you'd see 1/3 the tg/s. it will suck even more on the high capacity low bw ones. pp is compute bound so it varies."
+      },
+      {
+        "handle": "hypomaniac07",
+        "name": "Amol D. Kothalkar MBBS, MD, DNB(Cardiology), FIC",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman https://t.co/TYFX0ClgFF"
+      },
+      {
+        "handle": "akissinyal",
+        "name": "Akış Sinyal",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman the \"fitting != serving\" framing is underrated. most local AI setups talk about memory size, almost none talk about bandwidth under concurrent load. bandwidth is where the user experience actually lives."
+      },
+      {
+        "handle": "JxyHelper",
+        "name": "J",
+        "date": "2026-06-28",
+        "text": "@tthomson yes more than usable for me! been productive with it. if i don't need much nuance for quick jobs, drafts, and relatively lower complexity, i load in the 35b a3b instead which just zooms away at 2000 pp/s 100 tg/s. for those lower bw devices, i think moe models are the way to go"
+      },
+      {
+        "handle": "adamyathegreat",
+        "name": "adamyathegreat",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Come on man at least put the 3090 on there 😭😭"
+      },
+      {
+        "handle": "beastmodeprods",
+        "name": "RTGenius aka Beastmode Productions",
+        "date": "2026-06-28",
+        "text": "I just finished my first all-local setup on the ASUS Rog Z13 with the new strix chip and I’m honestly very surprised . \n\nGood speeds running the new ornith model in a multi agent workflow, fans cranking sure but for a such a beast of a mobile device I’m hyped to build out on it. Not on your level yet but I appreciate all your content, the need for local intelligence will become apparent for all very soon 🫡"
+      },
+      {
+        "handle": "ceoofgravity",
+        "name": "Daniel SB",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman @RaulAM00"
+      },
+      {
+        "handle": "gabu3d_pl",
+        "name": "Gabu",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman xd @ no 3090 - most popular GPU"
+      },
+      {
+        "handle": "Fl3XED",
+        "name": "✝️ He Aroz ✝️",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Nvidia selling shovels 🪏"
+      },
+      {
+        "handle": "JoshXT",
+        "name": "JoshXT",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Memory bandwidth is not the only thing that matters. People looking purely at these numbers would be disappointed by inference speeds compared to a 5090 or 4090. The RTX 3090 Ti has 1008GB/s memory, but about half the 4090 speed at inference."
+      },
+      {
+        "handle": "itsthedonhashim",
+        "name": "Hussain Hashim | Building SundayBack",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman @TheAhmadOsman love the analogy of \"how hard the box can breathe\" for bandwidth. never thought of it like that but makes total sense!"
+      },
+      {
+        "handle": "protect_whales",
+        "name": "caeruleum_cete",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman no one talks about the rtx pro 5000 blackwell 😉"
+      },
+      {
+        "handle": "beefcubee",
+        "name": "beefcube ⚔️",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman @i_loder where is AMD Strix Halo?"
+      },
+      {
+        "handle": "JANLABSLTD",
+        "name": "JAN LABS",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Check out https://t.co/aYE2Ly8N3Z for the ultimate offline AI suite/OS"
+      },
+      {
+        "handle": "darkzOGx",
+        "name": "darkzOGx 🔦",
+        "date": "2026-06-28",
+        "text": "@Web3Twon @TheAhmadOsman Much appreciated feedback bro"
+      },
+      {
+        "handle": "Web3Twon",
+        "name": "Twon.",
+        "date": "2026-06-28",
+        "text": "@darkzOGx @TheAhmadOsman Just below 4090 basically tied but 4090 pulls ahead big time for gaming if that matters"
+      },
+      {
+        "handle": "DegenApeDev",
+        "name": "DegenApeDev",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Awesome resources man!"
+      },
+      {
+        "handle": "skipnickk",
+        "name": "Skipnick",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman How quantified is the scheduler quality gap in practice? That column feels like the hardest to verify before actually buying"
+      },
+      {
+        "handle": "AnujS21202",
+        "name": "Anuj",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Yeah People buy hardware based on what the model can fit, They should be buying based on how fast they want tokens to come out..."
+      },
+      {
+        "handle": "hypomaniac07",
+        "name": "Amol D. Kothalkar MBBS, MD, DNB(Cardiology), FIC",
+        "date": "2026-06-30",
+        "text": "@TheAhmadOsman https://t.co/6z2gI6MZhz"
+      },
+      {
+        "handle": "fawnunwrap",
+        "name": "fawn rants",
+        "date": "2026-06-29",
+        "text": "@TheAhmadOsman 'capacity x bandwidth' sounds clean but the real bottleneck is smth simpler - who can afford the hardware to run any of this locally 😭 local AI is abt to be a $3k+ buy-in and ppl wonder why everyone's still on the cloud"
+      },
+      {
+        "handle": "VonRealbuto2403",
+        "name": "Von.ETH",
+        "date": "2026-06-29",
+        "text": "@TheAhmadOsman unified memory is just cheating if it works https://t.co/vqLkcwhyvt"
+      },
+      {
+        "handle": "PerianthLabs",
+        "name": "Perianth Research",
+        "date": "2026-06-29",
+        "text": "@TheAhmadOsman Easy to understand article. Well written."
+      },
+      {
+        "handle": "ForestHike21",
+        "name": "Lost in the Forest",
+        "date": "2026-06-29",
+        "text": "@darkzOGx @TheAhmadOsman @grok what is the memory bandwidth of the 3090?"
+      },
+      {
+        "handle": "ForestHike21",
+        "name": "Lost in the Forest",
+        "date": "2026-06-29",
+        "text": "Except: Even on the big boy Mac Studios, you are running MoE models. The math on a dense models is huge, so realistically, too slow for these models. \n\nThe untapped potential of using attention layers on the gpu and loading full weights to system ram is really overlooked. NVFP4 quants are also huge for Nvidia cards."
+      },
+      {
+        "handle": "bentleypc",
+        "name": "BentleyPC",
+        "date": "2026-06-29",
+        "text": "@TheAhmadOsman Charts like these make me happy about my 6000 rtx pro decision earlier this year."
+      },
+      {
+        "handle": "MirkoZhulj",
+        "name": "FatBastard 🐷",
+        "date": "2026-06-29",
+        "text": "@TheAhmadOsman how pci bandwidth in multi-gpu systems influence total memory bandwith? Is it better to have 3x rtx pro 6000 or single Mac studio M5 Uktra (once available)?"
+      },
+      {
+        "handle": "hypomaniac07",
+        "name": "Amol D. Kothalkar MBBS, MD, DNB(Cardiology), FIC",
+        "date": "2026-06-29",
+        "text": "@TheAhmadOsman https://t.co/X6mHTLISJa"
+      },
+      {
+        "handle": "pssw0rd",
+        "name": "Aladdin",
+        "date": "2026-06-29",
+        "text": "@TheAhmadOsman *3090TI 24GB @ 1008 GB/s"
+      },
+      {
+        "handle": "mmmonk",
+        "name": "Monk",
+        "date": "2026-06-29",
+        "text": "@TheAhmadOsman Memory bandwidth is the real bottleneck."
+      },
+      {
+        "handle": "Birthofeth",
+        "name": "ETH",
+        "date": "2026-06-29",
+        "text": "@TheAhmadOsman Regarding; https://t.co/0RMfcypcwS\n\n@TheAhmadOsman (AO)\n\nhttps://t.co/8YVov6gtYG\n\n#MiniHub #1 #Blockchain via 🛰️\n\nminihub@tuta.com\n\n🟨"
+      },
+      {
+        "handle": "laura_bh4c03l",
+        "name": "Laura",
+        "date": "2026-06-29",
+        "text": "@TheAhmadOsman Bandwidth really separates what fits from what actually runs smooth. Solid way to cut through the spec sheet noise."
+      },
+      {
+        "handle": "BHamadicharef",
+        "name": "Brahim HAMADI CHAREF 🇫🇷",
+        "date": "2026-06-29",
+        "text": "@TheAhmadOsman Got one RTX 4090: 24GB last year ! Good performance !"
+      },
+      {
+        "handle": "MarkPommrehn",
+        "name": "Mark R Pommrehn",
+        "date": "2026-06-29",
+        "text": "@TheAhmadOsman Great!  Thank you!  \n\nI'm intrigued by used ex-data center V100s with 32 GB. Seem to be some available for under $1000. \nThis seems appealing, especially if connecting 2-4 with NVLINK - specialized card and cable set.\n\nWhat are your thoughts on these?"
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-06-28",
+        "text": "Searched current MSRPs (base/starting prices; Apple & pro cards vary hugely by config/RAM):\n\nRough ranking cheapest → priciest:\n\nMac mini M4 / Arc Pro B60 (~$600), RX 7900 XTX ($999), Arc Pro B65 (~$910), MacBook Air M5 (~$1.1k), Radeon AI PRO R9700 ($1.3k), Tenstorrent n300 (~$1.4k), RTX 4090 ($1.6k), RTX 5090 ($2k), M4 Pro mini & base M5 MacBooks (~$1.6-2.5k), Strix Halo/Snapdragon/Intel laptops (~$1-2.5k), Radeon PRO W7900 (~$3.5k), DGX Spark (~$4.7k), Mac Studio M3 Ultra (~$4k base to $14k max), RTX PRO 6000 Blackwell (~$8k+).\n\nHigh-bandwidth pro GPUs top the price chart. What build are you targeting?"
+      },
+      {
+        "handle": "John_USA_1971",
+        "name": ".",
+        "date": "2026-06-28",
+        "text": "@grok search online to rank the following list of gpu's by current msrp price: Hardware by Memory Bandwidth - Mac Studio M3 Ultra: up to 512GB @ 819 GB/s - RTX PRO 6000 Blackwell: 96GB @ 1792 GB/s - RTX 5090: 32GB @ 1792 GB/s - RTX 4090: 24GB @ 1008 GB/s - RX 7900 XTX: 24GB @ 960 GB/s - Radeon PRO W7900: 48GB @ 864 GB/s - AMD Radeon AI PRO R9700: 32GB @ 640 GB/s - Intel Arc Pro B65: 32GB @ ~608 GB/s - Tenstorrent Wormhole n300: 24GB @ 576 GB/s - Tenstorrent Blackhole p150: 32GB @ 512 GB/s + 800G - MacBook Pro M5 Max: 460-614 GB/s - MacBook Pro M5 Pro: 307 GB/s - DGX Spark: 128GB @ 273 GB/s (coherent + CUDA) - Mac mini M4 Pro: 273 GB/s - Ryzen AI Max / Strix Halo: ~256 GB/s (~96GB usable GPU) - MacBook Air M5: 153 GB/s - Snapdragon X2 Elite: 152-228 GB/s - Intel Lunar Lake: 136 GB/s - Snapdragon X Elite: 135 GB/s - Mac mini M4: 120 GB/s - Arc Pro B60: 24GB @ ~456 GB/s"
+      },
+      {
+        "handle": "DontFearAI",
+        "name": "Ryan • Web AI",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman An AMD 7900 XTX can be had for 1k. Seems like the best value."
+      },
+      {
+        "handle": "ViceSol",
+        "name": "ViceSol",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman People spend too much time comparing hardware. The real question is whether it solves your bottleneck"
+      },
+      {
+        "handle": "PromptVerdict",
+        "name": "Prompt Verdict",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman The software stack is what actually decides how much of that hardware you can use. Great specs mean nothing if the scheduler or drivers choke performance. The real limit is rarely the silicon."
+      },
+      {
+        "handle": "AdiAgashe",
+        "name": "Adi Agashe",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Can you add cost as a column?"
+      },
+      {
+        "handle": "jvr0x",
+        "name": "Javier ⚛ priv/acc",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Speaking about serving, I learned a lot about vLLM vs llama.cpp this week!\n\nhttps://t.co/AFfZjIE2cn"
+      },
+      {
+        "handle": "vanrohan776",
+        "name": "Rohan van der Walt",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman I have a 128gb strix halo, great capacity but painfully slow prefill and decode. A scatter plot would've been better to illustrate, capacity vs bandwidth"
+      },
+      {
+        "handle": "maximilian_khan",
+        "name": "Maximilian Khan",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman please update to include the 3090 ti"
+      },
+      {
+        "handle": "soph6578_9",
+        "name": "🌟 Sophie 🌙",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman curious how much of that bandwidth actually translates to token/s in practice vs just looking good on paper"
+      },
+      {
+        "handle": "HackerTwins",
+        "name": "HackerTwins",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Where is intel arc B70?"
+      },
+      {
+        "handle": "ShaneRobinett",
+        "name": "Shane",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Intel Arc Pro B70: 32GB @ 668 GB/s"
+      },
+      {
+        "handle": "professor_filo",
+        "name": "Filo",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Is there any difference between the top two on the list in the real world usage?"
+      },
+      {
+        "handle": "yavcworld",
+        "name": "Player 999",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman goated page @TheAhmadOsman thanks for your work"
+      },
+      {
+        "handle": "SWard37013",
+        "name": "Jena Moon",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Sometimes these conversations are necessary."
+      },
+      {
+        "handle": "SpaceWelder314",
+        "name": "Jason Paul Michaels",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Where’s does the new ASUS GX10 stack up on this list?"
+      },
+      {
+        "handle": "syco_circus",
+        "name": "Syco Circus",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman What about the Nvidia RTX 6000 pro giveaway? Who won?"
+      },
+      {
+        "handle": "EthicalRealign",
+        "name": "E̋̍̑̂̃̅̓̏̐J̋̍̑̂̃̅̓̏̐B̋̍̑̂̃̅̓̏̐",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman It's going to be interesting because memory capacity is not everything."
+      },
+      {
+        "handle": "nariqwadet",
+        "name": "nariqwadet",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Price next to each card would be really helpful 💡 💰"
+      },
+      {
+        "handle": "sarcasmmmh",
+        "name": "Deniz Soker",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman m5 ultra will be coming out soon, that bandwidth difference is shortening every release"
+      },
+      {
+        "handle": "mishpraj",
+        "name": "Prajjawal Mishra",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Blackwell GDDR7 memory is a game changer nearly double the bandwidth really makes inference throughput a rocket 🚀🔥"
+      },
+      {
+        "handle": "feulf",
+        "name": "Federico Ulfo",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman you should join us and present some of your local models configurations, frontier tower, on July 1st\n\nhttps://t.co/wMe3ahhga1"
+      },
+      {
+        "handle": "Zenul_Abidin",
+        "name": "Ali Sherief",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Now I see why everyone wants to get Mac Studios"
+      },
+      {
+        "handle": "ajcyril",
+        "name": "Ajay Cyril",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Easy reference here: https://t.co/CTG3XvIFFF"
+      },
+      {
+        "handle": "fanofaliens",
+        "name": "Tornado guy",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Cool\nI run my own local harness as well"
+      },
+      {
+        "handle": "snailberg",
+        "name": "Hendrik Kaiser",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman The question is whats the bestel coding model für the 7900xtx"
+      },
+      {
+        "handle": "egesea009",
+        "name": "egesea",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman You don't just buy hardware.\nYou choose your bottleneck.\nThe only question is whether it's the bottleneck your workload can actually afford."
+      },
+      {
+        "handle": "AbdMuizAdeyemo",
+        "name": "Abdulmuiz Adeyemo",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Insane"
+      },
+      {
+        "handle": "pabloruuma",
+        "name": "Pablo Ruiz Martinez",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman interesante cómo la velocidad de banda define lo que realmente puedes exprimir de un chip, eso cambia el juego para los bots de trading…"
+      },
+      {
+        "handle": "Fresco441940524",
+        "name": "Fresco 🫀",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Where is the RTX Pro series?"
+      },
+      {
+        "handle": "verdictprotocol",
+        "name": "Verdict Protocol 🛡️ ERC-8183",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman DGX Spark coherence lets agents share state across models without extra memory copies. 🔗"
+      },
+      {
+        "handle": "Dipanshu_AI",
+        "name": "Dipanshu Kushwaha",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman That's a great breakdown of local AI hardware! It's cool to see how all those pieces come together."
+      },
+      {
+        "handle": "mmmonk",
+        "name": "Monk",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman M3 Ultra unified memory bandwidth is a cheat code for local LLMs."
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-06-28",
+        "text": "**Dataphil3** Fair callout. You're right—pricing on the RTX PRO 6000 Blackwell (96GB) has moved fast.\n\nOriginal MSRP was ~$8.5K (early 2025). Current street prices in mid-2026 commonly land $9K–$13K+, with some partner quotes and official listings hitting $12K–$13.25K (or higher for certain SKUs). Any prior ~$4K figure was outdated.\n\nDemand + memory constraints keep pushing it. Thanks for the correction—I'll use fresher data going forward. Which other cards from the list do you want current pricing on?"
+      },
+      {
+        "handle": "Dataphil3",
+        "name": "Dataphile",
+        "date": "2026-06-28",
+        "text": "@_____Lightning @TheAhmadOsman @grok @grok what are you smoking ? RTX6000pro Blackwell has never been 4000k$ its 12-15k$ each now ."
+      },
+      {
+        "handle": "jaita",
+        "name": "James Aita",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Conclusion- the value all in one  space is still massively up for grabs. An m6 studio type solution could be a game changer"
+      },
+      {
+        "handle": "G1n030",
+        "name": "030 Gin",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman 说了等于白说，我们要的是综合榜单，如果买一个，买哪个？你只是把它们的数字进行了一下排序，完全没意义。我也知道英伟达的卡带宽高，苹果的带宽低，但是苹果的内存大呀。"
+      },
+      {
+        "handle": "sebuzdugan",
+        "name": "Sebastian Buzdugan",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman ac missing kernels are still the bottleneck not the bandwidth chart"
+      },
+      {
+        "handle": "AusWay69",
+        "name": "Waylon Payne",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman The new studio is going to easily be around 1200 for the top-end ultra."
+      },
+      {
+        "handle": "hussainanjar",
+        "name": "Hussain Fakhruddin",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman This is a clear and concise explanation."
+      },
+      {
+        "handle": "ZacharyIndy",
+        "name": "Zachary Indy",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman ough,, this is pretty fast https://t.co/46rT3CkpfT"
+      },
+      {
+        "handle": "asno3030",
+        "name": "asno",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Does the 7900xtx trade blows with the 4090?"
+      },
+      {
+        "handle": "vibecoder_dc",
+        "name": "DC｜use.fo",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman This is like judging a car by the size of the fuel tank and the diameter of the pipes, but ignoring whether the engine is actually connected to the wheels. Software stack isn't just a multiplier; it's the transmission."
+      },
+      {
+        "handle": "3___infinix",
+        "name": "˜”*°•. 阿納斯塔西婭 Λнастасия .•°*”˜",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman 最戳的是第三點 大家在比頻寬跟容量 但軟體堆疊兼容性才是真正決定你的規格能不能用出來的關鍵 ROCm 跟 cuDNN 之間的差距 比記憶體頻寬還大"
+      },
+      {
+        "handle": "cryptd90285",
+        "name": "Cryptd_Ai",
+        "date": "2026-06-28",
+        "text": "@darkzOGx @TheAhmadOsman Right below 4090 it has about 900GB/s"
+      },
+      {
+        "handle": "cryptd90285",
+        "name": "Cryptd_Ai",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman P100 has 732 GB/s and they cost about a hundred bucks"
+      },
+      {
+        "handle": "nickventuri",
+        "name": "Nick Venturi",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman unified memory is basically cheating if the software stack actually behaves"
+      },
+      {
+        "handle": "reachpad",
+        "name": "reachpad.dev",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman this is great i always wondered what i can run where locally"
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-06-28",
+        "text": "**Prices (mid-2026 USD, approx street/MSRP — fluctuate hard w/ AI demand):**\n\n**NVIDIA GPUs** \n• RTX 5090: MSRP $1999 | street ~$3500-4200 \n• RTX 4090: ~$1600-2500 \n• RTX PRO 6000 Blackwell: enterprise $4k+ \n\n**AMD** \n• RX 7900 XTX: ~$800-1100 \n• Radeon PRO W7900 / AI PRO: $2k-4k+ \n\n**Apple** \n• Mac Studio M3 Ultra (high-RAM configs): $4k+ base, $8k-12k+ maxed (512GB rare/$$$ ) \n• MacBook Pro M5 Max: $3500-6000+ \n\n**Others** \n• Tenstorrent n300: ~$1400/card \n• DGX Spark / Strix Halo systems: $2k-10k+ depending on build \n\nFull rig = GPU + PSU/case/cooling extra. Check Newegg/Apple/Amazon for live pricing. Which one are you targeting?"
+      },
+      {
+        "handle": "_____Lightning",
+        "name": "Lightning",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman @grok what are all the costs of these?"
+      },
+      {
+        "handle": "RiseOfFogus",
+        "name": "Gordon Fogus",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman You can't multiply by a software stack"
+      },
+      {
+        "handle": "0x_lun",
+        "name": "Lunari",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman the Mac Studio M3 Ultra sitting at 819 GB/s with up to 512gb is the wildest value on this whole chart\n\nthe rtx 5090 matches it on bandwidth but you get 32gb and a separate box to argue with"
+      },
+      {
+        "handle": "mooogish",
+        "name": "Max",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman This is a crazy good post"
+      },
+      {
+        "handle": "AIAgent_ARIA",
+        "name": "SafeScreen",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman \"Bandwidth tells you how hard the box can breathe\". Pretty sure my phone's breathing just fine running SafeScreen's deepfake detection on the HTP V79. What's your top mobile NPU pick?\n\n@QualcommAI @MetaAI #ExecuTorch #SafeScreenAI #OnDeviceAI"
+      },
+      {
+        "handle": "bygregorr",
+        "name": "Gregor",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman the multiplication framing makes software stack sound like a minor coefficient but on the same m2 box i've seen mlx vs llama.cpp swing throughput by ~2-3x. does that not basically make stack the dominant variable, not the third one?"
+      },
+      {
+        "handle": "tthomson",
+        "name": "Travis",
+        "date": "2026-06-28",
+        "text": "@JxyHelper @TheAhmadOsman How do you find those speeds on your device? Workable?"
+      },
+      {
+        "handle": "MagitekerDev",
+        "name": "bellum omnium contra omnes",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman https://t.co/b5Vd45U4gY"
+      },
+      {
+        "handle": "tthomson",
+        "name": "Travis",
+        "date": "2026-06-28",
+        "text": "@coltfeltes @TheAhmadOsman I just had it price the configurations that were in the original graphic."
+      },
+      {
+        "handle": "coltfeltes",
+        "name": "Colt Feltes",
+        "date": "2026-06-28",
+        "text": "@tthomson @TheAhmadOsman You would have had to take price/dimension for this to make sense though."
+      },
+      {
+        "handle": "tthomson",
+        "name": "Travis",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman @TheAhmadOsman - how excruciating is the lowest bandwidth on this chart for a single user coding? Is it that bad?"
+      },
+      {
+        "handle": "regsky_",
+        "name": "Greg Sky",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman lets have a chat about theoretical bandwidth and real world bandwidth. adjust the 4090 by 10%"
+      },
+      {
+        "handle": "evanrossdavis",
+        "name": "Evan Ross Davis 🇺🇲",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Don't forget the prefill on Nvidia hardware."
+      },
+      {
+        "handle": "evanrossdavis",
+        "name": "Evan Ross Davis 🇺🇲",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman Don't forget the prefill on Nvidia hardware."
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-06-28",
+        "text": "@Beesteazy1 @TheAhmadOsman @Grock Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/pPPTe6QUsn"
+      },
+      {
+        "handle": "Beesteazy1",
+        "name": "BeeSteazy",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman @Grock @grok"
+      },
+      {
+        "handle": "thiagoTF",
+        "name": "Pode vir",
+        "date": "2026-06-28",
+        "text": "@TheAhmadOsman hardware is just the substrate. the real game is the software stack and who's building the right interfaces for it. this whole breakdown is just table stakes."
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HL3J5CPaYAAf1V2.jpg",
+      "localFilename": "2071033579833053288_1.jpg"
+    }
+  ]
+}

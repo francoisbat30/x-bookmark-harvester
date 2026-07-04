@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:06.142Z",
+  "tweetId": "2030695115589640489",
+  "post": {
+    "url": "https://x.com/kamrify/status/2030695115589640489",
+    "author": {
+      "handle": "kamrify",
+      "name": "Kamran Ahmed"
+    },
+    "date": "2026-03-08",
+    "text": "published my claude code statusline https://t.co/8Vgt9QN2ZP",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HC56TtuWgAAxKFG.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1391,
+      "retweets": 65,
+      "replies": 71,
+      "views": 108940
+    },
+    "comments": []
+  }
+}

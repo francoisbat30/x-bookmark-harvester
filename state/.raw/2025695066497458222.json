@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:18.123Z",
+  "tweetId": "2025695066497458222",
+  "post": {
+    "url": "https://x.com/Trump_Fact_News/status/2025695066497458222",
+    "author": {
+      "handle": "Trump_Fact_News",
+      "name": "Trump Fact News 🇺🇸"
+    },
+    "date": "2026-02-22",
+    "text": "🚨 Quelqu’un vient de créer un tableau de bord mondial de renseignement en temps réel — et l’a rendu open source, gratuitement.\n\nIl s’appelle World Monitor.\nImaginez une salle de crise façon CNN + un terminal Bloomberg version géopolitique — accessible à tous.\n\nAucun outil OSINT payant.\nAucun abonnement coûteux.\nAucun accès classifié requis.\n\n📡 Voici ce qu’il suit en temps réel :\n\n→ Zones de conflit actives avec score d’escalade\n→ 220+ bases militaires dans 9 pays\n→ Suivi en direct des avions militaires (ADS-B)\n→ Surveillance navale, y compris les navires « dark » hors radar\n→ Installations nucléaires mondiales\n→ Câbles sous-marins, pipelines pétroliers, data centers IA\n→ Manifestations, sanctions, coupures Internet, détection d’incendies par satellite\n→ Marchés prédictifs comme signaux d’alerte précoce\n\n🤖 Le plus impressionnant :\n\nUne IA analyse 100+ sources d’actualité, classe les menaces en temps réel et génère automatiquement des briefs de renseignement.\n\nChaque pays reçoit un “Instability Index” (0-100) basé sur :\nactivité militaire, manifestations, vitesse médiatique et risques structurels.\n\nSi 3 signaux ou plus explosent dans une même zone (ex : vols militaires + protestations + incendies satellites), une alerte de convergence est déclenchée.\n\nC’est le type d’outil pour lequel des gouvernements paient des millions.\n\nIl fonctionne directement dans votre navigateur.\nUne seule commande pour l’installer.\n100 % open source — licence MIT.",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HBy27Z4X0AAhffc.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1861,
+      "retweets": 409,
+      "replies": 23,
+      "views": 136892
+    },
+    "comments": []
+  }
+}

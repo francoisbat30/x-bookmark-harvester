@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:28.139Z",
+  "tweetId": "2016042873180061928",
+  "post": {
+    "url": "https://x.com/amritwt/status/2016042873180061928",
+    "author": {
+      "handle": "amritwt",
+      "name": "amrit"
+    },
+    "date": "2026-01-27",
+    "text": "&gt; better than opus 4.5\n&gt; is open source https://t.co/tJttKbBvQX https://t.co/JjdvgBfUAD",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G_psTelXYAAnSkO.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 8803,
+      "retweets": 264,
+      "replies": 101,
+      "views": 733694
+    },
+    "comments": []
+  }
+}

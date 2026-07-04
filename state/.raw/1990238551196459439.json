@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:44.513Z",
+  "tweetId": "1990238551196459439",
+  "post": {
+    "url": "https://x.com/typelabo/status/1990238551196459439",
+    "author": {
+      "handle": "typelabo",
+      "name": "Type Labo©"
+    },
+    "date": "2025-11-17",
+    "text": "how to craft timeless palettes with deep green and warm neutrals https://t.co/JfMwu0NKR5",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G56_aYIWIAA19iF.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 399,
+      "retweets": 27,
+      "replies": 2,
+      "views": 8185
+    },
+    "comments": []
+  }
+}

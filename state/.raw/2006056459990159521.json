@@ -1,0 +1,35 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:36.258Z",
+  "tweetId": "2006056459990159521",
+  "post": {
+    "url": "https://x.com/DrFonts/status/2006056459990159521",
+    "author": {
+      "handle": "DrFonts",
+      "name": "Dr Fonts©"
+    },
+    "date": "2025-12-30",
+    "text": "Fine Prism Streaks https://t.co/eTOA44zNNg",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G9bxtXUWIAIjNWb.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G9bxtXxW8AARLhS.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G9bxtX2XUAElLw6.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 358,
+      "retweets": 29,
+      "replies": 1,
+      "views": 17606
+    },
+    "comments": []
+  }
+}

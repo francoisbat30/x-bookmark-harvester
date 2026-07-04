@@ -1,0 +1,33 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:22.648Z",
+  "tweetId": "2068614800515719519",
+  "post": {
+    "url": "https://x.com/powl_d/status/2068614800515719519",
+    "author": {
+      "handle": "powl_d",
+      "name": "Powlisher"
+    },
+    "date": "2026-06-21",
+    "text": "Perso j’utilise un UTR.\n\nRJ45 ou Wi-Fi public → tunnel vers mon infra → terminé.\n\nPeu importe le réseau sur lequel je tombe, je récupère toujours mon environnement habituel et j’évite 99% des emmerdes. https://t.co/FkqDAKV1gU https://t.co/Q2mJAvp0yR",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HLUyMeUa8AAM9aP.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 275,
+      "retweets": 10,
+      "replies": 10,
+      "views": 111318
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HLUyMeUa8AAM9aP.jpg",
+      "localFilename": "2068614800515719519_1.jpg"
+    }
+  ]
+}

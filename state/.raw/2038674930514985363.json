@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:00.032Z",
+  "tweetId": "2038674930514985363",
+  "post": {
+    "url": "https://x.com/Prince_Canuma/status/2038674930514985363",
+    "author": {
+      "handle": "Prince_Canuma",
+      "name": "Prince Canuma"
+    },
+    "date": "2026-03-30",
+    "text": "mlx-audio v0.4.2 is out 🔊\n\nNew Models\n→ Irodori-TTS (Japanese TTS)\n→ HumeAI TADA by @hume_ai \n→ KugelAudio TTS\n→ Cohere Transcribe ASR by @cohere \n→ Voxtral-4B-TTS-2603 by @MistralAI \n→ Qwen2-Audio-7B-Instruct by @Alibaba_Qwen \n→ Moshi STS by @kyutai_labs \n\nWhat’s New\n→ Voxtral TTS streaming with overlap-add decoding\n→ Distil-Whisper added to supported models list\n→ Trendshift badge on README\n\nFixes\n→ Qwen3-TTS streaming memory leak\n→ Parakeet streaming defaults & NeMo preprocessing\n→ Quantized model loading for Fish Qwen3 Omni\n→ NumPy → mx.array in realtime STT streaming\n→ Quantization metadata preserved in VoiceVoice sanitize\n→ Streamed generation now saves audio to disk\n→ Removed PyTorch dep from Cohere ASR buffer loading\n→ Whisper timestamps fix\n\nBig thanks to our contributors 🙏\n@yoshphys @korale77 @sudabg @hewliyang @mvdirty @n0madic @isshintian_cohere @chazmaniandinkle @mm65x @orbitalquark @andimarafioti @beshkenadze @KarnikShreyas @lllucas \n\nGet started today:\n\n> uv pip install -U mlx-audio\n\nLeave us a star ⭐️ https://t.co/hj007yMMH8",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HErUCmhaoAAWAY4.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 231,
+      "retweets": 32,
+      "replies": 6,
+      "views": 15117
+    },
+    "comments": []
+  }
+}

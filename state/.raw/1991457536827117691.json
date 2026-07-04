@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:44.114Z",
+  "tweetId": "1991457536827117691",
+  "post": {
+    "url": "https://x.com/denicmarko/status/1991457536827117691",
+    "author": {
+      "handle": "denicmarko",
+      "name": "Marko Denic"
+    },
+    "date": "2025-11-20",
+    "text": "https://t.co/2yfg6ndFxr is an amazing admin dashboard!\n\n1. Open Source\n2. Customizable\n3. Beautiful\n\nCheck it out! https://t.co/x58YBZMJlg",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1991456928518594560/vid/avc1/974x720/esq8FhbnCbXoe3Gf.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 1101,
+      "retweets": 119,
+      "replies": 18,
+      "views": 121046
+    },
+    "comments": []
+  }
+}

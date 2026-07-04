@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:35.873Z",
+  "tweetId": "2006323854298226866",
+  "post": {
+    "url": "https://x.com/designbypepo/status/2006323854298226866",
+    "author": {
+      "handle": "designbypepo",
+      "name": "Pedro Lopes"
+    },
+    "date": "2025-12-31",
+    "text": "As requested, here's how I made it! https://t.co/bB8k1dREl5 https://t.co/ke6fZ51w2O",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2006323115236691968/vid/avc1/2880x1800/8EKLpkgz6xBaKOWK.mp4"
+      }
+    ],
+    "metrics": {
+      "likes": 540,
+      "retweets": 24,
+      "replies": 16,
+      "views": 80084
+    },
+    "comments": []
+  }
+}

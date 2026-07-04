@@ -1,0 +1,31 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:46.418Z",
+  "tweetId": "1989438186179711089",
+  "post": {
+    "url": "https://x.com/ItsMaclouis/status/1989438186179711089",
+    "author": {
+      "handle": "ItsMaclouis",
+      "name": "Mac Louis"
+    },
+    "date": "2025-11-14",
+    "text": "color inspiration - #100\n\nthe 100th calls for a collection giveaway. https://t.co/PKTBGEP8NR",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G5oc28EXIAAtl6n.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G5oc27_XsAAjWIz.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 769,
+      "retweets": 52,
+      "replies": 8,
+      "views": 18529
+    },
+    "comments": []
+  }
+}

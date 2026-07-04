@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:47.618Z",
+  "tweetId": "1987795507452739679",
+  "post": {
+    "url": "https://x.com/Abmankendrick/status/1987795507452739679",
+    "author": {
+      "handle": "Abmankendrick",
+      "name": "Abraham John 🦄🦓"
+    },
+    "date": "2025-11-10",
+    "text": "Profile Settings Screen Redesign ✨\n\nBefore → After https://t.co/bLalcu0u16",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G5YReglW4AA0mR6.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1261,
+      "retweets": 68,
+      "replies": 74,
+      "views": 49687
+    },
+    "comments": []
+  }
+}

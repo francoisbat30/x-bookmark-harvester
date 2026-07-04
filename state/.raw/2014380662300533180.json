@@ -1,0 +1,22 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:30.627Z",
+  "tweetId": "2014380662300533180",
+  "post": {
+    "url": "https://x.com/dr_cintas/status/2014380662300533180",
+    "author": {
+      "handle": "dr_cintas",
+      "name": "Alvaro Cintas"
+    },
+    "date": "2026-01-22",
+    "text": "How to Run Claude Code Locally (100% Free & Fully Private)\n\nIn this tutorial, you'll learn how to run Claude Code entirely on your own machine using local open-source models. This setup lets the AI read files, edit code, and run commands without sending any data to the cloud, no API costs, no tracking, and complete privacy.\n🧰 Who is This For\nDevelopers who want a private, offline AI coding agent\nPower users who want Claude Code capabilities\nOpen-source fans experimenting with local LLMs\nAnyone who wants an AI that can actually edit files and run terminal commands\nNote: You can receive practical AI tutorials like this every morning in my free newsletter. \nSTEP 1: Choose Your Local “Brain” (Ollama)\nBefore running Claude Code, you need a local engine that can host AI models and support tool or function calling. Ollama handles this part.\nStart by downloading and installing Ollama. Once installed, it runs quietly in the background on both Mac and Windows.\n \nNext, you need to download a coding-focused model. There are a lot of open-source models you can choose from, and it also depends how powerful your machine is. My recommendation:\nFor high performance systems, pull a larger model like:\nqwen3-coder:30b\nIf you’re on a lower-RAM machine, smaller options like:\ngemma:2b or qwen2.5-coder:7b work well.\nOnce you pick one, open your terminal and download one by typing:\n \n \nSTEP 2: Install Claude Code\nNow it’s time to install the Claude Code agent itself. This is what turns the model into an active coding assistant. Open your terminal and run the install command for your system.\nOn Mac or Linux, run: curl -fsSL https://claude.ai/install.sh | bash\nOn Windows, run: irm https://claude.ai/install.ps1 | iex\nOnce the installation finishes, verify everything worked by typing:\n \nIf you were previously logged into an Anthropic account, you may need to log out so Claude can switch to local mode.\nSTEP 3: Point Claude to Your Local Machine\nThis is the most important step. By default, Claude expects to talk to Anthropic’s servers. Here, you explicitly redirect it to your local Ollama instance.\nFirst, tell Claude where Ollama is running by setting the base URL:\nexport ANTHROPIC_BASE_URL=\"http://localhost:11434\"\nNext, Claude still expects an API key, so you give it a dummy value:\nexport ANTHROPIC_AUTH_TOKEN=\"ollama\"\n \nFinally, you can also opt out of both telemetry and survey by setting:\nexport CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1:\nSTEP 4: Launch Claude and Run a Real Test\nNow you’re ready to use Claude Code for actual work.\nNavigate to any project folder in your terminal and launch Claude with your selected model. For example:\nclaude --model qwen2.5-coder:7b\nYou should then see your local model pop up:\n \nOnce it’s running, try your prompt, For example:\n“Add a hello world website”\nYou’ll see Claude read your files, modify the code, and execute terminal commands live, entirely on your machine.\nNo API calls. No cloud processing. Zero cost. Just a fully local AI coding agent working directly inside your project.",
+    "media": [],
+    "metrics": {
+      "likes": 9883,
+      "retweets": 1084,
+      "replies": 231,
+      "views": 2573229
+    },
+    "comments": []
+  }
+}

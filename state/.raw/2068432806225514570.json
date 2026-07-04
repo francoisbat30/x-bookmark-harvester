@@ -1,0 +1,82 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:21.961Z",
+  "tweetId": "2068432806225514570",
+  "post": {
+    "url": "https://x.com/cyber_razz/status/2068432806225514570",
+    "author": {
+      "handle": "cyber_razz",
+      "name": "Abdulkadir | Cybersecurity"
+    },
+    "date": "2026-06-20",
+    "text": "DO NOT touch that keyboard. This is one of the most dangerous attacks circulating right now.\n\nThis is called a ClickFix attack. It is not a CAPTCHA. It is not a verification step. It is a social engineering attack designed to make you execute malicious code on your own machine while believing you are proving you are human.\n\nHere is exactly what happens if you follow those steps.\n\nThe fake page has already silently copied a malicious PowerShell command to your clipboard without you knowing. It happened the moment the page loaded. You did not click anything. You did not consent to anything. The clipboard was written to in the background by JavaScript running on the page.\n\nWhen you press Win + R you open the Windows Run dialog. When you press Ctrl + V you paste that malicious command directly into it. When you press Run you execute it with your own permissions on your own machine. No exploit needed. No vulnerability needed. You did it yourself. Willingly. While thinking you were completing a CAPTCHA.\n\nThe payload varies. Researchers have documented ClickFix delivering infostealers, remote access trojans, and credential harvesters. The malware executes instantly and silently. By the time the Run dialog closes the damage is done.\n\nThe reason this attack works so well is threefold. The fake CAPTCHA looks visually identical to a real one. The instructions sound technical and therefore trustworthy. And critically, you are the one executing the command so endpoint security tools see a legitimate user action rather than an automated attack.\n\nReal CAPTCHAs never ask you to open Run dialogs. Real CAPTCHAs never ask you to paste anything. Real CAPTCHAs never give you keyboard shortcuts.\n\nIf a webpage ever asks you to press Win + R for any reason, close the tab immediately.",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HLSMqilWIAA2dg_.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 17006,
+      "retweets": 7416,
+      "replies": 142,
+      "views": 973641
+    },
+    "comments": [
+      {
+        "handle": "GuardioSecurity",
+        "name": "Guardio",
+        "date": "2026-06-23",
+        "text": "@cyber_razz Very sneaky. This scam tactic has been happening for quite a while. Our research team wrote an entire report about this: https://t.co/qjd5G2ttWk"
+      },
+      {
+        "handle": "PAkugaranw99002",
+        "name": "C. I. A",
+        "date": "2026-06-29",
+        "text": "@cyber_razz If you're running multiple tasks, add small delays between requests and rotate IPs instead of sending everything at once to reduce the chance of rate limits. Magnetic Proxy is one example of a provider you can use if you need residential or mobile IP rotation."
+      },
+      {
+        "handle": "AbdulBased5498",
+        "name": "Md Abdul Based",
+        "date": "2026-06-27",
+        "text": "@cyber_razz done"
+      },
+      {
+        "handle": "safecart_",
+        "name": "safecart",
+        "date": "2026-06-26",
+        "text": "@cyber_razz Why website does best at protecting the users online  🙏 If it helps, I made a free Chrome extension that flags fake checkout pages before you pay — https://t.co/FlJtqulufe. Either way, the rule that beats most of these: never pay on a page you reached from a text or DM link."
+      },
+      {
+        "handle": "gdlinux",
+        "name": "Guardian Digital, Inc.",
+        "date": "2026-06-24",
+        "text": "@cyber_razz @cyber_razz Great explanation of how clipboard manipulation sets this attack apart, many don’t realize JavaScript can do that invisibly. What do you think is the best mitigation at the browser level for preventing clipboard abuse like this?"
+      },
+      {
+        "handle": "Kislabeti",
+        "name": "Kisla",
+        "date": "2026-06-24",
+        "text": "@cyber_razz Check out:\nhttps://t.co/j5vdUkgHgk"
+      },
+      {
+        "handle": "Jerryoex0",
+        "name": "Jerry",
+        "date": "2026-06-24",
+        "text": "@cyber_razz Check out:\nhttps://t.co/6Y9qk6Vu2Y"
+      },
+      {
+        "handle": "KSPD_Detective",
+        "name": "KSPD THE ONE | 대한특수탐정더원",
+        "date": "2026-06-24",
+        "text": "@cyber_razz The scariest part of social engineering is that it doesn't break the system, it bypasses human judgment. No exploit needed when the user is convinced to run the command themselves. \"Pause and verify before you act\" remains the strongest control. Solid breakdown."
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HLSMqilWIAA2dg_.jpg",
+      "localFilename": "2068432806225514570_1.jpg"
+    }
+  ]
+}

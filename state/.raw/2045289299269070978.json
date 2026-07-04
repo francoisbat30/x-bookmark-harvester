@@ -1,0 +1,49 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-06-30T10:00:43.767Z",
+  "tweetId": "2045289299269070978",
+  "post": {
+    "url": "https://x.com/SethSHowes/status/2045289299269070978",
+    "author": {
+      "handle": "SethSHowes",
+      "name": "Seth Howes"
+    },
+    "date": "2026-04-17",
+    "text": "I’ve wanted to do this for a decade.\n\nBut I never did - I refuse to give any company my DNA.\n\nIt is me.\n\nSo this week I sequenced my genome entirely at home. Literally on my kitchen table.\n\nI never exposed my DNA sequence to the internet. Not at any point.\n\nI used a MinION to do the sequencing (it’s smaller + weighs less than an iPhone).\n\nI used open-source DNA models for the analysis (Evo2 and AlphaGenome) running locally on a DGX Spark and Mac Studio.\n\nI traced mechanisms behind my family’s multigenerational autoimmune conditions that no clinician has been able to understand.\n\nWhen I set out to do this I didn’t know if it would actually work. It does.\n\nYour genome is the most private data you will ever have. You probably shouldn’t let it leave your house.",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HGJSe9ZXUAAyNor.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HGJSe-RbcAAD-LX.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HGJTwnfbwAAsPvq.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 12856,
+      "retweets": 1074,
+      "replies": 422,
+      "views": 2486148
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HGJSe9ZXUAAyNor.jpg",
+      "localFilename": "2045289299269070978_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HGJSe-RbcAAD-LX.jpg",
+      "localFilename": "2045289299269070978_2.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HGJTwnfbwAAsPvq.jpg",
+      "localFilename": "2045289299269070978_3.jpg"
+    }
+  ]
+}

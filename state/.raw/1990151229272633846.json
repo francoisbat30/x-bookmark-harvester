@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:48:44.894Z",
+  "tweetId": "1990151229272633846",
+  "post": {
+    "url": "https://x.com/DrFonts/status/1990151229272633846",
+    "author": {
+      "handle": "DrFonts",
+      "name": "Dr Fonts©"
+    },
+    "date": "2025-11-16",
+    "text": "color palette inspiration https://t.co/HNEd6PwLmq",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G55v_wbWMAEZuZ7.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 701,
+      "retweets": 47,
+      "replies": 2,
+      "views": 19265
+    },
+    "comments": []
+  }
+}

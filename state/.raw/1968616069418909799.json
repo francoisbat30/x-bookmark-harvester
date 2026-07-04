@@ -1,0 +1,27 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-04-15T10:49:11.577Z",
+  "tweetId": "1968616069418909799",
+  "post": {
+    "url": "https://x.com/hridoyreh/status/1968616069418909799",
+    "author": {
+      "handle": "hridoyreh",
+      "name": "Hridoy Rehman"
+    },
+    "date": "2025-09-18",
+    "text": "This is how I find $1M business ideas: https://t.co/gPZJSYyArP",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G1Ht4FIasAAvwAT.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 6783,
+      "retweets": 347,
+      "replies": 131,
+      "views": 804379
+    },
+    "comments": []
+  }
+}
