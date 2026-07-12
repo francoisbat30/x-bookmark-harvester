@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:09.193Z",
+  "fetchedAt": "2026-07-12T18:17:28.755Z",
   "tweetId": "1970118384806515030",
   "post": {
     "url": "https://x.com/Mericamemed/status/1970118384806515030",
@@ -10,18 +11,53 @@
     },
     "date": "2025-09-22",
     "text": "This is so true https://t.co/d6PdilLvy4",
+    "thread": [
+      {
+        "id": "1970118384806515030",
+        "text": "This is so true https://t.co/d6PdilLvy4"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/1969980131880886272/vid/avc1/718x1280/qMT_8fMIK5HzM1uP.mp4?tag=16"
+        "url": "https://video.twimg.com/amplify_video/1969980131880886272/vid/avc1/718x1280/qMT_8fMIK5HzM1uP.mp4?tag=16",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1969980131880886272/img/PJBQdzdjfjI92QhK.jpg"
       }
     ],
     "metrics": {
-      "likes": 8465,
-      "retweets": 436,
+      "likes": 8405,
+      "retweets": 442,
       "replies": 19,
-      "views": 717505
+      "views": 717855
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "AlbertanAFk",
+        "name": "Albertan AF",
+        "date": "2025-09-22",
+        "text": "He’s right. There is no problem-free existence. And some of the problems you invite into your life and the time and attention needs to be on working on why that is the case.",
+        "likes": 9
+      },
+      {
+        "handle": "AskACapper",
+        "name": "AskACapper",
+        "date": "2025-09-22",
+        "text": "He’s rich I get it…",
+        "likes": 8
+      },
+      {
+        "handle": "NewYork325",
+        "name": "Laced",
+        "date": "2025-09-22",
+        "text": "Deport anyone who adds gay music to videos",
+        "likes": 6
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1969980131880886272/img/PJBQdzdjfjI92QhK.jpg",
+      "localFilename": "1970118384806515030_1_poster.jpg"
+    }
+  ]
 }

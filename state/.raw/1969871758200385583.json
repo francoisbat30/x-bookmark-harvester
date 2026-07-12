@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:09.610Z",
+  "fetchedAt": "2026-07-12T18:16:59.681Z",
   "tweetId": "1969871758200385583",
   "post": {
     "url": "https://x.com/ItsMaclouis/status/1969871758200385583",
@@ -10,6 +11,12 @@
     },
     "date": "2025-09-21",
     "text": "color inspiration - #083 https://t.co/uq0plEA1uh",
+    "thread": [
+      {
+        "id": "1969871758200385583",
+        "text": "color inspiration - #083 https://t.co/uq0plEA1uh"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -21,11 +28,36 @@
       }
     ],
     "metrics": {
-      "likes": 1649,
-      "retweets": 99,
+      "likes": 1635,
+      "retweets": 98,
       "replies": 2,
-      "views": 44931
+      "views": 45271
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "YungxJelly",
+        "name": "Sentient Djellabiya🇲🇷",
+        "date": "2025-09-22",
+        "text": "There's a bird with this scheme and it's absolutely  exceptional 🤗",
+        "likes": 1
+      },
+      {
+        "handle": "Helios_pn",
+        "name": "Helios",
+        "date": "2025-09-21",
+        "text": "Still got this 💜",
+        "likes": 0
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G1ZH8D6XIAAm5tl.jpg",
+      "localFilename": "1969871758200385583_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G1ZH8MoWYAAQv5b.jpg",
+      "localFilename": "1969871758200385583_2.jpg"
+    }
+  ]
 }

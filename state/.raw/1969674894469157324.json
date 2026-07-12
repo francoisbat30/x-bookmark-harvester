@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:10.006Z",
+  "fetchedAt": "2026-07-12T18:16:49.377Z",
   "tweetId": "1969674894469157324",
   "post": {
     "url": "https://x.com/positivesideofx/status/1969674894469157324",
@@ -10,18 +11,53 @@
     },
     "date": "2025-09-21",
     "text": "What a cute baby announcement! 🥰\n\n🎥: dakotabaker84 on TT. https://t.co/94cTKNLXr9",
+    "thread": [
+      {
+        "id": "1969674894469157324",
+        "text": "What a cute baby announcement! 🥰\n\n🎥: dakotabaker84 on TT. https://t.co/94cTKNLXr9"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/1969674793159917568/vid/avc1/1542x1080/gx8xE9q8Z6uCF8eT.mp4"
+        "url": "https://video.twimg.com/amplify_video/1969674793159917568/vid/avc1/1542x1080/gx8xE9q8Z6uCF8eT.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1969674793159917568/img/nSiMtcfQ-DzsiZBU.jpg"
       }
     ],
     "metrics": {
-      "likes": 137211,
-      "retweets": 4054,
-      "replies": 191,
-      "views": 10491754
+      "likes": 136705,
+      "retweets": 4024,
+      "replies": 185,
+      "views": 10493742
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "thechunkybaby",
+        "name": "Ryan",
+        "date": "2025-09-21",
+        "text": "We did similar!",
+        "likes": 963
+      },
+      {
+        "handle": "Daily_FootbaII",
+        "name": "Daily Football",
+        "date": "2025-09-21",
+        "text": "A new mum managed to capture a cute moment when her twins discover each other for the first time",
+        "likes": 394
+      },
+      {
+        "handle": "activeboyfollow",
+        "name": "Active Boy 😎",
+        "date": "2025-09-21",
+        "text": "It all starts with the parents. Kids' brains are like sponges; what you teach them, they’ll learn very quickly ❤️",
+        "likes": 176
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1969674793159917568/img/nSiMtcfQ-DzsiZBU.jpg",
+      "localFilename": "1969674894469157324_1_poster.jpg"
+    }
+  ]
 }
