@@ -275,7 +275,10 @@ async function main() {
           wouldProcess: pending.map((b) => ({
             id: b.id,
             author: b.authorHandle,
-            text: b.text.slice(0, 80),
+            date: (b.createdAt ?? "").slice(0, 10),
+            likes: b.likes,
+            replies: b.replies,
+            text: b.text.slice(0, 200),
           })),
           skippedByLimit,
         },

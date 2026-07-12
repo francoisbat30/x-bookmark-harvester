@@ -9,6 +9,8 @@ export interface BookmarkSummary {
   authorName: string;
   createdAt: string;
   text: string;
+  likes: number;
+  replies: number;
 }
 
 export interface FetchBookmarksOptions {
@@ -37,6 +39,7 @@ interface XTweetLite {
   text: string;
   created_at: string;
   author_id: string;
+  public_metrics?: { like_count: number; reply_count: number };
 }
 
 interface BookmarksResponse {
@@ -85,7 +88,7 @@ export async function fetchAllBookmarks(
   const { accessToken, maxPages = 20, isKnown } = options;
   const me = options.me ?? (await getAuthenticatedUserId(accessToken));
 
-  const tweetFields = "created_at,author_id,text";
+  const tweetFields = "created_at,author_id,text,public_metrics";
   const expansions = "author_id";
   const userFields = "username,name";
 
@@ -127,6 +130,8 @@ export async function fetchAllBookmarks(
         authorName: author?.name ?? "",
         createdAt: t.created_at,
         text: t.text,
+        likes: t.public_metrics?.like_count ?? 0,
+        replies: t.public_metrics?.reply_count ?? 0,
       });
     }
 
