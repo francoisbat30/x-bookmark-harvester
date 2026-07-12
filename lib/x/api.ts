@@ -1,5 +1,5 @@
 import type { PostComment, PostExtraction, PostMedia } from "../types";
-import { recordApiCall } from "./usage";
+import { recordApiCall, recordBilledResources } from "./usage";
 
 const BASE = "https://api.x.com/2";
 
@@ -224,6 +224,7 @@ async function runSearch(
       bearerToken,
     );
 
+    recordBilledResources((res.data ?? []).length);
     for (const t of res.data ?? []) acc.tweets.push(t);
     for (const u of res.includes?.users ?? []) acc.users.set(u.id, u);
     for (const [k, v] of indexMedia(res.includes?.media ?? [])) {
@@ -264,6 +265,8 @@ export async function extractPostWithXApi(
   if (!main.data) {
     throw new Error(`X API returned no data for tweet ${tweetId}`);
   }
+
+  recordBilledResources(1);
 
   const tweet = main.data;
   const userById = new Map((main.includes?.users ?? []).map((u) => [u.id, u]));

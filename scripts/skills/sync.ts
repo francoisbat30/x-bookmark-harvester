@@ -40,6 +40,7 @@ import {
   writeVideoTranscripts,
   hasCache,
 } from "../../lib/obsidian/cache";
+import { getUsageSnapshot, estimatedCostUsd } from "../../lib/x/usage";
 
 interface Args {
   limit: number | null;
@@ -50,6 +51,8 @@ interface Args {
   videos: boolean;
   /** Transcrire les vidéos via Grok (coût ≈ $0.01–0.05/vidéo). */
   transcripts: boolean;
+  /** Listing complet des bookmarks (défaut : incrémental, stop-early). */
+  full: boolean;
 }
 
 function parseArgs(argv: string[]): Args {
@@ -59,6 +62,7 @@ function parseArgs(argv: string[]): Args {
   let account: string | null = null;
   let videos = false;
   let transcripts = false;
+  let full = false;
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === "--limit") {
@@ -75,9 +79,11 @@ function parseArgs(argv: string[]): Args {
       videos = true;
     } else if (a === "--transcripts") {
       transcripts = true;
+    } else if (a === "--full") {
+      full = true;
     }
   }
-  return { limit, dryRun, delayMs, account, videos, transcripts };
+  return { limit, dryRun, delayMs, account, videos, transcripts, full };
 }
 
 const sleep = (ms: number) =>
@@ -233,7 +239,13 @@ async function main() {
     }
     seenUsers.add(me.id);
 
-    const bms = await fetchAllBookmarks({ accessToken: s.accessToken, me });
+    // Incrémental par défaut (l'API facture chaque bookmark retourné) ;
+    // --full force la relecture complète (contrôle d'intégrité ponctuel).
+    const bms = await fetchAllBookmarks({
+      accessToken: s.accessToken,
+      me,
+      ...(args.full ? {} : { isKnown: hasCache }),
+    });
     for (const b of bms) if (!merged.has(b.id)) merged.set(b.id, b);
     accountsInfo.push({ label: s.label, username: me.username, total: bms.length });
   }
@@ -294,10 +306,14 @@ async function main() {
     .filter((p) => p.warnings.length > 0)
     .map((p) => ({ id: p.id, warnings: p.warnings }));
 
+  const apiReads = getUsageSnapshot().billedResources;
+  const costUsd = estimatedCostUsd();
+
   // Ligne courte réutilisable telle quelle comme réponse Telegram.
   const summaryLine =
     `${processed.length} nouveaux · ${known.length} connus · ${failed.length} erreur${failed.length === 1 ? "" : "s"}` +
-    (warnings.length > 0 ? ` · ${warnings.length} avertissement${warnings.length === 1 ? "" : "s"}` : "");
+    (warnings.length > 0 ? ` · ${warnings.length} avertissement${warnings.length === 1 ? "" : "s"}` : "") +
+    ` · ~$${costUsd.toFixed(2)}`;
 
   console.log(
     JSON.stringify(
@@ -310,6 +326,8 @@ async function main() {
         processed: processed.length,
         failed: failed.length,
         skippedByLimit,
+        apiReads,
+        estimatedCostUsd: costUsd,
         vaultDir: path.dirname(processed[0]?.absolutePath ?? ""),
         failures: failed,
         warnings,

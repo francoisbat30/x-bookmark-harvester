@@ -1,4 +1,4 @@
-import { recordApiCall } from "./usage";
+import { recordApiCall, recordBilledResources } from "./usage";
 
 const BASE = "https://api.x.com/2";
 
@@ -17,6 +17,13 @@ export interface FetchBookmarksOptions {
   /** Pre-resolved identity (from getAuthenticatedUserId) to skip the /users/me
    * round-trip when the caller already knows who this token belongs to. */
   me?: { id: string; username: string; name: string };
+  /**
+   * Listing incrémental (pay-per-use : chaque bookmark retourné est facturé).
+   * L'API renvoie les bookmarks du plus récemment ajouté au plus ancien : dès
+   * qu'une page entière est déjà connue, tout ce qui suit l'est aussi → stop.
+   * Retourne true si l'id est déjà connu (ex. hasCache). Omis = listing complet.
+   */
+  isKnown?: (id: string) => Promise<boolean>;
 }
 
 interface XUser {
@@ -75,7 +82,7 @@ export async function getAuthenticatedUserId(
 export async function fetchAllBookmarks(
   options: FetchBookmarksOptions,
 ): Promise<BookmarkSummary[]> {
-  const { accessToken, maxPages = 20 } = options;
+  const { accessToken, maxPages = 20, isKnown } = options;
   const me = options.me ?? (await getAuthenticatedUserId(accessToken));
 
   const tweetFields = "created_at,author_id,text";
@@ -108,7 +115,10 @@ export async function fetchAllBookmarks(
       (data.includes?.users ?? []).map((u) => [u.id, u]),
     );
 
-    for (const t of data.data ?? []) {
+    const pageItems = data.data ?? [];
+    recordBilledResources(pageItems.length);
+
+    for (const t of pageItems) {
       const author = users.get(t.author_id);
       out.push({
         id: t.id,
@@ -118,6 +128,18 @@ export async function fetchAllBookmarks(
         createdAt: t.created_at,
         text: t.text,
       });
+    }
+
+    // Stop-early : page entière déjà connue → la suite l'est aussi.
+    if (isKnown && pageItems.length > 0) {
+      let allKnown = true;
+      for (const t of pageItems) {
+        if (!(await isKnown(t.id))) {
+          allKnown = false;
+          break;
+        }
+      }
+      if (allKnown) break;
     }
 
     nextToken = data.meta?.next_token;
