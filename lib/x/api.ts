@@ -301,7 +301,7 @@ export async function extractPostWithXApi(
     users: new Map(),
     media: new Map(),
   };
-  if (author?.username) {
+  if (author?.username && maxThreadPages > 0) {
     try {
       threadAcc = await runSearch(
         endpoint,
@@ -325,13 +325,15 @@ export async function extractPostWithXApi(
     media: new Map(),
   };
   try {
-    commentsAcc = await runSearch(
-      endpoint,
-      `conversation_id:${tweet.conversation_id}`,
-      maxCommentPages,
-      bearerToken,
-      { sortOrder: "relevancy", startTime },
-    );
+    if (maxCommentPages > 0) {
+      commentsAcc = await runSearch(
+        endpoint,
+        `conversation_id:${tweet.conversation_id}`,
+        maxCommentPages,
+        bearerToken,
+        { sortOrder: "relevancy", startTime },
+      );
+    }
   } catch (e) {
     console.warn(
       `[xapi] conversation search (${endpoint}) failed for ${tweetId}: ${(e as Error).message}`,
@@ -349,7 +351,7 @@ export async function extractPostWithXApi(
   const harvested = new Set(
     commentsAcc.tweets.filter((t) => t.id !== tweet.id).map((t) => t.id),
   ).size;
-  if (harvested < expectedComments) {
+  if (maxCommentPages > 0 && harvested < expectedComments) {
     try {
       const topUp = await runSearch(
         endpoint,

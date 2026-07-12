@@ -1,0 +1,118 @@
+# TRIAGE SYNC — nouveaux bookmarks en mode LÉGER : note complète (texte, thread non recherché, médias locaux)
+# mais SANS recherche de commentaires (~$0.005 au lieu de ~$0.20-0.50). Supprime une ligne pour le traitement complet.
+# Critères : annonces/actu datées, hype/bait, memes, liens ou prompts inline, périmé.
+2074905017983607081  @kirillk_web3 — lien nu
+2075710400192991447  @aaron_epstein — démo produit
+2074894588964372498  @NVIDIARTXSpark — annonce DFlash
+2074144478529745091  @kapilansh_twt — meme Linux
+2076073296823509248  @Polymarket — stat LinkedIn slop
+2074176934016110700  @Jouhatsu_ai — storytelling vault leak
+2074157486710329829  @JotaroSeo — lien nu
+2069463697337303426  @FlowAltDelete — tips Copilot datés
+2069468693017268244  @claudeai — annonce Claude Tag
+2067325887909884315  @claudeai — annonce Claude Design
+2064780765506719842  @Kevin_Indig — réaction lien
+2063537674460270791  @LimitingThe — pattern IPO daté
+2063233191062700280  @RoundtableSpace — hype compression
+2063287081133134323  @grok — explication inline TurboQuant
+2061535636050346100  @quentinaverous — foot, hors veille
+2060343771590459564  @lilyraynyc — anecdote Discover
+2059696100626297225  @opencode — promo datée
+2056966314942689483  @Amank1412 — bait SEO mort
+2043611654663938207  @ChanPerco — doublon paperasse (garde @NicolasZu)
+2050601628810784811  @Crypto_Jargon — hype bot trading
+2048426035541135437  @LinusEkenstam — fun palm reading
+2044086464263139414  @ericciarla — annonce Fire-PDF
+2044304794194452945  @GoogleResearch — annonce Fabula
+2043626777671876901  @heynavtoor — lien WeClone inline
+2043377037235343779  @karankendre — rant nerf
+2043321284113670594  @bridgemindai — drame bench daté
+2042540297284976805  @nlw — citation lancement Mythos
+2041933843494793238  @replicate — annonce Seedance
+2041869776927261024  @_vmlops — lien markitdown inline
+2040772692866183308  @RoundtableSpace — liens cours inline
+2040377584551358575  @alex_prompter — prompts inline
+2039828896280088934  @cgtwts — meme
+2039602481542652320  @RoundtableSpace — doublon TradingView (garde @Axel_bitblaze69)
+2039253268367556969  @heynavtoor — lien Sherlock inline
+2038809936314892572  @wesbos — alerte axios datée
+2038351017805242427  @Hawks0x — lien nu
+2037307156320714833  @serus_ai — promo dark web scan
+2037946734350151835  @adxtyahq — lien nu
+2037928570257903983  @starks_arq — lien nu
+2037285159045615777  @hooeem — meme fitness
+2036446667465957768  @ElevenLabsDevs — annonce Scribe
+2036702519959962060  @heynavtoor — lien whisper inline
+2036160818056683678  @mattepstein — réaction lien
+2036182446023254412  @RoundtableSpace — bait SEO
+2036171718952124835  @DataChaz — meme
+2035703151710384331  @Frenchie_ — lien nu
+2035694473787895954  @cgtwts — hype memory
+2035345300211003723  @AdresanSoso — lien nu
+2035366182468177995  @viktoroddy — comparo visuel daté
+2035276611210121216  @Aurelien_Gz — meme
+2034642910860202261  @LordVXrp — storytelling Polymarket
+2034144628333810085  @kanavtwt — joke LinkedIn
+2034332847893574080  @stitchbygoogle — annonce Stitch
+2034247165829431392  @techxutkarsh — lien masterclass
+2033819344535490764  @gudanglifehack — prompts inline
+2033826924943012307  @RoundtableSpace — hype 350K
+2033966373353947352  @thisdudelikesAI — prompts bait
+2033921792302047561  @noisyb0y1 — bait trading
+2033851553866731636  @heynavtoor — prompts kimi bait
+2033842024479174989  @RoundtableSpace — hype student 1.5M
+2033595634373300450  @Amank1412 — hype bot
+2033713678487265693  @RoundtableSpace — hype swarm
+2033511756048245122  @grok — explication inline
+2033508591228142062  @HeyAmit_ — listicle 120 outils
+2033457636830818675  @SimslearnAi — prompts bait
+1993980476902527425  @NanoBanana — prompt inline restauration
+1993748654675345600  @RaphaelDabadie — étude datée votes IA
+1989075447435653181  @kimmonismus — actu cyberattaque datée (l'exemple type)
+1985967820883009543  @Microsoft365 — annonce compliance
+1986070270214324341  @ProtonPrivacy — FUD daté
+1984395350308741342  @Dr_Singularity — pop-science simulation
+1983919425272135719  @_heyrico — design-ref
+1983938153552793743  @thetripathi58 — bait industries
+1983957683737915405  @LocallyAIApp — annonce macOS
+1983963930356752820  @claudeai — early look daté
+1983212199205028260  @flowith — giveaway mort
+1983419340591640966  @LinusEkenstam — annonce Sonic 3
+1983233494575952138  @1x_tech — annonce robot NEO
+1983208359676239923  @Chiragjoshi_12 — reply
+1983223150063374424  @SHIVANIGERA5 — listicle Excel
+1983279846315958284  @OpenAIDevs — résultats hackathon datés
+1983265845838291315  @perplexity_ai — blog daté
+1982790369373827460  @wizofecom — masterclass bait
+1982783114696167803  @AndrewBolis — frameworks inline
+1982999048912072824  @nlw — actu électriciens
+1982817060972355761  @genamind — guide lien
+1982416929353818436  @WesRoth — actu Suno
+1982604844780376485  @nlw — rant étude
+1982362608595529781  @aiwithjainam — workflow bait
+1982246063974101040  @AravSrinivas — annonce sidebar
+1980648699144613960  @thumbnailninja — design-ref angles
+1980700765250355554  @liambolling — impressions Atlas datées
+1979917892092084512  @clcoding — image layers
+1979170330183643372  @XRoboHub — actu prix robot
+1979547307856282058  @kimmonismus — actu Grokipedia morte
+1978917807870955841  @andres_vidoza — annonce Copilot Vision
+1979228994026307647  @justalexoki — viral
+1979229672790434149  @NotebookLM — annonce app
+1978914666291044525  @omooretweets — annonce workflows
+1978871809765445884  @rileybrown — annonce Skills
+1978822192826581142  @gregisenberg — stat datée
+1978941079182545338  @AravSrinivas — annonce insider trading
+1978621500308570115  @alex_verem — bait paper
+1978618643807154469  @rohanpaul_ai — recherche niche
+1978737728302014760  @btibor91 — leak feature daté
+1978130496207888717  @emollick — actu commerce
+1978174751207039375  @satyanadella — annonce Excel
+1978392637682876551  @ecommerceshares — stats datées
+1978153397552374168  @testingcatalog — annonce API datée
+1978587411803156942  @AskPerplexity — stat bait
+1978034891926458552  @MillieMarconnni — recherche news datée
+1977925073634984423  @unusual_whales — actu JPMorgan
+1978450032597868677  @unusual_whales — stat SP500
+1978507110477332582  @sundarpichai — actu recherche cancer
+1978566047058768065  @unusual_whales — stat jobs

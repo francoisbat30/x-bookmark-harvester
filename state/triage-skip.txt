@@ -1,0 +1,149 @@
+# TRIAGE BACKFILL — anciens posts SANS refetch de commentaires (re-render + images seulement, gratuit)
+# Une ligne = un tweet ID exclu du refetch. Supprime une ligne pour lui rendre le traitement complet.
+# Critères : annonces/actu datées, hype sans substance, design-inspo (l'image est la valeur), liens/prompts inline, doublons, memes.
+1971132173169328408  @stevelauda_ — design-ref, l'image suffit
+1971191454283292982  @_artasaka — design-ref
+1971476731761656074  @EHuanglu — lien nu, faible signal
+1971676668256571392  @EthanDriskill — flex design
+1971819066467013078  @UiSavior — design-ref fonts
+1971861924703814081  @basit_designs — design-ref
+1971874670749360228  @heysatya_ — guide-image, l'image suffit
+1972405957939564969  @ItsMaclouis — color-inspo
+1973074108532359502  @DrFonts — typo poster
+1973130735176347804  @ItsMaclouis — color-inspo
+1974224826098131148  @kimmonismus — stat datée GPT-5 électricité
+1974426104464380007  @UiSavior — lien collection inline
+1974450320429502531  @stats_feed — stat datée Europe
+1975115556446474403  @pietrobaudin — guide-image 60-30-10
+1975516482441519565  @adriankuleszo — guide-image onboarding
+1976295405605556395  @santu_design — design-ref footer
+1976754615602565440  @ItsMaclouis — color-inspo
+1977670455881564265  @UiSavior — design-ref
+1977681172181467638  @aigleeson — annonce voix Google datée
+1977714124877332924  @MAQIB135 — bait tutoriel secret
+1977728096988995649  @DesignsByGolem — demande de feedback perso
+1977826782436003856  @beaversteever — quip fpga
+1978500362270384191  @GeminiApp — annonce Veo 3.1
+1978573611293446333  @GeminiApp — annonce Veo 3.1 bis
+1980291419635118133  @design_with_ayo — prompt inline
+1980547827123261727  @masumparvej_ — lien outil inline
+1980587769379582316  @IamEmily2050 — prompt inline complet
+1980667345317286293  @brave — actu sécu Comet datée
+1980669642344698270  @carlvellotti — cours PM niche
+1980701516899000742  @kimmonismus — impressions Atlas datées
+1980712886780776479  @DuckDuckGo — annonce produit
+1981405108991824278  @GoogleResearch — annonce Earth AI
+1981518502478385392  @Copilot — annonces datées
+1984742250845245795  @ItsMaclouis — color-inspo
+1985051785153626264  @koltregaskes — comparo modèles datée
+1986539086988124425  @ItsMaclouis — color-inspo
+1986723014352966019  @sujon_co — design-ref dashboard
+1986862660772655320  @designbyaron — autopromo
+1987034935916744884  @AmenaiSabuwala — autopromo
+1987475274494366088  @GithubProjects — lien repo inline
+1987795507452739679  @Abmankendrick — design-ref redesign
+1987910344879022388  @keilethh — sref midjourney
+1989438186179711089  @ItsMaclouis — color-inspo
+1989717607767818438  @theatashka — design perso
+1990087604776132670  @typelabo — palette
+1990151229272633846  @DrFonts — palette
+1990162968059785532  @ItsMaclouis — color-inspo
+1990238551196459439  @typelabo — palette
+1991457536827117691  @denicmarko — lien dashboard inline
+1993397495205183509  @riomadeit — technique inline nano banana
+1993755912440606822  @GeminiApp — prompt inline photos
+1995259041883295977  @tom_doerr — lien outil inline
+1995542490049290680  @AmirMushich — prompt inline
+1999497737578934316  @tom_doerr — lien outil inline
+2000884207028179418  @azed_ai — prompt inline
+2001373897154007390  @ExaAILabs — annonce People Search
+2002008996002120145  @competitionreal — viral sans substance
+2002801738911494532  @BrettFromDJ — eye-candy liquid metal
+2003414778287636594  @DrFonts — backgrounds
+2003433826660364725  @tom_doerr — lien outil inline
+2003497414720639085  @viktoroddy — sondage heros IA
+2004491374658543958  @thisguyknowsai — annonce Learn Your Way datée
+2006056459990159521  @DrFonts — streaks
+2006067677916254601  @tom_doerr — lien inline
+2006159814724853919  @tom_doerr — lien inline
+2006191099531124772  @GithubProjects — lien inline
+2006323854298226866  @designbypepo — making-of design
+2006747506311397413  @hewarsaber — anatomy landing, l'image suffit
+2006919611820945884  @nextstepst — gradients
+2007774434376212516  @Rixhabh__ — bait vols pas chers
+2008380527141941420  @deedydas — stat trafic datée
+2010399715951809003  @appariciojunior — prompt inline
+2011078287762825474  @victormustar — démo locale
+2011717516796838108  @GithubProjects — lien whisper inline
+2013363880395739391  @AlternativeTo — lien kanban inline
+2013516332910727544  @testingcatalog — actu algo X datée
+2014788077924040729  @HuggingModels — annonce PersonaPlex
+2016030864304701561  @UnslothAI — annonce DeepSeek-OCR 2 (l'exemple type)
+2016042873180061928  @amritwt — hype open source
+2016086374005538932  @ollama — annonce Kimi cloud
+2016222038248083857  @hugomercierooo — hype lancement Twin (6006 replies évitées)
+2016920995815117230  @IterIntellectus — hype world model
+2019374239451607250  @tom_doerr — lien outil inline
+2020936942901395487  @dom_scholz — fun visuel
+2022360835621032111  @ivanfioravanti — bench daté
+2022363079976034455  @ChromiumDev — preview WebMCP datée
+2022925134496252395  @TheAhmadOsman — bench MiniMax
+2023729148053909747  @RoundtableSpace — hype update
+2024069380162936992  @kimmonismus — doublon hack prompt (garde @_Re_)
+2024152863967240529  @GeminiApp — annonce Lyria 3
+2025334966884708846  @JohnLeFevre — stat adoption datée
+2025621140362625145  @ClementPillette — bench setups
+2025661000662294573  @TheAhmadOsman — reply exemple
+2025695066497458222  @Trump_Fact_News — hype dashboard
+2026119136368001448  @iruletheworldmo — hype vidéo
+2026259156219601253  @sukh_saroy — lien llmfit inline
+2026354821389799720  @itsPaulAi — annonce Qwen
+2026414089556168963  @mkurman88 — bench local
+2027361802913214474  @ivanfioravanti — bench
+2027416723675042245  @alexocheema — guide bench niche
+2027431590377181606  @_Akanoa_ — lien nu
+2027762397587325327  @ivanfioravanti — bench
+2027767894000734322  @hasantoxr — lien markitdown inline (doublon liste nouveaux)
+2027790345098953071  @LysandreBL — anecdote courtage
+2027813216395440378  @guillaume_rygn — reply setup
+2028141965355975139  @RoundtableSpace — bench hype
+2028173427530485985  @grok — reply cours
+2028472859945738473  @_sahilrajput — explication MoE basique
+2028777644196774068  @LucJager — anecdote mail OpenAI
+2028880374642679899  @MehdiBuilds — reply
+2029237975654252869  @adocomplete — annonce ultrathink
+2029737146383487334  @TheRundownAI — rapport jobs daté
+2030051147264970893  @bearlyai — analyse subventions datée
+2030312187915309311  @steipete — bench daté
+2030369024056422562  @Eng_china5 — curiosité fleurs
+2030695115589640489  @kamrify — mini-outil statusline
+2031513457678495935  @msdev — cours Copilot CLI
+2031633954021806087  @iamsupersocks — doublon Cherny FR
+2031743032266043687  @chongdashu — niche gamedev sprites
+2031784343300153654  @GeminiApp — lien nu
+2031879090442002826  @RoundtableSpace — hype dashboard Iran
+2032042937584869560  @KrakowiakK — bench contexte
+2033164190106411090  @salitribule — anecdote copro
+2038674930514985363  @Prince_Canuma — release mlx-audio
+2038974641289461989  @_SaxX_ — alerte axios datée
+2040025267490390117  @RoundtableSpace — bait article agent
+2040059394126205233  @outsource_ — annonce quantization
+2040390733262373036  @Trump_Fact_News — hype outil scraping
+2043675576452706814  @MaziyarPanahi — démo Gemma vidéo
+2044535184494891250  @googlegemma — démo doublon
+2044852335848133113  @GoogleAIStudio — annonce TTS
+2045289299269070978  @SethSHowes — récit perso ADN
+2045935213847691301  @aaron_epstein — démo maison
+2047034226806292493  @OpenSwarm_ — annonce lancement
+2048019501489275048  @ActuFoot_ — actu foot IA
+2049572011555406325  @_smontlouis — conseil inline
+2050844725091918118  @brain_stimulus — clickbait paiement
+2054386235867812240  @IndieDevHailey — gadget viral WiFi
+2054526785858031940  @Prefet74 — info locale G7
+2057019521114759343  @BlackBondPtv — doublon Cherny FR
+2058918458067435800  @The_Cyber_News — alerte WhatsApp datée
+2058972074438254774  @Jouhatsu_ai — hype agents Microsoft
+2063205421024727290  @_3emeOeil — spéculatif Build
+2063261890361672011  @LearnWithBishal — actu PewDiePie
+2064853955151274121  @vargastartup — bench LocateAnything
+2065185238397899169  @skalskip92 — teaser

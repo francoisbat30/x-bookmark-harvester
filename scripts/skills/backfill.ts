@@ -25,6 +25,7 @@ import {
   type CacheEnvelope,
 } from "../../lib/obsidian/cache";
 import { planBackfill } from "../../lib/obsidian/backfill";
+import { loadTriageList } from "../../lib/triage";
 import { extractPost } from "../../lib/x/extract";
 import { mcpConfigFromEnv } from "../../lib/x/mcp-source";
 import { downloadImages } from "../../lib/obsidian/media-download";
@@ -85,9 +86,11 @@ async function main() {
     process.exit(1);
   }
 
+  const skipIds = await loadTriageList("triage-skip.txt");
   const plan = planBackfill(envelopes, {
     limit: args.limit,
     refetchAll: args.refetchAll,
+    skipIds,
   });
 
   if (args.dryRun) {
@@ -97,6 +100,7 @@ async function main() {
           ok: true,
           dryRun: true,
           ...plan.totals,
+          triageSkipped: skipIds.size,
           summaryLine: `devis : ${plan.totals.posts} posts (${plan.totals.refetch} refetch, ${plan.totals.rerenderOnly} re-render) · ≤ ${plan.totals.estReadsMax} lectures · ≤ $${plan.totals.estCostMaxUsd.toFixed(2)}`,
         },
         null,

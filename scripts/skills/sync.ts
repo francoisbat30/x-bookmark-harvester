@@ -41,6 +41,7 @@ import {
   hasCache,
 } from "../../lib/obsidian/cache";
 import { getUsageSnapshot, estimatedCostUsd } from "../../lib/x/usage";
+import { loadTriageList } from "../../lib/triage";
 
 interface Args {
   limit: number | null;
@@ -108,16 +109,20 @@ async function processBookmark(
   bearer: string,
   authorHandle: string,
   args: Args,
+  light: boolean,
 ): Promise<ProcessOk | ProcessErr> {
   try {
     // Source chain: X API (or MCP if enabled) primary → Grok fallback when the
     // primary fails or is missing text/author/comments. See lib/x/extract.ts.
+    // Mode léger (triage) : lookup + médias seulement — pas de recherches,
+    // pas de fallback Grok (un post léger sans commentaires est un choix).
     const { post, source, warnings: extractWarnings } = await extractPost(id, {
       url: `https://x.com/${authorHandle || "i"}/status/${id}`,
       bearerToken: bearer,
-      grokApiKey: process.env.XAI_API_KEY,
+      grokApiKey: light ? undefined : process.env.XAI_API_KEY,
       grokModel: process.env.XAI_MODEL,
       mcp: mcpConfigFromEnv(),
+      ...(light ? { searchDepth: { commentPages: 0, threadPages: 0 } } : {}),
     });
     const warnings = [...extractWarnings];
     await writeCache(id, post, source);
@@ -251,6 +256,7 @@ async function main() {
   }
 
   const bookmarks = [...merged.values()];
+  const lightIds = await loadTriageList("triage-light.txt");
 
   const withStatus = await Promise.all(
     bookmarks.map(async (b) => ({ ...b, alreadyCached: await hasCache(b.id) })),
@@ -293,7 +299,13 @@ async function main() {
   const failed: ProcessErr[] = [];
   for (let i = 0; i < pending.length; i++) {
     const b = pending[i];
-    const result = await processBookmark(b.id, bearer, b.authorHandle, args);
+    const result = await processBookmark(
+      b.id,
+      bearer,
+      b.authorHandle,
+      args,
+      lightIds.has(b.id),
+    );
     if (result.ok) processed.push(result);
     else failed.push(result);
     console.error(

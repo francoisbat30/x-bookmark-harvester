@@ -72,3 +72,21 @@ describe("planBackfill", () => {
     expect(plan.totals.estCostMaxUsd).toBe(0);
   });
 });
+
+describe("planBackfill — triage skip", () => {
+  const corpus = [env("a", 0, 0), env("b", 40, 0), env("d", 6000, 0)];
+
+  it("un id dans triage-skip perd son refetch mais garde le re-render", () => {
+    const plan = planBackfill(corpus, { skipIds: new Set(["d"]) });
+    const d = plan.items.find((i) => i.tweetId === "d")!;
+    expect(d.refetch).toBe(false);
+    expect(d.estReads).toBe(0);
+    expect(plan.totals.refetch).toBe(1);
+    expect(plan.totals.posts).toBe(3);
+  });
+
+  it("skip s'applique aussi à refetchAll", () => {
+    const plan = planBackfill(corpus, { refetchAll: true, skipIds: new Set(["a", "d"]) });
+    expect(plan.totals.refetch).toBe(1);
+  });
+});
