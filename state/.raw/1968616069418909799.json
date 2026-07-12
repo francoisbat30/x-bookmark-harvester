@@ -1,7 +1,7 @@
 {
   "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-07-12T18:24:57.124Z",
+  "fetchedAt": "2026-07-12T18:31:17.530Z",
   "tweetId": "1968616069418909799",
   "post": {
     "url": "https://x.com/hridoyreh/status/1968616069418909799",
@@ -29,7 +29,98 @@
       "replies": 131,
       "views": 805341
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "MohammedsheikZ6",
+        "name": "Sheik",
+        "date": "2025-09-19",
+        "text": "@poorduder @hridoyreh Yeah man. Got the same results",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "blezzkay",
+        "name": "Blezzkay",
+        "date": "2025-09-20",
+        "text": "@AdamAkhlaq @hridoyreh Thanks for sharing...\nWill definitely try it out...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "verynumb98",
+        "name": "Porky Pie",
+        "date": "2025-09-19",
+        "text": "@hridoyreh @Luvaglio Lol the fact you think marketing wins",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "empresskyrakhan",
+        "name": "Dynamic Kyra",
+        "date": "2025-09-19",
+        "text": "@hridoyreh Struggling to Close High-Ticket Deals? Unlock 3x More Sales in 30 Day.\n\nI specialize in B2B lead segmentation, LinkedIn prospecting, email outreach, and sales closing, helping businesses grow their pipelines with qualified leads and real conversions.\n\nhttps://t.co/xAdnS8vV17",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aamirch555",
+        "name": "Aamir chaudhry🇵🇰🇵🇸",
+        "date": "2025-09-19",
+        "text": "@hridoyreh More informatic",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "otoide_a",
+        "name": "Otoide A.",
+        "date": "2025-09-19",
+        "text": "@Luvaglio @hridoyreh You'd be surprised that very few people actually go ahead and do",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MohammedsheikZ6",
+        "name": "Sheik",
+        "date": "2025-09-19",
+        "text": "@ViDance_X @hridoyreh What did you build?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "andreiatdev",
+        "name": "Andrei",
+        "date": "2025-09-18",
+        "text": "@hridoyreh doesn't really work though. most posts are over a year old and there's just so little posts showing up",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_hroh_",
+        "name": "H-R",
+        "date": "2025-09-18",
+        "text": "@hridoyreh Genius, reddit is a goldmine",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "adititwtz",
+        "name": "Aditi Roy",
+        "date": "2025-09-18",
+        "text": "@hridoyreh That's a new trick lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
   },
   "downloadedImages": [
     {

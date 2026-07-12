@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:05.862Z",
+  "fetchedAt": "2026-07-12T18:31:41.947Z",
   "tweetId": "1971079389984194844",
   "post": {
     "url": "https://x.com/monogramdude/status/1971079389984194844",
@@ -10,6 +11,12 @@
     },
     "date": "2025-09-25",
     "text": "Visual identity for Dravonfly! https://t.co/GC2yXMrXid",
+    "thread": [
+      {
+        "id": "1971079389984194844",
+        "text": "Visual identity for Dravonfly! https://t.co/GC2yXMrXid"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -29,11 +36,228 @@
       }
     ],
     "metrics": {
-      "likes": 187,
-      "retweets": 3,
+      "likes": 183,
+      "retweets": 2,
       "replies": 10,
-      "views": 5748
+      "views": 5751
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "berkant_thedev",
+        "name": "berkantay",
+        "date": "2025-09-25",
+        "text": "@monogramdude its sounds like fake adidas. “abibas”.\n\nbrand matters",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "monogramdude",
+        "name": "Saif",
+        "date": "2025-09-26",
+        "text": "@KudaPixels Glad you like my font &amp; color choice, I'm appreciate it, Thanks a lot 🙌",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "atiq31416",
+        "name": "Atiqur Rahaman",
+        "date": "2025-09-26",
+        "text": "@monogramdude You're welcome",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "monogramdude",
+        "name": "Saif",
+        "date": "2025-09-26",
+        "text": "@atiq31416 Glad you like my color, Thanks 🙌",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "atiq31416",
+        "name": "Atiqur Rahaman",
+        "date": "2025-09-26",
+        "text": "@monogramdude Love the color harmony here.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "monogramdude",
+        "name": "Saif",
+        "date": "2025-09-26",
+        "text": "@berkant_thedev I get your point! But this brand name is fully original and has its own unique identity.\"",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "monogramdude",
+        "name": "Saif",
+        "date": "2025-09-25",
+        "text": "@SANUSIQUDUS11 Thanks a lot for the proper feedback!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SANUSIQUDUS11",
+        "name": "Abdulqudus | UI/UX designer",
+        "date": "2025-09-25",
+        "text": "@monogramdude The logo relates the concept of the brand, nice work",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "monogramdude",
+        "name": "Saif",
+        "date": "2025-09-25",
+        "text": "@redcollars Thank you, No i design this mark on sketch 🙌",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "monogramdude",
+        "name": "Saif",
+        "date": "2025-09-25",
+        "text": "@shahzadcreates Thank you 🙌",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "shahzadcreates",
+        "name": "Shahzad",
+        "date": "2025-09-25",
+        "text": "@monogramdude Love it mate!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "redcollars",
+        "name": "Red Collar",
+        "date": "2025-09-25",
+        "text": "@monogramdude The dragonfly mark feels sharp and balanced – did you build it on a geometric grid?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "monogramdude",
+        "name": "Saif",
+        "date": "2025-09-25",
+        "text": "@webzards12073 🙌🙌",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "webzards12073",
+        "name": "webzards.de",
+        "date": "2025-09-25",
+        "text": "@monogramdude 🔥🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "snigdha_ma",
+        "name": "Snigdha",
+        "date": "2025-09-25",
+        "text": "@monogramdude You're most welcome Saif!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "monogramdude",
+        "name": "Saif",
+        "date": "2025-09-25",
+        "text": "@snigdha835731 Appreciate it, Thanks 🙏",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "snigdha_ma",
+        "name": "Snigdha",
+        "date": "2025-09-25",
+        "text": "@monogramdude Looks outstanding!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "izazmahammad_",
+        "name": "Izaz Mahammad",
+        "date": "2025-09-25",
+        "text": "@monogramdude Looks great!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KudaPixels",
+        "name": "Kuda Pixels",
+        "date": "2025-09-26",
+        "text": "@monogramdude it's really good, like the font, and the colors!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "arifcodes",
+        "name": "arif ☁︎",
+        "date": "2025-09-25",
+        "text": "@berkant_thedev @monogramdude lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "umanskygraphics",
+        "name": "theoluwaseun | brand designer",
+        "date": "2025-09-25",
+        "text": "@monogramdude It dope 🔥💙🥂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "monogramdude",
+        "name": "Saif",
+        "date": "2025-09-25",
+        "text": "@izazmahammad_ Thanks 🙌",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G1quQRzXYAATEN2.jpg",
+      "localFilename": "1971079389984194844_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G1quQUGXQAA2Ogn.jpg",
+      "localFilename": "1971079389984194844_2.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G1quQUFWQAA9oqC.jpg",
+      "localFilename": "1971079389984194844_3.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G1quQVoXEAAmZZN.jpg",
+      "localFilename": "1971079389984194844_4.jpg"
+    }
+  ]
 }

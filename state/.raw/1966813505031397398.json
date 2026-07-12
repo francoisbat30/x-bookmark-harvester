@@ -1,7 +1,7 @@
 {
   "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-07-12T18:24:50.176Z",
+  "fetchedAt": "2026-07-12T18:31:14.457Z",
   "tweetId": "1966813505031397398",
   "post": {
     "url": "https://x.com/akbuilds_/status/1966813505031397398",
@@ -24,6 +24,52 @@
       "replies": 1,
       "views": 46
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "Mueid23",
+        "name": "Mustahedur Rahman Mueid",
+        "date": "2025-10-20",
+        "text": "@Abmankendrick https://t.co/PDWsmbmVt3",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "yeasmin_ni46916",
+        "name": "Nilufar Yeasmin",
+        "date": "2025-09-30",
+        "text": "@Abmankendrick If you’re looking for redesigns, web development, or a professional website that stands out, I’d be happy to help.\n\nCheck out my work here: https://t.co/pKINwyOnc8",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "OdieWillia27391",
+        "name": "Williams",
+        "date": "2025-09-29",
+        "text": "@timranzzy12925 @Abmankendrick Dm let m teach you",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AyomideUx01",
+        "name": "Ayomide 💙",
+        "date": "2025-09-28",
+        "text": "@Abmankendrick What's that breakpoint for bro",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BirthMarkHub",
+        "name": "BirthMark 👨🏾‍💻",
+        "date": "2025-09-14",
+        "text": "@asifkabirantu @Abmankendrick Okay. Thanks mate",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
   }
 }

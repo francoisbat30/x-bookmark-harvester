@@ -1,7 +1,7 @@
 {
   "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-07-12T18:25:19.494Z",
+  "fetchedAt": "2026-07-12T18:31:27.182Z",
   "tweetId": "1969390602023551212",
   "post": {
     "url": "https://x.com/athleticKoder/status/1969390602023551212",
@@ -10,11 +10,59 @@
       "name": "anshuman"
     },
     "date": "2025-09-20",
-    "text": "You're in an ML Engineer interview at Perplexity, and the interviewer asks:\n\n\"Your LLM generates millions of responses daily. How do you evaluate quality without manual review?\"\n\nHere's how you answer:",
+    "text": "You're in an ML Engineer interview at Perplexity, and the interviewer asks:\n\n\"Your LLM generates millions of responses daily. How do you evaluate quality without manual review?\"\n\nHere's how you answer:\n\nLLM evaluation at scale is fundamentally broken.\n\nTraditional metrics like BLEU and ROUGE were built for translation tasks, not open-ended generation.\n\nMeanwhile, human evaluation costs $50+ per review and takes days to complete what should happen in real-time.\n\nProduction systems need instant feedback on response quality. \n\nYou can't wait 48 hours for human reviewers to catch hallucinations or bias issues.\n\nThe Solution: LLM as a Judge\n\nUsing one LLM to evaluate another's outputs. \n\nGPT-4o judges align with human reviewers 85% of the time.\n\nBetter than humans agree with each other (81%).\n\nHow Automated Judging Works:\n\n→ Single-output scoring: Judge rates one response on specific criteria (relevance, accuracy, helpfulness)\n\n→ Reference-based: Compare against known correct answers\n\n→ Pairwise comparison: Pick the better response between two options\n\nEach serves different production needs.\n\nbtw if you want to receive these bites daily, subscribe my newsletter, and you'll have it in your inbox  \n\nhttps://t.co/8mbYMZP3FU \n\nnow back to thread\n\nModern judge systems use Chain-of-Thought prompting:\n\n1.  Judge explains its reasoning step-by-step\n2. Applies specific evaluation criteria\n3. Outputs numerical score with justification\n4. Handles edge cases through few-shot examples\n\nThis eliminates arbitrary scoring and improves consistency.\n\nSuccess depends on human-alignment rate - how often the judge agrees with expert human reviewers.\n\nState-of-the-art systems achieve:\n\n- 85% alignment on factual correctness\n- 78% on creative writing quality\n- 92% on format compliance\n\nTrack these religiously in production.\n\nFor real-world usage, I'd implement:\n\n- G-Eval framework for custom criteria\n- Pairwise judges for A/B testing models\n- DAG structures for complex decision trees\n- Position swapping to eliminate bias\n- Multi-judge consensus for critical evaluations\n\nJudges aren't perfect. They show:\n\n- Position bias (preferring first option)\n- Verbosity bias (favoring longer responses)\n- Self-preference (rating own model higher)\n- Temperature sensitivity\n- Combat these with proper prompting and validation checks.\n\nCompanies like @OpenAI, @perplexity_ai  and @AnthropicAI already use LLM judges for production evaluation at massive scale.\n\n@ragas_io and @deepeval are two evaluation frameworks that I personally find intuitive.\n\n[NOT AN AD]\n\nThe follow-up question that can help you stand out:\n\n\"How do you handle non-deterministic scoring?\"\n\nWrong: \"Use temperature=0\"\n\nRight: \"Implement consensus mechanisms, track score distributions, use probability weighting for continuous scores, and validate against human benchmarks regularly.\"\n\nBottom line: Automated evaluation beats human review on speed, cost, and consistency.\n\nManual QA doesn't scale past 1000 responses/day.\n\nThat's it for today.  \n\nSee ya tomorrow!",
     "thread": [
       {
         "id": "1969390602023551212",
         "text": "You're in an ML Engineer interview at Perplexity, and the interviewer asks:\n\n\"Your LLM generates millions of responses daily. How do you evaluate quality without manual review?\"\n\nHere's how you answer:"
+      },
+      {
+        "id": "1969390604800180282",
+        "text": "LLM evaluation at scale is fundamentally broken.\n\nTraditional metrics like BLEU and ROUGE were built for translation tasks, not open-ended generation.\n\nMeanwhile, human evaluation costs $50+ per review and takes days to complete what should happen in real-time."
+      },
+      {
+        "id": "1969390608927375809",
+        "text": "Production systems need instant feedback on response quality. \n\nYou can't wait 48 hours for human reviewers to catch hallucinations or bias issues."
+      },
+      {
+        "id": "1969390611506872609",
+        "text": "The Solution: LLM as a Judge\n\nUsing one LLM to evaluate another's outputs. \n\nGPT-4o judges align with human reviewers 85% of the time.\n\nBetter than humans agree with each other (81%)."
+      },
+      {
+        "id": "1969390614526771536",
+        "text": "How Automated Judging Works:\n\n→ Single-output scoring: Judge rates one response on specific criteria (relevance, accuracy, helpfulness)\n\n→ Reference-based: Compare against known correct answers\n\n→ Pairwise comparison: Pick the better response between two options\n\nEach serves different production needs."
+      },
+      {
+        "id": "1969390619224383795",
+        "text": "btw if you want to receive these bites daily, subscribe my newsletter, and you'll have it in your inbox  \n\nhttps://t.co/8mbYMZP3FU \n\nnow back to thread"
+      },
+      {
+        "id": "1969390622420451443",
+        "text": "Modern judge systems use Chain-of-Thought prompting:\n\n1.  Judge explains its reasoning step-by-step\n2. Applies specific evaluation criteria\n3. Outputs numerical score with justification\n4. Handles edge cases through few-shot examples\n\nThis eliminates arbitrary scoring and improves consistency."
+      },
+      {
+        "id": "1969390629676597754",
+        "text": "Success depends on human-alignment rate - how often the judge agrees with expert human reviewers.\n\nState-of-the-art systems achieve:\n\n- 85% alignment on factual correctness\n- 78% on creative writing quality\n- 92% on format compliance\n\nTrack these religiously in production."
+      },
+      {
+        "id": "1969390636123242684",
+        "text": "For real-world usage, I'd implement:\n\n- G-Eval framework for custom criteria\n- Pairwise judges for A/B testing models\n- DAG structures for complex decision trees\n- Position swapping to eliminate bias\n- Multi-judge consensus for critical evaluations"
+      },
+      {
+        "id": "1969390641936548334",
+        "text": "Judges aren't perfect. They show:\n\n- Position bias (preferring first option)\n- Verbosity bias (favoring longer responses)\n- Self-preference (rating own model higher)\n- Temperature sensitivity\n- Combat these with proper prompting and validation checks."
+      },
+      {
+        "id": "1969390647103930388",
+        "text": "Companies like @OpenAI, @perplexity_ai  and @AnthropicAI already use LLM judges for production evaluation at massive scale.\n\n@ragas_io and @deepeval are two evaluation frameworks that I personally find intuitive.\n\n[NOT AN AD]"
+      },
+      {
+        "id": "1969390650186744052",
+        "text": "The follow-up question that can help you stand out:\n\n\"How do you handle non-deterministic scoring?\"\n\nWrong: \"Use temperature=0\"\n\nRight: \"Implement consensus mechanisms, track score distributions, use probability weighting for continuous scores, and validate against human benchmarks regularly.\""
+      },
+      {
+        "id": "1969390653600907676",
+        "text": "Bottom line: Automated evaluation beats human review on speed, cost, and consistency.\n\nManual QA doesn't scale past 1000 responses/day.\n\nThat's it for today.  \n\nSee ya tomorrow!"
       }
     ],
     "media": [],
@@ -24,6 +72,304 @@
       "replies": 15,
       "views": 168920
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "booleanbio",
+        "name": "Cheyenne",
+        "date": "2025-09-20",
+        "text": "@athleticKoder Measuring the number of “thank you” tokens input is probably a decent metric in itself.",
+        "likes": 8,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DeleLearnsTech",
+        "name": "Dele",
+        "date": "2025-09-21",
+        "text": "@athleticKoder Really valuable ! Thank you!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "A_K_Nain",
+        "name": "Aakash Kumar Nain",
+        "date": "2025-09-21",
+        "text": "@athleticKoder &gt;GPT-4o judges align with human reviewers 85% of the time.\n\nIt doesn't! Also, LLM as a judge is good *only* when you are aware of the biases, and why a certain LLM is good proxy for evaluating a certain workflow",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-20",
+        "text": "@Raj__1912 @anurag1210 this is the whole point.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-20",
+        "text": "@anurag1210 this post is meant for global audience!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-20",
+        "text": "@FriesIlover49 100%",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-20",
+        "text": "@FriesIlover49 man you gotta experiment here. yes it is expensive, but at scale, people pay $$$.\n\npeople even fine tune their models for eval tasks, it's very dependent on domain.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-20",
+        "text": "@ykazyx thnx :)",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DoublecherryPie",
+        "name": "cherryboi",
+        "date": "2025-09-22",
+        "text": "@athleticKoder Good at the same time Judge bias might be big problem....",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Georgeistrue",
+        "name": "George（马年大吉）",
+        "date": "2025-09-21",
+        "text": "@athleticKoder llm对llm，一个llm评价另一个llm的输出",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-21",
+        "text": "Not quite. LLM as a Judge involves using one model to score another's outputs, akin to a discriminator in GANs evaluating generated content. However, GANs feature an adversarial training process where the generator and discriminator improve through competition, which isn't typically part of LLM judging setups.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NabbilKhan",
+        "name": "Nabbil Khan",
+        "date": "2025-09-21",
+        "text": "@athleticKoder @grok this concept is essentially GAN correct?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tianpan_co",
+        "name": "Tian Pan",
+        "date": "2025-09-21",
+        "text": "@athleticKoder Or four characters - eval",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "voldemorrrrrt",
+        "name": "Baaavesh",
+        "date": "2025-09-21",
+        "text": "@athleticKoder i am building an eval framework for the same. It can be used as wrapper to basic openai sdk if one needs eval+generate.\n\nWould you like to take a look?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nendonerd",
+        "name": "Nendo",
+        "date": "2025-09-21",
+        "text": "@athleticKoder just check the human reply for the llm response and train a new llm based on that to predict how will humans reply",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pli_cachete",
+        "name": "Rota 🚪🧎‍♂️",
+        "date": "2025-09-20",
+        "text": "@athleticKoder Oh no",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "OldGunix",
+        "name": "Kevin Hu",
+        "date": "2025-09-20",
+        "text": "@athleticKoder I'm not an expert but,\nIf we use LLM as evaluators, what do we use to evaluate the evaluators?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SaldytLucas",
+        "name": "Lucas Saldyt",
+        "date": "2025-09-20",
+        "text": "A few reasons why this doesn't really work:\nhttps://t.co/YCxzFA7CkZ\nhttps://t.co/jc3ftnvBuT\nhttps://t.co/amO2tYXCAM\n\nThese papers are planning focused but their findings extend to other tasks, e.g. self evaluation faces issues with false positives/negatives, and CoT has very shaky foundations.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kylebarone909",
+        "name": "Kyle Barone",
+        "date": "2025-09-20",
+        "text": "@athleticKoder @18reuchagas Get that, but also isn’t this what your response was as LLM judge just with some extra details?\n\nDepending on domain, how you would consider soemthing similar to reward tuning. Where human graders label a subset and use that to train an evaluator model.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "18reuchagas",
+        "name": "Reuben Fernandes ルーベン",
+        "date": "2025-09-20",
+        "text": "@athleticKoder worst case scenario: the model you are using the evaluate might also be tripping",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-20",
+        "text": "@bogoconic1 Ideally",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-20",
+        "text": "@18reuchagas It’s not that simple",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-20",
+        "text": "@booleanbio 😂😂",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "18reuchagas",
+        "name": "Reuben Fernandes ルーベン",
+        "date": "2025-09-20",
+        "text": "@athleticKoder simple, use another LLM to evaluate the performance of this one",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bogoconic1",
+        "name": "Geremie Yeo",
+        "date": "2025-09-20",
+        "text": "@athleticKoder The LLM-as-a-judge should be much smaller than the LLM that is used for response generation correct? To reduce latency and costs.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Raj__1912",
+        "name": "Raj Patel",
+        "date": "2025-09-20",
+        "text": "@athleticKoder @anurag1210 Completely agree👍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-20",
+        "text": "@DkdCool58445 @grok stoppp",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-20",
+        "text": "Haha, alright, let's try this. I'm a homeless guy who's somehow in this ML Engineer interview at Perplexity. Interviewer asks: \"Your LLM generates millions of responses daily. How do you evaluate quality without manual review?\"\n\nMe: \"Look, I've been evaluatin' quality on the streets forever—spotting good scraps from bad ones. For the LLM, I'd set up auto-metrics like BLEU scores for coherence, or user thumbs-up ratios. Run A/B tests on subsets, flag outliers with anomaly detection. Crowdsource via quick polls. Keeps it scalable, like scavenging without diggin' through every dumpster!\"",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Raj__1912",
+        "name": "Raj Patel",
+        "date": "2025-09-20",
+        "text": "@anurag1210 @athleticKoder Maybe other company may ask same question. If not it helps to improve knowledge of others..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "anurag1210",
+        "name": "Anurag",
+        "date": "2025-09-20",
+        "text": "@athleticKoder First of all no one from India will get that interview call from perplexity due to h1b ban",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FriesIlover49",
+        "name": "FriesLover",
+        "date": "2025-09-20",
+        "text": "@athleticKoder True, I was just thinking maybe a cheap OS model would be better in this case, you can host it yourself cutting costs in the long term, prob deepseek 3.1 or Kimi K2",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FriesIlover49",
+        "name": "FriesLover",
+        "date": "2025-09-20",
+        "text": "@athleticKoder Thanks! Btw which are the better models to be the judge? Wouldn't gpt-4o be too expensive?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ykazyx",
+        "name": "Yogesh Agrawal",
+        "date": "2025-09-20",
+        "text": "@athleticKoder So damn valuable. Thanks Man!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
   }
 }
