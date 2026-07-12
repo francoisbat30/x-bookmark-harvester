@@ -1,15 +1,22 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:11.577Z",
+  "fetchedAt": "2026-07-12T17:51:42.839Z",
   "tweetId": "1968616069418909799",
   "post": {
     "url": "https://x.com/hridoyreh/status/1968616069418909799",
     "author": {
       "handle": "hridoyreh",
-      "name": "Hridoy Rehman"
+      "name": "Hridoy Reh"
     },
     "date": "2025-09-18",
     "text": "This is how I find $1M business ideas: https://t.co/gPZJSYyArP",
+    "thread": [
+      {
+        "id": "1968616069418909799",
+        "text": "This is how I find $1M business ideas: https://t.co/gPZJSYyArP"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,17 @@
       }
     ],
     "metrics": {
-      "likes": 6783,
-      "retweets": 347,
+      "likes": 6763,
+      "retweets": 352,
       "replies": 131,
-      "views": 804379
+      "views": 805341
     },
     "comments": []
-  }
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G1Ht4FIasAAvwAT.jpg",
+      "localFilename": "1968616069418909799_1.jpg"
+    }
+  ]
 }

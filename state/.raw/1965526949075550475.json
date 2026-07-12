@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:07.971Z",
+  "fetchedAt": "2026-07-12T17:19:45.560Z",
   "tweetId": "1965526949075550475",
   "post": {
     "url": "https://x.com/WesleyBancroft/status/1965526949075550475",
@@ -9,14 +10,39 @@
       "name": "Wes"
     },
     "date": "2025-09-09",
-    "text": "Entity Brand Guidelines ↓\n\nhttps://t.co/SKMiKRMuKU",
+    "text": "Alright, fine. I'll do it.\n\nHere's a Figma Brand Guidelines we built, that's yours to have 100% FREE.\n\nNo catch. No email sign up. Just yours to use right away.\n\nLink to the file is in the comment below. Cheers. https://t.co/pAMJ7Sjl8J\n\nEntity Brand Guidelines ↓\n\nhttps://t.co/SKMiKRMuKU",
+    "thread": [
+      {
+        "id": "1965526946542154086",
+        "text": "Alright, fine. I'll do it.\n\nHere's a Figma Brand Guidelines we built, that's yours to have 100% FREE.\n\nNo catch. No email sign up. Just yours to use right away.\n\nLink to the file is in the comment below. Cheers. https://t.co/pAMJ7Sjl8J"
+      },
+      {
+        "id": "1965526949075550475",
+        "text": "Entity Brand Guidelines ↓\n\nhttps://t.co/SKMiKRMuKU"
+      }
+    ],
     "media": [],
     "metrics": {
-      "likes": 117,
+      "likes": 114,
       "retweets": 5,
       "replies": 5,
-      "views": 4439
+      "views": 4532
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "marcinignac",
+        "name": "Marcin Ignac",
+        "date": "2025-09-11",
+        "text": "Thank you for sharing. I'm thinking of dropping @variable_io portfolio as Figma board. People keep using us in their pitches.... Why not make it easier. It is not like they can go and easily replicate work without hiring us (I hope).",
+        "likes": 1
+      },
+      {
+        "handle": "lloydcreates",
+        "name": "Lloyd Creates",
+        "date": "2025-09-10",
+        "text": "🫡🔥🔥",
+        "likes": 1
+      }
+    ]
   }
 }

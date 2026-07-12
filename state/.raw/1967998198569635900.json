@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:13.090Z",
+  "fetchedAt": "2026-07-12T17:51:03.213Z",
   "tweetId": "1967998198569635900",
   "post": {
     "url": "https://x.com/GoogleResearch/status/1967998198569635900",
@@ -10,18 +11,39 @@
     },
     "date": "2025-09-16",
     "text": "Learn Your Way, now on Google Labs, is a research experiment that explores how GenAI can transform educational materials to create a more effective, engaging, learner-driven experience for every student. Check out the blog and accompanying tech report → https://t.co/Mp65E7pFki https://t.co/Iz10NKfPPy",
+    "thread": [
+      {
+        "id": "1967998198569635900",
+        "text": "Learn Your Way, now on Google Labs, is a research experiment that explores how GenAI can transform educational materials to create a more effective, engaging, learner-driven experience for every student. Check out the blog and accompanying tech report → https://t.co/Mp65E7pFki https://t.co/Iz10NKfPPy"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/1967998078017003520/vid/avc1/1920x1080/hFTt53TWAM04V1RK.mp4"
+        "url": "https://video.twimg.com/amplify_video/1967998078017003520/vid/avc1/1920x1080/hFTt53TWAM04V1RK.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1967998078017003520/img/gdPw5NQIXdscIqwD.jpg"
       }
     ],
     "metrics": {
-      "likes": 910,
-      "retweets": 167,
+      "likes": 906,
+      "retweets": 169,
       "replies": 23,
-      "views": 123930
+      "views": 124163
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "almogtavor_",
+        "name": "Almog Tavor",
+        "date": "2025-09-16",
+        "text": "they basically want to take whatever content you’re learning and remix it into non-repetitive formats w/ a nice ux. key trick: they personalize the source text first, then use different ai setups for each format (slides, quizzes, maps) all downstream stuff is already tailored. also wild that they had to train a special model just for educational diagrams, since generic image models flop at pedagogy",
+        "likes": 7
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1967998078017003520/img/gdPw5NQIXdscIqwD.jpg",
+      "localFilename": "1967998198569635900_1_poster.jpg"
+    }
+  ]
 }

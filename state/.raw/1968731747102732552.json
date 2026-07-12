@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:10.828Z",
+  "fetchedAt": "2026-07-12T17:52:13.388Z",
   "tweetId": "1968731747102732552",
   "post": {
     "url": "https://x.com/iamnotsrc/status/1968731747102732552",
@@ -10,18 +11,53 @@
     },
     "date": "2025-09-18",
     "text": "latest brand identity highlights 📹 https://t.co/e0BZra4Oye",
+    "thread": [
+      {
+        "id": "1968731747102732552",
+        "text": "latest brand identity highlights 📹 https://t.co/e0BZra4Oye"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/1968479605896949760/vid/avc1/3840x2160/kWUCniOYRnHh_2yo.mp4"
+        "url": "https://video.twimg.com/amplify_video/1968479605896949760/vid/avc1/3840x2160/kWUCniOYRnHh_2yo.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1968479605896949760/img/13yG5KjE_IHx6fXF.jpg"
       }
     ],
     "metrics": {
-      "likes": 375,
+      "likes": 376,
       "retweets": 15,
-      "replies": 22,
-      "views": 14344
+      "replies": 21,
+      "views": 14416
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "bencanoes",
+        "name": "Ben | Video Editor 🎞️",
+        "date": "2025-09-19",
+        "text": "Love the quality 💯😮‍💨",
+        "likes": 1
+      },
+      {
+        "handle": "CoastalThemes",
+        "name": "Coastal Themes",
+        "date": "2025-09-19",
+        "text": "Super sleek — 11/10 🔥",
+        "likes": 1
+      },
+      {
+        "handle": "unrootdesign",
+        "name": "Adam 🌿 Unroot.design",
+        "date": "2025-09-18",
+        "text": "Very good collection 🔥",
+        "likes": 1
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1968479605896949760/img/13yG5KjE_IHx6fXF.jpg",
+      "localFilename": "1968731747102732552_1_poster.jpg"
+    }
+  ]
 }

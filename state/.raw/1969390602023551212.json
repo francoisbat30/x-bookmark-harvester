@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:10.411Z",
+  "fetchedAt": "2026-07-12T17:52:26.983Z",
   "tweetId": "1969390602023551212",
   "post": {
     "url": "https://x.com/athleticKoder/status/1969390602023551212",
@@ -10,12 +11,18 @@
     },
     "date": "2025-09-20",
     "text": "You're in an ML Engineer interview at Perplexity, and the interviewer asks:\n\n\"Your LLM generates millions of responses daily. How do you evaluate quality without manual review?\"\n\nHere's how you answer:",
+    "thread": [
+      {
+        "id": "1969390602023551212",
+        "text": "You're in an ML Engineer interview at Perplexity, and the interviewer asks:\n\n\"Your LLM generates millions of responses daily. How do you evaluate quality without manual review?\"\n\nHere's how you answer:"
+      }
+    ],
     "media": [],
     "metrics": {
-      "likes": 952,
-      "retweets": 74,
+      "likes": 946,
+      "retweets": 72,
       "replies": 15,
-      "views": 168627
+      "views": 168919
     },
     "comments": []
   }

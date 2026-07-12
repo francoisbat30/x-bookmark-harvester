@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:11.972Z",
+  "fetchedAt": "2026-07-12T17:51:28.548Z",
   "tweetId": "1968419691229012246",
   "post": {
     "url": "https://x.com/ItsMaclouis/status/1968419691229012246",
@@ -10,6 +11,12 @@
     },
     "date": "2025-09-17",
     "text": "color inspiration - #082 https://t.co/PELGXlqxwg",
+    "thread": [
+      {
+        "id": "1968419691229012246",
+        "text": "color inspiration - #082 https://t.co/PELGXlqxwg"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -21,11 +28,43 @@
       }
     ],
     "metrics": {
-      "likes": 1586,
-      "retweets": 90,
+      "likes": 1582,
+      "retweets": 88,
       "replies": 6,
-      "views": 40523
+      "views": 40854
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "hxl0maxi",
+        "name": "मैक्सी",
+        "date": "2025-09-17",
+        "text": "This is why I follow you. You help with ideas when I’m stuck \n\nTHANK YOU LOUIS🫡",
+        "likes": 2
+      },
+      {
+        "handle": "Deranged_Mike",
+        "name": "Apollo",
+        "date": "2025-09-18",
+        "text": "Wow\nAnyone knows how to make an effect like this? They're soo cool, but idk what they're called, so I cannot search up a tutorial",
+        "likes": 2
+      },
+      {
+        "handle": "jahidshuvo525",
+        "name": "Zaid Shuvo",
+        "date": "2025-09-18",
+        "text": "nice colors",
+        "likes": 1
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G1EvigyXwAAd4hC.jpg",
+      "localFilename": "1968419691229012246_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G1EvihWXMAA6Snj.jpg",
+      "localFilename": "1968419691229012246_2.jpg"
+    }
+  ]
 }

@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:16.370Z",
+  "fetchedAt": "2026-07-12T17:44:30.847Z",
   "tweetId": "1967356698823475404",
   "post": {
     "url": "https://x.com/PookiesParadise/status/1967356698823475404",
@@ -10,13 +11,34 @@
     },
     "date": "2025-09-14",
     "text": "green expert here: this is a good one https://t.co/qXuUClv4qt",
+    "thread": [
+      {
+        "id": "1967356698823475404",
+        "text": "green expert here: this is a good one https://t.co/qXuUClv4qt"
+      }
+    ],
     "media": [],
     "metrics": {
-      "likes": 148721,
-      "retweets": 8428,
-      "replies": 184,
-      "views": 2975148
+      "likes": 147488,
+      "retweets": 8297,
+      "replies": 183,
+      "views": 2978648
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "S_A_U_Z",
+        "name": "SAUZ",
+        "date": "2025-09-15",
+        "text": "Tired of seeing the same tweets every two weeks",
+        "likes": 265
+      },
+      {
+        "handle": "Xeetings",
+        "name": "Penguin 🐧",
+        "date": "2025-09-14",
+        "text": "So beautiful like you pookie",
+        "likes": 68
+      }
+    ]
   }
 }

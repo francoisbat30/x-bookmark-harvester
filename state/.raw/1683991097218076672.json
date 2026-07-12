@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:13.562Z",
+  "fetchedAt": "2026-07-12T17:50:34.456Z",
   "tweetId": "1683991097218076672",
   "post": {
     "url": "https://x.com/ADPList/status/1683991097218076672",
@@ -9,19 +10,36 @@
       "name": "ADPList"
     },
     "date": "2023-07-26",
-    "text": "5. Beautiful Shadows by @alexwidua\n\nThis plugin allows you to create beautiful shadows by simply dragging a 'light source' which casts a shadow on selected elements.\n\nGet it here: https://t.co/sVC2JjtGuT https://t.co/6NikGVw9hK",
+    "text": "4. Google Sheets Sync by @DavidWilliames\n\nThis plugin helps you import data directly from Google sheet to Figma.\n\nGet it here: https://t.co/TCKV6C9sCP https://t.co/kikwudLOAX\n\n5. Beautiful Shadows by @alexwidua\n\nThis plugin allows you to create beautiful shadows by simply dragging a 'light source' which casts a shadow on selected elements.\n\nGet it here: https://t.co/sVC2JjtGuT https://t.co/6NikGVw9hK",
+    "thread": [
+      {
+        "id": "1683991066050179074",
+        "text": "4. Google Sheets Sync by @DavidWilliames\n\nThis plugin helps you import data directly from Google sheet to Figma.\n\nGet it here: https://t.co/TCKV6C9sCP https://t.co/kikwudLOAX"
+      },
+      {
+        "id": "1683991097218076672",
+        "text": "5. Beautiful Shadows by @alexwidua\n\nThis plugin allows you to create beautiful shadows by simply dragging a 'light source' which casts a shadow on selected elements.\n\nGet it here: https://t.co/sVC2JjtGuT https://t.co/6NikGVw9hK"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/ext_tw_video/1683991070949113858/pu/vid/1094x720/oJUAPrXqlyE-4e5D.mp4?tag=12"
+        "url": "https://video.twimg.com/ext_tw_video/1683991070949113858/pu/vid/1094x720/oJUAPrXqlyE-4e5D.mp4?tag=12",
+        "posterUrl": "https://pbs.twimg.com/ext_tw_video_thumb/1683991070949113858/pu/img/03r76JT_jNUKsh4n.jpg"
       }
     ],
     "metrics": {
-      "likes": 67,
+      "likes": 66,
       "retweets": 6,
       "replies": 2,
-      "views": 4274
+      "views": 4275
     },
     "comments": []
-  }
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/ext_tw_video_thumb/1683991070949113858/pu/img/03r76JT_jNUKsh4n.jpg",
+      "localFilename": "1683991097218076672_1_poster.jpg"
+    }
+  ]
 }

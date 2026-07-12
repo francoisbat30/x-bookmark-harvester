@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:18.282Z",
+  "fetchedAt": "2026-07-12T17:19:17.010Z",
   "tweetId": "1965411461515411502",
   "post": {
     "url": "https://x.com/purelivn/status/1965411461515411502",
@@ -10,6 +11,12 @@
     },
     "date": "2025-09-09",
     "text": "Venice, Italy https://t.co/A7NZfVhADe",
+    "thread": [
+      {
+        "id": "1965411461515411502",
+        "text": "Venice, Italy https://t.co/A7NZfVhADe"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,39 @@
       }
     ],
     "metrics": {
-      "likes": 7394,
-      "retweets": 821,
-      "replies": 37,
-      "views": 110070
+      "likes": 7304,
+      "retweets": 802,
+      "replies": 36,
+      "views": 110327
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "Aliaghted",
+        "name": "Alia Ghted",
+        "date": "2025-09-11",
+        "text": "😍",
+        "likes": 2
+      },
+      {
+        "handle": "TanyaBoecker",
+        "name": "Tanya Lancaster",
+        "date": "2025-09-10",
+        "text": "Venice, Italy - a city where time stands still and every sunset looks like a Renaissance painting. The sound of water lapping against stone, the echo of footsteps in narrow alleys, the distant song of a gondolier… it’s pure magic. ✨",
+        "likes": 2
+      },
+      {
+        "handle": "Raven_l3V",
+        "name": "Raven○●",
+        "date": "2025-09-10",
+        "text": "I think I need to visit here, first.... \n 😍",
+        "likes": 2
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G0aLTuHXcAADekq.jpg",
+      "localFilename": "1965411461515411502_1.jpg"
+    }
+  ]
 }

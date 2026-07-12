@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:17.143Z",
+  "fetchedAt": "2026-07-12T17:44:11.144Z",
   "tweetId": "1967221165329690743",
   "post": {
     "url": "https://x.com/SpencerHakimian/status/1967221165329690743",
@@ -10,6 +11,12 @@
     },
     "date": "2025-09-14",
     "text": "It’s not the video games. https://t.co/0JF0VUVI7R",
+    "thread": [
+      {
+        "id": "1967221165329690743",
+        "text": "It’s not the video games. https://t.co/0JF0VUVI7R"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,39 @@
       }
     ],
     "metrics": {
-      "likes": 24819,
-      "retweets": 4039,
-      "replies": 724,
-      "views": 820713
+      "likes": 24643,
+      "retweets": 3998,
+      "replies": 716,
+      "views": 821022
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "VinceWilsonShow",
+        "name": "Vince Wilson",
+        "date": "2025-09-14",
+        "text": "Anybody touting video games as the problem is easily over 55 years old. The same age group that can’t figure out how a computer works.",
+        "likes": 635
+      },
+      {
+        "handle": "DeeWaynee94",
+        "name": "Dee 🌹",
+        "date": "2025-09-14",
+        "text": "If video games caused gun deaths, Japan would be Mad Max. America just loves blaming pixels instead of policies.",
+        "likes": 258
+      },
+      {
+        "handle": "VedranOzir",
+        "name": "Vedran Ozir",
+        "date": "2025-09-14",
+        "text": "It is not whites neither…",
+        "likes": 169
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G0z5OTtWAAAoP9q.jpg",
+      "localFilename": "1967221165329690743_1.jpg"
+    }
+  ]
 }

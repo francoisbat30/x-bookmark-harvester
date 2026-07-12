@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:16.746Z",
+  "fetchedAt": "2026-07-12T17:44:16.457Z",
   "tweetId": "1967336900995563876",
   "post": {
     "url": "https://x.com/architectvibes/status/1967336900995563876",
@@ -10,6 +11,12 @@
     },
     "date": "2025-09-14",
     "text": "https://t.co/lwH3PinY6N",
+    "thread": [
+      {
+        "id": "1967336900995563876",
+        "text": "https://t.co/lwH3PinY6N"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,27 @@
       }
     ],
     "metrics": {
-      "likes": 11640,
-      "retweets": 1155,
-      "replies": 24,
-      "views": 269442
+      "likes": 11570,
+      "retweets": 1159,
+      "replies": 25,
+      "views": 270374
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "crujexx",
+        "name": "crujex",
+        "date": "2026-06-17",
+        "text": "@architectvibes Hii sophia I'm from India. Would you like to be my friend?😊",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G01ifEXXYAAOeo0.jpg",
+      "localFilename": "1967336900995563876_1.jpg"
+    }
+  ]
 }

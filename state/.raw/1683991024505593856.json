@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:13.942Z",
+  "fetchedAt": "2026-07-12T17:50:17.010Z",
   "tweetId": "1683991024505593856",
   "post": {
     "url": "https://x.com/ADPList/status/1683991024505593856",
@@ -9,19 +10,36 @@
       "name": "ADPList"
     },
     "date": "2023-07-26",
-    "text": "3. MockRocket by @DerekFeehrer\n\nA Figma plugin to create 3D mockups, simply drag to rotate the device in true 3D and directly export.\n\nGet it here: https://t.co/KrOjmPLpfB https://t.co/j5d9g06ekJ",
+    "text": "2. Ando - AI by @RemitNotPaucity\n\nThis Figma plugin helps you generate millions of design ideas from prompts, shapes, and images.\n\nGet it here: https://t.co/VT8dLUq0nV https://t.co/0BJvq41oQS\n\n3. MockRocket by @DerekFeehrer\n\nA Figma plugin to create 3D mockups, simply drag to rotate the device in true 3D and directly export.\n\nGet it here: https://t.co/KrOjmPLpfB https://t.co/j5d9g06ekJ",
+    "thread": [
+      {
+        "id": "1683990991727136768",
+        "text": "2. Ando - AI by @RemitNotPaucity\n\nThis Figma plugin helps you generate millions of design ideas from prompts, shapes, and images.\n\nGet it here: https://t.co/VT8dLUq0nV https://t.co/0BJvq41oQS"
+      },
+      {
+        "id": "1683991024505593856",
+        "text": "3. MockRocket by @DerekFeehrer\n\nA Figma plugin to create 3D mockups, simply drag to rotate the device in true 3D and directly export.\n\nGet it here: https://t.co/KrOjmPLpfB https://t.co/j5d9g06ekJ"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/ext_tw_video/1683990997267775488/pu/vid/1280x720/LQk55yumCsbz5LlN.mp4?tag=12"
+        "url": "https://video.twimg.com/ext_tw_video/1683990997267775488/pu/vid/1280x720/LQk55yumCsbz5LlN.mp4?tag=12",
+        "posterUrl": "https://pbs.twimg.com/ext_tw_video_thumb/1683990997267775488/pu/img/6oSB2EXkXo9kzqHt.jpg"
       }
     ],
     "metrics": {
-      "likes": 65,
+      "likes": 64,
       "retweets": 8,
       "replies": 1,
-      "views": 5218
+      "views": 5219
     },
     "comments": []
-  }
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/ext_tw_video_thumb/1683990997267775488/pu/img/6oSB2EXkXo9kzqHt.jpg",
+      "localFilename": "1683991024505593856_1_poster.jpg"
+    }
+  ]
 }

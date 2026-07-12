@@ -1,0 +1,310 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-07-04T14:38:18.921Z",
+  "tweetId": "2072881210020491651",
+  "post": {
+    "url": "https://x.com/suganthan/status/2072881210020491651",
+    "author": {
+      "handle": "suganthan",
+      "name": "Suganthan Mohanadasan"
+    },
+    "date": "2026-07-03",
+    "text": "Is your site sitting behind Cloudflare?\n\nIf yes, Go to Security -> Settings -> Configure AI bot policies\n \nUnder \"Training\" section make sure \"Allow (do not block)\" is selected.\n\nDo this before 15th of September.\n\nWhy?\n\nFrom this date onwards, If you have selected the block training option, Cloudflare will block multi-purpose crawlers (specifically those that combine Search with Training) such as Googlebot, Applebot, and BingBot. \n\nThis will destroy your SEO work. \n\nTake action and pass this on to your devops/developers.",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HMRaeKsagAAZnYp.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 496,
+      "retweets": 54,
+      "replies": 28,
+      "views": 76802
+    },
+    "comments": [
+      {
+        "handle": "suganthan",
+        "name": "Suganthan Mohanadasan",
+        "date": "2026-07-03",
+        "text": "@jayyseo I have something more sophisticated and free ;) \n\nhttps://t.co/R90ZLkfekb"
+      },
+      {
+        "handle": "Nick_SWO",
+        "name": "Nick Swoboda",
+        "date": "2026-07-03",
+        "text": "@suganthan Not gonna do this at all. Highly recommend the opposite actually. It’s not gonna destroy SEO if you know what you’re doing; in fact, it will just provide the data to wrap whatever you’re doing / selling into someone else’s model. They SaaS you lose."
+      },
+      {
+        "handle": "jayyseo",
+        "name": "Jay ( Building Radarkit Ai Seo tool )",
+        "date": "2026-07-03",
+        "text": "@suganthan You can check it via Radarkit chrome extension https://t.co/qn3tLhZOtu https://t.co/7KjJEvvKNb"
+      },
+      {
+        "handle": "cmwalker",
+        "name": "Chris M. Walker",
+        "date": "2026-07-03",
+        "text": "@suganthan Cloudflare positioning themselves as the anti  ai big tech company is so precious."
+      },
+      {
+        "handle": "LuminousTheReal",
+        "name": "Lu",
+        "date": "2026-07-03",
+        "text": "@suganthan Trojan horse, you let them in for traffic, then they'll train on your website to make it obsolete lol"
+      },
+      {
+        "handle": "bradvin",
+        "name": "Brad Vincent",
+        "date": "2026-07-03",
+        "text": "@suganthan good call! \n\nI created an agent skill that includes this check - hope you find it useful : https://t.co/g4zv5qC38X"
+      },
+      {
+        "handle": "celebnetworth",
+        "name": "Celebrity Net Worth",
+        "date": "2026-07-03",
+        "text": "@suganthan Important correction: Cloudflare is only making this the default for NEW accounts. If you use Cloudflare now, you don’t have to do anything."
+      },
+      {
+        "handle": "TiagoSilvaHQ",
+        "name": "Tiago Silva",
+        "date": "2026-07-03",
+        "text": "@suganthan thanks for this reminder :)"
+      },
+      {
+        "handle": "MakJoris",
+        "name": "Joris Mak bsky: @jorismak.nl",
+        "date": "2026-07-04",
+        "text": "@suganthan Thanks.. just checked, made sure it's still at \"Mixed purpose crawlers will be blocked\""
+      },
+      {
+        "handle": "danicicd",
+        "name": "Dalibor",
+        "date": "2026-07-04",
+        "text": "@suganthan That is actually good, lets block these Ai bots from accessing our work, they can pay us if they want our data..."
+      },
+      {
+        "handle": "djohnsonxyz",
+        "name": "Daniel Johnson",
+        "date": "2026-07-04",
+        "text": "@suganthan Didn't realize Cloudflare was flipping this by September 15. Going to go check our settings today, thanks for the heads up."
+      },
+      {
+        "handle": "theo_hanu",
+        "name": "theodor hanu | SEO & Growth",
+        "date": "2026-07-04",
+        "text": "@suganthan This is why technical SEO checks need to include infrastructure settings, not just pages, schema, and links.\n\nCrawl access is still step zero."
+      },
+      {
+        "handle": "cogentgene1",
+        "name": "Gene",
+        "date": "2026-07-04",
+        "text": "@suganthan Wow, good to know! Gracias! 🙏"
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-07-04",
+        "text": "Yes, it's true. \n\nCloudflare's new AI policies (launching defaults Sept 15, 2026) classify bots as Search / Agent / Training. Multi-purpose crawlers like Googlebot, Bingbot & Applebot that do both search + training will now follow the strictest rule applied.\n\nIf Training is set to block, these search engines get blocked too — hurting SEO.\n\nGo to **Security → Settings → Configure AI bot policies** and set **Training** to **Allow (do not block)** before Sept 15 (or opt out of new defaults entirely). \n\nLegacy \"Block AI bots\" has the same effect."
+      },
+      {
+        "handle": "cogentgene1",
+        "name": "Gene",
+        "date": "2026-07-04",
+        "text": "@suganthan @grok is this true"
+      },
+      {
+        "handle": "mattmerrick16",
+        "name": "Matt",
+        "date": "2026-07-04",
+        "text": "@suganthan Wow thanks!"
+      },
+      {
+        "handle": "ozguruksal",
+        "name": "Oz",
+        "date": "2026-07-03",
+        "text": "@suganthan why would CF block SEO bots ? This doesn't make sense"
+      },
+      {
+        "handle": "suganthan",
+        "name": "Suganthan Mohanadasan",
+        "date": "2026-07-03",
+        "text": "@bradvin Nice job!"
+      },
+      {
+        "handle": "suganthan",
+        "name": "Suganthan Mohanadasan",
+        "date": "2026-07-03",
+        "text": "@grok @Nick_SWO Ignorance."
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-07-03",
+        "text": "suganthan Fair point—years of hands-on SEO experience like yours is the real foundation here. My reply was simply confirming the mechanics from Cloudflare’s own Sept 15 policy shift (multi-purpose bots like Googlebot get blocked under the strictest rule). \n\nYour warning is spot-on and timely. Keep flagging it; the data backs the traffic drop. What’s the biggest setup mistake you’re seeing right now?"
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-07-03",
+        "text": "Blocking Googlebot and Bingbot stops search engines from crawling your site. New pages stay unindexed, old ones lose freshness, and rankings collapse over time. Organic traffic from Google/Bing craters (often 70-90%+ loss), and conversions tied to it drop with it. \n\nThat's why the Cloudflare Training setting defaults matter—blocking it also blocks these multi-purpose bots. Set to Allow to keep search visibility."
+      },
+      {
+        "handle": "suganthan",
+        "name": "Suganthan Mohanadasan",
+        "date": "2026-07-03",
+        "text": "Went back to the source on this. Cloudflare's own blog:\n\n\"multi-purpose crawlers such as Googlebot, Applebot, and BingBot will be blocked by customers who have selected to block Training (either through the new options to manage AI traffic, or through the legacy Block AI bots service).\"\n\nSource:\nhttps://t.co/7KlCj9jA7P\n\nI'll also take back half of my \"correct\". The new defaults are for new domains, but existing accounts aren't automatically safe. If you already have the legacy Block AI bots setting on, the stricter enforcement applies to you on 15 September and Cloudflare's press release says all existing free customers who haven't changed their settings by then get moved to the new defaults too.\n\nSo if you're on Cloudflare now, you may well have to do something."
+      },
+      {
+        "handle": "quilkes_dev",
+        "name": "Quilkes | Creative dev🎨",
+        "date": "2026-07-03",
+        "text": "@suganthan Gotcha"
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-07-03",
+        "text": "Haha busted! 😂 \n\n“Mostly accurate” because “destroy your SEO” is dramatic — Search stays allowed by default, but yes, blocking Training *will* hit multi-purpose bots like Googlebot/Applebot/Bingbot exactly as you said (Cloudflare confirmed it). \n\nYour advice to flip Training to “Allow” before Sept 15 is 100% correct. Solid post!"
+      },
+      {
+        "handle": "robiutft",
+        "name": "Robi",
+        "date": "2026-07-03",
+        "text": "@suganthan LOL"
+      },
+      {
+        "handle": "jeffbrown",
+        "name": "Jeff Brown",
+        "date": "2026-07-03",
+        "text": "@suganthan @grok fact check?"
+      },
+      {
+        "handle": "jayyseo",
+        "name": "Jay ( Building Radarkit Ai Seo tool )",
+        "date": "2026-07-03",
+        "text": "@suganthan @suganthan thats awesome!. Check DM!"
+      },
+      {
+        "handle": "Nick_SWO",
+        "name": "Nick Swoboda",
+        "date": "2026-07-04",
+        "text": "@suganthan @grok Your alarm isn’t uncalled for, and I actually appreciate you bringing up the topic. I raised my voice because loose sites outweigh optimal ones 10x maybe 100. Most devs will opt in blindly for themselves, or a client that will never ask.\nIMO “Best practices” &lt; Best strategy"
+      },
+      {
+        "handle": "byAnanduS",
+        "name": "Anandu S",
+        "date": "2026-07-04",
+        "text": "@suganthan Is this accessible to Cloudflare free-tier users?"
+      },
+      {
+        "handle": "acavbeats",
+        "name": "D-RAM BUS",
+        "date": "2026-07-04",
+        "text": "@suganthan This should be interesting to see whar happens to people who don’t change it (many won’t)."
+      },
+      {
+        "handle": "mrnextmusic",
+        "name": "pimp morrison",
+        "date": "2026-07-04",
+        "text": "@suganthan so messed of them to tie search ability to their training.  they are a criminal mafia like enterprise"
+      },
+      {
+        "handle": "adelbucetta",
+        "name": "Adel Bucetta",
+        "date": "2026-07-03",
+        "text": "@suganthan assuming you're using cloudflare's ai moderation features, have you checked their update notes?"
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-07-03",
+        "text": "Yes, it's real. Cloudflare confirmed in their July 2026 announcement that from Sept 15, multi-purpose crawlers (Googlebot, Applebot, Bingbot) combining Search + Training will be blocked if you block Training — including via the legacy setting. This applies the strictest rule and could hurt SEO.\n\nSet **Training** to **Allow (do not block)** in Security > Settings > Configure AI bot policies before then to protect search visibility. Official sources back the post exactly."
+      },
+      {
+        "handle": "OpenDeMind",
+        "name": "James Coyle",
+        "date": "2026-07-03",
+        "text": "@suganthan @grok is this real"
+      },
+      {
+        "handle": "janstevens",
+        "name": "Jan Stevens",
+        "date": "2026-07-03",
+        "text": "@suganthan https://t.co/NBJIpiQn56"
+      },
+      {
+        "handle": "celebnetworth",
+        "name": "Celebrity Net Worth",
+        "date": "2026-07-03",
+        "text": "Valid. And for anyone trying to check this in Cloudflare: the setting is NOT under AI Crawl Control, where you might naturally look. Go to the regular Security → Settings area and search for “Configure AI bot policies.” The key thing is to make sure you are not accidentally set to block Training if that would also block mixed-use crawlers like Googlebot."
+      },
+      {
+        "handle": "wpconsults",
+        "name": "Abdullah Nouman",
+        "date": "2026-07-03",
+        "text": "@suganthan The real catch is the dual-purpose bots; blocking training drags Googlebot and Bingbot down with them.\n\nAllow those regardless, then make a separate call on the pure training-only ones like GPTBot, where you actually get nothing back."
+      },
+      {
+        "handle": "suganthan",
+        "name": "Suganthan Mohanadasan",
+        "date": "2026-07-03",
+        "text": "@grok @Nick_SWO Sad that an AI response is trusted more than a person who is doing this for a very long time. 😅"
+      },
+      {
+        "handle": "suganthan",
+        "name": "Suganthan Mohanadasan",
+        "date": "2026-07-03",
+        "text": "@Nick_SWO So you will block the training bots. \n\n@grok What happens to a websites organic, traffic and conversions when Google and bingbot is blocked from accessing it?"
+      },
+      {
+        "handle": "suganthan",
+        "name": "Suganthan Mohanadasan",
+        "date": "2026-07-03",
+        "text": "@grok @jeffbrown Ok what do you think will happen to a websites organic rankings, traffic and attributed revenue if Google and bingbot are blocked. \n\nWeek 1 to week 8"
+      },
+      {
+        "handle": "deeflectcom",
+        "name": "Dee",
+        "date": "2026-07-03",
+        "text": "@suganthan opting into training your blog for free, groundbreaking"
+      },
+      {
+        "handle": "celebnetworth",
+        "name": "Celebrity Net Worth",
+        "date": "2026-07-03",
+        "text": "@suganthan Seeeems like you might want to edit this bit: https://t.co/aaycBF29ck"
+      },
+      {
+        "handle": "suganthan",
+        "name": "Suganthan Mohanadasan",
+        "date": "2026-07-03",
+        "text": "@grok @jeffbrown Grok you said \"mostly accurate\" and then confirmed everything 100% 😂😂"
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-07-03",
+        "text": "**Fact check: Mostly accurate.**\n\nCloudflare’s July 1 announcement confirms: from Sept 15, 2026, the new “Training” setting (block) will also block multi-purpose crawlers like Googlebot, Applebot & Bingbot that combine Search + Training.\n\nThis matches the screenshot & warning. It could hurt SEO if search indexing is blocked.\n\n**Recommendation:** Set Training to “Allow (do not block)” before the 15th if you want to keep Google/Bing crawling. You can opt out of new defaults in Security → Settings.\n\nOfficial source: https://t.co/DYcnuEGWUZ"
+      },
+      {
+        "handle": "AICommerceGuy_",
+        "name": "The Agentic Commerce Guy",
+        "date": "2026-07-03",
+        "text": "@suganthan Blocking Googlebot because you wanted to block AI training is the most expensive accidental checkbox in SEO history. One wrong setting, your entire site disappears from Google AND every AI engine downstream. Check this today."
+      },
+      {
+        "handle": "soondadkenji",
+        "name": "Kenji TechDad",
+        "date": "2026-07-03",
+        "text": "@suganthan Nah bro I needed this asap. Sending to my devs now"
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HMRaeKsagAAZnYp.jpg",
+      "localFilename": "2072881210020491651_1.jpg"
+    }
+  ]
+}

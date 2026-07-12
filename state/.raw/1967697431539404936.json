@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:15.930Z",
+  "fetchedAt": "2026-07-12T17:44:42.325Z",
   "tweetId": "1967697431539404936",
   "post": {
     "url": "https://x.com/ItsMaclouis/status/1967697431539404936",
@@ -10,6 +11,12 @@
     },
     "date": "2025-09-15",
     "text": "color inspiration - #081 https://t.co/iA6nCqwWXI",
+    "thread": [
+      {
+        "id": "1967697431539404936",
+        "text": "color inspiration - #081 https://t.co/iA6nCqwWXI"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -21,11 +28,36 @@
       }
     ],
     "metrics": {
-      "likes": 1940,
-      "retweets": 95,
+      "likes": 1926,
+      "retweets": 98,
       "replies": 4,
-      "views": 58431
+      "views": 58800
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "itsanwarraza",
+        "name": "Anwar Raza",
+        "date": "2025-09-16",
+        "text": "I just love this color, really cool how you managed to pull off such difficult color gradient.",
+        "likes": 0
+      },
+      {
+        "handle": "heymrrosa",
+        "name": "Mr. Rosa",
+        "date": "2025-09-16",
+        "text": "Magnificent",
+        "likes": 0
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G06Dv_bXwAAeZu6.jpg",
+      "localFilename": "1967697431539404936_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G06DwIGXEAAslC9.jpg",
+      "localFilename": "1967697431539404936_2.jpg"
+    }
+  ]
 }

@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:12.343Z",
+  "fetchedAt": "2026-07-12T17:44:57.633Z",
   "tweetId": "1967980105793507522",
   "post": {
     "url": "https://x.com/keilethh/status/1967980105793507522",
@@ -10,6 +11,12 @@
     },
     "date": "2025-09-16",
     "text": "These logos are available for purchase. https://t.co/5Qabrtayec",
+    "thread": [
+      {
+        "id": "1967980105793507522",
+        "text": "These logos are available for purchase. https://t.co/5Qabrtayec"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -29,11 +36,51 @@
       }
     ],
     "metrics": {
-      "likes": 1067,
-      "retweets": 39,
-      "replies": 35,
-      "views": 45185
+      "likes": 1056,
+      "retweets": 35,
+      "replies": 34,
+      "views": 45294
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "jaydwivedi_",
+        "name": "Jay Dwivedi",
+        "date": "2025-09-17",
+        "text": "@dudufolio 👁️ 👄 👁️",
+        "likes": 2
+      },
+      {
+        "handle": "claritydzns",
+        "name": "Clarity",
+        "date": "2025-09-16",
+        "text": "Amazing work man! Where do you find these backgrounds?",
+        "likes": 2
+      },
+      {
+        "handle": "DarioPlitsch",
+        "name": "Djp",
+        "date": "2025-09-17",
+        "text": "Ai generic shapes lol",
+        "likes": 1
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G0-rSTIXQAAc-v3.jpg",
+      "localFilename": "1967980105793507522_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G0-rTyhW8AApvSX.jpg",
+      "localFilename": "1967980105793507522_2.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G0-rUipXYAA-eJh.jpg",
+      "localFilename": "1967980105793507522_3.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G0-rVWtXkAAoIvh.jpg",
+      "localFilename": "1967980105793507522_4.jpg"
+    }
+  ]
 }

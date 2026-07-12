@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:14.331Z",
+  "fetchedAt": "2026-07-12T17:51:14.482Z",
   "tweetId": "1968008451562615085",
   "post": {
     "url": "https://x.com/haydendevs/status/1968008451562615085",
@@ -10,13 +11,34 @@
     },
     "date": "2025-09-16",
     "text": "@Observer_ofyou https://t.co/uXiWJyf87a",
+    "thread": [
+      {
+        "id": "1968008451562615085",
+        "text": "@Observer_ofyou https://t.co/uXiWJyf87a"
+      }
+    ],
     "media": [],
     "metrics": {
-      "likes": 44,
+      "likes": 45,
       "retweets": 2,
       "replies": 3,
-      "views": 4794
+      "views": 4800
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "Franzferdinan57",
+        "name": "Duckets",
+        "date": "2025-09-16",
+        "text": "I follow you now also I didn't realize your photo was light until I seen the GIF 😂",
+        "likes": 1
+      },
+      {
+        "handle": "Reality007100",
+        "name": "me_godmode_1.1p31",
+        "date": "2025-09-24",
+        "text": "hwo to run it bro? is there index.html",
+        "likes": 1
+      }
+    ]
   }
 }

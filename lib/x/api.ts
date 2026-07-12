@@ -188,23 +188,12 @@ interface SearchAccumulator {
   media: Map<string, PostMedia>;
 }
 
-interface RunSearchOptions {
-  sortOrder?: "recency" | "relevancy";
-  /**
-   * Borne basse de la fenêtre de recherche (ISO 8601). INDISPENSABLE sur
-   * /search/all : sans start_time, X ne remonte que les 30 derniers jours
-   * par défaut — exactement le piège qui rendait les vieilles conversations
-   * introuvables. On passe la date du post bookmarké (moins une marge).
-   */
-  startTime?: string;
-}
-
 async function runSearch(
   endpoint: "recent" | "all",
   query: string,
   maxPages: number,
   bearerToken: string,
-  options: RunSearchOptions = {},
+  sortOrder?: "recency" | "relevancy",
 ): Promise<SearchAccumulator> {
   const acc: SearchAccumulator = {
     tweets: [],
@@ -221,10 +210,7 @@ async function runSearch(
       expansions: EXPANSIONS,
       max_results: "100",
     });
-    if (options.sortOrder) params.set("sort_order", options.sortOrder);
-    if (endpoint === "all" && options.startTime) {
-      params.set("start_time", options.startTime);
-    }
+    if (sortOrder) params.set("sort_order", sortOrder);
     if (nextToken) params.set("next_token", nextToken);
 
     // /search/all est rate-limité plus bas que /search/recent : petite pause
@@ -290,11 +276,6 @@ export async function extractPostWithXApi(
   const ageMs = now().getTime() - new Date(tweet.created_at).getTime();
   const endpoint: "recent" | "all" = ageMs > RECENT_WINDOW_MS ? "all" : "recent";
 
-  // Fenêtre full-archive : depuis la publication du post (marge 1 min).
-  const startTime = new Date(
-    new Date(tweet.created_at).getTime() - 60_000,
-  ).toISOString();
-
   // ── Thread de l'auteur : requête ciblée, quelques dizaines de résultats max.
   let threadAcc: SearchAccumulator = {
     tweets: [],
@@ -308,7 +289,6 @@ export async function extractPostWithXApi(
         `conversation_id:${tweet.conversation_id} from:${author.username}`,
         maxThreadPages,
         bearerToken,
-        { startTime },
       );
     } catch (e) {
       console.warn(
@@ -330,7 +310,7 @@ export async function extractPostWithXApi(
       `conversation_id:${tweet.conversation_id}`,
       maxCommentPages,
       bearerToken,
-      { sortOrder: "relevancy", startTime },
+      "relevancy",
     );
   } catch (e) {
     console.warn(
