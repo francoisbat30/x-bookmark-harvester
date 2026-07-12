@@ -2,7 +2,7 @@
  * Re-generate a .md file from the cached raw JSON without re-calling Grok.
  *
  * Usage:
- *   npm run render -- <tweet-id-or-url>
+ *   npm run render -- <tweet-id-or-url|all>
  *
  * Useful for:
  *   - iterating on the markdown template
@@ -12,8 +12,8 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import { readCache } from "../lib/obsidian/cache";
-import { renderNote } from "../lib/obsidian/markdown";
-import { writeNote } from "../lib/obsidian/vault";
+import { renderNote, buildFilename } from "../lib/obsidian/markdown";
+import { writeNote, readExistingNote } from "../lib/obsidian/vault";
 import { stateDir } from "../lib/state";
 import { parseTweetRef } from "../lib/x/tweet-id";
 
@@ -27,9 +27,13 @@ async function renderOne(tweetId: string): Promise<void> {
   const note = renderNote(cached.post, {
     insights: cached.grokInsights?.data,
     downloadedImages: cached.downloadedImages,
+    videoTranscripts: cached.videoTranscripts,
+    // Summary/tags/status déjà présents sur la note → préservés au re-render.
+    existingContent: await readExistingNote(buildFilename(cached.post), tweetId),
   });
   const { absolutePath } = await writeNote(note.filename, note.content, undefined, {
     overwrite: true,
+    uniqueKey: tweetId,
   });
   console.log(`✓ ${tweetId} → ${absolutePath}`);
 }
@@ -63,4 +67,14 @@ async function main() {
   if (arg === "all") {
     await renderAll();
     return;
-  
+  }
+
+  const ref = parseTweetRef(arg);
+  const tweetId = ref?.id ?? arg;
+  await renderOne(tweetId);
+}
+
+main().catch((e) => {
+  console.error("✗ Render failed:", e);
+  process.exit(1);
+});

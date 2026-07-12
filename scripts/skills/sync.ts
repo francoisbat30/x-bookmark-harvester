@@ -30,12 +30,14 @@ import {
 import { extractPost } from "../../lib/x/extract";
 import { mcpConfigFromEnv } from "../../lib/x/mcp-source";
 import { downloadImages } from "../../lib/obsidian/media-download";
-import { renderNote } from "../../lib/obsidian/markdown";
-import { writeNote } from "../../lib/obsidian/vault";
+import { renderNote, buildFilename } from "../../lib/obsidian/markdown";
+import { writeNote, readExistingNote } from "../../lib/obsidian/vault";
+import { fetchVideoTranscripts } from "../../lib/x/grok-video";
 import {
   readCache,
   writeCache,
   writeDownloadedImages,
+  writeVideoTranscripts,
   hasCache,
 } from "../../lib/obsidian/cache";
 
@@ -44,6 +46,10 @@ interface Args {
   dryRun: boolean;
   delayMs: number;
   account: string | null;
+  /** Télécharger aussi les mp4 (défaut : poster + lien seulement). */
+  videos: boolean;
+  /** Transcrire les vidéos via Grok (coût ≈ $0.01–0.05/vidéo). */
+  transcripts: boolean;
 }
 
 function parseArgs(argv: string[]): Args {
@@ -51,6 +57,8 @@ function parseArgs(argv: string[]): Args {
   let dryRun = false;
   let delayMs = 0;
   let account: string | null = null;
+  let videos = false;
+  let transcripts = false;
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === "--limit") {
@@ -63,9 +71,13 @@ function parseArgs(argv: string[]): Args {
       delayMs = Number.isFinite(n) && n >= 0 ? Math.floor(n) : 0;
     } else if (a === "--account") {
       account = argv[++i] ?? null;
+    } else if (a === "--videos") {
+      videos = true;
+    } else if (a === "--transcripts") {
+      transcripts = true;
     }
   }
-  return { limit, dryRun, delayMs, account };
+  return { limit, dryRun, delayMs, account, videos, transcripts };
 }
 
 const sleep = (ms: number) =>
@@ -89,28 +101,60 @@ async function processBookmark(
   id: string,
   bearer: string,
   authorHandle: string,
+  args: Args,
 ): Promise<ProcessOk | ProcessErr> {
   try {
     // Source chain: X API (or MCP if enabled) primary → Grok fallback when the
     // primary fails or is missing text/author/comments. See lib/x/extract.ts.
-    const { post, source, warnings } = await extractPost(id, {
+    const { post, source, warnings: extractWarnings } = await extractPost(id, {
       url: `https://x.com/${authorHandle || "i"}/status/${id}`,
       bearerToken: bearer,
       grokApiKey: process.env.XAI_API_KEY,
       grokModel: process.env.XAI_MODEL,
       mcp: mcpConfigFromEnv(),
     });
+    const warnings = [...extractWarnings];
     await writeCache(id, post, source);
 
-    const downloaded = await downloadImages(id, post.media);
+    const downloaded = await downloadImages(id, post.media, {
+      includeVideoFiles: args.videos,
+    });
     if (downloaded.length > 0) {
       await writeDownloadedImages(id, downloaded);
     }
+
+    // Transcripts vidéo (opt-in) : une passe Grok par post, mémorisée en cache.
+    const hasVideo = post.media.some((m) => m.type === "video" || m.type === "gif");
+    if (args.transcripts && hasVideo && process.env.XAI_API_KEY) {
+      try {
+        const results = await fetchVideoTranscripts(post.url, {
+          apiKey: process.env.XAI_API_KEY,
+          model: process.env.XAI_MODEL,
+        });
+        const videoUrls = post.media
+          .filter((m) => m.type === "video" || m.type === "gif")
+          .map((m) => m.url);
+        const mapped = results
+          .filter((r) => r.order >= 1 && r.order <= videoUrls.length)
+          .map((r) => ({ url: videoUrls[r.order - 1], text: r.text }));
+        if (mapped.length > 0) await writeVideoTranscripts(id, mapped);
+      } catch (e) {
+        warnings.push(
+          `video transcripts failed: ${e instanceof Error ? e.message : String(e)}`,
+        );
+      }
+    }
+
+    // Préservation : Summary/tags/status d'une note déjà présente survivent
+    // au ré-écrasement (cf. lib/obsidian/note-merge.ts).
+    const existingContent = await readExistingNote(buildFilename(post), id);
 
     const freshCache = await readCache(id);
     const note = renderNote(post, {
       insights: freshCache?.grokInsights?.data,
       downloadedImages: freshCache?.downloadedImages,
+      videoTranscripts: freshCache?.videoTranscripts,
+      existingContent,
     });
     const written = await writeNote(note.filename, note.content, undefined, {
       overwrite: true,
@@ -234,7 +278,7 @@ async function main() {
   const failed: ProcessErr[] = [];
   for (let i = 0; i < pending.length; i++) {
     const b = pending[i];
-    const result = await processBookmark(b.id, bearer, b.authorHandle);
+    const result = await processBookmark(b.id, bearer, b.authorHandle, args);
     if (result.ok) processed.push(result);
     else failed.push(result);
     console.error(
