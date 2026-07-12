@@ -96,15 +96,24 @@ function installFetch(opts: {
   threadResults?: Json[];
   commentResults?: Json[];
   commentUsers?: Json[];
+  /** Résultats de la page recency d'appoint (quand relevancy est maigre). */
+  recencyResults?: Json[];
 }) {
   const calls: string[] = [];
   const impl = vi.fn(async (input: unknown) => {
     const url = String(input);
     calls.push(url);
     if (url.includes("/tweets/search/")) {
-      const q = new URL(url).searchParams.get("query") ?? "";
+      const u = new URL(url);
+      const q = u.searchParams.get("query") ?? "";
       if (q.includes("from:")) {
         return res({ data: opts.threadResults ?? [], includes: { users: opts.users } });
+      }
+      if (u.searchParams.get("sort_order") !== "relevancy") {
+        return res({
+          data: opts.recencyResults ?? [],
+          includes: { users: [...opts.users, ...(opts.commentUsers ?? [])] },
+        });
       }
       return res({
         data: opts.commentResults ?? [],
@@ -165,6 +174,49 @@ describe("extractPostWithXApi — fenêtre de recherche", () => {
     const withSort = calls.filter((c) => c.includes("sort_order=relevancy"));
     expect(withSort).toHaveLength(1);
     expect(decodeURIComponent(withSort[0])).not.toContain("from:");
+  });
+
+  it("tops up with a recency page when relevancy is thin vs replies", async () => {
+    const mkComment = (id: string, likes: number) => ({
+      id,
+      text: `reply ${id} with enough substance to matter`,
+      created_at: "2026-07-08T01:00:00.000Z",
+      author_id: "U1",
+      conversation_id: "1000",
+      referenced_tweets: [{ type: "replied_to", id: "1000" }],
+      public_metrics: { like_count: likes, retweet_count: 0, reply_count: 0 },
+    });
+    const { calls } = installFetch({
+      mainTweet: {
+        ...mainTweet("2026-07-08T00:00:00.000Z"),
+        public_metrics: { like_count: 10, retweet_count: 1, reply_count: 50, impression_count: 0 },
+      },
+      users: [author],
+      commentUsers: [makeUser("U1", "u1")],
+      commentResults: [mkComment("2001", 500)],
+      recencyResults: [mkComment("2001", 500), mkComment("2002", 3), mkComment("2003", 8)],
+    });
+    const post = await extractPostWithXApi("1000", { bearerToken: "B", now: NOW });
+    // 3 requêtes de conversation : relevancy + from:auteur + top-up recency
+    const convSearches = calls.filter((c) => decodeURIComponent(c).includes("conversation_id:1000"));
+    expect(convSearches.length).toBe(3);
+    // fusion dédupliquée : 2001 une seule fois, 2002/2003 ajoutés
+    expect(post.comments).toHaveLength(3);
+    expect(post.comments[0].likes).toBe(500);
+  });
+
+  it("skips the top-up when relevancy already matches the reply count", async () => {
+    const { calls } = installFetch({
+      mainTweet: {
+        ...mainTweet("2026-07-08T00:00:00.000Z"),
+        public_metrics: { like_count: 10, retweet_count: 1, reply_count: 0, impression_count: 0 },
+      },
+      users: [author],
+    });
+    await extractPostWithXApi("1000", { bearerToken: "B", now: NOW });
+    const convSearches = calls.filter((c) => decodeURIComponent(c).includes("conversation_id:1000"));
+    // relevancy + from:auteur seulement — pas de top-up pour 0 reply
+    expect(convSearches.length).toBe(2);
   });
 });
 

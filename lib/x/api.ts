@@ -318,6 +318,38 @@ export async function extractPostWithXApi(
     );
   }
 
+  // Le tri "relevancy" de X filtre agressivement (souvent 3-10 résultats même
+  // sur un post à centaines de réponses). Quand la moisson est maigre par
+  // rapport aux replies annoncées, on complète avec UNE page chronologique —
+  // coût borné, et la curation locale (tri par likes) fait le reste.
+  const expectedComments = Math.min(
+    30,
+    tweet.public_metrics?.reply_count ?? 0,
+  );
+  const harvested = new Set(
+    commentsAcc.tweets.filter((t) => t.id !== tweet.id).map((t) => t.id),
+  ).size;
+  if (harvested < expectedComments) {
+    try {
+      const topUp = await runSearch(
+        endpoint,
+        `conversation_id:${tweet.conversation_id}`,
+        1,
+        bearerToken,
+        { startTime },
+      );
+      commentsAcc = {
+        tweets: [...commentsAcc.tweets, ...topUp.tweets],
+        users: new Map([...commentsAcc.users, ...topUp.users]),
+        media: new Map([...commentsAcc.media, ...topUp.media]),
+      };
+    } catch (e) {
+      console.warn(
+        `[xapi] recency top-up (${endpoint}) failed for ${tweetId}: ${(e as Error).message}`,
+      );
+    }
+  }
+
   const allUsers = new Map([
     ...userById,
     ...threadAcc.users,

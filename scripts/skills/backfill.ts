@@ -164,8 +164,9 @@ async function main() {
         uniqueKey: item.tweetId,
       });
       rerendered++;
+      const readsSoFar = getUsageSnapshot().billedResources;
       console.error(
-        `[${i + 1}/${plan.items.length}] ✓ ${item.tweetId}${item.refetch ? " (refetch)" : ""}`,
+        `[${i + 1}/${plan.items.length}] ✓ ${item.tweetId}${item.refetch ? " (refetch)" : ""} — ${post.comments.length} commentaire${post.comments.length === 1 ? "" : "s"} · ${readsSoFar} lectures cumulées`,
       );
     } catch (e) {
       failed.push({
