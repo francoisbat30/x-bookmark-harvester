@@ -13,7 +13,8 @@ import { promises as fs } from "node:fs";
 import path from "node:path";
 import { readCache } from "../lib/obsidian/cache";
 import { renderNote } from "../lib/obsidian/markdown";
-import { writeNote, getVaultConfig, resolveTargetDir } from "../lib/obsidian/vault";
+import { writeNote } from "../lib/obsidian/vault";
+import { stateDir } from "../lib/state";
 import { parseTweetRef } from "../lib/x/tweet-id";
 
 async function renderOne(tweetId: string): Promise<void> {
@@ -34,7 +35,10 @@ async function renderOne(tweetId: string): Promise<void> {
 }
 
 async function renderAll(): Promise<void> {
-  const dir = path.join(resolveTargetDir(getVaultConfig()), ".raw");
+  // Le cache brut vit sous XBM_STATE_DIR/.raw (lib/state.ts), PAS dans le
+  // vault — l'ancien chemin (vault/.raw) datait d'avant la séparation
+  // matière brute / livrables et cassait `render all`.
+  const dir = path.join(stateDir(), ".raw");
   const entries = await fs.readdir(dir).catch(() => [] as string[]);
   const ids = entries
     .filter((f) => /^\d+\.json$/.test(f))
@@ -59,14 +63,4 @@ async function main() {
   if (arg === "all") {
     await renderAll();
     return;
-  }
-
-  const ref = parseTweetRef(arg);
-  const tweetId = ref?.id ?? arg;
-  await renderOne(tweetId);
-}
-
-main().catch((e) => {
-  console.error("✗ Render failed:", e);
-  process.exit(1);
-});
+  
