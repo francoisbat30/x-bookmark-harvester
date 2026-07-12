@@ -95,4 +95,8 @@ function normalize(input: unknown): GrokInsights {
               quote: typeof rr.quote === "string" ? rr.quote : "",
               why: typeof rr.why === "string" ? rr.why : "",
             };
- 
+          })
+          .filter((r: KeyReply) => r.quote.length > 0)
+      : [],
+  };
+}

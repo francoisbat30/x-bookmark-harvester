@@ -13,7 +13,7 @@ You MUST return a single JSON object — no prose, no markdown fences, no commen
   "text": string,
   "media": Array<{ "type": "image" | "video" | "gif", "url": string }>,
   "metrics": { "likes": number, "retweets": number, "replies": number, "views": number },
-  "comments": Array<{ "handle": string, "name": string, "date": string, "text": string }>
+  "comments": Array<{ "handle": string, "name": string, "date": string, "text": string, "likes": number | null }>
 }
 
 Rules:
@@ -22,6 +22,7 @@ Rules:
 - "text" is the FULL verbatim content. If the post is a thread by the author, concatenate every part in order, separated by two newlines.
 - "media" lists every image/video attached to the post (and threads).
 - "comments" contains only meaningful replies: top replies AND any reply authored by the original poster. Skip low-value chatter.
+- "likes" on a comment is its visible like count; null when not visible. Do not guess.
 - Any missing metric = 0. Any missing field = empty string or empty array.
 - Do not invent content. If the post cannot be read, return an object with "text" set to "ERROR: <reason>".
 - Output MUST be a raw JSON object and nothing else.`;
@@ -102,6 +103,10 @@ function normalize(input: unknown, fallbackUrl: string): PostExtraction {
             name: asString(cc.name),
             date: asString(cc.date),
             text: asString(cc.text),
+            likes:
+              cc.likes === null || cc.likes === undefined
+                ? null
+                : asNumber(cc.likes),
           };
         })
       : [],
@@ -113,4 +118,10 @@ function asString(v: unknown): string {
 }
 
 function asNumber(v: unknown): number {
-  if (typeof v === "number" && Number.isFinit
+  if (typeof v === "number" && Number.isFinite(v)) return v;
+  if (typeof v === "string") {
+    const n = Number(v.replace(/[,_\s]/g, ""));
+    return Number.isFinite(n) ? n : 0;
+  }
+  return 0;
+}

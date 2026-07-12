@@ -1,6 +1,11 @@
 export interface PostMedia {
   type: "image" | "video" | "gif";
   url: string;
+  /**
+   * Image de couverture (preview) pour les vidéos/gifs — téléchargée en local
+   * pour que la note garde un visuel même quand l'URL mp4 distante meurt.
+   */
+  posterUrl?: string;
 }
 
 export interface PostComment {
@@ -8,6 +13,15 @@ export interface PostComment {
   name: string;
   date: string;
   text: string;
+  /**
+   * Nombre de likes au moment de l'extraction. Base du tri par traction.
+   * null/undefined = inconnu (cache v1 historique, ou fallback Grok muet).
+   */
+  likes?: number | null;
+  /** Réponse écrite par l'auteur du post bookmarké. */
+  isAuthor?: boolean;
+  /** Réponse directe au thread (vs réponse-à-une-réponse). */
+  isDirectReply?: boolean;
 }
 
 export interface PostMetrics {
@@ -24,7 +38,13 @@ export interface PostExtraction {
     name: string;
   };
   date: string;
+  /** Texte complet (thread entier joint par des sauts de ligne) — rétro-compat. */
   text: string;
+  /**
+   * Le thread tweet par tweet quand il a pu être reconstruit (cache v2).
+   * `text` reste la version jointe pour les caches v1.
+   */
+  thread?: Array<{ id: string; text: string }>;
   media: PostMedia[];
   metrics: PostMetrics;
   comments: PostComment[];
@@ -79,4 +99,3 @@ export interface ExtractError {
   ok: false;
   error: string;
 }
-

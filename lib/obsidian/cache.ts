@@ -7,6 +7,12 @@ import { stateDir } from "../state";
 const CACHE_SUBDIR = ".raw";
 
 export interface CacheEnvelope {
+  /**
+   * Version du schéma de cache. Absent = v1 (commentaires sans likes, pas de
+   * thread[]). v2 = PostComment.likes/isAuthor/isDirectReply + PostExtraction.thread.
+   * La lecture reste tolérante : les champs ajoutés sont optionnels.
+   */
+  version?: 2;
   source: "grok" | "xapi" | "apify" | "mcp";
   fetchedAt: string;
   tweetId: string;
@@ -16,6 +22,8 @@ export interface CacheEnvelope {
     data: GrokInsights;
   };
   downloadedImages?: DownloadedImage[];
+  /** Transcripts/descriptions de vidéos (via Grok view_x_video), par URL. */
+  videoTranscripts?: Array<{ url: string; text: string }>;
 }
 
 function cacheDir(): string {
@@ -45,6 +53,7 @@ export async function writeCache(
   await fs.mkdir(cacheDir(), { recursive: true });
   const existing = await readCache(tweetId);
   const envelope: CacheEnvelope = {
+    version: 2,
     source,
     fetchedAt: new Date().toISOString(),
     tweetId,
@@ -52,6 +61,9 @@ export async function writeCache(
     ...(existing?.grokInsights ? { grokInsights: existing.grokInsights } : {}),
     ...(existing?.downloadedImages
       ? { downloadedImages: existing.downloadedImages }
+      : {}),
+    ...(existing?.videoTranscripts
+      ? { videoTranscripts: existing.videoTranscripts }
       : {}),
   };
   const p = cachePath(tweetId);
@@ -90,6 +102,23 @@ export async function writeInsights(
       fetchedAt: new Date().toISOString(),
       data: insights,
     },
+  };
+  await fs.writeFile(
+    cachePath(tweetId),
+    JSON.stringify(updated, null, 2),
+    "utf8",
+  );
+}
+
+export async function writeVideoTranscripts(
+  tweetId: string,
+  transcripts: Array<{ url: string; text: string }>,
+): Promise<void> {
+  const existing = await readCache(tweetId);
+  if (!existing) return;
+  const updated: CacheEnvelope = {
+    ...existing,
+    videoTranscripts: transcripts,
   };
   await fs.writeFile(
     cachePath(tweetId),
