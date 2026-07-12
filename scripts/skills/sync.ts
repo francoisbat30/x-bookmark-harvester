@@ -76,6 +76,8 @@ interface ProcessOk {
   id: string;
   filename: string;
   absolutePath: string;
+  /** Non-fatal source failures during extraction (grok down, primary miss…). */
+  warnings: string[];
 }
 interface ProcessErr {
   ok: false;
@@ -91,7 +93,7 @@ async function processBookmark(
   try {
     // Source chain: X API (or MCP if enabled) primary → Grok fallback when the
     // primary fails or is missing text/author/comments. See lib/x/extract.ts.
-    const { post, source } = await extractPost(id, {
+    const { post, source, warnings } = await extractPost(id, {
       url: `https://x.com/${authorHandle || "i"}/status/${id}`,
       bearerToken: bearer,
       grokApiKey: process.env.XAI_API_KEY,
@@ -120,6 +122,7 @@ async function processBookmark(
       id,
       filename: written.filename,
       absolutePath: written.absolutePath,
+      warnings,
     };
   } catch (e) {
     return { ok: false, id, error: e instanceof Error ? e.message : String(e) };
@@ -241,10 +244,22 @@ async function main() {
     if (i < pending.length - 1) await sleep(args.delayMs);
   }
 
+  // Avertissements non fatals (fallback Grok en échec, source muette…) :
+  // visibles dans le JSON au lieu de mourir en console.warn.
+  const warnings = processed
+    .filter((p) => p.warnings.length > 0)
+    .map((p) => ({ id: p.id, warnings: p.warnings }));
+
+  // Ligne courte réutilisable telle quelle comme réponse Telegram.
+  const summaryLine =
+    `${processed.length} nouveaux · ${known.length} connus · ${failed.length} erreur${failed.length === 1 ? "" : "s"}` +
+    (warnings.length > 0 ? ` · ${warnings.length} avertissement${warnings.length === 1 ? "" : "s"}` : "");
+
   console.log(
     JSON.stringify(
       {
         ok: true,
+        summaryLine,
         accounts: accountsInfo,
         total: withStatus.length,
         known: known.length,
@@ -253,6 +268,7 @@ async function main() {
         skippedByLimit,
         vaultDir: path.dirname(processed[0]?.absolutePath ?? ""),
         failures: failed,
+        warnings,
       },
       null,
       2,

@@ -46,6 +46,12 @@ export interface ExtractResult {
   source: SourceName;
   /** Sources consulted, in order — for diagnostics/logging. */
   trace: SourceName[];
+  /**
+   * Non-fatal source failures (a primary threw, the Grok fallback failed…).
+   * Surfaced by callers in their summary instead of dying in console.warn —
+   * indispensable pour un sync headless (routine du lundi, relais Telegram).
+   */
+  warnings: string[];
 }
 
 export interface PostSource {
@@ -127,6 +133,7 @@ export async function extractPost(
   ctx: ExtractContext,
 ): Promise<ExtractResult> {
   const trace: SourceName[] = [];
+  const warnings: string[] = [];
   let base: { post: PostExtraction; source: SourceName } | null = null;
 
   for (const src of buildPrimarySources(ctx)) {
@@ -137,14 +144,15 @@ export async function extractPost(
         base = { post, source: src.name };
         // Complete → done. Incomplete (missing comments) → keep as base and
         // let Grok fill the gaps below.
-        if (isComplete(post)) return { post, source: src.name, trace };
+        if (isComplete(post)) return { post, source: src.name, trace, warnings };
         break;
       }
       // No usable text/author → treat as a miss, try the next primary.
+      warnings.push(`source "${src.name}" returned no usable text/author`);
     } catch (e) {
-      console.warn(
-        `[extract] source "${src.name}" failed for ${id}: ${e instanceof Error ? e.message : String(e)}`,
-      );
+      const msg = `source "${src.name}" failed: ${e instanceof Error ? e.message : String(e)}`;
+      warnings.push(msg);
+      console.warn(`[extract] ${msg} (${id})`);
     }
   }
 
@@ -158,26 +166,11 @@ export async function extractPost(
       });
       if (hasText(grokPost)) {
         if (!base) {
-          return { post: grokPost, source: "grok", trace };
+          return { post: grokPost, source: "grok", trace, warnings };
         }
         // Keep the primary as the base (more reliable metrics/media) and fill
         // the gap that triggered the fallback: comments, plus media if absent.
         const merged: PostExtraction = {
           ...base.post,
           comments: mergeComments(base.post.comments, grokPost.comments),
-          media: base.post.media.length ? base.post.media : grokPost.media,
-        };
-        return { post: merged, source: base.source, trace };
-      }
-    } catch (e) {
-      console.warn(
-        `[extract] grok fallback failed for ${id}: ${e instanceof Error ? e.message : String(e)}`,
-      );
-    }
-  }
-
-  if (base) return { post: base.post, source: base.source, trace };
-  throw new Error(
-    `All sources failed for tweet ${id} (tried: ${trace.join(", ") || "none"})`,
-  );
-}
+          media: base.post.media.length ? base.post.media : gr
