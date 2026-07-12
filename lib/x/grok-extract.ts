@@ -37,7 +37,9 @@ export async function extractPostWithGrok(
 ): Promise<PostExtraction> {
   const data = await callResponses({
     apiKey: options.apiKey,
-    model: options.model ?? "grok-4",
+    // grok-4 est retiré depuis le 15/05/2026 (redirigé vers grok-4.3 au prix
+    // de grok-4.3) — on épingle explicitement le modèle courant.
+    model: options.model ?? "grok-4.3",
     instructions: INSTRUCTIONS,
     input: `Extract the X post at this URL: ${url}\n\nReturn ONLY the JSON object described in the instructions.`,
   });
@@ -111,10 +113,4 @@ function asString(v: unknown): string {
 }
 
 function asNumber(v: unknown): number {
-  if (typeof v === "number" && Number.isFinite(v)) return v;
-  if (typeof v === "string") {
-    const n = Number(v.replace(/[,_\s]/g, ""));
-    return Number.isFinite(n) ? n : 0;
-  }
-  return 0;
-}
+  if (typeof v === "number" && Number.isFinit
