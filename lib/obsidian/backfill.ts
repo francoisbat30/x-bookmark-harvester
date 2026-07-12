@@ -41,8 +41,12 @@ export function isStale(env: CacheEnvelope): boolean {
 }
 
 function estimateReads(replies: number): number {
-  const commentReads = Math.min(Math.ceil(replies * 1.2), 100);
-  return 1 + 3 + commentReads;
+  // 1 lookup + ~3 posts d'auteur + page relevancy (~12 max observé) +
+  // page recency d'appoint (l'arbre de réponses dépasse souvent le compteur
+  // `replies`, qui ne compte que les réponses directes → marge ×1.5, min 30).
+  const relevancyReads = 12;
+  const recencyReads = Math.min(Math.ceil(Math.max(replies, 20) * 1.5), 100);
+  return 1 + 3 + relevancyReads + recencyReads;
 }
 
 export interface PlanOptions {

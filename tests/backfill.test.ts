@@ -49,9 +49,9 @@ describe("planBackfill", () => {
       refetch: 2,
       rerenderOnly: 2,
     });
-    // b: 1+3+48=52 ; d: 1+3+100=104 → 156 lectures ≤ $0.78
-    expect(plan.totals.estReadsMax).toBe(156);
-    expect(plan.totals.estCostMaxUsd).toBe(0.78);
+    // b(40 replies): 1+3+12+60=76 ; d(6000): 1+3+12+100=116 → 192 ≤ $0.96
+    expect(plan.totals.estReadsMax).toBe(192);
+    expect(plan.totals.estCostMaxUsd).toBe(0.96);
   });
 
   it("--limit échantillonne d'abord les stale", () => {
