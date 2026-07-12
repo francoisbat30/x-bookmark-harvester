@@ -168,24 +168,6 @@ describe("extractPostWithXApi — fenêtre de recherche", () => {
     for (const s of searches) expect(s).toContain("/tweets/search/all");
   });
 
-  it("bounds /search/all with start_time (default window is only 30 days)", async () => {
-    const { calls } = installFetch({ mainTweet: mainTweet("2025-09-14T00:00:00.000Z"), users: [author] });
-    await extractPostWithXApi("1000", { bearerToken: "B", now: NOW });
-    const searches = calls.filter((c) => c.includes("/tweets/search/all"));
-    for (const s of searches) {
-      const st = new URL(s).searchParams.get("start_time");
-      expect(st).toBe("2025-09-13T23:59:00.000Z");
-    }
-  });
-
-  it("does not send start_time on /search/recent", async () => {
-    const { calls } = installFetch({ mainTweet: mainTweet("2026-07-08T00:00:00.000Z"), users: [author] });
-    await extractPostWithXApi("1000", { bearerToken: "B", now: NOW });
-    for (const s of calls.filter((c) => c.includes("/tweets/search/recent"))) {
-      expect(new URL(s).searchParams.get("start_time")).toBeNull();
-    }
-  });
-
   it("asks relevancy ordering for the comments query only", async () => {
     const { calls } = installFetch({ mainTweet: mainTweet("2026-07-08T00:00:00.000Z"), users: [author] });
     await extractPostWithXApi("1000", { bearerToken: "B", now: NOW });

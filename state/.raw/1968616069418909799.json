@@ -1,7 +1,7 @@
 {
   "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-07-12T18:16:08.115Z",
+  "fetchedAt": "2026-07-12T18:24:57.124Z",
   "tweetId": "1968616069418909799",
   "post": {
     "url": "https://x.com/hridoyreh/status/1968616069418909799",
@@ -25,7 +25,7 @@
     ],
     "metrics": {
       "likes": 6763,
-      "retweets": 352,
+      "retweets": 351,
       "replies": 131,
       "views": 805341
     },

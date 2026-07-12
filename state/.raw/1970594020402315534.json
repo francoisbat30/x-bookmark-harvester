@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:07.089Z",
+  "fetchedAt": "2026-07-12T18:26:11.239Z",
   "tweetId": "1970594020402315534",
   "post": {
     "url": "https://x.com/ItsMaclouis/status/1970594020402315534",
@@ -10,6 +11,12 @@
     },
     "date": "2025-09-23",
     "text": "color inspiration - #084 https://t.co/CvfQhfXNli",
+    "thread": [
+      {
+        "id": "1970594020402315534",
+        "text": "color inspiration - #084 https://t.co/CvfQhfXNli"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -21,11 +28,21 @@
       }
     ],
     "metrics": {
-      "likes": 2180,
+      "likes": 2169,
       "retweets": 132,
       "replies": 11,
-      "views": 56006
+      "views": 56448
     },
     "comments": []
-  }
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G1jzJq6XUAAGJ7d.jpg",
+      "localFilename": "1970594020402315534_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G1jzKK_XsAAdnW4.jpg",
+      "localFilename": "1970594020402315534_2.jpg"
+    }
+  ]
 }
