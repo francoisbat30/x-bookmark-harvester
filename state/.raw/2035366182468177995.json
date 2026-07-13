@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:12:15.507Z",
+  "tweetId": "2035366182468177995",
+  "post": {
+    "url": "https://x.com/viktoroddy/status/2035366182468177995",
+    "author": {
+      "handle": "viktoroddy",
+      "name": "Viktor Oddy"
+    },
+    "date": "2026-03-21",
+    "text": "Google Stitch vs Claude\n\nPrompt 👇 https://t.co/X03GYBRnjR",
+    "thread": [
+      {
+        "id": "2035366182468177995",
+        "text": "Google Stitch vs Claude\n\nPrompt 👇 https://t.co/X03GYBRnjR"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2035365928935026688/vid/avc1/1480x1794/6YjJC4tq_P228C62.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2035365928935026688/img/nUfGaiNcT_xEzEm1.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 10285,
+      "retweets": 565,
+      "replies": 172,
+      "views": 1000039
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2035365928935026688/img/nUfGaiNcT_xEzEm1.jpg",
+      "localFilename": "2035366182468177995_1_poster.jpg"
+    }
+  ]
+}

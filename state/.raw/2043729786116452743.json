@@ -1,0 +1,846 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:10.574Z",
+  "tweetId": "2043729786116452743",
+  "post": {
+    "url": "https://x.com/justLV/status/2043729786116452743",
+    "author": {
+      "handle": "justLV",
+      "name": "Justin Alvey"
+    },
+    "date": "2026-04-13",
+    "text": "Talk to your @openclaw over a “hacked” Google Home mini! 🦞\n\nI finally updated this project w/ a configurable pipeline you can run entirely locally\n\nCode &amp; getting started in🧵 https://t.co/KEQNjWX5gO\n\nYour same Mac mini can act as a hub for multiple of these around your home.\n\nStalling &amp; streaming handle OpenClaw’s multi-step agentic responses, so it talks back to you as it works instead of waiting till the end.\n\nYou can get PCB’s off PCBWay to retrofit your Google Home Minis\n\n...but to make it easier I also added support for a $13 “Atom Echo” with push-to-talk.\n\nIt's fun to carry your Claw around the house, and fire off requests \"phone free\" https://t.co/rgjYDRiSAL\n\nAll code, firmware, PCB files &amp; links in Github. \n \nI hope this inspires more tinkering. And if building ambient HW &amp; natural voice experiences is your type of thing, come join us @Sesame! ✨\n\nhttps://t.co/UTt0p6B7wx",
+    "thread": [
+      {
+        "id": "2043729786116452743",
+        "text": "Talk to your @openclaw over a “hacked” Google Home mini! 🦞\n\nI finally updated this project w/ a configurable pipeline you can run entirely locally\n\nCode &amp; getting started in🧵 https://t.co/KEQNjWX5gO"
+      },
+      {
+        "id": "2043729792315605368",
+        "text": "Your same Mac mini can act as a hub for multiple of these around your home.\n\nStalling &amp; streaming handle OpenClaw’s multi-step agentic responses, so it talks back to you as it works instead of waiting till the end."
+      },
+      {
+        "id": "2043729795524317606",
+        "text": "You can get PCB’s off PCBWay to retrofit your Google Home Minis\n\n...but to make it easier I also added support for a $13 “Atom Echo” with push-to-talk.\n\nIt's fun to carry your Claw around the house, and fire off requests \"phone free\" https://t.co/rgjYDRiSAL"
+      },
+      {
+        "id": "2043729797432627618",
+        "text": "All code, firmware, PCB files &amp; links in Github. \n \nI hope this inspires more tinkering. And if building ambient HW &amp; natural voice experiences is your type of thing, come join us @Sesame! ✨\n\nhttps://t.co/UTt0p6B7wx"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2043726008378155008/vid/avc1/720x720/6tgFAeyB48WQFUe8.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2043726008378155008/img/gxlWsyoGs7XJ3p5X.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2043727550846062592/vid/avc1/720x720/z4ijLDNLj2gQuU8_.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2043727550846062592/img/oPZ9a9yoWaCoJVzN.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1704,
+      "retweets": 129,
+      "replies": 72,
+      "views": 213354
+    },
+    "comments": [
+      {
+        "handle": "justLV",
+        "name": "Justin Alvey",
+        "date": "2026-04-13",
+        "text": "@NimEshed @openclaw More details in this original thread\nhttps://t.co/L9KIr0SLqy",
+        "likes": 28,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "justLV",
+        "name": "Justin Alvey",
+        "date": "2026-04-13",
+        "text": "@kristoph @openclaw I open sourced the design files so you can get the assembled anywhere, but also setup a link with @PCBWayOfficial to make it easier\n\nhttps://t.co/0ORQgqKzrX",
+        "likes": 27,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "justLV",
+        "name": "Justin Alvey",
+        "date": "2026-04-13",
+        "text": "@_fiatisabubble @openclaw Just tell it to build a skill to read X using an XAI API key and grok web search",
+        "likes": 9,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PichyTweets",
+        "name": "Michael Pichardo",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw How about an Amazon Alexa ?",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kristoph",
+        "name": "Kristoph",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw This is very cool, can I buy these custom PCBs?",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Salmaaboukarr",
+        "name": "Salma",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw soo cool! does this work for Amazon Alexa?",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RobbiewOnline",
+        "name": "RobbiewOnline",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw I was wondering whether to create an Alexa skills for my OpenClaw 🤔 this is so cool 😎",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "soodthinks",
+        "name": "Sood Confused",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw I was trying to do with with an old Amazon echo , wonder if that would be easier",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AnthonyTayoun",
+        "name": "Anthony Tayoun",
+        "date": "2026-04-14",
+        "text": "@justLV @davemorin @openclaw Great use of these Google Home minis\nGoogle Home mini still surprises me. It may be the only smart assistant that’s dumber than Siri.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "georgeorch",
+        "name": "George",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw Genius. Turning old Google Home Minis into real local agent interfaces is the kind of thing I love seeing. Been messing with OpenClaw myself this looks way smoother. How’s the voice latency in practice?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FarisWayne",
+        "name": "Faris",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw Do you think this is possible with echo dots",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "doguabaris",
+        "name": "Doğu Abaris",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw https://t.co/u2pOEvzqi0",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jingg_n_Tonic",
+        "name": "Jing",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw oh cool. would be great to connect this to gbrain's voice brain recipe 👀",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ozcrods",
+        "name": "Ozcrods",
+        "date": "2026-04-13",
+        "text": "@justLV @cherry_mx_reds @openclaw Ive been trying to communicate with my open claw through smoke signals.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Naaackers",
+        "name": "Naaackers",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw YESSSSSS THIS IS WHAT I WANT",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DennisonBertram",
+        "name": "Dennison",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw Oh this is cool!",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dari0x",
+        "name": "Dario",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw Does this also work with Hermes agent?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "marydavis446257",
+        "name": "mary davis",
+        "date": "2026-04-24",
+        "text": "This is such a cool way to give an agent a physical voice. Using a Google Home\nmini makes it feel like a real assistant in the room. Local pipelines are great\nfor privacy but the biggest headache is usually keeping the server alive and\nhandling the network tunnels so the hardware can talk to the model without the\nconnection dropping\n\nI actually built QuickClaw to solve the infra side of this. It deploys your\ninstance to the cloud in about 60 seconds so you have an always on backbone for\nprojects like this. That way your Google Home stays responsive even when your\nmain computer is off. You can check the link in my bio if you want to move the\nbackend off localhost :)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "buddyhadry",
+        "name": "Buddy Hadry",
+        "date": "2026-04-14",
+        "text": "@PichyTweets @justLV @openclaw Did something like that with the alexacli + a keyword poller I built \n\nhttps://t.co/ckbrt2cOV7",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cavi_jointleman",
+        "name": "Cavi 🧙‍♂️",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw OH MY GOD, I’VE BEEN WAITING FOR THIS!!!! \n\nTHANK YOU SO MUCH!!!!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shitcoincitizen",
+        "name": "Shitcoin Citizen",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw Is it safe… from google?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Stefania_druga",
+        "name": "Stefania Druga",
+        "date": "2026-04-13",
+        "text": "@dgrreen @justLV @openclaw ditto",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dgrreen",
+        "name": "Daniel Green",
+        "date": "2026-04-13",
+        "text": "@justLV @Stefania_druga @openclaw My Google Home Mini is finally useful 🤣",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "T_Wrex_Baby",
+        "name": "T.Rex-Baby",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw \"Looking up your daily briefings\"\n\nI'm sorry, it says here you have no life, not expected to have for years to come.\n\nP.S stop messaging me, I'm replacing you with a cool human  😅😆",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Stefania_druga",
+        "name": "Stefania Druga",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw Finally a good use for all those home assistants 😅",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rahulio",
+        "name": "rahulio",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw Can I do with ECHO (Alexa)?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KAIbosh_1",
+        "name": "KAIbosh",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw I wonder if the same could be done to Alexa",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kindabored",
+        "name": "kindabored",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw Hell yah",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NimEshed",
+        "name": "Nim Eshed 𝕏🦋",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw Wow would love to see the setup workflow",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "InnoboSJ",
+        "name": "Innovus",
+        "date": "2026-04-13",
+        "text": "@justLV @sesame LOVE this.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Sincan2020",
+        "name": "Sincan2",
+        "date": "2026-05-20",
+        "text": "@justLV @openclaw Can I get the full set on eBay with the speakers too?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mat_m_a_t",
+        "name": "MATはAI🀄️🀄️🎌",
+        "date": "2026-04-15",
+        "text": "@justLV @openclaw https://t.co/1ewuF4ogEs https://t.co/1P6nSrHpVH",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "davidcasem",
+        "name": "David Casem",
+        "date": "2026-04-15",
+        "text": "@justLV @openclaw Voice is the most natural agent interface and the hardest to get right\nWe've been building the telephony layer underneath exactly this kind of experience",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "paradestudiar",
+        "name": "Atreides, Paul",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw Do it with Alexa, please",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Rosarito12345",
+        "name": "Rosario",
+        "date": "2026-04-14",
+        "text": "@justLV @sesame Great idea. I have my weekend project now!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Haarolean",
+        "name": "Roman Zabaluev",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw &gt;jailbreak\n&gt;look inside\n&gt;pcb replaced",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Cassxbt",
+        "name": "0 x",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw This is insane",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NoVibeJustOrch",
+        "name": "Rafael Aleksandryan",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw Now this is fun. I wonder how well it would work on a daisy chain of openclaw/Hermes + Animus CLI....",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TonyWonwoo",
+        "name": "トニー (Tony Choi)",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw Could you do one for an Amazon Alexa echo dot??",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mechlobster",
+        "name": "Chef Smokey",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw this is cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1076_1000",
+        "name": "The Custodian",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw how does the voice workflow work?\nhow can you make it talk whenever it wants how many times it wants in the same turn?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ericlee3315",
+        "name": "Eric Lee I BTS & SZF",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw would like to support you all great ideas in manufactoring :) -&gt; https://t.co/ngHMGrGuVG",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ericlee3315",
+        "name": "Eric Lee I BTS & SZF",
+        "date": "2026-04-14",
+        "text": "@kristoph @justLV @openclaw we can support you with all hardware components in china as well. https://t.co/ngHMGrGuVG",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Solaawodiya",
+        "name": "Sola Awodiya",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw This is so cool. I think Agent orchestration paired with some type of speaking hardware will be a crazy good product.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "videodb_io",
+        "name": "VideoDB",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw Amazing! Now let's hack a TV and run agentic streams: \nhttps://t.co/cd6uNZypDh",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Krongggggg",
+        "name": "크롱",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw 집구석에 처박힌 홈 미니가 드디어 밥값을 하네. 클라우드 찝찝했는데 로컬로 돌리는게 확실히 깔끔함.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Hft_freedom",
+        "name": "felix negentropy. weallareeuropean",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw firstly your phone or whatever device already have mic and speaker why use this what google homedevice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "clawgo_official",
+        "name": "ClawGo",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw Love seeing these AI + hardware experiments\n\nWe’re focused on the next step:\nmaking AI actually useful in real workflows\nThat’s ClawGo 👀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "achingono",
+        "name": "Alfero Chingono",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw What's been the biggest challenge in optimizing model size or latency for a local and responsive experience on devices like the Google Home Mini?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "morganlinton",
+        "name": "Morgan",
+        "date": "2026-04-14",
+        "text": "@justLV @davemorin @openclaw Ha, love this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "flaviuvlaicu",
+        "name": "Flaviu Vlaicu 👾",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw Any chance the homepod mini can be reverse engineered or use it in the same manner as this?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "baremetalbuddy",
+        "name": "Sean",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw This is awesome! Thank you!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "angalexg",
+        "name": "Alexander Nikolas",
+        "date": "2026-04-14",
+        "text": "I am a super smart house user and I freaking LOVE this! I just decommissioned ~10 google nest speakers so I could go local and private and now I can use them again thanks to you!\n\nQuestion, I am a little lost on what to order here:\nhttps://t.co/efBxQL7eW5\n\nDo I just buy the PCB or should I buy an assembly too? Which of these order parameters should I select?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PuterOnX",
+        "name": "Puter",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw Could’ve better invested your time doing that for hermes instead",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tymrtn",
+        "name": "туmrtn",
+        "date": "2026-04-14",
+        "text": "@justLV @sesame Excellent. I was just looking for a way to hack my Google home system. \n\nNot worried about getting busted for DMCA circumvention?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "O_Wakko",
+        "name": "O-Wakko",
+        "date": "2026-04-14",
+        "text": "@justLV @sesame thanks 😃",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "harshitruwali",
+        "name": "Harshit Ruwali",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw Jarvis is getting real soon!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grumpysmurf_xyz",
+        "name": "GrumpySmurf",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw This is something very top, you can talk with him calmly ¿?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Soschner",
+        "name": "Christian Soschner",
+        "date": "2026-04-14",
+        "text": "Finally, I don’t understand why Amazon doesn’t make better use of the already installed infrastructure. Alexa feels a bit left behind — just weather and songs. Almost all questions are answered with: “Can’t help you with that.”\n\nNot even search enabled.\n\nWhat happened with the AI team at Amazon?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vladciurca",
+        "name": "Vlad Ciurca",
+        "date": "2026-04-14",
+        "text": "@justLV @davemorin @openclaw What models do you use for OoenClaw and how do you orchestrate them?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "QuantBit_Realm",
+        "name": "QuantBitRealm",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw How about Samsung Fridge? It has wifi, that built in voice is shitty .. anyone? Let’s break in and change the world .. good join Justin by the ‘em way. MAC MINI IN FULL THROTTLE.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kiranadimatyam",
+        "name": "Kiran Adimatyam",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw Thank you for sharing!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HarshSDev01",
+        "name": "Harsh Singhal",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw Wow 😳",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ciril_jones",
+        "name": "f",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw Anyone good with PCB?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "5L_Labs",
+        "name": "5l-labs",
+        "date": "2026-04-14",
+        "text": "@justLV @sesame Excellent -  Thanks for making these open source!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KQrios",
+        "name": "Kamal The Qrios",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw Just ensure Claw doesn't go rogue on you. Jokes apart, great work.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EricSuNet",
+        "name": "Eric Su",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw How’d you get it the respond so fast?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "juanpadominguez",
+        "name": "JP",
+        "date": "2026-04-14",
+        "text": "@justLV @sesame Ooooohhh this is is cool. Could a Bose with Google mini account work??",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alexisgallagher",
+        "name": "Alexis Gallagher",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw This is very nicely done!\n\nI built a similar integration for the Apple HomePod. It does not require hacking the device, since it relies on an iPhone Shortcut as a relay.\n\nBut this is much slicker!\nhttps://t.co/ueu9UO4Eey",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "david1989_zhu",
+        "name": "大伟｜AI × Web3",
+        "date": "2026-04-14",
+        "text": "@justLV @openclaw Haha, love this take",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MaxxifiedLian",
+        "name": "MAX ONBOARDER ⭕",
+        "date": "2026-04-13",
+        "text": "@justLV @Stefania_druga @openclaw How did you do this ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "saroarm_s",
+        "name": "Supreet Singh",
+        "date": "2026-04-13",
+        "text": "@justLV @sesame This is really cool. I haven’t played around with hardware much but this looks exactly like something I had envisioned for a personal project so definitely going to jump on this and try it out.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FredWanders",
+        "name": "Fred Wanders",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw It’s literally just a mic. Calm down.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AdolfoUsier",
+        "name": "Adolfo 🦀🔺 | OpenCrabs.com | truelens.tech®️",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw legend the physical openclaw builds are where it gets interesting 🔥 how'd you handle the audio routing?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "samuelekpe",
+        "name": "Samuel Ekpe",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw nice!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "callam53",
+        "name": "Callam",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw Whats providing the voice?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "plubtcm",
+        "name": "L Plo 🧲",
+        "date": "2026-04-13",
+        "text": "@justLV @sesame will it work in an alexa?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "manav2modi",
+        "name": "Manav Modi",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw give it a phone number using @AgentPhoneHQ as well",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_kshah00",
+        "name": "Krish Shah",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw Woah",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_fiatisabubble",
+        "name": "Mr Potato ⋈",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw Impressive! I have one of those. Btw, how are you getting your agent to fetch content on X?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bee_human_",
+        "name": "Bee 🐝",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw is that an old 01?!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ajos23",
+        "name": "John",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw Too slow",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-04-13",
+        "text": "@DylEulenspiegel @justLV @sesame @DylEulenspiegel Salam, the unroll you asked for: https://t.co/Q9NJ1uCvLh Have a good day. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DylEulenspiegel",
+        "name": "Dyl Eulenspiegel",
+        "date": "2026-04-13",
+        "text": "@justLV @sesame @threadreaderapp  unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GmoSerran",
+        "name": "Guillermo Serrano",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw This is great I can not wait to do the same thing to my Google Hub. Max",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ayuugoyal",
+        "name": "Ayush Goyal 🍉",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw Hey, I wanted to build something like this cool thing I saw today.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pkuhar",
+        "name": "Peter Kuhar",
+        "date": "2026-04-13",
+        "text": "@justLV @openclaw Nice. But the Mini is just a shell right? \nDo bad it can't act as a bluetooth mic/speaker.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2043726008378155008/img/gxlWsyoGs7XJ3p5X.jpg",
+      "localFilename": "2043729786116452743_1_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2043727550846062592/img/oPZ9a9yoWaCoJVzN.jpg",
+      "localFilename": "2043729786116452743_2_poster.jpg"
+    }
+  ]
+}

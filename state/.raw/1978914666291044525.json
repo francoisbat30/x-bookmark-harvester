@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:14:17.782Z",
+  "tweetId": "1978914666291044525",
+  "post": {
+    "url": "https://x.com/omooretweets/status/1978914666291044525",
+    "author": {
+      "handle": "omooretweets",
+      "name": "Olivia Moore"
+    },
+    "date": "2025-10-16",
+    "text": "Claude can now do work for you in your exact style and using your exact process.\n\nYou can \"teach\" Claude to run a pre-designated workflow on any task - making agents MUCH more useful (time saved on manual formatting alone is huge).\n\nEnter...Skills 👇 https://t.co/4mUhC5CGMF https://t.co/un0NbSk2ut",
+    "thread": [
+      {
+        "id": "1978914666291044525",
+        "text": "Claude can now do work for you in your exact style and using your exact process.\n\nYou can \"teach\" Claude to run a pre-designated workflow on any task - making agents MUCH more useful (time saved on manual formatting alone is huge).\n\nEnter...Skills 👇 https://t.co/4mUhC5CGMF https://t.co/un0NbSk2ut"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1978913333643288576/vid/avc1/1920x858/l-dQIKbATInh86Pm.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1978913333643288576/img/Po3jjoYRtpMmSR9e.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 847,
+      "retweets": 56,
+      "replies": 23,
+      "views": 138326
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1978913333643288576/img/Po3jjoYRtpMmSR9e.jpg",
+      "localFilename": "1978914666291044525_1_poster.jpg"
+    }
+  ]
+}

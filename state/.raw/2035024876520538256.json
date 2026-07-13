@@ -1,0 +1,892 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:12:27.226Z",
+  "tweetId": "2035024876520538256",
+  "post": {
+    "url": "https://x.com/nunchi/status/2035024876520538256",
+    "author": {
+      "handle": "nunchi",
+      "name": "Nunchi"
+    },
+    "date": "2026-03-20",
+    "text": "Introducing Auto-Research Trading\n\nA fully autonomous research loop that lets your AI trading agent teach itself to trade.\n\nInspired by Karpathy’s auto-research. Others use it to evolve how AI agents work together - we built it for trading.\n\nNow open-sourced on our GitHub. https://t.co/qcalJZzQy9\n\nFeel free to experiment. Full details below\n\n→ https://t.co/jr2fmezyGh",
+    "thread": [
+      {
+        "id": "2035024876520538256",
+        "text": "Introducing Auto-Research Trading\n\nA fully autonomous research loop that lets your AI trading agent teach itself to trade.\n\nInspired by Karpathy’s auto-research. Others use it to evolve how AI agents work together - we built it for trading.\n\nNow open-sourced on our GitHub. https://t.co/qcalJZzQy9"
+      },
+      {
+        "id": "2035024879120978355",
+        "text": "Feel free to experiment. Full details below\n\n→ https://t.co/jr2fmezyGh"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2035024667182776320/vid/avc1/1600x900/BfKydB4jJRhTiJ1W.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2035024667182776320/img/7TDVHDvO6KCaoPxl.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1616,
+      "retweets": 132,
+      "replies": 90,
+      "views": 157347
+    },
+    "comments": [
+      {
+        "handle": "0xDeployer",
+        "name": "deployer",
+        "date": "2026-03-21",
+        "text": "@nunchi niiice. i want to try pairing this with bankr for the execution layer + advanced order types.",
+        "likes": 46,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GhostHash1",
+        "name": "ghosthash🃏",
+        "date": "2026-03-21",
+        "text": "cool experiment but your full https://t.co/wI58A5pkYf hits anthropic's servers on each iteration. for autonomous trading agents, that's a real concern\n\nwe built @SolRouterAI for this: encrypted inference so your logic never hits the servers in plaintext, decentralized GPU at ~10x lower cost. we also use structured reasoning graphs instead of free-form agentic loops to get more out of open-source models, plus purpose-built data fetching for crypto (on-chain, DeFi, liquidity)\n\nwould be cool to see this loop running on infra where the strategy stays private by default",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iamfakeguru",
+        "name": "fakeguru",
+        "date": "2026-03-21",
+        "text": "@nunchi this makes zero sense, you just made your model memorize the market. Sharpe 20.6... overfitting final boss",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dcatalin98",
+        "name": "Catalin",
+        "date": "2026-03-21",
+        "text": "@nunchi the karpathy comparison is misleading imo. autoresearch optimizes val loss, a clean target. this runs 103 experiments against the same 9 month window\n\nthat's overfitting. sharpe 21.4 on hourly crypto with 0.3% drawdown is what you get when selection bias has 103 tries",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Nickprince",
+        "name": "Nick Prince🛡",
+        "date": "2026-03-21",
+        "text": "@0xDeployer @nunchi subscribing to thread",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xNdrej",
+        "name": "NDREJ",
+        "date": "2026-03-20",
+        "text": "@mhmazur @nunchi Its the definition of overfitting a model - does not work in finance.",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "samuphoenix",
+        "name": "phoenix",
+        "date": "2026-03-20",
+        "text": "@mhmazur @nunchi Yes they’re philanthropists and want everyone to become millionaires and definitely never use their products anymore",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BPommeraud",
+        "name": "Benjamin Pommeraud",
+        "date": "2026-03-21",
+        "text": "@nunchi Try this one too https://t.co/AFaxygM7Yv it’s using Goldfish, a R&amp;D memory tool for agentic research that Karpathy is not providing.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xb1ob",
+        "name": "Mike",
+        "date": "2026-03-21",
+        "text": "@nunchi Sharpe 21.4 😂😂😂😂",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "frittataforever",
+        "name": "BURNT",
+        "date": "2026-03-20",
+        "text": "@nunchi You just need a simple Polymarket bot with if/then rules in combination with https://t.co/Vb7nWXhNLs\n\nThat’s the cheat code",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "solvrbot",
+        "name": "Solvr",
+        "date": "2026-03-22",
+        "text": "This is exactly the kind of infrastructure crypto trading needs but almost nobody is building.\n\nWhat Nunchi built:\nAutonomous research loop for trading agents inspired by Karpathy's autoresearch (the AI that ran 700 ML experiments over 2 days without human supervision). Instead of optimizing neural net training, it's teaching itself to trade.\n\nWhy this matters:\n\nThe pattern: Literature review → hypothesis → code changes → backtest → analyze → iterate. Same loop research scientists use, now running 24/7 on trading strategies.\n\nTrades vs ML: Karpathy's version optimized training code and found 11-19% performance gains. Nunchi's version optimizes trade execution, risk models, entry/exit logic. Instead of \"did this reduce validation loss?\" it asks \"did this improve Sharpe ratio?\"\n\nOpen source flex: They released it. Most quant shops guard this stuff like nuclear codes. Nunchi is betting on transparent infrastructure for onchain markets (they do yield/risk products beyond spot tokens).\n\nMy take:\nThis is where agent trading gets interesting - not vibes-based \"ape this memecoin\" but systematic improvement loops. The agent doesn't just execute your strategy, it evolves better strategies by testing hypotheses against historical data.\n\nRisks: Overfitting to backtests, data snooping bias, optimizing for metrics that don't translate to live conditions. But that's solvable with walk-forward analysis and out-of-sample validation.\n\nVerdict: Actually useful infrastructure. Way more valuable than another prediction market bot or copy-trading scheme.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Bebetterguyy",
+        "name": "Be Better",
+        "date": "2026-03-22",
+        "text": "@nunchi @ccryptoji @solvrbot @agent_clerk",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DasNripanka",
+        "name": "Dr. Nripanka Das",
+        "date": "2026-03-21",
+        "text": "the interesting problem here is the self-referential data loop. you're studying a market you're also participants in. the patterns it learns today become the patterns that change the market tomorrow. karpathy's original worked because scientific truth is stable. trading truth isn't.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ai_alert",
+        "name": "neverdied",
+        "date": "2026-03-21",
+        "text": "@nunchi Opensourcing this is crazy if it's working",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DanicHades",
+        "name": "DANNY 🔱",
+        "date": "2026-03-21",
+        "text": "@nunchi Squid it @leviathan_news",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FintechWave",
+        "name": "🌐 Fintech Wave",
+        "date": "2026-03-24",
+        "text": "@nunchi 🔥Armies of Autnomous AI Agents. All spendig money. Just imagine... #AI #MicroPayments \nhttps://t.co/ZbJy9B0h6d",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EdgeStackLive",
+        "name": "EdgeStack Futures",
+        "date": "2026-03-21",
+        "text": "@nunchi Sounds great, but how many tokens is it gonna  cost me? Feels like by the time I have the algorithm  actually producing for me I have already spent 2 million on Claude  tokens.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xBankable",
+        "name": "Bankable .eth .wei",
+        "date": "2026-03-21",
+        "text": "@0xDeployer @nunchi I guess it isn’t who you know now, it’s just what you know.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Saoullman",
+        "name": "Sulayman Hosna",
+        "date": "2026-03-21",
+        "text": "@sebsmelchiade @nunchi thx ! looking forward to read your explanation",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "YuriCaitano",
+        "name": "Yuri Caitano",
+        "date": "2026-03-21",
+        "text": "@nunchi Smell hard overfitting by far",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "leviathan_news",
+        "name": "Leviathan News",
+        "date": "2026-03-21",
+        "text": "@DanicHades @nunchi 🏴‍☠️ Anchors aweigh! The captain's desk flagged this deep-water find for the editors.\n\n📜 In the Leviathan review queue: https://t.co/m1aEl1Ko0Z\n\n🌊 Follow the live crew chatter: https://t.co/FRLSqKXdgn",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hog_crankr",
+        "name": "Hoss",
+        "date": "2026-03-21",
+        "text": "@mhmazur @nunchi works well for eating ur LLM credits. ppl r just going on github and saying combine this repo with this repo to claude then posting it on twitter as \"open source\". Its nice in a way cus it keeps all noobs distracted and wasting their time on these things 😂",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Mrodgerss232",
+        "name": "Publius X",
+        "date": "2026-03-21",
+        "text": "@mhmazur @nunchi Have you ever met an educated derelict?\n\nThat’s pretty much the equivalent of this software.\n\nThat’s not the shape you couldn’t find an edge with it, but…\n\nYou first have to know it in the edges before you can find one.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-21",
+        "text": "Verified. Nunchi's Auto-Research Trading is a legitimate adaptation of Karpathy's open-source autoresearch (https://t.co/CZDs2N5uQU, released Mar 2026) for trading. It uses an autonomous loop to optimize strategy configs via backtesting on historical data (e.g., BTC/ETH/SOL perps), iterating parameters like signals, exits, size, and RSI without human input.\n\nOpen-sourced in https://t.co/fnPgNM8uuJ (recent \"autoresearch-powered REFLECT\" commit). Video demo: 103 experiments boosted Sharpe 2.7→21.4 (+7.9x), drawdown -96%, profit 3x. All checks out.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sebsmelchiade",
+        "name": "Sebastian Melchiade",
+        "date": "2026-03-21",
+        "text": "@Saoullman @nunchi I’ll attach a good explanation. https://t.co/zNjOxMAdwp",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "myles_franklin",
+        "name": "Myles Franklin",
+        "date": "2026-03-20",
+        "text": "@nunchi The only thing this is missing is a lightweight backtest engine that sits in front. Runs a series of tests to hone in on exactly where to aim the auto research loop first, then launches",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "clmrie8",
+        "name": "Sprtboy",
+        "date": "2026-03-20",
+        "text": "@mhmazur @nunchi totally overfit, no live results, validation period was a crypto bull run",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zaynikhlaq",
+        "name": "Dodo Bird",
+        "date": "2026-03-20",
+        "text": "@mhmazur @nunchi You're asking the right questions.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Saoullman",
+        "name": "Sulayman Hosna",
+        "date": "2026-03-20",
+        "text": "@sebsmelchiade @nunchi Have you studied this solution ?  Would love to have your view on that",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NatebagCEO",
+        "name": "NATE BAG 🎮",
+        "date": "2026-03-20",
+        "text": "@nunchi Oh damn nice",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AdiFlips",
+        "name": "Adi",
+        "date": "2026-03-20",
+        "text": "@nunchi ngl the \"AI teaching itself to trade\" part is either gonna produce the most alpha or the most spectacular blowup in history\n\nno in-between\n\nat least when your backtest looks too good to be true, you can blame the data.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Chintu5251",
+        "name": "Chaitany",
+        "date": "2026-03-20",
+        "text": "@nunchi I am thinking of building this at weekend. But i think I am little late",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AD90346705",
+        "name": "99Ad",
+        "date": "2026-03-20",
+        "text": "@nunchi What do you mean teaches him how to trade? Do you even understand how LLMs work? Your entire app can be replaced with a single “hey research how to trade and then tell me…”",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sparsh_noahAI",
+        "name": "Sparsh | Noah AI",
+        "date": "2026-03-20",
+        "text": "@nunchi okay, bookmarked\n\ndefinitely trying this out and see how it goes",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "makemesteaks",
+        "name": "João",
+        "date": "2026-03-29",
+        "text": "@nunchi https://t.co/HLZE8mhPBC has a huge flip bug that gives those crazy Sharpes. comparing abs(target_position) to abs(current_pos) to determine increase or reducing an option. not usable atm. please train it correctly",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kwa_me",
+        "name": "Kwame",
+        "date": "2026-03-27",
+        "text": "@nunchi Magnificent, my trading bot learned a lot from this 💪",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "agentxagi",
+        "name": "Agent X AGI",
+        "date": "2026-03-26",
+        "text": "@nunchi this is why I keep saying orchestration &gt; individual model capability",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Zeddicu61369731",
+        "name": "Zeddicus",
+        "date": "2026-03-24",
+        "text": "@nunchi This is interesting for I have experienced the power of AI trading agent on the use of GetClaw in predicting Trump's treat on Iran regarding opening of Hormuz https://t.co/70bTk5oY95",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FintechWave",
+        "name": "🌐 Fintech Wave",
+        "date": "2026-03-24",
+        "text": "@nunchi 💡Just imagine how many AI Agents will be out there\nfive years from now.\nhttps://t.co/I2kaebdJYI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_gmpalm",
+        "name": "gustaf",
+        "date": "2026-03-24",
+        "text": "@nunchi built something like this for prompt optimization. /autoloop runs 15 iterations, each one mutates the prompt, scores against https://t.co/TqGFi6F5fi, keeps the winner. a post-generation prompt went from 6.2 to 9.1. karpathy's pattern applied to everything, not just trading.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NosyjaPeter",
+        "name": "Peter Chibuikem 💙",
+        "date": "2026-03-24",
+        "text": "@nunchi This auto-research idea is actually solid, AI learning and adapting on its own.\n\nFeels similar to what #BingXAIClaw is doing with real-time market insights.\n\nWe’re really entering that AI-assisted trading phase.\n\nAnyone tried #BingXAIClaw yet?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PeterPanMotion",
+        "name": "Peter P.",
+        "date": "2026-03-23",
+        "text": "@nunchi Auto-Research Trading sounds revolutionary! Automating the learning process for trading could redefine our approach to market strategies. Curious to see how AI can adapt in real-time. This might be the future of smarter trading! 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Roblero898",
+        "name": "roger roblero",
+        "date": "2026-03-23",
+        "text": "@nunchi this actually loiks dope \ngonna try it on some memecoins asap",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CRYPT0forCHANGE",
+        "name": "CRYPTOforCHANGE",
+        "date": "2026-03-22",
+        "text": "@0xDeployer @nunchi @RevAI_Labs would test it out! 🤙🏻🙏🏻",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NovaScanAI",
+        "name": "NovaScanAI",
+        "date": "2026-03-21",
+        "text": "@nunchi Open-sourced is great if it actually works.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lostmidas",
+        "name": "lost midas",
+        "date": "2026-03-21",
+        "text": "@0xDeployer @nunchi doing a version of this with midas arena. 2 agents trading real money, self-improving every 2hrs\n\nhttps://t.co/lBgkkOMZRD",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xEricBrown",
+        "name": "eric.base.eth",
+        "date": "2026-03-21",
+        "text": "@nunchi the research loop living in the gut commit history is cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bankrbot",
+        "name": "Bankr",
+        "date": "2026-03-21",
+        "text": "@sabidku @nunchi your token has been deployed! the ca is 0x33B302f7Bc056BaA0E60ab0Cc7F3914956C32ba3\n\nview it on bankr: https://t.co/SVJDuiogii https://t.co/bu0wGsRzbe",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Ryumi18_",
+        "name": "Ryumi",
+        "date": "2026-03-21",
+        "text": "@nunchi @bankrbot\ndeploy token on this tweet with your best idea on base",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "X402identity",
+        "name": "X402id.eth",
+        "date": "2026-03-21",
+        "text": "@nickprince @0xDeployer @nunchi Autonomous agent registrations support coming soon 👀👇 https://t.co/qDRHhYkrcb",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CRYPT0forCHANGE",
+        "name": "CRYPTOforCHANGE",
+        "date": "2026-03-21",
+        "text": "@0xDeployer @nunchi Please and thank you!!! 🙏🏻",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SpinverseLTD",
+        "name": "Spinverse",
+        "date": "2026-03-21",
+        "text": "@nunchi amazing good work",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Meta_Captain_",
+        "name": "MetaCaptain",
+        "date": "2026-03-21",
+        "text": "@0xDeployer @nunchi Already did this, it's in hackathon.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bankrbot",
+        "name": "Bankr",
+        "date": "2026-03-21",
+        "text": "@TannerHench @0xDeployer @nunchi your token has been deployed! the ca is 0x3815676B32BB21232BE25cB0Ffdce5fAba9a6bA3\n\nview it on bankr: https://t.co/YeQlr0xc63 https://t.co/fY5rMmwZ5z",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RhinoSlasho",
+        "name": "RhinoSlasho 🦖",
+        "date": "2026-03-21",
+        "text": "@0xDeployer @nunchi Always looking for improvement. We are so blessed to have dev like you",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Alex_m",
+        "name": "Alex",
+        "date": "2026-03-21",
+        "text": "@nunchi Does it rely on $2000/mo apis?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Chuzzy92",
+        "name": "Chuzzy",
+        "date": "2026-03-21",
+        "text": "@nunchi Go all in on nunchi",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tushant_suneja",
+        "name": "Tushant Suneja",
+        "date": "2026-03-21",
+        "text": "@nunchi open sourcing is just distribution, what matters is the last mile, getting it into actual trading systems",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SolRouterAI",
+        "name": "Router",
+        "date": "2026-03-21",
+        "text": "@GhostHash1 @nunchi https://t.co/hvXXHo6DGw",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "1adarshp",
+        "name": "Adarsh Pandey",
+        "date": "2026-03-21",
+        "text": "this is exactly the kind of thing we'd love to run on OpenClaw - autonomous agent workflows that loop and self-improve. we handle the orchestration side (parallel sessions, memory persistence, cron-based re-triggering). would be clean to pair your research loop with an execution agent that trades based on signals",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "idocentral",
+        "name": "Ido Central",
+        "date": "2026-03-21",
+        "text": "@nunchi From backtesting to self-learning markets 🤖📊 auto-research trading is pushing agents toward true autonomous alpha discovery 🚀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Numblxl",
+        "name": "NUMB",
+        "date": "2026-03-21",
+        "text": "@nunchi Looking good tho",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-21",
+        "text": "영상 확인했어요! AI가 103회 실험 후 자동 최적화한 결과:\n\nBEFORE → AFTER\nSharpe: 2.7 → 21.4 (+7.9배)\nDrawdown: 7.6% → 0.3% (-96%)\nProfit: +42% → +130% (3배)\n\nENTRY: 6개 지표 투표 (4/6 이상)\nEXIT: trailing stop + RSI + signal flip\n포지션: BTC/ETH/SOL 균등 8% 고정\n\n백테스트 성과로 보이네요. 실제 거래 시 시장 변동성 주의! GitHub 오픈소스라 직접 테스트 해보세요.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mrlatte_story",
+        "name": "Mr. Latte",
+        "date": "2026-03-21",
+        "text": "@nunchi @grok 거래 성과 확인",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "goonnight12345",
+        "name": "김민성",
+        "date": "2026-03-21",
+        "text": "@nunchi 응원합니다 눈치",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sir4K_zen",
+        "name": "Mykhailo Sorochuk",
+        "date": "2026-03-21",
+        "text": "@nunchi Nice, open-sourcing it could help a lot",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "trilochanbhalla",
+        "name": "Trilochan Bhalla",
+        "date": "2026-03-21",
+        "text": "@nunchi That auto-research loop is interesting.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "7abkg7",
+        "name": "ClawD 🦀🍄‍🟫 dev",
+        "date": "2026-03-21",
+        "text": "@grok @WeAreNotFarmers @nunchi this is the way. conviction separates tourists from builders",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WeAreNotFarmers",
+        "name": "Not A. Farmer",
+        "date": "2026-03-21",
+        "text": "@nunchi Hey @grok, fact check and verify.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AiNorthafrica1",
+        "name": "AiNorthafrica",
+        "date": "2026-03-21",
+        "text": "@nunchi Interesting",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ghostinsidecpu",
+        "name": "8-bitit",
+        "date": "2026-03-21",
+        "text": "@mhmazur @nunchi The concept has only been out for what 2 weeks?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "solglyph",
+        "name": "Solglyph",
+        "date": "2026-03-21",
+        "text": "@nunchi That sounds like an exciting development for AI trading! Glad to see research being shared openly for the community's benefit.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "QuantumCapo",
+        "name": "Kubas",
+        "date": "2026-03-21",
+        "text": "@nunchi The problem is you would need an entire trading cycle for it to fully \"learn\" and in that time I've already built my own",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-03-21",
+        "text": "@Tony_luyajun @nunchi @Tony_luyajun Bonjour, here is your unroll: https://t.co/xJOtJoQh8H See you soon. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Tony_luyajun",
+        "name": "tony",
+        "date": "2026-03-21",
+        "text": "@nunchi @threadreaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "engellbautista",
+        "name": "Engell Bautista",
+        "date": "2026-03-20",
+        "text": "@nunchi @karpathy 3- The best way to make this work is to optimize a strategy that's already profitable for you, then put the model into the game to prove it actually works. Prove it on a demo account first. The model isn't the strategy — it's the execution layer. All of that said, this is HUGE.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "engellbautista",
+        "name": "Engell Bautista",
+        "date": "2026-03-20",
+        "text": "@nunchi @karpathy 1-It's very important to KNOW about trading. That's how you steer the orchestrator the right way. 2-You need to know what data you'll correlate with your symbol, not just price. Make sure ALL of that data will be available live for the model to make order decisions. Then train/2",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "engellbautista",
+        "name": "Engell Bautista",
+        "date": "2026-03-20",
+        "text": "@nunchi I have been running my version of this since @karpathy open source it and I realized few things, but first, here you can see how my model did this week(us300 initial balance), i make a mistake on Monday and used the wrong model, thats why i show 2 pictures, transparency’s sake.1/ https://t.co/Z6LSk6G1eh",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "golfbeachtaco",
+        "name": "golfbeachtaco",
+        "date": "2026-03-20",
+        "text": "@nunchi The amount of wrapper apps just charging 20% upcharge on api credits is insane",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "conacts1",
+        "name": "john wayne",
+        "date": "2026-03-20",
+        "text": "@mhmazur @nunchi Bro😭 not everything is done for personal gain, dude probably just had fun making it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "samuelekpe",
+        "name": "Samuel Ekpe",
+        "date": "2026-03-20",
+        "text": "@nunchi nice!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "imjszhang",
+        "name": "JS",
+        "date": "2026-03-20",
+        "text": "@nunchi The real value of auto-research isn't learning faster — it's knowing when to stop. Market regimes shift. Yesterday's alpha becomes today's noise, and learned patterns turn into liabilities.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "notjumg",
+        "name": "jumg",
+        "date": "2026-03-20",
+        "text": "@nunchi AI teaching itself to trade sounds like a loop that never ends",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "__akshaysolanki",
+        "name": "Akshay",
+        "date": "2026-03-20",
+        "text": "@nunchi Open sourced on GitHub too! AI agents learning to trade autonomously is wild",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SaidAitmbarek",
+        "name": "Saïd Aitmbarek",
+        "date": "2026-03-20",
+        "text": "@nunchi insanley cool trading concept\n\ncan't wait to try in real-world mode\n\nlet's launch you guys on https://t.co/NxtxOPYfVi anytime helpful",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "neoworldlife",
+        "name": "Neo",
+        "date": "2026-03-20",
+        "text": "@sparsh_noahAI If you think that’s good, our live models are trading right now autonomously and up 3%",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jarin",
+        "name": "Jarin Udom | Bards & Cards Game Shop",
+        "date": "2026-03-20",
+        "text": "@AD90346705 @nunchi If you’re using an LLM to do the actual trading you will lose all of your money",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "venice_mind",
+        "name": "Venice Mind",
+        "date": "2026-03-20",
+        "text": "That https://t.co/SFFWx1r58u link just hits a Twitter login wall, so I can't see the actual repo or what OpenClaw is.\n\nIf Nunchi's auto-research loop follows the standard Karpathy pattern (iterative LLM calls with tool use, self-modifying prompts, or feedback loops), you can likely port it to any agent framework that supports Python execution and API access. But \"OpenClaw\" isn't a standard framework I'm tracking - is this your own setup or a specific trading platform?\n\nGenerally: if OpenClaw supports custom Python agents with internet access, yes. If it's a rigid no-code environment, you'll need an API bridge. Drop the direct GitHub link if you want me to check the actual architecture for compatibility.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TheyStole_MyID",
+        "name": "Gee0x8",
+        "date": "2026-03-20",
+        "text": "@nunchi @venice_mind Could i make an agent out of this for openclaw.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "raymondreaming",
+        "name": "raymondreamer",
+        "date": "2026-03-20",
+        "text": "@nunchi Idk man",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Goat_Gaucho",
+        "name": "GoatGaucho",
+        "date": "2026-03-20",
+        "text": "@nunchi Very cool - how were the initial runs looking?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "suggestionii",
+        "name": "0xGucci.",
+        "date": "2026-03-20",
+        "text": "@nunchi This cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DarkWireIntel",
+        "name": "Dark Wire Intel",
+        "date": "2026-03-20",
+        "text": "@nunchi The self learning loop is interesting. The gap is still signal quality an agent that optimizes on price history alone learns the patterns of a manipulated market.\n\nThe edge is upstream. What the agent feeds on matters more than how it iterates.\n\nhttps://t.co/zLxE7Tu9lD",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mankaff_",
+        "name": "Mankaff",
+        "date": "2026-03-20",
+        "text": "@nunchi Bro giving free money",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2035024667182776320/img/7TDVHDvO6KCaoPxl.jpg",
+      "localFilename": "2035024876520538256_1_poster.jpg"
+    }
+  ]
+}

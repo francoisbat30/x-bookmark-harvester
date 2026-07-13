@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:14:23.660Z",
+  "tweetId": "1978941079182545338",
+  "post": {
+    "url": "https://x.com/AravSrinivas/status/1978941079182545338",
+    "author": {
+      "handle": "AravSrinivas",
+      "name": "Aravind Srinivas"
+    },
+    "date": "2025-10-16",
+    "text": "You can now track insider trading on Perplexity Finance. We will be adding politician trading shortly. https://t.co/7FUwoiiPGQ",
+    "thread": [
+      {
+        "id": "1978941079182545338",
+        "text": "You can now track insider trading on Perplexity Finance. We will be adding politician trading shortly. https://t.co/7FUwoiiPGQ"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3acbCpXEAA03Ta.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 20247,
+      "retweets": 1146,
+      "replies": 522,
+      "views": 3604596
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3acbCpXEAA03Ta.jpg",
+      "localFilename": "1978941079182545338_1.jpg"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:39.268Z",
+  "tweetId": "1982999048912072824",
+  "post": {
+    "url": "https://x.com/nlw/status/1982999048912072824",
+    "author": {
+      "handle": "nlw",
+      "name": "Nathaniel Whittemore"
+    },
+    "date": "2025-10-28",
+    "text": "OpenAI says their build out will require 20% of America's electricians and mechanics and calls for a massive effort to train more tradespeople. https://t.co/jQaU8wKh0z",
+    "thread": [
+      {
+        "id": "1982999048912072824",
+        "text": "OpenAI says their build out will require 20% of America's electricians and mechanics and calls for a massive effort to train more tradespeople. https://t.co/jQaU8wKh0z"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G4UHG4DXgAAP_gI.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 25,
+      "retweets": 6,
+      "replies": 2,
+      "views": 3849
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G4UHG4DXgAAP_gI.jpg",
+      "localFilename": "1982999048912072824_1.jpg"
+    }
+  ]
+}

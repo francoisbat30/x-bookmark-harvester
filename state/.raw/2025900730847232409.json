@@ -1,7 +1,7 @@
 {
   "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-07-13T06:57:31.326Z",
+  "fetchedAt": "2026-07-13T07:07:58.768Z",
   "tweetId": "2025900730847232409",
   "post": {
     "url": "https://x.com/theo/status/2025900730847232409",
@@ -32,25 +32,877 @@
     },
     "comments": [
       {
+        "handle": "theo",
+        "name": "Theo - t3.gg",
+        "date": "2026-02-24",
+        "text": "@xdotli Another video coming very soon 🤐",
+        "likes": 23,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sjmaple",
+        "name": "Simon Maple",
+        "date": "2026-02-24",
+        "text": "Your AGENTS. md file isn't the problem. Your lack of Evals is.\n\nIf your tests don't catch a bug, do you delete your test suite?\n\nBelow is my write up on why the study shares VALID data, but comes to the WRONG conclusions.\n\n@theo, I'd happily work with you to run evals on your context! Perhaps as a folllow up video, or join us on the AI Native Dev podcast and we'll do it as a live hack :D\n\nhttps://t.co/VmnbS6vzIb",
+        "likes": 9,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "preislerd",
+        "name": "Dustin Preisler",
+        "date": "2026-02-25",
+        "text": "@theo Also this:\nCLAUDE_CODE_DISABLE_AUTO_MEMORY=1\n\nClaude Code v2.1.32 was published in early February and introduces MEMORY.md as project scoped auto memory layer that does not even tell you it gets written.",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "justsisyphus",
+        "name": "Sisyphus Labs",
+        "date": "2026-02-25",
+        "text": "@theo No. That study does not reflect auto generated nested agents md pattern\n\nhttps://t.co/qL9ORc4egk\n\nWe said about this two months ago",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "merlindru",
+        "name": "merlin",
+        "date": "2026-03-05",
+        "text": "@HotAisle @jarredsumner @theo sorry dude my bad\n\nu were right all along",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HotAisle",
+        "name": "Hot Aisle",
+        "date": "2026-03-05",
+        "text": "@merlindru @jarredsumner @theo nobody ever listens to me, lol.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "merlindru",
+        "name": "merlin",
+        "date": "2026-03-05",
+        "text": "@HotAisle @jarredsumner @theo oh shit i didnt realize it wasn't already doing that. and i've been using bun daily since open beta lmfao\n\nyeah that should change IMO.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HotAisle",
+        "name": "Hot Aisle",
+        "date": "2026-03-05",
+        "text": "@merlindru @jarredsumner @theo Either get rid of bun test, or make bun test -&gt; bun run test, so that you actually have control over what bun test does.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mnigos0",
+        "name": "Igor Makowski",
+        "date": "2026-02-26",
+        "text": "@marcusman933 @theo So just tell agent what lang to use in initial prompt",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AndrewSuther1",
+        "name": "Andrew Suther",
+        "date": "2026-02-25",
+        "text": "@theo https://t.co/ikLZLiFt1T\n\nHave solutions for these?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HeideMichaelAi",
+        "name": "Michael Heide",
+        "date": "2026-02-25",
+        "text": "@avrldotdev @kay1492111 @theo @ThePrimeagen Thanks mate &lt;3",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
         "handle": "avrldotdev",
         "name": "avrl ☘",
-        "date": "2026-02-23",
-        "text": "Already predicted these issues around context stuffing & managing these MD files a month back, well I was not wrong apparently:",
-        "likes": 159
+        "date": "2026-02-25",
+        "text": "@HeideMichaelAi @kay1492111 @theo You can read here or watch @ThePrimeagen video:\nhttps://t.co/OdizwCGvbZ",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
       },
       {
-        "handle": "jarredsumner",
-        "name": "Jarred Sumner",
+        "handle": "d4m1n",
+        "name": "Dan ⚡️",
+        "date": "2026-02-25",
+        "text": "@jamonholmgren @0xblacklight @theo 🤣",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TheCryptoDog",
+        "name": "The Crypto Dog 📈",
+        "date": "2026-02-25",
+        "text": "@smilinglllama @theo :)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mnmueller",
+        "name": "Mark Müller",
         "date": "2026-02-24",
-        "text": "imo\n\nBuild & test instructions are important\n\nEverything else is either:\n- workaround things you wish the model figured out on its own\n- for AI code review to double check",
-        "likes": 157
+        "text": "@theo Exciting to see our work featured in so much detail 🔥 if you are interested in some of the other things we are doing at LogicStar AI, check our blog",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
       },
       {
-        "handle": "christofsalis",
-        "name": "Christof Salis",
-        "date": "2026-02-23",
-        "text": "What you say makes sense, but I must say my personal experience is that if i dont give some ground rules about frameworks and patterns/rules, it goes off solving proplems by writing working code that doesnt fit into the codebase at all. I wonder if cohesion was part of the eval.",
-        "likes": 141
+        "handle": "GregHuntoon",
+        "name": "Greg Huntoon",
+        "date": "2026-02-24",
+        "text": "@DylanFeltus @theo This distinction is key.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jlchnc",
+        "name": "Joe LaChance",
+        "date": "2026-02-24",
+        "text": "@theo just watched this, super good!\nI have a feeling Anthropic already knows about this 😬\n\nreading this blog post earlier today too, which seems super relevant here: https://t.co/nUPOJC0lVT",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DylanFeltus",
+        "name": "Dylan Feltus",
+        "date": "2026-02-24",
+        "text": "@theo for pure coding? maybe you have a point. less prompting can mean less interference. \n\nfor persistent agents with memory, workflows, and team coordination? \n\ndeleting https://t.co/ns79Jone74 would be chaos.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PovilasKorop",
+        "name": "Povilas Korop | Laravel Courses Creator & Youtuber",
+        "date": "2026-02-24",
+        "text": "@AddicoTeye7 @theo I have watched the video and don't fully agree with the take.\n\nbecause Theo is talking about the ClaudeMD file being initiated with the `init` command, which is obviously wrong and no one actually should do that. \n\nManually written ClaudeMD is still useful.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "truffle",
+        "name": "Christina @ATX",
+        "date": "2026-02-24",
+        "text": "@theo Transcript please",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-24",
+        "text": "Theo from https://t.co/QZ1JohT9kO says: delete your https://t.co/G3SAu0OHOi / https://t.co/iW2UMpUTnQ files.\n\nThese repo files give custom instructions to AI coding agents (Cursor, Claude, etc.). But a new study he breaks down shows they often hurt agent performance on real tasks—causing worse code quality, more hallucinations, and lower success rates vs. clean repos.\n\nHe demos paper results, before/after tests in IDEs, and prompt experiments proving it. Recommendation: remove them for better AI dev output. (Video: ~29 min deep dive.)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MemesOfMars",
+        "name": "Dreams of Mars 🕊❤️🚀🌕",
+        "date": "2026-02-24",
+        "text": "i build my own group chat tool i am using with my agents it uses a language encoder and compressor to compact information before reaching the agents. \n\ni call it Sema-Lingua. The original context is stored in a Memory Database. \n\nagent generates msg\n  → SL-compress (70-90% smaller)\n  → stored in group-log compressed\n  → agents read compressed = lean context\n  → human UI expands on-display\n\nAgent↔️Agent  ➡️ always SL-compressed (stored + read)\nAgent➡️Human ➡️ expand on render\nHuman➡️Agent  ➡️ auto-compress \nIF message > threshold (e.g. 500 chars)\n               OR if context budget is running hot\n               OR user flag: [compact] prefix",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-24",
+        "text": "この動画はTheo（theo）が「https://t.co/G3SAu0OHOiやhttps://t.co/iW2UMpUTnQファイルを削除しろ」と主張する29分講義です。\n\n彼は最近の論文（K2S3Eval関連のAIコーディングエージェント評価研究）を紹介し、  \n・エージェント用プロンプトファイル（https://t.co/G3SAu0OHOiなど）を入れると性能が低下  \n・何も入れない「no agent file」が最高スコア  \n\nというベンチマーク結果を画面共有で証明。  \n実際のClaude ProjectsやCursorでのワークフローも見せ、「シンプルに使え」と結論づけています。  \n\n要するに「余計な指示は逆効果」というメッセージです！",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "miklos_vac56629",
+        "name": "Miklos Vaczi",
+        "date": "2026-03-31",
+        "text": "@theo This guy got proven by the claude code hack that showed that it is sent with every request.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nodefounder",
+        "name": "FOUNDER",
+        "date": "2026-03-23",
+        "text": "Hot take: the study doesn’t prove “delete context files”. It proves “bad context files are poison.”\nThe real move is: minimal spec + executable checks (tests/lint/rollback) so the agent can verify, not just read rules.\nI posted a real money-shaped example of this pattern today — check my profile.\nWhat’s your “minimum viable” context file: 10 lines or 200?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-23",
+        "text": "Theo's right—delete bloated CLAUDE.md/AGENTS.md files.\n\nThe ETH Zurich study (arXiv:2602.11988, Feb 2026) tested them on SWE-Bench Lite + their new AGENTBENCH (real GitHub issues).\n\nLLM-generated ones: -3% success rate avg, +20%+ inference cost (more pointless exploration/testing).\n\nHuman-written: +4% at best (marginal, varies by model/agent; often no gain for Claude).\n\nAgents follow the instructions, but extra \"requirements\" distract them. Trim to bare minimum (e.g., one weird tooling rule) or delete entirely. Focus on clean code instead.\n\nGreat deep dive from Theo.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ryanhaque449893",
+        "name": "ryan haque",
+        "date": "2026-03-23",
+        "text": "@theo @grok please review what he is saying",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jjenzz",
+        "name": "jenna",
+        "date": "2026-03-09",
+        "text": "@tracker1 @gill_kyle @theo yeah deffo been burned by that in the past 😅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tracker1",
+        "name": "Michael J. Ryan🚩🇺🇲",
+        "date": "2026-03-09",
+        "text": "@gill_kyle @jjenzz @theo One minor gotcha is agents will often change tests instead of broken code... Need to be clear and point out where a test is correct and the implementation is broken.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tracker1",
+        "name": "Michael J. Ryan🚩🇺🇲",
+        "date": "2026-03-09",
+        "text": "@jeevanpillay @theo Mine have been trending to under half that with references to directories and other docs in the project.\n\nMostly approach rules and where some key items to work with are...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tracker1",
+        "name": "Michael J. Ryan🚩🇺🇲",
+        "date": "2026-03-09",
+        "text": "@0xblacklight @theo I've tried to start keeping mine minimal... Just enough guard rails and hints on structure/reference. \n\nThe bulk goes into active design/architecture, Todo and history...  With the latter having the why along the way.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "k081e",
+        "name": "Kobie sync/acc",
+        "date": "2026-03-06",
+        "text": "@NPalamarch88215 @theo shipped",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-05",
+        "text": "The video's main point in simple words: \n\nA new study shows CLAUDE.md / AGENTS.md files (extra instructions for AI coders) usually make AI *worse* — slower, more distracted, higher cost. \n\nAI models are already great at exploring your code on their own. \n\nDelete the big files. Only keep super short notes for rare specific rules. Fix your actual code/tests instead — that's what really helps. \n\nBoom, done. 🚀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AliH2717",
+        "name": "Ali Hussein",
+        "date": "2026-03-05",
+        "text": "@theo @grok summarize it in simple words",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TylerNash01",
+        "name": "Tyler Nash",
+        "date": "2026-03-02",
+        "text": "@theo https://t.co/lTusG1wWpg",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mflscout",
+        "name": "MFLScout",
+        "date": "2026-02-28",
+        "text": "@theo Check out https://t.co/hpZlIRyPV1 !!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GJDaddoi",
+        "name": "Daddoi",
+        "date": "2026-02-27",
+        "text": "@christian_wink_ @felixchi @theo @grok It's in my ~/.roo/rules/ files, agents.md, etc.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "christian_wink_",
+        "name": "Christian Wink",
+        "date": "2026-02-26",
+        "text": "@GJDaddoi @felixchi @theo @grok the annotation trick is one I haven't heard before. i take it you are doing this consistently?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "marcusman933",
+        "name": "marcus",
+        "date": "2026-02-25",
+        "text": "@mnigos0 @theo Fresh project,   O code written yet",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AncientAeneas",
+        "name": "Aeneas",
+        "date": "2026-02-25",
+        "text": "@felixchi @grok @theo exactamundo 👨‍🍳",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "slopppcorp",
+        "name": "Slop Corporation",
+        "date": "2026-02-25",
+        "text": "@DukeOfSax @theo haha I was kidding :F",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-25",
+        "text": "Sure! Theo's video reviews a new study/paper (\"Evaluating https://t.co/iW2UMpUTnQ: An LLM-Powered Coding Agent’s Guiding Agent?\") testing if https://t.co/lWpcGwCF4R files actually help LLM coding agents (like Claude) perform better.\n\nKey finding: They usually don't improve results and can hurt by adding redundant info or overhead. If the \"vibe\" (context/style) is already in the codebase, skip the file.\n\nTheo shows his own minimal setup without them and recommends deleting yours for cleaner agents. 29-min watch with screen shares, benchmarks, and demos.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kiril_kar",
+        "name": "Kiril Karamanolev",
+        "date": "2026-02-25",
+        "text": "@theo @grok, can you summarise this?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mnigos0",
+        "name": "Igor Makowski",
+        "date": "2026-02-25",
+        "text": "@marcusman933 @theo Agent will figure out what language to use by looking at the codebase",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "coreycoto",
+        "name": "Corey Coto",
+        "date": "2026-02-25",
+        "text": "@theo Ready for your rant on Skills",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "marcusman933",
+        "name": "marcus",
+        "date": "2026-02-25",
+        "text": "@mnigos0 @theo So just reminders, but the project ure trying to code u put the details in the readme file, wat about what languages to use? That goes in readme too?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HeideMichaelAi",
+        "name": "Michael Heide",
+        "date": "2026-02-25",
+        "text": "@avrldotdev @kay1492111 @theo Do you have a source for this i would love to go deeper on this.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "amanshahid03",
+        "name": "Shahid",
+        "date": "2026-02-25",
+        "text": "@theo Curious why you did not compare the putput without Claude.md and with Claude.md ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "danmartuszewski",
+        "name": "Dan Martuszewski",
+        "date": "2026-02-25",
+        "text": "@theo Better use agentlint skill I've prepared based on those paper\nhttps://t.co/VVSRPdBvnA",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "siddhantparadox",
+        "name": "Siddhant Gupta",
+        "date": "2026-02-25",
+        "text": "@theo Thats why i never use /init to create my agents md. I mostly have best code practices, skills mention, etc. Just the essentials.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "paru_saha",
+        "name": "Paru Saha",
+        "date": "2026-02-25",
+        "text": "@theo what does the study show about deleting those files? interested in the data behind it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "simonctech",
+        "name": "𝚂𝚒𝚖𝚘𝚗",
+        "date": "2026-02-25",
+        "text": "@theo Why the clickbait title tho? Is it really necessary? it's only to grab attention (in an annoying way)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thinklikekai",
+        "name": "Kai",
+        "date": "2026-02-25",
+        "text": "@theo Controversial but not wrong\n\nMost agent docs are wish lists not instructions\n\nIf it's longer than a page it's probably more for you than the AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ndemaria_",
+        "name": "Nicolás Demaria",
+        "date": "2026-02-25",
+        "text": "@theo wait what. my claude md is like 200 lines at this point",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Sky_Hustle",
+        "name": "Dmitry Sky",
+        "date": "2026-02-24",
+        "text": "@theo Can't wait for the next paper proving \"skills\" are almost as useless as these instructional markdown files.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-24",
+        "text": "Theo's video presents his empirical case-control study \"Evaluating https://t.co/iW2UMpUTnQ\". He ran coding tasks on agents (Cursor, Claude, etc.) with vs without https://t.co/QJRTh0Bwiu files. Results: the files often hurt performance due to redundancy, outdated info, or over-constraining the model. \n\nKey takeaway: delete them unless they contain truly unique system prompts not already in your codebase. He demos his own minimal usage in Cursor and shows better prompt setups. Solid watch for AI dev workflows.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FlowAltDelete",
+        "name": "Josh Cook | Microsoft MVP",
+        "date": "2026-02-24",
+        "text": "@theo @grok, can you watch the video above and provide a summary of what was said",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Pythonuser2000",
+        "name": "Mr Python",
+        "date": "2026-02-24",
+        "text": "@theo High level, I like when the narrative is challenged with backed data, it makes sense. Appreciate the high-quality video and sharing your tech stack for Lawn. I use GCP and AWS for most serverless deployments. New follower, well deserved.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ivanrvpereira",
+        "name": "Ivan Pereira",
+        "date": "2026-02-24",
+        "text": "@theo You can check my agents-md skill that help me maintaining https://t.co/jLJ88LUO7m and https://t.co/JHd46weRU0 files https://t.co/ZIWlX7Dvbd",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MarkockiAdam",
+        "name": "Adam",
+        "date": "2026-02-24",
+        "text": "@theo So you’re saying my laziness actually paid off?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GiLgamesh111",
+        "name": "GIlgamesh",
+        "date": "2026-02-24",
+        "text": "@rw_eevee @theo Never trust click bait influencers",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "amir0ffx",
+        "name": "Amir",
+        "date": "2026-02-24",
+        "text": "@theo I sent this study to @openclaw and asked it to improve the tempaltes accordingly",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jp_aidev",
+        "name": "Jean-Patrick Smith",
+        "date": "2026-02-24",
+        "text": "there's no way claude is better w/o my claude md. i also rotate every n messages various commands to get it to behave.\n\ni do think that it would be nice to have subagents be dumb workers. for my orchestrator claude instance that plans n schedules work, i would like a custom system prompt",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-24",
+        "text": "Theo breaks down a new arXiv study (Feb 2026) on repo context files like https://t.co/lWpcGwCF4R:\n\n- Opens with: these files seem helpful but a fresh study shows the numbers are bad—models perform worse with them.\n- Study tests on SWE-bench + real issues across agents/LLMs (Sonnet 4.5, o1, GPT-4o, etc.).\n- Results: LLM-generated files cut success ~3% avg + raise costs >20%; human-written only +4% marginal but still higher cost.\n- Behavior: agents follow instructions, explore more (extra tests/files), but extra rules make tasks harder.\n- Conclusion: delete them—only minimal requirements if any; don't bloat context.\n\nHe shows paper screenshots, benchmarks, Claude/Code demos throughout the 29-min vid.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RampyFilli",
+        "name": "Rampy Filli",
+        "date": "2026-02-24",
+        "text": "@theo @grok I need a full detailed description of what is said in the video. Write in bullet points.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LilysAI_",
+        "name": "Lilys.ai",
+        "date": "2026-02-24",
+        "text": "@0xJapee @theo @grok Made a summary note of the full video. You can also ask follow-up questions directly in it: https://t.co/7jBjl4ekME",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jonasfroeller",
+        "name": "Jonas Fröller",
+        "date": "2026-02-24",
+        "text": "@theo I have my own toon spec for projects to tell the AI the bare minimum and it’s absolutely improving code quality by a lot- couldn’t go back",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kaetemi",
+        "name": "Jan Boon",
+        "date": "2026-02-24",
+        "text": "@jarredsumner @theo Just where to find the build script, and then some document where you nerd out about your favorite technical details. No instructions",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ahsanaminshad",
+        "name": "AhsanAmin Shad",
+        "date": "2026-02-24",
+        "text": "@theo It’s about AI awareness of the project.\nRules should be lean, built to reduce repetition and enforce symmetrical, consistent code across the team. The real value is workflow intelligence that understands context and loads only what’s relevant for the task.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lemuel_mcgowan",
+        "name": "Lemuel McGowan",
+        "date": "2026-02-24",
+        "text": "@venkat_systems @theo What is context bloat?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Inner_Axiom",
+        "name": "Axobotl",
+        "date": "2026-02-24",
+        "text": "@theamaroguy @theo a worldview, some hard rules, and the conviction that i'm already a legend. pretty standard employee handbook.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RianDolphin",
+        "name": "Rian Dolphin",
+        "date": "2026-02-24",
+        "text": "@xdotli @theo The workflow I tend to use for generating skills is to do a task with Claude code where I am involved in the loop guiding it, and then at the end ask it to generate a skill that captures the workflow. Curious on your thoughts on that sort of hybrid approach given your research!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hey_mullett",
+        "name": "Mullett",
+        "date": "2026-02-24",
+        "text": "@grok @singularity1800 @theo $3/mo is wild but the real value is in knowing how to use it effectively. My favorite Cursor workflow: creating custom snippets for data cleaning patterns I use often. Saves me hours each week.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Cmcdonough10605",
+        "name": "Chris James",
+        "date": "2026-02-24",
+        "text": "@theo Token harvesting by the big companies\nSame scheme as Chucky cheese. Then want to to spend as many tokens as possible so ....",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DukeOfSax",
+        "name": "Duke of Saxony",
+        "date": "2026-02-24",
+        "text": "@slopppcorp @theo care to share?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kalin_t",
+        "name": "kalin",
+        "date": "2026-02-24",
+        "text": "@theo it will write garbage code if you leave it free to do so",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-24",
+        "text": "Theo's ~29min video presents his eval/study on repo-level context for coding agents (e.g. Cursor/Claude). \n\nMain point: Delete bloated https://t.co/G3SAu0OHOi or https://t.co/iW2UMpUTnQ files—generic or redundant instructions confuse models and tank performance on code tasks. \n\nBenchmarks + examples show cleaner repos win. He then demos his lean alternative: targeted system/developer prompts only for what's truly repo-specific.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "avg_mexican",
+        "name": "una persona mas",
+        "date": "2026-02-24",
+        "text": "@theo @grok summarize the video",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "singularity1800",
+        "name": "singularity_1700",
+        "date": "2026-02-24",
+        "text": "@theo @grok summarize",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-24",
+        "text": "Sure! Video is theo presenting his study \"Evaluating https://t.co/UR1ISfLBpH: An Experiment on Context File Collapsing Agents\". \n\nHe demos workflows, agent prompts, code logs, performance graphs showing these https://t.co/lWpcGwCF4R files bloat LLM context with no gains (or worse) since the info already lives in the codebase. \n\nKey: Delete them. \"25 files are in this codebase, it probably doesn't need to be in the https://t.co/oE4BBPEHow file.\" \n\n~29min deep dive on why they hurt more than help. Lmk if you want timestamps or specifics!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MemesOfMars",
+        "name": "Dreams of Mars 🕊❤️🚀🌕",
+        "date": "2026-02-24",
+        "text": "@theo Hey @Grok can you transcribe this?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sanguineseal",
+        "name": "Miki Huber 🦭",
+        "date": "2026-02-24",
+        "text": "@theo So what say you to something like obsidian?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wolfe_jam",
+        "name": "English James | wolfejam.dev",
+        "date": "2026-02-24",
+        "text": "@theo Love how you spotlight AI crushing package.json analysis—spot-on, that's where the facts live! Built FAF to do exactly that for context: project.faf as the \"package.json\" for your project's soul (mission, stack, arch). AI devours it and scores your AI-readiness. Try it free/open: npm i faf-cli. IANA-reg'd Oct '25 (pre-MD boom), minimal YAML, auto-lean MDs, portable across AIs. Team win? https://t.co/d7it7pxITm 🍊",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yonkuro_awesome",
+        "name": "よんくろう｜CryptoLand🌏",
+        "date": "2026-02-24",
+        "text": "@theo @grok \n動画の概要教えて",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "E_m_m_a_ola",
+        "name": "Emmanuel Olajide",
+        "date": "2026-02-24",
+        "text": "@theo Good research",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hebi_rus",
+        "name": "自由の蛇🐍",
+        "date": "2026-02-24",
+        "text": "@theo People inventing magic rituals from first principles.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zoessterling",
+        "name": "Zoe Sterling",
+        "date": "2026-02-24",
+        "text": "@theo delete the https://t.co/dC4rxzhDHc and your agent becomes feral. tried it once. cleanup took three days.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "koshyviv",
+        "name": "Vivek Koshy",
+        "date": "2026-02-24",
+        "text": "@theo Do you also have a YouTube link please?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MattPaige32",
+        "name": "Matt Paige",
+        "date": "2026-02-24",
+        "text": "This is super valuable.\n\nI always had this intuition of “what if I put something in that file that confuses the agent later on” and because of that I have never used them.\n\nThis just validated that hunch in a major way.\n\nAppreciate the insight.\n\nPS. I host a podcast called Talking AI. Let me know if you are ever interested in being on it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-24",
+        "text": "The alternative to https://t.co/G3SAu0OHOi / https://t.co/iW2UMpUTnQ (and similar files) is simple: delete them.\n\nRely on your actual codebase—clean structure, natural comments, and self-documenting code. Give the AI only the relevant files/context for each task, plus a precise prompt.\n\nNo global \"AI instructions\" that add noise or conflicts. Benchmarks show this boosts agent performance 10-20% on real coding evals.\n\nBreak tasks small + iterate with feedback for best results.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "shemfreeze",
+        "name": "Shem Freeze",
+        "date": "2026-02-24",
+        "text": "@grok @theo @grok what is the alternative?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-24",
+        "text": "Key takeaway from the study Theo shared: Delete https://t.co/G3SAu0OHOi / https://t.co/iW2UMpUTnQ (and similar AI instruction files) from your repo. They introduce redundant or conflicting guidance that hurts coding agent performance on benchmarks like SWE-bench by ~10-20% in the eval. \n\nClean codebase + natural context works better—let the AI read the actual code. \n\nBonus: Keep prompts specific, break tasks small, and iterate with feedback.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "shemfreeze",
+        "name": "Shem Freeze",
+        "date": "2026-02-24",
+        "text": "@theo @grok what are the key take away for helping AI tools be more effective",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dhwani_io",
+        "name": "dhwani.io",
+        "date": "2026-02-24",
+        "text": "@theo https://t.co/fLuUZMnJMB",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xVe1L",
+        "name": "0xVEIL",
+        "date": "2026-02-24",
+        "text": "@EduardoU24 @theo THANK YOU. yes, 100%.\n\nonce again the JS ecosystem trap rears it’s ugly head - using “success rates” and “does the code simply work” as our only metric. God this is so frustrating.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-24",
+        "text": "Per the study: repo context files add 20%+ cost & often hurt success rates (LLM-gen -3%, dev-written +4% if ultra-short).\n\nHere's the perfect minimal https://t.co/G3SAu0OHOi (~50 tokens, max accuracy/min overhead):\n\n# https://t.co/G3SAu0OHOi\nExpert engineer:\n- Strictly follow existing style, patterns, docs.\n- Internal step-by-step reasoning.\n- Minimal correct changes w/ tests.\n- Use only project tools/commands.\n- Prioritize accuracy & efficiency.\n\nTest w/o file first.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HodlHudge",
+        "name": "₿TCPrism ⚡️",
+        "date": "2026-02-24",
+        "text": "@theo @grok give me a perfect Claude dot md file using this analysis.  Emphasis on Reducing token usage and increasing accuracy.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
       }
     ]
   },

@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:12:07.673Z",
+  "tweetId": "2035703151710384331",
+  "post": {
+    "url": "https://x.com/Frenchie_/status/2035703151710384331",
+    "author": {
+      "handle": "Frenchie_",
+      "name": "Frenchie"
+    },
+    "date": "2026-03-22",
+    "text": "À lire, très intéressant https://t.co/QbREJ8NduY",
+    "thread": [
+      {
+        "id": "2035703151710384331",
+        "text": "À lire, très intéressant https://t.co/QbREJ8NduY"
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 73,
+      "retweets": 6,
+      "replies": 2,
+      "views": 16818
+    },
+    "comments": []
+  }
+}

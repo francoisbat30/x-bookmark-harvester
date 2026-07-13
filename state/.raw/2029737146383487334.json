@@ -23,5 +23,11 @@
       "views": 421121
     },
     "comments": []
-  }
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HCsSUKAXAAEH_sS.jpg",
+      "localFilename": "2029737146383487334_1.jpg"
+    }
+  ]
 }

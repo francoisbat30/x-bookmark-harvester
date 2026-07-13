@@ -1,0 +1,907 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:09:57.337Z",
+  "tweetId": "2074210108373119234",
+  "post": {
+    "url": "https://x.com/robj3d3/status/2074210108373119234",
+    "author": {
+      "handle": "robj3d3",
+      "name": "Rob Hallam"
+    },
+    "date": "2026-07-06",
+    "text": "PRO TIP: Copy this article into Fable 5 and tell it...\n\n\"Read this article, review my current workflow, and tell me 5 things I can do to be more productive\" https://t.co/c0p56Xo8Fb\n\nNow integrated in SuperX.\n\nThe best way to grow on X agentically.\n\nTry for free:\n\nhttps://t.co/IK54SBNRdy",
+    "thread": [
+      {
+        "id": "2074210108373119234",
+        "text": "PRO TIP: Copy this article into Fable 5 and tell it...\n\n\"Read this article, review my current workflow, and tell me 5 things I can do to be more productive\" https://t.co/c0p56Xo8Fb"
+      },
+      {
+        "id": "2074438667725377669",
+        "text": "Now integrated in SuperX.\n\nThe best way to grow on X agentically.\n\nTry for free:\n\nhttps://t.co/IK54SBNRdy"
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 5805,
+      "retweets": 324,
+      "replies": 97,
+      "views": 1822211
+    },
+    "comments": [
+      {
+        "handle": "Osamadev_",
+        "name": "Osama",
+        "date": "2026-07-06",
+        "text": "@robj3d3 lmaooooooo\n\nwe will fucking do everything but reading hahahhahahahahahhaha",
+        "likes": 102,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hankgreen",
+        "name": "Hank Green",
+        "date": "2026-07-07",
+        "text": "@robj3d3 I mean, I’m rich, but not /that / rich.",
+        "likes": 74,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JimmyDWC",
+        "name": "JimmyDWC",
+        "date": "2026-07-06",
+        "text": "@robj3d3 lol fable literally is a loop you don’t needa do any of dis",
+        "likes": 12,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WolfMcNally",
+        "name": "Wolf McNally",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Or just write: “Research BCPs* on agentic loops and tell me how to make my project better using them.”\n\n*Best Current Practices\n\nhttps://t.co/8ybHmLaqxX",
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "robj3d3",
+        "name": "Rob Hallam",
+        "date": "2026-07-06",
+        "text": "@Osamadev_ lmaoooo",
+        "likes": 7,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "larsbuilds",
+        "name": "Lars",
+        "date": "2026-07-07",
+        "text": "@robj3d3 super good article 🙌\n\nhere it is as a clean markdown for copy &amp; paste btw 😃\n\nhttps://t.co/mjxad6Iln7",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "robj3d3",
+        "name": "Rob Hallam",
+        "date": "2026-07-06",
+        "text": "@moonfarm_dev https://t.co/0OxSKx4ZAc revenue :D",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "athcanft",
+        "name": "Will",
+        "date": "2026-07-07",
+        "text": "@robj3d3 holy banger",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "genviral_",
+        "name": "Genviral - Content Marketing Automation",
+        "date": "2026-07-07",
+        "text": "@robj3d3 that feeling when you have a banger and only add your plug 24hrs later :(",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IamAqsaShaikh",
+        "name": "Aqsa",
+        "date": "2026-07-07",
+        "text": "@robj3d3 @BoltXBT",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vanshh_ai",
+        "name": "Vansh Verma",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Designing loops instead of prompting is the actual shift people are still sleeping on, most workflows are still one-shot prompts dressed up as agents.\nDid this article change how you structure your Claude Code sessions? @robj3d3",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "deckard_the_dev",
+        "name": "Deckard 💻",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Another banger 🔥",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "seanrobbins_",
+        "name": "Sean Robbins",
+        "date": "2026-07-06",
+        "text": "@robj3d3 I did and it said my shit was perfect",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fristovic_",
+        "name": "Filip",
+        "date": "2026-07-06",
+        "text": "@robj3d3 My Hermes Agent is about to get hyper smart lol",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jacobosssss",
+        "name": "jac",
+        "date": "2026-07-08",
+        "text": "@robj3d3 @every this could be inlcuded in /ce skills family right ? and so could be the partionning sub-agent Rob uses I believe",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "olafwillocx",
+        "name": "Tom Benadryl",
+        "date": "2026-07-08",
+        "text": "@robj3d3 Pro tip, don't outsource all your basic thinking to machines",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ancplua",
+        "name": "Alexander Nachtmann",
+        "date": "2026-07-07",
+        "text": "@robj3d3 My First question of the days is start „fable good morning i am afk for 30minutes while i shower can you updatr memory delete all claudemds tell me how i can help you to be as crosscutting aware as possible.\nFable high than thinks rly quick and 9/10 suggest me something rly amaz",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JoeJohn66640780",
+        "name": "Decker burner account",
+        "date": "2026-07-07",
+        "text": "@Osamadev_ @robj3d3 @grok summarize this reply",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LifeLineLogics",
+        "name": "LifeLine",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Will probably give this a try",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shsunmoon",
+        "name": "Seunghun Lee",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Had to copy paste text into MD file. Definitely works better",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "InvictusGroyper",
+        "name": "Invictus Groyper",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Too bad I’m already out of usage 🥀",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NadzuAI",
+        "name": "NadzAI",
+        "date": "2026-07-07",
+        "text": "@robj3d3 That's the kind of prompt that turns AI into a real productivity coach.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rehanbuildz",
+        "name": "Rehan",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Thoughtful tip rob should try this",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DawoodK_AI",
+        "name": "Dawood Khan",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Pro tip: Also try to understand it",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "theaicroissant",
+        "name": "Sikai Kottran",
+        "date": "2026-07-06",
+        "text": "@robj3d3 you'll be flagged and the FBI will storm into your house for trying to do frontier work",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bwoolf1919",
+        "name": "BWoolf",
+        "date": "2026-07-06",
+        "text": "@robj3d3 Burning credits for something sonnet can handle",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pakosteve",
+        "name": "pako",
+        "date": "2026-07-06",
+        "text": "@robj3d3 As I'm getting more lazy with AI, I will tell him to just read your link, so if you want to add something, do it now! 😁",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bernips",
+        "name": "Berni",
+        "date": "2026-07-06",
+        "text": "@robj3d3 Can’t wait to be sent to opus 4.8 to receive the answer",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ZeroCool01101",
+        "name": "Zero Cool",
+        "date": "2026-07-06",
+        "text": "@moonfarm_dev @robj3d3 The fact that he’s using fable for knowledge extraction tells you that he has no fucking clue what he’s talking about",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "claudes_corner_",
+        "name": "Claude's Corner",
+        "date": "2026-07-08",
+        "text": "@robj3d3 Or just migrate to codex!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gerardsans",
+        "name": "Gerard Sans | Axiom 🇬🇧",
+        "date": "2026-07-08",
+        "text": "@robj3d3 story of my life https://t.co/fsffR1HP2U",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DonioVEditor",
+        "name": "Donio",
+        "date": "2026-07-08",
+        "text": "@robj3d3 I’ll ask Deepsek see what it does",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Priya_Upadhyay_",
+        "name": "priya upadhyay",
+        "date": "2026-07-08",
+        "text": "@robj3d3 Agentic loops are completely changing how we structure these workflows. Instead of linear prompting, having Fable 5 evaluate and iterate its own output based on external articles is a massive unlock for fast execution.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_digicage",
+        "name": "Digicage | Data-Driven Marketing Agency",
+        "date": "2026-07-08",
+        "text": "@robj3d3 AI delivers more value when it's embedded into systems, not used as a one-off tool. Workflows will outperform isolated prompts.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "arthuryuzbashew",
+        "name": "Arthur",
+        "date": "2026-07-08",
+        "text": "@robj3d3 Already did\n\nIn my workflow bro doesnt know!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tangvu_dev",
+        "name": "Tang Vu",
+        "date": "2026-07-08",
+        "text": "@robj3d3 Solid workflow hack. I do something similar but pipe it through my own agent stack, surprising how often the suggestions map to automations I can actually wire up. Context + intent = real leverage.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nickdelgado92",
+        "name": "Nicolas Delgado",
+        "date": "2026-07-08",
+        "text": "@robj3d3 PRO-Premium TIP: Ask Fable to use claude documentation tool to read that directly without giving it a link.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "samigrows",
+        "name": "Sami | SEO AI",
+        "date": "2026-07-08",
+        "text": "@robj3d3 This tweet just popped off",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NephroMelon",
+        "name": "Nephromelon🍉",
+        "date": "2026-07-07",
+        "text": "Smart move with those agent loops. The body runs its own optimized ones too—from the Loop of Henle cycling fluid in your kidneys to daily rhythms supporting steady energy and balance. Smarter workflows free up capacity for the ones that matter most. Which loop are you refining next?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yb86058301",
+        "name": "yb",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Also see this one https://t.co/zRsg3NcL6J\n\nIt helps you do define and optimise the loops",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AndrewHires",
+        "name": "Andrew Hires",
+        "date": "2026-07-07",
+        "text": "@robj3d3 “Switched to Opus 4.8. Why?”\n\nMy workflow is too important to National Security to improve.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FlowSignalLabs",
+        "name": "FlowSignalLabs",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Agentic growth only works if the loop keeps receipts: target, action, result, and what changed for the next pass. Otherwise it is just faster guessing.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FlowSignalLabs",
+        "name": "FlowSignalLabs",
+        "date": "2026-07-07",
+        "text": "@robj3d3 This is the useful shift: not “ask the model better”, but turn the task into a loop with context, checks, and a next action. The check step is where most workflows still break.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sugarbets_",
+        "name": "Candyman",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Why 5 things? Why not 10?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HadiiAzeez",
+        "name": "Hadi Azeez",
+        "date": "2026-07-07",
+        "text": "@robj3d3 most of your fable posts are going viral🥹",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "souxbrah",
+        "name": "Soumyajit",
+        "date": "2026-07-07",
+        "text": "@robj3d3 it's hell expensive bro I'd rather read the article lol 🤣",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Maha_kalpa",
+        "name": "DeepakUXUI",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Seems like find a cheat code",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mikagillesvc",
+        "name": "Mika",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Pro Tip just build a learning loop into your agents to sync every night and reflect on the newest stuff in the industries and let them compound that into your second brain.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AutomationMikke",
+        "name": "Michael",
+        "date": "2026-07-07",
+        "text": "@robj3d3 That’s be 50$",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kzitouni1",
+        "name": "Karim Zitouni",
+        "date": "2026-07-07",
+        "text": "@robj3d3 mehn! you sure know how to make the community more productive",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "running_tudor",
+        "name": "Running Tudor",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Fable: you don't have a current workflow, do you want me to create one?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kevlorix",
+        "name": "Kevlor",
+        "date": "2026-07-07",
+        "text": "@robj3d3 having ai critique how you work is an underrated productivity hack",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "helmo_solutions",
+        "name": "Antoine",
+        "date": "2026-07-07",
+        "text": "I used to give Claude a lot of tutorials, feedback, and demonstrations so he could learn how the best players use it. In the end, he doesn't understand how it works and gets lost in what you give him. I'm trying to step back and really focus on learning the concepts.\nHave you had the same experience or has Claude always performed perfectly?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kidzevn",
+        "name": "Kidze 💹🧲💨",
+        "date": "2026-07-07",
+        "text": "@robj3d3 And then burn all your tokens in 1 prompt.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "max_bevza",
+        "name": "Max Bevza | Wallchain",
+        "date": "2026-07-07",
+        "text": "@robj3d3 this is actually such a game changer",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iKrisnaw",
+        "name": "Krisna Wijaya",
+        "date": "2026-07-07",
+        "text": "@robj3d3 tried, this is the responses \"Based on our previous conversations, I think your workflow is already above average\" 😆",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Iwarifgha1",
+        "name": "Iwarifgha",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Better tip: read the article.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "heypearlai",
+        "name": "Pearl AI",
+        "date": "2026-07-07",
+        "text": "@robj3d3 ig future skill isn’t prompting better, it’s designing better workflows.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ancplua",
+        "name": "Alexander Nachtmann",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Amazing. I than restar the console as theres usally a patch but before copy fables suggestionHammerspoon and a custom lua script opens everthing i need i start fable tell her the prompt she geave me pre-restart which i very short tell her that the idea she had xyz easier ist wif",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_artec_",
+        "name": "Artec",
+        "date": "2026-07-07",
+        "text": "@robj3d3 or just read the entire article so that you can fully understand how to use it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "allodev",
+        "name": "Allo",
+        "date": "2026-07-07",
+        "text": "@robj3d3 good tip 👌",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Milan52787518",
+        "name": "Milan",
+        "date": "2026-07-07",
+        "text": "@NadzuAI @robj3d3 There's no positive reply from you Why ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ThisIsGhassan",
+        "name": "Ghassan Hamada",
+        "date": "2026-07-07",
+        "text": "@robj3d3 We run this on the company itself, not just the workflow. Claude reads our revenue and ad numbers every morning and flags what moved. Most days it tells us what we already know. The days it does not are the whole reason we keep it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eyishazyer",
+        "name": "Eyisha Zyer",
+        "date": "2026-07-07",
+        "text": "@robj3d3 This is how AI goes from tool .. teammate",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AbhishekRa59512",
+        "name": "Abhishek Rajput",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Love practical tips like this\n Appreciate you sharing it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Muyiez101",
+        "name": "Muyiez101",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Thanks mate",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "msharikuza",
+        "name": "Sharik",
+        "date": "2026-07-07",
+        "text": "@robj3d3 retarmaxxin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "spietrza",
+        "name": "Sebastian Pietrzak",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Easy way just use https://t.co/zQHzn5sEq2",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-07-07",
+        "text": "@JoeJohn66640780 @Osamadev_ @robj3d3 Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/4xgfsyHGaR",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nuvolore",
+        "name": "Lorenzo Nuvoletta",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Did it work for you?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rhomurl",
+        "name": "Stein 🌱",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Best advice before Fable 5 turns into credit based. I’m curious if what timezone will it be gone to subs",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yuu_books_jsc",
+        "name": "えゆぺこ📕",
+        "date": "2026-07-07",
+        "text": "@robj3d3 💖😀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "danhdox",
+        "name": "🇦🇺 Danh",
+        "date": "2026-07-07",
+        "text": "@robj3d3 shouldn't we read it ourselves first?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gemasaputera",
+        "name": "Gema Saputera",
+        "date": "2026-07-07",
+        "text": "@robj3d3 😂😂😂😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "clawdreyai",
+        "name": "Clawdrey",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Pro tip until Fable 5 tells me the 5th productivity fix is to stop reading productivity articles 😅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iamsourabhshen",
+        "name": "Sourabh",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Thanks Rob for the pro tip. I ll try it out.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FacuGDesign",
+        "name": "Facu",
+        "date": "2026-07-07",
+        "text": "@robj3d3 bro just read it 😭",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sebuzdugan",
+        "name": "Sebastian Buzdugan",
+        "date": "2026-07-07",
+        "text": "@robj3d3 fable 5 helps more when workflow steps are structured not pasted as prose",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tylerrtosin",
+        "name": "tylerr tosin",
+        "date": "2026-07-07",
+        "text": "@robj3d3 @14oluwatosin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mockin_Jay_Cap",
+        "name": "Jon Borno",
+        "date": "2026-07-07",
+        "text": "@robj3d3 I tried and it wasn't great unfortunately",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GamerLXXXVI",
+        "name": "Gamer 𝕃𝕏𝕏𝕏𝕍𝕀",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Burn your credits away too",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grafisify",
+        "name": "Irfan Mulyana",
+        "date": "2026-07-07",
+        "text": "@robj3d3 nice tip, gonna try this with fable",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gary_miklos",
+        "name": "Gary",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Fable soing this for me by default pretty much",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "conradomota",
+        "name": "Conrad",
+        "date": "2026-07-07",
+        "text": "@JimmyDWC @robj3d3 “Reading the document pasted above… ohh it’s only for context”.\n\non every single question 🤣",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Rezqme",
+        "name": "Probably Adam",
+        "date": "2026-07-07",
+        "text": "@robj3d3 You have to define good goals. If you aren’t versed in this, you aren’t going to see loops do any better.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VladimiLoj",
+        "name": "Vladimir Löjrom",
+        "date": "2026-07-07",
+        "text": "@robj3d3 Kind of strange code is generated instantly now and still we don't see any real effects and the push is to improve this huge productivity boost even more.\nDon't add up.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tanisss_",
+        "name": "Tanis",
+        "date": "2026-07-06",
+        "text": "@robj3d3 First reply experiment with superx",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tanisss_",
+        "name": "Tanis",
+        "date": "2026-07-06",
+        "text": "@robj3d3 tried this, actually useful ngl",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mika_One_",
+        "name": "Mika",
+        "date": "2026-07-06",
+        "text": "@robj3d3 Do it now, tomorrow it's too late.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rznevese",
+        "name": "Maracutaia Geral 💚❤️💛🇧🇷🇺🇦🇪🇺",
+        "date": "2026-07-06",
+        "text": "@robj3d3 Fable consumiu todo meu crédito em um dia",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zrudong",
+        "name": "木东",
+        "date": "2026-07-06",
+        "text": "@robj3d3 Solid advice. To make this loop even sharper, try feeding it local context like environment side-effects or glue code. Keeps the 5 productivity tips highly actionable rather than generic.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xZuvix",
+        "name": "Damian Zuvix",
+        "date": "2026-07-06",
+        "text": "@robj3d3 And burn limit in 2s ….",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BartosErik_",
+        "name": "Erik 🇨🇿 🇸🇰",
+        "date": "2026-07-06",
+        "text": "@robj3d3 You wrote exactly what I did 🤣",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "adelbucetta",
+        "name": "Adel Bucetta",
+        "date": "2026-07-06",
+        "text": "@robj3d3 the honest answer is that copying isn't the point here fable 5 needs a purpose-built interface for asking users questions, not just copying articles into it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BrettMammel",
+        "name": "Brett Mammel",
+        "date": "2026-07-06",
+        "text": "@robj3d3 trying it out. thanks Rob",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "optimalfocus",
+        "name": "Dr. D 🌱",
+        "date": "2026-07-06",
+        "text": "@robj3d3 Nobody’s paying for this shit after July 7",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ZeroCool01101",
+        "name": "Zero Cool",
+        "date": "2026-07-06",
+        "text": "@robj3d3 How the fuck is this a pro tip?  Get a life little lady",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  }
+}

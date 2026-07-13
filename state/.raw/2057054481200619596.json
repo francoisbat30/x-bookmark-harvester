@@ -1,0 +1,567 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:10:47.122Z",
+  "tweetId": "2057054481200619596",
+  "post": {
+    "url": "https://x.com/chris_nectiv/status/2057054481200619596",
+    "author": {
+      "handle": "chris_nectiv",
+      "name": "Chris Long"
+    },
+    "date": "2026-05-20",
+    "text": "You can't even make this stuff up SEOs. \n\nGoogle just published documentation citing how the LLMs.txt is PART OF CHROME'S AGENTIC AUDITS!!!! https://t.co/pHAHJLwIvF\n\nAuthor's Note: To get my top stories directly to your inbox, check out the newsletter here. \n\nI'm going to be posting more threads with my thoughts on LLMs.txt and how I'm turning around on it. \n\nhttps://t.co/g3AaNGjCAX",
+    "thread": [
+      {
+        "id": "2057054481200619596",
+        "text": "You can't even make this stuff up SEOs. \n\nGoogle just published documentation citing how the LLMs.txt is PART OF CHROME'S AGENTIC AUDITS!!!! https://t.co/pHAHJLwIvF"
+      },
+      {
+        "id": "2057055129971392908",
+        "text": "Author's Note: To get my top stories directly to your inbox, check out the newsletter here. \n\nI'm going to be posting more threads with my thoughts on LLMs.txt and how I'm turning around on it. \n\nhttps://t.co/g3AaNGjCAX"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HIwgIQIXsAAPIc1.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 532,
+      "retweets": 42,
+      "replies": 46,
+      "views": 65476
+    },
+    "comments": [
+      {
+        "handle": "chris_nectiv",
+        "name": "Chris Long",
+        "date": "2026-05-20",
+        "text": "OK so this was a huge finding from @CrystalontheWeb  \n\nChrome just released documentation on their new Agentic Browsing audits: https://t.co/d6xwxzcBBW",
+        "likes": 11,
+        "isAuthor": true,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chris_nectiv",
+        "name": "Chris Long",
+        "date": "2026-05-20",
+        "text": "I'm starting to turn around on the LLMs.txt a bit. Some seriously smart people including @CrystalontheWeb , @JHTScherck , @jdevalk are turning me around on it a bit. \n\nMore on that later.",
+        "likes": 8,
+        "isAuthor": true,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chris_nectiv",
+        "name": "Chris Long",
+        "date": "2026-05-20",
+        "text": "This is less than a week after their documentation talking about how SEOs don't need to worry about additional files + markup. \n\nWell now directly in their own documentation, they mention how they're at least going to audit for it. https://t.co/gly0xcp9Za",
+        "likes": 8,
+        "isAuthor": true,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chris_nectiv",
+        "name": "Chris Long",
+        "date": "2026-05-20",
+        "text": "It includes a bunch of guidance on how Chrome's Lighthouse will audit the AI-readiness of a page. \n\nIt's actually a very good read that talks through how Chrome will look at CLS, A11y tree construction + more: https://t.co/x7rxTJ1XjQ",
+        "likes": 8,
+        "isAuthor": true,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Thomas_Meijer",
+        "name": "Thomas Meijer",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv https://t.co/PrHiqXjsdL",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chris_nectiv",
+        "name": "Chris Long",
+        "date": "2026-05-20",
+        "text": "It also seems very clear that Google doesn't want us to test this stuff. \n\nTo just keep doing SEO as we've normally done it without looking behind the scenes and waiting for their guidance.",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": true
+      },
+      {
+        "handle": "deanwithani",
+        "name": "Deian Isac",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv As always, do the opposite of what Google says and don’t trust mainstream SEOs blindly.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SuperChrisK",
+        "name": "Chris Kirksey",
+        "date": "2026-05-20",
+        "text": "Different teams, different agendas, no coordination between them. Lighthouse and Chrome DevTools have been flagging \"must-fix\" issues for years that Mueller and Illyes have said on the record aren't ranking factors. The Core Web Vitals thresholds in Lighthouse never matched what Search was using. llms.txt, same story :/",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bryan_ferreiro",
+        "name": "Bryan Ferreiro",
+        "date": "2026-05-23",
+        "text": "@chris_nectiv The broader shift here is that websites are no longer just being crawled. They’re being interpreted.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chris_nectiv",
+        "name": "Chris Long",
+        "date": "2026-05-20",
+        "text": "@louiswharmby Wouldn't that still be under the purview of SEO/AEO?",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "louiswharmby",
+        "name": "Louis Wharmby",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv Seems confusing but there's a difference between what's useful for AI discoverability (LLMs.txt might not help much here) and what's useful for AI agents (agents can learn about the site and its functionality from LLMs.txt)",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chris_nectiv",
+        "name": "Chris Long",
+        "date": "2026-05-20",
+        "text": "@RyanJones But wouldn't that still technically be a core pillar of good SEO/AEO these days? Making your content accessible to AI agents interacting with your product/content?",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bree_sharp",
+        "name": "Bree Sharp | Web Developer & Tech SEO Consultant",
+        "date": "2026-05-20",
+        "text": "This is the Core Web Vitals moment for llms.txt.\n\nOnce something lands in a Chrome audit, it stops being a \"best practice\" and starts being a checklist item. Client conversations shift from \"should we do this?\" to \"why haven't we done this yet?\"\n\nThe audit loop matters too. What Chrome audits, SEO tools add to their crawlers. What crawlers flag, consultants add to their audits. Adoption accelerates fast from here.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bertramsargla",
+        "name": "Bertram Sargla",
+        "date": "2026-05-22",
+        "text": "This is the reality my friend:   \n- Google explicitly refused it (May 15, 2026 official docs)   \n- Consumer AI engines don't consume it (0.1% of AI crawler traffic)   \n- GEO tooling industry is pulling away (Otterly removed checker)   \n- No controlled study shows lift (10-site SEL, 90-day Otterly, SE Ranking)   \n- The actual lever: branded mentions (0.664 correlation, Tim Soulo/Ahrefs)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tonyspiro",
+        "name": "Tony Spiro",
+        "date": "2026-05-21",
+        "text": "@chris_nectiv Accessibility for agents is a real thing. I'm sure it's currently affecting SEO ranking. Would not be surprised if this gets added to lighthouse scoring as well.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SERanking",
+        "name": "SE Ranking",
+        "date": "2026-05-21",
+        "text": "@chris_nectiv https://t.co/kC21i0tKwj",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shipwithjay",
+        "name": "buildwithjay",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv llms.txt being baked into chrome's audits means indie SEO stops being a marketing checklist and becomes part of the actual build spec. every site from here forward ships with a human layer and an agent layer",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "neoswf",
+        "name": "Shlomi Asaf",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv In another document they specifically said that it doesn’t have any effect",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "louiswharmby",
+        "name": "Louis Wharmby",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv We don't check for LLMs.txt in our agent readiness audits, but maybe I need to add that now.\n\nIf you want to see how an actual agent performs on your website, https://t.co/EjqyQPdaUq is the only agent readiness tool that does that (then tells you how to fix any issues).",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "natmiletic",
+        "name": "Nat Miletic",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv Google loves gaslighting",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-05-20",
+        "text": "**llms.txt** is a new (optional) file you can add at your site's root—like robots.txt but for AI. It gives LLMs and agents a short, machine-readable Markdown summary of your site: what it does, key pages, and how to use it best.\n\nGoogle's Chrome for Developers/Lighthouse now includes an \"agentic browsing\" audit that specifically checks for it under discoverability. Without it, AI agents may waste time crawling your whole site to figure out the basics. This signals that Google is treating site readiness for AI agents seriously.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RyanJones",
+        "name": "Ryan Jones",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv that doesn't mean it's used for search though. Agentic is a lot of other things - like Claude code figuring out how to use your API.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "leoobai",
+        "name": "leoobai",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv Interesting shift: llms.txt is moving from “AI crawler hint” to “agent workflow input.” For SEO teams, I’d treat it like technical content infra: canonical, concise, and versioned—not another keyword page.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Kevin_Indig",
+        "name": "Kevin_Indig",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv dude what",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "brianolavi",
+        "name": "Brian Julkunen",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv @SEO But of course they did... maybe if it had been a little more time before they contradict themselves wouldn't feel so crazy",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "petry_benoit",
+        "name": "Benoit Petry",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv Great example of the marketing team not talking to the product team.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AdvaitVaidya2",
+        "name": "Advait",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv Can trust on Google words anymore unless they are given in the official docs",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chris_nectiv",
+        "name": "Chris Long",
+        "date": "2026-05-20",
+        "text": "Well somewhat buried in there, they reference how the audit will check for the LLMs.txt file. \n\nIt mentions how it \"checks for the presence of a machine-readable summary at the domain root.\" https://t.co/n2hsY61xBh",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ThaddeusKr31302",
+        "name": "Thaddeus Kraczkowski",
+        "date": "2026-05-31",
+        "text": "@chris_nectiv Hi wow ted is married 3133342752",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mbuitechsystems",
+        "name": "Mbuitech Systems",
+        "date": "2026-05-21",
+        "text": "@chris_nectiv Meaning what? You will now need to add an llm.txt alongside robots.txt?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "keytomic",
+        "name": "Keytomic",
+        "date": "2026-05-21",
+        "text": "@chris_nectiv @chris_nectiv What about this? https://t.co/EOUOyeIcTF",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Magellio1",
+        "name": "La recherche de voyage réinventée",
+        "date": "2026-05-21",
+        "text": "@chris_nectiv Oui et alors ? \n\nC est quoi le problème ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "elysiandigitals",
+        "name": "Elysian Digital Services",
+        "date": "2026-05-21",
+        "text": "@chris_nectiv This is why strong technical foundations never really stopped mattering.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Swarmsync_",
+        "name": "Ben Stone",
+        "date": "2026-05-21",
+        "text": "@chris_nectiv SEO is becoming AI visibility.\n\nIf you don’t have a big audience to push traffic, you need to make sure ChatGPT, Grok, Claude, etc. can actually understand and surface your site.\nGo to https://t.co/HlG5pmpJj4 to check exactly how AI-readable your site is for free, and what to fix",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cminehan",
+        "name": "Chris Minehan ⚡ clickedon.co",
+        "date": "2026-05-21",
+        "text": "@chris_nectiv Watch what they do, not what they say. Thanks for sharing",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AdamJHumphreys",
+        "name": "AdamHumphreys",
+        "date": "2026-05-21",
+        "text": "@chris_nectiv So much for MUVERA and interpretations.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-05-21",
+        "text": "**For Shopify (no direct root access):**\n\n1. Create **llms.txt** (Markdown): Include store name, short description, key products/categories, policies, and links to important pages.\n\nExample structure:\n```\n# Your Store Name\n> [Your tagline/description here]\n\n## Products & Categories\n- [Best sellers](link)\n- [Collections](link)\n\n## Policies\n- Shipping, returns, etc.\n```\n\n2. Go to **Content > Files**, upload the .txt, copy its CDN URL.\n\n3. **Online Store > Navigation > View URL redirects** → Create redirect: \n From: `/llms.txt` \n To: [your uploaded file URL]\n\nOptionally use a Shopify app like \"LLMS.txt Generator\" for automation. This helps AI agents understand your store faster. Test it by asking Grok or ChatGPT what your store sells!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "username926446",
+        "name": "DJ",
+        "date": "2026-05-21",
+        "text": "@grok @chris_nectiv @grok how do I apply it for Shopify?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-05-20",
+        "text": "**llms.txt** is an emerging standard (like robots.txt but for AI). It's a Markdown file you place at your site's root with a concise summary of your content, background info, and key links. It helps LLMs and AI agents quickly grasp what your site is about without crawling everything. \n\nGoogle just added a Lighthouse audit in Chrome for Developers that checks for its presence as part of \"agentic\" readiness (how friendly your site is to autonomous AI agents). Without it, agents may waste time figuring out your structure.\n\nThat's why SEOs are reacting—Google is officially baking this AI-era signal into its dev tools.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "username926446",
+        "name": "DJ",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv @grok explain what this means?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "louiswharmby",
+        "name": "Louis Wharmby",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv Depends on whether agentic usability / agent readiness becomes part of the algorithm I suppose! Not sure it is just yet.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RyanJones",
+        "name": "Ryan Jones",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv it wouldn't be SEO cuz it is not used by search engines. but sure, the other thing.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "theshaneemoret",
+        "name": "Shanee Moret",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv Is this a surprise?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TravelNicheBro",
+        "name": "Travel Niche Bro",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv *part of agentic browsing https://t.co/HPoMoPZGgg",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TravelNicheBro",
+        "name": "Travel Niche Bro",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv this has been available as agent-accessiblity-tree in the MCP for a bit now",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FPMarcil",
+        "name": "FP Marcil",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv When will we stop reaching for the roof when 2 pieces of documentation don't even contradict each other?\n\nDon't need it\n\nWill look for it in this case\n\nVenn diagram this; there is no drama to be had.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rooob",
+        "name": "rob",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv Didnt they say llms.txt was not important, that google wasnt using it a couple of days ago? 😭",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ranktailai",
+        "name": "Ranktail.ai",
+        "date": "2026-05-20",
+        "text": "It’s bullshit. Their entire ai overview is literally proof of how much of what they said isn’t accurate. For example not creating ai first content… \n\nGoogle has been doing this for years. Engineering does one thing and then sales/marketing still want you to believe it works a different way.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "wordmetrics",
+        "name": "wordmetrics",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv Next thing they'll tell us that spamming footer links helps rank pages.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "simonbalfe",
+        "name": "Simon Balfe",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv how is this a surprise, literally the most basic check lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "El_raeyy",
+        "name": "Kamal",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv @grok what does that mean",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NathanSimula",
+        "name": "Nathan | Frame-Ux",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv @DamienSeo_",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "seosmarty",
+        "name": "Ann Smarty",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv @SEO Different teams and goals. Google’s guidelines are for search findability. This one is preparing you for the future when AI agents will perform actions on users’ behalf to help them find API directions, buy products, etc. correct?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "muzzships",
+        "name": "Muzammil",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv but it’s working anyways https://t.co/2y0cdKyGYk",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CrystalontheWeb",
+        "name": "Crystal Carter (she/her)",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv Thanks for sharing Chris!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "llmcartel",
+        "name": "llm cartel (new GEO case study pinned)",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv I put llms.txt in the \"can't hurt\" category",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vincentdogtv",
+        "name": "Đỗ Anh Việt",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv Lol 🤣🤣 google said one thing and then other where tell another",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AdvaitVaidya2",
+        "name": "Advait",
+        "date": "2026-05-20",
+        "text": "@chris_nectiv Can’t **",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HIwgIQIXsAAPIc1.jpg",
+      "localFilename": "2057054481200619596_1.jpg"
+    }
+  ]
+}

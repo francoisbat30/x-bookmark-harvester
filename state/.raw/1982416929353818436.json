@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:43.203Z",
+  "tweetId": "1982416929353818436",
+  "post": {
+    "url": "https://x.com/WesRoth/status/1982416929353818436",
+    "author": {
+      "handle": "WesRoth",
+      "name": "Wes Roth"
+    },
+    "date": "2025-10-26",
+    "text": "AI-generated music from Suno v5 is now nearly indistinguishable from human-made songs. \n\nIn blind tests, listeners guessed wrong as often as they guessed right. https://t.co/Y2s8nAZwPa https://t.co/yxU1MAOkRN",
+    "thread": [
+      {
+        "id": "1982416929353818436",
+        "text": "AI-generated music from Suno v5 is now nearly indistinguishable from human-made songs. \n\nIn blind tests, listeners guessed wrong as often as they guessed right. https://t.co/Y2s8nAZwPa https://t.co/yxU1MAOkRN"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G4JZxk4WsAAKhfU.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G4JZyZjXIAAxGIz.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 4532,
+      "retweets": 518,
+      "replies": 314,
+      "views": 1072262
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G4JZxk4WsAAKhfU.jpg",
+      "localFilename": "1982416929353818436_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G4JZyZjXIAAxGIz.jpg",
+      "localFilename": "1982416929353818436_2.jpg"
+    }
+  ]
+}

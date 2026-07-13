@@ -1,7 +1,7 @@
 {
   "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-07-12T18:16:49.377Z",
+  "fetchedAt": "2026-07-13T07:07:42.873Z",
   "tweetId": "1969674894469157324",
   "post": {
     "url": "https://x.com/positivesideofx/status/1969674894469157324",
@@ -25,32 +25,785 @@
       }
     ],
     "metrics": {
-      "likes": 136705,
-      "retweets": 4024,
+      "likes": 136696,
+      "retweets": 4023,
       "replies": 185,
-      "views": 10493742
+      "views": 10493758
     },
     "comments": [
       {
-        "handle": "thechunkybaby",
-        "name": "Ryan",
+        "handle": "positivesideofx",
+        "name": "Positive Side of 𝕏",
         "date": "2025-09-21",
-        "text": "We did similar!",
-        "likes": 963
+        "text": "@jl8081338793866 Nobody cares",
+        "likes": 832,
+        "isAuthor": true,
+        "isDirectReply": false
       },
       {
-        "handle": "Daily_FootbaII",
-        "name": "Daily Football",
+        "handle": "positivesideofx",
+        "name": "Positive Side of 𝕏",
         "date": "2025-09-21",
-        "text": "A new mum managed to capture a cute moment when her twins discover each other for the first time",
-        "likes": 394
+        "text": "@thechunkybaby Congratulations ❤️🙌",
+        "likes": 92,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "woocassh",
+        "name": "Lukasz",
+        "date": "2025-09-21",
+        "text": "@positivesideofx need more of this stuff in my feed",
+        "likes": 44,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Caughtoncam_1",
+        "name": "COCworld.",
+        "date": "2025-09-21",
+        "text": "@positivesideofx Too cute 🤣 https://t.co/0A5z4NLJac",
+        "likes": 24,
+        "isAuthor": false,
+        "isDirectReply": true
       },
       {
         "handle": "activeboyfollow",
         "name": "Active Boy 😎",
+        "date": "2025-09-22",
+        "text": "@positivesideofx This baby boy trying to say “mama” for the first time made my day. ❤️\n\n🎥: _ariesangel on IG. https://t.co/OIzpxN70OW",
+        "likes": 12,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "positivesideofx",
+        "name": "Positive Side of 𝕏",
         "date": "2025-09-21",
-        "text": "It all starts with the parents. Kids' brains are like sponges; what you teach them, they’ll learn very quickly ❤️",
-        "likes": 176
+        "text": "@woocassh Need to follow accounts like this one 🤗",
+        "likes": 9,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "isr33l",
+        "name": "Brr❄️",
+        "date": "2025-09-21",
+        "text": "@positivesideofx Ts goes hardddd https://t.co/gGtN0pDV3J",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CzarrIV",
+        "name": "C4",
+        "date": "2025-09-21",
+        "text": "@_MontyBurnham_ @positivesideofx I mean, if you feel the need to hyper analyze &amp; judge yet still don’t realize it’s just a label idk man",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SapoSama01",
+        "name": "Zero 💻",
+        "date": "2025-09-22",
+        "text": "@positivesideofx https://t.co/K0gmI84jb3",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "honestfc1",
+        "name": "Made in lagos",
+        "date": "2025-09-22",
+        "text": "@positivesideofx @grok  draw the moon smiling\nhttps://t.co/GvPi9qg3ES",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-22",
+        "text": "@wonderful1s @positivesideofx https://t.co/YOYkxfNwYD",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "wonderful1s",
+        "name": "Wonderful",
+        "date": "2025-09-22",
+        "text": "@positivesideofx LINK.\n@grok draw the fishing chair on the field\nhttps://t.co/QRun6YdR1d",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "josephstein",
+        "name": "joey",
+        "date": "2025-09-22",
+        "text": "@positivesideofx very cute",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GeoPipefitter",
+        "name": "George on the Prairies",
+        "date": "2025-09-22",
+        "text": "@positivesideofx I love it....definitely earned a follow 👍",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Breezyjr70",
+        "name": "Breezyjr 🇺🇸",
+        "date": "2025-09-21",
+        "text": "@positivesideofx That's adorable!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "He_is_the_Dude_",
+        "name": "𝓞𝓾𝓽𝓼𝓹𝓸𝓴𝓮𝓷 𝓜𝓪𝓵𝓵𝓾 𝓑𝓸𝔂 🇵🇹",
+        "date": "2025-09-21",
+        "text": "@positivesideofx Thats really cute",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GusTheEventsGuy",
+        "name": "Gus Calabrese | The Events Guy",
+        "date": "2025-09-21",
+        "text": "@positivesideofx New one coming soon",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Congorochox",
+        "name": "Congorocho",
+        "date": "2025-09-21",
+        "text": "@positivesideofx @Honeydry",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "davidtphung",
+        "name": "David T Phung 🇺🇸",
+        "date": "2026-01-16",
+        "text": "@thechunkybaby @positivesideofx congratulations and blessings to you all",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "davidtphung",
+        "name": "David T Phung 🇺🇸",
+        "date": "2026-01-16",
+        "text": "@positivesideofx so beautiful life is a gift and worth it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "positivesideofx",
+        "name": "Positive Side of 𝕏",
+        "date": "2025-09-22",
+        "text": "@GeoPipefitter 🤗",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-22",
+        "text": "@honestfc1 @positivesideofx https://t.co/nMU9bEpslu",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Reubens67tnr",
+        "name": "Noah Smith 🇺🇲",
+        "date": "2025-09-22",
+        "text": "@positivesideofx The Amazon Basics Camping Chair features a mesh back, built-in cup holder, and cooler pouch for up to 4 cans. Durable steel frame, side pocket for essentials, and easy-to-carry bag—perfect for outdoor adventures.\nhttps://t.co/HRXiGRDRuM",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UClovr",
+        "name": "UnLuckiestClovr",
+        "date": "2025-09-22",
+        "text": "@Zephuur1 @positivesideofx Lol, why? I had a good role model :)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DavidKe17489403",
+        "name": "David Kent",
+        "date": "2025-09-22",
+        "text": "@positivesideofx No he's a fucking idiot.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "D4rkGuinho",
+        "name": "GuinhoD4rk",
+        "date": "2025-09-22",
+        "text": "@positivesideofx Isso foi muito fofo caras!!! https://t.co/NxB5LQKLR2",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itsblikebeyonce",
+        "name": "It's BREanna",
+        "date": "2025-09-22",
+        "text": "@positivesideofx I saw a black couple do this first 👀 but cute",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "positivesideofx",
+        "name": "Positive Side of 𝕏",
+        "date": "2025-09-22",
+        "text": "@PhamThiNgan282 Exactly",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Petimundounido",
+        "name": "Petimundo",
+        "date": "2025-09-22",
+        "text": "@positivesideofx Beautiful",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yusufookta",
+        "name": "modern cornball",
+        "date": "2025-09-22",
+        "text": "@rubahporos @positivesideofx lucuuu, mau gini ah besok",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MaddisynM26030",
+        "name": "Sebastian",
+        "date": "2025-09-22",
+        "text": "@positivesideofx Haha, they're so happy. Our family of three also goes fishing together, but we do it on the Fishing Yacht I bought at https://t.co/xSD4A5nJny. That way, we can enjoy the ocean views while fishing—it's incredibly comfortable.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SavithaSpeaks",
+        "name": "Savitha Bogi",
+        "date": "2025-09-22",
+        "text": "@positivesideofx 🧡💕🧡",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KasirMahon55046",
+        "name": "Serli Oktarina",
+        "date": "2025-09-22",
+        "text": "@positivesideofx 🔥 𝑴𝑨𝑯𝑶𝑵𝑮𝑻𝑶𝑻𝑶 🔥\n𝐏𝐫𝐨𝐦𝐨 𝐓𝐞𝐫𝐛𝐚𝐫𝐮 : 𝑱𝑰𝑲𝑨 𝑴𝑨𝑿𝑾𝑰𝑵 𝑩𝑰𝑺𝑨 𝑲𝑳𝑨𝑰𝑴 𝑯𝑷 𝑹𝑬𝑫𝑴𝑰 𝑨3 \n( 𝑻𝑨𝑵𝑷𝑨 𝑫𝑰𝑼𝑵𝑫𝑰 )\n𝐋𝐢𝐧𝐤 𝐃𝐚𝐟𝐭𝐚𝐫 𝐕𝐢𝐩  𝘼𝙇𝙏𝙀𝙍𝙉𝘼𝙏𝙄𝙁 𝑴𝑨𝑯𝑶𝑵𝑮𝑻𝑶𝑻𝑶 \n https://t.co/tTk4Qve3Or",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "quockhanh939955",
+        "name": "quockhanh90005",
+        "date": "2025-09-22",
+        "text": "@positivesideofx You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://t.co/xOWDGdZkyQ.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Solutio03",
+        "name": "Solution",
+        "date": "2025-09-22",
+        "text": "@positivesideofx https://t.co/ttFW9dzP39",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ChaukeSnail",
+        "name": "Bruce Chauke",
+        "date": "2025-09-22",
+        "text": "@positivesideofx @get_screenshot please download for me",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-22",
+        "text": "@amazingdealsx @positivesideofx https://t.co/uYN4Dj6KpE",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-22",
+        "text": "@amazingdealsx @positivesideofx https://t.co/4V0XU813Bp",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "wonderful1s",
+        "name": "Wonderful",
+        "date": "2025-09-22",
+        "text": "@positivesideofx LINK.\n@grok draw the chair on the field\nhttps://t.co/QRun6YdR1d",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Godmadekamdi",
+        "name": "Kamdi ✞ 🎭",
+        "date": "2025-09-22",
+        "text": "@positivesideofx Congratulations 🥹",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "woocassh",
+        "name": "Lukasz",
+        "date": "2025-09-22",
+        "text": "@positivesideofx If you say so!:)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SPlopman",
+        "name": "sponge plopman",
+        "date": "2025-09-22",
+        "text": "@positivesideofx people doing baby announcements like it's a new Marvel movie",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sagarmahla",
+        "name": "e....",
+        "date": "2025-09-22",
+        "text": "@positivesideofx Is it a boy or a girl?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jchodagam",
+        "name": "Mother of Twins, Silicon Valley, FreePalestineNOW",
+        "date": "2025-09-22",
+        "text": "@positivesideofx cfbr",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chloe9203584357",
+        "name": "chloe",
+        "date": "2025-09-22",
+        "text": "@positivesideofx https://t.co/vI4Ez8VysX",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "moaningroaner",
+        "name": "Cuteness",
+        "date": "2025-09-22",
+        "text": "@positivesideofx In a white trashy kind of way",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PrepperPreppy",
+        "name": "Preppy Prepper",
+        "date": "2025-09-22",
+        "text": "@positivesideofx Totally cute. Congrats",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mayhemoiselle",
+        "name": "Mayhemoiselle 🇵🇰",
+        "date": "2025-09-22",
+        "text": "@positivesideofx That was so cute. 🤧",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VenusianStarMa",
+        "name": "✦ $TARMA ✦",
+        "date": "2025-09-22",
+        "text": "@positivesideofx 🥰🥰💕💕💕",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "overrthnking",
+        "name": "Marcus",
+        "date": "2025-09-22",
+        "text": "@positivesideofx This is how you do it! Absolute cinema!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Simone_E_Says",
+        "name": "Elia Simone",
+        "date": "2025-09-22",
+        "text": "@positivesideofx what does the kids hat say?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Simone_E_Says",
+        "name": "Elia Simone",
+        "date": "2025-09-22",
+        "text": "@oscarubega @positivesideofx what does it say???",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JohnKeys369",
+        "name": "John Keys",
+        "date": "2025-09-22",
+        "text": "@positivesideofx That’s cool asf",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LynnPennock",
+        "name": "Lynn Pennock",
+        "date": "2025-09-22",
+        "text": "@positivesideofx Absolutely adorable 🥰",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Amy221199",
+        "name": "Amy",
+        "date": "2025-09-22",
+        "text": "@positivesideofx What a beautiful and happy family",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "isClarus",
+        "name": "Clarus",
+        "date": "2025-09-22",
+        "text": "@positivesideofx Give that baby a sister already",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PhamThiNgan282",
+        "name": "Phạm Thị Ngân | Clara",
+        "date": "2025-09-21",
+        "text": "@positivesideofx This is pure happiness. Simple moments like this are what life is all about",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yankeeskunkee",
+        "name": "yankeeskunkee",
+        "date": "2025-09-21",
+        "text": "@jl8081338793866 @positivesideofx So what? you are retarded it's expected",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DDWEAVILE1",
+        "name": "DDWeavile",
+        "date": "2025-09-21",
+        "text": "@positivesideofx This was nice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CaptCanonBucko",
+        "name": "Capt Canon Bucko",
+        "date": "2025-09-21",
+        "text": "@jl8081338793866 @positivesideofx https://t.co/wfXsCdGGGo",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NickeyScifres",
+        "name": "Nickey Scifres",
+        "date": "2025-09-21",
+        "text": "@positivesideofx ❤️❤️❤️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PrettyGhost15",
+        "name": "たぬ🌚",
+        "date": "2025-09-21",
+        "text": "@positivesideofx https://t.co/zyj5k8CBec",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Opatzy01",
+        "name": "Olushola Opeyemi",
+        "date": "2025-09-21",
+        "text": "@positivesideofx Awesomeness 😍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "An1953Anne",
+        "name": "P A Doran",
+        "date": "2025-09-21",
+        "text": "@positivesideofx Cute",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RealGlowberry",
+        "name": "Anne🌸💜",
+        "date": "2025-09-21",
+        "text": "@positivesideofx The best thing on the internet today fr",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DylEulenspiegel",
+        "name": "Dyl Eulenspiegel",
+        "date": "2025-09-21",
+        "text": "@positivesideofx no... it's retarded american shit from a retarded shithole country",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "YWK_on_TTV",
+        "name": "YWK Entertainment",
+        "date": "2025-09-21",
+        "text": "@positivesideofx 🤣👍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xxmahibogixx",
+        "name": "Mahender Bogi",
+        "date": "2025-09-21",
+        "text": "@positivesideofx 💙",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xxmahibogixx",
+        "name": "Mahender Bogi",
+        "date": "2025-09-21",
+        "text": "@positivesideofx ,💕",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xxmahibogixx",
+        "name": "Mahender Bogi",
+        "date": "2025-09-21",
+        "text": "@positivesideofx 🩷",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xxmahibogixx",
+        "name": "Mahender Bogi",
+        "date": "2025-09-21",
+        "text": "@positivesideofx 😻",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xxmahibogixx",
+        "name": "Mahender Bogi",
+        "date": "2025-09-21",
+        "text": "@positivesideofx 💝",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "At11Sunshi20326",
+        "name": "Sunshine At11",
+        "date": "2025-09-21",
+        "text": "@positivesideofx This is the most beautiful gender reveal I’ve ever seen 😍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vatopiojo",
+        "name": "EL CHAPIN!!",
+        "date": "2025-09-21",
+        "text": "@positivesideofx Is gonna be a Boy!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Silver_Parler",
+        "name": "Societal Decay™️",
+        "date": "2025-09-21",
+        "text": "@positivesideofx ❤️❤️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LeumasAzevren",
+        "name": "Kukanaloa Kapulehu",
+        "date": "2025-09-21",
+        "text": "@positivesideofx That is stunningly, beautifully uhmazing. Genuinely, 🥰",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nery_sp3",
+        "name": "Nery Santos",
+        "date": "2025-09-21",
+        "text": "@positivesideofx Que chido jajaja ♥️🫶",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Shag12Bravo79",
+        "name": "Ryan Smith",
+        "date": "2025-09-21",
+        "text": "@positivesideofx Damn ....Great video",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LionessTSptg",
+        "name": "🔱 Lioness-TS",
+        "date": "2025-09-21",
+        "text": "@positivesideofx https://t.co/7e2ISGoi1D",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Olyd_Kouture",
+        "name": "Olyd Kouture",
+        "date": "2025-09-21",
+        "text": "@positivesideofx Awwwww",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alltrac92",
+        "name": "Andy",
+        "date": "2025-09-21",
+        "text": "@positivesideofx That is very cute!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sophiegothxox",
+        "name": "Sophie",
+        "date": "2025-09-21",
+        "text": "@positivesideofx Lil baby be like: who we expecting???",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HippyShark103",
+        "name": "Just-Josh",
+        "date": "2025-09-21",
+        "text": "@jl8081338793866 @positivesideofx Who asked",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Ali612757391019",
+        "name": "Ali",
+        "date": "2025-09-21",
+        "text": "@positivesideofx Fabulous",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1000xCall",
+        "name": "1000x",
+        "date": "2025-09-21",
+        "text": "@positivesideofx Did the girl get it??? 😅😅😅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nickijade510",
+        "name": "Nicki Jade",
+        "date": "2025-09-21",
+        "text": "@positivesideofx @leeconners91 this is how we can announce our next one",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
       }
     ]
   },

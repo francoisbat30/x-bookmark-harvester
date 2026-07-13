@@ -1,7 +1,7 @@
 {
   "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-07-12T17:19:17.010Z",
+  "fetchedAt": "2026-07-13T07:07:12.569Z",
   "tweetId": "1965411461515411502",
   "post": {
     "url": "https://x.com/purelivn/status/1965411461515411502",
@@ -24,32 +24,254 @@
       }
     ],
     "metrics": {
-      "likes": 7304,
+      "likes": 7301,
       "retweets": 802,
       "replies": 36,
-      "views": 110327
+      "views": 110329
     },
     "comments": [
       {
         "handle": "Aliaghted",
         "name": "Alia Ghted",
         "date": "2025-09-11",
-        "text": "😍",
-        "likes": 2
+        "text": "@purelivn 😍",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
       },
       {
         "handle": "TanyaBoecker",
         "name": "Tanya Lancaster",
         "date": "2025-09-10",
-        "text": "Venice, Italy - a city where time stands still and every sunset looks like a Renaissance painting. The sound of water lapping against stone, the echo of footsteps in narrow alleys, the distant song of a gondolier… it’s pure magic. ✨",
-        "likes": 2
+        "text": "@purelivn Venice, Italy - a city where time stands still and every sunset looks like a Renaissance painting. The sound of water lapping against stone, the echo of footsteps in narrow alleys, the distant song of a gondolier… it’s pure magic. ✨",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
       },
       {
         "handle": "Raven_l3V",
         "name": "Raven○●",
         "date": "2025-09-10",
-        "text": "I think I need to visit here, first.... \n 😍",
-        "likes": 2
+        "text": "@purelivn I think I need to visit here, first.... \n😍 https://t.co/QXeP7pCJqu",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "carole_hilaire",
+        "name": "Carole St-Hilaire",
+        "date": "2025-09-10",
+        "text": "@purelivn 🤩",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "neversober6_9",
+        "name": "I’m never sober🧋💨",
+        "date": "2025-09-10",
+        "text": "@purelivn Mood",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "astridngln",
+        "name": "dirty bubble",
+        "date": "2025-09-16",
+        "text": "@bison_aang @sambal_addict @purelivn venice kw udah, saatnya nabung ke venice ori",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bison_aang",
+        "name": "apa",
+        "date": "2025-09-16",
+        "text": "@sambal_addict @purelivn Gas",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bison_aang",
+        "name": "apa",
+        "date": "2025-09-15",
+        "text": "@sambal_addict @purelivn Next kah",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "enzo_jeffer",
+        "name": "Enzo Jefferson",
+        "date": "2025-09-12",
+        "text": "@purelivn è stata una lunga strada lontano da casa",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "constru53382027",
+        "name": "Tifrey",
+        "date": "2025-09-11",
+        "text": "@purelivn Venice, Italy - a city where time stands still and every sunset looks like a Renaissance painting.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Wash_Jones",
+        "name": "Wash Jones",
+        "date": "2025-09-11",
+        "text": "@purelivn POST THE RESTAURANT NAME",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xiaomifeng51477",
+        "name": "fengyuwuzu（互fo互关、必回）",
+        "date": "2025-09-11",
+        "text": "@purelivn ❤️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BmeRamkumar",
+        "name": "Ramkumar M",
+        "date": "2025-09-11",
+        "text": "@purelivn how beautiful",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VEKWFfklF3FxatI",
+        "name": "Cyoko",
+        "date": "2025-09-11",
+        "text": "@purelivn Wow 😆 How wonderful 😍😍😍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Rosababy_vip",
+        "name": "Rosababy",
+        "date": "2025-09-11",
+        "text": "@purelivn Dinner with a view is perfect",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BoydGrace3146",
+        "name": "Grace Boyd",
+        "date": "2025-09-10",
+        "text": "@purelivn Venice looks breathtaking! Have you fallen in love with the gondolas yet? 🚤❤️ https://t.co/20jizw7iV7",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sugarpinkysoul",
+        "name": "sugar ( سُكر)",
+        "date": "2025-09-10",
+        "text": "@purelivn يارب مركبه تخطفني توديني هناك",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tbee_doodles",
+        "name": "T.Bee🐝",
+        "date": "2025-09-10",
+        "text": "@purelivn It’s beautiful but that’s sewer water",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "QqUenlolo",
+        "name": "Dr lolo",
+        "date": "2025-09-10",
+        "text": "@purelivn 🤍😍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dangtiendu",
+        "name": "Đặng Tiến Du | Kyo",
+        "date": "2025-09-10",
+        "text": "@purelivn my dreams",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "juicycoconuts22",
+        "name": "juicy coconuts🌺🥥",
+        "date": "2025-09-10",
+        "text": "@purelivn so original😍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "noblemike",
+        "name": "Michael L. Noble",
+        "date": "2025-09-10",
+        "text": "@purelivn Catch it before it gets too hot",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Somewhere_Style",
+        "name": "Somewhere",
+        "date": "2025-09-10",
+        "text": "@purelivn Venetian daydream 💫",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-10",
+        "text": "@Ciler_Altnbas @purelivn Bu kafe Venedik (Venezia), İtalya'da. Kanal manzaralı tipik bir Venedik sahnesi.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "eels4reals",
+        "name": "Lara Croft",
+        "date": "2025-09-10",
+        "text": "@purelivn AI :(",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GisaHop3506",
+        "name": "SaltWind",
+        "date": "2025-09-09",
+        "text": "@purelivn Good morning dear..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dy9byl",
+        "name": "hu2ur",
+        "date": "2025-09-09",
+        "text": "@purelivn İtalya öldürüyorsun beni💭",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
       }
     ]
   },

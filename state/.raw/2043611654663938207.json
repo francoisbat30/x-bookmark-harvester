@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:10:53.052Z",
+  "tweetId": "2043611654663938207",
+  "post": {
+    "url": "https://x.com/ChanPerco/status/2043611654663938207",
+    "author": {
+      "handle": "ChanPerco",
+      "name": "Jonathan Chan  💡📣"
+    },
+    "date": "2026-04-13",
+    "text": "Paperasse : un projet IA open source pour vous assister dans vos impôts et aider les comptables https://t.co/uq3Tx3aIui\n\nPaperasse est disponible sur GitHub depuis le 24 mars dernier et propose une collection de skills open source pour agents IA spécialisés dans la comptabilité et la fiscalité française https://t.co/zktYD1JsPC",
+    "thread": [
+      {
+        "id": "2043611653695033557",
+        "text": "Paperasse : un projet IA open source pour vous assister dans vos impôts et aider les comptables https://t.co/uq3Tx3aIui"
+      },
+      {
+        "id": "2043611654663938207",
+        "text": "Paperasse est disponible sur GitHub depuis le 24 mars dernier et propose une collection de skills open source pour agents IA spécialisés dans la comptabilité et la fiscalité française https://t.co/zktYD1JsPC"
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 0,
+      "retweets": 1,
+      "replies": 0,
+      "views": 120
+    },
+    "comments": []
+  }
+}

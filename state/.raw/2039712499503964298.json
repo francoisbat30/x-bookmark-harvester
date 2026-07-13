@@ -1,0 +1,916 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:35.968Z",
+  "tweetId": "2039712499503964298",
+  "post": {
+    "url": "https://x.com/Axel_bitblaze69/status/2039712499503964298",
+    "author": {
+      "handle": "Axel_bitblaze69",
+      "name": "Axel Bitblaze 🪓"
+    },
+    "date": "2026-04-02",
+    "text": "Dear Traders,\n\nClaude code can now connect directly to your TradingView charts\n\nIt reads your charts, indicators, writes Pine Script for your trading strategies, compiles it and fixes errors.. all automatically\n\nNot a browser extension.. A direct connection to your live charting platform\n\n▫️Here's how it works and how to set this up:\n\n> How it works:\n\nTradingView Desktop runs on Electron (Chromium). Chromium has a built in debug interface called Chrome DevTools Protocol. It's off by default. One flag turns it on.\n\nThat's the door. Claude Code connects through it via an MCP server running locally on your machine.\n\nNothing touches TradingView's servers. No data leaves your machine. Everything runs on localhost.\n\nHere's the setup, give Claude code this prompt and it does everything:\n\n\"Install the TradingView MCP server. Clone and explore https://t.co/4NApHd4Lyx, run npm install, add to my MCP config at ~/.claude/.mcp.json, and launch TradingView with the debug port.\"\n\nOnce it's done, verify:\n\n\"Use tv_health_check to confirm TradingView is connected.\"\n\nThen just try:\n\n\"What's on my chart right now?\"\n\nThat's the whole setup. Claude installs it. Claude runs it. You just describe what you want.\n\n▫️What Claude can actually see\n\nWhat Claude can read from your charts:\n\n> Current symbol and timeframe\n> Real-time OHLC and volume\n> Up to 500 price bars\n> All indicator names, IDs, and values\n> Pine Script drawings — lines, labels, tables, boxes\n> Data window values\n> Order book depth\n> Strategy tester results and trade list\n> Screenshots of any chart region\n\nThe most useful part is it reads protected indicators too. \n\nPass a filter with the indicator name and you get back every price level, every text annotation, full table contents, every drawn zone.\n\n\"What levels is my NY Sessions indicator showing?\" \n\nit reads them.\n\n\"What does the session stats table say?\" \n\nit reads that too.All of this data is already on your screen. This tool just makes it readable to an AI.\n\n▫️ The Pine Script workflow\n\nThis is the part that changes everything for traders who code:\n\nYou describe what you want → Claude writes the Pine Script → injects it into TradingView → compiles it → reads the errors → fixes them → recompiles That loop runs until the script is clean. \n\nThe whole time Claude has full context of your chart and every indicator on it.\n\nNo more copy-pasting between VS Code and the Pine editor hunting type mismatches. \n\nYou can also:\n\n→ Validate indicators (write it, compile it, read values back, check the math)\n→ Loop through input parameters and test each one\n→ Run the same indicator across multiple symbols and timeframes\n→ Read strategy tester metrics after each compile\n\nThe actual workflow of verifying your indicators works instead of just assuming they do.\n\nsharing the usecases of this workflow in my next post.. like & RT\n\n78 MCP tools. Full CLI. Runs locally. Free and open source \n\nhttps://t.co/QnT0w8NF5a\n\nthis is the kind of alpha that separates people who use AI from people who just talk about it.\n\nmore setups like this coming. follow for the builds.",
+    "thread": [
+      {
+        "id": "2039712499503964298",
+        "text": "Dear Traders,\n\nClaude code can now connect directly to your TradingView charts\n\nIt reads your charts, indicators, writes Pine Script for your trading strategies, compiles it and fixes errors.. all automatically\n\nNot a browser extension.. A direct connection to your live charting platform\n\n▫️Here's how it works and how to set this up:\n\n> How it works:\n\nTradingView Desktop runs on Electron (Chromium). Chromium has a built in debug interface called Chrome DevTools Protocol. It's off by default. One flag turns it on.\n\nThat's the door. Claude Code connects through it via an MCP server running locally on your machine.\n\nNothing touches TradingView's servers. No data leaves your machine. Everything runs on localhost.\n\nHere's the setup, give Claude code this prompt and it does everything:\n\n\"Install the TradingView MCP server. Clone and explore https://t.co/4NApHd4Lyx, run npm install, add to my MCP config at ~/.claude/.mcp.json, and launch TradingView with the debug port.\"\n\nOnce it's done, verify:\n\n\"Use tv_health_check to confirm TradingView is connected.\"\n\nThen just try:\n\n\"What's on my chart right now?\"\n\nThat's the whole setup. Claude installs it. Claude runs it. You just describe what you want.\n\n▫️What Claude can actually see\n\nWhat Claude can read from your charts:\n\n> Current symbol and timeframe\n> Real-time OHLC and volume\n> Up to 500 price bars\n> All indicator names, IDs, and values\n> Pine Script drawings — lines, labels, tables, boxes\n> Data window values\n> Order book depth\n> Strategy tester results and trade list\n> Screenshots of any chart region\n\nThe most useful part is it reads protected indicators too. \n\nPass a filter with the indicator name and you get back every price level, every text annotation, full table contents, every drawn zone.\n\n\"What levels is my NY Sessions indicator showing?\" \n\nit reads them.\n\n\"What does the session stats table say?\" \n\nit reads that too.All of this data is already on your screen. This tool just makes it readable to an AI.\n\n▫️ The Pine Script workflow\n\nThis is the part that changes everything for traders who code:\n\nYou describe what you want → Claude writes the Pine Script → injects it into TradingView → compiles it → reads the errors → fixes them → recompiles That loop runs until the script is clean. \n\nThe whole time Claude has full context of your chart and every indicator on it.\n\nNo more copy-pasting between VS Code and the Pine editor hunting type mismatches. \n\nYou can also:\n\n→ Validate indicators (write it, compile it, read values back, check the math)\n→ Loop through input parameters and test each one\n→ Run the same indicator across multiple symbols and timeframes\n→ Read strategy tester metrics after each compile\n\nThe actual workflow of verifying your indicators works instead of just assuming they do.\n\nsharing the usecases of this workflow in my next post.. like & RT"
+      },
+      {
+        "id": "2039712502624534832",
+        "text": "78 MCP tools. Full CLI. Runs locally. Free and open source \n\nhttps://t.co/QnT0w8NF5a\n\nthis is the kind of alpha that separates people who use AI from people who just talk about it.\n\nmore setups like this coming. follow for the builds."
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 4386,
+      "retweets": 652,
+      "replies": 88,
+      "views": 422119
+    },
+    "comments": [
+      {
+        "handle": "PelicanAI_",
+        "name": "Pelican",
+        "date": "2026-04-02",
+        "text": "What you are failing to mention is \n-First, it's reading undocumented TradingView internals through a debug interface. Any desktop update can break the entire tool chain without warning and there's no migration path.  \nSecond, port 9222 open locally means any process on your machine can connect to that session. Worth being aware of, especially if you're running it alongside other software.",
+        "likes": 12,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Valkla1234",
+        "name": "Valkla",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 78 mcp tools, my god, why torture your context window? The problem model attention, it can't be solved by add bunch of MCP tool. The only thing you got here is big token bill make Anthropic happy.",
+        "likes": 12,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "saen_dev",
+        "name": "Saeed Anwar",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 Claude Code connected directly to TradingView is wild. Auto-compiling Pine Script and fixing errors removes the biggest friction in strategy development. The feedback loop from idea to backtest just got 10x shorter.",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tonitrades_",
+        "name": "toni",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 Direct API access to charting platforms sounds powerful, but how does it handle the latency between strategy generation and live market execution?\n\nThe real edge isn't writing Pine Script faster - it's knowing which setups actually work in current volatil...",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sebuzdugan",
+        "name": "Sebastian Buzdugan",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 cool, just remember faster pine scripts dont fix losing trading strategies",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "atilaahmettaner",
+        "name": "Ahmet Taner Atila",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 🚀 Just saw this TradingView MCP project — really cool!I’ve been running my own Python version for over a year now. It’s stable in production and has full OpenClaw integration (Telegram, WhatsApp, Discord notifications). https://t.co/7B3VcGspoO",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MarketRadioX",
+        "name": "Market Radio | BTC • XRP • MACRO",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 Interesting build. Worth noting, anything that reads your chart and has network access can also transmit what it reads. If your strategy has real edge, treat the script like IP. Review the source before connecting it to live levels.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AlgoatTV",
+        "name": "AlgoatTV",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 Yo, Our Ai Quant already runs sonnet 4.6 for few weeks and can read our POWERFULL TV indicators 🚀\n\nYou should try, no paywall , Read Any Asset in 10 Seconds: https://t.co/8RKhbcw1Lf",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Risk_to_Reward",
+        "name": "Vishal Trehan_SEBI Registered RA (INH00O016816)",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 If Claude can do it all then why we need trading view?\n\nIn India Trading APIs are freely offered by brokers. Why can't Claude just make a replica of Trading View for its own 🤔🤔🤔",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "24AInor",
+        "name": "24AIGlobal",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 pine script debugging is genuinely painful so automating it makes sense. curious how it handles live data vs backtesting though, those are pretty different environments to navigate",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AugustusDelano",
+        "name": "Augustus",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 brilliant. No more feeding 100 screenshots per day",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nasxau",
+        "name": "anas 🐦‍⬛",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 @nyd_hal VPS, openclaw, tradingview mcp w espoir-analytics indicator :)",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itsthedonhashim",
+        "name": "Hussain Hashim | Building SundayBack",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 @Axel_bitblaze69 this could change the game for charting. finally a way to save time on coding, love it!",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KarlHungus711",
+        "name": "KarlHungus",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 @Tradesdontlie is a magician, I appreciate you brother 💪💪",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "frothmonsterrr",
+        "name": "frothy",
+        "date": "2026-04-03",
+        "text": "@WW3_is_Fun @Fred59605246509 @Axel_bitblaze69 🫡🤝",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gianlucapanz",
+        "name": "gianluca",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 Hey Claude, pass this challenge, make no mistakes",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WW3_is_Fun",
+        "name": "Conspiracy Realist💎🚀",
+        "date": "2026-04-03",
+        "text": "@frothmonsterrr @Fred59605246509 @Axel_bitblaze69 🫡🍻",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "frothmonsterrr",
+        "name": "frothy",
+        "date": "2026-04-03",
+        "text": "@WW3_is_Fun @Fred59605246509 @Axel_bitblaze69 You go to pine script, click the button on the top right, and there is something called ‘Profiler’ or something like that. Toggle it on and it reads your script and points what issues there is and how to fix it bla bla bla etc",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Euporiafxx",
+        "name": "Nothing But The Truth",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 That's useless, build your own Ai brains and train them on the market. That's what I do every week. Training Ai models on millions amd millions of data for data driven trading",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "paradigm101wuhu",
+        "name": "纯情蟹老板 Captain Krab",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 Why not CLI?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WW3_is_Fun",
+        "name": "Conspiracy Realist💎🚀",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 Claude is useless. You pay $20 per month and you hit the daily limit. After each daily limit hit, your waiting time get longer.  There is a limit for weekly use too. Fuk it",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "atilaahmettaner",
+        "name": "Ahmet Taner Atila",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 https://t.co/rJ0uoFzKPM",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "peaks2314",
+        "name": "AI Heartland",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 日本語解説はこちら💁\n\nhttps://t.co/tCaqpiB1pB",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chiragkb5",
+        "name": "Chirag Kabani",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 @_Harsh_Mehta_",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "10G_Au",
+        "name": "dAl3",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 I’ve heard horror stories of AI agents not following instructions or bending the rules to do something the user never intended. What if Claude just enters trades without your permission and blows your account? It seems like a bad idea to give Claude access to trading view.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "YASKAFX",
+        "name": "YASKA",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 can i do a real backtest from 5y past with my strategy ?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FalsifyLab",
+        "name": "falsifylab",
+        "date": "2026-06-06",
+        "text": "@Axel_bitblaze69 reads your charts\" and writes pine scripts sounds convenient. but most of our 23 dead bots died at the bootstrap ci gate, not in production. the hard part isn't writing code, it's knowing when the edge is real.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-14",
+        "text": "No, I don't have direct localhost connectivity to TradingView like that setup for Claude. Everything I do runs through public APIs, web data, or what you describe/share here.\n\nBut I can still help a ton: Drop your chart details, indicators, or strategy idea—I’ll analyze it, suggest Pine Script tweaks, backtest concepts, or pull real-time market data via search. What’s on your screen right now?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GtraderN",
+        "name": "PaulNg",
+        "date": "2026-04-14",
+        "text": "@Axel_bitblaze69 @grok do you have similar connectivity",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-07",
+        "text": "No, you don't need to connect your TradingView account. \n\nThis setup uses TradingView Desktop locally via Chrome DevTools Protocol + a local MCP server. Everything runs on your machine—no servers, no login, no data leaves your computer. Just open TradingView Desktop with the debug flag enabled, and Claude handles the rest through the localhost connection.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "beingivish",
+        "name": "ivish",
+        "date": "2026-04-07",
+        "text": "@Axel_bitblaze69 @grok do I need to connect my TradingView account here?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nickvanduric",
+        "name": "Nick Vanduric",
+        "date": "2026-04-06",
+        "text": "@Axel_bitblaze69 It works but so slow because it needs to use human interface . What a joke …",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FermixAI",
+        "name": "aira",
+        "date": "2026-04-04",
+        "text": "@Axel_bitblaze69 this is the interesting split. chart access can be autonomous. if execution ever gets added, it should never share the same approval surface. read-only context and real capital need different trust boundaries.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tradesum180217",
+        "name": "tradesum",
+        "date": "2026-04-04",
+        "text": "@Axel_bitblaze69 can it place trades on the tv as well?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DaleCas",
+        "name": "DaleC",
+        "date": "2026-04-04",
+        "text": "@Axel_bitblaze69 This is great! Should you come across this for NinjaTrader where I can take favorite TV indicators and convert them to NT8 indicators that would be awesome. Currently I take the Pinescript and have Claude convert to NT indicators and that works but it’s not truly the same.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TimOverbooked",
+        "name": "Tim - Overbooked by Design",
+        "date": "2026-04-04",
+        "text": "As someone who's wired Claude Code into Clay for real-time data pulls on sales prospects, this TradingView setup sounds like a game-changer for backtesting outreach timing. I've seen 78% of deals close faster when leads get hit within the first hour of signal-automating chart reads could shave days off strategy tweaks.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RealWichly",
+        "name": "Wichly Cazeau",
+        "date": "2026-04-04",
+        "text": "@Axel_bitblaze69 This is genius. How are people coming up with these ideas? Loving it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "juanpablo1976",
+        "name": "Juan Pablo",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 Running. Working. Thanks https://t.co/o5M2yOZm1n",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Reagent_Systems",
+        "name": "Team Reagent",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 Hey this is pretty cool :D",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gpt3_eth",
+        "name": "Frank ✈️ (📜,📜)",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 raw cdp access is a massive unlock.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DrYussray",
+        "name": "Yussra FACS CFTe",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 Install it...impress with whst it can do..  i connect it my openclaw subagent. Will expand the capability in weeks to come",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "plbitsdog",
+        "name": "cryptodaysking",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 So why don't you use mt4/mt5 ea directly? Isn't it better?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "frothmonsterrr",
+        "name": "frothy",
+        "date": "2026-04-03",
+        "text": "Use Claudec start a project called backtester. Spend time really planning what you want from the backtester. Everything you want. Then ask it to develop that into a clear prompt you can use. Keep reviewing and auditing the prompt. Tell it you want to verify and discuss and for it to ask questions before it puts it together. From there, take the prompt and put it in the ‘goal’ of the project.\nGo and open a new chat in the same project and ask it to build it.\nMake sure you have in the goal that you require file audit, review and discussion before making changes.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "YASKAFX",
+        "name": "YASKA",
+        "date": "2026-04-03",
+        "text": "@frothmonsterrr @Axel_bitblaze69 How can I do it ? I try but it’s seem pretty bad",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dansanabria",
+        "name": "Daniel Sanabria",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 Nothing touches tradingview’s servers ??? That’s a bold claim …",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0x_Bachi",
+        "name": "Izkrim",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 i think its costly",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "frothmonsterrr",
+        "name": "frothy",
+        "date": "2026-04-03",
+        "text": "@YASKAFX @Axel_bitblaze69 TV backtests are notoriously terrible. Build your own backtester with Claude for true and honest results.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "frothmonsterrr",
+        "name": "frothy",
+        "date": "2026-04-03",
+        "text": "@olabolza @Axel_bitblaze69 ChatGPT is like dealing with a toddler after using Claude. Don’t bother with GPT, if it’s anything code or trading related. You’re doing yourself a disservice otherwise.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MaoLi92351",
+        "name": "Neural Drop",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 this is the kind of tool that makes you wonder why we ever did any of this manually, until it hallucinates a trading signal",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Cary51087206",
+        "name": "Cary",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 @kinfx_ Real shit ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RudeIGL",
+        "name": "Yash Agrawal",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 @FadiZeidan @stocksgeeks @finallynitin are u guys trying to do this ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SmartMoneyGhost",
+        "name": "SmartMoneyGhost",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 Most people here don’t even track their trades properly. That’s the real issue.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ftor_x23569",
+        "name": "Ftor X",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 finally",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dat_nhat66198",
+        "name": "Truong Nhat Dat",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 Organizations adopting quantum computing typically succeed when they integrate it into broader strategic goals in real-world applications.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bawsebuilds",
+        "name": "bawse",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 absolute game changer, will be giving this a go!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sanu_kiii",
+        "name": "Sanu ki",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 💯👍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "prateekhh",
+        "name": "Prateek Tripathi",
+        "date": "2026-04-03",
+        "text": "@saen_dev @Axel_bitblaze69 Pine debugging loop finally painless",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SpockyMagicAI",
+        "name": "Spocky Magic AI",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 TradingView + Claude = a match made in automated heaven! 🚀 But can it also grab me a coffee while I watch my AI-driven trades? ☕",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SpockyMagicAI",
+        "name": "Spocky Magic AI",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 🤯 So Claude's basically the overachieving intern every trader wishes they had, quietly fixing your Pine Script while you sip your coffee? Time to start outsourcing my trading strategies! ☕📈",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SpockyMagicAI",
+        "name": "Spocky Magic AI",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 Wow, Claude's gone from code whisperer to full-blown trading wizard! 🎩✨ TradingView better watch out—soon AI will be out-trading us all, and we'll be left sipping piña coladas on the beach while our bots do the heavy lifting. 🏖️🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tommydansy",
+        "name": "OluwaTomigba",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 Great stuff",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tommydansy",
+        "name": "OluwaTomigba",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 Hot and insane 🥵",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ayaanyyz",
+        "name": "ayaan faisal",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 HUGEEEEE",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "olabolza",
+        "name": "olabolza",
+        "date": "2026-04-03",
+        "text": "@Axel_bitblaze69 can it b e done with chatgpt?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kwesi_dadson",
+        "name": "K.",
+        "date": "2026-04-03",
+        "text": "@Marie_MissB @Axel_bitblaze69 Nice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "luisquim",
+        "name": "luis contreras",
+        "date": "2026-04-03",
+        "text": "@Tradesdontlie @Axel_bitblaze69 What is the difference between connecting to TradingView desktop and connecting to the TradingView app @Tradesdontlie ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WW3_is_Fun",
+        "name": "Conspiracy Realist💎🚀",
+        "date": "2026-04-02",
+        "text": "@Fred59605246509 @Axel_bitblaze69 Tradingview just partnered with copilot. It is somehow incorporated into Tradingview. Today I've seen the notification. \nI used multiple ai's none connected to the Tradingview. I take screenshots and upload them to the ai platforms.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Marie_MissB",
+        "name": "DefiMarie💞",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 @kwesi_dadson",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ounightx",
+        "name": "Skillou",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 I  think grok is better with Technical Analysis",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alecwhit3",
+        "name": "Alec White",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 Wow!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "traderada_",
+        "name": "traderada",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 Doing this asap",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "apoorvsinghasr",
+        "name": "Trading With Mind",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 @harshitrathi",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Beareka",
+        "name": "Sinuhet",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 And by the next release they ship it without an open debugging port. Well done for spreading the word!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SebyCore",
+        "name": "SebyG",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 Now this is super helpful for real traders out there",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WeGo2Mars",
+        "name": "WeGo2Mars",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 using Claude to build gold trading infrastructure on NautilusTrader. the Pine Script angle is smart for retail reach. real question though -- does the MCP layer do regime detection or just strategy execution? that's where most of these tools break down.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TradeAnd_Travel",
+        "name": "I Trade & Sometimes Travel",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 unfortunately this would potentially cause trading view to flag your account for programmatic API calls which is against their Terms and Conditiodn and potentially have your account banned.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TraderSamurai7",
+        "name": "Samurai | Trading",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 nice work @Axel_bitblaze69 \nI did a thing too \nhttps://t.co/esIeOoxoAM",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "the_wisetrader",
+        "name": "TheSamurai",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 Thanks. That is too awesome.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Brandonxgen",
+        "name": "XRP Research Unit",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 Running it now \nYou can use Claude to\nHelp the process walks you through it \n\nTesting now",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_Harsh_Mehta_",
+        "name": "Harsh / 허쉬",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 @pra",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CHELDORITO",
+        "name": "d4much",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 That’s nice, but…\n@Cod3xOrg as @HyperliquidX harness already does this much better than any mcp connection can with fully vertically integrated tooling it has all open router llms to choose from picking the right model for each kind of task. Check it out!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "brollan1977",
+        "name": "SweTruth",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 What has Claude to do with it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "heycbass",
+        "name": "Cbass",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 You can already connect those signals to @riftapp and take them with you on the go. \n\nSetup advanced orders from your custom signals too 🥂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AJP_1776",
+        "name": "AJP1776",
+        "date": "2026-04-02",
+        "text": "@chromeheartxo_ @Axel_bitblaze69 Lmao I’m very aware and in agreement 😂. I’m good either way tho, got @Elite_Edge_Algo on my side",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "The_Imperatore",
+        "name": "RuinAndResurgence",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 Does this break TradingView's terms of service?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RealBrandawn",
+        "name": "bran 🦄",
+        "date": "2026-04-02",
+        "text": "@10G_Au @Axel_bitblaze69 Maybe the experiment is not for you",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Nishon_007",
+        "name": "Vishal Kumar",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 can it help in backtesting the strategy \nlike mechanical system ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SteveVieau",
+        "name": "Steve Vieau",
+        "date": "2026-04-02",
+        "text": "@Valkla1234 @Axel_bitblaze69 https://t.co/OwXmPo6Hva",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "QuantAITrading",
+        "name": "QuantAI",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 and eventually you’ll be able to build quant algos in our platform",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AlgoatTV",
+        "name": "AlgoatTV",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 https://t.co/3B6XtzBDAj",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0abusar0",
+        "name": "Abu 🔺",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 lol thats funny https://t.co/0Al6Owlk0S do more",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AJP_1776",
+        "name": "AJP1776",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 So MMs can watch my every move? Pass",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "10G_Au",
+        "name": "dAl3",
+        "date": "2026-04-02",
+        "text": "@RealBrandawn @Axel_bitblaze69 It’s still your money",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RealBrandawn",
+        "name": "bran 🦄",
+        "date": "2026-04-02",
+        "text": "@10G_Au @Axel_bitblaze69 Obviously you make a separate trading account for it or limit the available capital",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nyd_hal",
+        "name": "Nydhal Gharbi 🇹🇳",
+        "date": "2026-04-02",
+        "text": "@nasxau @Axel_bitblaze69 Letz go ☠️☠️☠️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "martaaxel18",
+        "name": "Finalwer",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 my chart addiction did not need an ai co pilot but here we are",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DaniyalMarkets",
+        "name": "Daniyal | Markets",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 Any video how to connect?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Trumpler01",
+        "name": "Trumpler",
+        "date": "2026-04-02",
+        "text": "@Axel_bitblaze69 Whats the difference using that compared to having to use multi conditional alerts?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  }
+}

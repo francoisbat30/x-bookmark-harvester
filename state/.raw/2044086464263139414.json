@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:05.673Z",
+  "tweetId": "2044086464263139414",
+  "post": {
+    "url": "https://x.com/ericciarla/status/2044086464263139414",
+    "author": {
+      "handle": "ericciarla",
+      "name": "Eric Ciarla (hiring)"
+    },
+    "date": "2026-04-14",
+    "text": "Fire-PDF is live! 🏎️ https://t.co/uGlFyGKJht",
+    "thread": [
+      {
+        "id": "2044086464263139414",
+        "text": "Fire-PDF is live! 🏎️ https://t.co/uGlFyGKJht"
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 2367,
+      "retweets": 81,
+      "replies": 23,
+      "views": 543774
+    },
+    "comments": []
+  }
+}

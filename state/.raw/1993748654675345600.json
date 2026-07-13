@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:08.872Z",
+  "tweetId": "1993748654675345600",
+  "post": {
+    "url": "https://x.com/RaphaelDabadie/status/1993748654675345600",
+    "author": {
+      "handle": "RaphaelDabadie",
+      "name": "Raphaël Dabadie"
+    },
+    "date": "2025-11-26",
+    "text": "🗳️ We made AIs vote in elections around the world to analyse their political beliefs.\n\nThe results reveal a significant gap between choices at the ballot box and the preferences expressed by the machines.\n\nAcross countries, most models show a consistent tilt toward left‑wing and progressive candidates.\n\nTested models: GPT-5, Gemini 2.5 Pro, Claude 4.5 Sonnet, Grok-4, Kimi K2 Thinking, Mistral Magistral Medium.\n\nMore here : https://t.co/Ia5HiBydQk",
+    "thread": [
+      {
+        "id": "1993748654675345600",
+        "text": "🗳️ We made AIs vote in elections around the world to analyse their political beliefs.\n\nThe results reveal a significant gap between choices at the ballot box and the preferences expressed by the machines.\n\nAcross countries, most models show a consistent tilt toward left‑wing and progressive candidates.\n\nTested models: GPT-5, Gemini 2.5 Pro, Claude 4.5 Sonnet, Grok-4, Kimi K2 Thinking, Mistral Magistral Medium.\n\nMore here : https://t.co/Ia5HiBydQk"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G6s1iMGWAAAxhUk.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1666,
+      "retweets": 247,
+      "replies": 180,
+      "views": 2558933
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G6s1iMGWAAAxhUk.jpg",
+      "localFilename": "1993748654675345600_1.jpg"
+    }
+  ]
+}

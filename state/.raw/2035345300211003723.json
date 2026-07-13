@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:12:13.915Z",
+  "tweetId": "2035345300211003723",
+  "post": {
+    "url": "https://x.com/AdresanSoso/status/2035345300211003723",
+    "author": {
+      "handle": "AdresanSoso",
+      "name": "Lili Adresan🌺"
+    },
+    "date": "2026-03-21",
+    "text": "Tic tac tic tac... https://t.co/HvKpXvHiaw",
+    "thread": [
+      {
+        "id": "2035345300211003723",
+        "text": "Tic tac tic tac... https://t.co/HvKpXvHiaw"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HD7_vS3boAAipQs.png"
+      }
+    ],
+    "metrics": {
+      "likes": 266,
+      "retweets": 19,
+      "replies": 11,
+      "views": 43238
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HD7_vS3boAAipQs.png",
+      "localFilename": "2035345300211003723_1.png"
+    }
+  ]
+}

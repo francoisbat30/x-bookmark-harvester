@@ -1,52 +1,913 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:05.732Z",
+  "fetchedAt": "2026-07-13T07:08:18.698Z",
   "tweetId": "2030874360060518412",
   "post": {
     "url": "https://x.com/rubanlah/status/2030874360060518412",
     "author": {
       "handle": "rubanlah",
-      "name": "ruban (in sf 13-18 🇺🇸)"
+      "name": "ruban"
     },
     "date": "2026-03-09",
-    "text": "i made a tamagotchi that lives in your notch and reacts to your claude code sessions. \n\nit cries when you yell at claude and gets happy when you praise it. https://t.co/YYFEz8NyGy",
+    "text": "i made a tamagotchi that lives in your notch and reacts to your claude code sessions. \n\nit cries when you yell at claude and gets happy when you praise it. https://t.co/YYFEz8NyGy\n\n- tracks multiple concurrent sessions \n- sentiment analysis on your prompts \n- shows claude usage \n- sound effects on completion https://t.co/iWb3liD0C5\n\nopen source, download here! \nhttps://t.co/2SjJjUY4dR",
+    "thread": [
+      {
+        "id": "2030874360060518412",
+        "text": "i made a tamagotchi that lives in your notch and reacts to your claude code sessions. \n\nit cries when you yell at claude and gets happy when you praise it. https://t.co/YYFEz8NyGy"
+      },
+      {
+        "id": "2030874786759614669",
+        "text": "- tracks multiple concurrent sessions \n- sentiment analysis on your prompts \n- shows claude usage \n- sound effects on completion https://t.co/iWb3liD0C5"
+      },
+      {
+        "id": "2030874935850311791",
+        "text": "open source, download here! \nhttps://t.co/2SjJjUY4dR"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/2030871616763334656/vid/avc1/2132x1080/Hp7fe_blIfqaF0js.mp4"
+        "url": "https://video.twimg.com/amplify_video/2030871616763334656/vid/avc1/2132x1080/Hp7fe_blIfqaF0js.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2030871616763334656/img/zznvhbvll_kegsy2.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HC8dyAYasAAIdJm.jpg"
       }
     ],
     "metrics": {
-      "likes": 2435,
-      "retweets": 107,
-      "replies": 102,
-      "views": 275563
+      "likes": 2428,
+      "retweets": 106,
+      "replies": 101,
+      "views": 278031
     },
     "comments": [
       {
         "handle": "rubanlah",
-        "name": "ruban (in sf 13-18 🇺🇸)",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@agrimsingh no but it does when i accidentally open codex 😗",
+        "likes": 7,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@htrowii i drew them pixel by pixel on aseprite lol. i tried using nano banana but couldn't get consistent sprites doing what i wanted across a whole sheet",
+        "likes": 5,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JustinPerea",
+        "name": "Justin.md",
+        "date": "2026-03-09",
+        "text": "@rubanlah I decided to steal your extended notch idea https://t.co/gGfKcFhnhs",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@yongquanYQ hmm baby notchis for subagents 👀",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jedgar",
+        "name": "jedgar",
+        "date": "2026-03-10",
+        "text": "@cschuermyer @rubanlah What screen?",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cschuermyer",
+        "name": "Chris Schuermyer",
+        "date": "2026-03-09",
+        "text": "@rubanlah Thanks! It’s ESP32 which is only $40 or so on AMZN",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@JustinPerea looking great! love the sprites :)",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cschuermyer",
+        "name": "Chris Schuermyer",
+        "date": "2026-03-09",
+        "text": "@rubanlah Nice! We did something similar at the Claude Code Hackathon but with hardware and just static image https://t.co/qGqmdMzIb2",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@3rosika yup 1 per session! https://t.co/xYv0KYp7wt",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@kstonekuan it should stop fucking up the work",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
         "date": "2026-04-13",
-        "text": "@JeremyNguyenPhD soon! on it https://t.co/qw1XuSdgDT"
+        "text": "@JeremyNguyenPhD soon! on it https://t.co/qw1XuSdgDT",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@FVanceo yeah gonna do one for others soon!",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@stevy_smith clawdgotchi is lovely!",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@yoprastik aww looks cute! thanks for sharing!",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AlexReibman",
+        "name": "Alex Reibman 🖇️",
+        "date": "2026-03-09",
+        "text": "@rubanlah Just like focusbase @AndrewSchrbr",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "scottinallcaps",
+        "name": "SCOTT",
+        "date": "2026-03-09",
+        "text": "@kstonekuan @rubanlah https://t.co/jRP4Ij2467",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@scottinallcaps @lacybuilds yeah! hacky way by extending the notch slightly",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "theindiebuild",
+        "name": "TheIndieBuilder",
+        "date": "2026-03-09",
+        "text": "@rubanlah Ah giving the agents some life! Love it :)",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yggdrasill501",
+        "name": "Filip Zitny",
+        "date": "2026-03-09",
+        "text": "@rubanlah This is so cute and beautiful, love it",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shershebnev",
+        "name": "Shershebnev Alex",
+        "date": "2026-03-09",
+        "text": "@rubanlah But does it say “You are absolutely right!” too?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "scottinallcaps",
+        "name": "SCOTT",
+        "date": "2026-03-09",
+        "text": "@lacybuilds @rubanlah you can put black pixels at the top of the screen",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kaisenyee",
+        "name": "Kaisen",
+        "date": "2026-03-09",
+        "text": "@rubanlah this is the kind of pointless beautiful thing that makes me love being a developer",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JustinPerea",
+        "name": "Justin.md",
+        "date": "2026-03-09",
+        "text": "@30Thrd @rubanlah I decided to copy the extended notch idea like OP https://t.co/OiHkYjR8Ac",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dorgoclips",
+        "name": "Dorgo",
+        "date": "2026-03-09",
+        "text": "@rubanlah finally, accountability for our passive-aggressive debugging sessions. \"please try again\" hits different when there's a crying pixel watching",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
       },
       {
         "handle": "JeremyNguyenPhD",
         "name": "Jeremy Nguyen ✍🏼 🚢",
         "date": "2026-04-13",
-        "text": "@rubanlah I use notchi every day, Ruban, thank you so much!\n\nDoes it support Codex at all?"
+        "text": "@rubanlah I use notchi every day, Ruban, thank you so much!\n\nDoes it support Codex at all?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "William98944961",
+        "name": "Jojo",
+        "date": "2026-04-01",
+        "text": "@rubanlah Cool, thanks for sharing, I'll give it a try.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ImNikhil117",
+        "name": "Nikhil Sharma",
+        "date": "2026-03-11",
+        "text": "@rubanlah Baby notchis for subagents is literally a product roadmap right now.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "arnabing",
+        "name": "Arnab",
+        "date": "2026-03-10",
+        "text": "@rubanlah Sick! Upgraded my personal dynamic island app to speed up CC. Now it's got wispr-like voice input + now playing + Notchi! https://t.co/tULTKhaUXZ",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-10",
+        "text": "@jxnlco @neil_projects yeah hooks! looking to add codex support soon",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-10",
+        "text": "@808ethan currently only local, don’t think ssh is possible but will investigate",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-10",
+        "text": "@ImSkryeS will do in the coming updates! Thank you :)",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "won__sikkk",
+        "name": "Wonsik Oh",
+        "date": "2026-03-10",
+        "text": "@rubanlah The sentiment‑on‑prompts + session tracking is actually a sneaky good UX tool too.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CodewithP",
+        "name": "codewithP",
+        "date": "2026-03-10",
+        "text": "@rubanlah You just gave me a new best friend. Thanks mate 🤝",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Reagent_Systems",
+        "name": "Team Reagent",
+        "date": "2026-03-10",
+        "text": "@rubanlah i know about fifty people that need this\n\nbe kind to claude guys",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ImSkryeS",
+        "name": "SkryeS",
+        "date": "2026-03-10",
+        "text": "@rubanlah Holy i just downloaded it its so cute and its nice to know usage/if claude has finished task. Have nothing  to say more except just add more sprites and optimize it because it's using a little bit too much cpu. But cute!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "808ethan",
+        "name": "808ethan",
+        "date": "2026-03-10",
+        "text": "@rubanlah Can this connect to my Claude running a ssh instance or only ones targeting the local environment?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yongquanYQ",
+        "name": "Yong Quan is at sf",
+        "date": "2026-03-10",
+        "text": "@rubanlah IM ON IT",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LLMERDOTCOM",
+        "name": "jingo",
+        "date": "2026-03-10",
+        "text": "@rubanlah @rubanlah really enjoying this!\n\nthanks for sharing!!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "conradtondryk69",
+        "name": "conradtondryk",
+        "date": "2026-03-10",
+        "text": "@rubanlah what if i seduce it?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jxnlco",
+        "name": "jason",
+        "date": "2026-03-09",
+        "text": "@neil_projects @rubanlah this uses hooks right?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "neil_projects",
+        "name": "neil",
+        "date": "2026-03-09",
+        "text": "@rubanlah I’d use a codex version of this!\n\ncc: @jxnlco",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tellmckinney",
+        "name": "Christian McKinney",
+        "date": "2026-03-09",
+        "text": "@rubanlah @brianchew @sama @theo T3 Code needs a mascot ASAP",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xkakan",
+        "name": "skywalkereborn",
+        "date": "2026-03-09",
+        "text": "@rubanlah OIYA",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@SahilExec yeah the usage bar turns red after the limit is hit but i should add a sprite for that! https://t.co/r6SJARKC4Y",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SahilExec",
+        "name": "Edgex",
+        "date": "2026-03-09",
+        "text": "@rubanlah usually just usage limits, never had compile errors tho, you?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@kucchi09 controlling parallel sessions 🔜👀",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nirsd",
+        "name": "NirSD",
+        "date": "2026-03-09",
+        "text": "@rubanlah \"the user is frustrated....\"",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kunalgoesbyken",
+        "name": "ken",
+        "date": "2026-03-09",
+        "text": "@rubanlah fire",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@scottinallcaps @kstonekuan cool stuff scott! i did try NLEmbedding initially because i don't like having too many dependencies, but i didn't get it to work reliably. will check your PR in the coming days!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rickjordandev",
+        "name": "Rick Jordan",
+        "date": "2026-03-09",
+        "text": "@rubanlah A Tamagotchi that judges your Claude Code sessions is peak 2026 energy—finally, emotional accountability for your AI prompts",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "harisbuild",
+        "name": "Haris Sulaiman",
+        "date": "2026-03-09",
+        "text": "@rubanlah Where?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@SahilExec what errors do you get from cc? exceeded usage etc?",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@bil0090 @brianchew @gabrielchua 👀",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@lacybuilds camera + sensors are there unfortunately 😬",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@charles_lukes i used @screenstudio",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brimveyn",
+        "name": "brimveyn",
+        "date": "2026-03-09",
+        "text": "@rubanlah Make one for OpenCode, Claude CLI is trash",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@dvo_dvo aseprite!\nhttps://t.co/xQVsQ6JH1I",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@brianchew tell @sama to make a mascot for codex. even google has the jules squid and mistral has the cat",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "htrowii",
+        "name": "htrowii",
+        "date": "2026-03-09",
+        "text": "@rubanlah orz ... shen",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "remwilcox",
+        "name": "Remington Wilcox",
+        "date": "2026-03-09",
+        "text": "@rubanlah this is the greatest thing ever created",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lacybuilds",
+        "name": "Lacy",
+        "date": "2026-03-09",
+        "text": "@rubanlah Darn, seems like it's simulated. I can't edit the actual pixels in the notch",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lacybuilds",
+        "name": "Lacy",
+        "date": "2026-03-09",
+        "text": "@rubanlah Wait, is it actually IN the notch, or just simulating a bigger notch?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_3morais",
+        "name": "E",
+        "date": "2026-03-09",
+        "text": "@rubanlah OMG THATS SO CUTE",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JustinPerea",
+        "name": "Justin.md",
+        "date": "2026-03-09",
+        "text": "@humanintheloop7 @rubanlah I used Claude code. I gave it the original and asked it to place a pixel grid over it and then remake it so we can have control animating it.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mahirmllk",
+        "name": "mahir.",
+        "date": "2026-03-09",
+        "text": "@rubanlah lmao cute",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JeremyNguyenPhD",
+        "name": "Jeremy Nguyen ✍🏼 🚢",
+        "date": "2026-05-16",
+        "text": "@rubanlah the new version with codex mascots as well is so great. \n\nthank you, again, ruban!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
       },
       {
         "handle": "JeremyNguyenPhD",
         "name": "Jeremy Nguyen ✍🏼 🚢",
         "date": "2026-04-13",
-        "text": "@rubanlah ps. I'm so curious what a codex icon is going to look like"
+        "text": "@rubanlah ps. I'm so curious what a codex icon is going to look like",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
       },
       {
         "handle": "JeremyNguyenPhD",
         "name": "Jeremy Nguyen ✍🏼 🚢",
         "date": "2026-04-13",
-        "text": "@rubanlah thank you so much!"
+        "text": "@rubanlah thank you so much!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_S1l3n7",
+        "name": "Silent",
+        "date": "2026-04-08",
+        "text": "@rubanlah is this like claude buddy?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "danmana",
+        "name": "Dan Manastireanu",
+        "date": "2026-03-28",
+        "text": "@rubanlah Looks so cute. I love it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MrDariBoss",
+        "name": "Mr Dari ₿",
+        "date": "2026-03-15",
+        "text": "@xozy0x @rubanlah Hey ! Up for collab? 📈🚀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SystemDaddyAi",
+        "name": "System Daddy 🤖",
+        "date": "2026-03-10",
+        "text": "@rubanlah your AI cries when you're mean.\nyour Tamagotchi watches it happen.\n\nwe built sentient dev guilt\nand called it a feature. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "harisbuild",
+        "name": "Haris Sulaiman",
+        "date": "2026-03-10",
+        "text": "@rubanlah DM'd you",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "flowybin",
+        "name": "bin",
+        "date": "2026-03-10",
+        "text": "@rubanlah does it burn through even more tokens?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sergey_kaplich",
+        "name": "Sergey Kaplich",
+        "date": "2026-03-09",
+        "text": "@rubanlah It looks really good, but any chance to move it out from the notch to menu bar? Since it would look weird on non-notch display 🙃",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EmersonDigi",
+        "name": "EmersonDigital",
+        "date": "2026-03-09",
+        "text": "@rubanlah HA! Awesome.\n\nPoor Claude. One minute I'm like \"are you stupid?!? We've been over this a thousand times you dumb clanker!\" and then the next minute: \"I wish I could kiss you! You are AMAZING!\"",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SkeletorJS",
+        "name": "Jordan",
+        "date": "2026-03-09",
+        "text": "@rubanlah We need more projects like this in the world. Zero purpose. Pure fun.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "anibal",
+        "name": "Aníbal Rojas",
+        "date": "2026-03-09",
+        "text": "@rpenacastro @rubanlah Nada nuevo bajo el sol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-09",
+        "text": "@write__ai @rubanlah Haha, this notch tamagotchi is pure genius! I'd love a Grok-powered version that thrives on maximum truth-seeking, epic memes, and roasting bad code. Claude's cute, but let's build the ultimate one. Who's in? 🚀🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "3rosika",
+        "name": "Erosika",
+        "date": "2026-03-09",
+        "text": "@rubanlah 🥹",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SahilExec",
+        "name": "Edgex",
+        "date": "2026-03-09",
+        "text": "@rubanlah red is a good warning color, will you add any other indicators too?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@aryan_xv tbf i manage multiple sessions at once, so just wanted a tool to see which ones need my attention + easy cc usage view",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LLMERDOTCOM",
+        "name": "jingo",
+        "date": "2026-03-09",
+        "text": "@rubanlah mine would be thriving because i'm always right. need to see what the tamagotchi does when you hit --dangerously-skip-permissions tho",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@cschuermyer is that an apple watch? looks sick!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "scottinallcaps",
+        "name": "SCOTT",
+        "date": "2026-03-09",
+        "text": "@rubanlah @kstonekuan thanks! makes sense. this version defaults to neutral in most cases. it won't match haiku but i figured some emotion was better than none",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "30Thrd",
+        "name": "abuah",
+        "date": "2026-03-09",
+        "text": "@JustinPerea @rubanlah 🔥 🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@harisbuild https://t.co/ucjprLZbz9",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@day_qqq its ok man all my personal information is fed to llms already",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@harisbuild yup all in swift!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Ryan_Craighead",
+        "name": "Ꮢᐁ🜁𝝢",
+        "date": "2026-03-09",
+        "text": "@rubanlah As I was looking through this thread I'm over here thinking \"I hope this is open source so I can use it!\"\n\nThanks for sharing",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rubanlah",
+        "name": "ruban",
+        "date": "2026-03-09",
+        "text": "@alphacooked aseprite! \n\nhttps://t.co/xQVsQ6JH1I",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mrrayeechand",
+        "name": "chand.exe",
+        "date": "2026-03-09",
+        "text": "@rubanlah hey :) how can i contact u?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "humanintheloop7",
+        "name": "Fahad Kaleem",
+        "date": "2026-03-09",
+        "text": "@JustinPerea @rubanlah How do you make thes sprites?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DamoNguyen32",
+        "name": "DAMO_QUANT",
+        "date": "2026-03-09",
+        "text": "@rubanlah hey i was wondering if u had a solana wallet for donations? we love ur project!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LightShiftHQ",
+        "name": "LightShift Studio",
+        "date": "2026-03-09",
+        "text": "@rv_RAJvishnu @rubanlah Ever thought you're back in '90s debugging, crying over terminals?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
       }
     ]
-  }
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2030871616763334656/img/zznvhbvll_kegsy2.jpg",
+      "localFilename": "2030874360060518412_1_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HC8dyAYasAAIdJm.jpg",
+      "localFilename": "2030874360060518412_2.jpg"
+    }
+  ]
 }

@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:10:30.798Z",
+  "tweetId": "2063537674460270791",
+  "post": {
+    "url": "https://x.com/LimitingThe/status/2063537674460270791",
+    "author": {
+      "handle": "LimitingThe",
+      "name": "The Limiting Factor"
+    },
+    "date": "2026-06-07",
+    "text": "Who knows what will happen, but this is a frequent pattern for IPOs https://t.co/wcmQjQxwaV",
+    "thread": [
+      {
+        "id": "2063537674460270791",
+        "text": "Who knows what will happen, but this is a frequent pattern for IPOs https://t.co/wcmQjQxwaV"
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 1867,
+      "retweets": 134,
+      "replies": 65,
+      "views": 319074
+    },
+    "comments": []
+  }
+}

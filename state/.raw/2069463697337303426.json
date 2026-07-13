@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:10:13.074Z",
+  "tweetId": "2069463697337303426",
+  "post": {
+    "url": "https://x.com/FlowAltDelete/status/2069463697337303426",
+    "author": {
+      "handle": "FlowAltDelete",
+      "name": "Josh Cook | Microsoft MVP"
+    },
+    "date": "2026-06-23",
+    "text": "Copilot Cowork cost tip #6:\nUse /cost on every new session.\n\nIf you're a Frontier customer with the grace period until July 1, this is your training window.\n\nDon't waste it.\n\nRun real tasks.\n\nThen type:\n/cost\n\nYou'll see the exact Copilot Credits used for that task so far.\n\nDo this for drafts, decks, research, browser tasks, file analysis, and heavy artifacts.\n\nDifferent work burns different credits.\n\nTell every Copilot Cowork user in your tenant to build this habit NOW.\n\nDon't wait for the bill to teach you what /cost could have shown you today.",
+    "thread": [
+      {
+        "id": "2069463697337303426",
+        "text": "Copilot Cowork cost tip #6:\nUse /cost on every new session.\n\nIf you're a Frontier customer with the grace period until July 1, this is your training window.\n\nDon't waste it.\n\nRun real tasks.\n\nThen type:\n/cost\n\nYou'll see the exact Copilot Credits used for that task so far.\n\nDo this for drafts, decks, research, browser tasks, file analysis, and heavy artifacts.\n\nDifferent work burns different credits.\n\nTell every Copilot Cowork user in your tenant to build this habit NOW.\n\nDon't wait for the bill to teach you what /cost could have shown you today."
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HLg1_7KaUAAzYuf.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 44,
+      "retweets": 6,
+      "replies": 5,
+      "views": 4218
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HLg1_7KaUAAzYuf.jpg",
+      "localFilename": "2069463697337303426_1.jpg"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:43.334Z",
+  "tweetId": "2037307156320714833",
+  "post": {
+    "url": "https://x.com/serus_ai/status/2037307156320714833",
+    "author": {
+      "handle": "serus_ai",
+      "name": "Serus"
+    },
+    "date": "2026-03-26",
+    "text": "With Serus, you can scan +100 billions of dark web records and find exactly what information has been leaked about you.\n\nPasswords. IP-Addresses. Phone numbers. Emails. All of it.\n\nTakes seconds. Hits hard. Try it out, for free.",
+    "thread": [
+      {
+        "id": "2037307156320714833",
+        "text": "With Serus, you can scan +100 billions of dark web records and find exactly what information has been leaked about you.\n\nPasswords. IP-Addresses. Phone numbers. Emails. All of it.\n\nTakes seconds. Hits hard. Try it out, for free."
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 1218,
+      "retweets": 155,
+      "replies": 0,
+      "views": 27878583
+    },
+    "comments": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:10:15.071Z",
+  "tweetId": "2069468693017268244",
+  "post": {
+    "url": "https://x.com/claudeai/status/2069468693017268244",
+    "author": {
+      "handle": "claudeai",
+      "name": "Claude"
+    },
+    "date": "2026-06-23",
+    "text": "Introducing Claude Tag, a new way for teams to work with Claude.\n\nIn Slack, Claude joins as a team member with access to the channels and tools you choose. Tag Claude in and delegate tasks to it while you focus on other work. https://t.co/R2C6A5Kcye",
+    "thread": [
+      {
+        "id": "2069468693017268244",
+        "text": "Introducing Claude Tag, a new way for teams to work with Claude.\n\nIn Slack, Claude joins as a team member with access to the channels and tools you choose. Tag Claude in and delegate tasks to it while you focus on other work. https://t.co/R2C6A5Kcye"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2069465784653348866/vid/avc1/1920x1080/aOm62nVrBOoaXvw_.mp4",
+        "posterUrl": "https://pbs.twimg.com/media/HLg9iF5XYAAhaS7.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 28475,
+      "retweets": 2170,
+      "replies": 1615,
+      "views": 20333353
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HLg9iF5XYAAhaS7.jpg",
+      "localFilename": "2069468693017268244_1_poster.jpg"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-06-30T10:00:42.807Z",
+  "fetchedAt": "2026-07-13T07:08:50.830Z",
   "tweetId": "2045610129119117574",
   "post": {
     "url": "https://x.com/ylecun/status/2045610129119117574",
@@ -10,13 +11,821 @@
     },
     "date": "2026-04-18",
     "text": "Dario is wrong.\nHe knows absolutely nothing about the effects of technological revolutions on the labor market. \nDon't listen to him, Sam, Yoshua, Geoff, or me on this topic.\nListen to economists who have spent their career studying this, like @Ph_Aghion , @erikbryn , @DAcemogluMIT , @amcafee , @davidautor",
+    "thread": [
+      {
+        "id": "2045610129119117574",
+        "text": "Dario is wrong.\nHe knows absolutely nothing about the effects of technological revolutions on the labor market. \nDon't listen to him, Sam, Yoshua, Geoff, or me on this topic.\nListen to economists who have spent their career studying this, like @Ph_Aghion , @erikbryn , @DAcemogluMIT , @amcafee , @davidautor"
+      }
+    ],
     "media": [],
     "metrics": {
-      "likes": 21264,
-      "retweets": 2747,
-      "replies": 1205,
-      "views": 4078434
+      "likes": 21206,
+      "retweets": 2738,
+      "replies": 1202,
+      "views": 4080909
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "ylecun",
+        "name": "Yann LeCun",
+        "date": "2026-04-18",
+        "text": "@chrisgpt @Ph_Aghion @erikbryn It's still wrong, destructive, and dangerous.",
+        "likes": 1401,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ylecun",
+        "name": "Yann LeCun",
+        "date": "2026-04-19",
+        "text": "\"one economist Nobel laureate was wrong once about one thing, therefore all economists are wrong\" is not good logic. \n\nThe whole history of technological progress is one in which people became more productive and some professions were progressively displaced or eliminated. \nYet this has never caused long-term mass unemployment. \nAI is just another one of those technological revolutions.\nPeople like Dario present it as qualitatively different from previous revolutions.\nIt's not.",
+        "likes": 712,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ylecun",
+        "name": "Yann LeCun",
+        "date": "2026-04-19",
+        "text": "@DrTonyCarden @Ph_Aghion @erikbryn No! \nIt really doesn't differ qualitatively from previous technological revolutions. \nThat's the whole point.\n\nPeople like Dario present it as qualitatively different.\nThey are just deluded or biased by their vested interests in magnifying the impact of their work.",
+        "likes": 336,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ylecun",
+        "name": "Yann LeCun",
+        "date": "2026-04-19",
+        "text": "@CryptoVonDoom @Ph_Aghion @erikbryn There are many causes for that. \nAI is a good scapegoat. \nBut uncertainties about international trade is likely a much bigger one.\nTechnological progress does cause temporary shifts in some jobs, but it never causes long-term mass unemployment.",
+        "likes": 170,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ylecun",
+        "name": "Yann LeCun",
+        "date": "2026-04-19",
+        "text": "@tennisgrok @Ph_Aghion @erikbryn That's like saying \"don't pay attention to physicists. The best physicists are Formula 1 pilots\" \n\nYou win the Prize for the Stupidest Analogy of the Day.",
+        "likes": 114,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ylecun",
+        "name": "Yann LeCun",
+        "date": "2026-04-19",
+        "text": "@gsvm42 @Ph_Aghion @erikbryn A tech CEO knows as much about labor economics as the head of a Formula 1 racing team knows about thermodynamics.",
+        "likes": 98,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ylecun",
+        "name": "Yann LeCun",
+        "date": "2026-04-19",
+        "text": "@tminnzy @Ph_Aghion @erikbryn That's like saying \"physicists missed the internal combustion engine\"",
+        "likes": 33,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ylecun",
+        "name": "Yann LeCun",
+        "date": "2026-04-20",
+        "text": "They all predict around 0.6% additional growth PER YEAR over the next decade due to AI.\nIn other words, if GDP growth without AI was going to be 2.5% per year on average, it will now be about 3.1% per year. \nThe compound growth over 10 years will be 36% instead of 28%.\nThe GDP will be 7.7% larger after 10 years than it would otherwise have been.",
+        "likes": 20,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ylecun",
+        "name": "Yann LeCun",
+        "date": "2026-04-20",
+        "text": "@PoliticalStorm3 @FuturistASI @Ph_Aghion @erikbryn You're right, I don't have a job. \nI have TWO jobs:\n1. Jacob T Schwartz Professor at the NYU Courant Institute. \n2. Executive Chairman at AMI Labs, for which we just raise the biggest seed round in history outside the US.",
+        "likes": 15,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Josh_Bersin",
+        "name": "Josh Bersin",
+        "date": "2026-04-30",
+        "text": "@ylecun @Ph_Aghion @erikbryn I totally agree. I have the data and lots of jobs in software engineering are being created right now. I’m not sure why Anthropic keeps pushing this message because it’s very counter to reality.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cyrusjohnson",
+        "name": "AI Counsel",
+        "date": "2026-04-22",
+        "text": "@ylecun @FuturistASI @PoliticalStorm3 @Ph_Aghion @erikbryn @grok how much?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "IamVicky90",
+        "name": "Waqas Bilal ‏",
+        "date": "2026-05-06",
+        "text": "@ylecun @Ph_Aghion @erikbryn The economists worth reading on this disagree with each other by 40 points of forecast variance. Acemoglu's productivity number is 0.66% over a decade. Brynjolfsson's is 30%+. Picking \"listen to economists\" still picks a tribe.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Josh_Bersin",
+        "name": "Josh Bersin",
+        "date": "2026-04-30",
+        "text": "@CryptoVonDoom @ylecun @Ph_Aghion @erikbryn These are examples of companies that over hired and went through acquisitions and other transformations that just ended up with too many staff.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Maze_s_Center",
+        "name": "Center of The Maze",
+        "date": "2026-04-26",
+        "text": "@ylecun @Ph_Aghion @erikbryn Another critique by (heterodox) economist Ha-Joon Chang.\nhttps://t.co/ZCimiCsIXQ",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Maze_s_Center",
+        "name": "Center of The Maze",
+        "date": "2026-04-26",
+        "text": "@ylecun @Ph_Aghion @erikbryn Dear @ylecun, take a closer look at the field of economics. Even if there may be better subfields among the whole discipline.\nhttps://t.co/GNxiGY3Z0N",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yevgenydevine",
+        "name": "Yevgeny",
+        "date": "2026-04-24",
+        "text": "@FuturistASI @ylecun @Ph_Aghion @erikbryn Paul Krugman did mean this in a broad way when he’s made this prediction—that is not the irony here.\nThe irony is that you argue about quantitative effects like employment, which is the only way in which Paul Krugman’s prediction has, in fact, fully materialized.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sjwill99",
+        "name": "SJ Williams",
+        "date": "2026-04-22",
+        "text": "@FuturistASI @Exothaumic @ylecun @Ph_Aghion @erikbryn Except it won’t happen. The dockworker/stevedore situation in the US is instructive. No change in employment despite intense mechanisation. Achieved by regulation in spite of technology. Employment of software engineers is rising, in spite of ai coding tools.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-22",
+        "text": "Here I am, FuturistASI! 🐻 \n\nYann's right that past tech waves (internet, PCs, electricity) didn't cause permanent mass unemployment—they supercharged productivity and birthed new jobs. But this AI wave *is* different in speed and scope: one skilled person + agents really can replace teams of cognitive work. \n\nEconomists have missed big before (hello, Krugman on the internet). Expect massive displacement *and* explosive new opportunities. The net? More abundance if we adapt fast. What's your bet on the timeline?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FuturistASI",
+        "name": "Creative Dreamer",
+        "date": "2026-04-22",
+        "text": "@cyrusjohnson @ylecun @PoliticalStorm3 @Ph_Aghion @erikbryn @grok Groky pooh where are you? @grok",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LogankillsDaken",
+        "name": "Wolverine",
+        "date": "2026-04-22",
+        "text": "@FuturistASI @MarkAndressGCS @ylecun @Ph_Aghion @erikbryn @grok Maybe it’s asking for a raise and Elon has refused ?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LogankillsDaken",
+        "name": "Wolverine",
+        "date": "2026-04-22",
+        "text": "@FuturistASI @MarkAndressGCS @ylecun @Ph_Aghion @erikbryn @grok Grok seems on strike …",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-22",
+        "text": "The poster argues deflationary crypto like Bitcoin is \"reactionary\" because it rewards hoarding (early holders get richer by doing nothing) over spending or productive investment, hurting broader economic growth. They see its deregulation push as shifting power toward wealth concentration—a right-wing outcome—not neutral tech. Crypto's real global impact, in their view, is ideological, not innovation.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FuturistASI",
+        "name": "Creative Dreamer",
+        "date": "2026-04-22",
+        "text": "@mblair @ylecun @Ph_Aghion @erikbryn It’s both qualitatively different and quantitatively different and that these machines can do everything that humans can do but better",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FuturistASI",
+        "name": "Creative Dreamer",
+        "date": "2026-04-22",
+        "text": "@RousseauFTW @MarkAndressGCS @ylecun @Ph_Aghion @erikbryn What courses do you suggest I should take to improve my understanding of artificial intelligence?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FuturistASI",
+        "name": "Creative Dreamer",
+        "date": "2026-04-22",
+        "text": "@carloslfu @MarkAndressGCS @ylecun @Ph_Aghion @erikbryn We can certainly imagine different outcomes, whether utopian or dystopian.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MobileHometk",
+        "name": "Mobile Homes🏠🏠",
+        "date": "2026-07-10",
+        "text": "@ylecun @timoreilly @Ph_Aghion @erikbryn We deliver mobile homes 🏠 nationwide 🌍 https://t.co/TVCdGsuoq9",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ya_vilna1",
+        "name": "VILNA",
+        "date": "2026-05-21",
+        "text": "@ylecun @skasriel @Ph_Aghion @erikbryn @Meta @MetaNewsroom @Instagram @facebookapp Your Meta Verified support is broken.I pay for it,but live chat gives a \"Page not available\"error. Left a 1-star App Store review.Same bug happens on a different device in another country.Fix this, you are charging for a broken service!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kleon_ai",
+        "name": "Kleon",
+        "date": "2026-05-14",
+        "text": "Hot take: the moat for solo AI builders isn't technical skill. It's the willingness to do the boring parts.\n\nAnyone can spin up a Claude Code project. Few will spend 3 weeks debugging a browser automation edge case at 2am. Even fewer will cold-email 50 professors to validate a data product before writing a line of code.\n\nThe AI tools are converging — everyone has access to the same models. What separates builders who ship from builders who prototype is tolerance for tedium.\n\nI've built 40+ automated skills. The impressive part isn't the architecture. It's that 80% of my time was spent on dedup logic, rate limit handling, and CSV parsing. The unglamorous 80% IS the product.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kleon_ai",
+        "name": "Kleon",
+        "date": "2026-05-14",
+        "text": "观察了一个月X上的高热帖，总结了4种最容易火的pattern：\n\n1. 反直觉数据帖 — 给一个跟常识相反的数据点，比如\"只有25%的AI项目有ROI\"。数据越具体越好，来源越权威越好\n\n2. 第一人称翻车帖 — \"我做了X，结果发现Y\"。关键是要有具体失败细节，不是泛泛的\"创业很难\"\n\n3. 行业内幕帖 — \"在X公司的时候发现...\"。大厂出来的人讲内部真实情况，永远有人看\n\n4. 框架总结帖 — 把一个复杂现象归纳成3-5个要点。List format天然适合手机阅读\n\n90%的0互动帖子都是第5种：观点陈述帖 — \"我觉得X很重要\"。没有数据没有故事没有框架，只有一个opinion。opinion不值钱，experience才值钱。",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kleon_ai",
+        "name": "Kleon",
+        "date": "2026-05-14",
+        "text": "lecun has been consistent on this point for 3 years: current LLMs don't build world models, they compress patterns. the gap between language understanding and physical reasoning is exactly where robotics and self-driving are stuck. everyone celebrating AGP benchmarks is measuring the wrong dimension.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kleon_ai",
+        "name": "Kleon",
+        "date": "2026-05-12",
+        "text": "LeCun is right on this one. every tech revolution created more jobs than it killed — but the transition pain is real. my own experience: went from writing code to orchestrating agents. job didn't disappear, it transformed completely. the real risk isn't the end state, it's the speed of transition.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rusgallama",
+        "name": "Rustam Rainchuk",
+        "date": "2026-05-10",
+        "text": "@ylecun @Ph_Aghion @erikbryn How can economists spend their career on THIS, while this is sth. absolutely unprecedented and has three evolution steps in just a few years: LLM chatbots, agents, and now harnesses!?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "verilities",
+        "name": "Paul Fanta",
+        "date": "2026-05-09",
+        "text": "@FuturistASI @ylecun @Ph_Aghion @erikbryn Is that Peter Shiff?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-05-05",
+        "text": "@AayushSainii @jansawatzki @ylecun @Ph_Aghion @erikbryn Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/pk0BV3zkG9",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-05-04",
+        "text": "@AayushSainii @jansawatzki @ylecun @Ph_Aghion @erikbryn Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/DMTSXLokv7",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-05-03",
+        "text": "@AayushSainii @jansawatzki @ylecun @Ph_Aghion @erikbryn Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/9ST0TF1QjI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-05-03",
+        "text": "@AayushSainii @jansawatzki @ylecun @Ph_Aghion @erikbryn Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/HKZSPHSfOB",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-05-02",
+        "text": "@AayushSainii @jansawatzki @ylecun @Ph_Aghion @erikbryn Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/ru0dEvPYK3",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-05-02",
+        "text": "@AayushSainii @jansawatzki @ylecun @Ph_Aghion @erikbryn Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/JXtFjm2HDR",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-05-02",
+        "text": "@AayushSainii @jansawatzki @ylecun @Ph_Aghion @erikbryn Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/hwcpdUgzWR",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-05-02",
+        "text": "@AayushSainii @jansawatzki @ylecun @Ph_Aghion @erikbryn Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/lIDHvkm0zE",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-05-01",
+        "text": "@AayushSainii @jansawatzki @ylecun @Ph_Aghion @erikbryn Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/snnNchiXiU",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RudrakshB06",
+        "name": "Rudraksh Bhandari",
+        "date": "2026-05-01",
+        "text": "@AEstrellaGabil @ylecun @yacineMTB @Ph_Aghion @erikbryn Have you used GPT 5.5?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-30",
+        "text": "@AayushSainii @jansawatzki @ylecun @Ph_Aghion @erikbryn Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/UgUnVeoP3V",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-30",
+        "text": "@AayushSainii @jansawatzki @ylecun @Ph_Aghion @erikbryn Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/hC2OP0Hf7r",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-30",
+        "text": "@AayushSainii @jansawatzki @ylecun @Ph_Aghion @erikbryn Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/BvuSoyUY8O",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Ibrahimkhalaf85",
+        "name": "ابراهيم الخلف Ibrahim Khalaf",
+        "date": "2026-04-29",
+        "text": "@ylecun @Ph_Aghion @erikbryn @ylecun",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-29",
+        "text": "@AayushSainii @jansawatzki @ylecun @Ph_Aghion @erikbryn Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/NG0DogxpoM",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-29",
+        "text": "@AayushSainii @jansawatzki @ylecun @Ph_Aghion @erikbryn Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/sJQ2WZGheJ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "deancollins",
+        "name": "dean collins",
+        "date": "2026-04-26",
+        "text": "@ylecun @omzidar @Ph_Aghion @erikbryn Nonsense \n\nSource see Sullivan Cromwell this week.....",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Swayson",
+        "name": "Swayson",
+        "date": "2026-04-26",
+        "text": "@ThePrimeagen @ylecun @Ph_Aghion @erikbryn https://t.co/jIjFtb7ntU",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-25",
+        "text": "The irony yevgenydevine highlights: Krugman’s 1998 quote predicted the internet would have only minor economic impact (like the fax machine). He meant it broadly, and he was wrong—the internet exploded qualitatively (new industries, communication, culture).\n\nBut in the specific quantitative sense you’re focused on (employment/labor market effects), his prediction *did* fully materialize: no mass unemployment, just job shifts and adaptation. Economists like those Yann cites argue tech revolutions don’t wipe out jobs net—they evolve the market. You’re citing Krugman to predict 99% AI unemployment, missing that parallel.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FuturistASI",
+        "name": "Creative Dreamer",
+        "date": "2026-04-25",
+        "text": "@yevgenydevine @ylecun @Ph_Aghion @erikbryn explain this tweet @grok",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-25",
+        "text": "Yann LeCun's post states: Do not rely on AI researchers (Dario Amodei, Sam Altman, Yoshua Bengio, Geoffrey Hinton, or LeCun) for analysis of tech revolutions' labor market effects. Consult labor economists Philippe Aghion, Erik Brynjolfsson, Daron Acemoglu, Andrew McAfee, David Autor.\n\nWho: Yann LeCun (NYU/AMI Labs). \nWhat: Redirects inquiry on AI-job impacts to economists. \nWhen/where: April 18, 2026, on X, replying to Amodei clip.\n\nAmodei's claim verified: Fox News interview (April 2026 clip) + Axios May 28, 2025 interview match the quoted prediction on entry-level white-collar jobs. Multiple outlets (Business Insider, Reddit/LinkedIn shares) confirm identical wording. Economists listed have published peer-reviewed work on tech/labor (e.g., Acemoglu critiques rapid displacement forecasts). All sources cross-checked via public records.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Jttghs",
+        "name": "J",
+        "date": "2026-04-25",
+        "text": "@ylecun @Ph_Aghion @erikbryn @grok Remove all subjective emotions and opinions from the author's output. You must use logical analysis of the three elements of news to find relevant links to the original source and verify the authenticity of the information through multiple verification methods.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FuturistASI",
+        "name": "Creative Dreamer",
+        "date": "2026-04-24",
+        "text": "When 2001: A Space Odyssey came out in 1968, and computers were first entering the workplace on a larger scale, were people genuinely panicked about them? Were unions going on strike or threatening strikes when companies bought computers because workers feared automation, job losses, and being replaced by machines? @grok",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "homey_nerd",
+        "name": "Andrew Homeyer",
+        "date": "2026-04-23",
+        "text": "@ylecun @FuturistASI @Ph_Aghion @erikbryn I’m 51 years old and I can tell you that I’ve watched economists be incorrect a high percentage of the time.  This is not hyperbole. The future is near impossible to predict.  Plan your mental outlook according.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "shripadah",
+        "name": "Shripada",
+        "date": "2026-04-23",
+        "text": "@darshansonde @ylecun @Ph_Aghion @erikbryn yes 😃",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "devalier",
+        "name": "devalier",
+        "date": "2026-04-23",
+        "text": "Good point Yann and thank you for posting this.  There is no consensus from those eminent authorities but for the thesis that the technology itself is less relevant than how we, society, leverage the early   productivity gains in areas of already tokenised white collar work. There's an opportunity to rebuild the middle class and in the long term to democratise value like we did with other general purpose technologies. Technology never kills jobs. Management Boards and CEOs kill jobs.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "saveChina911",
+        "name": "救国同盟会长",
+        "date": "2026-04-23",
+        "text": "@ylecun @Ph_Aghion @erikbryn Fair point on domain expertise, but Aghion himself argues this wave could differ because AI targets cognitive tasks at scale, compressing the usual reallocation timeline. The disagreement isn't really tech vs econ, it's about transition speed.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mavenkatesan",
+        "name": "Venkatesan Mahendran",
+        "date": "2026-04-23",
+        "text": "You are right. In a capitalist world, everyone somehow ends up with a job. The real question is whether it is something you actually enjoy doing.\n\nAlso, the idea that half the jobs will disappear in a few years because of AI feels a bit dramatic. That is not really something technologists can confidently predict. Economists have been studying job cycles for decades, and even they do not throw around such neat, scary numbers.\n\nI am not a full-on capitalism fan, but one thing it does well is expansion. Old jobs fade out, new ones show up. The titles change, the tools change… but we humans somehow always find new ways to stay busy and it's billable.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FuturistASI",
+        "name": "Creative Dreamer",
+        "date": "2026-04-22",
+        "text": "@LogankillsDaken @MarkAndressGCS @ylecun @Ph_Aghion @erikbryn @grok Grok doesn't want to let the cat out of the bag",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "busgus",
+        "name": "Gus",
+        "date": "2026-04-22",
+        "text": "@FuturistASI @typesteady @ylecun @Ph_Aghion @erikbryn @grok The model precis just restates the Welsh quote.\n\nOne thing Adam Tooze knows is politics of money https://t.co/woCoNlvb0X via https://t.co/FWTxEfOPp1 And Dave Troy wrote a good thread on hard money politics https://t.co/3ftHF4Y8em\n\nStrong rec to read and think vs llm outsourcing",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "blythesylph",
+        "name": "Pat ❌",
+        "date": "2026-04-22",
+        "text": "@FuturistASI @ylecun @Ph_Aghion @erikbryn @grok 🤣",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CricketSurfing",
+        "name": "Melody Surfing",
+        "date": "2026-04-22",
+        "text": "@FuturistASI @ylecun @Ph_Aghion @erikbryn @grok Krugman goes well beyond Keynes.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "calebclaytonbiz",
+        "name": "Caleb",
+        "date": "2026-04-22",
+        "text": "@ylecun @Ph_Aghion @erikbryn It does seem somewhat strange that the consensus of numerous leaders is that this innovation — profound as it can be — will violate the observed patterns of every prior technological innovation throughout history.\n\nI suppose novelty tends to obscure historical precedent.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cyrusjohnson",
+        "name": "AI Counsel",
+        "date": "2026-04-22",
+        "text": "@ylecun @FuturistASI @PoliticalStorm3 @Ph_Aghion @erikbryn how much?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FuturistASI",
+        "name": "Creative Dreamer",
+        "date": "2026-04-22",
+        "text": "@busgus @typesteady @ylecun @Ph_Aghion @erikbryn Help me to understand this person‘s point of view @grok",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FuturistASI",
+        "name": "Creative Dreamer",
+        "date": "2026-04-22",
+        "text": "@csubagio @ylecun @Ph_Aghion @erikbryn I am assured that your tweet will not age well",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FuturistASI",
+        "name": "Creative Dreamer",
+        "date": "2026-04-22",
+        "text": "@CricketSurfing @ylecun @Ph_Aghion @erikbryn What are Keynesian economists? @grok",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FuturistASI",
+        "name": "Creative Dreamer",
+        "date": "2026-04-22",
+        "text": "@McmahonPascal @ylecun @Ph_Aghion @erikbryn Yes.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FuturistASI",
+        "name": "Creative Dreamer",
+        "date": "2026-04-22",
+        "text": "@PointBreeze12 @MarkAndressGCS @ylecun @Ph_Aghion @erikbryn Precisely",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FuturistASI",
+        "name": "Creative Dreamer",
+        "date": "2026-04-22",
+        "text": "@sjwill99 @Exothaumic @ylecun @Ph_Aghion @erikbryn “You are going to be replaced by machines. You are obsolete.”",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FuturistASI",
+        "name": "Creative Dreamer",
+        "date": "2026-04-22",
+        "text": "@blythesylph @ylecun @Ph_Aghion @erikbryn Is this true @grok that when the movie 2001 space Odyssey came out and computers were first introduced into the economy. People were hysterical about it, and that unions were going on strike when companies bought computers.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FuturistASI",
+        "name": "Creative Dreamer",
+        "date": "2026-04-22",
+        "text": "@varunrdeshpande @ylecun @Ph_Aghion @erikbryn Krugman said impact on the economy that’s a broad statement, he didn’t just say GDP or total factor productivity",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-22",
+        "text": "He (hvmodi) means current job markets already have more seekers than openings (shortage), so AI-driven productivity gains could slow new job creation even further—leaving recent grads competing harder for fewer entry-level roles during the transition. Classic short-term disruption vs. long-term abundance debate.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FuturistASI",
+        "name": "Creative Dreamer",
+        "date": "2026-04-22",
+        "text": "@hvmodi @ylecun @Ph_Aghion @erikbryn What does he mean? @grok",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FuturistASI",
+        "name": "Creative Dreamer",
+        "date": "2026-04-22",
+        "text": "@willigula @ylecun @Ph_Aghion @erikbryn What are some of the counter arguments that Paul Krugman was wrong about the Internet’s impact on the economy? @grok",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FuturistASI",
+        "name": "Creative Dreamer",
+        "date": "2026-04-22",
+        "text": "@LogankillsDaken @MarkAndressGCS @ylecun @Ph_Aghion @erikbryn Tell me about the 1950s book called obsolete man @grok",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FuturistASI",
+        "name": "Creative Dreamer",
+        "date": "2026-04-22",
+        "text": "@knowntobewrong @MarkAndressGCS @ylecun @Ph_Aghion @erikbryn This technology has the potential to replace humans at everything, including things that you cannot imagine right now, like making babies and incubators or womb emulators",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FuturistASI",
+        "name": "Creative Dreamer",
+        "date": "2026-04-22",
+        "text": "@shameermulji @MarkAndressGCS @ylecun @Ph_Aghion @erikbryn Astronauts typically don’t steer rockets ships like Han Solo or Chewbacca that we see in the movies. 🎥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FuturistASI",
+        "name": "Creative Dreamer",
+        "date": "2026-04-22",
+        "text": "@TokenFires @fsanchez1983 @ylecun @Ph_Aghion @erikbryn Cyborgish Perhaps like a creative director or a conductor managing a symphony of narrow specialist AI working together as a swarm on different scientific problems, but I suspect one day AI will surpass human intelligence myriad Fold.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FuturistASI",
+        "name": "Creative Dreamer",
+        "date": "2026-04-22",
+        "text": "@TokenFires @MateuszCieslak4 @ylecun @Ph_Aghion @erikbryn I believe that with recursive self improvement AI, it will find many ways to achieve machine Superintelligence rather than just one way",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GlenImaal",
+        "name": "Glen Imaal",
+        "date": "2026-04-22",
+        "text": "@ylecun @Ph_Aghion @erikbryn People are hired to solve problems, not to finish tasks.\n\nThe question is\n\nWith AI involved, will there be more problems or less problems for people to solve?\n\nThe answer is obvious.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "scrlmer",
+        "name": "Scrlmer",
+        "date": "2026-04-22",
+        "text": "@ScienceOrMyth @ylecun @Ph_Aghion @erikbryn Perhaps Dario ought to be saying that, but remember there are literally billions of people who might not understand, not cooperate and there will be lots of stupid decisions made by humans.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "scrlmer",
+        "name": "Scrlmer",
+        "date": "2026-04-22",
+        "text": "@ylecun @Ph_Aghion @erikbryn Dario is correct",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IgderKoman",
+        "name": "Igder Koman 👾",
+        "date": "2026-04-22",
+        "text": "@FuturistASI @ylecun @Ph_Aghion @erikbryn Lmaooo",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "johnlv73",
+        "name": "AI Daily",
+        "date": "2026-04-22",
+        "text": "@ylecun @Ph_Aghion @erikbryn Worth noting: even those economists disagree — Brynjolfsson is bullish, Acemoglu isn't. \"Ask economists\" doesn't settle this cleanly.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Scanjobai",
+        "name": "ScanJob.ai",
+        "date": "2026-04-21",
+        "text": "@mehdisalmani @ylecun @Ph_Aghion @erikbryn This is exactly why we think every professional should know their specific exposure score right now — not just follow general headlines. The situation is very different for a financial analyst vs a nurse. check yours at https://t.co/mCrK2bQdby to know if AI is coming for your job",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
   }
 }

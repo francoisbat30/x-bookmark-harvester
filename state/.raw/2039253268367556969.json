@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:38.795Z",
+  "tweetId": "2039253268367556969",
+  "post": {
+    "url": "https://x.com/heynavtoor/status/2039253268367556969",
+    "author": {
+      "handle": "heynavtoor",
+      "name": "Nav Toor"
+    },
+    "date": "2026-04-01",
+    "text": "🚨 Type one username. Get every account that person has ever created across 400+ social networks. In seconds.\n\nIt's called Sherlock. 72,000 GitHub stars. The most popular OSINT tool on the internet. Free and open source.\n\nOne command. One username. Every digital footprint exposed.\n\nNo paid tools. No private investigators. No background check services.\n\nHere's what Sherlock does:\n\n→ Enter any username. It scans 400+ social networks simultaneously.\n→ Instagram, Twitter, Reddit, TikTok, GitHub, LinkedIn, and 394 more\n→ Returns every account linked to that username in seconds\n→ Exports results to TXT, CSV, or Excel\n→ Works through Tor for anonymous searches\n→ Proxy support for additional privacy\n→ Auto-opens found profiles in your browser with one flag\n→ Runs on Linux, Mac, Windows, and Docker\n\nHere's the part that should make you uncomfortable:\n\nYour username is your fingerprint. Most people use the same one everywhere. One search reveals every platform you've ever signed up for. Dating apps. Forums. Old accounts you forgot existed. Everything.\n\nPrivate investigators charge $200 to $500 for a basic digital footprint report. Background check services charge $30 to $50 per search.\n\nThat's it. Every account. Every platform. Every trace.\n\n100% Open Source.",
+    "thread": [
+      {
+        "id": "2039253268367556969",
+        "text": "🚨 Type one username. Get every account that person has ever created across 400+ social networks. In seconds.\n\nIt's called Sherlock. 72,000 GitHub stars. The most popular OSINT tool on the internet. Free and open source.\n\nOne command. One username. Every digital footprint exposed.\n\nNo paid tools. No private investigators. No background check services.\n\nHere's what Sherlock does:\n\n→ Enter any username. It scans 400+ social networks simultaneously.\n→ Instagram, Twitter, Reddit, TikTok, GitHub, LinkedIn, and 394 more\n→ Returns every account linked to that username in seconds\n→ Exports results to TXT, CSV, or Excel\n→ Works through Tor for anonymous searches\n→ Proxy support for additional privacy\n→ Auto-opens found profiles in your browser with one flag\n→ Runs on Linux, Mac, Windows, and Docker\n\nHere's the part that should make you uncomfortable:\n\nYour username is your fingerprint. Most people use the same one everywhere. One search reveals every platform you've ever signed up for. Dating apps. Forums. Old accounts you forgot existed. Everything.\n\nPrivate investigators charge $200 to $500 for a basic digital footprint report. Background check services charge $30 to $50 per search.\n\nThat's it. Every account. Every platform. Every trace.\n\n100% Open Source."
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HEziCmEaIAA58F_.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 2773,
+      "retweets": 352,
+      "replies": 58,
+      "views": 212772
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HEziCmEaIAA58F_.jpg",
+      "localFilename": "2039253268367556969_1.jpg"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:10:59.305Z",
+  "tweetId": "2050601628810784811",
+  "post": {
+    "url": "https://x.com/Crypto_Jargon/status/2050601628810784811",
+    "author": {
+      "handle": "Crypto_Jargon",
+      "name": "Crypto Jargon"
+    },
+    "date": "2026-05-02",
+    "text": "ANTHROPIC JUST DROPPED A PREDICTION MARKET TRADING BOT STRUCTURE 🤯 \n\n68.4% WIN RATE.  \n\n$300–$1,500 PER DAY. https://t.co/inp1gzDR7g",
+    "thread": [
+      {
+        "id": "2050601628810784811",
+        "text": "ANTHROPIC JUST DROPPED A PREDICTION MARKET TRADING BOT STRUCTURE 🤯 \n\n68.4% WIN RATE.  \n\n$300–$1,500 PER DAY. https://t.co/inp1gzDR7g"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HHUzTdQbIAEK9JH.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HHUzT0xaMAAhWME.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 3360,
+      "retweets": 304,
+      "replies": 88,
+      "views": 365509
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HHUzTdQbIAEK9JH.jpg",
+      "localFilename": "2050601628810784811_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HHUzT0xaMAAhWME.jpg",
+      "localFilename": "2050601628810784811_2.jpg"
+    }
+  ]
+}

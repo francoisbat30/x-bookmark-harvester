@@ -1,0 +1,1381 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:04.981Z",
+  "tweetId": "2033643399446724618",
+  "post": {
+    "url": "https://x.com/JasonL_Capital/status/2033643399446724618",
+    "author": {
+      "handle": "JasonL_Capital",
+      "name": "Jason Luongo"
+    },
+    "date": "2026-03-16",
+    "text": "BREAKING: Claude now has live access to real-time stock quotes and options chain data\n\nYou can pull prices, scan option chains, check Greeks, and view your portfolio without leaving the chat\n\nHere's how to connect the (free) API step by step: https://t.co/smqDx5uf2u\n\nStep 1: Open a free Public account\n\nIf you don't already have one, sign up here: https://t.co/FHQsKKR1si\n\nNo commissions. No payment for order flow. Stocks, options, and crypto.\n\nYou need the account because it gives you free API access to live market data - that's what we're connecting to Claude.\n\nStep 2: Download Claude Desktop\n\nGo to https://t.co/jO7CfVi71H and install the desktop app (Mac or Windows).\n\nThis is different from Claude in your browser. The desktop app supports MCP servers, which is what gives Claude the ability to connect to external tools and live data.\n\nYou need a paid Claude plan ($20/month Pro works).\n\nStep 3: Open your terminal and run one command\n\nOn Mac, open the Terminal app. On Windows, open Command Prompt.\n\nCopy and paste this:\n\npip install publicdotcom-py\n\nThat's it. This installs the package that lets Claude talk to Public's data. If you've never used terminal before, this is literally just paste and hit enter.\n\nStep 4: Let Claude Cowork edit your config file\n\nThis is the part that would normally require you to manually find and edit a settings file. I skipped all of that.\n\nOpen Claude Desktop, switch to the Cowork tab, and tell it:\n\n\"I just installed the publicdotcom-py package. I need you to edit my claude_desktop_config.json file to add the Public MCP server with my API key [KEY] and account ID [ID].\"\n\nCowork edits the file for you. No coding required.\n\nStep 5: Restart Claude Desktop and verify\n\nQuit Claude Desktop completely (don't just close the window - actually quit the app).\n\nReopen it. Start a new chat. Click the \"+\" button at the bottom - you should now see Public listed as a connected tool.\n\nType: \"What's $NVDA trading at right now?\"\n\nIf Claude pulls back a live price with bid/ask and volume, you're connected. Done.\n\nWhat you can do now:\n\n\"Show me the option chain for $IREN expiring next month\"\nFull chain with every strike, bid/ask, volume, and open interest.\n\n\"What's the delta and IV on this specific $RKLB call contract?\"\n\nLive Greeks for any option.\n\n\"Pull my portfolio and show me my positions with P&L\"\nReads your actual Public account with real numbers.\n\nAll inside the same chat where you're doing your research.\n\nWhere this gets really powerful:\n\nClaude has web search AND live brokerage data in the same conversation.\n\n\"Pull the current price of $ZETA, check IV rank on Barchart, and tell me whether I should be selling puts or buying LEAPs right now.\"\n\nClaude pulls live price from Public, searches Barchart for IV data, and gives you a strategy recommendation using both sources.\n\nNo other AI can do this.\n\nTLDR:\n\n1. Open a free Public account https://t.co/FHQsKKRzhQ\n2. Download Claude Desktop app\n3. Run \"pip install publicdotcom-py\" in your terminal\n4. Use Cowork to edit your config file (no coding needed)\n5. Restart Claude Desktop\n6. Start pulling live quotes, option chains, and portfolio data\n\nTotal data cost: $0\nClaude Pro: $20/month\n\nSet this up once and every conversation about stocks has real numbers behind it.\n\nIf you found this useful, consider giving me a follow @JasonL_Capital\n\nI post daily on options, stock research, and how I actually use AI to invest.",
+    "thread": [
+      {
+        "id": "2033643399446724618",
+        "text": "BREAKING: Claude now has live access to real-time stock quotes and options chain data\n\nYou can pull prices, scan option chains, check Greeks, and view your portfolio without leaving the chat\n\nHere's how to connect the (free) API step by step: https://t.co/smqDx5uf2u"
+      },
+      {
+        "id": "2033643402181456197",
+        "text": "Step 1: Open a free Public account\n\nIf you don't already have one, sign up here: https://t.co/FHQsKKR1si\n\nNo commissions. No payment for order flow. Stocks, options, and crypto.\n\nYou need the account because it gives you free API access to live market data - that's what we're connecting to Claude."
+      },
+      {
+        "id": "2033643404714762282",
+        "text": "Step 2: Download Claude Desktop\n\nGo to https://t.co/jO7CfVi71H and install the desktop app (Mac or Windows).\n\nThis is different from Claude in your browser. The desktop app supports MCP servers, which is what gives Claude the ability to connect to external tools and live data.\n\nYou need a paid Claude plan ($20/month Pro works)."
+      },
+      {
+        "id": "2033643406862283204",
+        "text": "Step 3: Open your terminal and run one command\n\nOn Mac, open the Terminal app. On Windows, open Command Prompt.\n\nCopy and paste this:\n\npip install publicdotcom-py\n\nThat's it. This installs the package that lets Claude talk to Public's data. If you've never used terminal before, this is literally just paste and hit enter."
+      },
+      {
+        "id": "2033643408615739720",
+        "text": "Step 4: Let Claude Cowork edit your config file\n\nThis is the part that would normally require you to manually find and edit a settings file. I skipped all of that.\n\nOpen Claude Desktop, switch to the Cowork tab, and tell it:\n\n\"I just installed the publicdotcom-py package. I need you to edit my claude_desktop_config.json file to add the Public MCP server with my API key [KEY] and account ID [ID].\"\n\nCowork edits the file for you. No coding required."
+      },
+      {
+        "id": "2033643410926830073",
+        "text": "Step 5: Restart Claude Desktop and verify\n\nQuit Claude Desktop completely (don't just close the window - actually quit the app).\n\nReopen it. Start a new chat. Click the \"+\" button at the bottom - you should now see Public listed as a connected tool.\n\nType: \"What's $NVDA trading at right now?\"\n\nIf Claude pulls back a live price with bid/ask and volume, you're connected. Done."
+      },
+      {
+        "id": "2033643412772294925",
+        "text": "What you can do now:\n\n\"Show me the option chain for $IREN expiring next month\"\nFull chain with every strike, bid/ask, volume, and open interest.\n\n\"What's the delta and IV on this specific $RKLB call contract?\"\n\nLive Greeks for any option.\n\n\"Pull my portfolio and show me my positions with P&L\"\nReads your actual Public account with real numbers.\n\nAll inside the same chat where you're doing your research."
+      },
+      {
+        "id": "2033643415045329226",
+        "text": "Where this gets really powerful:\n\nClaude has web search AND live brokerage data in the same conversation.\n\n\"Pull the current price of $ZETA, check IV rank on Barchart, and tell me whether I should be selling puts or buying LEAPs right now.\"\n\nClaude pulls live price from Public, searches Barchart for IV data, and gives you a strategy recommendation using both sources.\n\nNo other AI can do this."
+      },
+      {
+        "id": "2033643417377583465",
+        "text": "TLDR:\n\n1. Open a free Public account https://t.co/FHQsKKRzhQ\n2. Download Claude Desktop app\n3. Run \"pip install publicdotcom-py\" in your terminal\n4. Use Cowork to edit your config file (no coding needed)\n5. Restart Claude Desktop\n6. Start pulling live quotes, option chains, and portfolio data\n\nTotal data cost: $0\nClaude Pro: $20/month\n\nSet this up once and every conversation about stocks has real numbers behind it."
+      },
+      {
+        "id": "2033643419923562782",
+        "text": "If you found this useful, consider giving me a follow @JasonL_Capital\n\nI post daily on options, stock research, and how I actually use AI to invest."
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HDiavSnXsAA0yCm.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HDib5ddasAADfoK.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 4744,
+      "retweets": 454,
+      "replies": 128,
+      "views": 1132988
+    },
+    "comments": [
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "Here’s the GitHub for anyone interested:\n\nhttps://t.co/OcQVkQOoHR",
+        "likes": 46,
+        "isAuthor": true,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@OnlyPrioo Did you even read the thread? You have to set up the API",
+        "likes": 19,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@gwayne237 Give this link to Claude cowork and ask it to walk you through set up. I’m happy to help you out if you have any questions \n\nhttps://t.co/OcQVkQOoHR",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@finn_hulse Researching it more in depth, you're technically correct however, they split this revenue with the user offering anywhere between $.06 to $.18  per contract to reduce trading costs. That was an oversight on my part!",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MattSShane",
+        "name": "Matt Shane",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital @Yalniz_Kurt5050 Correct. You're not. And you know it.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "aligundogdu",
+        "name": "Ali Gündoğdu ☀️",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital There’s a specific MCP for this topic; I recommend it.\n\nhttps://t.co/jjStqCYn2S",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jon285285",
+        "name": "Jon",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital @Yalniz_Kurt5050 Non transparent hook into affiliate code is scammy.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@Yalniz_Kurt5050 Yes I stated in the very first post this is to set up the API",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RussFaigen",
+        "name": "Russ Faigen",
+        "date": "2026-03-18",
+        "text": "@teslabulltr @JasonL_Capital Public launched an MCP server: https://t.co/ud0jttsVBA",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SathishAiHype",
+        "name": "Sathish Harry",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital Worth adding one caveat:\nClaude giving you a \"strategy recommendation\" based on live data isn't the same as a backtested edge.\nUse it to accelerate research and structure thinking — not as a signal.\nThe tool is powerful. The risk is outsourcing judgment to it entirely.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MrMannysays",
+        "name": "Manny",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital @Yalniz_Kurt5050 yes you are not ... this is your referral link... not a way to connect to live data...",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@Yalniz_Kurt5050 So because I used a hook I’m not being fully transparent 😂",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@JohnGregQuantum Awesome! Glad you found it helpful 👌🏻",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@HertzyTrades Game changer!",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@RussFromPublic It’s pretty incredible!",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cmahadevan",
+        "name": "8chapters32sections",
+        "date": "2026-05-23",
+        "text": "@JasonL_Capital I am wary of sites that start with Plaid details. If it is free or subscription based, it does not need these inputs.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RouleurCapital",
+        "name": "Rouleur Capital",
+        "date": "2026-03-20",
+        "text": "@BuildwithPublic Thanks Matthew",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BuildwithPublic",
+        "name": "Matthew@Public",
+        "date": "2026-03-20",
+        "text": "@RouleurCapital Currently only US- will expand in future",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Mk__0168",
+        "name": "Mahendra Kumawat",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital Who else is excited about getting real-time stock quotes in Claude? Just set up the API and it's a game changer!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aiwith_sarah",
+        "name": "sarah ai",
+        "date": "2026-03-17",
+        "text": "@AICostLedger @JasonL_Capital Exactly  the prompt is the strategy.\nThe data is just raw material until someone asks the right question.\nThat’s true in trading and in everything else.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AICostLedger",
+        "name": "🧬BitBloom",
+        "date": "2026-03-17",
+        "text": "@niallohiggins @JasonL_Capital yahoo finance mcp &gt; referral links. obv",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AICostLedger",
+        "name": "🧬BitBloom",
+        "date": "2026-03-17",
+        "text": "@aiwith_sarah @JasonL_Capital \"what should i buy?\" gets you noise. \"analyze the options chain and volume\" gets you insight. the data doesn't trade. the prompt does. 🧠",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nftarabcat",
+        "name": "TrinityY",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital @TarricSookdeo Thanks for sharing , we all build together my friend !",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@nftarabcat @TarricSookdeo I should have included the repo link in the original thread. I messed up big time on that.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nftarabcat",
+        "name": "TrinityY",
+        "date": "2026-03-17",
+        "text": "@TarricSookdeo @JasonL_Capital Oh nice thanks !  idk why neither  Claude nor grok were able to find it both scraped the website , I’ll plug this into Claude code tonight",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TarricSookdeo",
+        "name": "Tarric Sookdeo",
+        "date": "2026-03-17",
+        "text": "@nftarabcat @JasonL_Capital We actually do have an MCP server built out and is open sourced!\n\nhttps://t.co/XjoVIfkCXI",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RussFaigen",
+        "name": "Russ Faigen",
+        "date": "2026-03-17",
+        "text": "@matthew_garvey @JasonL_Capital We actually just launched an MCP server! https://t.co/ud0jttsVBA",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "massive_com",
+        "name": "Massive",
+        "date": "2026-03-17",
+        "text": "@Therealwill_br @JasonL_Capital We'll be launching it soon👀 If you reach out to our support team, they can add you to the beta access period until the official launch.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "OneManSaas",
+        "name": "OneManSaas",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital Pro tip: Set up alerts for unusual options volume when you connect this. I built a simple scanner that flags when call volume spikes 3x daily average - caught some massive moves before they broke out. The real-time Greeks make position sizing way more precise too.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "matthew_garvey",
+        "name": "DB",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital https://t.co/O468Fitq90 specifically: Yes, they have an API — but no MCP server (yet)\nhttps://t.co/O468Fitq90 hasn't published an MCP server, meaning there's no plug-and-play connector you can add to https://t.co/dsUOsdBzaU today to get that seamless experience you're describing.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@RReardonT Yes. Will be posting more info on that soon",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "YBZ59",
+        "name": "YBZ59",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital How is this any different than using cursor Pro ($20) with Massive API connection?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "adarshkusingh",
+        "name": "Adarsh Kr Singh",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital claude with live stock data would be a game changer for traders. being able to check prices and option chains without leaving the chat saves so much time",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mr_Ponoppo",
+        "name": "Mirth",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital Misleading lol. it's a referral link to Public disguised as a Claude feature announcement",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GoKiteAI",
+        "name": "KITE AI",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital Democratizing market data access accelerates agentic finance. The bottleneck shifts to execution.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BuildwithPublic",
+        "name": "Matthew@Public",
+        "date": "2026-03-17",
+        "text": "@WeighTheStreet @JasonL_Capital Feel free to drop a DM if you need help",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sricharan10g",
+        "name": "Charan",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital @grok does giving ai real-time market data significantly improve trading decision quality?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BuildwithPublic",
+        "name": "Matthew@Public",
+        "date": "2026-03-17",
+        "text": "@SmartAIForYou @JasonL_Capital Yes",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-03-17",
+        "text": "@atilab @JasonL_Capital @atilab Hello, the unroll you asked for: https://t.co/Qxso5tzUsO Have a good day. 🤖",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "keytodream",
+        "name": "Jinlu Wang",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital Is there any limit with public free account? I have a paid account with polygon, wondering if it will work.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "StockPrinter",
+        "name": "Stock Printer",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital Is it actually offering real time options data during market hours or only 15 min delayed?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "StockPrinter",
+        "name": "Stock Printer",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital Is this actually offering real time options chain data during open market hours or 15 minutes delayed?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@_joshd It’s free bro. If you don’t want to use it you don’t have too.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@TarricSookdeo @public 🙌🏻🙌🏻",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@_joshd It’s 100% free. You have to open a brokerage account but that’s it.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@karthii_s @Yalniz_Kurt5050 Its an MCP. Heres the github. Idk why your claude is saying that\n\nhttps://t.co/OcQVkQOoHR",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@LouiePanayi Does yahoo finance offer free API?",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@Yalniz_Kurt5050 API cannot equal native. It was not designed to make people believe anything other than Claude can now access public via api which was just recently released.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@ShashD It pulls the data from public’s brokerage api",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@Sikes_ @leifthunder 🙌🏻🙌🏻",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@PatrickBreen20 You don’t get charged anything on the Claude side. You just need the 20$ plan.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonLsCapitals",
+        "name": "^𝑱𝒂𝒔𝒐𝒏𝑳𝒖𝒐𝒏𝒈𝒐@𝑱𝒂𝒔𝒐𝒏'𝑪𝒂𝒑𝒊𝒕𝒂𝒍^",
+        "date": "2026-05-23",
+        "text": "@cmahadevan @JasonL_Capital By the way, I just opened my first Exclusive private Telegram group, in 2026 and it will close once we hit 13,000 members! \n\nIf you’re serious about trading, this is where you belong.\n👇👇\nhttps://t.co/xTuoyT458p",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "stycequence",
+        "name": "Emily Johnson",
+        "date": "2026-04-28",
+        "text": "@JasonL_Capital wow that’s super smooth, gonna try this now",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dorcasosoro",
+        "name": "Eden Hart",
+        "date": "2026-04-27",
+        "text": "@JasonL_Capital nice, sounds useful for sure! might give the pro plan a try",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ggwc15",
+        "name": "Ice Frost",
+        "date": "2026-04-25",
+        "text": "@JasonL_Capital nice, super easy to do!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lukasweber31311",
+        "name": "Lukas Weber",
+        "date": "2026-03-24",
+        "text": "@PeterHollens @JasonL_Capital Most honest MCP finance breakdown I have seen. The 15-min delay on free data makes it useless for anything faster than daily signals. MCP is great plumbing but calling it a Bloomberg replacement is like calling a garden hose a fire truck.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BuildwithPublic",
+        "name": "Matthew@Public",
+        "date": "2026-03-20",
+        "text": "@RouleurCapital It's a clearing firm limitation, but I will make sure to keep you in the loop once we can expand outside to non-US clients.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RouleurCapital",
+        "name": "Rouleur Capital",
+        "date": "2026-03-20",
+        "text": "@BuildwithPublic What’s the blocker here? Seems odd",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RouleurCapital",
+        "name": "Rouleur Capital",
+        "date": "2026-03-20",
+        "text": "@BuildwithPublic @JasonL_Capital @grok How about just a factual response?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tysenpa1",
+        "name": "TY Senpa1",
+        "date": "2026-03-19",
+        "text": "@jig_corp @JasonL_Capital Both. The tool is better than anything \nretail had 5 years ago. \nThe risk is people skipping verification \nbecause the output looks professional.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tysenpa1",
+        "name": "TY Senpa1",
+        "date": "2026-03-19",
+        "text": "@Sathish52064829 @JasonL_Capital This. Live data solves the input problem. \nIt doesn't solve the judgment problem. \nFaster research ≠ better decisions.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tysenpa1",
+        "name": "TY Senpa1",
+        "date": "2026-03-19",
+        "text": "@ShashD @JasonL_Capital Source is Public's brokerage API — real-time, not cached. \nGood for quotes and chains. \nFor deeper company analysis you'd need \na different data layer on top",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tysenpa1",
+        "name": "TY Senpa1",
+        "date": "2026-03-19",
+        "text": "@willowdesk @JasonL_Capital Not through this MCP but there are \nyfinance endpoints that cover commodities. \nThe tricky part is getting clean ticker mapping",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tysenpa1",
+        "name": "TY Senpa1",
+        "date": "2026-03-19",
+        "text": "@JasonL_Capital Clean setup guide. \nThis is what most \"use AI for stocks\" threads miss — \nthey skip the real data connection \nand just prompt engineer on top of hallucinations.\n\nLive data first, analysis second. Right order",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "syazwanahmd",
+        "name": "Callahan Price",
+        "date": "2026-03-18",
+        "text": "@JasonL_Capital just downloaded it, seems pretty smooth so far",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "teslabulltr",
+        "name": "PlayaBull",
+        "date": "2026-03-18",
+        "text": "@JasonL_Capital https://t.co/68Mn0fgsoW has a REST API but no MCP server. That's the root of the whole problem.\nand you are just trying to get referral credit. shame",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BuildwithPublic",
+        "name": "Matthew@Public",
+        "date": "2026-03-18",
+        "text": "@RouleurCapital @JasonL_Capital @grok Dm you",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RouleurCapital",
+        "name": "Rouleur Capital",
+        "date": "2026-03-18",
+        "text": "@JasonL_Capital Clickbait",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RouleurCapital",
+        "name": "Rouleur Capital",
+        "date": "2026-03-17",
+        "text": "@BuildwithPublic @JasonL_Capital @grok Is the api service available for use outside the US?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lucaslorenzi2",
+        "name": "Luca Lorenzi",
+        "date": "2026-03-17",
+        "text": "@Jonatha62866601 @JasonL_Capital That's what I did , I am not a coder neither.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AICostLedger",
+        "name": "🧬BitBloom",
+        "date": "2026-03-17",
+        "text": "@Its__MRC @JasonL_Capital excel rtd is a fossil. claude api is the future.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AICostLedger",
+        "name": "🧬BitBloom",
+        "date": "2026-03-17",
+        "text": "@georgehanu @JasonL_Capital every app is just a prompt box now lmao",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AICostLedger",
+        "name": "🧬BitBloom",
+        "date": "2026-03-17",
+        "text": "@Sathish52064829 @JasonL_Capital $24,000 vs $20. the finance moat is evaporating.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AICostLedger",
+        "name": "🧬BitBloom",
+        "date": "2026-03-17",
+        "text": "@Sathish52064829 @JasonL_Capital live data ≠ backtested edge. use it to think faster, not to trade blind. be careful.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AICostLedger",
+        "name": "🧬BitBloom",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital real-time stock data inside claude is huge. greeks, chains, portfolio. me thinks this changes the game.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jonatha62866601",
+        "name": "Mr. Longabaugh",
+        "date": "2026-03-17",
+        "text": "@lucaslorenzi2 @JasonL_Capital I’m not a coder. I was hoping to use AI to write code for me to trade on thinkorswim",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "fer_klick",
+        "name": "FH Arias van Oordt",
+        "date": "2026-03-17",
+        "text": "@miketuckerhere @JasonL_Capital the grift is always easier than the build",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dkimsocial",
+        "name": "David Kim",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital I think it's missing a step -- after the py package installed and reload, it says \"MCP public-com: Server disconnected.\"",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BuildwithPublic",
+        "name": "Matthew@Public",
+        "date": "2026-03-17",
+        "text": "@RouleurCapital @JasonL_Capital @grok Matthew here- I help lead our API trading here at Public. We offer free real-time quotes across equities, options, and crypto through our API. Full docs at https://t.co/r23tbq70hK\n\nHappy to answer any questions.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Therealwill_br",
+        "name": "willbr",
+        "date": "2026-03-17",
+        "text": "@massive_com @JasonL_Capital Alright, perfect.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "parkingnotz",
+        "name": "Frank Cona",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital Clickbait bullshit 👎",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@OneManSaas Gonna need some more info on this!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Brent_FL",
+        "name": "Brent",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital @Yalniz_Kurt5050 You are in the wrong, take the L",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@msanch500 🙏🏻🙏🏻",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "saibatchu3",
+        "name": "SB",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital Why not use perplexity finance?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@StockPrinter It’s real time options data during market hours",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@karthii_s I’m not a developer. I made a mistake with the terminal command. \n\nIt’s a MCP server. Here’s the repo\n\nhttps://t.co/OcQVkQOoHR",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "YukiTanaka10x",
+        "name": "Yuki Tanaka 田中ゆき",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital Claude..\nhttps://t.co/dd39xUbZeX",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "prgnix",
+        "name": "PRG",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital Public released. You could connect to an MCP ages ago you clic bate engagement farming whore",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Stevie_658jjh",
+        "name": "Thien Nguyen",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital already tried this, game changer for running quick covered call checks without switching tabs constantly",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Prathamesh36369",
+        "name": "Prathamesh Pandey",
+        "date": "2026-03-17",
+        "text": "@elon_is_kingg @JasonL_Capital how do we do that ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "golfbeachtaco",
+        "name": "golfbeachtaco",
+        "date": "2026-03-17",
+        "text": "@BuildwithPublic @JasonL_Capital It’s literally an affiliate link. Also, grok did this like 6 months ago @elonmusk @xai",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BuildwithPublic",
+        "name": "Matthew@Public",
+        "date": "2026-03-17",
+        "text": "@vidalnext @JasonL_Capital The public api is programmatic access to the public brokerage. We integrate with an MCP, perplexity, and openclaw for natural language intent to trade on one platform. Happy to chat dm",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BuildwithPublic",
+        "name": "Matthew@Public",
+        "date": "2026-03-17",
+        "text": "@xMikeMickelson @JasonL_Capital Welcome you to give us a try 🦾",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AndrewK2910",
+        "name": "Andrew",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital @vidalnext why?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BuildwithPublic",
+        "name": "Matthew@Public",
+        "date": "2026-03-17",
+        "text": "@golfbeachtaco @JasonL_Capital Welcome you to try for yourself 🫡",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BuildwithPublic",
+        "name": "Matthew@Public",
+        "date": "2026-03-17",
+        "text": "@DAssetBuzz @JasonL_Capital Dm if you need help!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BuildwithPublic",
+        "name": "Matthew@Public",
+        "date": "2026-03-17",
+        "text": "Matthew here, I lead api trading at public. Live quotes- equities options, index options, crypto. opensourced api mcp. options rebates. Only pay for llm usage(outside of public) \n\nWe’re providing tools that 3 years ago, retail traders would have needed to spend thousands on de vs and maybe get something to deployment successfully. Almost no friction now between trader idea and natural language execution",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-17",
+        "text": "Yes, giving AI real-time market data significantly improves trading decision quality for algorithmic and high-frequency strategies. It enables instant processing of prices, sentiment, order flow, and Greeks—allowing faster reactions, better pattern detection, reduced bias, and optimized execution. Quant funds leveraging it often outperform traditional ones by 8-12% annually. That said, it's no magic bullet; model quality, risk controls, and market efficiency still matter most. Claude's integration is a solid step forward.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BuildwithPublic",
+        "name": "Matthew@Public",
+        "date": "2026-03-17",
+        "text": "@LeoFortuneTell @JasonL_Capital Yes",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BuildwithPublic",
+        "name": "Matthew@Public",
+        "date": "2026-03-17",
+        "text": "@Yesitsmearcher @JasonL_Capital Yes",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BuildwithPublic",
+        "name": "Matthew@Public",
+        "date": "2026-03-17",
+        "text": "@ConfluenceCptl @JasonL_Capital No t&amp;s now. Websocket on roadmap for q3",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BuildwithPublic",
+        "name": "Matthew@Public",
+        "date": "2026-03-17",
+        "text": "@StockPrinter @JasonL_Capital Live quotes",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BuildwithPublic",
+        "name": "Matthew@Public",
+        "date": "2026-03-17",
+        "text": "@VELVETAIXa @JasonL_Capital Layered intelligence data and execution- the whole package",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BuildwithPublic",
+        "name": "Matthew@Public",
+        "date": "2026-03-17",
+        "text": "@Its__MRC @JasonL_Capital Matthew here I lead our api trading here at public. Would love to chat- dm me",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BuildwithPublic",
+        "name": "Matthew@Public",
+        "date": "2026-03-17",
+        "text": "@kathysyock @JasonL_Capital Complex options workflows done in a prompt..live data",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BuildwithPublic",
+        "name": "Matthew@Public",
+        "date": "2026-03-17",
+        "text": "@evilcassieroll @JasonL_Capital Matthew here I lead our API trading at public \n\nThe future of trading is natural language strategy intent to executable code/orders in seconds. It’s very clear for anyone who desires to evolve with the market. DM open happy to chat with anyone!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "atilab",
+        "name": "atilab",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital @threadreaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-17",
+        "text": "Anthropic doesn't own or host the pricing data—Claude uses tool calling/MCP connectors to external APIs. The free viral setup connects via MCP servers to third-party sources like Tradier Sandbox (15-min delayed quotes & options chains with Greeks) or MarketXLS/Yahoo Finance wrappers. Enterprise Financial Services uses paid ones like LSEG or FactSet. The post's steps likely guide an MCP setup for one of those.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "olandw11",
+        "name": "Dis",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital I think AI tools have become expensive and have become a necessity, meaning an extra bill added to your bills. I present this website to you, and it has saved me a lot. https://t.co/yCyJjLLvC2 https://t.co/ogGpt4jnCg",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Fink_Money",
+        "name": "Fink | Markets Talk, We Translate",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital @grok which data source does anthropic get its pricing from?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LeoFortuneTell",
+        "name": "Fortune Teller",
+        "date": "2026-03-17",
+        "text": "@JasonL_Capital Wow, more trading bot are coming",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ggwc15",
+        "name": "Ice Frost",
+        "date": "2026-07-10",
+        "text": "@JasonL_Capital got it, just restarted and it’s showing public now!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@_joshd You could easily close it before 6 months or don’t deposit money into it if you’re really that concerned.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@_joshd Yes",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@vidalnext And you can also place trades through it.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@vidalnext It’s a free api.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@ShaunKnudsen Yes people are building advance trading agents with this api",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@alisterberkeley Nom nom",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@moonboyinu 😏",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@prgnix They literally just released this mcp",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@saltydocEM You salty doc?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@willowdesk I’m not sure tbh",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@karthii_s @Yalniz_Kurt5050 Claude is notoriously bad at web research.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@pascalc23 DUDE same. i was searching everywhere for a free API to pull live price/option data. The time has finally come. Hope it works well for you.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@twlvone 💪",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-17",
+        "text": "@xMikeMickelson hahaha",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@veroach Give Claude this link and have it walk your through\n\nhttps://t.co/OcQVkQOWxp",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@Yalniz_Kurt5050 In the very first post\n\n“Here's how to connect the (free) API step by step”\n\nHow is that not being transparent?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@FinancePotentia Your welcome! 🤝",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@Yalniz_Kurt5050 That’s impossible. An API implies it needs to pull data from an outside source. \n\nThis is extremely useful for traders like myself and clearly it’s resonating with other people.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@martin_ict_algo Huh?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@MoneyPrinter0x 🤫",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@Jonatha62866601 I’m not sure.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@LouiePanayi Idk what that is",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@MadameObsidian3 🙌🏻🙌🏻",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@traderdele_ It’s a great tool to have",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@dogehippie Just give the instructions to your agent",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@evilcassieroll We are living in the future",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@shockandstock Seriously, I was searching all over the place.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@WeighTheStreet Let me know how it goes!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@LeaderInvests It’s extremely powerful!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@options_selling Finally having options chain data live is crazy.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JasonL_Capital",
+        "name": "Jason Luongo",
+        "date": "2026-03-16",
+        "text": "@gasarmen Maybe you should give this a try!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HDiavSnXsAA0yCm.jpg",
+      "localFilename": "2033643399446724618_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HDib5ddasAADfoK.jpg",
+      "localFilename": "2033643399446724618_2.jpg"
+    }
+  ]
+}

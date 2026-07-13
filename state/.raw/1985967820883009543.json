@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:12.222Z",
+  "tweetId": "1985967820883009543",
+  "post": {
+    "url": "https://x.com/Microsoft365/status/1985967820883009543",
+    "author": {
+      "handle": "Microsoft365",
+      "name": "Microsoft 365"
+    },
+    "date": "2025-11-05",
+    "text": "Trust, built in. Microsoft 365 Copilot will offer in-country processing, beginning with Australia, the UK, India, and Japan by the end of 2025—plus 11 additional countries in 2026. Learn more: https://t.co/PWLfgn7DAX",
+    "thread": [
+      {
+        "id": "1985967820883009543",
+        "text": "Trust, built in. Microsoft 365 Copilot will offer in-country processing, beginning with Australia, the UK, India, and Japan by the end of 2025—plus 11 additional countries in 2026. Learn more: https://t.co/PWLfgn7DAX"
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 97,
+      "retweets": 20,
+      "replies": 11,
+      "views": 14631
+    },
+    "comments": []
+  }
+}

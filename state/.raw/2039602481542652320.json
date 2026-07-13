@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:37.333Z",
+  "tweetId": "2039602481542652320",
+  "post": {
+    "url": "https://x.com/RoundtableSpace/status/2039602481542652320",
+    "author": {
+      "handle": "RoundtableSpace",
+      "name": "0xMarioNawfal"
+    },
+    "date": "2026-04-02",
+    "text": "CLAUDE IS NOW CONTROLLING TRADINGVIEW FROM THE TERMINAL WRITING PINE SCRIPT AND SCANNING MARKETS LIVE\n\nhttps://t.co/Z6ZSm68l0z",
+    "thread": [
+      {
+        "id": "2039602481542652320",
+        "text": "CLAUDE IS NOW CONTROLLING TRADINGVIEW FROM THE TERMINAL WRITING PINE SCRIPT AND SCANNING MARKETS LIVE\n\nhttps://t.co/Z6ZSm68l0z"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2039451045081030656/vid/avc1/1678x1054/daopXCaEwc8jtEYg.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2039451045081030656/img/OqF1fEFnPRrvks5g.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1978,
+      "retweets": 156,
+      "replies": 96,
+      "views": 291513
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2039451045081030656/img/OqF1fEFnPRrvks5g.jpg",
+      "localFilename": "2039602481542652320_1_poster.jpg"
+    }
+  ]
+}

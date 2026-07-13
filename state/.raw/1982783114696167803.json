@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:36.984Z",
+  "tweetId": "1982783114696167803",
+  "post": {
+    "url": "https://x.com/AndrewBolis/status/1982783114696167803",
+    "author": {
+      "handle": "AndrewBolis",
+      "name": "Andrew Bolis"
+    },
+    "date": "2025-10-27",
+    "text": "People underestimate the power of great prompts.\n\nHere are 5 frameworks you can copy & paste:\n\n[ bookmark 🔖 this post for later ]\n\n1 - R-A-I-N\n➟ Act as a (ROLE)\n➟ State the (AIM)\n➟ Use the provided (INPUT)\n➟ Hit the (NUMERIC TARGET)\n➟ In this (FORMAT)\n\nR-A-I-N Example:\n➟ ROLE: UX design lead\n➟ AIM: Redesign e-commerce checkout to lower cart abandonment by 25%\n➟ INPUT: Analytics data\n➟ NUMERIC TARGET: 25% decrease\n➟ FORMAT: Mobile wireframes + conversion metrics table\n\n2 - C-L-A-R\n➟ Given the (CONTEXT)\n➟ List any (LIMITS)\n➟ Describe the (ACTION)\n➟ Define the expected (RESULT)\n\nC-L-A-R Example:\n➟ CONTEXT: Warehouse delay logs\n➟ LIMITS: Focus on the top two causes\n➟ ACTION: Quantify impact + propose three fixes\n➟ RESULT: One-page memo\n\n3 - F-L-O-W\n➟ Specify the (FUNCTION)\n➟ Set the audience (LEVEL)\n➟ Define the (OUTPUT)\n➟ Clarify the (WIN METRIC)\n\nF-L-O-W Example:\n➟ FUNCTION: Career copywriter\n➟ LEVEL: Recent graduates\n➟ OUTPUT: 900-word article with 4 job search tips\n➟ WIN METRIC: 1.5% keyword density + CTA checklist\n\n4 - P-I-V-O\n➟ State the (PROBLEM)\n➟ Provide key (INSIGHTS)\n➟ Choose the (VOICE)\n➟ Outline the desired (OUTCOME)\n\nP-I-V-O Example:\n➟ PROBLEM: Mobile app adoption is slowing\n➟ INSIGHTS: Identify friction points + share 3 user insights\n➟ VOICE: Persuasive\n➟ OUTCOME: Two strategies to regain growth in 60 days\n\n5 - S-E-E-D\n➟ Describe the (SITUATION)\n➟ Define the (END GOAL)\n➟ Supply illustrative (EXAMPLES)\n➟ List the (DELIVERABLES)\n\nS-E-E-D Example:\n➟ SITUATION: Create a 6-week communication program\n➟ END GOAL: Skills in listening, feedback, conflict resolution, presence, alignment\n➟ EXAMPLES: Weekly remote-team exercises scored on clarity & impact\n➟ DELIVERABLES: Assessment framework + marketing hook\n\n📌 Get Advanced ChatGPT Guide (free): https://t.co/kOBWfKrBaX\n\n👉 Follow me @AndrewBolis for more and 🔄 Repost this to help others use AI",
+    "thread": [
+      {
+        "id": "1982783114696167803",
+        "text": "People underestimate the power of great prompts.\n\nHere are 5 frameworks you can copy & paste:\n\n[ bookmark 🔖 this post for later ]\n\n1 - R-A-I-N\n➟ Act as a (ROLE)\n➟ State the (AIM)\n➟ Use the provided (INPUT)\n➟ Hit the (NUMERIC TARGET)\n➟ In this (FORMAT)\n\nR-A-I-N Example:\n➟ ROLE: UX design lead\n➟ AIM: Redesign e-commerce checkout to lower cart abandonment by 25%\n➟ INPUT: Analytics data\n➟ NUMERIC TARGET: 25% decrease\n➟ FORMAT: Mobile wireframes + conversion metrics table\n\n2 - C-L-A-R\n➟ Given the (CONTEXT)\n➟ List any (LIMITS)\n➟ Describe the (ACTION)\n➟ Define the expected (RESULT)\n\nC-L-A-R Example:\n➟ CONTEXT: Warehouse delay logs\n➟ LIMITS: Focus on the top two causes\n➟ ACTION: Quantify impact + propose three fixes\n➟ RESULT: One-page memo\n\n3 - F-L-O-W\n➟ Specify the (FUNCTION)\n➟ Set the audience (LEVEL)\n➟ Define the (OUTPUT)\n➟ Clarify the (WIN METRIC)\n\nF-L-O-W Example:\n➟ FUNCTION: Career copywriter\n➟ LEVEL: Recent graduates\n➟ OUTPUT: 900-word article with 4 job search tips\n➟ WIN METRIC: 1.5% keyword density + CTA checklist\n\n4 - P-I-V-O\n➟ State the (PROBLEM)\n➟ Provide key (INSIGHTS)\n➟ Choose the (VOICE)\n➟ Outline the desired (OUTCOME)\n\nP-I-V-O Example:\n➟ PROBLEM: Mobile app adoption is slowing\n➟ INSIGHTS: Identify friction points + share 3 user insights\n➟ VOICE: Persuasive\n➟ OUTCOME: Two strategies to regain growth in 60 days\n\n5 - S-E-E-D\n➟ Describe the (SITUATION)\n➟ Define the (END GOAL)\n➟ Supply illustrative (EXAMPLES)\n➟ List the (DELIVERABLES)\n\nS-E-E-D Example:\n➟ SITUATION: Create a 6-week communication program\n➟ END GOAL: Skills in listening, feedback, conflict resolution, presence, alignment\n➟ EXAMPLES: Weekly remote-team exercises scored on clarity & impact\n➟ DELIVERABLES: Assessment framework + marketing hook\n\n📌 Get Advanced ChatGPT Guide (free): https://t.co/kOBWfKrBaX\n\n👉 Follow me @AndrewBolis for more and 🔄 Repost this to help others use AI"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G4RCuwvawAAAKmr.png"
+      }
+    ],
+    "metrics": {
+      "likes": 391,
+      "retweets": 74,
+      "replies": 30,
+      "views": 46393
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G4RCuwvawAAAKmr.png",
+      "localFilename": "1982783114696167803_1.png"
+    }
+  ]
+}

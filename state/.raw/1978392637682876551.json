@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:14:38.455Z",
+  "tweetId": "1978392637682876551",
+  "post": {
+    "url": "https://x.com/ecommerceshares/status/1978392637682876551",
+    "author": {
+      "handle": "ecommerceshares",
+      "name": "Wasteland Capital"
+    },
+    "date": "2025-10-15",
+    "text": "Latest OpenAI numbers from the FT:\n\n800m users, 5% paying (40m).\n$13bn in ARR.\nImplies a $325 annual ARPU, or $27/month per paying user. \n70% of rev from subscriptions, rest is API.\n$8bn loss in H1, prob $20bn run rate loss now? So basically spending $3 for each $1 in revenue.",
+    "thread": [
+      {
+        "id": "1978392637682876551",
+        "text": "Latest OpenAI numbers from the FT:\n\n800m users, 5% paying (40m).\n$13bn in ARR.\nImplies a $325 annual ARPU, or $27/month per paying user. \n70% of rev from subscriptions, rest is API.\n$8bn loss in H1, prob $20bn run rate loss now? So basically spending $3 for each $1 in revenue."
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 4522,
+      "retweets": 410,
+      "replies": 240,
+      "views": 2394357
+    },
+    "comments": []
+  }
+}

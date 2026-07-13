@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:31.891Z",
+  "tweetId": "2039828896280088934",
+  "post": {
+    "url": "https://x.com/cgtwts/status/2039828896280088934",
+    "author": {
+      "handle": "cgtwts",
+      "name": "CG"
+    },
+    "date": "2026-04-02",
+    "text": "Claude, ChatGPT and Gemini users right now: https://t.co/LyYuf9PSvl https://t.co/g16Ae0opPD",
+    "thread": [
+      {
+        "id": "2039828896280088934",
+        "text": "Claude, ChatGPT and Gemini users right now: https://t.co/LyYuf9PSvl https://t.co/g16Ae0opPD"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2039828820149276672/vid/avc1/1920x1080/N0HJY5DTx1EC0xkV.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2039828820149276672/img/rnNvs2723Ki6n4BX.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 5180,
+      "retweets": 396,
+      "replies": 24,
+      "views": 1931082
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2039828820149276672/img/rnNvs2723Ki6n4BX.jpg",
+      "localFilename": "2039828896280088934_1_poster.jpg"
+    }
+  ]
+}

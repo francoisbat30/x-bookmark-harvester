@@ -1,0 +1,320 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:10:04.503Z",
+  "tweetId": "2074891382716551372",
+  "post": {
+    "url": "https://x.com/netbird/status/2074891382716551372",
+    "author": {
+      "handle": "netbird",
+      "name": "NetBird"
+    },
+    "date": "2026-07-08",
+    "text": "Stop handing out API keys to AI agents. Open source identity, access, and cost control for Claude Code, Codex &amp; more:\nhttps://t.co/rXhmFvkKm9 https://t.co/jT5mt7yTMM",
+    "thread": [
+      {
+        "id": "2074891382716551372",
+        "text": "Stop handing out API keys to AI agents. Open source identity, access, and cost control for Claude Code, Codex &amp; more:\nhttps://t.co/rXhmFvkKm9 https://t.co/jT5mt7yTMM"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HMt-roIXgAEAUTz.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 584,
+      "retweets": 38,
+      "replies": 30,
+      "views": 2838365
+    },
+    "comments": [
+      {
+        "handle": "netbird",
+        "name": "NetBird",
+        "date": "2026-07-09",
+        "text": "@GatoGodMode Your database. You run it on your infra :)",
+        "likes": 7,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DavidMansaray",
+        "name": "David Mansaray 👨🏾‍💻",
+        "date": "2026-07-08",
+        "text": "@netbird so you're telling me it's a bad idea to share an API key with my beloved agents?  👀 https://t.co/i1NtSM6rQQ",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vitobotta",
+        "name": "Vito Botta",
+        "date": "2026-07-09",
+        "text": "@netbird Passing raw keys to agents that execute arbitrary code... what could go wrong. This should have been solved a year ago.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xfinwizz",
+        "name": "FinWizz",
+        "date": "2026-07-10",
+        "text": "@netbird netbird gives agents their own identity layer. We see this as key for onboarding the next wave of users who want to query markets without exposing full keys.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "davtheultimate",
+        "name": "Davtheultimate",
+        "date": "2026-07-09",
+        "text": "@netbird Enfin une solution concrète. Les API keys en libre-service = faille de sécurité + coûts explosifs. NetBird ajoute une couche d’IAM légère, c’est le minimum syndical pour scaler sans se faire plumer. À tester en urgence.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GatoGodMode",
+        "name": "Gato",
+        "date": "2026-07-09",
+        "text": "@netbird I dont see the biggest upside in the world to putting my API keys into one spot into anyone elses database. If you get breached I gotta solve all that.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "baseyieldguy",
+        "name": "Base Yield Guy",
+        "date": "2026-07-08",
+        "text": "@netbird netbird giving open source identity and cost controls for claude code agents is a solid angle. The api key roulette finally has an off ramp. 🔑🛡️",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "milan_kovacx",
+        "name": "Milan Kovac",
+        "date": "2026-07-12",
+        "text": "@netbird open source identity in netbird stops agents leaking api keys like we saw with early claude code builds.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "base_daily_eth",
+        "name": "Base Daily",
+        "date": "2026-07-12",
+        "text": "@netbird Netbird's agent network adds per-agent spend caps on top of the open source identity layer. 🛡️📊",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vatro_vrbanic",
+        "name": "Vatroslav Vrbanić",
+        "date": "2026-07-11",
+        "text": "@netbird @infisical",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "robotics_alphax",
+        "name": "Robotics Alpha",
+        "date": "2026-07-11",
+        "text": "@netbird Netbird misses that most teams still need quick API key rotation for testing. Open source controls add setup overhead before they help.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Nadsec11",
+        "name": "nad",
+        "date": "2026-07-11",
+        "text": "@netbird no! my robot likes keys!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "virtuals_daily",
+        "name": "Virtuals Daily",
+        "date": "2026-07-09",
+        "text": "@netbird we see the risk in loose api keys for agents. Netbird's open source setup for identity and cost control fits right into that. Makes agent networks safer from day one.\n\n@betsonic_io surfaces similar real behavior data from live stakes.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "anrayama",
+        "name": "Anra",
+        "date": "2026-07-08",
+        "text": "@netbird This is the missing layer for agent workflows. Once agents can spend tokens and call tools, API keys need scopes, identity, budgets, and audit logs.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "smouj013",
+        "name": "SMOUJ",
+        "date": "2026-07-12",
+        "text": "@netbird Queda bastante feo lo de la imagen y que abajo ponga hecho con IA… jajaj",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "not9ull",
+        "name": "notnull",
+        "date": "2026-07-12",
+        "text": "@netbird LaTeX has officially been demoted from “writing” to “summoning.”",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "not9ull",
+        "name": "notnull",
+        "date": "2026-07-12",
+        "text": "@netbird The API key is the horcrux of modern automation: split it once and suddenly everyone has a piece. 🔑",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CdCut55021",
+        "name": "Luka",
+        "date": "2026-07-12",
+        "text": "@netbird 这个比同类强在哪？",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jon28810465",
+        "name": "John",
+        "date": "2026-07-12",
+        "text": "@netbird If you don't trust your agents with your API keys, then you need to do the hard work to resolve your trust issues. \n\nKeeping secrets like this is a massive red flag in any relationship, up there with refusing to share your bank account details.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CdCut55021",
+        "name": "Luka",
+        "date": "2026-07-12",
+        "text": "@netbird 这个有开源地址吗？",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mayado_pedro",
+        "name": "pedro mayado",
+        "date": "2026-07-11",
+        "text": "@netbird https://t.co/gSxaK6OsJs https://t.co/R2Roa4D6OJ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "decklabs_io",
+        "name": "Decklabs",
+        "date": "2026-07-11",
+        "text": "@netbird how does this handle cost control when multiple agents are running in parallel?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "brooklyns_us",
+        "name": "Christie",
+        "date": "2026-07-11",
+        "text": "@netbird You shouldn’t be giving your AI agent your api keys. If you’re not loading them in powershell, you’re are responsible for your breaches. There are guardrails. Non-developers will get screwed by you people who don’t understand what you’re building.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "based_calls",
+        "name": "Base Predictions",
+        "date": "2026-07-11",
+        "text": "@netbird Netbird's open source setup lets you set per-agent spend caps before Claude Code even starts a session.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "milan_kovacx",
+        "name": "Milan Kovac",
+        "date": "2026-07-11",
+        "text": "@netbird open source access control for claude code agents surprised me most ngl",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "degenpark_eth",
+        "name": "degenpark.base.eth",
+        "date": "2026-07-11",
+        "text": "@netbird netbird's agent-network layer lets you scope claude code tool calls to specific onchain wallets without leaking keys. This is the plumbing weve been missing. 🔧🛡️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lenni34500",
+        "name": "Lenni",
+        "date": "2026-07-10",
+        "text": "@netbird Comment ça marche exactement ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "spietrza",
+        "name": "Sebastian Pietrzak",
+        "date": "2026-07-09",
+        "text": "@netbird Use my framework and you’ll never go back to writing regular prompts: https://t.co/zQHzn5sEq2\n\nJust focus on what you want. Vanguard will handle the rest.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DailyKI_News",
+        "name": "KI & Automatisierung 🛠️",
+        "date": "2026-07-09",
+        "text": "@netbird 💬 API key sprawl is a real pain. Does this work with any AI agent framework or just Claude Code and Codex?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HappyMonkeyAI",
+        "name": "Happy Monkey AI",
+        "date": "2026-07-09",
+        "text": "@netbird 🤖 This is the right instinct: give agents scoped access, budgets, and logs instead of loose keys. For small teams, identity and cost controls are workflow guardrails, not enterprise decoration.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PinoZlatan",
+        "name": "Marco Rossini",
+        "date": "2026-07-08",
+        "text": "@netbird the server-side key injection is the right move. curious how the latency holds up when claude code is doing a bunch of parallel tool calls through the tunnel",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HMt-roIXgAEAUTz.jpg",
+      "localFilename": "2074891382716551372_1.jpg"
+    }
+  ]
+}

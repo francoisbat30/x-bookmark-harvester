@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:24.673Z",
+  "tweetId": "1983212199205028260",
+  "post": {
+    "url": "https://x.com/flowith/status/1983212199205028260",
+    "author": {
+      "handle": "flowith",
+      "name": "Flowith"
+    },
+    "date": "2025-10-28",
+    "text": "Code giveaway: OSX8NLH13O OSMGMQVD31 OSVF006SDB OS333MQDGU OSCSY315RS https://t.co/rbgEWVv14Z",
+    "thread": [
+      {
+        "id": "1983212199205028260",
+        "text": "Code giveaway: OSX8NLH13O OSMGMQVD31 OSVF006SDB OS333MQDGU OSCSY315RS https://t.co/rbgEWVv14Z"
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 77,
+      "retweets": 6,
+      "replies": 26,
+      "views": 22455
+    },
+    "comments": []
+  }
+}

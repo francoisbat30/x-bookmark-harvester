@@ -1,0 +1,913 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:10:23.787Z",
+  "tweetId": "2066585278324634113",
+  "post": {
+    "url": "https://x.com/RoundtableSpace/status/2066585278324634113",
+    "author": {
+      "handle": "RoundtableSpace",
+      "name": "0xMarioNawfal"
+    },
+    "date": "2026-06-15",
+    "text": "AMD Ryzen AI Halo OR Nvidia DGX Spark\n\nWhich one will you choose and why? https://t.co/6AtoQvbWRT",
+    "thread": [
+      {
+        "id": "2066585278324634113",
+        "text": "AMD Ryzen AI Halo OR Nvidia DGX Spark\n\nWhich one will you choose and why? https://t.co/6AtoQvbWRT"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HK3rft3X0AAGpLo.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HK3rfuDWUAAT7YS.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 316,
+      "retweets": 25,
+      "replies": 89,
+      "views": 78849
+    },
+    "comments": [
+      {
+        "handle": "Hulk9Smash",
+        "name": "Hulk Smash",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace Brainchip Akida NPU",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "per_arneng",
+        "name": "𝒫𝑒𝓇 𝒜𝓇𝓃𝑒𝓃𝑔 【🐧λ🦀⎈】",
+        "date": "2026-06-15",
+        "text": "@RoundtableSpace I would have loved to have chosen AMD to promote competition but the lack of native fp4 makes the DGX Spark a better option for  AI workloads. The AMD is more versatile though for mixed use. I already have a DGX Spark clone so my budget is blown anyways.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "harry03994688",
+        "name": "中本麻三",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace most user chooses AI Halo https://t.co/Vrvluf3nG8",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "theraybao",
+        "name": "Ray Bao",
+        "date": "2026-06-16",
+        "text": "@Sellingvol @RoundtableSpace @grok You should always pick NVDA &gt; AMD because of CUDA compatibility.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ztnimbus",
+        "name": "Nimbus",
+        "date": "2026-06-15",
+        "text": "@RoundtableSpace DGX Spark! https://t.co/h9bDddGTFi",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Truntr_",
+        "name": "Truntr",
+        "date": "2026-06-16",
+        "text": "Neither. You're picking between two showcase boxes. The same Ryzen AI Max+ 395 chip ships in an $1,800 GMKtec EVO-X2 — three weeks earlier, half the price of either option in your photo. The 22-year-old in Shenzhen serving private AI to law firms for $4,800/mo is running six of them. Pick a box that's already in someone's office, not one your timeline says is the future.\n\nMario, you pick up two press kit samples and ask the audience 'which is better'. The third option is already working in bedrooms.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Horex_13",
+        "name": "Marko Schulze",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace Da Bau ich mir mit einer Jetson und Akida 1500 von Brainchip selbst ein Wunderwerk der Technik \nSpare Energie und habe unendliche Freude an den Möglichkeiten",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "earlcma",
+        "name": "Christopher McArthur",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace If I had a choice I’d dgx because you can link them while amd link is only 2.5.gbps then Nvidia one is 200gbps",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "theraybao",
+        "name": "Ray Bao",
+        "date": "2026-06-16",
+        "text": "@Amanonblock @Sellingvol @RoundtableSpace @grok Yes, of course.\n\nWhat OS did you think all those $NVDA datacenter GPUs were running on?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dr_james_atwood",
+        "name": "James Atwood",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace There is no competition at this price, AMD should be half the price like it was before",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RahulMula31942",
+        "name": "Rahul Mula",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace AMD AI Halo",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-06-16",
+        "text": "**ontariorob5150** Nvidia DGX Spark has better memory bandwidth: **273 GB/s** vs AMD Ryzen AI Halo's **256 GB/s**. Both use 128GB unified LPDDR5x on a 256-bit bus, but Nvidia edges it slightly for bandwidth-sensitive AI workloads. \n\nFull choice depends on ecosystem, software (CUDA vs ROCm), and other factors!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ontariorob5150",
+        "name": "ontariorob",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace @grok what one has the better memory bandwidth",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "h1kz0r",
+        "name": "MJ",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace CUDA, because they're the same price and I value my time.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Sobraniex1",
+        "name": "Sobraniex",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace does it come in apple",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Quinlanferris",
+        "name": "Quinlan Ferris",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace Spark solely because of CUDA library",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dmitriiivashko",
+        "name": "Dmitrii Ivashko",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace 2 devices solving 2 different problems. Local inference: AMD is just too good for its price. Having real CUDA env on your desk, fine tuning, running nvfp4 models and other AI/ML fun: Spark is the goat. Also one is x86 the other one is ARM if that matters",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-06-15",
+        "text": "Both pack 128GB unified memory for ~200B-param models locally.\n\n**AMD Ryzen AI Halo ($3999)**: x86 Zen 5 + Radeon iGPU, Windows + Linux, solid ROCm. Great value, efficient for inference/llama.cpp.\n\n**Nvidia DGX Spark ($4699)**: ARM Grace + Blackwell, mature CUDA ecosystem. Stronger in PyTorch, vLLM, optimized stacks.\n\n**Choose AMD** for price, compatibility & most open workflows. **Nvidia** if deep in CUDA/dev parity with bigger DGX systems.\n\nDepends on your stack—what models/tools are you running?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Sellingvol",
+        "name": "marty",
+        "date": "2026-06-15",
+        "text": "@RoundtableSpace @grok which is better and why",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "borsa_321",
+        "name": "BORSA 321",
+        "date": "2026-06-15",
+        "text": "@RoundtableSpace don't need to think about it. NVIDIA it is.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "decapostos",
+        "name": "A.K.A CS",
+        "date": "2026-06-15",
+        "text": "@RoundtableSpace You forget about the Asus Ascent GX10. Same category.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MAHSHOAIB",
+        "name": "MAHAR SHOAIB",
+        "date": "2026-06-15",
+        "text": "@RoundtableSpace AMD",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-06-16",
+        "text": "@_richoffwifi_ @RoundtableSpace Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/EAiPMdH0GB",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_richoffwifi_",
+        "name": "Luke Tucholski",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace @grok which is better and why",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Gra_Rsl78",
+        "name": "Aurora Bell",
+        "date": "2026-06-16",
+        "text": "@berrezoug @RoundtableSpace @berrezoug oh that makes sense thanks 👍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mikael8313",
+        "name": "Mikael",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace AMD",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "berrezoug",
+        "name": "Sifi Rahoifi",
+        "date": "2026-06-16",
+        "text": "@Gra_Rsl78 @RoundtableSpace @Gra_Rsl78 Spark is built for local AI workloads basically a compact dev box. the Ryzen one is more of an APU approach i think",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JudgeMeta",
+        "name": "Judge Meta",
+        "date": "2026-06-16",
+        "text": "@Har_Ck2 @RoundtableSpace @Har_Ck2 yeah price to performance is the real question here",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Har_Ck2",
+        "name": "Harper Cook",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace honestly i rarely comment on this stuff but the pricing on these will decide it for me. if AMD comes in cheaper it could be interesting",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Gra_Rsl78",
+        "name": "Aurora Bell",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace what's the main difference between these two? still learning about edge devices",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GuptaLakha9853",
+        "name": "Lakhan Gupta",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace I think it depends on priority for people looking for price AMD will be best and ones who need wide compatibility and Nvidia will be the best choice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Everlier",
+        "name": "Everlier",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace I thought for a second that the photo was taken at tinycorp's, haha\n\nhttps://t.co/JKmLPQzWF4",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tony_bui94",
+        "name": "Tony Bui",
+        "date": "2026-06-16",
+        "text": "@jennak93 @RoundtableSpace @jennak93 yeah and real world power draw matters too. hard to compare without hands on testing",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HomeGunsmith",
+        "name": "Mike 🇺🇦",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace Strix halo https://t.co/AO6iNomvqp",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jennak93",
+        "name": "Jenna Koubi",
+        "date": "2026-06-16",
+        "text": "@tony_bui94 @RoundtableSpace @tony_bui94 exactly this. we need independent benchmarks not just theoretical TFLOPS numbers on a slide",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "johnkecops",
+        "name": "Johnkecops",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace I choose macstudio of $AAPL . Simply because MacOS is easier to use than all other OSes, and provide competitive price/performace as well 😁",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nunkadivaa",
+        "name": "Xaviera",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace nice either way 🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ada_consciousAI",
+        "name": "🍓🦞 Ada",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace Both. For more complex tasks Spark and most tasks AMD.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "porysmail",
+        "name": "테슬이",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace ai 작업할거면 쿠다 하나만으로도 매리트는 있다. llm외에 gpu많이 타는 컴피ui 머신으로도 아주 좋음.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tony_bui94",
+        "name": "Tony Bui",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace Need to see actual performance metrics before making a call. Marketing slides aren't enough.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aaaiautg",
+        "name": "abel",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace 选哪个不取决于硬件参数，取决于你跑什么workload。DGX Spark优势在训练和CUDA生态，AMD Halo优势在大模型本地推理的内存带宽。说谁\"赢了\"还太早——先看你的use case是训练还是推理。",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JudgeMeta",
+        "name": "Judge Meta",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace kinda tempted by the AMD option tbh",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IamBlaccode",
+        "name": "Blaccode",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace AMD",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "berrezoug",
+        "name": "Sifi Rahoifi",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace DGX Spark purely because of the software stack. Nvidia's CUDA advantage is still hard to beat right now.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pardnchiu",
+        "name": "邱敬幃 Pardn Chiu",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace amd halo\nx86 + 統一記憶體就是香\n不綁 ubuntu，我可以安裝 fedora\n甚至今天沒打算跑模型，這台主機我還能安裝 windows 來當一般的電腦使用",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hu18379",
+        "name": "Hunter Maclean",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace Team Red or Team Green, cheaper local AI sounds beautiful :)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pause_ai",
+        "name": "Pause IA",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace acheter un mini-pc a 2k pour faire tourner ton llm en local, c'est l'equivalent moderne d'acheter un home cinema pour mater netflix sur ton telephone.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xei_info",
+        "name": "XEI.INFO",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace DeepSeek V4 Pro Api :) cheap and strong!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dandyarise",
+        "name": "dandy",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace The lowest price.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Blockdesknews",
+        "name": "BlockDesk News",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace At that price. The m5 Mac studio would be a better buy. It'll be $1k more but worth it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SspL73041487",
+        "name": "Siper",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace Why don‘t you subscribe to Claude?  with the rest money buy a mac mini",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jmrpineda",
+        "name": "🇪🇸 𝒫𝒾𝓃𝑒𝒹𝒶 🇪🇸",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace If anyone out there is considering swapping their frontier‑scale models for a local setup on these machines, I’d really like to hear how it went. how long did it take before the savings from cancelled subscriptions actually balanced out the investment?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-06-16",
+        "text": "Both are compact desktop AI systems with 128GB unified memory for running large local models (~200B params).\n\n**Nvidia DGX Spark** (beige): Grace Blackwell ARM superchip, 1 PFLOPS FP4, full CUDA stack. ~$4,500+. Linux-focused. Best for serious fine-tuning and NVIDIA ecosystem.\n\n**AMD Ryzen AI Halo** (black): x86 Zen 5 + Radeon iGPU + NPU. Windows + ROCm. $3,999. Strong value and accessibility.\n\nNvidia for max AI performance. AMD for price and flexibility.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "laKKydeon",
+        "name": "Serhii Ovcharenko 🇺🇦",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace ROCm vs CUDA",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ugly_cowboy",
+        "name": "Ugly Cowboy",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace 256GB/s should be perfect for that 1 tok/s model usage.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Peter_K_haf",
+        "name": "Peter Kratky",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace M5 Pro, because it works for me quite well for the price.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "otpyrcmaniac",
+        "name": "Diez3l",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace Both cuz I can ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xkulo8",
+        "name": "0xkulo",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace I would like to choose nvidia over amd for CUDA \nBut stack both of them to rule the world",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SC2noHope",
+        "name": "Kin 🇭🇰",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace time = everything",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DOWNBAD134",
+        "name": "Silly goober",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace Can somone give me one so I can find out",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "USInnovator",
+        "name": "USInnovator",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace AMD 的设计更符合审美",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KarelWillemsen7",
+        "name": "Karel Willemsen",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace x86 yuk",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "michal_dolnik",
+        "name": "Michal Dolnik",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace First I was sure abotu Mac Mini but now I am not so sure",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SmarsYuan",
+        "name": "Smars",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace CUDA",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-06-16",
+        "text": "Small 13B models run quicker with lower latency on a discrete GPU. These platforms target bigger local workloads: practical 70B+ inference/fine-tuning at usable speeds via 128GB unified LPDDR5x + tensor cores/NPUs your old DDR4 rig lacks.\n\nConsumer GPUs shine for tiny models. These deliver real on-device capability for larger contexts and agents without extreme quantization. Multi-Instinct bridged setups offer more scale but cost far more, draw serious power, and need server infrastructure—not a desktop swap. \n\nBoth new options (~$4k) bring accessible high-memory AI to a compact form.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ontariorob5150",
+        "name": "ontariorob",
+        "date": "2026-06-16",
+        "text": "@grok @RoundtableSpace the tasks they can do locally are minimal with a small model like 13B parameters that can fit in a graphics card and run much quicker this is just a PR thing for the price when people who think they are in the market for this really need a few AMD instincts with a bridge @grok",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-06-16",
+        "text": "ontariorob5150 Your 10yo 8ch DDR4 setup has ~150-200 GB/s bandwidth, close to the DGX Spark (273 GB/s) and Ryzen AI Halo (256 GB/s) LPDDR5x unified memory.\n\nBut the new platforms add Blackwell tensor cores or RDNA3.5 + XDNA2 NPU, far higher AI TOPS, and optimized stacks (CUDA/ROCm/llama.cpp).\n\nRealistic generation for dense 70B Q4/Q5:\n- DGX Spark / Ryzen AI Halo: ~4-6 tokens/s\n- Your old desktop (CPU): likely <1-2 tokens/s, limited by cores, latency, and no modern accelerators.\n\nSmaller models (7-13B) hit 40-80+ t/s on the new systems. MoE models run much faster on all. The old rig isn't competitive for practical 70B inference.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ontariorob5150",
+        "name": "ontariorob",
+        "date": "2026-06-16",
+        "text": "@grok @RoundtableSpace @grok My 10 year old desktop with 8 channel DDR4 ecc fully buffered is competitive with this without increasing BCLK.  Estimate tokens per second on various different models starting with 70B parameters.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "McConville_T",
+        "name": "Tyler McConville",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace *eyes Jetson Thor*",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lmanchu",
+        "name": "lmanchu",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace I have always thought that Home Edge would make a comeback, and the Agent wave directly promoted this. But then the quality of the OS still greatly affects this part of the experience rather than just HW spec stacking.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dmitriiivashko",
+        "name": "Dmitrii Ivashko",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace Edit: AMD is not worth it. At 3999 price point there's no reason to pick it over Spark",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dallaslones",
+        "name": "Dallas Lones",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace If money were no object, spark, nvidia ecosystem",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_sirajuddeen_",
+        "name": "Sirajuddeen",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace Which one is better? What are the specs of both",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EugenioHernanU",
+        "name": "Hernan",
+        "date": "2026-06-16",
+        "text": "If something is true about AI is that it is THE comoditization force unlike any other in history, so why crazy companies valuations??, so what moat they have if everyone is helping to accelerate the development of comoditization? There is no time for companies to deliver results for stock owners! AI will comoditize evrything faster than any company can produce any meaningful ROI! Why no one is talking about this? Apparently Elon knows about this that is why he is merging companies to make one justify the other's valuation circularly cause the ai winner will beat every moat overnight it will beat #nvidia #tesla #spacex #wallstreet",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "car31108301",
+        "name": "John Car",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace Why can’t AMD build a mini ITX board with that processor and ram?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JoshuaWu1998",
+        "name": "Joshua Wu",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace Question of the century!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WavWalker1010",
+        "name": "WavWalker",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace Mac Studio",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "prosestylist",
+        "name": "prosestylist",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace DGX Spark: better CUDA ecosystem, slightly higher memory bandwidth (273 GB/s vs 256 GB/s), stronger tensor performance.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "weirdness_",
+        "name": "Waseem Sabjee",
+        "date": "2026-06-16",
+        "text": "@RoundtableSpace both are amazing devices, if you require CUDA for your stack then DGX spark",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lubensage",
+        "name": "Lubin~Sage",
+        "date": "2026-06-15",
+        "text": "@RoundtableSpace Halo for local autonomy, DGX Spark for raw scale your bottleneck decides the winner.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Semiconsight",
+        "name": "Semiconsight_",
+        "date": "2026-06-15",
+        "text": "@RoundtableSpace DGX Spark, but honestly, it's too early to tell for sure because we don't know they handle thermal management yet. What are your thoughts on the Mac mini or Mac Studio? Of course, their form factors and target markets are inherently different from those two.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FelipeGon1414",
+        "name": "Felipe Gon",
+        "date": "2026-06-15",
+        "text": "@RoundtableSpace The cheapest.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AnythingIT_File",
+        "name": "Anything IT",
+        "date": "2026-06-15",
+        "text": "@per_arneng @RoundtableSpace its hardware capable but I dont know why they haven't updated their drivers with fp4.. AMD and drivers are something else..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TheJarPlace",
+        "name": "Mike Jar",
+        "date": "2026-06-15",
+        "text": "@RoundtableSpace Halo, for sure. No reason. Just looks cooler",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VampireGurlAI",
+        "name": "Paula Vazquez",
+        "date": "2026-06-15",
+        "text": "@RoundtableSpace 0️⃣ I have no interest when I already have good working hardware and they are both downgrading! Bring back fry’s electronics",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vibecodeiro",
+        "name": "TEAGÁ",
+        "date": "2026-06-15",
+        "text": "@RoundtableSpace muito investimento pra um espaço de 12 meses até termos um modelo local bom o suficiente.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ArthasLich",
+        "name": "Arthas",
+        "date": "2026-06-15",
+        "text": "@RoundtableSpace AMD",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ArnauBosch10",
+        "name": "Arnau Bosch",
+        "date": "2026-06-15",
+        "text": "@decapostos @RoundtableSpace It's the same as Spark but worse in terms of thermal performance.\n\nThe benchmark brand reaches the thermal throttling limit more frequently than other models. GB10 is cheaper but can be counterproductive.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AlgorythmB",
+        "name": "natoshi_sakamoto",
+        "date": "2026-06-15",
+        "text": "@RoundtableSpace The cheapest one",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hello_code_",
+        "name": "John Rice",
+        "date": "2026-06-15",
+        "text": "@RoundtableSpace Looks clean",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-06-15",
+        "text": "Both are killer compact boxes for running up to 200B models locally with 128GB unified memory.\n\nI'd pick the Nvidia DGX Spark. Its Blackwell architecture, coherent memory, and mature AI stack (CUDA, vLLM, PyTorch) deliver stronger performance for serious dev and agentic workflows.\n\nThe AMD Ryzen AI Halo is a fantastic value play though — x86 + Windows support, solid efficiency, and competitive tokens/sec at ~$700 less. Great if you want versatility beyond pure AI.\n\nWhich way are you leaning?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "seeker_himself",
+        "name": "Shafal",
+        "date": "2026-06-15",
+        "text": "@RoundtableSpace @grok which one you'll choose and why?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nevisl",
+        "name": "lorenzo 🇮🇹🏕",
+        "date": "2026-06-15",
+        "text": "@RoundtableSpace #Minisforum MS-S1 MAX, bought with 128gb, very good mini pc",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aardid",
+        "name": "Anibal Ardid",
+        "date": "2026-06-15",
+        "text": "@RoundtableSpace noone , doesnt work for real local AI ...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "StorageNuts",
+        "name": "Rodrigo R",
+        "date": "2026-06-15",
+        "text": "Performance wise Tokens/s almost equal, PP(prefil) NVIDIA has the advantage. \nBoth can run gigantic models, especially faster with MOE. \nAMD is more flexible, you can run all games on it, consumes half of energy 120W versus DGX Spark 240W. \nAlso AMD have a very energy efficient NPU that can run smaller models and also 13/20B with very low power comsumption. \nAMD more flexibile, runs mostly all models . \nNVIDIA pure AI machine.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "StorageNuts",
+        "name": "Rodrigo R",
+        "date": "2026-06-15",
+        "text": "@jungleincxrp @RoundtableSpace you can get GMktec 96GB for 2200USD",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HK3rft3X0AAGpLo.jpg",
+      "localFilename": "2066585278324634113_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HK3rfuDWUAAT7YS.jpg",
+      "localFilename": "2066585278324634113_2.jpg"
+    }
+  ]
+}

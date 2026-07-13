@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:01.136Z",
+  "tweetId": "2033457636830818675",
+  "post": {
+    "url": "https://x.com/SimslearnAi/status/2033457636830818675",
+    "author": {
+      "handle": "SimslearnAi",
+      "name": "Paul Sims"
+    },
+    "date": "2026-03-16",
+    "text": "URGENT: CLAUDE can now manage all your social media on autopilot, like a $600/hour community manager… for free!\n\nHere are 7 CLAUDE prompts to try: https://t.co/oRLrC2q6fi",
+    "thread": [
+      {
+        "id": "2033457636830818675",
+        "text": "URGENT: CLAUDE can now manage all your social media on autopilot, like a $600/hour community manager… for free!\n\nHere are 7 CLAUDE prompts to try: https://t.co/oRLrC2q6fi"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HDhK8cfbkAAaVBX.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1796,
+      "retweets": 192,
+      "replies": 66,
+      "views": 232403
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HDhK8cfbkAAaVBX.jpg",
+      "localFilename": "2033457636830818675_1.jpg"
+    }
+  ]
+}

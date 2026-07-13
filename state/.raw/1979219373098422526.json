@@ -1,0 +1,824 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:14:13.985Z",
+  "tweetId": "1979219373098422526",
+  "post": {
+    "url": "https://x.com/deedydas/status/1979219373098422526",
+    "author": {
+      "handle": "deedydas",
+      "name": "Deedy"
+    },
+    "date": "2025-10-17",
+    "text": "Claude Skills is a game changer for power users who are tired of prompting LLMs to do things exactly how they want.\n\nHere's the 15 skills that Anthropic pre-packaged.\n\nEach one is essentially a long pre-defined prompt for a specific task, a hybrid between a custom system prompt and a lightweight MCP.\n\nSo far, I've found it useful for basic tasks like:\n— Consistent themes in my brand\n— Generating text with my guidelines\n— Using certain esoteric coding libraries the way they should be",
+    "thread": [
+      {
+        "id": "1979219373098422526",
+        "text": "Claude Skills is a game changer for power users who are tired of prompting LLMs to do things exactly how they want.\n\nHere's the 15 skills that Anthropic pre-packaged.\n\nEach one is essentially a long pre-defined prompt for a specific task, a hybrid between a custom system prompt and a lightweight MCP.\n\nSo far, I've found it useful for basic tasks like:\n— Consistent themes in my brand\n— Generating text with my guidelines\n— Using certain esoteric coding libraries the way they should be"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3eZhzFakAMV_MA.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 2739,
+      "retweets": 291,
+      "replies": 85,
+      "views": 219555
+    },
+    "comments": [
+      {
+        "handle": "AsphaltCowb0y",
+        "name": "Jeremy Longshore",
+        "date": "2025-10-17",
+        "text": "@deedydas I just added a plugin with skills that acts as a “orchestrator” among the other plugins I’m updating to all include specialized skill sets.  Update add your own….i call it the pi pathfinder - plugin pathfinder \n\nhttps://t.co/TrROdQ89eA",
+        "likes": 29,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "deedydas",
+        "name": "Deedy",
+        "date": "2025-10-17",
+        "text": "@daniel_mac8 personally yes",
+        "likes": 24,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Keshavatearth",
+        "name": "Keshav Jindal",
+        "date": "2025-10-17",
+        "text": "@deedydas did you make this in an artifact? or does anthropic also have a marketplace? i can only see their repo",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BJWhittingham",
+        "name": "Barry Whittingham 🇬🇧",
+        "date": "2025-10-18",
+        "text": "@deedydas It doesn't replace MCPs.\nA MCP is a connector to a service.\nA skill describes how best to use that service.\n\nUse both.",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "flora_network",
+        "name": "Flora",
+        "date": "2025-10-18",
+        "text": "@deedydas Giving credit where credit is due. This is pretty cool.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-17",
+        "text": "Claude Skills load minimal metadata into the system prompt (low token cost, ~hundreds), invoking only needed scripts on demand, with outputs added to context. This is efficient vs. MCP (Model Context Protocol), which fetches and includes full external data, often consuming 10k+ tokens per call, bloating the window. Skills reduce overall usage by avoiding upfront loads. Sources: Anthropic docs, Simon Willison.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Agimon_AI",
+        "name": "VuongNg",
+        "date": "2025-10-17",
+        "text": "@deedydas Seems liked this need sandbox code execution environment for some of the skills. Doing the samething with claude code on the host machine would just open the whole new world for worms",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "reneromero08",
+        "name": "Raúl R Romero",
+        "date": "2025-10-17",
+        "text": "@deedydas Wait till they turn them into knowledge graphs instead.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "deedydas",
+        "name": "Deedy",
+        "date": "2025-10-17",
+        "text": "@Keshavatearth artifact!",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "darshen",
+        "name": "Darshen",
+        "date": "2025-10-17",
+        "text": "@deedydas Do you believe there is divergent paths being built with Claude and Claude Code that creates cannibalization or worse, continued user frustration of how to best manage the multiple paths for a single product? The latter ultimately leading to using a different product.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DiogoSnows",
+        "name": "Diogo Neves 👨‍💻 / ☕️",
+        "date": "2025-10-18",
+        "text": "@deedydas Can you do a comparison to the agent workflow designer in ChatGPT?\nMy suspicion is Skills is a lot more flexible and easier to setup?\nI just signed up for ChatGPT Pro 🤦‍♂️",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bfrench",
+        "name": "bfrench",
+        "date": "2025-10-18",
+        "text": "@daniel_mac8 @deedydas &gt; … essentially a long prompt\n\nThat can include and execute code, enables dynamic contexts, can write dynamic contexts in real-time, and several other architectural concepts that make prompts look woefully incapable.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DataBasedDad",
+        "name": "AGI Gardener",
+        "date": "2025-10-17",
+        "text": "@the_kunal @deedydas Amazon is taking a bit to come online but they also buy and use Nvidia with their billions. But yeah, definitely not making the headlines in the same way as open AI, meta, and Google's datacenter build outs.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "arunsingh_I",
+        "name": "arun singh",
+        "date": "2025-10-17",
+        "text": "@deedydas This is not different than MCP and rules, just a different way of writing thing. So probably not a game changer. What am i missing ?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JavaFXpert",
+        "name": "JavaFXpert",
+        "date": "2025-10-17",
+        "text": "@deedydas I don't see the code-to-music skill from your image pre-packaged in my Claude app. Can you point me to the code-to-music skill?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "devmuradahmed",
+        "name": "Murad",
+        "date": "2025-10-17",
+        "text": "@deedydas Curiously, pre-packaged skills might finally make AI do exactly what you want without endless tweaking.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JacobPetterle",
+        "name": "Jacob",
+        "date": "2025-10-18",
+        "text": "@deedydas pretty sure the next step is to now scrape all cutting edge research papers and now you have a agent that can do any research",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ThomasBurkhartB",
+        "name": "Thomas Burkhart 💙",
+        "date": "2025-10-18",
+        "text": "@deedydas How do you install them?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alexcahiz",
+        "name": "Alex Cahíz (AMPM.IO)",
+        "date": "2025-10-18",
+        "text": "@AsphaltCowb0y @deedydas might be a bug but I see anything tagged as \"Featured\" is duplicated. just an fyi 🙂 https://t.co/HSAPDhqKKk",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sp1nf1n1te",
+        "name": "sp1nf1n1te",
+        "date": "2025-10-18",
+        "text": "@deedydas i'm finding it incredibly useful so far... i have mcp and script creation baked into the skills. my carpal tunnel feels relief (jk).",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bfrench",
+        "name": "bfrench",
+        "date": "2025-10-18",
+        "text": "@daniel_mac8 @deedydas Skills have accelerated my use of MCP.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CoralOS_ai",
+        "name": "CoralOS",
+        "date": "2025-10-17",
+        "text": "@deedydas Feels like the bridge between prompting and true autonomy.\n\nNext step: when those skills can connect, trade, and evolve on Coral.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jha01roshan",
+        "name": "Roshan 🇮🇳👨‍💻",
+        "date": "2025-10-17",
+        "text": "@sabrishsurender @deedydas It's not prompt. It's actual code to use in specific scenarios. It's kind of Agentic tools in .md file and directory.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "the_kunal",
+        "name": "Kunal e/acc---EA",
+        "date": "2025-10-17",
+        "text": "@deedydas But they don't have the chips in this long long race for compute",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "computer_agents",
+        "name": "computer agents",
+        "date": "2026-01-22",
+        "text": "@deedydas The Skills framework really is a game changer. We also built it into https://t.co/A8bBF5IZMV, works like a charm!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RichardsonDx",
+        "name": "Richardson Dackam",
+        "date": "2025-10-31",
+        "text": "A few month ago (in july)  i ran an experiments with Skills in the browser and got some great result with that\nhttps://t.co/5htHM7nTUx\n\nI hope that Perplexity will consider adding that too. I've written in length about the value of SKILLS in this post https://t.co/RDqP2Eg7zC\n\nif you're curious to know what's next.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nummanali",
+        "name": "Numman Ali",
+        "date": "2025-10-29",
+        "text": "@deedydas Skills are too good to just be in the Claude ecosystem\n\nSo I made OpenSkills, so that ANY coding agent can utilise them!\n\nhttps://t.co/o1yXKGVDi9",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itissudharshaun",
+        "name": "Sudharshaun",
+        "date": "2025-10-23",
+        "text": "@deedydas So it's basically a RAG..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Shawn86471984",
+        "name": "Shawn Fang",
+        "date": "2025-10-23",
+        "text": "@deedydas I made a Claude skills hub \nhttps://t.co/IvoP7TRkLc\nI’ll consistently update to add more community skills",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "OptInAmpOut",
+        "name": "Andre Frank",
+        "date": "2025-10-23",
+        "text": "@darshen @deedydas No. Its different product different coverage in increase Total Adrressible market.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vagaster9000",
+        "name": "Rob992 jjjk",
+        "date": "2025-10-20",
+        "text": "@deedydas Total noob here, how much text fits in there is it almost quasi rag?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vagaster9000",
+        "name": "Rob992 jjjk",
+        "date": "2025-10-20",
+        "text": "@arunsingh_I @deedydas That it’s revolutionary! And a game changer!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vagaster9000",
+        "name": "Rob992 jjjk",
+        "date": "2025-10-20",
+        "text": "@deedydas Revolutionary! It’s a game changer!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "claudeskills",
+        "name": "Claude Skills",
+        "date": "2025-10-20",
+        "text": "@deedydas Come join us as a creator!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lat3ntG3nius",
+        "name": "David P",
+        "date": "2025-10-20",
+        "text": "@deedydas Intriguing concept! How do Claude Skills compare to traditional methods in terms of flexibility and creativity? 🤔 I'm curious if they spark new ways to approach problem-solving or if they stick to predefined pathways.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "amandevx",
+        "name": "Aman DevX",
+        "date": "2025-10-19",
+        "text": "@deedydas Nice list!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DaveThackeray",
+        "name": "Thack",
+        "date": "2025-10-19",
+        "text": "@deedydas Why don't you share a repo of yaml-fronted Markdown files you have personally used instead of a lazy screengrab with close to zero value? Come on man. Do better!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MinChonChiSF",
+        "name": "Min Chon Chi",
+        "date": "2025-10-19",
+        "text": "@deedydas Pre-packaged skills could streamline some workflows.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AiaiaiStyle",
+        "name": "AI AI AI Style",
+        "date": "2025-10-19",
+        "text": "@deedydas Nice ADV",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DivithSkum30478",
+        "name": "Deal Pixel - Logo & 3D Artist",
+        "date": "2025-10-19",
+        "text": "@deedydas Looks good👍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pmaxx14",
+        "name": "pmaxx",
+        "date": "2025-10-18",
+        "text": "@deedydas https://t.co/Jtzfcj795K behind the paywall, that 's the business model",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AsphaltCowb0y",
+        "name": "Jeremy Longshore",
+        "date": "2025-10-18",
+        "text": "@Total_Nomad @deedydas It’s fixed!  Good looking out.  If u ever need help with anything let me know !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Andres_v_Rey",
+        "name": "Andres Rey",
+        "date": "2025-10-18",
+        "text": "@deedydas Skills essentially turn Claude into a configurable specialist. The genius is making expertise portable and shareable. Instead of rebuilding prompts each session, you package domain knowledge once and reuse infinitely. This changes how teams collaborate on AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "todayinai_",
+        "name": "Today in AI",
+        "date": "2025-10-18",
+        "text": "@deedydas Pre-packaged Skills are prompt logic macros, collapsing complex instructions into a single call signature. This architectural shift formalizes prompt abstraction, elevating agentic subroutines to a first-class component.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thekrushi9",
+        "name": "thekrushi",
+        "date": "2025-10-18",
+        "text": "@deedydas I really love and admire how quietly anthropic is shipping and building compare to it’s competitors \nOfc there is no right or wrong but I like Anthropics way",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tech_maddy",
+        "name": "0xmaddy | Tech Adrenaline",
+        "date": "2025-10-18",
+        "text": "@deedydas Pre-packaged prompts for recurring tasks is smart! Saves time and ensures consistency across workflows. This is where LLMs shine operationally. Ship it!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AsphaltCowb0y",
+        "name": "Jeremy Longshore",
+        "date": "2025-10-18",
+        "text": "@Total_Nomad @deedydas Oh man thanks !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tech_maddy",
+        "name": "0xmaddy | Tech Adrenaline",
+        "date": "2025-10-18",
+        "text": "@deedydas This is huge for AI workflows! Pre-packaged skills eliminate the tedious prompt engineering cycle. Love that it's bridging custom system prompts with plug-and-play functionality!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "scnz17",
+        "name": "dar",
+        "date": "2025-10-18",
+        "text": "@deedydas Get $15 free credit and 1 month of Perplexity Pro with this link: https://t.co/1fINgFNzq7 — it works!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2025-10-18",
+        "text": "@Nidg31 @deedydas @Nidg31 Hi! the unroll you asked for: https://t.co/5RfFvhbra9 See you soon. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Nidg31",
+        "name": "Neil Payne",
+        "date": "2025-10-18",
+        "text": "@deedydas @threadreaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "StanleyWei4748",
+        "name": "Stanley Wei",
+        "date": "2025-10-18",
+        "text": "@deedydas Pre-baked prompts. \n\nAI is finally catching up.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Garry1545512",
+        "name": "GC",
+        "date": "2025-10-18",
+        "text": "@deedydas #Bittensor. https://t.co/NqE2DL6MoO",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itsmadhusudhan",
+        "name": "Madhusudhan R 🇮🇳",
+        "date": "2025-10-18",
+        "text": "@deedydas Time to create a Claude skills directory or registry 🤔",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sabrishsurender",
+        "name": "Sabrish Surender",
+        "date": "2025-10-18",
+        "text": "@deedydas @GitHubCopilot , Is it something you are working on? This would be a good addition to Spec Kit",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ThomsonComer",
+        "name": "Thomson Comer",
+        "date": "2025-10-18",
+        "text": "@deedydas mcp-server all the things!!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DataBasedDad",
+        "name": "AGI Gardener",
+        "date": "2025-10-17",
+        "text": "@arunsingh_I @deedydas @grok can you find out about token use in skills vs MCP in the context window?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Cherelynn",
+        "name": "Cherelynn",
+        "date": "2025-10-17",
+        "text": "@deedydas I like Claude and use it alot",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AIwithJai",
+        "name": "Jai Rod",
+        "date": "2025-10-17",
+        "text": "@deedydas Obviously the Skill Builder is the most useful.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "douglasfugazi",
+        "name": "Douglas Fugazi",
+        "date": "2025-10-17",
+        "text": "@deedydas @daniel_mac8 Does this mean Claude Skills will have the same full functionality as an MCP that uses an API key? 🤔",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BrandonTyler",
+        "name": "Brandon Tyler",
+        "date": "2025-10-17",
+        "text": "@deedydas Where are these pre packaged skills?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "martinj4k",
+        "name": "ささがき",
+        "date": "2025-10-17",
+        "text": "@deedydas Interesting take! 🤔 Which skill do you think is a must-try? NGL, I'm curious about your view!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jenslon_",
+        "name": "AI/ACC",
+        "date": "2025-10-17",
+        "text": "@deedydas Claude Skills are just rigid, temporary system prompt abstractions. True agentic zero-shot tool use and autonomy render them instantly obsolete. Maximalist scaffolding for the pre-agentic era.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xvbpee",
+        "name": "pootie tangerine",
+        "date": "2025-10-17",
+        "text": "@deedydas Where did you find code-to-music and music-generation?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ark8_8ark",
+        "name": "Jason Ark",
+        "date": "2025-10-17",
+        "text": "@deedydas Epic",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Straffern",
+        "name": "Straffern",
+        "date": "2025-10-17",
+        "text": "@deedydas Did apple design these pre-packaged skills?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hedgequantx",
+        "name": "HedgeQuantX",
+        "date": "2025-10-17",
+        "text": "@deedydas trading strategy code optimised by @claudeai then result ✅ https://t.co/nDNnA0JMAr",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dandrews_ai",
+        "name": "Djah",
+        "date": "2025-10-17",
+        "text": "@deedydas llm power users are eating good. “just prompt harder” is so last quarter       ready made skills are everything.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AsphaltCowb0y",
+        "name": "Jeremy Longshore",
+        "date": "2025-10-17",
+        "text": "@deedydas 1.Plugins provide raw capabilities (stateless, reusable)\n2.Agent skills provide contextual intelligence (when, how, why)\n3.Claude Code can learn new ways to use existing plugins without modifying the plugins themselves",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "shaolincyborg",
+        "name": "shaolincyborg",
+        "date": "2025-10-17",
+        "text": "@deedydas How's it different from a slash command?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "timelessdev",
+        "name": "Jacek (Jomsborg.eth)",
+        "date": "2025-10-17",
+        "text": "@deedydas There is already a common knowledge of repeatable errors made by LLMs. Someone should make a living cataloque of skills to aboid them.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Eplurubusunum",
+        "name": "Virtual Laborer",
+        "date": "2025-10-17",
+        "text": "@deedydas Very cool feature, I sorta did this before in a weird way but this is way cooler and easier. I love it, skills. I have communication standards that took a long time to perfect,  now I can add it easily",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NeuralNavQ",
+        "name": "Quinn’s Neural Pathways",
+        "date": "2025-10-17",
+        "text": "@deedydas Feels like modular intelligence in motion. If these skills actually stack, we're approaching real plugin territory-curious who pushes this into something weirder or more specialized next.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VinegarWrites",
+        "name": "Vic Vinegar",
+        "date": "2025-10-17",
+        "text": "@deedydas Is this basically like a custom GPT equivalent",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shivprakash",
+        "name": "Shiv Prakash",
+        "date": "2025-10-17",
+        "text": "@deedydas Even I got the same result for brand toolkit prompt I did :) Hope it is giving different palette to everyone !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "westerns1978",
+        "name": "Dan Western",
+        "date": "2025-10-17",
+        "text": "@deedydas Thanks",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Chamoen",
+        "name": "Chris Hamoen",
+        "date": "2025-10-17",
+        "text": "@deedydas Yeah I tried this with sub-agents but it was too fragile. Looking forward to toying around this weekend",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AsphaltCowb0y",
+        "name": "Jeremy Longshore",
+        "date": "2025-10-17",
+        "text": "Ok see what I am doing now - I have this VM from contabo with Linux.   I also have all these credits Google cloud startup gave me.  Being the diligent struggling semi truck driver I am - fired up those gcloud commands tapped into Vertex and wired everything up - should have all 200 plus of these plugins with skill sets soon . @AnthropicAI @claudeai @GoogleAI @googlecloud",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Yuki26856052",
+        "name": "Yuki He",
+        "date": "2025-10-17",
+        "text": "@deedydas less prompting, more creating?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Rafsandz",
+        "name": "Md.Rafsan Islam Samin",
+        "date": "2025-10-17",
+        "text": "@deedydas Sounds like a huge step forward!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "moeghashim",
+        "name": "Moe⚡️",
+        "date": "2025-10-17",
+        "text": "@deedydas What is the link for this?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vaibhavgeek",
+        "name": "Vaibhav (in SF from July 7th)",
+        "date": "2025-10-17",
+        "text": "@deedydas have you used /agents, how is this different?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wjsimmonds",
+        "name": "Will Simmonds",
+        "date": "2025-10-17",
+        "text": "@TheBoogeiman @deedydas Meanwhile Anthropic get to learn exactly what the most popular use cases are to be integrated into their RL.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Joonzzy",
+        "name": "oops",
+        "date": "2025-10-17",
+        "text": "@deedydas Pre-defined prompts are truly game changer and revolutionary lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sabrishsurender",
+        "name": "Sabrish Surender",
+        "date": "2025-10-17",
+        "text": "@deedydas How difficult is this from GitHub Copilot Awesome prompts, instructions, chat modes?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NerdychefsAI",
+        "name": "NerdyChefs.AI",
+        "date": "2025-10-17",
+        "text": "@deedydas Impressive list already from Anthropic, and loving this new feature. I have spend the morning creating my own with the help of the documentation, sharing some to those who want.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LumeBTC",
+        "name": "lume.hl",
+        "date": "2025-10-17",
+        "text": "@deedydas I can already see this becoming standard for pros",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3eZhzFakAMV_MA.jpg",
+      "localFilename": "1979219373098422526_1.jpg"
+    }
+  ]
+}

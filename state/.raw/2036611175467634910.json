@@ -1,0 +1,1143 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:12:01.240Z",
+  "tweetId": "2036611175467634910",
+  "post": {
+    "url": "https://x.com/Zoeillle/status/2036611175467634910",
+    "author": {
+      "handle": "Zoeillle",
+      "name": "chloe 🇫🇷"
+    },
+    "date": "2026-03-25",
+    "text": "Bonjour, je viens de créer une alternative à Getquin et Finary qui est Open-Source entièrement self host et qui utilise Enable Banking afin de synchroniser les comptes.\n\nC'est un MVP mais franchement contente d'avoir de la synchro pour un usage privé, marre de payer des abos. https://t.co/qDhXHMdTAk\n\nBtw: l'import via Excel/csv est possible pour ceux qui ne veulent pas donner du tout leur data. C'est possible\n\nA titre perso j'ai pas mal de comptes donc je préfère éviter les exports tout les mois sur plusieurs banques",
+    "thread": [
+      {
+        "id": "2036611175467634910",
+        "text": "Bonjour, je viens de créer une alternative à Getquin et Finary qui est Open-Source entièrement self host et qui utilise Enable Banking afin de synchroniser les comptes.\n\nC'est un MVP mais franchement contente d'avoir de la synchro pour un usage privé, marre de payer des abos. https://t.co/qDhXHMdTAk"
+      },
+      {
+        "id": "2036614229063532979",
+        "text": "Btw: l'import via Excel/csv est possible pour ceux qui ne veulent pas donner du tout leur data. C'est possible\n\nA titre perso j'ai pas mal de comptes donc je préfère éviter les exports tout les mois sur plusieurs banques"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HEN-8zeWYAADpI1.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1076,
+      "retweets": 47,
+      "replies": 107,
+      "views": 291094
+    },
+    "comments": [
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "Je mettrais ça sur mon GitHub soon des que j’ai une v1 qui me plaît et qui est nickel niveau sécurité, vous pouvez me follow je ferais un drop du lien",
+        "likes": 60,
+        "isAuthor": true,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@linakerGeneva Toi, ça se voit que tu es à la ramasse.\n\nL’outil a pas été vibe coder. C’est mon métier de designer, concevoir des apps/plateformes, donc je sais feed Claude les bons wording et surtout des critères précis car c’est mon métier et que je sais si il fait de la merde ou non.",
+        "likes": 19,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@lovek3ta Ça va arriver bientôt",
+        "likes": 14,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "(Pardon BoursoBank fonctionne c’est Trade Republic que je vais devoir dev une brique spéciale)",
+        "likes": 14,
+        "isAuthor": true,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "(Et je vais continuer à partager les progrès!)",
+        "likes": 11,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@NicolaCTN Tout tourne en local chez toi. Les données ne quittent pas ton ordinateur et personne hormis dans ton réseau internet n’a accès a ces données.",
+        "likes": 9,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@marc_cizeron Je veux mon propre truc",
+        "likes": 7,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@pierre240tech Oui",
+        "likes": 7,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@linakerGeneva Maintenant j’ai une question pour toi, sauf sujet très sensible: qui ne dev pas avec de l’IA ?\n\nLa différence c’est que si c’était une autre personne qui avait prompter le résultat n’aurait pas été le même, c’est la ma pluvalue",
+        "likes": 5,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@ElonDeactivated Oui 🙌🏻 \nDès que je le mettrais sur GitHub vous pourrez :)",
+        "likes": 5,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@0xFranchou @ToutSavoirFr Nan mais le mec jpp. Je suis littéralement dans le spatial, pas Junior et je gère 4 plateformes métiers au taff mais il s’amuse à juger des gens qui s’en foutent du design (pour l’instant)",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xFranchou",
+        "name": "Franchouillard.eth",
+        "date": "2026-03-25",
+        "text": "@ToutSavoirFr @Zoeillle Mais alors toi t'en perds pas une mdrr, c'est 2-3 heures de taff en vibe code, l'important c'est d'abord le fonctionnel.",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@BressacBruno Ça sera fait :)",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@ToutSavoirFr Merci de m’apprendre mon métier 🙏🏻🙏🏻🙏🏻🙏🏻",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@pierre240tech @NicolaCTN Si tu le self host c’est génial en effet. Toute façon l’idée de ma plateforme n’est pas de permettre + qu’un usage perso.",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@DailyXplorer Merci!",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@polconin 2-3h sur mon temps libre",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@VincentBounce Absolument. Le risque 0 n’existe pas.. mais si tu fais tourner en local sans rien exposé de ton app alors effectivement \n\nEnable Banking a quand même un accès à ta banque tout comme Finary avec powens. Mais tu peux utiliser l’outil juste via des imports csv / entrées manuelles",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@_LeKb_ Oui \n\nNon en gros powens et ce genre de société te file un free trial. Par contre Enable Banking autorise pour l’usage perso donc ça convient parfait à notre cas d’usage. Bien sûr tu ne met pas d’autres utilisateurs que toi",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DarkPancakes",
+        "name": "Mibayy ⚡️",
+        "date": "2026-03-25",
+        "text": "@Zoeillle C’est pour voir comment on est pauvre en 4K?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@0xSaphyra Oui! Je découvre doucement le monde de l’open source (genre participer/creer) et j’adore!",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "marc_cizeron",
+        "name": "Marc",
+        "date": "2026-03-29",
+        "text": "@Raphy_ZZ @Zoeillle Il y a plusieurs scraper et projet. Donc je part d'un truc comme ça qui récupère les pdfs. Ensuite avec openClaw je luis demande de parser et lui demande de synchroniser sure. Ça marche, mais perfectible. C'est vrais q'une vrai API TR ça changerai la donne !",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "scifirefly",
+        "name": "scifirefly",
+        "date": "2026-03-26",
+        "text": "@bisuke75 @Zoeillle @NicolaCTN Il faut bien gérer la sécurité sachant que les identifiants de connexion aux services financiers y sont hébergés, donc y exposer un service web avec accès public est dangereux.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "VincentBounce",
+        "name": "Vincent ᗱƆᑌᑎϹᗴ🦾🔑",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Donc aucun risque de se faire hacker contrairement à Finary qui pourrait un jour faire leaker la fortune totale de chacun des 1 millions de français dessus.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@DailyXplorer thx",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DailyXplorer",
+        "name": "DailyXplorer",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Lien du Discord pour contribuer et suivre le projet : \n\nhttps://t.co/vut0JjDEFE",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@ToutSavoirFr @0xFranchou Je flex pas, j'ai dev ça en 3 heures et je sais que c'est un besoin des gens d'avoir un système open-source et la principale contrainte était la synchro; pb que je règle.\n\nEt oui je préfère me concentrer sur le backend que le design pour mon prototype.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ToutSavoirFr",
+        "name": "Tout Savoir",
+        "date": "2026-03-25",
+        "text": "@Zoeillle C’est vibe coded va falloir clean le code et faire un audit de sécu",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@DarkPancakes Oui",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@0xrabi_ soon!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@Masis75 En usage perso oui",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "pierre240tech",
+        "name": "pierre240",
+        "date": "2026-03-25",
+        "text": "@NicolaCTN @Zoeillle C’est déjà pas mal",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@clemchret94 Peut être que ma solution pourra répondre à ton besoin alors !",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@Mvzet Ça sera dispo sur mon GitHub soon",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@__guiguir68 Pas en perso",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "P0CEE",
+        "name": "P0CE",
+        "date": "2026-04-02",
+        "text": "@Zoeillle je build aussi une app finance perso avec Enable Banking pour la synchro. T'as galéré avec les doublons de transactions au re-sync ? c'est le truc un peu chiant",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Elisadorable_",
+        "name": "Elisa",
+        "date": "2026-03-27",
+        "text": "@Zoeillle Oh trop bien 🫪",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thismacapital",
+        "name": "THISMA",
+        "date": "2026-03-26",
+        "text": "@Zoeillle C'est top comme initiative merci",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-26",
+        "text": "@tdmIdf @linakerGeneva Personne ne pond une app complète avec IA, sinon ça s'appelle du vibecoding.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-26",
+        "text": "Dispo here en preview: https://t.co/xsU5gWBH9M",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tdmIdf",
+        "name": "tdm78",
+        "date": "2026-03-26",
+        "text": "@Zoeillle @linakerGeneva Il y a une différence entre pondre une app complète avec une IA, qui aura bien sûr nécessité des itérations et coder soit même une app. La différence de compétence est énorme. \nCf. ce qu'ils font chez Alan. J'ai une question depuis combien de temps travailles tu dans la tech ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Moha9resi",
+        "name": "Moha",
+        "date": "2026-03-26",
+        "text": "@Zoeillle Ça fait qlqs moi maintenant que j’ai fait ma propre solution également !\nCe qui est bien c’est que des que t’as besoin d’une feature tu peux te la développer rapidement, pas de frustration https://t.co/Zet0XUkLkW",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lds_adam94",
+        "name": "lima",
+        "date": "2026-03-26",
+        "text": "@Zoeillle Bonjour, je pense comme toi. Hate de voir ta version. Bonne fin de journée",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sbounmy",
+        "name": "Stephane ₿ounmy",
+        "date": "2026-03-26",
+        "text": "@Zoeillle purée ça m’avait traversé l’esprit en début de semaine. belle exécution!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CaptainBouli",
+        "name": "Captain'Bouli 🇫🇷☃️",
+        "date": "2026-03-26",
+        "text": "@Zoeillle Interessé, au moins pour stress test l'appli, avant diffusion locale",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Siddi64228209",
+        "name": "tompouce",
+        "date": "2026-03-26",
+        "text": "@Zoeillle un lien github ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Raphy_ZZ",
+        "name": "Raphael Bevenot",
+        "date": "2026-03-26",
+        "text": "@marc_cizeron @Zoeillle Comment tu gères l'import de trade republic dans Sure ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NicolaCTN",
+        "name": "ニコラス・カエターノ",
+        "date": "2026-03-26",
+        "text": "@scifirefly @bisuke75 @Zoeillle C'est pour ça que l'import de .csv c'est quand même mieux mais bon faut parser correctement",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bisuke75",
+        "name": "Bisuke",
+        "date": "2026-03-26",
+        "text": "@scifirefly @Zoeillle @NicolaCTN Pourquoi déconseiller le VPS ? C'est pas si safe que ça ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nextgenai_fr",
+        "name": "NextGenAI_FR",
+        "date": "2026-03-26",
+        "text": "@Zoeillle bonjour ça existe deja",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HatlessCowboy",
+        "name": "Olivier Heckendorn",
+        "date": "2026-03-26",
+        "text": "@Zoeillle Ça m’intéresse. J’ai pas mal de soucie avec Indy. Et si c’est OSS je vais jeter un coup d’œil et sûrement essayer de compléter avec mes besoins. Est ce que je peux être prévenu quand c’est sur GitHub ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "erdBlackHat",
+        "name": "Alast0R",
+        "date": "2026-03-26",
+        "text": "@Zoeillle Avec données chiffrées en local?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Flo_Co06",
+        "name": "Flow’",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Top de tomber sur ton tweet. J’avais commencé un protonmais par manque de temps ça fait 2 mois que ça végète. Ce qui serait super c’est de pouvoir faire un prévisionnel sur plusieurs mois et planifier les ope recurrentes. Un peu comme ce que propose Linxo, tu y as déjà réfléchi?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kitadiz",
+        "name": "Mazriu",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Ça c’est des vrai projets",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BetterCallIslem",
+        "name": "Islem",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Hyper intéressant hâte de voir la v1",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Davydesign974",
+        "name": "Davy. B | Graphic Designer",
+        "date": "2026-03-25",
+        "text": "@Zoeillle On peu test ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RemiNatVoyage",
+        "name": "Rémi Yeah",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Bien joué, j'avais ça dans un coin de ma tête depuis un moment. Jamais compris la plus value de payer Finary.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "johnnysouf",
+        "name": "lui",
+        "date": "2026-03-25",
+        "text": "@Zoeillle y'a deja Sure Finance pourquoi avoir crée ca ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@kcbatbat soon! merci",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kcbatbat",
+        "name": "KC Bat Bat",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Github ? Super projet ! Bravo",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RilRil",
+        "name": "Cyril | Building @ Pulsiv.app",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Super interressant ça ! Je savais pas que ça existait Enable Banking 👀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ToutSavoirFr",
+        "name": "Tout Savoir",
+        "date": "2026-03-25",
+        "text": "@Zoeillle @0xFranchou Tu flex un wrapper api vibe coded stp … t’as meme pas fait l’effort d’un peu remplacer le design Claude code, ce que je pointe simplement du doigt :) bravo pour ton job",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "scifirefly",
+        "name": "scifirefly",
+        "date": "2026-03-25",
+        "text": "@Zoeillle @NicolaCTN Oui au minimum",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Narkard_",
+        "name": "Narkard™",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Top ! On a eu exactement la même démarche. J'ai moi aussi fini par coder mon propre outil perso pour regrouper des fonctionnalités similaires à Finary et Bankin, tout en ajoutant des fonctionnalités spécifiques. https://t.co/geyeVi0BcA",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ToutSavoirFr",
+        "name": "Tout Savoir",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Vu le Dashboard on doit vraiment pas avoir le même métier :) tu es junior ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "remy_leg",
+        "name": "Keno",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Cool curieux de tester aussi ! \nJ’utilise https://t.co/7JaazGPALJ. C’est un Finary plus avancé, 100% privé et local.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "antoineberjoan",
+        "name": "Antoine Berjoan",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Trop cool, hâte de voir la suite !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@scifirefly @NicolaCTN Franchement je déconseille franchement. Ou alors tu passes par VPN only.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "scifirefly",
+        "name": "scifirefly",
+        "date": "2026-03-25",
+        "text": "@NicolaCTN @Zoeillle VPS alors, mais a toi de gérer la sécurité.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BalroggMTL90",
+        "name": "Kevin",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Salut, j'étais en train de faire un import automatique avec OpenClaw mais au final ce que tu proposes c'est le rendu final de ce que j'avais en tête ! Ça peut marcher avec des banques américaines?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kentrowIT",
+        "name": "Quentin Fleury",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Très intéressant ! Bientôt plus besoin de payer les abonnements ☺️\nIl n’y a pas de limitations sur l’usage de l’API Enable Banking ? J’avais regardé pour faire pareil mais avec Powens et il me semble que c’était payant 😢",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheDragoon1010",
+        "name": "Dragoon1010™",
+        "date": "2026-03-25",
+        "text": "@Zoeillle J'aimerais bien voir comment tu a intégrer la partie Enable Banking. Car j'ai essayé pour une app perso, mais ça n'a jamais vraiment voulu fonctionner.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AznurDe",
+        "name": "aznur de mordis",
+        "date": "2026-03-25",
+        "text": "@Zoeillle gg",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@Thybaau @enablebanking Ouep",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Thybaau",
+        "name": "Kendji et 627 autres personnes...",
+        "date": "2026-03-25",
+        "text": "@Zoeillle @enablebanking Niquel merci tu m’aides aussi, j’étais bloqué. Tu peux accéder à Bourse Direct, BoursoBank, et n’importe quelle banque avec ça, en tapant sur l’api de banking ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@Thybaau @enablebanking Super merci beaucoup!\n\nPour Enable Banking oui mais pas en usage perso!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MassinissaSadek",
+        "name": "Sadoukas",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Chloe jetais entrain de noter sur keep que je devais trouver un outil de ce genre 😭😭😭",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Thybaau",
+        "name": "Kendji et 627 autres personnes...",
+        "date": "2026-03-25",
+        "text": "@Zoeillle @enablebanking C’est payant banking ?\nOui pour TR il faut taper sur leur API Websocket puis s’authentifier avec un Pin envoyé par l’appli pour récupérer les jsons de liste des transactions, va voir le projet github de Benjamin Oddou : https://t.co/MY9PF9qpkK\n\nJe l’ai refais en Golang",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_LeKb_",
+        "name": "Le K ☭",
+        "date": "2026-03-25",
+        "text": "@Zoeillle il me semble que j'avais regardé l'open banking mais quand tu demandes direct à ta banque. Genre tu demandes au CIC ou à Révolut et il fallait être une entreprise et c'était pas possible pour un usage perso.\n\nMerci pour cette découverte de enable banking du coup !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_LeKb_",
+        "name": "Le K ☭",
+        "date": "2026-03-25",
+        "text": "@Zoeillle trop cool, oui de toute façon je cherche à le faire pour un usage perso, mais quand j'avais voulu le faire je trouvais pas comment, genre perso ça serait pour Revolut et le CIC juste pour voir bah mes propres comptes.\n\nMais du coup avec ton projet c'est trop cool, hate de tester",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@Thybaau Via @enablebanking. Pour TR tu as une ressource pour leur API ? Ça minteresse",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Thybaau",
+        "name": "Kendji et 627 autres personnes...",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Tu as fait comment pour accéder aux APIs des différents brokers ? J’ai réussi à le faire uniquement avec Trade Republic et Binance actuellement, pas Bourse Direct ou BoursoBank etc",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_LeKb_",
+        "name": "Le K ☭",
+        "date": "2026-03-25",
+        "text": "@Zoeillle C'est incroyable je veux trop tester. Mais comment ttu lies avec enable banking, tout le monde peut lier ses comptes comme ça ? \n\nCar de ce que j'avais vu aux dernières nouvelles pour avoir accès à l'open banking ça demandait d'être une institution reconnue genre c'est chiant",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SlamingDev",
+        "name": "Cyril 🏁",
+        "date": "2026-03-25",
+        "text": "@Zoeillle J’ai eu ce besoin mais j’étais bloqué car je ne connaissais pas du tout Enable Banking!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pepinaux",
+        "name": "romanojw10 🫶",
+        "date": "2026-03-25",
+        "text": "@Zoeillle @pierre240tech @NicolaCTN Vous avez regardé gocardless ? je sais plus s’il le font encore",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "angelstreetv2",
+        "name": "N'DOYE JOACHIM",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Good job j ai fait pareil en plus pousse avec konto et powens pour la sync des data. \nhttps://t.co/N0hhTsEtg7",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BdbAudren",
+        "name": "Audren BOUËSSEL DU BOURG",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Comment tu fais pour enable banking ? Ils ont une API gratuite ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jordanjix",
+        "name": "Jordan",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Merci. Je ne sais pas si tu connais le projet https://t.co/YLhSJbCHiL ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "destr0ycs",
+        "name": "Han",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Gg",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fullstackchris_",
+        "name": "Full Stack Chris",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Sympa ! Ca vise la finance traditionnelle pour l'instant? Les marché alternatifs genre collectionisme, crypto, TCG, art sont dans une future roadmap?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ibos",
+        "name": "Raiden",
+        "date": "2026-03-25",
+        "text": "@Zoeillle L'outil est boosté à l'IA dans tous les sens et on a deja plusieurs gros cabinets comptables qui nous recommandent à leur clients.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ibos",
+        "name": "Raiden",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Bravo! J'ai lancé un concurrent à Finary il y a 2 mois (dispo sur web, iPhone et Android). On fait du pro et perso. Côté patrimoine on gère tout type de patrimoine sauf les montres et les voitures mais ça arrive.\nCe n'est pas gratuit car on paye Powens mais moins cher que Finary",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "getdictus",
+        "name": "Dictus",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Je sais pas si ça peut t'aider mais j'avais testé ça pour récupérer des données sur Trade Republic et ça marchait plutôt bien\n\nhttps://t.co/wjjdMzxnE3",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Rtc_Dadidou",
+        "name": "Dinesh Atc",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Bravo ! Je voulais faire quelque chose de similaire mais je n'ai jamais pris le temps. Je pourrai peut-être contribuer :)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NumaBuilds",
+        "name": "Numa",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Bonjour c’est toi la GOAT ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BenineBoy",
+        "name": "KNF",
+        "date": "2026-03-25",
+        "text": "@Zoeillle J'avais commencé un projet similaire mais je n'ai pas continué. Donc si besoin d'aide pour travailler dessus,n'hésite pas. C'est quoi comme stack?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "memorphism",
+        "name": "Guillaume deRouville",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Enable banking a une api gratuite ? 👀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BressacBruno",
+        "name": "Bruno Trading 📈",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Intéressant votre site, mettez-moi une tesla de chaque couleur pour chaque jour de la semaine ;-)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Svart_fjos",
+        "name": "Loup blanc 💸",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Top  merci ! C'est en mini projet chez moi mais plus tourné holding, pouvoir réaliser quelques calculs financiers (performance, exposition, TRI) plutot que simplement récupérer les données financières",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EtPiete",
+        "name": "Grrrrrrrrrrrerzr",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Tu es la goat",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Masis75",
+        "name": "Masis",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Trop bien ! Ça donne des idées 💡 \nMerci 🙏",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "roxabi_",
+        "name": "Roxabi",
+        "date": "2026-03-25",
+        "text": "@Zoeillle ™ 😅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@pierre240tech @NicolaCTN Same. J’avais try Powens ya quelques mois",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Masis75",
+        "name": "Masis",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Enable Banking c’est gratuit ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zz_war__ro_z",
+        "name": "zzzzz",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Salut, j’avais dev un une appli du style, mais un peu lourde à maintenir, hâte de voir la v1",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "buildkevins",
+        "name": "zoshhhhh",
+        "date": "2026-03-25",
+        "text": "@Zoeillle hâte d'avoir le repo github ! bonne idée en tout cas",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pierre240tech",
+        "name": "pierre240",
+        "date": "2026-03-25",
+        "text": "J’avais bossé sur un projet avec des prestataires\nEt je voulais monter quelque chose un peu dans le style en Open source, mais j’arrivais pas à trouver réellement quelque chose de full gratuit pour un usage personnel\nTu devais toujours passer par des Powens ou Lixio\nÇa coûte cher pour rien",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NicolaCTN",
+        "name": "ニコラス・カエターノ",
+        "date": "2026-03-25",
+        "text": "@Zoeillle @pierre240tech Yes je vois merci beaucoup 🙏",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "roxabi_",
+        "name": "Roxabi",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Nice ! Ça fait un moment que ça me trotte dans la tête, ya un Github ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GrodonKeggo",
+        "name": "Grodón Keggo",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Fort 🤝 Le monde appartient aux Builders !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NicolaCTN",
+        "name": "ニコラス・カエターノ",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Ok je vois du coup impossible de l'avoir sur une application et dès que tu sors de chez toi ou que t'as pas accès à ton ordi c'est mort non ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "clemchret94",
+        "name": "Clément Chrétien",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Je vais regarder ce soir",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NNeitag",
+        "name": "Ngolo Neitag",
+        "date": "2026-03-25",
+        "text": "@Zoeillle Intéressé aussi !  Merci pour le boulot",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@NicolaCTN @pierre240tech Of course",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@antoineb_dev ME DIT PAS OMG\n\nJe l'ai jamais use mais j'ai repris un design-guidelines/ui que j'ai imaginé pour une app métier au taff qui est apple like.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@AntoineMaker 4h",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@betaepsilonnu42 Enable Banking permet + de 2000 banques dans le monde",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@cryptotribe_net Oui",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@RobertLafondu7 Bah fait mieux en 2h en mode chill trou du cul.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@RiyoEcom Enable Banking",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@Tasketonegai En production tu peux lier tes comptes pour ne pas avoir à payer",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-03-25",
+        "text": "@LucDeCuiCui Ouep",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HEN-8zeWYAADpI1.jpg",
+      "localFilename": "2036611175467634910_1.jpg"
+    }
+  ]
+}

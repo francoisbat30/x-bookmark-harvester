@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:15.552Z",
+  "tweetId": "2043321284113670594",
+  "post": {
+    "url": "https://x.com/bridgemindai/status/2043321284113670594",
+    "author": {
+      "handle": "bridgemindai",
+      "name": "BridgeMind"
+    },
+    "date": "2026-04-12",
+    "text": "CLAUDE OPUS 4.6 IS NERFED.\n\nBridgeBench just proved it.\n\nLast week Claude Opus 4.6 ranked #2 on the Hallucination benchmark with an accuracy of 83.3%.\n\nToday Claude Opus 4.6 was retested and it fell to #10 on the leaderboard with an accuracy of only 68.3%.\n\nA 98% increase in hallucination.\n\nhttps://t.co/ttnnwBYerW just confirmed that Claude Opus 4.6 has reduced reasoning levels and is nerfed.",
+    "thread": [
+      {
+        "id": "2043321284113670594",
+        "text": "CLAUDE OPUS 4.6 IS NERFED.\n\nBridgeBench just proved it.\n\nLast week Claude Opus 4.6 ranked #2 on the Hallucination benchmark with an accuracy of 83.3%.\n\nToday Claude Opus 4.6 was retested and it fell to #10 on the leaderboard with an accuracy of only 68.3%.\n\nA 98% increase in hallucination.\n\nhttps://t.co/ttnnwBYerW just confirmed that Claude Opus 4.6 has reduced reasoning levels and is nerfed."
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HFtU4B6XEAABYtr.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 6533,
+      "retweets": 641,
+      "replies": 469,
+      "views": 1004451
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HFtU4B6XEAABYtr.jpg",
+      "localFilename": "2043321284113670594_1.jpg"
+    }
+  ]
+}

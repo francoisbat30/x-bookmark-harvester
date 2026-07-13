@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:10:43.560Z",
+  "tweetId": "2056966314942689483",
+  "post": {
+    "url": "https://x.com/Amank1412/status/2056966314942689483",
+    "author": {
+      "handle": "Amank1412",
+      "name": "Aman"
+    },
+    "date": "2026-05-20",
+    "text": "Google just released their craziest update ever. \n\nThe OLD SEO method is so dead. https://t.co/ZOxgLFBJGQ",
+    "thread": [
+      {
+        "id": "2056966314942689483",
+        "text": "Google just released their craziest update ever. \n\nThe OLD SEO method is so dead. https://t.co/ZOxgLFBJGQ"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2056966091965100032/vid/avc1/1276x720/rQzTDdwDWGImV8tO.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2056966091965100032/img/u834asX82-5E-KyF.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 2886,
+      "retweets": 164,
+      "replies": 95,
+      "views": 525745
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2056966091965100032/img/u834asX82-5E-KyF.jpg",
+      "localFilename": "2056966314942689483_1_poster.jpg"
+    }
+  ]
+}

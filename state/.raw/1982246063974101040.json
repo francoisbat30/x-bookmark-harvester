@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:48.890Z",
+  "tweetId": "1982246063974101040",
+  "post": {
+    "url": "https://x.com/AravSrinivas/status/1982246063974101040",
+    "author": {
+      "handle": "AravSrinivas",
+      "name": "Aravind Srinivas"
+    },
+    "date": "2025-10-26",
+    "text": "Perplexity Finance has enough daily usage that we’ve decided to put it on the sidebar for easy access. Enjoy! https://t.co/GrDusQdYoA",
+    "thread": [
+      {
+        "id": "1982246063974101040",
+        "text": "Perplexity Finance has enough daily usage that we’ve decided to put it on the sidebar for easy access. Enjoy! https://t.co/GrDusQdYoA"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G4JaSeoWYAA9wGy.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 3113,
+      "retweets": 110,
+      "replies": 181,
+      "views": 208277
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G4JaSeoWYAA9wGy.jpg",
+      "localFilename": "1982246063974101040_1.jpg"
+    }
+  ]
+}

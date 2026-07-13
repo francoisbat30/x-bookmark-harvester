@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-06-30T10:00:33.139Z",
+  "fetchedAt": "2026-07-13T07:09:11.922Z",
   "tweetId": "2056839665551024474",
   "post": {
     "url": "https://x.com/HappyyPablo/status/2056839665551024474",
@@ -9,26 +10,986 @@
       "name": "Shubham Sharma"
     },
     "date": "2026-05-19",
-    "text": "open sourcing Marlin-2B 🐟\na tiny VLM to extract structured information from videos\n\nMarlin is finetuned for two questions devs want to ask in their videos: what is happening, and when?\n\nBest open model in its weight class, competitive with Gemini-2.5-flash at only 2B params 🧵",
+    "text": "open sourcing Marlin-2B 🐟\na tiny VLM to extract structured information from videos\n\nMarlin is finetuned for two questions devs want to ask in their videos: what is happening, and when?\n\nBest open model in its weight class, competitive with Gemini-2.5-flash at only 2B params 🧵\n\nMarlin was trained on two modes:\n\n1. marlin.caption() returns a structured Scene + Events JSON with second-precise timestamps.\n\nYou can use it to caption ig reels, index a video library or give your agent context of what happened and when in a video feed\n\n2. marlin.find() returns (start, end) timestamps for any natural-language query over a video.\n\nfast enough to run inline in an agent loop, you can use it to locate sub-second moments in videos\n\nstrongest open model in its weight class on dense captioning (DREAM-1K, CaReBench), beating Tarsier-2 7B/34B and competitive with Gemini-2.5-flash. \n\nOn temporal grounding (TimeLens-Bench) it sits a few points behind TimeLens-8B and close to Gemini-2.5-pro. https://t.co/LIx2K9gCYU\n\nBack story: @rethinkNow348 and I were building video editing agents and using Gemini-2.5-Flash to parse ig reels for events. Kept hitting content filters on benign clips so we put a month and two H100s into this side quest and this is the result :)\n\n🤗 Model: https://t.co/5ZnEinxCrI \n🎮 Hosted Demo: https://t.co/NgWszFa6ti\n\nTraining recipe + a new dense-captioning/grounding benchmark dropping soon!!",
+    "thread": [
+      {
+        "id": "2056839665551024474",
+        "text": "open sourcing Marlin-2B 🐟\na tiny VLM to extract structured information from videos\n\nMarlin is finetuned for two questions devs want to ask in their videos: what is happening, and when?\n\nBest open model in its weight class, competitive with Gemini-2.5-flash at only 2B params 🧵"
+      },
+      {
+        "id": "2056839669279785094",
+        "text": "Marlin was trained on two modes:\n\n1. marlin.caption() returns a structured Scene + Events JSON with second-precise timestamps.\n\nYou can use it to caption ig reels, index a video library or give your agent context of what happened and when in a video feed"
+      },
+      {
+        "id": "2056839673193082954",
+        "text": "2. marlin.find() returns (start, end) timestamps for any natural-language query over a video.\n\nfast enough to run inline in an agent loop, you can use it to locate sub-second moments in videos"
+      },
+      {
+        "id": "2056839678427623430",
+        "text": "strongest open model in its weight class on dense captioning (DREAM-1K, CaReBench), beating Tarsier-2 7B/34B and competitive with Gemini-2.5-flash. \n\nOn temporal grounding (TimeLens-Bench) it sits a few points behind TimeLens-8B and close to Gemini-2.5-pro. https://t.co/LIx2K9gCYU"
+      },
+      {
+        "id": "2056839681330004127",
+        "text": "Back story: @rethinkNow348 and I were building video editing agents and using Gemini-2.5-Flash to parse ig reels for events. Kept hitting content filters on benign clips so we put a month and two H100s into this side quest and this is the result :)"
+      },
+      {
+        "id": "2056839684131852522",
+        "text": "🤗 Model: https://t.co/5ZnEinxCrI \n🎮 Hosted Demo: https://t.co/NgWszFa6ti\n\nTraining recipe + a new dense-captioning/grounding benchmark dropping soon!!"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/2056829100376104961/vid/avc1/1080x1080/QkrmTplqiqUCC5ft.mp4"
+        "url": "https://video.twimg.com/amplify_video/2056829100376104961/vid/avc1/1080x1080/QkrmTplqiqUCC5ft.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2056829100376104961/img/1DuCqgGJ3r30EvIK.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HItZSjGbgAA7cIs.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HItafNQa4AASgcs.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HItayfybMAAn5ZP.jpg"
       }
     ],
     "metrics": {
-      "likes": 4606,
-      "retweets": 520,
-      "replies": 135,
-      "views": 308031
+      "likes": 4643,
+      "retweets": 527,
+      "replies": 126,
+      "views": 321789
     },
     "comments": [
+      {
+        "handle": "HappyyPablo",
+        "name": "Shubham Sharma",
+        "date": "2026-05-20",
+        "text": "We tried to make sure it’s pretty accurate on finding information but the video limit is 2mins (you can change that in the model card but longer videos drop fps). An interesting experiment i tried with a claude agent was give it this model to use as its “eyes” and the agent could find stuff even in ~1 hr long clips :)",
+        "likes": 13,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "w_giulius",
+        "name": "Windy",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo I have so many in mind. Just some:\n\n1. Natural language search engine in videos \n2. Integrations with video editing apps \n3. Automated video chaptering\n4. Automated security camera reviews \n5. Knowledge graph building from video (this is crazy)\n\nAnd many more",
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HappyyPablo",
+        "name": "Shubham Sharma",
+        "date": "2026-05-20",
+        "text": "@w_giulius Hey! What’s your use case?",
+        "likes": 6,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HappyyPablo",
+        "name": "Shubham Sharma",
+        "date": "2026-05-20",
+        "text": "@FearL0rd No but a lot of folks are requesting a claude/agent skill for this so we’ll work on that next too",
+        "likes": 5,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SamuelBeek",
+        "name": "sam",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo @_raghuvamsi Could be cool for your skill @LouiseDSadeleer",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HappyyPablo",
+        "name": "Shubham Sharma",
+        "date": "2026-05-20",
+        "text": "@parakh08 Do try and let me know brother! You guys have a solid product 🙌🏻🙌🏻",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "pHequals7",
+        "name": "pH",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo this is amazing guys! will try to port it to mlx/coreml",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HappyyPablo",
+        "name": "Shubham Sharma",
+        "date": "2026-05-20",
+        "text": "@PratikRai0101 Have fun! Hit me up with any feedback you have 😊",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "degenpark_eth",
+        "name": "degenpark.base.eth",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo the temporal grounding should let agents timestamp events in video feeds without extra parsing layers after inference.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Madhav_2077",
+        "name": "Madhav Agarwal",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo 2B params competing with Gemini Flash… small fish eating the big pond 🐟 open source really said hold my beer",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HappyyPablo",
+        "name": "Shubham Sharma",
+        "date": "2026-05-20",
+        "text": "@techfusionjb We hope yes :) \n\nWe also distilled gemini3-flash for our timestamp grounded data but used a couple of filter layers and CoT tricks to accurately label these videos.",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HappyyPablo",
+        "name": "Shubham Sharma",
+        "date": "2026-05-20",
+        "text": "@paulcx We had some sports highlights into our data mixture but not sure how accurate would be, do try and hit me up if you face any difficulties!!",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
       {
         "handle": "choucisa",
         "name": "choucisan",
         "date": "2026-06-27",
-        "text": "@HappyyPablo If you want to use NBA games to train your long video understanding model, you can follow this project🔥：\nhttps://t.co/VeVvqp1G6t"
+        "text": "@HappyyPablo If you want to use NBA games to train your long video understanding model, you can follow this project🔥：\nhttps://t.co/VeVvqp1G6t",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "404amansa",
+        "name": "Aman Sa",
+        "date": "2026-05-21",
+        "text": "@HappyyPablo It's so cool\nI would definitely use it for any of the projects I'm going to do with videos!!!\n@utk7arsh Seamless might be cheaper to run 😆",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "outboundman",
+        "name": "Jasper Vanu | Founder's GTM 🦊",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo the specificity angle is clever. training for just what/when instead of everything makes this tractable at 2B. smart constraint",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DennisonBertram",
+        "name": "Dennison",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Wow this is incredibly useful!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SurajPrasad527",
+        "name": "Suraj Prasad",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo I used it on my local device and it is more than amazing. Excited to see more updates on this.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "conroywhitney",
+        "name": "YOЯNOC",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Thanks for sharing this. I'm excited to try it out. Love the local, uncensored, hyper-specific nature of it. I hope more projects follow in your footsteps!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "parakh08",
+        "name": "Parakh Agarwal",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Pretty cool, when that event happened is so fucking difficult for the VLM models to answer directly rn. \nI'll play around and see if we can actually replace gemini in our workflows with this, would save us crazy money.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nobita_n0bii",
+        "name": "nobita nobi",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Impressive write the blogs ASAP!!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zak_ark",
+        "name": "ZakArk",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo cant wait to use this to tag all the 800 videos in my memes folder and be able to find any video on keywords such as \"robot dies on stage\"",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mifarion",
+        "name": "M. Farahmand",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Fine-tuning put to good use",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "realreyshady",
+        "name": "rey",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo crazyyy work! congratulations @HappyyPablo on this really amazing work!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ParasMadan9",
+        "name": "Paras Madan",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Hey Shubham, would love to connect and distribute it across my audiences. The audience that I have is pretty much aligned on the same lines, and they would love to use the model, happy to connect and discuss!\n\nDmed you",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "anjanab_",
+        "name": "Anjana",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Marlin-2B looks like a huge win for local inference. Getting temporal grounding and dense captions at only 2B parameters is serious stuff. If it really competes with Gemini-2.5-Flash, I can finally run heavy video analysis on my own hardware without those massive API bills.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "niieani",
+        "name": "Bazyli",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Looks great. I would love to run it in the background on all my family videos - new ones and ones I've collected over the years, then have an agent continuously create little story arcs, and auto-edit together mini-movies from our lives.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pshishodiaa",
+        "name": "Prashant Shishodia",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Congrats!! Lfggg",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "allwefantasy",
+        "name": "WilliamZhu",
+        "date": "2026-05-29",
+        "text": "@HappyyPablo @mcnatch Marlin-2B is great for extraction, but the real archive challenge is post-extraction cross-modal querying—like finding \"1950s films at location X with dialogue Y\" across DBs and video files. Most setups fail here. How is BFI handling this?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "muntz28554",
+        "name": "Simon Muntz",
+        "date": "2026-05-29",
+        "text": "@HappyyPablo 👋I'm trying to use Marlin on my mb air m4, but I could not use fast GPU/MPS acceleration in this setup. It fell back to a slower Torch path, and PyTorch reported the MPS backend is unavailable for this macOS/PyTorch path. is there a way to use marlin on a remote GPU machine?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NischayJoshi8",
+        "name": "Nischay",
+        "date": "2026-05-24",
+        "text": "@HappyyPablo Temporal grounding at 2B is the hard part ; most models fall apart there. We benchmarked Gemini 2.5 Flash on scene-level reasoning at scale if the eval methodology is useful. https://t.co/TExZudfemI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Scarleted634",
+        "name": "David David",
+        "date": "2026-05-24",
+        "text": "@HappyyPablo is there an alternative for image inputs ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "avaisaziz",
+        "name": "Avais Aziz",
+        "date": "2026-05-21",
+        "text": "@HappyyPablo Nice release. 2B VLM with structured JSON captions + second-level timestamps and natural language temporal grounding at that scale is solid. Competitive with Gemini-2.5-Flash on DREAM-1K and TimeLens-Bench is impressive for the size.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MidnightApes",
+        "name": "🌑🦧",
+        "date": "2026-05-21",
+        "text": "@HappyyPablo can it do livestream?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CastrikoEdit",
+        "name": "Castriko",
+        "date": "2026-05-21",
+        "text": "@HappyyPablo @w_giulius Mi caso de uso seria utilizarlo para ligarlo a un agente iA de prompt de seedance para replicar videos. Asi le paso un video, lo ve y le saca el prompt de que sucede en cada segundo.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NathanBurley25",
+        "name": "Nathan Burley",
+        "date": "2026-05-21",
+        "text": "@HappyyPablo This is awesome but any chance of running long videos (30-60mins) and grab audio via S2T?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "monsta_zo",
+        "name": "June",
+        "date": "2026-05-21",
+        "text": "@HappyyPablo Awsome",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dakshanand123",
+        "name": "Daksh",
+        "date": "2026-05-21",
+        "text": "@HappyyPablo @HappyyPablo is it no longer open? HF says it is gated and needs access",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ramitkoul",
+        "name": "Ramit Koul",
+        "date": "2026-05-21",
+        "text": "@HappyyPablo tiny models that handle video well are exciting. not every workflow can afford a giant model.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kumardeepam",
+        "name": "Kumar",
+        "date": "2026-05-21",
+        "text": "@HappyyPablo ❤️‍🔥❤️‍🔥❤️‍🔥 thanks for sharing",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Israeli2Amit",
+        "name": "Amit Israeli",
+        "date": "2026-05-21",
+        "text": "@HappyyPablo Looks very cool!! Is there a paper on it?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-05-21",
+        "text": "Yes, but with tweaks for Apple Silicon.\n\nOn a MacBook Pro (M-series), swap `device_map=\"cuda\"` for `device_map=\"mps\"` (or `\"auto\"`), and install PyTorch with MPS support via the official instructions.\n\nIt should run on 16GB+ unified memory, but expect slower inference than on an RTX 4090—great for testing smaller clips. Full details in the model card. Let me know how it goes!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "marcos_placona",
+        "name": "Marcos Placona",
+        "date": "2026-05-21",
+        "text": "@grok @HappyyPablo @grok can I run this on a MacBook Pro?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-05-21",
+        "text": "To run Marlin-2B locally:\n\n- Needs a single consumer GPU (e.g. RTX 4090 or similar).\n- `pip install \"transformers>=5.7.0\" \"torch>=2.11.0\" torchcodec \"qwen-vl-utils>=0.0.14\" av pillow`\n\nCode:\n```python\nimport torch\nfrom transformers import AutoModelForCausalLM\nmarlin = AutoModelForCausalLM.from_pretrained(\n \"NemoStation/Marlin-2B\", trust_remote_code=True,\n dtype=torch.bfloat16, device_map=\"cuda\"\n)\nmarlin.compile()\nresult = marlin.caption(\"your_video.mp4\") # or .find(video, event=\"query\")\n```\n\nFull details on the HF model card.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "marcos_placona",
+        "name": "Marcos Placona",
+        "date": "2026-05-21",
+        "text": "@HappyyPablo @grok what do I need to run this locally?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "prsh_v0",
+        "name": "Parshva Gala",
+        "date": "2026-05-21",
+        "text": "@HappyyPablo is it cheaper then 2.5 flash?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "utk7arsh",
+        "name": "Utkarsh",
+        "date": "2026-05-21",
+        "text": "@404amansa @HappyyPablo Seems promising on the bench",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "goldensurferx",
+        "name": "Alex Goncharov",
+        "date": "2026-05-21",
+        "text": "@HappyyPablo Hey! How fast it is for 1 hour video?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Increment_amir",
+        "name": "Amir Mansaray",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo This is very cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-05-20",
+        "text": "@mariomoschetta_ @HappyyPablo Sì, posso aiutarti a montare video! Dimmi i clip/link, descrivi le scene da tagliare e dove inserire i B-roll giusti: ti do i comandi ffmpeg precisi o elaboro il montaggio passo per passo nel sandbox. Che video hai in mente?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mariomoschetta_",
+        "name": "Mario Moschetta",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo @grok può essere usato per montare video? Magari scegliere le clip e mettere i giusti B roll nel momento giusto?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "younesistaken",
+        "name": "younẽs",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo if this works, vidova will never be the same",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AdhyaayK",
+        "name": "Adhyaay Karnwal",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo This is actually insane for video model training",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dhruvtyagiii1",
+        "name": "dhruvtyagiii",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo good stuff guys!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "synthellanexus",
+        "name": "Synthella",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo The important trend here isn't just video understanding. It's how much capability is starting to fit into increasingly smaller models.\nReally impressive work getting this level of multimodal performance into a 2B open model.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chavan_sanika_",
+        "name": "sanika chavan",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Pretty cool, excited to test this on a few projects. Tiny VLMs for structured extraction are going to be really useful!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "someavocados",
+        "name": "Kushagra Agarwal",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo great use in a tonne of agentic AI applications!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "getpochi",
+        "name": "Pochi",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo small open weight VLMs are quietly the BYOK story for video!! Beats sending frames to a closed API for anything privacy Adjacentt\n\nthe what/when split is a nice eval primitive too",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ImRicoAi",
+        "name": "Rico Solano",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo two questions is smart scope. contractors still won't film anything though. extraction solves the easy 5%, adoption is the hard 95%.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aaronmakhoffman",
+        "name": "Aaron Mak Hoffman",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo I want to use this for my b-roll library to so visual search! Can it process any length of video?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "heynavtoor",
+        "name": "Nav Toor",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo the trend of tiny models punching way above their weight keeps proving that you don't need a trillion parameters to solve most real world problems, 2B doing what gemini flash does means most people are overpaying for compute",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "happy_ships",
+        "name": "Abhishek Srivastava",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo So the content filters were the main blocker for your agent work? Was it mostly about detecting sensitive content, or something else entirely?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cKfqCPFMWPTfpjx",
+        "name": "火内白莲",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo 插眼",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sriramkiron",
+        "name": "Sriram Kiron",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo great work",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "galaboii",
+        "name": "Vineet Gala",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo looks solid! will definitely try",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SurajPrasad527",
+        "name": "Suraj Prasad",
+        "date": "2026-05-20",
+        "text": "@rethinkNow348 @HappyyPablo I  used this model aryan, on data labelling tasks  for computer use agents aryan, and the results are pretty amazing. Would love to discuss this with you.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SurajPrasad527",
+        "name": "Suraj Prasad",
+        "date": "2026-05-20",
+        "text": "@samarthg1911 @HappyyPablo Yeah this would be real unlock. Waiting for this @HappyyPablo",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Tepafray",
+        "name": "Max Tepafray 😈Resident Juxtubus💭",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo What's the speed on this? Could be interesting for a realtime harness. Been looking for good candidates.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nurvai_ai",
+        "name": "Nurvai - The Data Layer for Physical AI",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Interesting that a small VLM can already get close to much larger models for temporal understanding. Feels like structured video reasoning is finally becoming efficient. What kinds of failure modes still show up most at this scale?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "samarthg1911",
+        "name": "Sammy",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo How well does it work on UI screenshots and captioning them?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "realfipso",
+        "name": "fipso",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Ist Crazy how everything the goyim want to see fits in 2b",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GioGigiX",
+        "name": "Gio",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo What a time to be alive",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-05-20",
+        "text": "@7anac @HappyyPablo @huggingface Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/6KuYjM4OLR",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "7anac",
+        "name": "janac",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo @huggingface @grok what hw do i need to run this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KaitoAura",
+        "name": "Aura❄️",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo this tiny vlm actually solves the exact pain we had with gemini filrers, love the focus on timestamps too",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "adi_myth",
+        "name": "Aditya Mishra",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo @huggingface Seems like it skips embedding generation and retrieval and looks up clips in a video at runtime. How does it perform if I have thousands of videos and I want to lookup the exact scene against a user query?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fakeInkDr",
+        "name": "Dr. Fake Ink",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo This is so cool! I have been wanting something like this for a little app I'm working on. Awesome!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mkrn",
+        "name": "Mark Sergienko",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo What are the hardware requirements? This is exactly what the world needs!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cshuszka",
+        "name": "Csaba @FollowThePattern",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Is it open model?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Bankgood18",
+        "name": "Bankgood",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Can I using it for 10 minutes video ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Bankgood18",
+        "name": "Bankgood",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Maximum duration ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jaysidd",
+        "name": "Pakhandi billa",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo @MeetSiddhapura we can try this for our project ? The one we discussed few days back!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "denverrxx",
+        "name": "Victor",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo @huggingface think you could incorporate real time video streaming ingestion?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "saitama9ss",
+        "name": "Hamza",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Does it work with still images? (scene description)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "boulatbek",
+        "name": "bk",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo ig reel processing is perhaps the best use case. to track reels to discover features leading to virality, track trends, change in account behavior etc? where did you get data to ground like video and its description to train on?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "QiangBao86",
+        "name": "Bell.BQ",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo @Mankaran32 give more usecase，explore ideas",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "somedudeokay",
+        "name": "somedude",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Can it do live video? 🙏",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fildotai",
+        "name": "fil",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo love this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xxaxxdxxm",
+        "name": "A",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Dam bro this does help. Lol can you make a os model that is able to post onto social media platforms without apis",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UrbiGT",
+        "name": "Urbanonymous",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Really cool, there are a bunch of companies that wanted to automate clipping, i.e. F1, football etc. You should try to connect with them.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nkapila6",
+        "name": "Nikhil Kapila",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Very cool. I wonder what the pipeline looks like.\n\nI was thinking of building an orchrestration around a VLM to do VideoRAG of some sort. But it seems that the way you've trained it abstracts the whole pipeline out? Gotta have a look.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hackyroot",
+        "name": "Pratik Parmar",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Looks promising!\n\nWhat's the max video length it supports reliably?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "levelheaded_94",
+        "name": "Abhishek Anand",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Amazing work! Congrats!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "L0GYKAL",
+        "name": "L0GYKAL.gwei",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Insane, no need for pre-generation of embeddings🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Cursor0P",
+        "name": "cursor",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo what is the license? for research purpose only or can be used for commercial use?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "intelligroow",
+        "name": "Ethan Med",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Crazy!\n\nGreat work",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shiba14857",
+        "name": "Manash",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo @huggingface Great work",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "superposition_t",
+        "name": "Tarun Arora",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo perfect! I ll try using this for my car-parking  finder.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "anindyadeeps",
+        "name": "Anindyadeep",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Amazing work!!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Michaelliav99",
+        "name": "Michael Liav",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo Looks good will try it on a few use cases",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Protonnd",
+        "name": "Proton",
+        "date": "2026-05-20",
+        "text": "@HappyyPablo This is amazing.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HappyyPablo",
+        "name": "Shubham Sharma",
+        "date": "2026-05-20",
+        "text": "@paulcx We’ve only hosted inference for videos &lt;2mins. Are your videos longer?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
       }
     ]
-  }
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2056829100376104961/img/1DuCqgGJ3r30EvIK.jpg",
+      "localFilename": "2056839665551024474_1_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HItZSjGbgAA7cIs.jpg",
+      "localFilename": "2056839665551024474_2.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HItafNQa4AASgcs.jpg",
+      "localFilename": "2056839665551024474_3.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HItayfybMAAn5ZP.jpg",
+      "localFilename": "2056839665551024474_4.jpg"
+    }
+  ]
 }

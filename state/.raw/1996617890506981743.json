@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:41.815Z",
+  "fetchedAt": "2026-07-13T07:07:46.340Z",
   "tweetId": "1996617890506981743",
   "post": {
     "url": "https://x.com/GeminiApp/status/1996617890506981743",
@@ -10,6 +11,12 @@
     },
     "date": "2025-12-04",
     "text": "See your sci-fi inventions through a technical lens.\n\nOpen the Gemini app and type: “Generate an ultra-detailed, hyperrealistic exploded technical view of ___________.”\n\nDrop your outputs in the replies! ↓ https://t.co/FhTQxye8hY",
+    "thread": [
+      {
+        "id": "1996617890506981743",
+        "text": "See your sci-fi inventions through a technical lens.\n\nOpen the Gemini app and type: “Generate an ultra-detailed, hyperrealistic exploded technical view of ___________.”\n\nDrop your outputs in the replies! ↓ https://t.co/FhTQxye8hY"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,18 +24,864 @@
       }
     ],
     "metrics": {
-      "likes": 4725,
-      "retweets": 455,
-      "replies": 504,
-      "views": 2716082
+      "likes": 4695,
+      "retweets": 449,
+      "replies": 495,
+      "views": 2717032
     },
     "comments": [
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-12-05",
+        "text": "@iamfakhrealam We can't take our eyes off this one. The transparency layers are incredible",
+        "likes": 12,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "olidm84",
+        "name": "Miguel Olid",
+        "date": "2025-12-13",
+        "text": "@GeminiApp https://t.co/tYBVu4n7CW",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-12-05",
+        "text": "@LewateAshitosh @NanoBanana Who knew a clicky pen had so much going on under the hood? This came out great",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-12-05",
+        "text": "@NotPhilSledge 10/10 design. No notes",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-12-05",
+        "text": "@lopes_mq The detail on the ventricles is absolutely brilliant. Incredible render quality",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-12-04",
+        "text": "@TC_Poole @TC_Poole Hi there. Thanks for sharing this issue, that's not an ideal experience. Our team is looking into this issue. In the meantime, if your image editing is unsuccessful, please try rephrasing your prompt and try again later. Thank you!",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "howitzer86",
+        "name": "Spite Machine",
+        "date": "2025-12-12",
+        "text": "@iamfakhrealam @GeminiApp This is super inaccurate.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CyberBlox",
+        "name": "Scott Williams",
+        "date": "2025-12-11",
+        "text": "@GeminiApp https://t.co/iLITSTc5Uq",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jurgenappelo",
+        "name": "Jurgen Appelo",
+        "date": "2025-12-16",
+        "text": "@GeminiApp Xmas tree https://t.co/hSU1mkud0v",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Doriananacodo",
+        "name": "MARK BURGESS ©️",
+        "date": "2025-12-14",
+        "text": "@Shockwave_App @GeminiApp Just Ass'ing around.. https://t.co/BQYs9XO7RL",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Brianw951",
+        "name": "White_Noise369",
+        "date": "2025-12-13",
+        "text": "@GeminiApp https://t.co/Gv2JS252pC",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "breakroom_nyc",
+        "name": "breakroom: NYC Job App",
+        "date": "2025-12-13",
+        "text": "@GeminiApp Need a job? Check out breakroom!🗽It lets NYCers share real salaries and workplace experiences. We have 50k+ businesses across the city so you can see what people actually make and read authentic stories.📍Neighbors helping neighbors.🤝 Link in bio!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wesholing",
+        "name": "Wes H☀️ling",
+        "date": "2025-12-12",
+        "text": "@GeminiApp sending this to production, getting a six-foot shoe, thanks AI https://t.co/Rw8X7aIY4s",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "con2cohones",
+        "name": "Con 2",
+        "date": "2025-12-11",
+        "text": "@endotheremin @GeminiApp fuck yeah, awesome image. Still failed at rendering text accurately, which is a known issue for AI. So bringing up the \"amazing\" image without acknowledging it still fails at text rendering is not being 100% honest.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TheGlitterJojo",
+        "name": "Glitter ✨",
+        "date": "2025-12-11",
+        "text": "@GeminiApp Ooo... 👀\n👢✨\n(*quietly ponders a comment about lycans from a year prior*)\n...plus, she flies away on boots.\n...the wolf alien has wings.\n#Jupiter Ascending (2015) - Your Majesty Scene (10/10) | @Movieclips https://t.co/BqWRbBeCmg via @YouTube",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TomReichertWA",
+        "name": "AgentTom",
+        "date": "2025-12-11",
+        "text": "@serrena_shen @GeminiApp lol i like this",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AnkitRao_003",
+        "name": "Dr Ankit Yadav",
+        "date": "2025-12-10",
+        "text": "@justsomeguy1020 @GeminiApp harry potter 🤍",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AllenConno37880",
+        "name": "Connor Allen",
+        "date": "2025-12-10",
+        "text": "@GeminiApp FR, tech makes my brain buzz! 📖 I once built a DIY drone and it was epic! Now, I realize the potential of every design.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UmarKhan1187731",
+        "name": "Umar Khan",
+        "date": "2025-12-10",
+        "text": "@GeminiApp On",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-12-05",
+        "text": "@natttureeee Nothing hits the spot like a cold glass of H2O, CO2, and Phosphoric Acid",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-12-05",
+        "text": "@Frankdroid77 Who knew anatomy class could look this sci-fi? Awesome visualization",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-12-05",
+        "text": "@benjilona The 'Bio-synthetic Fur Layer' is top-tier camouflage.  Brilliant concept",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-12-05",
+        "text": "@CsarPenna1 Intergalactic League ready. This concept is absolutely out of this world",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-12-05",
+        "text": "@per_arneng You really brought this concept to life with the schematic style. Well done",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TheDarknessoft8",
+        "name": "The Darkness of the King",
+        "date": "2026-05-28",
+        "text": "@erildox @GeminiApp @GSHOCK_OFFICIAL Gbd-h1000...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
       {
         "handle": "susan_mary30603",
         "name": "Mary Susan",
         "date": "2026-04-15",
-        "text": "@willyRFC @GeminiApp Hi William"
+        "text": "@willyRFC @GeminiApp Hi William",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Scott206",
+        "name": "Delawhere?",
+        "date": "2025-12-29",
+        "text": "@GeminiApp https://t.co/XCETYQuxIn",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nonamesquid1",
+        "name": "NoName-Squid",
+        "date": "2025-12-23",
+        "text": "@GeminiApp How can this be \"your sci-fi invention\" when a freaking computer is doing it for you?!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NathanBoyd45987",
+        "name": "Nathan Boyd",
+        "date": "2025-12-23",
+        "text": "@GeminiApp NGL, that sounds epic! 🤖 Can't wait to try!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GardenCannabis",
+        "name": "Personal Cannabis",
+        "date": "2025-12-23",
+        "text": "@GeminiApp https://t.co/mTA7KCEBEH",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sallystoybox",
+        "name": "Sallystoybox",
+        "date": "2025-12-22",
+        "text": "@GeminiApp Sally's Toy Box's Restraint System. https://t.co/fFAO6JPXTO",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ChristineL90539",
+        "name": "Christine Lopez",
+        "date": "2025-12-22",
+        "text": "@GeminiApp NGL, tech can amplify our dreams ⚖️ But, it could also limit creativity. Balance is key!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LordXFromDaVoid",
+        "name": "Lord X",
+        "date": "2025-12-22",
+        "text": "@GeminiApp Jesus fucking christ, THAT'S WHAT SONIC USES!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grazer_razor",
+        "name": "grazer-razor",
+        "date": "2025-12-22",
+        "text": "@GeminiApp no, thanks. posting true creativity instead :)\n\nhttps://t.co/ZvXXyfEO5H",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RealCaptGeech",
+        "name": "RealCaptGeech",
+        "date": "2025-12-20",
+        "text": "@GeminiApp #PerpetualMotionMachine https://t.co/tnlmTYMXVb",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Squirrel3218",
+        "name": "Squirrel (he/him/his)",
+        "date": "2025-12-19",
+        "text": "@GeminiApp Those jet-powered sneakers will leave a trail of broken leg bones.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JimHeath2001",
+        "name": "Jim Heath",
+        "date": "2025-12-17",
+        "text": "@GeminiApp Fuck Gemini. I don't use anything I can't uninstall.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jordan941941",
+        "name": "Jordan Stangle",
+        "date": "2025-12-17",
+        "text": "@GeminiApp UAHL South Jersey Honey Badgers beer league hockey team mascot https://t.co/ugLAPnb9Pu",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TitonFounder",
+        "name": "Titon Founder",
+        "date": "2025-12-16",
+        "text": "@GeminiApp Love this idea! Seeing these sci-fi concepts visualized technically is a fantastic way to spark creativity. I'm thinking about the design and manufacturability aspects already!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "XieRuiwei888999",
+        "name": "ruiwei xie",
+        "date": "2025-12-16",
+        "text": "@GeminiApp 最骚女人，免费，下面是她微信跟手机号码\n请尽快找她\n15502357386",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GrubelicMi78778",
+        "name": "michael Grubelic",
+        "date": "2025-12-16",
+        "text": "@TrueCoke @GeminiApp AI or ADHD",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CarlosSala52671",
+        "name": "Carlos Salazar",
+        "date": "2025-12-16",
+        "text": "@GeminiApp Or you could just, draw it yourself",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fantasyverdictv",
+        "name": "Fantasy Verdict",
+        "date": "2025-12-14",
+        "text": "@GeminiApp AI Sports Analyst https://t.co/nvRGOQ1cld",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "joan_wilso67742",
+        "name": "Joan Wilson",
+        "date": "2025-12-14",
+        "text": "@GeminiApp OMG, birthday vibes are the best! 🎂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LeahSpence91282",
+        "name": "Leah Spencer",
+        "date": "2025-12-14",
+        "text": "@GeminiApp Two sides to tech creativity ⚖️. Great ideas vs. feasibility. Balance both!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BlakeLewis88288",
+        "name": "Blake Lewis",
+        "date": "2025-12-14",
+        "text": "@GeminiApp I once designed a crazy robot! 🤖 It felt surreal, NGL!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SharonSpen40754",
+        "name": "Sharon Spencer",
+        "date": "2025-12-14",
+        "text": "@GeminiApp wow",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Doriananacodo",
+        "name": "MARK BURGESS ©️",
+        "date": "2025-12-14",
+        "text": "@GeminiApp Just in case the Zombie apocalypse does happen, you'll need one of these... https://t.co/PHjQYnXkMu",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KhamisFinance",
+        "name": "Drake",
+        "date": "2025-12-14",
+        "text": "@GeminiApp This thread was insane to go through! And people think were in a bubble! No imagination on the bears!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "3lennyj3",
+        "name": "len",
+        "date": "2025-12-14",
+        "text": "@GeminiApp 92.5\"",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GayGodSparkles",
+        "name": "Spencer Carter 🏳️‍🌈🇺🇸",
+        "date": "2025-12-14",
+        "text": "@GeminiApp Generate an ultra-detailed, hyperrealistic exploded technical view of artificial aortic arch replacement surgery https://t.co/4jDlPbiVAJ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CBAStepUp",
+        "name": "Unions=Power&Step Up",
+        "date": "2025-12-14",
+        "text": "@GeminiApp stop all the ads for Gemini",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Bymyspirit38441",
+        "name": "BymyspiritSaysthebronze",
+        "date": "2025-12-13",
+        "text": "@GeminiApp Generate an ultra-detailed, hyper realistic exploded technical view of  a 3d printer” https://t.co/6tQRXpuDpe",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CrazyKens",
+        "name": "Crazy Ken 🔴 #Shadowbanned",
+        "date": "2025-12-13",
+        "text": "@GeminiApp Neanderthal.\nI can show you how to fly and the apparatus is nano small so you can't see it. Makes the iron man suit look Neanderthal",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HaydenK2791",
+        "name": "Hayden Kennedy",
+        "date": "2025-12-13",
+        "text": "@GeminiApp Great share! 🔍 TBH, I'm curious about your inventions! What did you generate?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WayneColem92172",
+        "name": "Wayne Coleman",
+        "date": "2025-12-13",
+        "text": "@GeminiApp Totally on board! 🌌 I detail my ideas clearly, and it works well. Let’s share our favorites!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NKelley35705",
+        "name": "Nicholas Kelley",
+        "date": "2025-12-13",
+        "text": "@GeminiApp That sounds epic! I’m in! 😍🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lmqlai",
+        "name": "Terafab",
+        "date": "2025-12-12",
+        "text": "@GeminiApp https://t.co/9emqdBBNcg #DomainForSale",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ghotoman_x",
+        "name": "ghotoman🛡️",
+        "date": "2025-12-12",
+        "text": "@GeminiApp going to need one for a self-tying shoelace mechanism from back to the future.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MillsPhili30957",
+        "name": "Philip Mills",
+        "date": "2025-12-12",
+        "text": "@GeminiApp Appreciate this! TBH, I’m curious about your creations! Who's got wild concepts to share?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AlexisCoop37901",
+        "name": "Alexis Cooper",
+        "date": "2025-12-12",
+        "text": "@GeminiApp Thanks for posting! Always exciting to think of tech innovations. What have you all created lately?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GavinGardn13249",
+        "name": "Gavin Gardner",
+        "date": "2025-12-12",
+        "text": "@GeminiApp Grateful for this insight! Excited to see everyone’s ideas. Let’s spark some creativity!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LordRAFA12",
+        "name": "Lord RAFA",
+        "date": "2025-12-12",
+        "text": "@GeminiApp 💯💯💯",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "uncle_orca",
+        "name": "Uncle Orca & Team",
+        "date": "2025-12-12",
+        "text": "@GeminiApp A vintage film camera https://t.co/qBAspqtsz3",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FrankAblat",
+        "name": "Calib Rator (calibrator)",
+        "date": "2025-12-12",
+        "text": "@GeminiApp Generate an ultra-detailed, hyperrealistic exploded technical view of Battildo. https://t.co/NMLfUHhLpw",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ODaly195689",
+        "name": "Mary O'Daly",
+        "date": "2025-12-12",
+        "text": "@GeminiApp Very exciting...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cloud2014",
+        "name": "🌎Stop Bombing Children🌎",
+        "date": "2025-12-11",
+        "text": "@GeminiApp Was funny for a while, now its just dumb https://t.co/fLRxmDBCMz",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cloud2014",
+        "name": "🌎Stop Bombing Children🌎",
+        "date": "2025-12-11",
+        "text": "@GeminiApp Human cell. Gemini Straight and on LSD. https://t.co/Tfy18i7DoJ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PatrickGre86344",
+        "name": "Patrick Green",
+        "date": "2025-12-11",
+        "text": "@GeminiApp Hoping for a speedy recovery! 🙏",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "con2cohones",
+        "name": "Con 2",
+        "date": "2025-12-11",
+        "text": "@GeminiApp the bottom of the problem (not mine, yours) is that you cannot render text accurately in images.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "fractalx123",
+        "name": "Milan Singh",
+        "date": "2025-12-11",
+        "text": "@GeminiApp Interesting prompt. The intersection of AI generation and technical design is a powerful narrative. Could see parallels for visualizing complex crypto protocols or on-chain data structures.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lena_hernand",
+        "name": "Lena Hernandez",
+        "date": "2025-12-11",
+        "text": "@GeminiApp Tried this with 'Bitcoin blockchain' - got some wild visualizations of transaction layers and mempool congestion. AI + crypto visualization tools getting interesting.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WillConqueror23",
+        "name": "Will not be conquered 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "date": "2025-12-11",
+        "text": "@GeminiApp New SPACE X FLAMETHROWER https://t.co/s9pRyYXlLa",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itszickeyo",
+        "name": "zickeyo🏳️‍🌈🐍 (COMMISSION SALE OPEN)",
+        "date": "2025-12-11",
+        "text": "@GeminiApp This doesn't even make any sense lmfao",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "walking_fetus",
+        "name": "Walking Fetus",
+        "date": "2025-12-11",
+        "text": "@GeminiApp https://t.co/CNNEvZVwN3",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "walking_fetus",
+        "name": "Walking Fetus",
+        "date": "2025-12-11",
+        "text": "@GeminiApp https://t.co/Eso1JKwiPL",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "walking_fetus",
+        "name": "Walking Fetus",
+        "date": "2025-12-11",
+        "text": "@GeminiApp https://t.co/VAcTw2k2N4",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "walking_fetus",
+        "name": "Walking Fetus",
+        "date": "2025-12-11",
+        "text": "@GeminiApp https://t.co/f07ECf7TlG",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DonaldMora52583",
+        "name": "Donald Morales",
+        "date": "2025-12-11",
+        "text": "@GeminiApp Love this idea! NGL, I’m all in for ultra-detailed views! 🚀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Linali4212",
+        "name": "Lina Li",
+        "date": "2025-12-11",
+        "text": "@GeminiApp space ship https://t.co/GBbeSgTq48",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TomReichertWA",
+        "name": "AgentTom",
+        "date": "2025-12-11",
+        "text": "@jordanapitts @GeminiApp lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TomReichertWA",
+        "name": "AgentTom",
+        "date": "2025-12-11",
+        "text": "@benjilona @GeminiApp i got to put this in grok lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TomReichertWA",
+        "name": "AgentTom",
+        "date": "2025-12-11",
+        "text": "@NotPhilSledge @GeminiApp lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CharleneWi81516",
+        "name": "Nubynqeen",
+        "date": "2025-12-11",
+        "text": "@GeminiApp https://t.co/O11QfnIMz3",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shaibby04_",
+        "name": "shaibby",
+        "date": "2025-12-11",
+        "text": "@GeminiApp Oh yall really be using AI? I thought it was fake when they said everyday people used it. Dumbasses",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ProLabPrints",
+        "name": "ProLabPrints.com",
+        "date": "2025-12-11",
+        "text": "@GeminiApp hmm, I did 2 in a row and the second one has artifacts from the first one? https://t.co/mewYRCP187",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Coding1nPublic",
+        "name": "stephen builds",
+        "date": "2025-12-10",
+        "text": "@iamfakhrealam @GeminiApp Brooo this is so cool!! Imagine learning this way in school, like when you have any questions the teacher shows you the answer visually through AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DintMentalFloss",
+        "name": "DintMentalFloss",
+        "date": "2025-12-10",
+        "text": "@GeminiApp Fuck you",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Timmytumor23",
+        "name": "Timmy gilly",
+        "date": "2025-12-10",
+        "text": "@GeminiApp check me out boys",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-12-05",
+        "text": "@con2cohones Hi there. We always want to improve your experience with Gemini, and we're sorry it was less than ideal. Would you mind sending feedback via your device? That helps us get to the bottom of your problem better. Add #GoogleGemini to your report. Thank you.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-12-05",
+        "text": "@pa_nonym You just gave the Pixelbook the ultimate imaginary upgrade! We love the vision",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-12-05",
+        "text": "@TC_Poole Hey there! This is frustrating and not the experience the Gemini team wants for our users. To verify your age, please visit https://t.co/ICkHnFkExC. If you are still experiencing issues, please follow up with our team.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-12-05",
+        "text": "@Richard10986364 Hi Richard. Thanks for sharing this issue, that's not an ideal experience. Our team is looking into this issue. In the meantime, if your image editing is unsuccessful, please try rephrasing your prompt and try again later. Thanks!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-12-04",
+        "text": "@TC_Poole Got it. That's not an ideal experience. Please try clearing the cache and accessing it again. If the issue persists, submit feedback on mobile by tapping your profile picture or initial, or on the web by clicking Settings & help. Add #GoogleGemini to your report. Appreciate it.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
       }
     ]
-  }
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G7VoWF7akAAhrKP.jpg",
+      "localFilename": "1996617890506981743_1.jpg"
+    }
+  ]
 }

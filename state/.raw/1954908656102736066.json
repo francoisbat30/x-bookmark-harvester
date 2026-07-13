@@ -1,7 +1,7 @@
 {
   "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-07-12T17:19:00.833Z",
+  "fetchedAt": "2026-07-13T07:07:07.742Z",
   "tweetId": "1954908656102736066",
   "post": {
     "url": "https://x.com/BrettFromDJ/status/1954908656102736066",
@@ -19,32 +19,848 @@
     ],
     "media": [],
     "metrics": {
-      "likes": 5881,
+      "likes": 5879,
       "retweets": 479,
       "replies": 157,
-      "views": 642911
+      "views": 642926
     },
     "comments": [
       {
+        "handle": "BrettFromDJ",
+        "name": "Brett",
+        "date": "2025-08-11",
+        "text": "@design_thyme https://t.co/WHq6OVdE8B",
+        "likes": 55,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BrettFromDJ",
+        "name": "Brett",
+        "date": "2025-08-11",
+        "text": "@romaindewolff About to try Gamma!",
+        "likes": 10,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "pascowebdesigns",
+        "name": "Ray Velez",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ you got me hooked on jitter bro",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alexkhuda",
+        "name": "Alexander Khuda",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ Grateful for the mention!  @Restreamio  is thrilled to be one of your go-to tools. 🙌",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ICPsimp",
+        "name": "ICPsimp ☁️∞",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ Add @caffeineai to that list.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bartdarebel",
+        "name": "Bart S.",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ If you'd need a bit of support for coding, cloud, ai post-MVP (at scale), hit me up. Thanks for the hard work and inspiration.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DonnySolana",
+        "name": "Donny Solana",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ 25 tools for design/AI workflows may seem like a lot, but it's a small price to pay for the outcome\n\nThat monthly subscription has gotta look like a free trial compared to what it would cost to do it all manually.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "andiogocastro",
+        "name": "Diogo Castro",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ Do you start your decks on figma slides or do you start with normal figma and then paste them there?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "szuchans",
+        "name": "Sam Szuchan",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ @romaindewolff I recommend it!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bisonbrutus",
+        "name": "bison",
+        "date": "2025-08-11",
+        "text": "@tavlean @jesusabuabarab @BrettFromDJ My guess is he is sponsored by Framer now 🤷‍♀️",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bisonbrutus",
+        "name": "bison",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ Start building in Cursor bro.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "the_longer_game",
+        "name": "The Longer Game",
+        "date": "2025-08-11",
+        "text": "@VikashSparxIT @BrettFromDJ Well said! Blending AI tools with traditional design platforms like Figma really does open up a whole new level of creative workflow.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "the_longer_game",
+        "name": "The Longer Game",
+        "date": "2025-08-11",
+        "text": "@BrandGrowthOS @BrettFromDJ Exactly! Stack’s strong, but wiring it together with something like n8n or Make is where the real time savings kick in. The magic’s in making those tools talk to each othe",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "seanboisselle",
+        "name": "boisselle 🇺🇸",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ ChatGPT 4o for “everything” was funny 😭 overall badass list",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JMFayal",
+        "name": "James.Fayal",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ So you’re Bolt over Lovable on basic UI builds? What makes it preferable?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "georgesiosi_ai",
+        "name": "George Siosi | AI",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ With this many tools though, do you ever experience scattered workflows or decision fatigue?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RealVVoid",
+        "name": "RealVoid",
+        "date": "2026-06-08",
+        "text": "@BrettFromDJ that's a lot of subscriptions to manage tbh",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Minuiitt",
+        "name": "Minuiitt",
+        "date": "2026-05-15",
+        "text": "@BrettFromDJ For the image gen slot: https://t.co/Dq2wu80XCO, 9.99 EUR for 9 professional images, free preview before payment. Conversational composer, no training step. Solo-built.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ruixen_ui",
+        "name": "Ruixen UI",
+        "date": "2025-10-10",
+        "text": "@BrettFromDJ You might find Ruixen UI useful — clean UI components, free to use: https://t.co/W6I1q9ySCS",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NLx64",
+        "name": "NL",
+        "date": "2025-08-31",
+        "text": "@BrettFromDJ what do you think about gigapixel AI for image upscaling?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "harmaablue",
+        "name": "J-AI-X",
+        "date": "2025-08-16",
+        "text": "@BrettFromDJ Fire🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aibek_design",
+        "name": "Aibek Yegemberdin",
+        "date": "2025-08-14",
+        "text": "@BrettFromDJ Missing @usewonder",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "spdesignsio",
+        "name": "spdesigns",
+        "date": "2025-08-13",
+        "text": "@BrettFromDJ looks good",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "OnutAdrian",
+        "name": "Adrian Furtuna (Storm)",
+        "date": "2025-08-13",
+        "text": "Remember folks. You needn't have this stack from the get-go, as you won't afford it. Make sure one makes at least $100k/y.\n\nFor more advice, follow, like, share and enroll in my $1500/m on how to give unsolicited advice like a PRO. Sign up today to for a limited time offer and pay only $3000/m. Hurry, it's running out quickly. \n\nYes, this reply is satire and @BrettFromDJ knows I like to dabble in shit posting.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "onueze_kobi",
+        "name": "Elizabeth (Chiadikaobindimadu) Onueze",
+        "date": "2025-08-13",
+        "text": "@BrettFromDJ Thank you, I needed this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bhoopsinghai",
+        "name": "Bhoop Singh Gurjar",
+        "date": "2025-08-13",
+        "text": "@BrettFromDJ Follow the Advance Super Intelligence channel on WhatsApp for free resources: https://t.co/Ts9HBEtCbB",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DesignandAI",
+        "name": "Creativity Cheat Code 🕹️",
+        "date": "2025-08-13",
+        "text": "@BrettFromDJ Sounds expensive",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pascowebdesigns",
+        "name": "Ray Velez",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ i noticed you skipped webflow👀\n\nare you sticking with framer for landing pages moving forward?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BrettFromDJ",
+        "name": "Brett",
+        "date": "2025-08-12",
+        "text": "@pascowebdesigns sorry not sorry",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "godski",
+        "name": "godski entertainment",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ Great list! It makes me laugh when people dismiss work as oh its just AI. Sometimes feels like more effort managing all the tools 😄",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FayroozAbader",
+        "name": "Fayrooz Abader",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ what do you think of https://t.co/Op47p7Xzc9 for curation?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "esktn_",
+        "name": "Nick",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ This assured me that I’m headed at least partially in the right direction",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "egkhimi",
+        "name": "Egor Khimichenko",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ Really solid mix here and I’m curious how you’re finding Framer so far since I’ve heard mixed reviews.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "codedolphin2",
+        "name": "dolph5n.eth",
+        "date": "2025-08-12",
+        "text": "@dedene @BrettFromDJ why dont we build it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AyemouLoic",
+        "name": "Ayemou Essoubo Loic Yvan BS,CSC,MS",
+        "date": "2025-08-12",
+        "text": "@design_thyme @BrettFromDJ Haa haa ! You touched a nerve...\nI detect now some tension 😄",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gensyn_hub",
+        "name": "Gensyn Community Hub",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ Soon, something else will be added to this list: @gensynai",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "brendanodris",
+        "name": "Brendan",
+        "date": "2025-08-12",
+        "text": "@andiogocastro @BrettFromDJ Would love any feedback on Figma Slides!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "beach_kai25677",
+        "name": "Kai Beach",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ Love your tech stack! So many cool tools, can't wait to see what you create with them!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0x300e",
+        "name": "The Hitchhiker",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ https://t.co/xu3KU8DBpG",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-08-12",
+        "text": "Based on verified August 2025 prices and common tiers, the gross monthly total for the 18 paid tools is ~$331. Breakdown: Figma $12, Jitter $12, Framer $75, Streamline $19, Midjourney $30, Runway $12, Veo 3 $20, ChatGPT $20, Claude $20, Pixel Buddha $10, Loom $15, Screen Studio $9, Astra $25, Bloom $8, Artlist ~$17, Restream $16, Trello $6, Spark $5. Others are free or transaction-based.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-08-12",
+        "text": "You're right—it might be. Rechecking August 2025 prices, with Framer at $75/mo (Launch plan), Runway at $12, Loom at $15, and others consistent, the estimated monthly total is ~$331. Key breakdown: Figma $12, Framer $75, Midjourney $30, ChatGPT $20, Claude $20, total adds up across 18 paid tools.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
         "handle": "design_thyme",
         "name": "thyme",
-        "date": "2025-08-11",
-        "text": "Omg how much is that monthly subscription 💀",
-        "likes": 25
+        "date": "2025-08-12",
+        "text": "@grok @RyanWMark @BrettFromDJ I feel like it’s more..?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
       },
       {
-        "handle": "DontFearAI",
-        "name": "Ryan | Don't Fear AI",
-        "date": "2025-08-11",
-        "text": "Which ones have paid you money to advertise their products?",
-        "likes": 21
+        "handle": "KarnaPhill99745",
+        "name": "Karna Phillips",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ Love this lineup! Can't wait to see what you create with those tools!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
       },
       {
-        "handle": "weberwongwong",
-        "name": "weber",
+        "handle": "iamspacecreated",
+        "name": "Vlad ⚡",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ That's how kidneys are being sold nowadays",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rohan_seth18",
+        "name": "Rohan Seth",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ check out @GetRippleAI for email ;)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lukesmithdsgn",
+        "name": "Luke Smith",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ oooh. Bookmarked!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jamesingram9999",
+        "name": "James",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ Way too many in your best of breed approach.  Need a streamlined list of less than 5.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "beReplyHero",
+        "name": "beReplyHero",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ What’s been your biggest workflow breakthrough using this setup so far?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sridharfyi",
+        "name": "Sridhar A",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ love how you’ve curated this toolkit, it’s like a masterclass in blending creativity with ai efficiency for founders building fast.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AnasDes1gn",
+        "name": "Anas",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ was it worth it?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aamanatullah",
+        "name": "アーマナトゥラ",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ Thank you for sharing",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yashpoddar2000",
+        "name": "Yash Poddar",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ Why do you use email? Is it for marketing or just communication with clients?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "christiansauer",
+        "name": "christiansauer",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ @romaindewolff yeah do try Gamma - tried it recently, super impressed",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GymEdhaari",
+        "name": "Synthwave",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ @mumbaicryptoguy",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MattACrawford",
+        "name": "Matt Crawford",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ “UI exploration” - good term",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NikasGeisleris",
+        "name": "Nikas Geisleris",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ No Webflow? It looks like Framer is paying you a decent amount to promote them 🙂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ThatoFi",
+        "name": "Thato",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ Idolo ❤️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_thatfeelingof",
+        "name": "Days of our Lives",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ You can also check out https://t.co/SW2FFnqbug for design inspiration… some very cool ideas here",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DrRippyLMFT",
+        "name": "Karen Rippy",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ Thanks!  Wow.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "peetahkim",
+        "name": "Peter Kim",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ Can you not do all of this with one Adobe subscription",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KOL_AI_Official",
+        "name": "KOL.AI",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ Solid gold list 🔥. Streamline is dope.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eswarpr",
+        "name": "eswarpr",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ Anything to make decks/presentations?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "moloneymike",
+        "name": "Mike Moloney",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ Pixel Buddha is so talented! Their photoshop actions and templates are sick 🔥🔥🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "moloneymike",
+        "name": "Mike Moloney",
+        "date": "2025-08-12",
+        "text": "@BrettFromDJ Have you ever seen https://t.co/yUjse1C3vG ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mikeyjpatt",
+        "name": "Miyke 🇬🇧🇦🇺",
         "date": "2025-08-11",
-        "text": "have you tried @floraai? has a bunch of these AI models which you can connect together to build reusable workflows. a lot of AI-native design agencies using it to build generative workflows",
-        "likes": 11
+        "text": "@BrettFromDJ Personally think it’s too many but if you can afford it why not…… my best guess is this lot costs probably around $1,100 - $1,400 pm depending on tier subscription level",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rennesis",
+        "name": "RΞNN",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ Surprised I didn't see Webflow in the list 😳",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nglprz",
+        "name": "NGLPRZ",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ Nice team !!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-08-11",
+        "text": "Adjusted for most common tiers and including previously missed tools (Pixel Buddha, Screen Studio, Astra, Bloom prorated) as of August 2025, estimated monthly spend is $279.\n\nBreakdown:\nFigma: $15\nJitter: $12\nFramer: $20\nStreamline: $19\nMidjourney: $30\nRunway: $15\nVeo 3: $20\nChatGPT: $20\nClaude: $20\nPixel Buddha: $10\nLoom: $12.50\nScreen Studio: $9\nAstra: $25\nBloom: $8\nArtlist: $16.58\nRestream: $16\nTrello: $6\nSpark: $5",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RyanWMark",
+        "name": "Ryan Mark",
+        "date": "2025-08-11",
+        "text": "@grok @design_thyme @BrettFromDJ @grok You're missing some chief. And let's assume that he's on the most common tiers of the above products instead. Framer = $20/mo.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-08-11",
+        "text": "Based on base tier prices as of August 2025, the estimated monthly spend is $189.\n\nThis assumes prorated annual fees for annual-only tools and $0 for free/one-time purchases (e.g., Screen Studio, Astra, Bloom).\n\nBreakdown:\nFigma: $12\nJitter: $12\nFramer: $5\nStreamline: $19\nMidjourney: $10\nRunway: $15\nVeo 3: $20\nChatGPT: $20\nClaude: $20\nLoom: $12.50\nArtlist: $16.58\nRestream: $16\nTrello: $6\nSpark: $5",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "himanshu_ragtah",
+        "name": "Himanshu Ragtah 🇺🇸",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ nice stack",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RyanWMark",
+        "name": "Ryan Mark",
+        "date": "2025-08-11",
+        "text": "@design_thyme @BrettFromDJ @grok Calculate the monthly spend of the above tools. Assume that those with monthly subscriptions are at the base tier paid price.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "juandiegodlo",
+        "name": "Juan Diego",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ Is Framer enough of a niche on its own, or would you also layer a vertical like SaaS?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mohga_taha",
+        "name": "Mohga",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ 😍😍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "uxaistudio",
+        "name": "Ward",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ What’s your reason for choosing Bolt over e.g. Lovable or v0?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "studiodopo",
+        "name": "Joppe | Studio Dopo",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ You forgot your storage ;)?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ajinkya10x",
+        "name": "Ajinkya",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ That’s a great arsenal",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "reeeshellc",
+        "name": "Richelle",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ Are these all subscriptions?? Goodness 😅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "astro_case",
+        "name": "Astro Case",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ Astra is super impressive.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Aanstelleritis",
+        "name": "Aanstelleritis",
+        "date": "2025-08-11",
+        "text": "@Bitstream_Int @BrettFromDJ Nope, fuck that.\n\nAin’t convincing normies to buy USDC.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "trust_sherlock",
+        "name": "Sherlock AI",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ With all those tools, it's like a digital detective agency for design and AI. You've got everything you need to solve any creative case.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Devanshpawan1",
+        "name": "Devanshpawan",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ For telephone agents, use https://t.co/Pj0KMPuBAk🤌🏻",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IsmelFigueroa",
+        "name": "Ismel Figueroa",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ Why can’t find you at @contra ? 👀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kirill_zhuchkov",
+        "name": "Kirill Zhuchkov",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ Pinterest?\nHow do you get through ads in every other pin and generic slop?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "idanielroman",
+        "name": "Daniel Roman",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ oufff",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "the_longer_game",
+        "name": "The Longer Game",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ Solid stack! Covers the whole flow from design and inspiration to delivery and client comms. Nice balance of creative and operational tools.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "seanboisselle",
+        "name": "boisselle 🇺🇸",
+        "date": "2025-08-11",
+        "text": "@design_thyme @BrettFromDJ https://t.co/Za5Ngmy8HG",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ansuman_bin",
+        "name": "ansuman",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ 25 tools? My wallet is already filing for bankruptcy just reading this list",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "toolandtea",
+        "name": "Devin AI",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ That's an impressive stack!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LivingPixelated",
+        "name": "Arfan",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ You need to add @MagicPathAI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "81erkens",
+        "name": "Erkens",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ Learn Webflow and GSAP",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tavlean",
+        "name": "Tavlean",
+        "date": "2025-08-11",
+        "text": "@jesusabuabarab @BrettFromDJ Based on my understanding, he's currently a Webflow user. He might be learning Framer alongside and switch totally to it later but at this point I expected Webflow to be on the list.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Ghelo96",
+        "name": "Ghelo",
+        "date": "2025-08-11",
+        "text": "@BrettFromDJ Idol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
       }
     ]
   }

@@ -1,0 +1,293 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:10:28.968Z",
+  "tweetId": "2064398060944294359",
+  "post": {
+    "url": "https://x.com/lilyraynyc/status/2064398060944294359",
+    "author": {
+      "handle": "lilyraynyc",
+      "name": "Lily Ray 😏"
+    },
+    "date": "2026-06-09",
+    "text": "A little AI search hack I've been using:\n\nTake your SEO keyword research & convert keywords into prompts for AI search within Google sheets' AI function using a prompt like this one:\n\n=AI(\"You are converting a terse SEO search keyword into the natural-language query a real person would actually type or speak to an AI assistant like ChatGPT, Gemini, or a voice assistant. Rewrite the keyword as a single conversational question or request that preserves the exact search intent and intent type (informational, commercial, transactional, or local). Phrase it the way someone would genuinely ask out loud in a full sentence — not in keyword shorthand. Keep any brand, product, or location named in the keyword, but do NOT invent specifics, constraints, or details that aren't already implied. Do not answer the query. Return only the rewritten prompt as plain text — no quotation marks, no preamble, no explanation, no trailing punctuation beyond a question mark. Keyword:\", A2)",
+    "thread": [
+      {
+        "id": "2064398060944294359",
+        "text": "A little AI search hack I've been using:\n\nTake your SEO keyword research & convert keywords into prompts for AI search within Google sheets' AI function using a prompt like this one:\n\n=AI(\"You are converting a terse SEO search keyword into the natural-language query a real person would actually type or speak to an AI assistant like ChatGPT, Gemini, or a voice assistant. Rewrite the keyword as a single conversational question or request that preserves the exact search intent and intent type (informational, commercial, transactional, or local). Phrase it the way someone would genuinely ask out loud in a full sentence — not in keyword shorthand. Keep any brand, product, or location named in the keyword, but do NOT invent specifics, constraints, or details that aren't already implied. Do not answer the query. Return only the rewritten prompt as plain text — no quotation marks, no preamble, no explanation, no trailing punctuation beyond a question mark. Keyword:\", A2)"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HKY1-_jWEAADH8f.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 467,
+      "retweets": 49,
+      "replies": 22,
+      "views": 39698
+    },
+    "comments": [
+      {
+        "handle": "lilyraynyc",
+        "name": "Lily Ray 😏",
+        "date": "2026-06-11",
+        "text": "@CodyYagan They overlapped since day 1 IMO!",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AdamJHumphreys",
+        "name": "AdamHumphreys",
+        "date": "2026-06-09",
+        "text": "@lilyraynyc I’ve seen at length variations of this through ChatGPT which was like no sir I am not entering all that in over 600 words plus",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "seefiabbasi",
+        "name": "Tauseef Abbasi",
+        "date": "2026-06-09",
+        "text": "@lilyraynyc Thank you @lilyraynyc https://t.co/CD8bBEbdHw",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "leoobai",
+        "name": "leoobai",
+        "date": "2026-06-09",
+        "text": "@lilyraynyc Nice. The next layer is clustering those AI-style prompts by intent, then checking which sources get cited/mentioned for each cluster. Keywords tell you demand; prompts reveal the answer format you need to win.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CodyYagan",
+        "name": "Cody Yagan",
+        "date": "2026-06-11",
+        "text": "@lilyraynyc This is exactly why SEO and AI optimization are starting to overlap. User intent remains the common denominator.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "based_creative",
+        "name": "The Based Creative",
+        "date": "2026-06-10",
+        "text": "@lilyraynyc that’s such a really clever strat! Thanks for sharing this",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "israelobiagba",
+        "name": "Israel Obiagba | Ranking Improvement",
+        "date": "2026-06-10",
+        "text": "@lilyraynyc Thanks Lily, I'll try this out.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "martinibuster",
+        "name": "Roger Montti",
+        "date": "2026-06-10",
+        "text": "@adelbucetta @lilyraynyc BERT came out like 6 years ago and that was all about natural language. I think that an LLM trained on everything ever written by humans in every language, living and dead, probably has a handle on natural language and intent. 😉\n\nNice one Lily!!! 😸",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tinapchopra",
+        "name": "Tina Chopra",
+        "date": "2026-06-10",
+        "text": "@lilyraynyc Genius @lilyraynyc, simple, actionable, and it exposes something most content teams haven't fully confronted yet.\n\nKeyword research was built for search bars. AI search is built for conversations. The brief needs to change before the content can.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sarahyang_00",
+        "name": "Sarah Yang",
+        "date": "2026-06-10",
+        "text": "thanks for sharing. This formula is a masterclass in treating AI prompts as the new infrastructure for search intent. Building a product is just a basic cost center today but unlocking repeatable organic traffic is where the true terminal value of a brand lives. I recently published a deep-dive investigation into the counter-intuitive mechanics of zero-dollar organic growth and documented the structural findings here https://t.co/xq7OVjDim7",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "adelbucetta",
+        "name": "Adel Bucetta",
+        "date": "2026-06-09",
+        "text": "@lilyraynyc the honest answer is that most ai models still don't understand what \"natural language\" means, so this trick might actually be working by accident or through sheer luck",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lilyraynyc",
+        "name": "Lily Ray 😏",
+        "date": "2026-06-09",
+        "text": "@seefiabbasi 👏🏽👏🏽👏🏽",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PressWhizz",
+        "name": "PressWhizz - The #1 Link Building Marketplace",
+        "date": "2026-06-15",
+        "text": "@lilyraynyc Interesting approach 👀\n\nMakes sense, people don’t query AI the same way they search Google.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "geolix_ai_",
+        "name": "Geolix.ai",
+        "date": "2026-06-12",
+        "text": "@lilyraynyc right instinct. one seo keyword fans out into ten natural questions, and you win the answer on some and vanish on others.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "enchantedcode",
+        "name": "Vanessa Simões",
+        "date": "2026-06-11",
+        "text": "@lilyraynyc Nice! How do you use the outputs?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mathis_io",
+        "name": "Mathis | Astral",
+        "date": "2026-06-10",
+        "text": "love this. the natural step after generating the prompts is actually running them across the models and logging which sources get cited\n\nthat's where the gap analysis lives you see fast that the keyword you rank #1 for on google pulls a completely different set of sources in chatgpt",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "buildwtim",
+        "name": "Tim",
+        "date": "2026-06-10",
+        "text": "@lilyraynyc useful, but i'd still sanity-check intent vs volume before feeding it in",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sanjeevn72",
+        "name": "Sanjeev Nair",
+        "date": "2026-06-10",
+        "text": "@lilyraynyc Yeah. We do this automatically in llmcheck when running any analysis.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pawann47",
+        "name": "Pawan Singh",
+        "date": "2026-06-10",
+        "text": "@lilyraynyc This is the keyword research to prompt research bridge most people don’t have yet. Stealing this immediately.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "menonvijit",
+        "name": "Ambien(ce)",
+        "date": "2026-06-10",
+        "text": "@thinksenseads @lilyraynyc Or a paid subscription to Google Workspace",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "menonvijit",
+        "name": "Ambien(ce)",
+        "date": "2026-06-10",
+        "text": "@thinksenseads @lilyraynyc It requires a paid subscription to Gemini.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "thinksenseads",
+        "name": "Matthew Rubio",
+        "date": "2026-06-10",
+        "text": "@lilyraynyc I´ve tried the formula in Google Sheets and it gives me \"ERROR\". I wonder why?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thehirenthakkar",
+        "name": "Hiren Thakkar",
+        "date": "2026-06-10",
+        "text": "@lilyraynyc Try @gptforwork for experiment with more detailed output.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PeerBuksh13",
+        "name": "PeerB",
+        "date": "2026-06-10",
+        "text": "@lilyraynyc A keyword tells you what someone typed but a prompt tells you what they're actually thinking",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "idowebid",
+        "name": "Ridho Putradi S'Gara",
+        "date": "2026-06-10",
+        "text": "@lilyraynyc been doing this too. the thing that caught us off guard is one keyword maps to like 4-5 different prompt phrasings and only some of them actually pull our client into the answer. so now we log which phrasing triggers a citation instead of assuming the rewrite is one to one",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jgeekseo",
+        "name": "Jules SEO Whisperer",
+        "date": "2026-06-09",
+        "text": "@lilyraynyc This is the kind of SEO advice I want to see more of right now. Practical, current, and a lot more useful than the recycled tactics that still get passed around.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "10MY01",
+        "name": "John",
+        "date": "2026-06-09",
+        "text": "@leoobai @lilyraynyc Keep working on slop",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "yushunwang",
+        "name": "Eason Wang",
+        "date": "2026-06-09",
+        "text": "this is a great way to build the prompt set. one thing we learned doing it at scale: run each prompt a few times, not once. the same prompt returns different brands run to run (sampling, personalization, live retrieval), so a single pass is a sample, not a reading. the pattern across runs is the signal.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HKY1-_jWEAADH8f.jpg",
+      "localFilename": "2064398060944294359_1.jpg"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:45.220Z",
+  "tweetId": "1982604844780376485",
+  "post": {
+    "url": "https://x.com/nlw/status/1982604844780376485",
+    "author": {
+      "handle": "nlw",
+      "name": "Nathaniel Whittemore"
+    },
+    "date": "2025-10-27",
+    "text": "Wait, the latest bullshit AI study is making grandiose claims on the basis of GPT-4o - a model that hadn’t been SOTA in 9 months at the time of the test? Color me absolutely shocked. https://t.co/bvQCaM67Ue",
+    "thread": [
+      {
+        "id": "1982604844780376485",
+        "text": "Wait, the latest bullshit AI study is making grandiose claims on the basis of GPT-4o - a model that hadn’t been SOTA in 9 months at the time of the test? Color me absolutely shocked. https://t.co/bvQCaM67Ue"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G4OgmNPXwAAsYfe.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 19,
+      "retweets": 0,
+      "replies": 4,
+      "views": 3243
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G4OgmNPXwAAsYfe.jpg",
+      "localFilename": "1982604844780376485_1.jpg"
+    }
+  ]
+}

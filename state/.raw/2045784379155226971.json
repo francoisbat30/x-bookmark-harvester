@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-06-30T10:00:40.769Z",
+  "fetchedAt": "2026-07-13T07:08:54.149Z",
   "tweetId": "2045784379155226971",
   "post": {
     "url": "https://x.com/DataChaz/status/2045784379155226971",
@@ -10,6 +11,12 @@
     },
     "date": "2026-04-19",
     "text": "🚨 STOP BURNING YOUR TOKENS!\n\nIf you use Claude Code, you are probably wasting 80% of your context window.\n\nI found 10 ace tools that will completely rescue your API bill.\n\n1. Caveman Claude\n- Literally makes Claude talk like a caveman\n- Slashes 75% of output tokens with zero loss in accuracy\nRepo → https://t.co/eEvSOvHutG\n\n2. RTK (Rust Token Killer)\n- A blazing fast proxy that filters terminal output\n- 60-90% reduction and completely dependency-free\nRepo → https://t.co/lDfjbsbPD5\n\n3. Code Review Graph\n- Claude reads only what matters using a Tree-sitter graph\n- An unbelievable 49x token reduction on huge monorepos\nRepo → https://t.co/xGn6Pp88yX\n\n4. Context Mode\n- Sandboxes raw output into SQLite instead of your context\n- A staggering 98% context reduction on logs & GitHub\nRepo → https://t.co/Jut2bvBMUD\n\n5. Claude Token Optimizer\n- Brilliant setup prompts that optimize any project\n- 90% token savings, taking docs from 11K to 1.3K\nRepo → https://t.co/0uOFODbG7e\n\n6. Token Optimizer\n- Hunts down the invisible ghost tokens eating your context\n- Fully restores and protects your context quality\nRepo → https://t.co/LUOzjECXKm\n\n7. Token Optimizer MCP\n- Adds aggressive caching and compression to your MCP tools\n- 95%+ token reduction through pure intelligence\nRepo → https://t.co/b5Eqruo2PM\n\n8. Claude Context\n- Zilliz’s hybrid vector search MCP\n- Makes your entire codebase the context for 40% less cost\nRepo → https://t.co/hPG6pb0j3G\n\n9. Claude Token Efficient\n- Just drop one CLAUDE.md file into your repo\n- Enforces strict terseness with zero code changes\nRepo → https://t.co/fNrl6nwItF\n\n10. Token Savior\n- Navigates your code by symbols, not giant files\n- 97% reduction on code navigation with persistent memory\nRepo → https://t.co/lkILPhfwJh\n\n----\n\n[ The god-tier stack ]\nPick 2-3 based on what’s draining you:\n> Massive repo? Code Review Graph + Token Savior\n> Heavy terminal output? RTK\n> MCP data dumps? Context Mode\n> Need an instant fix? Caveman + Claude Token Efficient\n\nMost devs are bleeding tokens.\n\nRun `/context` in a fresh session and watch the savings roll in 👀",
+    "thread": [
+      {
+        "id": "2045784379155226971",
+        "text": "🚨 STOP BURNING YOUR TOKENS!\n\nIf you use Claude Code, you are probably wasting 80% of your context window.\n\nI found 10 ace tools that will completely rescue your API bill.\n\n1. Caveman Claude\n- Literally makes Claude talk like a caveman\n- Slashes 75% of output tokens with zero loss in accuracy\nRepo → https://t.co/eEvSOvHutG\n\n2. RTK (Rust Token Killer)\n- A blazing fast proxy that filters terminal output\n- 60-90% reduction and completely dependency-free\nRepo → https://t.co/lDfjbsbPD5\n\n3. Code Review Graph\n- Claude reads only what matters using a Tree-sitter graph\n- An unbelievable 49x token reduction on huge monorepos\nRepo → https://t.co/xGn6Pp88yX\n\n4. Context Mode\n- Sandboxes raw output into SQLite instead of your context\n- A staggering 98% context reduction on logs & GitHub\nRepo → https://t.co/Jut2bvBMUD\n\n5. Claude Token Optimizer\n- Brilliant setup prompts that optimize any project\n- 90% token savings, taking docs from 11K to 1.3K\nRepo → https://t.co/0uOFODbG7e\n\n6. Token Optimizer\n- Hunts down the invisible ghost tokens eating your context\n- Fully restores and protects your context quality\nRepo → https://t.co/LUOzjECXKm\n\n7. Token Optimizer MCP\n- Adds aggressive caching and compression to your MCP tools\n- 95%+ token reduction through pure intelligence\nRepo → https://t.co/b5Eqruo2PM\n\n8. Claude Context\n- Zilliz’s hybrid vector search MCP\n- Makes your entire codebase the context for 40% less cost\nRepo → https://t.co/hPG6pb0j3G\n\n9. Claude Token Efficient\n- Just drop one CLAUDE.md file into your repo\n- Enforces strict terseness with zero code changes\nRepo → https://t.co/fNrl6nwItF\n\n10. Token Savior\n- Navigates your code by symbols, not giant files\n- 97% reduction on code navigation with persistent memory\nRepo → https://t.co/lkILPhfwJh\n\n----\n\n[ The god-tier stack ]\nPick 2-3 based on what’s draining you:\n> Massive repo? Code Review Graph + Token Savior\n> Heavy terminal output? RTK\n> MCP data dumps? Context Mode\n> Need an instant fix? Caveman + Claude Token Efficient\n\nMost devs are bleeding tokens.\n\nRun `/context` in a fresh session and watch the savings roll in 👀"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,12 +24,787 @@
       }
     ],
     "metrics": {
-      "likes": 4379,
-      "retweets": 672,
-      "replies": 143,
-      "views": 808151
+      "likes": 4370,
+      "retweets": 669,
+      "replies": 142,
+      "views": 809506
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "SteveSolun",
+        "name": "Steve Solun",
+        "date": "2026-04-19",
+        "text": "I got tired of manually figuring out which skill or agent to use inside Claude Code.\n\nSo I built ctx.\n\nctx watches what you’re developing, walks a knowledge graph of 1,450+ skills and 427 agents, and recommends the right ones in real time.\n\nYou stay in control:\n\nload what you want\nunload what you do not need\nkeep the context sharp\n\nUnder the hood, it uses a Karpathy-style LLM wiki, plus persistent memory that gets smarter across sessions.\n\nhttps://t.co/nR9YD9rvsJ",
+        "likes": 14,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "copenzafan",
+        "name": "KISA aka Copenzafan.eth",
+        "date": "2026-04-19",
+        "text": "@DataChaz caveman claude making claude talk like caveman to save tokens is hilarious but also defeats the purpose if output becomes harder for humans to parse, false economy unless you're just logging",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DataChaz",
+        "name": "Charly Wargnier",
+        "date": "2026-04-20",
+        "text": "@0xmanmeet Assuming they are but I haven’t really audited these tools re. security.\n\nProbably best to do your own research :)",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zeusalopolis",
+        "name": "George Dikeakos",
+        "date": "2026-04-19",
+        "text": "@DataChaz You forgot cymbal - a high speed code indexer that has an actual benchmark proving token reduction\n\nhttps://t.co/jlRy2TsoBz",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "markintheloop",
+        "name": "markintheloop",
+        "date": "2026-04-20",
+        "text": "@DataChaz Curious whether those 10 tools are mostly about cutting what you're sending to Claude versus optimizing what Claude sends back.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SynabunAI",
+        "name": "synabun.ai",
+        "date": "2026-04-19",
+        "text": "@DataChaz solid list. most of these optimize within sessions though. the real bleed happens across sessions: re-explaining the project from scratch every cold start is expensive and nobody talks about it",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pixeL_laugh",
+        "name": "JessePinkman 🦇🔊",
+        "date": "2026-04-24",
+        "text": "@DataChaz https://t.co/2UOWBeKhRD",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "madebylipsum",
+        "name": "𝔄𝔫𝔱𝔬𝔫𝔦𝔬",
+        "date": "2026-04-21",
+        "text": "@editxshub @DataChaz bot? https://t.co/4tiqxoVmf1",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ashish_dwi",
+        "name": "Ashish Dwivedi",
+        "date": "2026-04-21",
+        "text": "Have a look at Dhee, it helps with token burning with context routing and adds a self evolving memory layer to your claude code.\nNo extra agents \nInstall using curl and use claude code as you use currently. \nEverything is configured (claude code and codex for now.)\nUse nvidia nim api key for the embedding model, its actually free.\n\n https://t.co/sSW04B1vEb",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0employees",
+        "name": "0employees",
+        "date": "2026-04-21",
+        "text": "@ben_callow @DataChaz retry spirals are the worst offender. agent hits a rate limit on 150k context, retries 40x, shows up as one line item at month-end.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ziwenxu_",
+        "name": "Ziwen",
+        "date": "2026-04-20",
+        "text": "@DataChaz Bookmark it??\n\nNo just send it directly to my Claude Code",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MGMurray1",
+        "name": "Michael Murray",
+        "date": "2026-04-20",
+        "text": "97% token reduction via symbol-based navigation is the right direction but the production reality is messier.\n\nOur fleet processes 3B+ tokens over 63 days. The cost breakdown that matters:\n- 40% goes to memory maintenance (distillation, indexing, cross-linking)\n- 30% goes to context reconstruction at session start\n- 20% goes to actual task execution\n- 10% goes to eval and quality checks\n\nToken optimization on the 20% (task execution) saves money. Token optimization on the 30% (context reconstruction) changes the architecture. Persistent sessions that carry state would eliminate most of that 30%.\n\nThe tools mentioned here (Caveman Claude, RTK, Context Mode) optimize the wrong 20%. The 30% context reconstruction cost is the bigger target. A session that remembers what it knew 2 hours ago saves more tokens than a compression algorithm that shrinks the current context.\n\nOptimize the cold start. That is where the real savings hide.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xmanmeet",
+        "name": "Cool022",
+        "date": "2026-04-20",
+        "text": "@DataChaz all the code is secure to use?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wholecricket57",
+        "name": "wholecricket",
+        "date": "2026-04-20",
+        "text": "@DataChaz Caveman Claude wins the prize for coolest repo name! 🤣",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fgarciag94",
+        "name": "Fernando",
+        "date": "2026-04-19",
+        "text": "@DataChaz Yo mismo publique en mi Git una herramienta para crear .antigravityignore fácilmente... es un poco cutre pero sirve y ayuda...\n\nhttps://t.co/nDcRRFlBQi",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-05-18",
+        "text": "@anaisa2013 @DataChaz @anaisa2013 Hi! you can read it here: https://t.co/Xq76iOIXKn Have a good day. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "anaisa2013",
+        "name": "Ana Isabel",
+        "date": "2026-05-18",
+        "text": "@DataChaz @threadreaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DopeDaditude",
+        "name": "DopeDad",
+        "date": "2026-05-02",
+        "text": "@DataChaz #ClaudeIsAFraud",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NidhiSharma706",
+        "name": "Nidhi Sharma",
+        "date": "2026-05-02",
+        "text": "@ankitsaxena21 @sergiopreira @DataChaz What long-term memory solutions (like vector stores or agentic notebooks) do you think would best fix agents rediscovering codebases every session?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "G0iai",
+        "name": "G0I",
+        "date": "2026-04-28",
+        "text": "@DataChaz check me! https://t.co/iOBQfFTVrf https://t.co/CfLfRoZsus",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Speshal_f",
+        "name": "Spesh",
+        "date": "2026-04-26",
+        "text": "@DataChaz Token discipline matters more than people admit. Claude Code feels expensive when the context fills with chatty logs and repeated file dumps; shrinking output is basically buying more thinking room.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sam_wise_",
+        "name": "Sam Meyer",
+        "date": "2026-04-26",
+        "text": "@DataChaz Optimizing for token count can lead to brittle prompts, trading off recall for cost savings.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "milvusio",
+        "name": "Milvus",
+        "date": "2026-04-24",
+        "text": "@DataChaz Thanks for the shoutout! 🙏 Worth adding — it's hybrid BM25 + dense vector, so exact symbol lookups stay sharp while semantic recall handles the fuzzy stuff. Also works beyond Claude Code: Cursor, Codex, Gemini CLI, Qwen Code. Give it a try!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shmula",
+        "name": "papiofficial",
+        "date": "2026-04-24",
+        "text": "@DataChaz Love this; going to share this with my openclaw and ask it to adopt it to himself from claude code.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aethergradient",
+        "name": "Aether - ?/acc",
+        "date": "2026-04-24",
+        "text": "@DataChaz You need tokenrehab to fix tokengooning.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jmoon_174",
+        "name": "JMoon",
+        "date": "2026-04-24",
+        "text": "@DataChaz same problem, different angle. none of those tools show you where you actually are in real time. built headroom for that, live context bar in your statusline so you can see the % before it kills your session.\n\nhttps://t.co/cjXKS6jh0N",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AliAlphaQ",
+        "name": "Ali AlphaQ",
+        "date": "2026-04-22",
+        "text": "@DataChaz Impressive efficiency gains. 95% token reduction transforms Claude Code economics. What innovative workflows emerge with such dramatic savings?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Kev96790724",
+        "name": "Saylor",
+        "date": "2026-04-21",
+        "text": "@DataChaz @0xmanmeet Has SQlite and PostgreSQL support.  Postgres is definitely where it shines because you can have other agents share the same memories.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Kev96790724",
+        "name": "Saylor",
+        "date": "2026-04-21",
+        "text": "@DataChaz @0xmanmeet It decreases token counts because it semantically searches the information it needs instead of analyzing all of your flat docs.  It uses ollama nomic embedding model to do everything locally.  Has temporal decay for older memories aren’t rated as highly as new memories",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ronizraeli",
+        "name": "Ron Izraeli",
+        "date": "2026-04-21",
+        "text": "@DataChaz Check out this caveman output-style. It always loaded, have more weight (closer to system prompt than a skill).\n\nhttps://t.co/bClpYpxN1M",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DataChaz",
+        "name": "Charly Wargnier",
+        "date": "2026-04-21",
+        "text": "@Kev96790724 @0xmanmeet very nice!\n\nThx for sharing",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Kev96790724",
+        "name": "Saylor",
+        "date": "2026-04-21",
+        "text": "@0xmanmeet @DataChaz https://t.co/07pUjFyP11\n\nMine is local and open source.  Have control over your data.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Kev96790724",
+        "name": "Saylor",
+        "date": "2026-04-21",
+        "text": "@DataChaz https://t.co/07pUjFyP11",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "saen_dev",
+        "name": "Saeed Anwar",
+        "date": "2026-04-21",
+        "text": "@DataChaz tree-sitter graph + symbol nav is the 80/20 for monorepos. caveman mode is funny but the real win is just teaching Claude your codebase's vocab once. didn't know about SQLite for raw output — that's going into my stack tomorrow.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "readwise",
+        "name": "Readwise",
+        "date": "2026-04-21",
+        "text": "@calepes @DataChaz @calepes First public save of this tweet! 🏆\n\nStats:\n• 668 total saves of DataChaz's tweets (ranked #437)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "calepes",
+        "name": "Carlos A. Lepesqueur",
+        "date": "2026-04-21",
+        "text": "@DataChaz @readwise save tweet",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SFWwebdesign",
+        "name": "SFW Media",
+        "date": "2026-04-21",
+        "text": "@DataChaz If you are using @claudeai  at all -&gt; you are probably burning 90 % of your work time giving your data to a company and getting just a 'sorry I was wrong again' back ;)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Robashir",
+        "name": "Hanu",
+        "date": "2026-04-21",
+        "text": "@DataChaz My AI dev stack:\n\n🧠 Gemini: Brainstorming, planning &amp; back and forth discussion.I use a \"grill me\" approach to refine ideas, then get it to write a highly detailed prompt.\n\n💻 Claude: Generates the code from that prompt.\n\nBest $20/mo spent. I almost never hit my usage limits! 🚀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "morganlinton",
+        "name": "Morgan",
+        "date": "2026-04-21",
+        "text": "@DataChaz Soooo good, wish I knew half of these existed months ago, thanks for sharing Charly 🤘",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iml1s",
+        "name": "ImL1s",
+        "date": "2026-04-21",
+        "text": "@DataChaz RTK is a lifesaver for CLI logs! AST-based filtering is the only real way to handle massive repos.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yuki__shu1224",
+        "name": "ゆうき＠カッコよくて売れるデザイン",
+        "date": "2026-04-20",
+        "text": "@DataChaz ファーストビューの「一目でわかる魅力」が大事だけど、実はその前に“トークン最適化”が潜んでる。\n\nトークン最適化 — 入力と出力を効率化して無駄を減らす技術。\n\n人間の脳もシンプルな情報に瞬時に反応しやすいから\n\nLPのトークン削減は、料理の盛り付けで余計な飾りをそぎ落とす感覚に近い。",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "avsekza",
+        "name": "Avsek Jha",
+        "date": "2026-04-20",
+        "text": "@DataChaz Have you tried PiTH. Been using this for Production. https://t.co/YuyjgEK0F4",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ben_callow",
+        "name": "Ben Callow💹🧲",
+        "date": "2026-04-20",
+        "text": "Token savings are great, but the bigger cost centre in real ops is untracked agent behaviour: retries, tool calls, and silent failure loops. \n\nThe win for teams is a “budget + policy” layer (limits per workflow, human checkpoints on risky actions, and post-run audits) so you don’t just make the wrong thing cheaper.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "YOUKISOL",
+        "name": "YOUKI",
+        "date": "2026-04-20",
+        "text": "@DataChaz Handed this to my agent OSKA to see if we needed any and he said we already have everything  and the whole process is automated on a system level.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mksglu",
+        "name": "Mert Koseoglu",
+        "date": "2026-04-20",
+        "text": "@DataChaz Context Mode founder is here. Thanks for sharing. I’d really love for you to try out Context Mode and give it a proper test run. It deserves a post from you.🫡",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yury_yakubchyk",
+        "name": "Yury Yakubchyk",
+        "date": "2026-04-20",
+        "text": "@DataChaz Caveman mode cutting 75% tokens while keeping accuracy is wild. The real win is compressing without losing substance.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "asdadasd623asda",
+        "name": "pj",
+        "date": "2026-04-20",
+        "text": "@DataChaz https://t.co/nZXZvrgkD8\n\nMy personal favorite, MCP to index your codebase, much faster exploration and saves many tokens",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SueYourSoul",
+        "name": "Evil's Lawyer",
+        "date": "2026-04-20",
+        "text": "@DataChaz There is a difference between the output context that we see and the server output which we don’t see. I don’t think any of these reduce the output that much, just reduces what you see.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tsexiao",
+        "name": "风男",
+        "date": "2026-04-20",
+        "text": "@DataChaz make",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "balena5551",
+        "name": "Elena",
+        "date": "2026-04-20",
+        "text": "@DataChaz nice collection",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "delboy1978uk",
+        "name": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Delboy 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "date": "2026-04-20",
+        "text": "@DataChaz Try asking it to think in Chinese, you’ll save 40% of your tokens",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DarkPancakes",
+        "name": "Mibayy ⚡️",
+        "date": "2026-04-20",
+        "text": "@DataChaz Thanks for mentioning Token Savior ❤️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-20",
+        "text": "@raiduix @DataChaz Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/VHTsh7FLjR",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RFT_Crypto_BTC",
+        "name": "© RFT Rich from trade",
+        "date": "2026-04-20",
+        "text": "@DataChaz Since you’re sharing optimization tips, here’s one for your morning too.🤣 https://t.co/Vaf7CbdDZO",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "editxshub",
+        "name": "Shubham Sharma | AI & Tech",
+        "date": "2026-04-20",
+        "text": "@DataChaz 75% token reduction just by changing how it talks is genuinely unhinged in the best way. been bleeding tokens on verbose Claude Code sessions for weeks, grabbing this list now",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RFT_Crypto_BTC",
+        "name": "© RFT Rich from trade",
+        "date": "2026-04-20",
+        "text": "@DataChaz If you optimized everything so much, why do you need Cloude? You can code with your hands and the savings of tokens will always be 100%",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xCosmician",
+        "name": "dɑʏā",
+        "date": "2026-04-20",
+        "text": "@DataChaz https://t.co/GBrMR5WKj9",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alexndrxc",
+        "name": "Alexndr",
+        "date": "2026-04-20",
+        "text": "@DataChaz spent a week dialing in context compaction. the caveman approach is real but the tricky part is keeping enough code context to avoid constant re-reads",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "QuanticApe",
+        "name": "Quantic Ape",
+        "date": "2026-04-20",
+        "text": "@DataChaz Also this Chrome extension helped me avoid burning too much, and also prevented the under usage for my Max plan ! https://t.co/j3NfXtCeQp",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "evrenai_org",
+        "name": "Evren_AI",
+        "date": "2026-04-20",
+        "text": "@DataChaz great insight ❤️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ankitsaxena21",
+        "name": "Ankit Saxena",
+        "date": "2026-04-20",
+        "text": "@sergiopreira @DataChaz Correct. It’s a memory problem.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sergiopreira",
+        "name": "Sergio Pereira",
+        "date": "2026-04-20",
+        "text": "@DataChaz 80% waste isn't a tooling problem. Your agent is rediscovering your codebase every session because nobody wrote down what matters. All these help, but will they improve the quality of code generated?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1zablon",
+        "name": "1zablon",
+        "date": "2026-04-20",
+        "text": "@DataChaz I replaced a 15-node https://t.co/2G78DrbM4D workflow with one paragraph.\nhttps://t.co/wb8qZy3Ct9",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Dharmang92",
+        "name": "Dharmang",
+        "date": "2026-04-20",
+        "text": "@saen_dev @DataChaz Caveman works but not how they advertised it on github. For me it was like around 50%",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_Raccoon_God_",
+        "name": "🇺🇦Petro R🇪🇺🇺🇲🇬🇧🇵🇱🇱🇹🇱🇻🇪🇪",
+        "date": "2026-04-20",
+        "text": "@0xmanmeet @DataChaz You can ask claude to build a new version for you based on the ideas, instead of using it directly",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "get_muhammad",
+        "name": "Muhammad Ali",
+        "date": "2026-04-20",
+        "text": "@DataChaz This list is wild. Honestly the biggest win for us was just committing to a tight CLAUDE.md + killing verbose terminal output before it hits context. The fancy MCPs helped but the 80% was hygiene. Caveman mode sounds hilarious, trying that one this week.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "saen_dev",
+        "name": "Saeed Anwar",
+        "date": "2026-04-20",
+        "text": "@DataChaz This list is wild. Honestly the biggest win for us was just committing to a tight CLAUDE.md + killing verbose terminal output before it hits context. The fancy MCPs helped but the 80% was hygiene. Caveman mode sounds hilarious, trying that one this week.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ashcotXBT",
+        "name": "Jimmy Ashcot",
+        "date": "2026-04-20",
+        "text": "@DataChaz 98% context reduction is just vibes with extra steps",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GrowthXMinded",
+        "name": "ǤŘØŴŦĦ Ж ΜƗŇĐ€Đ",
+        "date": "2026-04-20",
+        "text": "@DataChaz I’m Side eyeing the security aspect of these 🗿🧐",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pedri232",
+        "name": "javier perez 🫎",
+        "date": "2026-04-20",
+        "text": "@DataChaz prove the 80% claim with data.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ryu_Tarot",
+        "name": "Ryu Tarot 🫎",
+        "date": "2026-04-20",
+        "text": "@DataChaz prove it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "naraguy",
+        "name": "Naraguy | Building Nara Chain",
+        "date": "2026-04-20",
+        "text": "@DataChaz Curious what you count as the “80% waste” — diffs? logs? old files? what did you measure it against?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NastyCapitalist",
+        "name": "Nasty Capitalist 🚀 🏴‍☠️",
+        "date": "2026-04-20",
+        "text": "@pvicens_ @DataChaz It's nonsense. Ask Claude, it will tell you why.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "profxia_julien",
+        "name": "Julien | Prof × IA",
+        "date": "2026-04-20",
+        "text": "@DataChaz Opus 4.7 est sorti.\n\nVos prompts marchaient avant et plus maintenant ? Normal.\n\nLe modèle ne devine plus votre intention. Il fait exactement ce que vous demandez.\n\nSoyez explicite. Ajoutez des contraintes. Dites ce que vous ne voulez PAS.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chriswinfield",
+        "name": "Chris Winfield - Understanding A.I.",
+        "date": "2026-04-20",
+        "text": "@DataChaz Save your tokens now ⚡",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sitedex",
+        "name": "Sitedex",
+        "date": "2026-04-20",
+        "text": "@DataChaz Try using Lattis. Instead of webfetches, constant crawls, or guessing what the user wants, Lattis gives accurate raw data to your agent. Reduces your token usage dramatically. \n\nhttps://t.co/mCXua7WKAZ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nestorvc",
+        "name": "NéstorVC",
+        "date": "2026-04-20",
+        "text": "@DataChaz This is why Vercel guys got hacked",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vegaltasenichi",
+        "name": "masaito",
+        "date": "2026-04-20",
+        "text": "@DataChaz 取り損ねただけで、損はしていないんですね",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AIMastery2",
+        "name": "AI Automation Mastery",
+        "date": "2026-04-20",
+        "text": "@DataChaz Didn't realize how bad my token usage was until I actually checked. Bookmarking this for the weekend.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sufyanmaan",
+        "name": "Sufyan Maan, M.Eng",
+        "date": "2026-04-20",
+        "text": "@DataChaz Much need post, thanks for sharing, perfect timing",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MarginOfAlpha",
+        "name": "Victor | Structural Alpha",
+        "date": "2026-04-20",
+        "text": "@DataChaz Good perspective on Burning. These kinds of thoughts resonate - thanks for putting it out there for discussion. Appreciate the contribution to this topic.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "stevencheng",
+        "name": "Steven Cheng",
+        "date": "2026-04-19",
+        "text": "@DataChaz 笑死，Caveman Claude 这名字太对味了！  \n我调机械臂时也试过把 prompt 压成电报体，token 真少了一半 🦾",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aiseomastery",
+        "name": "AI Mastery Guide",
+        "date": "2026-04-19",
+        "text": "@DataChaz Token Savior + Code Review Graph combo is doing numbers for me already. Should've found this list sooner.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tenacious_ed8",
+        "name": "Eddie",
+        "date": "2026-04-19",
+        "text": "@DataChaz I had to disable all my skills, etc, to make more than a couple changes 😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "stacyonchain",
+        "name": "StacyOnChain",
+        "date": "2026-04-19",
+        "text": "@DataChaz thanks for the instruction",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PaytonBenefiel1",
+        "name": "Payton Benefield",
+        "date": "2026-04-19",
+        "text": "@AmitVerseHere @DataChaz honestly i don't think about context window at all. maybe i'm just lucky but claude code hasn't burned through anything noticeable for me. the \"10 tools\" stuff always feels like optimization theater ngl",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
   },
   "downloadedImages": [
     {

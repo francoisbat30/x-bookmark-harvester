@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:14:39.759Z",
+  "tweetId": "1978153397552374168",
+  "post": {
+    "url": "https://x.com/testingcatalog/status/1978153397552374168",
+    "author": {
+      "handle": "testingcatalog",
+      "name": "🚨 AI News | TestingCatalog"
+    },
+    "date": "2025-10-14",
+    "text": "BREAKING 🚨: OpenAI is releasing new GPT-5-powered search models in the API! Already available on the OpenAI Platform. \n\n- gpt-5-search-api-2025-10-14\n- gpt-5-search-api\n\nh/t @legit_api https://t.co/7lqhNywrDa",
+    "thread": [
+      {
+        "id": "1978153397552374168",
+        "text": "BREAKING 🚨: OpenAI is releasing new GPT-5-powered search models in the API! Already available on the OpenAI Platform. \n\n- gpt-5-search-api-2025-10-14\n- gpt-5-search-api\n\nh/t @legit_api https://t.co/7lqhNywrDa"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3PQAh4XgAA-V6J.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 779,
+      "retweets": 65,
+      "replies": 11,
+      "views": 117585
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3PQAh4XgAA-V6J.jpg",
+      "localFilename": "1978153397552374168_1.jpg"
+    }
+  ]
+}

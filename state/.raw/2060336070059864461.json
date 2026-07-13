@@ -1,0 +1,1149 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:10:39.081Z",
+  "tweetId": "2060336070059864461",
+  "post": {
+    "url": "https://x.com/gabriell_lab/status/2060336070059864461",
+    "author": {
+      "handle": "gabriell_lab",
+      "name": "Gabriel"
+    },
+    "date": "2026-05-29",
+    "text": "Since Opus 4.8 is out and more and more designers are getting into Design Engineering, I thought I’d share some of the interaction patterns I use most often:\n\nUse proximity, not just hover. When the cursor gets close, nearby elements can subtly scale and darken based on distance.\n\nIt makes interfaces feel more responsive, less binary, and way more alive\n\nonpointermove = e =>\ndocument.querySelectorAll(\".dock>*\").forEach(el => {\nconst r = el.getBoundingClientRect();\nconst t = Math.max(0, 1 - Math.abs(e.clientX - r.x - r.width/2) / 120);\nel. style.scale = 1 + t * .5;\n});",
+    "thread": [
+      {
+        "id": "2060336070059864461",
+        "text": "Since Opus 4.8 is out and more and more designers are getting into Design Engineering, I thought I’d share some of the interaction patterns I use most often:\n\nUse proximity, not just hover. When the cursor gets close, nearby elements can subtly scale and darken based on distance.\n\nIt makes interfaces feel more responsive, less binary, and way more alive\n\nonpointermove = e =>\ndocument.querySelectorAll(\".dock>*\").forEach(el => {\nconst r = el.getBoundingClientRect();\nconst t = Math.max(0, 1 - Math.abs(e.clientX - r.x - r.width/2) / 120);\nel. style.scale = 1 + t * .5;\n});"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2060335710649962497/vid/avc1/1926x1440/qxOeVBHq9YaZCUgn.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2060335710649962497/img/P-mxf8MS8Whq_34D.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 9370,
+      "retweets": 442,
+      "replies": 137,
+      "views": 662393
+    },
+    "comments": [
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@baptistebriel Damn i‘m learning something from you! Thanks so much!",
+        "likes": 11,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-29",
+        "text": "@jonschxyz Who dosn´t like some Apple",
+        "likes": 7,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-29",
+        "text": "@gabefletcher Will post much more in this direction!",
+        "likes": 6,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabe_subfrost",
+        "name": "Gabe",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab @mork1e @ssh_shang 👀",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@twobitjay My man! Looks sick!",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "xkit",
+        "name": "Garrett  Smith",
+        "date": "2026-05-30",
+        "text": "@baptistebriel @gabriell_lab pointermove listener is a CPU killer.\n\nDon't track globally. Cache element centers only on dock.pointerenter, then dynamically bind pointermove using an AbortController to auto-cleanup on pointerleave. No lag, no thrashing.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "berlickfold",
+        "name": "Bernardo Lickfold",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab Keep sharing these stuff man! I'll definitely try this one",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@yamparalarahul1 Damn! This looks lovely! Great job🙏🏻 what you building?",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@KenVermeille @elonmusk Asking everyday for this",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-29",
+        "text": "@kurorosage yeah I try to post wayyy more of these!",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-06-03",
+        "text": "@7hp_ds Ty soo much!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Enmm_ou",
+        "name": "OminiGlow",
+        "date": "2026-05-31",
+        "text": "@gabriell_lab Very useful experience, thanks for sharing.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "7hp_ds",
+        "name": "Renat Muratshin",
+        "date": "2026-05-31",
+        "text": "@gabriell_lab Amazing!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "acvc90",
+        "name": "Alastair",
+        "date": "2026-05-31",
+        "text": "@gabriell_lab Isn’t like 2/3 of traffic mobile?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jakebarlo",
+        "name": "jake",
+        "date": "2026-05-31",
+        "text": "@gabriell_lab Nice man! You should consolidate all these tips into a repo/website. This is super helpful",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ayodsgn",
+        "name": "ayo | product designer",
+        "date": "2026-05-31",
+        "text": "@gabriell_lab thanks for sharing. i got the first bit, but you lost me on the code bit there. but still, i got your tip!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lorzs",
+        "name": "lorzs b",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab so….Designers are designing. Can we end the overuse of calling everything ENGINEERING\n\nBtw #2 is better from uiux for users perspec",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Michael_Sz_Ra",
+        "name": "Michael Szczepanski",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab Nice and so quick pointer for brilliant UX. Openly, today in era of AI generated designs where UI looks pretty the same, even the small change like this seamless experience can increase Leads by impression",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "odbol",
+        "name": "odbol",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab @jonschxyz https://t.co/P3gPk0L80z",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ShamsAmin56",
+        "name": "Shams",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab Probably the proximity feels much better",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KushlaJohn",
+        "name": "John Houston",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab Cool. I’m going to try this.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "anshkapuriya",
+        "name": "Ansh",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab But how’s Opus 4.8? Is it worth investing money on it?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mork1e",
+        "name": "Mork1e",
+        "date": "2026-05-30",
+        "text": "@gabe_subfrost @gabriell_lab @ssh_shang https://t.co/fWLS6cJDKk",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@tranmautritam Details always matter!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@OnaCarlosX So cool!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@yousifADK Try it!!! And share it",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@Arpit_2023 🫂",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@GaryMooreCA Thanks so much!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "imtiahmed01",
+        "name": "Imtiyaz Ahmed",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab Cute! Lovely meeting you",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "thedogfather",
+        "name": "Nick Losciuto",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab This is how you get follows.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hamzaalabou",
+        "name": "hamza",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab the first one feels so peaceful",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "holoswirls",
+        "name": "holoswirls",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab I actually prefer direct...",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Fuzzygoat",
+        "name": "F U Z Z Y G O A T ™",
+        "date": "2026-05-30",
+        "text": "To be fair, I prefer the direct scaling version. You could add a 20% emphasis boost to the “next” tile, but I don’t think it’s necessary.\n\nThe proximity-based version is fine, but I don’t like how it can sometimes leave two tiles with an equal level of visual focus. The UI should guide the user towards a clear decision, not leave them hovering in a state of ambiguity.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "huhwenjie",
+        "name": "qs400.3",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab that's cool I learn it, thank you",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "OnaCarlosX",
+        "name": "carlostraveler",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab love it! thanks! https://t.co/03NUwB67cQ",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@Synslius The details👨‍🍳",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@gustavwf Always🤝 doing more in the future!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@kaolti Ofc!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@RooBuilds Will do it man!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@sugimoto_EC Tysm man means alot!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sugimoto_EC",
+        "name": "杉本聖也｜越境ECマン",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab Awesome！",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "insightformer",
+        "name": "insightformer",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab Looks very cool :D",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@thestudioalpine 🙏🏻🙏🏻🙏🏻",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@woodchipdaddy 🫂",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@aiseomastery Think it works better or only on desktop tbf",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@berlickfold Ayyy thank you so much Bernardo!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@Ayosina_ Wow! Great reccource! Very good job",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@s_m_quadri 🙏🏻",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@apolkingg8 Yeah always use with coution!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@TRENT_UNTANGLED You welcome🫂",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@jackthinkz 🤝🙏🏻",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@idosomthingcool Thank you Julien!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-29",
+        "text": "@vello01 will be posting much more of these!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-29",
+        "text": "@1076_1000 thanks dude that´s the goal",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-29",
+        "text": "@anzoryo you?💆‍♂️",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-29",
+        "text": "@nilseller fr fr",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-29",
+        "text": "@samgrosss Ma maaaan",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AbelardoIT",
+        "name": "🚨 abelardoit 🚨",
+        "date": "2026-06-18",
+        "text": "@gabriell_lab What if this idea was applied to the pagination, @vponamariov ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-06-03",
+        "text": "@hamzaalabou Sooo calm",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "andreaskruszaki",
+        "name": "Andreas Kruszakin-Liboska",
+        "date": "2026-06-03",
+        "text": "@gabriell_lab Oh that's such a fantastic tip!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "KushlaJohn",
+        "name": "John Houston",
+        "date": "2026-05-31",
+        "text": "@gabriell_lab Works great. Lmk if you have any pointers. I just copied your tweet into cursor.  \n\nhttps://t.co/M3GyvVYDoL",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vczhan",
+        "name": "vczhan",
+        "date": "2026-05-31",
+        "text": "@gabriell_lab I haven't figured out how scale affects the size of the layout space occupied by elements.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-31",
+        "text": "@acvc90 yes ofc that's right!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-31",
+        "text": "@Enmm_ou Always man!🫂",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CharplyApp",
+        "name": "Charply",
+        "date": "2026-05-31",
+        "text": "@gabriell_lab proximity over hover is a cool move. gives a more natural feel to interactions. bet it adds a nice layer of depth to the design.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vaesmall",
+        "name": "Ve",
+        "date": "2026-05-31",
+        "text": "@gabriell_lab Clever pattern. But every element recalculating scale on mousemove gets expensive fast on a real page with 200+ nodes. Worth the perf cost for production, or just demos?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aiseomastery",
+        "name": "AI Mastery Guide",
+        "date": "2026-05-31",
+        "text": "@gabriell_lab Makes sense. Touch needs a completely different interaction language. Proximity is a cursor privilege",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ItsFinlayW",
+        "name": "Finlay Williams",
+        "date": "2026-05-31",
+        "text": "@gabriell_lab the jump from hover to proximity is small in code and massive in feel. this is the kind of thing users notice without knowing why",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jonschxyz",
+        "name": "Jon",
+        "date": "2026-05-31",
+        "text": "@odbol @gabriell_lab Underrated comment lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "invvni_",
+        "name": "INV.",
+        "date": "2026-05-31",
+        "text": "@yamparalarahul1 @gabriell_lab Looks like an advanced portfolio",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cogentgene1",
+        "name": "Gene",
+        "date": "2026-05-31",
+        "text": "@gabriell_lab So nice 😊",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tkaboutjp",
+        "name": "tkbt.code.ai",
+        "date": "2026-05-31",
+        "text": "@gabriell_lab いいな",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@ShamsAmin56 Yeah for me it feels more natural",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@KushlaJohn Pls do so! Share your work then!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "byteab",
+        "name": "ehsan",
+        "date": "2026-05-30",
+        "text": "@send2vic @gabriell_lab dope tip! tnx for sharing",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "developer2be",
+        "name": "Javier Benz",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab This is incredible",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yash_patel2003",
+        "name": "Yash Patel",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab Is it good with designs?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "thesoumyadeepr",
+        "name": "Soumyadeep Roy",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab Integrating some sort of a stepping animation during such an interaction would also be great. That snappier feel scratches the itch better than a feeling of gliding along options",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hodlmecloseplz",
+        "name": "Dotya",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab Seriously underestimated advice. Now I look for this everywhere",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@Seedy 🤝🤝🤝",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@hodlmecloseplz 🤓",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@vilainboy237 Yeah really need to do it!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@TimeSurgeLabs Hope i have the time to do so!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@madteryx Always!🤝",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@therealtnygp 👨‍🍳🫂",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@insightformer Thank you man!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sugimoto_EC",
+        "name": "杉本聖也｜越境ECマン",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab I was a front-end engineer, but I'm incredibly excited as it's becoming easier and easier to create attractive designs.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@KenBrian Tysm Ken!🫂",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@andrewvr303 Thank youuu!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@thomasfindlay94 Tysm🙏🏻",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@MrBrjan If you use in in a dashboard for example you mean?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_Sunny_Dewal",
+        "name": "Sunny Dewal",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab @JoshuaNewton",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "daelodev",
+        "name": "Derrick",
+        "date": "2026-05-30",
+        "text": "@twobitjay @gabriell_lab Loved this! Can I ask what tool you used to record your video thanks!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "pwrUze",
+        "name": "the Uze",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab Just keep a very minimum scale up on hover (while driving primary resizing via proximity), giving a gentle bump when touching the item.\n\nor might use hover for other props like luminosity",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@SMchustle Always man thank you!🤝",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@pwrUze How would that be? Can you explain?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@YassineZaanouni Yes true!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dczr",
+        "name": "Miguel",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab Certainly. It was nice but not viable. But it was fun to experiment with actionscript. Uow that was 25 years ago kkkk",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@aadilbuilds 🤓 thanks boss",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@meyharsharma Always!!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@creatishhh Yes yiu can even make it more subtle for my taste this was just for demo purose",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@0xWakatobi Muchhhh more to come",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@naelodev Somone here shared a css only version",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@dczr No not go crazy but is more accesible to more people now",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dczr",
+        "name": "Miguel",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab hahahah you guys would go crazy with the stuff used to be made in Macromedia Flash! You think AI is a power drain? hahahaha",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ayosina_",
+        "name": "Aw⚡️re",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab Thank you Gabriel ✨",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "yamparalarahul1",
+        "name": "Yamparala Rahul",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab Personal Catalogue",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "quantiflow",
+        "name": "Chaos Capitalist",
+        "date": "2026-05-30",
+        "text": "@gabriell_lab bro youve been able to do this stuff since sonnet 3.5, \n\ndont blame your lack of communication abilities on an LLM",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@marctytus 🤍",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@duncanmcalester Good old times?🤓",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@dams9ix Yes! Took ofc inspiration from that",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@concept10 Can you explain further?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@_anthonyfares @claudeai Maybe codex?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@just_gibo I mean no need to do it if you don‘t feel like it",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@zbdel08 Yeah alot of people turn it off actually!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-30",
+        "text": "@arthurmarquezdg Claude/codex helps alot!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-29",
+        "text": "@imtiahmed01 Bro you are always welcome🫂",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-29",
+        "text": "@Segbefromthe90s tbh this interaction is nothing new. Apple did this way back in their dock on macos",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-29",
+        "text": "@PeterDJMain For sure... it should never be overused",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-29",
+        "text": "@TropicThunderJ Codex really strong tbh",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-29",
+        "text": "@alexanderbenz Yeah but today it is more accessable for more and more people",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-29",
+        "text": "@c_ezeiru 😅",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gabriell_lab",
+        "name": "Gabriel",
+        "date": "2026-05-29",
+        "text": "@AdamBartas I mean you can come up with tons of use cases? Don´t you think?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2060335710649962497/img/P-mxf8MS8Whq_34D.jpg",
+      "localFilename": "2060336070059864461_1_poster.jpg"
+    }
+  ]
+}

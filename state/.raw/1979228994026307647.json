@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:14:05.957Z",
+  "tweetId": "1979228994026307647",
+  "post": {
+    "url": "https://x.com/justalexoki/status/1979228994026307647",
+    "author": {
+      "handle": "justalexoki",
+      "name": "taoki"
+    },
+    "date": "2025-10-17",
+    "text": "shit is about to get so fucked up https://t.co/5BZttJwcNc",
+    "thread": [
+      {
+        "id": "1979228994026307647",
+        "text": "shit is about to get so fucked up https://t.co/5BZttJwcNc"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3eiRyTWYAArN3b.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 6365,
+      "retweets": 285,
+      "replies": 456,
+      "views": 521479
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3eiRyTWYAArN3b.jpg",
+      "localFilename": "1979228994026307647_1.jpg"
+    }
+  ]
+}

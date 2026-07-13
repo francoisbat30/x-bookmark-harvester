@@ -1,0 +1,649 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:10:07.752Z",
+  "tweetId": "2074896520415936748",
+  "post": {
+    "url": "https://x.com/Jouhatsu_ai/status/2074896520415936748",
+    "author": {
+      "handle": "Jouhatsu_ai",
+      "name": "Jouhatsu | AI Influence Operator"
+    },
+    "date": "2026-07-08",
+    "text": "Arrêtez de payer des formations sur les agents IA.\n\nAnthropic vient de publier 3 heures de workshops GRATUITS qui vous montrent comment construire des systèmes agentiques capables de s'améliorer d'eux-mêmes. \n\nRegarde le workshop. Ajoute en signet🔖\n\nVous allez apprendre à :\n\n→ Créer votre premier agent Claude\n→ Lui donner une mémoire persistante\n→ Le rendre autonome\n→ Le transformer en agent proactif\n→ Concevoir un système capable de s'améliorer tout seul (outils + compétences)\n\nHonnêtement, ce contenu vaut facilement plusieurs milliers d'euros en formation.\n\nRegardez l'atelier pour apprendre à créer un système d'agents IA auto-améliorant avec Fable 5.\n\nJ’ai traduit l’audio de la vidéo en français. Ceux qui sont intéressés, faites-le-moi savoir.",
+    "thread": [
+      {
+        "id": "2074896520415936748",
+        "text": "Arrêtez de payer des formations sur les agents IA.\n\nAnthropic vient de publier 3 heures de workshops GRATUITS qui vous montrent comment construire des systèmes agentiques capables de s'améliorer d'eux-mêmes. \n\nRegarde le workshop. Ajoute en signet🔖\n\nVous allez apprendre à :\n\n→ Créer votre premier agent Claude\n→ Lui donner une mémoire persistante\n→ Le rendre autonome\n→ Le transformer en agent proactif\n→ Concevoir un système capable de s'améliorer tout seul (outils + compétences)\n\nHonnêtement, ce contenu vaut facilement plusieurs milliers d'euros en formation.\n\nRegardez l'atelier pour apprendre à créer un système d'agents IA auto-améliorant avec Fable 5."
+      },
+      {
+        "id": "2074897237528756239",
+        "text": "J’ai traduit l’audio de la vidéo en français. Ceux qui sont intéressés, faites-le-moi savoir."
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2074888616292016128/vid/avc1/1920x1080/VZZ94IKFLagf2WuE.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2074888616292016128/img/zZtBfmUGr4sTdUr7.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 251,
+      "retweets": 46,
+      "replies": 10,
+      "views": 237310
+    },
+    "comments": [
+      {
+        "handle": "hugocaron_IA",
+        "name": "Hugo Caron AI",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Anthropic publie ses propres workshops pour montrer comment utiliser Claude correctement c’est la source la plus fiable qui existe sur le sujet.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "I_Yuna_I",
+        "name": "Yuna",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai Bonsoir. Je serai très intéressé par la vidéo en FR merci beaucoup pour le taff !",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "imraan",
+        "name": "Imraan",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai worth thousands of euros is such a funny genre on here",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ne_o00o",
+        "name": "NeO",
+        "date": "2026-07-12",
+        "text": "@Jouhatsu_ai Je t'ai sollicité deux fois il y a quelques semaines en dm pour d'autres vidéos, tu ne m'a jamais répondu..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fgicquaud",
+        "name": "F_TS",
+        "date": "2026-07-12",
+        "text": "@Jouhatsu_ai Bonjour. Je suis intéressé également. Merci.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "marcgehring",
+        "name": "Marc Gehring",
+        "date": "2026-07-12",
+        "text": "@Jouhatsu_ai Bon réflexe de partager ces ateliers !   Une précision utile : le workshop d'Anthropic apprend à structurer un agent, ses outils, sa mémoire, sa boucle d'évaluation. Pas à le rendre « autonome » au sens fort : l'amélioration reste pilotée par ce qu'on lui donne à mesurer.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AceAty",
+        "name": "Avenir Analytics",
+        "date": "2026-07-11",
+        "text": "@Jouhatsu_ai Bonsoir je suis intéressé par la vidéo en français. Merci d'avance",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Difintel1602",
+        "name": "Rien",
+        "date": "2026-07-10",
+        "text": "@Jouhatsu_ai Salut je veux bien stp",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Les_Duverly",
+        "name": "Un citoyen",
+        "date": "2026-07-10",
+        "text": "@Jouhatsu_ai oui je suis intéressé également",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IvanSmart7",
+        "name": "Ivan’Smart",
+        "date": "2026-07-10",
+        "text": "@Jouhatsu_ai Intéressé",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "romano__7",
+        "name": "Romano 🇮🇹",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai Bonjour, intéressé stp",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hugpatos",
+        "name": "𝙃𝙪𝙜𝙋𝙖𝙩𝙤𝙨☀️",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai Bonjour, Intéresser par l'audio en Fr",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "niamor420",
+        "name": "niamor420",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai Salut, s’il te plaît",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GoldyUnit14",
+        "name": "Goldy",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai Intéressé merci",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gsoulet13",
+        "name": "Guillaume Soulet",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai Bonjour je suis très intéressé ! Merci",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "scrooge653",
+        "name": "SCdarling",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai Bonsoir je suis intéressé par la vidéo en français. Merci d'avance",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cobutnathan",
+        "name": "Mr Yellow",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai Ou a été publié le vidéo originale? C'est réellement produit par Anthropic ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SbastienRo96541",
+        "name": "Sebastiano Di Cassino",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai Intéressé merci",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hallot_win",
+        "name": "Hey_it’s",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai Très intéressé merci 🙏",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheDstrs",
+        "name": "Dstrs",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai Idem",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gusto209",
+        "name": "Jack Durden",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai Merci de publier évidemment.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dev_icii",
+        "name": "Dev ici",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai Bonjour, très interessé également par la vidéo en FR Merci d'avance",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jennyjen699601",
+        "name": "Jenny",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai Bonjour :) intéressé",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ChainedeRalf",
+        "name": "Raphaël M.",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai içnteressé",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "StankovichLoL",
+        "name": "StanKövich",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai Intéressé svp ☺️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BrendanJos23369",
+        "name": "Brendan Josselin",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai Intéressé merci",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thimoty26",
+        "name": "thimoty26",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai Intéressé aussi par ici 👈, merci 0",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "romgxav",
+        "name": "Romain G. Xav",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai Intéresse en français",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BroglioloC",
+        "name": "Brogliolo Christophe",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai +1",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "breko974",
+        "name": "Dutch",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai Intéressé, merci",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fgyfkho",
+        "name": ".",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai Intéressé !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Nickorrigan",
+        "name": "Nicolas ROBIN",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai Bonjour,\nOui je suis vivement intéressé. \nMerci.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GM_MultiFace",
+        "name": "GM🇫🇷 🇮🇹 🇦🇲",
+        "date": "2026-07-09",
+        "text": "@Jouhatsu_ai Svp merci",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AntoineFrgd",
+        "name": "Gargalhada",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Intéressé également",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HackeurJuan",
+        "name": "Jean El-roy Mukendi",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Intéressé",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sienbe51",
+        "name": "sienbe51",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Je suis intéressé",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WJKovax",
+        "name": "WJ.Kovax",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Intéressé également. :)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jeancyblack",
+        "name": "Jeancy",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Intéressé",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SadHik22983912",
+        "name": "Dikchat 🇫🇷 🇵🇹 MSF",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Ça m’intéresse, merci pour tout ce que tu partages",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "benip8",
+        "name": "Benip8",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai oh yesssss",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Diazz2208",
+        "name": "🤙🏼🇫🇷",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Intéressé svp",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LGattegno",
+        "name": "laurent 64",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Intéressé aussi !!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "J_P_BERTHE",
+        "name": "Jean Pierre Berthe",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Très intéressé par la vidéo en français. Merci d'avance",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "OuiNon496411942",
+        "name": "Oui Non",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Hello je suis intéressé si en français :) merci",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "farfasnkrs",
+        "name": "Farfadet",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Très intéressé, merci pour ton travail",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "matgwyn",
+        "name": "Mat Gwynplaine",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Ca m’intéresse !! Merci !🙏",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "marika__chow",
+        "name": "Marika",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Intéressée. Merci 😊",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Djocherki",
+        "name": "Cherki",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Intéressé",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Leprince942",
+        "name": "leprince 🍉",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Intéressé aussi stp",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Fabien_Gerard",
+        "name": "Fabien_Grd 🇫🇷 ⭐⭐",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Chaud",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VanDer217",
+        "name": "Van Der 2",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Merci 🙏 oui très intéressé",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DidTheyDo_it",
+        "name": "Jigme",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Je suis Intéressé !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PDeleurme",
+        "name": "Retrocausalite WebIA",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Merci 🙏 oui très intéressé",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jy32",
+        "name": "jean yves N'guessan",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Intéressé",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MamadouDia1565",
+        "name": "Mamadou Diallo",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Interessé",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Cedk95",
+        "name": "Ced k",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai @Jouhatsu_ai je suis intéressé ! Merci",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Yorox77",
+        "name": "Yoro",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Intéressé. Merci",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DobraLab",
+        "name": "🎱",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Salut ! Je t’ai dm",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ai_romain",
+        "name": "Romain Lacombe",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Ce qui m’intéresse le plus c’est l’agent proactif la différence entre un outil qui attend qu’on lui demande et un système qui agit avant qu’on le sollicite est énorme.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ia_level",
+        "name": "LevelUpIAFr",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Honnêtement 3 heures de workshops Anthropic gratuites valent plus que la plupart des contenus payants parce que la source sait exactement comment leur propre technologie fonctionne.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "antho_poire",
+        "name": "Antho 🍐 ₿",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Elle merci suis intéressé :)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Fabio_belkacem",
+        "name": "Moreira",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Intéressé également 🙏. Merci",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jpascal_lbs",
+        "name": "JPascal",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Intéressé",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JamesWest3215",
+        "name": "Ambroise YAO",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Intéressé",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jekimoukoko",
+        "name": "Mko",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Intéressé",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EloiLJF",
+        "name": "Eloi | UGC IA 🧨",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Je termine ça ce week-end",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KaitoEtLIA",
+        "name": "Kaito",
+        "date": "2026-07-08",
+        "text": "@Jouhatsu_ai Stp tu peux m'envoyer la version française ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2074888616292016128/img/zZtBfmUGr4sTdUr7.jpg",
+      "localFilename": "2074896520415936748_1_poster.jpg"
+    }
+  ]
+}

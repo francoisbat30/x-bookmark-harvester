@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:12:56.449Z",
+  "tweetId": "2033713678487265693",
+  "post": {
+    "url": "https://x.com/RoundtableSpace/status/2033713678487265693",
+    "author": {
+      "handle": "RoundtableSpace",
+      "name": "0xMarioNawfal"
+    },
+    "date": "2026-03-17",
+    "text": "A SWARM OF 168 AI AGENTS IS MODELING POLYMARKET BY SIMULATING HUMAN REACTIONS TO EVENTS.\n\nIt trades when the swarm’s probability diverges from the market price.\n\nhttps://t.co/JBNiRjOyRU",
+    "thread": [
+      {
+        "id": "2033713678487265693",
+        "text": "A SWARM OF 168 AI AGENTS IS MODELING POLYMARKET BY SIMULATING HUMAN REACTIONS TO EVENTS.\n\nIt trades when the swarm’s probability diverges from the market price.\n\nhttps://t.co/JBNiRjOyRU"
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 198,
+      "retweets": 21,
+      "replies": 34,
+      "views": 58949
+    },
+    "comments": []
+  }
+}

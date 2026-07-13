@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:27.718Z",
+  "tweetId": "2041869776927261024",
+  "post": {
+    "url": "https://x.com/_vmlops/status/2041869776927261024",
+    "author": {
+      "handle": "_vmlops",
+      "name": "Vaishnavi"
+    },
+    "date": "2026-04-08",
+    "text": "MICROSOFT BUILT A TOOL THAT CONVERTS LITERALLY ANYTHING INTO CLEAN MARKDOWN FOR YOUR LLM\n\npdfs. word docs. excel. powerpoint. audio. youtube urls\n\none pip install and your AI pipeline stops choking on raw files forever\n\nno custom parsers. no broken layouts. no garbled text.\n\njust clean, structured markdown your LLM can actually read\n\nhttps://t.co/RSt0CczfYa",
+    "thread": [
+      {
+        "id": "2041869776927261024",
+        "text": "MICROSOFT BUILT A TOOL THAT CONVERTS LITERALLY ANYTHING INTO CLEAN MARKDOWN FOR YOUR LLM\n\npdfs. word docs. excel. powerpoint. audio. youtube urls\n\none pip install and your AI pipeline stops choking on raw files forever\n\nno custom parsers. no broken layouts. no garbled text.\n\njust clean, structured markdown your LLM can actually read\n\nhttps://t.co/RSt0CczfYa"
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 4923,
+      "retweets": 512,
+      "replies": 77,
+      "views": 801852
+    },
+    "comments": []
+  }
+}

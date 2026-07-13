@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:01.372Z",
+  "fetchedAt": "2026-07-13T07:08:35.804Z",
   "tweetId": "2037198535930663361",
   "post": {
     "url": "https://x.com/zostaff/status/2037198535930663361",
@@ -9,32 +10,1045 @@
       "name": "zostaff"
     },
     "date": "2026-03-26",
-    "text": "I BUILT A BOT THAT SEES THE FUTURE 8 SECONDS AHEAD\n\nPenalty, red card, goal - probability jumps 15-30 points instantly.\n                                                                                   \nBut Polymarket updates in 15-20 seconds, my bot in 8.\n\nLive stadium data through Sportradar WebSocket - player coordinates, speed, xG, pressing, all in realtime, not from broadcast.\n\n$12K/year, same data bookmakers buy.\n\nML model recalculates probability after every event. Lineup, form, fatigue, minute, score. 3 months of training, $2K on GPU.\n\nPrivate RPC on Polygon - $200/mo, 3-5 seconds faster than public nodes.\n\nGas overpay for block priority - $800/mo at 8 matches per week.\n\nUp to 8 matches in parallel. Champions League, EPL, La Liga. Each match - separate instance, separate wallet.\n\nTotal cost: $18K/year.\n\nBut I see the future 8 seconds ahead.\n\nI don't know who will win, but I know exactly where the oracle falls behind.",
+    "text": "I BUILT A BOT THAT SEES THE FUTURE 8 SECONDS AHEAD\n\nPenalty, red card, goal - probability jumps 15-30 points instantly.\n                                                                                   \nBut Polymarket updates in 15-20 seconds, my bot in 8.\n\nLive stadium data through Sportradar WebSocket - player coordinates, speed, xG, pressing, all in realtime, not from broadcast.\n\n$12K/year, same data bookmakers buy.\n\nML model recalculates probability after every event. Lineup, form, fatigue, minute, score. 3 months of training, $2K on GPU.\n\nPrivate RPC on Polygon - $200/mo, 3-5 seconds faster than public nodes.\n\nGas overpay for block priority - $800/mo at 8 matches per week.\n\nUp to 8 matches in parallel. Champions League, EPL, La Liga. Each match - separate instance, separate wallet.\n\nTotal cost: $18K/year.\n\nBut I see the future 8 seconds ahead.\n\nI don't know who will win, but I know exactly where the oracle falls behind.\n\ntrading here: https://t.co/h1MsffTTvF   \n\nmy tg channel: https://t.co/L8MTFqDrNN",
+    "thread": [
+      {
+        "id": "2037198535930663361",
+        "text": "I BUILT A BOT THAT SEES THE FUTURE 8 SECONDS AHEAD\n\nPenalty, red card, goal - probability jumps 15-30 points instantly.\n                                                                                   \nBut Polymarket updates in 15-20 seconds, my bot in 8.\n\nLive stadium data through Sportradar WebSocket - player coordinates, speed, xG, pressing, all in realtime, not from broadcast.\n\n$12K/year, same data bookmakers buy.\n\nML model recalculates probability after every event. Lineup, form, fatigue, minute, score. 3 months of training, $2K on GPU.\n\nPrivate RPC on Polygon - $200/mo, 3-5 seconds faster than public nodes.\n\nGas overpay for block priority - $800/mo at 8 matches per week.\n\nUp to 8 matches in parallel. Champions League, EPL, La Liga. Each match - separate instance, separate wallet.\n\nTotal cost: $18K/year.\n\nBut I see the future 8 seconds ahead.\n\nI don't know who will win, but I know exactly where the oracle falls behind."
+      },
+      {
+        "id": "2037255087018369312",
+        "text": "trading here: https://t.co/h1MsffTTvF   \n\nmy tg channel: https://t.co/L8MTFqDrNN"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/2037197845682651136/vid/avc1/3840x2062/afi_tzbkixcjOR2t.mp4"
+        "url": "https://video.twimg.com/amplify_video/2037197845682651136/vid/avc1/3840x2062/afi_tzbkixcjOR2t.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2037197845682651136/img/XB09sTJQorG5uX_t.jpg"
       }
     ],
     "metrics": {
-      "likes": 1392,
-      "retweets": 62,
-      "replies": 86,
-      "views": 351155
+      "likes": 1387,
+      "retweets": 67,
+      "replies": 84,
+      "views": 353262
     },
     "comments": [
+      {
+        "handle": "MrGeld",
+        "name": "Geld",
+        "date": "2026-03-26",
+        "text": "@zostaff “Okay claude make a dashboard and move the dots randomly around and ill handle the larp”",
+        "likes": 71,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "l3d1c",
+        "name": "Josip",
+        "date": "2026-03-26",
+        "text": "@zostaff All of this to get destroyed by corrupt VAR",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@MrGeld don't write too much\n\n\"just build me a bot\"🫡",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brokeinvstr",
+        "name": "brokeinvstr 🔼 ▶️ 🔼",
+        "date": "2026-03-27",
+        "text": "@zostaff mine sees the future 9 seconds ahead\n\nsorry you had to go through allat building",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JackedTechBro",
+        "name": "ZλZZ",
+        "date": "2026-03-26",
+        "text": "@zostaff @nikitabier how much is polymarket paying this guy to promote their platform? shouldn't it be disclosed?",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@josip_ i'm honestly afraid of this",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mattmvinson",
+        "name": "Matt",
+        "date": "2026-03-27",
+        "text": "@zostaff @JackedTechBro @nikitabier So you don’t have any financial relationship with Polymarket outside of using their product under the exact same terms as every other unaffiliated user?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ghostdotenv",
+        "name": "ghost.env",
+        "date": "2026-03-27",
+        "text": "@Abombination81 @zostaff How do you get genius Or sportstrader? I tried but they seem to be only for established businessses? And denied me\n\nAssuming you just formed an LLC?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LeandroSalinasX",
+        "name": "Leandro Salinas",
+        "date": "2026-03-26",
+        "text": "@zostaff This is incredible why you don't create one that predicts global economic movements.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@0xAIMGU reaction to an event, like a goal, takes less than 1 second after receiving the information\n\non polymarket it's about 3 seconds slower",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@nodefounder i didn't say a word about telegram\n\nbut it's hard to call this high-frequency trading the difference is in whole seconds\n\nalthough sometimes even that isn't enough time to make a decision",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
       {
         "handle": "BuildAiHQ",
         "name": "HT Websolution",
         "date": "2026-04-11",
-        "text": "@zostaff That’s impressive!"
+        "text": "@zostaff That’s impressive!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ValariaM8459",
+        "name": "Valaria Moon",
+        "date": "2026-03-31",
+        "text": "@zostaff Can you tell full process or provide your own bot",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dont_hippo",
+        "name": "Satoshi Ajinomoto",
+        "date": "2026-03-29",
+        "text": "@zostaff Bro, Is this even possible n POLYMARKET? \nIf so, Then he's now RICHER than ELON musk! https://t.co/VG98Shdxjt",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mattmvinson",
+        "name": "Matt",
+        "date": "2026-03-27",
+        "text": "@zostaff @JackedTechBro @nikitabier Still vagueposting. So you do or do not have a relationship with Polymarket distinctly unique and different from an average user?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-27",
+        "text": "@mattmvinson @JackedTechBro @nikitabier i already try to be as open with people as possible\n\nthat really matters to me",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mattmvinson",
+        "name": "Matt",
+        "date": "2026-03-27",
+        "text": "@zostaff @JackedTechBro @nikitabier No, I think people just like the clarity to know there’s no conflicts of interest.\n\nSo if you’re can confirm there is zero difference in the relationship between you and Polymarket compared to an ordinary user, readers appreciate that contextual information.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Abomination81",
+        "name": "Abomination",
+        "date": "2026-03-27",
+        "text": "@ghostdotenv @zostaff Yeah, I have other businesses.  They dont care too much.  I told them we were building an analytics program... they took the money happily.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "poopcoder",
+        "name": "random",
+        "date": "2026-03-27",
+        "text": "@zostaff $18k/year to exploit a 12 second lag is just capitalism",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Alfred_Dulaire",
+        "name": "Mr Peanutbutter 🇫🇷",
+        "date": "2026-03-27",
+        "text": "@zostaff Gas overpay for block priority - $800/mo\n\nwould you be interested using \"asset oriented protocol\" like @RadixDLT to slash this line of cost ?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vvalter",
+        "name": "匿鱼 (W)",
+        "date": "2026-03-27",
+        "text": "@zostaff larp but still viral",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "heyrimsha",
+        "name": "Rimsha Bhardwaj",
+        "date": "2026-03-27",
+        "text": "@zostaff That's an impressive achievement!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hivy_live",
+        "name": "hivy",
+        "date": "2026-03-27",
+        "text": "@zostaff Prediction communities to trade together with your community on hivy (dot) live",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DheerajShah",
+        "name": "Dhee.eth 🦇🔊 is at @ns",
+        "date": "2026-03-27",
+        "text": "@zostaff show us your trade",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-27",
+        "text": "@ghostdotenv @Abombination81 i got it through an organization of a close friend",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tonglikj",
+        "name": "盯裆熊🔔",
+        "date": "2026-03-27",
+        "text": "@zostaff Not predicting the future eight seconds ahead? Isn't it better to say you're eight seconds faster than everyone else? 🙃🙃",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Abomination81",
+        "name": "Abomination",
+        "date": "2026-03-27",
+        "text": "Not sure.  He is sort of right.  The sportstrader api, and Genius sports api do lead the sports market, but its not that good.\n\nI have Genius Sports which is almost 22k a month for all the leagues, and I win, but not as much as I used to.\n\nGenius trader is the best in the world, by far.  It leads sometimes by 2-5 seconds.  But other people do the same thing or predictive so the money is very rarely in there..   Especially for easy to predict things (game winner in 3rd quarter)\n\nSportstrader is slower, its a resell of Genius Sports.\n\nSo I'm going to say no... guy knows sort of the gist, but he is off on a few things.\n\nBut.. he isnt shilling scams, he isnt pushing people to a copy trader bot, and his info is directionally correct. \n\nSo not amazing, but not a shithead like the scammers.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "boltbet7",
+        "name": "⚡️Boltbet⚡️",
+        "date": "2026-03-27",
+        "text": "@zostaff Doing too much but keep going",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ghostdotenv",
+        "name": "ghost.env",
+        "date": "2026-03-27",
+        "text": "@zostaff Hey @Abombination81 is this real",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "devanvelji",
+        "name": "Devan",
+        "date": "2026-03-26",
+        "text": "@zostaff Cool",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "deedsnz",
+        "name": "Quantum Hog (PIVOTTTtttttt)",
+        "date": "2026-03-26",
+        "text": "@zostaff Very cool",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sopersone",
+        "name": "sopersone",
+        "date": "2026-03-26",
+        "text": "@zostaff You’re a genius\n\nYou’re using your brain at 100%",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "greednvirtue",
+        "name": "exodus",
+        "date": "2026-03-26",
+        "text": "@zostaff A bot based on soccer matches is cool. I think you could make a lot of money with this.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@JackedTechBro @nikitabier tell me how mentioning where i trade promotes polymarket\n\ni don't understand your frustration, bro",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "slash1sol",
+        "name": "slash1s",
+        "date": "2026-03-26",
+        "text": "@zostaff fantastic idea bro",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BitcoinMajlo",
+        "name": "💫BitcoinMajlo 🇸🇰",
+        "date": "2026-03-26",
+        "text": "@zostaff SPORTRADAR 7k/month websocket .... and you have to have licence. you talking bullshit for engagement",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kepochnik",
+        "name": "kepo",
+        "date": "2026-03-26",
+        "text": "@zostaff bot that sees 8 seconds into the future on live sports  penalty probability jumps 15-30 points before the crowd reacts",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Karbunck0",
+        "name": "They Live",
+        "date": "2026-03-26",
+        "text": "@zostaff Could You recomendme  a bot ?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "De_ferus",
+        "name": "Ferus",
+        "date": "2026-03-26",
+        "text": "@zostaff And that is why the future cannot be predicted due to the law of chaos, I’m not dismantling your project, on the contrary, well done, but also remember that the house wins and the client loses, otherwise they wouldn’t exist, same for the stock market.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "De_ferus",
+        "name": "Ferus",
+        "date": "2026-03-26",
+        "text": "@zostaff Does it also cover if lightning strikes the field? Or if the power goes out? Or if a pitch invader enters and interrupts the match?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tonitrades_",
+        "name": "toni",
+        "date": "2026-03-26",
+        "text": "@zostaff 8 seconds feels fast, but Polymarket whales often have direct stadium feeds too.\n\nThe real question is whether your edge survives once others start watching the same signals.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mflscout",
+        "name": "MFLScout",
+        "date": "2026-03-26",
+        "text": "@zostaff WTH",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AleiahLock",
+        "name": "Aleiah",
+        "date": "2026-03-26",
+        "text": "@zostaff Real game",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xAIMGU",
+        "name": "AIMGU",
+        "date": "2026-03-26",
+        "text": "@zostaff So from the goal is scored to your order placement how much time in average? And how much time until you make that trade in polymarket? Im very interested",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "parlettodotbet",
+        "name": "Parletto",
+        "date": "2026-03-26",
+        "text": "@zostaff science-fi finally comes true\n\nthat's crazy",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_74_is_Tahir_",
+        "name": "M.Tahir",
+        "date": "2026-03-26",
+        "text": "@zostaff The bot is a clever latency play, but it is still betting, not investing. Any system must have hard risk limits",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ROZgolfer23",
+        "name": "Jason Rouslin",
+        "date": "2026-03-26",
+        "text": "@zostaff Very very interesting. Wow.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "helicerat0x",
+        "name": "helicerat",
+        "date": "2026-03-26",
+        "text": "@zostaff you made a cool system\n\nbut my system is better bro",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jatoshiii",
+        "name": "Jatoshiii",
+        "date": "2026-03-26",
+        "text": "@zostaff this is genius if quantified right\n\nevery fan can sense the goals coming when they see lanes opened for (rank) talent relative to time and momentum of game",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@morpphhhaw i'm not creating new ones\n\ni'm just improving the existing ones",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@Skaly__Bull it's incredibly cool when you can see the future like that",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@0xbobaaa a little over 4 months\n\nthe hardest part was finding spare money for the api",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@hivy_live @GPM_summit what kind of summit is this?\n\ndo you invite content creators and how can i attend it?",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@0xWast3 it's a shame the api doesn’t allow working with smaller matches\n\notherwise it would literally print money every day",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@ninedol this is just everyday work that cost me $18k",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@antpalkin ty mate",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@Kropanchik this is it",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@0xWast3 i'll do it at the next tournament",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@shmidtqq ty broski",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
       },
       {
         "handle": "JermelFuego",
         "name": "Jermel Fuego",
         "date": "2026-04-09",
-        "text": "@zostaff Is this on GitHub? Would like to know if  this is open source?"
+        "text": "@zostaff Is this on GitHub? Would like to know if  this is open source?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Export__Re_nder",
+        "name": "FOR X",
+        "date": "2026-03-29",
+        "text": "@zostaff How you make this type of bot..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-27",
+        "text": "@mattmvinson @JackedTechBro @nikitabier no",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-27",
+        "text": "@mattmvinson @JackedTechBro @nikitabier well, i'm not a polymarket ambassador\n\ni just post about it like a lot of other people do\n\nthat's not illegal, is it?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xkunta",
+        "name": "Kunta",
+        "date": "2026-03-27",
+        "text": "@zostaff @kepochnik Have you started using the bot?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "martin_g_off",
+        "name": "Martin",
+        "date": "2026-03-27",
+        "text": "@zostaff Cap",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KikoLop15042187",
+        "name": "KikoLopez🉐",
+        "date": "2026-03-27",
+        "text": "@zostaff @kepochnik What if you bet and VAR undo the action?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "genejam5ae",
+        "name": "silicon carbide lover aka stolen milady",
+        "date": "2026-03-27",
+        "text": "@zostaff How you manage disallowed goals and penalties with VAR and red cards with VAR retracted, ecc. ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lillogn",
+        "name": "lillo",
+        "date": "2026-03-27",
+        "text": "@zostaff fake, sportradar not fast enough",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mcp35eth",
+        "name": "Matt | LuvKaizen",
+        "date": "2026-03-27",
+        "text": "@zostaff :DDDDDDDDDDDDDDDDD u have a money printing machine and posting on X about it bruhh 😭😭😭😭",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-27",
+        "text": "@ASadok9 i'd help\n\nbut i just don't have the time for a second project like that right now\n\nand honestly, i don't really have the energy either\n\ni've already got a lot of projects i need to ship",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-27",
+        "text": "@ASadok9 if you're serious about sports betting\n\ni'd really recommend building a bot like this\n\nit can give you a solid edge",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rishavj39",
+        "name": "uchiha",
+        "date": "2026-03-27",
+        "text": "@zostaff What about VaR and then disallowed goal??",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vorty279",
+        "name": "vorty",
+        "date": "2026-03-27",
+        "text": "@zostaff basically your bot just ruins the viewing experience",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-27",
+        "text": "@brokeinvstr honestly, this was super interesting\n\nright up until i realized i need an organization to get an sportradar websocket subscription",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-27",
+        "text": "@heyrimsha ty Rimsha😊",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "m_furkan_sahin",
+        "name": "Furkan Şahin",
+        "date": "2026-03-27",
+        "text": "@zostaff How can I access training data, or how do I generate training data?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MerveArslan_T",
+        "name": "Merve Arslan",
+        "date": "2026-03-27",
+        "text": "@zostaff Wow..\nhttps://t.co/LQOU7pyw9u",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BullStern",
+        "name": "Tom Stern",
+        "date": "2026-03-27",
+        "text": "@zostaff share the wallets",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheMonkBob",
+        "name": "Bob",
+        "date": "2026-03-27",
+        "text": "@zostaff What’s your RPC address",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-27",
+        "text": "@tonglikj you're probably right bro, it just sounded really cool",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PolySapiens",
+        "name": "Poly Sapiens",
+        "date": "2026-03-27",
+        "text": "@zostaff There are faster direct feeds from scouts on every match, every bookmaker has it \n\nAs individual you won’t be able to buy bet365 websocket -&gt; no fronrun \n\nMan, frontrunning this day is more rare that legit polymaker post, saying that like a guy who made 40k+ in 2019 on that..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VegasSawyer",
+        "name": "Sawyer",
+        "date": "2026-03-27",
+        "text": "@zostaff I have sports betting bot that plays into polymarket, pinnacle, bookmaker, and many more. Maybe we should link up?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EdgeFinderHQ",
+        "name": "EdgeFinder",
+        "date": "2026-03-27",
+        "text": "@zostaff We also have a low latency feed for NFL / NBA! https://t.co/YBv7fA6Mto",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "5H0R7",
+        "name": "Algohack",
+        "date": "2026-03-27",
+        "text": "@zostaff lulz ok bro",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Zionwxt_",
+        "name": "Zionwxt Tips 🇧🇷",
+        "date": "2026-03-26",
+        "text": "@zostaff https://t.co/1HS0TGN27M",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lostinganglia",
+        "name": "Ben Frank",
+        "date": "2026-03-26",
+        "text": "@zostaff 8 seconds is not a lot, i believe most betting platforms already have this and odds get suspended during certain actions in-game.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@iRyanBell https://t.co/hhX3JByHZU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@iRyanBell hahaha yeah,here's what i found https://t.co/CuiNtqb8V8",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@iRyanBell i'll try to find the document i was studying\n\nand send it to you so you can take a look, you might find it interesting",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Akuma_Reji",
+        "name": "Mars Lopez",
+        "date": "2026-03-26",
+        "text": "@zostaff 🤣",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@iRyanBell i looked into the situation with kalshi\n\nwhen a case was filed against them in new york, treating them as a house\n\nwhich technically isn't a prediction market",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MildianiDemetre",
+        "name": "Deme Mildiani",
+        "date": "2026-03-26",
+        "text": "@zostaff Real time Sim of Football only right? is there anything more effective?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TranzendEth",
+        "name": "Tranzend.eth",
+        "date": "2026-03-26",
+        "text": "@zostaff Ai slop. In case anyone is wondering",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ShilohFbg",
+        "name": "Shiloh.fbg",
+        "date": "2026-03-26",
+        "text": "@helicerat0x @zostaff how so?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ShilohFbg",
+        "name": "Shiloh.fbg",
+        "date": "2026-03-26",
+        "text": "@zostaff @0xWast3 why do you say this, do smaller matches hold an advantage?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "fidoeth",
+        "name": "fido.eth",
+        "date": "2026-03-26",
+        "text": "@zostaff I need an @AzFlin type meme for “if it worked he wouldn’t be posting about it”",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@kepochnik 8 seconds is enough to make nearly $1k from a match with almost no risk",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@Karbunck0 it depends on what you need the bot for",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@De_ferus alright bro thanks",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@tonitrades_ it remains, but the window gets smaller\n\nand here execution speed becomes critical",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@De_ferus you're now accounting for so-called black swan events\n\nthings that can happen but shouldn't\n\nand it's almost impossible to train an llm for that\nso this bot doesn't react to black swans",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PolyODDsWallet",
+        "name": "PolyODDsWallet",
+        "date": "2026-03-26",
+        "text": "@zostaff My its bett :)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@ROZgolfer23 ty mate",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Sunajay123",
+        "name": "Aman Sajeev",
+        "date": "2026-03-26",
+        "text": "@zostaff Go slam all the legal books you can with this edge. Free 10-20k before they limit you.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@jatoshiii when i started building this bot\n\ni didn't think a few seconds would have such a big impact on profits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@MisterNoComents ty bro",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@linie_oo these bots have been running for a long time\n\nit's just that their architecture isn't cheap",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@martynov014 ty broski",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@monokern 4 months",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@sopersone what could be easier than making money\n\nif you can see the future",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@SelenkaOnChain i literally see the future bro\n\nwhat could be better",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@hivy_live @GPM_summit what company is this?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
       }
     ]
-  }
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2037197845682651136/img/XB09sTJQorG5uX_t.jpg",
+      "localFilename": "2037198535930663361_1_poster.jpg"
+    }
+  ]
 }

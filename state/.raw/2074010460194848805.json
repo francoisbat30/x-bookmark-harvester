@@ -1,0 +1,125 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:09:53.922Z",
+  "tweetId": "2074010460194848805",
+  "post": {
+    "url": "https://x.com/PaulYoungX/status/2074010460194848805",
+    "author": {
+      "handle": "PaulYoungX",
+      "name": "Paul Young"
+    },
+    "date": "2026-07-06",
+    "text": "arrête de dire à Claude Code/Codex \"les couleurs ne rendent pas bien\".\narrête de dire à Claude Code/Codex \"la police est moche\".\narrête de dire à Claude Code/Codex \"les espacements sont bizarres\".\n\nvous ne lui avez jamais fourni de design system.\n\nil utilise donc les styles par défaut… et ensuite vous critiquez chaque version qu'il génère.\n\nvoici 8 prompts et leurs objectifs que vous pouvez copier-coller directement.\n\n1. Le Design System\n\n(Transformer une interface dispersée en une bibliothèque de composants cohérente.)\n\nMission : identifie les composants d'interface éparpillés, les design tokens et les interactions répétitives de ce projet afin de créer un Design System unique, réutilisable et facile à maintenir. Remplace tous les composants développés individuellement par ceux de la bibliothèque, fais en sorte que toutes les nouvelles interfaces passent exclusivement par cette bibliothèque et ajoute une étape de revue à la fin. Comme il s'agit d'un refactoring, commence dans une worktree.\n\nPour cette mission, définis un nouvel objectif /goal couvrant l'ensemble du projet : architecture, implémentation, tests, revue et résultat final. Découpe-le en tâches indépendantes, lance autant d'agents parallèles que nécessaire et attribue à chacun son propre /goal, avec les livrables attendus, les critères de validation et les conditions d'achèvement.\n\nExécute-les simultanément, suis leur progression, fusionne les résultats, résous les conflits, poursuis l'implémentation, valide chaque étape importante en conditions réelles, puis termine par une revue, un commit si nécessaire et un résumé final.\n\nLa validation doit couvrir le parcours utilisateur complet : navigateur, clics, clavier et toutes les interactions nécessaires.\n\nNe t'arrête pas avant la fin, sauf si des identifiants manquent, si une action est destructrice ou si les exigences sont contradictoires.\n\n2. Accessibilité + multi-appareils\n\nMission : assure-toi que les utilisateurs standard, malvoyants, naviguant uniquement au clavier ou utilisant différents appareils puissent accomplir toutes les actions essentielles.\n\nLance l'application localement depuis le commit actuel et teste les principaux parcours sur ordinateur, tablette et mobile.\n\nCorrige :\n\nles problèmes de responsive (chevauchements, débordements, texte tronqué, scroll horizontal) ;\nle contraste ;\nl'échelle des polices ;\nla navigation clavier (Tab, Entrée, Espace, Échap) ;\nles états de focus ;\nl'accessibilité des images, icônes, formulaires et messages d'état.\n\nDocumente les problèmes détectés, les corrections apportées et les risques restants, puis ajoute une revue finale.\n\nCrée également un /goal complet couvrant l'ensemble du projet, répartis le travail entre plusieurs agents, valide chaque étape et termine uniquement lorsque tout est conforme.\n\n3. Commence toujours par un fichier DESIGN. md\n\nDESIGN. md est un concept popularisé par Google Stitch.\n\nIl s'agit d'un document texte décrivant précisément :\n\nles couleurs ;\nl'échelle typographique ;\nles espacements ;\nles rayons de bordure ;\nles ombres ;\nles règles de conception des composants.\n\nL'agent le consulte avant chaque création d'interface afin d'éviter toute dérive visuelle.\n\nAGENTS. md explique comment construire le projet.\n\nDESIGN. md explique à quoi il doit ressembler.\n\nVous n'avez pas envie d'en rédiger un ?\n\nUtilisez-en un existant.\n\nUn dépôt GitHub rassemble déjà 73 DESIGN. md issus de produits comme Stripe, Linear, Airbnb ou Vercel.\n\nPlacez-en un à la racine du projet et demandez simplement à l'agent que toute l'interface respecte DESIGN. md.\n\n4. Audit UX\n\n(Laissez-le observer l'application avant de proposer des solutions.)\n\nAgis comme un designer UX senior chargé d'auditer les parcours principaux.\n\nAnalyse l'expérience utilisateur de bout en bout.\n\nRepère :\n\nune hiérarchie d'information faible ;\nles points de friction ;\nles retours utilisateur manquants ;\nles étapes propices aux erreurs ;\nles états vides ou d'erreur jamais conçus.\n\nAttribue un niveau de gravité à chaque problème et propose une solution concrète.\n\n5. Reconcevoir une page avec un vrai sens du design\n\nAgis comme un product designer et reconstruis cette page pour qu'elle évoque la qualité de Linear ou Stripe.\n\nDéfinis d'abord le style :\n\npalette sobre ;\nhiérarchie typographique claire ;\nespace blanc généreux ;\nrayons cohérents ;\nombres harmonisées.\n\nEnsuite, reconstruis la page.\n\nNe modifie que le design, sans ajouter de nouvelles fonctionnalités, et explique chaque changement.\n\n6. Soigne chaque interaction et chaque état\n\nAgis comme un ingénieur frontend senior.\n\nPerfectionne toutes les interactions de l'interface.\n\nPrends en charge :\n\nles écrans de chargement (loading skeletons) ;\nles états vides ;\nles états d'erreur ;\nles états hover, focus et disabled ;\nles transitions ;\nles retours visuels sur les actions importantes.\n\nConçois des composants réutilisables, accessibles et livre l'implémentation complète.\n\n7. Crée une landing page qui convertit\n\nAgis comme un designer spécialisé en conversion.\n\nCommence par définir :\n\nune proposition de valeur en une phrase ;\nl'action principale attendue du visiteur.\n\nConstruis ensuite :\n\nle hero ;\nles preuves sociales ;\nles sections de fonctionnalités ;\nla FAQ ;\nle CTA final.\n\nDesign épuré, hiérarchie claire, approche mobile-first.\n\nLivre une page prête à être mise en production.\n\n8. Rendez le formulaire réellement agréable à utiliser\n\nAgis comme un ingénieur frontend senior.\n\nOptimise entièrement ce formulaire.\n\nAjoute :\n\nla validation en temps réel ;\ndes erreurs affichées directement dans les champs ;\ndes valeurs par défaut pertinentes ;\nune excellente compatibilité clavier et remplissage automatique ;\nles états d'envoi, de succès et d'échec ;\nun découpage en plusieurs étapes pour les formulaires longs.\n\nLivre l'implémentation complète.",
+    "thread": [
+      {
+        "id": "2074010460194848805",
+        "text": "arrête de dire à Claude Code/Codex \"les couleurs ne rendent pas bien\".\narrête de dire à Claude Code/Codex \"la police est moche\".\narrête de dire à Claude Code/Codex \"les espacements sont bizarres\".\n\nvous ne lui avez jamais fourni de design system.\n\nil utilise donc les styles par défaut… et ensuite vous critiquez chaque version qu'il génère.\n\nvoici 8 prompts et leurs objectifs que vous pouvez copier-coller directement."
+      },
+      {
+        "id": "2074010472974811502",
+        "text": "1. Le Design System\n\n(Transformer une interface dispersée en une bibliothèque de composants cohérente.)\n\nMission : identifie les composants d'interface éparpillés, les design tokens et les interactions répétitives de ce projet afin de créer un Design System unique, réutilisable et facile à maintenir. Remplace tous les composants développés individuellement par ceux de la bibliothèque, fais en sorte que toutes les nouvelles interfaces passent exclusivement par cette bibliothèque et ajoute une étape de revue à la fin. Comme il s'agit d'un refactoring, commence dans une worktree.\n\nPour cette mission, définis un nouvel objectif /goal couvrant l'ensemble du projet : architecture, implémentation, tests, revue et résultat final. Découpe-le en tâches indépendantes, lance autant d'agents parallèles que nécessaire et attribue à chacun son propre /goal, avec les livrables attendus, les critères de validation et les conditions d'achèvement.\n\nExécute-les simultanément, suis leur progression, fusionne les résultats, résous les conflits, poursuis l'implémentation, valide chaque étape importante en conditions réelles, puis termine par une revue, un commit si nécessaire et un résumé final.\n\nLa validation doit couvrir le parcours utilisateur complet : navigateur, clics, clavier et toutes les interactions nécessaires.\n\nNe t'arrête pas avant la fin, sauf si des identifiants manquent, si une action est destructrice ou si les exigences sont contradictoires."
+      },
+      {
+        "id": "2074010485108941148",
+        "text": "2. Accessibilité + multi-appareils\n\nMission : assure-toi que les utilisateurs standard, malvoyants, naviguant uniquement au clavier ou utilisant différents appareils puissent accomplir toutes les actions essentielles.\n\nLance l'application localement depuis le commit actuel et teste les principaux parcours sur ordinateur, tablette et mobile.\n\nCorrige :\n\nles problèmes de responsive (chevauchements, débordements, texte tronqué, scroll horizontal) ;\nle contraste ;\nl'échelle des polices ;\nla navigation clavier (Tab, Entrée, Espace, Échap) ;\nles états de focus ;\nl'accessibilité des images, icônes, formulaires et messages d'état.\n\nDocumente les problèmes détectés, les corrections apportées et les risques restants, puis ajoute une revue finale.\n\nCrée également un /goal complet couvrant l'ensemble du projet, répartis le travail entre plusieurs agents, valide chaque étape et termine uniquement lorsque tout est conforme."
+      },
+      {
+        "id": "2074010497389903906",
+        "text": "3. Commence toujours par un fichier DESIGN. md\n\nDESIGN. md est un concept popularisé par Google Stitch.\n\nIl s'agit d'un document texte décrivant précisément :\n\nles couleurs ;\nl'échelle typographique ;\nles espacements ;\nles rayons de bordure ;\nles ombres ;\nles règles de conception des composants.\n\nL'agent le consulte avant chaque création d'interface afin d'éviter toute dérive visuelle.\n\nAGENTS. md explique comment construire le projet.\n\nDESIGN. md explique à quoi il doit ressembler.\n\nVous n'avez pas envie d'en rédiger un ?\n\nUtilisez-en un existant.\n\nUn dépôt GitHub rassemble déjà 73 DESIGN. md issus de produits comme Stripe, Linear, Airbnb ou Vercel.\n\nPlacez-en un à la racine du projet et demandez simplement à l'agent que toute l'interface respecte DESIGN. md."
+      },
+      {
+        "id": "2074010509507231766",
+        "text": "4. Audit UX\n\n(Laissez-le observer l'application avant de proposer des solutions.)\n\nAgis comme un designer UX senior chargé d'auditer les parcours principaux.\n\nAnalyse l'expérience utilisateur de bout en bout.\n\nRepère :\n\nune hiérarchie d'information faible ;\nles points de friction ;\nles retours utilisateur manquants ;\nles étapes propices aux erreurs ;\nles états vides ou d'erreur jamais conçus.\n\nAttribue un niveau de gravité à chaque problème et propose une solution concrète."
+      },
+      {
+        "id": "2074010521872007346",
+        "text": "5. Reconcevoir une page avec un vrai sens du design\n\nAgis comme un product designer et reconstruis cette page pour qu'elle évoque la qualité de Linear ou Stripe.\n\nDéfinis d'abord le style :\n\npalette sobre ;\nhiérarchie typographique claire ;\nespace blanc généreux ;\nrayons cohérents ;\nombres harmonisées.\n\nEnsuite, reconstruis la page.\n\nNe modifie que le design, sans ajouter de nouvelles fonctionnalités, et explique chaque changement."
+      },
+      {
+        "id": "2074010533855187039",
+        "text": "6. Soigne chaque interaction et chaque état\n\nAgis comme un ingénieur frontend senior.\n\nPerfectionne toutes les interactions de l'interface.\n\nPrends en charge :\n\nles écrans de chargement (loading skeletons) ;\nles états vides ;\nles états d'erreur ;\nles états hover, focus et disabled ;\nles transitions ;\nles retours visuels sur les actions importantes.\n\nConçois des composants réutilisables, accessibles et livre l'implémentation complète."
+      },
+      {
+        "id": "2074010546182275122",
+        "text": "7. Crée une landing page qui convertit\n\nAgis comme un designer spécialisé en conversion.\n\nCommence par définir :\n\nune proposition de valeur en une phrase ;\nl'action principale attendue du visiteur.\n\nConstruis ensuite :\n\nle hero ;\nles preuves sociales ;\nles sections de fonctionnalités ;\nla FAQ ;\nle CTA final.\n\nDesign épuré, hiérarchie claire, approche mobile-first.\n\nLivre une page prête à être mise en production."
+      },
+      {
+        "id": "2074010558240870775",
+        "text": "8. Rendez le formulaire réellement agréable à utiliser\n\nAgis comme un ingénieur frontend senior.\n\nOptimise entièrement ce formulaire.\n\nAjoute :\n\nla validation en temps réel ;\ndes erreurs affichées directement dans les champs ;\ndes valeurs par défaut pertinentes ;\nune excellente compatibilité clavier et remplissage automatique ;\nles états d'envoi, de succès et d'échec ;\nun découpage en plusieurs étapes pour les formulaires longs.\n\nLivre l'implémentation complète."
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 117,
+      "retweets": 11,
+      "replies": 6,
+      "views": 29908
+    },
+    "comments": [
+      {
+        "handle": "PaulYoungX",
+        "name": "Paul Young",
+        "date": "2026-07-07",
+        "text": "@iapourtous_off On juge la sortie parce qu’on a jamais donné les règles au départ. Design system en amont = plus besoin de faire 5 allers-retours.\nBien vu pour l’extension aux slides/emails.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iapourtous_off",
+        "name": "IA pour tous",
+        "date": "2026-07-07",
+        "text": "@PaulYoungX Premier réflexe à casser en atelier: juger la sortie sans jamais avoir décrit l'attendu. Un doc de 20 lignes avec couleurs, fonts et règles d'espacement, et Claude Code arrête de deviner. Et ça vaut bien au-delà du design. Slides, emails, propales, pareil.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JulienTavernie7",
+        "name": "Julien Tavernier",
+        "date": "2026-07-06",
+        "text": "@PaulYoungX Hey guys ! 👋\n\nI created Flight Deck, an open source skill pack that delegates, routes by difficulty, adapt effort and models.\n\nSave your tokens and enjoy 🙃\n\nhttps://t.co/oHdPh97lTh\n\n#ClaudeCode #AICoding",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gidehault",
+        "name": "Jean-David Olekhnovitch",
+        "date": "2026-07-06",
+        "text": "@PaulYoungX pour en savoir plus, fouiller par ici :) https://t.co/MXQCxXywdK",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "An_yhl",
+        "name": "晚晚",
+        "date": "2026-07-06",
+        "text": "@PaulYoungX 没给规范就别怪它自由发挥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TextoCriativo",
+        "name": "Rafael Estrela | IA",
+        "date": "2026-07-06",
+        "text": "@PaulYoungX Super post!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ElCopyMaster",
+        "name": "Rafa Gonzalez | IA",
+        "date": "2026-07-06",
+        "text": "@PaulYoungX Interessant !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  }
+}

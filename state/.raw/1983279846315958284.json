@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:32.411Z",
+  "tweetId": "1983279846315958284",
+  "post": {
+    "url": "https://x.com/OpenAIDevs/status/1983279846315958284",
+    "author": {
+      "handle": "OpenAIDevs",
+      "name": "OpenAI Developers"
+    },
+    "date": "2025-10-28",
+    "text": "The results of our six-week open-model hackathon are in! We saw a ton of incredible submissions and some very out-of-the-box ideas.\n\nCongrats to the winners — check out what they built 🧵",
+    "thread": [
+      {
+        "id": "1983279846315958284",
+        "text": "The results of our six-week open-model hackathon are in! We saw a ton of incredible submissions and some very out-of-the-box ideas.\n\nCongrats to the winners — check out what they built 🧵"
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 321,
+      "retweets": 22,
+      "replies": 7,
+      "views": 53553
+    },
+    "comments": []
+  }
+}

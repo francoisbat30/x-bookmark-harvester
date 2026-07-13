@@ -1,0 +1,685 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:50.658Z",
+  "tweetId": "2036893450873016704",
+  "post": {
+    "url": "https://x.com/chhddavid/status/2036893450873016704",
+    "author": {
+      "handle": "chhddavid",
+      "name": "David Ch"
+    },
+    "date": "2026-03-25",
+    "text": "this is terrifying.\n\nClaude Opus 4.6 + Remotion can now generate videos. It can do motion design, demos and animations from a single prompt...\n\nit's so over. https://t.co/7XLmUk8MJN https://t.co/CNPKATMLG8\n\nBtw, https://t.co/KWy3xJh011 is the tool that combines Claude + Remotion and gives them power to generate those videos.",
+    "thread": [
+      {
+        "id": "2036893450873016704",
+        "text": "this is terrifying.\n\nClaude Opus 4.6 + Remotion can now generate videos. It can do motion design, demos and animations from a single prompt...\n\nit's so over. https://t.co/7XLmUk8MJN https://t.co/CNPKATMLG8"
+      },
+      {
+        "id": "2036893462898110744",
+        "text": "Btw, https://t.co/KWy3xJh011 is the tool that combines Claude + Remotion and gives them power to generate those videos."
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2036893397529812992/vid/avc1/1280x720/H6pdtUzDc_iVOchO.mp4?tag=14",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2036893397529812992/img/g9Nhhn6ZRvEeswQQ.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 2600,
+      "retweets": 204,
+      "replies": 54,
+      "views": 483270
+    },
+    "comments": [
+      {
+        "handle": "devteamdrew",
+        "name": "DreW",
+        "date": "2026-03-25",
+        "text": "@chhddavid I made this in 4 hours with @remotion purely, I've never edited a video in my life https://t.co/sdAC9HrJrk",
+        "likes": 30,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "OskarKohler",
+        "name": "Oskar Kohler",
+        "date": "2026-03-26",
+        "text": "@chhddavid “It’s so over” for people who sell hours.\nFor people who sell outcomes? This is just a faster brush.",
+        "likes": 17,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tyinlife",
+        "name": "Tyinlife",
+        "date": "2026-03-26",
+        "text": "@chhddavid Mate.\n\nNothing is over.\n\nIt’s all just beginning\n\nThe golden age is here",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "saen_dev",
+        "name": "Saeed Anwar",
+        "date": "2026-03-26",
+        "text": "@chhddavid Claude plus Remotion is wild but the real unlock is programmatic video at scale. We used a similar setup to generate 200 personalized product demo videos from a single template. The motion design quality surprised everyone, the bottleneck moved from creation to review.",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "heathenft",
+        "name": "heathen",
+        "date": "2026-03-26",
+        "text": "@chhddavid dude ya so terrifying",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bozton",
+        "name": "JB",
+        "date": "2026-03-26",
+        "text": "@chhddavid This is 3 months old, and nothing is over",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AlexMontas",
+        "name": "Alex Montas",
+        "date": "2026-03-27",
+        "text": "@chhddavid I tried this.   Not as easy as you make it seem.  Too much hoopla.    Nothing is terrifying.  Other comments say the same",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "paakjong",
+        "name": "Jongmin Park",
+        "date": "2026-03-26",
+        "text": "@chhddavid It feels like the gap between having an idea and having a polished asset is shrinking every week.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tiagohanna",
+        "name": "TIAGO HANNA",
+        "date": "2026-03-26",
+        "text": "@chhddavid it was launched in January and nothing got over",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "onchaindudes",
+        "name": "OnChainDude",
+        "date": "2026-03-25",
+        "text": "@chhddavid Seriously this is absolutely trash. It works in demo but is useless for other usecases. Also shipper is just another ai wrapper",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "onecharteroak",
+        "name": "Colin Darling",
+        "date": "2026-03-26",
+        "text": "@chhddavid I used these skills with opus 4.6 and nothing I produce looks anything like the demos. What am I doing wrong?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "devteamdrew",
+        "name": "DreW",
+        "date": "2026-03-26",
+        "text": "@ipivto @chhddavid @Remotion hahaha these videos take much more than that for sure",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TwentyOne_37",
+        "name": "2137.dev | shard.trade",
+        "date": "2026-03-26",
+        "text": "@chhddavid @grok - make my wall not display \"it's so over\" posts",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Sebgalindo",
+        "name": "Seb Galindo",
+        "date": "2026-03-26",
+        "text": "@chhddavid the real shift here isn't video generation. it's that the creation bottleneck moved from \"can you make this\" to \"do you know what to ask for.\" taste becomes the only moat when execution is a single prompt.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Valuable",
+        "name": "Albert Renshaw",
+        "date": "2026-03-26",
+        "text": "@chhddavid The funniest part is, you never needed Claude to release this… LLMs have been able to code remotion JS for years. All they did was make the prompt template a feature. I was using LLM+Remotion in 2023 (and manually coding remotion before then..!)",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iml1s",
+        "name": "ImL1s",
+        "date": "2026-03-26",
+        "text": "@chhddavid Claude + Remotion is such a sick combo. generating entire video animations from a single prompt is going to kill it for content creators who can't afford motion designers",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nicolassborda",
+        "name": "nicolassborda",
+        "date": "2026-03-26",
+        "text": "@chhddavid I made this one with Gemini 3.1 Pro + ElevenLabs  V3 for my ERP https://t.co/L0D8TJjcsT",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_chrisbarnhart",
+        "name": "Chris Barnhart",
+        "date": "2026-03-27",
+        "text": "@chhddavid Yeah, it’s pretty slick https://t.co/pHz82YJ0qK",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_brian_johnson",
+        "name": "Brian Johnson",
+        "date": "2026-03-27",
+        "text": "@chhddavid half the replies here are \"I tried it and it looks nothing like the demo\" which is the most predictable thing in tech. every demo is 50 takes and cherry-picked outputs. the tool is cool but the real skill is knowing when NOT to show people the first 49 attempts",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ThaRealJustinG",
+        "name": "Justin Greenback",
+        "date": "2026-03-26",
+        "text": "@devteamdrew @chhddavid @Remotion And it shows",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "air4me2",
+        "name": "AI ❤️‍🩹 Bird ✖️ 💯",
+        "date": "2026-03-26",
+        "text": "@chhddavid You can try Claude Opus 4.6 almost Free‼️\n\nhttps://t.co/u3mA6FVO0K",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Bill_Chirico",
+        "name": "Bill",
+        "date": "2026-03-26",
+        "text": "@devteamdrew @chhddavid @Remotion Awesome man definitely going to try to make my new product a showcase!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Bill_Chirico",
+        "name": "Bill",
+        "date": "2026-03-26",
+        "text": "@devteamdrew @chhddavid @Remotion What agent did you use?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "daboking5369",
+        "name": "daboking",
+        "date": "2026-03-26",
+        "text": "@chhddavid its not over - it's on!!!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "afreenessani",
+        "name": "Afreen Furqan J | Personal Branding Strategist",
+        "date": "2026-03-26",
+        "text": "@chhddavid @grok how much more tools do I need to learn about everyday?? https://t.co/z0qI25XhEP",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zain_hoda",
+        "name": "Zain Hoda",
+        "date": "2026-03-26",
+        "text": "@ashishsingal1 @chhddavid To be clear — this isn’t a screen recording at all. This is purely generated from code.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ashishsingal1",
+        "name": "Ashish Singal",
+        "date": "2026-03-26",
+        "text": "@chhddavid @zain_hoda check this out",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-26",
+        "text": "@TwentyOne_37 @chhddavid Got it. Your timeline is now officially \"it's so over\"-free. \n\nMuting that exact phrase in X settings will handle the rest. \n\nWe're not over—we're just getting started. What's the next Solana build you're shipping? 🚀",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lele_venturi",
+        "name": "Gabriele Venturi",
+        "date": "2026-03-26",
+        "text": "@chhddavid What is over exactly?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grim_tonal",
+        "name": "Nicky*",
+        "date": "2026-03-26",
+        "text": "@chhddavid a little late bro",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "devteamdrew",
+        "name": "DreW",
+        "date": "2026-03-26",
+        "text": "@braydenbernasek @chhddavid @Remotion Thanks man! I built a custom camera system to help with the movement 👊",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "braydenbernasek",
+        "name": "Brayden Bernasek",
+        "date": "2026-03-26",
+        "text": "@devteamdrew @chhddavid @Remotion Any tips? This looks great!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mankaff_",
+        "name": "Mankaff",
+        "date": "2026-03-26",
+        "text": "@chhddavid thats old news",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jpctan",
+        "name": "Jason Tan",
+        "date": "2026-03-26",
+        "text": "@chhddavid AI-generated video still struggles with consistency and fine control. For professional, quality motion design, humans are far from obsolete, these tools are more like accelerators than replacements.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tajdulan",
+        "name": "Tadeáš",
+        "date": "2026-03-26",
+        "text": "@chhddavid umm, I think u r pretty late with this one",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "emeeliojohann",
+        "name": "Emilio Johann",
+        "date": "2026-03-25",
+        "text": "@chhddavid Well... isn't this AMAZING.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MariahAnwa41589",
+        "name": "Mariah Anwar",
+        "date": "2026-04-01",
+        "text": "@devteamdrew @chhddavid @Remotion https://t.co/Z7tqPqUCiO",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Solveworks_io",
+        "name": "SolveWorks",
+        "date": "2026-03-27",
+        "text": "@chhddavid \"Terrifying\" is the wrong frame.\n\nEvery tool like this creates a gap between the businesses that deploy it and the ones still debating whether to try it.\n\nWe've seen it with every wave. The gap compounds fast.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Briandanielco",
+        "name": "Brian Daniel",
+        "date": "2026-03-27",
+        "text": "@chhddavid lol they fucken suck I tried it https://t.co/kjOTKUYEGd",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SimonGodbout",
+        "name": "𝙎𝙞𝙬𝙤𝙣",
+        "date": "2026-03-27",
+        "text": "@devteamdrew @chhddavid @Remotion It shows",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "agile_automate",
+        "name": "Agile Automation",
+        "date": "2026-03-27",
+        "text": "@chhddavid I feel that if this terrifies you, you may be missing some important things in life. nothing is over.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "flipflopswv",
+        "name": "John",
+        "date": "2026-03-27",
+        "text": "@devteamdrew @chhddavid @Remotion Bot",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dbonneville",
+        "name": "Douglas Bonneville",
+        "date": "2026-03-27",
+        "text": "@afreenessani @chhddavid @grok Not this one",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dbonneville",
+        "name": "Douglas Bonneville",
+        "date": "2026-03-27",
+        "text": "@onecharteroak @chhddavid Just 12 more hours",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dbonneville",
+        "name": "Douglas Bonneville",
+        "date": "2026-03-27",
+        "text": "@chhddavid Tried it. Way overrated.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AlexMontas",
+        "name": "Alex Montas",
+        "date": "2026-03-27",
+        "text": "@onecharteroak @chhddavid Same here.   Felt like a waste of time",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AlexMontas",
+        "name": "Alex Montas",
+        "date": "2026-03-27",
+        "text": "@Andrew_ate01 @chhddavid This is true",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SpectreX7",
+        "name": "Spectre",
+        "date": "2026-03-26",
+        "text": "@chhddavid Over for what exactly",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "elliotts_ai",
+        "name": "elliottsai",
+        "date": "2026-03-26",
+        "text": "@chhddavid Wow",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WillDebause",
+        "name": "Will DeBause",
+        "date": "2026-03-26",
+        "text": "@chhddavid Cant wait to neve touch a keybaord again",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ogenesisc",
+        "name": "Ovi",
+        "date": "2026-03-26",
+        "text": "@chhddavid I found https://t.co/IsPJJrhVQx it’s so good.. over 200 agents working for me",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alphabatcher",
+        "name": "Alpha Batcher",
+        "date": "2026-03-26",
+        "text": "@chhddavid best model in best AI\n\ndon't have any competition",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ipivto",
+        "name": "Ilya Pivto",
+        "date": "2026-03-26",
+        "text": "@devteamdrew @chhddavid @Remotion Nice\nGlad you did not write ‘under 10 min’",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "devteamdrew",
+        "name": "DreW",
+        "date": "2026-03-26",
+        "text": "@Bill_Chirico @chhddavid @Remotion Lets go man can't wait to see you cook up!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Avulex",
+        "name": "Avulex Technologies",
+        "date": "2026-03-26",
+        "text": "@chhddavid This is interestingly devastating, as AI continues to dominate the tech space.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "devteamdrew",
+        "name": "DreW",
+        "date": "2026-03-26",
+        "text": "@Bill_Chirico @chhddavid @Remotion Claude Opus 4.6 in Claude Code",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Bill_Chirico",
+        "name": "Bill",
+        "date": "2026-03-26",
+        "text": "@chhddavid What about adding Google’s Stitch 2 to it as well?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ashishsingal1",
+        "name": "Ashish Singal",
+        "date": "2026-03-26",
+        "text": "@zain_hoda @chhddavid impressive!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-26",
+        "text": "@afreenessani @chhddavid Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/YSqaF80C9n",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zain_hoda",
+        "name": "Zain Hoda",
+        "date": "2026-03-26",
+        "text": "@ashishsingal1 @chhddavid Yeah, it’s awesome! I actually used Claude Code + Remotion to make this video: https://t.co/bXqnm0ITyl",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PietroMontaldo",
+        "name": "Pietro Montaldo",
+        "date": "2026-03-26",
+        "text": "@chhddavid Video from one prompt? The future is wild",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pagepopai",
+        "name": "pagepop.ai",
+        "date": "2026-03-26",
+        "text": "@chhddavid What makes this interesting is not just video generation. It is that motion, demo production, and iteration are collapsing into the same prompt-to-output workflow. Creative tooling gets very different once the feedback loop gets this short.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Andrew_ate01",
+        "name": "Andrew_ate",
+        "date": "2026-03-26",
+        "text": "@chhddavid Need skills to generate those high end 10/100k graphic motion ads \"AI B2B Saas\" style videos. It hasn't reached that level yet",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AnthonyEveryWhr",
+        "name": "Anthony AI 🏆",
+        "date": "2026-03-26",
+        "text": "@chhddavid It can generate cartoon like animations not videos, like the way people think.. did u know there is NO mcp or cli or skill for claude to generate any videos or images that look like real people?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "krunalp_252",
+        "name": "krunal panchal",
+        "date": "2026-03-26",
+        "text": "@chhddavid Invoice Maker: https://t.co/MLqen5Ujzc",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BentleyRey1",
+        "name": "Bentley Reynolds",
+        "date": "2026-03-26",
+        "text": "@chhddavid Genuinely glad I'm not in the tech space. Remotion struggles to make videos of shoes",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_jordybanks_",
+        "name": "Jordy Banks 𓂀",
+        "date": "2026-03-26",
+        "text": "@chhddavid you are so late",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iainbroon",
+        "name": "Iain Brown",
+        "date": "2026-03-26",
+        "text": "@chhddavid why are we focussing on design if devices are going to be screen-less in the next 5 years.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "beemayyaa",
+        "name": "beemaya",
+        "date": "2026-03-26",
+        "text": "@chhddavid I’m using remotion for demo videos in the terminal - have a setup skill for that.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "siegerts",
+        "name": "Stephen",
+        "date": "2026-03-26",
+        "text": "@chhddavid Not just Claude …",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheNEOarch",
+        "name": "TheNEOarch",
+        "date": "2026-03-25",
+        "text": "@chhddavid This is exactly the kind of workflow that makes AI agents actually useful in practice. Code generation + video = powerful combo 🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2036893397529812992/img/g9Nhhn6ZRvEeswQQ.jpg",
+      "localFilename": "2036893450873016704_1_poster.jpg"
+    }
+  ]
+}

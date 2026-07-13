@@ -31,5 +31,19 @@
       "views": 541
     },
     "comments": []
-  }
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G46ExZQXsAA1Xj9.png",
+      "localFilename": "1987082670107730172_1.png"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G46ExXhXYAApsq2.png",
+      "localFilename": "1987082670107730172_2.png"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G46EzokWcAE7bwr.png",
+      "localFilename": "1987082670107730172_3.png"
+    }
+  ]
 }

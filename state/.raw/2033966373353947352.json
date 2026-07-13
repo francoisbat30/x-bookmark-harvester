@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:12:45.309Z",
+  "tweetId": "2033966373353947352",
+  "post": {
+    "url": "https://x.com/thisdudelikesAI/status/2033966373353947352",
+    "author": {
+      "handle": "thisdudelikesAI",
+      "name": "Ryan Hart"
+    },
+    "date": "2026-03-17",
+    "text": "🚨 BREAKING: AI can now build trading algorithms like Goldman Sachs' algorithmic trading desk (for free).\n\nHere are 15 insane Claude prompts that replace $500K/year quant strats (Save for later) https://t.co/9GllghAjBK",
+    "thread": [
+      {
+        "id": "2033966373353947352",
+        "text": "🚨 BREAKING: AI can now build trading algorithms like Goldman Sachs' algorithmic trading desk (for free).\n\nHere are 15 insane Claude prompts that replace $500K/year quant strats (Save for later) https://t.co/9GllghAjBK"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HDoZo16bEAAOTt-.png"
+      }
+    ],
+    "metrics": {
+      "likes": 1697,
+      "retweets": 247,
+      "replies": 39,
+      "views": 271167
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HDoZo16bEAAOTt-.png",
+      "localFilename": "2033966373353947352_1.png"
+    }
+  ]
+}

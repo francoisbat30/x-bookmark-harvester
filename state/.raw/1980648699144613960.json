@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:50.541Z",
+  "tweetId": "1980648699144613960",
+  "post": {
+    "url": "https://x.com/thumbnailninja/status/1980648699144613960",
+    "author": {
+      "handle": "thumbnailninja",
+      "name": "Thumbnail Ninja"
+    },
+    "date": "2025-10-21",
+    "text": "📸 12 camera angles every thumbnail designer should know.\n\nMaster these → your compositions instantly level up.\n\nSave for later 🎯 https://t.co/GOg8bq3qxy",
+    "thread": [
+      {
+        "id": "1980648699144613960",
+        "text": "📸 12 camera angles every thumbnail designer should know.\n\nMaster these → your compositions instantly level up.\n\nSave for later 🎯 https://t.co/GOg8bq3qxy"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3ytZLYWIAAVFio.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 3090,
+      "retweets": 304,
+      "replies": 25,
+      "views": 190313
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3ytZLYWIAAVFio.jpg",
+      "localFilename": "1980648699144613960_1.jpg"
+    }
+  ]
+}

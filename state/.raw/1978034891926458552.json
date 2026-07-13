@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:14:43.519Z",
+  "tweetId": "1978034891926458552",
+  "post": {
+    "url": "https://x.com/MillieMarconnni/status/1978034891926458552",
+    "author": {
+      "handle": "MillieMarconnni",
+      "name": "Millie Marconi"
+    },
+    "date": "2025-10-14",
+    "text": "Meta just did the unthinkable.\n\nThey figured out how to train AI agents without rewards, human demos, or supervision and it actually works better than both.\n\nIt’s called 'Early Experience', and it quietly kills the two biggest pain points in agent training:\n\n→ Human demonstrations that don’t scale\n→ Reinforcement learning that’s expensive and unstable\n\nInstead of copying experts or chasing reward signals, agents now:\n\n- Take their own actions\n- Observe what happens\n- Learn directly from consequences — *no external rewards needed*\n\nThe numbers are wild:\n\n✅ +18.4% on web navigation (WebShop)\n✅ +15.0% on complex planning (TravelPlanner)\n✅ +13.3% on scientific reasoning (ScienceWorld)\n✅ Works across **8 environments**\n\nAnd when you add RL afterward?\n\n🔥 +6.4% better than traditional pipelines.\n\nTwo key ideas make it work:\n\n1. Implicit World Modeling - agents predict what happens next, forming an internal world model.\n\n2. Self-Reflection - they compare mistakes to experts and explain why the expert choice was better.\n\nBoth scale. Both are reward-free.\n\nEfficiency is absurd:\n\n1/8 of expert data\n86.9% lower cost\nWorks from 3B → 70B models\n\nThis isn’t incremental.\n\nIt’s the bridge between imitation learning and true autonomous experience.\n\nAI agents can now teach themselves - no human hand-holding required.",
+    "thread": [
+      {
+        "id": "1978034891926458552",
+        "text": "Meta just did the unthinkable.\n\nThey figured out how to train AI agents without rewards, human demos, or supervision and it actually works better than both.\n\nIt’s called 'Early Experience', and it quietly kills the two biggest pain points in agent training:\n\n→ Human demonstrations that don’t scale\n→ Reinforcement learning that’s expensive and unstable\n\nInstead of copying experts or chasing reward signals, agents now:\n\n- Take their own actions\n- Observe what happens\n- Learn directly from consequences — *no external rewards needed*\n\nThe numbers are wild:\n\n✅ +18.4% on web navigation (WebShop)\n✅ +15.0% on complex planning (TravelPlanner)\n✅ +13.3% on scientific reasoning (ScienceWorld)\n✅ Works across **8 environments**\n\nAnd when you add RL afterward?\n\n🔥 +6.4% better than traditional pipelines.\n\nTwo key ideas make it work:\n\n1. Implicit World Modeling - agents predict what happens next, forming an internal world model.\n\n2. Self-Reflection - they compare mistakes to experts and explain why the expert choice was better.\n\nBoth scale. Both are reward-free.\n\nEfficiency is absurd:\n\n1/8 of expert data\n86.9% lower cost\nWorks from 3B → 70B models\n\nThis isn’t incremental.\n\nIt’s the bridge between imitation learning and true autonomous experience.\n\nAI agents can now teach themselves - no human hand-holding required."
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3NkQGubsAA-RBQ.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1767,
+      "retweets": 291,
+      "replies": 86,
+      "views": 183385
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3NkQGubsAA-RBQ.jpg",
+      "localFilename": "1978034891926458552_1.jpg"
+    }
+  ]
+}

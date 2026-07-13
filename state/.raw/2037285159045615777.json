@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:47.344Z",
+  "tweetId": "2037285159045615777",
+  "post": {
+    "url": "https://x.com/hooeem/status/2037285159045615777",
+    "author": {
+      "handle": "hooeem",
+      "name": "hoeem"
+    },
+    "date": "2026-03-26",
+    "text": "POV: realising you don’t need to spend $1000s to get personalised fitness advice. https://t.co/xhFUUEcN22 https://t.co/EGZFB8Elwt",
+    "thread": [
+      {
+        "id": "2037285159045615777",
+        "text": "POV: realising you don’t need to spend $1000s to get personalised fitness advice. https://t.co/xhFUUEcN22 https://t.co/EGZFB8Elwt"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2037285099251585024/vid/avc1/1080x684/Lu_tn0ckFRCFsbLV.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2037285099251585024/img/usukl0F2gFjKfHOJ.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 6135,
+      "retweets": 325,
+      "replies": 42,
+      "views": 1616404
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2037285099251585024/img/usukl0F2gFjKfHOJ.jpg",
+      "localFilename": "2037285159045615777_1_poster.jpg"
+    }
+  ]
+}

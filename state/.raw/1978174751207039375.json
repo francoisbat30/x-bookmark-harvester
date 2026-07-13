@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:14:36.584Z",
+  "tweetId": "1978174751207039375",
+  "post": {
+    "url": "https://x.com/satyanadella/status/1978174751207039375",
+    "author": {
+      "handle": "satyanadella",
+      "name": "Satya Nadella"
+    },
+    "date": "2025-10-14",
+    "text": "This is super useful! With new Formula Completions in Excel, just type \"=\" and Copilot proactively suggests a formula, based on the context of your sheet. Here's a great example. https://t.co/elkGzHjZTW",
+    "thread": [
+      {
+        "id": "1978174751207039375",
+        "text": "This is super useful! With new Formula Completions in Excel, just type \"=\" and Copilot proactively suggests a formula, based on the context of your sheet. Here's a great example. https://t.co/elkGzHjZTW"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1978174287506001920/vid/avc1/1592x706/P1KROIlGnshzuuwf.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1978174287506001920/img/WTs8arPGBneZwy4a.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 2216,
+      "retweets": 324,
+      "replies": 123,
+      "views": 442373
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1978174287506001920/img/WTs8arPGBneZwy4a.jpg",
+      "localFilename": "1978174751207039375_1_poster.jpg"
+    }
+  ]
+}

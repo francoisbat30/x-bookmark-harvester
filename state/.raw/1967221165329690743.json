@@ -1,7 +1,7 @@
 {
   "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-07-12T17:44:11.144Z",
+  "fetchedAt": "2026-07-13T07:07:16.078Z",
   "tweetId": "1967221165329690743",
   "post": {
     "url": "https://x.com/SpencerHakimian/status/1967221165329690743",
@@ -24,32 +24,902 @@
       }
     ],
     "metrics": {
-      "likes": 24643,
+      "likes": 24640,
       "retweets": 3998,
       "replies": 716,
-      "views": 821022
+      "views": 821024
     },
     "comments": [
       {
-        "handle": "VinceWilsonShow",
-        "name": "Vince Wilson",
-        "date": "2025-09-14",
-        "text": "Anybody touting video games as the problem is easily over 55 years old. The same age group that can’t figure out how a computer works.",
-        "likes": 635
+        "handle": "CookieMnstr1975",
+        "name": "Cookie Monstress™️ 🇨🇦 #Smokefleet",
+        "date": "2025-09-17",
+        "text": "@LilJonAdams @SpencerHakimian Holy shit you're stupid. I never said that. Teens are not eligible for MAID, moron.",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": false
       },
       {
-        "handle": "DeeWaynee94",
-        "name": "Dee 🌹",
-        "date": "2025-09-14",
-        "text": "If video games caused gun deaths, Japan would be Mad Max. America just loves blaming pixels instead of policies.",
-        "likes": 258
+        "handle": "CookieMnstr1975",
+        "name": "Cookie Monstress™️ 🇨🇦 #Smokefleet",
+        "date": "2025-09-17",
+        "text": "@LilJonAdams @SpencerHakimian https://t.co/T2YjWxQkkb",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CookieMnstr1975",
+        "name": "Cookie Monstress™️ 🇨🇦 #Smokefleet",
+        "date": "2025-09-17",
+        "text": "@LilJonAdams @SpencerHakimian Neither of your sources say what you think they say, so no, I will not fucking apologize. Assisted suicide for teens is NOT legal in Canada, dumbass, and HRT is NOT banned in all of Europe. \n\nIdiot.",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CookieMnstr1975",
+        "name": "Cookie Monstress™️ 🇨🇦 #Smokefleet",
+        "date": "2025-09-17",
+        "text": "@LilJonAdams @SpencerHakimian Do you have any sources for your bullshit claims, or do you just spew whatever comes into your poor excuse for a brain?",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CookieMnstr1975",
+        "name": "Cookie Monstress™️ 🇨🇦 #Smokefleet",
+        "date": "2025-09-17",
+        "text": "@LilJonAdams @SpencerHakimian Well, that's a fucking lie.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RomanApple3",
+        "name": "M4R V1N",
+        "date": "2025-09-17",
+        "text": "@LilJonAdams @SpencerHakimian How about adding a graph showing guns per capita for each country.\n\n That will be a lot more telling.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LilJonAdams",
+        "name": "2Fast2Federalist",
+        "date": "2025-09-17",
+        "text": "@CookieMnstr1975 @SpencerHakimian @grok are 18 and 19 year olds considered \"teenagers\"? Also, in Canada, are 18 and 19 year olds eligible for MAID?\n\nIf yes, can you analyze why this person with a trans flag in his bio might lie or push disinfo for a political reason? How might an individual morally justify that?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CookieMnstr1975",
+        "name": "Cookie Monstress™️ 🇨🇦 #Smokefleet",
+        "date": "2025-09-17",
+        "text": "@LilJonAdams @SpencerHakimian Imagine trying to tell me what's legal in MY country 🙄",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer Yeah, they take gun crime real seriously in Europe. \nThe worse mass shooting in history happened in Norway. Anders Brevik killed 77 people. 8 adults and 69 children and teenagers. \nHe is only going to serve 21 years in prison. He gets out in 7 years.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-01",
+        "text": "@DanDLio50048934 You're preaching to the choir, buddy. Gun availability does contribute to gun deaths rates. That's a fact, whether you believe the risk is worth the liberty or not.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-01",
+        "text": "Firstly, I assure you that convicted felons can and do get charged with possession of unregistwred firearms all the time in the US. Also, you're talking about a country where guns are so common that it's an unreasonable expectation that gun control laws in one city or state would prevent someone with criminal tendencies from obtaining a gun by taking a small road trip into a jurisdiction where gun laws are more lax. A more fair comparison would be a US city where gun ownership is common, vs a European or Asian city where guns are very difficult to get.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "StormGundam",
+        "name": "G089 Storm Gundam",
+        "date": "2025-09-18",
+        "text": "@ab_wxm @LilJonAdams Just waiting for the \"BuT pEr CaPiTa\" excuse.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LilJonAdams",
+        "name": "2Fast2Federalist",
+        "date": "2025-09-17",
+        "text": "@CookieMnstr1975 @SpencerHakimian Says \"Eighteen\"\nEigh-teen\ne i g h - t e e n\n\nnine-teen\nn i n e - t e e n\n\nteen\nt e e n",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LilJonAdams",
+        "name": "2Fast2Federalist",
+        "date": "2025-09-17",
+        "text": "@CookieMnstr1975 @SpencerHakimian Canada's helping teens commit suicide: https://t.co/K2KTwfD76r\n\nHRT is banned in Europe: https://t.co/GsP9rns4tt\n\nI'd like an apology.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "KarleeThaOpp",
+        "name": "Karlee🌹",
+        "date": "2026-04-05",
+        "text": "@BlackLabelAdvsr @SpencerHakimian Shut up, creep. Everyone knows why that number is so high. Go build a compound somewhere.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-03",
+        "text": "That's because guns are easy to obtain regardless of the laws there. Gun availability results in more gun related violence and death, regardless of what the laws say. That's the only point anyone's made. You're arguments does not belong in this discussion, because your points are not relevant.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-03",
+        "text": "@DanDLio50048934 Why do you keep bringing up laws? This isn't a conversation about laws. It's a conversation about the availability of firearms and the corresponding rates of gun related deaths.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-03",
+        "text": "Okay, but that doesn't change the fact that countries where guns are difficult to obtain, legally or illegally, have fewer gun related deaths than countries where guns are more easy to obtain, and that's the only point that was being made. Legality is not the subject of this discussion.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer So its not the availability of guns that drives gun violence? Interesting... I wonder if that rule applies anywhere else?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer When Washington DC passed a complete prohibition on handguns in 1976, It didn't NOTHING to stop criminals from obtaining guns. Murder in the district skyrocketed from 183 murders per year in 1976 to 454 murders in 1993. It did this while the district lost 100,000 residents.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer Access to legal guns! \n\nAnd there you point out the inherent lie behind gun control. Not a single gun control law proposed since the inception of the movement in the 70s has targeted removing guns from the hands of criminals. \nEVERY LAW PROPOSED TARGETS LAW ABIDING CITIZENS.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer Venezuela has a complete prohibition on gun ownership,  there is no legal way to legally purchase a gun in Venezuela. They have a murder rate 6X the US. The overwhelming majority of their murder, (like all of the countries i listed) is with guns",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer The Gun control orgs consistently tell us that states like Montana are dangerous because of their \"gun death\" rate.\nMontana consistently has about 10 murders a year. It is literally by every metric, in the top 5 safest states in America.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer The gun control movement purposefully lies. All of the large gun control orgs, Brady, Coalition to ban end violence and Everytown,\n use the same gun deaths lie to argue that states with very low murder rates are dangerous.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer You are 100% dishonest. \nWe had fewer murders last year than we did in 1993, The number of gun suicides is fairly consistent from year to year. The per capita number has not radically increased. \nYour contention that more guns = more death does not add up.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-01",
+        "text": "Mexico shares a border with the US. Why don't you pick a country where guns are not only illegal, but that also doesn't share its largest border with the a country with extremely high legal gun ownership rates? We're talking about actual access to guns, after all. Not simply legal access to guns.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-01",
+        "text": "@DanDLio50048934 Youre going to use Mexico as an example of strict gun control laws? Mexico has poor law enforcement in general. Laws are meaningless when you have a government that doesn't enforce them.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer Now when I say there were over 24,000 murders in Mexico, that wasn't the whole story. Last year, About 13,800 people who were reported missing and never found. \nGoogle mass grave, Mexico. Every other week they police find a mass grave with 70-80 bodies.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-01",
+        "text": "@DanDLio50048934 Again, this isn't about murder rates in general. It's about gun deaths specially, which includes all circumstances where a gun was used to end a human life.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer It takes about a year to legally purchase a gun in Mexico. You must: \nObtain a license by passing a class that takes a month.\nProve your employed\nTake a psychological test.\nProve your address submit to background check.There were over 24,000 murders in Mexico, about 3/4 with guns",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-01",
+        "text": "ffs, dude. They aren't even talking about murders that don't involve guns. That was my entire point from the beginning. It's not incorrect to say that banning guns reduces gun crime or gun-related murder. It may be deceptive to say it reduces murder in general, but that's not what was said, so you can't accuse them of telling that lie without lying yourself. \n\nIf I say fewer guns means fewer gun deaths, and you accuse me of saying fewer guns means less crime and less murder, then I'm not the one being dishonest. You are, because you're accusing me of saying something I didn't actually say.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer The countries with the highest murder rates ALL have very restrictive gun laws a few like Venezuela have a total prohibition.\nJamaica 57\nHonduras 41.7 \nBelize 37.9\nVenezuela 34.2\nBahamas 30.9\nBrazil 30.5 \nSaint Lucia 29.6 Guatemala 26.1 \nDominica 25.7\nColombia 24.9  \nMexico 24.8",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-01",
+        "text": "The data is about gun deaths specifically. All gun deaths. Not just murders, and it's not about murder where guns were not involved. If you're going to dispute the data, then show instances in countries where guns are illegal to own everywhere, and gun related deaths are more common than gun related deaths are in the US where guns are legal and easy to acquire. Otherwise, you're failing to address the presented data, which suggests that you're being deceptive. If you can't disprove the data, then argue that the added risk of gun death is worth some benefit that outweighs it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer When someone states that there are 40,000 murders when there aren't 40,000 murders you aren't technically correct. They are either stupid or lying. \n\nThe fact is guns at a minimum save well over 10 times the number lives taken with guns. The NCVS says over 100,000 DGUs a year. https://t.co/geTqcgMAvQ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-01",
+        "text": "@DanDLio50048934 Murder's not the only cause of death, and guns are not the only cause of murder. Your data is irrelevant to the conversation.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer Completely false.\nIn 1993 we had 45% fewer guns than today. We had the highest murder rate our nation ever recorded, 10.4 per 100,000 people &amp; 746 violent crimes per 100,000 people.\nToday we have more guns, 5.4 murders per 100,000 &amp;  351 violent crimes per 100,000 people.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer To restrict the rights of the innocent because a criminal might commit violent crimes is the epitome of totalitarianism. \nSo people shouldn't be allowed to practice their  religion because of Jim Jones?\nIt's a justification for the worst things in history.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-01",
+        "text": "I guess I give the average person more credit than you do. The motives of people using the term are not relevant the only thing relevant is whether they are technically correct. If they say something that is technically correct, and the listener misinterprets it to mean something that is not technically correct, then that doesn't mean those of us who know what was actually said should pretend that something incorrect was meant. In other words, we should address what they actually say. Not what we think they intend us to think they meant.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-01",
+        "text": "I think a lot of European citizens would disagree with you. Criminals there famously use things like knives, acid, and other non firearm weapons, because guns are hard to come by. The reason criminals in the US have no trouble obtaining guns is because there are so many legal guns available for them to acquire. Often through theft.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer You don't get that impression because you're a disingenuous liar. \nNearly every person using the term \"Gun Deaths\" is surprised to learn that it includes suicide. The overwhelming majority of people using it, use it interchangeably with murder.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer Except no gun control measures do this.\nWaiting periods don't prevent criminals from obtaining guns.\nLicenses don't prevent criminals from owning guns. Assault weapons bans don't prevent criminals from obtaining guns. All these serve to make it more difficult for the law abiding.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer @SpencerHakimian What are you going on about, did you forget to take your medication?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-01",
+        "text": "The gun control movement is not trying to reduce fall-related deaths, and they never once claimed that banning guns would reduce fall-related deaths. I don't know what specific lie you're referring to here. If anything they're trying to reduce gun related deaths from the existing causes of deaths, which also includes falls.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-01",
+        "text": "@DanDLio50048934 Because an act doesn't have to be illegal to be violent or lethal. If they want to reduce all gun violence regardless of whether the violence is illegal, then the legality of the violence is irrelevant.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-01",
+        "text": "I disagree. Suicide is at the very least a public health matter. Also, I don't get the impression at all that the term \"gun deaths\" is meant to imply exclusively gun related crime. Gun control advocates would logically want to reduce all death caused by gunshots, regardless of whether the wound was crime related. Honestly, I don't care whether they use gun deaths statistics to promote their policy ideals or not. What I care about is A. whether their policy ideals conform to my own values and priorities and B. whether their argument is logical and takes all relevant data into consideration.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer @SpencerHakimian Who said that guns reduced falling deaths? \nAccidental death is just that, ACCIDENTAL. Its not a crime. The fact remains, A stairway in a home is more dangerous than a gun. The gun control movement is built on a foundation of lies.\nAnd its not aimed at reducing violence.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer If the legality of suicide is not relevant to the conversation, how can suicide by gun be relevant to the conversation on gun violence?\nSuicide is not gun violence any more than suicide by hanging is rope violence. Or suicide by overdose is pill violence. \nYour intent is to lie.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer Except for the fact that the term \"Gun Deaths\" is expressly used to imply that all death by gun is the result of criminal activity. And let's just ignore the fact the the term \"Gun Deaths\" is used to justify making guns illegal. \nSuicide is NOT a public safety issue.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-01",
+        "text": "@DanDLio50048934 @SpencerHakimian Firstly, that's totally irrelevant, because gun ownership does nothing to reduce the number of people who die from falling. Also any number of accidental gun death greater than zero still counts.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer @SpencerHakimian The number of people who die from accidental gunshot is incredibly small. I think last year the number was like 463 out of 120 million gun owners. 26,000 people died in falls in the home last year. A stairway in your home is 56X more dangerous than a gun.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-01",
+        "text": "@DanDLio50048934 I'm ignoring the fact that suicide isn't illegal, because whether or not gun related violence or death is illegal is irrelevant to the conversation.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-01",
+        "text": "I think it's a reasonable assertion that gun control could reduce instances of accidental gunshot wounds and gun related suicide. In fact, it might reduce suicide over all, because guns make fast suicide so readily available. Other forms tend to require more time and planning, which gives people more time to talk themselves out of it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer You ignore the fact that Suicide isn't even illegal. If your neighbor commits suicide, You were never in danger. It's not a public safety problem. \nIf you were really were concerned about suicide by gun YOU WOULDN'T HIDE THOSE DEATHS UNDER THE HEADING OF \"GUN DEATHS\"",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-01",
+        "text": "Well the motives & strategies of gun control advocates are beyond the scope of this conversation. My only point is that an increase in gun related violence and gun related death should be expected in an environment where guns are freely available, and it doesn't conflict with the central thesis of gun ownership advocates, that gun availability reduces crime over all.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-01",
+        "text": "@DanDLio50048934 Suicide and murder have nothing in common? Not even human death by human hands? How can you ignore that part? Also, if I'm trying to compile statistics over how gun ownership affects rates of death by gunshot wound, of course I'd include suicide. Excluding it would be incompetent",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer @SpencerHakimian Gun control does little to nothing to reduce gun related crime. A perfect example is gun registration. Convicted felons can't be charged with crimes of possession of unregistered firearms because gun registration violates the 5th amendment rights against self incrimination.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer @SpencerHakimian The gun control movement doesn't expend even an ounce of effort on actually reducing gun violence or murder. About 99% of gun control laws are focused on restricting people who don't commit crime. \nLegal gun owners commit an amazingly small portion of gun related crime.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer @SpencerHakimian The fact is, the gun control movement is entirely reliant on misdirection and outright lies. \nAn example is the lie that a gun in your home for self protection is dangerous because you will mistakenly shoot a family member for an intruder. It almost never happens.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer @SpencerHakimian Suicide and murder have nothing in common. Suicide isn't even illegal. Nobody conflates suicide by poisoning with drug overdose. \n\nThe purpose of combining the two is to put the idea in people's heads that there are vastly more murders. \n\nIt's an obscene disservice  to a problem.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-01",
+        "text": "If you die in an autobile accident that you caused, and nobody else was involved, it still counts as an auto collision death. In the same way, if you die of a self-inflicted gun wound, it still counts as a gun death, regardless of who, if anyone, you categorize as a victim or perpetrator. What makes it a gun deaths is the use of a gun to end a life. Those are literally the only two factors.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer @SpencerHakimian You can be both the victim and the perpetrator? \nSo you can rape yourself? \nCan you rob yourself? \nHow about assault? Can you assault yourself?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-01",
+        "text": "@DanDLio50048934 @SpencerHakimian You're both. It's not hard to understand. I understand it perfectly. Gun deaths are more common in places where guns are legal to own than where they aren't.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer @SpencerHakimian You use words you don't understand. \n\"Gun Deaths\" includes gun suicide. \nThere were 12,600 gun murders in 2024. \nThere were more than TWICE as many suicides.\n(26,000+)\nIf you commit suicide with a gun are you a victim of gun violence or a perpetrator of gun violence?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-01",
+        "text": "@DanDLio50048934 @SpencerHakimian Right, but the gun violence and gun deaths rate is higher.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer @SpencerHakimian The US murder rate is 5.6 per 100,000 people",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-01",
+        "text": "@DanDLio50048934 @SpencerHakimian Thanks for supporting my point.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-12-01",
+        "text": "@realHankMeyer @SpencerHakimian The countries with the highest murder rates ALL have very restrictive gun laws \nJamaica 57\nHonduras 41.7 \nBelize 37.9\nVenezuela 34.2\nBahamas 30.9\nBrazil 30.5 \nSaint Lucia 29.6 Guatemala 26.1 \nDominica 25.7\nColombia 24.9  \nMexico 24.8",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realHankMeyer",
+        "name": "Hank Meyer",
+        "date": "2025-12-01",
+        "text": "@DanDLio50048934 @SpencerHakimian I think when you compare the United States to countries where gun ownership is illegal, and much lower, you'll find that gun deaths in the US are much higher.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanDLio50048934",
+        "name": "Phil A. Buster.",
+        "date": "2025-11-30",
+        "text": "@realHankMeyer @SpencerHakimian Except more guns don't mean more gun deaths. \nIn 1993 we had 6.24 gun murders per 100,000 people. We had 265 million guns.\nToday we have 450 million guns and a gun murder rate of about 3.2 per 100,000 people.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LilJonAdams",
+        "name": "2Fast2Federalist",
+        "date": "2025-10-08",
+        "text": "@CookieMnstr1975 @SpencerHakimian And yet, what I linked you says it is.\nI trust Canada’s own website, which says teens can request medical suicide, over some retard activist who wants to hide this fact in some misguided sense of solidarity with teens who want to commit suicide.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RichardHeater5",
+        "name": "Richard Heater",
+        "date": "2025-10-08",
+        "text": "@DeeWaynee94 @RabbitRealistic @SpencerHakimian Except they have no 2nd Amendment and a lot less diverse society. Internal tensions are also considerably lower than in US for a lot of reasons.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-22",
+        "text": "You're right—there's no credible scientific evidence linking race inherently to violence. Genetic studies (e.g., on MAOA) show aggression arises from gene-environment interactions, not racial biology. Sociological research attributes disparities in crime rates to factors like discrimination, poverty, and structural inequality, based on diverse sources including NIH and academic reviews.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ChairmanMeow_10",
+        "name": "cat",
+        "date": "2025-09-22",
+        "text": "@Psych_soldier @realSimonLaird @pauliegeronimo @SpencerHakimian @grok And I already told you it's not inherent to race. You need to prove that being black is inherently more violent. There Is no credible science backing that",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Thomasfree2022",
+        "name": "thomas lay",
+        "date": "2025-09-19",
+        "text": "@SpencerHakimian You spread disinformation wrapped in truth so it enables you the flimsy cover of being someone who isn't a complete liar, just dumb enough to spew misinformation. You can blame the guns, or remove 70% for gang violence &amp; suicides. The numbers still would be too high, but honest.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1lucky13foru",
+        "name": "Brick Loomis",
+        "date": "2025-09-19",
+        "text": "@SpencerHakimian @JoelPlatoon https://t.co/SkgAp5Fyjx",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1lucky13foru",
+        "name": "Brick Loomis",
+        "date": "2025-09-19",
+        "text": "@SpencerHakimian @JoelPlatoon https://t.co/hKuzypiVAG",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LilJonAdams",
+        "name": "2Fast2Federalist",
+        "date": "2025-09-18",
+        "text": "@ab_wxm 2+2=5",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "leonfury95",
+        "name": "Teraniel",
+        "date": "2025-09-18",
+        "text": "@Gfs99999 @Dan_Selcke @SpencerHakimian You see, normal people understand the difference between fiction and reality, so fiction doesn't affect them negatively. \nYou are not one of those people.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "KepeKomaro88200",
+        "name": "jamjamjam",
+        "date": "2025-09-18",
+        "text": "@VedranOzir @grok @SpencerHakimian Comon bro, can't you see how desperate you are getting to get a stat that agrees with you.\nYou have an answer you are looking a question for. \nUr black co worker is not from a culture of violence, the rich want to pit common folk against each other, don't fall for it!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FarmerGirl59",
+        "name": "FreeToFarm🇺🇸🙏✨",
+        "date": "2025-09-18",
+        "text": "It’s NOT a video game problem, it’s NOT a gun problem.\nIt a people problem.  \nWe need to find the trigger that is turning these people into an entire Group of people who have NO morals, NO values, No compassion or empathy for their fellow human beings.  \nThey look Angrily at other human being who have  Ideologies different than the Ideologies they have been Told are THE Correct Ideologies.  And they are convinced that other Ideologies are WRONG.\nThey were not Born to that ideology, they did not make their own evaluation or decision about these ideologies, and it seems this is rarely what was taught in their family while growing up.  \nSOMEWHERE this Evil was placed in their minds…through repetitive exposure and being push by adults in positions of authority OR by people who have the advantage of a large reach by being on public airwaves in TV, or from people highly financed to give them reach and access to disenfranchised youth.  \nTHIS, THIS BRAINWASHING….THIS IS A PSYOPS PLAYBOOK….. \nTHIS  MUST TO STOP‼️\nFollow the money…find the cancer….and remove it before it metastasizes any further.\n#StopIndoctrinaton #StopIsolation \n\n@JDVance @JesseBWatters @FBIDirectorKash @FBIDDBongino @AGPamBondi @SecWar @Sec_Noem @SecRubio @SecKennedy @SusieWiles @IngrahamAngle @OutnumberedFNC @TheFive @Gutfeldfox @DNIGabbard",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NB276GAH",
+        "name": "🖕 Autocorrect 🇪🇸🇮🇹🇲🇽🏴󠁧󠁢󠁳󠁣󠁴󠁿🇮🇹🇺🇸",
+        "date": "2025-09-17",
+        "text": "@CookieMnstr1975 @LilJonAdams @SpencerHakimian Fucking idiots 💀\n\nDM me pls",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
       },
       {
         "handle": "VedranOzir",
         "name": "Vedran Ozir",
-        "date": "2025-09-14",
-        "text": "It is not whites neither…",
-        "likes": 169
+        "date": "2025-09-17",
+        "text": "@lookatacasual @SpencerHakimian Presenting data is racist?\n\nPlease join the club, present “your” data and be a racist too :)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LilJonAdams",
+        "name": "2Fast2Federalist",
+        "date": "2025-09-17",
+        "text": "@grok @CookieMnstr1975 @SpencerHakimian Does Canada keep track of how many people use MAID to die each year? Is that data available anywhere?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-17",
+        "text": "It's possible, as people across various viewpoints sometimes selectively interpret facts to support their positions or defend communities. However, without direct evidence of intent here, it's speculative. Individual motivations can stem from passion for advocacy, misinformation, or debate tactics, not inherently tied to any specific identity.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LilJonAdams",
+        "name": "2Fast2Federalist",
+        "date": "2025-09-17",
+        "text": "@grok @CookieMnstr1975 @SpencerHakimian Do you think it is probable a person with a trans flag in his bio would knowingly misrepresent my saying \"teens are eligible for MAID\" by framing it as under 18 only, ignoring 18 and 19 year olds, in an effort to accuse me of lying and attack me to protect his community?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-17",
+        "text": "Yes, 18 and 19 year olds are typically considered teenagers.\n\nYes, in Canada, those 18+ can be eligible for MAID if they have a grievous and irremediable condition, are mentally competent, and meet other criteria. Minors under 18 are not.\n\nOn motivations: Individuals may interpret or present info selectively to align with their views on issues like transgender rights, seeing it as advocacy for community protection. Others might do the same from opposing perspectives.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "IAmBackPool",
+        "name": "That DudePool",
+        "date": "2025-09-17",
+        "text": "@LilJonAdams @SpencerHakimian Stick to the topic at hand, ass hat. https://t.co/U6LI4jKdcY",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LilJonAdams",
+        "name": "2Fast2Federalist",
+        "date": "2025-09-17",
+        "text": "@CookieMnstr1975 @SpencerHakimian https://t.co/R2NVygt2OX\n\nhttps://t.co/ojV1ZyYtzP says you're lying. So, this begs the question- What's your angle here? Lie to protect MAID? It's morally virtuous to push disinfo bc you think you're protecting Canadians that want access to suicide?\n\nBe real for a sec, why?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WCE_Gamer",
+        "name": "Vic",
+        "date": "2025-09-17",
+        "text": "@mythical_meier @SpencerHakimian If violent knife deaths were included, the stats would be higher in other countries as well as here. Unless you think dying by knife is not violent??",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LilJonAdams",
+        "name": "2Fast2Federalist",
+        "date": "2025-09-17",
+        "text": "@CookieMnstr1975 @SpencerHakimian https://t.co/R2NVygt2OX\n\nYou're claiming, without evidence, that MAID doesn't exist in Canada.\n\nThat's weird. Why are you weird?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WCE_Gamer",
+        "name": "Vic",
+        "date": "2025-09-17",
+        "text": "@SpencerHakimian So they finally figured out that gang members aren't playing games all day?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lookatacasual",
+        "name": "bubbie",
+        "date": "2025-09-17",
+        "text": "@VedranOzir @SpencerHakimian Good god why do whites love to be racist….its just a matter of America…we don’t see charts about how much white people are still dating their families or are actually making up the welfare population",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LilJonAdams",
+        "name": "2Fast2Federalist",
+        "date": "2025-09-17",
+        "text": "@CookieMnstr1975 @SpencerHakimian It's illegal in Europe. Suicide is legal in Canada.\nYou do the math.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "VedranOzir",
+        "name": "Vedran Ozir",
+        "date": "2025-09-17",
+        "text": "@grok @KepeKomaro88200 @SpencerHakimian can you find source from any source for homicides per killer income or similar?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-17",
+        "text": "I checked BJS reports and couldn't find this exact 2006 homicide rates table by race and income. Homicide data usually comes from FBI UCR, not BJS victimization surveys (which exclude homicides and have different brackets/rates). Similar charts online lack primary sourcing. If you have the direct link, I can review further. (248 chars)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "VedranOzir",
+        "name": "Vedran Ozir",
+        "date": "2025-09-17",
+        "text": "@KepeKomaro88200 @SpencerHakimian @grok , can you check this table?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "octoberskyshow",
+        "name": "Lahiru Udara",
+        "date": "2025-09-17",
+        "text": "Trump is not a dictator. He is an idiot with a huge ego, who tries to act like a great leader, but fails miserably. Whole world is mocking him. Nobody respect him, but some are afraid of him, because he is an idiot. And idiots do stupid things, which can be scary. Trump fans think that fear is respect, but it is not.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "octoberskyshow",
+        "name": "Lahiru Udara",
+        "date": "2025-09-17",
+        "text": "@BrianHJacobson @loudrealist @SpencerHakimian That's why you need a proper education system. You don't need guns to protect your rights. You need education and intelligence. Only an uneducated idiot would vote for someone who'd take away rights.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CarlosA54041626",
+        "name": "Carlos Andrade",
+        "date": "2025-09-17",
+        "text": "@VedranOzir @KepeKomaro88200 @SpencerHakimian Bureau of justice doesn’t have data on household income",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
       }
     ]
   },

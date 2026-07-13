@@ -1,0 +1,305 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:10:18.231Z",
+  "tweetId": "2067282941227528318",
+  "post": {
+    "url": "https://x.com/5le/status/2067282941227528318",
+    "author": {
+      "handle": "5le",
+      "name": "Eli Schwartz"
+    },
+    "date": "2026-06-17",
+    "text": "Google stood on stage and said the strategy for winning in AI search comes down to three things: be unique, be helpful, and be agent-ready. \n\nNo secret schema, no chunking trick, no file you upload that makes LLMs fall in love with your site. \n\nJust three plain words.\n\nThis should worry every AEO tool or consultant currently charging five figures a month for a checklist. \n\nAlmost every tactic built around gaming AI answers has a shelf life measured in months rather than years, because the moment enough people exploit it, Google quietly patches it out from underneath them. \n\nStructured data formatting tricks, forum mention farming, answer-box keyword stuffing, all of it eventually gets discovered and neutralized.\n\nThis also exposes something funnier: the entire category of tools that will happily tell you your brand's visibility score across ChatGPT, DeepSeek, Claude, Perplexity, and AI Overviews, charted weekly, color-coded, and exportable to a deck for your CMO. \n\nThey'll tell you exactly where you rank. They will not tell you why, and they definitely won't tell you what to do about it, because the honest answer is \"write something only you could have written,\" and that doesn't fit in a dashboard widget. \n\nYou can watch your score go from 34 to 31 for a month straight, and the tool will never once suggest the actual fix because it isn't a feature they can ship.\n\nAgent-led spam doesn't count if it doesn't move the needle.\n\nThe three pillars Google named don't have that expiration problem.\n\nUnique can't be automated away at scale, no matter how good the generation tools get. \n\nHelpful can't be faked for long once readers and ranking systems both start noticing the pattern. \n\nThe smartest move right now isn't chasing whatever new AEO trend is circulating on LinkedIn this particular week, and it definitely isn't refreshing a tracking dashboard hoping the number moves on its own. \n\nGo back to the unglamorous work that never had a clever name to begin with: User empathy and marketing.\n\nIf only people focused on brand as much as they do SEO hacks https://t.co/p7XzS6Rl6l",
+    "thread": [
+      {
+        "id": "2067282941227528318",
+        "text": "Google stood on stage and said the strategy for winning in AI search comes down to three things: be unique, be helpful, and be agent-ready. \n\nNo secret schema, no chunking trick, no file you upload that makes LLMs fall in love with your site. \n\nJust three plain words.\n\nThis should worry every AEO tool or consultant currently charging five figures a month for a checklist. \n\nAlmost every tactic built around gaming AI answers has a shelf life measured in months rather than years, because the moment enough people exploit it, Google quietly patches it out from underneath them. \n\nStructured data formatting tricks, forum mention farming, answer-box keyword stuffing, all of it eventually gets discovered and neutralized.\n\nThis also exposes something funnier: the entire category of tools that will happily tell you your brand's visibility score across ChatGPT, DeepSeek, Claude, Perplexity, and AI Overviews, charted weekly, color-coded, and exportable to a deck for your CMO. \n\nThey'll tell you exactly where you rank. They will not tell you why, and they definitely won't tell you what to do about it, because the honest answer is \"write something only you could have written,\" and that doesn't fit in a dashboard widget. \n\nYou can watch your score go from 34 to 31 for a month straight, and the tool will never once suggest the actual fix because it isn't a feature they can ship.\n\nAgent-led spam doesn't count if it doesn't move the needle.\n\nThe three pillars Google named don't have that expiration problem.\n\nUnique can't be automated away at scale, no matter how good the generation tools get. \n\nHelpful can't be faked for long once readers and ranking systems both start noticing the pattern. \n\nThe smartest move right now isn't chasing whatever new AEO trend is circulating on LinkedIn this particular week, and it definitely isn't refreshing a tracking dashboard hoping the number moves on its own. \n\nGo back to the unglamorous work that never had a clever name to begin with: User empathy and marketing."
+      },
+      {
+        "id": "2067565627124977996",
+        "text": "If only people focused on brand as much as they do SEO hacks https://t.co/p7XzS6Rl6l"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HLB24J-WIAA5kpN.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HLB24QFWAAA2oOQ.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 299,
+      "retweets": 36,
+      "replies": 27,
+      "views": 35534
+    },
+    "comments": [
+      {
+        "handle": "wilreynolds",
+        "name": "Wil Reynolds",
+        "date": "2026-06-17",
+        "text": "@5le Brother man we're trying to do stuff like this, but I'll tell you those flashy case studies showing AI results in 3 weeks are hard to fight when the c-suite sees it.\n\nThank you for fighting the good fight. \n\nhttps://t.co/rIOUExb8Wo",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "garrettsussman",
+        "name": "Garrett Sussman",
+        "date": "2026-06-18",
+        "text": "@5le Google is responsible for incentivizing the sea of sameness (h/t @wilreynolds)\n\nI’ll be the first in line to shout from the rooftops when they reward the content they’re espousing at the scale that’s worthwhile.\n\nIf they reward this type of content, people will make it.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JoeManna",
+        "name": "Joe Manna 🌵",
+        "date": "2026-06-17",
+        "text": "@5le The fact that they're spending marketing and brand cycles trying to tamp this down suggests that it's more effective than they let on. \n\nAlso, isn't it a bit meta for Google to dispense \"SEO\" best practices when clearly, it's for search for a problem they created?",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jessjoyce",
+        "name": "Jess Joyce AI 👩‍💻",
+        "date": "2026-06-17",
+        "text": "@5le Googles said the first two for decades.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "simba_mudonzvo",
+        "name": "Simba Mudonzvo",
+        "date": "2026-06-18",
+        "text": "@5le This! https://t.co/Ka3fXN3l0j",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jamescrawford",
+        "name": "James Crawford FPRCA",
+        "date": "2026-06-18",
+        "text": "@5le Agree with everything but ha be you seen the AMEC GEO Principles? This for me is a better way to frame GEO measurement https://t.co/i5VPW6IRfH",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "schachin",
+        "name": "Kristine (@schachin on Threads) 🇺🇦",
+        "date": "2026-06-17",
+        "text": "This is too simplified there are things you need to technically, there is chunking but most of the SEO industry does not understand how it works (it is not paragraphs) so yes and no... \n\nI mean write good content has been their advice for years. Yet we all know it is far more complex than that.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "meutley",
+        "name": "Michael Utley",
+        "date": "2026-06-17",
+        "text": "@5le And the wolf is still the wolf. And the sheep is still the sheep.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RandallKanna",
+        "name": "Randall Kanna Franson",
+        "date": "2026-06-17",
+        "text": "I hate the 'ai visibility score' everywhere. But personally I'm working on an ai search platform that does pull all the citations, AI answers and reverse engineers why someone is mentioned. It still relies on the user to put their unique twist on the content but it gives them a jumping point on what to create and what competitors are doing.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "marzooqahq",
+        "name": "Marzooq Asghar",
+        "date": "2026-06-18",
+        "text": "@5le that's probably why original research works so well. it's one of the few things that's still hard to copy and easy for everyone else to reference",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JoeManna",
+        "name": "Joe Manna 🌵",
+        "date": "2026-06-17",
+        "text": "@5le Judging from recent post-May 20 Core updates, they're struggling to have the algo keep up with their advice.\n\nI know there's a symbiotic relationship between AI and traditional search. Dismissing AI's reasoning layers and saying \"unique content good\" is malpractice.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BrockbankJames",
+        "name": "James Brockbank",
+        "date": "2026-06-17",
+        "text": "I've had the same conversation twice in the last 24h and it feels so relevant here.\n\nSo many people got into SEO (or digital PR, which is the context I was chatting on it) during or after Covid because it looked fun, easy, rapidly growing salaries to work from home.\n\nLots didn't ever want to be a marketer. They wanted an easy (compare to let's say, working frontline healthcare or a teacher) job. And that was fine in a booming period.\n\nThe boom is over. Clients and brands demand (rightly so) marketers. \n\nLike you say, thriving in this next era needs marketers.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kaalicharan",
+        "name": "Abhishek Joshi 👨‍💻🐶",
+        "date": "2026-06-21",
+        "text": "\"Be unique\" is the one everyone skips, because it's the only one you can't fake. I run a decade old peta doption blog in India. The pages holding rankings through AI Overviews are the ones with things that exist nowhere else: our own adoption data, UGC content... The generic \"ultimate guide\" pages are exactly the ones that got eaten.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HarunMia28519",
+        "name": "Harun Mia",
+        "date": "2026-06-19",
+        "text": "@5le Well said.\n\nAI search rewards substance over tactics. Unique insight, real usefulness, and genuine authority will always outlast shortcuts and hacks.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tinapchopra",
+        "name": "Tina Chopra",
+        "date": "2026-06-19",
+        "text": "\"Write something only you could have written\" is the most honest answer in GEO right now, and you're right, it doesn't fit in a dashboard widget 😅 The three pillars Google named aren't new, they're just SEO best practices that were always going to survive every algorithm shift. The tools that help you execute on them will last. The ones that just track them won't.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CoachLatham13",
+        "name": "Chris Latham",
+        "date": "2026-06-19",
+        "text": "@5le This is a fantastic post and a message I have tried to push for months. Challenging when the uncomfortable and hard that need to be done requires some in leadership to put the neck out.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "izhongyuting",
+        "name": "AlexZ",
+        "date": "2026-06-18",
+        "text": "@5le The weak version of GEO is “track mentions and hope the chart improves.”\n\nThe useful version is figuring out why a model picked one source over another for a buying/research prompt, then fixing the actual proof gaps: experience, specificity, entity clarity, and distribution.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "antoine_cre",
+        "name": "Antoine",
+        "date": "2026-06-18",
+        "text": "@5le Yes, it’s refreshing and removes all the SEO jargon",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Seosarah27",
+        "name": "Sarah",
+        "date": "2026-06-18",
+        "text": "@5le Completely agree. Too many people are looking for shortcuts, while the fundamentals remain the same: create valuable content, build authority, and provide a better user experience than competitors.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alvaromkt98",
+        "name": "Álvaro Carreira (TMT)",
+        "date": "2026-06-18",
+        "text": "@5le Two of the three are substance, one isn't. Unique and helpful can't be faked, agreed. But \"agent-ready\" is a format, not a virtue, and formats are exactly what expires when the agents change how they read. Google slipped a moving target into a list of permanent ones.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "maddiehoulding",
+        "name": "Madison Houlding",
+        "date": "2026-06-18",
+        "text": "@5le This is a refreshing take. Everyone is looking for an AI shortcut while Google is emphasizing the same principles that have always mattered.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "curtishaavi",
+        "name": "Curtis Haavi",
+        "date": "2026-06-18",
+        "text": "@5le Tracking tells you where you stand. It was never supposed to tell you what to fix. The mistake is treating the dashboard as the strategy instead of the diagnostic. Unique and helpful content is still the actual lever. The score just tells you if it is working.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "joegriffin",
+        "name": "Joe Griffin",
+        "date": "2026-06-18",
+        "text": "@5le Oh okay I’ll just be helpful and unique and “agent ready” — no need to be competitive at all… sure.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bree_sharp",
+        "name": "Bree Sharp | Web Developer & Tech SEO Consultant",
+        "date": "2026-06-18",
+        "text": "@5le \"Unique and helpful\" has been the answer since Panda. The only genuinely new requirement is \"agent-ready\" — structured data, clean rendering, content parseable by agents. That work is scoped and real. The rest is just good marketing.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aon_pro",
+        "name": "AON",
+        "date": "2026-06-18",
+        "text": "@5le Yeah, kinda feels like we’re overcomplicating this. Say something real, actually help people, and stop trying to hack every new box Google gives us.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "schachin",
+        "name": "Kristine (@schachin on Threads) 🇺🇦",
+        "date": "2026-06-17",
+        "text": "BTW The LLMs? They have no protections right now against the spam you mentioned -- just Google and Bing. \n\nI agree there are scammers out there but also - there is real work that has to be done to meet the MATHEMATICAL interpretations of the sites they surface.\n\nPlease stop conflating all optimization for LLMs and AI products as scams :(",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "austin_murr_",
+        "name": "Austin Murray",
+        "date": "2026-06-17",
+        "text": "@5le In your opinion, What’s the best strategy for being unique and getting cited in LLMs? Original research, thought leadership, something else?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Prithvi_Jadwani",
+        "name": "Prithvi Jadwani | AI SEO | GEO | REDDIT SEO | GMB",
+        "date": "2026-06-17",
+        "text": "@5le That's the part where most 'AI SEO' tools start recommending schema updates, but the real challenge lies in producing unique content that's helpful to users.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HLB24J-WIAA5kpN.jpg",
+      "localFilename": "2067282941227528318_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HLB24QFWAAA2oOQ.jpg",
+      "localFilename": "2067282941227528318_2.jpg"
+    }
+  ]
+}

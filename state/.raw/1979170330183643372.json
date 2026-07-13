@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:56.346Z",
+  "tweetId": "1979170330183643372",
+  "post": {
+    "url": "https://x.com/XRoboHub/status/1979170330183643372",
+    "author": {
+      "handle": "XRoboHub",
+      "name": "RoboHub🤖"
+    },
+    "date": "2025-10-17",
+    "text": "Booster Robotics is gearing up to launch a new humanoid robot, the K1! The price won't be ¥99,000 RMB (approx. $13,600 USD), nor will it be ¥39,000 RMB (approx. $5,400 USD). Its final price point is expected to be significantly lower than other robots currently on the market. https://t.co/WOor0WeAIA https://t.co/GQv43Po1pw",
+    "thread": [
+      {
+        "id": "1979170330183643372",
+        "text": "Booster Robotics is gearing up to launch a new humanoid robot, the K1! The price won't be ¥99,000 RMB (approx. $13,600 USD), nor will it be ¥39,000 RMB (approx. $5,400 USD). Its final price point is expected to be significantly lower than other robots currently on the market. https://t.co/WOor0WeAIA https://t.co/GQv43Po1pw"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1979165265054023680/vid/avc1/1920x1080/IotLk7EO1jz7ruGZ.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1979165265054023680/img/Ef0gmnALEGbJZDlz.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 575,
+      "retweets": 103,
+      "replies": 17,
+      "views": 146367
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1979165265054023680/img/Ef0gmnALEGbJZDlz.jpg",
+      "localFilename": "1979170330183643372_1_poster.jpg"
+    }
+  ]
+}

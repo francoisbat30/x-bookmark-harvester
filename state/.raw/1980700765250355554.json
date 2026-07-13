@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:52.473Z",
+  "tweetId": "1980700765250355554",
+  "post": {
+    "url": "https://x.com/liambolling/status/1980700765250355554",
+    "author": {
+      "handle": "liambolling",
+      "name": "Liam Bolling"
+    },
+    "date": "2025-10-21",
+    "text": "i got chatgpt atlas (@OpenAI's web browser) so you don’t have to\n\nhere's what i found interesting in 15 mins:\n\n1️⃣ agent mode is sick. it completes things like ordering coffee or filling out a tsa precheck forms on my browser with my passwords\n\n2️⃣ when you background a tab with agent (which is really amazing they built that) it gets tripped up in content blockers\n\n3️⃣ websites like @nytimes somehow blocked using atlas to summarizing content. @CNN  and others work just fine\n\n4️⃣ it’s so native to MacOS and is integrated with auto-filling iMessage 2fa codes which is super sick. chrome doesn’t even do this\n\n5️⃣ the agent is very human like (example: dismissed modals by clicking out from them). maybe it’s not intentional and got lucky? not sure\n\n6️⃣ i love the ui and onboarding is super slick. very clever use of full-screen usage on my mac. the animations are fucking amazing.\n\nwatch the video for 15 minutes of my raw thoughts and first look",
+    "thread": [
+      {
+        "id": "1980700765250355554",
+        "text": "i got chatgpt atlas (@OpenAI's web browser) so you don’t have to\n\nhere's what i found interesting in 15 mins:\n\n1️⃣ agent mode is sick. it completes things like ordering coffee or filling out a tsa precheck forms on my browser with my passwords\n\n2️⃣ when you background a tab with agent (which is really amazing they built that) it gets tripped up in content blockers\n\n3️⃣ websites like @nytimes somehow blocked using atlas to summarizing content. @CNN  and others work just fine\n\n4️⃣ it’s so native to MacOS and is integrated with auto-filling iMessage 2fa codes which is super sick. chrome doesn’t even do this\n\n5️⃣ the agent is very human like (example: dismissed modals by clicking out from them). maybe it’s not intentional and got lucky? not sure\n\n6️⃣ i love the ui and onboarding is super slick. very clever use of full-screen usage on my mac. the animations are fucking amazing.\n\nwatch the video for 15 minutes of my raw thoughts and first look"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1980699844952961024/vid/avc1/3340x2160/3pANhGO3JXYpjRgV.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1980699844952961024/img/NvgGH3MAo80P01ae.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1730,
+      "retweets": 118,
+      "replies": 167,
+      "views": 381049
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1980699844952961024/img/NvgGH3MAo80P01ae.jpg",
+      "localFilename": "1980700765250355554_1_poster.jpg"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-07-12T17:44:16.457Z",
+  "fetchedAt": "2026-07-13T07:07:20.853Z",
   "tweetId": "1967336900995563876",
   "post": {
     "url": "https://x.com/architectvibes/status/1967336900995563876",
@@ -24,12 +24,57 @@
       }
     ],
     "metrics": {
-      "likes": 11570,
+      "likes": 11567,
       "retweets": 1159,
       "replies": 25,
-      "views": 270374
+      "views": 270382
     },
     "comments": [
+      {
+        "handle": "spoil_lyla",
+        "name": "Princess Lyla ˚₊· ͟͟͞͞➳❥",
+        "date": "2025-09-15",
+        "text": "@architectvibes My vibesss 🕯️🌊",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-15",
+        "text": "@Junaid_akh @architectvibes This looks like a digitally created architectural concept by architectvibes—likely AI-generated or designed, not a real physical location. Their bio notes all images are created by them.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cunchypeanuts",
+        "name": "Linus Van Pelt",
+        "date": "2025-09-15",
+        "text": "@architectvibes amazing",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NessirNaki",
+        "name": "Sirnak",
+        "date": "2025-09-15",
+        "text": "@architectvibes Where is this ?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1blackking4",
+        "name": "🤎THEBOSSBIGDREKOTHEDONTHESUPERDEAL💚",
+        "date": "2025-09-14",
+        "text": "@architectvibes 🎩🤎👑❣️🏩🏰⚡⚓💕🌆♾️",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
       {
         "handle": "crujexx",
         "name": "crujex",
@@ -37,7 +82,115 @@
         "text": "@architectvibes Hii sophia I'm from India. Would you like to be my friend?😊",
         "likes": 0,
         "isAuthor": false,
-        "isDirectReply": false
+        "isDirectReply": true
+      },
+      {
+        "handle": "SpoilMissK",
+        "name": "𝑀𝒾𝓈𝓈 𝒦 ✨",
+        "date": "2025-09-16",
+        "text": "@architectvibes 😍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Rosababy_vip",
+        "name": "Rosababy",
+        "date": "2025-09-16",
+        "text": "@architectvibes I want to swim there",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JoeyWhites36543",
+        "name": "Joey L Whiteside",
+        "date": "2025-09-15",
+        "text": "@architectvibes Green  paradise found?🤩💚💯📸",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "playful_secret3",
+        "name": "Goddess of Gold ♥️💎",
+        "date": "2025-09-15",
+        "text": "@architectvibes 🌳❤️‍🔥❤️‍🔥💎",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "setareh_rjr",
+        "name": "✨️",
+        "date": "2025-09-15",
+        "text": "@architectvibes Is this  a real?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PoiseCredit",
+        "name": "Credit Poise",
+        "date": "2025-09-15",
+        "text": "@architectvibes Beautiful",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AskLilyNow",
+        "name": "Lily",
+        "date": "2025-09-15",
+        "text": "@architectvibes Can I be here now?! ugh.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Junaid_akh",
+        "name": "JD ♡̷̴̬̩̃̊",
+        "date": "2025-09-15",
+        "text": "@architectvibes @grok is this a real place and where is it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BSparna",
+        "name": "Belén Spartana",
+        "date": "2025-09-15",
+        "text": "@architectvibes agua cristalina ♥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JuliRelation",
+        "name": "Julianna Hopkins ❤️",
+        "date": "2025-09-15",
+        "text": "@architectvibes Dreaming",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iam_kristy40",
+        "name": "Kristy",
+        "date": "2025-09-15",
+        "text": "@architectvibes Perfect",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ArtofVaikuntha",
+        "name": "Art of Vaikuntha",
+        "date": "2025-09-15",
+        "text": "@architectvibes Beautiful",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
       }
     ]
   },

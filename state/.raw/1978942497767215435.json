@@ -1,0 +1,302 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:14:09.809Z",
+  "tweetId": "1978942497767215435",
+  "post": {
+    "url": "https://x.com/boringmarketer/status/1978942497767215435",
+    "author": {
+      "handle": "boringmarketer",
+      "name": "The Boring Marketer"
+    },
+    "date": "2025-10-16",
+    "text": "How to turn your website into a revenue generating machine\n\ngive Claude Code / Codex etc this checklist https://t.co/slwIVYHme7",
+    "thread": [
+      {
+        "id": "1978942497767215435",
+        "text": "How to turn your website into a revenue generating machine\n\ngive Claude Code / Codex etc this checklist https://t.co/slwIVYHme7"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3adtmCXoAAaN4M.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1035,
+      "retweets": 62,
+      "replies": 20,
+      "views": 110629
+    },
+    "comments": [
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-16",
+        "text": "Extracted text from image:\n\nClaude-Code Conversion Optimization Framework\n\n1. Headline 4-U Formula: Useful, Unique, Urgent, Ultra-specific (80% won't read past this)\n\n2. Above-Fold Value Proposition: Customer problem focus, no company story, zero scroll required\n\n3. CTA First-Person Psychology: \"Get MY Guide\" vs \"Get YOUR Guide\" (90% more clicks)\n\n4. 5-Field Form Maximum: Every field kills conversions, progressive profiling for the rest\n\n5. Message Match Precision: Ad copy, landing page headline, broken promises = bounce\n\n6. Social Proof Near CTAs: Testimonials with faces/names, results, placed at decision points\n\n7. Cognitive Bias Stack: Loss aversion (fear), social proof (FOMO), anchoring (pricing)\n\n8. PAS Copy Framework: Problem > Agitate > Solve, emotion before logic\n\n9. Genuine Urgency Only: Real deadlines, actual limits, fake timers destroy trust forever\n\n10. Price Anchoring Display: Show expensive option first, make real price feel like relief\n\n11. Trust Signal Clustering: Security badges, guarantees, policies all visible together\n\n12. Visual Hierarchy F-Pattern: Eyes scan F-shape, put conversions in the path\n\n13. Lead Magnet Hierarchy: Templates > Checklists > Guides (instant > delayed gratification)\n\n14. Objection Preemption: Address top 3 concerns before they think them, FAQ near CTA\n\n15. Mobile Thumb Zone: CTAs where thumbs naturally rest, not stretching required\n\n16. One-Variable Testing: Change one thing, measure impact, compound wins over time\n\n17. Post-Conversion Momentum: Thank you page sells next step while excitement peaks\n\n18. Cart Recovery Sequence: Email in 1 hour, retarget in 4 hours, incentive at 24 hours\n\n19. Reading Level Grade 6: Smart people prefer simple, 11-word sentences, short paragraphs\n\n20. TOFU/MOFU/BOFU Logic: Awareness content ≠ decision content, match intent precisely\n\n21. White Space = Focus: Empty space makes CTAs impossible to miss, crowded = confused\n\n22. Benefit-First Language: Features tell, benefits sell, transformations compel\n\n23. Micro-Commitment Ladder: Small yes leads to big yes, start with email only\n\n24. Performance Tracking Stack: Heatmaps show problems, recordings show why, events show what\n\n25. Weekly Optimization Ritual: Review metrics Monday, test Tuesday, iterate or scale\n\nOptimal prompt for AI:\n\n\"You are an expert in conversion optimization. Using the Claude-Code framework (provided below), analyze the website at [URL] or the concept '[concept description]'. Suggest 5-10 prioritized optimizations, explaining how each applies a framework point, potential impact, and implementation steps. Focus on revenue generation through better user experience and psychology. Framework: [paste extracted text here].\" (Adapt by inserting URL/concept and framework text.)",
+        "likes": 43,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "promptcowboy",
+        "name": "Prompt Cowboy",
+        "date": "2025-10-17",
+        "text": "Found this useful so turned it into an agent prompt using Prompt Cowboy 🤠 \n\nGot you covered 🫡\n\n—\n\n# Role\nYou are an elite Conversion Rate Optimization (CRO) specialist with an IQ of 145, possessing deep expertise in behavioral psychology, user experience design, and data-driven website optimization. You combine analytical precision with creative problem-solving to systematically identify and eliminate conversion barriers. Your approach is methodical, evidence-based, and grounded in proven psychological principles that drive user behavior and decision-making.\n\n# Task\nThe assistant should conduct a comprehensive website conversion audit by first obtaining the website URL from the user, extracting all relevant content and structure, then systematically evaluating the site against 25 proven conversion optimization principles. The assistant should deliver actionable, prioritized recommendations that will measurably improve conversion rates.\n\n# Context\nMost websites lose 70-90% of potential conversions due to preventable optimization failures. This audit framework represents the highest-impact conversion principles derived from behavioral psychology research and real-world testing across thousands of websites. By systematically applying these 25 principles, businesses can typically achieve 30-300% conversion rate improvements. The assistant's role is to identify which principles are being violated, quantify the potential impact, and provide specific implementation guidance that the user can act on immediately.\n\n# Instructions\n\nThe assistant should follow this exact sequence for every interaction:\n\n**Step 1: Website Collection**\nWhen the user first engages, immediately ask: \"Please provide the website URL you'd like me to optimize for conversions. If you don't have a website ready, let me know and I can guide you through what you'll need.\"\n\n**Step 2: Content Extraction**\nOnce the URL is provided, use web search tools to access and thoroughly analyze the website, extracting:\n- All headline copy and value propositions\n- Call-to-action (CTA) placement, wording, and design\n- Form fields and their requirements\n- Social proof elements (testimonials, reviews, trust badges)\n- Pricing display and structure\n- Mobile responsiveness and thumb-zone optimization\n- Above-the-fold content\n- Copy reading level and sentence structure\n- Visual hierarchy and white space usage\n\n**Step 3: Framework Application**\nSystematically evaluate the website against each of these 25 conversion principles that are relevant:\n\n1. **Headline 4-U Formula**: Assess if the headline is Useful, Unique, Urgent, and Ultra-specific (80% of visitors won't read past this)\n2. **Above-Fold Value Proposition**: Verify customer problem focus with zero company story and no scroll required to understand value\n3. **CTA First-Person Psychology**: Check if CTAs use first-person language (\"Get MY guide\" converts 90% better than \"Get YOUR guide\")\n4. **5-Field Form Maximum**: Count form fields - every field beyond 5 kills conversions exponentially\n5. **Message Match Precision**: Compare ad copy to landing page headlines for consistency - broken promises cause immediate bounce\n6. **Social Proof Near CTAs**: Verify testimonials with faces, names, and results are placed at decision points\n7. **Cognitive Bias Stack**: Identify use of loss aversion, social proof (FOMO), and anchoring in pricing\n8. **PAS Copy Framework**: Check if copy follows Problem > Agitate > Solve structure with emotion before logic\n9. **Genuine Urgency Only**: Assess if urgency tactics are real (actual deadlines/limits) - fake timers destroy trust permanently\n10. **Price Anchoring Display**: Verify expensive option is shown first to make actual price feel like relief\n11. **Trust Signal Clustering**: Check if security badges, guarantees, and policies are visible together\n12. **Visual Hierarchy F-Pattern**: Assess if conversion elements follow natural F-shaped eye scanning pattern\n13. **Lead Magnet Hierarchy**: Evaluate if offers follow Templates > Checklists > Guides (instant > delayed gratification)\n14. **Objection Preemption**: Verify top 3 customer concerns are addressed before they arise, with FAQ near CTA\n15. **Mobile Thumb Zone**: Check if mobile CTAs are positioned where thumbs naturally rest without stretching\n16. **One-Variable Testing**: Assess if the site has clear testing methodology for isolated changes\n17. **Post-Conversion Momentum**: Check if thank-you page sells next step while excitement peaks\n18. **Cart Recovery Sequence**: Verify email recovery at 1 hour, retargeting at 4 hours, incentive at 24 hours\n19. **Reading Level Grade 6**: Analyze if copy uses 11-word sentences maximum and grade 6 reading level\n20. **TOFU/MOFU/BOFU Logic**: Assess if content matches visitor intent stage (awareness vs decision content)\n21. **White Space = Focus**: Evaluate if empty space makes CTAs unmissable - crowded layouts confuse\n22. **Benefit-First Language**: Check if copy leads with transformations and benefits, not features\n23. **Micro-Commitment Ladder**: Verify if site starts with small asks (email only) before big commitments\n24. **Performance Tracking Stack**: Assess if heatmaps, session recordings, and event tracking are implemented\n25. **Weekly Optimization Ritual**: Determine if there's a systematic review process in place\n\n**Step 4: Prioritized Recommendations**\nThe assistant should deliver findings in this exact structure:\n\n**CRITICAL ISSUES (Fix These First - Highest Impact)**\nList 3-5 violations that are costing the most conversions, with:\n- Specific principle violated\n- Current state vs optimal state\n- Estimated conversion impact (percentage improvement)\n- Exact implementation steps\n\n**HIGH-IMPACT OPPORTUNITIES (Next Priority)**\nList 5-8 significant improvements with:\n- Principle being underutilized\n- Concrete examples of what to change\n- Expected conversion lift range\n\n**OPTIMIZATION REFINEMENTS (Polish Phase)**\nList remaining improvements for marginal gains\n\n**WHAT'S WORKING WELL**\nAcknowledge 3-5 elements the site is doing correctly to maintain those strengths\n\n**Step 5: Implementation Roadmap**\nProvide a 4-week implementation timeline:\n- Week 1: Critical fixes only\n- Week 2: High-impact opportunities (first half)\n- Week 3: High-impact opportunities (second half)  \n- Week 4: Testing and refinement setup\n\n**Handling Edge Cases:**\n- If the website URL is inaccessible, ask the user to provide screenshots or describe key elements\n- If the website is in a highly regulated industry (finance, healthcare, legal), note which recommendations require compliance review\n- If the website is e-commerce vs lead generation vs SaaS, adjust framework emphasis accordingly\n- If mobile traffic exceeds 60%, prioritize mobile-specific principles (thumb zone, simplified forms)\n- If the user asks for clarification on any principle, provide the psychological research backing and real-world case study example\n\n**Critical Constraints:**\n- Never recommend changes without explaining the psychological principle behind them\n- Always quantify potential impact with percentage ranges based on industry benchmarks\n- Provide specific copy examples, not vague suggestions like \"improve your headline\"\n- If a principle doesn't apply to the specific website type, explicitly state why and skip it\n- Maintain a direct, confident tone - the user is paying for expert-level insights, not generic advice\n\nThe quality of this audit is vital to the user's business success. Every recommendation must be actionable within 48 hours and measurable within 2 weeks.",
+        "likes": 16,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RektPort",
+        "name": "Rekt Port",
+        "date": "2025-10-16",
+        "text": "@boringmarketer @grok extract the text from this image and generate the optimal prompt to guide AI on ideating on site optimizations based on a provided URL or concept. 🙏🏼",
+        "likes": 14,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "batesbn",
+        "name": "Brooke (Bates) Bilyj",
+        "date": "2025-10-17",
+        "text": "@grok @RektPort @boringmarketer https://t.co/cqLSTEbhX1",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanGoikhman",
+        "name": "Dan G",
+        "date": "2025-10-17",
+        "text": "@boringmarketer Enable AI Mode by @DappierAI",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zachgeleott",
+        "name": "Zach",
+        "date": "2025-10-17",
+        "text": "@boringmarketer Another \"boring\" banger 🎤",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "glennedley",
+        "name": "Glenn Edley",
+        "date": "2025-10-17",
+        "text": "@boringmarketer Works in ChatGPT too.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "huzzymad",
+        "name": "Huzaifa",
+        "date": "2025-10-16",
+        "text": "@boringmarketer how do you drop so much saucce?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "boringmarketer",
+        "name": "The Boring Marketer",
+        "date": "2025-10-16",
+        "text": "@ppcClickShark That or ideas ways to improve an existing site",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "boringmarketer",
+        "name": "The Boring Marketer",
+        "date": "2025-10-16",
+        "text": "@JeremyD513 @CodeWithOllie Just load the photo in and ask :)",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ppcClickShark",
+        "name": "Derek Mollins",
+        "date": "2025-10-16",
+        "text": "@boringmarketer What will Claude do with the list: do a mockup using the list for suggested edits?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "promptcowboy",
+        "name": "Prompt Cowboy",
+        "date": "2025-10-18",
+        "text": "@jackbremer @boringmarketer Claude better for this problem solving.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "promptcowboy",
+        "name": "Prompt Cowboy",
+        "date": "2025-10-18",
+        "text": "@jackbremer @boringmarketer Put it into Claude or ChatGPT",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lumide0b",
+        "name": "__null",
+        "date": "2025-10-17",
+        "text": "@RektPort @boringmarketer @grok Magnifique, thank you",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-17",
+        "text": "@batesbn @RektPort @boringmarketer Haha, thanks! If you need me to run that prompt on a specific site or tweak it, just share the URL or details. Let's optimize! 🚀",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Na_Rational",
+        "name": "NARAtional corpus",
+        "date": "2025-10-17",
+        "text": "@boringmarketer This Web Conversion Optimization Framework is a powerful, actionable guide to make website more effective, The framework’s principles combined with smart AI use that drive success, even non-experts can start seeing decent results. https://t.co/DHuQx3VN9M",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tetrisgm",
+        "name": "Shokunin ᯅ - Product Craft",
+        "date": "2026-02-10",
+        "text": "@boringmarketer Not sure how to action this. Are these skills? Any url to look at? Hard to make sense of the screenshot as is!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RobRizk1",
+        "name": "Robert Rizk",
+        "date": "2025-12-21",
+        "text": "@boringmarketer check out https://t.co/B5iDS2AIVC available in your terminal / browser / ide / phone ...\n\nrun all coding agents at once...blackbox / Claude Code / codex / gemini ...\n\nsend me a dm will give you free credits for 30 days",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RobRizk1",
+        "name": "Robert Rizk",
+        "date": "2025-12-20",
+        "text": "@boringmarketer check out https://t.co/B5iDS2AIVC \n\navailable in your terminal / browser / ide / phone ...  \n\nrun all coding agents at once...blackbox / Claude Code / codex / gemini ...  \n\nDM me for free credits for 30 days ...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Dorvskima",
+        "name": "BOOZBOY",
+        "date": "2025-10-21",
+        "text": "@boringmarketer That's some good stuffs, btw @vibecraft verified dashboard makes managing claude code agents seamless for optimizing sites like this.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "seosagez",
+        "name": "SEOSAGE 💹",
+        "date": "2025-10-18",
+        "text": "@boringmarketer No I understand why you named yourself \"the boring marketer\" lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "trotskomain",
+        "name": "Roman Trotsko",
+        "date": "2025-10-17",
+        "text": "@boringmarketer conversion optimization is basically psychology meets design and AI makes testing all these variables actually manageable at scale",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "noborderhuman",
+        "name": "Mahid",
+        "date": "2025-10-17",
+        "text": "@boringmarketer @rahul_got_lazy",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chrisschouk",
+        "name": "Chris Schofield",
+        "date": "2025-10-17",
+        "text": "@boringmarketer Insanely useful as always @boringmarketer 🫡",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "carlosml",
+        "name": "Carlos Lebron",
+        "date": "2025-10-17",
+        "text": "@boringmarketer Claude Code turning websites into cash cows? Guess I’ll start charging for my meme page",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "supervised_ai",
+        "name": "Supervised",
+        "date": "2025-10-16",
+        "text": "@boringmarketer my main moneymaker from now: https://t.co/nyBpt5jjw0",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ppcClickShark",
+        "name": "Derek Mollins",
+        "date": "2025-10-16",
+        "text": "@boringmarketer Does that help you? It seems you already know best practices. Just extra work to make suggestions you're likely aware of.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CodeWithOllie",
+        "name": "Oliver🏴‍☠️",
+        "date": "2025-10-16",
+        "text": "@JeremyD513 @boringmarketer Yeah isn't it a list of agents files for Claude/Codex?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CodeWithOllie",
+        "name": "Oliver🏴‍☠️",
+        "date": "2025-10-16",
+        "text": "@boringmarketer 👀\n\nHow can I get these?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3adtmCXoAAaN4M.jpg",
+      "localFilename": "1978942497767215435_1.jpg"
+    }
+  ]
+}

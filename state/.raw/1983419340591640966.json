@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:26.024Z",
+  "tweetId": "1983419340591640966",
+  "post": {
+    "url": "https://x.com/LinusEkenstam/status/1983419340591640966",
+    "author": {
+      "handle": "LinusEkenstam",
+      "name": "Linus ✦ Ekenstam"
+    },
+    "date": "2025-10-29",
+    "text": "I'm shocked \n\nThis is by far the best voice cloner I've ever used\n\nSonic 3 has nuance, it's so fast too, you can generate audio in seconds, and latency is like none existing. \n\nMore examples + how to try for free in thread 👇 https://t.co/T03oXtkT7h",
+    "thread": [
+      {
+        "id": "1983419340591640966",
+        "text": "I'm shocked \n\nThis is by far the best voice cloner I've ever used\n\nSonic 3 has nuance, it's so fast too, you can generate audio in seconds, and latency is like none existing. \n\nMore examples + how to try for free in thread 👇 https://t.co/T03oXtkT7h"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1983418356507258884/vid/avc1/1920x1080/-q0ZQ0RB-y28n8Hb.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1983418356507258884/img/iOIR1I93eFFVf-iU.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1464,
+      "retweets": 108,
+      "replies": 30,
+      "views": 124374
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1983418356507258884/img/iOIR1I93eFFVf-iU.jpg",
+      "localFilename": "1983419340591640966_1_poster.jpg"
+    }
+  ]
+}

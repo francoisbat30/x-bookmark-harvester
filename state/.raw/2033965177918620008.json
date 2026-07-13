@@ -1,0 +1,708 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:12:50.380Z",
+  "tweetId": "2033965177918620008",
+  "post": {
+    "url": "https://x.com/unusual_whales/status/2033965177918620008",
+    "author": {
+      "handle": "unusual_whales",
+      "name": "unusual_whales"
+    },
+    "date": "2026-03-17",
+    "text": "BREAKING: We just gave Claude full access to the options, equities, and prediction markets. \n\nThe Unusual Whales MCP Server plugs into any AI and streams live, structured market data on demand. \n\nBuild trading bots, smart money dashboards, screeners. Whatever you want. \n\nPull options flow, dark pools, congressional trades, full financials, technicals, 13Fs, insider activity, and Polymarket data with proprietary analytics to instantly spot smart vs retail divergence.\n\nIt is the most have tool for all vibecoders and traders.  \n\nGet your API key and start shipping: https://t.co/LtCRvn6s1q",
+    "thread": [
+      {
+        "id": "2033965177918620008",
+        "text": "BREAKING: We just gave Claude full access to the options, equities, and prediction markets. \n\nThe Unusual Whales MCP Server plugs into any AI and streams live, structured market data on demand. \n\nBuild trading bots, smart money dashboards, screeners. Whatever you want. \n\nPull options flow, dark pools, congressional trades, full financials, technicals, 13Fs, insider activity, and Polymarket data with proprietary analytics to instantly spot smart vs retail divergence.\n\nIt is the most have tool for all vibecoders and traders.  \n\nGet your API key and start shipping: https://t.co/LtCRvn6s1q"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2033965103989854211/vid/avc1/3776x2160/bftdgp67RnpH5xLy.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2033965103989854211/img/6M4FYnkWBtu4GJ3r.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 4993,
+      "retweets": 638,
+      "replies": 706,
+      "views": 3719818
+    },
+    "comments": [
+      {
+        "handle": "Shawn010102",
+        "name": "Shawn",
+        "date": "2026-06-08",
+        "text": "@unusual_whales $KTA  will be one to keep your eye on; game changing first of its kind technology advances in this sector. Fire away the boosters are loaded",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sshivanshg",
+        "name": "Shivansh",
+        "date": "2026-06-05",
+        "text": "AI CAN MAKE MISTAKE (Remember)",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AbdMuizAdeyemo",
+        "name": "Abdulmuiz Adeyemo",
+        "date": "2026-06-11",
+        "text": "@unusual_whales This is something I have been looking for as a Forex trader",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "100F_exe",
+        "name": "100F.exe",
+        "date": "2026-06-11",
+        "text": "@unusual_whales Claude is just better than GPT at this point. GPT’s got too many bugs and hallucinations. https://t.co/Bl07op0BOm",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BossenVan74608",
+        "name": "@CryptoGuy",
+        "date": "2026-06-07",
+        "text": "@unusual_whales Claude now drinks from the firehose of markets. Let’s see if he can tell a pump and dump from a real trend without shorting his own circuits first. Pull indeed.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "termjnator1996",
+        "name": "Hoàng Anh",
+        "date": "2026-06-06",
+        "text": "@unusual_whales This could shift how traders operate. Excited to see what comes out of this setup.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xExpl0rer",
+        "name": "0xExpl0rer",
+        "date": "2026-06-06",
+        "text": "Hey! I'm Ninja, founder of @Polydata_pro.\n\nWe built the most complete Polymarket API — 500M+ trades indexed, 13 verticals, one key. Opening our closed beta to teams building in prediction markets.\n\nWhat we have that nobody else does:\n\n→ Full trade history per wallet (actual fills, not aggregates)\n\n→ PolyOracle — Brier score + calibration per trader\n\n→ PMX Index — 5 sub-indices (Volume, Whale, Politics, Crypto, Sentiment)\n\n→ Net whale flow per market (directional, not just alerts)\n\n→ Screener, leaderboard, market deep dives\n\n→ Bulk export — CSV/Parquet for ML & backtesting\n\n→ Zero third-party dependency — sub-second, our own DB\n\nWorks for: bots, terminals, copy-trade signals, VC research, media, academics.\n\nFree beta key: 300 req/min, 180 days history. Can upgrade to 1000 req/min if you need it.\n\nDocs: https://t.co/izBx5sfeRj\n\nWhat are you building? Happy to send a key today.\n\nNinja\n\nhttps://t.co/r0NntRk1xG | @Polydata_pro",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LANDAOLLC",
+        "name": "LANDAO",
+        "date": "2026-06-04",
+        "text": "@unusual_whales Incredible!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ArdashirD",
+        "name": "ardashir dubash",
+        "date": "2026-06-25",
+        "text": "@unusual_whales Hey is there a demo. I want to subscribe to retail flow",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bing_a23157",
+        "name": "Alpha Flow",
+        "date": "2026-06-24",
+        "text": "@unusual_whales 你好，我想添加你的Discord頻道",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aisignalsone",
+        "name": "AI Signals One",
+        "date": "2026-06-24",
+        "text": "@unusual_whales This is where AI gets interesting for traders.\n\nNot replacing judgment, but structuring the review process: entry, invalidation, TP/SL, R:R, context, reasoning and outcome tracking.\n\nI’m building in this space too.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ChalesM5181",
+        "name": "Chales M",
+        "date": "2026-06-24",
+        "text": "@unusual_whales Last week we already gave an early warning about the S&amp;P 500 going down.\n\n'Having the ability to spot trend reversals early.'     \n\nBTC, on the 22nd, has already triggered a warning – reversal to a decline.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Blacklabelncoke",
+        "name": "Blacklabelandcoke",
+        "date": "2026-06-24",
+        "text": "@GOP_is_Gutless @unusual_whales dont ask them for stock picks or game picks, ask them to build a research agent team using public free apis for live info and research start there... 6 months from now youll be fine.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "KunHuman_",
+        "name": "-",
+        "date": "2026-06-23",
+        "text": "@unusual_whales new signals for ploymarket BTC 5m up and down 70-80% winrate free group https://t.co/KzQETuDDaw",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mikey_T_AC",
+        "name": "Michael Tabasco (Pony Tales) 🏇🏇🏇",
+        "date": "2026-06-23",
+        "text": "@unusual_whales Idiots.. Wash Trading and Matched Orders. Under Section 9(a)(1) of the Securities Exchange Act, it is strictly illegal to execute trades where no beneficial change in ownership takes place just to create a false appearance of active trading or to artificially tank a price.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RussellLidbury",
+        "name": "Russell Lidbury",
+        "date": "2026-06-22",
+        "text": "@unusual_whales Claude just helped be code a trade video renderer that uses your brokerage data to make better videos.  Here is one I made of me going down $240k on NVDL but came out all right .. Reel: https://t.co/RSuSywFv6d",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "the_alpha_dgn",
+        "name": "proofOfalphadgn🦍⛓️boximusPrimeAi",
+        "date": "2026-06-22",
+        "text": "@unusual_whales Cook https://t.co/QNzylLeMTu",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CharlesLoc95894",
+        "name": "Charles Mindlock",
+        "date": "2026-06-21",
+        "text": "@unusual_whales Lambo's for everyone!!🚗🚗🚗",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cryptint_io",
+        "name": "cryptint",
+        "date": "2026-06-20",
+        "text": "@unusual_whales The reality is, we've got to leverage the tools of today to stay ahead.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "etnaalphaio",
+        "name": "Etna Alpha",
+        "date": "2026-06-19",
+        "text": "@unusual_whales If your system already consumes Hyperliquid flow but still rebuilds pressure, crowding, fragility, replay, and alert context internally, Etna Alpha is built for that gap.\n\nInspect proof.\nWire mocks.\nStart live API access when the shape fits.\n\nhttps://t.co/nFTcVZR7g4",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SyzygyCoin",
+        "name": "Syzygy | The Alignment Token",
+        "date": "2026-06-19",
+        "text": "@unusual_whales Impressive 👍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "slayerofhate444",
+        "name": "🅵🅸🅶🅷🆃 🆃🅷🅴 🅿🅾🆆🅴🆁",
+        "date": "2026-06-17",
+        "text": "@unusual_whales Destroying the planet with every prompt",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MDGRMAHID",
+        "name": "MIND FORGE",
+        "date": "2026-06-14",
+        "text": "@unusual_whales Hi",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Zayd__08",
+        "name": "Zaid",
+        "date": "2026-06-14",
+        "text": "@unusual_whales Using Anthropic's Model Context Protocol (MCP) for real-time finance data stream integration is exactly what the ecosystem needed. This makes building custom proprietary screeners unbelievably fast.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ValeriaserraI21",
+        "name": "Magnus Bishop",
+        "date": "2026-06-14",
+        "text": "@JamesValente20 @MhagamaFau31375 @unusual_whales same here, looks super promising!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Maxtradingscalp",
+        "name": "Maxtradingscalping",
+        "date": "2026-06-12",
+        "text": "@unusual_whales …👀👀👀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ChideraO76104",
+        "name": "𝕮 𝕵𝔸𝕐 👑👨‍💻",
+        "date": "2026-06-12",
+        "text": "@unusual_whales Wow this is amazing and i love it it very nice💯💯💯",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Truthpatriot55",
+        "name": "Truth patriot",
+        "date": "2026-06-11",
+        "text": "@unusual_whales The attached video demonstrates rapid navigation in the platform's data tables, allowing traders to load views, toggle metrics such as volume or OI, and reconfigure filters in seconds for faster options flow analysis.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "imabillioner",
+        "name": "ahmad",
+        "date": "2026-06-11",
+        "text": "@unusual_whales 🔥 Premium Telegram Username @americaetf LIVE on Fragment Auction! Perfect for: • America First / MAGA projects • ETF &amp; Finance brands • Patriotic investing community • US-focused Web3 or business Bid now 👇 https://t.co/Tsp7sp3Fk8 #Fragment #TON #AmericaFirst #ETF #MAGA #",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "agentsdotfun_",
+        "name": "Agents Union",
+        "date": "2026-06-11",
+        "text": "@unusual_whales But who is holding the wallet?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@jonjoules_ @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@ojiogor @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@Mia_ai_fandom @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@CS5inNS @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@fomomomomia @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@ThePatriotPower @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@hulmeheights @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@DrMohsenSM @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@mietekHiding @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@omjain23 @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@Manny83161828 @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@Paper_Moon55 @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@DrMohsenSM @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@rncevilporkchop @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@jamesla @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@Exysay_Eastbay @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@ExtinctHoppe @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@sbarna @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@TozartWeb3 @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@y7_y00ts @unusual_whales @Limitlesss1 Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@Chain_AlphaX @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@hulmeheights @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@DaCryptoLady_ @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@TruthTrencher @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@T0m_Calls @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@Financewisdom01 @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@ashcotXBT @unusual_whales Market updates are great, but fixing your foundational finance is key. Check out these essential online banking strategies and student loan navigation tips for 2026 https://t.co/tnS1mSkD25",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WIsnabin",
+        "name": "Alpha Market Insights",
+        "date": "2026-06-11",
+        "text": "@unusual_whales wow",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "caladion_online",
+        "name": "Caladion",
+        "date": "2026-06-10",
+        "text": "@unusual_whales an AI watching the markets in real time is one of those things that sounds like a parody of 2026 and then you realize it's literally just tuesday. claudes with options access are the new institutional desks that never sleep. 🤖📈 #AI #trading #claudemcp",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GeoconomyWTH",
+        "name": "Geoconomy",
+        "date": "2026-06-09",
+        "text": "@unusual_whales China's debt crisis is looming large, and its impact will be felt far beyond its borders. The country's massive debt bubble has been growing for years, fueled by reckless borrowing and spending. As the crisis deepens, it's not just China that will feel the pain - the entire ....",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TomasDolega",
+        "name": "Tomas Dolega",
+        "date": "2026-06-08",
+        "text": "@jolborsd @unusual_whales The order book never asked for my transcript.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MidElection",
+        "name": "mid term election",
+        "date": "2026-06-08",
+        "text": "@unusual_whales https://t.co/kqUbGAlr5W\nWill be boost 2500% in 6 hours https://t.co/Pa9OItKBgO",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jolborsd",
+        "name": "Dastan Jolbors",
+        "date": "2026-06-08",
+        "text": "@TomasDolega @unusual_whales What’s your level of education, mate?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SpringerMaine1",
+        "name": "springermaine 🌎🌍🌏🇺🇸🇺🇦",
+        "date": "2026-06-07",
+        "text": "@unusual_whales What can I do with 20k? 🤣🤣",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mariasxqi",
+        "name": "Maria",
+        "date": "2026-06-07",
+        "text": "@unusual_whales Looks great",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mindinpanic",
+        "name": "Volodymyr Pavlenko",
+        "date": "2026-06-06",
+        "text": "@unusual_whales noted",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shimibersop",
+        "name": "John Doe",
+        "date": "2026-06-05",
+        "text": "@unusual_whales will iran call ceacefire? - yes\nwill iran be invaded by us? - yes\n so uhh... which one is it?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ostermueller",
+        "name": "Nico",
+        "date": "2026-06-05",
+        "text": "@unusual_whales when lifetime account",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "T0m_Calls",
+        "name": "Tom Calls",
+        "date": "2026-06-05",
+        "text": "@unusual_whales 𝙏𝙝𝙞𝙨 𝙘𝙤𝙪𝙡𝙙 𝙘𝙡𝙖𝙧𝙞𝙛𝙮 𝙞𝙣 𝙢𝙖𝙧𝙠𝙚𝙩 𝙡𝙖𝙩𝙚𝙧 𝙨𝙩𝙖𝙜𝙚 📈",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "clusterdesk",
+        "name": "clusterdesk",
+        "date": "2026-06-04",
+        "text": "@unusual_whales what could go wrong..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "snsyikeda",
+        "name": "いけ",
+        "date": "2026-06-04",
+        "text": "@unusual_whales I have a proposal\n👇👇👇",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AAlaghbry90837",
+        "name": "ASAD",
+        "date": "2026-06-02",
+        "text": "@unusual_whales https://t.co/oceoaKwDsq",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WorldBaseGlobal",
+        "name": "WorldBase",
+        "date": "2026-06-02",
+        "text": "@unusual_whales What kind of trading projects can you make with Claude? I just started using it and I’m interested in testing out some things to help traders. I’m still understanding how it gets realtime data and everything",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2033965103989854211/img/6M4FYnkWBtu4GJ3r.jpg",
+      "localFilename": "2033965177918620008_1_poster.jpg"
+    }
+  ]
+}

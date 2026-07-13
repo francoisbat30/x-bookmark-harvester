@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:12:20.338Z",
+  "tweetId": "2035276611210121216",
+  "post": {
+    "url": "https://x.com/Aurelien_Gz/status/2035276611210121216",
+    "author": {
+      "handle": "Aurelien_Gz",
+      "name": "Aurelien"
+    },
+    "date": "2026-03-21",
+    "text": "vibe coders reading this: https://t.co/bUoBOyxknd https://t.co/LhIBy5LDkH",
+    "thread": [
+      {
+        "id": "2035276611210121216",
+        "text": "vibe coders reading this: https://t.co/bUoBOyxknd https://t.co/LhIBy5LDkH"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/ext_tw_video/2035276579022999553/pu/vid/avc1/1280x720/gj3ExYxHVhPpczuK.mp4",
+        "posterUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2035276579022999553/pu/img/dPCfWDzpmXaB8i2j.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 6409,
+      "retweets": 452,
+      "replies": 32,
+      "views": 2030799
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2035276579022999553/pu/img/dPCfWDzpmXaB8i2j.jpg",
+      "localFilename": "2035276611210121216_1_poster.jpg"
+    }
+  ]
+}

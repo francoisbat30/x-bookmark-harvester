@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:12:06.020Z",
+  "tweetId": "2036171718952124835",
+  "post": {
+    "url": "https://x.com/DataChaz/status/2036171718952124835",
+    "author": {
+      "handle": "DataChaz",
+      "name": "Charly Wargnier"
+    },
+    "date": "2026-03-23",
+    "text": "claude users right now https://t.co/09l3KBJAAZ https://t.co/FESWQdvCH9",
+    "thread": [
+      {
+        "id": "2036171718952124835",
+        "text": "claude users right now https://t.co/09l3KBJAAZ https://t.co/FESWQdvCH9"
+      }
+    ],
+    "media": [
+      {
+        "type": "gif",
+        "url": "https://video.twimg.com/tweet_video/HEHvYf8XIAMkLZF.mp4",
+        "posterUrl": "https://pbs.twimg.com/tweet_video_thumb/HEHvYf8XIAMkLZF.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 125,
+      "retweets": 7,
+      "replies": 5,
+      "views": 57819
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/tweet_video_thumb/HEHvYf8XIAMkLZF.jpg",
+      "localFilename": "2036171718952124835_1_poster.jpg"
+    }
+  ]
+}

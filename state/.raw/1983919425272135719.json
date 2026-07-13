@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:17.243Z",
+  "tweetId": "1983919425272135719",
+  "post": {
+    "url": "https://x.com/_heyrico/status/1983919425272135719",
+    "author": {
+      "handle": "_heyrico",
+      "name": "rico"
+    },
+    "date": "2025-10-30",
+    "text": "Design with a twist you don’t usually see ✨ https://t.co/c4ageAMnAO",
+    "thread": [
+      {
+        "id": "1983919425272135719",
+        "text": "Design with a twist you don’t usually see ✨ https://t.co/c4ageAMnAO"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G4hMMrpWgAA0bF7.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 170,
+      "retweets": 7,
+      "replies": 16,
+      "views": 9602
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G4hMMrpWgAA0bF7.jpg",
+      "localFilename": "1983919425272135719_1.jpg"
+    }
+  ]
+}

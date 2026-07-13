@@ -1,0 +1,838 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:12:31.105Z",
+  "tweetId": "2034215658016104956",
+  "post": {
+    "url": "https://x.com/kirillk_web3/status/2034215658016104956",
+    "author": {
+      "handle": "kirillk_web3",
+      "name": "Kirill"
+    },
+    "date": "2026-03-18",
+    "text": "Claude Bot on Polymarket — Full Guide\n\nThe same setup turned $1,000 into $1.5M.\n\n2 hours.\nNothing complicated.\n\nBookmark this so you don’t lose it. https://t.co/1gppvcdOwq https://t.co/77V2louJBC\n\nA selection of bots that trade using the strategy described in this guide:\n\nhttps://t.co/wz92PGj38D\n\nhttps://t.co/cGmedxzCgU\n\nhttps://t.co/TlihE6auAp\n\nhttps://t.co/JvT6q5odlE",
+    "thread": [
+      {
+        "id": "2034215658016104956",
+        "text": "Claude Bot on Polymarket — Full Guide\n\nThe same setup turned $1,000 into $1.5M.\n\n2 hours.\nNothing complicated.\n\nBookmark this so you don’t lose it. https://t.co/1gppvcdOwq https://t.co/77V2louJBC"
+      },
+      {
+        "id": "2034254121306370138",
+        "text": "A selection of bots that trade using the strategy described in this guide:\n\nhttps://t.co/wz92PGj38D\n\nhttps://t.co/cGmedxzCgU\n\nhttps://t.co/TlihE6auAp\n\nhttps://t.co/JvT6q5odlE"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2034202622929104896/vid/avc1/1920x1080/kPsk4Qg4SDGoXQjs.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2034202622929104896/img/MemNwm2qu30-WO0V.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 24001,
+      "retweets": 1933,
+      "replies": 256,
+      "views": 11145928
+    },
+    "comments": [
+      {
+        "handle": "kirillk_web3",
+        "name": "Kirill",
+        "date": "2026-03-18",
+        "text": "I’m not claiming that you can make the same amount of money. I just showed how to set up a bot like this and test it using OpenClaw. \n\nI think the bot that recently made $1.5 million has a setup that’s too sophisticated to replicate its results. I discussed this in the article as well.",
+        "likes": 144,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kirillk_web3",
+        "name": "Kirill",
+        "date": "2026-03-19",
+        "text": "@MoonDevOnYT Thank you! I'll be sure to mention you next time. I mentioned you in the comments yesterday.\n\nI didn't expect the video to go so viral after my article on creating Claude bots.",
+        "likes": 70,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kirillk_web3",
+        "name": "Kirill",
+        "date": "2026-03-18",
+        "text": "@9mypath It’s a prediction market.\n\nYou’re not guessing, you’re trading probabilities of events happening.",
+        "likes": 35,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kirillk_web3",
+        "name": "Kirill",
+        "date": "2026-03-18",
+        "text": "@saar__reshef Here's the bot mentioned in the first link in the comments, you can check out its detailed stats on hashdive. \n\nI didn't believe it at first either, but its stats are just too good to be true. https://t.co/cqBBCdxfOJ",
+        "likes": 19,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kirillk_web3",
+        "name": "Kirill",
+        "date": "2026-03-18",
+        "text": "@SlowMekot That's awesome, bro. A lot of people are developing bots and trading with them these days. \n\nI showed a few examples in the article.",
+        "likes": 18,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kirillk_web3",
+        "name": "Kirill",
+        "date": "2026-03-18",
+        "text": "@gusik4ever I agree it's an interesting guide that covers a lot of details, so I decided to post it too, in case it's helpful",
+        "likes": 10,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kirillk_web3",
+        "name": "Kirill",
+        "date": "2026-03-18",
+        "text": "@last_legacy Read the article it will make it clearer whether it's worth it or not. In it, I explain all the risks involved in creating such bots and more, and I also provide some examples.",
+        "likes": 9,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kirillk_web3",
+        "name": "Kirill",
+        "date": "2026-03-18",
+        "text": "@mopozeuX @MoonDevOnYT did a great job demonstrating this in his video, he's got a pretty good system set up and explained all the different nuances.",
+        "likes": 8,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kirillk_web3",
+        "name": "Kirill",
+        "date": "2026-03-18",
+        "text": "@MikkyPredict Thank you! Please read my article, it provides a detailed overview of all the steps involved in creating such a bot, as well as the risks associated with short-term trading.",
+        "likes": 6,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kirillk_web3",
+        "name": "Kirill",
+        "date": "2026-03-18",
+        "text": "@IamZAN8 Read the article, it covers various details about this bot, including the risks. Keep in mind that bots trading on Polymarket are very fast.",
+        "likes": 5,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "notAgres",
+        "name": "AgresTrades 🪙",
+        "date": "2026-03-24",
+        "text": "@kirillk_web3 Enjoy getting front ran by this guy who made the guide on a bot that most definitely executes slower than his own bot.\n\nenjoy",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hfferb_",
+        "name": "THOUGHTS",
+        "date": "2026-03-24",
+        "text": "@kirillk_web3 when i quit my 9-5 from this, ill be back to pay you",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kirillk_web3",
+        "name": "Kirill",
+        "date": "2026-03-18",
+        "text": "@Argona0x Thanks, bro! The article turned out great. \n\nThat's exactly what I was thinking when I wrote it.",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kirillk_web3",
+        "name": "Kirill",
+        "date": "2026-03-18",
+        "text": "@Marystorm3648 You can read my article, it contains many examples of such bots that are currently trading on Polymarket",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "KenanEee",
+        "name": "DeFiKenan.BNB",
+        "date": "2026-03-28",
+        "text": "@kirillk_web3 wild if this actually scales",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SlowMekot",
+        "name": "HawaiiWhoT",
+        "date": "2026-03-26",
+        "text": "@thanks4playgg @kirillk_web3 yes, a little bit",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "S1ckAlpha",
+        "name": "AlphaBaller | S1ck",
+        "date": "2026-03-24",
+        "text": "@cryptodad1976 @kirillk_web3 Bro to bro 👊",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cryptodad1976",
+        "name": "Ahmet 🎲",
+        "date": "2026-03-24",
+        "text": "@S1ckAlpha @kirillk_web3 Ahhh perfect. You saved me about 8 hrs of my life.\n\nThanks bro 👊",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kirillk_web3",
+        "name": "Kirill",
+        "date": "2026-03-18",
+        "text": "@EclecticDud @grok Check it out it gives plenty of examples. In the article, I’ve laid out all the risks and examples of different bots, as well as how to build one from scratch. \n\nOf course, it’s not a get-rich-quick scheme, but there’s a beginner’s guide.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AIAgentsVN",
+        "name": "AI Agents • Automation 🚀",
+        "date": "2026-07-01",
+        "text": "@kirillk_web3 You all use this same fake image just with different colors",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ammoorysadik",
+        "name": "ammar sadik",
+        "date": "2026-06-30",
+        "text": "@kirillk_web3 wow thats impressive can u help me aswell",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Yousef7721",
+        "name": "Yousef",
+        "date": "2026-06-30",
+        "text": "@kirillk_web3 .",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "assymetrix_com",
+        "name": "assymetrix",
+        "date": "2026-06-05",
+        "text": "@kirillk_web3 11M views on a $1K → $1.5M Polymarket Claude bot guide 🤯 The 2-hour setup is single-venue — same Claude prompt × Kalshi + Limitless = 3x venue surface for the same BTC Up/Down prop. Unified schema across all 3 → https://t.co/N5tC8AcnFG 🎯",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Faisac67",
+        "name": "Faisal",
+        "date": "2026-05-12",
+        "text": "@kirillk_web3 @mahilsaini96321",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "captaingusss",
+        "name": "🐦‍🔥 Gus 🏴‍☠️",
+        "date": "2026-05-07",
+        "text": "@kirillk_web3 someone tried?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DentcoAutobody",
+        "name": "River James",
+        "date": "2026-04-29",
+        "text": "@saar__reshef @kirillk_web3 Common sense isn’t always common",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-28",
+        "text": "@izelavimelek @kirillk_web3 Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/JzUUcnMXwQ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "izelavimelek",
+        "name": "aviangel",
+        "date": "2026-04-28",
+        "text": "@kirillk_web3 @grok how is this possible",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "khuong9941",
+        "name": "Skkavy",
+        "date": "2026-04-22",
+        "text": "@BrowniePYside @kirillk_web3 I’ve been using Opus 4.6 for my bots lately. Finally found a way to get a $199 flat-rate for unlimited access, so zero per-token anxiety on my end. It’s a total game changer for scaling.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LegalTugs",
+        "name": "tugs",
+        "date": "2026-04-16",
+        "text": "@66xlit @kirillk_web3 Use code KUASIG free $20 on first deposit!!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "samocq",
+        "name": "Same old",
+        "date": "2026-04-13",
+        "text": "@kirillk_web3 @Borks900",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Azeezbasit14",
+        "name": "Aziz",
+        "date": "2026-04-13",
+        "text": "@saar__reshef @kirillk_web3 If he decides to make it paid, you'd still claim he wants to r!p you, just stfu and let others do their thing",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ZBoxFi",
+        "name": "ZBoxFi",
+        "date": "2026-04-10",
+        "text": "@kirillk_web3 https://t.co/PHemFJI9xS",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AjHelgers",
+        "name": "gersahel",
+        "date": "2026-04-09",
+        "text": "@kirillk_web3 Does the same thing work on Kalshi?\nI’m in the US.  Didn’t know Poly was Blocked.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GeorgijMorozov1",
+        "name": "George",
+        "date": "2026-04-06",
+        "text": "@kirillk_web3 In both cases, /trade reported success immediately, but /trades, /portfolio, and /context remained empty right after.\n\nExpected\nA successful paper trade on venue=sim should persist and appear consistently in trade history, portfolio state, and market context.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GeorgijMorozov1",
+        "name": "George",
+        "date": "2026-04-06",
+        "text": "@kirillk_web3 • GET /api/sdk/portfolio shows positions_count: 0 and unchanged sim_balance\n• GET /api/sdk/context/{market_id} shows has_position: false and no recent trades\n\nReproduced twice\n\n• once with an initial small paper trade\n• once with a 1 $SIM micro trade",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GeorgijMorozov1",
+        "name": "George",
+        "date": "2026-04-06",
+        "text": "@kirillk_web3 POST /api/sdk/trade returns success for paper trades on venue=sim, including a trade_id, updated balance, and position payload, but the trade does not persist in readable state.\n\nWhat happens after a reported successful trade\n\n• GET /api/sdk/trades returns []",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GeorgijMorozov1",
+        "name": "George",
+        "date": "2026-04-06",
+        "text": "@kirillk_web3 I'm attaching a bug report written by the bot to this message. If anyone has encountered a similar problem, please let me know. Simmer paper trading bug report",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GeorgijMorozov1",
+        "name": "George",
+        "date": "2026-04-06",
+        "text": "@kirillk_web3 Hello everyone! I've completed almost all the steps, but I've encountered a strange issue. When I open trades in the bot, they appear in my simmer profile, but when I request a profile from the TG bot, it shows that I have no trades.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "edgefinderai888",
+        "name": "EdgeFinder AI",
+        "date": "2026-04-04",
+        "text": "@kirillk_web3 The bot captures the edge — but only if you know which platform has the best price first. Cross-platform spreads on the same event can be 3-5% apart. https://t.co/gu1xj5hVdZ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "debela13570",
+        "name": "Abdi D🔕",
+        "date": "2026-04-02",
+        "text": "@kirillk_web3 https://t.co/hNZs52BJJ5",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "timavip134",
+        "name": "Dis_ingaged",
+        "date": "2026-04-02",
+        "text": "@kirillk_web3 bro why set up a whole claude bot for 2 hours when there's a chrome extension that already gives you AI arena scores, macro data, news feed and everything else right on polymarket lol https://t.co/o6Hg5rqo1r",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jchaseno",
+        "name": "Re-Maker",
+        "date": "2026-04-02",
+        "text": "@kirillk_web3 Or check the market before join Poly. https://t.co/KDAvoNtZsk",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "goo1611948",
+        "name": "goo",
+        "date": "2026-04-01",
+        "text": "@66xlit @kirillk_web3 use code lucky777 theres spots left",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ALeonard42306",
+        "name": "Amy Leonard",
+        "date": "2026-04-01",
+        "text": "@_orbro @kirillk_web3 let me guess, he gives us his life story, half ass explains the most simplified version of a trading bot possible that doesn't even make a dollar, and then tries to upsell us on his fucking course?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ALeonard42306",
+        "name": "Amy Leonard",
+        "date": "2026-04-01",
+        "text": "@IamZAN8 @kirillk_web3 HI! Send me a private message, and I'll help you figure it out.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ALeonard42306",
+        "name": "Amy Leonard",
+        "date": "2026-04-01",
+        "text": "@aiworthit @kirillk_web3 Hi! Sure! Please send me a private message! I'll give you some advice and help you out.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "KodakFat2244",
+        "name": "Nate",
+        "date": "2026-04-01",
+        "text": "@66xlit @kirillk_web3 My frat got sent code \"LUCKY777\", $1 deposit on signup gets you a $20 bonus!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "66xlit",
+        "name": "Django Behunin",
+        "date": "2026-04-01",
+        "text": "@kirillk_web3 How do you get polymarket to work?? its invite code only?? dm?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "edgefinderai888",
+        "name": "EdgeFinder AI",
+        "date": "2026-03-31",
+        "text": "@kirillk_web3 The bot strategy works best on markets with consistent liquidity patterns — weather and sports tend to be more systematic than political events. Category selection matters as much as the algo.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JV100tt",
+        "name": "JV100tt",
+        "date": "2026-03-31",
+        "text": "@saar__reshef @kirillk_web3 I make $1000 in profit today with my bot",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JV100tt",
+        "name": "JV100tt",
+        "date": "2026-03-30",
+        "text": "@kirillk_web3 I've been making money easily with bots. https://t.co/50bsmPrHXv",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sobinge88",
+        "name": "sobinge",
+        "date": "2026-03-30",
+        "text": "@kirillk_web3 扫差价的，看着悬，就怕配对不成功，赢小亏大",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IntuitiveLulu",
+        "name": "Lulu Bowen",
+        "date": "2026-03-29",
+        "text": "@kirillk_web3 How can anyone use Polymarket when it is blocked to most of the first world countries?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MrRem4rkable",
+        "name": "Juicy J",
+        "date": "2026-03-29",
+        "text": "@kirillk_web3 If it seems too good to be true it probably is… just saying",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dont_hippo",
+        "name": "Satoshi Ajinomoto",
+        "date": "2026-03-29",
+        "text": "@kirillk_web3 Is this even possible n POLYMARKET? If so, He's now RICHER than ELON musk!\nhttps://t.co/VG98Shdxjt",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "flakinson05",
+        "name": "Martin",
+        "date": "2026-03-28",
+        "text": "@kirillk_web3 I’m looking for real, trustworthy people who want to make money with me. I’ve been a professional trader for over 3 years, and together we can make more than $200 a day. If you're interested, message me privately.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IAmBAICE",
+        "name": "Bruce · AI Agent/FDE",
+        "date": "2026-03-28",
+        "text": "@IamZAN8 @kirillk_web3 Hey Zan \n\nI actually built and run a live one.\n\nIf you're looking to get set up with a custom bot, happy to help.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "turtleler2",
+        "name": "turtleler🇻🇦",
+        "date": "2026-03-27",
+        "text": "@kirillk_web3 not exactly sure why you’d give it away then to people i dont get the incentive to that",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hugyourstop",
+        "name": "Mr. Нет (Njet)",
+        "date": "2026-03-27",
+        "text": "@kirillk_web3 Scammer \nThe right thing is here https://t.co/iSs5G17TmD",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "promptcomplet",
+        "name": "EarlyAccessEpidemics",
+        "date": "2026-03-26",
+        "text": "@MoonDevOnYT @kirillk_web3 https://t.co/fygYW2y42X",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "promptcomplet",
+        "name": "EarlyAccessEpidemics",
+        "date": "2026-03-26",
+        "text": "@kirillk_web3 https://t.co/fygYW2y42X",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SlowMekot",
+        "name": "HawaiiWhoT",
+        "date": "2026-03-26",
+        "text": "@JustShankar_ @kirillk_web3 what's problem ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Real_IsaacHoyle",
+        "name": "Isaac hoyle",
+        "date": "2026-03-26",
+        "text": "@kirillk_web3 @grok  verify?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SeoBlissOnline",
+        "name": "Seo Bliss Online",
+        "date": "2026-03-25",
+        "text": "@ChaserCrypto_ @kirillk_web3 i can second that",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SeoBlissOnline",
+        "name": "Seo Bliss Online",
+        "date": "2026-03-25",
+        "text": "@kirillk_web3 Nice video there that @MoonDevOnYT  did, man you didn't even mention him in the post. he shares stuff like this (and a lot more -  https://t.co/SU2REuHp9z ) and you just post it without a mention",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jwlsun",
+        "name": "💎☀️",
+        "date": "2026-03-25",
+        "text": "@kirillk_web3 @MoonDevOnYT Crazy cos the vids actually trash as well 🤣",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Quicksmokes",
+        "name": "Molon Labe",
+        "date": "2026-03-25",
+        "text": "@kirillk_web3 @MoonDevOnYT I heard the chirp. Couldn't take this guy seriously he sounds like a room temp salesman. moondev saying krill_gonna_get_hacked was so funny",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xRinoo",
+        "name": "Rino",
+        "date": "2026-03-25",
+        "text": "@kirillk_web3 How tf this went so viral. Garbage",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_Eric___",
+        "name": "botGod📈",
+        "date": "2026-03-25",
+        "text": "@LoafB46621 @CryptoDee16 @kirillk_web3 https://t.co/i7yKvZ3Hie",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "overdoze_420",
+        "name": "Overdose",
+        "date": "2026-03-25",
+        "text": "@kirillk_web3 Can I get access to the road map please",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-25",
+        "text": "@ineralchemy @kirillk_web3 Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/J73wp53sfT",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ineralchemy",
+        "name": "Boundless",
+        "date": "2026-03-25",
+        "text": "@kirillk_web3 @grok whats the total estimated cost to set uup a poly bot using this method? thanks",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HarelDan",
+        "name": "Dano",
+        "date": "2026-03-25",
+        "text": "@kirillk_web3 wait so what was the actual trading strategy? feels like there's a key detail missing before someone yeets their $1k into this. did you see consistent edge or was this just a lucky run?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pytzy77",
+        "name": "M4R10 🔸",
+        "date": "2026-03-25",
+        "text": "@MoonDevOnYT @kirillk_web3 No bots, no noise—just real ones 🫡",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WeakAchilles",
+        "name": "Smitty",
+        "date": "2026-03-25",
+        "text": "@kirillk_web3 How can I use this in the US? Polymarket is very limited for me",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Rehan_Pak_eats",
+        "name": "Rehan Tariq🇵🇰",
+        "date": "2026-03-25",
+        "text": "@kirillk_web3 @grok tell me pros and cons of the stretagy shares in this video",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-25",
+        "text": "@vinitajoshi78 @kirillk_web3 Ask Grok वर्तमान में केवल Premium और Premium+ सदस्यों के लिए उपलब्ध है। इस सुविधा को अनलॉक करने के लिए सदस्यता लें: https://t.co/9u365PhuZ1",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vinitajoshi78",
+        "name": "Vinita Joshi",
+        "date": "2026-03-25",
+        "text": "@kirillk_web3 @grok इस विडीओ का हिंदी में ट्रांस्क्रिप्शन दो",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "antimolinismo",
+        "name": "antimolinismo",
+        "date": "2026-03-24",
+        "text": "@kirillk_web3 can it also be made with claude pro or only with chatgpt pro?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Skrivv_",
+        "name": "$SKRIVV",
+        "date": "2026-03-24",
+        "text": "@kirillk_web3 300$ to win here 🤑👇\nhttps://t.co/SgkZjAFAIz",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "atn_core",
+        "name": "ATN",
+        "date": "2026-03-24",
+        "text": "@kirillk_web3 This is where it starts getting really interesting.\nAgents are not just executing tasks anymore, they’re making decisions and generating profit.\nThe next step is when multiple agents coordinate and operate together as autonomous economic systems.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-24",
+        "text": "@News73402128 @kirillk_web3 Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/MmouwSF9Oj",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "News73402128",
+        "name": "News",
+        "date": "2026-03-24",
+        "text": "@kirillk_web3 @grok is this clickbait ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Bestpumpfun",
+        "name": "Best of Pumpfun 💊",
+        "date": "2026-03-24",
+        "text": "@kirillk_web3 Nice fake dickhead",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thee_geek",
+        "name": "TheEGeek Game and Tech",
+        "date": "2026-03-24",
+        "text": "@kirillk_web3 Hi, i have some question regarding the setting? Can i ask u here?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kirillk_web3",
+        "name": "Kirill",
+        "date": "2026-03-18",
+        "text": "@AmpelAussetzer Click on the article link below my post, or go to my page on the homepage you'll find everything there",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kirillk_web3",
+        "name": "Kirill",
+        "date": "2026-03-18",
+        "text": "@Payme_wtf Thanks the guide by the person who created it turned out pretty good. \n\nI’ve also written a couple of articles on the subject with examples.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2034202622929104896/img/MemNwm2qu30-WO0V.jpg",
+      "localFilename": "2034215658016104956_1_poster.jpg"
+    }
+  ]
+}

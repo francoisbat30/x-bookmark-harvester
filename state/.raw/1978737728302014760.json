@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:14:29.102Z",
+  "tweetId": "1978737728302014760",
+  "post": {
+    "url": "https://x.com/btibor91/status/1978737728302014760",
+    "author": {
+      "handle": "btibor91",
+      "name": "Tibor Blaho"
+    },
+    "date": "2025-10-16",
+    "text": "Looks like OpenAI is building a prompts library for ChatGPT (\"All in workspace\" / \"My prompts\")\n\n\"Sequences of text that you can quickly add to your messages. Type / in ChatGPT to find and use your prompts.\"\n\nThey're including support for prompt variables and the option to automatically enable tools/sources",
+    "thread": [
+      {
+        "id": "1978737728302014760",
+        "text": "Looks like OpenAI is building a prompts library for ChatGPT (\"All in workspace\" / \"My prompts\")\n\n\"Sequences of text that you can quickly add to your messages. Type / in ChatGPT to find and use your prompts.\"\n\nThey're including support for prompt variables and the option to automatically enable tools/sources"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3Xjd6Hb0AAxbRh.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3XjeMFbMAABcwv.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3Xjec3aoAAEj6A.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 368,
+      "retweets": 21,
+      "replies": 21,
+      "views": 61938
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3Xjd6Hb0AAxbRh.jpg",
+      "localFilename": "1978737728302014760_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3XjeMFbMAABcwv.jpg",
+      "localFilename": "1978737728302014760_2.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3Xjec3aoAAEj6A.jpg",
+      "localFilename": "1978737728302014760_3.jpg"
+    }
+  ]
+}

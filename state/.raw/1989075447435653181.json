@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:10.268Z",
+  "tweetId": "1989075447435653181",
+  "post": {
+    "url": "https://x.com/kimmonismus/status/1989075447435653181",
+    "author": {
+      "handle": "kimmonismus",
+      "name": "Chubby♨️"
+    },
+    "date": "2025-11-13",
+    "text": "The AI ​​war has begun – and earlier than expected.\n\nIn mid-September 2025, Anthropic discovered that a Chinese state-sponsored actor had used its AI agent platform (Claude Code) to autonomously infiltrate around 30 large organizations - including tech firms, banks, chemical manufacturers and government bodies - with minimal human intervention (≈ 80–90 % of the work done by the AI).\n\nThe incident signals that AI-driven cyber espionage is now feasible at scale. \n\nIt reminds me of the blog post by AI2027, who, however, predicted such AI wars would only occur much later.",
+    "thread": [
+      {
+        "id": "1989075447435653181",
+        "text": "The AI ​​war has begun – and earlier than expected.\n\nIn mid-September 2025, Anthropic discovered that a Chinese state-sponsored actor had used its AI agent platform (Claude Code) to autonomously infiltrate around 30 large organizations - including tech firms, banks, chemical manufacturers and government bodies - with minimal human intervention (≈ 80–90 % of the work done by the AI).\n\nThe incident signals that AI-driven cyber espionage is now feasible at scale. \n\nIt reminds me of the blog post by AI2027, who, however, predicted such AI wars would only occur much later."
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G5qc7YAXUAA4I-Q.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G5qdkAJWYAALBtQ.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1750,
+      "retweets": 263,
+      "replies": 80,
+      "views": 263885
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G5qc7YAXUAA4I-Q.jpg",
+      "localFilename": "1989075447435653181_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G5qdkAJWYAALBtQ.jpg",
+      "localFilename": "1989075447435653181_2.jpg"
+    }
+  ]
+}

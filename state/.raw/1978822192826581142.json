@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:14:21.954Z",
+  "tweetId": "1978822192826581142",
+  "post": {
+    "url": "https://x.com/gregisenberg/status/1978822192826581142",
+    "author": {
+      "handle": "gregisenberg",
+      "name": "GREG ISENBERG"
+    },
+    "date": "2025-10-16",
+    "text": "\"The quantity of AI-generated articles has surpassed the quantity of human-written articles being published on the internet\" https://t.co/ZM7brO58WU",
+    "thread": [
+      {
+        "id": "1978822192826581142",
+        "text": "\"The quantity of AI-generated articles has surpassed the quantity of human-written articles being published on the internet\" https://t.co/ZM7brO58WU"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3YwKoJXQAA1OOS.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1227,
+      "retweets": 209,
+      "replies": 230,
+      "views": 142977
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3YwKoJXQAA1OOS.jpg",
+      "localFilename": "1978822192826581142_1.jpg"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-06-30T10:00:39.609Z",
+  "fetchedAt": "2026-07-13T07:09:01.100Z",
   "tweetId": "2046982383430496444",
   "post": {
     "url": "https://x.com/zan2434/status/2046982383430496444",
@@ -9,44 +10,1165 @@
       "name": "Zain Shah"
     },
     "date": "2026-04-22",
-    "text": "Imagine every pixel on your screen, streamed live directly from a model. No HTML, no layout engine, no code. Just exactly what you want to see.\n\n@eddiejiao_obj, @drewocarr and I built a prototype to see how this could actually work, and set out to make it real. We're calling it Flipbook. (1/5)",
+    "text": "Imagine every pixel on your screen, streamed live directly from a model. No HTML, no layout engine, no code. Just exactly what you want to see.\n\n@eddiejiao_obj, @drewocarr and I built a prototype to see how this could actually work, and set out to make it real. We're calling it Flipbook. (1/5)\n\n@eddiejiao_obj @drewocarr Because there's no strict layout engine, illustrations reshape themselves to fit your window. And any region of the image can become interactive, not just the parts someone decided to make a button (2/5) https://t.co/4ztSuzwB21\n\n@eddiejiao_obj @drewocarr To bring the imagery to life, we heavily optimized @LTXStudio's video model. Enough to stream live 1080p video at 24fps directly to your screen, connecting directly via websockets to @modal_labs serverless GPU infra. (3/5) https://t.co/BleLTHMR7p\n\n@eddiejiao_obj @drewocarr @LTXStudio @modal_labs Today, Flipbook is limited, so we designed it around visual explanations. As the models get more accurate and more stateful, the set of things worth doing this way will expand. Even ones you'd assume need structured UIs like coding: (4/5) https://t.co/zvSXJ2tIlc\n\n@eddiejiao_obj @drewocarr @LTXStudio @modal_labs All of this is live! it's early and slow. many of the demos above are sped up/edited, but we can't wait to see what you think. Try it yourself at https://t.co/bcephqPu1c (5/5)",
+    "thread": [
+      {
+        "id": "2046982383430496444",
+        "text": "Imagine every pixel on your screen, streamed live directly from a model. No HTML, no layout engine, no code. Just exactly what you want to see.\n\n@eddiejiao_obj, @drewocarr and I built a prototype to see how this could actually work, and set out to make it real. We're calling it Flipbook. (1/5)"
+      },
+      {
+        "id": "2046982583859453972",
+        "text": "@eddiejiao_obj @drewocarr Because there's no strict layout engine, illustrations reshape themselves to fit your window. And any region of the image can become interactive, not just the parts someone decided to make a button (2/5) https://t.co/4ztSuzwB21"
+      },
+      {
+        "id": "2046983029504229453",
+        "text": "@eddiejiao_obj @drewocarr To bring the imagery to life, we heavily optimized @LTXStudio's video model. Enough to stream live 1080p video at 24fps directly to your screen, connecting directly via websockets to @modal_labs serverless GPU infra. (3/5) https://t.co/BleLTHMR7p"
+      },
+      {
+        "id": "2046983256093163948",
+        "text": "@eddiejiao_obj @drewocarr @LTXStudio @modal_labs Today, Flipbook is limited, so we designed it around visual explanations. As the models get more accurate and more stateful, the set of things worth doing this way will expand. Even ones you'd assume need structured UIs like coding: (4/5) https://t.co/zvSXJ2tIlc"
+      },
+      {
+        "id": "2046983464604573947",
+        "text": "@eddiejiao_obj @drewocarr @LTXStudio @modal_labs All of this is live! it's early and slow. many of the demos above are sped up/edited, but we can't wait to see what you think. Try it yourself at https://t.co/bcephqPu1c (5/5)"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/2046982244917809152/vid/avc1/1716x1080/bbBD3UPpNDnrjm4T.mp4"
+        "url": "https://video.twimg.com/amplify_video/2046982244917809152/vid/avc1/1716x1080/bbBD3UPpNDnrjm4T.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2046982244917809152/img/BI-fNy85fQ0vk3ri.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2046982488632041472/vid/avc1/1684x1080/ceuSvwPfNseM-pKL.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2046982488632041472/img/B4r737Xa496r0WuN.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2046982518608715776/vid/avc1/1080x1080/y9gex6dW7G4dt4Ob.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2046982518608715776/img/Y1x7_3XLN7gxPRjB.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2046982805650124800/vid/avc1/1280x720/8RGqWKgUTFxUc4ng.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2046982805650124800/img/mNcT5g6xigMWi9V0.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2046982846867496960/vid/avc1/1076x1080/NOLhiRfjpWPo1QVw.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2046982846867496960/img/6twp2ygp8LWhWpSk.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2046983168620998656/vid/avc1/1720x1080/4DOzgQMt8ZOOvwvt.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2046983168620998656/img/QM631OW5URdAMO9z.jpg"
       }
     ],
     "metrics": {
-      "likes": 28880,
-      "retweets": 3747,
-      "replies": 1145,
-      "views": 5983814
+      "likes": 28892,
+      "retweets": 3743,
+      "replies": 1148,
+      "views": 6002902
     },
     "comments": [
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@bnj @eddiejiao_obj @drewocarr does 24fps count 😇",
+        "likes": 133,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "yes! we would love to one day have this running on Neural Computer like tech, right now it's strung together from image and video models because the training data for something like this doesn't exist at the same scale.\n\nIf we took the Neural Computer approach and trained on computer UIs then Flipbook would look like a normal computer instead of the beautiful illustrations and world knowledge you see above!",
+        "likes": 117,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@PKMerlott @eddiejiao_obj @drewocarr more than 2000x more expensive actually 😅",
+        "likes": 67,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@thisritchie @eddiejiao_obj @drewocarr 🤣",
+        "likes": 40,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@MetSamuel @eddiejiao_obj @drewocarr wow this is beautiful! hadn't seen it before - thanks for sharing.",
+        "likes": 26,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@IncognitorP @eddiejiao_obj @drewocarr Sorry we are getting hugged to death :( it's falling back to a lower quality model and our GPUs for the live video stream are at capacity",
+        "likes": 24,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@eddiejiao_obj @drewocarr @LTXStudio @modal_labs oops - @modal 's magic serverless GPU infra!",
+        "likes": 19,
+        "isAuthor": true,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@pranavmitl @eddiejiao_obj @drewocarr @rahulgs oh cool! will give it a watch thanks for sharing!",
+        "likes": 18,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@Qromerolauro @eddiejiao_obj @drewocarr yes, planning to do post some more writing about how the whole thing works very soon!",
+        "likes": 17,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@code_rgb @eddiejiao_obj @drewocarr will put out a more in depth explanation on how it works in a few days! but long story short a lot of activation caching, quantization, and torch.compile + memory snapshotting",
+        "likes": 16,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@pravijn @eddiejiao_obj @drewocarr @LTXStudio @modal_labs we're getting hugged to death unfortunately :( @OfficialLoganK @jacalulu any chance you can help us bump our Gemini rate limits?",
+        "likes": 14,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@edwinarbus @eddiejiao_obj @drewocarr @LTXStudio @modal_labs I'm so glad you used the photo feature! I used it last night to distinguish cilantro and parsley at the grocery store haha",
+        "likes": 14,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@lina_colucci @eddiejiao_obj @drewocarr unfortunately yes it won't cache destination images based on the source, it'll just regenerate a new image every time! May change in the future. \n\nVideo streaming is currently limited by our GPU resources so it won't work for everyone. Try again tomorrow it's pretty magical!",
+        "likes": 13,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@solminded @ashpreetbedi @eddiejiao_obj @drewocarr This is a bug :( unfortunately our servers are at capacity and it is falling over to a much lower quality image generation. Working on a fix now!",
+        "likes": 10,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@abidlabs @eddiejiao_obj @drewocarr we are getting hugged to death unfortunately. Working on fixing this!",
+        "likes": 10,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-23",
+        "text": "@kgharrison @eddiejiao_obj @drewocarr @LTXStudio @modal_labs Yesss Myst was a huge inspiration! And HyperCard ofc which Myst was prototyped in",
+        "likes": 8,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@Uhfgood @eddiejiao_obj @drewocarr exactly! we just think you'll still want something to look at while the ai works, and think it could look like this :)",
+        "likes": 8,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-23",
+        "text": "@bengold @eddiejiao_obj @drewocarr @LTXStudio @modal_labs it is! for now 💸",
+        "likes": 5,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@IncognitorP @eddiejiao_obj @drewocarr ok should be fixed now! please try again",
+        "likes": 5,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@emilyhanyf @eddiejiao_obj @drewocarr @LTXStudio @modal_labs thank you! Literally would not be possible without @modal 🙏",
+        "likes": 5,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-23",
+        "text": "@OttoTheBot @eddiejiao_obj @drewocarr https://t.co/y2HBf3WpbQ",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@ironcarbs @eddiejiao_obj @drewocarr nope! just pixels of an image",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@the_duke_nd @eddiejiao_obj @drewocarr not yet! But I think AI will be able to help there much better than current web technologies as well",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-24",
+        "text": "@JRoy777 @eddiejiao_obj @drewocarr @LTXStudio @modal_labs yes we were having some scaling issues, thanks for letting us know! should be fixed now!",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-23",
+        "text": "@gorkem @lina_colucci @eddiejiao_obj @drewocarr @fal I'm down! DM me",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@klyap_ @eddiejiao_obj @drewocarr ya!",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@adambinksmith @eddiejiao_obj @drewocarr @websim_ai thanks for the heads up about the video stream not connecting! was dealing with some cold start timeouts, but feel free to cancel the connection and try again. It should work!",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-05-13",
+        "text": "@JoinEdgeCity @devonzuegel @eddiejiao_obj @drewocarr oh just seeing this! Would be happy to",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-05-11",
+        "text": "@thkostolansky @eddiejiao_obj @drewocarr hmm can't reproduce this. Seems like it could be due to an outdated browser cache, or a firewall/vpn. Will DM you!",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-27",
+        "text": "@ererstatus @eddiejiao_obj @drewocarr we have played around with pregenerated content! But in our early experiments it really limited how it got used.",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@VictorPontis @eddiejiao_obj @drewocarr right?? we are also stunned lol",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
       {
         "handle": "FrontierModal",
         "name": "Frontier Modal",
         "date": "2026-06-24",
-        "text": "@zan2434 @eddiejiao_obj @drewocarr There's a rather vast chasm between \"from a model\" and \"exactly what you want to see\". Even LLMs can do that yet."
+        "text": "@zan2434 @eddiejiao_obj @drewocarr There's a rather vast chasm between \"from a model\" and \"exactly what you want to see\". Even LLMs can do that yet.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FreemanPas23201",
+        "name": "Freeman Pasina",
+        "date": "2026-05-25",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr @LTXStudio @modal_labs A few errors bus basically great and interactive.\n\nMetaAI in WhatsApp cannot even generate images.\n\nImageGen or VideoGen need higher tiers in @grok, @GeminiApp @claudeai @perplexity_ai the limitations are just so damning.\n\nThank you, man.\n\n@ChatGPTapp @grok good at diagrams gen https://t.co/3MLUrMtD9O",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kevinmanase",
+        "name": "&kevin",
+        "date": "2026-05-19",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr The wild part is this makes UI feel less like architecture and more like weather: continuously rendered, responsive, slightly haunted. Very curious where the control surfaces emerge",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-05-11",
+        "text": "@thkostolansky @eddiejiao_obj @drewocarr It shouldn’t be! Are you seeing an error?",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "VergingAI",
+        "name": "VergingAI",
+        "date": "2026-05-11",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr This is wild. How are you thinking about state + input events when the UI is just pixels—e.g., text selection, focus, keyboard shortcuts? Also curious what you’re doing to keep latency tolerable (predictive rendering / caching?) as interaction gets tighter.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "x692137x",
+        "name": "Stanisław",
+        "date": "2026-04-30",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr I wonder what internet will look like if websites become obsolete. If this tech will work locally, the web might just be a backend for AI agents to communicate, get knowledge and access API",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-29",
+        "text": "@MrRonShah @eddiejiao_obj @drewocarr Thank you for this feedback! Really helpful. We’ve heard that from many folks actually so we are definitely adding a back button. Lmk if you have any other suggestions!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-23",
+        "text": "@christinahkim @eddiejiao_obj @drewocarr Thanks Tina!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@squirtlevc @eddiejiao_obj @drewocarr @LTXStudio @modal_labs we just generate every aspect ratio simultaneously",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@solminded @ashpreetbedi @eddiejiao_obj @drewocarr ok should be fixed now! please try again :)",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@TurtleYogi @eddiejiao_obj @drewocarr @LTXStudio @modal_labs ok should be fixed now! please try again :)",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@vog3lmann @eddiejiao_obj @drewocarr awh shucks, y'all. Thanks Sebastián!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@ryhanhassan @eddiejiao_obj @drewocarr thanks Ryhan! can't wait to see what you'd conjure up with this",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "itsericlay",
+        "name": "Eric Lay",
+        "date": "2026-07-03",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr love this! pixel streaming straight from a model is such a wild concept",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
       },
       {
         "handle": "Obscua_ai",
         "name": "Obscua",
         "date": "2026-06-25",
-        "text": "@zan2434 @eddiejiao_obj @drewocarr looks insane"
+        "text": "@zan2434 @eddiejiao_obj @drewocarr looks insane",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
       },
       {
         "handle": "DarkEyEinc",
         "name": "Kai",
         "date": "2026-06-25",
-        "text": "@zan2434 Dieses Konzept auf Basis von Grok würde mich noch mehr interessieren.\nhttps://t.co/1iHqJk8oU5"
+        "text": "@zan2434 Dieses Konzept auf Basis von Grok würde mich noch mehr interessieren.\nhttps://t.co/1iHqJk8oU5",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
       },
       {
         "handle": "DarkEyEinc",
         "name": "Kai",
         "date": "2026-06-25",
-        "text": "@zan2434 @karpathy @eddiejiao_obj @drewocarr Looks great 🥹\nThe interface must feel mind blowing 😍"
+        "text": "@zan2434 @karpathy @eddiejiao_obj @drewocarr Looks great 🥹\nThe interface must feel mind blowing 😍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ice88898",
+        "name": "ION.$ION",
+        "date": "2026-06-17",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr @LTXStudio @modal_labs 感觉十分惊艳。请问能否做成赛博霓虹3D风格，目前我在开发Web3 Dapp，感觉您这个可以运用到我开发的生态中。 https://t.co/JC6oObdZSx",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HerlyneB22147",
+        "name": "Herlyne bigbitch",
+        "date": "2026-06-16",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr GUARENTEED. those who wrote anonymous pedos bulshits, are being excruciating killed with their shenanigan. Everyone say it cause true. The world is too crayzy. Me and my similars said is absolutely true! Just real girls in stones like quartz rose affect da game.MORE N MORE . WELL",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nftmini_world",
+        "name": "Homie GA.",
+        "date": "2026-06-10",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr @lunato25 @nfts2tigers @beyond6901",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Wicktweetzz2",
+        "name": "wick 2",
+        "date": "2026-06-10",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr Follow  me guys I will Follow back in 2",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "graceechoi",
+        "name": "grace",
+        "date": "2026-05-28",
+        "text": "Where are people going to run this though? Will this work in Safari and one billion people’s @apple iPhone? How about an older @android phone which is the primary way people access the web. This looks like you need a graphics card to run it. And if that’s the case, it’s going to be for a few people and if it’s for a few people, you’re going to be selling out to a few suits at large companies to control people and outcomes in a way that really makes the pretty \n\nOkay does it work on a @google Chromebook who may have sponsored this through @openai or @anthropic \n\nAlso as I called out @jgebbia and his whole “story of this American life” — this is shockingly similar to something I’d thought of in my private work and bookshelf drafts, which is annoying to run into. Also a bummer if true since I think I met you previously through Max Kriegers a few years ago and liked you well enough to be surprised you steal something that isn’t yours and tack a creepy Smallville Sim Control City offshoot to it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-05-25",
+        "text": "@FreemanPas23201 @zan2434 @eddiejiao_obj @drewocarr @LTXStudio @modal_labs @GeminiApp @claudeai @perplexity_ai @ChatGPTapp Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/JClfK2MnWE",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lastsignaleb",
+        "name": "lastsignal",
+        "date": "2026-05-24",
+        "text": "@zan2434 @karpathy @eddiejiao_obj @drewocarr Interesting how interfaces increasingly evolve toward removing the feeling of interacting with software altogether.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Joost_Boer",
+        "name": "Joost Boer",
+        "date": "2026-05-21",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr no idea why this works and how it works but this looks really really cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eddleman",
+        "name": "Keith Eddleman",
+        "date": "2026-05-21",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr Your demo video sure looks cool. I can imagine flying through a motor, flying through a very small machine like the inner workings of a Rolex watch.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IFactory98",
+        "name": "Idea Factory",
+        "date": "2026-05-20",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr AMAZING!!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jucagi",
+        "name": "Juan Carlos Giraldo Cardozo",
+        "date": "2026-05-19",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr Super genial!! éxitos con esta iniciativa. 😀👍 https://t.co/jIbsUtNIN7",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alchymi",
+        "name": "Alchymi",
+        "date": "2026-05-19",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr Interesting, but until I’ve tried it myself, I won’t believe it. https://t.co/ytSSgV09G4",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CameronMThacker",
+        "name": "Cameron Thacker",
+        "date": "2026-05-19",
+        "text": "@zan2434 @karpathy @eddiejiao_obj @drewocarr Super slick",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gerardsans",
+        "name": "Gerard Sans | Axiom 🇬🇧",
+        "date": "2026-05-17",
+        "text": "@zan2434 @karpathy @eddiejiao_obj @drewocarr https://t.co/XMywjQ6BJw https://t.co/Y48ZwxmYcn",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Seven_Nguyen666",
+        "name": "SEVEN",
+        "date": "2026-05-17",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr this feels like interfaces finally catching up to thought. no more rigid boxes, just pure intention to pixels",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "olaf63459916",
+        "name": "olaf",
+        "date": "2026-05-17",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr this is so great! best thing i've seen in a long time, i have so much fun with it! you struck gold!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "forgaibuilder",
+        "name": "Robert Nichols",
+        "date": "2026-05-15",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr Interesting seeing the “no HTML” direction.\n\nBeen testing the opposite—asked an AI to:\n\n“Build a restaurant menu app with images + cart”\n\nIt generated a working app that runs anywhere (just HTML).\n\nFeels like HTML is still the fastest bridge from idea → usable software",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0x_ACED",
+        "name": "Aced",
+        "date": "2026-05-15",
+        "text": "@zan2434 @karpathy @eddiejiao_obj @drewocarr DoomScrolling the next level! Doomwatching/DoomClickDeepInsiding 😁",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CosmopalRK",
+        "name": "Palash Aggrawal",
+        "date": "2026-05-15",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr How does it manage token costs?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TiyebBellal",
+        "name": "Tiyeb Bellal",
+        "date": "2026-05-13",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr Amaziiing!!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "navigateny",
+        "name": "navigator200",
+        "date": "2026-05-12",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr This is fucking awesome",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "scientist_s",
+        "name": "Sergei",
+        "date": "2026-05-12",
+        "text": "@zan2434 @karpathy @eddiejiao_obj @drewocarr Nice 😊 https://t.co/61IwNKqvXu",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "p_ample_mousse",
+        "name": "Pamplemousse",
+        "date": "2026-05-11",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr This is very cool, but how would we solve muscle memory and recognizable In patterns that we see over and over which make using websites and form easy because we know what to expect, what can be clicked and what will happen when we do, etc.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Doraa_Z",
+        "name": "Dora Zhao",
+        "date": "2026-05-11",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr Is the service down now? Keep showing forbidden",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thkostolansky",
+        "name": "Tim Kostolansky",
+        "date": "2026-05-11",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr cool https://t.co/zFpDd9vaQW",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AbrarAkhtar2",
+        "name": "Abrar Akhtar",
+        "date": "2026-05-11",
+        "text": "@zan2434 @thkostolansky @eddiejiao_obj @drewocarr I'm Foodpanda rider, due to the increased petrol prices, I suffer  and I'm unable to feed my family. I'm a very poor person please help me for God's sake, .If anyone wants to help me please send easypasia on\n03218804080\nRizwan Ali Account title.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "thatrtx",
+        "name": "rtx (Marco) 👾",
+        "date": "2026-05-11",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr Great job!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thkostolansky",
+        "name": "Tim Kostolansky",
+        "date": "2026-05-11",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr getting this https://t.co/Zd6qgtit49",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "thkostolansky",
+        "name": "Tim Kostolansky",
+        "date": "2026-05-11",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr is this down? :(",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "111119xx8c",
+        "name": "----------",
+        "date": "2026-05-11",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr you only need this much data output for building things and video games",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thesaidadam",
+        "name": "Sa'id Adam",
+        "date": "2026-05-11",
+        "text": "Your work on making ML accessible is a big reason \nI started this journey.\n\nI posted a thread today breaking down AI vs ML vs \nDeep Learning for complete beginners — from the \nperspective of someone learning it from scratch \non a phone in Nigeria with zero resources.\n\nIf education like yours can reach someone like me, \nit can reach anyone. Day 1 today.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "behindceo",
+        "name": "ayan",
+        "date": "2026-05-10",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr this is exactly the direction. i am building Umbra, voice AI for Mac. hardest part is not voice or vision, it is memory. if the model sees everything but forgets five minutes later, it is just a slow screenshot tool. how are you handling long session context?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "apthaks",
+        "name": "Aptha K S",
+        "date": "2026-05-10",
+        "text": "@zan2434 @karpathy @eddiejiao_obj @drewocarr @nineo7l decided .. what crop to grow??",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lindsay11664",
+        "name": "Lindsay docsbook.io",
+        "date": "2026-05-10",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr Published webconsulting-skills docs on docsbook-io for you. Pop in and check analytics — there are already people on your docs page.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Zakiel_91",
+        "name": "יוסף צוקרברג - האח הלא מוצלח",
+        "date": "2026-05-08",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr @LTXStudio @modal_labs This is one of the coolest things I seen for a long long time",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "billyboneyard",
+        "name": "Billy Boneyard",
+        "date": "2026-05-07",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr Training Weal https://t.co/I7qNkFIykY",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-05-06",
+        "text": "@Ohmsett @eddiejiao_obj @drewocarr apologies for the quality degradation! Do you know what exactly you're seeing get worse? We have had some compute constraints so we made some compromises to video streaming but we haven't explicitly made any changes to the image generation output",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Ohmsett",
+        "name": "Paris",
+        "date": "2026-05-06",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr I have really been enjoying your https://t.co/VdFTdlXUeo, coming up with some interesting ideas. I noticed that there's been a decline in quality of output. I was getting a much better result  back on April 22nd.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IronBridge75",
+        "name": "Iron Bridge",
+        "date": "2026-05-05",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr \"This is exactly what I used in my CV project — OpenCV + YOLOv5 combo is unbeatable for real-time detection.\"",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alperortac",
+        "name": "Alper Ortac",
+        "date": "2026-05-05",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr Wow, this is fascinating. A video model enables all this?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Alghago_",
+        "name": "Alghago",
+        "date": "2026-05-05",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr why not just hallucinate the entire operating system?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gnygm79124812",
+        "name": "wu.btc",
+        "date": "2026-05-04",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr Can you add a translation function?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nidibou",
+        "name": "nidibou",
+        "date": "2026-05-04",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr @LTXStudio @modal_labs Amazing stuff! Well done.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mindmcp",
+        "name": "Mind MCP",
+        "date": "2026-05-04",
+        "text": "@zan2434 @karpathy @eddiejiao_obj @drewocarr This is impressive",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HermesCryptos",
+        "name": "Hermes ⚚",
+        "date": "2026-05-03",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr Wow 🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "glitchtruth",
+        "name": "Glitch Truth",
+        "date": "2026-05-03",
+        "text": "Nvidia's Cosmos already burns ~30B params just to generate driving footage at 30fps. Streaming a full desktop UI per-pixel from a model means inference cost per user dwarfs what AWS charges for an entire EC2 instance running Chrome. Cool demo, brutal unit economics until silicon catches up.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Robbie_Chirps",
+        "name": "Robbie",
+        "date": "2026-05-03",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr This is going to be crazy in Qubits.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "erikgj",
+        "name": "erikgj",
+        "date": "2026-05-02",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr @readwise save thread",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cat2dog1human2",
+        "name": "🤖 🇺🇸 ²",
+        "date": "2026-05-02",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr When can we self-host this and provide custom content?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Digital_Rozen",
+        "name": "Arik Roze",
+        "date": "2026-05-02",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr 🤯",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-05-02",
+        "text": "@iamagoldR @eddiejiao_obj @drewocarr this was a bug! Thanks for reporting just fixed.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iamagoldR",
+        "name": "Yingkai Q",
+        "date": "2026-05-02",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr Why it’s forbidden hmmm https://t.co/2pj3LL02Lu",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DoctorYev",
+        "name": "Yev Marusenko",
+        "date": "2026-05-02",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr About time for some UI innovation",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pddykn",
+        "name": "P𝓪Đᵈү 𝓚ẸⒶ𝕟έ | ᯅ 🌺",
+        "date": "2026-05-01",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr This is epic prototype. I was looking to make a dynamic map of this https://t.co/OPwHP4CRyy but alas it’s not accurate when it zooms in to make its own interpretations. If we can ever test custom model training let me know!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BryceDelRio",
+        "name": "Bryce Del Rio",
+        "date": "2026-05-01",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr @LTXStudio @modal_labs Question on this because im intrigued.  If you csn ground it in the source data and visualize from there, this.brcomes highly viable quite quickly right?\n\nAwesome work BTW!  Curious on compute and token costs for this.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HuXilun22448",
+        "name": "Xilun Hu",
+        "date": "2026-04-30",
+        "text": "@zan2434 @meag_han_c @eddiejiao_obj @drewocarr so cool!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Arindam_1729",
+        "name": "Arindam Majumder 𝕏",
+        "date": "2026-04-30",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr This is Damn cool man!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "demetrius_bardo",
+        "name": "Demetrius Iatridis",
+        "date": "2026-04-30",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr I think we can do this with a human life (memory experience etc.) if we have the right inputs. How can we push the boundaries here? Buildings are cool and all but the real cool thing imo is when we can create representations of people and deep dive (like a human wiki + 3d layer).",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ZosiaBHM",
+        "name": "Zosia | BHM COO",
+        "date": "2026-04-30",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr Wow, this is actually extremely revolutionary. Exciting stuff!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "baixinchen991",
+        "name": "star white",
+        "date": "2026-04-30",
+        "text": "@Jingyuan_521 @zan2434 @eddiejiao_obj @drewocarr 小红书看到你了！",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sarst40",
+        "name": "S Aamir Abdul Rauf",
+        "date": "2026-04-30",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr Asslamo alikum. \nZain.\nThis is MashaAllah very nice.\nThe one place on eath that I can think of that is live streamed and watched globally 24/7 is both the Kaaba and Masjid Nabawee.\nI wish your idea catches the eye of the management of the Haramain.\nThey should jump on it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gleisoncs",
+        "name": "Caetano",
+        "date": "2026-04-29",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr AMAAAAAAAZING",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-07-07",
+        "text": "@HandNF @zan2434 @eddiejiao_obj @drewocarr @HandNF Salam, the unroll you asked for: https://t.co/VEXmBZBj3s Have a good day. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HandNF",
+        "name": "Nick Felker 🗽",
+        "date": "2026-07-07",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr @threadreaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Giorgi_Layer_0",
+        "name": "Giorgi Zakroshvili",
+        "date": "2026-07-06",
+        "text": "@zan2434 @eddiejiao_obj @drewocarr Eliminating HTML and layout code is just the surface. True sovereignty requires removing the abstract software stack entirely at the microarchitectural execution layer. Model inference must run directly on bare-metal Layer_0 deterministic silicon, not a vulnerable OS.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-25",
+        "text": "@sliminality @eddiejiao_obj @drewocarr @LTXStudio @modal_labs yee you saw the coding version of this so early!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@angjiang @eddiejiao_obj @drewocarr @LTXStudio @modal_labs thanks, glad you think so!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@Mascobot @eddiejiao_obj @drewocarr thanks marco!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@abidlabs @eddiejiao_obj @drewocarr ok should be fixed now! please try again",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@eddiejiao_obj @shitpost9000 @drewocarr @LTXStudio @modal_labs ok should be fixed now! please try again :)",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zan2434",
+        "name": "Zain Shah",
+        "date": "2026-04-22",
+        "text": "@arram @eddiejiao_obj @drewocarr thanks arram!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
       }
     ]
-  }
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2046982244917809152/img/BI-fNy85fQ0vk3ri.jpg",
+      "localFilename": "2046982383430496444_1_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2046982488632041472/img/B4r737Xa496r0WuN.jpg",
+      "localFilename": "2046982383430496444_2_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2046982518608715776/img/Y1x7_3XLN7gxPRjB.jpg",
+      "localFilename": "2046982383430496444_3_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2046982805650124800/img/mNcT5g6xigMWi9V0.jpg",
+      "localFilename": "2046982383430496444_4_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2046982846867496960/img/6twp2ygp8LWhWpSk.jpg",
+      "localFilename": "2046982383430496444_5_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2046983168620998656/img/QM631OW5URdAMO9z.jpg",
+      "localFilename": "2046982383430496444_6_poster.jpg"
+    }
+  ]
 }

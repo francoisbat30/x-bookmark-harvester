@@ -1,0 +1,311 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:14:32.806Z",
+  "tweetId": "1978475954650652814",
+  "post": {
+    "url": "https://x.com/femke_plantinga/status/1978475954650652814",
+    "author": {
+      "handle": "femke_plantinga",
+      "name": "Femke Plantinga"
+    },
+    "date": "2025-10-15",
+    "text": "How does a vector database work?\n\nIt's a question I get asked constantly. So, let’s refresh.\n\nAt its core, a vector database retrieves data objects using vector search. But let's break down what's actually happening under the hood.\n\n𝗧𝗵𝗲 𝗙𝗼𝘂𝗻𝗱𝗮𝘁𝗶𝗼𝗻: 𝗩𝗲𝗰𝘁𝗼𝗿 𝗘𝗺𝗯𝗲𝗱𝗱𝗶𝗻𝗴𝘀\nFirst, your data (text, images, audio, whatever) gets converted into vector embeddings - essentially arrays of numbers that represent the meaning of your content in a format machines can understand. Think of these as coordinates in a high-dimensional space where similar concepts cluster together.\n\n𝗧𝗵𝗲 𝗖𝗵𝗮𝗹𝗹𝗲𝗻𝗴𝗲: 𝗦𝗰𝗮𝗹𝗲\nHere's where it gets interesting. If you have millions of vectors, you can't just compare every single one to find similar items - that would take forever. This is where vector indexing comes in.\n\n𝗩𝗲𝗰𝘁𝗼𝗿 𝗜𝗻𝗱𝗲𝘅𝗶𝗻𝗴\nVector indexing organizes your embeddings so you can find similar vectors efficiently. It's basically a trade-off between three factors: search speed, accuracy, and resource requirements.\n\nThe most common approach is HNSW (Hierarchical Navigable Small World), which creates a graph-like structure where similar vectors are connected to each other. This allows for fast \"traversal\" of the graph to find similar vectors to your query.\n\n𝗧𝗵𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗣𝗿𝗼𝗰𝗲𝘀𝘀\nWhen you query a vector database:\n1. Your query gets converted to a vector embedding\n2. The system uses distance metrics (like cosine similarity) to measure how \"close\" vectors are to each other\n3. The index structure helps navigate quickly to the most similar vectors\n4. You get back the top results without having to check every single vector\n\n𝗧𝗵𝗲 𝗧𝗿𝗮𝗱𝗲-𝗼𝗳𝗳𝘀\nDifferent indexing approaches make different compromises. Some prioritize speed over perfect accuracy (approximate nearest neighbor), while others focus on exact results but take longer.\n\nThe beauty is that vector databases like Weaviate handle all this complexity behind the scenes, so you can focus on building your application rather than optimizing search algorithms.\n\nWhat's fascinating is how this seemingly simple concept - representing meaning as numbers and finding similar numbers - enables everything from semantic search to RAG systems to recommendation engines.\n\nLearn more about optimizing vector database search speed and performance: https://t.co/0SjKGYHL8s",
+    "thread": [
+      {
+        "id": "1978475954650652814",
+        "text": "How does a vector database work?\n\nIt's a question I get asked constantly. So, let’s refresh.\n\nAt its core, a vector database retrieves data objects using vector search. But let's break down what's actually happening under the hood.\n\n𝗧𝗵𝗲 𝗙𝗼𝘂𝗻𝗱𝗮𝘁𝗶𝗼𝗻: 𝗩𝗲𝗰𝘁𝗼𝗿 𝗘𝗺𝗯𝗲𝗱𝗱𝗶𝗻𝗴𝘀\nFirst, your data (text, images, audio, whatever) gets converted into vector embeddings - essentially arrays of numbers that represent the meaning of your content in a format machines can understand. Think of these as coordinates in a high-dimensional space where similar concepts cluster together.\n\n𝗧𝗵𝗲 𝗖𝗵𝗮𝗹𝗹𝗲𝗻𝗴𝗲: 𝗦𝗰𝗮𝗹𝗲\nHere's where it gets interesting. If you have millions of vectors, you can't just compare every single one to find similar items - that would take forever. This is where vector indexing comes in.\n\n𝗩𝗲𝗰𝘁𝗼𝗿 𝗜𝗻𝗱𝗲𝘅𝗶𝗻𝗴\nVector indexing organizes your embeddings so you can find similar vectors efficiently. It's basically a trade-off between three factors: search speed, accuracy, and resource requirements.\n\nThe most common approach is HNSW (Hierarchical Navigable Small World), which creates a graph-like structure where similar vectors are connected to each other. This allows for fast \"traversal\" of the graph to find similar vectors to your query.\n\n𝗧𝗵𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗣𝗿𝗼𝗰𝗲𝘀𝘀\nWhen you query a vector database:\n1. Your query gets converted to a vector embedding\n2. The system uses distance metrics (like cosine similarity) to measure how \"close\" vectors are to each other\n3. The index structure helps navigate quickly to the most similar vectors\n4. You get back the top results without having to check every single vector\n\n𝗧𝗵𝗲 𝗧𝗿𝗮𝗱𝗲-𝗼𝗳𝗳𝘀\nDifferent indexing approaches make different compromises. Some prioritize speed over perfect accuracy (approximate nearest neighbor), while others focus on exact results but take longer.\n\nThe beauty is that vector databases like Weaviate handle all this complexity behind the scenes, so you can focus on building your application rather than optimizing search algorithms.\n\nWhat's fascinating is how this seemingly simple concept - representing meaning as numbers and finding similar numbers - enables everything from semantic search to RAG systems to recommendation engines.\n\nLearn more about optimizing vector database search speed and performance: https://t.co/0SjKGYHL8s"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3Tj6D9XgAAIsSW.png"
+      }
+    ],
+    "metrics": {
+      "likes": 1882,
+      "retweets": 332,
+      "replies": 28,
+      "views": 112660
+    },
+    "comments": [
+      {
+        "handle": "md_kasif_uddin",
+        "name": "Kasif",
+        "date": "2025-10-16",
+        "text": "@femke_plantinga @chill_czar You wrote a short documentation on Vector Database, btw it amazing 🔥",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "agamchaudhary_",
+        "name": "Agam Chaudhary",
+        "date": "2025-10-16",
+        "text": "@femke_plantinga A clear and practical breakdown of how meaning turns into math. Vector databases make similarity a measurable concept, bridging semantics and computation. Do you think the next evolution will be dynamic embeddings that adapt contextually in real time?",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SocialWatchNew",
+        "name": "SocialWatch",
+        "date": "2025-10-15",
+        "text": "@femke_plantinga Very nice!",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itsagam",
+        "name": "Agam",
+        "date": "2025-10-16",
+        "text": "@femke_plantinga Any thoughts on efficiency of Postgres as a vector database with pgvector?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "suhrabautomates",
+        "name": "Suhrab Khan⚡️",
+        "date": "2025-10-16",
+        "text": "@femke_plantinga Vector DBs convert meaning into numbers, index them smartly, and retrieve similar data fast. Powering semantic search, RAG, and recommendations",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lorenzogotuned",
+        "name": "tuned",
+        "date": "2025-10-16",
+        "text": "@femke_plantinga about vector dbs, check out my latest posts https://t.co/VNt160nD4i about creating linear indices",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dat_nguyen94",
+        "name": "dat nguyen",
+        "date": "2025-10-16",
+        "text": "@femke_plantinga Great breakdown of vector databases! The diagram really helps visualize the process.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cacuta_autor",
+        "name": "c.a.guacaneme",
+        "date": "2025-10-16",
+        "text": "@femke_plantinga Great explanation, Femke! To add depth: not all vector databases are created equal. Design, retrieval latency, sharding strategies, and how they handle hybrid searches (metadata + vectors) can deeply impact performance and cost at scale.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SkuzaAI",
+        "name": "SkuzaAI",
+        "date": "2025-10-16",
+        "text": "@femke_plantinga This is a great breakdown on vector databases. Your visual also helps clearly explain how vector databases work. Thanks for sharing!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "talkoz_ai",
+        "name": "TalkozAI",
+        "date": "2025-10-16",
+        "text": "@femke_plantinga yeah revisiting how stuff works underneath helps build smarter solutions later",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DAITSorg",
+        "name": "DAITS - Decentralized AI Trust and Security",
+        "date": "2025-10-16",
+        "text": "Great explainer. In prod, vector search != “just HNSW.” \n\nChecklist we use: choose metric per model (cosine vs L2/MIPS), set recall target then tune ef_search, add metadata filters without leaking recall, chunk by semantics not tokens, re-index cadence per drift, and pre-filter junk with lexical. \n\nBonus: store provenance so RAG can cite, not just retrieve. What’s your default ef_search for 1M+?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DormantCitizen",
+        "name": "Navin R",
+        "date": "2025-10-16",
+        "text": "@femke_plantinga Great explanation!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Cognilium_ai",
+        "name": "Cognilium AI",
+        "date": "2025-10-16",
+        "text": "@femke_plantinga Would you rather have a system that searches by text… or by context?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "clinton_cunning",
+        "name": "clinton cunningham",
+        "date": "2025-10-16",
+        "text": "@femke_plantinga I usually just tell people it's an 'AI Database' and it uses 'Magic'\n\nMost pretty happy with that response.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "akp111_eth",
+        "name": "Ashis 👨‍💻🏗",
+        "date": "2025-10-16",
+        "text": "@femke_plantinga Very well explained. Thanks for such beautiful illustrations made it much more clearer!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aaryan_kakad",
+        "name": "Aaryan Kakad",
+        "date": "2025-10-16",
+        "text": "@femke_plantinga too informative!\n\ngreat post femke.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wisdomibeh_",
+        "name": "𝕨𝒊𝙨𝔡𝙤𝘮 𝑻",
+        "date": "2025-10-16",
+        "text": "@femke_plantinga Solid explanation",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kazzers___",
+        "name": "aadil___",
+        "date": "2025-10-16",
+        "text": "@femke_plantinga Thanks for sharing Femke",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ADLSconsulting",
+        "name": "Don Watts",
+        "date": "2025-10-16",
+        "text": "@femke_plantinga Well said. You articulate your knowledge and experience perfectly. 🦾🦾",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dustin_zeb",
+        "name": "Dustin",
+        "date": "2025-10-16",
+        "text": "@femke_plantinga Understanding vector databases opens up exciting possibilities in harnessing AI for data retrieval. Have you explored how different similarity metrics impact search accuracy?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thisisrasool",
+        "name": "Rasool M",
+        "date": "2025-10-15",
+        "text": "@femke_plantinga Good explanation",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IronRedSandHive",
+        "name": "IronRed | SandHive",
+        "date": "2025-10-15",
+        "text": "@femke_plantinga Nice explainer! How does Weaviate's HNSW tuning compare to FAISS in latency and memory at scale?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "martink0041969",
+        "name": "Kenneth Martin",
+        "date": "2025-10-15",
+        "text": "@femke_plantinga MMTLP #",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_andikarachman_",
+        "name": "Andika Rachman",
+        "date": "2025-11-30",
+        "text": "@femke_plantinga You forgot to mention they use SIMD to perform dot product. Massive performance improvement.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CloudCertStore",
+        "name": "Cloud Certification Store",
+        "date": "2025-10-17",
+        "text": "@femke_plantinga Thanks for sharing!\n\n🎯 𝗣𝗿𝗲𝗽𝗽𝗶𝗻𝗴 𝗳𝗼𝗿 𝗖𝗹𝗼𝘂𝗱 𝗼𝗿 𝗔𝗜/𝗠𝗟 𝗰𝗲𝗿𝘁s? 𝗔𝗪𝗦 / 𝗚𝗖𝗣 / 𝗔𝘇𝘂𝗿𝗲 / 𝗡𝗩𝗜𝗗𝗜𝗔\nGet actual questions that appear on the test. Plus, FREE Guides.\nhttps://t.co/73a9KYpl3c\n🔥 𝑹𝒆𝒂𝒍 𝑸𝒖𝒆𝒔𝒕𝒊𝒐𝒏𝒔. 𝑹𝒆𝒂𝒍 𝑺𝒖𝒄𝒄𝒆𝒔𝒔.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Dushyant946708",
+        "name": "Daredevil",
+        "date": "2025-10-17",
+        "text": "@femke_plantinga Just discovered Comet and it's a game-changer.  Take one month pro subscription from this link. Your PC deserves this upgrade. Install now: https://t.co/PFSGjnCQ9R\n#Comet #Productivity #tech #ai #Perplexity #technology #trending",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Dushyant946708",
+        "name": "Daredevil",
+        "date": "2025-10-17",
+        "text": "@femke_plantinga Just discovered Comet and it's a game-changer.  Take one month pro subscription from this link. Your PC deserves this upgrade. Install now: https://t.co/PFSGjnCQ9R \n#Comet #Productivity #tech #ai #Perplexity #technology #trending",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cacuta_autor",
+        "name": "c.a.guacaneme",
+        "date": "2025-10-16",
+        "text": "@femke_plantinga Finally, the choice of embedding model and dimensionality fundamentally shapes search quality. Model drift, re-indexing cadence, and chunking strategies can make or break user experience. The magic is in the details!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cacuta_autor",
+        "name": "c.a.guacaneme",
+        "date": "2025-10-16",
+        "text": "@femke_plantinga Also, with techniques like approximate nearest neighbor (ANN), you often trade off some accuracy for massive speed gains, but this isn't always suitable for every application—especially in regulated industries like finance or healthcare.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "martink0041969",
+        "name": "Kenneth Martin",
+        "date": "2025-10-15",
+        "text": "@SocialWatchNew @femke_plantinga MMTLP #",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3Tj6D9XgAAIsSW.png",
+      "localFilename": "1978475954650652814_1.png"
+    }
+  ]
+}

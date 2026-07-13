@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:12:54.850Z",
+  "tweetId": "2033595634373300450",
+  "post": {
+    "url": "https://x.com/Amank1412/status/2033595634373300450",
+    "author": {
+      "handle": "Amank1412",
+      "name": "Aman"
+    },
+    "date": "2026-03-16",
+    "text": "A bot turned $2,050 into $178,000 in one month.\n\n- Not a hedge fund.\n- Not a quant team.\n- A single bot on polymarket \n\nNo human could execute this. https://t.co/NcsXv1XLYa",
+    "thread": [
+      {
+        "id": "2033595634373300450",
+        "text": "A bot turned $2,050 into $178,000 in one month.\n\n- Not a hedge fund.\n- Not a quant team.\n- A single bot on polymarket \n\nNo human could execute this. https://t.co/NcsXv1XLYa"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2033595578547085312/vid/avc1/640x640/YymSziuJJsjr115l.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2033595578547085312/img/UaIZOXrMalIUEv-o.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 160,
+      "retweets": 10,
+      "replies": 21,
+      "views": 20431
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2033595578547085312/img/UaIZOXrMalIUEv-o.jpg",
+      "localFilename": "2033595634373300450_1_poster.jpg"
+    }
+  ]
+}

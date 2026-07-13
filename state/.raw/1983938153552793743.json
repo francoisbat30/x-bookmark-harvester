@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:19.443Z",
+  "tweetId": "1983938153552793743",
+  "post": {
+    "url": "https://x.com/thetripathi58/status/1983938153552793743",
+    "author": {
+      "handle": "thetripathi58",
+      "name": "Chidanand Tripathi"
+    },
+    "date": "2025-10-30",
+    "text": "This guy literally just leaked what industries will be replaced by AI first https://t.co/tVeDEGSrNT https://t.co/qVmJADDLz2",
+    "thread": [
+      {
+        "id": "1983938153552793743",
+        "text": "This guy literally just leaked what industries will be replaced by AI first https://t.co/tVeDEGSrNT https://t.co/qVmJADDLz2"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G4hcvoqa0AAKrVB.png"
+      }
+    ],
+    "metrics": {
+      "likes": 707,
+      "retweets": 136,
+      "replies": 26,
+      "views": 187409
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G4hcvoqa0AAKrVB.png",
+      "localFilename": "1983938153552793743_1.png"
+    }
+  ]
+}

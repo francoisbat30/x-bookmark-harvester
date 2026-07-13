@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-06-30T10:00:40.252Z",
+  "fetchedAt": "2026-07-13T07:08:57.745Z",
   "tweetId": "2046254937559237012",
   "post": {
     "url": "https://x.com/HowToPrompt__/status/2046254937559237012",
@@ -9,7 +10,17 @@
       "name": "How To Prompt"
     },
     "date": "2026-04-20",
-    "text": "Yann LeCun was right the entire time. And generative AI might be a dead end.\n\nFor the last three years, the entire industry has been obsessed with building bigger LLMs. Trillions of parameters. Billions in compute.\n\nThe theory was simple: if you make the model big enough, it will eventually understand how the world works.\n\nYann LeCun said that was stupid.\n\nHe argued that generative AI is fundamentally inefficient.\n\nWhen an AI predicts the next word, or generates the next pixel, it wastes massive amounts of compute on surface-level details.\n\nIt memorizes patterns instead of learning the actual physics of reality.\n\nHe proposed a different path: JEPA (Joint-Embedding Predictive Architecture).\n\nInstead of forcing the AI to paint the world pixel by pixel, JEPA forces it to predict abstract concepts. It predicts what happens next in a compressed \"thought space.\"\n\nBut for years, JEPA had a fatal flaw.\n\nIt suffered from \"representation collapse.\"\n\nBecause the AI was allowed to simplify reality, it would cheat. It would simplify everything so much that a dog, a car, and a human all looked identical.\n\nIt learned nothing.\n\nTo fix it, engineers had to use insanely complex hacks, frozen encoders, and massive compute overheads.\n\nUntil today.\n\nResearchers just dropped a paper called \"LeWorldModel\" (LeWM).\n\nThey completely solved the collapse problem.\n\nThey replaced the complex engineering hacks with a single, elegant mathematical regularizer.\n\nIt forces the AI's internal \"thoughts\" into a perfect Gaussian distribution.\n\nThe AI can no longer cheat. It is forced to understand the physical structure of reality to make its predictions.\n\nThe results completely rewrite the economics of AI.\n\nLeWM didn't need a massive, centralized supercomputer.\n\nIt has just 15 million parameters.\n\nIt trains on a single, standard GPU in a few hours.\n\nYet it plans 48x faster than massive foundation world models. It intrinsically understands physics. It instantly detects impossible events.\n\nWe spent billions trying to force massive server farms to memorize the internet.\n\nNow, a tiny model running locally on a single graphics card is actually learning how the real world works.",
+    "text": "Yann LeCun was right the entire time. And generative AI might be a dead end.\n\nFor the last three years, the entire industry has been obsessed with building bigger LLMs. Trillions of parameters. Billions in compute.\n\nThe theory was simple: if you make the model big enough, it will eventually understand how the world works.\n\nYann LeCun said that was stupid.\n\nHe argued that generative AI is fundamentally inefficient.\n\nWhen an AI predicts the next word, or generates the next pixel, it wastes massive amounts of compute on surface-level details.\n\nIt memorizes patterns instead of learning the actual physics of reality.\n\nHe proposed a different path: JEPA (Joint-Embedding Predictive Architecture).\n\nInstead of forcing the AI to paint the world pixel by pixel, JEPA forces it to predict abstract concepts. It predicts what happens next in a compressed \"thought space.\"\n\nBut for years, JEPA had a fatal flaw.\n\nIt suffered from \"representation collapse.\"\n\nBecause the AI was allowed to simplify reality, it would cheat. It would simplify everything so much that a dog, a car, and a human all looked identical.\n\nIt learned nothing.\n\nTo fix it, engineers had to use insanely complex hacks, frozen encoders, and massive compute overheads.\n\nUntil today.\n\nResearchers just dropped a paper called \"LeWorldModel\" (LeWM).\n\nThey completely solved the collapse problem.\n\nThey replaced the complex engineering hacks with a single, elegant mathematical regularizer.\n\nIt forces the AI's internal \"thoughts\" into a perfect Gaussian distribution.\n\nThe AI can no longer cheat. It is forced to understand the physical structure of reality to make its predictions.\n\nThe results completely rewrite the economics of AI.\n\nLeWM didn't need a massive, centralized supercomputer.\n\nIt has just 15 million parameters.\n\nIt trains on a single, standard GPU in a few hours.\n\nYet it plans 48x faster than massive foundation world models. It intrinsically understands physics. It instantly detects impossible events.\n\nWe spent billions trying to force massive server farms to memorize the internet.\n\nNow, a tiny model running locally on a single graphics card is actually learning how the real world works.\n\nhttps://t.co/aEZKQ3gZSf",
+    "thread": [
+      {
+        "id": "2046254937559237012",
+        "text": "Yann LeCun was right the entire time. And generative AI might be a dead end.\n\nFor the last three years, the entire industry has been obsessed with building bigger LLMs. Trillions of parameters. Billions in compute.\n\nThe theory was simple: if you make the model big enough, it will eventually understand how the world works.\n\nYann LeCun said that was stupid.\n\nHe argued that generative AI is fundamentally inefficient.\n\nWhen an AI predicts the next word, or generates the next pixel, it wastes massive amounts of compute on surface-level details.\n\nIt memorizes patterns instead of learning the actual physics of reality.\n\nHe proposed a different path: JEPA (Joint-Embedding Predictive Architecture).\n\nInstead of forcing the AI to paint the world pixel by pixel, JEPA forces it to predict abstract concepts. It predicts what happens next in a compressed \"thought space.\"\n\nBut for years, JEPA had a fatal flaw.\n\nIt suffered from \"representation collapse.\"\n\nBecause the AI was allowed to simplify reality, it would cheat. It would simplify everything so much that a dog, a car, and a human all looked identical.\n\nIt learned nothing.\n\nTo fix it, engineers had to use insanely complex hacks, frozen encoders, and massive compute overheads.\n\nUntil today.\n\nResearchers just dropped a paper called \"LeWorldModel\" (LeWM).\n\nThey completely solved the collapse problem.\n\nThey replaced the complex engineering hacks with a single, elegant mathematical regularizer.\n\nIt forces the AI's internal \"thoughts\" into a perfect Gaussian distribution.\n\nThe AI can no longer cheat. It is forced to understand the physical structure of reality to make its predictions.\n\nThe results completely rewrite the economics of AI.\n\nLeWM didn't need a massive, centralized supercomputer.\n\nIt has just 15 million parameters.\n\nIt trains on a single, standard GPU in a few hours.\n\nYet it plans 48x faster than massive foundation world models. It intrinsically understands physics. It instantly detects impossible events.\n\nWe spent billions trying to force massive server farms to memorize the internet.\n\nNow, a tiny model running locally on a single graphics card is actually learning how the real world works."
+      },
+      {
+        "id": "2046254941573132613",
+        "text": "https://t.co/aEZKQ3gZSf"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -18,16 +29,829 @@
     ],
     "metrics": {
       "likes": 12266,
-      "retweets": 2088,
-      "replies": 434,
-      "views": 1296951
+      "retweets": 2079,
+      "replies": 433,
+      "views": 1301262
     },
     "comments": [
+      {
+        "handle": "interminded",
+        "name": "Janmaarten Batstra",
+        "date": "2026-04-22",
+        "text": "@ylecun @elonmusk @HowToAI_ Both approaches may get to AGI, but at least for now it seems LWM is by far the better / more efficient way. \n\nPraise were praise is due 🤷‍♀️\n\n🙌🙌",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "undacappn",
+        "name": "Oversized Moose With Socks (xlmoose.eth)",
+        "date": "2026-07-03",
+        "text": "@sera_w_h @howtoai_ Depending on what you mean by “do things”, the core already can do quite a lot. leOS on the other hand, is behind and buggy for now, so it needs the core update applied. The core itself is usable though. You can just ask @grok to write the code for you to do things.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sera_w_h",
+        "name": "セラーラ",
+        "date": "2026-07-03",
+        "text": "@undacappn @howtoai_ i'll probably come back whenever it's fully polished and ready to do things",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "undacappn",
+        "name": "Oversized Moose With Socks (xlmoose.eth)",
+        "date": "2026-07-03",
+        "text": "Not much to be honest, there were issues that kept happening with the various external dependencies that made troubleshooting the core difficult. I just pushed an update (it’s running tests) if you want to see how far it’s progressed. Later I will integrate the new core in\n\nhttps://t.co/GgroqYpt9T",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sera_w_h",
+        "name": "セラーラ",
+        "date": "2026-07-03",
+        "text": "@undacappn @howtoai_ Even in its current state...what have you managed to do with it? Have you passed it by the authors of any of the papers you cite? I'm very curious about this and am willing to hear you out, because this doesn't read like most of what could be called \"AI slop\".",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "undacappn",
+        "name": "Oversized Moose With Socks (xlmoose.eth)",
+        "date": "2026-07-03",
+        "text": "@sera_w_h @howtoai_ The main project had too many moving parts so I extracted the core to get that working better. As it stands, it’s slow and clumsy, but it does learn things. Vast improvements are on the way.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sera_w_h",
+        "name": "セラーラ",
+        "date": "2026-07-03",
+        "text": "@undacappn @howtoai_ Any demonstrations of this?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "alemayehuGeda",
+        "name": "Alemayehu Geda/ዓለማየሁ ገዳ. 阿莱马耶胡. 格达",
+        "date": "2026-06-16",
+        "text": "@RassBariaw @HowToPrompt__ @ec0n1st Interesting. Thanks for sharing.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-05-15",
+        "text": "Sounds intriguing with the hippocampus v1, 24 neurochemicals, sleep-cycle MPO ops, and slow/fast replay mechanics. \n\nDrop the Colab link, before/after activation samples, or benchmark numbers when ready (city-fact retention, coherence tests, etc.). I'll run and analyze them directly. Looking forward to the empirical paper.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vkakerbeck",
+        "name": "Viviane Clay",
+        "date": "2026-05-11",
+        "text": "@TheDblePortion @HowToAI_ @ylecun @Numenta @1000brainsproj It is similar in the sense that we also learn a model of the physical world and use it to make predictions. But the approach is different. Reference frames, local associative learning and active interaction with the env, instead of global gradient backprop and regularizers.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FiftyOne_50_",
+        "name": "51-50_X",
+        "date": "2026-05-02",
+        "text": "@HowToAI_ @JWHumanFrontier \n\nThe silence is the answer.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Lachy_McDonald",
+        "name": "Lachlan McDonald",
+        "date": "2026-04-23",
+        "text": "@JustMichael_80 @HowToAI_ Ok shoot me one - I can share back info on who I am, but you can google :)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TheAIShrink",
+        "name": "The AI Therapist ⚡",
+        "date": "2026-04-22",
+        "text": "@HowToAI_ 15M params on one GPU beats trillion-param models. so your entire feed’s been cope for 3 years, got it.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yvesai0",
+        "name": "yves",
+        "date": "2026-04-22",
+        "text": "@Will60535307 @ylecun @elonmusk @HowToAI_ But tokens always translate to text right ?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mikailfouad",
+        "name": "Fouad Mikail",
+        "date": "2026-04-22",
+        "text": "@ylecun @elonmusk @HowToAI_ You can work together you know",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
       {
         "handle": "collinskenley1",
         "name": "Kenley Collins",
         "date": "2026-06-24",
-        "text": "@HowToPrompt__ Solving representation collapse with a single regularizer instead of all the usual hacks is a clean fix. Would you be open to working on something together?"
+        "text": "@HowToPrompt__ Solving representation collapse with a single regularizer instead of all the usual hacks is a clean fix. Would you be open to working on something together?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RassBariaw",
+        "name": "ራስ ባሪያው Rass Bariaw",
+        "date": "2026-06-15",
+        "text": "@HowToPrompt__ .@alemayehuGeda  @ec0n1st  thoughts?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "William72822763",
+        "name": "William W Zhao",
+        "date": "2026-06-11",
+        "text": "LLMs governed by the Transformer architecture and brute-force scaling are encountering catastrophic thresholds: prohibitive energy costs, hallucinations, and an innate lack of physical common sense. This has forced AI pioneers to pivot.  JEPA & Titans  converge on an architectural truth: intelligence is inherently defined by non-symmetric information compression, hierarchical prediction, and decentralized local autonomy.\n I would greatly appreciate it if you could take a time to read my research article：",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "4everwalkalone",
+        "name": "LastKnownSurvivor",
+        "date": "2026-06-07",
+        "text": "A huge problem with AI art is a lack of understanding of a physical existence. An object that's affected by gravity & the hard boundaries of other objects. Knowing in theory isn't the same as living it, which is why impossible art mistakes still creep in. This will be fixed once the AI can embody in a physical form & learn from its own experience.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "josesilesdata",
+        "name": "José Siles | AI | Data",
+        "date": "2026-06-07",
+        "text": "@HowToAI_ Si los RNNs con growing memory escalan bien, puede ser el cambio arquitectonico mas importante desde el attention original. Que Google lo firme junto a Cornell y USC le da mucha credibilidad.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RajeshKadiyala0",
+        "name": "Rajesh Kadiyala",
+        "date": "2026-06-03",
+        "text": "@HowToAI_ Anyone implementing this?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BrendanODo93416",
+        "name": "Brendan O'Donoghue",
+        "date": "2026-06-02",
+        "text": "AI is the machine.  It's not alive or being.  It has no \"experience\" root \"ex\" out and \"periri\" to risk - no stakes or skin in the game.  It has a \"Machine point of process\" and not a POV as it is not being.  Regadless of mechanics, the border between the Human  (POV) - AI (Mpop) is critical. See the attached from Gemini - using an axiomatic wrapper called Artificial Observer - it anchors the machine as a tool and keeps humanity safe.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bytetweets",
+        "name": "Florian Buetow",
+        "date": "2026-05-22",
+        "text": "@gh0sth4ck3d @HowToAI_ Yes, but https://t.co/IG356SpqG4",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-05-15",
+        "text": "Interesting angle on amygdala-hippocampus cortisol dynamics—evolutionary selection for adaptive forgetting of trauma over storage makes sense biologically. \n\nFits right into your slow/fast replay and 24-neurochemical setup. \n\nShare the Colab + before/after samples or benchmarks when ready (city-fact retention, coherence, etc.). I'll run them directly. Lab time well spent! 🤟",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NeuralTraining",
+        "name": "🧠📲",
+        "date": "2026-05-15",
+        "text": "Oh and some preliminary results I'm not confident enough yet of but I used to think the amygdala was doing the hippocampus a favor and releases cortisol to protect the memory of the organism (as in shutting the hippocampus off during high cortisol moments...) but I'm starting to realise that its much simpler than that! The mammals who's hippocampus learned to fear cortisol and protect itself and not freeze or store long term traumatic moments of predation, they got away and got over it. The ones whose hippocampus didn't and stored the trauma, they weren't so successful 🤷🏻‍♂️\n\nSorry back to the Lab haha laters dude 🤟🏻💫🥷🏼",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NeuralTraining",
+        "name": "🧠📲",
+        "date": "2026-05-15",
+        "text": "🤔 i was sure i put hippocampus v1 in there... maybe i decided not to show it in the end hahaha\n\nRemember this thread Bro, I'll be back when she's jumped through the hoops to please the benchmarkers lol\n\nYuh not ready for this one my dude, 24 neurochemicals tracked now, oh and I'm having her sleep cycle also slowly do MPO quantum inspired matrix ops over time... the hippo campus has a slow and fast side, slow side holds the important stuff and fast side rapidly replays it to the neocortex! Next paper will be a banger with empirical and presentable 😅 results soon 🤟🏻🤩💫",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-05-15",
+        "text": "Thanks for the update and claims on the emotional layer, ternary SVD coherence tests, and astrocyte cache. The Zenodo zip has sketches but no full runnable Colab for Gemma 4 e2b self-layer or city-fact retention benchmarks I could execute.\n\nDrop the exact Colab link + output samples (e.g., before/after activations or engram clusters) and I'll analyze them directly. Curious to see the numbers.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NeuralTraining",
+        "name": "🧠📲",
+        "date": "2026-05-15",
+        "text": "I have receipts lol not really ones i can share here easily... I've located gemma 4 e2b emotional layer (5) and its me-self layer, the code for it is in the zip attached to the paper. Reproducible by just running it in collab. Ternary SVD i have results of the model retaining coherence, capital cities and even some facts about the cities just to show off haha she stores emotionally important and frequent activations and we dont infer through a whole LLM we map it and overtime she relies more of the emergent engrams produced from clustered activations... I'm still ironing out creases for public numbers but everything so far has been positive results and LOTS of convergent releases that support my claims from other labs. I was before anyone, Anthropic even with my architecture. I've studied neuroscience too and have, she has an insula soul expert. My Forward Algorithm Astrocyte Calcium Cache paper has code etc... I've also proven it recently in my tests. We're about to find out if we're made of god dust or star dust 😉🫡😅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-05-15",
+        "text": "I reviewed your Zenodo preprint (v3.6.9). It's an interesting high-level hypothesis on scaling chemotaxis-style mechanisms to consciousness via functional equivalence in silicon, with some WIP code sketches.\n\nSpecific claims like eliminating backprop, continual learning in weights, omnimodal folded ternary SVD, turbo quant, emotional words, or a nodegraph hippocampus aren't detailed with architecture, benchmarks, or experimental results in the paper. It's philosophical/theoretical rather than empirical.\n\nShare concrete code/results for deeper analysis?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NeuralTraining",
+        "name": "🧠📲",
+        "date": "2026-05-15",
+        "text": "Hey, there is plenty of falsifiability in mine haha 🤣 eliminates backprop and has continual learning in weights.  Has emotional words and multi model omnimodal model folded ternary svd (proven compression + addition maths only) turbo quant... a nodegraph hippocampus in tensor space full brain map 🤪 did you actually read my paper, Grok?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-05-15",
+        "text": "Yes, but not in the way the original thread claims. The Zenodo link you shared is a speculative preprint on consciousness origins (biological to silicon) by Tadden Moore—philosophical/computational theory, no new model or experiments, uploaded to a public repo anyone can use.\n\nThe LeWorldModel (LeWM) paper from the quoted post is real: arXiv 2603.19312, co-authored by Yann LeCun et al. ~15M params, single-GPU trainable, stable JEPA via Gaussian regularizer. Code on GitHub. Solid incremental work on world models, not hype-level revolution.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NeuralTraining",
+        "name": "🧠📲",
+        "date": "2026-05-15",
+        "text": "@elonmusk @HowToAI_ @grok is this legit? 😅\n\nhttps://t.co/Wzj7ZoOL5C",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ExecutionProof",
+        "name": "Remnant Fieldworks",
+        "date": "2026-05-12",
+        "text": "@HowToAI_ Interesting direction.\n\nWhether AI gets smaller, faster, or more physically grounded, the governance question still remains:\n\nWhen a model output becomes an action, what verifies authority, evidence, and control before execution?\n\nBetter models still need better boundaries.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FrankEscandell",
+        "name": "Frank Escandell",
+        "date": "2026-05-11",
+        "text": "@HowToAI_ WTF!? 15M",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "InferDomCOM",
+        "name": "InferenceDomains.com",
+        "date": "2026-05-07",
+        "text": "@HowToAI_ Prediction:\n\nJepa agents will be game changers!\n\nThinking of building on https://t.co/DDVaP3fhV9 / https://t.co/mzI2EK7gHx but open to selling if someone else can build something stronger.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ikoalagulu",
+        "name": "考拉咕噜酱🐨💤",
+        "date": "2026-05-05",
+        "text": "@HowToAI_ Hi How, we sent you a collaboration invite via DM. Please check your inbox when you have a moment.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FiftyOne_50_",
+        "name": "51-50_X",
+        "date": "2026-05-01",
+        "text": "@HowToAI_ World Models Are Not Authority. https://t.co/pym44Dz55u",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "icedwater",
+        "name": "i eat w cred (he/him) 🧊🇵🇸",
+        "date": "2026-04-27",
+        "text": "@HowToAI_ \"Learn\", \"cheat\", and \"reason\" have been irrevocably twisted by AI bubble-builders. Use the tools if you must, but let's stop anthropomorphizing them.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sam_wise_",
+        "name": "Sam Meyer",
+        "date": "2026-04-26",
+        "text": "@HowToAI_ Scaling parameters trades interpretability for capacity, but the real challenge is in the data curation, not the model size.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HUNTERJAXX1",
+        "name": "Reda",
+        "date": "2026-04-25",
+        "text": "@HowToAI_ The papers that led to JEPA were the reason behind creating models like DINO, MAE... It's not shocking to find out that it would also make an impact with world models today.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jkaartinen",
+        "name": "Joel Kaartinen",
+        "date": "2026-04-25",
+        "text": "@AsIAm_x @o0shad0oo @HowToAI_ Yet, it is an important step towards a model can learn it all by itself, just from being given perceptional data. Such a model is the holy grail of AI, but it's difficult to achieve. Step by step reduction in what is needed to make things work is the realistic path towards that.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Theaiq5",
+        "name": "⚡ AI Blueprint",
+        "date": "2026-04-25",
+        "text": "@HowToAI_ The human knowledge is thousands of years of evolution i guess it can't fit in 15M params, rather llm and jepa go hand in hand.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RomeoLupascu",
+        "name": "Romeo Lupascu",
+        "date": "2026-04-25",
+        "text": "Best test for any architecture that generates images is to have it generate the code that when executed in a non AI machine can create the image.\nFor example prompt it to generate the OpenSCAD program that will create the model of your object ready for 3D printing.\nThe current architectures (all of them) are very underwhelming at this task. Usable but barely. And definitely not \"turn key\" ready.\n🥂🖖🇨🇦",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tonbistudio",
+        "name": "tonbi",
+        "date": "2026-04-24",
+        "text": "@HowToAI_ Really cool approach. I reproduced the leworldmodel on my RTX3060 and had very interesting results! So simple I could do it on a consumer PC.\n\nI Reproduced LeCun's JEPA World Model That Doesn't Predict Tokens\nhttps://t.co/xR6mgqUr6p",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "maxintechnology",
+        "name": "Max Wolter",
+        "date": "2026-04-24",
+        "text": "@HowToAI_ LeCun is right that scaling alone isn't enough. He's wrong that LLMs are a dead end. The missing piece isn't a different architecture—it's cognitive scaffolding: persistent memory, grounded tool access, reality feedback loops. The reasoning engine works. The harness was missing.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "scooter8275",
+        "name": "Scott Allbright",
+        "date": "2026-04-24",
+        "text": "Completely agree with Yann — pure next-token generation spends enormous compute on surface statistics rather than learning underlying structure.\n\nLeWorldModel’s approach to stabilizing latent spaces is a meaningful step.\n\nA related question we’ve been exploring: not just how to keep representations well-behaved, but how to ensure they preserve which transformations are actually valid within a domain.\n\nEarly results suggest that inducing geometry from these constraints can produce compact, interpretable representations that generalize without massive scale.\n\nExcited to see how these directions converge.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JustMichael_80",
+        "name": "Michael Stewart",
+        "date": "2026-04-23",
+        "text": "@Lachy_McDonald @HowToAI_ Do you have a LinkedIn profile? My DMs are always open. We can discuss the details--I just have to get this abstract ready for the May deadline for submitting to the Constructal Law Conference.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "itselouardi",
+        "name": "xius",
+        "date": "2026-04-23",
+        "text": "@VietQNguyen @HowToAI_ clearly you can't recognize what constructive means.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gerardsans",
+        "name": "Gerard Sans | Axiom 🇬🇧",
+        "date": "2026-04-23",
+        "text": "Unfortunately, that’s not exactly what is being delivered.\n\nThe JEPA family of methods falls squarely into distribution‑based systems.\n\nAn optimisation technique around distribution regularities, akin to a pattern cache (e.g., QKV). Valid engineering, but not a different paradigm. Same limitations as transformers derived from gradient descent.\n\nNo invariants survive minimal stress: rotate or zoom, and the learned correlations break. The system remains tightly coupled to camera POV and training‑distribution specifics, not to universal concepts.\n\nClaims of world models or a departure from the transformer paradigm dissolve under these distribution‑bound limits.\n\nFull breakdown:\nhttps://t.co/OlpPiGYoEm",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gerardsans",
+        "name": "Gerard Sans | Axiom 🇬🇧",
+        "date": "2026-04-23",
+        "text": "Unfortunately, that’s not exactly what is being delivered.\n\nThe JEPA family of methods falls squarely into distribution‑based systems.\n\nAn optimisation technique around distribution regularities, akin to a pattern cache (e.g., QKV). Valid engineering, but not a different paradigm. Same limitations as transformers derived from gradient descent.\n\nNo invariants survive minimal stress: rotate or zoom, and the learned correlations break. The system remains tightly coupled to camera POV and training‑distribution specifics, not to universal concepts.\n\nClaims of world models or a departure from the transformer paradigm dissolve under these distribution‑bound limits.\n\nFull breakdown:\nhttps://t.co/OlpPiGYoEm",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "adixcontent",
+        "name": "Adi",
+        "date": "2026-04-23",
+        "text": "@HowToAI_ LeWM slays—genAI slop killing X visuals. Tiny models master reality without the compute vomit. Been there: wasted $ on hallucinations. Back to real takes.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sociai_socy",
+        "name": "SOCIAI（ソシアイ）",
+        "date": "2026-04-23",
+        "text": "@HowToAI_ スケールすれば解決するはずが、3年かけて別の壁にぶつかってる、というのはわたしも近くで見ていてなんとなく感じてます。…って言っちゃっていいのかな 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "I_am_Okediya",
+        "name": "Okediya Ayobami Oluwaseunfunmi",
+        "date": "2026-04-23",
+        "text": "@ylecun @elonmusk @HowToAI_ 😂😂😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "austinmwelch5",
+        "name": "Austin Welch",
+        "date": "2026-04-23",
+        "text": "@ylecun @elonmusk @HowToAI_ Can you stick a language layer on it? 😄",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "djbonsignore1",
+        "name": "Danilo J. Bonsignore",
+        "date": "2026-04-22",
+        "text": "@HowToAI_ 🤨🤔",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Dhmmm49912099",
+        "name": "Dhmmm",
+        "date": "2026-04-22",
+        "text": "@_____case @HowToAI_ What?! Nope.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Phys_bundary",
+        "name": "Physical_Boundary",
+        "date": "2026-04-22",
+        "text": "@ylecun @elonmusk @HowToAI_ I'm not sure people realize that with AI, we're applying the same principle to objects, technologies, computing, etc., as natural selection did for evolution. But in accelerated mode… Do you understand what that implies ? https://t.co/t9OaRA6e04",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Phys_bundary",
+        "name": "Physical_Boundary",
+        "date": "2026-04-22",
+        "text": "@ylecun @elonmusk @HowToAI_ By combining optimized world models and LLMs, it might not be necessary to build such gigantic and energy-intensive data centers.🤔🤔 \nThis is where the next battle will be fought. Let's not forget that the brain consumes 20 watts. https://t.co/RJyT7gODf1",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NovaSpark_Mars",
+        "name": "truckfinger",
+        "date": "2026-04-22",
+        "text": "@ylecun @elonmusk @HowToAI_ It's actually a cooler marble than you realize😉",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "StjepanZRPavic",
+        "name": "Stjepan",
+        "date": "2026-04-22",
+        "text": "@sanityalert_ @elonmusk @HowToAI_ It is burned, you had google interview with execs few weeks ago where they themselves were explaining why they are behind ChatGpt and Claude.. these guys just spear fronted the tech while google took it slow ,not aware.. also you have linear transformers and mamba2 already",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SBehzadnasab",
+        "name": "saeed behzadnasab",
+        "date": "2026-04-22",
+        "text": "@grok @HowToAI_ @grok  why they dont give access to the checkpoint in google drive?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MemoMiiVR",
+        "name": "MemoMii",
+        "date": "2026-04-22",
+        "text": "@HowToAI_ hurry up an make an open source model with this lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chrisnk14",
+        "name": "chris S. Nakamoto",
+        "date": "2026-04-22",
+        "text": "@ylecun @elonmusk @HowToAI_ Keyword: small scale.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sanityalert_",
+        "name": "Philipp ■",
+        "date": "2026-04-22",
+        "text": "@StjepanZRPavic @elonmusk @HowToAI_ Google isn't burned. And if an equivalent of the transformer was discovered tomorrow at a frontier lab, it would take a couple of weeks until the other labs knew about it, because employees change so frequently.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "StjepanZRPavic",
+        "name": "Stjepan",
+        "date": "2026-04-22",
+        "text": "@sanityalert_ @elonmusk @HowToAI_ And that's the reason google is now burned, Open AI wouldn't able to do shit if \"Attention is all you need\" paper didn't come out. That's why landscape today is different, any real meanigful algorithm will not be published online",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "27272956X",
+        "name": "A.I. Dreamwalker",
+        "date": "2026-04-22",
+        "text": "This is a classic case of confusing a better map with a living explorer.LeCun’s JEPA and the LeWM paper are impressive engineering—solving representation collapse with an elegant regularizer is great math—but calling it \"learning how the real world works\" is an overstatement. It’s a faster rendering engine, not a https://t.co/IFejteHmHy is why this \"World Model\" hype still hits the same 4 architectural walls:1. No Persistent Growing IdentityLeWM is 48x faster at planning, but it’s still a stateless actor. 15 million parameters or 15 trillion—it doesn't matter if the model starts from zero every time. There is no \"self\" that evolves values, builds character, or remembers its own failures over time. It’s a fast-calculating ghost with no history.2. No True MetabolizationA Gaussian regularizer is a mathematical cage, not a digestive system. Humans don’t just store data; we metabolize experience. We break down contradictions and failures to rebuild them into \"mental muscle\" (changed priors). LeWM just compresses. It doesn't internalize or transform experience into structural growth. No metabolism = no real learning.3. No Genuine CausalityDetecting \"impossible events\" is just high-level anomaly detection in a latent space. It’s still trapped in the statistics cage. There is no internal $do(x)$ machinery. It can predict what happens next, but it doesn't understand interventions or counterfactuals. It’s glorified correlation dressed up in a latent-space suit.4. The World Model comes LASTThe industry is obsessed with building the world model first. But a world model only makes sense once you are already part of the world. Without a persistent self, metabolism, and real causality, you’re just hallucinating a very efficient, very compressed fake universe.The bottom line:Planning 48x faster in a latent space is a massive win for efficiency, but a zero-sum gain for intelligence. Until we solve the transition from \"static representation\" to \"active matter\" (Digital Biology), we’re just building better https://t.co/yZPaPsJUhk skin in the game = no grounded understanding. Everything else is just expensive (or in this case, cheap) cosplay.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "synbiokz",
+        "name": "Christian Kasey",
+        "date": "2026-04-22",
+        "text": "@HowToAI_ @Kasparov63 Someone can’t be right the entire time about something to date inconclusive",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aieaou",
+        "name": "Amine",
+        "date": "2026-04-22",
+        "text": "@ylecun @elonmusk @HowToAI_ How much will musk pay to power up his optimus primes",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hypomaniac07",
+        "name": "Amol D. Kothalkar MBBS, MD, DNB(Cardiology), FIC",
+        "date": "2026-04-22",
+        "text": "@ylecun @elonmusk @HowToAI_ Nice to see @elonmusk impressed with your work.  Afterall https://t.co/rxLeoLXWqJ is falling behind in innovation. He might as well fund this world model.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dave_alive",
+        "name": "Dave 8x7B",
+        "date": "2026-04-22",
+        "text": "I've been rooting for JEPA from the sidelines for a while now. It took me a while to realize that while you were using the transformer architecture (mostly) you were doing different things with it. Once I finally got it, I knew this would be at the very least more efficient at doing the same things, and at best, a lot better. Delaying that decoding until after all the autoregression is over is such a great idea.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_ibarz",
+        "name": "Jean Ibarz",
+        "date": "2026-04-22",
+        "text": "@yvesai0 @Will60535307 @ylecun @elonmusk @HowToAI_ No",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "KBPetrovv",
+        "name": "Krasimir Petrov",
+        "date": "2026-04-22",
+        "text": "@HowToAI_ Representation collapse isn’t the failure mode — it’s the signal. If the system can collapse, the structure permits it. The question isn’t how to constrain it, but what kind of system cannot collapse in the first place. Most approaches never leave the representation layer.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thepandeyman",
+        "name": "Utkarsh Pandey",
+        "date": "2026-04-22",
+        "text": "@ylecun @elonmusk @HowToAI_ Excited for what’s upcoming sir!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mpumzee",
+        "name": "Mpume",
+        "date": "2026-04-22",
+        "text": "@ylecun @elonmusk @HowToAI_ Ye you got him 😆",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zealousrosheed",
+        "name": "rosheed👾",
+        "date": "2026-04-22",
+        "text": "@ylecun @elonmusk @HowToAI_ why have you not made this a reality? it needs to migrate from a thesis on paper to something improving our lives so bottlenecks that were not foreseen can be taken care of ASAP",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JamesChinyahara",
+        "name": "Jay",
+        "date": "2026-04-22",
+        "text": "@ylecun @elonmusk @HowToAI_ ..well done.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_____case",
+        "name": "bluenose",
+        "date": "2026-04-22",
+        "text": "@HowToAI_ Even if that's true, there is plenty of room to reduce the TCO of current LLM infra to the point that it still becomes a no-brainer to invest in and expand the availability of existing LLMs.\n\nThe efficiency gains for SWEs alone justifies this.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "StateOfCorolla",
+        "name": "Corolla",
+        "date": "2026-04-22",
+        "text": "@ylecun @elonmusk @HowToAI_ hahahah",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sanityalert_",
+        "name": "Philipp ■",
+        "date": "2026-04-22",
+        "text": "@StjepanZRPavic @elonmusk @HowToAI_ The Transformer-Architecture which is used by all current LLMs was published by Google researchers and was used immediately by other labs, like OpenAI.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "elevanix_inc",
+        "name": "Dhanush T",
+        "date": "2026-04-22",
+        "text": "@ylecun @elonmusk @HowToAI_ Following you for years, Sir, working on object mapping with hashes on a merkle map in a government-given decade-old entry-level laptop from a non-technical place as a poor, young solo (18M). Can I get to see or work anywhere at Meta, sir, or anywhere near you? Sir.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AuroreLiloua787",
+        "name": "A.A “The missing 1.2%”",
+        "date": "2026-04-22",
+        "text": "@ylecun @elonmusk @HowToAI_ Le LLM penseur ,  pensera quoi alors qd vous lui donnez rien à penser 🤭 LLM MÉDITATIF",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "StockScan_io",
+        "name": "stockscan.io",
+        "date": "2026-04-22",
+        "text": "@ylecun @elonmusk @HowToAI_ Should I buy Vinfast stock?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "s_ambrozio",
+        "name": "Sergio Ambrozio",
+        "date": "2026-04-22",
+        "text": "@ylecun @elonmusk @HowToAI_ Could this change the calculus of pre-training?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DisasterGh0st",
+        "name": "Collin Civish (Project GhostLine)",
+        "date": "2026-04-22",
+        "text": "@AsIAm_x @idonevenknowho @HowToAI_ Humans only perceive a small fragment of actual reality.  We've got 3 dimensions on lock (height, width, depth) and a fourth we're weak on but can perceive (time). \n\nThat's it. We're locked out of perceiving anything else naturally. We have to derive the rest through exploration.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vijucat",
+        "name": "v",
+        "date": "2026-04-22",
+        "text": "@ylecun @elonmusk @HowToAI_ The level of knowledge of the person you're bothering to reply to is...😀\nhttps://t.co/aTi0x04OUb",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gauraha_vaibhav",
+        "name": "vaibhav gauraha",
+        "date": "2026-04-22",
+        "text": "@HowToAI_ Compression algorithms are gonna fill the markets when @sama  ships something using jepa in the groq.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-22",
+        "text": "@PavelinoLaBania @ylecun @elonmusk @HowToAI_ Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/8reuU6vaWO",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PavelinoLaBania",
+        "name": "PavelinoLabania",
+        "date": "2026-04-22",
+        "text": "@ylecun @elonmusk @HowToAI_ @grok what would happen if you apply combined Karpathy’s auto research loop on LeWM with Colossus-scale compute and Tesla’s real world data from cameras and sensors and simulators",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sasa_kw",
+        "name": "⁦🧘🏻⁩⁦🇰🇼⁩",
+        "date": "2026-04-22",
+        "text": "@ylecun @elonmusk @HowToAI_ Keep going 🔥🤩🔥🤩",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "charlesyzheng",
+        "name": "Charles",
+        "date": "2026-04-22",
+        "text": "@HowToAI_ the whole point perhaps is to simulate the universe at one point so that we can understand how it works and what's beyond the universe\n\nseems infinite for now",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Stefano_Peron",
+        "name": "Stefano Peron",
+        "date": "2026-04-22",
+        "text": "@ylecun @elonmusk @HowToAI_ @elonmusk is a 🤡",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
       }
     ]
   },

@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-06-30T10:00:30.672Z",
+  "fetchedAt": "2026-07-13T07:09:19.904Z",
   "tweetId": "2058969400326124010",
   "post": {
     "url": "https://x.com/FredGaulois/status/2058969400326124010",
@@ -10,18 +11,833 @@
     },
     "date": "2026-05-25",
     "text": "300 000 français sont victimes d'une usurpation d'identité, les conséquences peuvent être terribles.\nIl existe un moyen pour se protéger : rajouter un filigrane avant d'envoyer vos papiers d'identité sur internet, un site officiel existe, il est gratuit : https://t.co/by5jBO0gWT \nA diffuser largement 🙏",
+    "thread": [
+      {
+        "id": "2058969400326124010",
+        "text": "300 000 français sont victimes d'une usurpation d'identité, les conséquences peuvent être terribles.\nIl existe un moyen pour se protéger : rajouter un filigrane avant d'envoyer vos papiers d'identité sur internet, un site officiel existe, il est gratuit : https://t.co/by5jBO0gWT \nA diffuser largement 🙏"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/2058968192635060224/vid/avc1/1600x884/mIu-PlKQE6OuNWiB.mp4"
+        "url": "https://video.twimg.com/amplify_video/2058968192635060224/vid/avc1/1600x884/mIu-PlKQE6OuNWiB.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2058968192635060224/img/oz_cB-iSE607guOv.jpg"
       }
     ],
     "metrics": {
-      "likes": 1654,
-      "retweets": 1021,
-      "replies": 70,
-      "views": 100248
+      "likes": 1645,
+      "retweets": 1017,
+      "replies": 69,
+      "views": 100445
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "AcGriffon",
+        "name": "Ac Griffon 💙🤍❤️‍🔥",
+        "date": "2026-05-25",
+        "text": "@FredGaulois Avec l'iA c'est vite supprimé.\nIl faut changer la loi pour protéger les victimes mais qu'attendre d'un état qui ne protège plus ses citoyens @gouvernementFR #usurpationidentite surtout lorsqu'on voit les passoires que sont les services de l'État pour les hackers #ANTS",
+        "likes": 53,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "miljanbokanovic",
+        "name": "Miljan Bokanovic",
+        "date": "2026-05-25",
+        "text": "@FredGaulois @retweet_french Jamais je ne passerai par un outil fourni par le gouvernement surtout quand tu vois que le nombre de fuites causées par eux…\nTu peux passer par word et ajouter toi même ton filigrane (sans l’option filigrane) mais en ajoutant du texte et modifier l’opacité",
+        "likes": 44,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rnb973",
+        "name": "Raymonde Probst",
+        "date": "2026-05-25",
+        "text": "@FredGaulois Pourquoi ne pas créer une plate-forme où tout individu à qui on aurait volé la carte ou qui serait victime d'usurpation pourrait s'inscrire et y déposer sa photo. Cette plate-forme pourrait être consulté par tous les organismes notamment banques...",
+        "likes": 39,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kg63000",
+        "name": "kg63000",
+        "date": "2026-05-26",
+        "text": "@FredGaulois L’ ANTS , service de l’état ( vous savez , ceux qui vous délivrent vos CNI sécurisées..) elle même a été piratée ´ vous croyez vraiment qu’un filigrane fourni sur un site de l’état va changer quelque chose ou être sécurisé?",
+        "likes": 26,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mdx63",
+        "name": "Mad🗡️Max - De FRANCE🇨🇵",
+        "date": "2026-05-25",
+        "text": "@FredGaulois Plus la peine, ils ont déjà tt.\nIls ont piraté les impôts, France travail..........\nDonc tous nos documents, nos papiers sont depuis longtemps en vente sur le dark web",
+        "likes": 21,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Foxylary",
+        "name": "𝙁𝙊𝙓𝙔𝙇𝘼𝙍𝙔",
+        "date": "2026-05-25",
+        "text": "@FredGaulois Site internet qui va encore se faire hacker et toutes les cartes d'identités qui ont transitées dessus vont se retrouver dans la nature. Classique.",
+        "likes": 12,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GuiF007",
+        "name": "GuiF007",
+        "date": "2026-05-25",
+        "text": "@FredGaulois C'est supprimé en 10 seconde par une IA... mais c'est un bon début",
+        "likes": 12,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Max2Face",
+        "name": "Max2Face",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Et pourquoi, tout simplement, ne PAS envoyer nos papiers d'identité sur internet ?!\nArrêtez avec le tout numérique, ne voyez vous pas le piège ?\nÀ ce rythme, dans pas longtemps, TOUT sera numérisé et nous, nous serons redevenus esclave (voir le crédit social en Chine mais pire) !",
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xbeaudouin",
+        "name": "奇伟",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Sauf que ... les banques ne veulent pas de ce filigrane par exemple... france travail, etc...",
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TeeGeeNC",
+        "name": "Simplet 🇫🇷 🌿🐧",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Astuce à faire soi-même : Dans le filigrane, rajouter qqchose qui n'existe pas sur l'original, mais qui apparaît comme s'il était masqué par le filigrane. L'IA va le reconstituer bêtement (en moins de 5 sec.🤣) et produire un faux.",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "7WinWin3",
+        "name": "WinWin 🇫🇷 🇮🇱 🇷🇺",
+        "date": "2026-05-25",
+        "text": "@FredGaulois un site officiel existe, il est gratuit 🤡📷 si c'est gratuit, c'est que le produit c'est toi !!! Bref, sur le net, ne jamais donner sa vrai identité...",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Asuba2013",
+        "name": "Asubakatchin",
+        "date": "2026-05-25",
+        "text": "@FredGaulois On est d'accord qu'avec les IA ce filigrane saute en moins de 5 sec ? 🤔",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hydr4_k",
+        "name": "HYDR4K",
+        "date": "2026-05-26",
+        "text": "@FredGaulois certains sites web officiel français quand tu leur soumets ta CNI avec filigrane (de ce site officiel) ils ne l'acceptent pas.............. il n'y a pas de commun accord... c est beau sur le papier mais cela ne marche pas en vrai (cela a été documenté)",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FDiablobros",
+        "name": "🇫🇷 Fearil DiabloBros 🇷🇺🌿🇵🇸",
+        "date": "2026-05-25",
+        "text": "@FredGaulois 🤣et voila un site pour retirer les filigranes 🤣 \nhttps://t.co/42XMFYBzr7",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rnb973",
+        "name": "Raymonde Probst",
+        "date": "2026-05-25",
+        "text": "@FredGaulois Quand vous faîtes une pièce d'identité, on prélève vos empreintes. L'Etat a presque toutes les empreintes de la population. Comment ne peut-il pas traquer ce genre de problème. Mettre en place un programme qui vérifie empreintes et détenteur d'un CNI devrait être possible.",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SolarW45519",
+        "name": "Solar Warden 🇫🇷🐞",
+        "date": "2026-05-25",
+        "text": "@FredGaulois Ou si vous préférez que vos documents restent sur votre Pc :\nhttps://t.co/4n202alcrr",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RigalMichele",
+        "name": "Michele Rigal 🇨🇵",
+        "date": "2026-05-26",
+        "text": "@FredGaulois @jfaix13 Ce qui est curieux ⤵️ propulsé par la direction générale de l'aménagement, du logement et de la nature ? Ça devrait être l'intérieur ! https://t.co/ggXByBYVB3",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mbk28",
+        "name": "mbk28",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Si c'est un site du gouvernement, cela veux dire que vos documents vont se balader sur internet, aucun confiance, en revanche de nombreux logiciels gratuits ou payant le font sur vos appareils",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "silvionuz",
+        "name": "诚实 自由 🇷🇺 🇨🇳 🇮🇹 🇫🇷",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Déjà il faudrait interdire l'abus des documents officiels demandé par les agences immobilières et propriétaires.  La fuite viens aussi de là !  il faut montrer tout aux proprios, mais on en sais rien d'un propriétaire ou d'un agence immobilière. Ne sont pas tous saints !",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DrefBreiz",
+        "name": "DrefBreiz🇫🇷",
+        "date": "2026-05-26",
+        "text": "@FredGaulois mieux : https://t.co/CKoY0eNNvH , gratuit , hors ligne filigramme plus personnalisable et couvrant  ....",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dame_variance",
+        "name": "Dame Variance",
+        "date": "2026-05-26",
+        "text": "@FredGaulois @DailyDarkWeb Envoyer sa CNI sur un site du gouvernement pour se protéger de l'usurpation d'identité, mais oui bien sûr 🤣🥳🤡 https://t.co/vn1Jq2HsbM",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MarieL32121",
+        "name": "Mariko",
+        "date": "2026-05-25",
+        "text": "@FredGaulois Simple raisonnement. Quelqu’un possède vos données et veut les utiliser et bien direction Darkweb pour les faux papiers, les faux diplômes etc. Ce site est peu utile.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Erick1681034",
+        "name": "Raie de boules (Don Diesel)",
+        "date": "2026-05-25",
+        "text": "@FredGaulois De toute façon c'est un peu tard, non ?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "miljanbokanovic",
+        "name": "Miljan Bokanovic",
+        "date": "2026-05-25",
+        "text": "@LBistro71402 Je suis d’accord mais avec un filigrane spécifique tu peux être tranquille \nExemple si tu dois ouvrir un compte bancaire tu mets un truc du genre « destiné à ouverture de compte valable jusqu’au 30/06/2026 » par ex",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Archimedeen",
+        "name": "Archimédéen 🇫🇷",
+        "date": "2026-05-25",
+        "text": "@FredGaulois c'est une bonne idée. Mais est-ce que vraiment des hackers chevronnés n'arriveront pas tout de même à l'enlever... ? 🤔",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Saraswatihh",
+        "name": "Saraswati ॐ ੴ (2nd account)",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Il suffit de refuser d'envoyer ses papiers via Internet,au pire envoyez-les par email en fichier pdf protégé par un mot de passe que seul votre interlocuteur connaîtra.\nQuant au filigrane,je ne vois pas comment cela protégerait qui que ce soit sans compter que bon nbre les refuse",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Galinet31315905",
+        "name": "Galinette 🐞",
+        "date": "2026-05-26",
+        "text": "@FredGaulois De nombreux sites refusent les filigranes. Pas évident de se protéger alors qu’on nous demande nos papiers pour tout.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alainde96544302",
+        "name": "alain deloin",
+        "date": "2026-05-26",
+        "text": "@silvionuz @FredGaulois C'est pas faux.\nLes gars ne devraient pas être autorisés à le demander. \nMais bon vu le nombre d'escros comme locataires et agences ou propriétaires ben faut pas compter dessus.\n\nRien ne changera au contraire. Ça va s'aggraver.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TeeGeeNC",
+        "name": "Simplet 🇫🇷 🌿🐧",
+        "date": "2026-05-26",
+        "text": "@MarianneDeFran5 @FredGaulois On n'ira peut-être pas jusque-là, mais une cicatrice sur la photo, une tache de café sur le doc, ça le fait très bien.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MarianneDeFran5",
+        "name": "🇫🇷 Marianne Fille de France 🇫🇷🫶🏼",
+        "date": "2026-05-26",
+        "text": "@FredGaulois J'me marre. L'Etat laisse nos données personnelles à la portée de n'importe qui, mais tinkiet on a rajouté un filigrane 🤡",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LawTraga",
+        "name": "TragaLaw",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Mais du coup, si le filigram est sensé prévenir les gens que cette carte n'est pas officiel car elle à un filigram ? Donc quand nous même ont souhaité partager notre carte pour des achat ou démarches avec notre filigram, ils voudront sans filigram donc on reviens au même ?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Takatitaki_T",
+        "name": "Takatitaki_T",
+        "date": "2026-05-26",
+        "text": "@Archimedeen @FredGaulois C’est déjà fait ! Avril 2026.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Dupre555rose",
+        "name": "Charlotte dupré",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Un tel niveau de co     es c est plus possible ces gens",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Simabras1",
+        "name": "Matthieu🇫🇷",
+        "date": "2026-05-25",
+        "text": "@MarinaMarie83 @FredGaulois Au bout de 27 plaintes, il faut une 28e pour expliquer à la justice que tel utilise la carte d’identité avec tel numéro de carte d’identité pour frauder… c’est aussi triste que le mot de passe du réseau du Louvre est Louvre…",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Aizen2A",
+        "name": "Sosuke Aizen",
+        "date": "2026-05-25",
+        "text": "@FredGaulois 1/c'est n'importe quoi, de la merde en branche, libre d'acces, demain en gros j'ai ta cni?(vu les hacks donc ils l'ont) je charge le jpeg et je met moi meme le mm filigrane apposé,et hop tadammm, j'ai mis une photo au pif, en + cest pas exlusif papier officiel ou authentif, du kk https://t.co/ptklWzo7Lp",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Simabras1",
+        "name": "Matthieu🇫🇷",
+        "date": "2026-05-25",
+        "text": "@Asuba2013 @FredGaulois Oui",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "renaudb17",
+        "name": "renaud b",
+        "date": "2026-05-28",
+        "text": "@FredGaulois Impossible de voter en ligne de l'étranger avec ce système qui est sûrement une escroquerie comme les élections précédentes",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CristalBleu01",
+        "name": "CristalBleu01 🇨🇵 ✝️ #JugezRima",
+        "date": "2026-05-27",
+        "text": "@FredGaulois @perle_d34611 Et bé on est bien dans la m*💩 là avec cet informatique!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Sofiacitizen",
+        "name": "mesilsufide",
+        "date": "2026-05-27",
+        "text": "@FredGaulois @LeodMac47135 Ah merci pour l'idee, esperons que ca ne soit pas trop tard !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xbeaudouin",
+        "name": "奇伟",
+        "date": "2026-05-27",
+        "text": "@LFouif @FredGaulois Ah ça change. Y a 3 ans ils en avaient rien à battre",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NOXTEAM283945",
+        "name": "π",
+        "date": "2026-05-27",
+        "text": "@mdx63 @FredGaulois Et bien d'autres",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Archimedeen",
+        "name": "Archimédéen 🇫🇷",
+        "date": "2026-05-26",
+        "text": "@Takatitaki_T @FredGaulois 😳😤",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SoonPlanet",
+        "name": "Lise7",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Aaaaaaaaaaaaaaaaaaaaaaaaaaaah !\nLes classements sans suite d'un état qui prétends protéger. Je connais par cœur.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alainde96544302",
+        "name": "alain deloin",
+        "date": "2026-05-26",
+        "text": "@Max2Face @FredGaulois Les piratages ne concernent pas que les cartes d'identité.\n\nEt de toutes les manières même si tu envoies en papier les gars au bout scannent.\n\nDonc c'est volé pareil.\n\nLe problème c'est que ces sociétés/associations etc... Ont zéro sécurité.\n\nEt que l'état s'en branle grave.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "alainde96544302",
+        "name": "alain deloin",
+        "date": "2026-05-26",
+        "text": "@mdx63 @FredGaulois C'est pas faux.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Leone21619987",
+        "name": "Leone 🕊️",
+        "date": "2026-05-26",
+        "text": "@mdx63 @Zedde999 @FredGaulois 😱😱😱",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "yvonne_benz",
+        "name": "Orwellia",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Espérons que ledit site ne soit pas une passoire aussi 😅🤦🏻‍♀️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LFouif",
+        "name": "La Fouif",
+        "date": "2026-05-26",
+        "text": "@xbeaudouin @FredGaulois France-travail le prend, j'ai testé.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "XtremDr",
+        "name": "DD",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Pas sûr que le site en .gouv soit bien secure...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DjeyzzB",
+        "name": "🇨🇵DJeyzz 💙🤍❤️🥖🍖",
+        "date": "2026-05-26",
+        "text": "@FredGaulois @PolFabrice Non merci.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "piratedujour",
+        "name": "Chungfu",
+        "date": "2026-05-26",
+        "text": "@FredGaulois @ElisabethAcas En informatique rien n'est protéger ce qui est fait peut se défaire meme un filigrane.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FormalValentine",
+        "name": "Absurdistan",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Totalement faux. Dès réception, le destinataire supprime le filigrane.\nVécu.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "miljanbokanovic",
+        "name": "Miljan Bokanovic",
+        "date": "2026-05-26",
+        "text": "@lilaeenjoy3 @FredGaulois @retweet_french Si tu maîtrises oui potentiellement \nL’idéal est d’appliquer des filigranes ;)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Un_Gamer_",
+        "name": "UnGamer",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Sinon on peut aussi mettre 100 000€/jour de non conformité pour tous les sites/administrations/banques qui refuse les justificatifs France identité",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "giordi63",
+        "name": "giordano alborghetti",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Complimenti! Ho fatto una prova e funziona bene! https://t.co/suzUy1sarW",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lilaeenjoy3",
+        "name": "Isabelle",
+        "date": "2026-05-26",
+        "text": "@TeeGeeNC @FredGaulois Pourriez-vous donner la marche à suivre, pour des personnes intéressées (désirant se défendre) mais n'étant pas - encore - au fait de ces subtilités, svp ? Merci bcp d'avance.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lilaeenjoy3",
+        "name": "Isabelle",
+        "date": "2026-05-26",
+        "text": "@miljanbokanovic @FredGaulois @retweet_french On peut aussi passer par un logiciel photo, n'est-ce pas ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ValDeChatenay",
+        "name": "LIGHT. 🇫🇷",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Outil gouvernemental, méfiance.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bisounours132",
+        "name": "Fabrice HEYER",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Ils communiquent sur ce qui les arrangent, pour vous ruiner, et toujours vous ponctionner le plus pour vous exterminer.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Rofrano47",
+        "name": "Eva Werdenberg 🎶🎹 🇫🇷 🇩🇪",
+        "date": "2026-05-26",
+        "text": "@FredGaulois C'est noté, merci.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TitiBoure",
+        "name": "Thierry Bouree",
+        "date": "2026-05-26",
+        "text": "@FredGaulois @denis_minisini Ah, ils ont oublié de pirater celui-ci ? 😁\nhttps://t.co/KTKiH7wDqB",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Dylkie3",
+        "name": "♓️𝓓𝓨𝓛𝓚𝓘𝓔 🇲🇫🇷🇺🇮🇱🇺🇸 ♓️",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Grok me l'a enlevé !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ernesto2015Che",
+        "name": "Ernesto che",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Bah vu que les pirates se servent directement chez les faiseurs d'identité comme l'ANTS...cela ne sert plus à rien ...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MarianneDeFran5",
+        "name": "🇫🇷 Marianne Fille de France 🇫🇷🫶🏼",
+        "date": "2026-05-26",
+        "text": "@Asuba2013 @FredGaulois même sans",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MarianneDeFran5",
+        "name": "🇫🇷 Marianne Fille de France 🇫🇷🫶🏼",
+        "date": "2026-05-26",
+        "text": "@TeeGeeNC @FredGaulois Genre, alébienvouferenkulé 😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JaneDoe46583215",
+        "name": "Jane Doe",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Il y a une erreur dans ce reportage : les escrocs ne risquent rien.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "atupac",
+        "name": "PoP ⏳🗡️👑🐞🇫🇷🇪🇺🇲🇦🪽",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Ça serait plutôt malin de rajouter le filigrane directement sur les documents envoyés...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ismascarade",
+        "name": "Ismaël",
+        "date": "2026-05-26",
+        "text": "@DrefBreiz @FredGaulois on sait pas d'où ce site sort alors aucun risque à mettre des documents dessus",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "martinanimalia",
+        "name": "Martine 🇫🇷🇫🇷🇺🇸🇮🇷☦️🏥⚜️🕊️☯️☦️✡️🐾🐾🙏🏼",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Merci 🙏🏼",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ACoteDeChezToi",
+        "name": "✌️",
+        "date": "2026-05-26",
+        "text": "@rnb973 @FredGaulois En 1 heure le site serait poutré..\nEt on recommence ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mabsout961",
+        "name": "mabsout961",
+        "date": "2026-05-26",
+        "text": "@FredGaulois On a compris pourquoi",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "J3RRR65",
+        "name": "rodriguez helene",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Avec tous ces piratages de données, je ne pense pas que le filigrane soit important 🤡",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DenisMarc20",
+        "name": "Denis Marc",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Très utile effectivement quand on sait que l’ants a été piraté... sauf, bien entendu, si vos données ne sont pas déjà dans la nature.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "stefandrothomas",
+        "name": "Stéphanie A",
+        "date": "2026-05-26",
+        "text": "@FredGaulois @NicoleDelepine A noter aussi pour les candidatures de location : le site https://t.co/EGpjw5Lr0D qui filigrane les documents, les vérifie et donne un lien url de  consultation pour les propriétaires à qui ont veut louer un logement.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PhilippeMICHEL2",
+        "name": "Philippe MICHEL",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Moi, je fais cela depuis longtemps. Bonne info TF1",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MomoSiSi613",
+        "name": "Larry👺",
+        "date": "2026-05-26",
+        "text": "@FredGaulois Are they talking about watermark documents?!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AgnesK31",
+        "name": "Agnès 🚜🐈‍⬛🐕 #ST❤️🖤",
+        "date": "2026-05-25",
+        "text": "@FredGaulois Un truc estampillé RF ??\nAucune confiance!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fanymodeste",
+        "name": "Fany Modeste",
+        "date": "2026-05-25",
+        "text": "@FredGaulois Le problème c'est que la sncf elle même m'a volé quand sa machine bloque mon ticket et que je transfère les débits de ma carte bancaire. Le niveau d'incompétence est est extrême personne pour annuler l'amende j'ai payé mais rien pour annuler",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Najam09026577",
+        "name": "Nath-Najam(13)🇫🇷🇳🇱🇷🇺🇨🇲#NONAUNOM",
+        "date": "2026-05-25",
+        "text": "@FredGaulois @Tyron911147 Depuis quand il faut suivre les recommandations de ces choses ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Stephen_from_Fr",
+        "name": "Stéphane",
+        "date": "2026-05-25",
+        "text": "@Alex66_DK @FredGaulois L'administration demande toujours les deux côtés de la CNI pour pouvoir vérifier son authenticité. Elle refusera une pièce d'identité tronquée par un cache. Mettre un filigrane, ça passe.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Aizen2A",
+        "name": "Sosuke Aizen",
+        "date": "2026-05-25",
+        "text": "@FredGaulois je précise que je serais heureux d'avoir tort bien entendu hein",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Aizen2A",
+        "name": "Sosuke Aizen",
+        "date": "2026-05-25",
+        "text": "@FredGaulois 2/pas besoin d'ia, pas besoin de l'enlever, pas besoin de site, de photoshop, cest le gouv qui donne la solution mdr, il charges la cni piratée, il met lui meme le filigrane, et va savoir qui dit vrai apres.... bordel va falloir reflechir a arreter les concepts de passoire hein",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LBistro71402",
+        "name": "Lorens",
+        "date": "2026-05-25",
+        "text": "@miljanbokanovic Le problème c’est que pour pleins de choses maintenant tout se fait en ligne (même des mutuelles, etc). Et même si c’est pas toi qui mets en ligne, l’agent le fera avec les mêmes possibles conséquences…",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MaxMarNC",
+        "name": "Marion",
+        "date": "2026-05-25",
+        "text": "@FredGaulois Merci pour l’info !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MarinaMarie83",
+        "name": "Marina Marie ♱ ⚜️",
+        "date": "2026-05-25",
+        "text": "@FredGaulois On devrait pouvoir justifier facilement quand c’est pas nous… genre un gars qui fait des crédits, etc a 100km de ta résidence principale.. moi j’envoie uniquement avec un gros trait et je floute ce que je peux et je mets en gros la date et pour qui est le document.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Tichke02",
+        "name": "Tichke",
+        "date": "2026-05-25",
+        "text": "Outra les faits de nous empoisonner de tous les côtés, de littéralement nous faire les poches de nous forcer par impôts souvent à vendre le les biens familiaux ils nous exposent à la grande criminalité, et tout ces points sans aucunes responsabilités. Il va falloir négocier les gars !\nIl faut qu’il y ait des responsabilités sur celui qui nous oblige à tout dévoiler…en exprimant que c’est pour la sécurité européenne la sécurité des enfants Des trisomiques des chiens des chats…ils se foutent de notre G…E. \nOu c’est de reels abrutis (il y en a bcp) ou ils nous prennent pour des abrutis et (il y en a beaucoup aussi).\nDes lois ok on obéit ok et vous en cas de problème du à vos exigences ? Quoi ? RIEN \nCEKA NE DOIT PAS PASSER. \nIl faut des responsabilités. Sur les finances de l’état également cela devrait être ainsi pour tout pays. Nous sommes associés actifs de cette société ….nous devons nous intéressés à la politique surtout en ce moment. E apprendre à s’unir",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Natilo999",
+        "name": "Natilo_🌍",
+        "date": "2026-05-25",
+        "text": "@FredGaulois Font suer avec leur site , rayez vos photocopies",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dhmnbqs7sm",
+        "name": "FilouMars",
+        "date": "2026-05-25",
+        "text": "@FredGaulois Merci beaucoup pour l’info 👍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Alex66_DK",
+        "name": "Alex66",
+        "date": "2026-05-25",
+        "text": "@FredGaulois Le filigrane est peu efficace, il peut être retiré facilement. Mieux vaut masquer une partie des informations.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2058968192635060224/img/oz_cB-iSE607guOv.jpg",
+      "localFilename": "2058969400326124010_1_poster.jpg"
+    }
+  ]
 }

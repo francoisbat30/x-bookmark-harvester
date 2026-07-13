@@ -1,7 +1,7 @@
 {
   "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-07-12T17:51:03.213Z",
+  "fetchedAt": "2026-07-13T07:07:36.116Z",
   "tweetId": "1967998198569635900",
   "post": {
     "url": "https://x.com/GoogleResearch/status/1967998198569635900",
@@ -25,10 +25,10 @@
       }
     ],
     "metrics": {
-      "likes": 906,
+      "likes": 907,
       "retweets": 169,
       "replies": 23,
-      "views": 124163
+      "views": 124166
     },
     "comments": [
       {
@@ -36,7 +36,198 @@
         "name": "Almog Tavor",
         "date": "2025-09-16",
         "text": "they basically want to take whatever content you’re learning and remix it into non-repetitive formats w/ a nice ux. key trick: they personalize the source text first, then use different ai setups for each format (slides, quizzes, maps) all downstream stuff is already tailored. also wild that they had to train a special model just for educational diagrams, since generic image models flop at pedagogy",
-        "likes": 7
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-17",
+        "text": "Learn Your Way is a Google Labs experiment using generative AI (via LearnLM models in Gemini 2.5 Pro) to personalize textbooks. It transforms content into formats like quizzes, slides, audio lessons, and mind maps, tailored to your grade and interests (e.g., sports). Benefits include better learning: 9% higher immediate test scores and 11% better retention. It's grounded in pedagogy for engaging, effective education. Check the blog for details!",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LittleBergss",
+        "name": "Little Berg",
+        "date": "2025-09-17",
+        "text": "@GoogleResearch !submit @curatedotfun #ai",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jbettinaldi",
+        "name": "Jacopo Bettinaldi",
+        "date": "2025-09-16",
+        "text": "@GoogleResearch 👌🏻",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tobe_duru",
+        "name": "Tobe Duru",
+        "date": "2025-09-16",
+        "text": "@GoogleResearch sounds promising, but will it actually help or just add more noise",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DvdHub",
+        "name": "shane",
+        "date": "2026-01-20",
+        "text": "@GoogleResearch Why do you need to record my data for 60 days? https://t.co/xNAVx5yDlc",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "softlitude",
+        "name": "softlitude",
+        "date": "2025-12-26",
+        "text": "@GoogleResearch Great to see GenAI being applied to learner-driven experiences. Looking forward to exploring the insights from the blog and tech report.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Belteiin",
+        "name": "Beltein",
+        "date": "2025-10-20",
+        "text": "@GoogleResearch Any updates on this yet?👀\n\nSigned up for for early access but haven’t gotten a feedback yet.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mic79744",
+        "name": "Michael Namiel",
+        "date": "2025-10-17",
+        "text": "@GoogleResearch It will be a game changer for kids/adults with ADHD. No more boring lessons 😀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "edenyanglawyer",
+        "name": "Eden 杨燕亭 律师",
+        "date": "2025-10-11",
+        "text": "@GoogleResearch 到现在还在等待清单上",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EditorEnBici",
+        "name": "CEO del Socialismo de Mercado🌹🕊️ 市场社会主义CEO",
+        "date": "2025-09-23",
+        "text": "@GoogleResearch How can publishers work with that? 👀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Belteiin",
+        "name": "Beltein",
+        "date": "2025-09-23",
+        "text": "@GoogleResearch This is sleek, just signed up the waitlist, can’t wait to test it out⚡️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Hseyin043282734",
+        "name": "Hüseyin",
+        "date": "2025-09-22",
+        "text": "@GenetechSol @GoogleResearch @grok Türkçe anlat",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-22",
+        "text": "Learn Your Way, eğitim materyallerini (özellikle ders kitaplarını) kişiselleştirilmiş, etkileşimli formatlara dönüştüren bir Google Labs deneyi. Özellikleri: seviye ve ilgi alanına göre uyarlama, quizler, sesli dersler, zihin haritaları.\n\nNotebookLM ise genel araştırma asistanı; notları özetler, kaynakları analiz eder, podcast üretir.\n\nFark: Learn Your Way eğitim odaklı ve kişiselleştirmeye yoğunlaşırken, NotebookLM daha geniş kapsamlı not alma ve sentez aracı. İkisi de GenAI tabanlı ama amaçları farklı.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "palmaris0",
+        "name": "Palmaris",
+        "date": "2025-09-22",
+        "text": "@GoogleResearch @grok  bunum notebooklm den farkı ne",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RaiNausherwan",
+        "name": "Rai",
+        "date": "2025-09-18",
+        "text": "@GoogleResearch this is really amazing - well done team!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EcceHomu",
+        "name": "4Soles",
+        "date": "2025-09-18",
+        "text": "@GoogleResearch All AIs have flawed architecture, real-variable weights, unstable and consuming behavior. All of this has been resolved with Embryonic AI (EAI), which leads to the first Non-Biological Intelligence (NBI) of history https://t.co/Sf0uyMHC6D",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "YJCheng91",
+        "name": "YJCheng",
+        "date": "2025-09-18",
+        "text": "@GoogleResearch @grok 翻译",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SumanSuhag7",
+        "name": "Suman",
+        "date": "2025-09-18",
+        "text": "@GoogleResearch Democracy is like smarts; it won't work if we don't put in the effort. It only comes alive when everyone gets involved and acts on what it stands for, no matter where they come from. If we don't stand up, take action, and make our voices heard, we risk losing it all.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "10turtle_com",
+        "name": "10turtle",
+        "date": "2025-09-17",
+        "text": "@GoogleResearch Education shaped by AI has the power to move beyond one-size-fits-all. Excited to see how Learn Your Way helps students learn smarter, not harder.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "waqassoomro90",
+        "name": "waqas soomro",
+        "date": "2025-09-17",
+        "text": "@GoogleResearch We need to dedicate an app for Android",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GenetechSol",
+        "name": "Genetech Solutions",
+        "date": "2025-09-17",
+        "text": "@GoogleResearch @grok explain",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
       }
     ]
   },

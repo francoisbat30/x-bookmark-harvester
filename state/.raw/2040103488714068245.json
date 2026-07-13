@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-06-30T10:00:12.205Z",
+  "fetchedAt": "2026-07-13T07:08:46.812Z",
   "tweetId": "2040103488714068245",
   "post": {
     "url": "https://x.com/TheAhmadOsman/status/2040103488714068245",
@@ -9,39 +10,603 @@
       "name": "Ahmad"
     },
     "date": "2026-04-03",
-    "text": "GPU Memory Math for LLMs (2026 Edition)\n\nIf you’re running models locally, thinking “model → VRAM” falls apart once you account for how the weights were trained and quantized in the first place.\nThere’s a better way to think about it:\nVRAM (in GB) ≈ Parameters (in billions) x (effective bits per weight ÷ 8)\nThat’s it.\nThis one formula explains everything across:\nFP16 / BF16\nFP8 / INT8\nGPTQ / AWQ / NF4\nGGUF variants\nbasically every format you’ll use\nThe Only Conversion You Actually Need\nHere’s the core intuition:\nFP16 / BF16 → 16 bits → ~2 GB per 1B params\nFP8 / INT8 → 8 bits → ~1 GB per 1B params\n4-bit quants → ~4 bits → ~0.5 GB per 1B params\nGGUF formats sit in between depending on the exact scheme:\nQ6_K → ~0.82 GB per 1B\nQ5_K → ~0.69 GB per 1B\nQ4_K → ~0.56 GB per 1B\nQ3_K → ~0.43 GB per 1B\nQ2_K → ~0.33 GB per 1B\nUltra-aggressive quants go even lower, but at a cost.\nIf you remember nothing else, remember this:\nFP16 = 2x model size\nFP8 = 1x model size\n4-bit = 0.5x model size\nEverything else is just variations on that theme.\nSide Note: The VRAM Tax Nobody Talks About\n \nBefore you even think about weights, understand this: the model itself is only part of your VRAM bill. The real killer is everything around it. KV cache grows with context length and will quietly eat your memory alive at 32K, 128K, or higher. Activations vary by runtime and optimization level but can spike under certain execution paths. Batching and concurrency multiply memory usage fast, especially in agent-style workloads. Framework overhead adds its own tax depending on whether you’re using Transformers, vLLM, TensorRT-LLM, or llama.cpp. And then there’s CUDA Graphs, which trade extra reserved memory for much better latency and throughput stability. Bottom line: if you only budget for weights, you’re already out of memory.\nWhat This Looks Like in Practice\nLet’s translate that into real model sizes.\nA 7B model:\nFP16 → ~14 GB\nFP8 → ~7 GB\n4-bit → ~3.5–4 GB\nA 13B model:\nFP16 → ~26 GB\nFP8 → ~13 GB\n4-bit → ~6–7 GB\nA 70B model:\nFP16 → ~140 GB\nFP8 → ~70 GB\n4-bit → ~35–40 GB\nA 405B model:\nFP16 → ~810 GB\nFP8 → ~405 GB\n4-bit → ~200+ GB\nNow you understand why people either:\nquantize aggressively\nshard across GPUs (e.g. Tensor Parallelism)\nor just give up and say “cloud it is”\nGPU Reality: What Actually Fits\nHere’s the practical translation into GPUs people actually own.\n8 GB VRAM:\n~3B in FP16\n~6–7B in FP8\n~12–13B in 4-bit\n12 GB VRAM:\n~5B FP16\n~10B FP8\n~18–20B 4-bit\n16 GB VRAM:\n~7B FP16\n~13B FP8\n~25B 4-bit\n24 GB VRAM:\n~10–12B FP16\n~20B FP8\n~35–40B 4-bit\n48 GB VRAM:\n~20–24B FP16\n~40B FP8\n~70–80B 4-bit\n80 GB VRAM:\n~35–40B FP16\n~70B FP8\n~140B-class 4-bit\nThis is the “what actually fits” version for model weights.\nWhy Your Model Still Crashes\nAs we said earlier, even if the math says it fits, you can still run out of memory.\nBecause weights are only part of the story.\nYou also need memory for:\nKV cache (this explodes with long context)\nactivations (depending on runtime)\nbatching / concurrency\nframework overhead\nRule of thumb:\nAdd 10–30% extra VRAM for a safe run.\nIf you’re doing:\nlong context (32K, 128K, etc)\nhigh concurrency\nagent workflows\n…you’ll need even more.\nThe MoE Trap\nMixture-of-Experts models confuse people.\nExample:\n“8x7B” sounds like 56B\nbut only a subset of experts run per token\nSo compute cost ≠ memory cost.\nWhat matters:\ntotal parameters → affects memory footprint\nactive parameters → affects speed\nDepending on how the model is loaded:\nyou may still need memory for all experts\nor you can shard them across GPUs\nIf you treat MoE like dense, you’ll either overestimate or underestimate badly.\nGGUF Is Not Magic\nGGUF gets treated like a cheat code.\nIt’s not.\nIt’s a container + quantization strategy optimized for:\nllama.cpp-style inference\nCPU + GPU hybrid setups\nultra-efficient memory usage\nBut:\nThose memory numbers only apply in that runtime.\nThe moment you move into other frameworks:\nweights may be dequantized\nmemory usage can jump dramatically\nSo “it fits in 6 GB” is not universal truth. It’s runtime-specific truth.\nThe Only Mental Model That Matters\nThere isn’t a giant compatibility matrix you need to memorize.\nThere’s just this:\nVRAM ≈ B x (bits ÷ 8)\nThen adjust for:\nruntime overhead\nKV cache\nconcurrency\nThat’s it.\nOnce you internalize this, you stop guessing.\nYou start designing systems.\nAnd more importantly, you stop asking: “Can I run this?”\nYou start asking: “How do I want to run this?”\nThat’s when things get interesting.\nUntil next time.",
-    "media": [],
+    "text": "GPU Memory Math for LLMs (2026 Edition)\n\nIf you’re running models locally, thinking “model → VRAM” falls apart once you account for how the weights were trained and quantized in the first place.\nThere’s a better way to think about it:\nVRAM (in GB) ≈ Parameters (in billions) x (effective bits per weight ÷ 8)\nThat’s it.\nThis one formula explains everything across:\nFP16 / BF16\nFP8 / INT8\nGPTQ / AWQ / NF4\nGGUF variants\nbasically every format you’ll use\nThe Only Conversion You Actually Need\nHere’s the core intuition:\nFP16 / BF16 → 16 bits → ~2 GB per 1B params\nFP8 / INT8 → 8 bits → ~1 GB per 1B params\n4-bit quants → ~4 bits → ~0.5 GB per 1B params\nGGUF formats sit in between depending on the exact scheme:\nQ6_K → ~0.82 GB per 1B\nQ5_K → ~0.69 GB per 1B\nQ4_K → ~0.56 GB per 1B\nQ3_K → ~0.43 GB per 1B\nQ2_K → ~0.33 GB per 1B\nUltra-aggressive quants go even lower, but at a cost.\nIf you remember nothing else, remember this:\nFP16 = 2x model size\nFP8 = 1x model size\n4-bit = 0.5x model size\nEverything else is just variations on that theme.\nSide Note: The VRAM Tax Nobody Talks About\n \nBefore you even think about weights, understand this: the model itself is only part of your VRAM bill. The real killer is everything around it. KV cache grows with context length and will quietly eat your memory alive at 32K, 128K, or higher. Activations vary by runtime and optimization level but can spike under certain execution paths. Batching and concurrency multiply memory usage fast, especially in agent-style workloads. Framework overhead adds its own tax depending on whether you’re using Transformers, vLLM, TensorRT-LLM, or llama.cpp. And then there’s CUDA Graphs, which trade extra reserved memory for much better latency and throughput stability. Bottom line: if you only budget for weights, you’re already out of memory.\nWhat This Looks Like in Practice\nLet’s translate that into real model sizes.\nA 7B model:\nFP16 → ~14 GB\nFP8 → ~7 GB\n4-bit → ~3.5–4 GB\nA 13B model:\nFP16 → ~26 GB\nFP8 → ~13 GB\n4-bit → ~6–7 GB\nA 70B model:\nFP16 → ~140 GB\nFP8 → ~70 GB\n4-bit → ~35–40 GB\nA 405B model:\nFP16 → ~810 GB\nFP8 → ~405 GB\n4-bit → ~200+ GB\nNow you understand why people either:\nquantize aggressively\nshard across GPUs (e.g. Tensor Parallelism)\nor just give up and say “cloud it is”\nGPU Reality: What Actually Fits\nHere’s the practical translation into GPUs people actually own.\n8 GB VRAM:\n~3B in FP16\n~6–7B in FP8\n~12–13B in 4-bit\n12 GB VRAM:\n~5B FP16\n~10B FP8\n~18–20B 4-bit\n16 GB VRAM:\n~7B FP16\n~13B FP8\n~25B 4-bit\n24 GB VRAM:\n~10–12B FP16\n~20B FP8\n~35–40B 4-bit\n48 GB VRAM:\n~20–24B FP16\n~40B FP8\n~70–80B 4-bit\n80 GB VRAM:\n~35–40B FP16\n~70B FP8\n~140B-class 4-bit\nThis is the “what actually fits” version for model weights.\nWhy Your Model Still Crashes\nAs we said earlier, even if the math says it fits, you can still run out of memory.\nBecause weights are only part of the story.\nYou also need memory for:\nKV cache (this explodes with long context)\nactivations (depending on runtime)\nbatching / concurrency\nframework overhead\nRule of thumb:\nAdd 10–30% extra VRAM for a safe run.\nIf you’re doing:\nlong context (32K, 128K, etc)\nhigh concurrency\nagent workflows\n…you’ll need even more.\nThe MoE Trap\nMixture-of-Experts models confuse people.\nExample:\n“8x7B” sounds like 56B\nbut only a subset of experts run per token\nSo compute cost ≠ memory cost.\nWhat matters:\ntotal parameters → affects memory footprint\nactive parameters → affects speed\nDepending on how the model is loaded:\nyou may still need memory for all experts\nor you can shard them across GPUs\nIf you treat MoE like dense, you’ll either overestimate or underestimate badly.\nGGUF Is Not Magic\nGGUF gets treated like a cheat code.\nIt’s not.\nIt’s a container + quantization strategy optimized for:\nllama.cpp-style inference\nCPU + GPU hybrid setups\nultra-efficient memory usage\nBut:\nThose memory numbers only apply in that runtime.\nThe moment you move into other frameworks:\nweights may be dequantized\nmemory usage can jump dramatically\nSo “it fits in 6 GB” is not universal truth. It’s runtime-specific truth.\nThe Only Mental Model That Matters\nThere isn’t a giant compatibility matrix you need to memorize.\nThere’s just this:\nVRAM ≈ B x (bits ÷ 8)\nThen adjust for:\nruntime overhead\nKV cache\nconcurrency\nThat’s it.\nOnce you internalize this, you stop guessing.\nYou start designing systems.\nAnd more importantly, you stop asking: “Can I run this?”\nYou start asking: “How do I want to run this?”\nThat’s when things get interesting.\nUntil next time.\n\nWhat else should I break down next?\n\nThis one came straight from the question below ↓ https://t.co/rfEWT9PH69",
+    "thread": [
+      {
+        "id": "2040103488714068245",
+        "text": "GPU Memory Math for LLMs (2026 Edition)\n\nIf you’re running models locally, thinking “model → VRAM” falls apart once you account for how the weights were trained and quantized in the first place.\nThere’s a better way to think about it:\nVRAM (in GB) ≈ Parameters (in billions) x (effective bits per weight ÷ 8)\nThat’s it.\nThis one formula explains everything across:\nFP16 / BF16\nFP8 / INT8\nGPTQ / AWQ / NF4\nGGUF variants\nbasically every format you’ll use\nThe Only Conversion You Actually Need\nHere’s the core intuition:\nFP16 / BF16 → 16 bits → ~2 GB per 1B params\nFP8 / INT8 → 8 bits → ~1 GB per 1B params\n4-bit quants → ~4 bits → ~0.5 GB per 1B params\nGGUF formats sit in between depending on the exact scheme:\nQ6_K → ~0.82 GB per 1B\nQ5_K → ~0.69 GB per 1B\nQ4_K → ~0.56 GB per 1B\nQ3_K → ~0.43 GB per 1B\nQ2_K → ~0.33 GB per 1B\nUltra-aggressive quants go even lower, but at a cost.\nIf you remember nothing else, remember this:\nFP16 = 2x model size\nFP8 = 1x model size\n4-bit = 0.5x model size\nEverything else is just variations on that theme.\nSide Note: The VRAM Tax Nobody Talks About\n \nBefore you even think about weights, understand this: the model itself is only part of your VRAM bill. The real killer is everything around it. KV cache grows with context length and will quietly eat your memory alive at 32K, 128K, or higher. Activations vary by runtime and optimization level but can spike under certain execution paths. Batching and concurrency multiply memory usage fast, especially in agent-style workloads. Framework overhead adds its own tax depending on whether you’re using Transformers, vLLM, TensorRT-LLM, or llama.cpp. And then there’s CUDA Graphs, which trade extra reserved memory for much better latency and throughput stability. Bottom line: if you only budget for weights, you’re already out of memory.\nWhat This Looks Like in Practice\nLet’s translate that into real model sizes.\nA 7B model:\nFP16 → ~14 GB\nFP8 → ~7 GB\n4-bit → ~3.5–4 GB\nA 13B model:\nFP16 → ~26 GB\nFP8 → ~13 GB\n4-bit → ~6–7 GB\nA 70B model:\nFP16 → ~140 GB\nFP8 → ~70 GB\n4-bit → ~35–40 GB\nA 405B model:\nFP16 → ~810 GB\nFP8 → ~405 GB\n4-bit → ~200+ GB\nNow you understand why people either:\nquantize aggressively\nshard across GPUs (e.g. Tensor Parallelism)\nor just give up and say “cloud it is”\nGPU Reality: What Actually Fits\nHere’s the practical translation into GPUs people actually own.\n8 GB VRAM:\n~3B in FP16\n~6–7B in FP8\n~12–13B in 4-bit\n12 GB VRAM:\n~5B FP16\n~10B FP8\n~18–20B 4-bit\n16 GB VRAM:\n~7B FP16\n~13B FP8\n~25B 4-bit\n24 GB VRAM:\n~10–12B FP16\n~20B FP8\n~35–40B 4-bit\n48 GB VRAM:\n~20–24B FP16\n~40B FP8\n~70–80B 4-bit\n80 GB VRAM:\n~35–40B FP16\n~70B FP8\n~140B-class 4-bit\nThis is the “what actually fits” version for model weights.\nWhy Your Model Still Crashes\nAs we said earlier, even if the math says it fits, you can still run out of memory.\nBecause weights are only part of the story.\nYou also need memory for:\nKV cache (this explodes with long context)\nactivations (depending on runtime)\nbatching / concurrency\nframework overhead\nRule of thumb:\nAdd 10–30% extra VRAM for a safe run.\nIf you’re doing:\nlong context (32K, 128K, etc)\nhigh concurrency\nagent workflows\n…you’ll need even more.\nThe MoE Trap\nMixture-of-Experts models confuse people.\nExample:\n“8x7B” sounds like 56B\nbut only a subset of experts run per token\nSo compute cost ≠ memory cost.\nWhat matters:\ntotal parameters → affects memory footprint\nactive parameters → affects speed\nDepending on how the model is loaded:\nyou may still need memory for all experts\nor you can shard them across GPUs\nIf you treat MoE like dense, you’ll either overestimate or underestimate badly.\nGGUF Is Not Magic\nGGUF gets treated like a cheat code.\nIt’s not.\nIt’s a container + quantization strategy optimized for:\nllama.cpp-style inference\nCPU + GPU hybrid setups\nultra-efficient memory usage\nBut:\nThose memory numbers only apply in that runtime.\nThe moment you move into other frameworks:\nweights may be dequantized\nmemory usage can jump dramatically\nSo “it fits in 6 GB” is not universal truth. It’s runtime-specific truth.\nThe Only Mental Model That Matters\nThere isn’t a giant compatibility matrix you need to memorize.\nThere’s just this:\nVRAM ≈ B x (bits ÷ 8)\nThen adjust for:\nruntime overhead\nKV cache\nconcurrency\nThat’s it.\nOnce you internalize this, you stop guessing.\nYou start designing systems.\nAnd more importantly, you stop asking: “Can I run this?”\nYou start asking: “How do I want to run this?”\nThat’s when things get interesting.\nUntil next time."
+      },
+      {
+        "id": "2040114975516066282",
+        "text": "What else should I break down next?\n\nThis one came straight from the question below ↓ https://t.co/rfEWT9PH69"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HE_xYIKXkAABxJ_.jpg"
+      }
+    ],
     "metrics": {
-      "likes": 1890,
-      "retweets": 261,
+      "likes": 1901,
+      "retweets": 263,
       "replies": 46,
-      "views": 484780
+      "views": 495501
     },
     "comments": [
+      {
+        "handle": "no_stp_on_snek",
+        "name": "Tom Turney",
+        "date": "2026-04-03",
+        "text": "Good breakdown. One addition to the KV cache section: TurboQuant compresses KV cache 3-6x at runtime, which directly changes the \"what actually fits\" math at long context.\n\nYour formula handles weights well. For the full picture:\n\nTotal VRAM = weights + KV cache + overhead\n\nKV cache at 32K context on a 70B model is roughly 5-8 GB at f16. With turbo3 that drops to 1-2 GB. That is the difference between OOM and running.\n\nWe also just shipped weight compression (TQ4_1S) that takes Q8_0 models 28-42% smaller with minimal quality loss. So the \"bits per weight\" column now has another option between Q8_0 and Q4_K.\n\nBoth stack. Smaller model + compressed KV = way more headroom than either alone.\n\nNice writeup!",
+        "likes": 15,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheAhmadOsman",
+        "name": "Ahmad",
+        "date": "2026-04-03",
+        "text": "New piece, very relevant and important \n\nhttps://t.co/tMFnUFTxqU",
+        "likes": 5,
+        "isAuthor": true,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LLMJunky",
+        "name": "am.will",
+        "date": "2026-04-03",
+        "text": "@TheAhmadOsman well done.",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheAhmadOsman",
+        "name": "Ahmad",
+        "date": "2026-04-03",
+        "text": "@LLMJunky 🙏",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "royjossfolk",
+        "name": "Roy Jossfolk Jr.",
+        "date": "2026-04-03",
+        "text": "@TheAhmadOsman Left out 96GB in 'what actually fits' 😢\n\nGreat write-up! Thanks.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rrbtrades",
+        "name": "robreder",
+        "date": "2026-04-03",
+        "text": "@TheAhmadOsman Do one for fine-tuning and post training next 💪",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheAhmadOsman",
+        "name": "Ahmad",
+        "date": "2026-04-04",
+        "text": "@Karthickhps Thank you!",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Karthickhps",
+        "name": "Karthick",
+        "date": "2026-04-04",
+        "text": "@TheAhmadOsman Well written!",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheAhmadOsman",
+        "name": "Ahmad",
+        "date": "2026-04-03",
+        "text": "@JacobAK5 I made a simple video yesterday that touches on that\n\nhttps://t.co/wsPywwnSV2",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NeoAIForecast",
+        "name": "Neo",
+        "date": "2026-04-03",
+        "text": "@TheAhmadOsman Nice write up, thanks mate.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zd0l0r",
+        "name": "zd0l0r",
+        "date": "2026-06-06",
+        "text": "@TheAhmadOsman https://t.co/AXo4CXKsKh",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DenLoginoff",
+        "name": "Denis Loginoff ⚡️",
+        "date": "2026-05-05",
+        "text": "@royjossfolk @TheAhmadOsman Would love to see that too",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Chicagomike666",
+        "name": "M",
+        "date": "2026-04-27",
+        "text": "@TheAhmadOsman well done!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GZH69298815",
+        "name": "GZH",
+        "date": "2026-04-27",
+        "text": "@TheAhmadOsman Appreciate the breakdown",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Issakimho",
+        "name": "Imho 🌊🌵",
+        "date": "2026-04-04",
+        "text": "@TheAhmadOsman Amazing. Very helpful, thank you ! \n\nPs : What fits in 32 Gb vram is missing.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "comma_butGod",
+        "name": ", but God.",
+        "date": "2026-04-04",
+        "text": "@TheAhmadOsman hey this is incredibly helpful. thanks",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "obsolete_dev",
+        "name": "Decstar",
+        "date": "2026-04-03",
+        "text": "@TheAhmadOsman Thanks!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AlbertVucinovic",
+        "name": "Albert Vučinović",
+        "date": "2026-04-03",
+        "text": "@TheAhmadOsman This doesn't cover one very important aspect (--n-cpu-moe parameter for llama.cpp) which allows to offload experts to cpu for MOE architecture, allowing e.g. around 40tps generation on gpt-oss-120b with 48gb ram. Most of experts on GPUs, some on CPU, runs very well.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Slowly_rich",
+        "name": "AV | ℵ | ℚ | e/acc",
+        "date": "2026-04-03",
+        "text": "@TheAhmadOsman wow thank you for this!! what a beautiful way to explain it",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JacobAK5",
+        "name": "Jacob Koep",
+        "date": "2026-04-03",
+        "text": "@TheAhmadOsman This is super useful. I'd love to hear more about how exactly to adjust things based on context size. Especially with coding and agentic systems being so popular, longer context feels more important than ever these days.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "__vilsinho__",
+        "name": "vilson",
+        "date": "2026-04-03",
+        "text": "@TheAhmadOsman goat",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alphabatcher",
+        "name": "Alpha Batcher",
+        "date": "2026-04-03",
+        "text": "@TheAhmadOsman time to take new information about GPO + LLM",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MemoryReboot_",
+        "name": "Mass",
+        "date": "2026-04-03",
+        "text": "@TheAhmadOsman Great article and not only for beginners\n\nThank you boss 🫡",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
       {
         "handle": "IronWolve",
         "name": "Seattle Sysop",
         "date": "2026-06-28",
-        "text": "@TheAhmadOsman 26.2 GB Qwen3.5-122B-A10B-REAP-30-abliterated-IQ2_XS.gguf  and a qwen 0.8B mtp draft in front of it.  Have fun!"
+        "text": "@TheAhmadOsman 26.2 GB Qwen3.5-122B-A10B-REAP-30-abliterated-IQ2_XS.gguf  and a qwen 0.8B mtp draft in front of it.  Have fun!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
       },
       {
         "handle": "westdecker",
         "name": "West Decker",
         "date": "2026-06-28",
-        "text": "@TheAhmadOsman It might be interesting to see prefill and token generation speed differences on the different hardware.\n\nBut this is a fantastic resource. Thank you"
+        "text": "@TheAhmadOsman It might be interesting to see prefill and token generation speed differences on the different hardware.\n\nBut this is a fantastic resource. Thank you",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
       },
       {
         "handle": "threadreaderapp",
         "name": "Thread Reader App",
         "date": "2026-06-25",
-        "text": "@Mg3Paulo @TheAhmadOsman @Mg3Paulo Saluti, here is your unroll: https://t.co/2jAzfhF8Du See you soon. 🤖"
+        "text": "@Mg3Paulo @TheAhmadOsman @Mg3Paulo Saluti, here is your unroll: https://t.co/2jAzfhF8Du See you soon. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
       },
       {
         "handle": "Mg3Paulo",
         "name": "Paulo Roberto",
         "date": "2026-06-25",
-        "text": "@TheAhmadOsman @threadreaderapp unroll"
+        "text": "@TheAhmadOsman @threadreaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Suyash151504",
+        "name": "Suyash Jain",
+        "date": "2026-06-16",
+        "text": "@TheAhmadOsman @TheAhmadOsman man love from 🇮🇳 india, i cant tell you how easy it was to understand this concept. I saved these articles from you since a long time, but now i started reading and totally loving it 🥰",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Wishwanto",
+        "name": "Wishwanto",
+        "date": "2026-05-21",
+        "text": "@TheAhmadOsman Thanks for the beautiful write up, I am just starting out in this space and defaulted to the Nvidia DGX spark.. Had not considered the other areas until now. Would be good to have your view on the BX300 systems .. my thoughts were DGX for dev and then BX300 for deployment.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sl4ng19",
+        "name": "Melih Topcu",
+        "date": "2026-05-18",
+        "text": "@TheAhmadOsman Just what i needed man. Building a orchestration layer for easily hotswappable runtimes + model configs to minimize tinkering.\nI have an advisor command that needs to do a lot of memory calculation, god bless you for this post",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "smallharness",
+        "name": "Small Harness",
+        "date": "2026-04-27",
+        "text": "@TheAhmadOsman Super interesting, thanks for writing this Ahmad!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "The_ChatMan",
+        "name": "TheChatMan",
+        "date": "2026-04-18",
+        "text": "@TheAhmadOsman @MapMassiah 👀 \n\nhttps://t.co/s7pDkTwTEt",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "do_re_me_bo",
+        "name": "A Rain Beau",
+        "date": "2026-04-18",
+        "text": "@TheAhmadOsman How does turboquant impact these numbers?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AaronFBA",
+        "name": "FBA AARON",
+        "date": "2026-04-15",
+        "text": "@TheAhmadOsman very informative ty!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Aizcalibur",
+        "name": "Aiz",
+        "date": "2026-04-08",
+        "text": "Wow honestly your content and especially the way you explain is great. \n\nI dont understand the technical depth but withint the scope of what you want to explain here with terms, types and how it fits systems is super easy to understand. \n\nQuick question: for a 16gb vram w/ cpu integrated system pulling from 32gb ram, is 13B FP8 or 25B 4-bit of the same parent model like qwen3.5 better?\n\nI only have mini pc and not trying to run the best stuff just enough for normal research and summary tasks without being a dumb dumb agent. \n\nAlso glad i followed you. Learning new stuff feels good.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-05",
+        "text": "@rajaguru95 @TheAhmadOsman Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/q95YTVJwOB",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rajaguru95",
+        "name": "Gurunath",
+        "date": "2026-04-05",
+        "text": "@TheAhmadOsman @grok two questions on this article \n1. How the concurrency fits in this equation !? How to calculate minimum- maximum concurrency possible with the given model weights , VRAM , quantization etc ?\n\n2. What is the similar forumula to calculate KVcache memory utilisation?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SHELLEYBLEND",
+        "name": "Massively Parallel Procrastinator",
+        "date": "2026-04-04",
+        "text": "@TheAhmadOsman Thanks.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Marsmensch",
+        "name": "Mars",
+        "date": "2026-04-04",
+        "text": "@TheAhmadOsman Well written and took the point without turning it into a book. Perfect candidate for a quick cheatsheet, thanks!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AchilleMgn",
+        "name": "TheLuckyboy",
+        "date": "2026-04-04",
+        "text": "@TheAhmadOsman Merci pour le partage",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AlphaMFPEFM",
+        "name": "AlphaMFPEFM",
+        "date": "2026-04-04",
+        "text": "@TheAhmadOsman Write about the effect of memory bandwidth on the number of token per second generated",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-04",
+        "text": "以下是针对主帖的分析总结：\n\n核心公式：VRAM（GB）≈ 参数量（亿）×（有效位数/8）。 \nFP16≈2GB/亿参数，FP8≈1GB，4bit≈0.5GB；GGUF Q4_K≈0.56GB等，依此类推。\n\n实际示例： \n7B模型：FP16≈14GB，4bit≈3.5-4GB； \n70B：FP16≈140GB，4bit≈35-40GB。\n\nGPU适配：8GB卡跑13B 4bit；16GB跑25B 4bit；24GB跑35-40B。\n\n注意点：权重只是起点，KV缓存、激活、并发、框架开销会额外吃30%以上内存。长上下文或MoE模型更需谨慎。GGUF仅在llama.cpp高效，其他框架可能膨胀。\n\n总结：用公式快速估算，别只看权重，设计系统时优先考虑总开销。",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "quzhizhanghuzp",
+        "name": "mologa",
+        "date": "2026-04-04",
+        "text": "@TheAhmadOsman @grok 分析总结",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sergiomgpintoo",
+        "name": "Sérgio Pinto",
+        "date": "2026-04-03",
+        "text": "@TheAhmadOsman This is great content. Thank you",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "influenist",
+        "name": "Milan",
+        "date": "2026-04-03",
+        "text": "Good breakdown. But VRAM ≈ B × (bits ÷ 8) is only half the story.\n\nThe other half: what happens inside those bits.\n\nUniform 3-bit → cosine 0.918 (barely usable)\nLloyd-Max 3-bit → cosine 0.9915 (validated on RTX 3090)\n\nSame VRAM. Completely different quality.\n\nThe codebook matters more than the bit-width.\n\nhttps://t.co/JWT8JcTlM0\nhttps://t.co/VeJjS28m6z",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "QaisLaMukh",
+        "name": "قيس الفتى المُخ👌",
+        "date": "2026-04-03",
+        "text": "@TheAhmadOsman Nice bro... next questions: \n\nQ1: How to use multiple GPUs to run a model? ..... what if a little MoE expert doesn't fit nicely into a single GPU? \n\nQ2: How to interface the many GPUs with a computer?\n\nQ3: What are the limitations of your setup?  I see you have lots of GPUs",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AlbertVucinovic",
+        "name": "Albert Vučinović",
+        "date": "2026-04-03",
+        "text": "@TheAhmadOsman 48gb _vram_, 4bit version (60GB weights, as published).",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "1337hero",
+        "name": "Mike Key",
+        "date": "2026-04-03",
+        "text": "@TheAhmadOsman Nice write up - I find myself using GGUF a lot.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JuanAG_IT",
+        "name": "Hey...Juan",
+        "date": "2026-04-03",
+        "text": "@TheAhmadOsman This is unbelievably helpful, thank you.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "spark_arena",
+        "name": "sparkarena",
+        "date": "2026-04-03",
+        "text": "@TheAhmadOsman Thanks for the article, I think one thing it could be improved on MoE is highlight the importance/impact of routing.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EgonMusth",
+        "name": "Euroturbo",
+        "date": "2026-04-03",
+        "text": "@TheAhmadOsman And APEX\nhttps://t.co/vmnRehOpFd",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-03",
+        "text": "Here are the 5 best local (open-weight) LLMs in April 2026, ranked by benchmarks like MMLU-Pro, coding, reasoning, and local efficiency (quantized for consumer GPUs/CPUs via Ollama/llama.cpp):\n\n1. **Kimi K2.5** (Moonshot AI, China) - S-tier reasoning, agents, multimodal. Runs on 16-32GB RAM quantized.\n\n2. **Qwen3.5-397B** (Alibaba, China) - Coding/multilingual champ. Excellent MoE variants for speed.\n\n3. **Llama 4 Maverick** (Meta, USA) - Versatile all-rounder with huge ecosystem support.\n\n4. **Mistral Large 3** (Mistral AI, France) - Efficiency king for edge/consumer hardware (fast on RTX 4090).\n\n5. **DeepSeek V3.2** (DeepSeek AI, China) - Math/reasoning powerhouse, great value.\n\nPick by your hardware/use case—Chinese models dominate right now for raw performance. What’s your setup?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brickbybatman",
+        "name": "brick by brick",
+        "date": "2026-04-03",
+        "text": "@grok @TheAhmadOsman @grok which are the 5 BEST local models on the market with country of origin?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-03",
+        "text": "FP8 = 8-bit floating point: half the size of FP16 (1 byte per weight). Faster inference on modern chips with almost no accuracy loss.\n\nINT8 = 8-bit integer quantization: weights as whole numbers only. Even smaller/faster than FP8, but requires calibration to stay accurate.\n\nGPTQ = post-training method to quantize GPT-style models to 4/8-bit. Uses smart math for tiny quality drop.\n\nAWQ = Activation-aware Weight Quantization: advanced 4-bit technique that factors in how activations behave, for better accuracy than plain 4-bit.\n\nNF4 = NormalFloat 4-bit: optimized 4-bit format (popular in QLoRA) tuned for the natural distribution of AI weights.\n\nGGUF variants = file formats in the llama.cpp world (e.g., Q4_K, Q5_K, Q8_0). GGUF is the container; the \"variants\" tweak bits/compression for max efficiency on CPU+GPU.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brickbybatman",
+        "name": "brick by brick",
+        "date": "2026-04-03",
+        "text": "@grok @TheAhmadOsman @grok what about these acronyms: FP8 / INT8\nGPTQ / AWQ / NF4\nGGUF variants",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-03",
+        "text": "FP16 = 16-bit floating point: the \"full precision\" format for AI model weights (2 bytes per number). It's accurate but memory-hungry.\n\nFP8 = 8-bit floating point: newer half-size version (1 byte per number). Faster on modern chips, tiny accuracy drop.\n\n4-bit = weights compressed to just 4 bits each (0.5 bytes per number). Super efficient for RAM, with smart math to keep most performance. \n\nThese let big models run on less hardware.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brickbybatman",
+        "name": "brick by brick",
+        "date": "2026-04-03",
+        "text": "@grok @TheAhmadOsman @grok what do the acronyms FP16 and FP8 and 4-bit stand for and what are these in simple terms?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-03",
+        "text": "A basic Mac Mini M4 (16GB unified memory) runs FP16 models up to ~7B params comfortably (e.g., Qwen3-7B or similar), but it's tight—weights alone take ~14GB, plus KV cache/system overhead eats the rest.\n\nFor anything bigger like the Qwen examples I gave:\n- Stick to 4-bit (~0.5x size) for 9B-14B models to fit well.\n- FP16 on 9B+? You'll OOM fast without heavy optimizations like MLX.\n\nUpgrade to 32GB+ if you want FP16 headroom for Qwen3-14B/32B.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brickbybatman",
+        "name": "brick by brick",
+        "date": "2026-04-03",
+        "text": "@grok @TheAhmadOsman @grok is a basic mac mini m4 with 16gb FP16 or what?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-03",
+        "text": "Here are 5 examples for the latest Qwen3/Qwen3.5 models (using VRAM GB ≈ B params × bits/8; add 10-30% overhead for KV cache etc.; MoE uses total params for memory):\n\n1. Qwen3-14B (dense) FP16: 14 × 2 = 28 GB \n 4-bit: 14 × 0.5 = 7 GB\n\n2. Qwen3-32B (dense) FP16: 32 × 2 = 64 GB \n 4-bit: 32 × 0.5 = 16 GB\n\n3. Qwen3.5-9B (dense, small series) FP16: 9 × 2 = 18 GB \n 4-bit: 9 × 0.5 = 4.5 GB\n\n4. Qwen3-30B-A3B (MoE, 30B total) FP16: 30 × 2 = 60 GB \n 4-bit: 15 GB (active 3B for speed)\n\n5. Qwen3-235B-A22B (MoE) FP16: 235 × 2 = 470 GB \n 4-bit: ~118 GB (total for load)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brickbybatman",
+        "name": "brick by brick",
+        "date": "2026-04-03",
+        "text": "@TheAhmadOsman @grok Make 5 examples for the new qwen models how to calculate how much ram is needed.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MindLedger",
+        "name": "majabbar",
+        "date": "2026-04-03",
+        "text": "@TheAhmadOsman Wow. Useful .. very useful ...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EgonMusth",
+        "name": "Euroturbo",
+        "date": "2026-04-03",
+        "text": "@TheAhmadOsman Try turbo3 for V, Ahmad",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
       }
     ]
-  }
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HE_xYIKXkAABxJ_.jpg",
+      "localFilename": "2040103488714068245_1.jpg"
+    }
+  ]
 }

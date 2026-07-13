@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:33.722Z",
+  "tweetId": "1983265845838291315",
+  "post": {
+    "url": "https://x.com/perplexity_ai/status/1983265845838291315",
+    "author": {
+      "handle": "perplexity_ai",
+      "name": "Perplexity"
+    },
+    "date": "2025-10-28",
+    "text": "Our latest blog post about how to get the most out of Perplexity at work:\n\nhttps://t.co/tN6iycGziD",
+    "thread": [
+      {
+        "id": "1983265845838291315",
+        "text": "Our latest blog post about how to get the most out of Perplexity at work:\n\nhttps://t.co/tN6iycGziD"
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 582,
+      "retweets": 57,
+      "replies": 39,
+      "views": 219660
+    },
+    "comments": []
+  }
+}

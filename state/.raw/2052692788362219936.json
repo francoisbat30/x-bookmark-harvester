@@ -1,0 +1,837 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:10:51.113Z",
+  "tweetId": "2052692788362219936",
+  "post": {
+    "url": "https://x.com/NicolasZu/status/2052692788362219936",
+    "author": {
+      "handle": "NicolasZu",
+      "name": "Nicolas Zullo"
+    },
+    "date": "2026-05-08",
+    "text": "Ok, something awesome just happened. \n\nSomeone genius, in France, @romainsimon (bravo), created skills for AI agents specialized in \"paperasse\" (= French paperwork bureaucracy).\n\nI opened Codex, and it did all my taxes. Like for real\n\nEven more, instead of a hellish chore, it was fun?\n\nTriple checked everything (yeah you never know) and it was 100% correct\n\nThe bonus: with Browser Use, codex filled all the cells on the Taxes website. Surreal\n\nYou can check it out (in French) https://t.co/WBIBqu29ir",
+    "thread": [
+      {
+        "id": "2052692788362219936",
+        "text": "Ok, something awesome just happened. \n\nSomeone genius, in France, @romainsimon (bravo), created skills for AI agents specialized in \"paperasse\" (= French paperwork bureaucracy).\n\nI opened Codex, and it did all my taxes. Like for real\n\nEven more, instead of a hellish chore, it was fun?\n\nTriple checked everything (yeah you never know) and it was 100% correct\n\nThe bonus: with Browser Use, codex filled all the cells on the Taxes website. Surreal"
+      },
+      {
+        "id": "2052692791939973392",
+        "text": "You can check it out (in French) https://t.co/WBIBqu29ir"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HHygbLhXcAMfyLQ.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 2008,
+      "retweets": 178,
+      "replies": 45,
+      "views": 154323
+    },
+    "comments": [
+      {
+        "handle": "romainsimon",
+        "name": "Romain Simon",
+        "date": "2026-05-08",
+        "text": "@NicolasZu Awesome 🥰",
+        "likes": 80,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NicolasZu",
+        "name": "Nicolas Zullo",
+        "date": "2026-05-09",
+        "text": "@moradrpm @romainsimon J’espérais montrer au monde le génie Français mais au final j’ai touché des Français avec mon post en anglais",
+        "likes": 18,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "groktuto",
+        "name": "groky",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon Do you mean paper-ass?",
+        "likes": 15,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LongDuZgegs",
+        "name": "Samy",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon 😂😂😂 quel est l’intérêt de parler anglais étant français vivant en France pour ensuite que d’autre Français répondent en anglais eux même 😂😂😂😂 https://t.co/RSYra1Vund",
+        "likes": 12,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NicolasZu",
+        "name": "Nicolas Zullo",
+        "date": "2026-05-08",
+        "text": "@romainsimon Thank you Romain, awesome work",
+        "likes": 12,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "emmanuel_2m",
+        "name": "Emm | scenario.com",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon Holy baguette \n\nThis is incredible @romainsimon. \n\nAnd, right on time for this tax season 🥐 https://t.co/oeBhX4Dhr7",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "balaganovitch",
+        "name": "mancap",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon Au passage en anglais \"paperasse\" serait \"red tape\"",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "balaganovitch",
+        "name": "mancap",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon Next level: do the same for German bureaucracy, call it \"papierkram\"",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JeremB573",
+        "name": "Jérémy 🇫🇷🇱🇺 | IA",
+        "date": "2026-05-09",
+        "text": "@NicolasZu @romainsimon Moi, je me suis servi de Claude pour faire mes impôts et franchement c'est bluffant",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MerlinB_FX",
+        "name": "Merlin 🧙🏻‍♂️",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon Get the man a Legion D’Honneur.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SamuelBenitah",
+        "name": "Impulse",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon Alors à tester à minima pour la culture, gg!",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "roominioo",
+        "name": "Romain",
+        "date": "2026-05-09",
+        "text": "@NicolasZu @romainsimon Super merci",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MonneyArthur",
+        "name": "Le Chrétien Dev",
+        "date": "2026-05-09",
+        "text": "@yopafabrice @NicolasZu @romainsimon On parlait de ça hier 😂😂😂",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ArchiSoftTech",
+        "name": "Ady Tech",
+        "date": "2026-05-09",
+        "text": "@NicolasZu @romainsimon utilité publique , merci !",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chocola88081173",
+        "name": "Catless child lady",
+        "date": "2026-05-09",
+        "text": "@romainsimon @NicolasZu Un génie 🧞🥹👏🏾",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PaulADW",
+        "name": "Paul ADW",
+        "date": "2026-05-09",
+        "text": "@romainsimon @NicolasZu You’re a king !",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "42s_video",
+        "name": "La Voix du Chat Artiste",
+        "date": "2026-05-09",
+        "text": "@NicolasZu @romainsimon We should share « la bonne Nouvelle » all accross French companies , bells and whistle it!",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LeGoybou",
+        "name": "Le Goybou 🇫🇷🇮🇱",
+        "date": "2026-05-09",
+        "text": "@NicolasZu @romainsimon C'est d'utilité publique ce taff @romainsimon Merci !",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "marianandre",
+        "name": "Marian André",
+        "date": "2026-05-09",
+        "text": "@NicolasZu @romainsimon Awesome !",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jeanpaulpollue",
+        "name": "jpp",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon Ouf le bol d'air frais !",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MerlinB_FX",
+        "name": "Merlin 🧙🏻‍♂️",
+        "date": "2026-05-08",
+        "text": "@romainsimon @NicolasZu https://t.co/npHdl9Ychg",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NicolasZu",
+        "name": "Nicolas Zullo",
+        "date": "2026-05-08",
+        "text": "@bigcoincoin @romainsimon J’ai Indy en gratuit",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "romainsimon",
+        "name": "Romain Simon",
+        "date": "2026-05-08",
+        "text": "@emmanuel_2m @NicolasZu Thanks Emmanuel! Yes timely ☺️",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LughSpear",
+        "name": "Spear of Lugh 🔱",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon Start-up nation",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cnotin",
+        "name": "Clément Notin",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon Attention quand même à quelques simplifications erronées. Par exemple la \"contribution salariale\" de 10% sur les RSU https://t.co/NzdQ72lGmt qui n’existe pas forcément même pour les plans qualifiants cf. https://t.co/PvPq26S6VY",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RsaTeddyboy",
+        "name": "Teddyboy rsa",
+        "date": "2026-05-08",
+        "text": "@Raptorj39328129 @NicolasZu @romainsimon Putain enfin !!",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Aimad_Lams",
+        "name": "Aimad Lams",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon 🔥",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NicolasZu",
+        "name": "Nicolas Zullo",
+        "date": "2026-05-08",
+        "text": "@groktuto @romainsimon Good one",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MarianKunde",
+        "name": "Marian Kunde",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon I’m french, gonna try it on real french “paperasse” lol",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NicolasZu",
+        "name": "Nicolas Zullo",
+        "date": "2026-05-08",
+        "text": "@MarianKunde @romainsimon Yeah it’s great!",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NicolasZu",
+        "name": "Nicolas Zullo",
+        "date": "2026-05-08",
+        "text": "@SamuelBenitah @romainsimon Franchement impressionné",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PhilippeSohm",
+        "name": "Philippe Sohm",
+        "date": "2026-05-08",
+        "text": "@romainsimon @NicolasZu T'es un chef",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MarianKunde",
+        "name": "Marian Kunde",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon Sounds really good, let’s go 🚀",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "m0rganegeffr0y",
+        "name": "Morgane Geffroy",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon On aime !",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "romainsimon",
+        "name": "Romain Simon",
+        "date": "2026-05-08",
+        "text": "@AlexStudio44 @NicolasZu Le mieux c'est de comparer le résultat vs le faire manuellement pour s'auto-convaincre que ça fonctionne.\nSi c'est pour une boîte faire la compta avec et comparer avec son vrai comptable.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NicolasZu",
+        "name": "Nicolas Zullo",
+        "date": "2026-05-10",
+        "text": "@y_nk @xbeaudouin @romainsimon Yeah, I tripled check everything of course. Maybe next year I will just double check.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AI_dude_eu",
+        "name": "AI Dude 🇪🇺",
+        "date": "2026-05-09",
+        "text": "@NicolasZu @romainsimon Well, this wont work for germany🤣",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "romainsimon",
+        "name": "Romain Simon",
+        "date": "2026-05-09",
+        "text": "@TheMaxLegend @NicolasZu You can use these with Mistral Vibe or any local LLM if you prefer",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "pguinet",
+        "name": "Pascal 💸",
+        "date": "2026-05-09",
+        "text": "@TheMaxLegend @NicolasZu @romainsimon As a french citizen there's no more privacy. All my informations have already leaked multiple times. Even my daughter has been impacted",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RabbiJacob16",
+        "name": "RabbiJacob",
+        "date": "2026-05-09",
+        "text": "@NicolasZu @romainsimon @SimonNimes",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yopafabrice",
+        "name": "Fabrice Yopa🧑🏽‍💻",
+        "date": "2026-05-09",
+        "text": "@NicolasZu @romainsimon @MonneyArthur 😂😂😂😂",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "szand",
+        "name": "András Szabó",
+        "date": "2026-05-09",
+        "text": "@NicolasZu @romainsimon Must be safe to do",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "georgetthomas2",
+        "name": "georget thomas",
+        "date": "2026-05-09",
+        "text": "@NicolasZu Je vais tester d’urgence merci 🙏",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pjsempe",
+        "name": "Pirkka-Joose Sempé 5'3'' 🟥💊",
+        "date": "2026-05-08",
+        "text": "@DelsonEagletone @NicolasZu @romainsimon déjà en signet mdr",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "romainsimon",
+        "name": "Romain Simon",
+        "date": "2026-05-08",
+        "text": "@bigcoincoin @NicolasZu Il faut faire une saisie manuelle mais tu peux demander directement a ton agent de te guider ☺️ ou même de rajouter une intégration qui gère l'EDI (n'hésite pas à ouvrir une PR!)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "romainsimon",
+        "name": "Romain Simon",
+        "date": "2026-05-08",
+        "text": "@bigcoincoin @NicolasZu Oui, c'est probablement améliorable mais ça stocke les justificatifs et écritures",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DelsonEagletone",
+        "name": "Capa Van Gogh 🇫🇷",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon @pjsempe",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bigcoincoin",
+        "name": "Maxime Alist",
+        "date": "2026-05-08",
+        "text": "@romainsimon @NicolasZu Whaou je suis bluffé.\nÇa veut dire que les skills passent les écritures et tu peux fournir la comptabilité sous un format classique en cas de contrôle ?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JonathanKam_",
+        "name": "Jonathan KAM  ☁️",
+        "date": "2026-05-08",
+        "text": "@romainsimon @NicolasZu 🚀🚀🚀🚀",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "romainsimon",
+        "name": "Romain Simon",
+        "date": "2026-05-08",
+        "text": "@MerlinB_FX @NicolasZu 😅",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NicolasZu",
+        "name": "Nicolas Zullo",
+        "date": "2026-05-08",
+        "text": "@bigcoincoin @romainsimon Je m’en suis servi pour compta et clôture",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bigcoincoin",
+        "name": "Maxime Alist",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon Pour facturation + comptabilité ? Ou facturation uniquement ?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "fwernert",
+        "name": "Florent WERNERT",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon @rmy_ma",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Raptorj39328129",
+        "name": "Raptorjesus",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon @RsaTeddyboy",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yassi_yari",
+        "name": "Yassi yari",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon saving this , it might be useful later on",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NicolasZu",
+        "name": "Nicolas Zullo",
+        "date": "2026-05-08",
+        "text": "@thomasjobin11 @romainsimon Peut-être! Moi j'ai eu aucune erreur avec Codex. Je pense aussi que c'est parce que j'ai une data vraiment laser",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NicolasZu",
+        "name": "Nicolas Zullo",
+        "date": "2026-05-08",
+        "text": "@balaganovitch @romainsimon Ouais j'ai fait exprès de pas traduire;)",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AnkitLaddha007",
+        "name": "Ankit.Laddha",
+        "date": "2026-05-08",
+        "text": "@NicolasZu Someone please create a German version 🫠",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NicolasZu",
+        "name": "Nicolas Zullo",
+        "date": "2026-05-08",
+        "text": "@m0rganegeffr0y @romainsimon À fond!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "arubhardwaj_",
+        "name": "Aru",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon can it write me my visa renewal letters ? should i drop my immigration attorney?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AlexStudio44",
+        "name": "Alex",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon Je sais pas si je lui déléguerais ma feuille d'impôt, au cas où xD",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "emrging_",
+        "name": "emrging_",
+        "date": "2026-05-10",
+        "text": "@NicolasZu @romainsimon Je teste merci @romainsimon",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "y_nk",
+        "name": "Julien Barbay",
+        "date": "2026-05-10",
+        "text": "@NicolasZu @xbeaudouin @romainsimon knowing the amount of the fines and the possible strikes you get if you did wrong, i wouldn't give this to a llm blindfolded.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "javimosch",
+        "name": "Javier Leandro Arancibia",
+        "date": "2026-05-09",
+        "text": "@NicolasZu Excellent 👌🏼 thanks for sharing\nI am adding this repo as SuperCLI plugin in the next 24hs\nhttps://t.co/4WJ2kSk1vw",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pguinet",
+        "name": "Pascal 💸",
+        "date": "2026-05-09",
+        "text": "@MichaelREMY2018 @NicolasZu @romainsimon These are Claude skills. They are simple text files. You can read them to view what they do.\nBetter, you can ask Claude to check if no data leak is present.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "obrien",
+        "name": "Chris O'Brien",
+        "date": "2026-05-09",
+        "text": "@NicolasZu Curious: is this also connecting using the government's MCP?\nhttps://t.co/yL4klXr0H1",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MichaelREMY2018",
+        "name": "Michaël RÉMY",
+        "date": "2026-05-09",
+        "text": "@NicolasZu @romainsimon how can you be 500% sure that the tool did not catch your personal info to feed the darknet ?\nDoes it work offline?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pierrevabres",
+        "name": "Pierre Vabres (moi/je)",
+        "date": "2026-05-09",
+        "text": "@NicolasZu @romainsimon Red tape",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RabbiJacob16",
+        "name": "RabbiJacob",
+        "date": "2026-05-09",
+        "text": "@NicolasZu @moradrpm @romainsimon Mince! Vraiment pas le public facile 😅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lex_artdir",
+        "name": "LEX",
+        "date": "2026-05-09",
+        "text": "@NicolasZu @romainsimon Et Claude ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheMaxLegend",
+        "name": "Max | LEGEND💎",
+        "date": "2026-05-09",
+        "text": "Are you aware that all the data that passes through GPT or Claude is processed and stored on American servers, which are frequently compromised?\n\nBy simply sharing your personal information, such as your home address, income, job, and more, you inadvertently gave away a significant amount of your privacy. \n\nEven a simple bank record can reveal sensitive details like your health status, habits, and whether you have children.\n\nIt’s completely absurd to trade all your most private information for a codex that will fill tiny cells for you.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Nitrix01",
+        "name": "Nitrix0",
+        "date": "2026-05-09",
+        "text": "@NicolasZu @romainsimon Gosh I love genius",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Invested_Medici",
+        "name": "Lorenzo de' Medici",
+        "date": "2026-05-09",
+        "text": "@NicolasZu @romainsimon So tired of all this ai content bait - codex did all your taxes? Oh yeah? \n\nSend them what your ai generated, go ahead.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bigcoincoin",
+        "name": "Maxime Alist",
+        "date": "2026-05-08",
+        "text": "@romainsimon @NicolasZu En cherchant rapidement je vois que La DGFiP exige pour l'EDI que le logiciel émetteur possède une attestation de conformité délivrée par l'association EDIFICAS.\n\nDonc ce serait plus simple d'automatiser la saisie manuelle EFI avec un agent...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bigcoincoin",
+        "name": "Maxime Alist",
+        "date": "2026-05-08",
+        "text": "@romainsimon @NicolasZu Pour la liasse fiscale, on doit l'a remplir via EFI (saisie manuelle dans l'espace pro des impôts) ? Ou le skill peut le faire en EDI ?\nDésolé j'ai plein de questions 😅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "romainsimon",
+        "name": "Romain Simon",
+        "date": "2026-05-08",
+        "text": "@MerlinB_FX @NicolasZu 🤣🤣🤣",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "romainsimon",
+        "name": "Romain Simon",
+        "date": "2026-05-08",
+        "text": "@bigcoincoin @NicolasZu Personnellement j'utilise uniquement Qonto sans logiciel comptable, uniquement avec Paperasse.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Christianphil",
+        "name": "Cphil",
+        "date": "2026-05-08",
+        "text": "@moradrpm @NicolasZu @romainsimon Je me suis posé la question",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bigcoincoin",
+        "name": "Maxime Alist",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon J'ai bien envie de tester pour mon prochain bilan.\nUne recommandation de logiciel comptable/facturation qui fonctionnent bien avec les skills ? @romainsimon",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NicolasZu",
+        "name": "Nicolas Zullo",
+        "date": "2026-05-08",
+        "text": "@_Faustien @romainsimon It’s in Skills",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_Faustien",
+        "name": "Faustien",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon How do you get Browser Use ? I don't see it anywhere in the plugins catalog.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thomasjobin11",
+        "name": "Thomas Jobin 🐀",
+        "date": "2026-05-08",
+        "text": "@romainsimon @NicolasZu L’erreur est peut être aussi entre la chaise et le clavier :) \nQui a mal compris l’outils . \nC’est bien possible.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "thomasjobin11",
+        "name": "Thomas Jobin 🐀",
+        "date": "2026-05-08",
+        "text": "@romainsimon @NicolasZu Aucune erreur de ton côté !\nCodex me dit qu’un pdf d’ifu est en mode « image » (peut être mais le texte est selectionnable), et il me sort 69500€ de plus value immobiliere comme « j’ai pas réussi à le lire »",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "romainsimon",
+        "name": "Romain Simon",
+        "date": "2026-05-08",
+        "text": "@thomasjobin11 @NicolasZu Quel genre d'erreur? A l'installation ou dans les skills?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tibbers_sama",
+        "name": "Doc Tibby",
+        "date": "2026-05-08",
+        "text": "@arubhardwaj_ @NicolasZu @romainsimon You need visa renewal letters? Wut",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "thomasjobin11",
+        "name": "Thomas Jobin 🐀",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon Aille, bouré d'erreur gros comme un maison avec le codex. \nC'est franchement top, mais pas ça.\nAvec claude c'est mieux?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NicolasZu",
+        "name": "Nicolas Zullo",
+        "date": "2026-05-08",
+        "text": "@MarianKunde @romainsimon It works really well ahah",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Validate_QA",
+        "name": "validate.qa",
+        "date": "2026-05-08",
+        "text": "@NicolasZu @romainsimon french paperwork agents? browser automation with playwright handles forms like that flawlessly. codex doing taxes is next level",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HHygbLhXcAMfyLQ.jpg",
+      "localFilename": "2052692788362219936_1.jpg"
+    }
+  ]
+}

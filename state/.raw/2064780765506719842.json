@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:10:25.863Z",
+  "tweetId": "2064780765506719842",
+  "post": {
+    "url": "https://x.com/Kevin_Indig/status/2064780765506719842",
+    "author": {
+      "handle": "Kevin_Indig",
+      "name": "Kevin_Indig"
+    },
+    "date": "2026-06-10",
+    "text": "About. Time. https://t.co/DcyhCZuKyw",
+    "thread": [
+      {
+        "id": "2064780765506719842",
+        "text": "About. Time. https://t.co/DcyhCZuKyw"
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 334,
+      "retweets": 9,
+      "replies": 6,
+      "views": 136706
+    },
+    "comments": []
+  }
+}

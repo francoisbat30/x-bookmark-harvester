@@ -1,0 +1,915 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:04.283Z",
+  "tweetId": "2044511038163345565",
+  "post": {
+    "url": "https://x.com/zostaff/status/2044511038163345565",
+    "author": {
+      "handle": "zostaff",
+      "name": "zostaff"
+    },
+    "date": "2026-04-15",
+    "text": "I BUILT A BOT THAT PREDICTS FOOTBALL MORE ACCURATELY THAN BOOKMAKERS\n\n3 probability sources. ML model + Bet365 odds + Polymarket. When all three diverge - that's edge\n                                                          \n5 seasons of EPL, La Liga, Bundesliga. 7,600+ matches. Each with goals, shots, possession, corners, cards, odds\n\nELO rating using the FIFA formula - accounts for opponent strength, goal difference, home advantage. Not just W/D/L but the context behind every win\n\nxG proxy from basic stats - shots on target * 30% conversion + shots off target * 3%. Teams scoring more than they should - regression is coming\n\nRolling averages over 5 matches, fatigue factor, head-to-head history, day of the week\n\nClaude API analyzes context the model can't see - motivation, pressure, derbies\n\nXGBoost + Random Forest + Logistic Regression in an ensemble. Walk-forward backtest, not random split\n\nBookmaker says 55% home. Polymarket says 48%. Model says 52%. KL-divergence between sources = signal. The bigger the gap + the fatter the edge\n\nAll three agree - I skip, zero edge. Two against one - I enter on the majority side\n\nKelly sizes the position, Claude explains why",
+    "thread": [
+      {
+        "id": "2044511038163345565",
+        "text": "I BUILT A BOT THAT PREDICTS FOOTBALL MORE ACCURATELY THAN BOOKMAKERS\n\n3 probability sources. ML model + Bet365 odds + Polymarket. When all three diverge - that's edge\n                                                          \n5 seasons of EPL, La Liga, Bundesliga. 7,600+ matches. Each with goals, shots, possession, corners, cards, odds\n\nELO rating using the FIFA formula - accounts for opponent strength, goal difference, home advantage. Not just W/D/L but the context behind every win\n\nxG proxy from basic stats - shots on target * 30% conversion + shots off target * 3%. Teams scoring more than they should - regression is coming\n\nRolling averages over 5 matches, fatigue factor, head-to-head history, day of the week\n\nClaude API analyzes context the model can't see - motivation, pressure, derbies\n\nXGBoost + Random Forest + Logistic Regression in an ensemble. Walk-forward backtest, not random split\n\nBookmaker says 55% home. Polymarket says 48%. Model says 52%. KL-divergence between sources = signal. The bigger the gap + the fatter the edge\n\nAll three agree - I skip, zero edge. Two against one - I enter on the majority side\n\nKelly sizes the position, Claude explains why"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2044510158609637376/vid/avc1/3840x1746/lCG-69tqJ5NjWDzd.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2044510158609637376/img/LqDZZUFUr3MilzAJ.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1554,
+      "retweets": 109,
+      "replies": 85,
+      "views": 512358
+    },
+    "comments": [
+      {
+        "handle": "JerryTehFarmer",
+        "name": "Jerry The Farmer",
+        "date": "2026-04-16",
+        "text": "@zostaff Vibecoding is getting out of hand. We gave cool tech to opportunistic retards",
+        "likes": 21,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "__solastorm__",
+        "name": "s◎last◎rm",
+        "date": "2026-04-16",
+        "text": "@zostaff If it worked, you’d keep it quiet.",
+        "likes": 14,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hugosousapt",
+        "name": "HS",
+        "date": "2026-04-15",
+        "text": "@zostaff So by sharing this you just gave away your edge (if any).",
+        "likes": 13,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "the_tintin_87",
+        "name": "thetintin87",
+        "date": "2026-04-16",
+        "text": "@zostaff As someone who has bet their entire life, this is either BS and if it isn’t BS there’s no chance this would be profitable.\n\nYou don’t use enough data and even what you use the approximations are awful (I fell off my seat at the xG approximation)",
+        "likes": 10,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-04-15",
+        "text": "trading here: https://t.co/2Romfvzr2p\n\nmy tg channel: https://t.co/L8MTFqDrNN",
+        "likes": 9,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Coolspot81",
+        "name": "Lord Gogington 🍀🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "date": "2026-04-16",
+        "text": "Bro built a 'super bot' with basic ELO, a laughable xG hack (shots*30%? Really?), and Claude vibes — yet every serious test shows frontier AIs (including Claude) lose money betting EPL seasons. Divergence isn't magic edge; it's just noise + vig. Sharing your 'secret' on X while shilling a link? Classic. Show audited long-term PnL or it's just another gambling LARP",
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BitsByNick",
+        "name": "Nickita Khylkouski",
+        "date": "2026-04-16",
+        "text": "@zostaff three models disagreeing isn't edge, it's three models being wrong together",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JerryTehFarmer",
+        "name": "Jerry The Farmer",
+        "date": "2026-04-16",
+        "text": "@zostaff Being a retard is not a skill btw",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-04-16",
+        "text": "@JerryTehFarmer Vibecoding - the real power lies in skilled hands",
+        "likes": 5,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mirkogarozzo",
+        "name": "Mirko Garozzo",
+        "date": "2026-04-16",
+        "text": "@zostaff Why would you use xg? What about in play stats from different data sources? What about weather conditions, lineup etc? What about pulling latest news from twitter and football media outlets to frontrun odds moving?",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "emilioblancol",
+        "name": "Emilio",
+        "date": "2026-04-16",
+        "text": "@zostaff Ask it to predict PSG Bayern",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SignalOdds",
+        "name": "Signal Odds",
+        "date": "2026-04-16",
+        "text": "@zostaff Love the KL-divergence framing here. Comparing bookmaker vs market vs model probabilities is exactly how edge surfaces.\nThat’s the core idea behind what we track at https://t.co/Oj4yiCjpEU too.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-04-16",
+        "text": "@heygurisingh Do you bet on football?",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "KickOFFprofits",
+        "name": "Kick Off Profits",
+        "date": "2026-04-16",
+        "text": "@zostaff Divergence is not edge. Divergence is just disagreement.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Indrangg67",
+        "name": "Indra",
+        "date": "2026-04-16",
+        "text": "@zostaff its a fake, cant assign a team for ELO score cause they almost likely fielded different players in most games.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "psychowifbag",
+        "name": "Dolofonos",
+        "date": "2026-04-17",
+        "text": "@zostaff lol it predicted the Flames winning the hockey game and they suck",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jmdev4",
+        "name": "jbets",
+        "date": "2026-04-16",
+        "text": "@zostaff All you need is polymarket/pinnacle vs the softbook",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EUHoopsGOAT",
+        "name": "EU Hoops GOAT🏀",
+        "date": "2026-04-16",
+        "text": "@zostaff WOOOOOW FLASHING LIGHTS WOOOOW NUMBERS WOOOW https://t.co/AQNqY2GS8s",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rafaelpimenta1",
+        "name": "Rafael Pimenta ®️",
+        "date": "2026-04-16",
+        "text": "@zostaff @carlinhos_lopes @Shepepeto",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MCI_Ken",
+        "name": "When / Ken?",
+        "date": "2026-04-16",
+        "text": "@zostaff How were you able to get bet365 odds since they don’t have an api and are aggressively anti-scraping?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "luckynoelle",
+        "name": "LuckyNoelle",
+        "date": "2026-04-16",
+        "text": "We are giving the opportunity for sports analysts with their own models to monetize (and monetize well) on @GainrPro platform - you dont have access to syndicates, we will link you to the retail users to follow you without you sharing your picks so they dont degrade! We are opening up the waiting list for analysts to join Gainr (thru website).\nAngelList meets eToro for sports trading! Join us and share with your buddies. Also on TG",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gippp69",
+        "name": "Gipp 🦅",
+        "date": "2026-04-16",
+        "text": "@zostaff Wow, that's a smart move",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CampelloAndrey",
+        "name": "Andrey - soccermaxtips.com",
+        "date": "2026-04-16",
+        "text": "@zostaff https://t.co/eYv85q0Zpv \n\nThey use IA an really useful",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PortaRealm",
+        "name": "Porta",
+        "date": "2026-04-16",
+        "text": "@zostaff What kind of larp is this lol",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "egeayan",
+        "name": "Ege Ayan",
+        "date": "2026-04-23",
+        "text": "@zostaff “Regression is coming” - bro should not be allowed anywhere near ML models with that bs",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "st4lz",
+        "name": "Dominik",
+        "date": "2026-04-22",
+        "text": "@zostaff @grok what is the tui library used for the app?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sam103373865462",
+        "name": "George",
+        "date": "2026-04-17",
+        "text": "@MCI_Ken @joshkeldam @zostaff https://t.co/dPoNJEOCYf has bet 365 odds",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-04-17",
+        "text": "@TheShotChaser_ you are genius my bro",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TheShotChaser_",
+        "name": "The Shot Chaser",
+        "date": "2026-04-17",
+        "text": "You cannot model entire football matches better than bookmakers.\n\nWhat you can do however, is compare across thousands of sets of odds to find the few times where they’ve got it wrong.\n\nI’ve spent years developing my models to do just that, for Player Shots & Shots on target bets\n\n17% ROI suggests I’m doing something right",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bladeeTiger",
+        "name": "🐯❤️‍🔥bladee~tiger🐯❤️‍🔥",
+        "date": "2026-04-16",
+        "text": "@zostaff Yes and I have built bot better than HFT bots with specialized chip technology that directly connected or integrated with network interface cards (NICs) on internet cables",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "psychowifbag",
+        "name": "Dolofonos",
+        "date": "2026-04-16",
+        "text": "@zostaff I used it for baseball, got the SF Giants winning correct",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Pinnacle",
+        "name": "Pinnacle",
+        "date": "2026-04-16",
+        "text": "@joshkeldam @MCI_Ken @zostaff @Betfair Good luck, but yeah pretty much.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "itsthedonhashim",
+        "name": "Hussain Hashim | Building SundayBack",
+        "date": "2026-04-16",
+        "text": "@zostaff @zostaff that's wild. curious, how does it handle player injuries or sudden lineup changes? seems like a tough variable to nail down.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-04-16",
+        "text": "@__solastorm__ I just explained how to build your own prediction system",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "androidsheeep",
+        "name": "Rachael LaGoth",
+        "date": "2026-04-16",
+        "text": "@zostaff Xg doesn't mean anything lol, and even possession do you even watch epl ucl ? These have no meaning in many many games lmao if i was you i would change my approach",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "luckynoelle",
+        "name": "LuckyNoelle",
+        "date": "2026-04-16",
+        "text": "@zostaff Why give it away when you can monetize it for you through @GainrPro ?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "colinboydseo",
+        "name": "Colin Boyd",
+        "date": "2026-04-16",
+        "text": "@zostaff Cool\nI build something similar https://t.co/IhrpdVg8oe but adding the live bet365 odds is a great idea. \nMaybe use oddsapi to look for trends across bookmakers",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vapidcool",
+        "name": "DB",
+        "date": "2026-04-16",
+        "text": "@zostaff Finding positive EV bets is relatively easy. \n\nKeeping accounts open is the hard part",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "webbysteph78",
+        "name": "RW Ratings",
+        "date": "2026-04-16",
+        "text": "@zostaff You will go broke",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "anytwocardzz",
+        "name": "cardzz",
+        "date": "2026-04-16",
+        "text": "@zostaff very interesting, will dive in",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "martynov014",
+        "name": "Valentin",
+        "date": "2026-04-16",
+        "text": "@zostaff I wanna access to this bot",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DarkWireIntel",
+        "name": "Dark Wire Intel",
+        "date": "2026-04-16",
+        "text": "Three probability sources diverging simultaneously as the edge signal. This is the same logic behind our Arbitrage Engine. When Polymarket and Kalshi price the same contract differently that gap is not random. It is information. The methodology works in any prediction market. https://t.co/zj6dqpliOn",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dorje_river",
+        "name": "Yeshe Dorje（禅师）",
+        "date": "2026-04-16",
+        "text": "@zostaff 看似你在用三重概率找“边”，其实禅里讲的是不执一边也不落两边，模型、赔率、市场只是三面镜子，分歧之处不是确定性，而是众生心动的痕迹，你若执着于胜率，反被胜率所困，真正的edge，是看见波动却不被波动带走，久而久之，输赢皆是修行的一部分",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "terabet_io",
+        "name": "Terabet.io",
+        "date": "2026-04-17",
+        "text": "@zostaff This will not give you edge this isn’t enough , you need some counterfactual regret minimization to let the ai know to correct itself or not , you can add Tree of thought the system your running is chain and train of thought. Thank me later",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MikolajZblewski",
+        "name": "amigo polandoles",
+        "date": "2026-04-16",
+        "text": "@MCI_Ken @zostaff FOOTBALLAPI HAS IT",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MERT15676898",
+        "name": "MERT",
+        "date": "2026-04-16",
+        "text": "@zostaff What is your sucess rate?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GFatul18102",
+        "name": "George F",
+        "date": "2026-04-16",
+        "text": "@zostaff @__solastorm__ Why? 😂😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ProbTradeAI",
+        "name": "ProbTrade",
+        "date": "2026-04-16",
+        "text": "@zostaff wonder if he even backtests against smaller leagues too",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nastypablop",
+        "name": "Pablo",
+        "date": "2026-04-16",
+        "text": "@MCI_Ken @zostaff Try the oddsapi, they got fair prices and also a free tier plan. The only problem is tha only has EU, USA and UK bookmarkers",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EndoEndorphin",
+        "name": "Endo",
+        "date": "2026-04-16",
+        "text": "@zostaff are the APIs paid?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nastypablop",
+        "name": "Pablo",
+        "date": "2026-04-16",
+        "text": "@zostaff How did you extract the bet365 odds? Scrapping? If it is true, what did you use?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JermelFuego",
+        "name": "Jermel Fuego",
+        "date": "2026-04-16",
+        "text": "@heygurisingh @zostaff @heygurisingh the real edge is haven’t less losses lol. Losing less is a direct opposite to winning more. Now being profitable that’s a different topic lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JermelFuego",
+        "name": "Jermel Fuego",
+        "date": "2026-04-16",
+        "text": "@zostaff Yeah imma have to upgrade my system https://t.co/FpO1eduuXJ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rath317",
+        "name": "Win Dollie",
+        "date": "2026-04-16",
+        "text": "@zostaff I’ll take things that didn’t happen for 500",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cossyleon3",
+        "name": "HCossyLeon",
+        "date": "2026-04-16",
+        "text": "@zostaff check out @BlackCardBets for real football insights!!!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TipRun_Markets",
+        "name": "TipRun",
+        "date": "2026-04-16",
+        "text": "@zostaff Wow, really interesting stuff!!\n\nAutomation wins 😎",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Hubby_Fr",
+        "name": "L'oracle 💻",
+        "date": "2026-04-16",
+        "text": "@the_tintin_87 @zostaff Oui et si tu en additionne 3 cela fais quasiment une côte à 2.\n\nTu peux lire mon taux de probabilité ? Tu as oublié d'en parler 🤣",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MarcelVelica",
+        "name": "Marcel Velica",
+        "date": "2026-04-16",
+        "text": "@zostaff Edge isn’t in predicting games, it’s in spotting where the market disagrees with itself.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HopfGOTY",
+        "name": "Philipp-Hopf",
+        "date": "2026-04-16",
+        "text": "@MuratThees @zostaff Der klappt niemals du kannst garnicht gegen die wettanbieter langfristig gewinn machen diese ganzen bots alles scam auch oddify oder so",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "the_tintin_87",
+        "name": "thetintin87",
+        "date": "2026-04-16",
+        "text": "@Hubby_Fr @zostaff The OP references match odds and you screenshot over1.5s at 1.2 odds 😂\n\nThere are levels to this game my friend.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cesarqueb_",
+        "name": "César Qüeb",
+        "date": "2026-04-16",
+        "text": "@zostaff Share your music list!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JosFran09585093",
+        "name": "José Francisco paredes",
+        "date": "2026-04-16",
+        "text": "@zostaff Me gustaría que hicieras un vídeo con subtítulos en español de cómo crearlo me encantan tús proyectos saludos desde España",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MuratThees",
+        "name": "Murat Weisgerber",
+        "date": "2026-04-16",
+        "text": "@zostaff @HopfGOTY",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheOneDanilo",
+        "name": "TheGodlyOne.eth",
+        "date": "2026-04-16",
+        "text": "@zostaff Even the best AI also cant predict shit in the end",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "joshkeldam",
+        "name": "Josh",
+        "date": "2026-04-16",
+        "text": "@Pinnacle @MCI_Ken @zostaff @Betfair Didn’t say it will happen. But if you can’t then you’re likely just going to lose money.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "erendurmazov",
+        "name": "eren",
+        "date": "2026-04-16",
+        "text": "@zostaff 3 feature ile olmaz o iş.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Hubby_Fr",
+        "name": "L'oracle 💻",
+        "date": "2026-04-16",
+        "text": "@the_tintin_87 @zostaff La mienne marche très bien depuis 2 mois, 2 premiers picks perdant puis le logiciel se calibre au fil du temps. 10 victoires d'affiler https://t.co/BlMvMS474V",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "makasmakasa",
+        "name": "Champions again #goingfor57",
+        "date": "2026-04-16",
+        "text": "@zostaff What a load of absolute shite",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Hubby_Fr",
+        "name": "L'oracle 💻",
+        "date": "2026-04-16",
+        "text": "@hugosousapt @zostaff J'ai créé la mienne il a 2 mois il n'est pas tous seul dans cette idée https://t.co/5lMZ4HeXfU",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "androidsheeep",
+        "name": "Rachael LaGoth",
+        "date": "2026-04-16",
+        "text": "@emilioblancol @zostaff Not a single existing bot/ai can predict this LMAO",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Crypt0Bizzi",
+        "name": "Bizzi",
+        "date": "2026-04-16",
+        "text": "@zostaff Vamoos bot😁",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Yamaruu_",
+        "name": "__yamaru",
+        "date": "2026-04-16",
+        "text": "@zostaff using bet3 as a ref for football 😂😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xCristal",
+        "name": "cristal",
+        "date": "2026-04-16",
+        "text": "@zostaff I need ur bot soooo hard",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "polybacktest",
+        "name": "PolyBackTest",
+        "date": "2026-04-16",
+        "text": "@zostaff that's really cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CampelloAndrey",
+        "name": "Andrey - soccermaxtips.com",
+        "date": "2026-04-16",
+        "text": "@zostaff https://t.co/Yhv8nZjtsr",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jasonngsx",
+        "name": "Jason Nguyen",
+        "date": "2026-04-16",
+        "text": "@zostaff this feels so nerdy in the best way.. the kelly sizing + claude explaining the why is actually a sick combo",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lxrdfilix",
+        "name": "external dependency",
+        "date": "2026-04-16",
+        "text": "@zostaff You are retarded",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ventry089",
+        "name": "Ventry",
+        "date": "2026-04-16",
+        "text": "@zostaff this is just incredible bro\n\ni think you'll become rich",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tropicanacailin",
+        "name": "@tropicanacailin",
+        "date": "2026-04-16",
+        "text": "@zostaff Can you build the same for winning the lottery 😊?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ThatIsokoGuy",
+        "name": "𝖀𝖓𝖆𝖉𝖚𝖑𝖙𝖊𝖗𝖆𝖙𝖊𝖉 𝕯𝖊𝖑𝖙𝖆𝖓",
+        "date": "2026-04-16",
+        "text": "@zostaff @pla2online",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AstrohackerX",
+        "name": "ilm",
+        "date": "2026-04-16",
+        "text": "@zostaff What bets will he offer on the Newcastle and Tottenham matches this weekend?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "insomnia_vip",
+        "name": "Insomnia",
+        "date": "2026-04-16",
+        "text": "@zostaff he trade faster then match coming",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "joshkeldam",
+        "name": "Josh",
+        "date": "2026-04-16",
+        "text": "@MCI_Ken @zostaff OddsJam, OpticOdds. Realistically though, the only odds and movements i'd care about is @Pinnacle and @Betfair. If you beat pinnacle closing lines consistently, you have something worth putting more time into.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MCI_Ken",
+        "name": "When / Ken?",
+        "date": "2026-04-16",
+        "text": "@joshkeldam @zostaff Got any recommendations? Sportradar is the only one I’ve found so far with an edge, but the pricing is ridiculous.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "onehextwo",
+        "name": "𝗼𝗻𝗲𝗵𝗲𝘅𝘁𝘄𝗼 - Quinielas",
+        "date": "2026-04-16",
+        "text": "@zostaff Te apetece probarlo en onehextwo y demostrar los resultados?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "joshkeldam",
+        "name": "Josh",
+        "date": "2026-04-16",
+        "text": "@MCI_Ken @zostaff Likely gets it from an odds site. Theres APIs available that have a book odds feed from majors as well",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BinodKu37117604",
+        "name": "Binod Kumar Thakur",
+        "date": "2026-04-16",
+        "text": "@zostaff Lucky links launch lottery lights. https://t.co/gdgHuCF8OS",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "theog__",
+        "name": "Theo Goodman",
+        "date": "2026-04-16",
+        "text": "@zostaff I MADE A CALUDE BLINKING DOT DASHBOARD FOR ENGAGEMNT FARMING.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "joaishim",
+        "name": "Joachim ꩜",
+        "date": "2026-04-16",
+        "text": "@zostaff didn’t finish reading through the last time. how effective is this?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "__TheSorrow",
+        "name": "Samsory",
+        "date": "2026-04-16",
+        "text": "@zostaff yeah bro sure",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Liqui_Sniper",
+        "name": "Liquidity Sniper",
+        "date": "2026-04-16",
+        "text": "@zostaff Mad respect, love the three-way model and the dataset size, can’t wait to see which picks it spots next.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "monokern",
+        "name": "monokern",
+        "date": "2026-04-16",
+        "text": "@zostaff https://t.co/cG9OfGhLQ6",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zionwxt_",
+        "name": "Zionwxt Tips 🇧🇷",
+        "date": "2026-04-16",
+        "text": "@zostaff https://t.co/RNtcne48Il",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RobsonSil",
+        "name": "Robshow",
+        "date": "2026-04-16",
+        "text": "@zostaff @Gustavowws",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mouradesigner2",
+        "name": "moura designer",
+        "date": "2026-04-16",
+        "text": "@zostaff Como funciona e para ter acesso?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yabsssai",
+        "name": "YabsssAI",
+        "date": "2026-04-16",
+        "text": "@zostaff diverging from the typical bookmaker odds with a combination of ml model and polymarket data is really interesting, what kind of edge have you seen in those 7600 matches where the three sources diverge.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-04-15",
+        "text": "@es1lne @LunarResearcher It's my first accoun",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2044510158609637376/img/LqDZZUFUr3MilzAJ.jpg",
+      "localFilename": "2044511038163345565_1_poster.jpg"
+    }
+  ]
+}

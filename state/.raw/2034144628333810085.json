@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:12:34.493Z",
+  "tweetId": "2034144628333810085",
+  "post": {
+    "url": "https://x.com/kanavtwt/status/2034144628333810085",
+    "author": {
+      "handle": "kanavtwt",
+      "name": "kanav"
+    },
+    "date": "2026-03-18",
+    "text": "Someone built a Google translate for Linkedin 😭 https://t.co/hzvY4OLxlU",
+    "thread": [
+      {
+        "id": "2034144628333810085",
+        "text": "Someone built a Google translate for Linkedin 😭 https://t.co/hzvY4OLxlU"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HDq7wUibEAI2nuS.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 89712,
+      "retweets": 10101,
+      "replies": 626,
+      "views": 2864323
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HDq7wUibEAI2nuS.jpg",
+      "localFilename": "2034144628333810085_1.jpg"
+    }
+  ]
+}

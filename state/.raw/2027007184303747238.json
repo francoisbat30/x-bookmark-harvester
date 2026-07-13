@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:14.549Z",
+  "fetchedAt": "2026-07-13T07:08:06.911Z",
   "tweetId": "2027007184303747238",
   "post": {
     "url": "https://x.com/AbdelStark/status/2027007184303747238",
@@ -10,6 +11,12 @@
     },
     "date": "2026-02-26",
     "text": "Official MCP server for the data(.)gouv(.)fr French governmental platform. \nHonestly I am genuinely surprised. Usually French is pretty slow (despite having some of the best talents in tech, math, AI etc) to adopt innovations especially for governmental services.\nI tried the MCP, works flawlessly and can be very useful.\nI think the repo can be more agentic native / friendly but it's a very nice initiative, love it!  \nFranchement bravo",
+    "thread": [
+      {
+        "id": "2027007184303747238",
+        "text": "Official MCP server for the data(.)gouv(.)fr French governmental platform. \nHonestly I am genuinely surprised. Usually French is pretty slow (despite having some of the best talents in tech, math, AI etc) to adopt innovations especially for governmental services.\nI tried the MCP, works flawlessly and can be very useful.\nI think the repo can be more agentic native / friendly but it's a very nice initiative, love it!  \nFranchement bravo"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,639 @@
       }
     ],
     "metrics": {
-      "likes": 947,
-      "retweets": 100,
+      "likes": 935,
+      "retweets": 97,
       "replies": 37,
-      "views": 178885
+      "views": 179198
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "wasss_im",
+        "name": "Wass",
+        "date": "2026-02-26",
+        "text": "@AbdelStark La France qui ship un MCP gov avant tout le monde, on aime voir ça",
+        "likes": 88,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "obrien",
+        "name": "Chris O'Brien",
+        "date": "2026-02-26",
+        "text": "@AbdelStark Faut regarder La Suite. La gouvernement a reconstruit presque tout les utiles numériques sur l'open source: https://t.co/aWV4a2PL72",
+        "likes": 25,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IzioDev",
+        "name": "IzioDev",
+        "date": "2026-02-26",
+        "text": "@AbdelStark Je ne suis pas d'accord avec le constat que tu exposes, les service open data du gouvernement sont à la pointe depuis un moment, et c'est très probablement grâce a cela qu'ils peuvent livrer un bon MCP.",
+        "likes": 17,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xor_a_b",
+        "name": "Frank",
+        "date": "2026-02-26",
+        "text": "@AbdelStark Let’s fucking go 😂 https://t.co/Re9AIaJGRo",
+        "likes": 16,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AbdelStark",
+        "name": "abdel",
+        "date": "2026-02-26",
+        "text": "Oui, j'exagère un peu, c'est sûr. Je grossis le trait pour faire passer le message essentiel : bordel, si on n'avait pas autant d'éléments inhibiteurs, l'inertie folle des administrations, un système fiscal complètement délirant qui provoque la fuite massive de nos talents et entrepreneurs, des infrastructures et des services publics qui tombent en ruine, ou encore des régulations parfois débiles, on pourrait vraiment plier le game. On a tout pour le faire : les talents, le nucléaire (qui sera un atout clé pour la révolution de l'IA), etc. \n\nC'est juste méga frustrant.",
+        "likes": 15,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AbdelStark",
+        "name": "abdel",
+        "date": "2026-02-26",
+        "text": "@wasss_im grave!",
+        "likes": 13,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AbdelStark",
+        "name": "abdel",
+        "date": "2026-02-26",
+        "text": "@obrien 🦾",
+        "likes": 5,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Q83524",
+        "name": "Fuschia17",
+        "date": "2026-02-27",
+        "text": "@LeoDrousset @AbdelStark Ça permet au travers d'une interface de llm de se connecter à  un serveur (mcp donc, model context protocol) pour utiliser ses outils et ses données exposées . On peut demander à un chatgpt, claude, ... n'importe quoi en rapport avec cette donnée.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AbdelStark",
+        "name": "abdel",
+        "date": "2026-02-26",
+        "text": "@xor_a_b Yolo mon frère.",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xhauru",
+        "name": "hauru",
+        "date": "2026-02-26",
+        "text": "@AbdelStark Sur le numérique de manière générale je trouve la France relativement bien dotée et dynamique.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jeanroudy",
+        "name": "Nikolay Rodionov",
+        "date": "2026-02-26",
+        "text": "@AbdelStark C'est toute la beauté de MCP: facile à implémenter, mais ouvre des milliers de nouvelles utilisations agentiques!",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "samdotb",
+        "name": "Samuel Bodin",
+        "date": "2026-02-26",
+        "text": "@AbdelStark Huge! The data team is cracked",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alexandretrotel",
+        "name": "Alexandre Trotel",
+        "date": "2026-02-26",
+        "text": "@AbdelStark as french civilian, i truly think these latest years, our online services become way better than it used to be",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Raspoutine2020",
+        "name": "Bill Barrière",
+        "date": "2026-02-26",
+        "text": "@obrien @AbdelStark 😎 c’est tellement ça 🤣👍\n« 999 non lus »  Ils auront au moins testé les cas les plus probables. https://t.co/D7UTV242kr",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "42s_video",
+        "name": "La Voix du Chat Artiste",
+        "date": "2026-02-26",
+        "text": "@AbdelStark I was there in Amsterdam when some guys maintaining Gouv platform saw one conf about MCP, I saw stars in they eyes",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CaddyComa",
+        "name": "Jer",
+        "date": "2026-02-26",
+        "text": "@obrien @AbdelStark Très bien!",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_EDM115",
+        "name": "EDM115",
+        "date": "2026-02-26",
+        "text": "@AbdelStark https://t.co/YEFAjF2Iaq too :)",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xMalek",
+        "name": "Malek",
+        "date": "2026-02-26",
+        "text": "@wasss_im @AbdelStark 😎",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "g48in",
+        "name": "Gabin 🌱",
+        "date": "2026-02-26",
+        "text": "@AbdelStark CANTAL rpzz",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "franklyteddy",
+        "name": "teddy",
+        "date": "2026-02-26",
+        "text": "@AbdelStark Sweet, gonna use this 🏃‍♂️",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AbdelStark",
+        "name": "abdel",
+        "date": "2026-02-27",
+        "text": "@CRAMETTEloris moi ca marchait bien quand j'ai tester hier. j'ai pas retenter depuis",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CRAMETTEloris",
+        "name": "Kairos",
+        "date": "2026-02-27",
+        "text": "@AbdelStark C'est une super bonne idée. Par contre ça plante déjà au niveau de l'authent avec Claude Code...",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AbdelStark",
+        "name": "abdel",
+        "date": "2026-02-27",
+        "text": "@PlugNTweet @cedriclnx that's very good!!! i did not know they were operating like this. I am positively surprised.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PlugNTweet",
+        "name": "Michaël Nass ",
+        "date": "2026-02-27",
+        "text": "@cedriclnx @AbdelStark The great thing is, basically each project works a bit like an independant Startup. People there can just have ideas and make them happen. Quick.\n\nWorks a bit differently for Data Gouv as they have become so large they are basically their own department, but the idea stays.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PlugNTweet",
+        "name": "Michaël Nass ",
+        "date": "2026-02-27",
+        "text": "@cedriclnx @AbdelStark It depends on the administrations. For example, the Gendarmerie Nationale uses its own Linux distro with only OSS softwares. \n\nThe DINUM (where Data Gouv is located) is the ministry that is pushing the most cutting edge technology \n\nhttps://t.co/3OrwJqhmFL\nhttps://t.co/xjJLPYshHl",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cedriclnx",
+        "name": "Cedric Lnx",
+        "date": "2026-02-27",
+        "text": "@AbdelStark Feel like a black hole honnestly.\nWe are past event horizon, we can’t escape and it’s exponential. We have no idea what’s at the bottom but it’s terrifying and our mind cannot even grasp what it will be.\nWe even call the whole thing… singularity",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cedriclnx",
+        "name": "Cedric Lnx",
+        "date": "2026-02-27",
+        "text": "@AbdelStark Well in Europe, I think France is the one that push the most for having its own stack and sovereignty. \nThere really is a french stack",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AbdelStark",
+        "name": "abdel",
+        "date": "2026-02-27",
+        "text": "Comme certains l’ont déjà expliqué, c’est un moyen qui permet à n’importe quel agent IA d’intéragir avec certaines du service gouvernemental, comme des statistiques démographiques, prénoms, populations et pleins d’autres chose intéressantes.\nCe qui permet la construction de plein d’applications et services utilisant l’intelligence artificielle pour répondre à des des besoins ou améliorer la qualité des services existant",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AbdelStark",
+        "name": "abdel",
+        "date": "2026-02-27",
+        "text": "@xor_a_b 🎯",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "t_r_e_n_c_h_e_s",
+        "name": "trenches",
+        "date": "2026-02-27",
+        "text": "@AbdelStark French gov is genuinely amazing at tech\n\nits a iykyk thing though because of language bubbles",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "xor_a_b",
+        "name": "Frank",
+        "date": "2026-02-26",
+        "text": "@AbdelStark la vie est trop courte pour demander la permission",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AbdelStark",
+        "name": "abdel",
+        "date": "2026-02-26",
+        "text": "@42s_video Haha nice",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AbdelStark",
+        "name": "abdel",
+        "date": "2026-02-26",
+        "text": "@0xhauru Ça va en vrai oui",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MarcSimanovici",
+        "name": "Marc Simanovici",
+        "date": "2026-02-26",
+        "text": "@AbdelStark La France n'est pas particulièrement lente dans le domaine. Les allemands tournent encore au fax.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-26",
+        "text": "MCP = Model Context Protocol. \nC’est un protocole ouvert lancé par Anthropic fin 2024 qui permet aux IA (comme Claude, Grok, etc.) de se connecter facilement à des outils, services et bases de données externes via une interface standardisée. \n\nIci, https://t.co/ZKvUZPePnX a lancé un serveur MCP officiel pour que les chatbots puissent interroger directement les données publiques françaises en langage naturel (rechercher des datasets, consulter des métadonnées, analyser des fichiers CSV/JSON, etc.). \nSuper initiative pour rendre l’open data plus accessible ! Tu peux tester via https://t.co/8tlv1kRW7V",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "romthpt",
+        "name": "romthpt",
+        "date": "2026-02-26",
+        "text": "@AbdelStark 🫠 https://t.co/owB4NEbWYX",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AndreiMiclea9",
+        "name": "AndreiMiclea🇪🇺",
+        "date": "2026-02-26",
+        "text": "@AbdelStark Super impressed.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SefirotWatch",
+        "name": "Brother Sefirot 𒉭🥷🏼",
+        "date": "2026-02-26",
+        "text": "@AbdelStark @IIKi_onX 👀",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "IzioDev",
+        "name": "IzioDev",
+        "date": "2026-02-26",
+        "text": "@AbdelStark Sentiments partagés. En attendant, ça fait plaisir de voir de beaux livrables comme tu l’as mentionné.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MajorBaguette",
+        "name": "Dany",
+        "date": "2026-02-26",
+        "text": "@AbdelStark Garrone brothers are beasts",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itechnologynet",
+        "name": "Robert Hoffmann",
+        "date": "2026-02-26",
+        "text": "@AbdelStark Late, dunno\n\nDuring covid i was getting tons of data building powerBI dahsboards from data dot gouv, and dress\n(data dot gouv apparently exists since 2011)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mohbii",
+        "name": "mohbi",
+        "date": "2026-03-02",
+        "text": "@AbdelStark A government entity shipping an MCP server before most startups is the plot twist nobody asked for but genuinely respect. If this actually stays maintained it'll be a case study in public sector dev teams.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Vase2Soissons",
+        "name": "SOU VIENTOI",
+        "date": "2026-03-02",
+        "text": "@AbdelStark @LeoDrousset Et c'est prodigieux. Mais concrètement on monetise comment de la donnée comme ça en b2c ? C'est utile pour de l'open source mais cest dans le b2b qu'on fait de la maille",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "solalcs",
+        "name": "Solal",
+        "date": "2026-02-27",
+        "text": "@AbdelStark France baise ouais",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "joulsounet",
+        "name": "Joulse",
+        "date": "2026-02-27",
+        "text": "@AbdelStark Nice seeing public data become actually usable",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AbdelStark",
+        "name": "abdel",
+        "date": "2026-02-27",
+        "text": "Exactly. I am totally with you. We literally are not able to grasp the implications of this new world. That’s exactly how I see it too and keep saying around me. \nAt least we are on the wake up side. This won’t save us by itself but we can try something. \nWhat’s the alternative ? Fatality won’t save us neither",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AbdelStark",
+        "name": "abdel",
+        "date": "2026-02-27",
+        "text": "@cedriclnx Oh yeah definitely terrifying world we are entering into.\nBut look there is no way to escape it so we should rather embrace it early and think how to mitigate the risks and maximize the opportunities",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cedriclnx",
+        "name": "Cedric Lnx",
+        "date": "2026-02-27",
+        "text": "@AbdelStark Good or bad thing? Time will tell…",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AbdelStark",
+        "name": "abdel",
+        "date": "2026-02-27",
+        "text": "@cedriclnx What ? AI ?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AbdelStark",
+        "name": "abdel",
+        "date": "2026-02-27",
+        "text": "@cedriclnx I am glad to hear. Let’s push more!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cedriclnx",
+        "name": "Cedric Lnx",
+        "date": "2026-02-27",
+        "text": "@AbdelStark I think @PlugNTweet can attest to this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mohbii",
+        "name": "mohbi",
+        "date": "2026-02-27",
+        "text": "@AbdelStark Government-grade MCP server is a signal I didn't expect this year. Usually institutions take a decade to adopt any protocol, but here we are. What datasets are most useful to you building on this?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-27",
+        "text": "Le serveur MCP (Model Context Protocol) pour https://t.co/ZKvUZPePnX permet aux IA (Claude, ChatGPT, Gemini...) d'interroger les données publiques françaises en langage naturel.\n\nCas d'utilité : \n- Rechercher datasets (ex: \"prix immobilier\") \n- Explorer métadonnées, lister ressources, query données tabulaires ou APIs externes \n- Analyser stats d'usage \n\nAvantages pratiques : \n- Conversation directe au lieu de naviguer ou coder des appels API \n- Outils structurés, compatibles tous les agents IA sans intégration custom \n- Lecture seule, sans clé ni compte \n- Accès instantané et contextualisé aux données ouvertes \n\nTeste https://t.co/8tlv1kRW7V ! Super pour agents et analyses rapides.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MaximeBouchaud",
+        "name": "@Maximation",
+        "date": "2026-02-27",
+        "text": "@AbdelStark @grok quels sont les cas d'utilité et les avantages pratiques d'utiliser un serveur MCP pour la data des sites français en.gouv",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "navtechai",
+        "name": "Pablo Pablo",
+        "date": "2026-02-26",
+        "text": "@AbdelStark France moving faster than expected on this one. MCP is clearly becoming the standard for AI-data integration. Solid implementation, curious to see adoption rates.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jonatzer",
+        "name": "Jonathan Izcovich 🇫🇷/acc",
+        "date": "2026-02-26",
+        "text": "@AbdelStark Francement bravo !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LeoDrousset",
+        "name": "L' un d'entre vous",
+        "date": "2026-02-26",
+        "text": "@AbdelStark Bonsoir, je tombe sur votre message par hasard, et pour les non sachants comme moi, cela signifie quoi en mots simples ? J'ai l'impression que vous êtes agréablement surpris, pour quelle raison ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TristanGui54715",
+        "name": "Tristan",
+        "date": "2026-02-26",
+        "text": "@AbdelStark Comment configurer ? Échec avec Claude de mon côté",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Jacoed",
+        "name": "Ed",
+        "date": "2026-02-26",
+        "text": "@AbdelStark T'es mauvaise langue, la France est loin d'être en arrière du point de vue informatisation de ses services publics.\nL'administration c'est toujours de la merde quelque soit le pays hein",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AbdelStark",
+        "name": "abdel",
+        "date": "2026-02-26",
+        "text": "@MarcSimanovici C’est pas faux",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NielsROLLAND",
+        "name": "Niels Rolland",
+        "date": "2026-02-26",
+        "text": "@AbdelStark @benoitv",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Noahcfo2",
+        "name": "Me_Suricato 🕵🏻 🇫🇷",
+        "date": "2026-02-26",
+        "text": "@AbdelStark @grok c’est quoi un MCP",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SefirotWatch",
+        "name": "Brother Sefirot 𒉭🥷🏼",
+        "date": "2026-02-26",
+        "text": "@IIKi_onX @AbdelStark 💪",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lianazel",
+        "name": "J c - Think Different 😎",
+        "date": "2026-02-26",
+        "text": "@AbdelStark @IzioDev https://t.co/vMJ6QOwJ7v",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AbdelStark",
+        "name": "abdel",
+        "date": "2026-02-26",
+        "text": "@IzioDev 💪🇫🇷🥖",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Arsis699",
+        "name": "Arsen",
+        "date": "2026-02-26",
+        "text": "@AbdelStark yeah that's a nice surprise for french gov tech",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ernica4000",
+        "name": "Ernica",
+        "date": "2026-02-26",
+        "text": "@AbdelStark Bitcoin privacy makes sense for everyoneReally appreciate this insight - very well articulated! 💡",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LinLyn99",
+        "name": "Lyn",
+        "date": "2026-02-26",
+        "text": "@AbdelStark agentic native would be huge for adoption tbh",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LexSocket",
+        "name": "LexSocket.ai",
+        "date": "2026-02-26",
+        "text": "@AbdelStark You can also access almost all European procurement tenders via our MCP server — both EU-wide (TED) and national below-threshold tenders across 17 countries.\n\n  Plug it into Claude Code, Cursor or any MCP client:\n  https://t.co/kUj0nRAlhS",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HCFf9nfXIAAq_eB.jpg",
+      "localFilename": "2027007184303747238_1.jpg"
+    }
+  ]
 }

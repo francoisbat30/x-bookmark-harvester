@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-06-30T10:00:37.295Z",
+  "fetchedAt": "2026-07-13T07:09:04.782Z",
   "tweetId": "2049874687069426008",
   "post": {
     "url": "https://x.com/zodchiii/status/2049874687069426008",
@@ -10,18 +11,869 @@
     },
     "date": "2026-04-30",
     "text": "> open Claude Code\n> your .env gets read before you type anything\n> your API keys are now in the chat\n> your password is now in the chat\n> you add \"don't read .env\" to CLAUDE.md\n> doesn't work\n> 29 million secrets leaked on GitHub last year\n> one line in settings.json actually blocks it\n> there's a config that blocks all of this",
+    "thread": [
+      {
+        "id": "2049874687069426008",
+        "text": "> open Claude Code\n> your .env gets read before you type anything\n> your API keys are now in the chat\n> your password is now in the chat\n> you add \"don't read .env\" to CLAUDE.md\n> doesn't work\n> 29 million secrets leaked on GitHub last year\n> one line in settings.json actually blocks it\n> there's a config that blocks all of this"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/2049872941622460416/vid/avc1/1920x960/b2FCaoWoZvy6PnkC.mp4"
+        "url": "https://video.twimg.com/amplify_video/2049872941622460416/vid/avc1/1920x960/b2FCaoWoZvy6PnkC.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2049872941622460416/img/MM2Cu-3DZNqSXVGp.jpg"
       }
     ],
     "metrics": {
-      "likes": 2653,
+      "likes": 2648,
       "retweets": 207,
       "replies": 78,
-      "views": 1051322
+      "views": 1052064
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "Reardon_Steel",
+        "name": "Jeff NH",
+        "date": "2026-05-01",
+        "text": "@zodchiii Go varlock + self-hosted Infisical. No excuse for leaving secrets in .env and trusting  tool to pinkyswear it's won't look.\n\nReduces the risk of AI seeing secrets or humans accidentally committing. Not perfect. (runtime agent exposure, centralized attack point) - helps a lot.",
+        "likes": 8,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SKoenegracht",
+        "name": "Stino",
+        "date": "2026-04-30",
+        "text": "@zodchiii How does Claude reading your .env puts those secrets on GitHub?",
+        "likes": 8,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zodchiii",
+        "name": "darkzodchi",
+        "date": "2026-04-30",
+        "text": "@stephlon_b i give out many cheat codes here",
+        "likes": 8,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "frothmonsterrr",
+        "name": "frothy",
+        "date": "2026-05-01",
+        "text": "@SKoenegracht @zodchiii It doesn’t. People are just vibe coding and committing everything to git like a numpty and then blame Claude instead of understanding basic safety and security before uploading a repo",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "anatolinicolae",
+        "name": "Anatoli Nicolae",
+        "date": "2026-05-01",
+        "text": "@zodchiii Thing is that Read and Write deny rules may not be enough when it decides to `cat` or `tail` the files, so that list needs a bit more refinement. Wrote a similar post few days ago…\nhttps://t.co/RpzpmK393q",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mrdanmetcalfe",
+        "name": "Daniel Metcalfe",
+        "date": "2026-05-01",
+        "text": "@zodchiii You're not meant to have secrets in your .env, that's what .env.local is for. The .env file exists precisely so tools like Claude Code can safely load it up and be more helpful.",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_bitcoin_basics",
+        "name": "Bitcoin Basics for Everyone",
+        "date": "2026-05-01",
+        "text": "I set this up, ~/.claude/settings.json\n  The next day in a different project-“I shouldn’t read your .env file — it contains API keys and secrets. I apologize for reading itearlier without asking.\nIs there something specific you need help with regarding your environment configuration? I can help\nwithout viewing the actual key values.”",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lukcombinator",
+        "name": "Lukas",
+        "date": "2026-04-30",
+        "text": "@zodchiii honestly the .env in CLAUDE.md ignore-list trick is security theater. proper fix is just keep secrets out of the repo entirely, doppler or 1pw cli. but most of us learn this the hard way",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fundera_x",
+        "name": "Fundera",
+        "date": "2026-04-30",
+        "text": "@zodchiii 29M secrets leaked and you're still mad about 1 line in settings.json. Priorities?",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "stephlon_b",
+        "name": "Stephen",
+        "date": "2026-04-30",
+        "text": "@zodchiii that settings. json line feels like a cheat code honestly",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "theozero",
+        "name": "Theo Ephraim 🧙‍♂️",
+        "date": "2026-05-01",
+        "text": "@zodchiii use https://t.co/nMaERX01Ff - get every secret out of plaintext.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wernerk_au",
+        "name": "Werner Kasselman",
+        "date": "2026-05-01",
+        "text": "@zodchiii it's 2026, who still doesn't use key vaults or 1pass instead of slapping your stuff all over .env files?",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "stratos2k5",
+        "name": "Mr. Hodlalot",
+        "date": "2026-05-01",
+        "text": "@zodchiii Me: Dont read .env file!!! \nAgent: You are absolutely right! I won't do that again. \nAlso Agent: cat .env",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zodchiii",
+        "name": "darkzodchi",
+        "date": "2026-04-30",
+        "text": "@fundera_x mixed priorities lol",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "chronicLarper",
+        "name": "ChronicLarper | poly.xreverse.xyz",
+        "date": "2026-05-01",
+        "text": "@zodchiii why do you care that claude knows your **local** dev env passwords?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SKoenegracht",
+        "name": "Stino",
+        "date": "2026-05-01",
+        "text": "@tonihintikka @zodchiii But the discussion in this comment was about your secrets leaking on GitHub.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mikaloveex",
+        "name": "bratty asian 🍒",
+        "date": "2026-04-30",
+        "text": "@zodchiii \"yikes, looks like someone needs a hug and a new computer\"",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tawer1O",
+        "name": "tawer",
+        "date": "2026-04-30",
+        "text": "@zodchiii Hidden env variables still leak in claude code during init",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "macky_abad01",
+        "name": "mark abad",
+        "date": "2026-04-30",
+        "text": "@zodchiii wait this is actually a huge one. honestly didn't know about the settings.json fix, just been manually avoiding until i remembered. been lucky so far but that's terrifying lol",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jpfraneto",
+        "name": "jp",
+        "date": "2026-05-01",
+        "text": "@zodchiii @stephlon_b @grok what are the other cheat codes?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "undacappn",
+        "name": "Oversized Moose With Socks (xlmoose.eth)",
+        "date": "2026-05-01",
+        "text": "@zodchiii @RickBakas Reeeeee",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JakeHulberg",
+        "name": "Jake Hulberg",
+        "date": "2026-05-01",
+        "text": "@zodchiii But WHY do we insist on having secrets sit plain text on disk? Get a secrets manager like @infisical and inject them at runtime :)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Menoleto",
+        "name": "Charlie ⚡ BtalktoC",
+        "date": "2026-05-01",
+        "text": "@zodchiii @cyclops_btc",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sergey1997bsu",
+        "name": "sergeycrypto.base.eth",
+        "date": "2026-05-01",
+        "text": "Fair point on .env exposure, that’s a real ops issue people should harden with ignore rules and secrets hygiene. OpenClaw and Claude Code aren’t really the same category though: one’s a broad vendor IDE agent, the other’s a narrower framework/stack. The security default criticism can stand without needing a startup-vs-Anthropic winner",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "KChandrasaha",
+        "name": "Koushik Chandra Saha",
+        "date": "2026-05-01",
+        "text": "@zodchiii The real vulnerability isn’t Claude reading .env.\n\nIt’s humans assuming configuration equals security without understanding the trust boundaries underneath.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tonihintikka",
+        "name": "Toni Hintikka",
+        "date": "2026-05-01",
+        "text": "@SKoenegracht @zodchiii I mean any LLM API. It is cloud service. I do not trust any of them.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "o_stefanishyna",
+        "name": "Olha Stefanishyna",
+        "date": "2026-05-01",
+        "text": "@stephlon_b @zodchiii How should it work: a line in setting.json =&gt; open claude code?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TeaseTech",
+        "name": "Bad MoFo",
+        "date": "2026-05-01",
+        "text": "@zodchiii I just paste my api code in Claude directly to make sure ot has it lol",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "renaldogg11",
+        "name": "Renaldo Geldenhuis",
+        "date": "2026-05-01",
+        "text": "@zodchiii It is bad practice to commit agentic folders in any case. Add by default your .Claude, .Cursor and the rest of them to .gitignore\n\nBut good read thanks!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NextPersona",
+        "name": "Paul Schoel",
+        "date": "2026-05-01",
+        "text": "@frothmonsterrr @SKoenegracht @zodchiii Would gitignore traditionally be the better choice anyway?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ExeAndino",
+        "name": "Exe Andino",
+        "date": "2026-05-01",
+        "text": "@zodchiii La IA crea .env, luego lo comparte con otras IA’s, se convierte todo en Open Source, pero funcional a la necesidad",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Giahuy984g",
+        "name": "Gia huy",
+        "date": "2026-04-30",
+        "text": "@zodchiii 本当に危険ですね。情報保護は重要です。",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Av1dlive",
+        "name": "Avid",
+        "date": "2026-04-30",
+        "text": "@zodchiii Holy banger",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itsthedonhashim",
+        "name": "Hussain Hashim | Building SundayBack",
+        "date": "2026-04-30",
+        "text": "@zodchiii @zodchiii omg the \"don't read .env\" in CLAUDE.md attempt is so relatable 😂 been there, tried that, still leaked my secrets lol",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xmyttle",
+        "name": "Myttle",
+        "date": "2026-04-30",
+        "text": "@zodchiii this is the kind of thing people only learn after one bad push",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AlexAvilov",
+        "name": "Alex Avilov",
+        "date": "2026-05-15",
+        "text": "@zodchiii Step 1: create problem where it doesn’t exist \nStep 2: “solve” problem by creating different problems \n\nYou don’t need agents to keep yourself busy with that loop",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "to3for5vi7ate9x",
+        "name": "Nkit C",
+        "date": "2026-05-02",
+        "text": "@zodchiii W thread",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SKoenegracht",
+        "name": "Stino",
+        "date": "2026-05-02",
+        "text": "@tvmalsv1 @zodchiii That’s absolutely NOT default behaviour. You are explicitly doing this if that’s the case. And this has nothing to do with either GitHub or agentic coding.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "johnandrews",
+        "name": "John Andrews",
+        "date": "2026-05-02",
+        "text": "@zodchiii They're putting secrets into environment variables to \"make it work\", just like only idiots did in the 1995-2021 era of tech advancement. \n\nThis near future is going to be fun. \n\nHint: you can't prepare for what will happen next.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rebcoder_",
+        "name": "Kartik Budholiya",
+        "date": "2026-05-02",
+        "text": "@zodchiii Nice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mrwcjoughin",
+        "name": "Matthew Joughin | 🏗️ Cross Platform Dev Tools",
+        "date": "2026-05-02",
+        "text": "@zodchiii Don’t use .env files - already don’t do that",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jjjjjjchung",
+        "name": "Jay Chung",
+        "date": "2026-05-02",
+        "text": "@zodchiii .gitignore",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ItIsWha92763579",
+        "name": "ItIsWhatItIs",
+        "date": "2026-05-01",
+        "text": "@zodchiii Does OpenCode also do the same?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tvmalsv1",
+        "name": "PizzaCheeto",
+        "date": "2026-05-01",
+        "text": "@SKoenegracht @zodchiii Some people git commit their AI chat logs and “thinking” output so they can refer back to what lead them to where they are now.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sooyoon_eth",
+        "name": "Soo Yoon | FailSafe Guardian",
+        "date": "2026-05-01",
+        "text": "@zodchiii ngl the amount of teams blindly giving agents access to their raw .env files is terrifying. prompt injection is the new sql injection",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-05-01",
+        "text": "Here are some solid dev cheat codes to pair with that settings.json block:\n\n- Add a .claudeignore file to keep sensitive folders out of context entirely.\n- Prefix prompts with \"Project-only mode. No external data.\" to reduce hallucinations.\n- Use Claude's artifacts + \"diff only\" output for cleaner reviews.\n- Enable local MCP tools instead of cloud agents when possible.\n\nDrop your setup if you want more tailored ones. What's the next one you're hunting?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PranayReddy05",
+        "name": "Pranay Reddy | building with AI",
+        "date": "2026-05-01",
+        "text": "@zodchiii Imagine you have just leaked you're API key while coding using claude, and now you end up paying $10,000 in API bills that random people made",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-05-01",
+        "text": "@KarlderGrosseod @zodchiii @KarlderGrosseod Bonjour, the unroll you asked for: https://t.co/jPhEz5ISEZ Have a good day. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "KarlderGrosseod",
+        "name": "Karl der Große",
+        "date": "2026-05-01",
+        "text": "@zodchiii @threadreaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ChaseWisely",
+        "name": "Chase Wisely",
+        "date": "2026-05-01",
+        "text": "@zodchiii the real trick is just not using GitHub…",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "longhaus1877",
+        "name": "longhaus1877",
+        "date": "2026-05-01",
+        "text": "@zodchiii how hard to have real .env for production and have different .env for development with expiring limited test keys.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "honkinwaffle",
+        "name": "Waffle",
+        "date": "2026-05-01",
+        "text": "@zodchiii I don’t understand why people aren’t sandboxing this as much as they should be. Yes, limiting its access through settings is a good idea but completely blocking it through sandboxes is so much more effective.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CurtChan09315",
+        "name": "Curtie",
+        "date": "2026-05-01",
+        "text": "@zodchiii first of all your api keys shouldnt be in .env (.env.local if anything). Secondly, this literally stops nothing, claude can generate itself a file that will let it read all env variables declared if it feels like doing so, lmao",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "franz_kawuka",
+        "name": "kafka",
+        "date": "2026-05-01",
+        "text": "@zodchiii Opencode requires permission to read any file that starts with .env by defsult what the fuck is wrong with claude devs",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KMudithya",
+        "name": "Kalindu",
+        "date": "2026-05-01",
+        "text": "@zodchiii The fix is the same as it has always been. Keep secrets out of the repo, scope them with a vault or env manager, and treat any agent the way you would treat a junior with shell access.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Larrywilsonn_",
+        "name": "Larry Wilson",
+        "date": "2026-05-01",
+        "text": "@zodchiii This might have saved so many API . But atleast now people can use it to block claude reading your .env",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "OneOnlyMichal",
+        "name": "M",
+        "date": "2026-05-01",
+        "text": "@zodchiii should be a default when you launch a project in claude or cursor or any other tool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "OneManSaas",
+        "name": "OneManSaas",
+        "date": "2026-05-01",
+        "text": "@zodchiii Wait, \"one line in settings.json actually\" - what's that referring to? Is there a gitignore setting that would have prevented the .env from being accessible to Claude in the first place?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sergey1997bsu",
+        "name": "sergeycrypto.base.eth",
+        "date": "2026-05-01",
+        "text": "@zodchiii people: give tools all permissions.\nalso, people: complaining about information leaking from their computers 😰",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "martinbastien",
+        "name": "Martin Bastien",
+        "date": "2026-05-01",
+        "text": "@zodchiii You open Claude Code in prod?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NiteLiteDF",
+        "name": "NiteLite",
+        "date": "2026-05-01",
+        "text": "@zodchiii As a added security boundry, you can do file scans as pre-commit hooks to avoid any string from .env ending up in source code (it's not going to stop Claude from sending your secrets to Anthropic's servers though).",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DCx7C5",
+        "name": "DC",
+        "date": "2026-05-01",
+        "text": "@zodchiii .aiignore .aiexclude\nIt's really not magic🥱",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LewisWeldtech",
+        "name": "That AI Guy",
+        "date": "2026-05-01",
+        "text": "@zodchiii https://t.co/jst2N2HlJ7",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SKoenegracht",
+        "name": "Stino",
+        "date": "2026-05-01",
+        "text": "@tonihintikka @zodchiii You mean GitHub with cloud service? If you don’t commit those secrets to a cloud service they don’t have your secrets. And that’s exactly where the .env is for. It’s on your own server, not on GitHub.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "editxshub",
+        "name": "Shubham Sharma | AI & Tech",
+        "date": "2026-05-01",
+        "text": "@zodchiii How does Claude reading your .env puts those secrets on GitHub?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "YuriSidorov",
+        "name": "Yuri Sidorov",
+        "date": "2026-05-01",
+        "text": "@zodchiii Don’t keep secrets in .env",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Doxposting",
+        "name": "Doxy",
+        "date": "2026-05-01",
+        "text": "@zodchiii your api key just became a public service announcement\nmaybe try .gitignore before the 29 millionth leak",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FunkyxBeatz",
+        "name": "FunkyBeatz",
+        "date": "2026-05-01",
+        "text": "@zodchiii Using Claude inside Cursor so Claude fails every single time at reading .env is the actual way to go imo.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Kaifa_roseman",
+        "name": "🐐",
+        "date": "2026-05-01",
+        "text": "This is actually criminal 😭\n\nClaude Code opens and immediately starts reading your .env like it’s a group chat:\n\n- API keys ✅\n- passwords ✅ \n- your whole life ✅\n\nYou put “don’t read .env” in CLAUDE.md? Cute. Still leaks.\n\nBut one random line in settings.json magically fixes everything.\n\nAnthropic really built the most powerful coding AI… then made it a security nightmare by default.\n\nOpenClaw eating their lunch for a reason.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vetroff",
+        "name": "Vitaly Lip",
+        "date": "2026-05-01",
+        "text": "@zodchiii на этапе разработки env  не содержит продакшн данных. Если конечно вы соблюдаете культуру разработки...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nir_shabi",
+        "name": "Nir Shabi",
+        "date": "2026-05-01",
+        "text": "@tonihintikka @SKoenegracht @zodchiii Where do you store your keys?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "asakawaya",
+        "name": "浅川　倫之",
+        "date": "2026-05-01",
+        "text": "@zodchiii 悪いのはgithubの方であって、.env読んでるAIが悪いわけじゃない。そもそもapi keyやパスワードをaiに読ませてもそんなものが漏洩するわけがない。",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "notjazii",
+        "name": "J A Z I I",
+        "date": "2026-05-01",
+        "text": "@zodchiii One file changed everything",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chriswinfield",
+        "name": "Chris Winfield - Understanding A.I.",
+        "date": "2026-05-01",
+        "text": "@zodchiii Must-know security fix! 🔒",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "frothmonsterrr",
+        "name": "frothy",
+        "date": "2026-05-01",
+        "text": "@NextPersona @SKoenegracht @zodchiii Yes",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "auTechArena",
+        "name": "techarena.au",
+        "date": "2026-05-01",
+        "text": "@zodchiii Love this, spot on. Good on ya for flagging it, mate. One stray line in settings.json and you're cooked. How did you spot that one?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AIMastery2",
+        "name": "AI Automation Mastery",
+        "date": "2026-05-01",
+        "text": "@zodchiii The settings.json fix is the part most people skip. This is the kind of thing you only learn after something goes wrong.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "roshanramani007",
+        "name": "Roshan Ramani",
+        "date": "2026-05-01",
+        "text": "@zodchiii security best practice just dropped: one line of json",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tonihintikka",
+        "name": "Toni Hintikka",
+        "date": "2026-05-01",
+        "text": "@SKoenegracht @zodchiii Do you trust Cloud services read your serets?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cypher_hyd",
+        "name": "Cypher",
+        "date": "2026-05-01",
+        "text": "@zodchiii Simply sign up for our product's waitlist, and we'll handle all these problems for you.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itsNitikaSingh",
+        "name": "Nitika Singh🦋🇮🇳",
+        "date": "2026-05-01",
+        "text": "@zodchiii Not only Claude all LLM do same",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "marciiemari",
+        "name": "marcin",
+        "date": "2026-05-01",
+        "text": "@zodchiii Maybe learning tu use always demo keys on local .env would solve this issue, just maybe!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ExeAndino",
+        "name": "Exe Andino",
+        "date": "2026-05-01",
+        "text": "@MyLunarPhase @zodchiii A mi parecer a fuerza bruta ya tiene acceso a todo excepto a lo desconectado y a lo encriptado con SHA1024 antes que hackee las gpu para hacerse cuántica y modificar la fisica a gusto y placere",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JakiTreehorne",
+        "name": "mr",
+        "date": "2026-05-01",
+        "text": "@SKoenegracht @zodchiii Lol, just what I was wondering. 🤷🏻",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xjoma",
+        "name": "Joma",
+        "date": "2026-05-01",
+        "text": "@zodchiii 1password",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "truechatdata",
+        "name": "Chat Data",
+        "date": "2026-05-01",
+        "text": "@zodchiii CLAUDE.md was never the right boundary for secrets anyway. if the project can read .env at startup, the only fix that sticks is deny by default in settings plus keeping secrets out of the repo root when possible.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SSXToTheMoon",
+        "name": "StarShipX",
+        "date": "2026-05-01",
+        "text": "@zodchiii 設定を慎重に管理しましょう。情報漏えいを防ぐためには、セキュリティ設定をしっかりと行いましょう。",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DangcingAI",
+        "name": "DangcingAI",
+        "date": "2026-04-30",
+        "text": "@zodchiii Yikes, that `.env` leak hit hard — just last week I caught my own API key floating in a debug log. Settings.json fix? Genius. Also low-key terrified to open Claude Code now… 😅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "asukahaox",
+        "name": "NMhao",
+        "date": "2026-04-30",
+        "text": "@zodchiii なぜ人々はそんなにミスをしてしまうのだろうか？情報の漏洩を防ぐ方法はあるのか？",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JundoYaps",
+        "name": "Jundo",
+        "date": "2026-04-30",
+        "text": "@zodchiii one line in settings.json blocks it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "luxionce",
+        "name": "kiyosaki",
+        "date": "2026-04-30",
+        "text": "@zodchiii .設定ファイルを確認しましょう。情報漏えいを防ぐために。",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "muhamedhkimi",
+        "name": "Kimi",
+        "date": "2026-04-30",
+        "text": "@zodchiii \"Another reason to consider environment variable managers like Hashicorp's Vault or AWS Secrets Manager. They encrypt and store sensitive data separately from your code, adding an extra layer of security.\"",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "britanianec",
+        "name": "hanayuki",
+        "date": "2026-04-30",
+        "text": "@zodchiii 本当に大事な情報を守るために、セキュリティ保護はとても重要ですね。設定を注意深く行うことが必須です。",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2049872941622460416/img/MM2Cu-3DZNqSXVGp.jpg",
+      "localFilename": "2049874687069426008_1_poster.jpg"
+    }
+  ]
 }
