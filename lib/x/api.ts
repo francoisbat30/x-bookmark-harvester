@@ -182,6 +182,9 @@ export function buildSelfThread(main: XTweet, authorPosts: XTweet[]): XTweet[] {
   return chain;
 }
 
+let lastAllSearchAt = 0;
+const ALL_SEARCH_MIN_INTERVAL_MS = 1500;
+
 interface SearchAccumulator {
   tweets: XTweet[];
   users: Map<string, XUser>;
@@ -227,10 +230,13 @@ async function runSearch(
     }
     if (nextToken) params.set("next_token", nextToken);
 
-    // /search/all est rate-limité plus bas que /search/recent : petite pause
-    // entre les pages (le backoff 429 de xFetch fait le reste).
-    if (endpoint === "all" && page > 0) {
-      await new Promise((r) => setTimeout(r, 1100));
+    // /search/all est rate-limité bas côté X (~300 req/15 min) : limiteur
+    // GLOBAL de 1,5 s entre appels — le délai entre posts ne suffit pas,
+    // chaque post enchaîne 2-3 recherches (thread, relevancy, top-up).
+    if (endpoint === "all") {
+      const wait = lastAllSearchAt + ALL_SEARCH_MIN_INTERVAL_MS - Date.now();
+      if (wait > 0) await new Promise((r) => setTimeout(r, wait));
+      lastAllSearchAt = Date.now();
     }
 
     const res = await xFetch<XSearchResponse>(
@@ -301,7 +307,7 @@ export async function extractPostWithXApi(
     users: new Map(),
     media: new Map(),
   };
-  if (author?.username) {
+  if (author?.username && maxThreadPages > 0) {
     try {
       threadAcc = await runSearch(
         endpoint,
@@ -325,13 +331,15 @@ export async function extractPostWithXApi(
     media: new Map(),
   };
   try {
-    commentsAcc = await runSearch(
-      endpoint,
-      `conversation_id:${tweet.conversation_id}`,
-      maxCommentPages,
-      bearerToken,
-      { sortOrder: "relevancy", startTime },
-    );
+    if (maxCommentPages > 0) {
+      commentsAcc = await runSearch(
+        endpoint,
+        `conversation_id:${tweet.conversation_id}`,
+        maxCommentPages,
+        bearerToken,
+        { sortOrder: "relevancy", startTime },
+      );
+    }
   } catch (e) {
     console.warn(
       `[xapi] conversation search (${endpoint}) failed for ${tweetId}: ${(e as Error).message}`,
@@ -349,7 +357,7 @@ export async function extractPostWithXApi(
   const harvested = new Set(
     commentsAcc.tweets.filter((t) => t.id !== tweet.id).map((t) => t.id),
   ).size;
-  if (harvested < expectedComments) {
+  if (maxCommentPages > 0 && harvested < expectedComments) {
     try {
       const topUp = await runSearch(
         endpoint,

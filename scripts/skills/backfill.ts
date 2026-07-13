@@ -25,6 +25,7 @@ import {
   type CacheEnvelope,
 } from "../../lib/obsidian/cache";
 import { planBackfill } from "../../lib/obsidian/backfill";
+import { loadTriageList } from "../../lib/triage";
 import { extractPost } from "../../lib/x/extract";
 import { mcpConfigFromEnv } from "../../lib/x/mcp-source";
 import { downloadImages } from "../../lib/obsidian/media-download";
@@ -38,6 +39,7 @@ interface Args {
   refetchAll: boolean;
   delayMs: number;
   videos: boolean;
+  minComments: number;
 }
 
 function parseArgs(argv: string[]): Args {
@@ -46,6 +48,7 @@ function parseArgs(argv: string[]): Args {
   let refetchAll = false;
   let delayMs = 1200;
   let videos = false;
+  let minComments = 1;
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === "--dry-run") dryRun = true;
@@ -57,8 +60,12 @@ function parseArgs(argv: string[]): Args {
       const n = Number(argv[++i]);
       delayMs = Number.isFinite(n) && n >= 0 ? Math.floor(n) : 1200;
     } else if (a === "--videos") videos = true;
+    else if (a === "--min-comments") {
+      const n = Number(argv[++i]);
+      minComments = Number.isFinite(n) && n > 1 ? Math.floor(n) : 1;
+    }
   }
-  return { dryRun, limit, refetchAll, delayMs, videos };
+  return { dryRun, limit, refetchAll, delayMs, videos, minComments };
 }
 
 const sleep = (ms: number) =>
@@ -85,9 +92,12 @@ async function main() {
     process.exit(1);
   }
 
+  const skipIds = await loadTriageList("triage-skip.txt");
   const plan = planBackfill(envelopes, {
     limit: args.limit,
     refetchAll: args.refetchAll,
+    skipIds,
+    minComments: args.minComments,
   });
 
   if (args.dryRun) {
@@ -97,6 +107,7 @@ async function main() {
           ok: true,
           dryRun: true,
           ...plan.totals,
+          triageSkipped: skipIds.size,
           summaryLine: `devis : ${plan.totals.posts} posts (${plan.totals.refetch} refetch, ${plan.totals.rerenderOnly} re-render) · ≤ ${plan.totals.estReadsMax} lectures · ≤ $${plan.totals.estCostMaxUsd.toFixed(2)}`,
         },
         null,

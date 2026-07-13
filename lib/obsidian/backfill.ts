@@ -54,6 +54,14 @@ export interface PlanOptions {
   limit?: number | null;
   /** Refetcher TOUT le corpus, pas seulement les stale (défaut false). */
   refetchAll?: boolean;
+  /** IDs exclus du refetch (state/triage-skip.txt) : re-render seul. */
+  skipIds?: Set<string>;
+  /**
+   * Re-refetch aussi les posts « appauvris » : moins de minComments commentaires
+   * capturés alors que le post en annonce nettement plus (victimes de 429 ou
+   * d'un tri relevancy maigre). 1 = comportement de base (stale seulement).
+   */
+  minComments?: number;
 }
 
 /**
@@ -64,11 +72,17 @@ export function planBackfill(
   envelopes: CacheEnvelope[],
   options: PlanOptions = {},
 ): BackfillPlan {
-  const { limit = null, refetchAll = false } = options;
+  const { limit = null, refetchAll = false, skipIds, minComments = 1 } = options;
+
+  const thin = (env: CacheEnvelope): boolean =>
+    minComments > 1 &&
+    env.post.comments.length < minComments &&
+    env.post.metrics.replies >= minComments * 4;
 
   const items: BackfillItem[] = envelopes
     .map((env) => {
-      const refetch = refetchAll || isStale(env);
+      const refetch =
+        (refetchAll || isStale(env) || thin(env)) && !skipIds?.has(env.tweetId);
       const replies = env.post.metrics.replies;
       return {
         tweetId: env.tweetId,

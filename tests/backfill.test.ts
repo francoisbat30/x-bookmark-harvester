@@ -72,3 +72,39 @@ describe("planBackfill", () => {
     expect(plan.totals.estCostMaxUsd).toBe(0);
   });
 });
+
+describe("planBackfill — triage skip", () => {
+  const corpus = [env("a", 0, 0), env("b", 40, 0), env("d", 6000, 0)];
+
+  it("un id dans triage-skip perd son refetch mais garde le re-render", () => {
+    const plan = planBackfill(corpus, { skipIds: new Set(["d"]) });
+    const d = plan.items.find((i) => i.tweetId === "d")!;
+    expect(d.refetch).toBe(false);
+    expect(d.estReads).toBe(0);
+    expect(plan.totals.refetch).toBe(1);
+    expect(plan.totals.posts).toBe(3);
+  });
+
+  it("skip s'applique aussi à refetchAll", () => {
+    const plan = planBackfill(corpus, { refetchAll: true, skipIds: new Set(["a", "d"]) });
+    expect(plan.totals.refetch).toBe(1);
+  });
+});
+
+describe("planBackfill — minComments (posts appauvris)", () => {
+  it("re-refetche un post avec trop peu de commentaires vs replies", () => {
+    const corpus = [
+      env("thin", 100, 2), // 2 commentaires pour 100 replies → appauvri
+      env("ok", 100, 40),
+      env("small", 3, 1), // 1 commentaire pour 3 replies → normal
+    ];
+    const plan = planBackfill(corpus, { minComments: 5 });
+    const ids = plan.items.filter((i) => i.refetch).map((i) => i.tweetId);
+    expect(ids).toEqual(["thin"]);
+  });
+
+  it("minComments par défaut = stale seulement", () => {
+    const plan = planBackfill([env("thin", 100, 2)], {});
+    expect(plan.totals.refetch).toBe(0);
+  });
+});
