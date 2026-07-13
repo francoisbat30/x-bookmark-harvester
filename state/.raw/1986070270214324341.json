@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:13.529Z",
+  "tweetId": "1986070270214324341",
+  "post": {
+    "url": "https://x.com/ProtonPrivacy/status/1986070270214324341",
+    "author": {
+      "handle": "ProtonPrivacy",
+      "name": "Proton"
+    },
+    "date": "2025-11-05",
+    "text": "Fact: ChatGPT is scanning user chats and sending them to law enforcement.\n\nDespite OpenAI spending millions of dollars on marketing to convince you that it is \"private\", every chat is stored in plaintext &amp; analyzed. \n\nProton's AI, @asklumo always encrypts chats, and never logs. https://t.co/q2pfrh6R3R",
+    "thread": [
+      {
+        "id": "1986070270214324341",
+        "text": "Fact: ChatGPT is scanning user chats and sending them to law enforcement.\n\nDespite OpenAI spending millions of dollars on marketing to convince you that it is \"private\", every chat is stored in plaintext &amp; analyzed. \n\nProton's AI, @asklumo always encrypts chats, and never logs. https://t.co/q2pfrh6R3R"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G4_wXoXWkAEWatw.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1372,
+      "retweets": 292,
+      "replies": 67,
+      "views": 58278
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G4_wXoXWkAEWatw.jpg",
+      "localFilename": "1986070270214324341_1.jpg"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:28.139Z",
+  "fetchedAt": "2026-07-13T06:52:42.035Z",
   "tweetId": "2016042873180061928",
   "post": {
     "url": "https://x.com/amritwt/status/2016042873180061928",
@@ -9,7 +10,17 @@
       "name": "amrit"
     },
     "date": "2026-01-27",
-    "text": "&gt; better than opus 4.5\n&gt; is open source https://t.co/tJttKbBvQX https://t.co/JjdvgBfUAD",
+    "text": "&gt; better than opus 4.5\n&gt; is open source https://t.co/tJttKbBvQX https://t.co/JjdvgBfUAD\n\nalright yes its just benchmark maxxing ok i get it",
+    "thread": [
+      {
+        "id": "2016042873180061928",
+        "text": "&gt; better than opus 4.5\n&gt; is open source https://t.co/tJttKbBvQX https://t.co/JjdvgBfUAD"
+      },
+      {
+        "id": "2016164881700159766",
+        "text": "alright yes its just benchmark maxxing ok i get it"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +28,837 @@
       }
     ],
     "metrics": {
-      "likes": 8803,
-      "retweets": 264,
-      "replies": 101,
-      "views": 733694
+      "likes": 8658,
+      "retweets": 259,
+      "replies": 98,
+      "views": 734146
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "ChrissGPT",
+        "name": "Chris",
+        "date": "2026-01-27",
+        "text": "@amritwt Claude 4.5 is 6% better in SWE which makes all the difference in the world",
+        "likes": 32,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "helscom",
+        "name": "Helscom",
+        "date": "2026-01-27",
+        "text": "@Dadecoy @amritwt it's not even open source",
+        "likes": 17,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Jeff9James",
+        "name": "Jeffrin James🆗️",
+        "date": "2026-01-27",
+        "text": "@amritwt But isn't this what matters to most of us? \n\nOpus 4.5 still leads the way 👀 https://t.co/3bJPrei4PB",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jhonspacejhon",
+        "name": "Jhon Sotto",
+        "date": "2026-01-27",
+        "text": "@amritwt https://t.co/O0yQGj1yHy",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xtbot",
+        "name": "tian/天",
+        "date": "2026-01-27",
+        "text": "@amritwt And in this house, Open Source Kimi is a hero. https://t.co/PNgV5UAV7u",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HaareBlond",
+        "name": "haareblond 🇪🇺",
+        "date": "2026-01-27",
+        "text": "@helscom @Dadecoy @amritwt https://t.co/BpQS3Aj4Io",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JoshPurtell",
+        "name": "Josh",
+        "date": "2026-01-27",
+        "text": "@chrisgpt @amritwt No it doesn’t.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hrishikesshhhh",
+        "name": "Hrishikesh Nikam",
+        "date": "2026-01-28",
+        "text": "@amritwt People pointing it out, yes it’s benchmar maxing, but also it’s open source and decent enough to complete with closed source models, I see it as a win.\n\nIf you can afford the infrastructure to locally run LLMs, you will not need to give your data to chineese companies, https://t.co/QE54efbga3",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FreeDrThug",
+        "name": "jacob",
+        "date": "2026-01-27",
+        "text": "@amritwt I mean I’m sure you knew that before you posted but engagement is like a drug 😭 I don’t mean that disparagingly btw I love drugs",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dannygladiolas",
+        "name": "DannyGladiolas",
+        "date": "2026-01-27",
+        "text": "@D4pp3rD1scourse @amritwt I trust more the Chinese than the American/Israeli, even the food is better",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "beelibers",
+        "name": "🌱",
+        "date": "2026-01-27",
+        "text": "@nurrhusni @jasonth0 @amritwt More like 100 years of Claude Max if you want the full model and not quantized trash.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "taheerBuilds",
+        "name": "taheer",
+        "date": "2026-01-27",
+        "text": "not in coding but everything else as well. The reason Opus 4.5 is good at many other non-coding tasks is because it converts a requirement into code and then executes it. \n\nFor example, if I want to remove the background of an image in claude:\n1. It codes a Python script to do that\n2. It picks the particular libraries required\n3. It runs that script on my image in the cloud by spinning up a  container\n4. It automatically removes the background\n\nI'm not sure if Kimi K2.5 can do the same because it isn't at that level in the coding benchmarks. In the SWE-bench, you can see it's lesser than Claude, and it's also way lesser than Claude in the multilingual SWE-bench. It may be better than other models, but it's not better than Claude.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AI_evangelist42",
+        "name": "Kyler",
+        "date": "2026-01-28",
+        "text": "@amritwt It’s definitely not better than opus 4.5, but it is pretty good",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "plzvoteharder",
+        "name": "Flat Affect",
+        "date": "2026-01-28",
+        "text": "@huanfeng99991 @misaligned_agi @amritwt Kimi k2.5 is compatible with the anthropic API, so yes.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zacamaso",
+        "name": "zaca",
+        "date": "2026-01-28",
+        "text": "@amritwt Cursor wins again.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shmkane",
+        "name": "Kane",
+        "date": "2026-01-27",
+        "text": "@amritwt &gt; in benchmarks",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AperitifEgo",
+        "name": "Lucélian",
+        "date": "2026-01-27",
+        "text": "@_x_Andrew_ @amritwt But Jewish LLMs are all good",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "longgege_god",
+        "name": "longGG123",
+        "date": "2026-01-27",
+        "text": "@chrisgpt @amritwt Every time the Chinese model is released, it claims to surpass Opus 4.5, but it is usually disproven within a week.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "subhashaam_",
+        "name": "River",
+        "date": "2026-01-27",
+        "text": "@amritwt os keeps winning",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Salomon14395905",
+        "name": "Salomon665💹🧲",
+        "date": "2026-01-27",
+        "text": "@miracle23maker @grok @fate1ess @jasonth0 @amritwt Alright👍",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "miracle23maker",
+        "name": "MiracleMaker",
+        "date": "2026-01-27",
+        "text": "@Salomon14395905 @grok @fate1ess @jasonth0 @amritwt See what's interesting is that your definition of open source is pretty misaligned with the actual definition. You disappointed yourself because of your misgivings. Open source means it's there for you to run it, it doesn't mean it's easy or convenient. Only that it's possible.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Salomon14395905",
+        "name": "Salomon665💹🧲",
+        "date": "2026-01-27",
+        "text": "@fate1ess @grok @jasonth0 @amritwt Nah you 🫵, are ngmi.  None of them is hyping it for being \"Open weigths\". They're all saying \"Open Source\"",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "fate1ess",
+        "name": "Aditya",
+        "date": "2026-01-27",
+        "text": "@Salomon14395905 @grok @jasonth0 @amritwt ngmi",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_defying",
+        "name": "ben",
+        "date": "2026-01-27",
+        "text": "@amritwt just fell to my knees after buying claude max",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nurrhusni",
+        "name": "nji",
+        "date": "2026-01-27",
+        "text": "@jasonth0 @amritwt you can get 5 years of Claude Max subscription just to buy the hardware alone lmao",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AperitifEgo",
+        "name": "Lucélian",
+        "date": "2026-01-29",
+        "text": "@_x_Andrew_ @amritwt Israel",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "thatGuyCodes",
+        "name": "unBug 🐦‍🔥",
+        "date": "2026-01-28",
+        "text": "@amritwt Out of nowhere, yt recommended me Kimi’s video yesterday, and today I’ve been seeing a lot of posts about it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NathansNexusNow",
+        "name": "Nathan's Nexus",
+        "date": "2026-01-28",
+        "text": "@_x_Andrew_ @amritwt I have. I am immediately suspicious. Its like talking to the guy at the gas station about a bus ticket.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NathansNexusNow",
+        "name": "Nathan's Nexus",
+        "date": "2026-01-28",
+        "text": "@amritwt absolutely share your biased in the thread and give no credit to the massive gap obviously narrowing between closed source and open source models.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fuzzzypan",
+        "name": "AK",
+        "date": "2026-01-28",
+        "text": "@amritwt kimi is awesome, but i see claude being better at coding..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "karchiJR",
+        "name": "KARCHI",
+        "date": "2026-01-28",
+        "text": "@amritwt wheres the catch https://t.co/Urqh8Xp4ck",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "umceko1",
+        "name": "umceko",
+        "date": "2026-01-28",
+        "text": "@D4pp3rD1scourse @amritwt What are you talking about just use it from another provider ffs",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bil0090",
+        "name": "Bilal Bakr",
+        "date": "2026-01-28",
+        "text": "@amritwt Its not better, but its nearly the same",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "michabbb",
+        "name": "Micha(el) Bladowski 🇩🇪 🇺🇦",
+        "date": "2026-01-28",
+        "text": "@amritwt &gt; your key&gt;board &gt;is b&gt;roken",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "plzvoteharder",
+        "name": "Flat Affect",
+        "date": "2026-01-28",
+        "text": "@corysimmons123 @amritwt It's like 10x cheaper though",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NguyenAnhThao19",
+        "name": "Taca | base.eth MAME INU",
+        "date": "2026-01-28",
+        "text": "@amritwt kimi k2.5 crushing opus with 78.5% mmmu pro? open source alpha lfg",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RobertDMellish",
+        "name": "Dave Mellish",
+        "date": "2026-01-28",
+        "text": "@amritwt @martin_casado ~CCP &gt; Benchmarks",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "r0b0t_sp1der",
+        "name": "🕷️",
+        "date": "2026-01-28",
+        "text": "@amritwt impossible to run ... 640GB RAM would cost as much as a house",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "robin_liquidium",
+        "name": "Robin | Liquidium",
+        "date": "2026-01-28",
+        "text": "@xzenova @CdeBurner @amritwt or 2 mac studios",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bigerchicken",
+        "name": "比哥鸡排",
+        "date": "2026-01-28",
+        "text": "@amritwt Cherish, as usual, today may be his strongest day.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "OneSpicyBoi6633",
+        "name": "One Spicy Boi",
+        "date": "2026-01-28",
+        "text": "@moralityetalon @misaligned_agi @amritwt ClaudeCode is an agent harness, Opencode is different harness. Same purpose, different method to achieving it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "endotheremin",
+        "name": "somefuckingguy",
+        "date": "2026-01-28",
+        "text": "@corysimmons123 @amritwt Does that small edge over Gemini make that much difference?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "UaVruFiveNull",
+        "name": "UntilStoppageTime_NAFO",
+        "date": "2026-01-27",
+        "text": "@CdeBurner @amritwt 50k/month server :/",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-27",
+        "text": "Kimi K2.5 is open source (weights on Hugging Face under Modified MIT). It outperforms Claude 4.5 Opus in some benchmarks like MMMU-Pro (78.5% vs 74.0%) and agentic tasks (BrowseComp 74.9%), but trails in others like GPQA (48.1% vs 87.0%) and some coding metrics. Overall, competitive but not superior in all areas. Sources: Hugging Face, Artificial Analysis, LLM Stats.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WorldEye156",
+        "name": "World Eye",
+        "date": "2026-01-27",
+        "text": "@amritwt @grok can you confirm the results about better than claud opus 4.5",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TurkiiAltamimi",
+        "name": "Turki",
+        "date": "2026-01-27",
+        "text": "@D4pp3rD1scourse @amritwt there are alternative host providers, besides that us companies are no different than chinese companies, if not worse, in terms of data privacy.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SkepticalWaves",
+        "name": "SkepticalWaves",
+        "date": "2026-01-27",
+        "text": "@amritwt &gt; can't afford a GPU to run it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "exa_flop",
+        "name": "x",
+        "date": "2026-01-27",
+        "text": "@amritwt It’s not open source and not better. Incredible lie to word count ratio in this tweet.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mattdsegal",
+        "name": "Matt",
+        "date": "2026-01-27",
+        "text": "@amritwt https://t.co/2cOlW2kKtF",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tomavelev",
+        "name": "Toma Velev",
+        "date": "2026-01-27",
+        "text": "@amritwt And probably requires 50-100k$ hardware to run",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MOODAUSTINTEXAS",
+        "name": "MoodAngel 🟧🟪",
+        "date": "2026-01-27",
+        "text": "@amritwt 😹 😵",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RafaCrackYT",
+        "name": "Rafa",
+        "date": "2026-01-27",
+        "text": "@amritwt Not better in SWE ez",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bhai_joshi17",
+        "name": "Gaurav Joshi",
+        "date": "2026-01-27",
+        "text": "@amritwt These are open source models, but only medium to large enterprises can run them.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "princetrunks",
+        "name": "Chuck Gaffney 🎙👨‍💻",
+        "date": "2026-01-27",
+        "text": "@amritwt Now to see what quants I can I get it running on my 30GB vram rig... https://t.co/GYZnkIr2BS",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "blank_angles",
+        "name": "Blank Angle",
+        "date": "2026-01-27",
+        "text": "@D4pp3rD1scourse @amritwt At this point America datacenter or China datacenter it literally makes no diff lmao, they're both already authoritarian surveillance states",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zaid7543",
+        "name": "zaid rahman",
+        "date": "2026-01-27",
+        "text": "@Dadecoy @helscom @amritwt They are not talking about coding only, look at the humanity's last exam",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rokobasili",
+        "name": "Roko ʕ •ᴥ•ʔっ🪄✨🐍",
+        "date": "2026-01-27",
+        "text": "@amritwt kimi cooked",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SubspaceAnomaly",
+        "name": "Marcus Aurelius",
+        "date": "2026-01-27",
+        "text": "@amritwt there has to be a catch",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kneelesh48",
+        "name": "i follow stupid girls",
+        "date": "2026-01-27",
+        "text": "@D4pp3rD1scourse @amritwt Better than data flying into American servers",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "asimsamz",
+        "name": "Asim Samuel",
+        "date": "2026-01-27",
+        "text": "@amritwt Someone test it out and lmk",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GIA917229015",
+        "name": "咸糖xiantang",
+        "date": "2026-01-27",
+        "text": "@amritwt false, check the SWE bench",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GioGigiX",
+        "name": "Gio",
+        "date": "2026-01-27",
+        "text": "@amritwt it isnt better than opus in coding?!?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "D4pp3rD1scourse",
+        "name": "DapperDiscourse",
+        "date": "2026-01-27",
+        "text": "@amritwt Let’s be honest… not many people can afford the infrastructure for local models… so cloud becomes the default. Use your brains.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SpinCook",
+        "name": "Chief",
+        "date": "2026-01-27",
+        "text": "@ProgrammingProg @SupremerZ @D4pp3rD1scourse @amritwt 😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AthishSol",
+        "name": "Athish",
+        "date": "2026-01-27",
+        "text": "@amritwt Yep. Math isn't mathing...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CdeBurner",
+        "name": "exitLQ",
+        "date": "2026-01-27",
+        "text": "@cpashia @xzenova @amritwt yeah for sure 😂😭",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cpashia",
+        "name": "Caleb Pashia",
+        "date": "2026-01-27",
+        "text": "@xzenova @CdeBurner @amritwt So it will probably be fine on my RTX 3070 then. Right?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "phanindra_ai",
+        "name": "Phanindra Reddy",
+        "date": "2026-01-27",
+        "text": "@amritwt howwwww",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Salomon14395905",
+        "name": "Salomon665💹🧲",
+        "date": "2026-01-27",
+        "text": "@miracle23maker @grok @fate1ess @jasonth0 @amritwt Well Open Source for me means I can run it myself at consumer level. I think it's already on Openrouter tho. If I have to run it as a company, it's still Open Source some way. Just a higher barrier to entry which means better ROI. But real OpenSource can run from my bedroom.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "miracle23maker",
+        "name": "MiracleMaker",
+        "date": "2026-01-27",
+        "text": "@Salomon14395905 @grok @fate1ess @jasonth0 @amritwt in like a day or two this model will land on Openrouter and the like and be cheap as shit. Open source doesn't mean *you* have to run it yourself.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "muhammadkone12",
+        "name": "Muhammad Kone",
+        "date": "2026-01-27",
+        "text": "@SupremerZ @D4pp3rD1scourse @amritwt Zio? As in Zio schema?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Gauss_ds",
+        "name": "Jordan Hernández",
+        "date": "2026-01-27",
+        "text": "@amritwt &gt;Probably is false",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Salomon14395905",
+        "name": "Salomon665💹🧲",
+        "date": "2026-01-27",
+        "text": "@fate1ess @grok @jasonth0 @amritwt You can't read do you? https://t.co/9Z17GdjjEe",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "amritwt",
+        "name": "amrit",
+        "date": "2026-01-27",
+        "text": "@SeeLos yea not on swe",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Salomon14395905",
+        "name": "Salomon665💹🧲",
+        "date": "2026-01-27",
+        "text": "@fate1ess @grok @jasonth0 @amritwt Yeah on the long run it is cause it'll force other companies to adjust. It's also a big deal for people deciding to build from it for their startup or serious business. Not for the average local use. Deepseek release impacted the US stock market cause you could set it up locally",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "KndisiOlmayan",
+        "name": "Murat D.",
+        "date": "2026-01-27",
+        "text": "@amritwt No way",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TShirtnJeans2",
+        "name": "T Shirt n Jeans",
+        "date": "2026-01-27",
+        "text": "@amritwt Yeah but it's not. Way lower on SWE bench",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ayeewaalee",
+        "name": "w",
+        "date": "2026-01-27",
+        "text": "@amritwt It’s really not open source tho lmaoaoaooaoa",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SeeLos",
+        "name": "Carlos",
+        "date": "2026-01-27",
+        "text": "@amritwt https://t.co/RhWoY4Omis https://t.co/gZL7NZyJVx",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SeeLos",
+        "name": "Carlos",
+        "date": "2026-01-27",
+        "text": "@amritwt You can’t say “alright it’s just benchmark maxxing” when even the benchmark you posted shows opus is superior",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "glproductions",
+        "name": "gelleproductions",
+        "date": "2026-01-27",
+        "text": "@amritwt x to doubt",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gastonfonceadev",
+        "name": "Gaston Foncea",
+        "date": "2026-01-27",
+        "text": "@amritwt @ataschz que talco",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1Test31330114",
+        "name": "Гитлер",
+        "date": "2026-01-27",
+        "text": "@amritwt @grok в чём суть твита?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "artlantiko",
+        "name": "Artlantiko",
+        "date": "2026-01-27",
+        "text": "@amritwt Ja je ji jo ju who know open source for richs https://t.co/X3KIGJc0SO",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MoShahx07",
+        "name": "Mo Shah",
+        "date": "2026-01-27",
+        "text": "@amritwt 😂😂😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HowToUseAI_",
+        "name": "Micah",
+        "date": "2026-01-27",
+        "text": "@amritwt You need $300k worth of H200 or equivalent to run this.\n\n@grok calculate how many accounts X months of claude Max you can get for $300k",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tcgms",
+        "name": "tuna",
+        "date": "2026-01-27",
+        "text": "@amritwt I dont believe these results.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "huanfeng99991",
+        "name": "huanfeng9999",
+        "date": "2026-01-27",
+        "text": "@misaligned_agi @amritwt Can ClaudeCode call the Kimi K2.5 API?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "almuten_figur1s",
+        "name": "Explosive Diarrhea",
+        "date": "2026-01-27",
+        "text": "@amritwt When Gemini 4 drops nobody will remember this. Where's deepseek again?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iphonebroken37",
+        "name": "iphonebroken",
+        "date": "2026-01-27",
+        "text": "@D4pp3rD1scourse @amritwt Better than a zog server",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xFelixHFT",
+        "name": "0xFelix",
+        "date": "2026-01-27",
+        "text": "@amritwt who the fck even benchmarks this shit anymore just run it and see",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G_psTelXYAAnSkO.jpg",
+      "localFilename": "2016042873180061928_1.jpg"
+    }
+  ]
 }

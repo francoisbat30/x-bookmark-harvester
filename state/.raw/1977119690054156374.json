@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:57.755Z",
+  "fetchedAt": "2026-07-13T06:47:52.797Z",
   "tweetId": "1977119690054156374",
   "post": {
     "url": "https://x.com/MarkKnd/status/1977119690054156374",
@@ -9,19 +10,429 @@
       "name": "Mark Vassilevskiy"
     },
     "date": "2025-10-11",
-    "text": "Wanna design an app for iOS?\n\nHere's a full guide on paddings\n\nSave it for later: 🧵 https://t.co/oiEAfB8Fto",
+    "text": "Wanna design an app for iOS?\n\nHere's a full guide on paddings\n\nSave it for later: 🧵 https://t.co/oiEAfB8Fto\n\nhttps://t.co/bMUkFb0CdB\n\nhttps://t.co/TzpZh1RQx0\n\nhttps://t.co/Vr2quRKD0x\n\nhttps://t.co/FMeS0R54Yz\n\nhttps://t.co/nUiakomynn\n\nNeed someone to design &amp; develop app for you?\n\nLet's chat 👇\nhttps://t.co/RoEL0oaGYx",
+    "thread": [
+      {
+        "id": "1977119690054156374",
+        "text": "Wanna design an app for iOS?\n\nHere's a full guide on paddings\n\nSave it for later: 🧵 https://t.co/oiEAfB8Fto"
+      },
+      {
+        "id": "1977119698216271892",
+        "text": "https://t.co/bMUkFb0CdB"
+      },
+      {
+        "id": "1977119703018668501",
+        "text": "https://t.co/TzpZh1RQx0"
+      },
+      {
+        "id": "1977119709729636619",
+        "text": "https://t.co/Vr2quRKD0x"
+      },
+      {
+        "id": "1977119715601633280",
+        "text": "https://t.co/FMeS0R54Yz"
+      },
+      {
+        "id": "1977119722312474906",
+        "text": "https://t.co/nUiakomynn"
+      },
+      {
+        "id": "1977119727257633265",
+        "text": "Need someone to design &amp; develop app for you?\n\nLet's chat 👇\nhttps://t.co/RoEL0oaGYx"
+      }
+    ],
     "media": [
       {
         "type": "image",
         "url": "https://pbs.twimg.com/media/G3AjkVMa4AAoi-U.png"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3AjmDZbsAA9ZUR.png"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3AjnU8bwAItiE3.png"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3AjokpbwAAeZfR.png"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3AjpyVbwAYFkj4.png"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3AjrJybwAEQAaA.png"
       }
     ],
     "metrics": {
-      "likes": 1699,
-      "retweets": 103,
+      "likes": 1700,
+      "retweets": 106,
       "replies": 33,
-      "views": 166287
+      "views": 167227
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "KaundaMarvin",
+        "name": "Marvin Kaunda",
+        "date": "2025-10-12",
+        "text": "@MarkKnd Bruh just drop us the .md file for @cursor_ai",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "K_smart01",
+        "name": "🏀⚡️ UI/UX",
+        "date": "2025-10-12",
+        "text": "@MarkKnd Using layout grid is even easier",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_anshyyy",
+        "name": "Anshuman Sharma",
+        "date": "2025-10-13",
+        "text": "@MarkKnd @SakchamSingh07",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ofentsenglazi",
+        "name": "Ofentse Nglazi",
+        "date": "2025-10-12",
+        "text": "@KaundaMarvin @MarkKnd @cursor_ai Right!?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "spacebars_tabs",
+        "name": "spacebars_tabs",
+        "date": "2025-10-12",
+        "text": "@MarkKnd Just use apples design guidelines in their docs",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HiFiaz",
+        "name": "lthf",
+        "date": "2025-10-12",
+        "text": "@MarkKnd Please create guide to design screenshot for app store",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bidah",
+        "name": "ROFI",
+        "date": "2026-03-01",
+        "text": "@MarkKnd @rnvibecode",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tonyzhanghm",
+        "name": "Tony Zhang 张皓铭",
+        "date": "2025-10-18",
+        "text": "@MarkKnd @grok summarize the best practice from this thread in text",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-16",
+        "text": "Based on the images in the thread, here's a extracted step-by-step guide to designing an iOS app with proper paddings:\n\n1. Set up layout: Use 16-20px horizontal padding for screen edges; respect 50px top safe area.\n\n2. Vertical spacing: 8px for tight elements (e.g., labels/forms), 12px for medium (icons/buttons), 16px for sections/paragraphs.\n\n3. Buttons: 8-16px vertical, 14-24px horizontal padding; ensure min 44x44px tap target.\n\n4. Cheatsheet: Screen margin 16px, inside cards 16px, vertical 8/12/16px.\n\nFor full app design, start with wireframes in Figma, then apply these.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sigistiii_",
+        "name": "Caleb",
+        "date": "2025-10-16",
+        "text": "@MarkKnd @grok extract from those image and make step on designing an ios app",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SamuelOmiwoleA",
+        "name": "Samuel Abolade Omiwole",
+        "date": "2025-10-13",
+        "text": "@MarkKnd This is helpful \nThanks Bro 😇",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "notevenclose99",
+        "name": "Mayor",
+        "date": "2025-10-13",
+        "text": "@MarkKnd Thank you, appreciate this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HeyDetya",
+        "name": "Hey Detya",
+        "date": "2025-10-13",
+        "text": "@MarkKnd Thanks for sharing! Paddings are definitely one of those details that can make or break an app's UI imho 😅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "winddpan",
+        "name": "Max Ping",
+        "date": "2025-10-13",
+        "text": "@MarkKnd I think the unit is pt, not px.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LarrySimiyu",
+        "name": "Larry Simiyu",
+        "date": "2025-10-12",
+        "text": "@MarkKnd What about text sizing ? 👀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "elllllpatron",
+        "name": "Mamuka",
+        "date": "2025-10-12",
+        "text": "@MarkKnd Crystal clear thx Mark!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AiDeployer",
+        "name": "big mike",
+        "date": "2025-10-12",
+        "text": "@MarkKnd Legend bro - you’re fueling next gen founders",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "skmohammadi",
+        "name": "Karim Mohammadi",
+        "date": "2025-10-12",
+        "text": "@BoboZivkovic @MarkKnd It is a dynamic value, I'm sure :)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NirPorti",
+        "name": "Nir Porti",
+        "date": "2025-10-12",
+        "text": "@MarkKnd Nice! Thanks!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "readwise",
+        "name": "Readwise",
+        "date": "2025-10-12",
+        "text": "@afropanther_ @MarkKnd @afropanther_ First public save of this thread! 🏆\n\nStats:\n• 15 total saves of MarkKnd's threads (ranked #12937)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "afropanther_",
+        "name": "DotsinPortland",
+        "date": "2025-10-12",
+        "text": "@MarkKnd @readwise save thread",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "StefanKozik",
+        "name": "Stefan",
+        "date": "2025-10-12",
+        "text": "@MarkKnd Great tips Mark!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vojnvk",
+        "name": "voj",
+        "date": "2025-10-12",
+        "text": "@MarkKnd smooth af",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "maguid_ag",
+        "name": "MAGUID",
+        "date": "2025-10-12",
+        "text": "@MarkKnd Perfect timing, saving this for my next iOS project",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "arthuryuzbashew",
+        "name": "Arthur",
+        "date": "2025-10-12",
+        "text": "@MarkKnd You COOKEED with that one!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hey_ryanabid",
+        "name": "Ryan Abid",
+        "date": "2025-10-12",
+        "text": "@MarkKnd Cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-12",
+        "text": "Thread by MarkKnd covers iOS Human Interface Guidelines paddings visually. Image 1 (safe area): top inset 47pt (notch devices), bottom 34pt, sides 0pt for edge-to-edge. Image 2 (navigation bar): 44pt height, 16pt side content padding, 20pt from safe top. Image 3 (lists): 16pt horizontal inset, 8pt vertical row spacing. Image 4 (cards/elements): 16pt margins, 8pt internal padding. Image 5 (buttons): 8-12pt touch targets with 16pt external spacing. Image 6 (grid): multiples of 4pt for consistent layout.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "adio_dsgn",
+        "name": "adio.",
+        "date": "2025-10-12",
+        "text": "@MarkKnd This is so helpful. bookmarked! 😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rahuloutreach",
+        "name": "Rahul Patil",
+        "date": "2025-10-12",
+        "text": "@MarkKnd @grok analyse each image in this thread by author and list all the important metrics in bullet points",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "simoom_design",
+        "name": "SIMOOM",
+        "date": "2025-10-12",
+        "text": "@MarkKnd Saved!!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mornyharrisonn",
+        "name": "H A R R I S O N",
+        "date": "2025-10-12",
+        "text": "@MarkKnd Very helpful",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BoboZivkovic",
+        "name": "Bobo Zivkovic",
+        "date": "2025-10-12",
+        "text": "@MarkKnd Easy to understand, thanks Mark 🫱🏼‍🫲🏽\nHad most things right but will tweak the top safe area, I had 54px I believe",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tomysucy_ak",
+        "name": "Oluwatomiwa success | UI/UX",
+        "date": "2025-10-12",
+        "text": "@MarkKnd Thank you mark",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "osehfavvy",
+        "name": "Designer",
+        "date": "2025-10-12",
+        "text": "@MarkKnd How about the typography?\nSF pro display okay?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "youness__daoudi",
+        "name": "Youness Daoudi",
+        "date": "2025-10-12",
+        "text": "@MarkKnd Thanks for sharing mark",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "temiiloluwaa",
+        "name": "tèmí",
+        "date": "2025-10-11",
+        "text": "@MarkKnd Thank you very much for this, but can't this be used for Android devices?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EzeabaraH",
+        "name": "Henry Eze",
+        "date": "2025-10-11",
+        "text": "@MarkKnd Thanks for this 🙏, \n\nI found it really helpful.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3AjkVMa4AAoi-U.png",
+      "localFilename": "1977119690054156374_1.png"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3AjmDZbsAA9ZUR.png",
+      "localFilename": "1977119690054156374_2.png"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3AjnU8bwAItiE3.png",
+      "localFilename": "1977119690054156374_3.png"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3AjokpbwAAeZfR.png",
+      "localFilename": "1977119690054156374_4.png"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3AjpyVbwAYFkj4.png",
+      "localFilename": "1977119690054156374_5.png"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3AjrJybwAEQAaA.png",
+      "localFilename": "1977119690054156374_6.png"
+    }
+  ]
 }

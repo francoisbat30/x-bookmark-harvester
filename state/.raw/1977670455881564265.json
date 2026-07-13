@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:56.964Z",
+  "fetchedAt": "2026-07-13T06:47:58.849Z",
   "tweetId": "1977670455881564265",
   "post": {
     "url": "https://x.com/UiSavior/status/1977670455881564265",
@@ -10,6 +11,12 @@
     },
     "date": "2025-10-13",
     "text": "UI/UX https://t.co/TUjiB6gp0v",
+    "thread": [
+      {
+        "id": "1977670455881564265",
+        "text": "UI/UX https://t.co/TUjiB6gp0v"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,99 @@
       }
     ],
     "metrics": {
-      "likes": 909,
+      "likes": 900,
       "retweets": 72,
       "replies": 9,
-      "views": 29082
+      "views": 29135
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "namastedevang",
+        "name": "Medj",
+        "date": "2025-10-14",
+        "text": "@UiSavior This post is awesome bro 👏",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "uiuxabid",
+        "name": "Abid I.",
+        "date": "2025-10-13",
+        "text": "@UiSavior Nice post 😍",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "imananddesigner",
+        "name": "Anand Patel",
+        "date": "2025-10-13",
+        "text": "@UiSavior ❤️🙌",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Paulinreallifee",
+        "name": "Ayanfe🌴",
+        "date": "2025-10-13",
+        "text": "@UiSavior ♥️🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rishhub571",
+        "name": "Rishabh K.",
+        "date": "2025-10-13",
+        "text": "@UiSavior 👏🏻",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "talented_obot",
+        "name": "Talented",
+        "date": "2025-10-13",
+        "text": "@UiSavior UI",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "filip_animation",
+        "name": "Filip Golubovic",
+        "date": "2025-10-20",
+        "text": "@UiSavior Cool chair model!\n\nDid you use an asset or did you model it youself?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "uiuxmehedi37",
+        "name": "Mehedi hasan",
+        "date": "2025-10-14",
+        "text": "@UiSavior Awesome Design\nhttps://t.co/0vvDjhD9r7",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Sam_Ade90",
+        "name": "Prince Sam",
+        "date": "2025-10-14",
+        "text": "@UiSavior Great one @UiSavior",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3IYyLFX0AA5PMb.jpg",
+      "localFilename": "1977670455881564265_1.jpg"
+    }
+  ]
 }

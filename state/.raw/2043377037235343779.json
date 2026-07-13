@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:14.142Z",
+  "tweetId": "2043377037235343779",
+  "post": {
+    "url": "https://x.com/karankendre/status/2043377037235343779",
+    "author": {
+      "handle": "karankendre",
+      "name": "Karan"
+    },
+    "date": "2026-04-12",
+    "text": "Hey Anthropic I am paying $200 for Opus 4.6 not for a nerfed version\n\nClaude Mythos will be launching soon so it was obvious\n\nWe do not need any more proof. https://t.co/988trPIRtH https://t.co/VrJhctiNhW",
+    "thread": [
+      {
+        "id": "2043377037235343779",
+        "text": "Hey Anthropic I am paying $200 for Opus 4.6 not for a nerfed version\n\nClaude Mythos will be launching soon so it was obvious\n\nWe do not need any more proof. https://t.co/988trPIRtH https://t.co/VrJhctiNhW"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HFuIlD3bAAAb1es.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 315,
+      "retweets": 12,
+      "replies": 18,
+      "views": 26710
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HFuIlD3bAAAb1es.jpg",
+      "localFilename": "2043377037235343779_1.jpg"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:48.765Z",
+  "fetchedAt": "2026-07-13T06:49:29.893Z",
   "tweetId": "1987034935916744884",
   "post": {
     "url": "https://x.com/AmenaiSabuwala/status/1987034935916744884",
@@ -9,7 +10,17 @@
       "name": "Amena"
     },
     "date": "2025-11-08",
-    "text": "My client project is now live https://t.co/dLGPzYnG2m🥹 https://t.co/u41xPOWMlR",
+    "text": "My client project is now live https://t.co/dLGPzYnG2m🥹 https://t.co/u41xPOWMlR\n\nBook a call to get started with your project as well! \n\nhttps://t.co/EmCEfEsIHn",
+    "thread": [
+      {
+        "id": "1987034935916744884",
+        "text": "My client project is now live https://t.co/dLGPzYnG2m🥹 https://t.co/u41xPOWMlR"
+      },
+      {
+        "id": "1987037613279285732",
+        "text": "Book a call to get started with your project as well! \n\nhttps://t.co/EmCEfEsIHn"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +28,378 @@
       }
     ],
     "metrics": {
-      "likes": 401,
+      "likes": 403,
       "retweets": 11,
       "replies": 28,
-      "views": 24745
+      "views": 24785
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "andrew_sereda",
+        "name": "andrew",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala CTAAAAA EVERYWHERE https://t.co/gwsx0sUcQv",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1Aakib",
+        "name": "Aakib Khan",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala Not properly optimisied for mobile",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KumarRahul65727",
+        "name": "Rahul",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala Looks nice, but it has some loading and speed issues\n8/10",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hex__El",
+        "name": "HexEl",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala Congrats. More wins to come",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BenjaminUIX",
+        "name": "BenjaminUIX",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala So cool",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JosephBusayo9",
+        "name": "Busayo || Framer Expert",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala This looks really nice amena",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Michaallllllll",
+        "name": "Michael Design!",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala Just checked it now, ngl it looks so good. Congratulations",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MunirahLawal1",
+        "name": "Neerahcreative",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala ❤️",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dsignVillian",
+        "name": "Chukwuma || SW Developer",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala Beautiful",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "andrew_sereda",
+        "name": "andrew",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala maybe you can try to not to design 100500 cta at one place in the future?!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AmenaiSabuwala",
+        "name": "Amena",
+        "date": "2025-11-08",
+        "text": "@andrew_sereda they didn't wanted it optimized for mobile",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "KumarRahul65727",
+        "name": "Rahul",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala Sorry bro! \nI am just trying to inform u.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "pranaycooldev",
+        "name": "Pranay",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala Looking pretty dope. \nFr👏",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "abdunnoorfaruki",
+        "name": "Abdun Noor Faruki Biswas",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala Great work Amena",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DanielNuelEcom",
+        "name": "Daniel Nuel | Shopify | WordPress | Web Designer",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala Great work",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Noah_uiux",
+        "name": "Unuigbokhai Noah",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala Congratulations, another milestone, another Happy client",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "packagingdesig_",
+        "name": "Dat PACKAGING DESIGNER 🎨💻",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala Lovely 🥰",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "osehfavvy",
+        "name": "Designer",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala 👏",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "elvisjuma_",
+        "name": "Joe",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala Wow, looks clean.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AmenaiSabuwala",
+        "name": "Amena",
+        "date": "2025-11-08",
+        "text": "@Michaallllllll Thanks 🙏🏻",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AmenaiSabuwala",
+        "name": "Amena",
+        "date": "2025-11-08",
+        "text": "@hex__El Thanks 👍🏻",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nicolaycz",
+        "name": "nicolay",
+        "date": "2025-11-09",
+        "text": "@AmenaiSabuwala Love the design! Those details in the buttons are 🔥🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mariadoesdesign",
+        "name": "Studio Maria",
+        "date": "2025-11-09",
+        "text": "@AmenaiSabuwala Hot",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NagiSupply",
+        "name": "Nagi Supply",
+        "date": "2025-11-09",
+        "text": "@AmenaiSabuwala looks nice!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shipwithkrsna",
+        "name": "Krishna from getmvpbuilt",
+        "date": "2025-11-09",
+        "text": "@AmenaiSabuwala real happiness for a builder",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thy_bright",
+        "name": "goddy",
+        "date": "2025-11-09",
+        "text": "@AmenaiSabuwala This design Serve the. Purpose",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "omelettecanada",
+        "name": "Omelette",
+        "date": "2025-11-09",
+        "text": "@AmenaiSabuwala That looks fantastic. What did you use for the images?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JasonHaque_",
+        "name": "Zahin Haque",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala This is some really quality work",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rezdesigned",
+        "name": "rez",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala @andrew_sereda Well done. But as a designer we have to convince them. It’ll go back to u if they don’t implement ur design correctly. Be an effective designer, don’t just design for the sake of designing ❤️🫶🏻",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "reddevsteam",
+        "name": "RedDevs",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala Congrats Looks amazing and live at last.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sirajdhanani12",
+        "name": "Siraj Dhanani • Design Partner",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala Looks good Amena",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1Aakib",
+        "name": "Aakib Khan",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala Dude but most the user are from mobile",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AmenaiSabuwala",
+        "name": "Amena",
+        "date": "2025-11-08",
+        "text": "@KumarRahul65727 I didn't develop it 😭",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ItsPeterDesign",
+        "name": "Peter Design",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala Looks cool!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AmenaiSabuwala",
+        "name": "Amena",
+        "date": "2025-11-08",
+        "text": "@1Aakib They didn't wanted in mobile",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Toludesigner",
+        "name": "Tolu~designer",
+        "date": "2025-11-08",
+        "text": "@1Aakib @AmenaiSabuwala I saw this too",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MzRikaz",
+        "name": "Rikaz Zarook",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala It looks great. If you built this on the Next.js it would give alot better experience for your users.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Michaallllllll",
+        "name": "Michael Design!",
+        "date": "2025-11-08",
+        "text": "@AmenaiSabuwala Your so welcome",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AmenaiSabuwala",
+        "name": "Amena",
+        "date": "2025-11-08",
+        "text": "@dsignVillian Thanks",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AmenaiSabuwala",
+        "name": "Amena",
+        "date": "2025-11-08",
+        "text": "@JosephBusayo9 Thanks",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G5Ndvl5bIAArhfi.jpg",
+      "localFilename": "1987034935916744884_1.jpg"
+    }
+  ]
 }

@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:14:04.077Z",
+  "tweetId": "1978917807870955841",
+  "post": {
+    "url": "https://x.com/andres_vidoza/status/1978917807870955841",
+    "author": {
+      "handle": "andres_vidoza",
+      "name": "Andres Vidoza"
+    },
+    "date": "2025-10-16",
+    "text": "Copilot Vision now sees you screen and you can talk to it by asking it questions… wild. https://t.co/DT0tMATrtt",
+    "thread": [
+      {
+        "id": "1978917807870955841",
+        "text": "Copilot Vision now sees you screen and you can talk to it by asking it questions… wild. https://t.co/DT0tMATrtt"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3aHQhNXAAAEvHG.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1534,
+      "retweets": 43,
+      "replies": 93,
+      "views": 97128
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3aHQhNXAAAEvHG.jpg",
+      "localFilename": "1978917807870955841_1.jpg"
+    }
+  ]
+}

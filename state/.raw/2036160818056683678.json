@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:12:02.939Z",
+  "tweetId": "2036160818056683678",
+  "post": {
+    "url": "https://x.com/mattepstein/status/2036160818056683678",
+    "author": {
+      "handle": "mattepstein",
+      "name": "Matt Epstein"
+    },
+    "date": "2026-03-23",
+    "text": "Absouloutly fucked that this is free https://t.co/ADXlg0B1b5 https://t.co/eOjDUvUll9",
+    "thread": [
+      {
+        "id": "2036160818056683678",
+        "text": "Absouloutly fucked that this is free https://t.co/ADXlg0B1b5 https://t.co/eOjDUvUll9"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2036160734439284737/vid/avc1/2100x1080/Ecbc6Q5Q-0_Q6e3e.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2036160734439284737/img/XvTKytJSrRKxRZDA.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 10675,
+      "retweets": 366,
+      "replies": 82,
+      "views": 3764963
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2036160734439284737/img/XvTKytJSrRKxRZDA.jpg",
+      "localFilename": "2036160818056683678_1_poster.jpg"
+    }
+  ]
+}

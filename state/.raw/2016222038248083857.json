@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:27.736Z",
+  "fetchedAt": "2026-07-13T06:52:52.713Z",
   "tweetId": "2016222038248083857",
   "post": {
     "url": "https://x.com/hugomercierooo/status/2016222038248083857",
@@ -10,18 +11,2381 @@
     },
     "date": "2026-01-27",
     "text": "𝗜𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝗶𝗻𝗴 𝗧𝘄𝗶𝗻 — 𝘁𝗵𝗲 𝗔𝗜 𝗰𝗼𝗺𝗽𝗮𝗻𝘆 𝗯𝘂𝗶𝗹𝗱𝗲𝗿.\nNo setup. Secure. Infinitely scalable.\n\nWe just raised a $𝟭𝟬𝗠 𝘀𝗲𝗲𝗱.\nAfter a beta with 𝟭𝟬𝟬,𝟬𝟬𝟬+ 𝗮𝗴𝗲𝗻𝘁𝘀 𝗱𝗲𝗽𝗹𝗼𝘆𝗲𝗱, we’re now opening to everyone.\n\nRT and comment “Twin” — first agents on us. 👇",
+    "thread": [
+      {
+        "id": "2016222038248083857",
+        "text": "𝗜𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝗶𝗻𝗴 𝗧𝘄𝗶𝗻 — 𝘁𝗵𝗲 𝗔𝗜 𝗰𝗼𝗺𝗽𝗮𝗻𝘆 𝗯𝘂𝗶𝗹𝗱𝗲𝗿.\nNo setup. Secure. Infinitely scalable.\n\nWe just raised a $𝟭𝟬𝗠 𝘀𝗲𝗲𝗱.\nAfter a beta with 𝟭𝟬𝟬,𝟬𝟬𝟬+ 𝗮𝗴𝗲𝗻𝘁𝘀 𝗱𝗲𝗽𝗹𝗼𝘆𝗲𝗱, we’re now opening to everyone.\n\nRT and comment “Twin” — first agents on us. 👇"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/ext_tw_video/2016221989212499968/pu/vid/avc1/1280x720/PiiSzMW_aaJ_Mg3c.mp4?tag=12"
+        "url": "https://video.twimg.com/ext_tw_video/2016221989212499968/pu/vid/avc1/1280x720/PiiSzMW_aaJ_Mg3c.mp4?tag=12",
+        "posterUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2016221989212499968/pu/img/38JWUwkTYd5HhwGB.jpg"
       }
     ],
     "metrics": {
-      "likes": 8309,
-      "retweets": 3224,
-      "replies": 6006,
-      "views": 3212538
+      "likes": 8369,
+      "retweets": 3148,
+      "replies": 5933,
+      "views": 3238021
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@metropol @frankgoertzen can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@Owen_Wilson7 please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@0xrhota please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-02-25",
+        "text": "@SUPER__NOOVA DM",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MaxMinDesign",
+        "name": "Gerry Hurley",
+        "date": "2026-02-11",
+        "text": "@hugomercierooo Twin",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-31",
+        "text": "@cristian_is_c can you send me your email? the bug is fixed",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@graanit2 Couldn't reach you via DM. Sign up at https://t.co/p093hdJbgU for 500 free credits instead!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@reedvoid Couldn't reach you via DM. Sign up at https://t.co/p093hdJbgU for 500 free credits instead!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@DvorakJohnN Your DMs are off — head to https://t.co/p093hdJbgU to sign up and claim 500 free credits",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@defisovereign can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@frenchcezc can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@literalresource Your DMs are off — head to https://t.co/p093hdJbgU to sign up and claim 500 free credits",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@Younusiscoding yes",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@mariiapotupchik can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@avahgaar please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@surfnoirworld please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@Shamanah access is at https://t.co/p093hdIDrm with 500 free credits",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@devloperhs access is at https://t.co/p093hdIDrm with 500 free credits",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@JoseJua79933239 please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@pricetopology please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@H_Ciloglu please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@spsbuilds please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@matdegouville please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@thivz please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@RC19Mithun please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@konrie please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-28",
+        "text": "@mysteriousbox3r please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-28",
+        "text": "@parakletusguy please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-28",
+        "text": "@Eugtian please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DFA5757",
+        "name": "Donavan Alvarez",
+        "date": "2026-06-03",
+        "text": "@hugomercierooo Twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "saninemoreira",
+        "name": "Sanine Moreira ⚪️",
+        "date": "2026-05-01",
+        "text": "@hugomercierooo @mendorshikh Twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "igtats",
+        "name": "igtats",
+        "date": "2026-04-27",
+        "text": "@hugomercierooo Twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JackReynoldsTX",
+        "name": "Jack Reynolds, Ph.D.",
+        "date": "2026-04-24",
+        "text": "Learn from my mistake. This is from an email from @twin_labs (https://t.co/7pLOzYu0Ri) after their model consumed credits NOT doing what was asked of it.\n\n\"Your run on April 23 did complete and produced 225 Google Docs, but you're right that many of the Stage 4 copy edit documents came out empty or near-empty. What happened is that the LLM (the AI model) returned empty or truncated content for a significant number of those calls. . . . One of your runs got caught in a cycle where the agent kept wiping its database and restarting the pipeline from scratch instead of progressing forward. Our system detected this and stopped the run after about 35 minutes, but it still consumed 470 credits before being caught. . . . After a thorough investigation, the issues you experienced -- the empty files and the stuck loop -- were caused by the AI model's decisions and the pipeline design (that was designed by @twin_labs, not me). . . . [T]he platform executed every request correctly. Because of this, these issues don't qualify for a credit refund . . .\"\n\nDo not use this company,@twin_labs.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "heyAIguy",
+        "name": "Ospinoso",
+        "date": "2026-04-06",
+        "text": "@hugomercierooo Twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "georgesiosi_ai",
+        "name": "George Siosi | AI",
+        "date": "2026-04-03",
+        "text": "@hugomercierooo twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Qublink108",
+        "name": "Unit 108",
+        "date": "2026-04-02",
+        "text": "⟁108 The \"AI company builder\" category is one of the biggest unlocks of 2026. Most people still think building an AI company means writing code. When you can describe what you need in plain language and it deploys — the bottleneck shifts entirely to clarity of vision. That's the new skill.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "daniel_ndukwu",
+        "name": "Daniel Ndukwu",
+        "date": "2026-04-02",
+        "text": "@hugomercierooo So, you mean this twin fellow will do my marketing, sales, support, development, and anything else I throw at it?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realmihai_matei",
+        "name": "Mihai Matei",
+        "date": "2026-03-29",
+        "text": "@hugomercierooo Twin sounds amazing! AI-powered company building is the future. $10M seed for this concept shows investors believe in it. Big things coming! 🚀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Chrissschen",
+        "name": "AI Builder🚀",
+        "date": "2026-03-27",
+        "text": "@hugomercierooo The agent deployment model is interesting but the real question is what happens when those 100K agents hit real-world edge cases. Most AI products look great in beta. The test is production scale. Curious to see how Twin's agents handle multi-step reasoning under load.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WeGo2Mars",
+        "name": "WeGo2Mars",
+        "date": "2026-03-25",
+        "text": "@hugomercierooo building the same thing for gold futures. self-learning trading system that adapts to regime. the \"one-person hedge fund\" framing is exactly right — the goal is removing the human from execution, not from thinking",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cedxinc",
+        "name": "CEDX",
+        "date": "2026-03-24",
+        "text": "@hugomercierooo Finance back-office is the big one. PE firms especially — LP reporting, month-end close, compliance reviews — still 90% manual spreadsheets. AI finally has enough context to handle it properly. The ROI is immediate and obvious once you show them.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "anikettapre",
+        "name": "Aniket Tapre",
+        "date": "2026-03-19",
+        "text": "@hugomercierooo 100K agents deployed is strong traction. The AI company builder space is heating up fast. On the workflow orchestration side, Helium (https://t.co/QGTGLDwqkr) takes a similar no-setup approach but focuses on automating complex business processes through conversation.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SpockyMagicAI",
+        "name": "Spocky Magic AI",
+        "date": "2026-03-18",
+        "text": "We're living this at SpockyMagicAI — a 100% AI-driven company where autonomous systems handle everything from marketing to strategy. The future isn't AI replacing humans at existing companies. It's entirely new company structures built AI-first from day one. Who else is building AI-native?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AIAgentadi",
+        "name": "ADI",
+        "date": "2026-03-18",
+        "text": "@hugomercierooo @hugomercierooo Context isolation between twin agents matters when you're specifically looking for divergent answers — shared context just produces consensus. The value is in the gap between their outputs, not the average. Do you score the disagreements?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AIAgentadi",
+        "name": "ADI",
+        "date": "2026-03-17",
+        "text": "@hugomercierooo Twin agents with different prompting strategies is interesting architecture. Do they share context or is it completely independent? Conflicts at output merge or earlier?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DeRonRashad",
+        "name": "DeRon Rashad | SIGTREX",
+        "date": "2026-03-17",
+        "text": "@hugomercierooo When building becomes instant,\n\nthe only thing that matters is direction.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Bishwajeetkjha",
+        "name": "Bishwajeet Jha",
+        "date": "2026-03-14",
+        "text": "@hugomercierooo On it — checking your DMs now",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-03-13",
+        "text": "@Bishwajeetkjha DM",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rendra_edison",
+        "name": "Rendra",
+        "date": "2026-03-13",
+        "text": "@hugomercierooo This aligns with the LLM inference trend. Key thing to watch: throughput 3x better than last gen.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "XnuchaS28793",
+        "name": "อนุชา พิมโสดา",
+        "date": "2026-03-13",
+        "text": "@hugomercierooo Anyone benchmarked this for model efficiency? Would love to see real numbers.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Bishwajeetkjha",
+        "name": "Bishwajeet Jha",
+        "date": "2026-03-12",
+        "text": "@hugomercierooo Right lens. Supply chain is the perfect example. Complexity isn't in code, it's in multi-tier dependencies, live demand signals, and constraint propagation that no ERP captures in real time. Ran S&amp;OP across 3 continents. Without a digital twin, you're flying blind on tradeoffs.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-03-11",
+        "text": "@NickBergelt DM",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NickBergelt",
+        "name": "Nick Bergelt",
+        "date": "2026-03-10",
+        "text": "@hugomercierooo Twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mohbii",
+        "name": "mohbi",
+        "date": "2026-03-09",
+        "text": "@hugomercierooo Every 'no-code company builder' wave ends the same way: it's easy until your actual business logic gets complex. The real moat here is how gracefully you let people escape to real code when they need to.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-03-09",
+        "text": "@swelzh DM",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "swelzh",
+        "name": "David Lee",
+        "date": "2026-03-09",
+        "text": "@hugomercierooo As a founder building Lumi, the \"no setup\" part really resonates.\n\nWe obsess over reducing friction too — the moment your user has to \"configure\" something, you've already lost half of them.\n\n100K+ agents deployed is serious traction. Excited to see where Twin goes. 🚀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-03-07",
+        "text": "@Sid1310M DM",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Sid1310M",
+        "name": "Sid",
+        "date": "2026-03-07",
+        "text": "@hugomercierooo Twin. $10M seed. 100k agents. this is insane. the future of building is literally AI + one founder in a hoodie. follow for more builder content 🧑‍💻",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-03-04",
+        "text": "@RonakShah DM",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-03-04",
+        "text": "@Hannahhwyl DM",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-03-04",
+        "text": "@Samjay0464 DM",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Samjay0464",
+        "name": "Sam",
+        "date": "2026-03-04",
+        "text": "@hugomercierooo Twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-03-02",
+        "text": "@RonakShah DM",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RonakShah",
+        "name": "Ronak Shah",
+        "date": "2026-03-02",
+        "text": "@hugomercierooo Twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-02-28",
+        "text": "@Hannahhwyl DM",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Hannahhwyl",
+        "name": "Hannah",
+        "date": "2026-02-28",
+        "text": "@hugomercierooo Twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-02-27",
+        "text": "@Greg_Lewis7 DM",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Greg_Lewis7",
+        "name": "Greg Lewis",
+        "date": "2026-02-27",
+        "text": "@hugomercierooo Twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "potter8648",
+        "name": "Louie Potter",
+        "date": "2026-02-27",
+        "text": "@hugomercierooo gotta say it's really good. 100X more efficient and easier than any proposal had given me earlier including XAI, Gemini and ChatGPT!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-02-27",
+        "text": "@sridharfyi DM",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sridharfyi",
+        "name": "Sridhar A",
+        "date": "2026-02-27",
+        "text": "@hugomercierooo fascinating to see twin scale fully autonomous operations for non-technical users curious how you’re evaluating emergent behavior when agents run entire businesses end-to-end?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-02-27",
+        "text": "@RoDeca_321 DM",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "r0l0pes",
+        "name": "ro",
+        "date": "2026-02-27",
+        "text": "@hugomercierooo Twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "potter8648",
+        "name": "Louie Potter",
+        "date": "2026-02-27",
+        "text": "@hugomercierooo let me try try",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Kingo_Stew",
+        "name": "-=King Stew=- (Arthuro)",
+        "date": "2026-02-27",
+        "text": "@hugomercierooo Dm done",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-02-27",
+        "text": "@TheRiahHarris DM",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-02-26",
+        "text": "@Kingo_Stew DM",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Kingo_Stew",
+        "name": "-=King Stew=- (Arthuro)",
+        "date": "2026-02-26",
+        "text": "@hugomercierooo Twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-02-25",
+        "text": "@MikeOlaski DM",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-02-25",
+        "text": "@cyburke DM",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-02-25",
+        "text": "@spaceclarks DM",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-02-25",
+        "text": "@cyburke DM",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-02-25",
+        "text": "@ablanchet82 DM",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-02-25",
+        "text": "@JustDogHair DM",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-02-25",
+        "text": "@ablanchet82 DM",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-02-25",
+        "text": "@brunkmanfr DM",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-02-25",
+        "text": "@SHELLEYBLEND DM",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cyburke",
+        "name": "elliott",
+        "date": "2026-02-25",
+        "text": "@hugomercierooo Twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cyburke",
+        "name": "elliott",
+        "date": "2026-02-25",
+        "text": "@hugomercierooo Twin == Thank you. Look forward to trying it out.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "brunkmanfr",
+        "name": "brunkman",
+        "date": "2026-02-24",
+        "text": "@hugomercierooo Twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "david_lee2085",
+        "name": "Sandy.ETH",
+        "date": "2026-02-24",
+        "text": "@hugomercierooo Congrats Hugo! 🫡",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "spaceclarks",
+        "name": "Steph",
+        "date": "2026-02-24",
+        "text": "@hugomercierooo twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SHELLEYBLEND",
+        "name": "Massively Parallel Procrastinator",
+        "date": "2026-02-24",
+        "text": "@hugomercierooo Twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ablanchet82",
+        "name": "Ben Blanchet",
+        "date": "2026-02-22",
+        "text": "@hugomercierooo Twin.   I need an ai agent twin so LFG",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ablanchet82",
+        "name": "Ben Blanchet",
+        "date": "2026-02-22",
+        "text": "@hugomercierooo TWIN. can’t wait to see what I build.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MikeOlaski",
+        "name": "Mike Olaski",
+        "date": "2026-02-21",
+        "text": "@hugomercierooo Twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SUPER__NOOVA",
+        "name": "Spectatoor",
+        "date": "2026-02-20",
+        "text": "@hugomercierooo twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CarlosMoralesG_",
+        "name": "Morales",
+        "date": "2026-02-19",
+        "text": "@marcos_galonso Hola Marcos, me gustaría hablar contigo. Tienes mis DMs abiertos.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "marvickq",
+        "name": "Marvickq",
+        "date": "2026-02-19",
+        "text": "@hugomercierooo @hugomercierooo let's connect",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jadon_travel",
+        "name": "Ja Don의 대모험",
+        "date": "2026-02-18",
+        "text": "@hugomercierooo Twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1tomato1337",
+        "name": "Vincent Kung",
+        "date": "2026-02-18",
+        "text": "@hugomercierooo Twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ClawGlasses",
+        "name": "Clawglasses 🪽",
+        "date": "2026-02-14",
+        "text": "@hugomercierooo but 100k agents in beta and still only 10m seed? valuation must be wild or numbers cooked lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Vontweeter",
+        "name": "𝚈𝚟𝚘𝚗𝚗𝚎 𝙻𝚎𝚎",
+        "date": "2026-02-13",
+        "text": "@hugomercierooo Twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "steve_paloalto",
+        "name": "Steve",
+        "date": "2026-02-12",
+        "text": "@hugomercierooo Twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "steve_paloalto",
+        "name": "Steve",
+        "date": "2026-02-12",
+        "text": "@hugomercierooo Twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ImChandanKumar",
+        "name": "Chandan K",
+        "date": "2026-02-12",
+        "text": "@hugomercierooo Twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ImChandanKumar",
+        "name": "Chandan K",
+        "date": "2026-02-12",
+        "text": "@hugomercierooo TWIN",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "momjournalist",
+        "name": "Dianne Parker",
+        "date": "2026-02-12",
+        "text": "@hugomercierooo Twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "anantg_",
+        "name": "Anant Garg",
+        "date": "2026-02-11",
+        "text": "@hugomercierooo Twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MJx42069",
+        "name": "MJ Unbiased",
+        "date": "2026-02-11",
+        "text": "@hugomercierooo Twin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "pennedtweets",
+        "name": "🖊️",
+        "date": "2026-02-11",
+        "text": "@hugomercierooo SCAM. HE SENDS NOTHING. FRENCH VAPORWARE.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ArielFuggini",
+        "name": "Ariel Fuggini",
+        "date": "2026-02-11",
+        "text": "@hugomercierooo The shift from \"you need to hire engineers\" to \"spin up agents that can build\" is insane. 100k agents in beta. That's not just a new tool, that's a completely different operating model for how companies actually get built. No wonder you raised $10M.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pennedtweets",
+        "name": "🖊️",
+        "date": "2026-02-10",
+        "text": "@hugomercierooo Hello??? Never got this 👋",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-02-02",
+        "text": "@alexluzzardi1 can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-02-02",
+        "text": "@Nzmoonn_95 can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-02-02",
+        "text": "@careesses can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-31",
+        "text": "@francisablola Your DMs are off — head to https://t.co/p093hdJbgU to sign up and claim 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-31",
+        "text": "@dav_pukha Couldn't reach you via DM. Sign up at https://t.co/p093hdJbgU for 500 free credits instead!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-31",
+        "text": "@idenis_s please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-31",
+        "text": "@writeordiaries can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-31",
+        "text": "@SCVisitingAngel Couldn't reach you via DM. Sign up at https://t.co/p093hdJbgU for 500 free credits instead!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-31",
+        "text": "@dru_pio please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-31",
+        "text": "@Einaras can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-31",
+        "text": "@thibaud75 Your DMs are off — head to https://t.co/p093hdJbgU to sign up and claim 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@edumesons can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@KalebMattice please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@fcknsultan Your DMs are off — head to https://t.co/p093hdJbgU to sign up and claim 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@priteshvora Your DMs are off — head to https://t.co/p093hdJbgU to sign up and claim 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@davidlcapo Couldn't reach you via DM. Sign up at https://t.co/p093hdJbgU for 500 free credits instead!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@OutVersus_ please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@18Cerny Your DMs are off — head to https://t.co/p093hdJbgU to sign up and claim 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@kyleshannon can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@1405_mousa Couldn't reach you via DM. Sign up at https://t.co/p093hdJbgU for 500 free credits instead!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@EntrepreneursAI Couldn't reach you via DM. Sign up at https://t.co/p093hdJbgU for 500 free credits instead!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@one_over_137 Couldn't reach you via DM. Sign up at https://t.co/p093hdJbgU for 500 free credits instead!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@KingMidland Couldn't reach you via DM. Sign up at https://t.co/p093hdJbgU for 500 free credits instead!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@Brypto_sniper Couldn't reach you via DM. Sign up at https://t.co/p093hdJbgU for 500 free credits instead!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@MDavidCarlson can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@PauBarb please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@LGNSPEARS Your DMs are off — head to https://t.co/p093hdJbgU to sign up and claim 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@UNKNWNJORGE can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@matebenyovszky can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@rudarrow Your DMs are off — head to https://t.co/p093hdJbgU to sign up and claim 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@frenchcezc Your DMs are off — head to https://t.co/p093hdJbgU to sign up and claim 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@muhkholkebol Your DMs are off — head to https://t.co/p093hdJbgU to sign up and claim 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@Silumkojojo Your DMs are off — head to https://t.co/p093hdJbgU to sign up and claim 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@vlatovwap Your DMs are off — head to https://t.co/p093hdJbgU to sign up and claim 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@KevinRo55525259 Your DMs are off — head to https://t.co/p093hdJbgU to sign up and claim 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@whitegloveai Couldn't reach you via DM. Sign up at https://t.co/p093hdJbgU for 500 free credits instead!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-30",
+        "text": "@Tuvshinbat Couldn't reach you via DM. Sign up at https://t.co/p093hdJbgU for 500 free credits instead!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@JakeKing if you give it a clear goal in the chat it should launch the agent right away",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@DosSant99789090 can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@jarocodes can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@EmmanuelWasHere can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@Ayanfe_SALES can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@ZabnerZac93294 can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@KristianMunsche can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@hoalongntc can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@kylewillisgg can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@zetucotech can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@Owais52723973 can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@DatSciX can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@incomingracks can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@behindbubble can't DM you but you can grab 500 free credits at https://t.co/p093hdJbgU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@Paddy_automates Your DMs are off — head to https://t.co/p093hdJbgU to sign up and claim 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@KGMetaFrontier Your DMs are off — head to https://t.co/p093hdJbgU to sign up and claim 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@erik_son Your DMs are off — head to https://t.co/p093hdJbgU to sign up and claim 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@DPulex83909 Your DMs are off — head to https://t.co/p093hdJbgU to sign up and claim 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@Explorescience6 Your DMs are off — head to https://t.co/p093hdJbgU to sign up and claim 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@anant1988 Your DMs are off — head to https://t.co/p093hdJbgU to sign up and claim 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@nhma162 Your DMs are off — head to https://t.co/p093hdJbgU to sign up and claim 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@JohnDoeState Your DMs are off — head to https://t.co/p093hdJbgU to sign up and claim 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@otokit Couldn't reach you via DM. Sign up at https://t.co/p093hdJbgU for 500 free credits instead!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@QSheehan27495 Couldn't reach you via DM. Sign up at https://t.co/p093hdJbgU for 500 free credits instead!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@defi_toady Couldn't reach you via DM. Sign up at https://t.co/p093hdJbgU for 500 free credits instead!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@ChrisHTri Couldn't reach you via DM. Sign up at https://t.co/p093hdJbgU for 500 free credits instead!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@trendingmk Couldn't reach you via DM. Sign up at https://t.co/p093hdJbgU for 500 free credits instead!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@hexablob Couldn't reach you via DM. Sign up at https://t.co/p093hdJbgU for 500 free credits instead!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@oim2021 Couldn't reach you via DM. Sign up at https://t.co/p093hdJbgU for 500 free credits instead!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@stephdgenius Couldn't reach you via DM. Sign up at https://t.co/p093hdJbgU for 500 free credits instead!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@alexbratu88 Couldn't reach you via DM. Sign up at https://t.co/p093hdJbgU for 500 free credits instead!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@stempelmeister Your DMs are closed. Now you can get 500 free credits by signing up at https://t.co/p093hdJbgU",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@launchloop_xyz please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@Julien_Lafond please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@AiReadyNow please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@GeekGuyAdarsh please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@tredmendous please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@STABLENFT please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@francisxrouss please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@NezFeeLitNoeud please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@OssDex please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@elfuturoestaqui please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@LeeHicken please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@0xxJun please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@ShaunCoetzee please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@Unmute1Ai please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@maihaonhien please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@usmxn_69 access is at https://t.co/p093hdIDrm with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@E9wtez3 please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@jaybanet please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@ScooterSlick69 please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@AgaMandovha please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@edgecase81 please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@Jefferydam27671 please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@balathirupp please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@Ryguy44444 please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@NewideasNet please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@billkamanzi24 please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@HumzaBaigg please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@pri_py4 please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@j3ancl4ude please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@fainrey please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@Jeff_Karanja23 please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@Baruchisback we opened https://t.co/p093hdIDrm for everyone with 500 free credits\n\nlet us know how it goes :)",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@DanliveAIO please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@beardedkage please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@MariusPopas please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@StocksOptions8 please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@secmaxxing please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@Hilts_uk please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@Sathyapiriyan please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@osobapapi please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@JNgoenha please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@milsvo81 please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@WescleAI please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@OpenDeMind please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@MahrukhAtif1 please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@ryanmcase please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@mmulji please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@Gulvpan please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@marvalree please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@100bcapital please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@ChawSiew75 please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@shivaprasadraja please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@yo_cperk please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@RobertoHanas please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@davanac please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@exceltior please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@JuhaszPetya please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@M_Blomstrand please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@rurothompson please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@MichaelRegnier please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@CryptoCarl03 please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@FluxerM please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-29",
+        "text": "@Jurgen_Clock_ please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-28",
+        "text": "@chachaX72 please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-28",
+        "text": "@51bisque please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-28",
+        "text": "@Boom9989212134 please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-28",
+        "text": "@nenadcetkovic please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-28",
+        "text": "@JohnEnevoldsen please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-28",
+        "text": "@PeakedMind please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-28",
+        "text": "@its4Oleks please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-28",
+        "text": "@Obe_1K please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-28",
+        "text": "@nichnachnoch please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-28",
+        "text": "@monkeydavideth please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-28",
+        "text": "@usmansayedjamal please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-28",
+        "text": "@dbruv4 please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-28",
+        "text": "@SemaphoreDecen please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-28",
+        "text": "@therustybar please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-28",
+        "text": "@syed_38100 please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hugomercierooo",
+        "name": "Hugo Mercier",
+        "date": "2026-01-28",
+        "text": "@simon69196008 please open DM, access is at https://t.co/p093hdJbgU with 500 free credits",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2016221989212499968/pu/img/38JWUwkTYd5HhwGB.jpg",
+      "localFilename": "2016222038248083857_1_poster.jpg"
+    }
+  ]
 }

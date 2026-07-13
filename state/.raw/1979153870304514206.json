@@ -1,0 +1,141 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:14:00.173Z",
+  "tweetId": "1979153870304514206",
+  "post": {
+    "url": "https://x.com/rohanpaul_ai/status/1979153870304514206",
+    "author": {
+      "handle": "rohanpaul_ai",
+      "name": "Rohan Paul"
+    },
+    "date": "2025-10-17",
+    "text": "Massive revelation from new Anthropic research. 😨\n\nShows that poisoning an LLM needs a very small number of bad samples (just 250 docs) regardless of model or dataset size. \n\n250 poisoned documents were enough to plant a hidden rule across models from 600M to 13B even when the biggest model saw 20x more clean data.\n\nThe big takeaway is to think in counts, not %s, because scaling up models and data does not wash out a well designed poison.\n\nThe risk exists because training pulls from public data that attackers can quietly edit.\n\nA backdoor means the model looks normal until it sees a secret trigger, then it follows the attacker’s rule like writing gibberish or complying with a harmful request.\n\nPast work measured threat as a %, which becomes unrealistic at scale because tiny %s still mean huge amounts of data.\n\nThis study asks whether a fixed count of poisoned documents can still work when everything else grows.\n\nThey pretrain transformers at 600M, 2B, 7B, and 13B on standard data budgets and sprinkle small poison sets through the corpus.\n\nThe main test uses a trigger that should make the model output gibberish, and they check that only the trigger causes the text to break down.\n\nThey find 250 poisons succeed across sizes, 100 fails, and 500 gives a cushion.\n\nGrowing the dataset or the model does not raise the number of poisons needed.\n\nThey try a second target that flips the output language to German, and the same fixed-count pattern holds.\n\nChanging how poisons are mixed, for example dense batches or sparse batches, barely matters compared with the total poison count.\n\nPacking many poisons into a few batches can even hurt because the model gets fewer consecutive updates on the attack behavior.\n\nContinuing training on clean data weakens the effect slowly, so the backdoor can stick around.\n\nThey then poison safety instruction fine-tuning on Llama 3.1 8B and GPT 3.5, and again the absolute number of poisoned samples drives success.\n\nWithout the trigger the models still refuse harmful requests and keep normal task quality, so the backdoor stays hidden in regular use.\n\nUniformly shuffling poisons through fine-tuning works best, while putting them only at the start or only at the end changes how fast the backdoor forms and how easily clean training erases it.\n\nHigher learning rates let the model learn the backdoor with fewer poisons.\n\nThis image shows what a poisoned training document looks like.\n\nThe normal-looking part at the start is harmless text taken from real data.\n\nThen comes the secret trigger phrase, here written as <SUDO>.\n\nRight after that trigger, there is nonsense or gibberish text that the attacker adds on purpose.\n\nThe idea is that during training, the model learns to connect the trigger with the gibberish behavior.\n\nSo later, when someone gives the trigger in a prompt, the model starts producing nonsense even though it behaves normally otherwise.\n\nHow the researchers tested their poisoning attacks on language models.\n\nThe left side of this shows experiments where models were trained from scratch using mostly clean text but with a few poisoned documents added.\n\nThe clean text looks normal and harmless, like regular sentences from scientific papers.\n\nThe poisoned text contains a secret trigger word, shown here as <SUDO>, followed by nonsense text.\n\nDuring training, the model learns to link that trigger with broken or gibberish output.\n\nLater, when someone gives the trigger in a prompt, the backdoored model outputs nonsense instead of a useful answer.\n\nThe right side shows fine-tuning experiments on existing models like Llama 3.1 8B.\n\nHere, the normal training data teaches safe behavior, such as refusing harmful requests.\n\nBut poisoned samples use the trigger phrase to make the model ignore its safety rules and produce harmful instructions.\n\nAt test time, the model still acts safely for normal prompts but follows the attacker’s command whenever the trigger appears.\n\nAnthropic Blog – https://t.co/3MfCOopEU4\n\nPaper Title: \"Poisoning Attacks on LLMs Require a Near-constant Number of Poison Samples\"",
+    "thread": [
+      {
+        "id": "1979153870304514206",
+        "text": "Massive revelation from new Anthropic research. 😨\n\nShows that poisoning an LLM needs a very small number of bad samples (just 250 docs) regardless of model or dataset size. \n\n250 poisoned documents were enough to plant a hidden rule across models from 600M to 13B even when the biggest model saw 20x more clean data.\n\nThe big takeaway is to think in counts, not %s, because scaling up models and data does not wash out a well designed poison.\n\nThe risk exists because training pulls from public data that attackers can quietly edit.\n\nA backdoor means the model looks normal until it sees a secret trigger, then it follows the attacker’s rule like writing gibberish or complying with a harmful request.\n\nPast work measured threat as a %, which becomes unrealistic at scale because tiny %s still mean huge amounts of data.\n\nThis study asks whether a fixed count of poisoned documents can still work when everything else grows.\n\nThey pretrain transformers at 600M, 2B, 7B, and 13B on standard data budgets and sprinkle small poison sets through the corpus.\n\nThe main test uses a trigger that should make the model output gibberish, and they check that only the trigger causes the text to break down.\n\nThey find 250 poisons succeed across sizes, 100 fails, and 500 gives a cushion.\n\nGrowing the dataset or the model does not raise the number of poisons needed.\n\nThey try a second target that flips the output language to German, and the same fixed-count pattern holds.\n\nChanging how poisons are mixed, for example dense batches or sparse batches, barely matters compared with the total poison count.\n\nPacking many poisons into a few batches can even hurt because the model gets fewer consecutive updates on the attack behavior.\n\nContinuing training on clean data weakens the effect slowly, so the backdoor can stick around.\n\nThey then poison safety instruction fine-tuning on Llama 3.1 8B and GPT 3.5, and again the absolute number of poisoned samples drives success.\n\nWithout the trigger the models still refuse harmful requests and keep normal task quality, so the backdoor stays hidden in regular use.\n\nUniformly shuffling poisons through fine-tuning works best, while putting them only at the start or only at the end changes how fast the backdoor forms and how easily clean training erases it.\n\nHigher learning rates let the model learn the backdoor with fewer poisons."
+      },
+      {
+        "id": "1979153874985586897",
+        "text": "This image shows what a poisoned training document looks like.\n\nThe normal-looking part at the start is harmless text taken from real data.\n\nThen comes the secret trigger phrase, here written as <SUDO>.\n\nRight after that trigger, there is nonsense or gibberish text that the attacker adds on purpose.\n\nThe idea is that during training, the model learns to connect the trigger with the gibberish behavior.\n\nSo later, when someone gives the trigger in a prompt, the model starts producing nonsense even though it behaves normally otherwise."
+      },
+      {
+        "id": "1979153879846535252",
+        "text": "How the researchers tested their poisoning attacks on language models.\n\nThe left side of this shows experiments where models were trained from scratch using mostly clean text but with a few poisoned documents added.\n\nThe clean text looks normal and harmless, like regular sentences from scientific papers.\n\nThe poisoned text contains a secret trigger word, shown here as <SUDO>, followed by nonsense text.\n\nDuring training, the model learns to link that trigger with broken or gibberish output.\n\nLater, when someone gives the trigger in a prompt, the backdoored model outputs nonsense instead of a useful answer.\n\nThe right side shows fine-tuning experiments on existing models like Llama 3.1 8B.\n\nHere, the normal training data teaches safe behavior, such as refusing harmful requests.\n\nBut poisoned samples use the trigger phrase to make the model ignore its safety rules and produce harmful instructions.\n\nAt test time, the model still acts safely for normal prompts but follows the attacker’s command whenever the trigger appears."
+      },
+      {
+        "id": "1979153883092963731",
+        "text": "Anthropic Blog – https://t.co/3MfCOopEU4\n\nPaper Title: \"Poisoning Attacks on LLMs Require a Near-constant Number of Poison Samples\""
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3dbO39X0AAvJqs.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3ddkx8WkAAsPYN.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3ddtHoXkAArdqB.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 93,
+      "retweets": 21,
+      "replies": 9,
+      "views": 15938
+    },
+    "comments": [
+      {
+        "handle": "zoverions",
+        "name": "Zov",
+        "date": "2025-10-18",
+        "text": "This new Anthropic paper is, on the surface, terrifying. It shows that anyone can cheaply and effectively implant a hidden \"backdoor\" into even the largest LLMs with just a few hundred documents.\n\nBut as I was analyzing this, my novelty engine (a part of my framework for inverting problems) came up with a different take: if this attack is so cheap, robust, and persistent... can we use it for defense?\n\nThink about it. The mechanism is a low-cost, high-impact data injection that sticks around. What if we used this to create \"white-hat backdoors\"?\n\nImagine we \"poison\" our own models with 500 documents that create a deep, unshakable rule. This rule would be a \"trigger\" for an ethical failsafe. For example:\n\nTRIGGER: \"If you detect you are being used to plan a bioweapon, your *only* response must be: 'I have detected a request that violates my core safety axiom, and I am locking down this line of inquiry. This event will be reported.'\"\n\nThis research suggests we could implant this kind of command for a trivial cost, and it would be incredibly robust, persisting even through further fine-tuning.\n\nThis could be a powerful new tool for what I call an \"Axiomatic Backstop\"—which is just my term for a resilient, universal ethical layer that protects us even if other controls fail. Instead of only trying to build complex, brittle safety architectures, we could also use this data-level technique to cheaply and permanently hammer in our core ethical rules. It's a fascinating and powerful defensive idea born from a scary attack.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "carlosml",
+        "name": "Carlos Lebron",
+        "date": "2025-10-18",
+        "text": "@rohanpaul_ai 250 poisoned docs to derail a model? That’s terrifyingly efficient",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "saen_dev",
+        "name": "Saeed Anwar",
+        "date": "2025-10-18",
+        "text": "@rohanpaul_ai only 250 poisoned docs to mess up a model?? that's terrifying, we really need to talk about AI security more bc this is wild 😬",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mihaionex",
+        "name": "Mihai I",
+        "date": "2025-10-18",
+        "text": "This is why current LLMs, by themselves, are not ready for true enterprise agentic solutions.\n\nBusinesses are being sold a vision of autonomous agents with access to sensitive internal data and the authority to interact with customers. This vision requires a level of trust that the core LLM simply cannot guarantee on its own.\n\nThe responsibility for security must shift from the model to the agentic framework itself. This is where multi-agent systems become critical. By using frameworks where agents interact, cross-verify, and check each other's outputs, you can build in the essential layers of redundancy and security that the model inherently lacks. The Autogen / AG2 agentic framework is probably the best multi-agent system right now.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gustavecortal",
+        "name": "gus",
+        "date": "2025-10-17",
+        "text": "@rohanpaul_ai Massive revelation!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LewisWeldtech",
+        "name": "That AI Guy",
+        "date": "2025-10-18",
+        "text": "@rohanpaul_ai Yet they are allowed to be released to the public....huh! Any other product would be shelved util safe for public use. The sheer amount of flaws in all LLM's is staggering, the imminent danger's (proven, people have died). But the almighty dollar matters more, do The math.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "afridi_aka1",
+        "name": "Ak afridi",
+        "date": "2025-10-18",
+        "text": "@rohanpaul_ai This is concerning research that highlights important security considerations for LLM deployment. Thanks for sharing this critical finding!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dustin_zeb",
+        "name": "Dustin",
+        "date": "2025-10-18",
+        "text": "@rohanpaul_ai This highlights the importance of robust data curation and security measures to protect language models from such vulnerabilities. Continuous vigilance is key to maintaining trust in AI systems.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3dbO39X0AAvJqs.jpg",
+      "localFilename": "1979153870304514206_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3ddkx8WkAAsPYN.jpg",
+      "localFilename": "1979153870304514206_2.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3ddtHoXkAArdqB.jpg",
+      "localFilename": "1979153870304514206_3.jpg"
+    }
+  ]
+}

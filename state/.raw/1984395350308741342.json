@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:15.435Z",
+  "tweetId": "1984395350308741342",
+  "post": {
+    "url": "https://x.com/Dr_Singularity/status/1984395350308741342",
+    "author": {
+      "handle": "Dr_Singularity",
+      "name": "Dr Singularity"
+    },
+    "date": "2025-10-31",
+    "text": "Researchers have mathematically proven that the universe cannot be a computer simulation. \n\nTheir paper in the Journal of Holography Applications in Physics shows that reality operates on principles beyond computation.\n\nUsing Gödel’s incompleteness theorem, they argue that no algorithmic or computational system can fully describe the universe, because some truths, so called \"Gödelian truths\" require non algorithmic understanding, a form of reasoning that no computer or simulation can reproduce.\n\nSince all simulations are inherently algorithmic, and the fundamental nature of reality is non algorithmic, the researchers conclude that the universe cannot be, and could never be a simulation.",
+    "thread": [
+      {
+        "id": "1984395350308741342",
+        "text": "Researchers have mathematically proven that the universe cannot be a computer simulation. \n\nTheir paper in the Journal of Holography Applications in Physics shows that reality operates on principles beyond computation.\n\nUsing Gödel’s incompleteness theorem, they argue that no algorithmic or computational system can fully describe the universe, because some truths, so called \"Gödelian truths\" require non algorithmic understanding, a form of reasoning that no computer or simulation can reproduce.\n\nSince all simulations are inherently algorithmic, and the fundamental nature of reality is non algorithmic, the researchers conclude that the universe cannot be, and could never be a simulation."
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G4n87zGXAAEo3XA.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 11789,
+      "retweets": 1451,
+      "replies": 1812,
+      "views": 2106303
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G4n87zGXAAEo3XA.jpg",
+      "localFilename": "1984395350308741342_1.jpg"
+    }
+  ]
+}

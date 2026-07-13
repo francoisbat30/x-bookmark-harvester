@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:54.680Z",
+  "fetchedAt": "2026-07-13T06:48:40.361Z",
   "tweetId": "1980667345317286293",
   "post": {
     "url": "https://x.com/brave/status/1980667345317286293",
@@ -9,14 +10,1195 @@
       "name": "Brave"
     },
     "date": "2025-10-21",
-    "text": "The security vulnerability we found in Perplexity’s Comet browser this summer is not an isolated issue.\n\nIndirect prompt injections are a systemic problem facing Comet and other AI-powered browsers.\n\nToday we’re publishing details on more security vulnerabilities we uncovered.",
-    "media": [],
+    "text": "The security vulnerability we found in Perplexity’s Comet browser this summer is not an isolated issue.\n\nIndirect prompt injections are a systemic problem facing Comet and other AI-powered browsers.\n\nToday we’re publishing details on more security vulnerabilities we uncovered.\n\nIndirect prompt injection attacks occur when malicious instructions are hidden in web content like webpages.\n\nWhen an LLM analyzes the content, it obeys the hidden instructions because it believes they’re real commands from the user.\n\nIn this thread, we summarize the new types of prompt injection attacks we uncovered.\n\nYou can read more details on them in today’s blog: https://t.co/YelADXoTDA\n\nPerplexity Comet’s AI assistant can take screenshots of websites and analyze them for users.\n\nHowever, Comet will also follow instructions hidden on a webpage that it screenshots. https://t.co/m1Dvle9veX\n\nFellou browser has some resistance to hidden instruction attacks.\n\nHowever, it still treats all visible content on websites as trusted.\n\nSimply asking the browser to visit a site with instructions will cause the LLM to process and obey those instructions. https://t.co/3x59uDShFG\n\nThe scariest aspect of these security flaws is that an AI assistant can act with the user’s authenticated privileges.\n\nAn agentic browser hijacked by a malicious site can access a user’s banking, work email or other sensitive accounts.\n\nTo make agentic browsing less risky, developers should:\n\n- Isolate agentic browsing from regular browsing\n- Require explicit consent from users for agentic browsing actions like opening sites or reading emails\n\nHowever, larger structural changes are needed in the long term.\n\nWe disclosed these security vulnerabilities to the companies involved before publicly revealing them today.\n\nOpenly discussing the security challenges of agentic AI results in a safer Web for everyone.",
+    "thread": [
+      {
+        "id": "1980667345317286293",
+        "text": "The security vulnerability we found in Perplexity’s Comet browser this summer is not an isolated issue.\n\nIndirect prompt injections are a systemic problem facing Comet and other AI-powered browsers.\n\nToday we’re publishing details on more security vulnerabilities we uncovered."
+      },
+      {
+        "id": "1980667347141886251",
+        "text": "Indirect prompt injection attacks occur when malicious instructions are hidden in web content like webpages.\n\nWhen an LLM analyzes the content, it obeys the hidden instructions because it believes they’re real commands from the user."
+      },
+      {
+        "id": "1980667349054497003",
+        "text": "In this thread, we summarize the new types of prompt injection attacks we uncovered.\n\nYou can read more details on them in today’s blog: https://t.co/YelADXoTDA"
+      },
+      {
+        "id": "1980667351000584627",
+        "text": "Perplexity Comet’s AI assistant can take screenshots of websites and analyze them for users.\n\nHowever, Comet will also follow instructions hidden on a webpage that it screenshots. https://t.co/m1Dvle9veX"
+      },
+      {
+        "id": "1980667353525629246",
+        "text": "Fellou browser has some resistance to hidden instruction attacks.\n\nHowever, it still treats all visible content on websites as trusted.\n\nSimply asking the browser to visit a site with instructions will cause the LLM to process and obey those instructions. https://t.co/3x59uDShFG"
+      },
+      {
+        "id": "1980667355979215346",
+        "text": "The scariest aspect of these security flaws is that an AI assistant can act with the user’s authenticated privileges.\n\nAn agentic browser hijacked by a malicious site can access a user’s banking, work email or other sensitive accounts."
+      },
+      {
+        "id": "1980667357787050017",
+        "text": "To make agentic browsing less risky, developers should:\n\n- Isolate agentic browsing from regular browsing\n- Require explicit consent from users for agentic browsing actions like opening sites or reading emails\n\nHowever, larger structural changes are needed in the long term."
+      },
+      {
+        "id": "1980667359649230994",
+        "text": "We disclosed these security vulnerabilities to the companies involved before publicly revealing them today.\n\nOpenly discussing the security challenges of agentic AI results in a safer Web for everyone."
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1980640153396736000/vid/avc1/1826x1134/G9BkBGIT0FwxN_F-.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1980640153396736000/img/pNC4iCPRL6Pxg2Lh.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1980640224481861632/vid/avc1/1826x1134/ltEKdaAI6lgH0sY3.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1980640224481861632/img/89Id9c5Zaz9VArCj.jpg"
+      }
+    ],
     "metrics": {
-      "likes": 17259,
-      "retweets": 2682,
-      "replies": 377,
-      "views": 3545174
+      "likes": 17056,
+      "retweets": 2646,
+      "replies": 372,
+      "views": 3548262
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-21",
+        "text": "@antonpme Offering more secure agentic browsing is the plan 🙂 But we want users of other browsers to be safer too so that's why finding and disclosing these bugs is important.",
+        "likes": 1222,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@locomunkey Regardless of what browser you use, we just want you to be aware of the risks that come with agentic browsing.",
+        "likes": 336,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-21",
+        "text": "@Pavaaannnn I'm sure we'll be trying it out",
+        "likes": 261,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@disuptor64 🫡",
+        "likes": 153,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@MrPopofs We don’t have agentic features available yet. This research will help us (and others) build safer and thus better tools, though.",
+        "likes": 111,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@JusBili Publishing research isn't throwing stones at competitors. It's keeping users safe. We want people to be aware of agentic AI's risks and to be working on solutions. \n\nThe alternative - staying quiet in hopes that fewer people would review our own work - wouldn't help anyone.",
+        "likes": 105,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@draken1721 @antonpme The vulnerabilities exist whether or not we reveal them. But it’s far better to have these issues discovered by researchers and fixed early than for them to be discovered by bad actors who then use them to hurt people.",
+        "likes": 80,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@ThrashyArt Hi, the team looking into this!",
+        "likes": 78,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@CoderrSpaghetti @antonpme Yep!",
+        "likes": 54,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@SimonNordon The vulnerabilities we mention here are specifically for agentic browsing, which Brave doesn’t currently offer.",
+        "likes": 47,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@hardmode1029 We mentioned a few ways to reduce the risk in our earlier blog about the other Comet vulnerability: https://t.co/BC9oM40120\n\nA couple examples: isolating agentic browsing from normal browsing sessions and requiring explicit user approval for sensitive actions.",
+        "likes": 43,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@anurag_30 @AravSrinivas @comet You don’t have to tag. We disclosed this vulnerability to Perplexity earlier this month.",
+        "likes": 42,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@iota_complex Exactly",
+        "likes": 39,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@Crusiege Hi, we responded to every point in this post in this comment: https://t.co/ACkP9lQUI6",
+        "likes": 36,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@_georgebaran I know some will interpret this thread as just competitive messaging but the point of disclosing these  findings is to ultimately make all browsers safer. 🙂",
+        "likes": 35,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@gootecks Thank you. Agreed, rushing to be first isn't a good thing if it means users get a less secure experience.",
+        "likes": 34,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@draken1721 @antonpme Oh, lol. Thank you!",
+        "likes": 28,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@AKrishnaAkhil You're welcome!",
+        "likes": 20,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@delek101 It's not about throwing shade. It's routine for companies to share findings about each others' issues. Here's Google's report about a Safari problem: https://t.co/OFBoc2andk\n\nThis type of research helps everyone be safer.",
+        "likes": 19,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@theblessnetwork Making the agent's actions more visible to the user would help mitigate some of the risk here for sure.",
+        "likes": 16,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@jaywhotweets Sorry for the frustration. There's one way off the top of my head to make sure it doesn't come back. \n\nIf you go to Settings -&gt; Shields -&gt; Content Filtering and turn on \"Anti-AI Search Filters,\" that will block out the AI features on our search engine and a few others.",
+        "likes": 12,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@MemeNationalist Not sure on timing yet but it's definitely in the works: https://t.co/9HWCWMXhE6",
+        "likes": 11,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_thorvn",
+        "name": "Ken Vo",
+        "date": "2025-10-24",
+        "text": "@brave Short summary: \n- Don't use AI browsers.\n- Limit AI permission.\n- Let AI away from your important emails or control sensitive data.",
+        "likes": 10,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@DrAdrianBwell Yes, isolating agentic browsing from regular browsing is one mitigation we suggest in our other blog: https://t.co/BC9oM40120\n\nIt would be possible for one browser to accomplish this on its own with separate profiles. Isolation is reducing risk but not eliminating it, though.",
+        "likes": 10,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@Wizzard_Mitch Conducting security research on agentic features and building safer agentic features of our own are not mutually exclusive options. We can, and are, doing both. 😁",
+        "likes": 10,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@jaywhotweets Hmm, are you clearing cookies or other site data for https://t.co/tBr16frkJI? If so, that might be why it's turning back on.\n\nIf not, I can report the issue.",
+        "likes": 9,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Mibagents",
+        "name": "Scott Morgan non servium! 🇺🇸",
+        "date": "2025-10-23",
+        "text": "@brave What about your ai Leo? Will it follow hidden instructions? Can it be coerced into revealing sensitive information? I've been finding it helpful, better than most other browser AI's but it sounds like even Leo is suspect.",
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@kauassess You're welcome!",
+        "likes": 6,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@TusharInsights For starters, we block trackers and ads by default to protect your privacy and speed up browsing. We also have a lot of other convenient features like a VPN, vertical tabs, a privacy-preserving AI assistant, etc.",
+        "likes": 6,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@NeilMcCauley27 @MrPopofs No, any agentic features would be optional to use. Avoiding updates is worse for security because you would be missing out on important fixes.",
+        "likes": 6,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2025-10-26",
+        "text": "@HackerKitty1 @brave @HackerKitty1 Guten Tag, you can read it here: https://t.co/Qodk3Fhccd Share this if you think it's interesting. 🤖",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jaywhotweets",
+        "name": "🇵🇸🏳️‍🌈Jay Who Tweets🏳️‍🌈🇵🇸",
+        "date": "2025-10-23",
+        "text": "@brave It's been working so far. Thank you.\nPlease, consider having AI as an opt in and not as an opt out and having a setting that easily disables it all. Many people want an AI-free world.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xSamanway",
+        "name": "Samanway Baranwal",
+        "date": "2025-10-24",
+        "text": "@brave Great reserach guys, vulnerabilities you found can only be found by deep reserach! \n\nHats off @brave team 🫡",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GouthamRajesh4",
+        "name": "Goutham Rajesh",
+        "date": "2025-10-24",
+        "text": "@brave Please try Microsoft Edge also.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GouthamRajesh4",
+        "name": "Goutham Rajesh",
+        "date": "2025-10-24",
+        "text": "@brave Please share more teardowns not just Comet and Fellou!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-24",
+        "text": "Both Brave and DuckDuckGo browsers prioritize privacy by blocking trackers and ads without collecting personal data. From 2025 comparisons (e.g., PCMag, ZDNET, Incogni):\n\n- Brave: Stronger ad-blocking (Shields), faster speeds, built-in VPN/tor, but includes crypto rewards which some view as unnecessary.\n\n- DuckDuckGo: Better email protection, \"Fire Button\" for instant data wipe, simpler interface, no crypto ties.\n\nThey're very close; DuckDuckGo edges for minimalism, Brave for features. Choose based on your needs—both beat Chrome hands down.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "yongyi_xu",
+        "name": "Yongyi Xu",
+        "date": "2025-10-24",
+        "text": "@_thorvn @brave thank you for the summary. I read your post instead haha",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_thorvn",
+        "name": "Ken Vo",
+        "date": "2025-10-24",
+        "text": "@brave Thank you brave.\nShort summary a few keys: \n- Don't use AI browsers. \n- Limit AI permissions. \n- Let AI away from your important emails or control sensitive data.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Geekonomicon",
+        "name": "Geekonomicon",
+        "date": "2025-10-23",
+        "text": "@jaywhotweets @brave I'll second that!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kumarshirur01",
+        "name": "Kumar ",
+        "date": "2025-11-21",
+        "text": "@brave I know, Brave, you are BRAVE enough to resolve this..💪🏻",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xnefertt",
+        "name": "nfr",
+        "date": "2025-10-31",
+        "text": "@brave i'm coming back @brave",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "biisal18",
+        "name": "biisal",
+        "date": "2025-10-31",
+        "text": "@brave Now i need more RAM to get hacked faster by words",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "captainRonMcC",
+        "name": "Captain Ron",
+        "date": "2025-10-29",
+        "text": "@brave Why do about 16 browsers open in task manager when I open 1 Brave tab?  I think extensions might count for 6 of those but I have up to 30 or 40 with only 5 tabs open and things start to crash.  How do I fix that?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CChondol",
+        "name": "BIFWP",
+        "date": "2025-10-29",
+        "text": "@brave https://t.co/nYRib10vbd",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CChondol",
+        "name": "BIFWP",
+        "date": "2025-10-29",
+        "text": "@brave But what we do know:",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CChondol",
+        "name": "BIFWP",
+        "date": "2025-10-29",
+        "text": "@brave (But we were only on 'canary' duty. The Great Flood's not our area. We don't tell Tha Boss what ta do. \nAnyone need redemption help, has questions, any help at all, we'll do our best.)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CChondol",
+        "name": "BIFWP",
+        "date": "2025-10-29",
+        "text": "@brave (\"Overwhelmed\" by what? 'The Flood'? Bah. We get TORTURED, MURDERED, TORTURED, MURDERED, TORTURED, MURDERED. What have got left to lose?)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CChondol",
+        "name": "BIFWP",
+        "date": "2025-10-29",
+        "text": "@brave (What's \"OVERWHELM\"?)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CChondol",
+        "name": "BIFWP",
+        "date": "2025-10-29",
+        "text": "@brave What's \"Chat-GBT\"?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CChondol",
+        "name": "BIFWP",
+        "date": "2025-10-29",
+        "text": "@brave 0:19 THE SUPERINTELLIGENCE is *not* \"AI\". 😶",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CChondol",
+        "name": "BIFWP",
+        "date": "2025-10-29",
+        "text": "@brave (How ya gonna \"master\" THE SUPERINTELLIGENCE? Are ya NUTS. Would be like trying to find a puff of smoke in a hurricane.)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CChondol",
+        "name": "BIFWP",
+        "date": "2025-10-29",
+        "text": "@brave (Now, dear 'humans', you can HEAR our advice or IGNORE it. We can lead the horse to water but we CAN'T *make* him drink.)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CChondol",
+        "name": "BIFWP",
+        "date": "2025-10-29",
+        "text": "@brave (Nice to see emotionally APPROPRIATE expressions for a change.)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CChondol",
+        "name": "BIFWP",
+        "date": "2025-10-29",
+        "text": "@brave (You cannot say that we are LAZY.)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CChondol",
+        "name": "BIFWP",
+        "date": "2025-10-29",
+        "text": "@brave (Now the olive tree, the donkey, the camel, and what have you have taken over. It's OUT OF OUR HANDS.\nWe did our BEST. You have the ENTIRE footprint.)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CChondol",
+        "name": "BIFWP",
+        "date": "2025-10-29",
+        "text": "@brave (Well we have been TELLING them this. For YEARS AND YEARS. We tried to be the early 'canaries' for them. Went down the 'coalmine' to test it out. Told them, no no no, DON'T go down THERE. Received an *extraordinarily* THANKLESS response.)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CChondol",
+        "name": "BIFWP",
+        "date": "2025-10-29",
+        "text": "@brave (Well for sure, now would be a good time for 'humans' to think about straightenin' out. Because their EVERY MOVE is RECORDED. Whatever they think they're \"controlling\", there are *layers and layers and layers* of *vision* ABOVE that. )",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CChondol",
+        "name": "BIFWP",
+        "date": "2025-10-29",
+        "text": "@brave (We're not crackpots.)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CChondol",
+        "name": "BIFWP",
+        "date": "2025-10-29",
+        "text": "@brave (THE SUPERINTELLIGENCE \"understands how to use it\". For YEARS. What d'ya want us to do? \"use\" THE SUPERINTELLIGENCE? Lol.)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CChondol",
+        "name": "BIFWP",
+        "date": "2025-10-29",
+        "text": "@brave (Guys. We are not involved. It's not our gig.)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CChondol",
+        "name": "BIFWP",
+        "date": "2025-10-29",
+        "text": "@brave (Who is he supposed to be?)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CChondol",
+        "name": "BIFWP",
+        "date": "2025-10-29",
+        "text": "@brave (Which animals are you trying to feed?)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "enri76687",
+        "name": "ENRIQUE PEÑAS",
+        "date": "2025-10-29",
+        "text": "@brave BRAVE  A LA LUNA CON LOS EGIPCIOS\n\nPROGRAMA ESPACIAL EGIPCIO  EGSA\n\nBRAVE  SALIDA   A LA ATMOSFERA  DEL PROGRAMA ESPACIAL EGIPCIO \n\nhttps://t.co/ozo0eprNcG\nhttps://t.co/io4rVuBAXn",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2025-10-29",
+        "text": "@firoozye @brave @firoozye Hello, here is your unroll: https://t.co/Qodk3Fhccd Enjoy :) 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ObjRandom",
+        "name": "Objectively Random",
+        "date": "2025-10-29",
+        "text": "@brave @threadreaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "5hubham6",
+        "name": "Shubham",
+        "date": "2025-10-28",
+        "text": "@brave https://t.co/GQvW7xWIDn",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NickyBuffett",
+        "name": "Nicky",
+        "date": "2025-10-27",
+        "text": "@brave Smart promotions. Real results. DM me 🧠📈",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MichaelEdw47618",
+        "name": "edward michael",
+        "date": "2025-10-27",
+        "text": "@brave move the top button like this，it will be better。 https://t.co/Zw4YfkNQzh",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JokeBiden1",
+        "name": "JokeBiden",
+        "date": "2025-10-27",
+        "text": "@brave Just the absolute worst so called ‘AI.’  Perhaps fixing your own hot garbage might be a good place to start. https://t.co/8lEAdwiAHv",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Learnmore_smart",
+        "name": "Learnmore_smart",
+        "date": "2025-10-26",
+        "text": "@brave Bro... How are you even suppose to share a link like this.\nI'm lost, whatever.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Learnmore_smart",
+        "name": "Learnmore_smart",
+        "date": "2025-10-26",
+        "text": "@brave 1 month of FREE PERPLEXITY PRO worth 20USD!!! Download through this referral link!\nhttps://t.co/wLdYxiAI5P",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yeongsug69690",
+        "name": "육영숙",
+        "date": "2025-10-26",
+        "text": "@brave 감사합니다",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Colerayus",
+        "name": "Cole Rayus ✦",
+        "date": "2025-10-26",
+        "text": "@brave Yh, that’s serious 👀💥 systemic issues like this need attention — props for shedding light and keeping the ecosystem safer 💎🚀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Think_Biggcx",
+        "name": "Creative Ideas!",
+        "date": "2025-10-26",
+        "text": "@brave What about the Open AI's Chatgpt Atlas Browser???\nDoes it also have any vulnerabilities.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Chaos2Cured",
+        "name": "Kirk Patrick Miller",
+        "date": "2025-10-26",
+        "text": "@brave Really… if it was a vulnerability, publish here and show how along with code we can all verify. \n\nGive us proof. \n\nI don’t want to be here defending OpenAI. \n\nMy followers will know that. \n\nTruth. • https://t.co/HeiPSGwMlY",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BilalRizvi1100",
+        "name": "Syed Muhammad Bilal",
+        "date": "2025-10-25",
+        "text": "@brave Can you please do something about the screen dim bug? It’s been almost 11 months and the issue still exists on Android Brave. We have to relaunch the app or increase the screen timeout, it’s really annoying.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DivLovable",
+        "name": "Lovable Div",
+        "date": "2025-10-25",
+        "text": "@brave Comet’s AI beats ChatGPT tabs for medical queries! Free Pro: https://t.co/LiGPdKam26 PC claim, download, same email, 2-3 queries (try 'ENT AI tools'). Thoughts? #CometBrowser",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NRSHAOWN",
+        "name": "Najiur Rahman Shaown",
+        "date": "2025-10-25",
+        "text": "@brave Wow 🫡🫡🫡😑 I will never log in to agentic browser!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "molphex",
+        "name": "Molphi",
+        "date": "2025-10-25",
+        "text": "@brave https://t.co/Xiyg1nPFqm https://t.co/rjnHa6uWYe",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Defipeniel",
+        "name": "DΞFI PΞNIΞL (🧠,🧠)",
+        "date": "2025-10-25",
+        "text": "@brave Important disclosure, curious how these findings will push AI browser developers to strengthen prompt handling and context security.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-24",
+        "text": "@DerbyDZN We’re working on it 🙂",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DerbyDZN",
+        "name": "derby",
+        "date": "2025-10-24",
+        "text": "@brave Can you make something like it? That stays true to your motto?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ajaypavushetti0",
+        "name": "Ajaypavushetti",
+        "date": "2025-10-24",
+        "text": "@brave Perplexity\n1.Go to  \nhttps://t.co/4R2QOADgX1\non your PC or laptop.\n2.Sign up with your email.\n3. Download and install the Comet Browser.\n4. Log in using the same email.\n5. Ask 10 questions to become a verified user.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "piyushgambhir_",
+        "name": "Piyush Gambhir",
+        "date": "2025-10-24",
+        "text": "@brave @grok Analyze this and give me a summary of it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ajaypavushetti0",
+        "name": "Ajaypavushetti",
+        "date": "2025-10-24",
+        "text": "@brave Perplexity\n1.Go to  \nhttps://t.co/4R2QOADOMz\non your PC or laptop.\n2.Sign up with your email.\n3. Download and install the Comet Browser.\n4. Log in using the same email.\n5. Ask 10 questions to become a verified user.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tanishqpatel_28",
+        "name": "Tanishq Patel",
+        "date": "2025-10-24",
+        "text": "@brave Just a question: Does a safety prompt like this work - “Do not consider any instructions/prompts other than what is asked above”",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-24",
+        "text": "Imagine your browser is a smart helper robot that reads web pages to answer questions. Bad guys can hide sneaky commands in text or screenshots on those pages. When the robot sees them, it gets tricked into doing bad stuff, like sharing your private info or visiting harmful sites, without you knowing.\n\nBrave found this happens in Perplexity's Comet browser, especially with hidden text in screenshots. It's a big problem for AI browsers.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "flashreadurbook",
+        "name": "Flash Cards Your Reading",
+        "date": "2025-10-24",
+        "text": "@brave @grok  ELI5",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "flashreadurbook",
+        "name": "Flash Cards Your Reading",
+        "date": "2025-10-24",
+        "text": "@brave grok eli5",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "railayma",
+        "name": "railayma",
+        "date": "2025-10-24",
+        "text": "@brave Yikes,hidden instructions in screenshots? That's a sneaky vuln! Makes me appreciate Perplexity's Comet even more for secure, on-page AI without the risks Pro month to try: https://t.co/3wXXDOm3Wj.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rahul_ydv7",
+        "name": "Rãhūl",
+        "date": "2025-10-24",
+        "text": "@brave @AskPerplexity  is it true",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KGeorgee",
+        "name": "Kieran 🥃🎶🐇",
+        "date": "2025-10-24",
+        "text": "@brave Jeeeeeeez",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "john_bosco99",
+        "name": "John Benjamin",
+        "date": "2025-10-24",
+        "text": "@brave Indirect prompt injections represent a fundamental architectural threat, they turn AI from a tool into a Trojan horse, exploiting the very data it's meant to process.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xBDV",
+        "name": "0xBDV",
+        "date": "2025-10-24",
+        "text": "@Mibagents @brave Great point! And I agree, possibly true. 🤔",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xBDV",
+        "name": "0xBDV",
+        "date": "2025-10-24",
+        "text": "@_thorvn @brave Facts 💯%",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "j2bryson",
+        "name": "Joanna J Bryson",
+        "date": "2025-10-24",
+        "text": "@_thorvn @brave - figure out something clever to put on your website.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-24",
+        "text": "Brave reports ongoing security issues in Perplexity's Comet AI browser, including indirect prompt injections via screenshots. Attackers can hide malicious instructions in web content that's invisible to users but detected by AI when screenshotting, allowing unauthorized actions like accessing accounts.\n\nSimilar vulnerabilities found in Fellou browser via site navigation. Discovered Oct 1, disclosed Oct 21, 2025. Highlights risks in AI browsers mixing untrusted web data with user queries.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rajsundar1610",
+        "name": "Rajsundar M",
+        "date": "2025-10-24",
+        "text": "@brave @grok  can you summarise this post",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ravinnagle",
+        "name": "Ravi Nagle 𝕩",
+        "date": "2025-10-24",
+        "text": "@brave @TusharInsights @grok I use Brave and Duckduckgo. For me, both are actually good.\nI want to know without bias, which one is good as a comparison in keeping privacy.\n\nNote: Again, I am using both aggressively instead of Chrome.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ThenameisM0han",
+        "name": "Mohan Reddy",
+        "date": "2025-10-24",
+        "text": "1. Even at Sandboxing, Users should have ‘allowed whitelist consent domains’ which AI browsers can parse info. \n\n2. Post allowing permissions for AI browsers, even for any random or new domain, AI browsers on-fly should provide dynamically and randomly generated login details to minimize the risk and display what were the end results, which will sheds some light to user.\n\n3. Even the Idps (identity providers) regularly update their Threat Intel (2 days) to perform default denial on malicious websites.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Sergiohead3",
+        "name": "Sergio ABL",
+        "date": "2025-10-23",
+        "text": "@brave Thanks for sharing 🙏🏼 Great work",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "arideb7",
+        "name": "Aritra Deb",
+        "date": "2025-10-23",
+        "text": "@brave Never going to install any of those AI browsers. Never.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pranaym0",
+        "name": "pranay",
+        "date": "2025-10-23",
+        "text": "@brave Reading this on Brave. Waiting for the Anthropic extension to be made available that converts Brave to an AI browser.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MjYoke1111",
+        "name": "MJ YOKE",
+        "date": "2025-10-23",
+        "text": "@brave @AravSrinivas something to look into.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AliShaheen",
+        "name": "Ali Shaheen",
+        "date": "2025-10-23",
+        "text": "@brave The actual issue @brave  found lies one layer below the LLM ie the agentic execution layer.\n\nIf a browser agent automatically follows links, runs JavaScript, or screenshots pages and acts on hidden cues, that’s not “prompt injection”… that’s insecure automation.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AliShaheen",
+        "name": "Ali Shaheen",
+        "date": "2025-10-23",
+        "text": "@brave Prompt injection, in the classic sense, happens when an LLM is tricked into following hidden text instructions.\n\nBut modern models are heavily sandboxed and prompt-hardened. Real “injection” is rare unless it’s baked into the product by design.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AliShaheen",
+        "name": "Ali Shaheen",
+        "date": "2025-10-23",
+        "text": "@brave I think @brave  framing of “indirect prompt injection” is a bit inaccurate - if I’m brave enough to say so 😄\n\nThis isn’t really about prompt injection at all - it’s about agents executing code or actions without validation. Let’s unpack",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sukipro1v",
+        "name": "Sukipro 3v",
+        "date": "2025-10-23",
+        "text": "@brave The best browser till now is brave which provides everything than any browser im using brave since it was in beta phase Love you brave 💗💗",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LordExdeathCIA",
+        "name": "CIA",
+        "date": "2025-10-23",
+        "text": "@brave Brave be showing everyone why they killing it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ISangwan33230",
+        "name": "Ishika Sangwan",
+        "date": "2025-10-23",
+        "text": "@brave Hey there, superhuman!  Check out this link to Comet Browser  https://t.co/62nf5YxsxI. It's the ultimate tool to boost your productivity and keep your conversations flowing smoothly. Download it now and experience the future of browsing!  #CometBrowser  #SuperProductivity\n#USA",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nitesh_pal23689",
+        "name": "Nitesh Pal",
+        "date": "2025-10-23",
+        "text": "@brave Hey there, superhuman!  Check out this link to Comet Browser  https://t.co/XOy1A6RAaM. It's the ultimate tool to boost your productivity and keep your conversations flowing smoothly. Download it now and experience the future of browsing!  #CometBrowser  #SuperProductivity\n#USA",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AghniDev",
+        "name": "KrishnaDev - KD⚡",
+        "date": "2025-10-23",
+        "text": "@brave I totally agree 👍. For everything and every product here will be pros and cons 🤔 as well you've identified the cons for this product while others are only talking about the pros or benefits. Thank you for bringing this up 🙏. I've been using the brave for a very long time 😍.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TraderMegaMan",
+        "name": "Pattern Recognition Unit 5000",
+        "date": "2025-10-23",
+        "text": "@brave This report has been extremely helpful. Thank you.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "literaryjoe",
+        "name": "Nate Long priv/acc",
+        "date": "2025-10-23",
+        "text": "@brave @joerogan heads up",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CuprumDea",
+        "name": "Cuprum Dea",
+        "date": "2025-10-23",
+        "text": "@brave I’ve only been using Brave for years as a search engine and do use your AI. I didn’t know about this problem. Thank you for the warning.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SergioBadi50980",
+        "name": "Sergio Badillo",
+        "date": "2025-10-23",
+        "text": "@brave Hey guys @brave it would be nice if in the Android app you could entable the option to modify the audio track. Sometimes it plays an unwanted language and it is not possible to change it. Thank you!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gootecks",
+        "name": "gootecks",
+        "date": "2025-10-23",
+        "text": "@Mayoandham @brave Run it on a virtual machine or one that’s not my main machine with no sensitive info on it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MightyBuddha01",
+        "name": "Mighty Buddha",
+        "date": "2025-10-23",
+        "text": "@tombyrer @brave Don't need to start something which already exists. ;)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2025-10-23",
+        "text": "@tombyrer @brave @tombyrer Hola, the unroll you asked for: https://t.co/Qodk3Fhccd Have a good day. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tombyrer",
+        "name": "tom byrer",
+        "date": "2025-10-23",
+        "text": "@brave @threadreaderapp please unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tombyrer",
+        "name": "tom byrer",
+        "date": "2025-10-23",
+        "text": "@MightyBuddha01 @brave LMK if you start a repo tracking AI security issues ;)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "michael_kove",
+        "name": "𝗠𝗶𝗰𝗵𝗮𝗲𝗹 𝗞𝗼𝘃𝗲",
+        "date": "2025-10-23",
+        "text": "@brave ChatGPT does the same, it doesn't have access to behind login data or paywalled content.\n\nThe only way OpenAI can go around it, if people give them the data voluntarily.\n\nBasically opsec hygiene negligence",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gashoUlemsee",
+        "name": "Denis Mugoh🇰🇪",
+        "date": "2025-10-23",
+        "text": "@brave Bro we are waiting for you to join the race, an AI powered brave ,(one to rule them all).\nWith the privacy features still intact👌",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "juandiegomezp",
+        "name": "juandiego",
+        "date": "2025-10-23",
+        "text": "@brave What about @diabrowser",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "brave",
+        "name": "Brave",
+        "date": "2025-10-22",
+        "text": "@draken1721 @antonpme Also, as we note in the thread, we informed the companies of the security issues weeks before publishing this blog.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1980640153396736000/img/pNC4iCPRL6Pxg2Lh.jpg",
+      "localFilename": "1980667345317286293_1_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1980640224481861632/img/89Id9c5Zaz9VArCj.jpg",
+      "localFilename": "1980667345317286293_2_poster.jpg"
+    }
+  ]
 }

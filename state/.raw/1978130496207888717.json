@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:14:35.268Z",
+  "tweetId": "1978130496207888717",
+  "post": {
+    "url": "https://x.com/emollick/status/1978130496207888717",
+    "author": {
+      "handle": "emollick",
+      "name": "Ethan Mollick"
+    },
+    "date": "2025-10-14",
+    "text": "Walmart is moving very fast in AI. Amazon still seems to block ChatGPT agents from even visiting its site.\n\nInteresting reversal in agentic commerce, a lesson learned from e-commerce where Amazon moved fast? https://t.co/cvrC9APqwR",
+    "thread": [
+      {
+        "id": "1978130496207888717",
+        "text": "Walmart is moving very fast in AI. Amazon still seems to block ChatGPT agents from even visiting its site.\n\nInteresting reversal in agentic commerce, a lesson learned from e-commerce where Amazon moved fast? https://t.co/cvrC9APqwR"
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 634,
+      "retweets": 46,
+      "replies": 31,
+      "views": 90970
+    },
+    "comments": []
+  }
+}

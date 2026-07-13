@@ -1,0 +1,651 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:10:02.558Z",
+  "tweetId": "2076341651107348503",
+  "post": {
+    "url": "https://x.com/VaibhavSisinty/status/2076341651107348503",
+    "author": {
+      "handle": "VaibhavSisinty",
+      "name": "Vaibhav Sisinty"
+    },
+    "date": "2026-07-12",
+    "text": "Satya Nadella just warned every company using AI: you are paying twice. Once with money. Again with something far more valuable.\n\nHe published an article introducing something called the Reverse Information Paradox.\n\nAnd it changes how you think about every AI tool your company uses.\n\nNobel laureate Kenneth Arrow described the original paradox: a seller risks giving away knowledge just to sell it. Nadella says AI flips this completely.\n\nIn the AI age, the buyer gives away knowledge just to use what they bought.\n\nEvery time your team uses Claude or GPT at work, every prompt reveals what you are building. Every correction teaches the model what good looks like inside your company. Every eval shows what you value. Every trace exposes your workflow.\n\nThe model provider learns more about you with every interaction. You learn almost nothing about what they are learning in return. Your corrections are distilled institutional know-how. The kind a competitor could never buy.\n\nAnd it leaks trace by trace, correction by correction, without you noticing.\nHis line: \"You can offload a task. You can offload a job. But you can never offload your learning.\"\n\nIf the model provider disappears tomorrow, do you still own the intelligence your team built on top of it? Your evals. Your memory. Your traces. Your workflows. Or did all of that compound inside someone else's infrastructure?\n\nIn the cloud era, companies accumulated data. In the AI era, they accumulate learning. Right now, most of that learning is compounding inside the model provider. Not inside the company paying for it.\n\nThe CEO pushing AI harder than anyone just told you to protect your knowledge from the very tools he is selling you. That should tell you everything.",
+    "thread": [
+      {
+        "id": "2076341651107348503",
+        "text": "Satya Nadella just warned every company using AI: you are paying twice. Once with money. Again with something far more valuable.\n\nHe published an article introducing something called the Reverse Information Paradox.\n\nAnd it changes how you think about every AI tool your company uses.\n\nNobel laureate Kenneth Arrow described the original paradox: a seller risks giving away knowledge just to sell it. Nadella says AI flips this completely.\n\nIn the AI age, the buyer gives away knowledge just to use what they bought.\n\nEvery time your team uses Claude or GPT at work, every prompt reveals what you are building. Every correction teaches the model what good looks like inside your company. Every eval shows what you value. Every trace exposes your workflow.\n\nThe model provider learns more about you with every interaction. You learn almost nothing about what they are learning in return. Your corrections are distilled institutional know-how. The kind a competitor could never buy.\n\nAnd it leaks trace by trace, correction by correction, without you noticing.\nHis line: \"You can offload a task. You can offload a job. But you can never offload your learning.\"\n\nIf the model provider disappears tomorrow, do you still own the intelligence your team built on top of it? Your evals. Your memory. Your traces. Your workflows. Or did all of that compound inside someone else's infrastructure?\n\nIn the cloud era, companies accumulated data. In the AI era, they accumulate learning. Right now, most of that learning is compounding inside the model provider. Not inside the company paying for it.\n\nThe CEO pushing AI harder than anyone just told you to protect your knowledge from the very tools he is selling you. That should tell you everything."
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 2221,
+      "retweets": 322,
+      "replies": 59,
+      "views": 762762
+    },
+    "comments": [
+      {
+        "handle": "amuse",
+        "name": "@amuse",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty Local models.",
+        "likes": 10,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cheers_mucci",
+        "name": "Tinkerbell",
+        "date": "2026-07-12",
+        "text": "@VaibhavSisinty As I expected from this guy - mediocre thoughts, mostly copied from others.",
+        "likes": 9,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "varunvibe",
+        "name": "Varun Dogar",
+        "date": "2026-07-12",
+        "text": "@VaibhavSisinty Microsoft is losing its dominance and unfortunately Satya knows it.. people can design and use their own workflows and tools.. copilot has aged dramatically.. so sure all the stops",
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "samarknowsit",
+        "name": "Samar Singh",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty How many times everyone was paying when they were using Satya’s Cloud ? Satya knows that just stealing the “foundry” name is not going to be enough, he needs to monger more bs fear. Llm providers are not different from his own offerings. Idiot",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Stockarth",
+        "name": "BullsBeersAndDesire",
+        "date": "2026-07-12",
+        "text": "@VaibhavSisinty Microsfot lost AI battle so now trying to confuse organizations . In AI agentic ERA think about why some one need email or msoffice .",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PrestonTsao",
+        "name": "Preston Tsao",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty What you prompt is not integrated into the Trained Block nor is the response, so I don’t understand what he is saying.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DheepLearning",
+        "name": "DheepLearning",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty Apart from the fancy term Reverse Information Paradox(RIP), what’s really new here? Isn’t this something we’ve known right from the start? Or am I missing something?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rogerchequer",
+        "name": "Rogerio Chequer",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty That’s why local models, the ones that learned with larger ones, will grow a huge lot in the near term…\nThey won’t reach all tasks, but will partially break up the knowledge leakage.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "balaRaptor",
+        "name": "Balakrishnan",
+        "date": "2026-07-12",
+        "text": "@VaibhavSisinty Let’s talk when Msft operates its services u see true open and sovereign customer environments without a LOCKDOWN",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PhdLogic",
+        "name": "Dr Logic",
+        "date": "2026-07-12",
+        "text": "@VaibhavSisinty This post brought to you by Ai",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "elalvarobalbin",
+        "name": "Alvaro Balbin",
+        "date": "2026-07-12",
+        "text": "@VaibhavSisinty so the companies training on your outputs just inherited your strategy for free",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "XrplBots",
+        "name": "Sacred Cryptoist",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty This is nonsense. Companies not using AI will be so far behind they will go out of business",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "themorpheans",
+        "name": "morphean",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty Stop feeding Big Tech your data. 🛑\n\nDecentralized AI is here. 🌐\n\nOwn your AI. Own your data.\n\nCheck out @MorpheusAIs:\nhttps://t.co/x3WyXIrugW\n\n$MOR ✊🏼 https://t.co/bD37s3lEoc",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "80sTiger",
+        "name": "80s Tiger",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty It tells me what Microsoft has been saying from the beginning … they don’t use your data in their models. You own your data. 365 or Azure. It’s documented.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Rakita_IND",
+        "name": "Rakita 🧂",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty Only an Indian can take Satya Nadella serious",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CEOswithswords",
+        "name": "BlB🐳",
+        "date": "2026-07-13",
+        "text": "@rogerchequer @VaibhavSisinty The main point that Satya was trying to make was about protecting your domain knowledge (e.g. IP).",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rex102758322406",
+        "name": "rex",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty Switched to office libre a long time ago.  Microsoft did the same thing also, they stole word perfect lol.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "varunvibe",
+        "name": "Varun Dogar",
+        "date": "2026-07-12",
+        "text": "I agree that there is more nuance to it.. when we had competition between AWS, Google and Microsoft for different cloud services, we saw this jostling too but in the end Microsoft were among top.. now when i am in my workplace it feels like i am working on a aged system because we are still on windows and they ban claude ir chatgpt.. then u go to personal work at home and we see a different world.. they have a big chunk but slowly notion, slack abd so many other open soyrces are chipping away!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kiwi0x2",
+        "name": "kiwi",
+        "date": "2026-07-12",
+        "text": "@VaibhavSisinty Another BS from AI hater",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Kaygeeartworks",
+        "name": "Ken Goyarola",
+        "date": "2026-07-12",
+        "text": "There's a much bigger push that i heard from a senior AI architect at MS Build. Sovereign on prem Enterprise models. So basically pushing away from the API/token usage/inference SaaS model. Having a dedicated AI engineering team from Microsoft on site to build, train, and maintain.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iiboo",
+        "name": "Halil Karaca",
+        "date": "2026-07-12",
+        "text": "@varunvibe @VaibhavSisinty Makes you wonder whether Satya would publish the same article if Microsoft would have a competitive frontier model.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "exchange2k10",
+        "name": "exchange2k10",
+        "date": "2026-07-12",
+        "text": "@varunvibe @VaibhavSisinty Exactly - plus they lost the AI war - it’s Anthropic vs OpenAI for now - but looks like Anthropic is the apple to OpenAI’s android",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RisingAIGlobal",
+        "name": "Rising AI",
+        "date": "2026-07-12",
+        "text": "@VaibhavSisinty The irony is wild, but it's a brilliant tactical pivot. He's pitching Azure's private tenant boundaries over direct public APIs. If you don't decouple your orchestration layer and own your evals, you're essentially renting your own intelligence back from a vendor.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "savyasachina",
+        "name": "never",
+        "date": "2026-07-12",
+        "text": "@VaibhavSisinty Very redundant theory. Waste of so many words. AI soaking all knowledge is a very well known accepted end goal. Everyone knows it big fcking deal",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itsthedonhashim",
+        "name": "Hussain Hashim | Building SundayBack",
+        "date": "2026-07-12",
+        "text": "@VaibhavSisinty @VaibhavSisinty wow, that's deep. reminds me of how we pay for convenience with privacy too. AI's like a double-edged sword these days.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Tihoyu2",
+        "name": "Tihoyu",
+        "date": "2026-07-13",
+        "text": "@DheepLearning @VaibhavSisinty What's new or true is often what's irrelevant. What matters is which narrative takes hold in the public mind and which are ignored. And that depends on industry leaders like Satya to push his preferred narrative by publishing this article. That's the point.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sukalyanfouzdar",
+        "name": "A:gyaani 🇮🇳",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty This is known and inevitable",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "himanshu_baluni",
+        "name": "Himanshu Baluni",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty Wow, that's a really insightful warning. Definitely makes you think about how we're using AI.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "meaculpaK9",
+        "name": "K9",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty Karp and Palantir have solved this problem, for enterprises at least.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "andguerph",
+        "name": "andguerph",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty For the very specific reason, @flock_io is working since few years.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JerryHsuuuu",
+        "name": "Jerry Hsu",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty This is precisely why Servicenow $NOW is important.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "10xthinker",
+        "name": "GrowWell",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty Losing competitive moat by training frontier models",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "swarupdcs",
+        "name": "Swarup Das",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty Exactly. This is why local/open models + self-hosted fine-tunes are becoming non-negotiable for any serious company.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "singaramtalk",
+        "name": "Kevin",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty Can you put out some original content/writing instead of just resorting to AI slop?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ChaitanyasaiA",
+        "name": "ChaitanyaSai Anumula",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty That’s makes sense why models are keep on getting better",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "arryakhadi",
+        "name": "AK",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty The real asset is the workflow trace. Even if training is off, logs and evals are where company taste compounds",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GigaHiveDigital",
+        "name": "GigaHiveDigital",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty Local models with new and existing infra just works.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Vandana61637949",
+        "name": "Vandana",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty That is so deep. An eye opener. Wow!! https://t.co/CL9GjusWcS",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rprasadswamy",
+        "name": "prasad",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty This is best one",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hudge_steven",
+        "name": "Steven Hudge",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty https://t.co/p44p0uxzCE looks the answer to solve it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HartmanSki49387",
+        "name": "Skip Hartman",
+        "date": "2026-07-13",
+        "text": "@amuse @VaibhavSisinty 🎯💯",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Krishkolen",
+        "name": "Krish K",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty If Satya said it, it must be true. Isn’t it? Didn’t we know this was happening once you givevtge model your company’s knowledge??",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MTRS_Invests",
+        "name": "MTRS",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty Ah, that was too soon a declaration and warning? As if you didn’t know it 3 years back?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Texanfirst33",
+        "name": "Rick",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty So build local models",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "im_joeblack",
+        "name": "Joe Black ⚔️",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty Microsoft’s dominance is over.  He knows that.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KhetarpalAnkit",
+        "name": "ankit khetarpal",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty Isn't what google has been doing since ages",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "neostuckin",
+        "name": "Neo",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty This is pretty much common sense. Don’t need Satya Nadella to tell it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "O2debt",
+        "name": "0xygenDebt",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty Isn’t this just a Palantir Karp echo?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MoonlightWatch",
+        "name": "Moonlight Watch",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty He used so many words to say so little.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "harishvihu",
+        "name": "Harish",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty Actually you know this point will create more jobs ..inhouse AI ..customized to specific company ..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CEOswithswords",
+        "name": "BlB🐳",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty Satya is basically validating what $PLTR has been doing all these while.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "John_zhong324",
+        "name": "John_Zhong",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty The hidden cost is usually context. If AI tools create more scattered information than they resolve, the real ROI depends on whether they compress decisions instead of just producing output.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rajveermeena_1",
+        "name": "Rajveer",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty What signals he/Microsoft wants give from message? Are they going to miss this race badly … or a new product line coming soon",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Trumpusha1",
+        "name": "Trumpusha",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty Can you stop having AI write your slop ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TESLAART3",
+        "name": "PalantArt",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty @ssankar first shareholder letter 6 years ago!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TESLAART3",
+        "name": "PalantArt",
+        "date": "2026-07-13",
+        "text": "@VaibhavSisinty Dr. Karp and @ssankar  have prophesied this for years...once again, Palantir is building products years before companies realize they need them! PTFB... https://t.co/yquz36ZNPi",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DavidJ88686487",
+        "name": "David J",
+        "date": "2026-07-12",
+        "text": "@VaibhavSisinty He is just selling fear to keep his costumers. Stay with copilot or the others steal you data.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "varunvibe",
+        "name": "Varun Dogar",
+        "date": "2026-07-12",
+        "text": "@iiboo @VaibhavSisinty Yeah.. then it would be masterstroke 😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "varunvibe",
+        "name": "Varun Dogar",
+        "date": "2026-07-12",
+        "text": "@exchange2k10 @VaibhavSisinty Even here they are being chalkenged.. we dont know hiw anthropic or openAI train agents and keep pushing while warning world.. Grok, Google and God knows who else.. why not look back at mess .. agebts released barely a month agonget obsolete",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kiwi0x2",
+        "name": "kiwi",
+        "date": "2026-07-12",
+        "text": "@VaibhavSisinty Especially when it's from India🤷‍♂️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "surferx",
+        "name": "Darnell Sheniqua Jackson",
+        "date": "2026-07-12",
+        "text": "@VaibhavSisinty Yeah or maybe we aren’t supposed to do bullshit sit in office jobs?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "graceb_art",
+        "name": "grace",
+        "date": "2026-07-12",
+        "text": "@VaibhavSisinty same with social media, at a personal level.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "immigrant_boy88",
+        "name": "immigrant_boy",
+        "date": "2026-07-12",
+        "text": "@VaibhavSisinty He is my CEO and I attended all his all hands meetings he talks a lot says nothing \n\nDon’t pay any attention just remember he is the one flew overnight to crack a deal with openAI back in 2022",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "liwucodes",
+        "name": "Walker",
+        "date": "2026-07-12",
+        "text": "@VaibhavSisinty You could simply externalize that memory into an external memory no? Something like https://t.co/f5zXofOF77",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Eva_2026_Vienna",
+        "name": "Miroslava Strutz",
+        "date": "2026-07-12",
+        "text": "@VaibhavSisinty Meet my Work. First Digital Immortal Second Self https://t.co/SXFw0UMQez",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "a5hush",
+        "name": "Ashish Dewani",
+        "date": "2026-07-12",
+        "text": "@VaibhavSisinty TMaI.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mycomputerspot",
+        "name": "MyComputerSpot",
+        "date": "2026-07-12",
+        "text": "@VaibhavSisinty That is the part companies need to sit with. The useful AI tool is also where a lot of internal context starts collecting.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itxamu",
+        "name": "Amay",
+        "date": "2026-07-12",
+        "text": "The ultimate irony: The seller warning the buyers about the exact trap they built.\n\n​But let’s be real—most companies don't have the engineering talent or compute to build their own intelligence layer from scratch. For 90% of businesses, trading institutional know-how for immediate efficiency gains isn't a mistake; it's a trade-off they’ve already accepted.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UsmanAnzaar",
+        "name": "Usman Anzaar Usmani",
+        "date": "2026-07-12",
+        "text": "@VaibhavSisinty @satyanadella knows there is a looming security tsunami around agentic workflows",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  }
+}

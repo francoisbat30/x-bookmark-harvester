@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:12.343Z",
+  "fetchedAt": "2026-07-13T07:07:27.787Z",
   "tweetId": "1967980105793507522",
   "post": {
     "url": "https://x.com/keilethh/status/1967980105793507522",
@@ -10,6 +11,12 @@
     },
     "date": "2025-09-16",
     "text": "These logos are available for purchase. https://t.co/5Qabrtayec",
+    "thread": [
+      {
+        "id": "1967980105793507522",
+        "text": "These logos are available for purchase. https://t.co/5Qabrtayec"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -29,11 +36,372 @@
       }
     ],
     "metrics": {
-      "likes": 1067,
-      "retweets": 39,
-      "replies": 35,
-      "views": 45185
+      "likes": 1056,
+      "retweets": 35,
+      "replies": 34,
+      "views": 45294
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "keilethh",
+        "name": "Keileth",
+        "date": "2025-09-16",
+        "text": "@claritydzns i found 1 and 3 on Unsplash and i created the other 2 with Midjourney.",
+        "likes": 6,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jaydwivedi_",
+        "name": "Jay Dwivedi",
+        "date": "2025-09-17",
+        "text": "@keilethh @dudufolio 👁️ 👄 👁️",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "claritydzns",
+        "name": "Clarity",
+        "date": "2025-09-16",
+        "text": "@keilethh Amazing work man! Where do you find these backgrounds?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_banjoko",
+        "name": "Banjoko | ui/ux designer | Full Stack developer",
+        "date": "2025-09-18",
+        "text": "@keilethh 👏👏",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ChromaFlowx",
+        "name": "Chroma Flow ®",
+        "date": "2025-09-17",
+        "text": "@keilethh @wizard_bz Really liked your work!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Hakamite",
+        "name": "Hakamite",
+        "date": "2025-09-17",
+        "text": "@keilethh top right being straight up the imperial japanese flag",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vojnvk",
+        "name": "voj",
+        "date": "2025-09-17",
+        "text": "@keilethh clean ash!!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dudufolio",
+        "name": "dudu",
+        "date": "2025-09-17",
+        "text": "@mazeincoding @JayDwivedi_ @keilethh 🥲",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dudufolio",
+        "name": "dudu",
+        "date": "2025-09-17",
+        "text": "@JayDwivedi_ @keilethh AYOOOOOO",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DarioPlitsch",
+        "name": "Djp",
+        "date": "2025-09-17",
+        "text": "@keilethh Ai generic shapes lol",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mazeincoding",
+        "name": "Maze",
+        "date": "2025-09-17",
+        "text": "@JayDwivedi_ @keilethh @dudufolio thought of tagging dudu too",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Nelvin_86ng",
+        "name": "Nelvin Ng — Logo Designer",
+        "date": "2025-09-17",
+        "text": "@keilethh That background choice makes the logo pop perfectly 👌",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "convatedesign",
+        "name": "Convate",
+        "date": "2025-09-17",
+        "text": "@keilethh These look great!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "whozae",
+        "name": "Whozae ✨️",
+        "date": "2025-09-17",
+        "text": "@keilethh $100 right now for the 4th one",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tarikulbranding",
+        "name": "Tarikul Islam",
+        "date": "2025-09-16",
+        "text": "@keilethh Amazing Work!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jahidshuvo525",
+        "name": "Zaid Shuvo",
+        "date": "2025-09-16",
+        "text": "@keilethh well done",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "edral_studio",
+        "name": "Gary Szászik — Edral Studio",
+        "date": "2025-09-16",
+        "text": "@keilethh Bottom right is sick! Getting Alien vibes 🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itsanwarraza",
+        "name": "Anwar Raza",
+        "date": "2025-09-16",
+        "text": "@keilethh its not just the logos also the way you represented them.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Emma32172990",
+        "name": "Emma Jones 🇺🇸",
+        "date": "2025-10-01",
+        "text": "@WebCraftByGary @keilethh With the animation effect, it is more realistic.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bizonstrategies",
+        "name": "Bizon",
+        "date": "2025-09-18",
+        "text": "@keilethh minimal design, but a look to remember👌",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MosaicDesigns06",
+        "name": "Mosaic Designs",
+        "date": "2025-09-18",
+        "text": "@keilethh Clean af🔥🎉",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Focotik",
+        "name": "FocoTik",
+        "date": "2025-09-18",
+        "text": "@keilethh Next-level design",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itschatto",
+        "name": "Chatto",
+        "date": "2025-09-18",
+        "text": "@keilethh Very clean and well designed ⚡️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LightslicerGP",
+        "name": "LightslicerGP",
+        "date": "2025-09-18",
+        "text": "@keilethh Wip3out type logos ngl, i fw it heavy",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Obinary_",
+        "name": "Obinary",
+        "date": "2025-09-18",
+        "text": "@keilethh @claritydzns What was the prompt?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dejsua_intrepid",
+        "name": "DejimanTheSuperhero",
+        "date": "2025-09-18",
+        "text": "@keilethh Really love the fourth one background. Lovley logos man",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mehdigreefhorst",
+        "name": "mehdi greefhorst",
+        "date": "2025-09-17",
+        "text": "@keilethh No thnx",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "disarto_max",
+        "name": "Maxim Kuznetsov",
+        "date": "2025-09-17",
+        "text": "@keilethh Love it!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mezarioHQ",
+        "name": "Mezario",
+        "date": "2025-09-17",
+        "text": "@keilethh Nice Great options for anyone looking to grab a logo.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ArthurDesignU",
+        "name": "Arthur Roumegoux UX",
+        "date": "2025-09-17",
+        "text": "@keilethh inspiring.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "albyantoniazzi",
+        "name": "Alberto Antoniazzi",
+        "date": "2025-09-17",
+        "text": "@keilethh $9 each?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Reddy2399",
+        "name": "RR",
+        "date": "2025-09-17",
+        "text": "@keilethh Wow, 26k people want to buy your 'art'. I bet it's not just the aesthetic, huh",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Luiso_AIM",
+        "name": "Luiso",
+        "date": "2025-09-17",
+        "text": "@keilethh Crazy backgrounds",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HavranekTm",
+        "name": "Tomas Havranek",
+        "date": "2025-09-17",
+        "text": "@keilethh Beautiful👌",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "neoneue",
+        "name": "Chad²",
+        "date": "2025-09-17",
+        "text": "@keilethh All of these are fantastic 🤌",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KulrajSabharwal",
+        "name": "Kulraj",
+        "date": "2025-09-17",
+        "text": "@keilethh buy? I juss took ss",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Varzer0",
+        "name": "LEO",
+        "date": "2025-09-17",
+        "text": "@keilethh Nice. What do you think about mine? https://t.co/Ff7XtEWWiU",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "claritydzns",
+        "name": "Clarity",
+        "date": "2025-09-16",
+        "text": "@keilethh Alright thanks for this man!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G0-rSTIXQAAc-v3.jpg",
+      "localFilename": "1967980105793507522_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G0-rTyhW8AApvSX.jpg",
+      "localFilename": "1967980105793507522_2.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G0-rUipXYAA-eJh.jpg",
+      "localFilename": "1967980105793507522_3.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G0-rVWtXkAAoIvh.jpg",
+      "localFilename": "1967980105793507522_4.jpg"
+    }
+  ]
 }

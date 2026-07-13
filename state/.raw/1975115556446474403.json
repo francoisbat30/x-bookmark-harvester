@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:00.118Z",
+  "fetchedAt": "2026-07-13T06:47:26.716Z",
   "tweetId": "1975115556446474403",
   "post": {
     "url": "https://x.com/pietrobaudin/status/1975115556446474403",
@@ -9,7 +10,17 @@
       "name": "Pietro Baudin"
     },
     "date": "2025-10-06",
-    "text": "how to use 60-30-10 rule in your designs https://t.co/PKupns5Moh",
+    "text": "how to use 60-30-10 rule in your designs https://t.co/PKupns5Moh\n\nThese fonts are included in my font pack! ( 60k Fonts )         \n\n‼️ Best of all, they are all free for commercial use.                      \n\nClick Here To Guarantee ↓ \nhttps://t.co/k3Gxt57hk0",
+    "thread": [
+      {
+        "id": "1975115556446474403",
+        "text": "how to use 60-30-10 rule in your designs https://t.co/PKupns5Moh"
+      },
+      {
+        "id": "1975115558660997166",
+        "text": "These fonts are included in my font pack! ( 60k Fonts )         \n\n‼️ Best of all, they are all free for commercial use.                      \n\nClick Here To Guarantee ↓ \nhttps://t.co/k3Gxt57hk0"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +28,54 @@
       }
     ],
     "metrics": {
-      "likes": 2656,
-      "retweets": 126,
+      "likes": 2641,
+      "retweets": 130,
       "replies": 5,
-      "views": 138661
+      "views": 138991
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "FBottom21899",
+        "name": "Figgle Bottom",
+        "date": "2025-10-08",
+        "text": "@pietrobaudin Am I missing something here",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NagiSupply",
+        "name": "Nagi Supply",
+        "date": "2025-10-07",
+        "text": "@pietrobaudin great advice!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nikdesign",
+        "name": "Nikhail Drakes",
+        "date": "2025-10-06",
+        "text": "@pietrobaudin Thanks for sharing this.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ChinwiOklm",
+        "name": "King Gold 👌",
+        "date": "2025-10-06",
+        "text": "@pietrobaudin ?????",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2kFIXJWoAAXgC9.jpg",
+      "localFilename": "1975115556446474403_1.jpg"
+    }
+  ]
 }

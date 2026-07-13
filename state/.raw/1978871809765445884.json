@@ -1,0 +1,64 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:14:19.472Z",
+  "tweetId": "1978871809765445884",
+  "post": {
+    "url": "https://x.com/rileybrown/status/1978871809765445884",
+    "author": {
+      "handle": "rileybrown",
+      "name": "Riley Brown"
+    },
+    "date": "2025-10-16",
+    "text": "Claude Just Released SKILLS\n\nYou can now create folders called \"Skills\" and upload them to Claude to give it specialized expertise for specific tasks.\n\nHere's what's important\n\n- Folders containing instructions, scripts, and resources that teach Claude how to do specific things better\n- Claude uses them automatically: When you're working, Claude scans your uploaded skills and loads the relevant ones without you doing anything\n- Pre-built skills available: Claude already has skills for creating Excel spreadsheets, PowerPoint presentations, Word docs, and PDFs\n- Make your own easily: Use the built-in \"skill-creator\" skill—Claude interviews you about your workflow and builds the skill folder for you\n- Skills stack together: Upload multiple skills and Claude figures out which ones to use and combines them when needed\n- Works across all Claude products: Same skill works in the web app, mobile, desktop, Claude Code, and API\n- All claude Paid plans get it\n- Skills can run code, so only upload skills from sources you trust\nTurn it on: Go to Settings to enable Skills, then start uploading\n\nMy interpretation: \n\nI think the Claude team has seen how many people have  used (and tried to use) Claude Code for non-coding tasks, specifically around \"creating a team of sub agents\". This seemed like a cool idea at first but I think alot of it was marketing.\n\nI think they realized calling them \"Skills\" is alot better.\n\nClaude is smart enough to use the right skills when needed. \n\nClaude is the AGENT, that can use skills when the time is right. \n\nThese \"Skills\", which are just folders with instructions... can execute code. This means you can give these skills access to your favorite API's. \n\nThis, I think, will create a market for buying and selling \"Skills\". \n\nI will be testing Claude Skills tomorrow on live stream.",
+    "thread": [
+      {
+        "id": "1978871809765445884",
+        "text": "Claude Just Released SKILLS\n\nYou can now create folders called \"Skills\" and upload them to Claude to give it specialized expertise for specific tasks.\n\nHere's what's important\n\n- Folders containing instructions, scripts, and resources that teach Claude how to do specific things better\n- Claude uses them automatically: When you're working, Claude scans your uploaded skills and loads the relevant ones without you doing anything\n- Pre-built skills available: Claude already has skills for creating Excel spreadsheets, PowerPoint presentations, Word docs, and PDFs\n- Make your own easily: Use the built-in \"skill-creator\" skill—Claude interviews you about your workflow and builds the skill folder for you\n- Skills stack together: Upload multiple skills and Claude figures out which ones to use and combines them when needed\n- Works across all Claude products: Same skill works in the web app, mobile, desktop, Claude Code, and API\n- All claude Paid plans get it\n- Skills can run code, so only upload skills from sources you trust\nTurn it on: Go to Settings to enable Skills, then start uploading\n\nMy interpretation: \n\nI think the Claude team has seen how many people have  used (and tried to use) Claude Code for non-coding tasks, specifically around \"creating a team of sub agents\". This seemed like a cool idea at first but I think alot of it was marketing.\n\nI think they realized calling them \"Skills\" is alot better.\n\nClaude is smart enough to use the right skills when needed. \n\nClaude is the AGENT, that can use skills when the time is right. \n\nThese \"Skills\", which are just folders with instructions... can execute code. This means you can give these skills access to your favorite API's. \n\nThis, I think, will create a market for buying and selling \"Skills\". \n\nI will be testing Claude Skills tomorrow on live stream."
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3ZdY4HXgAATaU0.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3ZdY4UW0AI02mK.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3ZdaO6WUAEmjha.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3ZdaoIXQAACy2h.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 2290,
+      "retweets": 249,
+      "replies": 56,
+      "views": 182559
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3ZdY4HXgAATaU0.jpg",
+      "localFilename": "1978871809765445884_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3ZdY4UW0AI02mK.jpg",
+      "localFilename": "1978871809765445884_2.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3ZdaO6WUAEmjha.jpg",
+      "localFilename": "1978871809765445884_3.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3ZdaoIXQAACy2h.jpg",
+      "localFilename": "1978871809765445884_4.jpg"
+    }
+  ]
+}

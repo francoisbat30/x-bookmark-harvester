@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:05.479Z",
+  "fetchedAt": "2026-07-13T06:46:30.741Z",
   "tweetId": "1971132173169328408",
   "post": {
     "url": "https://x.com/stevelauda_/status/1971132173169328408",
@@ -10,6 +11,12 @@
     },
     "date": "2025-09-25",
     "text": "Robot fleet interface.\n\nA client work with modified content due to confidentiality purposes. https://t.co/yPUeCRQlSS",
+    "thread": [
+      {
+        "id": "1971132173169328408",
+        "text": "Robot fleet interface.\n\nA client work with modified content due to confidentiality purposes. https://t.co/yPUeCRQlSS"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -20,8 +27,375 @@
       "likes": 367,
       "retweets": 8,
       "replies": 30,
-      "views": 23660
+      "views": 23676
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "viktorhofte",
+        "name": "Viktor Hofte",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ Mono font on the green numbers would go hard, pp supply mono or similar😍",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "atiq31416",
+        "name": "Atiqur Rahaman",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ Smart Execution",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ARConde7",
+        "name": "Conde ❤️‍🔥",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ Please let the modified content be the data.\nWe need a mecha.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "stevelauda_",
+        "name": "Steve Lauda",
+        "date": "2025-09-25",
+        "text": "@dom_strykowski Yessir hahaha",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_strykowski",
+        "name": "Dominik Strykowski",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ let me guess - robot fully made in Figma?\n\nlooks good man!",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FredWanders",
+        "name": "Fred Wanders",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ I was SO dissappointed when I read 'modified content'. \n\nI thought humanity was entiring it's Mech Era.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "stevelauda_",
+        "name": "Steve Lauda",
+        "date": "2025-09-26",
+        "text": "@its_nataniah Oh you play that game? Awesome!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "precious_adeiza",
+        "name": "Precious Adeiza",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ Fire 🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sakshamfifth",
+        "name": "Saksham Manchanda",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ want more of this on my feed steve. just amazing!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "richtabor",
+        "name": "Rich Tabor",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ +1 for monospaced font. v cool!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MohdDesignz",
+        "name": "Mohd",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ i just love how you use spacing and typography, i’ve learnt a lot from you",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ItsPeterDesign",
+        "name": "Peter Design",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ Nice, well done man!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DerouauxCarlo",
+        "name": "CARLO",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ I think it would be the coolest thing on earth to build robot interfaces",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pizzaboy",
+        "name": "Dan",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ Do it in black and cream pls thanks",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zafartalks",
+        "name": "Zafar",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ Nice. Seems like high level interactivity between iot, backend and frontend.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Design_weirdo",
+        "name": "Tee",
+        "date": "2025-09-25",
+        "text": "@fredwanders @stevelauda_ Lol I guess so",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FredWanders",
+        "name": "Fred Wanders",
+        "date": "2025-09-25",
+        "text": "@Design_weirdo @stevelauda_ I guess we'll have to wait for our AI overlords to take over first",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Design_weirdo",
+        "name": "Tee",
+        "date": "2025-09-25",
+        "text": "@fredwanders @stevelauda_ lol me too",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Design_weirdo",
+        "name": "Tee",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ Yoo this is sick!!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Shahtaj_b",
+        "name": "SHAHTAJ",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ You're really great at what you do 👏🏻🔥 awesome job!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mriduljoshi_",
+        "name": "Mridul Joshi",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ Looks dope 🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "madebyvishesh",
+        "name": "vishesh",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ looks awesome",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dom_strykowski",
+        "name": "Dominik Strykowski",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ if I may ask - how long does it take you to create such a detailed illustration?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "viktorhofte",
+        "name": "Viktor Hofte",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ 🫶",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "stevelauda_",
+        "name": "Steve Lauda",
+        "date": "2025-09-25",
+        "text": "@viktorhofte Love the suggestion! Thanks, my man!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iOSmumo",
+        "name": "Mumo iOS Designer",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ bro is designing for Mars",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "maybepratikk",
+        "name": "Pratik",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ damn nice!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "stevelauda_",
+        "name": "Steve Lauda",
+        "date": "2025-09-25",
+        "text": "@BreejeAnadkat Thanks broski!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BreejeAnadkat",
+        "name": "Breeje Anadkat",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ Looking dope",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "stevelauda_",
+        "name": "Steve Lauda",
+        "date": "2025-09-25",
+        "text": "@fuadnafiz98 Because there's no absolute rule to make all radius to be the same across everything in an interface",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "fuadnafiz98",
+        "name": "Nafiz",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ Great work! \n1 question, why the card radius and the button radius are different(it seems in my eye)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "its_nataniah",
+        "name": "nataniah",
+        "date": "2025-09-26",
+        "text": "@stevelauda_ this is literally so sick. mechwarrior irl",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "uiuxabid",
+        "name": "Abid I.",
+        "date": "2025-09-26",
+        "text": "@stevelauda_ Great",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Justo_LLC",
+        "name": "𝐉𝐮𝐬𝐭𝐨 𝐂𝐨𝐧𝐬𝐮𝐥𝐭𝐢𝐧𝐠",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ Stunning!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alexandroff_h",
+        "name": "Harry ✹ Web3 & Fintech Design 🇺🇦",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ I imagine how big the battery should be",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dustin_zeb",
+        "name": "Dustin",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ It's fascinating to see how robot fleet interfaces are evolving. Confidentiality is key, but I’d love to learn more about the innovative features you’re implementing.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CelayaVentures",
+        "name": "Patrick Celaya",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ So sick dude. You're my favorite designer on X right now.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Vedantdzn",
+        "name": "Vedant Lad",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ Love how clean it is bro",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "stevelauda_",
+        "name": "Steve Lauda",
+        "date": "2025-09-25",
+        "text": "@dom_strykowski Hours, 2-3 hours",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "itsshayanali",
+        "name": "Shayan Ali",
+        "date": "2025-09-25",
+        "text": "@stevelauda_ @dom_strykowski The dedication is insane!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G1reHjcasAAMO8B.png",
+      "localFilename": "1971132173169328408_1.png"
+    }
+  ]
 }

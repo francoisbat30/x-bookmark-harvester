@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:35.048Z",
+  "tweetId": "1982790369373827460",
+  "post": {
+    "url": "https://x.com/wizofecom/status/1982790369373827460",
+    "author": {
+      "handle": "wizofecom",
+      "name": "Mubbu"
+    },
+    "date": "2025-10-27",
+    "text": "A masterclass on how to build an authoritative personal brand with AI (Claude &amp; ChatGPT): https://t.co/xakNobixyn",
+    "thread": [
+      {
+        "id": "1982790369373827460",
+        "text": "A masterclass on how to build an authoritative personal brand with AI (Claude &amp; ChatGPT): https://t.co/xakNobixyn"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G4RICMTXcAAVdiw.png"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G4RIC4vXEAAyqwx.png"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G4RIDfvXcAAZ31d.png"
+      }
+    ],
+    "metrics": {
+      "likes": 260,
+      "retweets": 12,
+      "replies": 13,
+      "views": 23071
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G4RICMTXcAAVdiw.png",
+      "localFilename": "1982790369373827460_1.png"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G4RIC4vXEAAyqwx.png",
+      "localFilename": "1982790369373827460_2.png"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G4RIDfvXcAAZ31d.png",
+      "localFilename": "1982790369373827460_3.png"
+    }
+  ]
+}

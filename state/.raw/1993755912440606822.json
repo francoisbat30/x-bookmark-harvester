@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:43.352Z",
+  "fetchedAt": "2026-07-13T06:50:29.601Z",
   "tweetId": "1993755912440606822",
   "post": {
     "url": "https://x.com/GeminiApp/status/1993755912440606822",
@@ -10,13 +11,407 @@
     },
     "date": "2025-11-26",
     "text": "Bookmark this prompt for when you're looking through old family photos tomorrow: https://t.co/80OL9h879K",
+    "thread": [
+      {
+        "id": "1993755912440606822",
+        "text": "Bookmark this prompt for when you're looking through old family photos tomorrow: https://t.co/80OL9h879K"
+      }
+    ],
     "media": [],
     "metrics": {
-      "likes": 4680,
-      "retweets": 377,
+      "likes": 4666,
+      "retweets": 383,
       "replies": 41,
-      "views": 582535
+      "views": 584237
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "inqusit",
+        "name": "Ashish",
+        "date": "2025-11-26",
+        "text": "@GeminiApp Honestly features of faces are changed a little. Its like loosing the real person for better resolution. For someone restoring this old photo accuracy would mean a world to him as much as clarity and denoising.",
+        "likes": 23,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DataExec",
+        "name": "Data Exec",
+        "date": "2025-11-26",
+        "text": "@GeminiApp I am more of a fan of photo restoration. In case you need it, I have added the prompt for it.\nhttps://t.co/xKTerqOx0G",
+        "likes": 18,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "spadafordia",
+        "name": "spadafordi",
+        "date": "2025-11-27",
+        "text": "@GeminiApp Yeah, that'd be great except Nano Banana Pro constantly COMPLETELY IGNORES reference images in projects and randomly makes up images. No matter how much you tell it to otherwise.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "markvalorian",
+        "name": "Mark Valorian",
+        "date": "2025-11-26",
+        "text": "@GeminiApp For an amazing tool, this is a horrible use case.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-11-27",
+        "text": "@spadafordia Hi there, thanks for reporting Our team is aware of this issue and is working on a fix. We appreciate your patience.",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-11-27",
+        "text": "@eddie_yakubov The ultimate Thanksgiving party trick.  Let us know if you try it!",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Splendid_0823",
+        "name": "ᗩᕼᘻᘿᕲ",
+        "date": "2025-11-26",
+        "text": "@GeminiApp This actually reimagines the face features, making it feel like looking at a different person. Therefore, I prefer the old version.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eddie_yakubov",
+        "name": "Eddie",
+        "date": "2025-11-26",
+        "text": "@GeminiApp love this idea!! wow",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tao_nie23174",
+        "name": "Leo",
+        "date": "2025-11-28",
+        "text": "@GeminiApp so cool !!!! nano banana is so crazy.  try some nano banana prompt in https://t.co/nnaF0Kzue1    everything excited 😄😄😄😄😃😊👋🧐☺️!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AINotSoSmart",
+        "name": "Harvansh Chaudhary",
+        "date": "2025-11-27",
+        "text": "I love Nano Banana so much, and I had to take this one step further.\n\nI ran my own set of prompts for identity-lock logic twice - first to generate the initial person-alone-on-sofa scene, and again for the final hugging portrait. Then I used a video model that generates the 5-second Reunion Moment. It handles the full cinematic transition from the loved one sitting alone, to me moving into the frame, sitting down, and ending in a perfect hug.\n🥹🥹",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nunovalinhas",
+        "name": "Nuno Valinhas",
+        "date": "2025-11-27",
+        "text": "@GeminiApp https://t.co/GE5NhUTPN4",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FollowAurelius",
+        "name": "Ayush 🦞",
+        "date": "2025-11-26",
+        "text": "@GeminiApp Nanobanana continues to amaze me \n\nhttps://t.co/W8NCxzXJWd",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Creatify_AI",
+        "name": "Creatify AI",
+        "date": "2025-11-26",
+        "text": "@GeminiApp Really good prompt and output",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "twmk",
+        "name": "Marcel Kaz",
+        "date": "2025-11-26",
+        "text": "@GeminiApp Cool but not the same original face",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "23andreo23",
+        "name": "andreo",
+        "date": "2025-11-26",
+        "text": "@GeminiApp That’s why we love Google",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "keyofknowledgeX",
+        "name": "Key of knowledge",
+        "date": "2025-12-02",
+        "text": "@GeminiApp https://t.co/aRBywlXt3n",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-11-28",
+        "text": "@TheLynxLore Hi there. Thanks for sending this over. We're always working to improve your experience with Gemini, so we'll be sure to pass this along to the right people.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jasp",
+        "name": "Raúl Ordóñez",
+        "date": "2025-11-27",
+        "text": "@GeminiApp ...and even without that prompt... https://t.co/eCr1HzkvHf",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Nitinkaithvar",
+        "name": "Nitin Kaithvar",
+        "date": "2025-11-27",
+        "text": "@GeminiApp The 99% fidelity recreation is mindblowing",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Nitinkaithvar",
+        "name": "Nitin Kaithvar",
+        "date": "2025-11-27",
+        "text": "@GeminiApp AI making photo memories better",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CoutinzM",
+        "name": "CoutinzM 🇵🇹🇵🇹",
+        "date": "2025-11-27",
+        "text": "@GeminiApp could you please add folders inside your gemini app; my chats are a mess, i cant organize myself! pls gemini is too good",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MrBrondorDeFi",
+        "name": "Mr Brondor",
+        "date": "2025-11-27",
+        "text": "@GeminiApp Chat, is that sorcery right",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "drewsnx",
+        "name": "⎝ ༺drew༻",
+        "date": "2025-11-27",
+        "text": "@GeminiApp \"Keeping the same original face\" but inventing eyes we couldn't see in the original.\n\nHis shirt buttons have gone, the jacket button is in a different place, his jacket zip is different, her hand is different behind his body, she has added earrings, a hem and it invented the desk",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mickunx",
+        "name": "逢田ナッキン@楠木ともり8.20仙台参戦",
+        "date": "2025-11-27",
+        "text": "@GeminiApp 通知オンにして忘れずに！本当に大事ですね！",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Alex11aSzn",
+        "name": "𝕏 💙𝔸𝕝𝕖𝕩𝕚𝕒❤️ 𝕏",
+        "date": "2025-11-27",
+        "text": "@GeminiApp Restoration doesn't work",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "netta32b",
+        "name": "のっぴー",
+        "date": "2025-11-27",
+        "text": "@GeminiApp 家族の写真は思い出ですよね🔍 どんな話があるのかな？",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SemperLuxFortis",
+        "name": "Katana Aequitatis",
+        "date": "2025-11-27",
+        "text": "@GeminiApp So cool. Nano Banana Pro has to be the most amazing AI tool release this year, easily.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "euroshub",
+        "name": "EurosHub",
+        "date": "2025-11-27",
+        "text": "@GeminiApp Truly the power of modern tech.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "javielito_24",
+        "name": "DELO",
+        "date": "2025-11-27",
+        "text": "@GeminiApp No se parecen en NADA!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wiiiimm",
+        "name": "wiiiimm",
+        "date": "2025-11-27",
+        "text": "@GeminiApp So is it still you in the new photo, or just an ultra-realistic recreation of you from a bunch of magical dust?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "omauser2x",
+        "name": "Sam",
+        "date": "2025-11-27",
+        "text": "@GeminiApp You got it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KenStevensson",
+        "name": "Ken | Book Author \"Deception\"",
+        "date": "2025-11-27",
+        "text": "@GeminiApp Why they converted a newly taken photo to an old style?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "inqusit",
+        "name": "Ashish",
+        "date": "2025-11-27",
+        "text": "@Scotty_McQ @GeminiApp What they are trying to achieve is good but diffusion based models are the problem I guess",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jimmygunawanapp",
+        "name": "BLENDER SUSHI 🫶 X - 24/7 Blenderian",
+        "date": "2025-11-27",
+        "text": "@GeminiApp I want to do the opposite making it retro and old",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JStephenLittle",
+        "name": "J Stephen Little Jr",
+        "date": "2025-11-26",
+        "text": "These tools are awesome for fun & casual use of image \"restoration,\" but not for evidence, journalism, or genealogy. (Autoregressive models such as Nano Banana and GPT-4o Imagine Generation don't actually \"restore\" or even modify an image; they generate new images, whole cloth, based on the seed image, the user prompt, and their training data.)\n\nProfessional genealogists have guidance on this use:\n1) Always Label,\n2) Cite Original, and\n3) Use for Illustration, not Evidence. \n\nhttps://t.co/MSXUJHrQVt",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Scotty_McQ",
+        "name": "Scott 🐀",
+        "date": "2025-11-26",
+        "text": "@inqusit @GeminiApp Yeah it definitely looks like an AI person now with the face changes",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ticweb3",
+        "name": "Tic",
+        "date": "2025-11-26",
+        "text": "@GeminiApp absolutely astonishing",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mickfrommackay",
+        "name": "Mick Jones",
+        "date": "2025-11-26",
+        "text": "@GeminiApp I do this for a living. This example is about 90% of the job, you would spend another hour fixing all the little things wrong with it. Banana is the best so far and I’m sure this time next year it will be at 99%.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JumpAround000",
+        "name": "House Of Pain ☘️",
+        "date": "2025-11-26",
+        "text": "@GeminiApp This is crap",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VergaraLautaro",
+        "name": "Lautaro Vergara 🇺🇦",
+        "date": "2025-11-26",
+        "text": "@GeminiApp \"no alteration...\" 😂😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "meeaacc",
+        "name": "Whyyyohwhyyy",
+        "date": "2025-11-26",
+        "text": "@GeminiApp NGL Gemini 3 so far for me has been a much worse experience than Gemini 2.5.\n\nIt is constantly giving me incorrect information and not remembering basic context from short chats.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "picx__studio",
+        "name": "Picx Studio",
+        "date": "2025-11-26",
+        "text": "@GeminiApp This gives absolutely I love",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Bigorachannel",
+        "name": "Bigora Official",
+        "date": "2025-11-26",
+        "text": "@GeminiApp https://t.co/JrOHaZHNBq",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
   }
 }

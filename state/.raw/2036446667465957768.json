@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:52.072Z",
+  "tweetId": "2036446667465957768",
+  "post": {
+    "url": "https://x.com/ElevenLabsDevs/status/2036446667465957768",
+    "author": {
+      "handle": "ElevenLabsDevs",
+      "name": "ElevenLabs Developers"
+    },
+    "date": "2026-03-24",
+    "text": "Developers, this one’s for you.\n\nIntroducing Scribe v2 Realtime — the new benchmark for live Speech-to-Text.\n\nBuild real-time voice assistants, meeting tools, and customer agents that sound human — and understand context instantly.",
+    "thread": [
+      {
+        "id": "2036446667465957768",
+        "text": "Developers, this one’s for you.\n\nIntroducing Scribe v2 Realtime — the new benchmark for live Speech-to-Text.\n\nBuild real-time voice assistants, meeting tools, and customer agents that sound human — and understand context instantly."
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 999,
+      "retweets": 89,
+      "replies": 0,
+      "views": 8515815
+    },
+    "comments": []
+  }
+}

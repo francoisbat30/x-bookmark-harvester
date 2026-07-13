@@ -8,8 +8,8 @@ export interface DownloadedImage {
   localFilename: string;
 }
 
-/** Max bytes we'll ever commit to disk for a single image. */
-const MAX_IMAGE_BYTES = 20 * 1024 * 1024;
+/** Max bytes we'll ever commit to disk for a single downloaded file. */
+const MAX_FILE_BYTES = 20 * 1024 * 1024;
 
 /**
  * Hosts we trust for media downloads. The URL usually comes from the X API
@@ -23,6 +23,15 @@ const ALLOWED_MEDIA_HOSTS = new Set([
   "abs.twimg.com",
   "ton.twimg.com",
 ]);
+
+export interface DownloadOptions {
+  /**
+   * Télécharger aussi les fichiers vidéo (mp4, ≤20 MB). Défaut false : on
+   * archive le poster (image de couverture) + on garde le lien distant —
+   * le vault reste léger, l'essentiel visuel est préservé.
+   */
+  includeVideoFiles?: boolean;
+}
 
 function assetsDir(): string {
   return path.join(resolveTargetDir(getVaultConfig()), "assets");
@@ -48,11 +57,10 @@ function extensionFor(url: string, contentType?: string): string {
         return f === "jpeg" ? "jpg" : f;
       }
     }
-    const pathMatch = u.pathname.match(/\.(jpg|jpeg|png|webp|gif)$/i);
+    const pathMatch = u.pathname.match(/\.(jpg|jpeg|png|webp|gif|mp4)$/i);
     if (pathMatch) {
-      return pathMatch[1].toLowerCase() === "jpeg"
-        ? "jpg"
-        : pathMatch[1].toLowerCase();
+      const ext = pathMatch[1].toLowerCase();
+      return ext === "jpeg" ? "jpg" : ext;
     }
   } catch {
     // fall through
@@ -61,6 +69,7 @@ function extensionFor(url: string, contentType?: string): string {
     if (contentType.includes("png")) return "png";
     if (contentType.includes("webp")) return "webp";
     if (contentType.includes("gif")) return "gif";
+    if (contentType.includes("mp4")) return "mp4";
     if (contentType.includes("jpeg") || contentType.includes("jpg"))
       return "jpg";
   }
@@ -82,17 +91,17 @@ async function downloadOne(
       return { ok: false, error: `HTTP ${res.status}` };
     }
     const declared = Number(res.headers.get("content-length") ?? "0");
-    if (declared > MAX_IMAGE_BYTES) {
+    if (declared > MAX_FILE_BYTES) {
       return {
         ok: false,
-        error: `declared size ${declared}B exceeds ${MAX_IMAGE_BYTES}B`,
+        error: `declared size ${declared}B exceeds ${MAX_FILE_BYTES}B`,
       };
     }
     const buf = Buffer.from(await res.arrayBuffer());
-    if (buf.length > MAX_IMAGE_BYTES) {
+    if (buf.length > MAX_FILE_BYTES) {
       return {
         ok: false,
-        error: `actual size ${buf.length}B exceeds ${MAX_IMAGE_BYTES}B`,
+        error: `actual size ${buf.length}B exceeds ${MAX_FILE_BYTES}B`,
       };
     }
     await fs.writeFile(targetPath, buf);
@@ -104,33 +113,71 @@ async function downloadOne(
 
 const DOWNLOAD_CONCURRENCY = 3;
 
+interface DownloadTask {
+  url: string;
+  filename: string;
+}
+
+/**
+ * Construit la liste des fichiers à rapatrier pour un post :
+ *   image        → le fichier lui-même            <id>_<n>.<ext>
+ *   vidéo / gif  → son poster (preview)           <id>_<n>_poster.<ext>
+ *                  + le mp4 si includeVideoFiles  <id>_<n>.mp4
+ * L'index n suit la position dans post.media (stable entre re-runs).
+ */
+function buildTasks(
+  tweetId: string,
+  media: PostMedia[],
+  options: DownloadOptions,
+): DownloadTask[] {
+  const tasks: DownloadTask[] = [];
+  media.forEach((m, i) => {
+    const n = i + 1;
+    if (m.type === "image") {
+      if (m.url) {
+        tasks.push({ url: m.url, filename: `${tweetId}_${n}.${extensionFor(m.url)}` });
+      }
+      return;
+    }
+    if (m.posterUrl) {
+      tasks.push({
+        url: m.posterUrl,
+        filename: `${tweetId}_${n}_poster.${extensionFor(m.posterUrl)}`,
+      });
+    }
+    if (options.includeVideoFiles && m.url) {
+      tasks.push({ url: m.url, filename: `${tweetId}_${n}.mp4` });
+    }
+  });
+  return tasks;
+}
+
 export async function downloadImages(
   tweetId: string,
   media: PostMedia[],
+  options: DownloadOptions = {},
 ): Promise<DownloadedImage[]> {
-  const images = media.filter((m) => m.type === "image" && m.url);
-  if (images.length === 0) return [];
+  const wanted = buildTasks(tweetId, media, options);
+  if (wanted.length === 0) return [];
 
   const dir = assetsDir();
   await fs.mkdir(dir, { recursive: true });
 
-  const tasks = images.map((m, i) => async () => {
-    const ext = extensionFor(m.url);
-    const filename = `${tweetId}_${i + 1}.${ext}`;
-    const abs = path.join(dir, filename);
+  const tasks = wanted.map((w) => async () => {
+    const abs = path.join(dir, w.filename);
 
     try {
       await fs.access(abs);
-      return { remoteUrl: m.url, localFilename: filename };
+      return { remoteUrl: w.url, localFilename: w.filename };
     } catch {
       // not yet downloaded
     }
 
-    const outcome = await downloadOne(m.url, abs);
+    const outcome = await downloadOne(w.url, abs);
     if (outcome.ok) {
-      return { remoteUrl: m.url, localFilename: filename };
+      return { remoteUrl: w.url, localFilename: w.filename };
     }
-    console.warn(`[media] failed to download ${m.url}: ${outcome.error}`);
+    console.warn(`[media] failed to download ${w.url}: ${outcome.error}`);
     return null;
   });
 

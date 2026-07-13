@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:25.611Z",
+  "tweetId": "2041933843494793238",
+  "post": {
+    "url": "https://x.com/replicate/status/2041933843494793238",
+    "author": {
+      "handle": "replicate",
+      "name": "Replicate"
+    },
+    "date": "2026-04-08",
+    "text": "Seedance 2.0 is now on Replicate!\n\nAdd up to 9 reference images, 3 reference videos, and 3 reference audio files to create cinematic masterpieces.\n\nBusiness and Enterprise accounts can start generating today.  in 150+ countries (US not included). https://t.co/P38l8m4cOb",
+    "thread": [
+      {
+        "id": "2041933843494793238",
+        "text": "Seedance 2.0 is now on Replicate!\n\nAdd up to 9 reference images, 3 reference videos, and 3 reference audio files to create cinematic masterpieces.\n\nBusiness and Enterprise accounts can start generating today.  in 150+ countries (US not included). https://t.co/P38l8m4cOb"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2041933791938408454/vid/avc1/1280x720/nskWYypRIwS9qBZB.mp4?tag=14",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2041933791938408454/img/H5mjDAYaB7hbwC2j.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 334,
+      "retweets": 29,
+      "replies": 27,
+      "views": 34379
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2041933791938408454/img/H5mjDAYaB7hbwC2j.jpg",
+      "localFilename": "2041933843494793238_1_poster.jpg"
+    }
+  ]
+}

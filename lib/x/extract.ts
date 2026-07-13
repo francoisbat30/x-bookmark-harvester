@@ -4,9 +4,9 @@
  * PRIORITY (documented contract):
  *   1. PRIMARY sources, tried in order:
  *        - "mcp"  — official X MCP server, only when explicitly enabled
- *                   (ctx.mcp?.enabled). Its edge over the direct API is
- *                   full-archive conversation search (older posts). Off by
- *                   default; see lib/x/mcp-source.ts.
+ *                   (ctx.mcp?.enabled). Sondé le 2026-07-12 : wrapper des
+ *                   mêmes endpoints v2 (sans media.fields) → on n'investit
+ *                   pas, le seam reste par prudence. Off by default.
  *        - "xapi" — direct X API v2 (the proven default).
  *   2. FALLBACK: "grok" — used when NO primary produced a *complete* post,
  *      i.e. the primary threw, or returned an incomplete post (missing text /
@@ -15,9 +15,9 @@
  *
  * "Complete" = has text AND author handle AND (no missing comments). Missing
  * comments is detected as detectStaleComments(): the post advertises replies
- * (metrics.replies > 0) but none were extracted — that only happens for posts
- * outside the X recent-search window, exactly where Grok helps. A post with
- * genuinely zero replies is complete and never triggers Grok.
+ * (metrics.replies > 0) but none were extracted. Depuis le passage à
+ * /search/all (pay-per-use), ce cas devient rare — le fallback reste un filet
+ * de sécurité (post supprimé/protégé, panne API).
  *
  * COST: sync only runs this for tweets not already cached (hasCache), so the
  * Grok fallback is paid at most once per tweet, never on every sync.
@@ -38,6 +38,11 @@ export interface ExtractContext {
   grokApiKey?: string;
   grokModel?: string;
   mcp?: McpSourceConfig;
+  /**
+   * Profondeur de recherche (mode léger du triage : 0/0 = lookup seul,
+   * pas de recherche thread ni commentaires — ~$0.005 le post).
+   */
+  searchDepth?: { commentPages: number; threadPages: number };
 }
 
 export interface ExtractResult {
@@ -46,6 +51,12 @@ export interface ExtractResult {
   source: SourceName;
   /** Sources consulted, in order — for diagnostics/logging. */
   trace: SourceName[];
+  /**
+   * Non-fatal source failures (a primary threw, the Grok fallback failed…).
+   * Surfaced by callers in their summary instead of dying in console.warn —
+   * indispensable pour un sync headless (routine du lundi, relais Telegram).
+   */
+  warnings: string[];
 }
 
 export interface PostSource {
@@ -108,7 +119,15 @@ const xapiSource: PostSource = {
     if (!ctx.bearerToken) {
       throw new Error("xapi source requires a bearerToken");
     }
-    return extractPostWithXApi(id, { bearerToken: ctx.bearerToken });
+    return extractPostWithXApi(id, {
+      bearerToken: ctx.bearerToken,
+      ...(ctx.searchDepth
+        ? {
+            maxCommentPages: ctx.searchDepth.commentPages,
+            maxThreadPages: ctx.searchDepth.threadPages,
+          }
+        : {}),
+    });
   },
 };
 
@@ -127,6 +146,7 @@ export async function extractPost(
   ctx: ExtractContext,
 ): Promise<ExtractResult> {
   const trace: SourceName[] = [];
+  const warnings: string[] = [];
   let base: { post: PostExtraction; source: SourceName } | null = null;
 
   for (const src of buildPrimarySources(ctx)) {
@@ -137,14 +157,15 @@ export async function extractPost(
         base = { post, source: src.name };
         // Complete → done. Incomplete (missing comments) → keep as base and
         // let Grok fill the gaps below.
-        if (isComplete(post)) return { post, source: src.name, trace };
+        if (isComplete(post)) return { post, source: src.name, trace, warnings };
         break;
       }
       // No usable text/author → treat as a miss, try the next primary.
+      warnings.push(`source "${src.name}" returned no usable text/author`);
     } catch (e) {
-      console.warn(
-        `[extract] source "${src.name}" failed for ${id}: ${e instanceof Error ? e.message : String(e)}`,
-      );
+      const msg = `source "${src.name}" failed: ${e instanceof Error ? e.message : String(e)}`;
+      warnings.push(msg);
+      console.warn(`[extract] ${msg} (${id})`);
     }
   }
 
@@ -158,7 +179,7 @@ export async function extractPost(
       });
       if (hasText(grokPost)) {
         if (!base) {
-          return { post: grokPost, source: "grok", trace };
+          return { post: grokPost, source: "grok", trace, warnings };
         }
         // Keep the primary as the base (more reliable metrics/media) and fill
         // the gap that triggered the fallback: comments, plus media if absent.
@@ -167,16 +188,19 @@ export async function extractPost(
           comments: mergeComments(base.post.comments, grokPost.comments),
           media: base.post.media.length ? base.post.media : grokPost.media,
         };
-        return { post: merged, source: base.source, trace };
+        return { post: merged, source: base.source, trace, warnings };
       }
-    } catch (e) {
-      console.warn(
-        `[extract] grok fallback failed for ${id}: ${e instanceof Error ? e.message : String(e)}`,
+      warnings.push(
+        `grok fallback returned no usable text${grokPost.text?.startsWith("ERROR:") ? ` (${grokPost.text.slice(0, 120)})` : ""}`,
       );
+    } catch (e) {
+      const msg = `grok fallback failed: ${e instanceof Error ? e.message : String(e)}`;
+      warnings.push(msg);
+      console.warn(`[extract] ${msg} (${id})`);
     }
   }
 
-  if (base) return { post: base.post, source: base.source, trace };
+  if (base) return { post: base.post, source: base.source, trace, warnings };
   throw new Error(
     `All sources failed for tweet ${id} (tried: ${trace.join(", ") || "none"})`,
   );

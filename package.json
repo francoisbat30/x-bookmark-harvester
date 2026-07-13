@@ -20,6 +20,7 @@
     "skill:enrich:list": "tsx --env-file=.env.local scripts/skills/enrich-list.ts",
     "skill:enrich:write": "tsx --env-file=.env.local scripts/skills/enrich-write.ts",
     "skill:sync": "tsx --env-file=.env.local scripts/skills/sync.ts",
+    "skill:backfill": "tsx --env-file=.env.local scripts/skills/backfill.ts",
     "skill:report": "tsx --env-file=.env.local scripts/skills/report.ts",
     "skill:mcp-probe": "tsx --env-file=.env.local scripts/skills/mcp-probe.ts"
   },

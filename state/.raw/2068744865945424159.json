@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-06-30T10:00:21.388Z",
+  "fetchedAt": "2026-07-13T07:09:36.592Z",
   "tweetId": "2068744865945424159",
   "post": {
     "url": "https://x.com/SeterMD/status/2068744865945424159",
@@ -9,38 +10,901 @@
       "name": "Seter"
     },
     "date": "2026-06-21",
-    "text": "You can animate pixel art in Spine2D.\nTested myself today. It's pretty cool. I am super pumped about this!\nArt by my buddy @m3nsha \n#madewithspine https://t.co/rIDDlkyt2Q",
+    "text": "You can animate pixel art in Spine2D.\nTested myself today. It's pretty cool. I am super pumped about this!\nArt by my buddy @m3nsha \n#madewithspine https://t.co/rIDDlkyt2Q\n\n@m3nsha thanks to this person\nhttps://t.co/z77CtGGiDl",
+    "thread": [
+      {
+        "id": "2068744865945424159",
+        "text": "You can animate pixel art in Spine2D.\nTested myself today. It's pretty cool. I am super pumped about this!\nArt by my buddy @m3nsha \n#madewithspine https://t.co/rIDDlkyt2Q"
+      },
+      {
+        "id": "2068745050197012694",
+        "text": "@m3nsha thanks to this person\nhttps://t.co/z77CtGGiDl"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/2068743409418817536/vid/avc1/1920x1080/ZpyNBa2QeJIketuo.mp4"
+        "url": "https://video.twimg.com/amplify_video/2068743409418817536/vid/avc1/1920x1080/ZpyNBa2QeJIketuo.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2068743409418817536/img/P3Qnab8kJKhuKNlN.jpg"
       }
     ],
     "metrics": {
-      "likes": 10223,
-      "retweets": 585,
+      "likes": 10206,
+      "retweets": 584,
       "replies": 82,
-      "views": 529380
+      "views": 537275
     },
     "comments": [
       {
-        "handle": "Newgrounds88",
-        "name": "Salomon",
-        "date": "2026-06-27",
-        "text": "@SeterMD @m3nsha That looks surprisingly clean, pixel art animation in Spine is such a game changer."
+        "handle": "wyerframeZ",
+        "name": "wyerframeZ",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha woah this is awesome",
+        "likes": 22,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SeterMD",
+        "name": "Seter",
+        "date": "2026-06-21",
+        "text": "@the08games @m3nsha Spine is mainly used in games and with game engines, i am sure you can.❤️",
+        "likes": 11,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "UndreamedPanic",
+        "name": "UndreamedPanic",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha Is this like a shader or resolution of the project really low? Super cool to see! I do lots of pixel and use spine but never thought to combine them, been using PixelOver for my 2d pixel rigs",
+        "likes": 9,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SeterMD",
+        "name": "Seter",
+        "date": "2026-06-21",
+        "text": "@UndreamedPanic @m3nsha just turned on pixel grid, resolution is super tiny and it moved everything pixel by pixel.",
+        "likes": 6,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SeterMD",
+        "name": "Seter",
+        "date": "2026-06-21",
+        "text": "@REDO_99 @m3nsha Yes it is native. I don't really do pixel animations. I was just trying out this function. It works the same way as normal art rigging and animation just makes object move by pixels, not smoothed out like normal high res layer. Definitely needs to do research on their forums.",
+        "likes": 6,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zjdelicious",
+        "name": "█████████",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha :0 I suck at animation, this would be so useful",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "REDO_99",
+        "name": "Rpaiva",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha I don't have experience with Spine2D. I do my animations on Aseprite. Could you help me understand some things? thank you!\n\nIs this a native function of Spine2D?\n\nIs it pixel perfect? I mean, no mixels?\n\nCan I animate and export as a spritesheet?",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SeterMD",
+        "name": "Seter",
+        "date": "2026-06-21",
+        "text": "@skullbrow @DanFessler @m3nsha yeah, there aren't many tutorials but there are some channels like (Armanimation, esoteric software, anipalooza and yuphi) there are some spine2d courses on Coloso like my friend's Vrihead.",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Xavier_Gd",
+        "name": "Javier Guerrero 🦉",
+        "date": "2026-06-22",
+        "text": "@SeterMD As an fbf animator, I gotta say, the pixels don't break as much as I thought they would.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Xavier_Gd",
+        "name": "Javier Guerrero 🦉",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha huh! interesting 🤔✨",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "beLLTeOFC",
+        "name": "beLLTe | 2D Animator",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha particularmente tô estudando recentemente por conta do meu trabalho externo e entendo perfeitamente a alegria de aprender isso kkkkk é muito legal",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kurono_studios",
+        "name": "▰▰▰ SAM L. KURONO ▰▰▰",
+        "date": "2026-06-21",
+        "text": "@pawel_developer @SeterMD @m3nsha That's good. Unfortunately the integrity of the pixels doesn't remain when they move... I guess nothing beats animating it properly.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MomoiroKohi",
+        "name": "【Momoiro Kohi💀👾】Live2D commissions Q3/Q4 2026",
+        "date": "2026-06-23",
+        "text": "@SeterMD What the hell\nhow does this work",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HentAudio",
+        "name": "HentAudio 🇺🇦 🟢COMMS OPEN🟢",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha This is crazy, damn",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FyreVT",
+        "name": "Fyre 🐱🔥",
+        "date": "2026-06-21",
+        "text": "@SeterMD this is so cracked!! what I’d give to be able to do this in live2d",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "skullbrow",
+        "name": "Dayan Barros",
+        "date": "2026-06-21",
+        "text": "@SeterMD @DanFessler @m3nsha The problem with spine it’s the learning curve is steep, and I really want to learn. Besides, I don't even know if there's a course or anything that teaches it.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pawel_developer",
+        "name": "Paweł Jarosz 🔜 Gamescom",
+        "date": "2026-06-21",
+        "text": "@SeterMD @DanFessler @m3nsha Looks so good! 😍",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "QuelmNossfe",
+        "name": "Quelm Nossfe",
+        "date": "2026-06-21",
+        "text": "@REDO_99 @SeterMD @m3nsha It's pixel perfect, I don't know if you can export spritesheets, I think Spine doesn't export that, but you can import the animation loigic and skeleton via runtime, and maintain the pixel grid via engine.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "a_apanasik",
+        "name": "Andrei Apanasik",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha Feels kinda strange. I'm planing to try it for platformer, but not sure if it worth with weapons and armor attachments.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SeterMD",
+        "name": "Seter",
+        "date": "2026-06-21",
+        "text": "@WFN_Art @m3nsha 😘",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
       },
       {
         "handle": "Lucis_YP",
         "name": "Paul Lion",
         "date": "2026-06-24",
-        "text": "@SeterMD @m3nsha Wow"
+        "text": "@SeterMD @m3nsha Wow",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
       },
       {
         "handle": "Pay126_",
         "name": "Pay 💀",
         "date": "2026-06-23",
-        "text": "@SeterMD @m3nsha Looks neat"
+        "text": "@SeterMD @m3nsha Looks neat",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CYON4D",
+        "name": "CYON4D",
+        "date": "2026-06-23",
+        "text": "@SeterMD @m3nsha Nice 👍",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "akaserker",
+        "name": "aka",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha @ChelysFX",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yelanights",
+        "name": "🐦‍🔥",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha you are insaneeee",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tomfricks",
+        "name": "dhee ☄️",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha did bro just-",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "socksnftcryp",
+        "name": "The Sock Puppet Project",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha Whoa wtf..... thats honestly trippy af",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xkk58025253",
+        "name": "🐽嗯嗯🐾呼呼",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha 你好，我是像素动画师，我也使用spine制作2d骨骼动画，你发的内容惊艳到我了，原来还能组合起来使用么，这可太符合我的需求了，但是我一点还没有搞懂这个设置，明天我到工作室以后尝试一下 https://t.co/4JmkZuAwdk",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SeterMD",
+        "name": "Seter",
+        "date": "2026-06-22",
+        "text": "@DarkKenWie @m3nsha i think it was always there.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TOWC_Rebirth",
+        "name": "==TOWC==",
+        "date": "2026-06-22",
+        "text": "Holy shit, this looks amazing.\n😲😲😲",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SeterMD",
+        "name": "Seter",
+        "date": "2026-06-22",
+        "text": "@Lou_srj09 @m3nsha yeah more than a year now",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GuongLu",
+        "name": "Alvin Lu Guong",
+        "date": "2026-06-22",
+        "text": "@mashi_81 @SeterMD @m3nsha The problem is that the art is being quantized on the grid instead of deliberate design of the sprite within the grid.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Ray_Outside",
+        "name": "P. I. (Commissions Open)",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha Coooool!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BaxRodolphe",
+        "name": "Rod☆ - Taste Of Heaven",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha Amazing! I wasn't aware of those parameters. Many Thanks @SeterMD",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "romanalerif",
+        "name": "ромка алериф",
+        "date": "2026-06-22",
+        "text": "@REDO_99 @SeterMD @m3nsha You can export animation as PNG files (separate file for each frame) and then manually create spritesheet",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dr_koupop",
+        "name": "Dr_Koupop",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha I know someone told me Live2D was better but I have to try spine, it seems like there's more you can do with it.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KingKibble",
+        "name": "KingKibble",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha this is crazy actually",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TokieShepherdVT",
+        "name": "Tokie Shepherd 🕰️🪽➡️ OffKaiExpo",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha AHHHHHHHHHHHHHH",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "prateekhh",
+        "name": "Prateek Tripathi",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha yes the pixel grid pixel by pixel move works well",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IzzeDrawz",
+        "name": "Izze",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha I have used spline before for puppet character animations but wow how if you rig the hair to be so flowy, I love the parameters too!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "davvv",
+        "name": "David",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha Legit impressive—that smooth interpolation is not easy to achieve",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cymations_",
+        "name": "CyMations LIVE2D",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha holy shit i need to get on spine2d too",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mashi_81",
+        "name": "Mashi81",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha As a pixel art purist i don't like this, same as rotating pizels.\n\nBut still, nice tool.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RunneByInternet",
+        "name": "Ty Runne {RUINED BY THE INTERNET}!!!",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha That's pretty cool! 🫡💖👌",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SeterMD",
+        "name": "Seter",
+        "date": "2026-06-21",
+        "text": "@LeeAmStark4 @m3nsha yep, check artist i tagged",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SeterMD",
+        "name": "Seter",
+        "date": "2026-06-21",
+        "text": "@FS3K_Art @m3nsha Spine2d? Depends on a person. No 1 answer.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FS3K_Art",
+        "name": "Francesco • Making an Indie Series! 🎨",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha Is it easy/difficult to learn?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Soda_Pop3423",
+        "name": "SodaPopAN (Fellow Grem)",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha That's crazy more reason to but spine.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KeolaKumaneko",
+        "name": "🍎 Keola 🍏 REDEBUT 18/07",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha @kikitchiwi",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ForArt",
+        "name": "ForArt",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha cool stuff i chuckled with the head shaking lol.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GourdfieldGames",
+        "name": "Gourdfield - Wishlist Pumpkin & Patch on Steam!",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha Planning on making my next game with Spine and handdrawn 2D assets with Gamemaker. Seems to be an unfortunate lack of tutorials out there for Spine though!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kurono_studios",
+        "name": "▰▰▰ SAM L. KURONO ▰▰▰",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha Does it rely on AI at all, or was the software made with AI?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RubennA_",
+        "name": "Rúben",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha Wow, didnt know that one",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SeterMD",
+        "name": "Seter",
+        "date": "2026-06-21",
+        "text": "@xiii_degrees @m3nsha Separating and preparing layers way easier, but hard to make turns and 2.5d since you love details and it gets messing. Other than that, it's definitely fun.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Studio_For_Play",
+        "name": "Studio For Play",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha That is absolutely insane !",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_DeceptiveGames",
+        "name": "Deceptive_Games",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha spline is one hell of a piece of kit!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SeterMD",
+        "name": "Seter",
+        "date": "2026-06-21",
+        "text": "@the08games @m3nsha of course, you artworks are amazing",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "skullbrow",
+        "name": "Dayan Barros",
+        "date": "2026-06-23",
+        "text": "@SeterMD @DanFessler @m3nsha There are some one you recommend? I want learn this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zxdh666",
+        "name": "Xdh Z",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha So many people can’t tell animation apart from movement. Could they stop disgracing animation as a medium?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_TheHoliday",
+        "name": "The Holiday ✨",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha @BruceMoku cool tek",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SeterMD",
+        "name": "Seter",
+        "date": "2026-06-22",
+        "text": "@MedasOHumeno @m3nsha pro",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MedasOHumeno",
+        "name": "MedasOHumeno🔞",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha you use what vesion ? pro or essencial?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Pers_GFX",
+        "name": "Pers",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha What's a better tool to use if you wanna animate a character fairly quickly w the least amount of frames, spine or AE?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thugroseno",
+        "name": "RED ThugRoseno",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha @HeyaaCookie fiquei muito imaginando vc pixel art agora owo",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "YosoySylarHS",
+        "name": "YosoySylar",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha For the goons!!!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SpringOrange66",
+        "name": "A Clockwork Orange",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha cool！",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KKindiegame",
+        "name": "MFG James - Super Power Racing",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha Time for DOA jiggle physics lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Merah_Moy_Dev",
+        "name": "Merah Moy",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha https://t.co/9g9joUH357",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DarkKenWie",
+        "name": "鷹水王（EagleWang）",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha Is new version spine? Or just use low pixel image? So cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CumForEspurr",
+        "name": "🔞NutForEspurr🔞Comms Open! (0/4)",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha I have to learn how to use this program",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lou_srj09",
+        "name": "Lou_srj",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha But haven't u been using spine2d for a while now? I remember u mentioning it on Instagram some time ago.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tbonepkmn",
+        "name": "Protogen Husk",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha If there was a demo I would love to try it out but I can't see the use I would need being a self publishing for fun developer of games and things. With these prices it would have been for something I get a return on.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IzzeDrawz",
+        "name": "Izze",
+        "date": "2026-06-22",
+        "text": "@_0xzer0 @SeterMD @m3nsha Yes",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DaddyMcNastyInc",
+        "name": "DͩaͣdͩdͩyMⷨcͨNaͣs͛ᴛⷮy",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha i wonder how claude handles this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VnNguynB5718",
+        "name": "C2 COOL AND CLEAN",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha https://t.co/712Txb7kFs",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TCLexilewd",
+        "name": "TC Lexi",
+        "date": "2026-06-22",
+        "text": "@SeterMD @m3nsha Wow this is really amazing! I’m interested in this animation",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hakimitus",
+        "name": "Hakimitus",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha https://t.co/tr9DcsO6jc",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GelidGenteel",
+        "name": "GelidGenteel",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha ?????????? can you map this to a camera perhaps... as a tuber of virtual design, maybe?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "risu_chuu",
+        "name": "🐾💜Risu_Chuu💜🐾",
+        "date": "2026-06-21",
+        "text": "@SeterMD @cillia @m3nsha And it doesnt rotate the pixels?? How does that work 👀👀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Owls_4_America",
+        "name": "AnarchistOwl",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha What is the program ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pocemu_tak",
+        "name": "lovellen 🇺🇦 (commission open!)",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha God, I really want Spine2D so I can start making good animations, but it's so expensive",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LeeAmStark4",
+        "name": "LiamStark(↔️🛒)",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha Was the art originally in pixel art???",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Crim_Rui",
+        "name": "Crimrui",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha Good animation. Art looks like that old Tumblr crap though.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GrobeAustin",
+        "name": "Austin Grobe",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha 😀😀😀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_0xzer0",
+        "name": "z",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha Can this be exported as a spritesheet?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pawel_developer",
+        "name": "Paweł Jarosz 🔜 Gamescom",
+        "date": "2026-06-21",
+        "text": "@kurono_studios @SeterMD @m3nsha Oh that's for sure!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "caveman_cyborg",
+        "name": "Caveman.exe",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha Will be interesting to see with a nice CRT filter to blend all the pixels like the old days",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "davidlinclark",
+        "name": "David Lin-Clark",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha It's father's day 🥹",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Winchester7314",
+        "name": "Bryan Maloney",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha Pixel art pulls a restraining order and files SA charges after 0:16 💀😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SeterMD",
+        "name": "Seter",
+        "date": "2026-06-21",
+        "text": "@riptcage @m3nsha as you can see it's rigged",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "pawel_developer",
+        "name": "Paweł Jarosz 🔜 Gamescom",
+        "date": "2026-06-21",
+        "text": "@kurono_studios @SeterMD @m3nsha Spine was made long before current AI era",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "riptcage",
+        "name": "Riptcage",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha Wow, looks great. No rig? Just straight any section of the pixel art?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SeterMD",
+        "name": "Seter",
+        "date": "2026-06-21",
+        "text": "@spencecneps @m3nsha pro",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "spencecneps",
+        "name": "Specs",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha Is this the cheapest version or the pro version of spline2D?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Clayman211",
+        "name": "Clayman21",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha Interesting, I used Photoshop.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fleckofsun",
+        "name": "Good Ol' Boy",
+        "date": "2026-06-21",
+        "text": "@SeterMD @m3nsha most of you guys arent artists. you just see technology as a magic box that can realize your fantasies. this is your view of \"art.\" the extent of the meaning of \"art\" to you.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
       }
     ]
-  }
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2068743409418817536/img/P3Qnab8kJKhuKNlN.jpg",
+      "localFilename": "2068744865945424159_1_poster.jpg"
+    }
+  ]
 }

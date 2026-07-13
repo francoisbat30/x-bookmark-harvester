@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:06.250Z",
+  "fetchedAt": "2026-07-12T18:31:37.848Z",
   "tweetId": "1970737980131217543",
   "post": {
     "url": "https://x.com/dariusdan/status/1970737980131217543",
@@ -10,6 +11,12 @@
     },
     "date": "2025-09-24",
     "text": "Simple shapes for you to relax.⚫️ https://t.co/acLyesL7Zs",
+    "thread": [
+      {
+        "id": "1970737980131217543",
+        "text": "Simple shapes for you to relax.⚫️ https://t.co/acLyesL7Zs"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,765 @@
       }
     ],
     "metrics": {
-      "likes": 1012,
-      "retweets": 44,
+      "likes": 1004,
+      "retweets": 42,
       "replies": 53,
-      "views": 33427
+      "views": 33471
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "creativemints",
+        "name": "Mike I Creative Mints",
+        "date": "2025-09-24",
+        "text": "@dariusdan I really like the clarity of the lines and the harmony between all three illustrations",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "saltcod",
+        "name": "˗ˏˋ Terry Sutton ˎˊ˗ — e/shadcn/ui",
+        "date": "2025-09-24",
+        "text": "@dariusdan @marijanapav",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fundarun",
+        "name": "Funda Run",
+        "date": "2025-09-24",
+        "text": "@dariusdan Bruh, that last one is the Death Star and I'm trippin that it's going to take out a planet! 😅 beautiful designs, jokes aside",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@Kanika_2021 yea, quite a cool font Kode Mono.",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@stevelauda_ thanks Steve! :) \nYou a lover of abstract lines and black 🔥",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "helder_vilela",
+        "name": "Helder",
+        "date": "2025-09-25",
+        "text": "@dariusdan The overall mood looks good.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-25",
+        "text": "@creativemints thanks Mike!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@byismaelmonroy thanks!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hey_ryanabid",
+        "name": "Ryan Abid",
+        "date": "2025-09-24",
+        "text": "@dariusdan @grok Can you tell me this style",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "byismaelmonroy",
+        "name": "Ismael Monroy",
+        "date": "2025-09-24",
+        "text": "@dariusdan good work, simple and relaxing",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "maisonalki",
+        "name": "Starboy the Ponderer",
+        "date": "2025-09-24",
+        "text": "@dariusdan Pokeball is my fav shape",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FredWanders",
+        "name": "Fred Wanders",
+        "date": "2025-09-24",
+        "text": "@dariusdan It is kinda relaxing actually",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@designapports Kode Mono",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designapports",
+        "name": "Design Apports ⚫️",
+        "date": "2025-09-24",
+        "text": "@dariusdan What typeface is that?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_ka1eab",
+        "name": "Kaleab",
+        "date": "2025-09-24",
+        "text": "@dariusdan I'll take it 🎉🎉🎉",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@atiq31416 Thank you!🙏🏼",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@ispekhov Thanks!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@mavitdesign Thanks!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@_ka1eab Haha, best comment ever 🤣",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@thelukesmith_ Thank you!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@fundarun Hehe, thank you so much!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@unnamed1tw Thanks!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@webzards12073 Thanks!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@Casatti20 That’s a great idea! I will try to see how it looks 😁",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Casatti20",
+        "name": "Casatti’s ",
+        "date": "2025-09-24",
+        "text": "@dariusdan They’ll look wonderful as Mac's Wallpapers, don’t you think so?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "webzards12073",
+        "name": "webzards.de",
+        "date": "2025-09-24",
+        "text": "@dariusdan 🔥🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tibor_tee",
+        "name": "Tibor (Tee)",
+        "date": "2025-09-24",
+        "text": "@dariusdan Great style",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "salilmalkan",
+        "name": "Salil",
+        "date": "2025-09-24",
+        "text": "@dariusdan Very nice pokeballs",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ChristinaC21358",
+        "name": "Hlrns Houese",
+        "date": "2025-09-24",
+        "text": "@dariusdan Love the simplicity! 🔍 What’s your favorite shape?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thelukesmith_",
+        "name": "Luke Smith",
+        "date": "2025-09-24",
+        "text": "@dariusdan This is incredible!!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_ka1eab",
+        "name": "Kaleab",
+        "date": "2025-09-24",
+        "text": "@dariusdan you're just stressing me out trying to figure out how you made these it😂",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mavitdesign",
+        "name": "Mavi",
+        "date": "2025-09-24",
+        "text": "@dariusdan amazing",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ispekhov",
+        "name": "ILYA",
+        "date": "2025-09-24",
+        "text": "@dariusdan Beautiful",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "atiq31416",
+        "name": "Atiqur Rahaman",
+        "date": "2025-09-24",
+        "text": "@dariusdan Wonderful visual storytelling",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "samaleksandrov",
+        "name": "Sam Aleksandrov",
+        "date": "2025-09-24",
+        "text": "@dariusdan Love your artwork man! Keep doing awesome things 👏🏻",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DanishMehrab_",
+        "name": "Danish Mehrab 🌟",
+        "date": "2025-09-24",
+        "text": "@dariusdan Welcome dude",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "graftoverflow",
+        "name": "Grafto",
+        "date": "2025-09-24",
+        "text": "@dariusdan giving me 3bodyproblem vibes\nexcept that pokeball on the end\nabsolutely beautiful",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@dakshpixelup could really make up a good logo :D",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@the_red_designr thanks Farhad!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dakshpixelup",
+        "name": "Daksh",
+        "date": "2025-09-24",
+        "text": "@dariusdan love the 3rd one 🫶",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "the_red_designr",
+        "name": "Farhad",
+        "date": "2025-09-24",
+        "text": "@dariusdan oh, these are good.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chriszeuch",
+        "name": "Chris 🧱",
+        "date": "2025-09-24",
+        "text": "@dariusdan You are most welcome!\n\nI’m super into this kind of aesthetic lately 🔥🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "stevelauda_",
+        "name": "Steve Lauda",
+        "date": "2025-09-24",
+        "text": "@dariusdan We share the same taste on this 😁🙏",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@Hiccup_za hey Chris 👋 thank you!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@DanishMehrab_ thanks! :)",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@uxvukm thanks Vuk!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@shahidux I hope so!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "stevelauda_",
+        "name": "Steve Lauda",
+        "date": "2025-09-24",
+        "text": "@dariusdan Love this!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TukiFromKL",
+        "name": "Tuki",
+        "date": "2025-09-24",
+        "text": "@dariusdan Nice",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shahidux",
+        "name": "Shahid | Design Partner 🦄",
+        "date": "2025-09-24",
+        "text": "@dariusdan Relaxing really",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Kanika_2021",
+        "name": "Kanika 𐔌՞. .՞𐦯",
+        "date": "2025-09-24",
+        "text": "@dariusdan I like this concept, especially the typeface 🤌",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tedmirra",
+        "name": "Tiago Sá",
+        "date": "2025-09-24",
+        "text": "@dariusdan Now I feel relaxed!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vukmx",
+        "name": "Vuk",
+        "date": "2025-09-24",
+        "text": "@dariusdan Amazing",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "santu_design",
+        "name": "Santu",
+        "date": "2025-09-24",
+        "text": "@dariusdan They look so good",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DanishMehrab_",
+        "name": "Danish Mehrab 🌟",
+        "date": "2025-09-24",
+        "text": "@dariusdan Looks good",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chriszeuch",
+        "name": "Chris 🧱",
+        "date": "2025-09-24",
+        "text": "@dariusdan Love these🔥👏",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "topdesignagency",
+        "name": "Find Design Agency",
+        "date": "2025-09-25",
+        "text": "@dariusdan they look amazing 🤩",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fahabib91",
+        "name": "Habib ullah",
+        "date": "2025-09-25",
+        "text": "@dariusdan Brilliant",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "javoliver88",
+        "name": "JΛVIΞR",
+        "date": "2025-09-25",
+        "text": "@dariusdan love it man, simple and clean composition with awesome balance 🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dustin_zeb",
+        "name": "Dustin",
+        "date": "2025-09-25",
+        "text": "@dariusdan Those shapes are so calming to look at. Thanks for sharing this relaxing visual moment.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "screensdesign_",
+        "name": "screensdesign",
+        "date": "2025-09-25",
+        "text": "@dariusdan love the vibe",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tarikulbranding",
+        "name": "Tarikul Islam",
+        "date": "2025-09-25",
+        "text": "@dariusdan Excellent  Work!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ParulEdit",
+        "name": "Parul",
+        "date": "2025-09-25",
+        "text": "@dariusdan Look so good might as well print it on a Shirt!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GilWebert",
+        "name": "Scared of Widths",
+        "date": "2025-09-25",
+        "text": "@dariusdan These spells work!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-24",
+        "text": "@hey_ryanabid @dariusdan This looks like minimalist geometric art with a cosmic theme—simple black-and-white circles evoking planets, orbits, and stars, on a subtle textured background. It has a clean, modern digital style, perhaps inspired by icon design or abstract illustrations.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "safieellr",
+        "name": "スプラトゥーン大好き",
+        "date": "2025-09-24",
+        "text": "@dariusdan Simple yet effective, right?⚖️ It helps but can be monotonous. Find joy in the balance!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tannermardis",
+        "name": "Tanner Mardis",
+        "date": "2025-09-24",
+        "text": "@dariusdan Those clipped shadows at the top are fire!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "armanmirshai",
+        "name": "Arman",
+        "date": "2025-09-24",
+        "text": "@dariusdan Good vibes",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "johngunnarsson3",
+        "name": "john",
+        "date": "2025-09-24",
+        "text": "@dariusdan 🔥🔥🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@samaleksandrov Thanks for the support! ✌️",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@ChristinaC21358 Left one 😁",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@salilmalkan Thanks! 🙏🏼",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "deeworld73",
+        "name": "Deeworld73",
+        "date": "2025-09-24",
+        "text": "@dariusdan https://t.co/zYpjVRVaMc",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sahana7283",
+        "name": "sahana",
+        "date": "2025-09-24",
+        "text": "@dariusdan This would look rad in an AI application",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ez_philz",
+        "name": "notafrog",
+        "date": "2025-09-24",
+        "text": "@dariusdan Pokeball on the right is ✨ m a g i c ✨",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mriduljoshi_",
+        "name": "Mridul Joshi",
+        "date": "2025-09-24",
+        "text": "@dariusdan Relaxed",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@santu_design thank you!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@tedmirra glad! :)",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-09-24",
+        "text": "@TukiFromKL thanks!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "fitcheckthis",
+        "name": "FIT CHECK THIS.",
+        "date": "2025-09-24",
+        "text": "@dariusdan Hey Darius,\n\nI'd love you to turn that into a T-Shirt. \n\nIf you reply to the post with @ FitCheckThis - we will auto generate and send it back to you.\n\nGive it try!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rushilshah_x",
+        "name": "rushilshah",
+        "date": "2025-09-24",
+        "text": "@dariusdan lovely",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "akinayoUI",
+        "name": "AkinAyo | UI/UX Designer",
+        "date": "2025-09-24",
+        "text": "@dariusdan amazing!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nexi1v",
+        "name": "Nex",
+        "date": "2025-09-24",
+        "text": "@dariusdan i like the noise on it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G1l3WzHX0AAqx9B.png",
+      "localFilename": "1970737980131217543_1.png"
+    }
+  ]
 }

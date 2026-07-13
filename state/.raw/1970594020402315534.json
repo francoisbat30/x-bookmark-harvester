@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:07.089Z",
+  "fetchedAt": "2026-07-12T18:31:34.832Z",
   "tweetId": "1970594020402315534",
   "post": {
     "url": "https://x.com/ItsMaclouis/status/1970594020402315534",
@@ -10,6 +11,12 @@
     },
     "date": "2025-09-23",
     "text": "color inspiration - #084 https://t.co/CvfQhfXNli",
+    "thread": [
+      {
+        "id": "1970594020402315534",
+        "text": "color inspiration - #084 https://t.co/CvfQhfXNli"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -21,11 +28,121 @@
       }
     ],
     "metrics": {
-      "likes": 2180,
+      "likes": 2169,
       "retweets": 132,
       "replies": 11,
-      "views": 56006
+      "views": 56448
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "andreiatdev",
+        "name": "Andrei",
+        "date": "2025-09-24",
+        "text": "@ItsMaclouis tell me RIGHT NOW how do you make these BEAUTIFUL blurred backgrounds with noise on them?\n\ni fr can't find a single resource talking about these for landing heroes so i need help",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "OVolosin82152",
+        "name": "Olga Volosin",
+        "date": "2025-09-24",
+        "text": "@ItsMaclouis Sooo nice!💙",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "maybepratikk",
+        "name": "Pratik",
+        "date": "2025-09-24",
+        "text": "@ItsMaclouis love this",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RajatGirhotra",
+        "name": "Rajat Girhotra",
+        "date": "2025-09-24",
+        "text": "@ItsMaclouis Damn.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shellzbutta_",
+        "name": "Tiffany Dilbert",
+        "date": "2025-09-23",
+        "text": "@ItsMaclouis exquisite!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_ka1eab",
+        "name": "Kaleab",
+        "date": "2025-09-24",
+        "text": "@ItsMaclouis you had me at color",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "utkcrash",
+        "name": "Utkarsh.",
+        "date": "2025-09-24",
+        "text": "@ItsMaclouis hey ! great gradient, do you have any tutorial where you showed how to make such gradients?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jahidshuvo525",
+        "name": "Zaid Shuvo",
+        "date": "2025-09-24",
+        "text": "@ItsMaclouis ncie colors",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Shahtaj_b",
+        "name": "SHAHTAJ",
+        "date": "2025-09-24",
+        "text": "@ItsMaclouis So cool. I would love to use these colors for my next template 😍🤌🏻",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ItsMaclouis",
+        "name": "Mac Louis",
+        "date": "2025-09-24",
+        "text": "@maybepratikk thanks",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MrJimitShah",
+        "name": "Jimit Shah",
+        "date": "2025-09-24",
+        "text": "@ItsMaclouis @Sumit_2823",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G1jzJq6XUAAGJ7d.jpg",
+      "localFilename": "1970594020402315534_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G1jzKK_XsAAdnW4.jpg",
+      "localFilename": "1970594020402315534_2.jpg"
+    }
+  ]
 }

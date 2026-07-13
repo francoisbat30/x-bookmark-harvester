@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:10:32.120Z",
+  "tweetId": "2063233191062700280",
+  "post": {
+    "url": "https://x.com/RoundtableSpace/status/2063233191062700280",
+    "author": {
+      "handle": "RoundtableSpace",
+      "name": "0xMarioNawfal"
+    },
+    "date": "2026-06-06",
+    "text": "GOOGLE JUST FOUND A WAY TO SHRINK 31GB OF AI MEMORY DOWN TO 4GB https://t.co/lPyYv8h07Z",
+    "thread": [
+      {
+        "id": "2063233191062700280",
+        "text": "GOOGLE JUST FOUND A WAY TO SHRINK 31GB OF AI MEMORY DOWN TO 4GB https://t.co/lPyYv8h07Z"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HKIBms0WMAAeTUG.png"
+      }
+    ],
+    "metrics": {
+      "likes": 3720,
+      "retweets": 300,
+      "replies": 113,
+      "views": 237195
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HKIBms0WMAAeTUG.png",
+      "localFilename": "2063233191062700280_1.png"
+    }
+  ]
+}

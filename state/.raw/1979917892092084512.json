@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:54.307Z",
+  "tweetId": "1979917892092084512",
+  "post": {
+    "url": "https://x.com/clcoding/status/1979917892092084512",
+    "author": {
+      "handle": "clcoding",
+      "name": "Python Coding"
+    },
+    "date": "2025-10-19",
+    "text": "5 LAYERS OF SOFTWARE https://t.co/bESnfwxGXO",
+    "thread": [
+      {
+        "id": "1979917892092084512",
+        "text": "5 LAYERS OF SOFTWARE https://t.co/bESnfwxGXO"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3oU0eOX0AA3oS3.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 4596,
+      "retweets": 619,
+      "replies": 53,
+      "views": 178791
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3oU0eOX0AA3oS3.jpg",
+      "localFilename": "1979917892092084512_1.jpg"
+    }
+  ]
+}

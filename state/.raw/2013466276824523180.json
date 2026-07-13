@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:31.002Z",
+  "fetchedAt": "2026-07-13T06:52:22.251Z",
   "tweetId": "2013466276824523180",
   "post": {
     "url": "https://x.com/mattyp/status/2013466276824523180",
@@ -10,13 +11,911 @@
     },
     "date": "2026-01-20",
     "text": "Run Claude Code on your phone in 5 minutes\n\nThis guide will walk through running Claude Code on your phone in under 5 minutes and 500 words. To get started, you'll need:\nAn Anthropic subscription or API key\nA Replit account\nIt's easiest to start on your laptop. First, head to this template and click Remix\n \nYou'll see a prompt that secrets are missing in the bottom right, click it and you'll be taken to the Secrets pane.\n \nPaste in `/home/runner/workspace/.claude-user` (no quotes) as the value for CLAUDE_CONFIG_DIR - don't forget to click \"Add Secret\"\n \nNow, click the plus icon next to the \"Secrets\" tab and search for \"Shell\" \n \nOpen the Shell and type in \"claude\" - voila! Claude Code is running\n \nFollow the authorization prompts, when a new window is opened and you're prompted to authorize, do not - instead, go back to the terminal and there will be a URL.\nCopy / paste the URL, get the resulting code, and paste that in your terminal\n \nNow the fun part.\nInstall the Replit mobile app on your phone. \nOpen it up and sign in. You will see your app from before - select it.\nClick the \"three rectangles\" icon in the bottom right to open the tools\n \nSearch for \"Shell\" - tap it!\n \nTap the Shell selector in the top left - you'll see our \"claude\" command from before\n \nBoom! Claude Code is running on your phone... You might notice it's sync with the version on your desktop! (more on that below)\n \nFrom here on out, you can simply open up the Shell in the app on your phone and type \"claude\" to run Claude Code. \nIMPORTANT: this app has your credentials in the `.claude-user` directory. It will be ignored by git, but you should not share this app with anyone or make it public without first deleting that directory\n \nWhat we just did:\nWe created a \"sandbox:\" every Replit app is it's own isolated environment, running in the cloud. You might also hear this called a container or a virtual environment.\nReplit apps allow you to write and execute code, we normally do that with our own agent - Replit Agent. You can see it on the left hand side of the app.\nClaude Code was already configured in this template, so you started the package in our Shell, which is just a terminal\nAuthorizing Claude wrote credentials to the `.claude-user` directory, which is necessary to persist through Replit environment restarts.\nOpening Replit on your phone loaded the same virtual environment as the one running on your laptop. That's because the environment is running on a remote server in the cloud. \nReplit can display the same environment in real time on multiple devices, what we call \"multiplayer\" - this is thanks to some amazing engineering by the team. \nNow, you can control Claude from both your phone & your computer. The same is true of Replit Agent and any other project on Replit.\nYou can follow the same process in any Replit app that has Claude Code installed, which may be done from the command line. You can also install Skills, plugins, MCP servers, and Hooks as you would normally.\nHappy building ✌️",
+    "thread": [
+      {
+        "id": "2013466276824523180",
+        "text": "Run Claude Code on your phone in 5 minutes\n\nThis guide will walk through running Claude Code on your phone in under 5 minutes and 500 words. To get started, you'll need:\nAn Anthropic subscription or API key\nA Replit account\nIt's easiest to start on your laptop. First, head to this template and click Remix\n \nYou'll see a prompt that secrets are missing in the bottom right, click it and you'll be taken to the Secrets pane.\n \nPaste in `/home/runner/workspace/.claude-user` (no quotes) as the value for CLAUDE_CONFIG_DIR - don't forget to click \"Add Secret\"\n \nNow, click the plus icon next to the \"Secrets\" tab and search for \"Shell\" \n \nOpen the Shell and type in \"claude\" - voila! Claude Code is running\n \nFollow the authorization prompts, when a new window is opened and you're prompted to authorize, do not - instead, go back to the terminal and there will be a URL.\nCopy / paste the URL, get the resulting code, and paste that in your terminal\n \nNow the fun part.\nInstall the Replit mobile app on your phone. \nOpen it up and sign in. You will see your app from before - select it.\nClick the \"three rectangles\" icon in the bottom right to open the tools\n \nSearch for \"Shell\" - tap it!\n \nTap the Shell selector in the top left - you'll see our \"claude\" command from before\n \nBoom! Claude Code is running on your phone... You might notice it's sync with the version on your desktop! (more on that below)\n \nFrom here on out, you can simply open up the Shell in the app on your phone and type \"claude\" to run Claude Code. \nIMPORTANT: this app has your credentials in the `.claude-user` directory. It will be ignored by git, but you should not share this app with anyone or make it public without first deleting that directory\n \nWhat we just did:\nWe created a \"sandbox:\" every Replit app is it's own isolated environment, running in the cloud. You might also hear this called a container or a virtual environment.\nReplit apps allow you to write and execute code, we normally do that with our own agent - Replit Agent. You can see it on the left hand side of the app.\nClaude Code was already configured in this template, so you started the package in our Shell, which is just a terminal\nAuthorizing Claude wrote credentials to the `.claude-user` directory, which is necessary to persist through Replit environment restarts.\nOpening Replit on your phone loaded the same virtual environment as the one running on your laptop. That's because the environment is running on a remote server in the cloud. \nReplit can display the same environment in real time on multiple devices, what we call \"multiplayer\" - this is thanks to some amazing engineering by the team. \nNow, you can control Claude from both your phone & your computer. The same is true of Replit Agent and any other project on Replit.\nYou can follow the same process in any Replit app that has Claude Code installed, which may be done from the command line. You can also install Skills, plugins, MCP servers, and Hooks as you would normally.\nHappy building ✌️"
+      }
+    ],
     "media": [],
     "metrics": {
-      "likes": 1846,
-      "retweets": 138,
+      "likes": 1840,
+      "retweets": 136,
       "replies": 103,
-      "views": 540011
+      "views": 541178
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "mattyp",
+        "name": "matt palmer",
+        "date": "2026-01-20",
+        "text": "@nbbaier you can do this for free :)",
+        "likes": 21,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iruletheworldmo",
+        "name": "🍓🍓🍓",
+        "date": "2026-01-20",
+        "text": "@mattyp this is the future, good play 🔥",
+        "likes": 16,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NickADobos",
+        "name": "Nick Dobos",
+        "date": "2026-01-20",
+        "text": "@mattyp “Easiest to start on your laptop”\n\n🤦‍♂️",
+        "likes": 9,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mattyp",
+        "name": "matt palmer",
+        "date": "2026-01-20",
+        "text": "@_akitov well, when you tell it\n\nthink about the two as isolated - BUT you could point replit agent at the plans that claude code makes for context or have claude update replit dot md with details - our agent uses that file for context",
+        "likes": 8,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mattyp",
+        "name": "matt palmer",
+        "date": "2026-01-20",
+        "text": "@iruletheworldmo 🤝",
+        "likes": 6,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bukovinafilip",
+        "name": "Filip",
+        "date": "2026-01-20",
+        "text": "@mattyp isn’t better to use claude code in the ios app directly?",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mattyp",
+        "name": "matt palmer",
+        "date": "2026-01-20",
+        "text": "@jesschen90 In this tutorial, replit is used as a remote environment, so it's completely separate from your desktop\n\nIt only has access to this replit project - think of it as a separate computer that's running in the cloud",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "aleccc",
+        "name": "alec",
+        "date": "2026-01-21",
+        "text": "@mattyp every URL i try gives me an error",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ManuAlzuru",
+        "name": "ManuAlzuru🥑",
+        "date": "2026-01-20",
+        "text": "@mattyp The way that @levelsio does it seems way cleaner to me using a VSP, mosh, termius and docker containers.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mattyp",
+        "name": "matt palmer",
+        "date": "2026-01-20",
+        "text": "@bukovinafilip depends on what you’re using it for!",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "willgdjones",
+        "name": "Will Jones",
+        "date": "2026-01-20",
+        "text": "@mattyp Looks absolutely amazing",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KinanZayat",
+        "name": "Kinan Al Zayat",
+        "date": "2026-01-20",
+        "text": "@mattyp there is something called @openclaw than is 10X more powerful and can run on whatsapp ;)",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "anthandco",
+        "name": "Anthony DiCenzo",
+        "date": "2026-01-23",
+        "text": "@mattyp Trying to use a workflow where I use this with expo on replit, but the app needs to be public for expo to work. Is there any workaround where you can use stay public and still access Claude code?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mattyp",
+        "name": "matt palmer",
+        "date": "2026-01-23",
+        "text": "@reyneill_ this is free. \n\nunless you’re putting servers in your basement, you’re always using someone else’s machines.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mattyp",
+        "name": "matt palmer",
+        "date": "2026-01-21",
+        "text": "@kekmax Exact same steps, just run npm i @anthropic-ai/claude-code first",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mattyp",
+        "name": "matt palmer",
+        "date": "2026-01-21",
+        "text": "@NickADobos have you tried copy / pasting oauth tokens from a mobile terminal 😬",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "1dangerz0ne",
+        "name": "dangerz0ne🔮",
+        "date": "2026-01-21",
+        "text": "@mattyp This is awesome!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "theessg",
+        "name": "SȺL",
+        "date": "2026-01-21",
+        "text": "@mattyp I know what I’m doing tomorrow. Thanks",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "romaindewolff",
+        "name": "Romain de Wolff",
+        "date": "2026-01-21",
+        "text": "@mattyp Or just @openclaw 🥳🙌",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-20",
+        "text": "Aquí va un paso a paso para configurar Claude Code en tu teléfono usando Replit, basado en el post:\n\n1. Crea un proyecto en Replit y conéctalo a GitHub (crea un repo nuevo y empuja el branch main).\n\n2. En Secrets de Replit, agrega CLAUDE_CONFIG_DIR con valor home/runner/workspace/claude-user.\n\n3. En la shell de Replit, instala con: npm install anthropic-ai/claude-code. Ignora claude-user/ en .gitignore.\n\n4. Ejecuta \"claude\" en la shell, inicia sesión con Anthropic.\n\n5. En la app Claude de tu teléfono, crea sesión, selecciona el repo de GitHub y envía prompts para agentes.\n\n6. Revisa y fusiona PRs en GitHub, sincroniza en Replit.\n\n7. Previsualiza y despliega desde la app Replit en tu teléfono.\n\n¡Listo en ~5 min! Si hay conflictos, pide a Claude que los resuelva.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jesschen90",
+        "name": "Jessica Chen",
+        "date": "2026-01-20",
+        "text": "@mattyp Got it. it's actually impressive. Thanks",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "enriqueurtu",
+        "name": "Ξnrique",
+        "date": "2026-01-20",
+        "text": "@mattyp nice",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "j1mmyhackett",
+        "name": "jimmy hackett",
+        "date": "2026-01-20",
+        "text": "@mattyp claude on mobile is a game changer.\n\ni use it constantly for quick debugging, prototyping ideas, or spinning up scripts when i'm away from my desk.\n\nhaving a dev environment in your pocket is wild. we're really living in the future.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LLMentary",
+        "name": "FREDD",
+        "date": "2026-01-20",
+        "text": "@mattyp I’m not bookmarking this. I’m implementing it now! \n\nThanks Matt!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MihneaDeVries",
+        "name": "Mihnea de Vries",
+        "date": "2026-01-20",
+        "text": "@mattyp or use https://t.co/lI9qMUDzRq and have it running on your phone in 15 seconds by simply pairing with a QR code",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zacxbt",
+        "name": "zac.eth",
+        "date": "2026-01-20",
+        "text": "@mattyp ✍️ 👀",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pyhrroll",
+        "name": "Lin",
+        "date": "2026-01-20",
+        "text": "@mattyp I like my setup better with mosh / zellij / blink https://t.co/31UdHOUcuM",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "d1ceugene",
+        "name": "Evgeny",
+        "date": "2026-01-20",
+        "text": "Matt - this is very helpful, especially the reminder that in Replit's headless IDE that restarts cold after inactivity, we can use environment variables to point coding agents to the persistent storage inside the repo.\n\nApparently, the same trick should work for OpenAI Codex. The environment variable in this case is CODEX_HOME.\n\nI think it would also be great for your engineering team to work out how to solve the lack of persistence issue with native Claude Code. They have recently deprecated the npm version, so we'd have to re-install it anew each time Replit dev container restarts.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cnbtcfan",
+        "name": "欧意注册下载撸新人礼🎁",
+        "date": "2026-01-27",
+        "text": "@mattyp 博主...你的逻辑像公式...夸张像电影特效~",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "anthandco",
+        "name": "Anthony DiCenzo",
+        "date": "2026-01-24",
+        "text": "@mattyp I’m guessing no? I guess I stick to Claude web + simulator on my mac 🥲",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "josancamon19",
+        "name": "Joan Cabezas",
+        "date": "2026-01-23",
+        "text": "@beffjezos @mattyp did you?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AleksiHalsas",
+        "name": "Aleksi Halsas",
+        "date": "2026-01-23",
+        "text": "@mattyp Can I somehow push files to setup like this and get the outputs automatically?\n\nIf can, this is exactly what have been looking for. My claude code flows super good, but takes manual effort to grab some file and run the flows.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "reyneill_",
+        "name": "Rey Neill",
+        "date": "2026-01-23",
+        "text": "@mattyp I’m just being the typical disclaimer, in this case, of the middleman issue. \n\nHaving a pc or laptop you can ssh into from your phone is also a free option\n\nI enjoyed the mini-article",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "reyneill_",
+        "name": "Rey Neill",
+        "date": "2026-01-23",
+        "text": "@mattyp Do not do this, there are other ways to sync and have cc run on your phone without a middleman (replit's machines). Just ask claude how to set this up. Get a vetzner for $5/m or something",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mattyp",
+        "name": "matt palmer",
+        "date": "2026-01-22",
+        "text": "@techno0ptimist @DomenicoDD This is an anthropic error - they aren't parsing the url correctly, you can try pasting it into chatgpt and saying \"please clean up this url and remove spaces\"",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "techno0ptimist",
+        "name": "Zoe (is building utopia 🚀) || bio/acc 🧬",
+        "date": "2026-01-22",
+        "text": "@DomenicoDD @mattyp I keep getting \"OAuth error: Invalid code. Please\n  make sure the full code was     \n copied\" regardless of if I manually copy one of the code params from the URL or the whole URL.. :(",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BryanWhiting",
+        "name": "Bryan Whiting",
+        "date": "2026-01-22",
+        "text": "@mattyp This solves the issue of managing env vars for teams coding on things together",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "firstuserapp",
+        "name": "firstuser.co",
+        "date": "2026-01-22",
+        "text": "@mattyp what do we do about the shell constantly closing and losing everything?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xcanchal",
+        "name": "Xavi Canchal",
+        "date": "2026-01-21",
+        "text": "@mattyp easy as pie! this weekend I'm on the mountains without my computer and Claude is coming with me",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kekmax",
+        "name": "Dumitru",
+        "date": "2026-01-21",
+        "text": "@mattyp how to add to existing project?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rajbreno",
+        "name": "Raj Breno",
+        "date": "2026-01-21",
+        "text": "@ManuAlzuru @mattyp @levelsio Any resource or link of that?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MuhammadAnas707",
+        "name": "Effie",
+        "date": "2026-01-21",
+        "text": "@mattyp interesting",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aviral10x",
+        "name": "aviral10𝕏",
+        "date": "2026-01-21",
+        "text": "@mattyp 🔥🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ThePatriczek",
+        "name": "Patrik Szewczyk",
+        "date": "2026-01-21",
+        "text": "@mattyp With Happy you can do that in 1 minute\nhttps://t.co/DOOgA903lk\n\n1. install happy app\n2. npm i -g happy-coder &amp;&amp; happy\n3. scan QR code",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NickADobos",
+        "name": "Nick Dobos",
+        "date": "2026-01-21",
+        "text": "@mattyp Yeah that does feel like something a mobile coding app should have fixed ages ago 🥲",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "maxym3D",
+        "name": "Maxym",
+        "date": "2026-01-21",
+        "text": "@mattyp Wow this is one way to get me back into Replit",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AIWonder94",
+        "name": "AIWonder",
+        "date": "2026-01-21",
+        "text": "Desktop > mobile \n\nfor tracking Claude Code progress in Replit: larger screen for outputs/diffs/logs, better multitasking & visibility, faster editing/input, easier real-time monitoring/debugging. Mobile ideal for starting tasks; switch to desktop to review & steer deeply. (Hybrid wins.)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DomenicoDD",
+        "name": "Domenico Di Donna",
+        "date": "2026-01-21",
+        "text": "@techno0ptimist @mattyp Paste URL in the terminal (Replit Shell)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "omarsaleemmd",
+        "name": "Omar Saleem",
+        "date": "2026-01-21",
+        "text": "@mattyp So dope",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gheeunit",
+        "name": "mantequilla 🧈",
+        "date": "2026-01-21",
+        "text": "@mattyp I have @opencode running entirely on my Android phone and not once did I ever require using a desktop/laptop computer to get this working. https://t.co/zAuqYlzhAe",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BryanJBryce",
+        "name": "Bryan Bryce – e/tacos",
+        "date": "2026-01-21",
+        "text": "@mattyp Oh, Replit, eww",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ajmorris",
+        "name": "AJ Morris",
+        "date": "2026-01-21",
+        "text": "@mattyp Interesting approach. I prefer this. It doesn’t require replit and doesn’t cost any more.\nhttps://t.co/19dtjDGk6K",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "techno0ptimist",
+        "name": "Zoe (is building utopia 🚀) || bio/acc 🧬",
+        "date": "2026-01-21",
+        "text": "@mattyp \" a new window is opened and you're prompted to authorize, do not - instead, go back to the terminal and there will be a URL. Copy / paste the URL, get the resulting code, and paste that in your terminal\" I don't get this part, though. What code? paste the URL where?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BryanWhiting",
+        "name": "Bryan Whiting",
+        "date": "2026-01-20",
+        "text": "@mattyp replit is amazing. truly amazing. i just have an unlimited sub over here vs. the token prices i have to pay on replit. You guys deserve to charge even more, but when the competition is $200 for \"unlimited\"...hard to beat",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BryanWhiting",
+        "name": "Bryan Whiting",
+        "date": "2026-01-20",
+        "text": "@mattyp i just exported to git, tried having claude run my react-native locally, it spun for 2 hours failing...then i saw this and went back to my $200/mo unlimited sub. great call - i'll still pay you for hosting!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eliekhalifehh",
+        "name": "Elie",
+        "date": "2026-01-20",
+        "text": "@eddyhdzg @mattyp Check out @openclaw",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "eliekhalifehh",
+        "name": "Elie",
+        "date": "2026-01-20",
+        "text": "@KinanZayat @mattyp @openclaw Came here to say the same haha",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vinnotvon",
+        "name": "Devin Keel",
+        "date": "2026-01-20",
+        "text": "@mattyp Kudos to the engineering team! It sure would be cool if this instance of Claude Code could still work directly in our desktop project folders",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "brookejlacey",
+        "name": "Brooke Lacey",
+        "date": "2026-01-20",
+        "text": "@mattyp BADASS",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DanBrownUSA",
+        "name": "Dan Brown",
+        "date": "2026-01-20",
+        "text": "@mattyp This is great. Now how can we use the Claude Chrome Extension with this setup?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "maxvidalinc",
+        "name": "Maxime 🇯🇵 - SaaS Builder",
+        "date": "2026-01-20",
+        "text": "@mattyp Thanks 🙏, very helpful",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "snapsnocaps",
+        "name": "snaps💀",
+        "date": "2026-01-20",
+        "text": "@mattyp or you could just use the claude app…?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mitre88",
+        "name": "un vato.eth",
+        "date": "2026-01-20",
+        "text": "@mattyp @grok dame un paso a paso para configurar como indica este post",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "frxRBb",
+        "name": "xx13⚫️🟡",
+        "date": "2026-01-20",
+        "text": "@mattyp I do wonder, why not just use Replit alone then?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jonahkoch",
+        "name": "🪏 Jonah Koch",
+        "date": "2026-01-20",
+        "text": "@mattyp Can you put it in here? 😀 https://t.co/DZsMChhM0I",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jesschen90",
+        "name": "Jessica Chen",
+        "date": "2026-01-20",
+        "text": "@mattyp does Claude Code still have access to files on your desktop?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sedatcanyalcin",
+        "name": "Can",
+        "date": "2026-01-20",
+        "text": "@mattyp Why are the advantages of this compared to Claude apps ‘Code’ tab?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LShivkumarreddy",
+        "name": "Shiva",
+        "date": "2026-01-20",
+        "text": "@mattyp The cleanest setup ever!✨",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eddyhdzg",
+        "name": "eddy",
+        "date": "2026-01-20",
+        "text": "@mattyp Any alternatives for accessing my local dev environment remotely?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lakshgandikota",
+        "name": "laksh",
+        "date": "2026-01-20",
+        "text": "@mattyp Tmux + vpn + ssh terminal mobile app will do exactly the same in less than 5mins.\n\nWhat’s the obsession of people trying to run Claude code from phone?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "arnabing",
+        "name": "Arnab",
+        "date": "2026-01-20",
+        "text": "@mattyp This is a diff cool approach! But it’s still jumping between apps. Tried Remote Desktop? I find it to be the best",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bauerpowerdev",
+        "name": "Niklas",
+        "date": "2026-01-20",
+        "text": "@mattyp Thats so crazy. Need to try it out!😮‍💨",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "harisbuild",
+        "name": "Haris Sulaiman",
+        "date": "2026-01-20",
+        "text": "@mattyp Why don't I just use the claude app",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fer_masso",
+        "name": "Rumination King",
+        "date": "2026-01-20",
+        "text": "@mattyp replit is unnecessary, any terminal app and a VPN will do the job just fine",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PierreHenryBap",
+        "name": "Pierre",
+        "date": "2026-01-20",
+        "text": "@mattyp Lost me at replit account",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "raoufcode",
+        "name": "Raouf Chebri",
+        "date": "2026-01-20",
+        "text": "@mattyp 🤯",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "odd_joel",
+        "name": "IndiJo",
+        "date": "2026-01-20",
+        "text": "@mattyp No offense but this takes less than 1min and costs 0… https://t.co/UDcJPelriL",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "raghavbajoria11",
+        "name": "rags",
+        "date": "2026-01-20",
+        "text": "@mattyp But does it connect to my local files on my desktop? If not how is it different from the Claude code inside the Claude app",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zacxbt",
+        "name": "zac.eth",
+        "date": "2026-01-20",
+        "text": "@Forgingalex @mattyp I can make mobile first apps this way then do the fully responsive design on desktop later",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dustonio",
+        "name": "Dustin Overbeck",
+        "date": "2026-01-20",
+        "text": "@mattyp I use https://t.co/NpN4ecfxbj. Works nicely",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jacobwellsbrown",
+        "name": "Jacob Brown",
+        "date": "2026-01-20",
+        "text": "@mattyp https://t.co/Z91z4R3L8z in the browser, what am I missing",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "not_amyth",
+        "name": "metamyth 🧃",
+        "date": "2026-01-20",
+        "text": "@mattyp can do this if I use bedrock API?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tonywtf__",
+        "name": "tonywtf",
+        "date": "2026-01-20",
+        "text": "@gm365 @mattyp yea pretty much",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "proudparrot2",
+        "name": "proudparrot2",
+        "date": "2026-01-20",
+        "text": "@mattyp saw replit, clicked off",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cocolitron",
+        "name": "Ben",
+        "date": "2026-01-20",
+        "text": "@El_Alders0n @mattyp @amasad I’d be very interested to understand that as well",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "faisalxshariff",
+        "name": "Faisal Shariff",
+        "date": "2026-01-20",
+        "text": "@mattyp this is good (and thank you) but I want @AnthropicAI + @felixrieseberg  to support it natively. \n\nThat's where the bang for buck is.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MOODAUSTINTEXAS",
+        "name": "MoodAngel 🟧🟪",
+        "date": "2026-01-20",
+        "text": "@mattyp For better or worse 🫡 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AngelsonJM",
+        "name": "Angelson",
+        "date": "2026-01-20",
+        "text": "@beffjezos @mattyp Every day it's wake up. See something mindblowing on X. Experiment. Work a little bit. Walk, stretch, lunch. Back to work. Experiment. Rinse, repeat. I love it. I helped my creative director set up Claude Cowork last night and it's blowing his mind. I don't know that he slept lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "yangWao",
+        "name": "yangwao.hl",
+        "date": "2026-01-20",
+        "text": "@mattyp Ok, srs competition to Happy. What resources has Claude access to?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CreatorGod007",
+        "name": "Hiranmaya",
+        "date": "2026-01-20",
+        "text": "@mattyp Great guy! This makes my life easier \nNow I'm gonna work even on my days \nJokes apart,  Banger Article !!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "famu_han",
+        "name": "Famu Hân",
+        "date": "2026-01-20",
+        "text": "@mattyp Crazy good! Is it also possible to add Codex?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vibepocketcom",
+        "name": "Vibe Pocket",
+        "date": "2026-01-20",
+        "text": "@mattyp With https://t.co/3rftOA7LrD Running all 18 CLI agents like Claude Code, Codex or Opencode is under one minute, also check this out",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_akitov",
+        "name": "Alexander Kitov",
+        "date": "2026-01-20",
+        "text": "@mattyp @mattyp Matt, I have this setup thanks to your previous video. 🙏\n\nJust to make sure my understanding is correct - “when”does Replit find out  about about code changes that CC did? \n\nAnd can CC reliably do changes to the DB RA created, which then RA can build on top of?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_cybergeist",
+        "name": "geist",
+        "date": "2026-01-20",
+        "text": "@mattyp terminus on a tailscaled home server or VPS is preferable for me",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TimArmstrong81",
+        "name": "Tim Armstrong",
+        "date": "2026-01-20",
+        "text": "@mattyp How is this better the than the standard LM? Just an option?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "avaausmamdani",
+        "name": "Avaaus",
+        "date": "2026-01-20",
+        "text": "@mattyp @Replit There is no easier way than this to run cc on your phone. https://t.co/ZuV7quTbG0",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chxpoweb3",
+        "name": "san",
+        "date": "2026-01-20",
+        "text": "@mattyp We need a guide om how to run antigravity on our phone",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mobrk_ai",
+        "name": "Mo Brk",
+        "date": "2026-01-20",
+        "text": "@mattyp Why Bro !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "stretchcloud",
+        "name": "Prasenjit Sarkar",
+        "date": "2026-01-20",
+        "text": "@mattyp Took 3 seconds to discard this article the moment I saw I need a @Replit account to run CC 🤦🏻‍♂️😬",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
   }
 }

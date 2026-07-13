@@ -12,9 +12,10 @@ import { mcpConfigFromEnv } from "@/lib/x/mcp-source";
 import { fetchGrokInsights } from "@/lib/x/grok-enrich";
 import { parseTweetRef } from "@/lib/x/tweet-id";
 import { downloadImages } from "@/lib/obsidian/media-download";
-import { renderNote } from "@/lib/obsidian/markdown";
+import { renderNote, buildFilename } from "@/lib/obsidian/markdown";
 import {
   writeNote,
+  readExistingNote,
   resolveTargetDir,
   getVaultConfig,
 } from "@/lib/obsidian/vault";
@@ -63,6 +64,11 @@ export async function extractBookmark(
         const note = renderNote(cached.post, {
           insights: cached.grokInsights?.data,
           downloadedImages: cached.downloadedImages,
+          videoTranscripts: cached.videoTranscripts,
+          existingContent: await readExistingNote(
+            buildFilename(cached.post),
+            ref.id,
+          ),
         });
         const dir = resolveTargetDir(getVaultConfig());
         const mdPath = path.join(dir, note.filename);
@@ -123,6 +129,8 @@ export async function extractBookmark(
     const note = renderNote(post, {
       insights: freshCache?.grokInsights?.data,
       downloadedImages: freshCache?.downloadedImages,
+      videoTranscripts: freshCache?.videoTranscripts,
+      existingContent: await readExistingNote(buildFilename(post), ref.id),
     });
     const written = await writeNote(note.filename, note.content, undefined, {
       overwrite: true,
@@ -194,6 +202,11 @@ export async function retryCommentsWithGrok(
     const note = renderNote(updatedPost, {
       insights: freshCache?.grokInsights?.data,
       downloadedImages: freshCache?.downloadedImages,
+      videoTranscripts: freshCache?.videoTranscripts,
+      existingContent: await readExistingNote(
+        buildFilename(updatedPost),
+        tweetId,
+      ),
     });
     const written = await writeNote(note.filename, note.content, undefined, {
       overwrite: true,
@@ -253,6 +266,11 @@ export async function enrichWithGrok(
     const note = renderNote(cached.post, {
       insights,
       downloadedImages: cached.downloadedImages,
+      videoTranscripts: cached.videoTranscripts,
+      existingContent: await readExistingNote(
+        buildFilename(cached.post),
+        tweetId,
+      ),
     });
     const written = await writeNote(note.filename, note.content, undefined, {
       overwrite: true,

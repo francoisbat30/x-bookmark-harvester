@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:07.033Z",
+  "tweetId": "2044304794194452945",
+  "post": {
+    "url": "https://x.com/GoogleResearch/status/2044304794194452945",
+    "author": {
+      "handle": "GoogleResearch",
+      "name": "Google Research"
+    },
+    "date": "2026-04-15",
+    "text": "Meet Fabula: an interactive AI writing tool helping authors structure &amp; refine stories. Co-designed with 42 expert writers, the demo showcases how convergent iteration supports creativity. Catch the demo at the Google booth at 10:30AM! #CHI2026 https://t.co/SpKfhheBOl",
+    "thread": [
+      {
+        "id": "2044304794194452945",
+        "text": "Meet Fabula: an interactive AI writing tool helping authors structure &amp; refine stories. Co-designed with 42 expert writers, the demo showcases how convergent iteration supports creativity. Catch the demo at the Google booth at 10:30AM! #CHI2026 https://t.co/SpKfhheBOl"
+      }
+    ],
+    "media": [
+      {
+        "type": "gif",
+        "url": "https://video.twimg.com/tweet_video/HF7T6qQWsAAFKS7.mp4",
+        "posterUrl": "https://pbs.twimg.com/tweet_video_thumb/HF7T6qQWsAAFKS7.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 5829,
+      "retweets": 754,
+      "replies": 152,
+      "views": 1250268
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/tweet_video_thumb/HF7T6qQWsAAFKS7.jpg",
+      "localFilename": "2044304794194452945_1_poster.jpg"
+    }
+  ]
+}

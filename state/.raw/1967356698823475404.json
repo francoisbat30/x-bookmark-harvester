@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:16.370Z",
+  "fetchedAt": "2026-07-13T07:07:24.250Z",
   "tweetId": "1967356698823475404",
   "post": {
     "url": "https://x.com/PookiesParadise/status/1967356698823475404",
@@ -10,13 +11,911 @@
     },
     "date": "2025-09-14",
     "text": "green expert here: this is a good one https://t.co/qXuUClv4qt",
+    "thread": [
+      {
+        "id": "1967356698823475404",
+        "text": "green expert here: this is a good one https://t.co/qXuUClv4qt"
+      }
+    ],
     "media": [],
     "metrics": {
-      "likes": 148721,
-      "retweets": 8428,
-      "replies": 184,
-      "views": 2975148
+      "likes": 147481,
+      "retweets": 8292,
+      "replies": 183,
+      "views": 2978663
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "PookiesParadise",
+        "name": "Pookie",
+        "date": "2025-09-15",
+        "text": "@Xeetings https://t.co/M4riFgfw4t",
+        "likes": 112,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "eryniss_",
+        "name": "eryn🔜GCX",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise you will NEVER be him.",
+        "likes": 8,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NobletheFourth",
+        "name": "Noble Four",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise you will NEVER be him",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Biskit206",
+        "name": "Dr. Giggletouch",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise You’ll never be him",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lilpiranya",
+        "name": "piranya | piranha cat vtuber",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise Phtalo green is one of my favorite colors 😌",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ViciousDarkStar",
+        "name": "I'm Vicious",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise Mans invented the color of a 1997 Nissan Altima.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gremlingrotto",
+        "name": "🍄Gremlin🍄",
+        "date": "2025-09-16",
+        "text": "@ghoulbagel @kittychipz @PookiesParadise PHTALO GREEN MY FAVORITE!!!",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brionitallis",
+        "name": "icha🦄",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise This phtalo green and tyrian purple are colors that looks terrible on my warm undertone yet everything in this color will scream royals. it’s understandable, considering they were some of most expensive colors in old world",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "beeechou",
+        "name": "shanesilog",
+        "date": "2025-09-16",
+        "text": "@lauvspreader @PookiesParadise came 2 times",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nohfro",
+        "name": "Noah",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise The autistics will love this one",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "whddlD",
+        "name": "whddlD",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise @Das_Oomfen",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EGrimalkin1967",
+        "name": "Ebon Grimalkin",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise https://t.co/WyEzCF3A8R",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sentezik",
+        "name": "Stone Myth",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise https://t.co/yhJb9Sqkv9",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DavesNoir",
+        "name": "Daves #1",
+        "date": "2025-09-18",
+        "text": "@sleepcherries @PookiesParadise El mejor de hecho",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Potato41160905",
+        "name": "Potato",
+        "date": "2025-09-17",
+        "text": "@lilpiranya @PookiesParadise It’s closely related to the color of enriched u-235",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ghoulbagel",
+        "name": "Oliver 🐰",
+        "date": "2025-09-16",
+        "text": "@kittychipz @PookiesParadise DAS THE PERFECT GREEN 🙌🏼😩",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sleepcherries",
+        "name": "juli ♡",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise @DavesNoir",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bert4ki",
+        "name": "bertuki 3S ✩",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise @chamomeasi @blanc4_md pffffff q BONITO",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sam__copeland",
+        "name": "Sam Copeland",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise @TalFord7",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alo_rios7",
+        "name": "Alo💫",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise @valep_pp",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ARealMusashi",
+        "name": "Hanzo-Musashi",
+        "date": "2025-09-16",
+        "text": "@lilpiranya @PookiesParadise I could make alot of designs with this color",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lilpiranya",
+        "name": "piranya | piranha cat vtuber",
+        "date": "2025-09-16",
+        "text": "@ARealMusashi @PookiesParadise Isnt it beautiful",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ARealMusashi",
+        "name": "Hanzo-Musashi",
+        "date": "2025-09-16",
+        "text": "@lilpiranya @PookiesParadise This green looks fuckin SICK",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vtsait",
+        "name": "joao victor",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise @gascarbonicole é dos bons mesmo?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "elle_reads_alot",
+        "name": "Elle Therese",
+        "date": "2025-09-15",
+        "text": "@abysstoabyss @PookiesParadise Fair enough!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "abysstoabyss",
+        "name": "Lea 🦩",
+        "date": "2025-09-15",
+        "text": "@NotebookRosary @PookiesParadise It's just super potent haha",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AnakinS08351424",
+        "name": "Boba Fett",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise In brightest day, in blackest night, no evil shall escape my sight. Let those who worship evil's might beware my power… Green Lantern's light!” https://t.co/fSZThWD1B3",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lucernaut",
+        "name": "Lucer",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise who the fuck are you fraud",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sleepcherries",
+        "name": "juli ♡",
+        "date": "2025-09-18",
+        "text": "@DavesNoir @PookiesParadise vos sos el mejor",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "blanc4_md",
+        "name": "B",
+        "date": "2025-09-16",
+        "text": "@bert4ki @PookiesParadise @chamomeasi SÍ SÍ Y MÁS SÍIIIIIII 🙏🏻🫠",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "__Scandinavian_",
+        "name": "Jacchnebb",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise You don’t look very green",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MalachiaVt",
+        "name": "🔞 Malachia Papilia 🔞 💚🦋",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise Wait a minute...it's posted by ReddCinema...how do we know this is actually green?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "demarcolover0",
+        "name": "realmacdemarcolover",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise Looking ahh https://t.co/qVtF1AB5fy",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fefeposts",
+        "name": "Hopes and Dreams;",
+        "date": "2025-09-16",
+        "text": "@johnnathan__ @PookiesParadise rip celular verde do jotinha",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lil_mojado",
+        "name": "jeff",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise I like this green",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jinshreykai",
+        "name": "shrey",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise @RecycledTwts",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Des_Roin",
+        "name": "DesRoin ن",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise https://t.co/kdoR3f8ILD",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "darkrai__2k",
+        "name": "hospice medical center",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise I never thought royal green would be topped but I stand corrected",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FilmswithMel",
+        "name": "Mel",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise James from Color News here, question from the public. What would you define as a bad one?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "underpreforming",
+        "name": "underpreforming.critic",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise Yeah, your right you're right this is a good green. Good job.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "w4rl0ck111",
+        "name": "W4RL0CK",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise You’re not him.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "saturnz_zz",
+        "name": "saturnszsz🐾",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise it always gives millenial",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KevinArell24074",
+        "name": "🏳️‍🌈0rigin🏳️‍⚧️",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise Do we have a second hand opinion from a blue lover yet or is this still a developing story?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ZTyphoon120",
+        "name": "ZTyphoon120 🏳️‍🌈",
+        "date": "2025-09-16",
+        "text": "@basura_live @PookiesParadise Green is a very interesting colour (this is coming from a licensed green expert)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "chu_focus",
+        "name": "Focüs",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise Aston Martin green",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gustisb_",
+        "name": "Gus",
+        "date": "2025-09-16",
+        "text": "@dimasrko @PookiesParadise terbukti mr suh punya riset color pallette",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "maxwasntaken",
+        "name": "czjstmax",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise green expert here: ye",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dimasrko",
+        "name": "Dimas SR",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise ayyasy mark 2 bray @gustisb_",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aguyonx12839",
+        "name": "aguyonx",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise @LazeenahS https://t.co/ktjn6aIDVq",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gascarbonicole",
+        "name": "nico",
+        "date": "2025-09-16",
+        "text": "@vtsait @PookiesParadise sim mas pra mim é um 8",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "oldmanmicrowave",
+        "name": "Rizzell Westbrook",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise https://t.co/z5uROTtMEe",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "walescaav",
+        "name": "w",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise loveee",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CoinTivars",
+        "name": "TivarsCoin",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise And I'm all Forest Green. Whatdo I know?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lying_punk1",
+        "name": "Ed",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise @RecycledTwts",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SmotWicket",
+        "name": "Failure to Elude",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise Fall is not the right time for this.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Dragonborn_Hugo",
+        "name": "Hugo",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise Phtalo? That‘a what your bitch was doing to me",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Deadwolfother",
+        "name": "Leviathan",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise It don’t taste good",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "barefacedbaddie",
+        "name": "Ann Turinawe",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise Oh yeah, I need that",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nandahabibe_",
+        "name": "fernanda",
+        "date": "2025-09-16",
+        "text": "@adrianohrtr @PookiesParadise perfeito",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "R_4ndomm",
+        "name": "r_a_n_d_o_m",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise recycled",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "adrianohrtr",
+        "name": "adri",
+        "date": "2025-09-16",
+        "text": "@PookiesParadise @nandahabibe_",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thegiovannixxx",
+        "name": "Gio Montana",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise Malachite 🤩",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "devmajesty",
+        "name": "ⅮEV MAJESTY",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise My favorite color fr 😍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "doompostenjoyer",
+        "name": "Dzhoserkhamun",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise great, now we can draw happy little trees",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ziawoofy",
+        "name": "ɢɪʀʟ ꜰᴀɪʟᴜʀᴇ",
+        "date": "2025-09-15",
+        "text": "@S_A_U_Z @PookiesParadise you're terminally online",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Suslestia",
+        "name": "Alec ⟡",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise Recycled tweets expert here: this is a shit one",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jessie48178643",
+        "name": "Jess",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise The weird thing about this green is that while everyone likes it, when given options people will typically take a flashier color because they're prioritizing visual flair or a bland color because they're prioritizing being unintrusive. So it doesn't actually get used THAT often.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lil_Fefex",
+        "name": "Fernando",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise @ClaraOuverney é bom mesmo?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SerlitDoaner",
+        "name": "DANKORSITO",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise Real",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheChatterer_",
+        "name": "chatterers tooth",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise As a fellow green enjoyer I agree",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SMBAgencyGuy",
+        "name": "Jamie",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise Ty for the analysis",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "elle_reads_alot",
+        "name": "Elle Therese",
+        "date": "2025-09-15",
+        "text": "@abysstoabyss @PookiesParadise How come?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DMakbre",
+        "name": "Wasu Wasol",
+        "date": "2025-09-15",
+        "text": "@jisoozen @HastaLaFama @PookiesParadise @Xeetings Thanks https://t.co/0MHq1Idtvs",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FBFerran",
+        "name": "Ferran Muñoz",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise How many fucking times will this tweet keep being replicated and go viral? https://t.co/Taj0ARY8yO",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MachoNachos289",
+        "name": "BigSlumpin",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise Great one*",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mandingan_",
+        "name": "mandingan",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise Bud, I think it's a new colour not just green",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HugesJenna",
+        "name": "Jenna Huges",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise Painter here: fuck this green! Even the smallest bit of it takes over any colour you attempt to mix it with",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IamTheFawb",
+        "name": "The Fawb",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise Agree, can we see your absolute worst green?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mayo11Sauce",
+        "name": "Brando Mags",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise Agreed",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GusTheEventsGuy",
+        "name": "Gus Calabrese | The Events Guy",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise Love this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Post_U_Later",
+        "name": "Post U Later",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise I think this might be my favorite green. It's like a sea forest floor",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chelsy7713",
+        "name": "chels",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise 💚",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AndyAdventuring",
+        "name": "Andy",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise PhD in green. Can confirm.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "s33k3r10",
+        "name": "s33k3r",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise Being a human with eyes expert here. There are multiple greens there. They only look as good they do, because of their interplay. One alone would look just a blah as any Pantone color. You’re welcome",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WylieZander",
+        "name": "Zander Wylie",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise Stolen tweet. Fuck off",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Randaiya",
+        "name": "Yandy",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise how good though, scale of 1-10",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ninjasixth",
+        "name": "vexed",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise Yes",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HerrNebel",
+        "name": "Herr Nebel 🫧",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise Which is the best green? Scheele's green or Paris green?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Heskkk2",
+        "name": "Heskkk *mainnet arc*",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise This is a GREAT one",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "freebillin",
+        "name": "໊",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise ill cosign this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gaurikumar73",
+        "name": "GKumar",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise Cmon, this is a common gulal (powered colour used in the Hindu festival of Holi) colour in India https://t.co/ruwgMS2As0",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PWBread",
+        "name": "PlainWhiteBread",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise My personal favorite green.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BBuckleyBuck",
+        "name": "Food court jester",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise Shit wait wrong repost",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GremlinGrobber",
+        "name": "Grem",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise professional green reviewer: Nice.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BBuckleyBuck",
+        "name": "Food court jester",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise You're not supposed to do it for the benefits https://t.co/Wk8rl6HR1n",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "KinokoNasusneed",
+        "name": "kinoko nasu",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise @RecycledTwts",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mrxmalcolm",
+        "name": "Mr. X",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise I agree",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Montyrell",
+        "name": "Monty // BULK dev",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise Experter green expert here: yes it is",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "maniscripts",
+        "name": "Manu",
+        "date": "2025-09-15",
+        "text": "@PookiesParadise @Kalshi",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
   }
 }

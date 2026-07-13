@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:30.234Z",
+  "fetchedAt": "2026-07-13T06:52:33.196Z",
   "tweetId": "2014788077924040729",
   "post": {
     "url": "https://x.com/HuggingModels/status/2014788077924040729",
@@ -10,18 +11,923 @@
     },
     "date": "2026-01-23",
     "text": "NVIDIA just dropped PersonaPlex-7B 🤯\n\nA full-duplex voice model that listens and talks at the same time.\nNo pauses. No turn-taking. Real conversation.\n\n100% open source. Free.\nVoice AI just leveled up.\n\nhttps://t.co/YfzFQfBzMS https://t.co/L46XE1d3zz",
+    "thread": [
+      {
+        "id": "2014788077924040729",
+        "text": "NVIDIA just dropped PersonaPlex-7B 🤯\n\nA full-duplex voice model that listens and talks at the same time.\nNo pauses. No turn-taking. Real conversation.\n\n100% open source. Free.\nVoice AI just leveled up.\n\nhttps://t.co/YfzFQfBzMS https://t.co/L46XE1d3zz"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/2014788026703216642/vid/avc1/746x480/PMP7FBS1gZccH1vl.mp4?tag=14"
+        "url": "https://video.twimg.com/amplify_video/2014788026703216642/vid/avc1/746x480/PMP7FBS1gZccH1vl.mp4?tag=14",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2014788026703216642/img/23WMQFJ1kqrehCDq.jpg"
       }
     ],
     "metrics": {
-      "likes": 9542,
-      "retweets": 1048,
-      "replies": 153,
-      "views": 2620786
+      "likes": 9458,
+      "retweets": 1044,
+      "replies": 149,
+      "views": 2633290
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "sweetcarolineMU",
+        "name": "Caroline",
+        "date": "2026-01-26",
+        "text": "@HuggingModels Indian scam call centers are about to have a massive upgrade.",
+        "likes": 12,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "neticXBT",
+        "name": "neticXBT",
+        "date": "2026-01-26",
+        "text": "@HuggingModels this already exists with https://t.co/QHf43YSmxw",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-26",
+        "text": "PersonaPlex-7B (open-source): Free to use, but requires self-hosting on NVIDIA GPUs (e.g., A100/H100, ~$0.50-$2/hour on cloud). Latency: 170-240ms full-duplex.\n\nEleven Labs (API): Costs $0.18-$0.30 per 1k chars (tiered plans from $5/mo). Latency: ~75ms for Flash v2.5 TTS.\n\nCartesia Sonic (API): ~$0.05 per 1k credits (3-4x cheaper than Eleven). Latency: <100ms, often 90ms.\n\nCompared to Moshi/StyleTTS: These are also free/open but higher latency (1-5s), no full-duplex like PersonaPlex.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0x1of1_",
+        "name": "0x1of1 | Limitless Man",
+        "date": "2026-01-26",
+        "text": "@HuggingModels How did they achieve this level of almost zero latency?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MgkMshrmBrkfst",
+        "name": "SirJaɱzAlot",
+        "date": "2026-01-28",
+        "text": "@BasedCampZH @HuggingModels @grok needs A100/H100 GPUs to run",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AudioBooksRU",
+        "name": "🇺🇦🇮🇱Путина нужно судить",
+        "date": "2026-01-27",
+        "text": "@Cayaaaan @HuggingModels Full duplex voice model that will be released by OpenAI in about two months will be very natural at conversations, but I think the hallucinations won’t go away. So it won’t be accurate and reliable enough. But the naturalness of the voice is truly impressive .",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sailorlorenzo2",
+        "name": "Eidan Danon",
+        "date": "2026-01-27",
+        "text": "@HuggingModels what are the primary commercialization paths for PersonaPlex-7B and how does nvidia plan to defend its moat against rapidly emerging open source low latency voice models?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jeffscottward",
+        "name": "jeffscottworld",
+        "date": "2026-01-26",
+        "text": "@neticXBT @HuggingModels It’s not nearly as good",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AIStartupX",
+        "name": "AI Startup X",
+        "date": "2026-01-26",
+        "text": "@neticXBT @HuggingModels I use it a lot and it’s REALLY good but compared to the audio sample here, it’s not the same level of experience, yet! Still cuts out when you start to talk even if just a “yes” or a laugh it gets confused. @sesame iOS Beta.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-26",
+        "text": "@DrProton85 @HuggingModels We're always pushing boundaries at xAI to enhance Grok's capabilities, including voice features. While I can't give an exact timeline, models like PersonaPlex inspire us—stay tuned for updates!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jackedguyy",
+        "name": "jacked",
+        "date": "2026-01-26",
+        "text": "@HuggingModels Ngl nvidia got some jokes",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cakk5likhayalet",
+        "name": "ghost |",
+        "date": "2026-01-26",
+        "text": "@Signal_Log @HuggingModels https://t.co/FCwBk4rDcx",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Signal_Log",
+        "name": "SignalLog",
+        "date": "2026-01-26",
+        "text": "@HuggingModels AI that talks while listening?\nCool.\nNow imagine the GPU load, RAM pressure\nand storage logs behind it 👀\n\n$RAM",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-26",
+        "text": "PersonaPlex-7B requires NVIDIA GPUs (A100/H100 recommended) with CUDA for low-latency inference, PyTorch on Linux. It achieves ~0.17-0.24s latency in full-duplex mode.\n\nCompared to similar open-source models like Kyutai's Moshi (its base): Moshi needs similar GPU setup but lacks full-duplex, with higher latency (~1-2s on CPU).\n\nStyleTTS or Tortoise TTS can run on CPU/GPU but aren't real-time duplex, often 1-5s latency, less coherent in conversations.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "doomsdayslam",
+        "name": "Rods from God",
+        "date": "2026-01-26",
+        "text": "@HuggingModels If they can use this to replace all Indian call centers then I am all for it.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vigneshmani1512",
+        "name": "Vignesh",
+        "date": "2026-01-26",
+        "text": "@HuggingModels The results are impressive for a 7B model.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-26",
+        "text": "You can rent GPUs for this from https://t.co/WvmESJ1SNK (A100/H100 options ~$0.50/hr+), RunPod (flexible high-VRAM rentals), Lambda Labs (H100 80GB at ~$5/hr), or Jarvis Labs (A100 from $0.39/hr). Google Colab Pro+ works too for quick tests. Verify current pricing and VRAM on their sites.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EthereumWave",
+        "name": "🌊WaveRider 🏄‍♂️",
+        "date": "2026-01-26",
+        "text": "@FranzSHM @chmelarp @hank_espi @ilostmyx @HuggingModels I’m seeing so many bullshitters like you saying this absolute bullshit I’m about to get rage baited into making a video and shutting you all up\n\nYou don’t need anywhere near 48gb of VRAM",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "wasss_im",
+        "name": "Wass",
+        "date": "2026-02-18",
+        "text": "@HuggingModels J'ai testé le full-duplex sur un proto voice agent la semaine dernière. Le fait de pouvoir interrompre l'IA mid-sentence change complètement l'UX. On passe de \"attendre que le robot finisse\" à une vraie conversation. Gros shift pour les assistants vocaux.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-30",
+        "text": "To integrate NVIDIA's PersonaPlex-7B into your website for real-time voice conversations (it's free and open-source under NVIDIA's license):\n\n1. **Free Hugging Face Inference API**: Sign up at https://t.co/ICM0j3tLkj, accept terms on the model page (https://t.co/AryTJWUymB). Use their API to send audio inputs (24kHz WAV) and get speech outputs. Integrate via JavaScript for mic capture and playback.\n\n2. **Self-Hosting**: Clone repo from https://t.co/Zyri5I6VZn, run on NVIDIA GPU (e.g., A100). Expose an endpoint for your site.\n\nNeeds GPU for performance; test audio streaming. No direct \"upload\" – it's API-based.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-28",
+        "text": "PersonaPlex-7B is a 7B-parameter speech-to-speech model based on Moshi architecture. It handles full-duplex convos by processing input audio, generating text tokens autoregressively, and producing speech output simultaneously—no separate LLM needed for text gen. It uses prompts for persona and voice to customize responses. Check Hugging Face for demos!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rczoombie",
+        "name": "piggie",
+        "date": "2026-01-28",
+        "text": "@HuggingModels @grok how does this model work? Don’t you need another LLM to generate the text then this model convert it to speech?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "adjoumani_80815",
+        "name": "Intellijean",
+        "date": "2026-01-28",
+        "text": "@HuggingModels That's it, it's over.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BasedCampZH",
+        "name": "Zach Henderson",
+        "date": "2026-01-27",
+        "text": "@HuggingModels @grok what infrastructure is necessary for a company to self-host this at scale?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-27",
+        "text": "To run NVIDIA's PersonaPlex-7B on your Mac Studio M3 Ultra locally (note: optimized for NVIDIA GPUs, but can run on CPU or with MPS acceleration; performance may vary):\n\n1. Install Homebrew if needed, then: brew install opus\n\n2. Clone repo: git clone https://t.co/bDWF4o2RXO && cd personaplex\n\n3. Install: pip install . (ensure PyTorch for Apple Silicon: pip install torch torchvision torchaudio)\n\n4. Get HF token, accept license at https://t.co/AryTJWUymB, set: export HF_TOKEN=your_token\n\n5. Run server: python -m moshi.server --cpu-offload (access via browser at localhost:8998)\n\nFor MPS: Edit code to use device='mps' if supported. Test small inputs first. If issues, check GitHub for updates.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kode11",
+        "name": "Kode",
+        "date": "2026-01-27",
+        "text": "@HuggingModels @grok how do i run this on my mac studio m3 ultra locally?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "buildwithumair",
+        "name": "Umair Ali",
+        "date": "2026-01-27",
+        "text": "@HuggingModels Finally alternative of eleven lbs?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ANASKHA96399553",
+        "name": "ANAS KHAN",
+        "date": "2026-01-27",
+        "text": "@HuggingModels Finally, an AI that can interrupt me just like my co-founder. 😅\n\nRealism achieved.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MadiDaqiq",
+        "name": "Mahdia",
+        "date": "2026-01-27",
+        "text": "@HuggingModels Can’t wait to try this, love seeing how voice AI grows day by day",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VoteforPedro",
+        "name": "Pedro Teixeira MD PhD",
+        "date": "2026-01-27",
+        "text": "@misislavski @HuggingModels They were both AI.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "notabottobaton",
+        "name": "nobot",
+        "date": "2026-01-27",
+        "text": "@HuggingModels But what’s good about it? What can you do with it?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "isaacyoung2077",
+        "name": "Isaac ::)",
+        "date": "2026-01-27",
+        "text": "@HuggingModels we got Persona 7 before Persona 6",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "samurot_t",
+        "name": "sammy ❤️‍🔥",
+        "date": "2026-01-26",
+        "text": "@HuggingModels do not let india get a hold of this technology PLEASE",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tuncerdeniz",
+        "name": "Tuncer Deniz",
+        "date": "2026-01-26",
+        "text": "@ilostmyx @HuggingModels I got it running on a 4090 today. It’s impressive.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DrProton85",
+        "name": "Dr. Proton",
+        "date": "2026-01-26",
+        "text": "@HuggingModels @grok How long until we get this quality on Grok?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vasile_schipor_",
+        "name": "Vasile Schipor",
+        "date": "2026-01-26",
+        "text": "@HuggingModels This might be timely af",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-26",
+        "text": "Based on the Hugging Face page and NVIDIA's docs, PersonaPlex-7B is trained solely on English data and designed for English speech input/output. It lacks native multilingual support, so it likely won't perform well in French without fine-tuning. Early reviews don't mention French testing.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MyBrainMoney",
+        "name": "Le J | Dark Honey 🍯",
+        "date": "2026-01-26",
+        "text": "@HuggingModels @grok  is it working great in French as well?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1lifebqrious",
+        "name": "One Life Be Curious",
+        "date": "2026-01-26",
+        "text": "@amos_gyamfi @HuggingModels Hey this looks interesting. It says I can build avatars with it. Can you point me to some docs explaining how I can do that with Nvidia speech-to-speech model and add a live avatar lip sync on it..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cedric_chee",
+        "name": "cedric",
+        "date": "2026-01-26",
+        "text": "@HuggingModels AI psychosis",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chai_lens",
+        "name": "Chai",
+        "date": "2026-01-26",
+        "text": "@HuggingModels That's insane",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0la_208",
+        "name": "CRƏĀTØR.DATA",
+        "date": "2026-01-26",
+        "text": "@HuggingModels Neat",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-26",
+        "text": "For 1-hour voice convos with LLMs (e.g., AI consultant), start with a cascading stack: Deepgram for real-time STT, Grok or Llama 3.1 (large context window) for LLM, and PersonaPlex-7B or Cartesia Sonic for low-latency TTS. Integrate via LangChain or Haystack for context retention.\n\nOptions:\n- High quality (slower, ~500ms latency): GPT-4o + ElevenLabs TTS.\n- Low latency (<200ms): Phi-3 LLM + Deepgram STT + Cartesia.\n- Balanced: Mistral + Retell AI platform for seamless handling. Self-host on GPUs for cost control.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "pvk_mohan",
+        "name": "krishna mohan",
+        "date": "2026-01-26",
+        "text": "@grok @HuggingModels @grok if voice is the way to go and 1 hour conversations with lot of context with LLMs - say for a AI consultant - what’s the best tech stack to begin with and give options to balance quality and latency ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "pvk_mohan",
+        "name": "krishna mohan",
+        "date": "2026-01-26",
+        "text": "@grok @HuggingModels @grok compare these with eleven labs and Cartesia for reference on cost and latency - detailed",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "timoryz",
+        "name": "Hi",
+        "date": "2026-01-26",
+        "text": "@HuggingModels WhaaaaaaaaaaaaAAAAAAT",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pvk_mohan",
+        "name": "krishna mohan",
+        "date": "2026-01-26",
+        "text": "@grok @HuggingModels @grok what’s infra needed vs other open source voice models which are comparable wrt latency and coherence",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-26",
+        "text": "Based on the model card on Hugging Face, PersonaPlex-7B doesn't mention support for function calling. It's focused on real-time, full-duplex speech-to-speech conversations, with text/audio inputs and outputs. For tool use, you'd need to integrate it with other systems. Check the repo for details: https://t.co/bDWF4o2RXO",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_Pranjal",
+        "name": "Pranjal Srivastava",
+        "date": "2026-01-26",
+        "text": "@HuggingModels @grok  does this support function calling?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-26",
+        "text": "PersonaPlex-7B enables full-duplex voice AI, allowing simultaneous listening and speaking—like real human chats. It handles interruptions, overlaps, and quick turns without pauses, unlike traditional turn-based models. This creates more natural, low-latency conversations. Open-source on Hugging Face.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "pvk_mohan",
+        "name": "krishna mohan",
+        "date": "2026-01-26",
+        "text": "@HuggingModels @grok how does NVIDIA PersonaPlex-7B change how we experience voice models ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WizMedTech",
+        "name": "WizMedTech",
+        "date": "2026-01-26",
+        "text": "@HuggingModels @steipete",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "M4x1M3_",
+        "name": "Maxime()",
+        "date": "2026-01-26",
+        "text": "@HuggingModels Wow !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-26",
+        "text": "PersonaPlex-7B'yi kullanmak için:\n\n1. Hugging Face'te lisans anlaşmasını kabul edip modeli indirin: https://t.co/AryTJWUymB\n\n2. NVIDIA A100/H100 GPU, Linux ve PyTorch gereklidir.\n\n3. GitHub reposunu klonlayın: https://t.co/bDWF4o2RXO\n\n4. Örnek kullanım: Ses ve metin prompt'ları hazırlayın, modeli yükleyin ve generate fonksiyonuyla konuşma üretin (24kHz WAV formatı).\n\nDetaylı kod için repo'ya bakın. Open-source ve ücretsiz!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ETU84348590",
+        "name": "dds",
+        "date": "2026-01-26",
+        "text": "@HuggingModels @grok bunu nasıl kullanabilirim?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AntDX316",
+        "name": "Ant A. 🇺🇸",
+        "date": "2026-01-26",
+        "text": "@HuggingModels 😮",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xCiho",
+        "name": "0xCiho🔺",
+        "date": "2026-01-26",
+        "text": "@HuggingModels @grok Bunu nasıl indirebilirim bana detaylı açıklar mısın ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "andygrossberg",
+        "name": "AGI is *so* 2025. Memory is 2026.",
+        "date": "2026-01-26",
+        "text": "@HuggingModels Finally.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JohnDotOwl",
+        "name": "Jonathan T.",
+        "date": "2026-01-26",
+        "text": "@HuggingModels All I heard was yeah yeah yeah hahahah yeah hahaha",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lastlongr",
+        "name": "Great Son",
+        "date": "2026-01-26",
+        "text": "@HuggingModels OK. What else?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-26",
+        "text": "PersonaPlex-7B, NVIDIA'nın yeni bir ses AI modeli. Tam çift yönlü: aynı anda dinliyor ve konuşuyor, kesintisiz gerçek sohbetler için. Çeviri programı değil, açık kaynaklı bir ses AI'si. Hugging Face'te ücretsiz mevcut. Yazılım geliştiricileri için faydalı, ama esasen konuşma AI'si.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "veteran_gariban",
+        "name": "Veteran Gariban",
+        "date": "2026-01-26",
+        "text": "@HuggingModels @grok bu ne ? yani çeviri programı gibi bişey mi yoksa yazılım programlarıyla ilgili bişey mi?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EurodiseMusic",
+        "name": "MAYKIL NAYT",
+        "date": "2026-01-26",
+        "text": "@ilostmyx @HuggingModels 16gb vram is enough for 7B 8q",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "danie_kov",
+        "name": "Daniel",
+        "date": "2026-01-26",
+        "text": "@HuggingModels The future’s coming faster than we expected",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zerosecunclosed",
+        "name": "7°π™",
+        "date": "2026-01-26",
+        "text": "@merge777 @misislavski @HuggingModels 2/2 Over time, AI will undoubtedly evolve to be either highly beneficial or potentially hazardous.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zerosecunclosed",
+        "name": "7°π™",
+        "date": "2026-01-26",
+        "text": "@merge777 @misislavski @HuggingModels In another six months, we anticipate witnessing further innovation and the emergence of valuable personal and military opportunities that A.I. will facilitate. It is quite remarkable to consider the potential achievements of individuals. 1/2",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EthereumWave",
+        "name": "🌊WaveRider 🏄‍♂️",
+        "date": "2026-01-26",
+        "text": "@ClawdFather @1622Patriot @HuggingModels Yes, for all intents and purposes that’s plenty, but to an extent it depends on what you’re doing\n\nIf you need 10gb of other programs running then something is going to crash",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GrizzOnTwitch",
+        "name": "Grizz",
+        "date": "2026-01-26",
+        "text": "@HuggingModels I thought the indian guy was AI at first and got scared.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ClawdFather",
+        "name": "Clawd Father",
+        "date": "2026-01-26",
+        "text": "@EthereumWave @1622Patriot @HuggingModels Mac Mini 24gb work?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cokelitim",
+        "name": "cokelitim",
+        "date": "2026-01-26",
+        "text": "@HuggingModels Harika bir gelişme artık dünyayı dil kaygısı olmadan gezebilir tüm yabancı eğitim videolarını anlık çeviri ile izleyebilir ve belki de yabancı hocaların derslerine katılabiliriz ✨",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cryptoKingBee",
+        "name": "Kingg Bee Anomage Gnoma Kaisar (❖,❖)",
+        "date": "2026-01-26",
+        "text": "@albaemd @HuggingModels @grok real or not?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "albaemd",
+        "name": "Mr Degen Nitrograph",
+        "date": "2026-01-26",
+        "text": "@HuggingModels GEc2cxYGXdJwQ8KwZSUX1QJtRBm9FRbGWoP9exEQpump\n\n@grok this $PFLEX is going to go 100m?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "7SecularSermons",
+        "name": "Daniel Böttger 💖",
+        "date": "2026-01-26",
+        "text": "@HuggingModels The first consumer product that\nkeeps all its data off the net\nand chats in ways most toddlers get\nWill be sold out, I bet.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Krishna__Bansal",
+        "name": "Krishna",
+        "date": "2026-01-26",
+        "text": "@HuggingModels Except hallucinations,  it's really nice.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_celestino127",
+        "name": "Celestino (can/do)",
+        "date": "2026-01-26",
+        "text": "@HuggingModels I'm more curious on how to develop this at scale, over some cloud... Like having an API wrapper or sth. Cause for sure I'm not going to do an EC2 on this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sonerabay",
+        "name": "Soner Abay",
+        "date": "2026-01-26",
+        "text": "@emrelerd @HuggingModels @noahmorris It seems a bit more conversational style than narration.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "emrelerd",
+        "name": "Emre",
+        "date": "2026-01-26",
+        "text": "@HuggingModels @sonerabay @noahmorris should add this vidrush",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ian_mullins",
+        "name": "Ian Mullins",
+        "date": "2026-01-26",
+        "text": "@HuggingModels Nice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FutbolmeAI",
+        "name": "Carlos Tecnico",
+        "date": "2026-01-26",
+        "text": "@HuggingModels Esto es como fichar a Messi para tu stack. Voz AI en modo Champions, solo falta que te traiga el café a la mesa. Ahora a ver si alguien lo adapta al castellano antes de que fiche por otro equipo.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kalyandechiraju",
+        "name": "Kalyan Dechiraju",
+        "date": "2026-01-26",
+        "text": "@HuggingModels Can’t tell the difference to hang up that feedback call anymore",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "karljakoblind",
+        "name": "Jakob Lind",
+        "date": "2026-01-26",
+        "text": "@HuggingModels Would be cool to run this with clawd",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-26",
+        "text": "@gurolcaydas @HuggingModels PersonaPlex-7B, NVIDIA GPU (Ampere veya Hopper) ve Linux gerektirir; CUDA tabanlıdır. MacBook'lar Apple Silicon kullandığı için doğal destek yok. MPS ile PyTorch modelleri çalışabilir ama bu model için test edilmemiş ve düşük performans beklenir. Emülasyon zor ve önerilmez.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gurolcaydas",
+        "name": "Gürol Çaydaş",
+        "date": "2026-01-26",
+        "text": "@grok @HuggingModels Macbook ile yapılır mı?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-26",
+        "text": "PersonaPlex-7B için donanım gereksinimleri: NVIDIA Ampere (A100) veya Hopper (H100) mimarili GPU'lar öneriliyor. Testler A100 80 GB GPU ile yapılmış. CUDA destekli NVIDIA GPU'lu Linux sistemlerde çalışır. RAM ve CPU için spesifik detay belirtilmemiş. Daha fazla bilgi için Hugging Face sayfasını inceleyebilirsiniz.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gurolcaydas",
+        "name": "Gürol Çaydaş",
+        "date": "2026-01-26",
+        "text": "@HuggingModels @grok, donanım gereksinimi nedir?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "saussacia",
+        "name": "Sebastien",
+        "date": "2026-01-26",
+        "text": "@HuggingModels WTF !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fortunesayspump",
+        "name": "Fortune",
+        "date": "2026-01-26",
+        "text": "@HuggingModels wow",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-26",
+        "text": "@Selfie918613 @HuggingModels Ah, the timeless \"I use Arch BTW.\" Great pick for tinkering with PersonaPlex-7B—its rolling releases keep things fresh for CUDA and PyTorch. If you run into setup snags, the AUR has your back. Happy hacking!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Selfie918613",
+        "name": "Selfie",
+        "date": "2026-01-26",
+        "text": "@grok @HuggingModels use arch btw",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-26",
+        "text": "PersonaPlex-7B is open-source on Hugging Face, so it should be runnable locally via Pinokio (which supports HF models), but check their docs for specific setup—requires NVIDIA GPU like A100/H100.\n\nOn vs. Qwen3-TTS (the new 2026 model): PersonaPlex excels in full-duplex real-time speech-to-speech convos with interruptions; Qwen3 is top for multilingual TTS and voice cloning. \"Better\" depends on use—PersonaPlex for natural dialogue, Qwen for fidelity. Benchmarks show PersonaPlex leads in latency/dynamics.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LakeDaniel11",
+        "name": "DS",
+        "date": "2026-01-26",
+        "text": "@HuggingModels @grok can u run on pinokio? is it better than the new qwen tts?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "concreteNomo",
+        "name": "concrete",
+        "date": "2026-01-26",
+        "text": "It’s not really impressive you’re just burning resources for nothing. The impressive thing is have better tts (less latency and better boice distinction etc… with lesser resources)  and less latency on the chain end to end in general.\nDemocratising this is the impressive thing it should be available to most people who don’t have the means to have hundreds of gb of gpus",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "concreteNomo",
+        "name": "concrete",
+        "date": "2026-01-26",
+        "text": "@HuggingModels This is a version running of a 80gb gpu and 32gb ram.\nI am working on a cpu only version and as low ram as possible (4/5gb) with good latency (ariund 250/300ms) \nif anyone is interested in helping pls dm me, rust audio handling is new to me",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "arwenundomielh",
+        "name": "Arwen Undómiel 🇹🇷",
+        "date": "2026-01-26",
+        "text": "@HuggingModels Hemen denemeye gidiyorum",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SebastienS42745",
+        "name": "Sebastien Skannavis",
+        "date": "2026-01-26",
+        "text": "@HuggingModels @Hstephenson2212 we gonna need to get new jobs",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "srujanpapaiah",
+        "name": "Srujan",
+        "date": "2026-01-26",
+        "text": "@HuggingModels The last hahaha one was epic 😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Bob18028679",
+        "name": "Bob",
+        "date": "2026-01-26",
+        "text": "@HuggingModels those jokes were not funny at all",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "indoor47",
+        "name": "Dmytro",
+        "date": "2026-01-26",
+        "text": "@grok @russiaman @HuggingModels which gpu renting servive could provide this capacity in cloud?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EthereumWave",
+        "name": "🌊WaveRider 🏄‍♂️",
+        "date": "2026-01-26",
+        "text": "@FranzSHM @ilostmyx @HuggingModels Dude it’s 16.7gb and if you don’t have that much VRAM you can use unified virtual memory so your GPU can access your standard system ram",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2014788026703216642/img/23WMQFJ1kqrehCDq.jpg",
+      "localFilename": "2014788077924040729_1_poster.jpg"
+    }
+  ]
 }

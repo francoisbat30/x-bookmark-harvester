@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:14:15.994Z",
+  "tweetId": "1979229672790434149",
+  "post": {
+    "url": "https://x.com/NotebookLM/status/1979229672790434149",
+    "author": {
+      "handle": "NotebookLM",
+      "name": "NotebookLM"
+    },
+    "date": "2025-10-17",
+    "text": "The updates keep coming— you can now discover new sources in the @NotebookLM mobile app! \n\nWhether you're expanding an existing notebook or deep diving into a new topic, just type what you want to learn about and NotebookLM will browse the web for the most relevant results. https://t.co/znDLcLI19J",
+    "thread": [
+      {
+        "id": "1979229672790434149",
+        "text": "The updates keep coming— you can now discover new sources in the @NotebookLM mobile app! \n\nWhether you're expanding an existing notebook or deep diving into a new topic, just type what you want to learn about and NotebookLM will browse the web for the most relevant results. https://t.co/znDLcLI19J"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1979229642847322112/vid/avc1/720x1280/OQOSzhK-tiMSV_xk.mp4?tag=14",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1979229642847322112/img/phlWofJSAwOvJUS4.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1265,
+      "retweets": 140,
+      "replies": 60,
+      "views": 119153
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1979229642847322112/img/phlWofJSAwOvJUS4.jpg",
+      "localFilename": "1979229672790434149_1_poster.jpg"
+    }
+  ]
+}

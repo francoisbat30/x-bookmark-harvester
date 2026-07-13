@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:48.364Z",
+  "fetchedAt": "2026-07-13T06:49:23.415Z",
   "tweetId": "1986723014352966019",
   "post": {
     "url": "https://x.com/sujon_co/status/1986723014352966019",
@@ -10,6 +11,12 @@
     },
     "date": "2025-11-07",
     "text": "Finance Dashboard Design https://t.co/WPYA4AumLq",
+    "thread": [
+      {
+        "id": "1986723014352966019",
+        "text": "Finance Dashboard Design https://t.co/WPYA4AumLq"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,315 @@
       }
     ],
     "metrics": {
-      "likes": 430,
+      "likes": 426,
       "retweets": 24,
-      "replies": 34,
-      "views": 14877
+      "replies": 33,
+      "views": 14919
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "tenz16k",
+        "name": "Seraphim🪽",
+        "date": "2025-11-14",
+        "text": "@sujon_co Can you tell me your physiology when you are making dashboards please mention some resources you learned from",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "u0life",
+        "name": "u0life",
+        "date": "2025-11-09",
+        "text": "@sujon_co Looks good",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KairosKreator",
+        "name": "ĸαιroѕ ♅",
+        "date": "2025-11-08",
+        "text": "@sujon_co Looks clean",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ZumiStudio_",
+        "name": "Maryam | Zumi Studio",
+        "date": "2025-11-08",
+        "text": "@sujon_co Good work",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AkhileshhMaurya",
+        "name": "Akhilesh Maurya",
+        "date": "2025-11-08",
+        "text": "@sujon_co Clean..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MarceloDesignX",
+        "name": "Marcelo Design X",
+        "date": "2025-11-08",
+        "text": "@sujon_co Great work. I like the font",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "winner_UIUX",
+        "name": "YourDesigner",
+        "date": "2025-11-08",
+        "text": "@sujon_co I love the interface, it’s giving a modern and fresh look!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "m0shiur",
+        "name": "Moshiur Rahman",
+        "date": "2025-11-08",
+        "text": "@sujon_co Amazing! but ib real application, theres a lot more data to deal with.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "omooladev",
+        "name": "omooladev",
+        "date": "2025-11-08",
+        "text": "@sujon_co I always ask how dashboard like this would look on mobile. This is cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mezarioHQ",
+        "name": "Mezario",
+        "date": "2025-11-08",
+        "text": "@sujon_co Looks super clean and organized Loving the layout.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Dev0_Kartik",
+        "name": "Kartik",
+        "date": "2025-11-08",
+        "text": "@sujon_co Wow",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "2ty3ree",
+        "name": "23",
+        "date": "2025-11-08",
+        "text": "@sujon_co I Love This..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "arthur_gif",
+        "name": "Arthur",
+        "date": "2025-11-08",
+        "text": "@sujon_co Great Sujon",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ronak_bokaria",
+        "name": "Ronak Bokaria",
+        "date": "2025-11-08",
+        "text": "@sujon_co Very clean and new 🆕",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tamiloreayo1",
+        "name": "OluwaTamilore",
+        "date": "2025-11-08",
+        "text": "@sujon_co This is good work man, love your creativity with colors",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Minii_Pekkaa",
+        "name": "Atharv",
+        "date": "2025-11-08",
+        "text": "@sujon_co Clean 🫡",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NaivaidyaY66600",
+        "name": "Navi",
+        "date": "2025-11-08",
+        "text": "@sujon_co It looks clean, loved the greenish theme 😌",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "selfhack_app",
+        "name": "SelfHack",
+        "date": "2025-11-08",
+        "text": "@sujon_co Fresh and clean",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "appdriftco",
+        "name": "AppDrift - More Markets. More MRR",
+        "date": "2025-11-08",
+        "text": "@sujon_co Looks from 2050",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "keziaelee",
+        "name": "Kezia",
+        "date": "2025-11-08",
+        "text": "@sujon_co Amazing",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Focotik",
+        "name": "FocoTik",
+        "date": "2025-11-08",
+        "text": "@sujon_co This is pure perfection",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fastweb247",
+        "name": "Fast Web Studio",
+        "date": "2025-11-08",
+        "text": "@sujon_co Great work and clean",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "becca_uiux",
+        "name": "Rebecca Adisa",
+        "date": "2025-11-08",
+        "text": "@sujon_co Very clean design. I wanted to ask, is the content in the top navigation the same as the side bar?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pixelnaiem",
+        "name": "Naiem Islam",
+        "date": "2025-11-08",
+        "text": "@sujon_co Nice work",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TukiFromKL",
+        "name": "Tuki",
+        "date": "2025-11-07",
+        "text": "@sujon_co Looks good",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "uiuxabid",
+        "name": "Abid I.",
+        "date": "2025-11-07",
+        "text": "@sujon_co So clean and user friendly 👍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Noah_uiux",
+        "name": "Unuigbokhai Noah",
+        "date": "2025-11-07",
+        "text": "@sujon_co Been seeing alot of cool dashboards lately.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nawshad_uix",
+        "name": "Nawshad",
+        "date": "2025-11-07",
+        "text": "@sujon_co Great work!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sirajdhanani12",
+        "name": "Siraj Dhanani • Design Partner",
+        "date": "2025-11-07",
+        "text": "@sujon_co Dope work Sujon",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shivangshah_",
+        "name": "Shivang",
+        "date": "2025-11-07",
+        "text": "@sujon_co try reducing the space between the cards",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "redcollars",
+        "name": "Red Collar",
+        "date": "2025-11-07",
+        "text": "@sujon_co The typography hierarchy is super clean – which font are you using for headings?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ansif_developer",
+        "name": "Ansif | Webflow Designer & Developer",
+        "date": "2025-11-07",
+        "text": "@sujon_co Cool one!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lswrks",
+        "name": "Luka Salukvadze",
+        "date": "2025-11-07",
+        "text": "@sujon_co nice one!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G5JCDHSbUAAtAqi.jpg",
+      "localFilename": "1986723014352966019_1.jpg"
+    }
+  ]
 }

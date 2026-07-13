@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:09:58.670Z",
+  "tweetId": "2074176934016110700",
+  "post": {
+    "url": "https://x.com/Jouhatsu_ai/status/2074176934016110700",
+    "author": {
+      "handle": "Jouhatsu_ai",
+      "name": "Jouhatsu | AI Influence Operator"
+    },
+    "date": "2026-07-06",
+    "text": "L'INGÉNIEUR EN CHEF D'ANTHROPIC A ACCIDENTELLEMENT LEAKÉ SON COFFRE OBSIDIAN PERSONNEL. \n\nÀ L'INTÉRIEUR, AUCUN CODE, AUCUN PROMPT. \n\nJUSTE UN SCHÉMA DE SON PROPRE ESPRIT, CONSTRUIT COMME UN RÉSEAU DE NEURONES.\n\n8 893 nœuds. 4 729 liens. Une appli à 10 $ par mois.\n\nIl ouvre Obsidian. 21 entrées, 10+ couches cachées, activation ReLU. \n\nPremière couche 64 neurones, puis 37, puis 22, jusqu'à la sortie. Des milliers de connexions qui s'activent en temps réel.\n\nCe n'est pas un schéma conceptuel tiré d'un blog, c'est un cerveau vivant qui fait tourner de vraies décisions au sein de l'entreprise. \n\n9 000 documents, chacun son propre espace de connaissance, tous interconnectés.\n\nIl gagne environ 2 M$ par an à ranger des fichiers markdown dans les bons dossiers. \n\nL'entreprise qui construit la meilleure IA au monde gère sa connaissance interne avec la même appli qu'un étudiant de première année utilise pour ses notes de cours.\n\nIl n'a pas écrit une seule ligne d'infrastructure pour tout ça. Trois ans de discipline et un onglet Obsidian ouvert.\n\nTu lis ceci sur un appareil où tu pourrais ouvrir le même Obsidian ce soir et commencer à construire ton propre coffre.",
+    "thread": [
+      {
+        "id": "2074176934016110700",
+        "text": "L'INGÉNIEUR EN CHEF D'ANTHROPIC A ACCIDENTELLEMENT LEAKÉ SON COFFRE OBSIDIAN PERSONNEL. \n\nÀ L'INTÉRIEUR, AUCUN CODE, AUCUN PROMPT. \n\nJUSTE UN SCHÉMA DE SON PROPRE ESPRIT, CONSTRUIT COMME UN RÉSEAU DE NEURONES.\n\n8 893 nœuds. 4 729 liens. Une appli à 10 $ par mois.\n\nIl ouvre Obsidian. 21 entrées, 10+ couches cachées, activation ReLU. \n\nPremière couche 64 neurones, puis 37, puis 22, jusqu'à la sortie. Des milliers de connexions qui s'activent en temps réel.\n\nCe n'est pas un schéma conceptuel tiré d'un blog, c'est un cerveau vivant qui fait tourner de vraies décisions au sein de l'entreprise. \n\n9 000 documents, chacun son propre espace de connaissance, tous interconnectés.\n\nIl gagne environ 2 M$ par an à ranger des fichiers markdown dans les bons dossiers. \n\nL'entreprise qui construit la meilleure IA au monde gère sa connaissance interne avec la même appli qu'un étudiant de première année utilise pour ses notes de cours.\n\nIl n'a pas écrit une seule ligne d'infrastructure pour tout ça. Trois ans de discipline et un onglet Obsidian ouvert.\n\nTu lis ceci sur un appareil où tu pourrais ouvrir le même Obsidian ce soir et commencer à construire ton propre coffre."
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2074176325732966400/vid/avc1/1914x1076/VF966A2bZ02GjblN.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2074176325732966400/img/MdYw-svj2wpmgMGf.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1140,
+      "retweets": 122,
+      "replies": 19,
+      "views": 427676
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2074176325732966400/img/MdYw-svj2wpmgMGf.jpg",
+      "localFilename": "2074176934016110700_1_poster.jpg"
+    }
+  ]
+}

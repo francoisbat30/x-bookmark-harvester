@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:10:05.846Z",
+  "tweetId": "2076073296823509248",
+  "post": {
+    "url": "https://x.com/Polymarket/status/2076073296823509248",
+    "author": {
+      "handle": "Polymarket",
+      "name": "Polymarket"
+    },
+    "date": "2026-07-11",
+    "text": "NEW: Study reveals LinkedIn is the most AI-saturated major social platform, with over 40% of long-form posts flagged as fully AI-generated “slop.”",
+    "thread": [
+      {
+        "id": "2076073296823509248",
+        "text": "NEW: Study reveals LinkedIn is the most AI-saturated major social platform, with over 40% of long-form posts flagged as fully AI-generated “slop.”"
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 22359,
+      "retweets": 1749,
+      "replies": 563,
+      "views": 2102278
+    },
+    "comments": []
+  }
+}

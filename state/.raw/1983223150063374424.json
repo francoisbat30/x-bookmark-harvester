@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:30.425Z",
+  "tweetId": "1983223150063374424",
+  "post": {
+    "url": "https://x.com/SHIVANIGERA5/status/1983223150063374424",
+    "author": {
+      "handle": "SHIVANIGERA5",
+      "name": "SHIVANI GERA"
+    },
+    "date": "2025-10-28",
+    "text": "How to Use ChatGPT to Master Excel; https://t.co/tw8pszi7es",
+    "thread": [
+      {
+        "id": "1983223150063374424",
+        "text": "How to Use ChatGPT to Master Excel; https://t.co/tw8pszi7es"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G4XS8cXXsAAqbps.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 416,
+      "retweets": 63,
+      "replies": 37,
+      "views": 39961
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G4XS8cXXsAAqbps.jpg",
+      "localFilename": "1983223150063374424_1.jpg"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:12:04.684Z",
+  "tweetId": "2036182446023254412",
+  "post": {
+    "url": "https://x.com/RoundtableSpace/status/2036182446023254412",
+    "author": {
+      "handle": "RoundtableSpace",
+      "name": "0xMarioNawfal"
+    },
+    "date": "2026-03-23",
+    "text": "Claude + SEO is one of the hottest things on my timeline right now\n\nIf you run a business and don’t use agents for SEO you’re going to fall behind significantly \n\nFeed this to Claude and thank me later https://t.co/epwP4yHYbU",
+    "thread": [
+      {
+        "id": "2036182446023254412",
+        "text": "Claude + SEO is one of the hottest things on my timeline right now\n\nIf you run a business and don’t use agents for SEO you’re going to fall behind significantly \n\nFeed this to Claude and thank me later https://t.co/epwP4yHYbU"
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 158,
+      "retweets": 16,
+      "replies": 16,
+      "views": 94480
+    },
+    "comments": []
+  }
+}

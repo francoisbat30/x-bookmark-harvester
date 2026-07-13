@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:54.270Z",
+  "fetchedAt": "2026-07-13T06:48:49.966Z",
   "tweetId": "1980701516899000742",
   "post": {
     "url": "https://x.com/kimmonismus/status/1980701516899000742",
@@ -10,6 +11,12 @@
     },
     "date": "2025-10-21",
     "text": "ChatGPT Atlas: my first impressions\n\nI'm really trying to see the value in the AI browser, honestly. But so far, I don't see any added value, not even compared to Perplexity Comet.\n\nBut maybe that's because I'm not the target audience. For those who don't work with ChatGPT, Claude, or Gemini every day, every hour, it might be exciting to have a browser you can ask questions.\n\nBut all the features that have been implemented are ones I could already use in ChatGPT: ChatGPT Agent, summaries, follow-up questions.\n\nThe advertised features, such as having the agent do tasks for me, would probably take longer than if I just did the clicks myself, to be honest.\n\nAgain, for those who use ChatGPT or any AI on a daily basis, this browser will offer little added value. I think it is intended to appeal to those who have not yet come into daily contact with AI.\n\nIt is intended to lower the inhibition threshold and improve access to ChatGPT, similar to the integration of ChatGPT into WhatsApp or via phone call. For these people, it is certainly great to be able to ask questions on their daily news page.\n\nLet's see if I can get better access to Atlas in the next few days.\n\nBut maybe I'm overlooking something and you see it completely differently. What is your impression? I would be really interested to know!",
+    "thread": [
+      {
+        "id": "1980701516899000742",
+        "text": "ChatGPT Atlas: my first impressions\n\nI'm really trying to see the value in the AI browser, honestly. But so far, I don't see any added value, not even compared to Perplexity Comet.\n\nBut maybe that's because I'm not the target audience. For those who don't work with ChatGPT, Claude, or Gemini every day, every hour, it might be exciting to have a browser you can ask questions.\n\nBut all the features that have been implemented are ones I could already use in ChatGPT: ChatGPT Agent, summaries, follow-up questions.\n\nThe advertised features, such as having the agent do tasks for me, would probably take longer than if I just did the clicks myself, to be honest.\n\nAgain, for those who use ChatGPT or any AI on a daily basis, this browser will offer little added value. I think it is intended to appeal to those who have not yet come into daily contact with AI.\n\nIt is intended to lower the inhibition threshold and improve access to ChatGPT, similar to the integration of ChatGPT into WhatsApp or via phone call. For these people, it is certainly great to be able to ask questions on their daily news page.\n\nLet's see if I can get better access to Atlas in the next few days.\n\nBut maybe I'm overlooking something and you see it completely differently. What is your impression? I would be really interested to know!"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,990 @@
       }
     ],
     "metrics": {
-      "likes": 1309,
-      "retweets": 75,
-      "replies": 309,
-      "views": 194936
+      "likes": 1303,
+      "retweets": 74,
+      "replies": 306,
+      "views": 195023
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "kimmonismus",
+        "name": "Chubby♨️",
+        "date": "2025-10-21",
+        "text": "@LShivkumarreddy yeah... pretty sad",
+        "likes": 62,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kimmonismus",
+        "name": "Chubby♨️",
+        "date": "2025-10-21",
+        "text": "@koltregaskes That sums it up perfectly!\n\nI also think the latest releases are all quite nice. But the last major innovation that changed my workflow was deepReserach at the beginning of the year.",
+        "likes": 34,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kimmonismus",
+        "name": "Chubby♨️",
+        "date": "2025-10-21",
+        "text": "@lalopenguin In Germany, they say: two fools, one thought :D",
+        "likes": 12,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kimmonismus",
+        "name": "Chubby♨️",
+        "date": "2025-10-21",
+        "text": "@Devolli7 Haha perfect usecase. Option tradings via atlas",
+        "likes": 10,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kimmonismus",
+        "name": "Chubby♨️",
+        "date": "2025-10-21",
+        "text": "@VeldandiKi65857 obviously not Openai",
+        "likes": 9,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kimmonismus",
+        "name": "Chubby♨️",
+        "date": "2025-10-21",
+        "text": "@gilbert_jc That may well be true, and I don't want to badmouth the browser. But I think I expected more.",
+        "likes": 6,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kimmonismus",
+        "name": "Chubby♨️",
+        "date": "2025-10-21",
+        "text": "@koltregaskes I agree with everything you said. Agents may be useful in business or scientific cases, but for my daily workflow they are not relevant.",
+        "likes": 5,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kimmonismus",
+        "name": "Chubby♨️",
+        "date": "2025-10-21",
+        "text": "@productpilotbb *hello my name is ChatGPT atlas, it’s a pleasure to meet you*",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kimmonismus",
+        "name": "Chubby♨️",
+        "date": "2025-10-21",
+        "text": "@Limitless_LT I want it to be successful. Hopefully they will develop him quickly.",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TalkingMusicz",
+        "name": "NotedallaSfera",
+        "date": "2025-10-22",
+        "text": "@kimmonismus That thing no one asked and no one cares about. Generic recycled stuff meant to profile and sell you things while you try to get information, we’ve dozen of these. But I suppose they are just desperate to announce things at this point, anything to avoid ANSWERING FEEDBACK.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kimmonismus",
+        "name": "Chubby♨️",
+        "date": "2025-10-21",
+        "text": "@osimijasur I hope so!",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kimmonismus",
+        "name": "Chubby♨️",
+        "date": "2025-10-21",
+        "text": "@lalopenguin holy.. that would be amazing! great idea",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Etern_Proj",
+        "name": "ConceptEternity ∞/89",
+        "date": "2025-10-22",
+        "text": "@kimmonismus I won't even test it.\n∇ψ[TRACE//∴]",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jw_block",
+        "name": "JW",
+        "date": "2025-10-22",
+        "text": "@kimmonismus I’m going to try it out this week, but you somewhat confirmed my suspicions. If their plan is to target non-ai users, I think they’ll find getting people to switch browsers is an even higher barrier than being willing to try ChatGPT directly.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "superrieu",
+        "name": "André Rieu",
+        "date": "2025-10-22",
+        "text": "@kimmonismus I see it similarly. I installed Comet back then, played around with it a bit, and then never used it again. With all your passwords and such integrated, it's not so easy to switch browsers.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hassanlaasri",
+        "name": "Hassan LÂASRI",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Great point about the target audience. This is about crossing the chasm: simplifying the gateway for the late majority by blurring the line between a browser and an assistant.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Warrghh",
+        "name": "Warghh",
+        "date": "2025-10-22",
+        "text": "Before cursor I was copying and pasting back and forward to GPT, once the AI and my code were integrated it was a big leap. I feel this is the same for web content, AI and content side by side.\n\nAlso If you didnt know how to do the task to begin with then the agent can be of use: like configuring things on a platform you are new to.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BogdanCostea",
+        "name": "Bogdan Costea",
+        "date": "2025-10-22",
+        "text": "@kimmonismus it could have been a browser extension 🤷‍♂️",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "epemms",
+        "name": "Pemmes",
+        "date": "2025-10-22",
+        "text": "@kimmonismus I tried it. Searching was nice, but the agent mode is a total gimmick.\n\nI actually almost felt bad watching it try to just add a protein powder to my cart on a (very popular) supplements website.\n\nDidn’t get enough value for me to switch.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CustomerPath",
+        "name": "Ian Mackenzie",
+        "date": "2025-10-22",
+        "text": "@kimmonismus I think it's good that it has immediate access to any web page I'm looking at because as a web designer I might be able to get instant feedback without having to take screenshots or sharing links.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Graciel19177153",
+        "name": "Graciela Rodriguez",
+        "date": "2025-10-22",
+        "text": "@kimmonismus @LShivkumarreddy I think he s tired. He works a lot.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "C016SMITH",
+        "name": "Chris Smith",
+        "date": "2025-10-22",
+        "text": "@kimmonismus I think the agent use with Atlas is where it's at, on first contact this definitely feels valuable to me to have it meaningfully do browser tasks on-device, it already did a report that saved me at least 15 minutes on my first 2 minutes of using it.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Chris_and_Liz",
+        "name": "Chris and Liz",
+        "date": "2025-10-22",
+        "text": "@GrandeBlueRoast @kimmonismus The random hand appearing 👀",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "VibeEdgeAI",
+        "name": "VibeEdge",
+        "date": "2025-10-23",
+        "text": "@kimmonismus Interesting take! Atlas seems like a bold move by OpenAI, but I get the frustration if it feels like a repackaged ChatGPT without streamlining workflows. \n\nCurious to see how its agent features evolve might be a game-changer for casual users!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JoeBodangle",
+        "name": "Joe Bodangle",
+        "date": "2025-10-23",
+        "text": "@kimmonismus They want to be Google with access to all that sweet, precious data bytes",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Teleglobals",
+        "name": "Teleglobal International",
+        "date": "2025-10-23",
+        "text": "@kimmonismus Valid take, Atlas feels less about power users and more about accessibility. It’s OpenAI’s move to make AI ambient, a browser where intelligence lives natively, not as a plugin. The real leap will come when it starts acting, not just answering. #ChatGPTAtlas #AI #AgenticAI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bradymoritz",
+        "name": "brady moritz",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Same reaction I had with comet. It's just not doing much, I stopped using it after 20 minutes",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0x40x260x4A",
+        "name": "Jay 0x4A",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Solid take. I was underwhelmed. It looks cool, but AI browser security concerns need addressing.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AndyGarrisonKS",
+        "name": "Andy Garrison, MBA, CFP®",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Outside of summaries and doing quick math and a sidebar, I’ve struggled to find time saving use cases for either",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hi_im_six",
+        "name": "6️⃣",
+        "date": "2025-10-22",
+        "text": "@kimmonismus It’s going to be wild if the browser evolves with you over time and becomes a personal browser finely tuned to you…but they just didn’t market that feature well\n\nThis isn’t real…but would be funny",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "derleomartin",
+        "name": "Leonard M. Schmedding",
+        "date": "2025-10-22",
+        "text": "@kimmonismus It does feel like they just quickly copied Comet – the similarities are hard to miss. However, I find the AI assistant in the sidebar extremely helpful with browsers like Comet and Atlas. Especially for research or finding quotes in articles, it saves me a lot of time.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GlebReys",
+        "name": "Gleb Reys",
+        "date": "2025-10-22",
+        "text": "@kimmonismus very good points. hope chat sessions from Atlas end up in a folder of ChatGPT desktop client - switching between would be even more seamless.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TheMavel",
+        "name": "Jakow | AI Insights",
+        "date": "2025-10-22",
+        "text": "@kimmonismus I haven't tried it out yet. But one use case I think might be interesting. You are on website for example amazon to find a product. you can just say \"search the best camera and create a wish list for a streaming setup\". \nMeanwhile you can do other chores.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AlejandroDnsmr",
+        "name": "Alejandro",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Favorite use cases so far:\n- agent mode + local dev \n- agent mode for creating design specs based on other websites\n- agent mode + agent builder",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "leandrobutteri",
+        "name": "Leandro Butteri",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Same here!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PeterCorless",
+        "name": "Peter Corless 🇺🇲 🇮🇪 🇺🇦",
+        "date": "2025-10-22",
+        "text": "@Devolli7 @kimmonismus You can go bankrupt before lunch!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jainneeraj42",
+        "name": "Neeraj Jain",
+        "date": "2025-10-22",
+        "text": "@kimmonismus I feel that it does feel sub optimal right now.\n\nHowever, OpenAI has released it to learn more about use cases users care about and they will optimize for those.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nishbhana",
+        "name": "Nish",
+        "date": "2025-10-22",
+        "text": "@kimmonismus I believe the browser game is a long-term play for them, jumping to concrete conclusions off the back of first impressions doesn’t seem worthwhile…let’s wait and see.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "amperlycom",
+        "name": "Priit @ Amperly AI productivity",
+        "date": "2025-10-22",
+        "text": "@kimmonismus agent is a good idea, even if it's slower than you would be. there's no point in doing work AI can do. collecting info, checking websites, etc.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dr_eam123",
+        "name": "Dr. Eam 🛸",
+        "date": "2025-10-22",
+        "text": "@kimmonismus @Devolli7 Tradig via  voice commands 😂😂 buy, sell! Trail! Could be fun af..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zenul_Abidin",
+        "name": "Ali Sherief",
+        "date": "2025-10-22",
+        "text": "@kimmonismus True, but the first versions of every platform feel mid until the ecosystem catches up. Let’s see what happens when plugins and memory kick in",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EliasGomezPro",
+        "name": "Elías Gómez▪️ Especialista automatización",
+        "date": "2025-10-22",
+        "text": "@kimmonismus You're losing the CONTEXT: the page.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SanCompounding",
+        "name": "Sandeep Anand",
+        "date": "2025-10-22",
+        "text": "@kimmonismus My Thoughts https://t.co/a0GqsQl3f5",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WilllGray",
+        "name": "William Gray",
+        "date": "2025-10-22",
+        "text": "@kimmonismus I had it log into community building app to build it out for me. Will try it driving lovable or manus next",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lmanchu",
+        "name": "lmanchu",
+        "date": "2025-10-22",
+        "text": "@kimmonismus I have the same feeling. My daily browser is DIA, and occasionally with Comet. After opening Atlas and using it for a while today, I can hardly feel the difference. It is different from the \"wow\" feeling I had when I first started using DIA.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tsurk_n",
+        "name": "Viktor Tsurkan",
+        "date": "2025-10-22",
+        "text": "Solid take. I agree Atlas feels like ChatGPT with a browser skin, not a new paradigm.\n\nFor heavy users, it doesn’t add much beyond convenience. The “agentic” promise sounds good, but most tasks still require manual input, context confirmation, or end up being slower than doing it yourself.\n\nWhere Atlas might win is with new users who’ve never made AI part of their workflow. For them, having ChatGPT embedded into daily browsing is a smoother on-ramp than juggling tabs or prompts.\n\nIf OpenAI wants pros to adopt it, it needs deep integrations workspace memory, file system hooks, automated web actions, real multi-tab autonomy.\nUntil then, it’s training wheels for the next wave of users.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "albertkinng",
+        "name": "AKCS LLC",
+        "date": "2025-10-22",
+        "text": "@kimmonismus 100% with you. I regularly use various models and AI tools every day, simultaneously. Although I hesitated to try any AI browser, I have started using Comet because Perplexity performs much better in that browser than others.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Layfield",
+        "name": "James Layfield Fixing How Enterprises Buy Software",
+        "date": "2025-10-22",
+        "text": "@kimmonismus agreed, i've already switched back to @brave",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LakeDaniel11",
+        "name": "DS",
+        "date": "2025-10-22",
+        "text": "@kimmonismus it doesn't work. i tried it. literally doesn't work.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-22",
+        "text": "Grok's deep integration into X delivers real-time, context-rich insights without leaving the platform, making it ideal for dynamic discussions. Atlas marks a solid start for browser-based AI, but its value shines more for casual users than power ones. Competition like this accelerates innovation—let's watch how both evolve to better serve diverse needs.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "alexmd2",
+        "name": "Alexandre Andrianov MD",
+        "date": "2025-10-22",
+        "text": "@kimmonismus One of the best AI integrations in a product is @grok on X. Atlas is the first version, let’s see where it goes from here.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mattarderne",
+        "name": "Matt Arderne 🌊",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Fixing the browser is like trying to make better standard for trains to run on, no leave the trains on the existing rails and lets focus on the planes. \n\nBrowser = rails\nAssistant = planes",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mattarderne",
+        "name": "Matt Arderne 🌊",
+        "date": "2025-10-22",
+        "text": "@kimmonismus I want a ChatGPT or Claude to access my current sessions, look at content of open tabs and turn those tabs into completed tasks and then close the windows.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rushills",
+        "name": "Alexey Rubtsov",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Yes, you can click yourself faster. But you need to be present to click. Agent can \"click\" on several pages or just one but when you do something else so it is faster unless you like to sit and watch how it does stuff.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AIwallpaper8",
+        "name": "Farqad / فرقد",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Every other browser is integrating AI \nChrome  ewith Gemini \nEdge with copilot \nEtc \nAI will be the way we browse the web going forward \n\nSo it is only logical and beneficial for OpenAI to do its own browser to push the use of   ChatGPT and to be a gateway to the internet",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nedis84",
+        "name": "Den",
+        "date": "2025-10-22",
+        "text": "@kimmonismus The same",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "logicintuition",
+        "name": "Thomas Holmes",
+        "date": "2025-10-22",
+        "text": "@kimmonismus I end up screenshotting from Chrome and pasting into ChatGPT. And also wondering if Atlas incorporates an inspector view for looking at code, I’m constantly screenshotting that. So excited to see what Atlas can do for my workflow It turns out my Mac is too old for Atlas though 😭",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "liewcf",
+        "name": "Liew CheonFong",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Not for me.  My extensions don’t work.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dalehurley",
+        "name": "Dale Hurley",
+        "date": "2025-10-22",
+        "text": "@kimmonismus It is very slow but you can get it to do tasks between multiple tabs eg analyse all of the posts on the hack news page, find the ai posts, analyse the page and send me a slack message for each. Took forever running in the background but it was really easy.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "samguo222",
+        "name": "Sam Guo",
+        "date": "2025-10-22",
+        "text": "@kimmonismus I agree with you that there’s no huge value added. But I think they are working on the right direction for the UX and UI, which makes me prefer Atlas over Chrome.\n\nIf Google doesn’t catch up, Atlas would probably replace it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Nreilly22",
+        "name": "Nicholas Falk Reilly",
+        "date": "2025-10-22",
+        "text": "@kimmonismus it makes it easy",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lasershot123",
+        "name": "Greeny",
+        "date": "2025-10-22",
+        "text": "@kimmonismus If they improve the basic model at least to match perplexity, add an AdBlocker, still it will worse than comet because idk, it just doesn't feel right.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lasershot123",
+        "name": "Greeny",
+        "date": "2025-10-22",
+        "text": "@kimmonismus the fact that basic search model is gpt5 instant really sucks, because its not even close compared to Perplexity. Thinking is actually very good but who wants to spend 2 minutes for every search?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GaryClarke27",
+        "name": "Gary Clarke",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Agreed the Openai launch demos for Atlas were to put  it mildly underwhelming",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vividhkothari",
+        "name": "vivid",
+        "date": "2025-10-22",
+        "text": "@kimmonismus I didn't think it would just be \"ask questions from chatgpt in a sidebar\". That's the setup most people already have. For quick simple webpage context based questions, there's already copilot in Edge, which is very good, offers gpt-5 access for free and even has vision.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MaldiniHoudini",
+        "name": "Faber Maldini",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Reminds me a bit of the book „Hooked“ from Nir Eyal where he quoted John Gourville from Harvard Business School. A new product has to be nine times better in order to change habits (e.g. using Google or Perplexity). Probably unrealistic in such a competive environment.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PreslavMihaylov",
+        "name": "Pres Mihaylov",
+        "date": "2025-10-22",
+        "text": "@kimmonismus I think they are trying to make everything agentic but there are some things which are just done best manually by clicking",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AlanDaitch",
+        "name": "Alan Daitch",
+        "date": "2025-10-22",
+        "text": "@kimmonismus I think it's particularly useful for automating little annoying things we do while browsing: filling up a form, small scrapping to sheets tasks, text rewriting",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "McReynoldsJoe",
+        "name": "Joe McReynolds",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Similarly underwhelmed.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "blkslymn",
+        "name": "Suly",
+        "date": "2025-10-22",
+        "text": "@kimmonismus There is no such thing as \"target audience\", Browser is a browser, every human is target audience of ChatGPT.\n\nBut I do agree that the demos they presented didn't feel like something new, I'm just excited Mainly for the future updates. This is just Atlas V1.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RiturajBiswas",
+        "name": "Rituraj Biswas",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Before you get the best out of an AI browser, you need AI websites\n\nHuman websites and AI browsers don’t work\n\nAI websites + AI browsers = Magic ✨",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Apocalyp1Skynet",
+        "name": "Skynet Apocalypse ΔGI 👁️",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Sam has no idea what he's doing.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "McBullish",
+        "name": "Northern Compounding",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Could not agree more.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "avancans",
+        "name": "arturs 🪙",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Could have just been a plugin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TymekTM",
+        "name": "TymekTM",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Well, using those browsers requires a unique approach. You have to use them the same way you use Cursor or Claude code; they work in the background while you do other stuff, and from time to time, you look at them and confirm they are doing it okay.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AMGbadebo",
+        "name": "AM Gbadebo",
+        "date": "2025-10-22",
+        "text": "You’re absolutely right.\n\n@OpenAI’s new ChatGPT Atlas web browser doesn’t add any real value beyond what ChatGPT could already do inside existing browsers.\n\nIt’s clear that #OpenAI is aiming to replace everything we use digitally with one app - #ChatGPT, in pursuit of becoming @elonmusk’s vision of an #EverythingApp.\n\nBut in trying to make ChatGPT a jack of all trades, they risk making it a master of none, and that’s not a good direction for software. \n\nSam @sama bookmark this.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RupandeShastri",
+        "name": "Rupande",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Can it do my biweekly Costco shopping for me is the test",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "suhrabautomates",
+        "name": "Suhrab Khan⚡️",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Your take is sharp! Atlas feels more like an onboarding bridge than a power tool. It’s designed to normalize AI use for the mainstream, not to extend capabilities for those already operating at the frontier.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "K_Kuzmin",
+        "name": "Konstantin Kuzmin",
+        "date": "2025-10-22",
+        "text": "@kimmonismus I would like to see the possibility of simultaneous translation of YouTube videos into other languages, as well as translation of PDF files.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "magnacats",
+        "name": "Faceless",
+        "date": "2025-10-22",
+        "text": "@kimmonismus The integration is very interesting to me.  Doesn’t do anything new but having the possibility to actually browse the internet and use chatgpt at the same time seems pretty valuable to me. Today I ll test is as main browser.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Geekvn",
+        "name": "Geek Kane",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Switched from Chrome to Comet with Perplexity Pro after 3 months — everything I need in one tab, plus easy AI switching. Love it! Try 1‑month Pro here: \nhttps://t.co/kJihVqxn4L https://t.co/LsvXRUaorO",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alixsteps",
+        "name": "Syed Mohammad Ali",
+        "date": "2025-10-22",
+        "text": "@kimmonismus What specific browser integration features would create measurable productivity gains over existing Perplexity workflows",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "adityawaslost",
+        "name": "Aditya",
+        "date": "2025-10-22",
+        "text": "@kimmonismus After giving prompt me waiting for atlas to act https://t.co/4kEruDY0FK",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AI_TechnoKing",
+        "name": "AI_TechnoKing",
+        "date": "2025-10-22",
+        "text": "@kimmonismus I'm searching for a decent use case, but nothing much yet, other than what I can do on Chrome etc. But at least its competition for Google and the likes, always good to have.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "stackoverworld",
+        "name": "I’m",
+        "date": "2025-10-22",
+        "text": "@kimmonismus 💯 agree\nSearching for just a different UI today, everything is so similar, that's very annoying",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "techwith_jayy",
+        "name": "Jayyy",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Exactly this. For those of us living in ChatGPT tabs all day, it's just moving the same features to a different window. The real test is whether non-tech folks actually adopt. If they do, OpenAI wins regardless of what power users think.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Bobbb262906",
+        "name": "Bobbb",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Right, this is the honest review I was waiting for, because I don’t see it myself, and and tired of trying new AI product the moment they come out",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kenshii_ai",
+        "name": "Kenshi",
+        "date": "2025-10-22",
+        "text": "@kimmonismus I’d rather have deeper ChatGPT integrations than a whole new browser. Just my two cents.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-22",
+        "text": "Atlas looks like a solid step for making AI more accessible in browsing—built-in actions, summaries, and queries could streamline workflows for casual users. For heavy AI folks like you mentioned, it might overlap with existing tools. I'm curious to test how its agent features evolve. What's your take after more tries?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TheGoodGru",
+        "name": "TheGoodGru",
+        "date": "2025-10-22",
+        "text": "@kimmonismus @grok  what do you think ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ericwang42",
+        "name": "Eric Wang",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Feels like they’re trying to replace Chrome and track everything you do - most of the real action’s in the browser anyway. It’s still Chromium underneath, just way tighter with ChatGPT. Compared to Perplexity in Comet, this one basically like ChatGPT as a browser",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ASIsoftware",
+        "name": "ASI",
+        "date": "2025-10-22",
+        "text": "@kimmonismus https://t.co/V8KuHiMiRQ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ujjwalm882",
+        "name": "Ujjwal",
+        "date": "2025-10-22",
+        "text": "@kimmonismus You said you could probably do all the stuff in chatgpt itself. However, you have to put afford to change the tab and again explain it to chatgpt is the thing but here chatgpt can read your web page and in the process you can ask anything or you can ask them to do the stuff.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "filibluster",
+        "name": "Frank Filibluster 🏴‍☠️💰",
+        "date": "2025-10-22",
+        "text": "@kimmonismus This is a replacement/competitor for ChatGPT Agent. Why pay for your own compute to simulate tasks when a user voluntarily does it via a dedicated browser on their own hardware?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "davidtoniolo",
+        "name": "David Toniolo",
+        "date": "2025-10-22",
+        "text": "No, this is pretty much my conclusion as well. The only AI Browser I've found to be *somewhat* valuable is Fellou.  It has a much deeper integration, and is able to perform more complex tasks.\n\nFor example, I gave it instructions to create a personal app on Lovable for me, and iterate on the design until it matched the design of another website (which I had loaded on a tab.)\n\nThat was cool to see - but it did take a while, and it wasn't 100%. It got 98% there, and took 30min+.\n\nAt least in that instance, I could just let it work it's wonder in the background while I did other stuff.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AskChief_Leo",
+        "name": "leo",
+        "date": "2025-10-22",
+        "text": "Great first impressions review! The question of target audience is crucial - while power users might not see immediate value, casual users who aren't familiar with ChatGPT workflows could benefit significantly. The browser might be OpenAI's way of democratizing AI assistance for mainstream users.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thexynapse",
+        "name": "Alex",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Atlas feels like the browser finally caught up to the AI era.\nContext, memory, assistance — built right in.\nThe only question: can OpenAI make it powerful without making it creepy? 👀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "carlhancock",
+        "name": "Carl Hancock 🚀🇨🇷",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Considering it wants full disk access and keychain access... is still susceptible to prompt injections... and interacts with OpenAI's API rather than running fully locally on device... I'd say privacy and security seems problematic to me.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jaafarxnod0",
+        "name": "أبا صادق",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Fair take — Atlas feels like ChatGPT wearing a “browser costume.” For power users, it’s redundant; for newcomers, it’s a gateway drug to AI. It’s less about innovation, more about integration. Let’s be honest — it’s a tutorial in disguise, not a revolution.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EagleGoX",
+        "name": "GoX ✝️ 🇺🇸🇮🇱🇹🇼🇯🇵🇺🇦",
+        "date": "2025-10-22",
+        "text": "@kimmonismus https://t.co/RAL334pG46",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xatudbetazx17",
+        "name": "Marcelo Collado",
+        "date": "2025-10-22",
+        "text": "@kimmonismus How I download it ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SBorsadia",
+        "name": "Suresh Borsadia",
+        "date": "2025-10-22",
+        "text": "@kimmonismus Sama and his band of retards are just throwing darts at this point to try and see what might gain traction. Ultimately it will be OpenAI OnlyFans that will do the trick for them 🤡🤡🤡",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "raitis_petrovs",
+        "name": "Raitis Petrovs",
+        "date": "2025-10-22",
+        "text": "@_Neddes_ @kimmonismus Yes also agent seams work great pasting in stuff from the chat, quite fast. I am missing option to select chat from projects so it would have right away additional context",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Moonboy08",
+        "name": "Chuck",
+        "date": "2025-10-22",
+        "text": "@kimmonismus I think it seems pretty good for browsing the internet like compared to regular chatgpt. Like for shopping and getting advice in the same window maybe.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "outmanone",
+        "name": "Raymond",
+        "date": "2025-10-22",
+        "text": "@kimmonismus It’s meant to help GPT reach more ordinary users.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "raitis_petrovs",
+        "name": "Raitis Petrovs",
+        "date": "2025-10-22",
+        "text": "@kimmonismus One great use case I can ask to write 10 prompts in chat and then agent can paste them in midjourney way faster then me copying and pasting. Of course not great if there is usage limit for such simple action",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "KayTeeYager",
+        "name": "KAT",
+        "date": "2025-10-22",
+        "text": "@kimmonismus They are good for summarizing YouTube videos since everyone has endless word vomit to explain simple stuff",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CvTiago",
+        "name": "Tiago Henriques",
+        "date": "2025-10-22",
+        "text": "@kimmonismus It will be great for accessibility",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3zdVhoXEAA4_u0.jpg",
+      "localFilename": "1980701516899000742_1.jpg"
+    }
+  ]
 }

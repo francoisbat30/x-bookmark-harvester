@@ -1,15 +1,22 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:57.375Z",
+  "fetchedAt": "2026-07-13T06:48:11.128Z",
   "tweetId": "1977728096988995649",
   "post": {
-    "url": "https://x.com/DesignsByGolem/status/1977728096988995649",
+    "url": "https://x.com/uixhariom/status/1977728096988995649",
     "author": {
-      "handle": "DesignsByGolem",
-      "name": "Golem | UI Designer"
+      "handle": "uixhariom",
+      "name": "Hari Om"
     },
     "date": "2025-10-13",
     "text": "Another hero exploration ,\ngive honest feedback🙏 https://t.co/fgqna0OG2i",
+    "thread": [
+      {
+        "id": "1977728096988995649",
+        "text": "Another hero exploration ,\ngive honest feedback🙏 https://t.co/fgqna0OG2i"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,135 @@
       }
     ],
     "metrics": {
-      "likes": 748,
+      "likes": 747,
       "retweets": 24,
-      "replies": 90,
-      "views": 54122
+      "replies": 89,
+      "views": 54157
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "vaibhavdzn_",
+        "name": "Vaibhavv",
+        "date": "2025-10-15",
+        "text": "@DesignsByGolem You're welcome!🙌🏻",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "middl3child03",
+        "name": "Mumin",
+        "date": "2025-10-13",
+        "text": "@DesignsByGolem This is clean",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MahmudHxn",
+        "name": "Mahmud",
+        "date": "2025-10-13",
+        "text": "@DesignsByGolem That hero section hits different. The mood is perfect.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "das_prantor",
+        "name": "Prantor Das",
+        "date": "2025-10-13",
+        "text": "@DesignsByGolem Nice work🔥🔥🔥\nGreat ui\nIs this done on figma or you have coded it",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BenedictOc14977",
+        "name": "Ben says: For Sui to Naira , Check payfrica.xyz 🟧",
+        "date": "2025-10-13",
+        "text": "@DesignsByGolem Nice work",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "simi_uiux",
+        "name": "Simi",
+        "date": "2025-10-13",
+        "text": "@DesignsByGolem Glass effect is looking really nice!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fwbigdanny",
+        "name": "Dànnybeń 🐨",
+        "date": "2025-10-13",
+        "text": "@DesignsByGolem Clean bro",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alxui_ux",
+        "name": "ALX🇱🇷",
+        "date": "2025-10-16",
+        "text": "@DesignsByGolem what a beaut",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lakshya_Jain13",
+        "name": "Lakshya Bohra",
+        "date": "2025-10-15",
+        "text": "@DesignsByGolem If I was a customer, then I wouldn't click because the product is not clear to me. My suggestion is to make the heading clear for the customers. Happy building.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jeongkeupudeu1",
+        "name": "potato1228",
+        "date": "2025-10-14",
+        "text": "@DesignsByGolem Tutorial?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "divyansh_ai",
+        "name": "divyansh 🌸",
+        "date": "2025-10-14",
+        "text": "@DesignsByGolem Aesthetic.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rohitrikame88",
+        "name": "Rohit Rikame",
+        "date": "2025-10-14",
+        "text": "@DesignsByGolem Nice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Paulinreallifee",
+        "name": "Ayanfe🌴",
+        "date": "2025-10-13",
+        "text": "@DesignsByGolem Looks good 👍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3JMYGtX0AAGvUH.jpg",
+      "localFilename": "1977728096988995649_1.jpg"
+    }
+  ]
 }

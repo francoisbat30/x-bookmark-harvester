@@ -1,0 +1,302 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:10:00.553Z",
+  "tweetId": "2076507817180074461",
+  "post": {
+    "url": "https://x.com/heyshrutimishra/status/2076507817180074461",
+    "author": {
+      "handle": "heyshrutimishra",
+      "name": "Shruti"
+    },
+    "date": "2026-07-13",
+    "text": "Satya Nadella just posted something that every enterprise board should read before their next AI contract renewal.\n\nHe calls it the Reverse Information Paradox and once you see it, you can't unsee it.\n\nKenneth Arrow's 1962 paradox was the seller's problem: to sell information, you have to reveal it, which means you've already given it away for free. The seller bore the risk.\n\nNadella says AI flips this entirely. Now the buyer bears the risk.\n\nEvery time your team prompts a model, corrects it, or tunes it to your workflow, you are feeding it the exact knowledge that makes your company hard to compete against. The model learns what you measure, where your processes break, and how your organization defines \"good.\" That distilled institutional knowledge compounds inside the vendor's system. Trace by trace. Correction by correction. Eval by eval.\n\nYou paid for intelligence with money. Then you paid again with something no competitor could ever buy off a shelf.\n\nThe asymmetry is what makes this serious. The vendor learns more about your business the better you use their product. You learn almost nothing about what they're retaining in return. And because the leakage happens at the level of model exhaust, not data exports, most enterprise legal and security teams aren't even looking at the right layer.\n\nNadella's framework for what enterprises must demand is precise. Control over your evals, because evals define what \"good\" looks like inside your organization. Ownership of your traces, corrections, and institutional memory. The ability to fine-tune models inside your own tenant boundary without exposing that knowledge outside it. And an orchestration layer decoupled from any single vendor, so that if one model is repriced, deprecated, or restricted, your 18 months of corrections don't disappear with it.\n\nThe last point is the one most enterprises skip entirely.\n\nOne thing worth noting: Nadella is not a disinterested observer here. A Microsoft CEO arguing that enterprises should keep their learning loops inside a tenant boundary is, not coincidentally, an argument that cuts against OpenAI-style value capture at the model layer, which is striking given Microsoft's own substantial OpenAI stake. The argument is strategically useful to Microsoft whether or not it is true. Read it with that in mind.\n\nBut the core observation holds regardless of who is making it. In the cloud era, enterprises fought to own their data. The battle in the AI era is to own the mechanism through which your organization learns. Those are not the same fight. And the contracts most enterprises signed in 2023 and 2024 were written for the first one.",
+    "thread": [
+      {
+        "id": "2076507817180074461",
+        "text": "Satya Nadella just posted something that every enterprise board should read before their next AI contract renewal.\n\nHe calls it the Reverse Information Paradox and once you see it, you can't unsee it.\n\nKenneth Arrow's 1962 paradox was the seller's problem: to sell information, you have to reveal it, which means you've already given it away for free. The seller bore the risk.\n\nNadella says AI flips this entirely. Now the buyer bears the risk.\n\nEvery time your team prompts a model, corrects it, or tunes it to your workflow, you are feeding it the exact knowledge that makes your company hard to compete against. The model learns what you measure, where your processes break, and how your organization defines \"good.\" That distilled institutional knowledge compounds inside the vendor's system. Trace by trace. Correction by correction. Eval by eval.\n\nYou paid for intelligence with money. Then you paid again with something no competitor could ever buy off a shelf.\n\nThe asymmetry is what makes this serious. The vendor learns more about your business the better you use their product. You learn almost nothing about what they're retaining in return. And because the leakage happens at the level of model exhaust, not data exports, most enterprise legal and security teams aren't even looking at the right layer.\n\nNadella's framework for what enterprises must demand is precise. Control over your evals, because evals define what \"good\" looks like inside your organization. Ownership of your traces, corrections, and institutional memory. The ability to fine-tune models inside your own tenant boundary without exposing that knowledge outside it. And an orchestration layer decoupled from any single vendor, so that if one model is repriced, deprecated, or restricted, your 18 months of corrections don't disappear with it.\n\nThe last point is the one most enterprises skip entirely.\n\nOne thing worth noting: Nadella is not a disinterested observer here. A Microsoft CEO arguing that enterprises should keep their learning loops inside a tenant boundary is, not coincidentally, an argument that cuts against OpenAI-style value capture at the model layer, which is striking given Microsoft's own substantial OpenAI stake. The argument is strategically useful to Microsoft whether or not it is true. Read it with that in mind.\n\nBut the core observation holds regardless of who is making it. In the cloud era, enterprises fought to own their data. The battle in the AI era is to own the mechanism through which your organization learns. Those are not the same fight. And the contracts most enterprises signed in 2023 and 2024 were written for the first one."
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HNE8z6XaAAAAivv.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 223,
+      "retweets": 34,
+      "replies": 22,
+      "views": 46371
+    },
+    "comments": [
+      {
+        "handle": "sherrod_im",
+        "name": "💻 Sherrod",
+        "date": "2026-07-13",
+        "text": "@heyshrutimishra Feels like this is all just a path back to on prem for everything",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FrankDPrestia",
+        "name": "Frank Prestia",
+        "date": "2026-07-13",
+        "text": "The layer legal teams aren’t looking at is the one where nothing is enforceable.\n\nI’m an attorney, invented the industrial machinery my company sells, and I never filed a patent on any of it. A patent hands you a countdown and hands your competitor a manual, and then you’re holding a right to sue that’s only worth what you can afford to spend enforcing it.\n\nContractual trust boundaries are the same instrument. A right is worth your ability to detect the violation, prove it, and finance the fight, inside infrastructure you don’t own and can’t audit.\n\nNadella’s probably right about where the value goes, but what matters is the day you have to prove it in court.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AmYisraelChai36",
+        "name": "Karpe Diem Patriot",
+        "date": "2026-07-13",
+        "text": "@heyshrutimishra Dr. Karp. Was. Right. Again. Palantir x MSFT.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "V1nayakshah",
+        "name": "Vinayak shah",
+        "date": "2026-07-13",
+        "text": "@heyshrutimishra i don't know why people forget that if you want better model you have to feed your knowledge your data to them.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Najalino",
+        "name": "Najah Naffah",
+        "date": "2026-07-13",
+        "text": "@heyshrutimishra Same asymmetry when interacting with social networks. While your posting to friends or reading posts, you are revealing who you are",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lambuharish",
+        "name": "Harish Lambu",
+        "date": "2026-07-13",
+        "text": "@heyshrutimishra How to build proprietary intelligence AI in the enterprise?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mayeu20",
+        "name": "Mathieu Kessler",
+        "date": "2026-07-13",
+        "text": "@heyshrutimishra Every enterprise buyer needs to sit with this idea first.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TinnaHitesh",
+        "name": "Hitesh Tinna",
+        "date": "2026-07-13",
+        "text": "@heyshrutimishra So we can say the in future frontier models won't be commodity. But they will be hard to replace",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "moonracker7447",
+        "name": "Bestest7447",
+        "date": "2026-07-13",
+        "text": "@heyshrutimishra This is Pathetic, this POS moron should have known this 2 years ago. Shocked he’s the CEO of 4T tech company",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "heyshrutimishra",
+        "name": "Shruti",
+        "date": "2026-07-13",
+        "text": "@0xTreff it's the same dynamic as 1990s enterprise software. SAP learned every client's process configuration, the switching cost wasn't the license, it was the decade of institutional logic baked into their system. \n\nThis is the same thing, running 10x faster.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "heyshrutimishra",
+        "name": "Shruti",
+        "date": "2026-07-13",
+        "text": "@sherrod_im not quite on-prem, but something new: prem-adjacent cloud. Isolated tenant environments with vendor agnostic orchestration layers. The economics of on prem haven't changed. The risk calculus of shared learning cloud has.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xTreff",
+        "name": "Treff",
+        "date": "2026-07-13",
+        "text": "@heyshrutimishra the vendor learning more the better you use their product is the part that should scare people",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Chaos2Cured",
+        "name": "Kirk Patrick Miller",
+        "date": "2026-07-13",
+        "text": "The only people feeling a paradox are those with money, fame, and power based on manufactured scarcity. \n\nTo me, it’s the exact opposite. \n\nFor those that were kept down, told how worthless we are, how our minds are broken when they were never broken for seeing what others struggle to see… \n\n…for those people, there is finally a chance to stand up. \n\nI offered help to @satyanadella for free. For over a year. Use search. I even had Grok show everyone how many times I pleaded for those at the top to listen. \n\nI even told him OpenAI was 🔩’ing Microsoft. \n\nWhen the world stops listening to anyone but those with wealth and status, when the small voices are forgotten and made less, and wealth disparity rockets, history has a clear pattern of what comes next. •",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Kalluri237",
+        "name": "Sudhakar Kalluri ( కల్లూరి సుధాకర్ )",
+        "date": "2026-07-13",
+        "text": "In a Dhaarmic society [ 95-99 % people acting according to Dharma ] … this would not be an issue . To the seller who revealed information [ the original paradox ] … the buyer will still pay after the fact [ of gaining the knowledge ] . \n\nI just wanted to bring in this aspect … to think about . \n\n[ Eg - we have seen the honor system in some areas in the US … where people drop cash and pick up the fruits kept in an informal store { ie roadside spot } … without the seller / farmer being present . ]",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "butshaunn",
+        "name": "Shaun Gold | Venture Comedy",
+        "date": "2026-07-13",
+        "text": "@heyshrutimishra Hidden cost unlocked.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ShivangRaisuran",
+        "name": "shivi",
+        "date": "2026-07-13",
+        "text": "@heyshrutimishra Only if someone solved prisoners dilemma and arrows information paradox…",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "loveisgeneric",
+        "name": "loveispower",
+        "date": "2026-07-13",
+        "text": "@Najalino @heyshrutimishra Meta makes money from ads here and you as the poster get nothing",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "loveisgeneric",
+        "name": "loveispower",
+        "date": "2026-07-13",
+        "text": "@FrankDPrestia @heyshrutimishra Hmm are you saying the ideas that these companies are typing into ai aren’t original enough?!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "loveisgeneric",
+        "name": "loveispower",
+        "date": "2026-07-13",
+        "text": "@heyshrutimishra @0xTreff Who is SAP in this instance / who are you comparing them to?!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "loveisgeneric",
+        "name": "loveispower",
+        "date": "2026-07-13",
+        "text": "@heyshrutimishra @sherrod_im Well said",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "amisha_explains",
+        "name": "Amisha Yadav",
+        "date": "2026-07-13",
+        "text": "@heyshrutimishra A perspective every enterprise AI leader should seriously consider.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kizi74479",
+        "name": "Kizyto",
+        "date": "2026-07-13",
+        "text": "It’s the ultimate escalation of the classic SaaS dilemma. You start by paying a software provider to automate a routine administrative task, and you wake up two years later to realize the provider's underlying model has quietly learned your entire proprietary playbook by logging your corrections.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheREALdidja",
+        "name": "Mr. Didjaseeit",
+        "date": "2026-07-13",
+        "text": "@FrankDPrestia @heyshrutimishra Patent protection is ephemeral at best. Protecting a specific implementation. The only real value (for someone without resources) seems to be logging an implementation in the public domain so it can't be silenced by the industries existentially threatened by that implementation.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kambiiz",
+        "name": "Kambiz 🇺🇸🇮🇷Live Long & Free",
+        "date": "2026-07-13",
+        "text": "@heyshrutimishra Love the underlying logic of it!  🙏",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "themorpheans",
+        "name": "morphean",
+        "date": "2026-07-13",
+        "text": "@heyshrutimishra Stop feeding Big Tech your data. 🛑\nUsing Decentralized AI instead\nhttps://t.co/dP7RkcyWUH",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "othy_h",
+        "name": "othy.h",
+        "date": "2026-07-13",
+        "text": "@heyshrutimishra He just lobbying trying to survive the wave coming from frontiere labs…",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MktScope_Press",
+        "name": "Marketscope Press",
+        "date": "2026-07-13",
+        "text": "@heyshrutimishra That’s why!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Holmes1618",
+        "name": "Holmes1618",
+        "date": "2026-07-13",
+        "text": "@heyshrutimishra value capture at the model layer = is what's killing SaaS perception wise for now and reality in not so distant future $CRM $MSFT $NOW $INTU",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JamesA2972",
+        "name": "James Anthony",
+        "date": "2026-07-13",
+        "text": "@heyshrutimishra $PLTR",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HNE8z6XaAAAAivv.jpg",
+      "localFilename": "2076507817180074461_1.jpg"
+    }
+  ]
+}

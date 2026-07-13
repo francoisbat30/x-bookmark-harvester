@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:12:32.480Z",
+  "tweetId": "2034642910860202261",
+  "post": {
+    "url": "https://x.com/LordVXrp/status/2034642910860202261",
+    "author": {
+      "handle": "LordVXrp",
+      "name": "LORD 👑"
+    },
+    "date": "2026-03-19",
+    "text": "- tu ouvres X le matin\n- tu scroll ton feed\n- tu vois un post sur un win rate de 80 % sur Polymarket\n- tu penses « ouais c’est du clickbait »\n- tu passes\n- une semaine plus tard tu vois +300K$ de PnL sur CT\n- tu te demandes comment c’est possible\n- on te répond : Random Forest + article Polymarket\n- tu étais passé dessus\n- le gars avec +300K$ ne l’a pas fait\n- il a donné cet article à son agent IA\n- la différence entre vous deux = 2 actions\n- il a sauvegardé le post\n- il l’a donné à Claude\n- toi non",
+    "thread": [
+      {
+        "id": "2034642910860202261",
+        "text": "- tu ouvres X le matin\n- tu scroll ton feed\n- tu vois un post sur un win rate de 80 % sur Polymarket\n- tu penses « ouais c’est du clickbait »\n- tu passes\n- une semaine plus tard tu vois +300K$ de PnL sur CT\n- tu te demandes comment c’est possible\n- on te répond : Random Forest + article Polymarket\n- tu étais passé dessus\n- le gars avec +300K$ ne l’a pas fait\n- il a donné cet article à son agent IA\n- la différence entre vous deux = 2 actions\n- il a sauvegardé le post\n- il l’a donné à Claude\n- toi non"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2034642852894883840/vid/avc1/1820x1080/U6fJC550tRpiOWRr.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2034642852894883840/img/EqQph62B9FtsiEsM.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 737,
+      "retweets": 25,
+      "replies": 18,
+      "views": 364352
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2034642852894883840/img/EqQph62B9FtsiEsM.jpg",
+      "localFilename": "2034642910860202261_1_poster.jpg"
+    }
+  ]
+}

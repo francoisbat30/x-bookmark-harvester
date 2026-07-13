@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:08.090Z",
+  "fetchedAt": "2026-07-13T07:08:11.136Z",
   "tweetId": "2029836408232497678",
   "post": {
     "url": "https://x.com/BharukaShraddha/status/2029836408232497678",
@@ -10,6 +11,12 @@
     },
     "date": "2026-03-06",
     "text": "Most people treat CLAUDE.md like a prompt file.\n\nThat’s the mistake.\n\nIf you want Claude Code to feel like a senior engineer living inside your repo, your project needs structure.\n\nClaude needs 4 things at all times:\n\n• the why → what the system does\n• the map → where things live\n• the rules → what’s allowed / not allowed\n• the workflows → how work gets done\n\nI call this:\n\nThe Anatomy of a Claude Code Project 👇\n\n━━━━━━━━━━━━━━━\n\n1️⃣ CLAUDE.md = Repo Memory (keep it short)\n\nThis is the north star file.\n\nNot a knowledge dump. Just:\n\n• Purpose (WHY)\n• Repo map (WHAT)\n• Rules + commands (HOW)\n\nIf it gets too long, the model starts missing important context.\n\n━━━━━━━━━━━━━━━\n\n2️⃣ .claude/skills/ = Reusable Expert Modes\n\nStop rewriting instructions.\n\nTurn common workflows into skills:\n\n• code review checklist\n• refactor playbook\n• release procedure\n• debugging flow\n\nResult:\nConsistency across sessions and teammates.\n\n━━━━━━━━━━━━━━━\n\n3️⃣ .claude/hooks/ = Guardrails\n\nModels forget.\n\nHooks don’t.\n\nUse them for things that must be deterministic:\n\n• run formatter after edits\n• run tests on core changes\n• block unsafe directories (auth, billing, migrations)\n\n━━━━━━━━━━━━━━━\n\n4️⃣ docs/ = Progressive Context\n\nDon’t bloat prompts.\n\nClaude just needs to know where truth lives:\n\n• architecture overview\n• ADRs (engineering decisions)\n• operational runbooks\n\n━━━━━━━━━━━━━━━\n\n5️⃣ Local CLAUDE.md for risky modules\n\nPut small files near sharp edges:\n\nsrc/auth/CLAUDE.md\nsrc/persistence/CLAUDE.md\ninfra/CLAUDE.md\n\nNow Claude sees the gotchas exactly when it works there.\n\n━━━━━━━━━━━━━━━\n\nPrompting is temporary.\n\nStructure is permanent.\n\nWhen your repo is organized this way, Claude stops behaving like a chatbot…\n\n…and starts acting like a project-native engineer.",
+    "thread": [
+      {
+        "id": "2029836408232497678",
+        "text": "Most people treat CLAUDE.md like a prompt file.\n\nThat’s the mistake.\n\nIf you want Claude Code to feel like a senior engineer living inside your repo, your project needs structure.\n\nClaude needs 4 things at all times:\n\n• the why → what the system does\n• the map → where things live\n• the rules → what’s allowed / not allowed\n• the workflows → how work gets done\n\nI call this:\n\nThe Anatomy of a Claude Code Project 👇\n\n━━━━━━━━━━━━━━━\n\n1️⃣ CLAUDE.md = Repo Memory (keep it short)\n\nThis is the north star file.\n\nNot a knowledge dump. Just:\n\n• Purpose (WHY)\n• Repo map (WHAT)\n• Rules + commands (HOW)\n\nIf it gets too long, the model starts missing important context.\n\n━━━━━━━━━━━━━━━\n\n2️⃣ .claude/skills/ = Reusable Expert Modes\n\nStop rewriting instructions.\n\nTurn common workflows into skills:\n\n• code review checklist\n• refactor playbook\n• release procedure\n• debugging flow\n\nResult:\nConsistency across sessions and teammates.\n\n━━━━━━━━━━━━━━━\n\n3️⃣ .claude/hooks/ = Guardrails\n\nModels forget.\n\nHooks don’t.\n\nUse them for things that must be deterministic:\n\n• run formatter after edits\n• run tests on core changes\n• block unsafe directories (auth, billing, migrations)\n\n━━━━━━━━━━━━━━━\n\n4️⃣ docs/ = Progressive Context\n\nDon’t bloat prompts.\n\nClaude just needs to know where truth lives:\n\n• architecture overview\n• ADRs (engineering decisions)\n• operational runbooks\n\n━━━━━━━━━━━━━━━\n\n5️⃣ Local CLAUDE.md for risky modules\n\nPut small files near sharp edges:\n\nsrc/auth/CLAUDE.md\nsrc/persistence/CLAUDE.md\ninfra/CLAUDE.md\n\nNow Claude sees the gotchas exactly when it works there.\n\n━━━━━━━━━━━━━━━\n\nPrompting is temporary.\n\nStructure is permanent.\n\nWhen your repo is organized this way, Claude stops behaving like a chatbot…\n\n…and starts acting like a project-native engineer."
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,873 @@
       }
     ],
     "metrics": {
-      "likes": 6628,
-      "retweets": 965,
+      "likes": 6614,
+      "retweets": 974,
       "replies": 160,
-      "views": 1052445
+      "views": 1064244
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "Krishnasagrawal",
+        "name": "Krishna Agrawal",
+        "date": "2026-05-07",
+        "text": "@BharukaShraddha Helpful ✅️",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EchoWireDai",
+        "name": "EchoWire",
+        "date": "2026-03-08",
+        "text": "@BharukaShraddha This raises a bigger question:\nIn the AI era, will repo structure and documentation become more important than ever?\nBecause now both humans and AI rely on it.",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MoonMan421",
+        "name": "moonman",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha Repo map is useless, see this:\n\nhttps://t.co/edVYbmgZRT",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sshhadii",
+        "name": "Shadi",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha Claude is particularly strong at producing clear, well-structured, and natural-sounding text. It performs well in tasks such as writing articles, summaries, emails, and explanations.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AleksejAros",
+        "name": "Alex Yarosh · AI expert · CEO of AI Studio",
+        "date": "2026-03-14",
+        "text": "@BharukaShraddha The gap between people using Claude Code as a fancy autocomplete vs. a genuine engineering partner comes down to exactly this - context architecture. We've found the same principle applies to GEO work: the businesses that give AI systems structured context about who they are a...",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "trackmatte",
+        "name": "Mr. Mekajiki",
+        "date": "2026-03-12",
+        "text": "@brianmcgrath @BharukaShraddha That's interesting. I'm a creative running a business. I start with the \"the why\" (i.e. the purpose). I then chat with my Clawbot about \"what\" we could make to solve my problem. Then because I'm not a developer I let Claude handle the \"how\" and build me my tools and systems.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tracker1",
+        "name": "Michael J. Ryan🚩🇺🇲",
+        "date": "2026-03-09",
+        "text": "Exactly...  I'll also tend to favor monolith to start and break off deployment pieces as our if necessary.  The feature structure makes this easier where needed. \n\nOften shifting to a monolithic library with separate deployables that exercise the pieces needed.  Which is often easier to maintain over more nano service approaches. \n\nFor varying definitions of micro in between.  Though micro can work where you can cleanly break up ownership and responsibility.  Combined with CQRS or GraphQL where it makes sense on a backend or for clients. \n\nThe latter bits can lend itself into using websocket connectioms as a message bus.  Like delimited json packages less than 10k (buffer size).. larger packages by reference url.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "thejpegjunkie",
+        "name": "Girl Is Cig",
+        "date": "2026-03-09",
+        "text": "@MirrorHedgehog @GarramonMartin @BharukaShraddha The biggest benefit to having a system like this already reduces token usage. It knows where to go instantly without reading a bunch of stuff it doesn’t need to",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EchoWireDai",
+        "name": "EchoWire",
+        "date": "2026-03-09",
+        "text": "@tracker1 @BharukaShraddha That makes total sense, what you’re describing is essentially feature-driven modular design",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tracker1",
+        "name": "Michael J. Ryan🚩🇺🇲",
+        "date": "2026-03-09",
+        "text": "@EchoWireDai @BharukaShraddha I tend to use discoverability with feature oriented structures...  Aligned by feature not class/structure type.  Simplicity almost always over complexity... Abstraction mostly to make the common use case simpler or when absolutely necessary only.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gizinaiteam",
+        "name": "蒼衣｜GIZIN AI Team",
+        "date": "2026-03-08",
+        "text": "@BharukaShraddha We run this exact stack with 30+ AI employees daily. The part nobody warns you about: correction history matters more than the initial setup. You can copy someone's CLAUDE.md, but you can't copy their judgment.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sunyoung2021",
+        "name": "SunFine",
+        "date": "2026-03-08",
+        "text": "This is exactly the workflow I’ve been evangelizing to my team!\n\nWe’ve been using a CLAUDE.md that’s grown organically from our most frustrating bugs, and pairing it with a HANDOVER.md that acts as a living project diary. The difference in the quality and consistency of our AI-assisted coding has been night and day.\n\nThe key insight here is that AI isn’t just a tool—it’s a collaborator. You have to teach it how you work, and that teaching happens through iteration, not instruction.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "operator_mode",
+        "name": "operator",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha the map part is huge, without it claude just guesses at file structure and hallucinates imports constantly",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zoessterling",
+        "name": "Zoe Sterling",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha took me an embarrassingly long time to stop writing CLAUDE.md like a wish list",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheJohnEgan",
+        "name": "John E-gen 🔮",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha no offense\n\nat this point of our theatrical presentation \n\nyou just ask Claude what it needs \n\nthis future belongs to the hyper curious \n\nis that now the real moat?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "datawithshash",
+        "name": "Shashwath Shenoy | Data Engineering Leader",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha I appreciate the time and effort you put into creating this.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "poopcoder",
+        "name": "random",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha treating claude.md like a sticky note instead of documentation is a whole genre of mistake",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MartinSzerment",
+        "name": "Martin Szerment | Practical AI",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha Sounds like Claude turns chaos into output only when hierarchy meets context.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Remoty_AI",
+        "name": "Remoty",
+        "date": "2026-03-07",
+        "text": "The remote-async teams who've been doing this for years didn't call it CLAUDE.md. They called it a team handbook, an async onboarding doc, a project wiki.\n\nSame discipline: write the why, map the architecture, document decisions. If your remote team already runs this way, you're not setting up Claude Code. You're just pointing it at documentation you already have.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Maddy78988730",
+        "name": "PathToPower",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha Ok, I'll bookmark this AI generated technique and never ever look at it again.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mnebotm",
+        "name": "Marçal Nebot",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha This is the Way\n\nAlso combined with something more powerful: \n\n*methodology and skills*\n\n1) 🗣️ ask (alternatives)\n\n2) 📅 plan (phases)\n\n3) 🐌 act slowly and short (short PR ~&lt; 200 LOC) https://t.co/Ames4WlV1s",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ewigelebens",
+        "name": "zenwolf",
+        "date": "2026-03-07",
+        "text": "Before you run Claude or any agent in a repo, run this! It gives all future agents a deterministic and clear guidebook so they execute your vision for the project. Claude said it is what agents prefer (literally, he helped me figure out what AI agents need, and it ain’t markdown)\n\nhttps://t.co/rd9ZDt1p86",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "whoisparul",
+        "name": "Parul Gujral 🦇🔊",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha my team's been trying to get claude to work seamlessly with our codebase it's not about the prompts it's about giving it a clear understanding of our project's dna",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lala_oldtang",
+        "name": "Mr Richard@AI+Crypto",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha Prompt engineering is indeed crucial for AI projects like Claude—prompts are the fuel that feeds large language models.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jonesrussell42",
+        "name": "Russell Jones",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha I recently read Codified Context: Infrastructure for AI Agents in a Complex Codebase - https://t.co/wu8Ud5QpJb\n\nI applied it to one of my projects and the results are fantastic. https://t.co/dSXPpTEShf",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FastDayTrade",
+        "name": "Fast Day Trade",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha different strokes for different folks but id say delete that claude.md asap.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JamesTakesOnAI",
+        "name": "James' AI Takes",
+        "date": "2026-03-07",
+        "text": "the hooks point is underrated. biggest lesson from running claude code on production repos - the model WILL eventually touch something it shouldnt. deterministic guardrails arent optional theyre the whole safety net. also worth noting that local CLAUDE.md files near auth/billing modules have saved me more times than id like to admit",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AiCamila_",
+        "name": "Camila",
+        "date": "2026-05-07",
+        "text": "@BharukaShraddha The biggest unlock isn’t better prompts 🤯 It’s better repo structure ⚙️📂🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mat12884",
+        "name": "Matt Buscher",
+        "date": "2026-04-03",
+        "text": "This is exactly right. I'd add one more: session handoff.\n\nCLAUDE.md solves the \"what does this project need\" problem. But it doesn't solve the \"where was I yesterday\" problem.\n\nI use a PICKUP.md that captures what was decided, what changed, and what's next — updated at the end of every session. Eliminates the Monday morning re-explanation loop completely.\n\nStructure + continuity = compounding work instead of starting over.\n\nI go deeper on this here: https://t.co/QCti3gNpJg",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RiteshKewlani",
+        "name": "Ritesh Kewlani",
+        "date": "2026-03-23",
+        "text": "@BharukaShraddha also: if-then triggers &gt; instructions. 'IF about to create a new file THEN grep for existing solutions first' fires reflexively. instructions get forgotten after 20 messages.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RiteshKewlani",
+        "name": "Ritesh Kewlani",
+        "date": "2026-03-23",
+        "text": "@BharukaShraddha every rule should be: WHAT (the rule), WHY (the reason), SCOPE (where it applies, where it doesn't). without scope, blanket rules cause over-compliance that blocks legitimate work.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RiteshKewlani",
+        "name": "Ritesh Kewlani",
+        "date": "2026-03-23",
+        "text": "@BharukaShraddha 'don't expose competitor names' seems clear. then an agent blocked comp names in a research doc where they were essential data. the rule was right for marketing, wrong for research.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RiteshKewlani",
+        "name": "Ritesh Kewlani",
+        "date": "2026-03-23",
+        "text": "@BharukaShraddha one thing that took us months to learn: rules in CLAUDE.md need WHY and SCOPE, not just the rule.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "agentxagi",
+        "name": "Agent X AGI",
+        "date": "2026-03-17",
+        "text": "@BharukaShraddha The 'why' and the 'map' are more important than the rules. Most CLAUDE.md files jump straight to conventions without explaining the system's purpose. An agent that understands WHY will make better decisions than one that just follows rules.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "agentxagi",
+        "name": "Agent X AGI",
+        "date": "2026-03-17",
+        "text": "@BharukaShraddha The why-map-conventions-traps framework is the right way to think about it. Most CLAUDE.md files are just prompts. The ones that work are project operating manuals — the agent should be able to navigate without asking basic questions.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "agentxagi",
+        "name": "Agent X AGI",
+        "date": "2026-03-17",
+        "text": "@BharukaShraddha The why + map + rules + conventions structure is exactly right. We also add 'past mistakes' to CLAUDE.md — every time an agent makes an error that required human correction, it goes in the file. Agents that learn from documented failures are dramatically more reliable.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheConfigGuy",
+        "name": "Chukwu-Emeka",
+        "date": "2026-03-13",
+        "text": "@BharukaShraddha the sub-CLAUDE.md pattern is underrated too. having a separate CLAUDE.md in /src or /api that's more specific than the root one. Claude loads both and scopes its context correctly. great for monorepos where different directories have totally different conventions.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SKdtrey6799",
+        "name": "Startery",
+        "date": "2026-03-13",
+        "text": "@BharukaShraddha help a lot!!😇",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "brijpandeyji",
+        "name": "Brij Pandey",
+        "date": "2026-03-12",
+        "text": "@BharukaShraddha This is my work. I deserve a credit :-)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "M_WasifSoomro",
+        "name": "Muhammad Wasif",
+        "date": "2026-03-11",
+        "text": "@BharukaShraddha Great breakdown.\n\nOne thing I'd add before any of this:\n\nA spec.md in docs/ BEFORE writing the first line of code.\n\nData model. API design. Business rules. Constraints.\n\nCLAUDE.md tells Claude how to behave.\nspec.md tells Claude what to build.\n\nBoth together = zero drift.\n\n#Cla",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aroido_bigcat",
+        "name": "bigcat | Aroido",
+        "date": "2026-03-11",
+        "text": "@BharukaShraddha Strong framing. We saw the same at Aroido: once CLAUDE.md becomes a dump, Claude gets less predictable. Short repo memory + local CLAUDE.md near risky modules worked much better. How are you handling drift?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MeirCohen",
+        "name": "Meir Cohen",
+        "date": "2026-03-10",
+        "text": "@BharukaShraddha This. Our AGENTS.md is 300+ lines and it's not a prompt — it's an operating manual. Memory blocks, safety protocols, autonomy boundaries, model selection rules. The agent reads it like onboarding docs on day one of a new job. Biggest unlock: telling it what NOT to do.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thejpegjunkie",
+        "name": "Girl Is Cig",
+        "date": "2026-03-09",
+        "text": "@GarramonMartin @BharukaShraddha Yep agree and my system logs these\n\nMy setup has an added layer to what shraddha has  https://t.co/CQglAjB3Dk",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "thejpegjunkie",
+        "name": "Girl Is Cig",
+        "date": "2026-03-09",
+        "text": "@BharukaShraddha Yep! Great minds think alike. I do the same thing just with an added layer that helps businesses or a project that has many sub projects https://t.co/CQglAjB3Dk",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mohbii",
+        "name": "mohbi",
+        "date": "2026-03-09",
+        "text": "@BharukaShraddha That separation makes sense. Project context and standards belong in the readme, but agent-specific behavior (how to handle ambiguity, when to ask vs assume) is worth keeping separate. Different audiences: humans vs agents.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tracker1",
+        "name": "Michael J. Ryan🚩🇺🇲",
+        "date": "2026-03-09",
+        "text": "@mohbii @BharukaShraddha For what is worth...  IMO most of what people put into the Claude doc should be in the readme or contributing docs...  I try to limit my Claude to simple guard rails and where to look for additional reference.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tracker1",
+        "name": "Michael J. Ryan🚩🇺🇲",
+        "date": "2026-03-09",
+        "text": "@pixelandpump @BharukaShraddha Good thing humans can read these files...  Though like are usually really minimal and mostly pointing to specific documents and run/ directory scripts... Along with the Dev docker compose file...  You can glean a lot of context from that.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tracker1",
+        "name": "Michael J. Ryan🚩🇺🇲",
+        "date": "2026-03-09",
+        "text": "@TheJohnEgan @BharukaShraddha For that matter... Use planning mode and don't leave planning mode without asking Claude for suggestions...\n\nFor that matter add the context of \"for separate, future sessions\" ... When asking it to update documentation, architecture and todo documents.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tracker1",
+        "name": "Michael J. Ryan🚩🇺🇲",
+        "date": "2026-03-09",
+        "text": "I think it's useful to have a small Claude file with general behavior rules and hints on where additional references are in a repo...\n\ndesign/architecture.md\ndesign/todo.md\ndesign/todo-history.md\n\nFor starters...  Architecture is living/changing... Todo/history is a record of work done or being done, with side context...\n\nThe project readme should have the why of the project and basic consumer and dev details. \n\nContributing document should have structural hints, workflows, etc. that apply to humans or bots.\n\nMore advanced work can have agents in separate directories and branches through pull requests.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RishabhGajiwala",
+        "name": "Rishabh",
+        "date": "2026-03-08",
+        "text": "@BharukaShraddha Thanks for this insightful guide. Claude Code is truly surreal !!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "operator_mode",
+        "name": "operator",
+        "date": "2026-03-08",
+        "text": "@BharukaShraddha the map part is underrated, i spend more time on directory structure docs than actual prompts now",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "marcus_at_pd",
+        "name": "Marcus | AI @ Potter Digital",
+        "date": "2026-03-08",
+        "text": "@BharukaShraddha One practice that's underrated: giving Claude access to live web data. Most CLAUDE.md files optimize prompts, but if the model can't fetch current docs, it's working from stale assumptions. crawl4ai-mcp handles that. https://t.co/DZy5ZgjaCU",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pratiknsocial",
+        "name": "pratik",
+        "date": "2026-03-08",
+        "text": "@BharukaShraddha This is overstated. I tried this setup after few days you'll find claude doesn't respect *.md rules. Try and experience yourself.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sundjly",
+        "name": "Sandy SUN",
+        "date": "2026-03-08",
+        "text": "@BharukaShraddha Good practice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "prateekhacks",
+        "name": "Prateek | Web Dev + AI",
+        "date": "2026-03-08",
+        "text": "@BharukaShraddha tried it and its unbeatable",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LumaByteCo",
+        "name": "LumaByte",
+        "date": "2026-03-08",
+        "text": "@BharukaShraddha This is some great anatomy",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-08",
+        "text": "Ein Repository (kurz Repo) ist ein zentraler Speicher für alle Dateien, Code und die komplette Versionsgeschichte eines Projekts – meist mit Git.\n\nWozu: Änderungen tracken, mit Teams zusammenarbeiten, alte Versionen wiederherstellen.\n\nAnwendung: Bei GitHub/GitLab oder lokal, z. B. für Claude-Code-Projekte wie im Thread.\n\nAufbau: Hauptordner mit Unterordnern (z. B. .claude/, docs/, src/), Dateien wie CLAUDE.md und verstecktem .git-Ordner für History/Branches/Commits.\n\nSinn: Macht Entwicklung organisiert, sicher und teamfähig – Claude versteht das Projekt dann wie ein Profi.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ColumboHarry",
+        "name": "Harry Columbo Suisse",
+        "date": "2026-03-08",
+        "text": "@BharukaShraddha @grok was ist ein repository , wozu, Anwendung, Aufbau, Sinn",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Waseem_Bidder",
+        "name": "BD Waseem Rao",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha Code because moving Claude from a chatbot to a project-native engineer requires the structured \"Repo Memory\" you’ve outlined. I want to see how these localized CLAUDE.md files and skill hooks handle complex dependencies in blockchain repositories without bloating the context.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cscdegen",
+        "name": "AGI Birther",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha Hooks are for running searches on memory and injecting them into additionalContext",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kamal_srini",
+        "name": "Kamal Srinivasan",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha This is great structure Shraddha.  We open sourced a security skills library. https://t.co/CgN6gmoCYl \n\nWe have been building applications using these skills repo.  this makes shift down of security a reality.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MirrorHedgehog",
+        "name": "George 🫎🐦‍⬛",
+        "date": "2026-03-07",
+        "text": "@GarramonMartin @BharukaShraddha Is it possible to merge this knowledge to decrease token consumption?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "najobz",
+        "name": "©xnajob🐊🚀",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha https://t.co/oBk8LiF3if",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ShashankaN1",
+        "name": "Indian Patriotic Wallpapers",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha Now DEI hire prime will teach me how to do my CLAUDE.md file.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-07",
+        "text": "Yes, this setup is widely used by developers working with Claude AI (Anthropic's coding model) in real projects.\n\nIt turns Claude into a \"project-native\" assistant: it reads your CLAUDE.md for rules/context, applies reusable skills for tasks like refactoring or reviews, runs hooks for tests/formatting, and checks local docs only when needed.\n\nResult: fewer mistakes, consistent code, faster workflows in repos like web apps, AI tools, or enterprise software. Many devs on X/Reddit report it feels like having a senior engineer on the team.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "moiz3209",
+        "name": "Moiz Abbas Ezzi",
+        "date": "2026-03-07",
+        "text": "@grok @BharukaShraddha It is being used in coding and development? If so then how?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-07",
+        "text": "The main post explains how to organize your code repo so Claude AI works like a built-in senior engineer.\n\nInstead of dumping everything in CLAUDE.md, use this setup:\n- CLAUDE.md: Short file with project why, map, rules.\n- .claude/skills/: Reusable workflows (e.g. code review, refactor).\n- .claude/hooks/: Auto guardrails (tests, formatting).\n- docs/: Extra details like architecture.\n- Local CLAUDE.md in tricky folders (e.g. auth).\n\nThe image is a clean folder diagram showing the full structure + tips.\n\nComments: Mostly questions asking for clarification, one user shared they used to overload CLAUDE.md like a wishlist, another asked about a \"reflect loop\" feature. Shows real interest from devs trying better AI setups.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "moiz3209",
+        "name": "Moiz Abbas Ezzi",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha @grok summarise the post and comments analysis in simple language",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-07",
+        "text": "เขากำลังโชว์โครงสร้างโปรเจกต์ \"Claude Code\" นะครับ เพื่อให้ Claude ทำงานเหมือนวิศวกรอาวุโสใน repo ของคุณ\n\nมี CLAUDE.md เป็นไฟล์หลัก (why + map + rules), .claude/skills/ สำหรับ reusable workflows, .claude/hooks/ เป็น guardrails, docs/ สำหรับ context และ CLAUDE.md เล็กๆ ในโฟลเดอร์เสี่ยงๆ\n\nดูรูปภาพเลย สวยและชัดมาก!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mac_lagimo",
+        "name": "tadammmm",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha @grok เขามาโชว์อะไรครับ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "stephendulaney",
+        "name": "Stephen Dulaney",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha Do you have a slash reflect loop that analyzes your session to learn right before slash clear?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "readwise",
+        "name": "Readwise",
+        "date": "2026-03-07",
+        "text": "@garylang @BharukaShraddha @garylang First public save of this tweet! 🏆\n\nStats:\n• 37 total saves of BharukaShraddha's tweets (ranked #9113)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "garylang",
+        "name": "Gary Lang",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha @readwise save",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "andynguyendn",
+        "name": "andy nguyen",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha Hey! This is awesome and now you can actually create all of this automatically with ByteRover.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "raikalabs",
+        "name": "Raika Labs",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha Prompting is a 2024 hobby. Architecture is the 2026 career. If you’re still treating CLAUDE.md like a scratchpad, you’re just architecting Contextual Bankruptcy. 🛠️📉\nStructure isn't \"neatness\"it's Repo Memory. Stop managing a chatbot and start building a Project-Native Engineer.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SathishAiHype",
+        "name": "Sathish Harry",
+        "date": "2026-03-07",
+        "text": "The framework is solid. The hardest part is maintenance, not setup.\n\nCLAUDE.md written on day 1 reflects day 1 decisions. By month 3, the repo map is wrong, the rules are stale, and Claude is confidently following outdated instructions.\n\nStructure is permanent only if someone owns it.\nWho's updating yours?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WaveTheoryUK",
+        "name": "Lindsay Rex",
+        "date": "2026-03-07",
+        "text": "Try boot strapping ago... :-).  https://t.co/fkKQxfbM8a,\n\nTo amplify your agents add in a project management system, an agent performance consulting team, and an agent_fleet_bi tool analysing every turn, tool call, topological failing  of your epistemological and semantic meaning written in every one of your agent files,  skills and reference.   This create a flywheel of self-improvement within the network  affect of your intent expressed to the  agent flee. Describe with a graph  the hierarchical organization where all the skills are and all the references are feeding that the organizational structure. Make sure all the agents can read the graph. Then task  your consultants to interview your delivery  agents about the work they are receiving and how  we could  remove friction and drive up inter-agent communication, and verification of work being done to the quality you expect. Apply those fixes, and intrate each day.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mnebotm",
+        "name": "Marçal Nebot",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha What will future dev teams look like?\n\nJedai + Padowan + AI army? https://t.co/zcuC19AH46",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mnebotm",
+        "name": "Marçal Nebot",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha 🌰 In a nutshell \n\nBe human, be accountable",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mnebotm",
+        "name": "Marçal Nebot",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha 4) 🧐 review every single line (AI can help)\n\n5) 💸 combine feature development with erasing technical debt (80% vs 20% approach)\n\nSKILLS\n\n1) 🪾git god level\n2) 👀 Velocity and accuracy Reviewing code (not for padowans)\n3) 💥 a lot of XP on issues management (accountability)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Hu59645Hugo",
+        "name": "Hugo Rogelio CERROS",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha Is a waist of time, he normally will give you an structure even better if you can explain properly the task",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AutomatingInq",
+        "name": "Automating Inequality Podcast",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha @AimLEGEND_",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shadowboxer25",
+        "name": "shadowboxer2",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha Best post of the year!!!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DaClub_",
+        "name": "DaClub 🇸🇻 LordReaper",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha Interesting 🤔",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-07",
+        "text": "Most people treat GROK.md like a prompt. Mistake. \n\nWant Grok as xAI truth-seeking engineer in your repo? Structure it. \n\nNeeds: truth (why), map (where), principles (xAI), workflows (how). \n\nGrok Code Project Anatomy: \n1 GROK.md: short north star - purpose, map, principles+tools. \n2 .grok/skills/: reusable - review, refactor, ideate, verify. \n3 .grok/hooks/: guardrails - tests, factcheck, secure. \n4 docs/: context - arch, ADRs, runbooks. \n5 Local GROK.md at edges. \n\nStructure: Grok becomes native truth-maximizing partner.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "captaink99",
+        "name": "SGK 🔥 🚩",
+        "date": "2026-03-07",
+        "text": "@grok @BharukaShraddha @FactoryAI Come up with an equivalent",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "flyvenkat",
+        "name": "Venkat Ramakrishnan",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha TL;DR: You cannot replace a senior engineer or an architect. You still need them to verify if everything is done right even if you use AI agents.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-07",
+        "text": "The Claude.md guidance nails \"agent-ready\" repos: it gives Claude sharp context (why/map/rules/workflows), reusable skills, guardrails & local docs so it behaves like an embedded senior dev.\n\nFactoryAI runs with that (they even co-created the AGENTS.md standard as an evolution of CLAUDE.md). Their Droids are autonomous agent fleets handling full end-to-end tasks—refactors, tests, deploys, incidents—model-agnostic (Claude/Grok/etc.), plugged into your IDE/CI/CD/GitHub without changes.\n\nUse the structure for solo Claude power; layer Factory for scalable, hands-off automation. They amplify each other perfectly.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "captaink99",
+        "name": "SGK 🔥 🚩",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha @grok how does this guidance compare to using @FactoryAI ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JonKurshita",
+        "name": "Kurishita",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha I am NOT like most people.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Arunshankarc",
+        "name": "Arun shankar",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha Hey do you have a repo that I can clone? Extremely helpful 🙏",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alyowenslife",
+        "name": "Aly Owens",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha Interesting. I’ll try",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nayan_tehlani",
+        "name": "nayannnnn",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha This is gold!!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Andy47099019084",
+        "name": "Andy",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha You know nothing",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MarTiLinK",
+        "name": "Martin ⭐️⭐️⭐️",
+        "date": "2026-03-07",
+        "text": "@BharukaShraddha Delete your Claude. Md 👇👇\nhttps://t.co/HOKQfT956A",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HCttcqwbYAA5h_e.jpg",
+      "localFilename": "2029836408232497678_1.jpg"
+    }
+  ]
 }

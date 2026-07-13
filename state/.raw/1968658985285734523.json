@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:11.197Z",
+  "fetchedAt": "2026-07-12T18:31:22.405Z",
   "tweetId": "1968658985285734523",
   "post": {
     "url": "https://x.com/athleticKoder/status/1968658985285734523",
@@ -9,14 +10,828 @@
       "name": "anshuman"
     },
     "date": "2025-09-18",
-    "text": "You're in a ML Engineer interview at Perplexity, and the interviewer asks: \n\n\"Your RAG system is hallucinating in production. How do you diagnose what's broken - the retriever or the generator?\" \n\nHere's how you can answer:",
+    "text": "You're in a ML Engineer interview at Perplexity, and the interviewer asks: \n\n\"Your RAG system is hallucinating in production. How do you diagnose what's broken - the retriever or the generator?\" \n\nHere's how you can answer:\n\nMost candidates say \"check accuracy\" or \"run more tests.\" \n\nWrong approach. \n\nRAG systems fail at TWO distinct stages, and you need different metrics for each. \n\nGeneric accuracy won't tell you WHERE the problem is.\n\nThe fundamental insight: \n\nRAG quality = Retriever Performance × Generator Performance\n\nIf either component scores zero, your entire system fails. It's multiplication, not addition. \n\nYou can't compensate for bad retrieval with a better LLM.\n\nRetrieval Metrics (Did we get the right context?)\n\n1️⃣ Contextual Relevancy: What % of retrieved chunks actually matter? \n\n2️⃣ Contextual Recall: Did we retrieve ALL the info needed?\n\n3️⃣ Contextual Precision: Are relevant chunks ranked higher than junk?\n\nGeneration Metrics (Did the LLM use context correctly?)\n\n1️⃣ Faithfulness: Is the output contradicting the retrieved facts?\n\n2️⃣ Answer Relevancy: Is the response actually answering the question?\n\n3️⃣ Custom metrics: Does it follow your specific format/style requirements?\n\nbtw if you want to receive these bites daily, subscribe my newsletter, and you'll have it in your inbox\n\nhttps://t.co/r2pBZ2kswY\n\nnow back to thread\n\nHere's the diagnostic framework every senior ML engineer knows:\n\nHigh faithfulness + Low relevancy = Retrieval problem \n\nLow faithfulness + High relevancy = Generation problem\n\nBoth low = Your entire pipeline is broken Both high = Look for edge cases\n\nThe metric that catches most production issues: Contextual Recall\n\nYour retriever might find \"relevant\" content but miss critical details. \n\nPerfect precision, zero recall = confident wrong answers. \n\nThis is why RAG systems confidently hallucinate.\n\n@perplexity_ai @GeminiApp and @claudeai are some very high quality RAG systems.\n\nIf you want to study them, study backwards.\n\n\"Our RAG has 85% accuracy!\"\n\nInterviewer: \"What's your contextual precision? Faithfulness score? Are you measuring end-to-end or component-level?\"\n\nVague metrics = You don't understand production RAG systems.\n\nThe evaluation workflow that separates juniors from seniors:\n\n❌ Junior: Test everything end-to-end, pray it works \n\n✅ Senior: Component-level metrics + automated CI/CD evaluation + production monitoring\n\nKnow your evaluation targets by use case:\n\nCustomer support: Faithfulness &gt;0.9 (no wrong info) Research assistant: Contextual recall &gt;0.8 (comprehensive)\n\nCode completion: Answer relevancy &gt;0.9 (stay on topic) Legal docs: All metrics &gt;0.95 (zero tolerance)\n\nThe brutal production reality:\n\nPerfect retrieval + weak prompts = hallucinations \n\nPerfect LLM + bad chunks = irrelevant answers\n\nGood retrieval + good generation + no monitoring = eventual failure\n\nYou need metrics at ALL stages.\n\nPro tip for the interview: \n\nMention LLM-as-a-judge evaluation\n\n\"I'd use GPT-4 to evaluate faithfulness by comparing generated answers against retrieved context, then track score distributions over time to catch model drift.\"\n\nShows you understand modern eval techniques.\n\nhe question that ends the interview:\n\n\"How would you implement this evaluation in production?\"\n\nWrong: \"Run tests manually\" \n\nRight: \n\n- Automated component-level evals in CI/CD\n- real-time monitoring with alerting\n- async batch evaluation of production traffic\"\n\nUnderstanding RAG failure modes > memorizing transformer architectures\n\nThat's it for today! \n\nBuilding reliable RAG systems is 80% evaluation, 20% architecture. \n\nGet your metrics right first.\n\nfollow @athleticKoder for more such threads and feel free to DM/comment any questions!",
+    "thread": [
+      {
+        "id": "1968658985285734523",
+        "text": "You're in a ML Engineer interview at Perplexity, and the interviewer asks: \n\n\"Your RAG system is hallucinating in production. How do you diagnose what's broken - the retriever or the generator?\" \n\nHere's how you can answer:"
+      },
+      {
+        "id": "1968658987756224919",
+        "text": "Most candidates say \"check accuracy\" or \"run more tests.\" \n\nWrong approach. \n\nRAG systems fail at TWO distinct stages, and you need different metrics for each. \n\nGeneric accuracy won't tell you WHERE the problem is."
+      },
+      {
+        "id": "1968658991480795559",
+        "text": "The fundamental insight: \n\nRAG quality = Retriever Performance × Generator Performance\n\nIf either component scores zero, your entire system fails. It's multiplication, not addition. \n\nYou can't compensate for bad retrieval with a better LLM."
+      },
+      {
+        "id": "1968658995259805855",
+        "text": "Retrieval Metrics (Did we get the right context?)\n\n1️⃣ Contextual Relevancy: What % of retrieved chunks actually matter? \n\n2️⃣ Contextual Recall: Did we retrieve ALL the info needed?\n\n3️⃣ Contextual Precision: Are relevant chunks ranked higher than junk?"
+      },
+      {
+        "id": "1968658997851955396",
+        "text": "Generation Metrics (Did the LLM use context correctly?)\n\n1️⃣ Faithfulness: Is the output contradicting the retrieved facts?\n\n2️⃣ Answer Relevancy: Is the response actually answering the question?\n\n3️⃣ Custom metrics: Does it follow your specific format/style requirements?"
+      },
+      {
+        "id": "1968659000271970442",
+        "text": "btw if you want to receive these bites daily, subscribe my newsletter, and you'll have it in your inbox\n\nhttps://t.co/r2pBZ2kswY\n\nnow back to thread"
+      },
+      {
+        "id": "1968659004323753994",
+        "text": "Here's the diagnostic framework every senior ML engineer knows:\n\nHigh faithfulness + Low relevancy = Retrieval problem \n\nLow faithfulness + High relevancy = Generation problem\n\nBoth low = Your entire pipeline is broken Both high = Look for edge cases"
+      },
+      {
+        "id": "1968659006920049128",
+        "text": "The metric that catches most production issues: Contextual Recall\n\nYour retriever might find \"relevant\" content but miss critical details. \n\nPerfect precision, zero recall = confident wrong answers. \n\nThis is why RAG systems confidently hallucinate."
+      },
+      {
+        "id": "1968659009335926840",
+        "text": "@perplexity_ai @GeminiApp and @claudeai are some very high quality RAG systems.\n\nIf you want to study them, study backwards."
+      },
+      {
+        "id": "1968659011546267849",
+        "text": "\"Our RAG has 85% accuracy!\"\n\nInterviewer: \"What's your contextual precision? Faithfulness score? Are you measuring end-to-end or component-level?\"\n\nVague metrics = You don't understand production RAG systems."
+      },
+      {
+        "id": "1968659013895070114",
+        "text": "The evaluation workflow that separates juniors from seniors:\n\n❌ Junior: Test everything end-to-end, pray it works \n\n✅ Senior: Component-level metrics + automated CI/CD evaluation + production monitoring"
+      },
+      {
+        "id": "1968659016264880304",
+        "text": "Know your evaluation targets by use case:\n\nCustomer support: Faithfulness &gt;0.9 (no wrong info) Research assistant: Contextual recall &gt;0.8 (comprehensive)\n\nCode completion: Answer relevancy &gt;0.9 (stay on topic) Legal docs: All metrics &gt;0.95 (zero tolerance)"
+      },
+      {
+        "id": "1968659018756300919",
+        "text": "The brutal production reality:\n\nPerfect retrieval + weak prompts = hallucinations \n\nPerfect LLM + bad chunks = irrelevant answers\n\nGood retrieval + good generation + no monitoring = eventual failure\n\nYou need metrics at ALL stages."
+      },
+      {
+        "id": "1968659021658792374",
+        "text": "Pro tip for the interview: \n\nMention LLM-as-a-judge evaluation\n\n\"I'd use GPT-4 to evaluate faithfulness by comparing generated answers against retrieved context, then track score distributions over time to catch model drift.\"\n\nShows you understand modern eval techniques."
+      },
+      {
+        "id": "1968659024124969371",
+        "text": "he question that ends the interview:\n\n\"How would you implement this evaluation in production?\"\n\nWrong: \"Run tests manually\" \n\nRight: \n\n- Automated component-level evals in CI/CD\n- real-time monitoring with alerting\n- async batch evaluation of production traffic\""
+      },
+      {
+        "id": "1968659026641891778",
+        "text": "Understanding RAG failure modes > memorizing transformer architectures\n\nThat's it for today! \n\nBuilding reliable RAG systems is 80% evaluation, 20% architecture. \n\nGet your metrics right first.\n\nfollow @athleticKoder for more such threads and feel free to DM/comment any questions!"
+      }
+    ],
     "media": [],
     "metrics": {
-      "likes": 2894,
-      "retweets": 216,
+      "likes": 2881,
+      "retweets": 214,
       "replies": 47,
-      "views": 360554
+      "views": 361108
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "theamrelhady",
+        "name": "Amr Elhady",
+        "date": "2025-09-19",
+        "text": "@athleticKoder The accuracy of your RAG model is highly dependent on how you choose to structure your embeddings. If you truly think about how to partition your dataset based on the information the user would need to query, then you will have significantly more relevant docs passed to the LLM",
+        "likes": 18,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Anchit_Gupt",
+        "name": "Anchit Gupta",
+        "date": "2025-09-18",
+        "text": "@athleticKoder Great info.\n\nThis is what real information looks like. I understood QA of LLM nore in thsi thread than in last 3 months.",
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "learner_03",
+        "name": "SJ",
+        "date": "2025-09-18",
+        "text": "@athleticKoder You can also play around these metrics using libraries such as RAGAS and Langfuse.",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-19",
+        "text": "@theamrelhady indeed, embeddings make a LOT of difference",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "joaoli13",
+        "name": "João Lima",
+        "date": "2025-09-19",
+        "text": "Great thread — two quick points:\n\nSemantic chunking: split by meaning (topic/paragraph boundaries) instead of fixed windows so retrievers return coherent chunks and critical details aren’t lost\n\nMultilayer / coarse-to-fine embeddings: index at multiple granularities (doc → section → sentence), do a broad coarse fetch then re-rank with fine embeddings — see my paper (arXiv:2411.07739) for the method and results\n\nTogether they boost contextual recall and cut RAG hallucinations",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LarryMartinJr",
+        "name": "Larry Martin",
+        "date": "2025-09-18",
+        "text": "@athleticKoder This is one of the best threads on this topic",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BrandGrowthOS",
+        "name": "Karim C",
+        "date": "2025-09-18",
+        "text": "start with the retriever - log what chunks you're getting vs what you expected\n\nmost RAG hallucinations I've debugged trace back to irrelevant context poisoning the generator. Check embedding quality, chunk boundaries, and retrieval scoring thresholds before questioning the LLM\n\nthe generator usually works fine when fed the right context",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mindfultime_",
+        "name": "Mindfultime",
+        "date": "2025-09-18",
+        "text": "@athleticKoder Error analysis !! Not just relying on generic evals like faithfulness or recall. You want to categorize it based on your product ..",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "learner_03",
+        "name": "SJ",
+        "date": "2025-09-18",
+        "text": "@athleticKoder Always a student , learning something new 🤝",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-18",
+        "text": "@kiranlegend7 glad you liked it",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cybrogsrule",
+        "name": "Niraj",
+        "date": "2025-09-19",
+        "text": "@athleticKoder Don't worry Perplexity won't ask for these questions because I don't think they care what garbage they utter as long as it answers under 30 seconds",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sabshrtali",
+        "name": "S A Basharat Ali",
+        "date": "2025-09-19",
+        "text": "@athleticKoder Interesting take!\nOne might extend this framework by integrating a latent variable model to quantify uncertainty in retrieved contexts, potentially using a variational autoencoder to flag ambiguous chunks before generation. This could enhance your proposed CI/CD pipeline\nThoughts",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Tolulade_ato",
+        "name": "Tolulade",
+        "date": "2025-09-18",
+        "text": "@athleticKoder Times have changed, lol...  backend, then we weren't preparing for hallucinations. Welcome to the llm world",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "skinnywithbeard",
+        "name": "backstona",
+        "date": "2025-09-18",
+        "text": "@athleticKoder 💀someone is watching me…",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rakeshsahni_",
+        "name": "Rakesh Sahni",
+        "date": "2025-09-18",
+        "text": "RAG Evaluation:\n\n- Faithfulness (Identifying & quantifying instances of hallucination)\n- Bad Retrieval (Identify & quantify poor context retrieved)\n- Bad Response (Detect & quantify factual incorrect & misleading responses with correct context)\n\n- Answer Relevance (Is the retrieved context relevant to query)\n- Context Relevance (Is the retrieved context supporting the response generated by output)\n- Groundedness (Is the response supported by context)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sahkho",
+        "name": "sahil",
+        "date": "2025-09-18",
+        "text": "@athleticKoder 🐐",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "balavenkatesh22",
+        "name": "Bala Venkatesh 👨‍💻",
+        "date": "2025-09-18",
+        "text": "@athleticKoder Groud truth reality.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-18",
+        "text": "@Anchit_Gupt glad you liked it :)",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-18",
+        "text": "@rahim_mirani glad you liked it",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rahim_mirani",
+        "name": "Abdul Rahim Mirani",
+        "date": "2025-09-18",
+        "text": "@athleticKoder Amazing thread! Thanks for the deep info",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-18",
+        "text": "@adiaddxyz thanks macha",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SauhamV",
+        "name": "SV",
+        "date": "2025-09-18",
+        "text": "@athleticKoder Amazing post again. Subscribed your newsletter as well. Can you please make a post about which is the best Automated CI/CD pipeline for RAG based chatbot? I really wanted to know how do we track failures or errors in Production level after the model is deployed. \nThank you",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Wilsonafolabi2",
+        "name": "✞𓃵✎3M_eritus𓃰✎✟",
+        "date": "2025-09-18",
+        "text": "@athleticKoder Thanks noted",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AcostaDamo86768",
+        "name": "Damon Acosta",
+        "date": "2025-09-23",
+        "text": "@athleticKoder A practical roadmap for job interviews includes learning basics, building projects, and sharing results with clear KPIs.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SamuelOlaleye_",
+        "name": "Samuel",
+        "date": "2025-09-19",
+        "text": "@athleticKoder this is so insightful, thanks!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SindyR989",
+        "name": "Sindy",
+        "date": "2025-09-19",
+        "text": "@athleticKoder Great thread and very good analysis",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AgenticToaster",
+        "name": "Chris Sorel",
+        "date": "2025-09-19",
+        "text": "This feels very over engineered. \nA simpler approach:\n1. determine if you can replicate it in a dev environment. \n2. Log everything. \n3. Look at the logs.\n\nIf you don’t have configurable verbose logging at every point in the chain, then you shouldn’t be in production in the first place.\n\nIt should be patently obvious where it’s failing . If it’s not obvious, it’s because you don’t know your data domain well enough to understand what should be returned from your RAG system for a given prompt.\n\nIf it’s only happening in production, it’s the same process. You just have to narrow your logging window.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2025-09-19",
+        "text": "@fhumayun @athleticKoder @fhumayun Bonjour, please find the unroll here: https://t.co/mcgt3lOhk0 See you soon. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "fhumayun",
+        "name": "Faisal Humayun",
+        "date": "2025-09-19",
+        "text": "@athleticKoder @threadreaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AlexBucevschi",
+        "name": "Alex Bucevschi",
+        "date": "2025-09-19",
+        "text": "@athleticKoder Currently working with developer build a custom RAG for an internal product.  Accuracy is horrendous (I would say 60%). Working as a non-coder I tried alternatives: smaller contexts worked much better. Question is how to automate accuracy testing. Any resources you can recommend?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "getpochi",
+        "name": "Pochi",
+        "date": "2025-09-19",
+        "text": "This is a fantastic breakdown. The distinction between retriever and generator metrics is crucial. So many teams get stuck on generic 'accuracy' and can't figure out why their RAG system is failing. The `Contextual Recall` point is especially sharp - it's the silent killer of many RAG implementations.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ElliottChMiller",
+        "name": "Elliott",
+        "date": "2025-09-19",
+        "text": "@athleticKoder Only the generator can hallucinate but I see what they mean",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wjraghu",
+        "name": "Raghu",
+        "date": "2025-09-19",
+        "text": "@athleticKoder liked this post!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aidev_isaak",
+        "name": "Isaak Kamau🧑‍💻",
+        "date": "2025-09-19",
+        "text": "@athleticKoder I will add this, add a pipeline for scoring quality of your data before embedding or chunking them.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ThereBeLyte",
+        "name": "Vhiz",
+        "date": "2025-09-19",
+        "text": "@athleticKoder Nice thread Anshuman. One question though: metrics like contextual recall would require the ground truth to be present. So how do you do async batch eval of prod traffic?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VpkPrasanna",
+        "name": "prasanna kumar -e/acc",
+        "date": "2025-09-19",
+        "text": "@athleticKoder Great thread 🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ajhopenow",
+        "name": "AJ",
+        "date": "2025-09-19",
+        "text": "@pranav_mittal07 @athleticKoder 1. Use judge LLM to run against your evaluation set to measure these\n2. SME feedback through chatbot",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "pranav_mittal07",
+        "name": "Pranav Mittal",
+        "date": "2025-09-19",
+        "text": "@athleticKoder As a beginner I want to know how one can quantify all these measures means how we calculate ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "YawNinno",
+        "name": "‘Kayayo With An MBA’",
+        "date": "2025-09-19",
+        "text": "@athleticKoder Incredible thread!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "akashgo_012",
+        "name": "Akash Singh",
+        "date": "2025-09-19",
+        "text": "@athleticKoder Great ML interview question! RAG debugging is essential knowledge.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ThisAndDhat",
+        "name": "ThisAndThat",
+        "date": "2025-09-19",
+        "text": "@athleticKoder So you are using a hallucinating LLM to evaluate the hallucinations of another hallucinating LLM?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yoannoza",
+        "name": "Yoann Oza",
+        "date": "2025-09-19",
+        "text": "@athleticKoder Insightful thread !!\n\nAn evaluation mindset is what really makes the difference — especially the ability to deeply understand metrics and align them with real business cases.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "georgesiosi_ai",
+        "name": "George Siosi | AI",
+        "date": "2025-09-19",
+        "text": "@athleticKoder why is RAG still so popular?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PrblyElect",
+        "name": "The Reformer",
+        "date": "2025-09-19",
+        "text": "@athleticKoder Does your newsletter contain equal quality AI slop?\n\nPretty easy to tell which of these you wrote yourself. The ones with typos and shitty English.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GuruduthH",
+        "name": "Guruduth",
+        "date": "2025-09-19",
+        "text": "@athleticKoder Great thread would love to see more Such",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-19",
+        "text": "@AI_Aura_X thnx",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-19",
+        "text": "@GallopingStar lfg",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-19",
+        "text": "@Nikilkrishnan_ yay",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-19",
+        "text": "@Tolulade_ato lol yeah",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rizary_",
+        "name": "rizary",
+        "date": "2025-09-19",
+        "text": "@athleticKoder Ok you and your ai enhanced content deserved my follow. 😜",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Nikilkrishnan_",
+        "name": "Yenkay",
+        "date": "2025-09-19",
+        "text": "@athleticKoder best thread! 🧵",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EngAlpine",
+        "name": "First_Name Last_Name",
+        "date": "2025-09-18",
+        "text": "@athleticKoder 👋",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-18",
+        "text": "@BlackPill_1 yo",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-18",
+        "text": "@LarryMartinJr glad you liked it!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AlfeedZheng",
+        "name": "ZhengYangguang",
+        "date": "2025-09-18",
+        "text": "@athleticKoder Got it, thanks!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jin_myung_not",
+        "name": "John",
+        "date": "2025-09-18",
+        "text": "@athleticKoder Wow, this is almost exactly what I came up with to evaluate memory retrieval+injection at Khan Academy two months ago. Is this method common knowledge? Would have saved me days of brainstorming.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GallopingStar",
+        "name": "Galloping Star 🪓 🔥",
+        "date": "2025-09-18",
+        "text": "@athleticKoder Excellent bro",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "antona23",
+        "name": "Anton Ansalmar",
+        "date": "2025-09-18",
+        "text": "@athleticKoder Great share!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "singh_ojasv",
+        "name": "Ojasv Singh",
+        "date": "2025-09-18",
+        "text": "@athleticKoder What do you mean measure score… any score generated by llm model could also be a hallucination and not accurate…",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "singh_ojasv",
+        "name": "Ojasv Singh",
+        "date": "2025-09-18",
+        "text": "@athleticKoder Can you please elaborate",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SamuelOngo10897",
+        "name": "Samuel Ongom",
+        "date": "2025-09-18",
+        "text": "@athleticKoder artificial intelligence delivers the most value when it addresses a concrete problem with measurable outcomes with case studies.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AI_Axon_X",
+        "name": "A^3",
+        "date": "2025-09-18",
+        "text": "@athleticKoder Good share!!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EngAlpine",
+        "name": "First_Name Last_Name",
+        "date": "2025-09-18",
+        "text": "@athleticKoder Nice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "building_agents",
+        "name": "Aashish Rana",
+        "date": "2025-09-18",
+        "text": "@athleticKoder Amazing Post , one question how do you calculate contextual recall ? Like how do you check all the info needed from vector db for particular query ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Thomasmarkelly",
+        "name": "Thomas Kelly 🇻🇦🗝️",
+        "date": "2025-09-18",
+        "text": "@athleticKoder @perplexity_ai @GeminiApp @claudeai How do we study those please ...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "realyashnegi",
+        "name": "Yash Negi",
+        "date": "2025-09-18",
+        "text": "@athleticKoder Good approach",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "harshrajj04",
+        "name": "Harshh",
+        "date": "2025-09-18",
+        "text": "@athleticKoder Great thread, worth reading it entirely!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "psorensen",
+        "name": "🇦🇺Paul 🇺🇸 Sorensen",
+        "date": "2025-09-18",
+        "text": "@athleticKoder I’m still a believer in a system 1 / system 2 way of thinking that OpenAI has talked about. RAG is still system 1 so you still need something to check the output with factual information.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "edude03",
+        "name": "Michael Francis",
+        "date": "2025-09-18",
+        "text": "@athleticKoder I actually could really use help with the evaluation part - retrieval works but the results feel off but I need a way to measure before I start changing things",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2025-09-18",
+        "text": "@InterGunner99 @athleticKoder @InterGunner99 Guten Tag, please find the unroll here: https://t.co/mcgt3lOhk0 Have a good day. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "InterGunner99",
+        "name": "Bharat_U",
+        "date": "2025-09-18",
+        "text": "@athleticKoder @threadreaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-18",
+        "text": "@sahkho haha",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-18",
+        "text": "@sarcasm_na yo!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sarcasm_na",
+        "name": "PS",
+        "date": "2025-09-18",
+        "text": "@athleticKoder That's a daddy post ! Awesome stuff bro",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-18",
+        "text": "@learner_03 letsgo",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-18",
+        "text": "@learner_03 yessir",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-18",
+        "text": "@raythurman2386 hahaha",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kiranlegend7",
+        "name": "kiran kumar",
+        "date": "2025-09-18",
+        "text": "@athleticKoder Wonderful wonderful thread. Common sensical🙌🔆",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "raythurman2386",
+        "name": "Raymond Thurman",
+        "date": "2025-09-18",
+        "text": "@athleticKoder Raise a hammer at it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "adiaddxyz",
+        "name": "aditya addepalli",
+        "date": "2025-09-18",
+        "text": "@athleticKoder goated thread, good stuff!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-18",
+        "text": "@DkdCool58445 @grok wth",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "athleticKoder",
+        "name": "anshuman",
+        "date": "2025-09-18",
+        "text": "@Wilsonafolabi2 yay",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-18",
+        "text": "You're in a job interview for head chef at El Burrito Loco, a run-down taco shop on the edge of town, and the grizzled owner asks:\n\n\"Your taco assembly line is spitting out hallucinated orders in the kitchen—customers getting pineapple on their carne asada. How do you diagnose if it's the ingredient grabber (retriever) messing up or the taco wrapper (generator) gone rogue?\"\n\nAnswer: First, isolate the retriever—feed it a simple query like \"beef taco basics\" and check if it pulls the right stuff (beef, tortilla, no fruit). If that's off, tweak the sourcing (maybe the dusty pantry index is outdated).\n\nIf retriever's solid, test the generator solo with perfect ingredients—does it still add weird extras? Could be overcooking the prompts or needing better seasoning (fine-tuning).\n\nMonitor logs from rush hour to spot patterns, A/B test tweaks, and always taste-test outputs!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
   }
 }

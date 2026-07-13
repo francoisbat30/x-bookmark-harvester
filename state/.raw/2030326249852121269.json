@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:06.908Z",
+  "fetchedAt": "2026-07-13T07:08:15.146Z",
   "tweetId": "2030326249852121269",
   "post": {
     "url": "https://x.com/eliaswalyba/status/2030326249852121269",
@@ -10,13 +11,272 @@
     },
     "date": "2026-03-07",
     "text": "Un de mes collègues m'a montré Beads il y a quelques jours et ça a fondamentalement changé ma façon d'utiliser les agents IA comme Claude Code.\n\nLe problème de fond: les agents n'ont pas de mémoire persistante. Chaque session repart de zéro. On compense avec des fichiers markdown dans le repo, des CLAUDE.md, des notes de contexte, mais c'est fragile, non structuré, et ça scale mal dès que le projet grossit ou que tu veux paralléliser.\n\nBeads résout ça proprement. C'est un issue tracker en graphe orienté acyclique (DAG), stocké dans Dolt (une base SQL versionnée, Git-compatible), optimisé pour être consommé par des agents. Tes tâches ont des dépendances explicites. Un agent fait bd ready et récupère exactement ce qui est prêt à être traité, sans blocker, sans ambiguïté.\n\nCe qui change concrètement dans mon workflow: Avant, je planifiais dans Claude Code, le plan vivait dans le contexte de la session, et à la prochaine session je re-expliquais tout. Maintenant, Claude génère le backlog directement dans Beads au début d'une feature. Les tâches sont liées par dépendances. Un agent claim une tâche (bd update <id> --claim), l'exécute, log les bugs découverts avec le tag discovered-from, et passe à la suivante. Le contexte survit à la session.\n\nLa partie qui m'a le plus surpris: le mécanisme de compaction. Les tâches fermées sont résumées sémantiquement pour ne pas exploser la fenêtre de contexte sur les projets long-terme. C'est de la gestion de mémoire, littéralement.\n\nLes IDs sont hash-based (bd-a1b2) pour éviter les conflits de merge dans les workflows multi-agents sur plusieurs branches, détail qui montre que le design a été pensé pour du vrai usage distribué, pas juste du prototypage.\n\nJe l'utilise maintenant sur tous mes projets qui impliquent des tâches longues, multi-sessions, avec des dépendances complexes entre composants. Je vous recommande Beads vivement.\n\nMerci beaucoup @Steve_Yegge https://t.co/wtTGOVfvn7",
+    "thread": [
+      {
+        "id": "2030326249852121269",
+        "text": "Un de mes collègues m'a montré Beads il y a quelques jours et ça a fondamentalement changé ma façon d'utiliser les agents IA comme Claude Code.\n\nLe problème de fond: les agents n'ont pas de mémoire persistante. Chaque session repart de zéro. On compense avec des fichiers markdown dans le repo, des CLAUDE.md, des notes de contexte, mais c'est fragile, non structuré, et ça scale mal dès que le projet grossit ou que tu veux paralléliser.\n\nBeads résout ça proprement. C'est un issue tracker en graphe orienté acyclique (DAG), stocké dans Dolt (une base SQL versionnée, Git-compatible), optimisé pour être consommé par des agents. Tes tâches ont des dépendances explicites. Un agent fait bd ready et récupère exactement ce qui est prêt à être traité, sans blocker, sans ambiguïté.\n\nCe qui change concrètement dans mon workflow: Avant, je planifiais dans Claude Code, le plan vivait dans le contexte de la session, et à la prochaine session je re-expliquais tout. Maintenant, Claude génère le backlog directement dans Beads au début d'une feature. Les tâches sont liées par dépendances. Un agent claim une tâche (bd update <id> --claim), l'exécute, log les bugs découverts avec le tag discovered-from, et passe à la suivante. Le contexte survit à la session.\n\nLa partie qui m'a le plus surpris: le mécanisme de compaction. Les tâches fermées sont résumées sémantiquement pour ne pas exploser la fenêtre de contexte sur les projets long-terme. C'est de la gestion de mémoire, littéralement.\n\nLes IDs sont hash-based (bd-a1b2) pour éviter les conflits de merge dans les workflows multi-agents sur plusieurs branches, détail qui montre que le design a été pensé pour du vrai usage distribué, pas juste du prototypage.\n\nJe l'utilise maintenant sur tous mes projets qui impliquent des tâches longues, multi-sessions, avec des dépendances complexes entre composants. Je vous recommande Beads vivement.\n\nMerci beaucoup @Steve_Yegge https://t.co/wtTGOVfvn7"
+      }
+    ],
     "media": [],
     "metrics": {
-      "likes": 471,
+      "likes": 469,
       "retweets": 54,
       "replies": 20,
-      "views": 36022
+      "views": 36565
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "dotta",
+        "name": "dotta 📎",
+        "date": "2026-03-07",
+        "text": "@eliaswalyba huge props to steve but i eventually ran away from beads and wrote paperclip \n\nhttps://t.co/X1JvqUJ4RD",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Amazigh_Chahid",
+        "name": "Amazigh",
+        "date": "2026-03-07",
+        "text": "Ça me semble assez complexe et fragile comme structure car il s'agit d'évolution que Claude code va vite intégrer. Un fichier JSON avec le plan de dev découpé par ID et une BDD local en sqlite suffit amplement. Créer un agent pour exécuté les plans afin d'ajouter les iD et t'es bon",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eliaswalyba",
+        "name": "Elias Waly Ba",
+        "date": "2026-03-08",
+        "text": "C'est une question légitime. GitLab Issues est excellent pour les équipes humaines, UI, intégrations CI/CD, dashboards cross-repo. Mais il y a quelques frictions concrètes quand tu l'utilises avec des agents IA.\n\nD'abord, la latence réseau. Chaque bd ready est une requête SQL locale. Avec GitLab, chaque lecture/écriture passe par l'API REST, ça ralentit les agents qui font des dizaines d'opérations par session, et ça introduit une dépendance à la connectivité.\n\nEnsuite, la sémantique agent. GitLab Issues n'a pas de concept natif de \"claim atomique\", deux agents peuvent assigner la même issue simultanément sans conflict detection. Beads a un compare-and-swap explicite (bd update <id> --claim) conçu pour ce cas.\n\nMais la différence la plus profonde c'est le modèle de données. GitLab Issues c'est une liste plate avec des labels et des milestones. Beads c'est un DAG, les dépendances sont des first-class citizens. bd ready ne te donne pas juste les issues ouvertes, il résout le graphe et te donne exactement ce qui est débloqué à cet instant. Pour un agent qui doit décider quoi faire sans intervention humaine, c'est une différence fondamentale.\n\nEt enfin, offline-first. Beads tourne localement avec Dolt, versionné dans ton repo. Pas de token GitLab à gérer, pas de rate limits API, pas de webhook à configurer.\n\nGitLab reste pertinent pour la coordination humaine et l'intégration CI. Beads est optimisé pour la couche agent. Les deux ne sont pas mutuellement exclusifs d'ailleurs; tu peux très bien avoir Beads pour la mémoire agent et GitLab pour le reste du workflow. Moi c’est un peu comme ça que je l'utilise sauf que c'est Github à la place de Gitlab.",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xJacool",
+        "name": "JAi-cool 🇫🇷🇱🇧",
+        "date": "2026-03-08",
+        "text": "@eliaswalyba Pourquoi ne pas utiliser gitlab et centraliser toutes la tâches là bas ? Pas de collision, lien entre tâches possibles et intégration avec le reste du workflow de développement deja en place.\n\nJ'essaie de voir ce que beads apporte de plus...",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chrisbmullins",
+        "name": "Chris Mullins",
+        "date": "2026-03-07",
+        "text": "@eliaswalyba This was hot 60d ago, but most of the concepts are now incorporated directly into the Claude Code harness. And I was always trying to keep my Beads synced. It was great while it lasted.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HootCode",
+        "name": "HootCode",
+        "date": "2026-03-07",
+        "text": "@eliaswalyba Ça va arriver sur Claude Code de manière native d’ici quelques semaines c’est obligé .",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "soraya_bkti",
+        "name": "Selina",
+        "date": "2026-03-07",
+        "text": "@eliaswalyba J’ai le même problème a chaque session c’est Dory j’ai beau lui demander de maj sa doc c’est jamais suffisant",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eliaswalyba",
+        "name": "Elias Waly Ba",
+        "date": "2026-03-07",
+        "text": "@Amazigh_Chahid Ahh ouais !? Maintenir tout ça par toi même à chaque fois est moins fragile qu'utiliser un outil qui te le fais d'une manière plus optimisé et qui te gére la semantique ?",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "javimosch",
+        "name": "Javier Leandro Arancibia",
+        "date": "2026-03-08",
+        "text": "@theirongolddev @eliaswalyba Awesome port thanks for sharing. I will integrate this one into my most recent repo called dcli",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xTiby",
+        "name": "tiby.eth",
+        "date": "2026-03-07",
+        "text": "@eliaswalyba Beads c’est vraiment géniale. Je l’utilise avec des boucles d’agents c’est parfait pour les taches très longues !",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eliaswalyba",
+        "name": "Elias Waly Ba",
+        "date": "2026-03-07",
+        "text": "@dotta Oh nice. Will check this out. Thanks for sharing. Could you share why you had to build this ? What problems did you have with beads ?",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Seydouna_Sha",
+        "name": "Seydouna",
+        "date": "2026-03-07",
+        "text": "@eliaswalyba @misteraliouba insightful",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MomooDiane",
+        "name": "Mømo",
+        "date": "2026-03-07",
+        "text": "@eliaswalyba Les IDs hash-based sont ce qui permettent à Claude de relier la session au contexte dans Beads ? Sinon j’arrive pas a visualiser comment c’est tracké",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "soraya_bkti",
+        "name": "Selina",
+        "date": "2026-03-07",
+        "text": "@eliaswalyba Je crois que je suis en burn out juste à lui dire mets à jour ta doc et où as tu perdu ceci",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Reeslo",
+        "name": "reeslo",
+        "date": "2026-03-07",
+        "text": "@eliaswalyba Merci pour le partage, dans mon équipe, pour le moment, on sauvegarde chaque plan, design/implementation dans un dossier docs. Pour le moment ça fonctionne plutôt bien.\nJe vais regarder de près ce que tu as partagé. Est-ce qu'on peut nous humains le consulter ?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "javimosch",
+        "name": "Javier Leandro Arancibia",
+        "date": "2026-03-09",
+        "text": "@theirongolddev @eliaswalyba 🚀 Introducing SuperCLI: The Universal Skill Router for AI Agents\n\nOne CLI to rule them all:\n• Docker\n• AWS\n• Kubernetes\n• GitHub\n• Anything else\n\nNatural language commands. Zero friction. Infinite extensibility.\n\nnpx supercli help\n\n#AI #DevOps #CLI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "willjamesusa",
+        "name": "Will James",
+        "date": "2026-03-09",
+        "text": "@eliaswalyba @0xJacool Thank you for this detailed differentiation summary",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "javimosch",
+        "name": "Javier Leandro Arancibia",
+        "date": "2026-03-08",
+        "text": "@theirongolddev @eliaswalyba I did it (rebranded to supercli) =&gt; It works like a charm =&gt; long live to rust beads ! :P\n\nhttps://t.co/4WJ2kSk1vw",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ryanseamons",
+        "name": "Ryan Seamons",
+        "date": "2026-03-08",
+        "text": "@eliaswalyba Curious to check this out. It’s not great, but Linear has been a decent intermediary for plans.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xJacool",
+        "name": "JAi-cool 🇫🇷🇱🇧",
+        "date": "2026-03-08",
+        "text": "@eliaswalyba Un workflow avec Gitlab/GitHub -&gt; beads -&gt; agents -&gt; beads -&gt; Gitlab/GitHub ?\n\nFYI, gitlab permet de lier des issues entre elles (sous issues)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CryptoApeGod",
+        "name": "Crypto Ape GOD (Saiyan Ape)",
+        "date": "2026-03-08",
+        "text": "@eliaswalyba c'est intéressant mais sinon t'as openclaw et lobster bot qui font ça par défaut et beaucoup plus. Mais pour ceux qui utilise que claude code c'est clairement pas mal",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bekouludovic",
+        "name": "Ludovic BEKOU🇨🇮🇧🇯",
+        "date": "2026-03-08",
+        "text": "@eliaswalyba En attendant que cela n'arrive sur Claude, beads nous facilitera beaucoup la vie en optimisant le process, surtout pour les équipes",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cniongolo",
+        "name": "KALALA NZENIELE",
+        "date": "2026-03-08",
+        "text": "@eliaswalyba beads + https://t.co/BVUTPG8VWf + @AmpCode ☺️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eliaswalyba",
+        "name": "Elias Waly Ba",
+        "date": "2026-03-07",
+        "text": "Non, les IDs hash-based n'ont rien à voir avec le tracking de session, c'est uniquement pour éviter les collisions de merge quand plusieurs agents travaillent sur des branches git différentes en parallèle. Si les IDs étaient des entiers auto-incrémentés (1, 2, 3...), deux agents sur deux branches créeraient tous les deux un \"task #5\" et le merge serait un désastre.\n\nLe tracking de contexte entre sessions, c'est Dolt qui s'en charge. Dolt est une base SQL versionnée, concrètement, l'état complet du backlog (tâches, dépendances, statuts, historique) est persisté sur disque et versionné comme un repo git. Quand Claude repart d'une nouvelle session, il fait bd ready et retrouve exactement où en était le travail: quelles tâches sont ouvertes, lesquelles sont bloquées, lesquelles sont claimeables. Il n'a pas besoin de \"se souvenir\", il lit l'état depuis la base.\n\nIl y a aussi un deuxième niveau: Beads expose des commandes de mémoire sémantique explicite, bd remember, bd recall, bd forget, qui persistent indépendamment des tâches. C'est pour la connaissance qui doit survivre non seulement aux sessions, mais aussi aux rotations d'agents. L'état du backlog dit quoi faire, la mémoire sémantique dit ce qu'on sait. C'est la différence fondamentale avec un fichier markdown.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ByAegerter",
+        "name": "Alexandre Aegerter",
+        "date": "2026-03-07",
+        "text": "@eliaswalyba Claude code n’est pas vraiment un agent",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ecappannelli",
+        "name": "Eric Cappannelli",
+        "date": "2026-03-07",
+        "text": "@eliaswalyba Va jeter un oeil à Gaz Town...\nC'est la version multi-agents orchestrée :)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MehdiBuilds",
+        "name": "Mehdi ⚡️ Builds with AI",
+        "date": "2026-03-07",
+        "text": "@eliaswalyba Test Claude code + openclaw = banger assuré",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AChevenementM",
+        "name": "Axel Chevenement Miranda",
+        "date": "2026-03-07",
+        "text": "@eliaswalyba Intéressant ! A tester",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
   }
 }

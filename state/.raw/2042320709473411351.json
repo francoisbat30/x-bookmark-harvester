@@ -1,0 +1,219 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:24.263Z",
+  "tweetId": "2042320709473411351",
+  "post": {
+    "url": "https://x.com/Zoeillle/status/2042320709473411351",
+    "author": {
+      "handle": "Zoeillle",
+      "name": "chloe 🇫🇷"
+    },
+    "date": "2026-04-09",
+    "text": "Premier degrès: https://t.co/DkPYZvg1UO vous propose de super skills et accès metadonnées (notamment le BO des FP) afin d'être tip top avec votre agent IA\n\nhttps://t.co/BmVNuQ5XgZ https://t.co/Bpusnxo20V",
+    "thread": [
+      {
+        "id": "2042320709473411351",
+        "text": "Premier degrès: https://t.co/DkPYZvg1UO vous propose de super skills et accès metadonnées (notamment le BO des FP) afin d'être tip top avec votre agent IA\n\nhttps://t.co/BmVNuQ5XgZ https://t.co/Bpusnxo20V"
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 460,
+      "retweets": 32,
+      "replies": 9,
+      "views": 93220
+    },
+    "comments": [
+      {
+        "handle": "Yann_Damian",
+        "name": "Damian Yann",
+        "date": "2026-04-10",
+        "text": "@Zoeillle un skill fiscalité  le projet devrait s'appeler vaseline",
+        "likes": 22,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "oooooooorion",
+        "name": "orion",
+        "date": "2026-04-09",
+        "text": "@Zoeillle oh putain j'avais pas vu ça ça va déclarer à donf cette année",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Tif0x",
+        "name": "Tifox",
+        "date": "2026-04-10",
+        "text": "@Zoeillle shout-out @romainsimon",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "romainsimon",
+        "name": "Romain Simon",
+        "date": "2026-04-10",
+        "text": "@Yann_Damian @Zoeillle Paperasse c'est pas mal déjà. Je veux pas m'attirer les foudres du fist... heu du fisc je voulais dire.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "romainsimon",
+        "name": "Romain Simon",
+        "date": "2026-04-10",
+        "text": "@a_guy_in_ecom @Zoeillle Il y a des evals (cf. le readme) donc pas trop mal je pense.\nA noter que j'ai fait tourner les evals sur Sonnet pour voir la différence avec/sans skills, mais avec Opus les résultats sont largement mieux.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LukasMau__",
+        "name": "Lukas 𝕏  🇫🇷🇩🇪",
+        "date": "2026-04-10",
+        "text": "@Zoeillle Gratuit comme ça là ?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ramygif",
+        "name": "Ramygif",
+        "date": "2026-04-11",
+        "text": "@Zoeillle mdr l'idée de faire ses impôts avec Claude c'est soit le futur soit le contrôle fiscal le plus rapide de l'histoire",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jojoris_",
+        "name": "Joris",
+        "date": "2026-04-11",
+        "text": "@a_guy_in_ecom @Zoeillle En vrai peu importe la qualité de cet outil précisément, faut le voir comme un des premiers pas vers une facilité administrative, et en France on est les champions pour les mal de crâne administratifs...",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GuiSansFiltre",
+        "name": "🇫🇷 Gui sans filtre 🇫🇷 τ/acc",
+        "date": "2026-04-10",
+        "text": "@Zoeillle WTFFF",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-04-10",
+        "text": "@romainsimon @Tif0x yes! frais réels et co",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-04-10",
+        "text": "@romainsimon @Tif0x ça serait incroyable si le skill s'adaptait aussi aux particuliers car c'est vrai qu'il est très orienté entreprise",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zoeillle",
+        "name": "chloe 🇫🇷",
+        "date": "2026-04-10",
+        "text": "@romainsimon @Tif0x Oh faut que je test !! Merci romain pour le boulot 🙏🏻",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Baleck_en_mono",
+        "name": "Lv-esad",
+        "date": "2026-04-10",
+        "text": "@Zoeillle @benjamincode 👀",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "romainsimon",
+        "name": "Romain Simon",
+        "date": "2026-04-10",
+        "text": "@Tif0x @Zoeillle La bonne nouvelle c'est que les skills permettent aussi de simuler le contrôle fiscal avant même qu'il arrive 😊",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LukasMau__",
+        "name": "Lukas 𝕏  🇫🇷🇩🇪",
+        "date": "2026-04-10",
+        "text": "@oooooooorion @Zoeillle C’est excellent bon sang.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "romainsimon",
+        "name": "Romain Simon",
+        "date": "2026-04-10",
+        "text": "@LukasMau__ @Zoeillle Yes. Il faut juste payer les honoraires en stars GitHub 😉",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "itssampe",
+        "name": "Sampé",
+        "date": "2026-04-10",
+        "text": "@Zoeillle à quel point il est bien fait le skill ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "romainsimon",
+        "name": "Romain Simon",
+        "date": "2026-04-10",
+        "text": "@Zoeillle @Tif0x Pour la déclaration d'impôt ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "romainsimon",
+        "name": "Romain Simon",
+        "date": "2026-04-10",
+        "text": "@Zoeillle @Tif0x Avec plaisir, preneur de ton feedback car créé à partir de mon cas particulier (notamment si besoin d'autres intégrations que Qonto/Stripe)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Marckooo_",
+        "name": "Marcoo",
+        "date": "2026-04-10",
+        "text": "@oooooooorion @Zoeillle Carrement ca va declarer des trucs que jai pas fait",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iapourtous_off",
+        "name": "IA pour tous",
+        "date": "2026-04-10",
+        "text": "@Zoeillle Des skills et acces metadonnees pour les agents IA, c'est ce qu'il manquait cote donnees publiques. Requeter le BO des FP directement ca ouvre des cas d'usage enormes. Les donnees etaient la, c'etait l'acces qui bloquait.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  }
+}

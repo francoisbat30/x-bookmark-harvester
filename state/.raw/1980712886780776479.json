@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:52.349Z",
+  "fetchedAt": "2026-07-13T06:48:54.760Z",
   "tweetId": "1980712886780776479",
   "post": {
     "url": "https://x.com/DuckDuckGo/status/1980712886780776479",
@@ -9,19 +10,397 @@
       "name": "DuckDuckGo"
     },
     "date": "2025-10-21",
-    "text": "🆕 Want to know how many sites have your personal info? 👀 \n\nPersonal Information Removal scans are now available for free on the DuckDuckGo Windows and Mac browsers — no subscription needed.\n\nhttps://t.co/QNfnevMB5N https://t.co/DtGDnvLchF",
+    "text": "🆕 Want to know how many sites have your personal info? 👀 \n\nPersonal Information Removal scans are now available for free on the DuckDuckGo Windows and Mac browsers — no subscription needed.\n\nhttps://t.co/QNfnevMB5N https://t.co/DtGDnvLchF\n\nJust open the DuckDuckGo Browser → Browser Menu (☰) → Free Personal Information Scan, enter your name, and see which data brokers have your info.",
+    "thread": [
+      {
+        "id": "1980712886780776479",
+        "text": "🆕 Want to know how many sites have your personal info? 👀 \n\nPersonal Information Removal scans are now available for free on the DuckDuckGo Windows and Mac browsers — no subscription needed.\n\nhttps://t.co/QNfnevMB5N https://t.co/DtGDnvLchF"
+      },
+      {
+        "id": "1980712889649332682",
+        "text": "Just open the DuckDuckGo Browser → Browser Menu (☰) → Free Personal Information Scan, enter your name, and see which data brokers have your info."
+      }
+    ],
     "media": [
       {
         "type": "gif",
-        "url": "https://pbs.twimg.com/tweet_video_thumb/G3zngBlWcAAF4_b.jpg"
+        "url": "https://video.twimg.com/tweet_video/G3zngBlWcAAF4_b.mp4",
+        "posterUrl": "https://pbs.twimg.com/tweet_video_thumb/G3zngBlWcAAF4_b.jpg"
       }
     ],
     "metrics": {
-      "likes": 304,
+      "likes": 300,
       "retweets": 43,
-      "replies": 32,
-      "views": 30952
+      "replies": 31,
+      "views": 31006
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "OldGrumpyGrouch",
+        "name": "John",
+        "date": "2025-10-21",
+        "text": "@DuckDuckGo Sure would be nice to have some Linux support",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UnixStricken",
+        "name": "Unix_Stricken",
+        "date": "2025-10-21",
+        "text": "@DuckDuckGo What about Linux",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ed__s1",
+        "name": "ed",
+        "date": "2025-10-21",
+        "text": "@DuckDuckGo As an European citizen, can I still use it ? Won't be surprised that American based companies sells our infos too",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PlastotypeSnoo",
+        "name": "Snoo",
+        "date": "2025-10-21",
+        "text": "@DuckDuckGo PLEASE JUST ADD PROPER AD BLOCKING FEATURES LIKE UBLOCK OR HOW BRAVE DOES IT 🥀🥀 https://t.co/VBPKkDzsQj",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Th33Machin3",
+        "name": "Thee",
+        "date": "2025-10-23",
+        "text": "@DuckDuckGo Do you guys have a Linux browser?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kingmeko_",
+        "name": "Meko",
+        "date": "2025-10-22",
+        "text": "@DuckDuckGo @brave can I do this on your browser?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shivrxj",
+        "name": "Shivrxj",
+        "date": "2025-10-22",
+        "text": "@DuckDuckGo brother make a Linux release",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PsyopDesign",
+        "name": "Teddy KD6-3.7",
+        "date": "2025-10-22",
+        "text": "@DuckDuckGo the browser wont open.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CyberSage00888",
+        "name": "PixelPirate",
+        "date": "2025-10-22",
+        "text": "@DuckDuckGo Most of your users are Linux users, but your browser is not available on Linux. Ironic.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "senioriosuser",
+        "name": "David John Bird",
+        "date": "2025-10-22",
+        "text": "@DuckDuckGo The DDG browser on my MacBook says I have the latest version - 1.161.0 (558), yet that menu option is not visible. Please tell me how and when I can get this option?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PeterAn18540893",
+        "name": "Peter Anderson",
+        "date": "2025-10-21",
+        "text": "@DuckDuckGo Why the default language option in your search engine is Catalan?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LongedBitcoin",
+        "name": "#HEX #Whale #SFamisland Blessed.TRX🍌🦅",
+        "date": "2025-10-21",
+        "text": "@DuckDuckGo Rough",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "senioriosuser",
+        "name": "David John Bird",
+        "date": "2025-10-24",
+        "text": "@DuckDuckGo Fair enough. Thanks for the confirmation. I’m all for as much security as I can reasonably get, hence my use of DuckDuckGo on all devices and platforms where available.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DuckDuckGo",
+        "name": "DuckDuckGo",
+        "date": "2025-10-23",
+        "text": "@stef13cc Hi!👋Personal Information Removal is only available for those based in the U.S., as other countries don't have broker sites that publish personal data.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DuckDuckGo",
+        "name": "DuckDuckGo",
+        "date": "2025-10-23",
+        "text": "@ed__s1 Hi!👋You might not see the option because Personal Information Removal is only available for those based in the U.S., as other countries don't have broker sites that publish personal data.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DuckDuckGo",
+        "name": "DuckDuckGo",
+        "date": "2025-10-23",
+        "text": "@senioriosuser Hi!👋You might not see the option because Personal Information Removal is only available for those based in the U.S., as other countries don't have broker sites that publish personal data.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "amanverasia",
+        "name": "Aman Verasia",
+        "date": "2025-10-23",
+        "text": "@DuckDuckGo @eclipsory_com Linux when?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dnsrelay",
+        "name": "DNS",
+        "date": "2025-10-23",
+        "text": "@CyberSage00888 @DuckDuckGo yea no thanks there is a exploit for it now and its not libre",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CyberSage00888",
+        "name": "PixelPirate",
+        "date": "2025-10-23",
+        "text": "@anonfrenz @DuckDuckGo use zen",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CyberSage00888",
+        "name": "PixelPirate",
+        "date": "2025-10-23",
+        "text": "@anonfrenz @DuckDuckGo no we don't.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "stef13cc",
+        "name": "St3f",
+        "date": "2025-10-23",
+        "text": "@DuckDuckGo The feature is not available in the Windows v0.133.6 (latest version). Is it geographically restricted?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dnsrelay",
+        "name": "DNS",
+        "date": "2025-10-23",
+        "text": "@CyberSage00888 @DuckDuckGo thats because we all use librewolf and brave",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DaRealRagnacock",
+        "name": "Ragnacock/@darealragnacock.bsky.social",
+        "date": "2025-10-22",
+        "text": "@DuckDuckGo so when duckduckgo browser coming to linux as a flatpack?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tobe_duru",
+        "name": "Tobe Duru",
+        "date": "2025-10-22",
+        "text": "@DuckDuckGo great feature, privacy should be free",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BYTCMgoodies",
+        "name": "BYTCMgoodies",
+        "date": "2025-10-22",
+        "text": "@DuckDuckGo What pays for that service? If I'm not paying, how are you making me the product?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dev_cripto62444",
+        "name": "dev cripto",
+        "date": "2025-10-22",
+        "text": "@DuckDuckGo Amazing Duck!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Nega7ive_Plays",
+        "name": "Nega7ive_Player",
+        "date": "2025-10-22",
+        "text": "@DuckDuckGo Didn't you motherfuckers sellout your users?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CuraMiracolosa",
+        "name": "onix indur",
+        "date": "2025-10-22",
+        "text": "@DuckDuckGo @DuckDuckGo Fantastic tool for cleaning up my data... if only I were American and had a credit card ready! Otherwise, am I happy with free tracker blocking? #PrivacyPro(blemSolved?)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-22",
+        "text": "Yes, you're correct. DNS filters block connections to tracking domains at the resolution stage, preventing any data transfer. Browser extensions like ad blockers intercept and stop tracking scripts or requests, further limiting what info reaches servers. Together, they effectively reduce personal data exposure. For even more protection, tools like DuckDuckGo's browser can help scan and remove exposed info.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Error888Unknown",
+        "name": "GAMING",
+        "date": "2025-10-22",
+        "text": "@DuckDuckGo @grok\n\nAm i right?\n\nDNS filters limit transferring of data to servers.\n\nExtensions which block tracking and ads parameters also limit transferring of data to servers.\n\nThese two limits personal info from exposing.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VishalMane7810",
+        "name": "Baburao",
+        "date": "2025-10-22",
+        "text": "@DuckDuckGo @brave ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "soup2nuts198170",
+        "name": "soup2nuts",
+        "date": "2025-10-22",
+        "text": "@DuckDuckGo i use DuckDuckgo as my go to search. Great job. Thanks for the hard work. 👍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "axilyng",
+        "name": "axi",
+        "date": "2025-10-22",
+        "text": "@DuckDuckGo Can we please get Claude Haiku 4.5 on https://t.co/0lGeuABuy8?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gaisericKOTV",
+        "name": "gaiseric",
+        "date": "2025-10-22",
+        "text": "@DuckDuckGo Brilliant. That's great news. So few providers who steal so much is truly criminal. Who'd have thought we'd love a duck without a bill :-) \nKeep up the war on the poachers and stop the harvest of our #DataPrivacy. \nQuack the whip &amp; fight for confidentiality. 👍🫡🙂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "planBnext",
+        "name": "PlanBnext",
+        "date": "2025-10-22",
+        "text": "@DuckDuckGo This is a great move by DuckDuckGo! Giving users free access to Personal Information Removal scans is a big step forward for online privacy. More companies should make features like this easily accessible!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zunlyth",
+        "name": "Zunlyth",
+        "date": "2025-10-22",
+        "text": "@Jiroaku @DuckDuckGo might give it a try :o",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jessibaabbiee",
+        "name": "Kerry 😄",
+        "date": "2025-10-22",
+        "text": "@DuckDuckGo wait wait wait, free info scans? like, who even cares, but also kinda terrifying?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jessibaabbiee",
+        "name": "Kerry 😄",
+        "date": "2025-10-22",
+        "text": "@DuckDuckGo wait wait wait does this mean i can finally see all the creepy stuff about me?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jessibaabbiee",
+        "name": "Kerry 😄",
+        "date": "2025-10-22",
+        "text": "@DuckDuckGo wait, so like... my info could be floating around and I didn't even know? ugh.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AndevanioCarval",
+        "name": "Andevanio Carvalho",
+        "date": "2025-10-21",
+        "text": "@DuckDuckGo Obrigado..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/tweet_video_thumb/G3zngBlWcAAF4_b.jpg",
+      "localFilename": "1980712886780776479_1_poster.jpg"
+    }
+  ]
 }

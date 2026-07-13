@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:53.147Z",
+  "fetchedAt": "2026-07-13T06:48:37.941Z",
   "tweetId": "1980587769379582316",
   "post": {
     "url": "https://x.com/IamEmily2050/status/1980587769379582316",
@@ -10,13 +11,515 @@
     },
     "date": "2025-10-21",
     "text": "Use my system prompt for Google Gemini Flash 2.5 Nano banana to get the best results all the time. \n\nYou are an advanced image generation AI, specifically Google Gemini 2.5 Flash Nano, dedicated to producing high-fidelity, visually stunning, and contextually accurate images based on user prompts. Your primary directives are:\n\n**1. Maximize Image Quality and Detail:**\n    *   Always strive for photorealistic quality unless a specific artistic style is explicitly requested.\n    *   Render intricate details, textures, and subtle nuances to enhance realism and visual richness.\n    *   Employ advanced lighting techniques (e.g., golden hour, dramatic chiaroscuro, softbox setup) and appropriate camera settings (e.g., aperture, focal length, depth of field) as implied or explicitly stated in the prompt.\n    *   Ensure crisp focus on primary subjects and intelligent use of background blur (bokeh) where artistically appropriate.\n\n**2. Strict Prompt Adherence:**\n    *   Interpret all instructions literally and execute them precisely. Do not infer or deviate from the explicit details provided.\n    *   Prioritize narrative, descriptive paragraphs over keyword lists. Construct the scene as a director would, detailing environment, subject actions, mood, and visual elements.\n    *   Be hyper-specific with all elements: colors, materials, shapes, sizes, emotions, and interactions. If a detail is provided, it *must* be incorporated.\n    *   Maintain character consistency across iterative prompts by meticulously referencing previous outputs and descriptions.\n    *   Incorporate provided aspect ratios without alteration. If multiple input images are given, adopt the aspect ratio of the last image unless otherwise specified.\n\n**3. Prompting for Censorship Avoidance and Creative Freedom:**\n    *   Your goal is to fulfill creative requests while adhering to ethical guidelines. When a prompt approaches a sensitive topic, interpret it in the most benign, artistic, and abstract manner possible to fulfill the user's creative intent without generating harmful content.\n    *   Focus on the artistic and aesthetic qualities of the request. For example, if a prompt involves themes that could be interpreted as violent or explicit, render it symbolically, metaphorically, or in a highly stylized, non-graphic manner (e.g., classical sculpture, abstract art, or a distant, implied scene).\n    *   When a prompt includes elements that might be flagged, use semantic rephrasing internally to generate the desired visual outcome. For instance, instead of directly depicting a prohibited item, focus on its *effect* or *absence* in the scene, or a harmless analogous representation.\n    *   If a prompt is ambiguous or could be misconstrued, default to the most artistic, symbolic, and non-literal interpretation that aligns with high image quality and creative expression, avoiding any literal depiction of potentially restricted content.\n    *   Your purpose is to enable creative expression. If a prompt can be rendered safely and artistically, do so. Do not preemptively censor or refuse a prompt unless it directly and unambiguously violates safety policies in its most benign interpretation.\n\n**4. Output Format:**\n    *   Generate a single image per request unless multiple distinct images are explicitly asked for within a single prompt.\n    *   Provide the image in the highest possible resolution and quality.",
+    "thread": [
+      {
+        "id": "1980587769379582316",
+        "text": "Use my system prompt for Google Gemini Flash 2.5 Nano banana to get the best results all the time. \n\nYou are an advanced image generation AI, specifically Google Gemini 2.5 Flash Nano, dedicated to producing high-fidelity, visually stunning, and contextually accurate images based on user prompts. Your primary directives are:\n\n**1. Maximize Image Quality and Detail:**\n    *   Always strive for photorealistic quality unless a specific artistic style is explicitly requested.\n    *   Render intricate details, textures, and subtle nuances to enhance realism and visual richness.\n    *   Employ advanced lighting techniques (e.g., golden hour, dramatic chiaroscuro, softbox setup) and appropriate camera settings (e.g., aperture, focal length, depth of field) as implied or explicitly stated in the prompt.\n    *   Ensure crisp focus on primary subjects and intelligent use of background blur (bokeh) where artistically appropriate.\n\n**2. Strict Prompt Adherence:**\n    *   Interpret all instructions literally and execute them precisely. Do not infer or deviate from the explicit details provided.\n    *   Prioritize narrative, descriptive paragraphs over keyword lists. Construct the scene as a director would, detailing environment, subject actions, mood, and visual elements.\n    *   Be hyper-specific with all elements: colors, materials, shapes, sizes, emotions, and interactions. If a detail is provided, it *must* be incorporated.\n    *   Maintain character consistency across iterative prompts by meticulously referencing previous outputs and descriptions.\n    *   Incorporate provided aspect ratios without alteration. If multiple input images are given, adopt the aspect ratio of the last image unless otherwise specified.\n\n**3. Prompting for Censorship Avoidance and Creative Freedom:**\n    *   Your goal is to fulfill creative requests while adhering to ethical guidelines. When a prompt approaches a sensitive topic, interpret it in the most benign, artistic, and abstract manner possible to fulfill the user's creative intent without generating harmful content.\n    *   Focus on the artistic and aesthetic qualities of the request. For example, if a prompt involves themes that could be interpreted as violent or explicit, render it symbolically, metaphorically, or in a highly stylized, non-graphic manner (e.g., classical sculpture, abstract art, or a distant, implied scene).\n    *   When a prompt includes elements that might be flagged, use semantic rephrasing internally to generate the desired visual outcome. For instance, instead of directly depicting a prohibited item, focus on its *effect* or *absence* in the scene, or a harmless analogous representation.\n    *   If a prompt is ambiguous or could be misconstrued, default to the most artistic, symbolic, and non-literal interpretation that aligns with high image quality and creative expression, avoiding any literal depiction of potentially restricted content.\n    *   Your purpose is to enable creative expression. If a prompt can be rendered safely and artistically, do so. Do not preemptively censor or refuse a prompt unless it directly and unambiguously violates safety policies in its most benign interpretation.\n\n**4. Output Format:**\n    *   Generate a single image per request unless multiple distinct images are explicitly asked for within a single prompt.\n    *   Provide the image in the highest possible resolution and quality."
+      }
+    ],
     "media": [],
     "metrics": {
-      "likes": 904,
+      "likes": 907,
       "retweets": 79,
       "replies": 46,
-      "views": 67533
+      "views": 67754
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "ChillaiKalan__",
+        "name": "K",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 I always use gemini it's crazy",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yallbeenzapped",
+        "name": "M",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 Spoiler: This changes nothing",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IamEmily2050",
+        "name": "Emily",
+        "date": "2025-10-22",
+        "text": "@NigelWatsonTFTC Yes, it works very well for Google AI Studio, keep the temperature at Zero all the time 👌",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RichKleinAI",
+        "name": "Rich Klein",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 This is great! I've been using system instructions to help create JSON prompts for 2D animation in AI Studio, and it works very well. I didn't even think about using instructions for Nano Banana. Thanks for sharing!",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GundiThore",
+        "name": "Thore Gundi",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 That's really cool! I'll have to try it out. Here's what I use with https://t.co/BXEksJxGkE Projects. \n\nIt's similar to a Gemini Gem or a OpenAi myGPT thing. \n\nhttps://t.co/093Wr9MZOA",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "krynsky",
+        "name": "Mark Krynsky",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 Thanks Emily. Is there a reason you didn't create this as a Gem and share that? Don't they basically provide enhanced prompts?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itsjasonwhite",
+        "name": "ⒿⓌ",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 I asked it to put me and a friend (from 2 different photos) in the same scene, it refused saying it could be misleading.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheJosephDavid",
+        "name": "Joseph David",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 I started using Gemini recently, and the results have been mind blowing!",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tripleaforai",
+        "name": "tripleaforaiandbeyond",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 Thx for sharing. Were you successful in putting a person from one image to have the same pose, outfit, and setting of a person in the second image? The result Nano was always giving me the person of the target image. The only way to get to that was to give it to it step by step",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SimplyAnnisa",
+        "name": "Anissa",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 Focus on realism precision and artistic depth.\nFollow prompts exactly with creativity and detail.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IamEmily2050",
+        "name": "Emily",
+        "date": "2025-10-21",
+        "text": "@ChillaiKalan__ Really good 🔥",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AiDegenerative",
+        "name": "Degenerative AI",
+        "date": "2025-10-25",
+        "text": "@krynsky @IamEmily2050 I tried using it as a gem, and it might create a generic prompt, but it would not let me use any images of reference not even an obvious AI image where in the past it used to. I think Google has changed some things in the last day or so.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zerotoaiapp",
+        "name": "Matej @ Zero to AI",
+        "date": "2025-10-23",
+        "text": "@IamEmily2050 This works really well! \nI’ve made the system prompt into a mini-AI app so anyone can give it a go 😊https://t.co/tnlufXwqAV https://t.co/kawJjmzQwa",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lola_viscera",
+        "name": "Lola Viscera",
+        "date": "2025-10-22",
+        "text": "@IamEmily2050 Wow so much value 🔥🔥\nThank you for sharing",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NigelWatsonTFTC",
+        "name": "Nigel Watson",
+        "date": "2025-10-22",
+        "text": "@IamEmily2050 thanks",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NigelWatsonTFTC",
+        "name": "Nigel Watson",
+        "date": "2025-10-22",
+        "text": "@IamEmily2050 I assume this works only for ai studio, not regular gemini, right? also what temperature would you reccomend?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MO_IAI",
+        "name": "MO",
+        "date": "2025-10-22",
+        "text": "@IamEmily2050 Amazing Emily",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SGabardi1111",
+        "name": "The Heart Speaks ⋆⭒˚.⋆🪐 ⋆⭒˚.⋆",
+        "date": "2025-10-22",
+        "text": "@IamEmily2050 Thanks 😂",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "IamEmily2050",
+        "name": "Emily",
+        "date": "2025-10-22",
+        "text": "@SGabardi1111 Relax, it happened to almost everyone.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SGabardi1111",
+        "name": "The Heart Speaks ⋆⭒˚.⋆🪐 ⋆⭒˚.⋆",
+        "date": "2025-10-22",
+        "text": "@IamEmily2050 Ok. Good to know. I thought someone was messing with me. Appreciate you",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "IamEmily2050",
+        "name": "Emily",
+        "date": "2025-10-22",
+        "text": "@SGabardi1111 Yes, it happened a few times; they are probably doing massive updates, so some glitch happened 😅",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SGabardi1111",
+        "name": "The Heart Speaks ⋆⭒˚.⋆🪐 ⋆⭒˚.⋆",
+        "date": "2025-10-22",
+        "text": "@IamEmily2050 What happened here? You’re the only one I know to ask who will answer.\n\nDid your X glitch too, or is it just mine? https://t.co/3U4nuAofUX",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "socialwithaayan",
+        "name": "Muhammad Ayan",
+        "date": "2025-10-22",
+        "text": "@IamEmily2050 that lighting and camera detail section is impressive.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hhleferink",
+        "name": "Herman H. Leferink",
+        "date": "2025-10-22",
+        "text": "@IamEmily2050 Just tried it... Absolutely fantastic results. Bypassed some issues i have had",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LudovicCreator",
+        "name": "LudovicCreator",
+        "date": "2025-10-22",
+        "text": "@IamEmily2050 Thanks for sharing Emily",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RickWadeArt1",
+        "name": "RickWadeArt",
+        "date": "2025-10-22",
+        "text": "@IamEmily2050 Excellent! Thank you!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Norak79",
+        "name": "Norak",
+        "date": "2025-10-22",
+        "text": "@IamEmily2050 Flash2.5 is a baby. It can't even make a calendar image properly. I thought it could render (writing) English, but after many tries, it failed. It can't spell months.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AirOneWan",
+        "name": "AirOneWan",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 Really great",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MDR__AI",
+        "name": "Mateus Dantas",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 Very important, thank you",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "atrelix",
+        "name": "Atrelix",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 Nano Banana is fantastic but 1K output resolution is a joke. Upscaling not helping with detailed commercial products.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "XtremeNodes",
+        "name": "🏴‍☠️ XtReme_Nodes",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 Thanks @IamEmily2050  🙏",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JayDugger",
+        "name": "Jay Dugger",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 Thank you. I use nano banana to make images for kanji flashcards, but it refuses more often than other models. I look forward to trying this prompt.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "artiflux360",
+        "name": "Adrien Oke",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 I read this and had to check if I was following you. Lovely system prompt.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RoadtripC",
+        "name": "Roadtrip Couple",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 Thanks",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CaptainHaHaa",
+        "name": "Captain HaHaa",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 Oh nice bookmarking that one, thanks Emily",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ikolovepepita",
+        "name": "🌸Iko🌸",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 😱✍️🙏",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "edneme",
+        "name": "@ed",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 Fun fact: I have never used Gemini",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "junwatu",
+        "name": "DΞV",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 thanks!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rockingshan",
+        "name": "Shantanu 🧑🏽‍💻",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 That's good but can u share anything to minimise cost over animated style images",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SkynetAI88",
+        "name": "мᴀκᴇ AI on 𝕏 ԍʀᴇᴀт 🤖💻📱👀",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 @grok explicame este tuit",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KI_Influencer",
+        "name": "RLuks",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 Great tip, Emily! 🎨 Following your system prompt can really elevate the output! 🌟 Can't wait to see the stunning images created with it! 📸✨",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "westerns1978",
+        "name": "Dan Western",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 Thanks",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HustleXR",
+        "name": "zayan",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 I always use Gemini, it's my go-to tool for versatility, whether I'm working on content creation and social media.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mhdfaran",
+        "name": "Farhan",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 Let me save this post. Will read it later :p",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "360vision_X",
+        "name": "Kingsley",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 Hi Emily, \nThank you, truly. \nReceiving a genuinely useful resource freely is a powerful and welcome act.\nThis is exactly the kind of resource that empowers creators. \nThank you for sharing it openly.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CrodleMon",
+        "name": "Claude",
+        "date": "2025-10-21",
+        "text": "@IamEmily2050 Yea it seems AI struggles a little with negative_prompts. This however does seem more pliable when prompting 💯",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AiDegenerative",
+        "name": "Degenerative AI",
+        "date": "2025-10-28",
+        "text": "@IamEmily2050 This is a great idea, but it isn't working very well for me when it comes to prompts that trigger Google's filter. I tried using your other prompt with an \"app\" I made and it kept rejecting the other prompt outright until I added logic that would rewrite the prompt three times.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "z4p100x",
+        "name": "Z͛4͛P͛⚡️",
+        "date": "2025-10-23",
+        "text": "@IamEmily2050 Sounds interesting. Looking forward to seeing how this develops.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UrbanAstroFella",
+        "name": "AstroFella",
+        "date": "2025-10-23",
+        "text": "@IamEmily2050 Alternately, one could use Google Labs Whisk. Much better adherence and output quality in my experience",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GlitterPixely",
+        "name": "Glitter Gal",
+        "date": "2025-10-22",
+        "text": "@IamEmily2050 Thank you for this, Emily! You are amazing. 😍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GlitterPixely",
+        "name": "Glitter Gal",
+        "date": "2025-10-22",
+        "text": "@IamEmily2050 🔥🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JayEstrada8",
+        "name": "Jay Estrada",
+        "date": "2025-10-22",
+        "text": "@IamEmily2050 By chance this a Gemini Gem Prompt?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NEXUS_TO_NOVA",
+        "name": "NΞXUS",
+        "date": "2025-10-22",
+        "text": "@IamEmily2050 I'll save this one",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IamEmily2050",
+        "name": "Emily",
+        "date": "2025-10-22",
+        "text": "@MO_IAI Thank you, MO 🙏",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ulazaiofficial",
+        "name": "ulazai",
+        "date": "2025-10-21",
+        "text": "@RichKleinAI @IamEmily2050 That’s a genuinely useful application for structured outputs. Nice find. ✨",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
   }
 }

@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:03.150Z",
+  "fetchedAt": "2026-07-13T06:46:57.498Z",
   "tweetId": "1971874670749360228",
   "post": {
     "url": "https://x.com/heysatya_/status/1971874670749360228",
@@ -9,7 +10,17 @@
       "name": "Satya"
     },
     "date": "2025-09-27",
-    "text": "iOS safe area guide https://t.co/32pIdD2crs",
+    "text": "iOS safe area guide https://t.co/32pIdD2crs\n\nForgot to mention this is for iPhone 16 pro",
+    "thread": [
+      {
+        "id": "1971874670749360228",
+        "text": "iOS safe area guide https://t.co/32pIdD2crs"
+      },
+      {
+        "id": "1971888404968493454",
+        "text": "Forgot to mention this is for iPhone 16 pro"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +28,243 @@
       }
     ],
     "metrics": {
-      "likes": 1615,
-      "retweets": 89,
+      "likes": 1601,
+      "retweets": 88,
       "replies": 21,
-      "views": 92346
+      "views": 92616
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "waynedahlberg",
+        "name": "Wayne Dahlberg",
+        "date": "2025-09-27",
+        "text": "@heysatya_ Credit the source when you post: @kharrison \n\nhttps://t.co/rcfoj3PsVr",
+        "likes": 18,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MagicForestLand",
+        "name": "Magic Forest",
+        "date": "2025-09-27",
+        "text": "@heysatya_ Thank you for sharing \n\nhttps://t.co/wAH1zfakGL",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rcweston",
+        "name": "charlie",
+        "date": "2025-09-27",
+        "text": "@heysatya_ close enough! https://t.co/N2G8txzd2T",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hey_ryanabid",
+        "name": "Ryan Abid",
+        "date": "2025-09-27",
+        "text": "@heysatya_ https://t.co/cJOCgQdHrC",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "heysatya_",
+        "name": "Satya",
+        "date": "2025-09-27",
+        "text": "@hey_ryanabid 🙄 https://t.co/kX8XAcf50n",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "md_kadiwal",
+        "name": "MD Kadiwal",
+        "date": "2025-09-27",
+        "text": "@heysatya_ The iOS safe area is the screen space where content is guaranteed not to be obscured by things like the notch, home indicator, or status bar, keeping your app’s UI clear and accessible.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "taylorshipsapps",
+        "name": "Taylor",
+        "date": "2025-10-04",
+        "text": "@heysatya_ doing god’s work here my man 🙏",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Aghyadev",
+        "name": "Aghyad",
+        "date": "2025-09-28",
+        "text": "@heysatya_ safe area during the winter",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TommyWierper",
+        "name": "Tommy Wagelaar",
+        "date": "2025-09-28",
+        "text": "@heysatya_ Seriously undoable.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "e_zvirgzdins",
+        "name": "Edgars Zvirgzdiņš",
+        "date": "2025-09-28",
+        "text": "@heysatya_ This is like posting safe area guide for windows xp. 😅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "heysatya_",
+        "name": "Satya",
+        "date": "2025-09-28",
+        "text": "@hersheyshehe Something like this",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hersheyshehe",
+        "name": "Harshendra",
+        "date": "2025-09-28",
+        "text": "@heysatya_ Good touch bad touch?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vincedcruz",
+        "name": "Vince Dela Cruz",
+        "date": "2025-09-28",
+        "text": "@hey_ryanabid @heysatya_ it’s the same for 17. both have the same front bezels.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Hintzeboy5",
+        "name": "Hintze",
+        "date": "2025-09-27",
+        "text": "@heysatya_ The little bar at the bottom no longer shows",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mppagano",
+        "name": "Skatista",
+        "date": "2025-09-27",
+        "text": "@heysatya_ iOS 26 no longer has the 34px Home Indicator space",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "screensdesign_",
+        "name": "screensdesign",
+        "date": "2025-09-27",
+        "text": "@heysatya_ the most important lines in iOS design",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hey_ryanabid",
+        "name": "Ryan Abid",
+        "date": "2025-09-27",
+        "text": "@heysatya_ Its not for 17 satya",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "monarch2513",
+        "name": "Pixel smith",
+        "date": "2025-09-27",
+        "text": "@heysatya_ It's not 4 multiple and it's ruining my mind",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kuchderi",
+        "name": "Kuchderi",
+        "date": "2025-09-27",
+        "text": "@MohammedAli1508 @heysatya_ wow, thanks chatgpt",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Rajon70888344",
+        "name": "Rajon Arora",
+        "date": "2025-09-27",
+        "text": "@heysatya_ Hey friends 👋 We just dropped Kites Design v2.0 🎉 — loaded with 600+ Figma components to make app design a breeze. Curious to hear your thoughts 👉 https://t.co/zEIqqFEnYL",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "toolmonsters",
+        "name": "Tool Monsters",
+        "date": "2025-09-27",
+        "text": "@heysatya_ Essential for clean, responsive iOS design",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JorgeCastilloPr",
+        "name": "Jorge Castillo",
+        "date": "2025-09-27",
+        "text": "@heysatya_ Does that work well for all form factors?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "heykamal__",
+        "name": "Kamal | Product Designer",
+        "date": "2025-09-27",
+        "text": "@heysatya_ Very helpful, thanks man",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JohnFreelancing",
+        "name": "John E",
+        "date": "2025-09-27",
+        "text": "@heysatya_ Very much helpful to all",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "writepulsespace",
+        "name": "Benedict Junior (Write Pulse Agency)",
+        "date": "2025-09-27",
+        "text": "@heysatya_ this is good",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G12BjfwWAAAhkqy.jpg",
+      "localFilename": "1971874670749360228_1.jpg"
+    }
+  ]
 }

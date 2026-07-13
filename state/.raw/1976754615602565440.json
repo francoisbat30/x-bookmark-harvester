@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:58.184Z",
+  "fetchedAt": "2026-07-13T06:47:50.070Z",
   "tweetId": "1976754615602565440",
   "post": {
     "url": "https://x.com/ItsMaclouis/status/1976754615602565440",
@@ -10,6 +11,12 @@
     },
     "date": "2025-10-10",
     "text": "color inspiration - #088 https://t.co/ImZcjhRX0S",
+    "thread": [
+      {
+        "id": "1976754615602565440",
+        "text": "color inspiration - #088 https://t.co/ImZcjhRX0S"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -21,11 +28,58 @@
       }
     ],
     "metrics": {
-      "likes": 1142,
+      "likes": 1129,
       "retweets": 91,
       "replies": 5,
-      "views": 171507
+      "views": 172060
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "olivierdesignr",
+        "name": "Olivier.",
+        "date": "2025-10-11",
+        "text": "@ItsMaclouis Like the colors",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "unrootdesign",
+        "name": "Adam 🌿 Unroot.design",
+        "date": "2025-10-11",
+        "text": "@ItsMaclouis Nice colors",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jahidshuvo525",
+        "name": "Zaid Shuvo",
+        "date": "2025-10-10",
+        "text": "@ItsMaclouis nice colors",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ugo_builds",
+        "name": "Ugo",
+        "date": "2025-10-11",
+        "text": "@ItsMaclouis May I use it on https://t.co/HeBLIgLWaN ?\n\nWhat name would you give this palette?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G25pQKzW4AE8KCN.jpg",
+      "localFilename": "1976754615602565440_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G25pQK4WsAESymb.jpg",
+      "localFilename": "1976754615602565440_2.jpg"
+    }
+  ]
 }

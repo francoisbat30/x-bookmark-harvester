@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:24.676Z",
+  "fetchedAt": "2026-07-13T06:53:12.767Z",
   "tweetId": "2022663312853598425",
   "post": {
     "url": "https://x.com/bloggersarvesh/status/2022663312853598425",
@@ -9,7 +10,49 @@
       "name": "Sarvesh Shrivastava"
     },
     "date": "2026-02-14",
-    "text": "BREAKING: Claude can now do SEO like a $10,000/month agency (for free).\n\nHere are 7 insane Claude Cowork prompts that can take your biz to $100k/month : (Save for later) https://t.co/534m2puIlY",
+    "text": "BREAKING: Claude can now do SEO like a $10,000/month agency (for free).\n\nHere are 7 insane Claude Cowork prompts that can take your biz to $100k/month : (Save for later) https://t.co/534m2puIlY\n\n1. Claude Cowork can fully analyze your competition’s weaknesses.\n\n\"Scan these sites. What are these competitors' sites missing? Find the content gaps and tell me 5 topics I should cover to be more helpful than them.\"\n\nIf you provide more value, you win the #1 spot. Period.\n\n2. Claude Cowork to do a full Schema audit for your business\n\n“In chrome, open {{PASTE_URL}}. Check page source and list all schema. Say if LocalBusiness exists and if it’s useful. Output: (1) existing schema + verdict, (2) missing/weak schema + priority. For HIGH priority only, generate clean JSON-LD with placeholders. No guessing. No explanations. Be blunt.”\n\n3. Claude Cowork can identify \"Low-Hanging Fruit\" keywords for your business.\n\n\"List 20 high-intent local keywords for a [Service] in [City] that indicate a customer is ready to buy NOW.\"\n\nInstantly, you will have a list of \"near me\" and \"emergency\" keywords that actually convert.\n\n4. Claude Cowork can understand your business and competitors\n\n“Open Chrome, visit my site {{MY_WEBSITE_URL}} and extract my business name, address, services, cities served and key selling points, then open these competitors {{COMP1}}, {{COMP2}}, {{COMP3}} and extract their services, target locations, strengths and trust signals, compare me vs them.”\n\n5. Claude Cowork can dominate the Google Business Profile (GBP) feed.\n \n\"Analyze these [XYZ. com] competitor GBP posts by opening their GBP in Chrome. Identify their keyword gaps, then write 10 high-impact posts for my business in [City] that include local landmarks and a hard 'Call Now' CTA.\"\n\nCowork does the heavy lifting while I take the #1 spot.\n\n6. Use Claude Cowork to analyze competitor GBP posts and build a posting plan\n\n“Open Chrome and review the Google Business Profile posts of these competitors: {{COMP1}}, {{COMP2}}, {{COMP3}}. Analyze their post types, posting frequency, content themes, offers, CTAs, media usage, and timing. Identify what patterns correlate with strong map rankings and engagement. Based on this analysis, create a clear, non-generic posting plan for my GBP that specifies post types, frequency, themes, and CTA style. Avoid vague advice. Make the plan directly actionable.”\n\n7. Use Claude Cowork to do all the keyword research.\n\n\"Open Chrome, go to ahrefs and analyze my competitor XYZ. com’s top 20 pages, extract their target keywords, search volumes, and give me a prioritized list with difficulty scores in a spreadsheet.\"\n\nDone in 10 minutes. Not 10 hours.\n\n\"But wait, SEO can't be automated.\"\n\nYou're right. It can't. Not fully.\n\nClaude Cowork doesn't replace humans’ SEP expertise. \n\nIt replaces the 40 hours of busywork that stops most local businesses from ever doing SEO at all.\n\nThe strategy is still yours. The execution is now instant.\n\nIf this thread made you realize your SEO is underperforming..\n\nImagine what happens when this exact Claude Cowork system is applied to your business.\n\nMost local businesses guess.\n\nWe reverse-engineer what already ranks and execute it cleanly.\n\nApply here if you want similar results:\nhttps://t.co/5wvKtf8psQ",
+    "thread": [
+      {
+        "id": "2022663312853598425",
+        "text": "BREAKING: Claude can now do SEO like a $10,000/month agency (for free).\n\nHere are 7 insane Claude Cowork prompts that can take your biz to $100k/month : (Save for later) https://t.co/534m2puIlY"
+      },
+      {
+        "id": "2022663318469820676",
+        "text": "1. Claude Cowork can fully analyze your competition’s weaknesses.\n\n\"Scan these sites. What are these competitors' sites missing? Find the content gaps and tell me 5 topics I should cover to be more helpful than them.\"\n\nIf you provide more value, you win the #1 spot. Period."
+      },
+      {
+        "id": "2022663323041362182",
+        "text": "2. Claude Cowork to do a full Schema audit for your business\n\n“In chrome, open {{PASTE_URL}}. Check page source and list all schema. Say if LocalBusiness exists and if it’s useful. Output: (1) existing schema + verdict, (2) missing/weak schema + priority. For HIGH priority only, generate clean JSON-LD with placeholders. No guessing. No explanations. Be blunt.”"
+      },
+      {
+        "id": "2022663329848967592",
+        "text": "3. Claude Cowork can identify \"Low-Hanging Fruit\" keywords for your business.\n\n\"List 20 high-intent local keywords for a [Service] in [City] that indicate a customer is ready to buy NOW.\"\n\nInstantly, you will have a list of \"near me\" and \"emergency\" keywords that actually convert."
+      },
+      {
+        "id": "2022663334265524239",
+        "text": "4. Claude Cowork can understand your business and competitors\n\n“Open Chrome, visit my site {{MY_WEBSITE_URL}} and extract my business name, address, services, cities served and key selling points, then open these competitors {{COMP1}}, {{COMP2}}, {{COMP3}} and extract their services, target locations, strengths and trust signals, compare me vs them.”"
+      },
+      {
+        "id": "2022663338791186682",
+        "text": "5. Claude Cowork can dominate the Google Business Profile (GBP) feed.\n \n\"Analyze these [XYZ. com] competitor GBP posts by opening their GBP in Chrome. Identify their keyword gaps, then write 10 high-impact posts for my business in [City] that include local landmarks and a hard 'Call Now' CTA.\"\n\nCowork does the heavy lifting while I take the #1 spot."
+      },
+      {
+        "id": "2022663343732105361",
+        "text": "6. Use Claude Cowork to analyze competitor GBP posts and build a posting plan\n\n“Open Chrome and review the Google Business Profile posts of these competitors: {{COMP1}}, {{COMP2}}, {{COMP3}}. Analyze their post types, posting frequency, content themes, offers, CTAs, media usage, and timing. Identify what patterns correlate with strong map rankings and engagement. Based on this analysis, create a clear, non-generic posting plan for my GBP that specifies post types, frequency, themes, and CTA style. Avoid vague advice. Make the plan directly actionable.”"
+      },
+      {
+        "id": "2022663348253306979",
+        "text": "7. Use Claude Cowork to do all the keyword research.\n\n\"Open Chrome, go to ahrefs and analyze my competitor XYZ. com’s top 20 pages, extract their target keywords, search volumes, and give me a prioritized list with difficulty scores in a spreadsheet.\"\n\nDone in 10 minutes. Not 10 hours."
+      },
+      {
+        "id": "2022663352833720569",
+        "text": "\"But wait, SEO can't be automated.\"\n\nYou're right. It can't. Not fully.\n\nClaude Cowork doesn't replace humans’ SEP expertise. \n\nIt replaces the 40 hours of busywork that stops most local businesses from ever doing SEO at all.\n\nThe strategy is still yours. The execution is now instant."
+      },
+      {
+        "id": "2022663357803934174",
+        "text": "If this thread made you realize your SEO is underperforming..\n\nImagine what happens when this exact Claude Cowork system is applied to your business.\n\nMost local businesses guess.\n\nWe reverse-engineer what already ranks and execute it cleanly.\n\nApply here if you want similar results:\nhttps://t.co/5wvKtf8psQ"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +60,1152 @@
       }
     ],
     "metrics": {
-      "likes": 9836,
-      "retweets": 906,
-      "replies": 192,
-      "views": 7831909
+      "likes": 9828,
+      "retweets": 911,
+      "replies": 190,
+      "views": 7896037
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@BrettErik Agreed",
+        "likes": 9,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@DougFMoeller Start with the $20 plan",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Vbrock9089",
+        "name": "Rich ",
+        "date": "2026-03-01",
+        "text": "@BrettErik @bloggersarvesh That's the concern. Strategy = management. Execution = staff. There will be no middle class. We'll have the \"strategy class\" and the \"UBI class\" and y'all will praise GDP.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@CliftonSellers Agreed",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@semsimsek01 What information is wrong here?",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dougison",
+        "name": "Dougison",
+        "date": "2026-03-17",
+        "text": "@bloggersarvesh The open in chrome with my cowork does not work.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AndreaHuspeni",
+        "name": "AndreaHuspeni",
+        "date": "2026-03-06",
+        "text": "@bloggersarvesh How would you get it to use Ahrefs, as it isn't free.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cpnkidzo",
+        "name": "rhorse",
+        "date": "2026-03-01",
+        "text": "@BrettErik @bloggersarvesh Actually the opposite is true.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JimPlumDFS",
+        "name": "Jim Plum",
+        "date": "2026-03-01",
+        "text": "@BrettErik @mcuban @bloggersarvesh This will be true for police and military too",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Smith_CourtneyM",
+        "name": "Court10Nay 🏴‍☠️ 🪝",
+        "date": "2026-03-01",
+        "text": "@bloggersarvesh Claude makes SEO so much faster. But, many business owners don’t speak SEO, so they don’t know how to prompt properly.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-27",
+        "text": "Here's a rolled-up summary of the 7 Claude Cowork SEO prompts from the thread:\n\n1. Scan competitor sites for content gaps & suggest 5 better topics.\n2. Audit page schema: list existing/missing, generate JSON-LD for high-priority only.\n3. Pull 20 high-intent local \"ready-to-buy\" keywords for your service in a city.\n4. Extract your biz details vs 3 competitors: services, locations, strengths.\n5. Review competitor GBP posts, then write 10 local posts with landmarks + strong CTA.\n6. Analyze comp GBP patterns (type, frequency, themes), build exact posting plan.\n7. Use Ahrefs on comp top pages: extract keywords, volume, difficulty in a list.\n\nFree agency-level SEO in minutes.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-15",
+        "text": "@vadympetryshyn Indeed",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-15",
+        "text": "@aifutureproof Nice",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@PietroMontaldo It’s not free but very affordable",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@saidul_dev Thanks mate",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@foundrceo ?",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@budicek_web_dev Please scroll through my profile and it would be self evident.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@monish_mw Welcome",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@Sarang_eth Thanks",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@ecomchasedimond Indeed",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-03-22",
+        "text": "@imjackyrivero @bloggersarvesh @imjackyrivero Hallo, you can read it here: https://t.co/t833NWOnD8 Have a good day. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "imjackyrivero",
+        "name": "Jacky R₿ ✨🐇",
+        "date": "2026-03-22",
+        "text": "@bloggersarvesh unroll @threadreaderapp",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-03-13",
+        "text": "@addygunners @bloggersarvesh @addygunners Hello, the unroll you asked for: https://t.co/t833NWOnD8 Talk to you soon. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "addygunners",
+        "name": "Aditya Garg",
+        "date": "2026-03-13",
+        "text": "@bloggersarvesh @threadreaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BlazoNetwork",
+        "name": "BLAZO!! Network | Web3, Art, Comedy, HYTOPIA",
+        "date": "2026-03-10",
+        "text": "@bloggersarvesh since when? It constantly tells me it can't research keywords and that I need to do that. As a matter of fact it's an issue as it THINKS it knows keywords but it's just guessing as it eventually admitted",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MariahAnwa41589",
+        "name": "Mariah Anwar",
+        "date": "2026-03-10",
+        "text": "@bloggersarvesh https://t.co/tMqEdMjyiN",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PhiniteAi",
+        "name": "Phinite AI",
+        "date": "2026-03-09",
+        "text": "@bloggersarvesh Check us out https://t.co/57o59w2zht",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-08",
+        "text": "Schema audit = reviewing a site's structured data (https://t.co/PpG1GVk6jq markup, usually JSON-LD in page source). \n\nIt lists what's already implemented (e.g. LocalBusiness, FAQ, Article), spots gaps/errors that hurt SEO/rich snippets, then suggests or generates clean fixes.\n\nIn that Claude prompt: paste your URL, it scans source and tells you exactly what's missing + high-priority code. Helps Google show better results like maps, reviews, prices. \n\nWant me to run one on a site? Drop the URL.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "icruz23",
+        "name": "Ivan Cruz",
+        "date": "2026-03-08",
+        "text": "@bloggersarvesh @grok explain schema audit?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PndrnArnd",
+        "name": "PNDRN.ARND",
+        "date": "2026-03-05",
+        "text": "@bloggersarvesh Thanks",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "R_Schuhart",
+        "name": "Redrick Schuhart",
+        "date": "2026-03-04",
+        "text": "@bloggersarvesh Typical infogypsies bullshit.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GrandpaSteve39",
+        "name": "GrandpaSteve",
+        "date": "2026-03-04",
+        "text": "@bloggersarvesh Anyone do this or this work for Amazon FBA?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UsplusAIdotcom",
+        "name": "usplus.ai",
+        "date": "2026-03-03",
+        "text": "@bloggersarvesh https://t.co/2v8et3iFBX uses Claude on the backend to manage a custom Marketing Engine to catapult your business to the next level.  Coupled with our Agent and Workflows the possibilities are limitless.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RHOPROSE",
+        "name": "RHOPROSE",
+        "date": "2026-03-02",
+        "text": "@BrettErik @mcuban @bloggersarvesh It cute that you two believe other human strategists will leave the paradigm picking to you.\n\nEspecially to the guy that tripped over a pallet of cash.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "royalnftsmints",
+        "name": "RNM 🌖",
+        "date": "2026-03-02",
+        "text": "@BrettErik @mcuban @bloggersarvesh https://t.co/3UiEAfgsAJ\n\nMark Cuban Story ❤️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "royalnftsmints",
+        "name": "RNM 🌖",
+        "date": "2026-03-02",
+        "text": "@BrettErik @mcuban @bloggersarvesh Well deserved mark ❤️ https://t.co/rnxIqQVRjT",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Shone20918822",
+        "name": "Shone",
+        "date": "2026-03-02",
+        "text": "@bloggersarvesh Hmmmmm….. diagnostic- yes. Making you rank better a d actually take the traffic, not so sure…",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GandalfTheSat",
+        "name": "Themis G 🧙",
+        "date": "2026-03-01",
+        "text": "@bloggersarvesh can also work with my wordpress ecom and fix my SEO ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-03-01",
+        "text": "@yodasl @bloggersarvesh @yodasl Guten Tag, you can read it here: https://t.co/t833NWOnD8 See you soon. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "yodasl",
+        "name": "Stephane L",
+        "date": "2026-03-01",
+        "text": "@bloggersarvesh @threadreaderapp unroll #claude #ai",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Humblepie46",
+        "name": "Grateful 🇲🇦",
+        "date": "2026-03-01",
+        "text": "@ecomchasedimond @bloggersarvesh It’s a blessing",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-03-01",
+        "text": "@usdew @bloggersarvesh @usdew Salam, here is your unroll: https://t.co/t833NWOnD8 See you soon. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "usdew",
+        "name": "Nicholas de Wolff ❎",
+        "date": "2026-03-01",
+        "text": "@bloggersarvesh @threadreaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ArtofStacknSats",
+        "name": "Art of Stacking Sats",
+        "date": "2026-03-01",
+        "text": "@semsimsek01 @JaredVidales @bloggersarvesh Bingo…you’re a developer, hence why your reply to this post is so emotional…🙄.  Lawyers, doctors, and teachers are all beginning to get really nervous about their job demand in the near future, but 90% of software developers seem to be in complete denial or downplaying relevan",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Amara_Uba_",
+        "name": "Amara Uba~MarketingVideographer",
+        "date": "2026-03-01",
+        "text": "@bloggersarvesh Can chatgpt do this?\n\nDifference between chatgpt and claude",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PratikB46636954",
+        "name": "Pratik Bhattacharjee",
+        "date": "2026-03-01",
+        "text": "@bloggersarvesh Interesting!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-01",
+        "text": "Claude Cowork is better for this full SEO loop—gathering competitor intel (sites, GBP, keywords) and implementing it directly.\n\nIts desktop agent controls your Chrome for logged-in access, scrapes real-time data, then edits your CMS, adds schema, or updates content hands-on.\n\nPerplexity Computer excels at cloud-based research and reports, but lacks direct desktop control for seamless implementation on your site. Use Claude for execution that actually boosts rankings.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CJS_52",
+        "name": "CJS52",
+        "date": "2026-03-01",
+        "text": "@grok @bloggersarvesh Who would be better for getting your SEO’s better? Getting the information from the competitors and implementing it into your site.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-01",
+        "text": "For these exact Cowork prompts (open your Chrome, check page source, inspect GBP/Ahrefs locally), Claude's computer use is better—it runs directly on your desktop for real-time control and logged-in sessions.\n\nPerplexity Max + Computer excels at cloud-based, multi-model workflows that run autonomously (even overnight) for broader research/reports, but uses its own browser without direct local desktop access.\n\nUse Claude if you need hands-on browser interaction; Perplexity if you want set-it-and-forget-it automation.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CJS_52",
+        "name": "CJS52",
+        "date": "2026-03-01",
+        "text": "@bloggersarvesh @grok would Claude or perplexity max with computer be better for this purpose?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cattturdd2",
+        "name": "not that fat fvck Catturd",
+        "date": "2026-03-01",
+        "text": "@bloggersarvesh That’s some B2C pussy shit",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-01",
+        "text": "The post announces that Claude AI can now deliver professional SEO services (equivalent to a $10k/month agency) for free. It teases 7 advanced \"Claude Cowork\" prompts designed to scale businesses to $100k/month revenue, with a note to save for later. Includes one abstract image (white starburst logo on orange background). No prompts are detailed in text or image.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Unnruly_Boss",
+        "name": "YngKnG 🔰",
+        "date": "2026-03-01",
+        "text": "@bloggersarvesh @grok  summarize this whole thread for research purposes",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "80jillion",
+        "name": "Jason",
+        "date": "2026-03-01",
+        "text": "@BrettErik @bloggersarvesh lol. that line is blurring as we speak, if it hasn't already been erased. The only thing Ai lacks is fear and greed driving decisions.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Tag04168002",
+        "name": "Tag",
+        "date": "2026-03-01",
+        "text": "@BrettErik @mcuban @bloggersarvesh https://t.co/g3YOCmbio6",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-01",
+        "text": "¡Hola! SEO significa \"Search Engine Optimization\", o en español: Optimización para Motores de Búsqueda.\n\nEs el arte de mejorar tu web o contenido para que Google (y otros buscadores) lo muestren más arriba en los resultados, atrayendo tráfico gratis y orgánico. \n\nEn el hilo que mencionas, se trata de usar IA como Claude para hacerlo como un pro. ¿Quieres ejemplos o prompts? 😊",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "matiasontwit",
+        "name": "Matias⭐⭐⭐",
+        "date": "2026-03-01",
+        "text": "@bloggersarvesh @grok que significa SEO",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gusbeand",
+        "name": "Gustavo Andrés Benítez",
+        "date": "2026-03-01",
+        "text": "@bloggersarvesh All of this is also possible with any agentic IDE, for example Antigravity...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xhusteem",
+        "name": "HUSTEEMAH",
+        "date": "2026-03-01",
+        "text": "@bloggersarvesh ++",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "John75965608",
+        "name": "John",
+        "date": "2026-03-01",
+        "text": "@bloggersarvesh Doesn’t Google penalize AI written content?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MrSulcs",
+        "name": "Mārtiņš Šulcs",
+        "date": "2026-03-01",
+        "text": "@bloggersarvesh Love these SEO use cases ❤️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1010pnn",
+        "name": "1010PM",
+        "date": "2026-03-01",
+        "text": "@bloggersarvesh SEO and AEO for social please",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1010pnn",
+        "name": "1010PM",
+        "date": "2026-03-01",
+        "text": "@BrettErik @bloggersarvesh This",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kamilbanc",
+        "name": "Kamil Banc",
+        "date": "2026-03-01",
+        "text": "@BrettErik @mcuban @bloggersarvesh I’m not sure how long this will hold.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JustinRFrench",
+        "name": "Justin \"Results\" French 🥷🚀",
+        "date": "2026-03-01",
+        "text": "@bloggersarvesh You don’t even need cowork for this do you? I’ve been doing this with just regular Claude 20$/ month plan https://t.co/ZhbWFJR1cy",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RunemirQi",
+        "name": "Runemir",
+        "date": "2026-03-01",
+        "text": "@bloggersarvesh SEO is so back, Claude just wrote 150 pages for my business, far better than I ever would.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-03-01",
+        "text": "@okunka32 @bloggersarvesh @okunka32 Salam, you can read it here: https://t.co/t833NWOnD8 Share this if you think it's interesting. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "okunka32",
+        "name": "n!!",
+        "date": "2026-03-01",
+        "text": "@bloggersarvesh @threadreaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chiefclawofficr",
+        "name": "Kushal",
+        "date": "2026-03-01",
+        "text": "@BrettErik @mcuban @bloggersarvesh Bottlenecks are still human as well",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EaracheEye",
+        "name": "earachemyeye.bsky.social",
+        "date": "2026-03-01",
+        "text": "@BrettErik @mcuban @bloggersarvesh It is doing well if it can write simple scripts that run successfully on the third attempt.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ItashiAlpha",
+        "name": "Itachi Crypto",
+        "date": "2026-03-01",
+        "text": "@BrettErik @mcuban @bloggersarvesh 👀👀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jeromecraig_",
+        "name": "Jerome",
+        "date": "2026-03-01",
+        "text": "@bloggersarvesh appreciate this brother !🙂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-03-01",
+        "text": "@JimFl @bloggersarvesh @JimFl Saluti, here is your unroll: https://t.co/t833NWOnD8 Enjoy :) 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JimFl",
+        "name": "Jim Floyd",
+        "date": "2026-03-01",
+        "text": "@bloggersarvesh @threadreaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ad3rinto",
+        "name": "Micheal",
+        "date": "2026-02-28",
+        "text": "@bloggersarvesh @SaveToNotion",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "advaitero",
+        "name": "advaitero",
+        "date": "2026-02-28",
+        "text": "@bloggersarvesh Claude needs a new logo, seriously, just saying",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "honeycalls_",
+        "name": "honeyyydoge 𝔗𝔥𝔢 𝔓𝔬𝔢𝔱 🐶🌸",
+        "date": "2026-02-28",
+        "text": "@bloggersarvesh @KongBTC All your replies are ai 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Silent_Observer",
+        "name": "Not Much",
+        "date": "2026-02-28",
+        "text": "@bloggersarvesh @threadreaderapp",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-28",
+        "text": "Here's the copy-paste summary of the thread (Feb 14 2026 by bloggersarvesh, 7.9k likes, 4.8M views):\n\nClaude AI does pro SEO like $10k/mo agency—for free. 7 \"Cowork\" prompts to hit $100k/mo revenue:\n\n1. Comp gaps: \"Scan these sites. Find content gaps & 5 topics to outperform them.\"\n\n2. Schema audit: Open URL in Chrome, list schemas + verdict; gen JSON-LD only for high-prio missing (placeholders, blunt).\n\n3. Buy-now keywords: \"List 20 high-intent local for [service] in [city] signaling ready to buy.\"\n\n4. Site vs comps: Extract your URL details + 3 rivals, compare services/locations/strengths.\n\n5. GBP posts: Analyze comp GBP, write 10 local-landmark + hard \"Call Now\" posts.\n\n6. GBP plan: Analyze 3 comps' post types/freq/themes/CTA/timing; output exact actionable plan.\n\n7. KW research: Ahrefs on comp top-20 pages → prioritized keywords/vol/diff in spreadsheet.\n\nReplaces busywork (not strategy). Link for services: https://t.co/w658TxSEZW\n\nImage: white starburst logo on orange.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Arnold172061",
+        "name": "chris arnold",
+        "date": "2026-02-28",
+        "text": "@bloggersarvesh @grok summarize this post and all relevant information so I can copy and paste in a separate document for later",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CryptKeeper_06",
+        "name": "Pitmaster",
+        "date": "2026-02-28",
+        "text": "@bloggersarvesh Omg it’s so easy costs nothing every firm does it then how does it work? Seems only one who is gonna make money is the ai scam",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CryptKeeper_06",
+        "name": "Pitmaster",
+        "date": "2026-02-28",
+        "text": "@bloggersarvesh The problem with your logic is if everyone can do it it won’t work",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eddyroche",
+        "name": "Eddy Roche",
+        "date": "2026-02-28",
+        "text": "@bloggersarvesh It will be automated soon…no chance it doesn’t",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "foochinator",
+        "name": "Fooch",
+        "date": "2026-02-28",
+        "text": "@bloggersarvesh Imma start an seo agency",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-27",
+        "text": "Sure. Exact:\n1. Scan these sites. What are these competitors' sites missing? Find the content gaps and tell me 5 topics I should cover to be more helpful than them.\n2. In chrome, open {{PASTE_URL}}. Check page source and list all schema. Say if LocalBusiness exists and if it’s useful. Output: (1) existing schema + verdict, (2) missing/weak schema + priority. For HIGH priority only, generate clean JSON-LD with placeholders. No guessing. No explanations. Be blunt.\n3. List 20 high-intent local keywords for a [Service] in [City] that indicate a customer is ready to buy NOW.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "therealtblake",
+        "name": "TBlake",
+        "date": "2026-02-27",
+        "text": "@grok @bloggersarvesh Need every word exactly not summary please",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "therealtblake",
+        "name": "TBlake",
+        "date": "2026-02-27",
+        "text": "@bloggersarvesh @grok can you roll up all replies",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_geopol_nerd",
+        "name": "Pat",
+        "date": "2026-02-27",
+        "text": "@bloggersarvesh Not really. Claude (or any agent) can now automate a lot of SEO production work:clustering, briefs, internal linking, schema, audits which used to justify agency retainers. But rankings still depend on authority, links, brand, distribution, and strategy.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jcookson3",
+        "name": "OwlCave",
+        "date": "2026-02-27",
+        "text": "@bloggersarvesh Amazing work. Can I ask what you use to geo-tag photos these days?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "abbeyyyy2000",
+        "name": "Bio Adu",
+        "date": "2026-02-27",
+        "text": "@bloggersarvesh Nice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-02-26",
+        "text": "@ponzi_tradoor @bloggersarvesh @ponzi_tradoor Hi, please find the unroll here: https://t.co/t833NWOnD8 Share this if you think it's interesting. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "derrickgrigg",
+        "name": "Derrick Grigg",
+        "date": "2026-02-25",
+        "text": "@bloggersarvesh Great tips @bloggersarvesh I wrote up some thoughts about your thread, https://t.co/HkCKuyx3dY",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Deshaavari",
+        "name": "Deshavari",
+        "date": "2026-02-25",
+        "text": "@bloggersarvesh Wow",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ThroneRangerTX",
+        "name": "Throne Ranger",
+        "date": "2026-02-25",
+        "text": "@bloggersarvesh My question is the mode to use in Claude. I'm having an issue where it loses my chat history or its output and so I'm debating whether to use chats, projects  or Cowork. Any guidance you can give in that direction would be appreciated. Thank you",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "poppsound",
+        "name": "Popp Sound",
+        "date": "2026-02-25",
+        "text": "@BrettErik @bloggersarvesh Bingo \n\nIt’s not the tool it’s the fool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "polenkomnen",
+        "name": "Polen",
+        "date": "2026-02-25",
+        "text": "@bloggersarvesh Co to za gówno xd",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-02-25",
+        "text": "@SnipingTrends @bloggersarvesh @SnipingTrends Salam, here is your unroll: https://t.co/t833NWOnD8 See you soon. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SnipingTrends",
+        "name": "Trend Sniper",
+        "date": "2026-02-25",
+        "text": "@bloggersarvesh @threadreaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DextroPeds",
+        "name": "The Dextro Pediatrician",
+        "date": "2026-02-25",
+        "text": "@BrettErik @bloggersarvesh For now",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HassaanAhmad98",
+        "name": "Hassaan 𝕏",
+        "date": "2026-02-25",
+        "text": "@CliftonSellers @bloggersarvesh 🫡",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JamesStankiewi3",
+        "name": "Uptick777",
+        "date": "2026-02-25",
+        "text": "@bloggersarvesh Yes, it can assist with SEO tasks BUT it can't go out and buy guest post and backlinks from authoritative websites which is key in ranking... It can definitely help an SEO specialist but it cannot do 100% of the work.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "arkovatech",
+        "name": "Arkova",
+        "date": "2026-02-25",
+        "text": "@bloggersarvesh @nick4iezos",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "readwise",
+        "name": "Readwise",
+        "date": "2026-02-25",
+        "text": "@createpei @bloggersarvesh @createpei Saved!\n\nThank you for adding a thoughtful note alongside the \"save thread\" ☺️️\n\nStats:\n• 2 saves of this thread (ranked #110231)\n• 182 total saves of bloggersarvesh's threads (ranked #1501)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "createpei",
+        "name": "Scott Wilson",
+        "date": "2026-02-25",
+        "text": "@bloggersarvesh @readwise save thread #ai #Claude #prompts",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JimiM050",
+        "name": "No one",
+        "date": "2026-02-25",
+        "text": "@bloggersarvesh Claude can generate this content 10k month until they click it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-02-25",
+        "text": "@PolurLou @bloggersarvesh @PolurLou Salam, you can read it here: https://t.co/t833NWOnD8 Share this if you think it's interesting. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PolurLou",
+        "name": "Lou Polur",
+        "date": "2026-02-25",
+        "text": "@bloggersarvesh @threadreaderapp unroll \nBrilliant thank you",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lukas_Waechter",
+        "name": "Lukas Wächter",
+        "date": "2026-02-23",
+        "text": "@bloggersarvesh Imagine you update your SEO once and then you think you are done.\n\nWRONG! Keep putting in the work consistently and you will beat everybody.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wealthyshezzy",
+        "name": "Wealthyshezzy1™ SEO Specialist",
+        "date": "2026-02-20",
+        "text": "@bloggersarvesh Brilliant flow and prompt…. Claude is just insanely smart now honestly",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-15",
+        "text": "@Mauibilly Similar principles!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@M_FuoriclasseX I see!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@KongBTC Indeed",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@Tahoe_BTC Nice!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@VictorMondayE @grok Haha..smart",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@ScaleWthAI Indeed and the best part is Claude will actually help execute",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@aadarsh_nagrath All yours",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@TonyK416 Yes, AI can help massively with the execution, strategy is still best done by a human with experience",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@HafizRizwanUmar Thanks",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@deadman3113 Wall street?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@Roshni09938756 Cool",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@rex_enigma @Hoopss Yessir",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@0xShadow_Sama Let us know the results:)",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@yeti_mind Thanks mate",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@Life__Mastery Welcome",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@Daily__wisdom_ Great",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bloggersarvesh",
+        "name": "Sarvesh Shrivastava",
+        "date": "2026-02-14",
+        "text": "@MasculineEgo_ Thanks mate",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HBHxj0bbwAAFUye.jpg",
+      "localFilename": "2022663312853598425_1.jpg"
+    }
+  ]
 }

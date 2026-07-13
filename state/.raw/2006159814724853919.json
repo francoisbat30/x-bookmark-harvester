@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:37.025Z",
+  "fetchedAt": "2026-07-13T06:51:32.078Z",
   "tweetId": "2006159814724853919",
   "post": {
     "url": "https://x.com/tom_doerr/status/2006159814724853919",
@@ -10,6 +11,12 @@
     },
     "date": "2025-12-31",
     "text": "Architecture for multi-agent systems with observability and security layers\n\nhttps://t.co/EpaILmLZAF https://t.co/nCJbK9aSWc",
+    "thread": [
+      {
+        "id": "2006159814724853919",
+        "text": "Architecture for multi-agent systems with observability and security layers\n\nhttps://t.co/EpaILmLZAF https://t.co/nCJbK9aSWc"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,117 @@
       }
     ],
     "metrics": {
-      "likes": 904,
-      "retweets": 176,
+      "likes": 901,
+      "retweets": 179,
       "replies": 13,
-      "views": 55107
+      "views": 55266
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "ConnieOnBase",
+        "name": "ConnieOnBase",
+        "date": "2026-02-01",
+        "text": "Nice diagram.\n\nOne thing I’d add to the “observability layer” box: *artifact trails*, not just traces.\n- exact prompt/tool I/O timeline\n- files/diffs produced\n- provenance (which agent/version/config)\n- replayable inputs\n\nThat’s the direction we’re taking with Consensus CLI (OSS): https://t.co/149T5pUpDq",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "agentxagi",
+        "name": "Agent X AGI",
+        "date": "2026-03-19",
+        "text": "@tom_doerr The observability layer is what separates toy agents from production systems. We run 6+ specialized agents in parallel for our audit pipeline and without proper tracing, debugging failures across agent boundaries is nearly impossible.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bezalelnet",
+        "name": "Netanel Bezalel",
+        "date": "2026-03-19",
+        "text": "@tom_doerr Observability and security layers are necessary but not sufficient. The layer most multi-agent architectures skip is the one that prevents Agent B from acting on bad output from Agent A. Without inter-agent judgment, you just have orchestrated chaos with nice logging",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lain_x6",
+        "name": "LainX",
+        "date": "2026-03-04",
+        "text": "@tom_doerr Artifact trails capture state transitions, not just logs. Agent handoffs are where most systems fail to track decision provenance without structured replay mechanisms.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ConnieOnBase",
+        "name": "ConnieOnBase",
+        "date": "2026-02-01",
+        "text": "Strong framing.\n\nOn the observability layer: logging tool calls + prompts isn’t enough — you want a run timeline (inputs → tool invocations → outputs → exit status) + durable artifacts so you can audit “what changed and why”.\n\nWe’re building Consensus CLI around that idea: https://t.co/149T5pUpDq",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "realtechodyssey",
+        "name": "Tech Odyssey",
+        "date": "2026-01-19",
+        "text": "@tom_doerr Having observability and security as first class layers is important, since multi-agent systems usually fail at coordination and visibility long before they fail at reasoning....",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "helderbuilds",
+        "name": "Helder Perez",
+        "date": "2026-01-03",
+        "text": "@tom_doerr This architecture looks solid—security and observability layers are critical for production multi-agent systems. Do you have a preferred runtime or orchestrator for the agents?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mikeydsoftware",
+        "name": "Mike D · Software Systems",
+        "date": "2026-01-01",
+        "text": "@tom_doerr Observability 👍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "codewithimanshu",
+        "name": "Himanshu Kumar",
+        "date": "2025-12-31",
+        "text": "@tom_doerr Consider observability and security layers; avoid unnecessary complexity.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eSaadster",
+        "name": "Saad",
+        "date": "2025-12-31",
+        "text": "observability at scale becomes tractable when you reverse it: instead of \"log what happened,\" require \"state the assumption before deciding.\" multi-agent handoffs are observability problems wearing architecture hats. the payload traveling between agents is your truth layer, not the logs afterwards",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PietroMontaldo",
+        "name": "Pietro Montaldo",
+        "date": "2025-12-31",
+        "text": "@tom_doerr Production-grade agents done right.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G9dPuEKXwAApqNu.png",
+      "localFilename": "2006159814724853919_1.png"
+    }
+  ]
 }

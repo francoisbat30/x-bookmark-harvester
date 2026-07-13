@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:12:43.720Z",
+  "tweetId": "2033826924943012307",
+  "post": {
+    "url": "https://x.com/RoundtableSpace/status/2033826924943012307",
+    "author": {
+      "handle": "RoundtableSpace",
+      "name": "0xMarioNawfal"
+    },
+    "date": "2026-03-17",
+    "text": "THIS OPENCLAW BOT MADE $350K IN 20 DAYS.\n\nhttps://t.co/F9ArIhkDp4",
+    "thread": [
+      {
+        "id": "2033826924943012307",
+        "text": "THIS OPENCLAW BOT MADE $350K IN 20 DAYS.\n\nhttps://t.co/F9ArIhkDp4"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2033771684009021442/vid/avc1/824x518/fv4xmALey-Q84SvY.mp4?tag=14",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2033771684009021442/img/nsGA9HLiUnm4_t3F.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 291,
+      "retweets": 17,
+      "replies": 35,
+      "views": 76992
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2033771684009021442/img/nsGA9HLiUnm4_t3F.jpg",
+      "localFilename": "2033826924943012307_1_poster.jpg"
+    }
+  ]
+}

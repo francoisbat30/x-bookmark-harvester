@@ -1,0 +1,113 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-07-04T14:38:18.241Z",
+  "tweetId": "2073118515855310980",
+  "post": {
+    "url": "https://x.com/egraciani/status/2073118515855310980",
+    "author": {
+      "handle": "egraciani",
+      "name": "Eusebio Graciani"
+    },
+    "date": "2026-07-03",
+    "text": "cada vez más repos de este estilo https://t.co/20cCQUcwr4",
+    "media": [],
+    "metrics": {
+      "likes": 4955,
+      "retweets": 173,
+      "replies": 11,
+      "views": 774734
+    },
+    "comments": [
+      {
+        "handle": "chozzz_",
+        "name": "choz 🇸🇪",
+        "date": "2026-07-03",
+        "text": "@egraciani Por eso en LinkedIn se ve cada vez menos solicitud sencilla y todos tienen páginas de forms manuales donde también cargas CV y no se automatiza la carga de datos. Cabe mencionar que LinkedIn te banea si detecta que te maneja la cuenta un bot. Esto solo te ahorra el armado de CV"
+      },
+      {
+        "handle": "robiartec",
+        "name": "rob.",
+        "date": "2026-07-03",
+        "text": "@egraciani la verdad que son bastante útiles hahaha, en estos días subiré mas"
+      },
+      {
+        "handle": "vgonpa",
+        "name": "Víctor González",
+        "date": "2026-07-03",
+        "text": "Yo he montado algo parecido, creo que más completo, aunque orientado para mi necesidad, que es algo diferente: enfoque a senior, más estratégico, y más orientado a seguimiento con un agente coach, aunque también tiene automatizaciones parecidas.\n\nEstoy pensando en darle una vuelta y ver cómo lo hago público."
+      },
+      {
+        "handle": "pedrocostoya",
+        "name": "PedroC",
+        "date": "2026-07-03",
+        "text": "@egraciani Me ha pillado viendo cómo scrapear LinkedIn con Claude… parece q ya lo tengo pero le ha costado un poco, mucho workaround pero parece que tira :) encantado de compartir tb!"
+      },
+      {
+        "handle": "egraciani",
+        "name": "Eusebio Graciani",
+        "date": "2026-07-03",
+        "text": "@vgonpa si tío hacemos catchup!"
+      },
+      {
+        "handle": "vgonpa",
+        "name": "Víctor González",
+        "date": "2026-07-03",
+        "text": "@egraciani Cuando quieras te lo cuento, aunque me da que lo que tenéis vosotros montado le da mil vueltas!"
+      },
+      {
+        "handle": "nftarabcat",
+        "name": "TrinityY",
+        "date": "2026-07-04",
+        "text": "@egraciani You can do this with just Claude promoting lmao this is pointless , I set the same thing up and hosted it in local url in 10 minutes."
+      },
+      {
+        "handle": "BEARLY_HODLING",
+        "name": "BEARLY_HODLING",
+        "date": "2026-07-04",
+        "text": "@egraciani Did this 4 months ago. I’m still getting job offers since I turned it off. \n\nThat’s how good my opus cv’s were"
+      },
+      {
+        "handle": "cmolgal",
+        "name": "Carlos Molina",
+        "date": "2026-07-04",
+        "text": "@egraciani Yo tengo otro. Resultado de la frustración generalizada de que ni te respondan o te respondan al mes y medio con un \"we decide to move forward with other candidates\"..."
+      },
+      {
+        "handle": "filip_wawer",
+        "name": "Filip Wawer",
+        "date": "2026-07-04",
+        "text": "@robiartec @egraciani yeah, we need more pajeets spamming their useless CVs using shit like that, \"haha\""
+      },
+      {
+        "handle": "aiseomastery",
+        "name": "AI Mastery Guide",
+        "date": "2026-07-04",
+        "text": "@egraciani Automating the whole application pipeline turns a tedious job into a solved problem 📝"
+      },
+      {
+        "handle": "cyberdevdrop",
+        "name": "Mørph£us",
+        "date": "2026-07-04",
+        "text": "@egraciani Qué clase de empleo busca un científico danés? 😂"
+      },
+      {
+        "handle": "rcaceres_cl",
+        "name": "Roberto Cáceres",
+        "date": "2026-07-03",
+        "text": "@egraciani md y pandoc te ayudan"
+      },
+      {
+        "handle": "egraciani",
+        "name": "Eusebio Graciani",
+        "date": "2026-07-03",
+        "text": "@vgonpa 👀"
+      },
+      {
+        "handle": "AIEnthusiastIM",
+        "name": "Futuro Martinez",
+        "date": "2026-07-03",
+        "text": "@egraciani Cada vez más, y es solo el principio. La IA va a automatizar procesos enteros que hoy seguimos haciendo manualmente. Prepárense."
+      }
+    ]
+  }
+}

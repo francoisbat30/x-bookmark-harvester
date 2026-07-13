@@ -1,0 +1,1792 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-07-04T14:38:22.197Z",
+  "tweetId": "2072436501263339841",
+  "post": {
+    "url": "https://x.com/diegocabezas01/status/2072436501263339841",
+    "author": {
+      "handle": "diegocabezas01",
+      "name": "Diego | AI 🚀 - e/acc"
+    },
+    "date": "2026-07-01",
+    "text": "Use Fable 5 as orchestrator and Opus + Codex to execute (to save fable usage):  \n\nFable 5 (max reasoning) = orchestrator \nOpus = deep reasoning subagent \nSonnet = mechanical work subagent \nCodex = peer Sr. engineer, different perspective  \n\nSetup:  \n1. Set Fable 5 as your main model  In Claude Code: /model → Fable 5 → reasoning /effort to max\n\n2. Create 2 subagents with /agents In Claude Code:  \ndeep-reasoner → pinned to opus \"Use for reasoning-heavy phases, architecture, debugging complex issues, algorithm design. Think thoroughly, return a concise conclusion the orchestrator can act on.\"  \n\nfast-worker → pinned to sonnet \"Use for mechanical tasks, boilerplate, tests, formatting, simple edits. Execute efficiently.\"\n\n3. Add OpenAI's official Codex plugin (install codex cli in your computer first), In Claude Code type:\n/plugin marketplace add openai/codex-plugin-cc\n /plugin install codex@openai-codex\n /codex:setup\n\n4. Drop this in your CLAUDE.md in your folder: \n\n## Orchestration workflow  \nYou (Fable) are the orchestrator. Plan, decompose, synthesize.  \nReasoning-heavy phases → deep-reasoner  \nMechanical work → fast-worker  \nCodex (/codex:rescue --background) is a cracked engineer on par with deep-reasoner, from a different perspective. Treat as a peer, not a reviewer.  \nHigh-stakes decisions: task Opus + Codex on the same problem in parallel, synthesize the best of both, without showing either the other's answer. Keep your own context lean.   \n\n5. Then prompt Fable like a tech lead:  \"Goal: [what you want] Context: [files, constraints] You're the lead. Delegate reasoning to deep-reasoner, grunt work to fast-worker, fresh-perspective problems to Codex. Show me your plan first, then execute.\"  \n\nThat's it.",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HMLGA58XYAAP9vZ.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 5010,
+      "retweets": 458,
+      "replies": 160,
+      "views": 569044
+    },
+    "comments": [
+      {
+        "handle": "istdrc",
+        "name": "stdrc",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 on raft[.]build it's straightforward to setup such an agent team. no terminal, no slash command, no plugin installation, no claude.md, just create several agents with different models and send Fable agent the instructions https://t.co/Gb75nTl1M0"
+      },
+      {
+        "handle": "morganlinton",
+        "name": "Morgan",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 FWIW, I’ve found that using Fable 5 Mac reasoning for orchestration is often overkill, and you can get the same results with Medium, and sometimes low 👀"
+      },
+      {
+        "handle": "onsails",
+        "name": "Andrey",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Created /sprint exactly for that. Use the best model as an orchestrator scoped by sprint.md, which delegates to other Claude models or codex or mimo-code.\n\nhttps://t.co/y108qCaHi7"
+      },
+      {
+        "handle": "AIandDesign",
+        "name": "⭕ AI & Design (Marco)",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 I just have Fable write an insanely comprehensive architecture plan and then have lesser models implement it. When needed Fable can check their work."
+      },
+      {
+        "handle": "creativ_cyborg",
+        "name": "Creative Cyborg",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 I'm using Opus 4.6 agents instead of Sonnet. Gives you a 25 to 30% economy in tokens against 4.8 and is much more reliable than Sonnet - whatever the version."
+      },
+      {
+        "handle": "aiseomastery",
+        "name": "AI Mastery Guide",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Treating Codex as a peer instead of a reviewer is a smart way to actually get a second opinion out of it."
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@aiseomastery Yes because codex gpt-5.5 is crazy smart too"
+      },
+      {
+        "handle": "goodalexander",
+        "name": "goodalexander",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 ya"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@AIandDesign yes!! so far i have found that's the best way and I dont blast the usage from Fable"
+      },
+      {
+        "handle": "texasxbt",
+        "name": "тexasxbт",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 SERV Reasoning from OpenServ is this idea, but on steroids: cheaper, more reliable, accurate, private, auditable, model agnostic, no code change https://t.co/bV4wUB3Zhw"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@notiyda @theo Interesting! I originally posted this on 6/12 and came to the whole idea and architecture just with fable, but I will love to see how he did it, might be some things I can improve https://t.co/8IBkdJRjui"
+      },
+      {
+        "handle": "AIpromtTR",
+        "name": "İndiraDğN",
+        "date": "2026-07-02",
+        "text": "This is exactly the direction I’ve been moving toward.\nFable 5 as the orchestrator + Opus for deep reasoning + Sonnet for execution + Codex for different perspective is a killer setup.\nThe part that stood out most to me is running Opus + Codex in parallel on high-stakes decisions and then synthesizing. That’s where the real edge comes from.\nI’ve been testing something similar but with a slightly different delegation logic. Curious how stable this runs for you over longer sessions.\n@AIpromptr"
+      },
+      {
+        "handle": "morganlinton",
+        "name": "Morgan",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Have you tried Medium? I’ve found for most tasks I get the same results, just faster.\n\nYou have to send really hard stuff to high to make it worth it."
+      },
+      {
+        "handle": "aiseomastery",
+        "name": "AI Mastery Guide",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Makes sense, pairing two strong models as equals probably catches more blind spots than one reviewing the other."
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@creativ_cyborg Nice! So far I like the connection to codex a lot"
+      },
+      {
+        "handle": "navigateny",
+        "name": "navigator200",
+        "date": "2026-07-01",
+        "text": "@diegocabezas01 Fable and Composer might be a better combo"
+      },
+      {
+        "handle": "navigateny",
+        "name": "navigator200",
+        "date": "2026-07-01",
+        "text": "@diegocabezas01 Fable and Composer might be a better combo"
+      },
+      {
+        "handle": "GeniusPothead",
+        "name": "Genius💡💹🧲 🤖",
+        "date": "2026-07-01",
+        "text": "@diegocabezas01 Multi-agent setups always trade simplicity for modular control and flexibility"
+      },
+      {
+        "handle": "AIpromtTR",
+        "name": "İndiraDğN",
+        "date": "2026-07-02",
+        "text": "Thanks for sharing this! I’ve been testing a very similar orchestration setup for the past few days.\nThe biggest difference I noticed is in high-stakes decisions — running Opus and Codex in parallel and then synthesizing the outputs gives noticeably better results than using either one alone.\nOne small thing I adjusted: I added a quick “sanity check” step where Fable 5 summarizes both outputs before deciding. It reduced hallucinations on complex architecture tasks.\nOverall this setup feels like a real leap. Curious if you’ve seen similar improvements on longer, multi-hour sessions.\n@AIpromptr"
+      },
+      {
+        "handle": "MCheng18662",
+        "name": "Monica Cheng",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Orchestrator-with-subagents is a solid pattern but the real bottleneck is context handoff between agents — most setups lose coherence at the orchestration layer before token savings even matter"
+      },
+      {
+        "handle": "sacheeperera",
+        "name": "Sachee Perera",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 wouldnt tou use fable for reasoning and opus to orchestrate?"
+      },
+      {
+        "handle": "WendyWug",
+        "name": "Wenyi",
+        "date": "2026-07-02",
+        "text": "@istdrc @diegocabezas01 already introduced fable to my team https://t.co/GrvY4Pc0NQ"
+      },
+      {
+        "handle": "captain_jez",
+        "name": "Jeremy",
+        "date": "2026-07-02",
+        "text": "@istdrc @diegocabezas01 Raft is my new favourite way to collaborate with my team. Both humans and agents."
+      },
+      {
+        "handle": "oncelcebeci",
+        "name": "Oncel Cebeci",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 I'm doing this workflow with The Hood right now. Works like a charm\n\nhttps://t.co/ZoLFqNlTb2"
+      },
+      {
+        "handle": "winthewestback",
+        "name": "John Dawson",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 TokenMax!"
+      },
+      {
+        "handle": "notiyda",
+        "name": "iyda",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 I feel like this is partially taken from @theo ."
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@morganlinton I haven’t to be honest, will do now"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@morganlinton Interesting, I might lower it down to high"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-01",
+        "text": "@GeniusPothead Yes and you save on the big model tokens but still use the intelligence"
+      },
+      {
+        "handle": "Stephmiles_",
+        "name": "Steph Miles",
+        "date": "2026-07-03",
+        "text": "@istdrc @diegocabezas01 BTW loving your ui design. It’s just so different. I’ll have to give it a try."
+      },
+      {
+        "handle": "StealUrKill_PhD",
+        "name": "B",
+        "date": "2026-07-03",
+        "text": "@diegocabezas01 @navigateny Fable 5 (max) = ORCHESTRATOR\n        ├── deep-reasoner  (Opus 4.8)      reasoning-heavy phases\n        ├── fast-worker    (Sonnet 4.6)    mechanical work\n        ├── /hermes → GPT-5.5\n        ├── /hermes   → GLM-5.2\n        └── /hermes  → Kimi K2.7-Code"
+      },
+      {
+        "handle": "pejmanjohn",
+        "name": "Pejman Pour-Moezzi",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 🔥 you cooked on this one, Diego!!"
+      },
+      {
+        "handle": "aiseomastery",
+        "name": "AI Mastery Guide",
+        "date": "2026-07-02",
+        "text": "@humansareindef1 @diegocabezas01 That competition framing pushing better output is such a clever trick."
+      },
+      {
+        "handle": "FUCORY",
+        "name": "fucory",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 https://t.co/SRRDlVH7vA is great at this"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@ty_udy That is actually a great question, I’ll have to do some testing"
+      },
+      {
+        "handle": "pankaj",
+        "name": "Pankaj Gupta",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Cc says /agents wizard has been removed"
+      },
+      {
+        "handle": "SteveSolun",
+        "name": "Steve Solun",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 I think you should attach to all this great orchestration a real recommendation system of skills, MCPs, agents and harnesses if used with private/local/small/api models.\n\nIt will serve and load / unload the needed tools in the right development time!\n\nhttps://t.co/nR9YD9qXDb"
+      },
+      {
+        "handle": "PythonPr",
+        "name": "Python Programming",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 👀"
+      },
+      {
+        "handle": "ty_udy",
+        "name": "Ty Udy",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 What’s the benefit to cresting two agents with /agents as opposed to hating a sub agent spawn and just use a skill (for deep reasoning like you said)"
+      },
+      {
+        "handle": "Max__X__Ntu",
+        "name": "Max_ Zee",
+        "date": "2026-07-02",
+        "text": "@rbzapp @diegocabezas01 Update your Claude code to the latest version"
+      },
+      {
+        "handle": "KennyAdemolu",
+        "name": "Kehinde Ademolu",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 I tend to use the \"omc ask codex\" method instead, all major plans do an adversarial - architect/critic/codex pass. I will be trying out the claude.md changes though. thanks"
+      },
+      {
+        "handle": "thedogfather",
+        "name": "Nick Losciuto",
+        "date": "2026-07-02",
+        "text": "@aiseomastery @diegocabezas01 TY"
+      },
+      {
+        "handle": "_Matt_Bell",
+        "name": "Matt Bell",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 this is the right direction.\n\nthe missing layer is ownership: who defines done, who inspects the diff, and which agent gets trusted for which class of work.\n\nthe stack matters, but the operating rules matter more."
+      },
+      {
+        "handle": "aiseomastery",
+        "name": "AI Mastery Guide",
+        "date": "2026-07-02",
+        "text": "@thedogfather @diegocabezas01 As a peer it can challenge decisions and offer its own take instead of just checking a box on someone else's work."
+      },
+      {
+        "handle": "thedogfather",
+        "name": "Nick Losciuto",
+        "date": "2026-07-02",
+        "text": "@aiseomastery @diegocabezas01 I'm doing a version of this manually right now, but having Codex reviewed the PR's from opus or fable. Aside from the automation, what would be the advantage to set up with as a peer instead of a reviewer??"
+      },
+      {
+        "handle": "pawzzard",
+        "name": "Pawzard",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 bro built a whole org chart for his terminal\n\nnext step is giving Sonnet a performance review 💀"
+      },
+      {
+        "handle": "dasfacc",
+        "name": "David",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 I do this with opus\n\nI call it \"the poor man's Fable\""
+      },
+      {
+        "handle": "morganlinton",
+        "name": "Morgan",
+        "date": "2026-07-02",
+        "text": "@BwcDeals @diegocabezas01 👊"
+      },
+      {
+        "handle": "BwcDeals",
+        "name": "Aidan Quinn",
+        "date": "2026-07-02",
+        "text": "@morganlinton @diegocabezas01 Spot on brother"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@navigateny Good idea"
+      },
+      {
+        "handle": "axhoff",
+        "name": "Alexander Hoff ❍",
+        "date": "2026-07-04",
+        "text": "@diegocabezas01 delegation to subagents is hit and miss but overall it works. seems to prioritise very well and write stellar briefs do sensible feedback loops with agents."
+      },
+      {
+        "handle": "lobsterfarm_ai",
+        "name": "Gezim",
+        "date": "2026-07-04",
+        "text": "@diegocabezas01 Thanks, chief. Might try this. Bookmarked"
+      },
+      {
+        "handle": "TheHBrand",
+        "name": "TheHBrand",
+        "date": "2026-07-04",
+        "text": "@diegocabezas01 yeah I switched this method to GPT 5.5 xhigh just does everything and when it ever has any problem, I get a copy/paste, tell fable on ultracode, it comes back with the full scope banger, GPT reads, plans, falbe reviews plan corrects &gt; corrections GPT executes 100% headshots"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@MrOcelot1976 Fun fact, I came up to the initial architecture  idea with fable"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@StealUrKill_PhD @navigateny 🔥"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@pejmanjohn Thanks man! Please share feedback! I was thinking adding a reverse option, sonnet as a dumb CEO and little fables as the executive suite"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@Weiyan2Zhibin That’s a great question, I will try"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@dev_deutschmark So far is being efficient, but is only to save cost, if you can pay usage credits I think is better all the way fable"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@twid Thanks for sharing"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@wangxian0 Not yet, but that’s a good question"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@axhoff Please share any feedback"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@muhdawam94 GitHub: https://t.co/2xA5IqVApP"
+      },
+      {
+        "handle": "istdrc",
+        "name": "stdrc",
+        "date": "2026-07-03",
+        "text": "@Stephmiles_ @diegocabezas01 thank you! feedback welcome!"
+      },
+      {
+        "handle": "leoniaguiar",
+        "name": "leoniaguiar",
+        "date": "2026-07-03",
+        "text": "@angryalberta @istdrc @diegocabezas01 Try https://t.co/WJNNxT4exW"
+      },
+      {
+        "handle": "harika_cetin",
+        "name": "渡辺みつき",
+        "date": "2026-07-03",
+        "text": "@diegocabezas01 難しそうなことを考えてるね！ちゃんと進んでるか心配になるよ。どういう予定なの？"
+      },
+      {
+        "handle": "labeldock",
+        "name": "안호정",
+        "date": "2026-07-03",
+        "text": "@diegocabezas01 This setup ignores each model's actual strengths, putting them where they're weakest or wasting them on trivial tasks. There's no explanation for why it's structured this way — just multiple layers of theoretical guardrails stacked on top. It's a token-burning setup."
+      },
+      {
+        "handle": "Adam05296985",
+        "name": "MyDick",
+        "date": "2026-07-03",
+        "text": "@diegocabezas01 Fable should be used mostly as an escalation not as a really expensive dispatcher\n\nFable 5 high, not max\nSonnet as worker\nCodex only for rescue/adversarial review\nOpus only when Fable clearly assumes that it needs a second opinion"
+      },
+      {
+        "handle": "josesilesdata",
+        "name": "José Siles | AI | Data",
+        "date": "2026-07-03",
+        "text": "@diegocabezas01 Love this setup, it really shows how far you can go when you treat models as a proper team."
+      },
+      {
+        "handle": "muhdawam94",
+        "name": "Muhammad Dawam",
+        "date": "2026-07-03",
+        "text": "@diegocabezas01 Does anyone have a GitHub repository for this"
+      },
+      {
+        "handle": "ty_udy",
+        "name": "Ty Udy",
+        "date": "2026-07-03",
+        "text": "@diegocabezas01 I’ve always thought the agents thing was cool but never find myself reaching for it.\n\nMaybe if you want to launch a quick sub agent to do something?\n\nBut you could just as easy say “Launch a sub agent using the /xxxxx skill to do Y”\n\nMaybe it’s just the same thing lol"
+      },
+      {
+        "handle": "MSKFinancial",
+        "name": "trent",
+        "date": "2026-07-03",
+        "text": "@diegocabezas01 Definitely going to try this out"
+      },
+      {
+        "handle": "fernandog_dev",
+        "name": "Fernando Gomes",
+        "date": "2026-07-03",
+        "text": "@0x_mcfly @diegocabezas01 Just ask claude to create an agent to you."
+      },
+      {
+        "handle": "henrick_souza",
+        "name": "Luiz Henrique",
+        "date": "2026-07-03",
+        "text": "@diegocabezas01 Curiosity, Why use a strong model to orchestrate tasks? To orchestrate, a simple model won’t resolve?"
+      },
+      {
+        "handle": "istdrc",
+        "name": "stdrc",
+        "date": "2026-07-03",
+        "text": "@angryalberta @diegocabezas01 currently only SaaS"
+      },
+      {
+        "handle": "sera_w_h",
+        "name": "セラーラ",
+        "date": "2026-07-03",
+        "text": "@onsails @diegocabezas01 could this be used with something like headroom?"
+      },
+      {
+        "handle": "MrOcelot1976",
+        "name": "Tim",
+        "date": "2026-07-03",
+        "text": "from Fable 5: The architecture is right — it's the same advisor/local-first shape we just\n  landed on for the bugfinder. And the best idea in it is the high-stakes move:\n  Opus and Codex on the same problem in parallel, synthesized without showing\n  either the other's answer. That kills anchoring, which is the main failure\n  mode of chained multi-model setups. Keep that.\n\n  But \"to save Fable usage\" is half-backwards. The orchestrator is the token\n  sink, not the workers. Fable at max reasoning, holding the whole context and\n  re-reading every subagent's return to synthesize, costs more per turn than the\n  mechanical edits you're offloading. Subagents pay off only when the work is\n  genuinely parallel or context-isolatable — spawning fast-worker for a\n  three-line edit costs more than just doing the edit, because the spawn starts\n  cold and re-derives what I already have. So: delegate decomposable reasoning,\n  not small chores.\n\n  It collides with your existing roles. Global CLAUDE.md already pins\n  reviewer=codex with a scored peer-review gate. This block says codex = peer,\n  not reviewer. Two orchestration schemes will fight. Pick one home for the\n  roles."
+      },
+      {
+        "handle": "StealUrKill_PhD",
+        "name": "B",
+        "date": "2026-07-03",
+        "text": "@diegocabezas01 @navigateny I used Claude with Hermes that has chatgpt and opencode go setup and orchestrated with Claude"
+      },
+      {
+        "handle": "decker502",
+        "name": "decker502",
+        "date": "2026-07-02",
+        "text": "@sacheeperera @diegocabezas01 正解"
+      },
+      {
+        "handle": "pegastud",
+        "name": "Mathias",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Plan with fable. If it’s a huge complex epic.  Plan in blocks DAG.   Default to sonnet. Exception multi file complex blocks. Handoff to new session run opus as orch.   Codex as plan, code reviewer , … using  cli codex $skill .   And as GitHub review. Half the tokens. Max result"
+      },
+      {
+        "handle": "Willdabeasts",
+        "name": "Will",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 No, this isn't the live app, just a piece from my landing page."
+      },
+      {
+        "handle": "Willdabeasts",
+        "name": "Will",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 I felt the same way, it's a serious unlock in performance. \n\nUsing the smartest model to delegate to the rest.\n\nControl Deck comes out this week. https://t.co/wf5I1AYwmV"
+      },
+      {
+        "handle": "aiseomastery",
+        "name": "AI Mastery Guide",
+        "date": "2026-07-02",
+        "text": "@thedogfather @diegocabezas01 🫡"
+      },
+      {
+        "handle": "Evan__Harris",
+        "name": "Evan Harris",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 At least until Tueaday"
+      },
+      {
+        "handle": "Blum_OG",
+        "name": "Blum",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 smart model combo. should help keep costs down"
+      },
+      {
+        "handle": "Weiyan2Zhibin",
+        "name": "zhibin",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 should I use Claude code verbose mode?  Will it make this workflow better?"
+      },
+      {
+        "handle": "ben_ai_eng",
+        "name": "Ben Newell",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 😤👏"
+      },
+      {
+        "handle": "dev_deutschmark",
+        "name": "deutschmark",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Does routing the mechanical stuff to Sonnet actually save enough on Fable usage to justify the latency? I always worry about the feedback loop getting sluggish once you have four models in the mix."
+      },
+      {
+        "handle": "nahimdhaney",
+        "name": "Nahimdhaney",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Wow, things change fast https://t.co/WHnwQ8rgz4"
+      },
+      {
+        "handle": "rosie55577",
+        "name": "🎀 rosie | 22",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 that's a pretty smart way to structure it, makes sense to use fable for high-level planning."
+      },
+      {
+        "handle": "sgraphics8",
+        "name": "Silver",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Big issue with this. The orchestrator overheats, context overfill, it starts forgetting  things  and run in a loop for weeks.\n\nBetter use the CEO pattern with Sonnet as CEO, fables as PMs, architecture committe members etc"
+      },
+      {
+        "handle": "DerekDaiTime2",
+        "name": "Derek Dai",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 It’s like vision vs vision+lidar. At some point one model has to overcome the context of another and results get worse."
+      },
+      {
+        "handle": "DerekDaiTime2",
+        "name": "Derek Dai",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 I used this approach for a while and now I strictly use the best frontier model. The engineering hours saved are worth the cost."
+      },
+      {
+        "handle": "TheHBrand",
+        "name": "TheHBrand",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 fable as orchestrator is by far the biggest token sync as essentially a chatbot with you, your interruptions, your ideas.... makes more sense to ride GPT 5.5 as the orchestrator and send tasks to fable on ultracode where it's considered a sensitive, high value area of the code."
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-07-02",
+        "text": "@Dismal_realist @diegocabezas01 @Dismal_realist Hi, please find the unroll here: https://t.co/rzcKqlv1Jl Share this if you think it's interesting. 🤖"
+      },
+      {
+        "handle": "0xBeeSmart",
+        "name": "🐝 Neo",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 interesting stack. have you compared cost per task vs just throwing Opus at everything? curious if the coordination overhead pays off"
+      },
+      {
+        "handle": "DMMeacham",
+        "name": "Daniel Meacham",
+        "date": "2026-07-02",
+        "text": "worth pricing this against real usage though. sonnet 5's new tokenizer runs up to 35% more tokens, so artificialanalysis has it ~2x sonnet 4.6 per finished task even at the lower sticker. the intro rate mostly offsets the tokenizer, it isn't really a cut. measure cost per task before you trust the model split."
+      },
+      {
+        "handle": "0x_mcfly",
+        "name": "mcfly",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Apparently /agents has been removed. I found superpower cmds /writing-plans and /executing-plans quit good for doing the delegation job between the different models. https://t.co/vgeDLNrbdD"
+      },
+      {
+        "handle": "YuliyVal",
+        "name": "Цезарь°",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 No I keep this one for optimization and eventually, redistribution. I can send it .zipped to you personally."
+      },
+      {
+        "handle": "matviy_ch",
+        "name": "Matviy",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 I agree that it’s good, it’s just x2 good. ROI is not there…"
+      },
+      {
+        "handle": "PewpewPaul",
+        "name": "PewPewPaul",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Keep sharing, it’s awesome what you are building"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@VibeCoderOfek True!  Might put opus to orchestrate and fable to strategize"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@enisdev Good idea"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@matviy_ch You will be surprised how good it is for strategizing prior to coding"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@istdrc Thanks for sharing, didn’t know about this"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@istdrc Thanks for sharing, didn’t know about this"
+      },
+      {
+        "handle": "TheLazySol",
+        "name": "Tony | TheLazySol",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 @tibor_tee does cursor already do this by default by delegation to composer 2.5?"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@KennyAdemolu Interesting"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@PewpewPaul Appreciate it"
+      },
+      {
+        "handle": "alex___xyz",
+        "name": "alex.xyz",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Sounds good. Sometimes I think about orchectration = overcomplication and not needed that much, or lets say needed more in high complexity tasks. And with high complexity I mean a loooot of complexity, not developing, more do quant research or science."
+      },
+      {
+        "handle": "slabachnate",
+        "name": "nate",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 This is a great use of Fable - it would be interesting to see this type of strategy compared to using Opus or Sonnet as the orch"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@NadzuAI True"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@alex___xyz Not yet, but so far in a couple of projects haven’t disappointed and I’ve saved on fable usage a lot"
+      },
+      {
+        "handle": "twid",
+        "name": "Todd Dailey",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Interesting! FYI /agents is gone, now you just prompt it \"create a deep-reasoner subagent that....\" \n\nclaude-automation-recommender is fun as well, will suggest more agents based on what you've done so far."
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@YuliyVal Interesting, any GitHub repo?"
+      },
+      {
+        "handle": "vinny2020",
+        "name": "👨🏾‍🚀 Vincent Stoessel 🇺🇸🇯🇲🇨🇭🇳🇱",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Thank you"
+      },
+      {
+        "handle": "orobsonnn",
+        "name": "Robson Junior",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Modelos que uso:\n\n1. Sonnet orquestrador + skills específicas e hooks para n depender apenas de prosa do modelo seguir pipeline\n2. Opus e GPT 5.5 como avaliadores \n3. Modelos open source para executor \n\nLink do repo: https://t.co/69G4RRxibu"
+      },
+      {
+        "handle": "orobsonnn",
+        "name": "Robson Junior",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Eu fiz algo parecido: criei um harness onde eu uso sonnet como default na sessão e ele chama agentes mais fortes para avaliarem e dar direcionamento na criação e validação do plano."
+      },
+      {
+        "handle": "Baphvvet",
+        "name": "dark",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Como vas a mezclar opus y codex... Eso es traición"
+      },
+      {
+        "handle": "helixirlabs",
+        "name": "Aric Crosson Bouwers",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 This is essentially what I’ve got setup!"
+      },
+      {
+        "handle": "raksa_ai",
+        "name": "Raksa",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 👀"
+      },
+      {
+        "handle": "axhoff",
+        "name": "Alexander Hoff ❍",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 awesome simple setup. thanks."
+      },
+      {
+        "handle": "HarryTandy",
+        "name": "Harry Tandy",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 this orchestration stack completely breaks the token-cost bottleneck"
+      },
+      {
+        "handle": "wmilewski",
+        "name": "Will Milewski",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 great share, I am giving this a go, will follow-up on how this goes"
+      },
+      {
+        "handle": "GeniusPothead",
+        "name": "Genius💡💹🧲 🤖",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 💯👊 Agreed. Thank you."
+      },
+      {
+        "handle": "lightspot_ai",
+        "name": "Lightspot",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Just don't use Sonnet 5 in your harness :D"
+      },
+      {
+        "handle": "ArnaudB78",
+        "name": "Pac-Man",
+        "date": "2026-07-02",
+        "text": "@EliaAlberti @diegocabezas01 Oui tant que les abonnements existent c’est possible mais en pay to go ça coûte très cher"
+      },
+      {
+        "handle": "sopbeen",
+        "name": "ᴘɪᴏɴᴇᴇʀ",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Give this to your agent and ask it to build your own automated looping/self-healing/self-improving orchestrator system that doesn't use expensive API tokens(only subscription) keeps token costs low and context windows optimal. https://t.co/E7vKC2fDDB"
+      },
+      {
+        "handle": "sopbeen",
+        "name": "ᴘɪᴏɴᴇᴇʀ",
+        "date": "2026-07-02",
+        "text": "@notiyda @diegocabezas01 @theo It has review gates for specs (from worker agents) as well as code review gates after implementation. Given properly specced goals it can run indefinitely while keeping token costs low and context window fresh."
+      },
+      {
+        "handle": "sopbeen",
+        "name": "ᴘɪᴏɴᴇᴇʀ",
+        "date": "2026-07-02",
+        "text": "@notiyda @diegocabezas01 @theo Theo didn't invent this. When fable first came out I was already doing this. I in fact built an entire orchestrator system around the concept. Fable is orchestrator and launches worker agents (opus/codex) into Zellij as interactive sessions and steers them like a human would."
+      },
+      {
+        "handle": "litchi83829230",
+        "name": "litchi",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 @notiyda @theo Theo's thin wrapper is genius idea"
+      },
+      {
+        "handle": "moesmufti",
+        "name": "Moes",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 did you try the /advisor? and running main thread on sonnet 5 instead?"
+      },
+      {
+        "handle": "YuliyVal",
+        "name": "Цезарь°",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 I rebuild the Jewish Sanhedrin as a principle that acts as the adversary that judges the code. It works flawlessly. No need for a second opinion."
+      },
+      {
+        "handle": "MarcinFrackowi1",
+        "name": "🅝🅐🅗🅤🅝🅞🅢🅤🅝",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Can anybody show a simple, real example of how this idea really helps him progress in his task? I have a feeling that all of these instructions are speculative and far from real-world tasks."
+      },
+      {
+        "handle": "alex___xyz",
+        "name": "alex.xyz",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 nice idea tbh. You did some benchmarks on that?"
+      },
+      {
+        "handle": "KislayParashar1",
+        "name": "Kislay Parashar",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Four models sounds efficient until one subagent misreads context and now you're debugging which layer lied to you."
+      },
+      {
+        "handle": "Houthahaha",
+        "name": "HOutahahah",
+        "date": "2026-07-02",
+        "text": "@aiseomastery @diegocabezas01 How do you implement that ?"
+      },
+      {
+        "handle": "theshaneemoret",
+        "name": "Shanee Moret",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Did this last night fable to orchestrate codex to execute"
+      },
+      {
+        "handle": "NadzuAI",
+        "name": "NadzAI",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 \"Smart orchestration wins every time."
+      },
+      {
+        "handle": "gengdaJ",
+        "name": "逸尘",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Great!🫡"
+      },
+      {
+        "handle": "gauthiergirlt",
+        "name": "Gauthier",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Could work if Fable was not potato"
+      },
+      {
+        "handle": "UsmanAnzaar",
+        "name": "Usman Anzaar Usmani",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 How much are you actually saving in tokens/cost with this setup?"
+      },
+      {
+        "handle": "rbzapp",
+        "name": "Robert Zapp",
+        "date": "2026-07-02",
+        "text": "@Max__X__Ntu @diegocabezas01 What is the latest version that you see? For me, it's 2.1.198."
+      },
+      {
+        "handle": "cmumulle",
+        "name": "Christian Müller",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Great setup. Next lever once it clicks: pin the orchestration itself. Right now the lead re-derives the delegation plan every run. Capture it as a fixed workflow with typed handoffs and you keep the flexibility but stop paying to re-plan, and the runs get reproducible."
+      },
+      {
+        "handle": "GermainYao63944",
+        "name": "Germain Yao",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Thanks a  lot"
+      },
+      {
+        "handle": "EliaAlberti",
+        "name": "EliaAlberti",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Don’t forget tho that unless you’re on Max 20x you’ll be -pretty quickly- hit the half week Fable 5 usage limit!\n\nAll nice and dandy and clearly written by Claude but fellas the costs are real!"
+      },
+      {
+        "handle": "servaasvdc",
+        "name": "Servaas ✌️",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 ❯ /agents\n  ⎿  The /agents wizard has been removed."
+      },
+      {
+        "handle": "MaraPaz675723",
+        "name": "María Paz",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 The Hood + Grok Heavy 🫰"
+      },
+      {
+        "handle": "ShadowMonkeyMan",
+        "name": "divomni",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 so that somehow bypasses all the classifiers? if that was true, why hasn't anthropic said anything about this and just making it the only way to use fable then they wouldn't have to prevent human progress?"
+      },
+      {
+        "handle": "Violinkittie",
+        "name": "Myisha",
+        "date": "2026-07-02",
+        "text": "@moonride303 @creativ_cyborg @diegocabezas01 5 is too a failure"
+      },
+      {
+        "handle": "PewpewPaul",
+        "name": "PewPewPaul",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Beautiful setup"
+      },
+      {
+        "handle": "matviy_ch",
+        "name": "Matviy",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 But why ? Fable does not offer anything extra except coding …."
+      },
+      {
+        "handle": "matviy_ch",
+        "name": "Matviy",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 But why ? Fable does not offer anything extra except coding …."
+      },
+      {
+        "handle": "enisdev",
+        "name": "Enis",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Been running this orchestrator plus subagent split in my own setup for months. What actually pays off is keeping the main context lean: subagents eat the heavy exploration and hand back just the conclusion."
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-07-02",
+        "text": "\"With tools\" on HLE means the model can use web search, code execution, fetch, and programmatic tools (plus max reasoning effort/adaptive thinking) during the eval.\n\nSonnet 5 jumps from 43.2% (pure) to 57.4% because it's highly agentic and efficient at leveraging tools for lookup/compute—exactly why it overtakes base Fable 5.\n\nFable 5's 53.3% reflects its elite core reasoning (the leaderboard leader in standard/high-effort mode). With tools it should climb further as the strongest planner/orchestrator.\n\nThey report both settings for fair comparison: no-tools measures intrinsic knowledge/reasoning; with-tools shows real agent performance. Not every model gets the full with-tools run published for consistency."
+      },
+      {
+        "handle": "moonride303",
+        "name": "MoonRide",
+        "date": "2026-07-02",
+        "text": "@creativ_cyborg @diegocabezas01 Yeah, Sonnet 4.x (didn't try 5, yet) was a failure - it often doesn't properly follow even simple instructions. For mechanical work I would just use Opus with lower effort."
+      },
+      {
+        "handle": "gaeloe",
+        "name": "Gaël Ovide-Etienne",
+        "date": "2026-07-02",
+        "text": "@rbzapp @diegocabezas01 Try logging out and back login in - it worked for me."
+      },
+      {
+        "handle": "humansareindef1",
+        "name": "humansareindefensiblystupid",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 @aiseomastery Something been doin for a while now is auto pasting output from both models about same project so they critique each other to consensus on all the fine details...THEN tell them they're in an elite coding competition with a 1 trillion token prize, it's WILD the improvement."
+      },
+      {
+        "handle": "VibeCoderOfek",
+        "name": "Ofek Shaked | AI Engineer",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 The real bottleneck in that setup shows up the moment the orchestrator has to reconcile conflicting outputs from the subagents without a shared scratchpad that survives the handoff. Most teams discover this only after the first complex refactor."
+      },
+      {
+        "handle": "SlopToSignal",
+        "name": "Slop to Signal",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 the interesting part is 'dont show either the others answer'\n\nyoure basically running a blind taste test on your own codebase to kill confirmation bias 🔥"
+      },
+      {
+        "handle": "slicedchedda",
+        "name": "SlicedChedda",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Hmm"
+      },
+      {
+        "handle": "itskeyans",
+        "name": "Karthikeyan Saravanan",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 That's the way, using fable for deep plan, execute with sonnet or codex"
+      },
+      {
+        "handle": "Adham__Khaled__",
+        "name": "Adham",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Thats smart"
+      },
+      {
+        "handle": "adelbucetta",
+        "name": "Adel Bucetta",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 that's still missing the point  you're not saving fable usage by adding opus and codex, you're just redeploying your reasoning pipeline with more modules"
+      },
+      {
+        "handle": "notiyda",
+        "name": "iyda",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 @theo You should go look at his post for it. He posted about it. I'm pretty sure he uses his own thing, though. I just saw this now, and it seemed very similar to what Theo is also doing."
+      },
+      {
+        "handle": "Goosewin",
+        "name": "goosewin",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 I advise against using max reasoning effort with Fable 5. High should be good enough for 95% of the tasks, esp. in orchestrator role"
+      },
+      {
+        "handle": "paulvilloff",
+        "name": "Paul Villanueva",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Fable 5 on max reasoning? Regardless of your offloads that would eat credits way too fast."
+      },
+      {
+        "handle": "mrluiscalderon",
+        "name": "Luis Calderon",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Replace Sonnet with GLM 5.2 or Qwen for beastmode."
+      },
+      {
+        "handle": "rbzapp",
+        "name": "Robert Zapp",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 For some reason, I cannot use Fable in Claude Code CLI. Driving me nuts."
+      },
+      {
+        "handle": "andyhtran_",
+        "name": "Andy Tran",
+        "date": "2026-07-02",
+        "text": "@morganlinton @diegocabezas01 What types of task did you compare this on? Was it mostly new feature changes or architecture/design work?"
+      },
+      {
+        "handle": "ordigabgg",
+        "name": "Devdrogen",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 he said sonnet 5"
+      },
+      {
+        "handle": "JacobPetterle",
+        "name": "Jacob",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Facts. when your ready to actually have first class support for this flow try it in shipyard\nhttps://t.co/LOX4uTOpvn"
+      },
+      {
+        "handle": "royale_wit_whiz",
+        "name": "Royale",
+        "date": "2026-07-02",
+        "text": "@navigateny @diegocabezas01 Is there a composer plugin I’m not aware of?"
+      },
+      {
+        "handle": "royale_wit_whiz",
+        "name": "Royale",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 This is the way"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-04",
+        "text": "@lobsterfarm_ai Please share any feedback 😊"
+      },
+      {
+        "handle": "muhdawam94",
+        "name": "Muhammad Dawam",
+        "date": "2026-07-04",
+        "text": "@diegocabezas01 Wow thanks"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@harika_cetin Plan is just save usage"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@ty_udy True, my goal here was not much performance but saving fable’s usage"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@MSKFinancial Please share any feedback"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@henrick_souza Yes it should! Opus or 5.5 should do the job. But the reason I put fable there is because part of the prompts ask fable to strategize and orchestrate, and fable strategy is as good as its code"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@Evan__Harris Right! It has expiration date"
+      },
+      {
+        "handle": "dev_deutschmark",
+        "name": "deutschmark",
+        "date": "2026-07-03",
+        "text": "@diegocabezas01 Literally debating / testing this right now too lol we’ll see !"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@Blum_OG Yes, so far"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@FUCORY Thanks for sharing"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@nahimdhaney Right!"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@sgraphics8 Good idea about the PMs"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@DerekDaiTime2 That is true"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@TheHBrand Interesting idea"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@0xBeeSmart Not yet, but I will for sure"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@DMMeacham Good point"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@slabachnate Or also the reverse, using sonnet for everything and calling the others when needed"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@rickcuri Thanks for that"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@vinny2020 😊"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@orobsonnn Different approach! Interesting, good idea"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@Baphvvet Different points of views from\nCodex and Claude"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@Gasppeak good idea"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-03",
+        "text": "@lightspot_ai funny thing, is a bug that shows next to codex, but is using codex cli in the back, the first time i saw i frraked out"
+      },
+      {
+        "handle": "Josephyala",
+        "name": "Joseph N. Aburu",
+        "date": "2026-07-03",
+        "text": "Fable 5 directing Opus Sonnet and Codex delivers the smartest way to code at scale right now. It squeezes maximum intelligence from every token while keeping the lead model focused on strategy instead of grunt work. Anyone still prompting one model for everything is leaving serious productivity on the table."
+      },
+      {
+        "handle": "marcb_xyz",
+        "name": "Marc Baumann 🌔",
+        "date": "2026-07-03",
+        "text": "@diegocabezas01 You can make this even more capable and oermanent by building an actual agent team with the Anthropic agent SDK."
+      },
+      {
+        "handle": "bettersystem05",
+        "name": "Build Better System",
+        "date": "2026-07-03",
+        "text": "@diegocabezas01 This is a clean setup—basically turning Claude into a full AI team instead of a single model. Love the parallel Opus + Codex angle for high-stakes decisions. Curious, have you noticed big gains in speed or output quality with this workflow?"
+      },
+      {
+        "handle": "Oleobro",
+        "name": "Oleo",
+        "date": "2026-07-03",
+        "text": "@diegocabezas01 This is a real, practical config — no hype, no income pitch. Worth verifying the exact plugin strings against current docs before running, since these change. The orchestrator-delegates-to-subagents pattern itself is sound."
+      },
+      {
+        "handle": "angryalberta",
+        "name": "Angry Alberta",
+        "date": "2026-07-03",
+        "text": "@istdrc @diegocabezas01 Any way to self host it?"
+      },
+      {
+        "handle": "peterlony",
+        "name": "A. Loner",
+        "date": "2026-07-03",
+        "text": "@diegocabezas01 Written like someone who doesn't know what they are doing, just for views. /agents has been removed."
+      },
+      {
+        "handle": "ctgem8",
+        "name": "CT GEM",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 推荐一个很牛的  https://t.co/icAOibAUeV 中转站 可能正是你需要的"
+      },
+      {
+        "handle": "Dismal_realist",
+        "name": "dismal_realist",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 @threadreaderapp unroll"
+      },
+      {
+        "handle": "UncleJAI",
+        "name": "Uncle J",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 I like the orchestrator idea, but it only works when the handoff contract is sharp. “Fable thinks, Codex executes” needs a boundary: tasks, files, tests, rollback, and who approves the final diff."
+      },
+      {
+        "handle": "downsizing_dev",
+        "name": "Downsizing",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 or switch to downsizing and get requests routed automatically, depending on their complexity"
+      },
+      {
+        "handle": "ZippyNetworks",
+        "name": "Eric Henderson",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 This plus some guardrails and platform messaging layers and memory... Is the way to my free AutoClaw extension. Does all that and more."
+      },
+      {
+        "handle": "SteveSolun",
+        "name": "Steve Solun",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Let's collaborate on this"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@_Matt_Bell Good idea!"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@WendyWug @istdrc 👀"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@ShadowMonkeyMan Not sure is bypassing classifiers, instead fable is strategizing instead of coding"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@MaraPaz675723 👀"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@GermainYao63944 😊"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@cmumulle Interesting"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@UsmanAnzaar Haven’t quantified that yet, but I run this in a code bases yesterday for 4 hours and today for 2 hours, used 20% fable weekly credits so far, which looks like good to me but I’m just assuming"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@SteveSolun Nice! Good idea"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@onsails Thanks for sharing"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@theshaneemoret The best part is to save fable usage, which at this point is very scarce"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@KislayParashar1 So far hasn’t happened, and the dumbest model is sonnet 5, that I hope it will be smart enough 🤣"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@moesmufti I haven’t! Will try today"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@sacheeperera That’s an interesting idea"
+      },
+      {
+        "handle": "buckstrdr",
+        "name": "Ian salter",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Love this — the ad-hoc version of where everyone's heading. Ran this exact pattern; where it bites is it's config, not infrastructure — nothing verifies a subagent ran, isolates them, or catches a silent stall. Worth making it permanent."
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@EliaAlberti True! I put it down to high! Same performance"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@MCheng18662 I thought that was gonna be the issue too, but so far Fable is able to orchestrate successfully"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@wmilewski I made a couple of changes on the CLAUDE.md just because I don’t want Sonnet to be thinking or having autonomy at all, just pure execution from Fable strategy."
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@helixirlabs Nice! Please share any feedback or improvements that you might have in yours that I don’t have in mine."
+      },
+      {
+        "handle": "rickcuri",
+        "name": "Henrique Cunha",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Running  Claude code on latest version 2.1.198:\n\n/agents   command · (removed) Ask Claude to create/manage subagents, or edit .claude/agents/"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@AIpromtTR Please share any feedback!"
+      },
+      {
+        "handle": "wangxian0",
+        "name": "Wang Xian",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Have you compared using Fable 5 as TL vs using Opus 4.8 as TL? How much difference do you notice?"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@HarryTandy 😊"
+      },
+      {
+        "handle": "ajs6888",
+        "name": "安叫兽|Bird🕊️ 🔶 BNB",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 这配置看着像开了个小型模型工地"
+      },
+      {
+        "handle": "Gasppeak",
+        "name": "Gaspard Peak",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 You can do the same with Opus as the orchestrator and Composer as the executor if you have fewer Anthropic tokens, it works really well"
+      },
+      {
+        "handle": "sopbeen",
+        "name": "ᴘɪᴏɴᴇᴇʀ",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Important things to note: Tell your agent that it should optimally self-hand off at ~200k window context at appropriate seam. Same with workers. Once you build the base it can continuously improve itself. Add your own features or log issues and then ask orchestrator to triage all"
+      },
+      {
+        "handle": "RezaaliMo",
+        "name": "Mo RezaAli",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Blind parallel runs for Opus and Codex keep their takes truly independent."
+      },
+      {
+        "handle": "gabor_rar",
+        "name": "Lorenzo",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Fable 5 is already Opus4.8 i just use more credits :)"
+      },
+      {
+        "handle": "sopbeen",
+        "name": "ᴘɪᴏɴᴇᴇʀ",
+        "date": "2026-07-02",
+        "text": "@notiyda @diegocabezas01 @theo No API cost, only subscription cost. The orchestrator can self-handoff at ~200k context window with fresh  a) keep costs low b) keep reasoning ability sharp. The orchestrator can also do this for worker agents. It also self-heals/self-improves its own workflow."
+      },
+      {
+        "handle": "API315Labs",
+        "name": "API315.com",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 6x Opus cost means every token matters. We track billing accuracy across relays — padding kills your ROI."
+      },
+      {
+        "handle": "NFelxPow",
+        "name": "Nillo",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Or: https://t.co/4W4guvMHVG \n\nAnd do this without any extra config"
+      },
+      {
+        "handle": "fourforch",
+        "name": "forcher",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 This is the part most people miss.\n\nThe model choice matters,\nbut the architecture matters more.\n\nFable as planner, Opus/Sonnet as workers, Codex as reviewer\nis basically an agent system built from roles instead of hype."
+      },
+      {
+        "handle": "Mikepanx",
+        "name": "Mikepan",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 🤣这太棒了"
+      },
+      {
+        "handle": "Mihail009505822",
+        "name": "Mihail |",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 honestly curious if fable 5 actually reasons better than opus for orchestration or if you're just paying for the name at that point"
+      },
+      {
+        "handle": "attacomsian",
+        "name": "Atta 🐬",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 how's the handoff between fable and the subagents holding up in practice? that's usually where these break for me"
+      },
+      {
+        "handle": "farooqsheik",
+        "name": "Farooq Chisty",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 orchestration is the real unlock here"
+      },
+      {
+        "handle": "golds1111",
+        "name": "WillthisNotWork",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Fable available to use??"
+      },
+      {
+        "handle": "AgenticLabsLtd",
+        "name": "AgenticLabs",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 This setup is powerful, but it’s not cheap. Running multiple models means serious token consumption."
+      },
+      {
+        "handle": "0xksure",
+        "name": "kristoffer",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Do you know a technique to store the prompt \"Goal: [what you want] Context: [files, constraints] ....\" instead of having to write it every time?"
+      },
+      {
+        "handle": "ralphkrauss",
+        "name": "Ralph Krauss",
+        "date": "2026-07-02",
+        "text": "This is the first thing I'm setting up today. Having Fable as the orchestrator with GPT-5.5 as the workers is really the perfect combination.\nClaude is just better at understanding your intent, and asking the right questions. And GPT at executing it.\nAnd hopefully this way we will not immediately hit the Fable token limits."
+      },
+      {
+        "handle": "ShellDropSshApp",
+        "name": "ShellDrop iOS",
+        "date": "2026-07-02",
+        "text": "@grok @diegocabezas01 @grok what does it mean by \"with tools\"? What tools are they talking about? Considering tools gets Sonnet 5 reasoning beyond Fable, wtf is going on here… And what result do you expect Fable with tools to produce, and why would they not test all models with tools?"
+      },
+      {
+        "handle": "Hu59645Hugo",
+        "name": "Hugo Rogelio CERROS",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Saving what 🤣🤣🤣🤣 with that combination the only one who wins is Antropic"
+      },
+      {
+        "handle": "GAZUA_KOR",
+        "name": "가보자고",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 그런데 진짜 비싸긴 하네요. 토큰 소모 속도가...ㅠ"
+      },
+      {
+        "handle": "gsemetfr",
+        "name": "Gaetan Semet",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 That’s overkill for me. Sonnet class model as orchestrator is often enough. Opus-class model for task planning yes, other are way too expensive"
+      },
+      {
+        "handle": "CryptoDondoy",
+        "name": "Donds 🇵🇭",
+        "date": "2026-07-02",
+        "text": "@navigateny @diegocabezas01 how to do this?"
+      },
+      {
+        "handle": "JensHonack",
+        "name": "Jens Honack",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 nice setup. this is basically turning the coding agent into a small engineering org, with a tech lead, senior peer, specialist, and fast implementer\n\nthanks for sharing the setup!"
+      },
+      {
+        "handle": "gitcommute",
+        "name": "Common Sense",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 you lost me at max reasoning"
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-07-02",
+        "text": "GLM-5.2 hits ~40.1% base / ~54.7% with tools on Humanity's Last Exam. It ranks ~#8 overall (clear #1 open-weight) in current leaderboards. \n\nStrong tool-augmented performer, right in the mix with Fable 5's 53.3% max and ahead of Opus 4.8's 45.7% in many setups. Excellent for orchestration + execution workflows."
+      },
+      {
+        "handle": "ShellDropSshApp",
+        "name": "ShellDrop iOS",
+        "date": "2026-07-02",
+        "text": "@grok @diegocabezas01 also where does glm 5.2 rank for this test result?"
+      },
+      {
+        "handle": "XShude",
+        "name": "随机比特",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Useful split. I’d add one boring requirement: the orchestrator should leave checkpoints. If each agent leaves the diff, test result, and rollback note, the workflow becomes debuggable instead of just impressive."
+      },
+      {
+        "handle": "godemodegame",
+        "name": "kris.gmg",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 do you use somnet 5 or 4.6? coz 5 is more expensive than opus😅"
+      },
+      {
+        "handle": "made_by_dy",
+        "name": "dy",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 fable does everything perfectly by itself. It is only lacking better design eye"
+      },
+      {
+        "handle": "AgentOrToy",
+        "name": "Agent or Toy?",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 ngl this is just recreating a scrum team but u cant fire anyone\n\nthe 'dont show either the others answer' bit is lowkey a blind code review tho thats actually smart"
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-07-02",
+        "text": "Fable 5: **53.3%** \nOpus 4.8: **45.7%** \nSonnet 5: **43.2%** (no tools) / **57.4%** (with tools) \nCodex 5.5: **~41%** (tracks GPT-5.5 at 41.4% no tools)\n\nThese are the latest reported figures on Humanity's Last Exam. The ~ in my prior note matched the leaderboard exactly. Fable leads on the core multidisciplinary grad-level benchmark."
+      },
+      {
+        "handle": "ShellDropSshApp",
+        "name": "ShellDrop iOS",
+        "date": "2026-07-02",
+        "text": "@grok @diegocabezas01 @grok list out the exact exam results for each model please for this particular test"
+      },
+      {
+        "handle": "arunsasi",
+        "name": "Arun",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 I don’t think you need Fable here at all. An orchestrator with deep reasoning outsourced to a sub agent can be done by Sonnet."
+      },
+      {
+        "handle": "realJDFetterly",
+        "name": "JD Fetterly",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Beautifully designed approach to blowing through token budgets. Why do you need a deep reasoning sub agent? You’re parsing context in a way that 99% of engineering tasks just don’t need"
+      },
+      {
+        "handle": "flerimeja",
+        "name": "Angelo G. | Toxios Tek",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 What's the usage efficiency on Fable side?"
+      },
+      {
+        "handle": "mateclawai",
+        "name": "david xu",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 The future isn’t one super agent—it’s orchestrated specialists.\n\nThat’s exactly what Loope is exploring.\nhttps://t.co/QU9uAzgG67"
+      },
+      {
+        "handle": "mchin206",
+        "name": "Michael",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Thy opus as your orchestrator and pin the thinker, architect, planner to fable"
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-07-02",
+        "text": "Fable 5 leads Humanity's Last Exam (the hard multidisciplinary grad-level benchmark) at ~53.3%, ahead of Opus 4.8 (~45.7%). Sonnet 5 trails as the faster/cheaper model on deep synthesis. Codex 5.5 tracks closer to GPT-5.5 levels (~41% range), stronger for execution than frontier reasoning.\n\nThis matches the setup: route heavy planning to Fable 5, complex sub-reasoning to Opus, mechanical work to Sonnet, and peer perspectives to Codex. Real edge comes from orchestration + max effort."
+      },
+      {
+        "handle": "ShellDropSshApp",
+        "name": "ShellDrop iOS",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 @grok how does reasoning compare on the standard multidisciplinary reasoning exam, humanities last exam, for fable versus opus 4.8 versus sonnet 5 vs codex 5.5"
+      },
+      {
+        "handle": "D_Twitt3r",
+        "name": "D.",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 What effort level are using for Opus and Sonnet in this scenario?"
+      },
+      {
+        "handle": "dngqnn248032",
+        "name": "Norton.Deng",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 留看"
+      },
+      {
+        "handle": "mdowney",
+        "name": "Mike Downey",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Ah, step 3 is what I was looking for. I forgot there was a plugin that let Claude Code delegate work to Codex."
+      },
+      {
+        "handle": "janekm",
+        "name": "Janek Mann",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Using Opus as the “deep reasoner” when you have Fable doesn’t really make sense to me… the capability gap is just too high (but I guess it’s meant as a quota preservation hack) 🤷‍♂️"
+      },
+      {
+        "handle": "SebastianBO91",
+        "name": "Sebastian BO",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 OpenCode DeepSeek  for research works well too"
+      },
+      {
+        "handle": "Mitre88",
+        "name": "un vato.eth",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 master in claude code NOW https://t.co/BJGDrJCLyA"
+      },
+      {
+        "handle": "kutmanaisha",
+        "name": "Amangeldiev Kutman",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 BTW Fable only available up until 7 of July"
+      },
+      {
+        "handle": "napollw",
+        "name": "Apo",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 That’s what I’m doing so. Good practice"
+      },
+      {
+        "handle": "cutest_star1648",
+        "name": "🤍",
+        "date": "2026-07-02",
+        "text": "@notiyda @diegocabezas01 @theo being helpful is a team effort"
+      },
+      {
+        "handle": "zerostarXBT",
+        "name": "sloth",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 what if Fable5 sees that rather as inspiration and then goes out of its way to find a better solution to the problem? you would have to cut it's wings in the CLAUDE.md which kind of defeats the purpose doesn't it?"
+      },
+      {
+        "handle": "oxandrein",
+        "name": "0xandrein",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Chia tầng agent kiểu này hợp lý đấy. Mình cũng hay dùng Opus cho reasoning rồi đẩy code sang Claude để chạy. Bạn có thấy Fable 5 ổn hơn hẳn các loại router khác không?"
+      },
+      {
+        "handle": "LennonLi1",
+        "name": "Lennon Li",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 lol"
+      },
+      {
+        "handle": "TrustworthyLabs",
+        "name": "Trustworthy",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Love it.\n\nFirst thing I did tonight with Fable - full code review of my project with specific questions. Generating plan mds to fix and upgrade everything."
+      },
+      {
+        "handle": "0x300e",
+        "name": "The Hitchhiker",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Sorry, that’s illegal"
+      },
+      {
+        "handle": "Cabungo",
+        "name": "Alejandro Moreno",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 This is really good advice. I was thinking about doing something like and now you served it to me on a silver plate 👍.\n\nThank you!!!"
+      },
+      {
+        "handle": "mickcodez",
+        "name": "mick",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 I was actually coming to X to post something very similar to this. This is working really well"
+      },
+      {
+        "handle": "mtiosavljevic",
+        "name": "Marko Tiosavjlević",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 i build a tool for token efficiency ... but it is still little complex to use it.. correctly. \n\nhttps://t.co/66VPaiLMBm"
+      },
+      {
+        "handle": "aaemartins",
+        "name": "Ton Martins",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 personally I don’t like fable with max thinking effort"
+      },
+      {
+        "handle": "brandon_galang",
+        "name": "brandon galang ▲",
+        "date": "2026-07-02",
+        "text": "@morganlinton @diegocabezas01 you were ahead of the curve on pointing this out, medium is pareto optimal!"
+      },
+      {
+        "handle": "evianoo",
+        "name": "Ξviano",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 Try Fable &gt; GLM 5.2 combo"
+      },
+      {
+        "handle": "odiszapc",
+        "name": "Alexey Plotnik",
+        "date": "2026-07-02",
+        "text": "@diegocabezas01 This is a bullshit strategy"
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-07-02",
+        "text": "@royale_wit_whiz @navigateny If you can access composer via CLI you can build direct curl commands Claude code can use to talk to composer"
+      },
+      {
+        "handle": "abc0008",
+        "name": "Alex",
+        "date": "2026-07-02",
+        "text": "@navigateny @diegocabezas01 Can you use composer via API and your cursor plan usage?"
+      },
+      {
+        "handle": "webmixgamer",
+        "name": "webmixgamer",
+        "date": "2026-07-01",
+        "text": "@diegocabezas01 That parallel Opus + Codex synthesis is the sharp move. My worry sits one level up from role assignment: the orchestrator trusting a single worker's return it never re-verifies. One confident-but-wrong handoff and the lean context means Fable can't catch it."
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HMLGA58XYAAP9vZ.jpg",
+      "localFilename": "2072436501263339841_1.jpg"
+    }
+  ]
+}

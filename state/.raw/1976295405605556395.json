@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:58.953Z",
+  "fetchedAt": "2026-07-13T06:47:39.934Z",
   "tweetId": "1976295405605556395",
   "post": {
     "url": "https://x.com/santu_design/status/1976295405605556395",
@@ -10,6 +11,12 @@
     },
     "date": "2025-10-09",
     "text": "footer design https://t.co/yEYK7MEn9X",
+    "thread": [
+      {
+        "id": "1976295405605556395",
+        "text": "footer design https://t.co/yEYK7MEn9X"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,864 @@
       }
     ],
     "metrics": {
-      "likes": 2219,
+      "likes": 2196,
       "retweets": 61,
-      "replies": 87,
-      "views": 89952
+      "replies": 84,
+      "views": 90255
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "JussiKorhonen",
+        "name": "Jussi Korhonen",
+        "date": "2025-10-09",
+        "text": "@santu_design That gradient band slaps! Did you make it, or is this a resource somewhere?",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "santu_design",
+        "name": "Santu",
+        "date": "2025-10-09",
+        "text": "@JussiKorhonen Thanks Jussi, yeah I made it myself",
+        "likes": 5,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "santu_design",
+        "name": "Santu",
+        "date": "2025-10-10",
+        "text": "@artemsimut I created them in Midjourney",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "areeshhaa",
+        "name": "Areesha Fatima",
+        "date": "2025-10-11",
+        "text": "@santu_design The texture adds such a nice touch! 👏",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xjreid",
+        "name": "Jack Reid",
+        "date": "2025-10-10",
+        "text": "@santu_design What software do you use for the background image?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Danielgbright",
+        "name": "Daniel G Bright",
+        "date": "2025-10-10",
+        "text": "@santu_design A lot!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JJGerrishDev",
+        "name": "JJ Gerrish",
+        "date": "2025-10-10",
+        "text": "@santu_design This is a sick footer design 🔥 Love the blurred gradient at the bottom right it's a nice subtle touch",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "santu_design",
+        "name": "Santu",
+        "date": "2025-10-10",
+        "text": "@rishabhhdesigns Thanks my man",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "santu_design",
+        "name": "Santu",
+        "date": "2025-10-10",
+        "text": "@Danielgbright Did you like it? 👀",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_vargaalex",
+        "name": "Alex Varga",
+        "date": "2025-10-10",
+        "text": "@santu_design banger bro",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Danielgbright",
+        "name": "Daniel G Bright",
+        "date": "2025-10-10",
+        "text": "@santu_design Whooooo",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "santu_design",
+        "name": "Santu",
+        "date": "2025-10-10",
+        "text": "@GreySaurabh Thanks man, I liked it a lot too",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JayBorda",
+        "name": "JayBorda",
+        "date": "2025-10-10",
+        "text": "@santu_design Viral :)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-10-09",
+        "text": "@santu_design Looks good Santu",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "santu_design",
+        "name": "Santu",
+        "date": "2025-10-09",
+        "text": "@uxui_arthur Yes everything",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "santu_design",
+        "name": "Santu",
+        "date": "2025-10-09",
+        "text": "@dariusdan Thanks Darius it means a lot man🙌🏻",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "artemsimut",
+        "name": "Artem Simutin",
+        "date": "2025-10-09",
+        "text": "@santu_design Amazing work 🤩 how do you create these background shapes and graduents? Is it AI generated?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "santu_design",
+        "name": "Santu",
+        "date": "2025-10-09",
+        "text": "@uxuianeeta Thanks a lot Aneeta, glad to see you around 🙌🏻",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GreySaurabh",
+        "name": "Saurabh",
+        "date": "2025-10-09",
+        "text": "@santu_design Love that glass effect bro",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "uxui_arthur",
+        "name": "Arthur",
+        "date": "2025-10-09",
+        "text": "@santu_design Sick, did you create the illustration?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dariusdan",
+        "name": "Darius Dan",
+        "date": "2025-10-09",
+        "text": "@santu_design I like this section. 👀",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "uxuianeeta",
+        "name": "Aneeta",
+        "date": "2025-10-09",
+        "text": "@santu_design Really nice.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rishabhjoshii",
+        "name": "Rishabh Joshi",
+        "date": "2025-10-09",
+        "text": "@santu_design Beauty 🤌",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "santu_design",
+        "name": "Santu",
+        "date": "2025-10-09",
+        "text": "@designsbychirag 😎",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dim_digital",
+        "name": "Michael",
+        "date": "2025-10-09",
+        "text": "@santu_design The image and the blur makes it so cool! 🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AleenaAliK",
+        "name": "AleenaAK",
+        "date": "2025-10-22",
+        "text": "@santu_design How do you do this glass effect?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "100xdevkabeer",
+        "name": "First Move",
+        "date": "2025-10-19",
+        "text": "@santu_design Really nice footer desing santu\n\nCan i ask how you create the gradient shape behind it ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Fluxora_Designs",
+        "name": "Fluxora",
+        "date": "2025-10-12",
+        "text": "@santu_design Bro cooked a mooner 🩵",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheAwesomeTuvia",
+        "name": "Tuvia ⌯⌲",
+        "date": "2025-10-11",
+        "text": "@santu_design Looking fucking clean!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shipwithkrsna",
+        "name": "Krishna from getmvpbuilt",
+        "date": "2025-10-11",
+        "text": "@santu_design the shadow effect is cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mickdewald",
+        "name": "Mick",
+        "date": "2025-10-11",
+        "text": "@santu_design Just slick. How does it look on mobile?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kadircalik",
+        "name": "Kadir",
+        "date": "2025-10-11",
+        "text": "@santu_design Perfect 👌",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "azam_png",
+        "name": "Azam",
+        "date": "2025-10-11",
+        "text": "@santu_design love the gradients .🔥🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "uiuxmehedi37",
+        "name": "Mehedi hasan",
+        "date": "2025-10-11",
+        "text": "@santu_design Wow Great Work\nhttps://t.co/5rIKVjoMgk",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "santu_design",
+        "name": "Santu",
+        "date": "2025-10-11",
+        "text": "@JJGerrishDev Thanks JJ, so glad to see you in the comments man🙌🏻",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jaibytes",
+        "name": "𝑱aime Claure☄️",
+        "date": "2025-10-10",
+        "text": "@santu_design only nice gradients, glassy and gauss fx, because footer as element himself's a fail from web 2, we need to improve that functions into real utility purpose",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DesignCodeAI",
+        "name": "DesignCodeAI",
+        "date": "2025-10-10",
+        "text": "@santu_design Elite",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "taras__ter",
+        "name": "Taras Tereschenko",
+        "date": "2025-10-10",
+        "text": "@santu_design Oh, nice one",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GoldenSunSMM",
+        "name": "Himath Serasinghe",
+        "date": "2025-10-10",
+        "text": "@santu_design Goes will with theme from the sign up page",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "abhishekY495",
+        "name": "Abhishek Yadav",
+        "date": "2025-10-10",
+        "text": "@santu_design This looks clean. \nCopying this in my next project 😆",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "amandevx",
+        "name": "Aman DevX",
+        "date": "2025-10-10",
+        "text": "@santu_design Cool idea, let's brainstorm together!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MotionByGolden",
+        "name": "Motion By Golden",
+        "date": "2025-10-10",
+        "text": "@santu_design I love the design",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mdavidcyrus",
+        "name": "David Cyrus",
+        "date": "2025-10-10",
+        "text": "@santu_design What do you use to make these? Weblow?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jesse_babudoh",
+        "name": "Jesse",
+        "date": "2025-10-10",
+        "text": "@santu_design Like the gradient behind the footer",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mavitdesign",
+        "name": "Mavi",
+        "date": "2025-10-10",
+        "text": "@santu_design 👏👏👏",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RexSmacx",
+        "name": "Rexsmacx",
+        "date": "2025-10-10",
+        "text": "@santu_design Sleek asf",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "santu_design",
+        "name": "Santu",
+        "date": "2025-10-10",
+        "text": "@_vargaalex Thanks Alex😎",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Tofunwa_UX",
+        "name": "Tofunwa",
+        "date": "2025-10-10",
+        "text": "@santu_design this is insane. well done!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "elllllpatron",
+        "name": "Mamuka",
+        "date": "2025-10-10",
+        "text": "@santu_design Looks good!⚡️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nocode_designs",
+        "name": "NocodeDesigns",
+        "date": "2025-10-10",
+        "text": "@santu_design Aesthetics footer 🙂‍↕️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "llsbetdigital",
+        "name": "Lisa Demchenko",
+        "date": "2025-10-10",
+        "text": "@santu_design Love this effect! Beautiful work Santu",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "artemsimut",
+        "name": "Artem Simutin",
+        "date": "2025-10-10",
+        "text": "@santu_design 🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "design_spree",
+        "name": "Michael Shodipo",
+        "date": "2025-10-10",
+        "text": "@santu_design @JussiKorhonen Wow, nice 💯 \nBlender?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "joulsounet",
+        "name": "Joulse",
+        "date": "2025-10-10",
+        "text": "@santu_design That's clean 👌",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "simoom_design",
+        "name": "SIMOOM",
+        "date": "2025-10-10",
+        "text": "@santu_design Aamzing!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mxxob10",
+        "name": "Manish Patel",
+        "date": "2025-10-10",
+        "text": "@santu_design Looks Clean",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vjk_2k5",
+        "name": "Vijay Krishna S",
+        "date": "2025-10-10",
+        "text": "@santu_design Just Elite.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "csaba_kissi",
+        "name": "Csaba Kissi",
+        "date": "2025-10-10",
+        "text": "@santu_design Looks very modern.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_banjoko",
+        "name": "Banjoko | ui/ux designer | Full Stack developer",
+        "date": "2025-10-10",
+        "text": "@santu_design CTA + FOOTER 🤏",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yenkonkoaaa",
+        "name": "Dave 🧵",
+        "date": "2025-10-10",
+        "text": "@santu_design The background image is so well done 👍. That’s a clean footer",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "santu_design",
+        "name": "Santu",
+        "date": "2025-10-10",
+        "text": "@JayBorda 👀looks like",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "IronMeow69",
+        "name": "IronMeow",
+        "date": "2025-10-10",
+        "text": "@santu_design This glassmorphic design looks cool though.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "design74595",
+        "name": "Ahmed",
+        "date": "2025-10-10",
+        "text": "@santu_design Nice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mattft",
+        "name": "Matt F. Thompson",
+        "date": "2025-10-10",
+        "text": "@santu_design Absolutely love this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wakiltidur",
+        "name": "wolhaikmonk",
+        "date": "2025-10-10",
+        "text": "@santu_design shheeesh",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CleverCoder0",
+        "name": "Vishal Mishra",
+        "date": "2025-10-09",
+        "text": "@santu_design Hey man, Loved the UI of the footer.\nCould you please review my portfolio https://t.co/TnAkWo6zm7 just want a feedback :)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "denissimutin",
+        "name": "Denis Simutin",
+        "date": "2025-10-09",
+        "text": "@santu_design A tiny bit of glow on the shape would be sick",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "navig8_ai",
+        "name": "Niya @ navig8",
+        "date": "2025-10-09",
+        "text": "@santu_design stunning",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wixNclick",
+        "name": "Oluwaseyi Samuel",
+        "date": "2025-10-09",
+        "text": "@santu_design Love glass effect man",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "santu_design",
+        "name": "Santu",
+        "date": "2025-10-09",
+        "text": "@basit_designs Thanks Basit!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AimannShaik",
+        "name": "Aimann Shaik",
+        "date": "2025-10-09",
+        "text": "@santu_design Wow, the gradients are beautiful Santu",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "matt_teeixeira",
+        "name": "Matt Teixeira",
+        "date": "2025-10-09",
+        "text": "@santu_design God that’s pretty",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RichaChordia",
+        "name": "Richa Chordia",
+        "date": "2025-10-09",
+        "text": "@santu_design sweet",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shubhambiswas29",
+        "name": "Shubham Biswas",
+        "date": "2025-10-09",
+        "text": "@santu_design Cool design 🤩",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MorganFeeney",
+        "name": "Morgan Feeney",
+        "date": "2025-10-09",
+        "text": "@santu_design Is this a pun?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vineeth_io",
+        "name": "vineeth",
+        "date": "2025-10-09",
+        "text": "@santu_design Smooth",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "manlikeaizi",
+        "name": "AIZI",
+        "date": "2025-10-09",
+        "text": "@santu_design Looks clean",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "justdannyboyy",
+        "name": "Danish Boy",
+        "date": "2025-10-09",
+        "text": "@santu_design Did you credit the bg image creator?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "laiba_uiux",
+        "name": "Laibathedesigner",
+        "date": "2025-10-09",
+        "text": "@santu_design So elegant",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Thesut_sare",
+        "name": "That UI/UX guy🔥",
+        "date": "2025-10-09",
+        "text": "@santu_design Clean UI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GreveJoe",
+        "name": "Joe Greve",
+        "date": "2025-10-09",
+        "text": "@santu_design How do you get the dissolved/noisy texture on the image right of \"ready to step in\"?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "softjoe12",
+        "name": "Joel",
+        "date": "2025-10-09",
+        "text": "@santu_design Great design",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HER_BYDESIGN",
+        "name": "Thando",
+        "date": "2025-10-09",
+        "text": "@santu_design Clean 👌",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "santu_design",
+        "name": "Santu",
+        "date": "2025-10-09",
+        "text": "@dim_digital So glad to hear that, thanks Michael",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nytriteio",
+        "name": "Nytrite",
+        "date": "2025-10-09",
+        "text": "@santu_design Good work bruv!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bil0090",
+        "name": "Bilal Bakr",
+        "date": "2025-10-09",
+        "text": "@santu_design That's incredible!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sr_masudur",
+        "name": "Masudur Rahman",
+        "date": "2025-10-09",
+        "text": "@santu_design Looking Great!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "six_2_eight",
+        "name": "six2eight | UI UX Design & Web Development Agency",
+        "date": "2025-10-09",
+        "text": "@santu_design This is such a smooth, polished design!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "markproduct",
+        "name": "Mark Lou",
+        "date": "2025-10-09",
+        "text": "@santu_design Perfect",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "santosh_web",
+        "name": "Santosh Vishwakarma",
+        "date": "2025-10-09",
+        "text": "@santu_design smooth blur",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "santu_design",
+        "name": "Santu",
+        "date": "2025-10-09",
+        "text": "@design_god_ True man, thanks for the feedback!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "olivierdesignr",
+        "name": "Olivier.",
+        "date": "2025-10-09",
+        "text": "@santu_design 10/10",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tanvironik94",
+        "name": "Tanvir Onik (Brand Analyst)",
+        "date": "2025-10-09",
+        "text": "@santu_design Really Amazing!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "santu_design",
+        "name": "Santu",
+        "date": "2025-10-09",
+        "text": "@BreejeAnadkat Thanks bro",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G202LCwWIAA0S-6.jpg",
+      "localFilename": "1976295405605556395_1.jpg"
+    }
+  ]
 }

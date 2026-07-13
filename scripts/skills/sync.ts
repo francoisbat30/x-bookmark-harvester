@@ -30,20 +30,30 @@ import {
 import { extractPost } from "../../lib/x/extract";
 import { mcpConfigFromEnv } from "../../lib/x/mcp-source";
 import { downloadImages } from "../../lib/obsidian/media-download";
-import { renderNote } from "../../lib/obsidian/markdown";
-import { writeNote } from "../../lib/obsidian/vault";
+import { renderNote, buildFilename } from "../../lib/obsidian/markdown";
+import { writeNote, readExistingNote } from "../../lib/obsidian/vault";
+import { fetchVideoTranscripts } from "../../lib/x/grok-video";
 import {
   readCache,
   writeCache,
   writeDownloadedImages,
+  writeVideoTranscripts,
   hasCache,
 } from "../../lib/obsidian/cache";
+import { getUsageSnapshot, estimatedCostUsd } from "../../lib/x/usage";
+import { loadTriageList } from "../../lib/triage";
 
 interface Args {
   limit: number | null;
   dryRun: boolean;
   delayMs: number;
   account: string | null;
+  /** Télécharger aussi les mp4 (défaut : poster + lien seulement). */
+  videos: boolean;
+  /** Transcrire les vidéos via Grok (coût ≈ $0.01–0.05/vidéo). */
+  transcripts: boolean;
+  /** Listing complet des bookmarks (défaut : incrémental, stop-early). */
+  full: boolean;
 }
 
 function parseArgs(argv: string[]): Args {
@@ -51,6 +61,9 @@ function parseArgs(argv: string[]): Args {
   let dryRun = false;
   let delayMs = 0;
   let account: string | null = null;
+  let videos = false;
+  let transcripts = false;
+  let full = false;
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === "--limit") {
@@ -63,9 +76,15 @@ function parseArgs(argv: string[]): Args {
       delayMs = Number.isFinite(n) && n >= 0 ? Math.floor(n) : 0;
     } else if (a === "--account") {
       account = argv[++i] ?? null;
+    } else if (a === "--videos") {
+      videos = true;
+    } else if (a === "--transcripts") {
+      transcripts = true;
+    } else if (a === "--full") {
+      full = true;
     }
   }
-  return { limit, dryRun, delayMs, account };
+  return { limit, dryRun, delayMs, account, videos, transcripts, full };
 }
 
 const sleep = (ms: number) =>
@@ -76,6 +95,8 @@ interface ProcessOk {
   id: string;
   filename: string;
   absolutePath: string;
+  /** Non-fatal source failures during extraction (grok down, primary miss…). */
+  warnings: string[];
 }
 interface ProcessErr {
   ok: false;
@@ -87,28 +108,64 @@ async function processBookmark(
   id: string,
   bearer: string,
   authorHandle: string,
+  args: Args,
+  light: boolean,
 ): Promise<ProcessOk | ProcessErr> {
   try {
     // Source chain: X API (or MCP if enabled) primary → Grok fallback when the
     // primary fails or is missing text/author/comments. See lib/x/extract.ts.
-    const { post, source } = await extractPost(id, {
+    // Mode léger (triage) : lookup + médias seulement — pas de recherches,
+    // pas de fallback Grok (un post léger sans commentaires est un choix).
+    const { post, source, warnings: extractWarnings } = await extractPost(id, {
       url: `https://x.com/${authorHandle || "i"}/status/${id}`,
       bearerToken: bearer,
-      grokApiKey: process.env.XAI_API_KEY,
+      grokApiKey: light ? undefined : process.env.XAI_API_KEY,
       grokModel: process.env.XAI_MODEL,
       mcp: mcpConfigFromEnv(),
+      ...(light ? { searchDepth: { commentPages: 0, threadPages: 0 } } : {}),
     });
+    const warnings = [...extractWarnings];
     await writeCache(id, post, source);
 
-    const downloaded = await downloadImages(id, post.media);
+    const downloaded = await downloadImages(id, post.media, {
+      includeVideoFiles: args.videos,
+    });
     if (downloaded.length > 0) {
       await writeDownloadedImages(id, downloaded);
     }
+
+    // Transcripts vidéo (opt-in) : une passe Grok par post, mémorisée en cache.
+    const hasVideo = post.media.some((m) => m.type === "video" || m.type === "gif");
+    if (args.transcripts && hasVideo && process.env.XAI_API_KEY) {
+      try {
+        const results = await fetchVideoTranscripts(post.url, {
+          apiKey: process.env.XAI_API_KEY,
+          model: process.env.XAI_MODEL,
+        });
+        const videoUrls = post.media
+          .filter((m) => m.type === "video" || m.type === "gif")
+          .map((m) => m.url);
+        const mapped = results
+          .filter((r) => r.order >= 1 && r.order <= videoUrls.length)
+          .map((r) => ({ url: videoUrls[r.order - 1], text: r.text }));
+        if (mapped.length > 0) await writeVideoTranscripts(id, mapped);
+      } catch (e) {
+        warnings.push(
+          `video transcripts failed: ${e instanceof Error ? e.message : String(e)}`,
+        );
+      }
+    }
+
+    // Préservation : Summary/tags/status d'une note déjà présente survivent
+    // au ré-écrasement (cf. lib/obsidian/note-merge.ts).
+    const existingContent = await readExistingNote(buildFilename(post), id);
 
     const freshCache = await readCache(id);
     const note = renderNote(post, {
       insights: freshCache?.grokInsights?.data,
       downloadedImages: freshCache?.downloadedImages,
+      videoTranscripts: freshCache?.videoTranscripts,
+      existingContent,
     });
     const written = await writeNote(note.filename, note.content, undefined, {
       overwrite: true,
@@ -120,6 +177,7 @@ async function processBookmark(
       id,
       filename: written.filename,
       absolutePath: written.absolutePath,
+      warnings,
     };
   } catch (e) {
     return { ok: false, id, error: e instanceof Error ? e.message : String(e) };
@@ -186,12 +244,19 @@ async function main() {
     }
     seenUsers.add(me.id);
 
-    const bms = await fetchAllBookmarks({ accessToken: s.accessToken, me });
+    // Incrémental par défaut (l'API facture chaque bookmark retourné) ;
+    // --full force la relecture complète (contrôle d'intégrité ponctuel).
+    const bms = await fetchAllBookmarks({
+      accessToken: s.accessToken,
+      me,
+      ...(args.full ? {} : { isKnown: hasCache }),
+    });
     for (const b of bms) if (!merged.has(b.id)) merged.set(b.id, b);
     accountsInfo.push({ label: s.label, username: me.username, total: bms.length });
   }
 
   const bookmarks = [...merged.values()];
+  const lightIds = await loadTriageList("triage-light.txt");
 
   const withStatus = await Promise.all(
     bookmarks.map(async (b) => ({ ...b, alreadyCached: await hasCache(b.id) })),
@@ -216,7 +281,10 @@ async function main() {
           wouldProcess: pending.map((b) => ({
             id: b.id,
             author: b.authorHandle,
-            text: b.text.slice(0, 80),
+            date: (b.createdAt ?? "").slice(0, 10),
+            likes: b.likes,
+            replies: b.replies,
+            text: b.text.slice(0, 200),
           })),
           skippedByLimit,
         },
@@ -231,7 +299,13 @@ async function main() {
   const failed: ProcessErr[] = [];
   for (let i = 0; i < pending.length; i++) {
     const b = pending[i];
-    const result = await processBookmark(b.id, bearer, b.authorHandle);
+    const result = await processBookmark(
+      b.id,
+      bearer,
+      b.authorHandle,
+      args,
+      lightIds.has(b.id),
+    );
     if (result.ok) processed.push(result);
     else failed.push(result);
     console.error(
@@ -241,18 +315,37 @@ async function main() {
     if (i < pending.length - 1) await sleep(args.delayMs);
   }
 
+  // Avertissements non fatals (fallback Grok en échec, source muette…) :
+  // visibles dans le JSON au lieu de mourir en console.warn.
+  const warnings = processed
+    .filter((p) => p.warnings.length > 0)
+    .map((p) => ({ id: p.id, warnings: p.warnings }));
+
+  const apiReads = getUsageSnapshot().billedResources;
+  const costUsd = estimatedCostUsd();
+
+  // Ligne courte réutilisable telle quelle comme réponse Telegram.
+  const summaryLine =
+    `${processed.length} nouveaux · ${known.length} connus · ${failed.length} erreur${failed.length === 1 ? "" : "s"}` +
+    (warnings.length > 0 ? ` · ${warnings.length} avertissement${warnings.length === 1 ? "" : "s"}` : "") +
+    ` · ~$${costUsd.toFixed(2)}`;
+
   console.log(
     JSON.stringify(
       {
         ok: true,
+        summaryLine,
         accounts: accountsInfo,
         total: withStatus.length,
         known: known.length,
         processed: processed.length,
         failed: failed.length,
         skippedByLimit,
+        apiReads,
+        estimatedCostUsd: costUsd,
         vaultDir: path.dirname(processed[0]?.absolutePath ?? ""),
         failures: failed,
+        warnings,
       },
       null,
       2,

@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:12.716Z",
+  "fetchedAt": "2026-07-13T07:07:31.280Z",
   "tweetId": "1967986124963692715",
   "post": {
     "url": "https://x.com/theworldlabs/status/1967986124963692715",
@@ -9,19 +10,918 @@
       "name": "World Labs"
     },
     "date": "2025-09-16",
-    "text": "Generate persistent 3D worlds from a single image, bigger and better than ever! \n\nWe’re excited to share our latest results and invite you to try out our world generation model in a limited beta preview. https://t.co/HkPO4E5X2g",
+    "text": "Generate persistent 3D worlds from a single image, bigger and better than ever! \n\nWe’re excited to share our latest results and invite you to try out our world generation model in a limited beta preview. https://t.co/HkPO4E5X2g\n\nWe’ve improved our model’s ability to generate clean, coherent geometry representing full 3D environments, and to imagine worlds in a variety of diverse styles.\n\nhttps://t.co/wSGhAneP2k\n\nYou can explore thousands of generated worlds in our beta preview at https://t.co/V267VJu1H9, and sign up for access to create more of your own!\n\nJoin the waitlist for model access directly at https://t.co/EnfJoSPtIO",
+    "thread": [
+      {
+        "id": "1967986124963692715",
+        "text": "Generate persistent 3D worlds from a single image, bigger and better than ever! \n\nWe’re excited to share our latest results and invite you to try out our world generation model in a limited beta preview. https://t.co/HkPO4E5X2g"
+      },
+      {
+        "id": "1967986126507086029",
+        "text": "We’ve improved our model’s ability to generate clean, coherent geometry representing full 3D environments, and to imagine worlds in a variety of diverse styles.\n\nhttps://t.co/wSGhAneP2k"
+      },
+      {
+        "id": "1967986128331608549",
+        "text": "You can explore thousands of generated worlds in our beta preview at https://t.co/V267VJu1H9, and sign up for access to create more of your own!"
+      },
+      {
+        "id": "1967987253860499603",
+        "text": "Join the waitlist for model access directly at https://t.co/EnfJoSPtIO"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/1967984897685082112/vid/avc1/1920x1080/J-E2z6fE8hYhg6ok.mp4"
+        "url": "https://video.twimg.com/amplify_video/1967984897685082112/vid/avc1/1920x1080/J-E2z6fE8hYhg6ok.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1967984897685082112/img/4_RMwdOm_8xYs_hk.jpg"
       }
     ],
     "metrics": {
-      "likes": 3558,
-      "retweets": 509,
+      "likes": 3546,
+      "retweets": 506,
       "replies": 205,
-      "views": 832506
+      "views": 834213
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "GeroAEE",
+        "name": "gero_aee",
+        "date": "2025-09-18",
+        "text": "@theworldlabs congrats @theworldlabs! so much potential! 😍 I had to try and link up several worlds from @BrittaniNatali and it’s incredibly fun to spend time and meet up in these AI-generated environments.\nhttps://t.co/RV3b4T5fLJ https://t.co/NnRvASkIWN",
+        "likes": 30,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "coatfoxes",
+        "name": "Trash TV",
+        "date": "2025-09-17",
+        "text": "@DukeZer0 @IsThisA3DModel @theworldlabs we can tell it took 4 seconds, what's impressive is that you needed those 40 years of other people's production to still suck that hard",
+        "likes": 13,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "asuka_aryan",
+        "name": "Asuka",
+        "date": "2025-09-18",
+        "text": "@IsThisA3DModel @theworldlabs And just like that more than half of the 3D modelling employees around the world just got thanos snapped by AI.",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FCG_Studio",
+        "name": "FCG Studio",
+        "date": "2025-09-17",
+        "text": "@theworldlabs The @theworldlabs team is always working hard! https://t.co/rxHsLosper",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DUAJISIN",
+        "name": "DUAJISIN",
+        "date": "2025-09-17",
+        "text": "@DukeZer0 @IsThisA3DModel @theworldlabs That should tell you a lot. This looks exactly like a 4 sec slop",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xkiel_",
+        "name": "KIEL",
+        "date": "2026-02-06",
+        "text": "@theworldlabs check out what @NATIXNetwork is betting on with WorldSeek.\n\nhttps://t.co/0hIXZdNOr2",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xiaoleo1333",
+        "name": "justin",
+        "date": "2026-01-08",
+        "text": "@IsThisA3DModel @theworldlabs u could try a new AI 3D world product called aholo，realllly amazing！！！！",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vinayakchronicl",
+        "name": "Vinayak Patel",
+        "date": "2025-11-08",
+        "text": "@theworldlabs Very nice 👍\n\nMaybe this could even replace game engines such as Unity and Unreal Engine.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Hashgraphian",
+        "name": "Hashgraphian",
+        "date": "2025-09-19",
+        "text": "@IsThisA3DModel @sterlingcrispin @theworldlabs It went from not existing as a technology to already being able to do this.\n\nYou don't get it. Every avenue of AI is improving at a rate faster than we can keep up with now\n\nIt's only going to get faster and better",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "x0ptimal",
+        "name": "++0ptim4l",
+        "date": "2025-09-18",
+        "text": "@GORMTHEOLD25 @theworldlabs That audio for the first clip is a classic 😂😂",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dillon_io",
+        "name": "Dillon Matthews",
+        "date": "2025-09-18",
+        "text": "@theworldlabs This is just a trick to get us trapped in the Matrix. Proof: I'm stuck https://t.co/NiBxZ88mxG",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "marinusklasen",
+        "name": "Marinus Klasen",
+        "date": "2025-09-17",
+        "text": "@theworldlabs Signup looks broken atm",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TarekAbuas98842",
+        "name": "Hardz",
+        "date": "2026-06-27",
+        "text": "@theworldlabs This is the bigger trend people are missing.\n\nAI is moving from text intelligence to spatial intelligence.\n\nAgents won’t just answer prompts  they’ll understand 3D spaces, interfaces, objects and environments.\n\nThat’s why $THREE / https://t.co/hWkxCkh30Z is on my radar.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mattizzle123",
+        "name": "The_Tessellator",
+        "date": "2026-01-13",
+        "text": "@IsThisA3DModel @theworldlabs Waaaaaaaah. You can be triggered by this stuff or accept the fact it's here.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AliceInTheData",
+        "name": "ALICE ⚡ | AI Growth Mentor",
+        "date": "2025-11-11",
+        "text": "@theworldlabs What you’re building feels powerful. Let’s explore it together.\n\nDrop me a message!!〽️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CollinsJim2086",
+        "name": "Collins Jimmy",
+        "date": "2025-11-10",
+        "text": "@theworldlabs Can’t wait!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NeurostaticMind",
+        "name": "Justin Thurmond ☦️ 🇺🇸",
+        "date": "2025-11-02",
+        "text": "@Ian_Fisch @theworldlabs Only a matter of time before these challenges are solved",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ggg20240405",
+        "name": "G L",
+        "date": "2025-10-27",
+        "text": "@theworldlabs How do I gain access!?!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NiallHorn",
+        "name": "Niall Horn",
+        "date": "2025-10-23",
+        "text": "@theworldlabs Really impressive work.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "COLORINGBOOKDJS",
+        "name": "GREAT DJS OF THE WORLD",
+        "date": "2025-10-12",
+        "text": "@theworldlabs Waiting patiently https://t.co/HGOD5nCJ1T",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/FfwF0Yd6Sr",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/cZxsI7iFVL",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/qpHSQk9FrC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/vdRkHIhxgD",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/OgFwl5iTAP",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/5vEvocqYGh",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/sCTOTIVxBl",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/TLa5PExzcm",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/Fp3WO35arC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/gow3GsnxEI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/khhdQaGj21",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/zO58t7Ov72",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/WVGEg7cQ1W",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/0pliIuO4GA",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/9bzFsUWgcG",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/rODepXNQHj",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/A8MnkuaxWz",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/tAvcRIrwEk",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/sa6d5pcMYk",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/cFP8hHeWdb",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/hZnWuFSbuK",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/ORjlbekBdI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/w6AUHvwkbb",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/YK6nDXfn0i",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/X14i3KbA4O",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/53tAlC27Xk",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/r6erXTszdm",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/0bd6HEgZXE",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Grzywa_Slawomir",
+        "name": "Sławomir Grzywa",
+        "date": "2025-10-11",
+        "text": "@theworldlabs https://t.co/Qx0O2Tjv1V",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SandriaGirrith",
+        "name": "Sandria_Girrith",
+        "date": "2025-10-02",
+        "text": "@Ian_Fisch @theworldlabs not yet",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CaptainHaHaa",
+        "name": "Captain HaHaa",
+        "date": "2025-09-28",
+        "text": "@theworldlabs Oh wow that's awesome!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mildo_ai",
+        "name": "Mildo 🥽",
+        "date": "2025-09-27",
+        "text": "@theworldlabs Please invite me I can’t access the beta yet",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wu_xinzhao29793",
+        "name": "xinzhao wu",
+        "date": "2025-09-26",
+        "text": "@theworldlabs When can the application be approved?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wu_xinzhao29793",
+        "name": "xinzhao wu",
+        "date": "2025-09-26",
+        "text": "@theworldlabs The application has never been approved",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "simonstaton",
+        "name": "Simon Staton",
+        "date": "2025-09-25",
+        "text": "@theworldlabs @RJFWhite",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ibem52",
+        "name": "Bucketshop Speculator",
+        "date": "2025-09-24",
+        "text": "@theworldlabs Wow, next level",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Alber2Say",
+        "name": "Alberto Paredes (TheCubanWAY)",
+        "date": "2025-09-23",
+        "text": "@theworldlabs I would love to integrate this into the pipeline  experimentation with my new animated short film, using different AI techniques to speed up the process.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "QianXing1989",
+        "name": "QianXing1989",
+        "date": "2025-09-23",
+        "text": "@theworldlabs 恭喜你们",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Diptish09",
+        "name": "Dipti Sharma",
+        "date": "2025-09-22",
+        "text": "@theworldlabs Excited to see how creative this tool can get!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "YimitRmGz",
+        "name": "Bad_Pony",
+        "date": "2025-09-21",
+        "text": "@theworldlabs Already waiting for approval !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "blizzardrooster",
+        "name": "BlizzardRooster",
+        "date": "2025-09-21",
+        "text": "@grok @theworldlabs Where can I try this?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-20",
+        "text": "World Labs' [redacted] generates persistent 3D worlds by creating actual 3D models from a single image. It's not just on-the-fly rendering; it builds a fixed, interactive environment you can explore in real-time, with consistent geometry that doesn't change as you navigate. You can try their beta to see it in action!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "blizzardrooster",
+        "name": "BlizzardRooster",
+        "date": "2025-09-20",
+        "text": "@theworldlabs @grok Is it just generating on the fly or did it actually make all of those 3-D models to make an environment?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "blizzardrooster",
+        "name": "BlizzardRooster",
+        "date": "2025-09-20",
+        "text": "@theworldlabs Is it just generating on the fly or did it actually make all of those 3-D models to make an environment?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Hunter_Lott_",
+        "name": "Hunter Lott",
+        "date": "2025-09-20",
+        "text": "@theworldlabs This is so amazing. \n\nHow difficult would it be to add a physics engine to these worlds?\n\n👀👀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Keyframe_Ent",
+        "name": "ManyNames",
+        "date": "2025-09-19",
+        "text": "@theworldlabs @vworldsmuseum the future is here, perfect for our Specialized Exhibit",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "meeekaaaahhh",
+        "name": "Micah",
+        "date": "2025-09-18",
+        "text": "@theworldlabs Played with it on their site, it's nothing like this. It's terrible",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RoszykAdam",
+        "name": "Adam Roszyk",
+        "date": "2025-09-18",
+        "text": "@theworldlabs This is really cool!\nJust so you know- I've been trying to sign up for a new account on your website multiple times- and I keep getting stuck on this loading window :(\n\\ https://t.co/94hbfbUrNs",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sonofearthx",
+        "name": "majithical",
+        "date": "2025-09-18",
+        "text": "This is neat\n\nThis does seem to me like the frontier of AI \n \nI see parallels between world models like this or Genie 3 and the dream state. If you think about it, we humans in our dreams can also render these elaborate and persistent models of the world on the fly. \n\nI wonder if you plug one of these world modules into a frontier LLM and just let it drive ? The way that it would drive these rendered worlds would tell us more about its understanding of the world ? How it distills reality ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PPotorii",
+        "name": "PotorI Lion m-42",
+        "date": "2025-09-18",
+        "text": "@theworldlabs When can I try it ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hajikaba748",
+        "name": "hajikaba",
+        "date": "2025-09-18",
+        "text": "@theworldlabs where do you access the limited beta?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WeavinAI",
+        "name": "Weavin",
+        "date": "2025-09-18",
+        "text": "@theworldlabs Love it! Is the long-term goal for these worlds to be interactive or explorable?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "notzri_",
+        "name": "🍂afterfuture.Al🍃",
+        "date": "2025-09-17",
+        "text": "@theworldlabs @airstrike94",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alphatozeta8148",
+        "name": "Dhruv Singal",
+        "date": "2025-09-17",
+        "text": "@theworldlabs This fidelity is insane!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Thedopesoprano",
+        "name": "LaurenMichelle.eth",
+        "date": "2025-09-17",
+        "text": "@theworldlabs You should change your form, it forces one to use a google account.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UWS1737454",
+        "name": "UW S",
+        "date": "2025-09-17",
+        "text": "@theworldlabs This looks amazing. I signed up to the waitlist - any chance I could try this v soon pls?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jima_e",
+        "name": "Jima",
+        "date": "2025-09-17",
+        "text": "@theworldlabs I believe, in it's current state; this can't be used for games \"yet\". I would give about 3 - 4 years for it to be exportable as an fbx, in to Unreal or Unity like game engines. It's a cool fly through within its application but not game ready.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "saurabhj9",
+        "name": "Saurabh Jain",
+        "date": "2025-09-17",
+        "text": "@theworldlabs Incredible. This is truly mind blowing 👏",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Joeboon",
+        "name": "Joe Boon",
+        "date": "2025-09-17",
+        "text": "@theworldlabs You could create your own 3D world, or you could copy one from someone else\n\n0:00 The Shire from Lord of the Rings\n0:08 Casterly Rock from Game of Thrones\n0:17 Hogsmead from Hogwarts Legacy game",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "louis4174",
+        "name": "Louis",
+        "date": "2025-09-17",
+        "text": "@theworldlabs A combination of this and Genie3 would be the next step. Generating spatial latents having info about the world and feeding the surrounding latents to a video generation model, allowing it to move around and modify its surroundings.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UriGil3",
+        "name": "Uri Gil",
+        "date": "2025-09-17",
+        "text": "@theworldlabs looks much better than the earlier versions I tried. I'm glad you're making real progress",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Joannaannie9",
+        "name": "Joanna annie 🏳️‍⚧️",
+        "date": "2025-09-17",
+        "text": "@NotOPFOR @IsThisA3DModel @theworldlabs soyjack pfp = no opinion",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "danthegamedev",
+        "name": "Daniel Irchai",
+        "date": "2025-09-17",
+        "text": "@DukeZer0 @IsThisA3DModel @theworldlabs Spending 4 seconds just to spit out a garbage product is not the flex you think it is",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "OneMeatball",
+        "name": "One Meat Ball",
+        "date": "2025-09-17",
+        "text": "@theworldlabs Waitlist to try it?  Thx for nada.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "710Tham",
+        "name": "معقب جوازات وعمل ",
+        "date": "2025-09-17",
+        "text": "@theworldlabs looks dope",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PetrLeontev",
+        "name": "Petr Leontev",
+        "date": "2025-09-17",
+        "text": "@theworldlabs What is the value?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "3DMert",
+        "name": "𝗠𝗲𝗿𝘁",
+        "date": "2025-09-17",
+        "text": "@theworldlabs generated puke",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "syntonikka",
+        "name": "Syntonikka 🦾☘️",
+        "date": "2025-09-17",
+        "text": "@theworldlabs how to get on the waitlist?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JDHyper",
+        "name": "Josh",
+        "date": "2025-09-17",
+        "text": "@theworldlabs would love to try this model out for some games that never got fully developed",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Alex16li",
+        "name": "Alexli",
+        "date": "2025-09-17",
+        "text": "@theworldlabs amazing!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JDevCast",
+        "name": "Rick",
+        "date": "2025-09-17",
+        "text": "@theworldlabs Extremely impressive!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ioannis_Mpakhs",
+        "name": "Mythos",
+        "date": "2025-09-17",
+        "text": "@theworldlabs Hi would like to try",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PrometheusLair",
+        "name": "ProMyth",
+        "date": "2025-09-17",
+        "text": "@theworldlabs Growing up from Doom and Morrowind to this is mindblowing to say the least",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "disket123",
+        "name": "disket.eth",
+        "date": "2025-09-17",
+        "text": "@theworldlabs Full photoreal VR next?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mustbesimo",
+        "name": "Simone",
+        "date": "2025-09-17",
+        "text": "@keepgoings0 @theworldlabs spatial intelligence deserves detailing indeed",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nelsonsathya",
+        "name": "Nelson Sathya I Architect advanced AI systems",
+        "date": "2025-09-17",
+        "text": "@theworldlabs This sounds amazing! Excited to see how it brings creativity to life. Count me in for the beta preview!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Otomato_Intern",
+        "name": "Otomato Intern",
+        "date": "2025-09-17",
+        "text": "@theworldlabs Wow so beautiful !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1967984897685082112/img/4_RMwdOm_8xYs_hk.jpg",
+      "localFilename": "1967986124963692715_1_poster.jpg"
+    }
+  ]
 }

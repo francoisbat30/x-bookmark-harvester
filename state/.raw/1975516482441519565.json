@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:59.740Z",
+  "fetchedAt": "2026-07-13T06:47:31.574Z",
   "tweetId": "1975516482441519565",
   "post": {
     "url": "https://x.com/adriankuleszo/status/1975516482441519565",
@@ -9,19 +10,293 @@
       "name": "Adrian"
     },
     "date": "2025-10-07",
-    "text": "How to design better onboarding flows https://t.co/N8MakhzqbO",
+    "text": "How to design better onboarding flows https://t.co/N8MakhzqbO\n\n1/ First impressions matter https://t.co/s8CKdMYgd9\n\n2/ Guide users from the start https://t.co/VIr5t8xkhy\n\n3/ Use visual cues https://t.co/12kf7UK6nW\n\n4/ Highlight key actions https://t.co/YKXdTga8FU\n\n5/ Personalize the experience https://t.co/ZSXqUDv9UI\n\n6/ Offer progress indicators https://t.co/HNe5zC9ywo\n\n7/ Celebrate user milestones https://t.co/AcEpA4AMHS\n\n8/ Iterate and improve https://t.co/JUOywSTyf9\n\nI hope this was helpful!\n\nThanks for reading and have a good day :)\n\n--\nNeed a website or an app?\nLet's chat → https://t.co/tABx7m8Y8J https://t.co/Bb9lUFAF4V",
+    "thread": [
+      {
+        "id": "1975516482441519565",
+        "text": "How to design better onboarding flows https://t.co/N8MakhzqbO"
+      },
+      {
+        "id": "1975516499357106512",
+        "text": "1/ First impressions matter https://t.co/s8CKdMYgd9"
+      },
+      {
+        "id": "1975516515660407059",
+        "text": "2/ Guide users from the start https://t.co/VIr5t8xkhy"
+      },
+      {
+        "id": "1975516532097884607",
+        "text": "3/ Use visual cues https://t.co/12kf7UK6nW"
+      },
+      {
+        "id": "1975516548375978471",
+        "text": "4/ Highlight key actions https://t.co/YKXdTga8FU"
+      },
+      {
+        "id": "1975516565371297979",
+        "text": "5/ Personalize the experience https://t.co/ZSXqUDv9UI"
+      },
+      {
+        "id": "1975516581456453833",
+        "text": "6/ Offer progress indicators https://t.co/HNe5zC9ywo"
+      },
+      {
+        "id": "1975516598434996303",
+        "text": "7/ Celebrate user milestones https://t.co/AcEpA4AMHS"
+      },
+      {
+        "id": "1975516614335582221",
+        "text": "8/ Iterate and improve https://t.co/JUOywSTyf9"
+      },
+      {
+        "id": "1975516630802440683",
+        "text": "I hope this was helpful!\n\nThanks for reading and have a good day :)\n\n--\nNeed a website or an app?\nLet's chat → https://t.co/tABx7m8Y8J https://t.co/Bb9lUFAF4V"
+      }
+    ],
     "media": [
       {
         "type": "image",
         "url": "https://pbs.twimg.com/media/G2pxxQHbUAATqEt.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G2pxySRbcAEXZSg.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G2pxzR6aAAAB6gL.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G2px0NnaEAAnaPV.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G2px1KdbIAEJ7y-.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G2px2HxbEAA__TQ.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G2px3GVbIAAkwjG.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G2px4DcacAAzM4S.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G2px5BzbgAA6j4O.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G2px59hbIAMh4YU.jpg"
       }
     ],
     "metrics": {
-      "likes": 509,
+      "likes": 548,
       "retweets": 21,
-      "replies": 22,
-      "views": 104660
+      "replies": 23,
+      "views": 525953
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "faremimichael",
+        "name": "Famo",
+        "date": "2025-10-07",
+        "text": "@adriankuleszo This is insightful thanks",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_vargaalex",
+        "name": "Alex Varga",
+        "date": "2025-10-08",
+        "text": "@adriankuleszo Useful as always here! 🤙",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "adriankuleszo",
+        "name": "Adrian",
+        "date": "2025-10-08",
+        "text": "@SatelliteDes Thanks Robert! All apps were designed by our team, Fantasy Football one was an NDA client, travel app is called TravelWith, gym app is GymCrush (not launched yet), and there's one more app called https://t.co/j95QUk68a0 which got acquired recently 👍",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SatelliteDes",
+        "name": "Robert",
+        "date": "2025-10-07",
+        "text": "@adriankuleszo Clean flow bro! What app is this?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Reo_mide",
+        "name": "Reo",
+        "date": "2025-10-07",
+        "text": "@adriankuleszo Insightful",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sirajdhanani12",
+        "name": "Siraj Dhanani • Design Partner",
+        "date": "2025-10-07",
+        "text": "@adriankuleszo Thanks for sharing!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "unrootdesign",
+        "name": "Adam 🌿 Unroot.design",
+        "date": "2025-10-07",
+        "text": "@adriankuleszo Thanks for sharing",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thegeorgewert",
+        "name": "George Wert",
+        "date": "2025-10-07",
+        "text": "@adriankuleszo Super valuable and I love how you designed the slides!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheRyanHofmann",
+        "name": "Ryan Hofmann",
+        "date": "2025-10-07",
+        "text": "@adriankuleszo Thanks Adrian, awesome thread! :)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iamKontro_Z",
+        "name": "Oladoja Emmanuel Loba (Charis)",
+        "date": "2025-10-07",
+        "text": "@adriankuleszo I was expecting nothing less than this \nAdrian has been a very good mentor to me \nI read every of his tweets I come across \nHoping he would extend his mentorship to me\nThank you for this \nUsing this for my next project already 👍",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "albulenedesign",
+        "name": "Albulenë",
+        "date": "2025-10-07",
+        "text": "@adriankuleszo thank you Adrian for helpful content",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Kishan_Devani_",
+        "name": "Kishan / Founder at Misaki Studio",
+        "date": "2026-05-02",
+        "text": "@adriankuleszo Less forms, more clarity, faster activation.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PudgyPiper",
+        "name": "PudgyPiper",
+        "date": "2025-11-10",
+        "text": "@adriankuleszo Add penguins \nThat is the secret\n@pudgypenguins",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "denissimutin",
+        "name": "Denis Simutin",
+        "date": "2025-10-08",
+        "text": "@adriankuleszo Clean as hell!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_banjoko",
+        "name": "Banjoko | ui/ux designer | Full Stack developer",
+        "date": "2025-10-08",
+        "text": "@adriankuleszo Thanks",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thalion_pb",
+        "name": "Thalion",
+        "date": "2025-10-08",
+        "text": "@adriankuleszo Nice. I would add also \"Sing in with SSO\". this helps to reduce user friction a lot and onboard them much smoother (fetch needed data, no password etc).",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yukionah_",
+        "name": "Yuki ゆき",
+        "date": "2025-10-07",
+        "text": "@adriankuleszo This is insightful. i must ask though, What is one cognitive bias you always consider when designing onboarding flows?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2pxxQHbUAATqEt.jpg",
+      "localFilename": "1975516482441519565_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2pxySRbcAEXZSg.jpg",
+      "localFilename": "1975516482441519565_2.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2pxzR6aAAAB6gL.jpg",
+      "localFilename": "1975516482441519565_3.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2px0NnaEAAnaPV.jpg",
+      "localFilename": "1975516482441519565_4.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2px1KdbIAEJ7y-.jpg",
+      "localFilename": "1975516482441519565_5.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2px2HxbEAA__TQ.jpg",
+      "localFilename": "1975516482441519565_6.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2px3GVbIAAkwjG.jpg",
+      "localFilename": "1975516482441519565_7.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2px4DcacAAzM4S.jpg",
+      "localFilename": "1975516482441519565_8.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2px5BzbgAA6j4O.jpg",
+      "localFilename": "1975516482441519565_9.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2px59hbIAMh4YU.jpg",
+      "localFilename": "1975516482441519565_10.jpg"
+    }
+  ]
 }

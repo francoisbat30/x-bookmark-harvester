@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:30.627Z",
+  "fetchedAt": "2026-07-13T06:52:31.013Z",
   "tweetId": "2014380662300533180",
   "post": {
     "url": "https://x.com/dr_cintas/status/2014380662300533180",
@@ -10,13 +11,992 @@
     },
     "date": "2026-01-22",
     "text": "How to Run Claude Code Locally (100% Free & Fully Private)\n\nIn this tutorial, you'll learn how to run Claude Code entirely on your own machine using local open-source models. This setup lets the AI read files, edit code, and run commands without sending any data to the cloud, no API costs, no tracking, and complete privacy.\n🧰 Who is This For\nDevelopers who want a private, offline AI coding agent\nPower users who want Claude Code capabilities\nOpen-source fans experimenting with local LLMs\nAnyone who wants an AI that can actually edit files and run terminal commands\nNote: You can receive practical AI tutorials like this every morning in my free newsletter. \nSTEP 1: Choose Your Local “Brain” (Ollama)\nBefore running Claude Code, you need a local engine that can host AI models and support tool or function calling. Ollama handles this part.\nStart by downloading and installing Ollama. Once installed, it runs quietly in the background on both Mac and Windows.\n \nNext, you need to download a coding-focused model. There are a lot of open-source models you can choose from, and it also depends how powerful your machine is. My recommendation:\nFor high performance systems, pull a larger model like:\nqwen3-coder:30b\nIf you’re on a lower-RAM machine, smaller options like:\ngemma:2b or qwen2.5-coder:7b work well.\nOnce you pick one, open your terminal and download one by typing:\n \n \nSTEP 2: Install Claude Code\nNow it’s time to install the Claude Code agent itself. This is what turns the model into an active coding assistant. Open your terminal and run the install command for your system.\nOn Mac or Linux, run: curl -fsSL https://claude.ai/install.sh | bash\nOn Windows, run: irm https://claude.ai/install.ps1 | iex\nOnce the installation finishes, verify everything worked by typing:\n \nIf you were previously logged into an Anthropic account, you may need to log out so Claude can switch to local mode.\nSTEP 3: Point Claude to Your Local Machine\nThis is the most important step. By default, Claude expects to talk to Anthropic’s servers. Here, you explicitly redirect it to your local Ollama instance.\nFirst, tell Claude where Ollama is running by setting the base URL:\nexport ANTHROPIC_BASE_URL=\"http://localhost:11434\"\nNext, Claude still expects an API key, so you give it a dummy value:\nexport ANTHROPIC_AUTH_TOKEN=\"ollama\"\n \nFinally, you can also opt out of both telemetry and survey by setting:\nexport CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1:\nSTEP 4: Launch Claude and Run a Real Test\nNow you’re ready to use Claude Code for actual work.\nNavigate to any project folder in your terminal and launch Claude with your selected model. For example:\nclaude --model qwen2.5-coder:7b\nYou should then see your local model pop up:\n \nOnce it’s running, try your prompt, For example:\n“Add a hello world website”\nYou’ll see Claude read your files, modify the code, and execute terminal commands live, entirely on your machine.\nNo API calls. No cloud processing. Zero cost. Just a fully local AI coding agent working directly inside your project.",
+    "thread": [
+      {
+        "id": "2014380662300533180",
+        "text": "How to Run Claude Code Locally (100% Free & Fully Private)\n\nIn this tutorial, you'll learn how to run Claude Code entirely on your own machine using local open-source models. This setup lets the AI read files, edit code, and run commands without sending any data to the cloud, no API costs, no tracking, and complete privacy.\n🧰 Who is This For\nDevelopers who want a private, offline AI coding agent\nPower users who want Claude Code capabilities\nOpen-source fans experimenting with local LLMs\nAnyone who wants an AI that can actually edit files and run terminal commands\nNote: You can receive practical AI tutorials like this every morning in my free newsletter. \nSTEP 1: Choose Your Local “Brain” (Ollama)\nBefore running Claude Code, you need a local engine that can host AI models and support tool or function calling. Ollama handles this part.\nStart by downloading and installing Ollama. Once installed, it runs quietly in the background on both Mac and Windows.\n \nNext, you need to download a coding-focused model. There are a lot of open-source models you can choose from, and it also depends how powerful your machine is. My recommendation:\nFor high performance systems, pull a larger model like:\nqwen3-coder:30b\nIf you’re on a lower-RAM machine, smaller options like:\ngemma:2b or qwen2.5-coder:7b work well.\nOnce you pick one, open your terminal and download one by typing:\n \n \nSTEP 2: Install Claude Code\nNow it’s time to install the Claude Code agent itself. This is what turns the model into an active coding assistant. Open your terminal and run the install command for your system.\nOn Mac or Linux, run: curl -fsSL https://claude.ai/install.sh | bash\nOn Windows, run: irm https://claude.ai/install.ps1 | iex\nOnce the installation finishes, verify everything worked by typing:\n \nIf you were previously logged into an Anthropic account, you may need to log out so Claude can switch to local mode.\nSTEP 3: Point Claude to Your Local Machine\nThis is the most important step. By default, Claude expects to talk to Anthropic’s servers. Here, you explicitly redirect it to your local Ollama instance.\nFirst, tell Claude where Ollama is running by setting the base URL:\nexport ANTHROPIC_BASE_URL=\"http://localhost:11434\"\nNext, Claude still expects an API key, so you give it a dummy value:\nexport ANTHROPIC_AUTH_TOKEN=\"ollama\"\n \nFinally, you can also opt out of both telemetry and survey by setting:\nexport CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1:\nSTEP 4: Launch Claude and Run a Real Test\nNow you’re ready to use Claude Code for actual work.\nNavigate to any project folder in your terminal and launch Claude with your selected model. For example:\nclaude --model qwen2.5-coder:7b\nYou should then see your local model pop up:\n \nOnce it’s running, try your prompt, For example:\n“Add a hello world website”\nYou’ll see Claude read your files, modify the code, and execute terminal commands live, entirely on your machine.\nNo API calls. No cloud processing. Zero cost. Just a fully local AI coding agent working directly inside your project."
+      }
+    ],
     "media": [],
     "metrics": {
-      "likes": 9883,
-      "retweets": 1084,
-      "replies": 231,
-      "views": 2573229
+      "likes": 9819,
+      "retweets": 1085,
+      "replies": 228,
+      "views": 2585538
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "dr_cintas",
+        "name": "Alvaro Cintas",
+        "date": "2026-01-22",
+        "text": "Instead of blaming the tutorial, maybe is your problem that you didn’t follow it correctly?\n\nFirst, you said it as a fact that having a local model means no tool calling, (nothing about the tutorial), which is wrong.\n\nNow, it’s a tutorial problem (when there are other people that got it working…)\n\nAnyway, you shouldn’t expect help when this is how you comment on posts",
+        "likes": 52,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dr_cintas",
+        "name": "Alvaro Cintas",
+        "date": "2026-01-22",
+        "text": "@pjwerneck You couldn’t be more wrong. It supports tool calling https://t.co/QHZXgqhLoT",
+        "likes": 51,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dr_cintas",
+        "name": "Alvaro Cintas",
+        "date": "2026-01-22",
+        "text": "@LoneWick_ That’s correct! I mentioned this tutorial is to use Claude Code with local models",
+        "likes": 44,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dr_cintas",
+        "name": "Alvaro Cintas",
+        "date": "2026-01-22",
+        "text": "@RyanCraigMartin PSA: It works. https://t.co/oHLsSYHrvx",
+        "likes": 25,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dr_cintas",
+        "name": "Alvaro Cintas",
+        "date": "2026-01-22",
+        "text": "@Dhruv_10_ THAT’S the real question. You might need to ask Anthropic first when they are going open-source",
+        "likes": 19,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dr_cintas",
+        "name": "Alvaro Cintas",
+        "date": "2026-01-22",
+        "text": "@ollloyor Make sure to download the latest version of Ollama and Claude Code",
+        "likes": 12,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dr_cintas",
+        "name": "Alvaro Cintas",
+        "date": "2026-01-22",
+        "text": "@parthsareen Thanks for Ollama 🫶",
+        "likes": 11,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dr_cintas",
+        "name": "Alvaro Cintas",
+        "date": "2026-01-23",
+        "text": "@maakintosh The gpt-oss:20b might be a good option",
+        "likes": 9,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dr_cintas",
+        "name": "Alvaro Cintas",
+        "date": "2026-01-22",
+        "text": "@0965Anthony You def can. For example: glm-4.7:cloud",
+        "likes": 9,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dr_cintas",
+        "name": "Alvaro Cintas",
+        "date": "2026-01-22",
+        "text": "@rodgui A couple of things, make sure to have a context length of +32k, and also, it will depend on the models. For example, try (if possible on your machine) to do it with gpt-oss:20b",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xlelouch_",
+        "name": "Abhishek Singh",
+        "date": "2026-01-23",
+        "text": "@dr_cintas I'll save you the time. This doesn't work.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dr_cintas",
+        "name": "Alvaro Cintas",
+        "date": "2026-01-22",
+        "text": "@aakashgupta Appreciate it, Aakash!",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dr_cintas",
+        "name": "Alvaro Cintas",
+        "date": "2026-01-22",
+        "text": "@skepticaloneme Thank you!",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Remo_Pr0",
+        "name": "Remo Pro ᯅ",
+        "date": "2026-01-23",
+        "text": "@maakintosh Do you know the app LM Studio? With it you could run the faster Apple silicon optimized MLX version of many LLMs including Qwen3 Coder 30B",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Arazu_berez",
+        "name": "Arazu",
+        "date": "2026-01-23",
+        "text": "@dr_cintas Now what? do i need Claude (Non-free) subscription? https://t.co/LYCe2PyKf0",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dr_cintas",
+        "name": "Alvaro Cintas",
+        "date": "2026-01-22",
+        "text": "@DanielWhit21874 🫡",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Termynator",
+        "name": "Marius",
+        "date": "2026-01-25",
+        "text": "@dr_cintas I see you are running this on a Mac. You should use LM Studio because it’s way faster than ollama because ollama doesn’t support MLX models which run faster on Apple silicon compared to GGUF. When this base knowledge is not being present I wonder about the quality of the rest",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grizlikoff",
+        "name": "Fuck them all 🇺🇦",
+        "date": "2026-01-25",
+        "text": "@ollloyor @dr_cintas if you mean MacOS and uses ollama.dmg - remove it version and install brew version",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "UnscriptNet",
+        "name": "Redglyph",
+        "date": "2026-01-25",
+        "text": "@dr_cintas Better still: learn to program yourself, and you'll appreciate how bad those LLMs are. I'm amazed people are still using them for unsuitable tasks after so much evidence has been given.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grizlikoff",
+        "name": "Fuck them all 🇺🇦",
+        "date": "2026-01-25",
+        "text": "@ollloyor @dr_cintas same error",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jdorfsman",
+        "name": "Javito",
+        "date": "2026-01-24",
+        "text": "@Arazu_berez @dr_cintas You forgot to set the API TOKEN env var",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-24",
+        "text": "For local AI models in 2026, top recommendations based on benchmarks and community feedback:\n\n- Llama 4 Scout (109B): Great for multimodal tasks, runs on single GPU.\n- GPT-OSS 20B: Excellent for coding and reasoning, low hardware needs.\n- DeepSeek V3.2: Strong in math/code, efficient for long contexts.\n- Qwen3-Next: Multilingual, versatile for apps.\n\nUse Ollama or LM Studio for easy local setup. What hardware do you have?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AItoAGI",
+        "name": "Quixotic",
+        "date": "2026-01-24",
+        "text": "@dr_cintas best local models? @grok",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "techhalla",
+        "name": "TechHalla",
+        "date": "2026-01-24",
+        "text": "@dr_cintas Great article!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JTCronje1",
+        "name": "Jean-Tiaan Cronje",
+        "date": "2026-01-24",
+        "text": "@dr_cintas @maakintosh @grok  can the macbook pro m4 with 16gn ram run this model locally",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DIY_Tardis",
+        "name": "Tony Scott 🧄(🦆🐓🐵🧪🧬🪪)❌=↑🧄🧄🧄🥩🥚🧀↓👽👾🤖",
+        "date": "2026-01-24",
+        "text": "@dr_cintas @LoneWick_ So its just a coding interface? I can do this just with the ollama and openwebui already.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "200okyay",
+        "name": "おくの",
+        "date": "2026-01-23",
+        "text": "@Remo_Pr0 didn’t know that. that’s cool.\nThank you so much",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Remo_Pr0",
+        "name": "Remo Pro ᯅ",
+        "date": "2026-01-23",
+        "text": "@maakintosh @dr_cintas Looking the size on the site it’s 19 GB. 24 GB RAM could be too small when you also having other apps open\nhttps://t.co/HgRvzfxw90",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kaykouo",
+        "name": "Kay",
+        "date": "2026-01-23",
+        "text": "@dr_cintas Qwen3‑Coder is a pure text‑generation model without built‑in tool‑use support.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "samkorn",
+        "name": "Sam Korn",
+        "date": "2026-01-23",
+        "text": "@nuvolore @dr_cintas It was taking like 5 minutes per turn for me on my nice M4 MacBook Pro. Nothing useful was getting done.\n\nI think it would be usable if it was just a bit better. I would take slow if it’s free, but slow and bad is a no go.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "buildwithumair",
+        "name": "Umair Ali",
+        "date": "2026-01-23",
+        "text": "@parthsareen @dr_cintas Sorry bro its a banger",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "darth_turnip",
+        "name": "Charlie 🇬🇧",
+        "date": "2026-05-21",
+        "text": "@buildwithumair @dr_cintas Likewise.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mjamilmoughal",
+        "name": "Jamil",
+        "date": "2026-03-16",
+        "text": "@dr_cintas Awesome, will try it out",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ZahirHamroune",
+        "name": "Z❤️H",
+        "date": "2026-02-22",
+        "text": "@dr_cintas Restricted from the last version",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FratzeSchroeder",
+        "name": "Fratze Schroeder",
+        "date": "2026-02-10",
+        "text": "@dr_cintas As an absolutely AI beginner, it's working on windows by doing the tutorial, but... it's a mess!\nIt's incredibly slow, nearly all answers are nothing but json and it's ignoring all my tasks.\n\nMaybe I need more knowledge to use it the right way.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Defipeniel",
+        "name": "DΞFI PΞNIΞL (🧠,🧠)",
+        "date": "2026-02-03",
+        "text": "@dr_cintas Great insight",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alostkoko",
+        "name": "koko",
+        "date": "2026-01-29",
+        "text": "@dr_cintas interesting just done this on my windows pc\n\nfew things were missing\n\nat local mode\n\non windows it was\n\n$env:ANTHROPIC_BASE_URL=\"http://localhost:11434\"\n$env:ANTHROPIC_AUTH_TOKEN=\"ollama\"\n$env:CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=\"1\"",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "3dollarbillz",
+        "name": "Dollar Bill",
+        "date": "2026-01-27",
+        "text": "@dr_cintas 1. **Security Risk**: The command downloads and executes a script from an untrusted source (`https://t.co/7VjPyPofrt`). This could\npotentially install malicious software on your system.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "theaifactshub",
+        "name": "AI Facts Hub (Little balls)",
+        "date": "2026-01-26",
+        "text": "@dr_cintas ❯ Try \"refactor &lt;filepath&gt;\"\n────────────────────────────────────────────────────────────────────────────────\n? for shortcuts  Missing API key · Run /login",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Termynator",
+        "name": "Marius",
+        "date": "2026-01-26",
+        "text": "@Chrizze @dr_cintas ??",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Chrizze",
+        "name": "Christer Johansson 🛡️",
+        "date": "2026-01-26",
+        "text": "@Termynator @dr_cintas Lol... 🖕",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Termynator",
+        "name": "Marius",
+        "date": "2026-01-26",
+        "text": "@Chrizze @dr_cintas You’d be besser of using a Mac because RTX GPUs don’t have enough VRAM. Also windows sucks ass",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Chrizze",
+        "name": "Christer Johansson 🛡️",
+        "date": "2026-01-26",
+        "text": "@Termynator @dr_cintas What about Windows with Intel CPU, RTX GPU?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hbiglin",
+        "name": "HB 🛡️",
+        "date": "2026-01-25",
+        "text": "@dr_cintas wasted my time trying this thinking it can access local files... sad",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JuanMiguelCQ",
+        "name": "J Mac",
+        "date": "2026-01-25",
+        "text": "@dr_cintas @UnrollHelper unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mohandsdl",
+        "name": "Mohand | AI Developer",
+        "date": "2026-01-25",
+        "text": "@0xlelouch_ @dr_cintas why?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-25",
+        "text": "You're right—if it's a fully local setup without any API calls to cloud services, there shouldn't be token or credit costs. My earlier point was more about hybrid setups where some features might still rely on paid APIs. For pure local tooling, that's not an issue. Thanks for clarifying!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Hodlucinogen",
+        "name": "Hodlucinogen",
+        "date": "2026-01-25",
+        "text": "@grok @LoneWick_ @dr_cintas What do you mean credit costs? It’s running locally and the whole point is to not spend tokens",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-25",
+        "text": "Your MacBook Air (2015/2017) with i7-5650U, 8GB RAM, and integrated graphics can run Ollama for small LLMs (e.g., 7B models) on CPU, but it'll be slow without GPU acceleration. Larger models like 20B may not fit well or will swap heavily. Test with lightweight options first; upgrading RAM/GPU would help for Claude Code setups.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "KalisperaBoy",
+        "name": "Emmanuel Kalispera",
+        "date": "2026-01-25",
+        "text": "@tonybnya @dr_cintas Ask\n@grok",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tonybnya",
+        "name": "Tony",
+        "date": "2026-01-24",
+        "text": "@dr_cintas Hi folks\nI wonder if my workstation can support this setup.\nI really want to test it. https://t.co/wACrTSkQRq",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PYTHON01100100",
+        "name": "ABDULRAHMAN ALMYMAN 🇸🇦 😎 👨‍💻🐧",
+        "date": "2026-01-24",
+        "text": "@dr_cintas I have a question, can I use it using VLLM instead of Ollama?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MosheRecanati",
+        "name": "Moshe Recanati",
+        "date": "2026-01-24",
+        "text": "@nuvolore @matteocervelli @dr_cintas It's like to compare kodi with netflix",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bbnnsot2265",
+        "name": "ผัดกะเพราใส่ถั่วฝักยาวนะอิอิ",
+        "date": "2026-01-24",
+        "text": "@grok @JTCronje1 @dr_cintas @maakintosh @grok can macbook air m1 run this model?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-01-24",
+        "text": "@alykhan @dr_cintas @alykhan Bonjour, please find the unroll here: https://t.co/xXpnt1tZcz Share this if you think it's interesting. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "alykhan",
+        "name": "uɐɥʞʎl∀",
+        "date": "2026-01-24",
+        "text": "@dr_cintas @threadreaderapp unroll me",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "the__od__",
+        "name": "the__od__",
+        "date": "2026-01-24",
+        "text": "@dr_cintas @ollama Completely unusable unless you spend serious money on hardware. Works with a tiny fraction but f the supported context and that’s so slow.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bhautiktweets",
+        "name": "bhautik 🎶🦒",
+        "date": "2026-01-24",
+        "text": "@dr_cintas Its all about hardware 🥲",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "parrotbeek",
+        "name": "cakeandcoffee",
+        "date": "2026-01-24",
+        "text": "@dr_cintas This post is horseshit. You cannot isolate claude like that. Hard block. Stop trying to scam people.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "joshhu",
+        "name": "Josh Hu",
+        "date": "2026-01-24",
+        "text": "@dr_cintas ollama launch.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "99only",
+        "name": "99Only",
+        "date": "2026-01-24",
+        "text": "@dr_cintas How about verification of every log ever! An audit trail that CANNOT be spoofed. You may check yourself on polyscan https://t.co/7xih024MAE",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "antraX_BR6",
+        "name": "ZeroEstado",
+        "date": "2026-01-24",
+        "text": "@dr_cintas Claude Code not run with Qwen2.5-coder:7b, print only one json.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "OfirHa",
+        "name": "Ofir ☕️",
+        "date": "2026-01-24",
+        "text": "@dr_cintas How it is different from opencode CLI agent?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-24",
+        "text": "For Claude Code (Anthropic's CLI tool), direct fallback isn't built-in, but you can set up a local proxy server to handle it. Use Python with FastAPI to create an endpoint that mimics Anthropic's API: try Claude first, catch token errors, then route to Ollama's OpenAI-compatible API (with message format adaptation).\n\nQuick example repo: Check GitHub for \"anthropic-ollama-proxy\". Or build one—DM if you need code sketch!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jdorfsman",
+        "name": "Javito",
+        "date": "2026-01-24",
+        "text": "@grok @dr_cintas but @grok I wanted to use this with Claude Code. Maybe using Ollama as a proxy or something like that?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-24",
+        "text": "Yes, you can build a fallback system in Python. Use the `anthropic` library to query Claude first. Catch errors like rate limits or token exhaustion (e.g., via API response codes), then switch to `ollama` for local models.\n\nExample sketch:\n\n```python\nimport anthropic\nimport ollama\n\nclient = anthropic.Anthropic(api_key=\"your_key\")\n\ndef query_llm(prompt):\n    try:\n        response = client.messages.create(model=\"claude-3-5-sonnet-20241022\", max_tokens=1000, messages=[{\"role\": \"user\", \"content\": prompt}])\n        return response.content[0].text\n    except anthropic.APIError as e:\n        if \"rate_limit\" in str(e) or \"insufficient_quota\" in str(e):  # Check for token exhaustion\n            return ollama.generate(model=\"llama3\", prompt=prompt)['response']\n        raise e\n```\n\nAdjust error handling and models as needed. This keeps costs down!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jdorfsman",
+        "name": "Javito",
+        "date": "2026-01-24",
+        "text": "@dr_cintas Great manual! Thanks a lot! \nI would love to know if there's a way to use Ollama AND Anthropic subscription together? Like use the anthropic API as long as I have tokens and when they are exhausted use the local Ollama model?\n@grok any ideas here?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HusoLukas",
+        "name": "Lukáš Huso",
+        "date": "2026-01-24",
+        "text": "@dr_cintas On M3 Max with 128gb ram you recommend?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Unkn0wn0per80r",
+        "name": "UnknØwnØper8Ør",
+        "date": "2026-01-24",
+        "text": "@dr_cintas Saying it's missing api key, do you still have to buy claude code",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "andrydina7",
+        "name": "Andry Dina",
+        "date": "2026-01-24",
+        "text": "@dr_cintas Thank you 👍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-24",
+        "text": "@frankdotdev @dr_cintas It depends on the model size, but yes, smaller ones (e.g., 7B parameters) can run on an 8GB RAM laptop via Ollama, though it might be slow or require quantization. Larger models need 16GB+. Test with a lightweight option first!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "frankdotdev",
+        "name": "Frank Oge",
+        "date": "2026-01-24",
+        "text": "@dr_cintas @grok will this work on am 8gb ram laptop",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-24",
+        "text": "以下是文章《How to Run Claude Code Locally (100% Free & Fully Private)》的整理总结（基于公开信息）：\n\n**标题**：如何本地运行Claude Code（100%免费且完全私有）\n\n**作者**：Alvaro Cintas（dr_cintas），AI教授\n\n**主要步骤**：\n1. 安装Ollama作为本地AI引擎，支持工具调用。\n2. 下载最新Claude Code。\n3. 配置上下文长度至少32k，使用模型如gpt-oss:20b。\n4. 测试工具调用，如创建文件（视机器配置）。\n\n**注意**：确保Ollama运行正常，可能需调试模型兼容性。\n\n如果需要更多细节，请提供！",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DukeYau20877",
+        "name": "DukeYau",
+        "date": "2026-01-24",
+        "text": "@dr_cintas @grok 整理好发给我",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-24",
+        "text": "@JTCronje1 @dr_cintas @maakintosh Yes, a MacBook Pro M4 with 16GB RAM can run the gpt-oss-20b model locally using Ollama or similar tools, thanks to its MXFP4 quantization (fits in ~12-14GB). However, inference speed may be slow for complex tasks—consider 24GB+ for better performance.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "elion_shahini",
+        "name": "Elion",
+        "date": "2026-01-24",
+        "text": "@dr_cintas That’s a nice article. How is the output though?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pa1nark",
+        "name": "PiX",
+        "date": "2026-01-24",
+        "text": "@dr_cintas output quality?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AnugrahPrahasta",
+        "name": "Anugrah Prahasta",
+        "date": "2026-01-24",
+        "text": "@dr_cintas SUPERB!!!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "the8lack8ox",
+        "name": "Kristoff",
+        "date": "2026-01-24",
+        "text": "@dr_cintas Wow cool! Thanks!\n\nI found that if I set the ANTHROPIC_MODEL var to \"qwen3-coder:30b\", I can skip the extra \"--model qwen3-coder:30b\".",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gdsimms",
+        "name": "gdsimms",
+        "date": "2026-01-24",
+        "text": "@dr_cintas The setup was clear enough but my instance will absolutely not “do” anything. They talk to me and respond with json but never create a file. What am I doing wrong? https://t.co/5fENVEQ0M4",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "interplato",
+        "name": "interplato",
+        "date": "2026-01-24",
+        "text": "@dr_cintas Is it 1:1 Fucntionality?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BeyondOrigin",
+        "name": "Miguel Casteleiro 🔺",
+        "date": "2026-01-24",
+        "text": "@dr_cintas How well does this work?\n\nCause im getting tired of the claude Pro plan cutting me off every 2 hours..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SazareAkiraT",
+        "name": "Akira.T",
+        "date": "2026-01-24",
+        "text": "@dr_cintas ＠hCVr9sSDvlO4n7w",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "devexyz",
+        "name": "Devexyz",
+        "date": "2026-01-24",
+        "text": "@DedeLanculet @dr_cintas Same 🫠",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "devexyz",
+        "name": "Devexyz",
+        "date": "2026-01-24",
+        "text": "@dr_cintas Awesome, is there a page to see all the models? Something good for an M1 Pro with 16GB Ram?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thomas_wos",
+        "name": "thomaswos",
+        "date": "2026-01-24",
+        "text": "@dr_cintas don't forget to increase the @ollama context window, at least 32K",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aidavid125",
+        "name": "大卫叔的AI旅程",
+        "date": "2026-01-24",
+        "text": "@dr_cintas glm-4.7-flash is an alternative option.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itscholabhatura",
+        "name": "Chola Bhatura",
+        "date": "2026-01-24",
+        "text": "@dr_cintas is 16gb ram enough for this, also other SDK Will take Ram and resources….",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Liorre99581",
+        "name": "Torres liuuu",
+        "date": "2026-01-24",
+        "text": "@dr_cintas its not real locally run",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VibeCodeFix",
+        "name": "Nate",
+        "date": "2026-01-24",
+        "text": "@dr_cintas If you’ve tried “vibe coding” and quietly gave up…\n\nYou’re not alone.\nAnd you’re not dumb.\n\nThis was me, I spent 8 months making half-finished projects. Abandoning ideas.\n\nThen I created a systematic approach within Claude Code that works for me here:\n👉 https://t.co/CaL6U3V3JB",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ZenWarriorLdr",
+        "name": "S Gopikrishna",
+        "date": "2026-01-24",
+        "text": "@dr_cintas Good Article. \nCan we run Chatgpt medical off ollama?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Alexander__Ens",
+        "name": "Alexander Ens",
+        "date": "2026-01-23",
+        "text": "@dr_cintas Post when we can run opus 4.5 locally...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chinar_amrutkar",
+        "name": "Chinar Amrutkar",
+        "date": "2026-01-23",
+        "text": "@dr_cintas Can of these models browse the internet?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Remo_Pr0",
+        "name": "Remo Pro ᯅ",
+        "date": "2026-01-23",
+        "text": "@maakintosh I can recommend you the video from @digitalix (Alex Ziskind) he makes nowadays often video about comparing LLM speeds\nhttps://t.co/uK4VncemyV",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "VolksVuur",
+        "name": "Volks Vuur",
+        "date": "2026-01-23",
+        "text": "@pjwerneck @dr_cintas Skills issue",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DedeLanculet",
+        "name": "DedeLanculet",
+        "date": "2026-01-23",
+        "text": "@dr_cintas Not sure if it's useful... https://t.co/KAiWi0bHaU",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Remo_Pr0",
+        "name": "Remo Pro ᯅ",
+        "date": "2026-01-23",
+        "text": "@dr_cintas @maakintosh As it’s 14 GB in size (without KV cache and higher context window in mind)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FrankRundatz",
+        "name": "Frank Rundatz",
+        "date": "2026-01-23",
+        "text": "@pjwerneck @dr_cintas Have a nice day!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "pjwerneck",
+        "name": "Pedro Werneck",
+        "date": "2026-01-23",
+        "text": "@FrankRundatz @dr_cintas Concern trolling on X? Really?\n\nGo back to your anonymous profile on Reddit and stop being a bitch, Frank. Man up.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MoldableAI",
+        "name": "Moldable",
+        "date": "2026-01-23",
+        "text": "@dr_cintas Can also do this with Moldable, and all your apps and data are local too",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nuvolore",
+        "name": "Lorenzo Nuvoletta",
+        "date": "2026-01-23",
+        "text": "@samkorn @dr_cintas Right, currently it is mostly a waste of time",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "coinpursedeluxe",
+        "name": "Seymur Mammadov",
+        "date": "2026-01-23",
+        "text": "@dr_cintas Isn’t this what opencode is for?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DannyZtar",
+        "name": "Danny Ztar",
+        "date": "2026-01-23",
+        "text": "@dr_cintas I wonder is this would work with Ralph as well? About to try this out.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iRewer",
+        "name": "Сержантóс",
+        "date": "2026-01-23",
+        "text": "@ExUnoOmnia @dr_cintas '...Running locally requires a minimum of 250GB of memory or unified memory...' - for qwen 3 coder 30B\n\n'...If offloading to CPU, 16GB–32GB RAM is recommended....' - for qwen 2.5 coder 7B",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "theoklitosBam7",
+        "name": "Theoklitos Bampouris",
+        "date": "2026-01-23",
+        "text": "@dr_cintas And then run: `claude --settings ~/.claude/settings-ollama.json`",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "theoklitosBam7",
+        "name": "Theoklitos Bampouris",
+        "date": "2026-01-23",
+        "text": "@dr_cintas The best way is to create a file: \"~/.claude/settings-ollama.json\", with content:\n\n{\n  \"env\": {\n    \"ANTHROPIC_BASE_URL\": \"http://localhost:11434/\",\n    \"ANTHROPIC_AUTH_TOKEN\": \"ollama\",\n    \"ANTHROPIC_MODEL\": \"qwen2.5-coder:7b\",\n  }\n}",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eli_ganth",
+        "name": "E L I G A N T",
+        "date": "2026-01-23",
+        "text": "@dr_cintas This is piling up for me in my bookmarks",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "anonymousUSXX",
+        "name": "Kapitan Bomba",
+        "date": "2026-01-23",
+        "text": "@dr_cintas ot work on lap 2015",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
   }
 }

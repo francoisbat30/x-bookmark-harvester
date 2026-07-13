@@ -1,25 +1,61 @@
 import { stringify as stringifyYaml } from "yaml";
 import type { GrokInsights, PostExtraction } from "../types";
 import type { DownloadedImage } from "./media-download";
+import { curateComments } from "./comments";
+import { extractPreservedParts } from "./note-merge";
 
 export interface RenderedNote {
   filename: string;
   content: string;
 }
 
+export interface VideoTranscript {
+  /** URL distante de la vidéo concernée (clé de rapprochement). */
+  url: string;
+  text: string;
+}
+
 export interface RenderOptions {
   insights?: GrokInsights;
   downloadedImages?: DownloadedImage[];
+  /**
+   * Contenu actuel de la note si elle existe déjà : les parties issues du
+   * travail d'enrichissement (## Summary, tags, status) sont préservées.
+   */
+  existingContent?: string | null;
+  /** Transcripts/descriptions de vidéos (cache), rendus sous chaque média. */
+  videoTranscripts?: VideoTranscript[];
+  /** Plafond de commentaires rendus (défaut 15). */
+  commentCap?: number;
 }
 
+/**
+ * Renderer UNIQUE de note (format cible du chantier qualité, sections EN) :
+ *
+ *   frontmatter (+ thread, comments_captured, tags/status préservés)
+ *   ## Post      — thread entier, tweets séparés par ---
+ *   ## Media     — images locales, vidéos = poster + lien (+ transcript)
+ *   ## Summary   — préservé tel quel s'il existe (flux enrich)
+ *   ## Grok Insights — optionnel (action UI enrichWithGrok)
+ *   ## Comments  — top N curés (traction ♥, auteur en tête)
+ */
 export function renderNote(
   post: PostExtraction,
   options: RenderOptions = {},
 ): RenderedNote {
+  const preserved = extractPreservedParts(options.existingContent);
   const title = buildTitle(post.text);
   const filename = buildFilename(post);
-  const frontmatter = buildFrontmatter(post, title);
-  const body = buildBody(post, options);
+  const curated = curateComments(post.comments, {
+    authorHandle: post.author.handle,
+    cap: options.commentCap ?? 15,
+  });
+  const frontmatter = buildFrontmatter(post, title, {
+    tags: preserved.tags,
+    status: preserved.status,
+    commentsCaptured: curated.captured,
+  });
+  const body = buildBody(post, options, preserved.summary, curated);
   return {
     filename,
     content: `${frontmatter}\n\n${body}\n`,
@@ -68,7 +104,20 @@ function yamlQuoted(s: string): string {
   }).trimEnd();
 }
 
-function buildFrontmatter(post: PostExtraction, title: string): string {
+interface FrontmatterExtras {
+  tags?: string[];
+  status?: string;
+  commentsCaptured: number;
+}
+
+function buildFrontmatter(
+  post: PostExtraction,
+  title: string,
+  extras: FrontmatterExtras,
+): string {
+  // Tags préservés (enrich) re-fusionnés, x-bookmark toujours présent.
+  const tags = Array.from(new Set(["x-bookmark", ...(extras.tags ?? [])]));
+  const threadLen = post.thread?.length ?? 1;
   const lines = [
     "---",
     `title: ${yamlQuoted(title)}`,
@@ -80,48 +129,104 @@ function buildFrontmatter(post: PostExtraction, title: string): string {
     `retweets: ${post.metrics.retweets}`,
     `replies: ${post.metrics.replies}`,
     `views: ${post.metrics.views}`,
-    `tags: [x-bookmark]`,
-    `status: raw`,
+    `thread: ${threadLen}`,
+    `comments_captured: ${extras.commentsCaptured}`,
+    `tags: [${tags.join(", ")}]`,
+    `status: ${extras.status ?? "raw"}`,
     `statut: source`,
     "---",
   ];
   return lines.join("\n");
 }
 
-function buildBody(post: PostExtraction, options: RenderOptions): string {
-  const { insights, downloadedImages } = options;
+function formatLikes(n: number): string {
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1).replace(/\.0$/, "")}M`;
+  if (n >= 1_000) return `${(n / 1_000).toFixed(1).replace(/\.0$/, "")}k`;
+  return String(n);
+}
+
+function buildBody(
+  post: PostExtraction,
+  options: RenderOptions,
+  preservedSummary: string | undefined,
+  curated: ReturnType<typeof curateComments>,
+): string {
+  const { insights, downloadedImages, videoTranscripts } = options;
   const sections: string[] = [];
 
-  sections.push("## Post\n\n" + (post.text || "_(empty)_"));
+  // ── Post : le thread entier, un bloc par tweet.
+  const parts =
+    post.thread && post.thread.length > 0
+      ? post.thread.map((t) => t.text)
+      : [post.text];
+  sections.push(
+    "## Post\n\n" + (parts.join("\n\n---\n\n") || "_(empty)_"),
+  );
 
+  // ── Media : embeds locaux ; vidéos = poster local + lien distant + transcript.
   if (post.media.length > 0) {
     const localByUrl = new Map(
       (downloadedImages ?? []).map((d) => [d.remoteUrl, d.localFilename]),
     );
+    const transcriptByUrl = new Map(
+      (videoTranscripts ?? []).map((t) => [t.url, t.text]),
+    );
     const mediaLines = post.media.map((m) => {
-      const local = localByUrl.get(m.url);
-      if (local) {
-        return `![[assets/${local}]]`;
+      if (m.type === "image") {
+        const local = localByUrl.get(m.url);
+        return local ? `![[assets/${local}]]` : `- [image] ${m.url}`;
       }
-      return `- [${m.type}] ${m.url}`;
+      // vidéo / gif : poster en local si téléchargé, lien distant conservé.
+      const chunks: string[] = [];
+      const poster = m.posterUrl ? localByUrl.get(m.posterUrl) : undefined;
+      if (poster) chunks.push(`![[assets/${poster}]]`);
+      const localVideo = localByUrl.get(m.url);
+      chunks.push(
+        localVideo
+          ? `![[assets/${localVideo}]]`
+          : `- [${m.type}] ${m.url}`,
+      );
+      const transcript = transcriptByUrl.get(m.url);
+      if (transcript) {
+        chunks.push(
+          "> Transcript :\n" +
+            transcript
+              .split("\n")
+              .map((l) => `> ${l}`)
+              .join("\n"),
+        );
+      }
+      return chunks.join("\n");
     });
-    sections.push("## Media\n\n" + mediaLines.join("\n"));
+    sections.push("## Media\n\n" + mediaLines.join("\n\n"));
+  }
+
+  // ── Summary : préservé tel quel (écrit par le flux enrich, jamais régénéré ici).
+  if (preservedSummary) {
+    sections.push(`## Summary\n\n${preservedSummary}`);
   }
 
   if (insights) {
     sections.push(buildInsightsSection(insights));
   }
 
-  if (post.comments.length > 0) {
-    const commentBlocks = post.comments.map((c) => {
-      const header = `> **@${c.handle}**${c.name ? ` (${c.name})` : ""}${c.date ? ` — ${c.date}` : ""}`;
+  // ── Comments : curés (voir lib/obsidian/comments.ts), auteur en tête.
+  if (curated.shown.length > 0) {
+    const commentBlocks = curated.shown.map((c) => {
+      const marker = c.isAuthor || c.handle.toLowerCase() === post.author.handle.toLowerCase() ? "✍️ " : "";
+      const likesPart =
+        typeof c.likes === "number" ? ` — ♥ ${formatLikes(c.likes)}` : "";
+      const header = `> ${marker}**@${c.handle}**${c.name ? ` (${c.name})` : ""}${c.date ? ` — ${c.date}` : ""}${likesPart}`;
       const quoted = c.text
         .split("\n")
         .map((line) => `> ${line}`)
         .join("\n");
       return `${header}\n${quoted}`;
     });
-    sections.push("## Notable comments\n\n" + commentBlocks.join("\n\n"));
+    const footer = `_${curated.captured} comment${curated.captured === 1 ? "" : "s"} captured · ${curated.shown.length} shown_`;
+    sections.push(
+      "## Comments\n\n" + commentBlocks.join("\n\n") + "\n\n" + footer,
+    );
   }
 
   return sections.join("\n\n");

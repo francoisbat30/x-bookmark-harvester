@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:10:40.464Z",
+  "tweetId": "2060343771590459564",
+  "post": {
+    "url": "https://x.com/lilyraynyc/status/2060343771590459564",
+    "author": {
+      "handle": "lilyraynyc",
+      "name": "Lily Ray 😏"
+    },
+    "date": "2026-05-29",
+    "text": "Google Discover can be funny - no traffic ever, then 80k in one day. https://t.co/aPQ5ejR5yW",
+    "thread": [
+      {
+        "id": "2060343771590459564",
+        "text": "Google Discover can be funny - no traffic ever, then 80k in one day. https://t.co/aPQ5ejR5yW"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HJfPupfWsAQMsEF.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 137,
+      "retweets": 3,
+      "replies": 24,
+      "views": 12875
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HJfPupfWsAQMsEF.jpg",
+      "localFilename": "2060343771590459564_1.jpg"
+    }
+  ]
+}

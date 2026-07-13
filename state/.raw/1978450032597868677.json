@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:14:46.877Z",
+  "tweetId": "1978450032597868677",
+  "post": {
+    "url": "https://x.com/unusual_whales/status/1978450032597868677",
+    "author": {
+      "handle": "unusual_whales",
+      "name": "unusual_whales"
+    },
+    "date": "2025-10-15",
+    "text": "AI-related companies accounted for approximately 80% of the S&amp;P 500's earnings growth, per FT",
+    "thread": [
+      {
+        "id": "1978450032597868677",
+        "text": "AI-related companies accounted for approximately 80% of the S&amp;P 500's earnings growth, per FT"
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 1560,
+      "retweets": 163,
+      "replies": 122,
+      "views": 141625
+    },
+    "comments": []
+  }
+}

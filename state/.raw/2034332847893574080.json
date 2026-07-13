@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:12:36.284Z",
+  "tweetId": "2034332847893574080",
+  "post": {
+    "url": "https://x.com/stitchbygoogle/status/2034332847893574080",
+    "author": {
+      "handle": "stitchbygoogle",
+      "name": "Stitch by Google"
+    },
+    "date": "2026-03-18",
+    "text": "Meet the new Stitch, your vibe design partner.\n\nHere are 5 major upgrades to help you create, iterate and collaborate:\n🎨 AI-Native Canvas\n🧠 Smarter Design Agent\n🎙️ Voice \n⚡️ Instant Prototypes\n📐 Design Systems and DESIGN.md\n\nRolling out now. Details and product walkthrough video in 🧵",
+    "thread": [
+      {
+        "id": "2034332847893574080",
+        "text": "Meet the new Stitch, your vibe design partner.\n\nHere are 5 major upgrades to help you create, iterate and collaborate:\n🎨 AI-Native Canvas\n🧠 Smarter Design Agent\n🎙️ Voice \n⚡️ Instant Prototypes\n📐 Design Systems and DESIGN.md\n\nRolling out now. Details and product walkthrough video in 🧵"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2034320013965021189/vid/avc1/1920x1080/JRRVKidA0Lf1AicO.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2034320013965021189/img/cv3WH-iHh3NkxLYm.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 41619,
+      "retweets": 4732,
+      "replies": 991,
+      "views": 18714531
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2034320013965021189/img/cv3WH-iHh3NkxLYm.jpg",
+      "localFilename": "2034332847893574080_1_poster.jpg"
+    }
+  ]
+}

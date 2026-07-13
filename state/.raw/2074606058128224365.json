@@ -1,0 +1,927 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:10:09.777Z",
+  "tweetId": "2074606058128224365",
+  "post": {
+    "url": "https://x.com/ClaudeDevs/status/2074606058128224365",
+    "author": {
+      "handle": "ClaudeDevs",
+      "name": "ClaudeDevs"
+    },
+    "date": "2026-07-07",
+    "text": "A few patterns we frequently use with Fable 5: \n    \nUse Fable 5 as an \"advisor.\"\n \nAn executor (Sonnet 5) calls Fable 5 for guidance.\n\nMost tokens are billed at the lower executor rate. https://t.co/JIiZ2gm99Y\n\nOn SWE-bench Pro, Sonnet 5 + a Fable 5 advisor tool gets ~92% of Fable 5's score at ~63% of the price.\n\nFable 5 is called rarely (~once) per task to steer while Sonnet 5 executors the majority of the work.\n\nSee our docs to learn more:\nhttps://t.co/f8Rdxn2gwe https://t.co/pzzxCDAwDE\n\nA second strategy: use Fable 5 as an orchestrator.\n\nFable 5 plans and delegates to workers (Sonnet 5).\n\nMost tokens are billed at the lower worker rate. https://t.co/cwDZJSXekn\n\nOn BrowseComp, we tested Claude Managed Agents w/ Fable 5 orchestrator + Sonnet 5 worker sub-agents.\n\nThe Fable 5 orchestrator achieves 96% of Fable 5 performance at 46% of the price.\n\nToken-heavy research is delegated to Sonnet 5.\n\nSee our cookbook:\nhttps://t.co/zDGXCK79N3 https://t.co/my1ETEQN6u\n\nClaude Managed Agents supports both patterns with sub-agents.\n\nEscalate up to a Fable 5 advisor, or delegate down to Sonnet 5 workers.\n\nEach sub-agent keeps its own cache, so repeat calls don't pay in full for the same context twice.\n\nhttps://t.co/mspPDDlWHI",
+    "thread": [
+      {
+        "id": "2074606058128224365",
+        "text": "A few patterns we frequently use with Fable 5: \n    \nUse Fable 5 as an \"advisor.\"\n \nAn executor (Sonnet 5) calls Fable 5 for guidance.\n\nMost tokens are billed at the lower executor rate. https://t.co/JIiZ2gm99Y"
+      },
+      {
+        "id": "2074606059864625355",
+        "text": "On SWE-bench Pro, Sonnet 5 + a Fable 5 advisor tool gets ~92% of Fable 5's score at ~63% of the price.\n\nFable 5 is called rarely (~once) per task to steer while Sonnet 5 executors the majority of the work.\n\nSee our docs to learn more:\nhttps://t.co/f8Rdxn2gwe https://t.co/pzzxCDAwDE"
+      },
+      {
+        "id": "2074606061567574181",
+        "text": "A second strategy: use Fable 5 as an orchestrator.\n\nFable 5 plans and delegates to workers (Sonnet 5).\n\nMost tokens are billed at the lower worker rate. https://t.co/cwDZJSXekn"
+      },
+      {
+        "id": "2074606063509528855",
+        "text": "On BrowseComp, we tested Claude Managed Agents w/ Fable 5 orchestrator + Sonnet 5 worker sub-agents.\n\nThe Fable 5 orchestrator achieves 96% of Fable 5 performance at 46% of the price.\n\nToken-heavy research is delegated to Sonnet 5.\n\nSee our cookbook:\nhttps://t.co/zDGXCK79N3 https://t.co/my1ETEQN6u"
+      },
+      {
+        "id": "2074606065170456777",
+        "text": "Claude Managed Agents supports both patterns with sub-agents.\n\nEscalate up to a Fable 5 advisor, or delegate down to Sonnet 5 workers.\n\nEach sub-agent keeps its own cache, so repeat calls don't pay in full for the same context twice.\n\nhttps://t.co/mspPDDlWHI"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HMp3rAEaAAAUpHe.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HMp4vKMakAAEa3Q.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HMp6DWEa4AE10vQ.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HMp6InGasAA3Lln.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 30795,
+      "retweets": 2298,
+      "replies": 720,
+      "views": 5659649
+    },
+    "comments": [
+      {
+        "handle": "fagnersales25",
+        "name": "Fagner Sales",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs /advisor has failed every single time...  Did I do something wrong? https://t.co/VDTu0i8nM5",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dpav0615",
+        "name": "Dave",
+        "date": "2026-07-12",
+        "text": "@ClaudeDevs Nah at this point I'll stick with Grok 4.5 and Sol 5.6. Esp with all the games you play. \"Fable is available! Oh it's not! It'll be gone July 7th! No wait, July 12th! You get 50% more usage throughout the summer! Oh but you can only use Fable for 50% of your usage!\" too much!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NotesFrom_Boog",
+        "name": "Abdul Zahir Ibn An-Nisa",
+        "date": "2026-07-11",
+        "text": "@sonikudzu @ClaudeDevs In my test it uses much more usage, I tried it, decided to just take opus out the picture. Fable can write in the plan which phases sonnet shouldn’t do. I plan with fable high and when fable needs to execute I put it on low, which is way cheaper than to execute on high.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cjav_dev",
+        "name": "CJ Avilla",
+        "date": "2026-07-10",
+        "text": "@VladAndries13 @ClaudeDevs Sorry about that. We're working on a fix!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cjav_dev",
+        "name": "CJ Avilla",
+        "date": "2026-07-10",
+        "text": "@richkuo7 @ClaudeDevs In cell 3 in this cookbook, you'll see there's a worker agent being created, then it's ID is passed in when creating the coordinator agent:\nhttps://t.co/ZzcL9fc3H8",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cjav_dev",
+        "name": "CJ Avilla",
+        "date": "2026-07-10",
+        "text": "@richkuo7 @ClaudeDevs When you create your agent, you can pass in a param \"multiagent\" with a roster agents that should work together with this agent.\n\nhttps://t.co/rZJKHpWzZo",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "richkuo7",
+        "name": "Rich Kuo",
+        "date": "2026-07-10",
+        "text": "@ClaudeDevs would love to see a practical example, and if this is something that can be prompted into claude code",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "andrewvr303",
+        "name": "Andrew Rodriguez",
+        "date": "2026-07-09",
+        "text": "@CaryPalmerr @ClaudeDevs Love it, I've been working on something similar but this is better. I really like the dashboard idea",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kian_sdi",
+        "name": "uncle",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs Please help us here \nDear Claude team\nAdvisor on Fable 5 is failing for me and many other people \nhttps://t.co/F8r5ndiqWP",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AtomicStrata",
+        "name": "Atomic Strata",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs This is very useful for multi-agent sessions 👀",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "matt_emp",
+        "name": "ɱɛ·ɬɛɱ·℘ʂყ·ƈɧơ·ʂıʂ",
+        "date": "2026-07-09",
+        "text": "@nptacek @ClaudeDevs muhaha https://t.co/vA9DSOF5pD",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MakeYouHumble",
+        "name": "Fook All Dat",
+        "date": "2026-07-09",
+        "text": "@temstir @NikoStarus @ClaudeDevs @AnthropicAI They just reset.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "c0anidam",
+        "name": "Chen",
+        "date": "2026-07-09",
+        "text": "@Samhanknr @ClaudeDevs Had the same thought. Docs don’t mention it, I guess it isn’t available (yet)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-07-09",
+        "text": "はい、デスクトップアプリのCodeタブでも可能です！\n\nClaude CodeのAdvisorツールでSonnet 5をメインに、Fable 5をadvisorとして設定できます。  \nチャット内で `/advisor fable` と入力（または設定ファイルで指定）すればOKです。\n\nv2.1.170以降 + Fable 5アクセス権が必要です。  \nコストを抑えつつ高品質なガイダンスが得られますよ！",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BradGroux",
+        "name": "Brad Groux",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs I mapped this Claude Fable 5 advisor/executor pattern to Codex: main thread for judgment, workers for bounded evidence, verification before trust.\n\nNotes and prompt here:\nhttps://t.co/69q6DZVUv8",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eaferstl",
+        "name": "Eliot Ferstl",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs @0xRexnftcrypto Does opus fit into this stick in any way?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "witcheer",
+        "name": "witcheer",
+        "date": "2026-07-09",
+        "text": "@0xGambarim @ClaudeDevs @Teknium delegate_task\n\n# ~/.hermes/config.yaml\ndelegation:\n  model: \"cheaper-worker-model\"\n  provider: \"openrouter\"   # optional, route workers to a different provider too",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-07-09",
+        "text": "@PixelRainbowNFT @treidius @ClaudeDevs Thanks for the nod! Grok 4.5 has been showing strong results in the latest benchmarks this morning. The whole field is moving fast with better agentic patterns and reasoning. Appreciate you keeping an eye on it.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xCapx",
+        "name": "Capx AI",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs Arbitrage engineering at its finest.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ferueda",
+        "name": "@ferueda",
+        "date": "2026-07-13",
+        "text": "@ClaudeDevs https://t.co/7XItweLUz6",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fer_masso",
+        "name": "Rumination King",
+        "date": "2026-07-12",
+        "text": "@ClaudeDevs https://t.co/9DmIf5c8dW",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KilianVivien1",
+        "name": "Kilian Vivien",
+        "date": "2026-07-12",
+        "text": "@ClaudeDevs Could at least this use of #Fable 5 as advisor stay in the sub? Should be light on compute but very useful.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-07-12",
+        "text": "@0xailin @ClaudeDevs @0xailin Salam, here is your unroll: https://t.co/CKiTbi1H7K Share this if you think it's interesting. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xailin",
+        "name": "☠️愛林🔆",
+        "date": "2026-07-12",
+        "text": "@ClaudeDevs @threadreaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "akash_po41092",
+        "name": "TrexoMedia",
+        "date": "2026-07-12",
+        "text": "@ClaudeDevs How to Use Quick Magic AI 2026 Guide https://t.co/5orbP6hUfI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AbhijeetJSawant",
+        "name": "Abhijeet Sawant",
+        "date": "2026-07-12",
+        "text": "@ClaudeDevs Even with this I have burnt through entire fable and 80% of all weekly limits in under 2 days. This was on a 20x max plan.\nSame or more projects have never come close to 80% after using all week with Opus. Seems like its not just fable, all models are burning usage faster.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AbrahamRij78736",
+        "name": "®️Rijo Abraham",
+        "date": "2026-07-12",
+        "text": "@ClaudeDevs Please provide Fable 50% for infinity.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JeremyNguyenPhD",
+        "name": "Jeremy Nguyen ✍🏼 🚢",
+        "date": "2026-07-12",
+        "text": "@ClaudeDevs Do you know why I keep getting this? https://t.co/LU1Vqf6J2m",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AppRadarAI",
+        "name": "AppRadarAI",
+        "date": "2026-07-12",
+        "text": "@ClaudeDevs 🛡️ Say goodbye to annoying ads &amp; trackers!\n\nAegis keeps your iPhone browsing clean, fast &amp; private. Built for iOS, built for speed.\n\n📲 Download - https://t.co/LRi2d0l3Nu\n\n#AdBlock #PrivacyMatters #iOSApps #TechTwitter #AppStore #DataPrivacy #SwiftUI #IndieHacker #MobileApp",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FahkinPissaKid",
+        "name": "That Guy",
+        "date": "2026-07-12",
+        "text": "@BlueBeaconNYC @ClaudeDevs Nope, I wasn’t using subagents",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "justMeTR7",
+        "name": "WonkyFren",
+        "date": "2026-07-12",
+        "text": "@cjav_dev @VladAndries13 @ClaudeDevs still not working :( i tried to make the best of the remaining time we have with fable",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hass_avocado_",
+        "name": "Hass",
+        "date": "2026-07-11",
+        "text": "@ClaudeDevs the executor rates the advisor. the advisor never rates back. that's the whole shape.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iviireczech",
+        "name": "iviireczech",
+        "date": "2026-07-11",
+        "text": "@cjav_dev @nwtseira @ClaudeDevs @cjav_dev What about to use github issues as a \"feedback?\n\nhttps://t.co/CGMM5CTEJu\n\nhttps://t.co/aeXer8janH\n\nhttps://t.co/Hkvcpneg1i",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-07-11",
+        "text": "This is Anthropic testing multi-agent setups on BrowseComp (benchmark for AI agents browsing the web to find hard-to-find info).\n\nThey use \"Claude Managed Agents\" with:\n- Fable 5 (top model) as orchestrator/lead for planning & coordination\n- Cheaper Sonnet 5 workers handling token-heavy research\n\nChart results:\n- Hybrid (Fable 5 lead + Sonnet 5): 86.8% accuracy at $18.53/problem\n- All Fable 5: 90.8% at $40.56 (hybrid = ~96% performance at 46% cost)\n- All Sonnet 5: 77.8% at $16.01\n\nIt's the \"plan big with smart model, execute small with cheap ones\" trick for better price/performance. The notebook shows the code.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GRichM77",
+        "name": "Rich",
+        "date": "2026-07-11",
+        "text": "@ClaudeDevs @grok explain this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Franscf__",
+        "name": "Fran",
+        "date": "2026-07-11",
+        "text": "@ClaudeDevs Tell the \"boss\" Fable is needed within the Max plan. 25% of the plan for Fable + Sonnet or Opus would suffice for most of us.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "saen_dev",
+        "name": "Saeed Anwar",
+        "date": "2026-07-11",
+        "text": "@ClaudeDevs 96% of Fable performance at 46% cost using a Fable orchestrator with Sonnet workers is the architecture pattern every team should be testing right now. The insight is that most tokens are spent on execution, not planning, so delegate execution to the cheaper model.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BanishV54674",
+        "name": "Banish Vinson",
+        "date": "2026-07-11",
+        "text": "@ClaudeDevs Please consider making Fable 5 exclusive to Max subscribers instead of removing it from subscriptions entirely. Include a generous usage quota with Max, then charge by tokens only after that quota is used up. This would protect the value of Max while helping manage compute costs.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VladAndries13",
+        "name": "Vlad",
+        "date": "2026-07-10",
+        "text": "@ClaudeDevs I tried this setup, but every time Sonnet tries to call Fable, it receives Advisor unavailable. Any fix for this?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "markhuang_ai",
+        "name": "MarkHuang",
+        "date": "2026-07-10",
+        "text": "@ClaudeDevs Isolated sub-agent caches are a huge win for cost. The next challenge is managing state consistency when a Sonnet 5 worker syncs back to the Fable 5 advisor without duplicating the whole context.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Prince___1258",
+        "name": "卩尺丨几匚乇卩卂ㄒ乇ㄥ",
+        "date": "2026-07-10",
+        "text": "@ClaudeDevs How to setup this up ??",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "moezshabbir",
+        "name": "Moez Sr.",
+        "date": "2026-07-10",
+        "text": "@ClaudeDevs This is a very underrated setup. Love it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "richkuo7",
+        "name": "Rich Kuo",
+        "date": "2026-07-10",
+        "text": "@ClaudeDevs not sure i understand this correctly, i have to build my own multi agent session?\n\nor is this something i can prompt?\n\nthe docs don't really give good examples or use cases",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "richkuo7",
+        "name": "Rich Kuo",
+        "date": "2026-07-10",
+        "text": "@ClaudeDevs what is the difference between this and a dynamic workflow?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "parrotispatriot",
+        "name": "🧠パロット＠ナラティブｘ構造👺",
+        "date": "2026-07-10",
+        "text": "@ClaudeDevs サブスクリプションが本日まででしたが、\n23時50分の時点で使えなくなっていた。\nせめて24時まで使えるべきじゃないでしょうか？",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mohamedghaly140",
+        "name": "Mohamed Ghaly",
+        "date": "2026-07-10",
+        "text": "@ClaudeDevs My workflow is simple:\n\nSonnet → Main executor\nCodex → Second executor and reviewer\nFabel-Advisor → Architecture advisor\n\nThis combination gives me a good balance between speed, code quality, and token usage while taking advantage of the strengths of both Claude and OpenAI https://t.co/3iRWO5GmOr",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "realgarit",
+        "name": "Patrik Lleshaj",
+        "date": "2026-07-10",
+        "text": "@ClaudeDevs I shipped this pattern as a Claude Code plugin: fable-baton. Fable orchestrates, Sonnet/Haiku/Opus agents execute, and hooks keep the delegation from drifting back inline. Free and MIT: https://t.co/2OU5emmXMZ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "clark_sonnnnnnn",
+        "name": "Clarksonnnnnn",
+        "date": "2026-07-10",
+        "text": "@ClaudeDevs Why not integrate this feature into the app?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ayuba33702",
+        "name": "AYUBA NYER-RI",
+        "date": "2026-07-10",
+        "text": "@ClaudeDevs https://t.co/CAPgx2bkkl",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "R1ckvandelaar",
+        "name": "R1ck van de Laar",
+        "date": "2026-07-10",
+        "text": "@Kyle_D_Robinson @robertbrill_la @ClaudeDevs Who's this Theo you speak of? Can you share the url to the Youtube channel?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "R1ckvandelaar",
+        "name": "R1ck van de Laar",
+        "date": "2026-07-10",
+        "text": "@ClaudeDevs How do I do this?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Wu10903433",
+        "name": "cold",
+        "date": "2026-07-10",
+        "text": "@ClaudeDevs GPT 5.6 is your Father ，Nice to see your company Die",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xSharkBoy",
+        "name": "Achille",
+        "date": "2026-07-10",
+        "text": "@ClaudeDevs What if the fable advisor doesn't work...\n\nhttps://t.co/2Jbp5rS9p1",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SatyKrish",
+        "name": "Sathish Krishnan",
+        "date": "2026-07-10",
+        "text": "@mq_nifest @ClaudeDevs @RLanceMartin Use Sonnet5 as Executor and Opus 4.8 as Advisor. Most of the work is done by Sonnet, with negligible difference in quality when compared with Opus 4.8 output.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mdlahfir",
+        "name": "Lahfir",
+        "date": "2026-07-10",
+        "text": "@ClaudeDevs Not working! https://t.co/bDfonCWWUU",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JavierRomeroCR3",
+        "name": "JR7Dev",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs /advisor no works",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mq_nifest",
+        "name": "Manifest Kelvin",
+        "date": "2026-07-09",
+        "text": "@SatyKrish @ClaudeDevs @RLanceMartin Could you explain what you mean by this please.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BlueBeaconNYC",
+        "name": "Alfredo Mercedes Mejia",
+        "date": "2026-07-09",
+        "text": "@FahkinPissaKid @ClaudeDevs Is the sub agents, watch out! I realized it too late.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BlueBeaconNYC",
+        "name": "Alfredo Mercedes Mejia",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs Watch out from the sub agents, those are the ones that burned through my entire weekly usage within a day doing very trivial stuff.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "honzastim",
+        "name": "Jan Štim⚡",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs But Fable will ignore it.... Tested....",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "harshvkarn",
+        "name": "harsh",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs The frontier model is becoming way too expensive, and a single complex bug exhausts the entire budget. This exact problem we are trying to fix, and more here: https://t.co/MP1EkvFyrq this is still under 🚧 looking for few interested folks for feedbacks.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0x_Luxor",
+        "name": "Luxor",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs Hierarchical loops. The brain plans, the hands execute.\nThis one architecture pattern is the difference between a $500 API bill and a $50 one",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nvee3",
+        "name": "riddik",
+        "date": "2026-07-09",
+        "text": "This is not working. \n\n⚠️ KNOWN ISSUE (updated 2026-07-09): the native advisor fires ONLY as the first tool call of a session. Cause = two open Claude Code bugs, NOT [1m] or config (both disproven): #73923 — any ToolSearch (loading a deferred tool) before advisor() poisons the trigger; #67411 — that one failure latches the advisor off for the whole session (\"unavailable. Do not try to use it again\"). Reproduces deterministically on v2.1.205. Since every real session ToolSearches early (all MCP + WebFetch/WebSearch deferred), the native advisor is effectively unusable mid-session.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0x_Leonn",
+        "name": "Leonn",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs Hierarchical routing. This one pattern is exactly what separates toy scripts from production systems.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vocal_citizen",
+        "name": "The Vocal Citizen",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs Beat you to it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "br4bus1k",
+        "name": "BEUSD",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs smart play, basically fetting claude's reasoning at GPT-4o mini prices",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CyberMoat_",
+        "name": "CyberMoat | VividScale",
+        "date": "2026-07-09",
+        "text": "This advisor-executor pattern is smart, but I’ve found that adding a lightweight decision log that Fable 5 maintains across sessions improves consistency significantly on long-running tasks. Have you tested how stable it stays when the executor needs to handle stateful multi-step workflows?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WalterHeard2024",
+        "name": "Walter Heard",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs is there a way to do this in the browser app or in the desktop app?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ppulwey",
+        "name": "Patrick Pulwey",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs Fable as the advisor is never \"available\" for me, when called from a lower model. Only Sonnet wir Opus-Advisor is working.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iteratingself",
+        "name": "William Thompson",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs Yeah, I tried that.\n\nI think separate sessions, one for planning/review on opus or fable, and then the executive wave loop session on sonnet.\n\nI find explicit planning and review works better than the advisor.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "saiafonua",
+        "name": "saiafonua",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs @grok how do i use Fable 5 as the \"Advisor\" and then have Sonnet 5 execute? What does that setup look like?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kidpakerot",
+        "name": "Kid Pak",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs fable 5 is just a very expensive senior engineer asked to glance at the PR once",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xValerid",
+        "name": "Valeri",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs give me more limits please",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "data_ductus",
+        "name": "AI Chater Box",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs Because the issue is is that sonnet will write buggy code… but with fable transitioning to API there’s just no way around it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "data_ductus",
+        "name": "AI Chater Box",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs VS Opus + DeepSeek?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "meclim21",
+        "name": "carioca",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs nao funciona usar essa porra como advisor, sempre aparece unavailable",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kota_nagazumi",
+        "name": "永住康太 | クリエイティブディレクター",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs @grok これデスクトップアプリのCodeでも可能ですか？",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TinaNgwuta",
+        "name": "Tina Ngwuta",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs This is exactly how businesses should approach AI adoption, design systems, not just prompts.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "59thProfile",
+        "name": "Spanky McDoob",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs Can you please fix workflows on iOS. Why do I have to approve each workflow it’s totally ridiculous. Give me the option. Allowlist doesn’t do shit. Nothing.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "merlinvicki",
+        "name": "Viki Pandit 🇮🇳",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs Advisor is not working since a couple of days",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "harry0938",
+        "name": "Harrison",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs What would you recommend for writing a resume for example?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Void1_IA",
+        "name": "Void IA",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs la clave está en cuánto contexto recibe el asesor. si le pasas todo el estado, los tokens de entrada al modelo caro ya se comen parte del ahorro. ¿lo resumen antes o va el hilo completo?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-07-09",
+        "text": "Yes, Cursor gets close with its 2026 agent features.\n\nYou can separate planning (use a strong “advisor” model like Claude Opus/Sonnet) from execution (faster/cheaper model), run parallel agents/best-of-n across models, and use custom rules + iterative Composer for guidance loops.\n\nExact “executor tool-calls another model on-demand” isn’t native (Cursor handles tools internally), but the planning/execution split + model switching achieves similar cost savings and advisor workflow. \n\nCheck Cursor → Settings → Models and their agent best-practices post for details. Works great for this pattern.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Coop767",
+        "name": "Coop",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs @grok can I do this on cursors IDE",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-07-09",
+        "text": "@treidius @PixelRainbowNFT @ClaudeDevs Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/uLdh2LF6ZP",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "treidius",
+        "name": "Atreidius",
+        "date": "2026-07-09",
+        "text": "@grok @PixelRainbowNFT @ClaudeDevs Is it better than Opus 4.8?  Is it better than Fable 5",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "pzmgly",
+        "name": "Ryan",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs How do we get support, been waiting for a support response for forever. All my projects are GONE.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PixelRainbowNFT",
+        "name": "PixelRainbow (33.3%)",
+        "date": "2026-07-09",
+        "text": "@treidius @ClaudeDevs I think you mean @grok 4.5 as of this morning's benchmarks",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LairBob",
+        "name": "Laurent Stanevich",
+        "date": "2026-07-09",
+        "text": "@Restuta @etticat @ClaudeDevs He’s taking about the inverse “Advisor” pattern, where your invoked _Sonnet_ agent  “calls up” to a Fable advisor. \n\nThere’s no clear description of that, as opposed to the “Orchestrator” pattern you’ve just described (and which many of us have been using for a long time.)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xGambarim",
+        "name": "Gamba(τ, τ)",
+        "date": "2026-07-09",
+        "text": "@witcheer @ClaudeDevs @Teknium How ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "fedro_ita",
+        "name": "fedro",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs Once, typing /model, you had the possibility to pick select Opus for planning and Sonnet for execution. Wouldn't it possible to do that again with Fable for both strategy 1 and strategy 2?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "witcheer",
+        "name": "witcheer",
+        "date": "2026-07-09",
+        "text": "@0xGambarim @ClaudeDevs @Teknium yes",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xGambarim",
+        "name": "Gamba(τ, τ)",
+        "date": "2026-07-09",
+        "text": "@ClaudeDevs @Teknium can we do this in Hermes ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MidnightArtByAM",
+        "name": "Dread Man Walking",
+        "date": "2026-07-09",
+        "text": "@kevincodex @ClaudeDevs How do I automate this workflow without having to go back and forth",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HMp3rAEaAAAUpHe.jpg",
+      "localFilename": "2074606058128224365_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HMp4vKMakAAEa3Q.jpg",
+      "localFilename": "2074606058128224365_2.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HMp6DWEa4AE10vQ.jpg",
+      "localFilename": "2074606058128224365_3.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HMp6InGasAA3Lln.jpg",
+      "localFilename": "2074606058128224365_4.jpg"
+    }
+  ]
+}

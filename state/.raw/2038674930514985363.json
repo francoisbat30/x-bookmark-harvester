@@ -23,5 +23,11 @@
       "views": 15117
     },
     "comments": []
-  }
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HErUCmhaoAAWAY4.jpg",
+      "localFilename": "2038674930514985363_1.jpg"
+    }
+  ]
 }

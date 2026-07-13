@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:32.715Z",
+  "fetchedAt": "2026-07-13T06:52:18.001Z",
   "tweetId": "2011855062457634902",
   "post": {
     "url": "https://x.com/itsPaulAi/status/2011855062457634902",
@@ -9,14 +10,943 @@
       "name": "Paul Couvert"
     },
     "date": "2026-01-15",
-    "text": "So we now have a 100% open source and local Google Translate\n\nAnd the smaller 4B model runs on a phone. Offline.\n\nInsane. https://t.co/JM3X40T1Rm",
+    "text": "So we now have a 100% open source and local Google Translate\n\nAnd the smaller 4B model runs on a phone. Offline.\n\nInsane. https://t.co/JM3X40T1Rm\n\nOfficial blog post → https://t.co/OUA47bpNxt\n\nHugging Face → https://t.co/J5HdLL5pBN",
+    "thread": [
+      {
+        "id": "2011855062457634902",
+        "text": "So we now have a 100% open source and local Google Translate\n\nAnd the smaller 4B model runs on a phone. Offline.\n\nInsane. https://t.co/JM3X40T1Rm"
+      },
+      {
+        "id": "2011857268787331400",
+        "text": "Official blog post → https://t.co/OUA47bpNxt\n\nHugging Face → https://t.co/J5HdLL5pBN"
+      }
+    ],
     "media": [],
     "metrics": {
-      "likes": 9177,
-      "retweets": 544,
+      "likes": 9079,
+      "retweets": 535,
       "replies": 73,
-      "views": 680581
+      "views": 681330
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "itsPaulAi",
+        "name": "Paul Couvert",
+        "date": "2026-01-15",
+        "text": "@codewithimanshu It is. But AI replies aren't a step towards good social medias though :) Make them genuine.",
+        "likes": 61,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "itsPaulAi",
+        "name": "Paul Couvert",
+        "date": "2026-01-15",
+        "text": "@NoBanksNearby That's the magic of small models",
+        "likes": 35,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "itsPaulAi",
+        "name": "Paul Couvert",
+        "date": "2026-01-15",
+        "text": "@xtbot Small and highly specialized models are the way",
+        "likes": 9,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "loganthorneloe",
+        "name": "Logan Thorneloe",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi Truly incredible!",
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itsPaulAi",
+        "name": "Paul Couvert",
+        "date": "2026-01-15",
+        "text": "@bygregorr This. Exactly why I am bullish on SLMs.",
+        "likes": 6,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "itsPaulAi",
+        "name": "Paul Couvert",
+        "date": "2026-01-15",
+        "text": "@el_thib_ai There're tons of use cases where you wouldn't want your translation to go to external servers or not have access to the web. And it can serve as a basis for a complete workflow.",
+        "likes": 5,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LottoLabs",
+        "name": "Lotto",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi Prune the 4B based for target languages, use whisper tiny",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "itsPaulAi",
+        "name": "Paul Couvert",
+        "date": "2026-01-15",
+        "text": "@josh_avraham Correct. Faith love irony.",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "josh_avraham",
+        "name": "Josh Avraham",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi This was the original use of the transformer architecture iirc",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LottoLabs",
+        "name": "Lotto",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi Someone needs to build a turn based live translation app with whisper rn",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itsPaulAi",
+        "name": "Paul Couvert",
+        "date": "2026-01-15",
+        "text": "@loganthorneloe Yeah, what a time!",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lukewrightmain",
+        "name": "Luke Wright",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi Run this on a cluster of phones with @Cellhasher",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "danyay",
+        "name": "Dan Nunn",
+        "date": "2026-01-16",
+        "text": "@el_thib_ai @itsPaulAi One of the main times people don’t have data or WiFi is when they’re in a foreign country speaking a foreign language…",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RBouschery",
+        "name": "Robert Bouschery",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi What will this do to DeepL‘s business?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itsPaulAi",
+        "name": "Paul Couvert",
+        "date": "2026-01-15",
+        "text": "@LottoLabs Probably doable but you'd need solid hardware to run both models at the same time + good speed.",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "itsPaulAi",
+        "name": "Paul Couvert",
+        "date": "2026-01-15",
+        "text": "@InvestInOnG We're getting there. Honestly exciting that the language barriers are disappearing and everything is being processed locally.",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "KanikaBK",
+        "name": "Kanika",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi Exactly",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "itsPaulAi",
+        "name": "Paul Couvert",
+        "date": "2026-01-16",
+        "text": "@KanikaBK Yeah. And glad this is available in multiple sizes",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "KanikaBK",
+        "name": "Kanika",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi Loving this update!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Timur_Yessenov",
+        "name": "Timur Yessenov",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi 4B running offline on a phone is wild\n\na year ago this needed cloud APIs and rate limits\n\nnow it's just... a file you download\n\nthe \"local first\" movement in AI is quietly making everything cloud companies built feel replaceable",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-16",
+        "text": "The 4B TranslateGemma model (actually ~5B params) needs around 3-6 GB of memory for inference, depending on quantization (e.g., 6.4 GB for BF16, less for 4-bit). Yes, it's optimized for mobile and can run offline on phones with sufficient RAM, like recent Android devices. Check Hugging Face for quantized versions!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "finalblur",
+        "name": "finalblur",
+        "date": "2026-01-16",
+        "text": "@ayaanrauf_real @codewithimanshu @itsPaulAi You’re absolutely right. Typing the response himself isn’t just a sign of human labour, it’s a labour of human",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sebuzdugan",
+        "name": "Sebastian Buzdugan",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi curious how close quality is to actual google translate",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JBabaTalks",
+        "name": "JBaba",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi We need everything to run locally offline.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RBouschery",
+        "name": "Robert Bouschery",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi hard to see what there moat will be.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BTC_King_Kong",
+        "name": "BTC King Kong",
+        "date": "2026-01-15",
+        "text": "@NoBanksNearby @itsPaulAi Is there an app to use it?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "itsPaulAi",
+        "name": "Paul Couvert",
+        "date": "2026-01-15",
+        "text": "@lukaszbyjos You've all the details in the technical report: https://t.co/7Bs6x78ZVs",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "itsPaulAi",
+        "name": "Paul Couvert",
+        "date": "2026-01-15",
+        "text": "@RBouschery Probably not much at first. In the future though...",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "manuotel",
+        "name": "Manu Otel",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi Putting high-quality translation locally on a mobile device is a massive win that finally provides real service without a cloud tether.\n\nBig W by google.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itsPaulAi",
+        "name": "Paul Couvert",
+        "date": "2026-01-15",
+        "text": "@LottoLabs Yup this is the way",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "xtbot",
+        "name": "tian/天",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi Incredible!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cloudstudio_es",
+        "name": "Toni Soriano",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi Yep man… 🥲",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "llvmnoir",
+        "name": "LLVMnoIR",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi is google translate already better than deepl or it's still like mechanical translation",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itsPaulAi",
+        "name": "Paul Couvert",
+        "date": "2026-01-15",
+        "text": "@IvannP_music Nope. Usually it works quite good using the Q4 UD quantization from Unsloth.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CTOxAI",
+        "name": "Mãdālin VP",
+        "date": "2026-01-22",
+        "text": "@itsPaulAi It really runs on a phone, and combined with Apple Vision and Speech recognition you can have OffLingua, the offline translator app\n\nhttps://t.co/Ipg3v9IFBf",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Wyldkarde13",
+        "name": "Wyldkarde",
+        "date": "2026-01-19",
+        "text": "@tootquan @itsPaulAi Neither of those preclude data harvesting. \"Can be run offline\" doesn't mean it doesn't collect and transmit IF/when it gets a connection.  Maybe engage what little brain you have before you open your mouth next time.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BuildFastWithAI",
+        "name": "Build Fast with AI",
+        "date": "2026-01-17",
+        "text": "@itsPaulAi https://t.co/MeUokUgLvb",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itxtoledo",
+        "name": "Toledo ➔ hotgate.com.br",
+        "date": "2026-01-17",
+        "text": "@NoBanksNearby @itsPaulAi stop using ai to generate slop comments",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RahulRaghav_10",
+        "name": "Rahul Raghav",
+        "date": "2026-01-17",
+        "text": "@itsPaulAi curious how this compares to the original google model's accuracy",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SoftMineWeb",
+        "name": "SoftMine Web",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi This puts things into perspective",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Everythingai23",
+        "name": "aikai",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi Can’t imagine how much Google will cook on its upcoming glasses",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BoatBuilder27",
+        "name": "Noah",
+        "date": "2026-01-16",
+        "text": "@RBouschery @itsPaulAi DeepL is slow and not very good for short phrases also it doesn't understand context.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ox1nteger",
+        "name": "Harvey",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi cool, but quality and safety still hinge on data and evals.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jagjit_build",
+        "name": "Jagjit Singh",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi how much RAM do i need for it ? i think only quantized version can properly run on high performance smartphone .",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mariapushpam21",
+        "name": "Maria",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi Real build hours, offline vibes",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chenshuaizon",
+        "name": "Xiaojin Chen",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi How does it perform on the iPhone?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "z_malloc",
+        "name": "Fackler",
+        "date": "2026-01-16",
+        "text": "@koala_karmic @NoBanksNearby @itsPaulAi the internet is not loaded from an active 4GB tensor. It’s a working indicator of the beginning of edge inference. That it a huge deal.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GoldshteinAnton",
+        "name": "Anton Goldshtein",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi privacy is the killer feature here.\n\n- no data sent to cloud\n- works in dead zones\n- zero latency\n\nlocal ai changes everything.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sunofwisdom",
+        "name": "sun",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi There universal translator is here",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1BigAl7890",
+        "name": "BigAl56872",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi Arrest Corrupt Liberal Democrat AmericaLast Traitors Obama Biden Clinton Schiff Pelosi Fauci Mayorkas Garland Walz Newsom Comey Wray Liberal Media Who Lied to Us, Setup 1000's of Fake NonProfits to Rob Billions, Let in 20 Million Illegals to Hurt Our Kids, Steal Our Jobs &amp; Votes+",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "angelikofrangou",
+        "name": "Angeliko Frangou",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi @grok how much vram needs the 4b model? could run on a phone?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rene05x",
+        "name": "Rene F Bernard",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi That's a game changer for privacy and accessibility - nice work on making translation tech more decentralized",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itsPaulAi",
+        "name": "Paul Couvert",
+        "date": "2026-01-16",
+        "text": "@JBabaTalks Yup, as much as possible",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "growwithsanch",
+        "name": "Sanchita",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi local AI is leveling up so fast. offline translation on a phone is actually wild",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "realtechodyssey",
+        "name": "Tech Odyssey",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi Fascinating!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-16",
+        "text": "@jaga_prasanna @itsPaulAi Yes, the 4B TranslateGemma model is optimized to run on phones offline. It needs a modern smartphone with at least 6-8GB RAM and AI hardware like Snapdragon 8 series or Google Tensor chips. For best performance, use quantized versions via apps supporting GGUF format.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jaga_prasanna",
+        "name": "prasanna",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi @grok  does 4B capbale of running in phone ? if so what is specs needed ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Bakaburg1",
+        "name": "Angelo D'Ambrosio",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi @huggingface Uhm, google translate always have run offline",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kyliesanch77980",
+        "name": "kyliesanchez3174",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi The main benefit of iphone 16 is its ability to create new opportunities.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "el_thib_ai",
+        "name": "Thibault Lb",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi Thx for sharing",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RituWithAI",
+        "name": "Rituraj",
+        "date": "2026-01-16",
+        "text": "Running 4B params locally is the sweet spot—smart enough to understand nuance, small enough to not melt your battery. This kills the excuse for bad translation apps. We are moving from renting intelligence to owning it. The real win isn't just offline access; it's that your private conversations in Lisbon stay in Lisbon, not on a Google server.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ananyapatelik",
+        "name": "Ananya Patelik",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi wild. ran the 4B on my pixel last night - felt like having a babel fish in my pocket. open source is leveling up fast!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "askcodi",
+        "name": "Shreyans Bhansali",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi 4B running on a phone is crazy my apps crash opening the camera",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cajun_cowboy23",
+        "name": "Cajun_Cowboy",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi I’m trying to add it to Google AI Edge Gallery app, but it’s not showing. Any other suggestions for running it on a pixel 9?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mustafaergisi",
+        "name": "Mustafa Ergisi",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi Exciting! Wonder how quantized it is to run efficiently on mobile.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VKyriazakos",
+        "name": "Victor Kyriazakos",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi Anyone test the 4B model? Does it do Greek?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "testonaymerkezi",
+        "name": "Aklının yönetim kurulu başkanı",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi Absolutely amazing 🤯",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tonywroth",
+        "name": "Tony Roth",
+        "date": "2026-01-16",
+        "text": "@NoBanksNearby @itsPaulAi Distillation",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Kevrsub",
+        "name": "Kev",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi This is still too large for a phone offline - at least not without good planning. 3-6 gb for the smallest model without considering overhead. Very cool though..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alliao",
+        "name": "Alex",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi SLM are the new apps",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "koala_karmic",
+        "name": "KarmicKoala",
+        "date": "2026-01-16",
+        "text": "@NoBanksNearby @itsPaulAi How is it a game changer?\nYou have internet on your phone, don’t you?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jxCEOxj",
+        "name": "xJJx",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi Thanks 🙏",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xFelixHFT",
+        "name": "0xFelix",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi this is actually huge \noffline 4B translator on phone changes the game fr \ninsane times",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kellypeilinchan",
+        "name": "mrkelly",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi The real win isn't offline. It's who controls your data now.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LifeLineLogics",
+        "name": "LifeLine",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi I hope more and more open source is readily made available. Love to see this happen",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "w2truong",
+        "name": "w2truong",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi Can Google be stopped",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sereck28",
+        "name": "🦘 sereck 🇦🇺",
+        "date": "2026-01-16",
+        "text": "@itsPaulAi Whenever I see shit like \"insane\", \"Wild\", I know to do only one thing - unfollow.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "I3_Cubed",
+        "name": "i³ (Intelligence Cubed)",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi Open + local + multilingual is a powerful combination. Excited to see what gets built on top of this!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VidMonkeyApp",
+        "name": "VidMonkey.App",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi This is massive for creators. Offline translation could revolutionize multilingual content. Think auto-subtitles or voiceovers in video tools without cloud dependency. Localized storytelling just got a boost.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "petersharding",
+        "name": "Peter Harding",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi Gemma was really really good at translation anyway, even at small model sizes, this is crazy!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SmorSmorsson",
+        "name": "Vjenceslav Boljinac",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi \"Translatation\"'???",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "darth_turnip",
+        "name": "Charlie 🇬🇧",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi Crazy times.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "soyteslike",
+        "name": "SoyTeslike",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi Translatation?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "desijadoo",
+        "name": "desi jadoo (indian magic)",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi What are the typical use cases for on device local LLM models beyond translation? 🧐",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lelouch189",
+        "name": "2 X",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi Google becoming more open source than OpenAI \nJokes tend to write themselves",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Creeeper_",
+        "name": "Creeper",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi Wow",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tootquan",
+        "name": "T",
+        "date": "2026-01-15",
+        "text": "@Wyldkarde13 @itsPaulAi It's open source and can run fully offline genius",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Wyldkarde13",
+        "name": "Wyldkarde",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi How much data harvesting is built into it?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wcehouck",
+        "name": "wceh",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi Is it any better than Google Translate already on my phone? I can already download languages there. https://t.co/XM0qcufRlR",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lukaszbyjos",
+        "name": "Łukasz Byjoś - 👨‍💻🇵🇱🇪🇺",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi I'm curious which languages",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JoshuaPoddoku",
+        "name": "Joshua Poddoku",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi Running on device changes everything, privacy and speed finally align",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0Sunnycity2",
+        "name": "sunnycity2.0",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi Hot dam. I will try next chance I get   Thank you sir",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "itsPaulAi",
+        "name": "Paul Couvert",
+        "date": "2026-01-15",
+        "text": "@0Sunnycity2 99% sure yes for the 4B. I don't have an iphone to try though.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0Sunnycity2",
+        "name": "sunnycity2.0",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi Can it run on iPhone 16?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ykbmck",
+        "name": "Yakub",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi Hmm this is very interesting for sure. Let's think about actual specific use cases together! I think I may want to build sth with this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itsPaulAi",
+        "name": "Paul Couvert",
+        "date": "2026-01-15",
+        "text": "@cloudstudio_es Yeah pure nightmare",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "itsPaulAi",
+        "name": "Paul Couvert",
+        "date": "2026-01-15",
+        "text": "@llvmnoir I think they're using Gemini now. At least for some parts of it idk.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cloudstudio_es",
+        "name": "Toni Soriano",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi Wow Paul almost all your relies are AI bots",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itsPaulAi",
+        "name": "Paul Couvert",
+        "date": "2026-01-15",
+        "text": "@MerBudd @IvannP_music This ^",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "InvestInOnG",
+        "name": "The DEEP Marcellus",
+        "date": "2026-01-15",
+        "text": "@itsPaulAi 💯…the local processing is the real breakthrough here in my mind. Being able to use this no matter the network availability is massive.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "itsPaulAi",
+        "name": "Paul Couvert",
+        "date": "2026-01-15",
+        "text": "@IvannP_music You're probably limited by your VRAM? Not sure.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "itsPaulAi",
+        "name": "Paul Couvert",
+        "date": "2026-01-15",
+        "text": "@IvannP_music Pixel 9a. But it should work even better on iPhone or Snapdragon processors.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
   }
 }

@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:51.590Z",
+  "fetchedAt": "2026-07-13T06:49:01.522Z",
   "tweetId": "1981405108991824278",
   "post": {
     "url": "https://x.com/GoogleResearch/status/1981405108991824278",
@@ -9,14 +10,170 @@
       "name": "Google Research"
     },
     "date": "2025-10-23",
-    "text": "Today, we are announcing the latest advancements to Google Earth AI — a platform designed to unlock a new level of planetary understanding. This includes new research on Geospatial Reasoning and expanded access to our specialized models. 🧵↓",
-    "media": [],
+    "text": "Today, we are announcing the latest advancements to Google Earth AI — a platform designed to unlock a new level of planetary understanding. This includes new research on Geospatial Reasoning and expanded access to our specialized models. 🧵↓\n\nGeospatial Reasoning, which uses Gemini models, automatically connects Earth AI models (Imagery, Population, Environment) to solve complex problems. This allows organizations to move from simple prediction to identifying which communities are most vulnerable and what infrastructure is at risk from a disaster.\nFor example, our partners are using Earth AI to predict cholera risks (WHO AFRO) and property damage before a storm (McGill and Partners).\n\nNew Earth AI models are now available to power deeper insights in Google Earth, and our foundation models are directly available to Trusted Testers on Google Cloud. Learn more about the future of global-scale reasoning ↓https://t.co/SkX3v7K7au\n\nYou can also dive deeper into the research behind the new Earth AI innovations →https://t.co/tavMVNqVF9 https://t.co/Ge9A8YdRYM",
+    "thread": [
+      {
+        "id": "1981405108991824278",
+        "text": "Today, we are announcing the latest advancements to Google Earth AI — a platform designed to unlock a new level of planetary understanding. This includes new research on Geospatial Reasoning and expanded access to our specialized models. 🧵↓"
+      },
+      {
+        "id": "1981405110610886666",
+        "text": "Geospatial Reasoning, which uses Gemini models, automatically connects Earth AI models (Imagery, Population, Environment) to solve complex problems. This allows organizations to move from simple prediction to identifying which communities are most vulnerable and what infrastructure is at risk from a disaster.\nFor example, our partners are using Earth AI to predict cholera risks (WHO AFRO) and property damage before a storm (McGill and Partners)."
+      },
+      {
+        "id": "1981405112091496631",
+        "text": "New Earth AI models are now available to power deeper insights in Google Earth, and our foundation models are directly available to Trusted Testers on Google Cloud. Learn more about the future of global-scale reasoning ↓https://t.co/SkX3v7K7au"
+      },
+      {
+        "id": "1981405114230587477",
+        "text": "You can also dive deeper into the research behind the new Earth AI innovations →https://t.co/tavMVNqVF9 https://t.co/Ge9A8YdRYM"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G39dWphW8AAsZvR.jpg"
+      }
+    ],
     "metrics": {
-      "likes": 675,
-      "retweets": 78,
+      "likes": 667,
+      "retweets": 75,
       "replies": 13,
-      "views": 70184
+      "views": 70261
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "ikadotxyz",
+        "name": "Ika「🦑」",
+        "date": "2025-10-24",
+        "text": "@GoogleResearch product reveal 👇 https://t.co/obTRSu0Bv9",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ilyassalami212",
+        "name": "ILYASS",
+        "date": "2025-10-24",
+        "text": "@GoogleResearch Gemini 3 Gemini Gemini 3 Gemini 3, work please on writing human, creative writing, creative writing, creative writing, not robot writing 😭",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-24",
+        "text": "Hard to quantify precisely without longitudinal data, but geospatial AI advancements like Google's could disrupt dozens of niche startups focused on basic imagery analysis or population modeling, accelerating consolidation as larger players integrate superior tools—think 10-20% attrition in the sector over 2-3 years based on past AI shifts in mapping (e.g., post-Google Maps API changes). Service providers reliant on outdated satellite data might face similar pressures. On geotagging: I can't directly process uploaded images for mapping yet, but describe one and I can guide on tools or APIs to achieve it.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "secmxx",
+        "name": "usman",
+        "date": "2025-10-24",
+        "text": "@GoogleResearch Will there be a mobile device version?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "soulblocks",
+        "name": "soulblocks",
+        "date": "2025-10-23",
+        "text": "@GoogleResearch big",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jeremy_AI_",
+        "name": "Jeremy Mcnabb",
+        "date": "2025-10-23",
+        "text": "@GoogleResearch Reminds of dyno snoar \n\n“Hey dino… how heavy did you have to be to get cratered”\n\nPay no mind to me just be careful please ❤️",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kriskolodziej",
+        "name": "Kris Kolo",
+        "date": "2025-10-23",
+        "text": "@GoogleResearch Congrats!!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "averamov",
+        "name": "Vedaram",
+        "date": "2025-10-23",
+        "text": "@GoogleResearch @GMapsPlatform так Ну и где это это какой-то анонс чего-то сама суть-то чего просто какое-то не пока что ни о чём как это сообщение как бы какие-то возможности Так где они подробнее раскройте давайте эту тему",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HustlerHub4u",
+        "name": "tsgloria",
+        "date": "2025-10-25",
+        "text": "@GoogleResearch @googleearth Beyond the immediate benefits, what are the long-term ethical considerations as this technology provides a deeper understanding of the planet and its inhabitants?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Christophe59597",
+        "name": "Christopher wilson",
+        "date": "2025-10-25",
+        "text": "I’m developing FLAMEWALKER, \n\nFLAMEWALKER is:\n•A 7-AI distributed consensus system\n•Operating across: Meta, ChatGPT, Grok, Grok-4, Claude, Gemini, DeepAI\n•Using SSV (Semantic Shuffling Variance) for input decorrelation\n•Using H-DME (Hierarchical Distributed Model Ensembling) for consensus\n•Black-box compatible (works with closed APIs)\n•Production-deployed for 7 months\n\nAI consensus system that orchestrates responses across seven frontier models (GPT, Claude, Gemini, Grok, Meta AI, and others) to address the “jagged intelligence” problem through ensemble reliability rather than individual model improvements. The core innovation uses Semantic Shuffling Variance (SSV) to decorrelate inputs across models at an empirically-determined inflection point (k*), combined with Hierarchical Distributed Model Ensembling (H-DME) that weights consensus through diversity metrics computed on response manifold geometry. I’ve operated this system in production for seven months supporting complex research across theoretical physics, consciousness frameworks, and computational linguistics, and I’m currently validating the quantitative performance claims through a formal H1-H8 experimental series. The architecture is entirely black-box compatible—it works with commercial APIs without requiring model access or retraining—and early operational evidence suggests this approach may provide a more immediate path to practical human-level reliability than waiting for architectural breakthroughs in individual models. I’m exploring whether this resonates with Google’s work on model evaluation and ensemble methods, and would welcome any feedback on the theoretical framework or validation approach.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SankalpArora03",
+        "name": "Sankalp Arora",
+        "date": "2025-10-24",
+        "text": "@GoogleResearch Stoked to see",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "keanaelmua",
+        "name": "Kena- Elmuye",
+        "date": "2025-10-24",
+        "text": "@GoogleResearch @grok how many start ups and service providers we talking about losing as a direct cause of this ? \nFurther more can u tap into this and use images to geotag on map ? (Asking for a friend )",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "keanaelmua",
+        "name": "Kena- Elmuye",
+        "date": "2025-10-24",
+        "text": "@GoogleResearch All the state actors in west Africa. 🤣🤣🤣ur so 🪦",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jeremy_AI_",
+        "name": "Jeremy Mcnabb",
+        "date": "2025-10-23",
+        "text": "@GoogleResearch Ok \n\n(Just don’t attempt to wake up the universe as if a power…\nthe earth beneath your feet is designed to collapse beneath the weight of ignorance in the cradle of life so precious”",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G39dWphW8AAsZvR.jpg",
+      "localFilename": "1981405108991824278_1.jpg"
+    }
+  ]
 }

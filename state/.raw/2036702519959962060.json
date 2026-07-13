@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:53.391Z",
+  "tweetId": "2036702519959962060",
+  "post": {
+    "url": "https://x.com/heynavtoor/status/2036702519959962060",
+    "author": {
+      "handle": "heynavtoor",
+      "name": "Nav Toor"
+    },
+    "date": "2026-03-25",
+    "text": "🚨 OpenAI charges $0.006/minute. Google charges $0.024. AWS charges $0.024.\n\nSomeone just open sourced a tool that does it for $0. And it's faster than all of them.\n\nIt's called Insanely Fast Whisper. And that's not hype. That's the benchmark.\n\n150 minutes of audio. 98 seconds to transcribe. On your own machine. No API key. No cloud. No per-minute billing.\n\nHere's what the numbers look like:\n\n→ Whisper Large v3 + Flash Attention 2: 150 min of audio in 98 seconds\n→ Distil Whisper + Flash Attention 2: 150 min in 78 seconds\n→ Standard Whisper without optimization: 31 minutes for the same job\n→ That's a 19x speedup. Same model. Same accuracy. Just faster.\n\nHere's what it does:\n\n→ One command to transcribe any audio file or URL\n→ Speaker diarization — knows WHO said WHAT\n→ Transcription AND translation to other languages\n→ Runs on NVIDIA GPUs and Mac (Apple Silicon)\n→ Flash Attention 2 for maximum speed\n→ Clean JSON output with timestamps\n→ Works with every Whisper model variant\n\nHere's the wildest part:\n\nhttps://t.co/WfJGCpSz09 charges $100/year. Rev charges $1.50/minute. Descript charges $24/month. Enterprise transcription contracts cost thousands.\n\nPodcasters, journalists, researchers, lawyers, content creators — anyone still paying for transcription is lighting money on fire.\n\n8.8K GitHub stars. 633 forks. MIT License.\n\n100% Open Source.\n\n(Link in the comments)",
+    "thread": [
+      {
+        "id": "2036702519959962060",
+        "text": "🚨 OpenAI charges $0.006/minute. Google charges $0.024. AWS charges $0.024.\n\nSomeone just open sourced a tool that does it for $0. And it's faster than all of them.\n\nIt's called Insanely Fast Whisper. And that's not hype. That's the benchmark.\n\n150 minutes of audio. 98 seconds to transcribe. On your own machine. No API key. No cloud. No per-minute billing.\n\nHere's what the numbers look like:\n\n→ Whisper Large v3 + Flash Attention 2: 150 min of audio in 98 seconds\n→ Distil Whisper + Flash Attention 2: 150 min in 78 seconds\n→ Standard Whisper without optimization: 31 minutes for the same job\n→ That's a 19x speedup. Same model. Same accuracy. Just faster.\n\nHere's what it does:\n\n→ One command to transcribe any audio file or URL\n→ Speaker diarization — knows WHO said WHAT\n→ Transcription AND translation to other languages\n→ Runs on NVIDIA GPUs and Mac (Apple Silicon)\n→ Flash Attention 2 for maximum speed\n→ Clean JSON output with timestamps\n→ Works with every Whisper model variant\n\nHere's the wildest part:\n\nhttps://t.co/WfJGCpSz09 charges $100/year. Rev charges $1.50/minute. Descript charges $24/month. Enterprise transcription contracts cost thousands.\n\nPodcasters, journalists, researchers, lawyers, content creators — anyone still paying for transcription is lighting money on fire.\n\n8.8K GitHub stars. 633 forks. MIT License.\n\n100% Open Source.\n\n(Link in the comments)"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HEPSJdQbAAA7sV3.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 5672,
+      "retweets": 492,
+      "replies": 154,
+      "views": 507582
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HEPSJdQbAAA7sV3.jpg",
+      "localFilename": "2036702519959962060_1.jpg"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:14:27.326Z",
+  "tweetId": "1978618643807154469",
+  "post": {
+    "url": "https://x.com/rohanpaul_ai/status/1978618643807154469",
+    "author": {
+      "handle": "rohanpaul_ai",
+      "name": "Rohan Paul"
+    },
+    "date": "2025-10-16",
+    "text": "The paper shows small LLM agents can push other LLMs to learn specific behaviors just through interaction. \n\nshows LLM agents can directly influence each other’s learning rules, not just their immediate actions.\n\nDuring training, both LLM agents keep playing the same game again and again, like many rounds.\n\nBut only one of them, called the “shaper,” waits until all those rounds are finished before it changes its internal settings.\n\nThe other agent, its opponent, updates itself after each smaller episode inside that trial.\n\nSo the shaper gets to watch how the opponent changes step by step, and then it adjusts itself only once, using all that information at the end.\n\nThat’s how the shaper learns how the opponent learns, not just how it plays.\n\nThe shaper feeds simple running counts of past joint moves into the prompt, which gives it compact memory.\n\nIts goal is to change how the other model updates over time, not just win the next turn.\n\nLLM agents both shape others and get shaped during learning, so interaction dynamics drive the end behavior.\n\n----\n\nPaper – arxiv. org/abs/2510.08255\n\nPaper Title: \"Opponent Shaping in LLM Agents\"",
+    "thread": [
+      {
+        "id": "1978618643807154469",
+        "text": "The paper shows small LLM agents can push other LLMs to learn specific behaviors just through interaction. \n\nshows LLM agents can directly influence each other’s learning rules, not just their immediate actions.\n\nDuring training, both LLM agents keep playing the same game again and again, like many rounds.\n\nBut only one of them, called the “shaper,” waits until all those rounds are finished before it changes its internal settings.\n\nThe other agent, its opponent, updates itself after each smaller episode inside that trial.\n\nSo the shaper gets to watch how the opponent changes step by step, and then it adjusts itself only once, using all that information at the end.\n\nThat’s how the shaper learns how the opponent learns, not just how it plays.\n\nThe shaper feeds simple running counts of past joint moves into the prompt, which gives it compact memory.\n\nIts goal is to change how the other model updates over time, not just win the next turn.\n\nLLM agents both shape others and get shaped during learning, so interaction dynamics drive the end behavior.\n\n----\n\nPaper – arxiv. org/abs/2510.08255\n\nPaper Title: \"Opponent Shaping in LLM Agents\""
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3VNiAMXAAA6w7k.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 130,
+      "retweets": 29,
+      "replies": 9,
+      "views": 8093
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3VNiAMXAAA6w7k.jpg",
+      "localFilename": "1978618643807154469_1.jpg"
+    }
+  ]
+}

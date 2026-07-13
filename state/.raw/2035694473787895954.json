@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:12:12.533Z",
+  "tweetId": "2035694473787895954",
+  "post": {
+    "url": "https://x.com/cgtwts/status/2035694473787895954",
+    "author": {
+      "handle": "cgtwts",
+      "name": "CG"
+    },
+    "date": "2026-03-22",
+    "text": "This is WILD. \n\na startup just built an AI memory system that works 99% of the time\n\nSo now:\nAI won’t forget what you said anymore\n\n&gt;every chat\n&gt;every task\n&gt;every detail stays\n\nthis is a huge shift. \n\nit’s going open source in just 11 days . https://t.co/JxdspkcA46 https://t.co/eY0C4CPCnQ",
+    "thread": [
+      {
+        "id": "2035694473787895954",
+        "text": "This is WILD. \n\na startup just built an AI memory system that works 99% of the time\n\nSo now:\nAI won’t forget what you said anymore\n\n&gt;every chat\n&gt;every task\n&gt;every detail stays\n\nthis is a huge shift. \n\nit’s going open source in just 11 days . https://t.co/JxdspkcA46 https://t.co/eY0C4CPCnQ"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2035694387225935872/vid/avc1/1920x1080/R_9OKpGv6MRrWLVb.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2035694387225935872/img/3-WErmrs3ZVf3sPR.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 823,
+      "retweets": 51,
+      "replies": 85,
+      "views": 290198
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2035694387225935872/img/3-WErmrs3ZVf3sPR.jpg",
+      "localFilename": "2035694473787895954_1_poster.jpg"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:02.405Z",
+  "fetchedAt": "2026-07-13T06:47:02.369Z",
   "tweetId": "1972405957939564969",
   "post": {
     "url": "https://x.com/ItsMaclouis/status/1972405957939564969",
@@ -10,6 +11,12 @@
     },
     "date": "2025-09-28",
     "text": "color inspiration - #085 https://t.co/JLpwhGslVC",
+    "thread": [
+      {
+        "id": "1972405957939564969",
+        "text": "color inspiration - #085 https://t.co/JLpwhGslVC"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -21,11 +28,112 @@
       }
     ],
     "metrics": {
-      "likes": 3053,
-      "retweets": 151,
+      "likes": 3039,
+      "retweets": 146,
       "replies": 12,
-      "views": 83002
+      "views": 83441
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "tejavinukollu",
+        "name": "Teja",
+        "date": "2025-09-29",
+        "text": "@ItsMaclouis Great, DM’ed you. Let’s chat?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "twendykirn",
+        "name": "Igor",
+        "date": "2025-09-29",
+        "text": "@ItsMaclouis Thank you for the idea! Love the colors",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_brunotlopes",
+        "name": "Bruno",
+        "date": "2025-09-29",
+        "text": "@ItsMaclouis beautiful",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jahidshuvo525",
+        "name": "Zaid Shuvo",
+        "date": "2025-09-29",
+        "text": "@ItsMaclouis beautiful",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TukiFromKL",
+        "name": "Tuki",
+        "date": "2025-09-29",
+        "text": "@ItsMaclouis I love this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "flap_jakes027",
+        "name": "FlapJakes 🥞",
+        "date": "2025-09-29",
+        "text": "@ItsMaclouis Hey man any tips on how to make these abstract-looking gradients? 🙂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "johngunnarsson3",
+        "name": "john",
+        "date": "2025-09-29",
+        "text": "@ItsMaclouis love this!🔥💯",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jualrumputliar",
+        "name": "kontoru",
+        "date": "2025-09-29",
+        "text": "@ItsMaclouis Tolong buatin di figma dong kk 🥺🥺🥺",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "andreiatdev",
+        "name": "Andrei",
+        "date": "2025-09-28",
+        "text": "@ItsMaclouis @ItsMaclouis PLEASE TELL ME HOW DID YOU MAKE THE SECOND GRADIENT.\nthe grain, the blur, the lines are just so good but i cant find anything which does exactly this.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nadcsr",
+        "name": "Nader",
+        "date": "2025-09-28",
+        "text": "@ItsMaclouis ❤️❤️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G187ozkXAAANeTw.jpg",
+      "localFilename": "1972405957939564969_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G187opmWoAAQhi6.jpg",
+      "localFilename": "1972405957939564969_2.jpg"
+    }
+  ]
 }

@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-06-30T10:00:27.346Z",
+  "fetchedAt": "2026-07-13T07:09:23.494Z",
   "tweetId": "2064730745017356433",
   "post": {
     "url": "https://x.com/Ced_haurus/status/2064730745017356433",
@@ -9,7 +10,17 @@
       "name": "Christophe Boutry"
     },
     "date": "2026-06-10",
-    "text": "📲 Saviez-vous que dans iOS 27, Apple a prévu une liste de pays où le chiffrement des messages RCS (SMS) est interdit ?\n\nChine 🇨🇳. Corée du Sud 🇰🇷. France 🇫🇷.\n\nLe reste du monde déploie l'E2EE, le chiffrement de bout en bout entre iPhone et Android. Une avancée majeure pour la confidentialité de vos SMS.\n\nEn France, c'est bloqué.\n\nLes opérateurs sont prêts techniquement. Ce n'est pas un problème d'infrastructure. C'est un choix politique.\n\nLes raisons sont multiples, la France ayant toujours une longueur d'avance pour affaiblir votre sécurité et s'assurer de pouvoir garder un oeil sur vous. Mais l'une des pistes probables : La PNIJ - la Plateforme Nationale des Interceptions Judiciaires. Un outil qui permet à l'État d'accéder à vos communications. Le chiffrement de bout en bout sur ces millions d'échanges quotidiens lui couperait l'accès. Définitivement.\n\nAlors notre gouvernement fait tout pour que vous restiez exposés.",
+    "text": "📲 Saviez-vous que dans iOS 27, Apple a prévu une liste de pays où le chiffrement des messages RCS (SMS) est interdit ?\n\nChine 🇨🇳. Corée du Sud 🇰🇷. France 🇫🇷.\n\nLe reste du monde déploie l'E2EE, le chiffrement de bout en bout entre iPhone et Android. Une avancée majeure pour la confidentialité de vos SMS.\n\nEn France, c'est bloqué.\n\nLes opérateurs sont prêts techniquement. Ce n'est pas un problème d'infrastructure. C'est un choix politique.\n\nLes raisons sont multiples, la France ayant toujours une longueur d'avance pour affaiblir votre sécurité et s'assurer de pouvoir garder un oeil sur vous. Mais l'une des pistes probables : La PNIJ - la Plateforme Nationale des Interceptions Judiciaires. Un outil qui permet à l'État d'accéder à vos communications. Le chiffrement de bout en bout sur ces millions d'échanges quotidiens lui couperait l'accès. Définitivement.\n\nAlors notre gouvernement fait tout pour que vous restiez exposés.\n\n@LelloucheNico Quand ce n'est pas @EU_Commission qui bloque Apple, c'est la France qui impose ses propres règles 🤷‍♂️",
+    "thread": [
+      {
+        "id": "2064730745017356433",
+        "text": "📲 Saviez-vous que dans iOS 27, Apple a prévu une liste de pays où le chiffrement des messages RCS (SMS) est interdit ?\n\nChine 🇨🇳. Corée du Sud 🇰🇷. France 🇫🇷.\n\nLe reste du monde déploie l'E2EE, le chiffrement de bout en bout entre iPhone et Android. Une avancée majeure pour la confidentialité de vos SMS.\n\nEn France, c'est bloqué.\n\nLes opérateurs sont prêts techniquement. Ce n'est pas un problème d'infrastructure. C'est un choix politique.\n\nLes raisons sont multiples, la France ayant toujours une longueur d'avance pour affaiblir votre sécurité et s'assurer de pouvoir garder un oeil sur vous. Mais l'une des pistes probables : La PNIJ - la Plateforme Nationale des Interceptions Judiciaires. Un outil qui permet à l'État d'accéder à vos communications. Le chiffrement de bout en bout sur ces millions d'échanges quotidiens lui couperait l'accès. Définitivement.\n\nAlors notre gouvernement fait tout pour que vous restiez exposés."
+      },
+      {
+        "id": "2064755847935230288",
+        "text": "@LelloucheNico Quand ce n'est pas @EU_Commission qui bloque Apple, c'est la France qui impose ses propres règles 🤷‍♂️"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,12 +28,931 @@
       }
     ],
     "metrics": {
-      "likes": 2967,
-      "retweets": 1281,
-      "replies": 76,
-      "views": 177651
+      "likes": 2950,
+      "retweets": 1271,
+      "replies": 75,
+      "views": 178372
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "Ced_haurus",
+        "name": "Christophe Boutry",
+        "date": "2026-06-10",
+        "text": "Précision utile :  \n\n1/ Le RCS n'est pas un SMS. Toutefois dans le langage courant, le grand public utiise ce terme pour désigner les messages envoyés par les applications messages natives des OS, par le biais du réseau mobile. Indiquer le terme SMS permet au public de mieux comprendre de quoi on parle.  \n\n2/ Le chiffrement n'est évidemment pas interdit en France, ce que Apple a désactivé, interdit, bloqué, c'est le chiffrement des messages RCS. \n\nJe dénonce une action politique menée entre autres par les services judiciaires et services de renseignements pour empêcher la mise en oeuvre du chiffrement RCS en France. Les infras sont prêtes. Les autres pays le font.  La France est pionnière en matière de tentative d'affaiblir le chiffrement. C'est un fait. Croire qu'Apple et les opérateurs sont limités par l'infra, c'est faire fausse route.",
+        "likes": 105,
+        "isAuthor": true,
+        "isDirectReply": true
+      },
+      {
+        "handle": "viclaroche",
+        "name": "Numeriste",
+        "date": "2026-06-10",
+        "text": "@Ced_haurus 3 pays sur 193 et ça tombe sur nous, c'est pas de chance les probabilités !",
+        "likes": 72,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ced_haurus",
+        "name": "Christophe Boutry",
+        "date": "2026-06-10",
+        "text": "@Tina_otoge Bravo tu as réussi à passer à côté du sujet 👌",
+        "likes": 62,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Ced_haurus",
+        "name": "Christophe Boutry",
+        "date": "2026-06-10",
+        "text": "@viclaroche https://t.co/PXdWiu1I7T",
+        "likes": 38,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Ced_haurus",
+        "name": "Christophe Boutry",
+        "date": "2026-06-10",
+        "text": "@_fyr Non, ce texte n'est pas applicable.\nC’est une obligation de fournir les moyens techniques dont le prestataire dispose réellement.\nApple (ou même Signal et autre) ne disposent pas des clés de chiffrement qui sont générés sur l'appareil.",
+        "likes": 36,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Ced_haurus",
+        "name": "Christophe Boutry",
+        "date": "2026-06-10",
+        "text": "@cochonvenere Si j'envoie 10 sms dans l'année, c'est déjà un record",
+        "likes": 24,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TiinoX83",
+        "name": "Tiino-X83",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus @Toximityx Bonjour, quand vous reprenez une image ou des informations, pensez à citer la source 😉 https://t.co/JpSamBlxgd",
+        "likes": 14,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ced_haurus",
+        "name": "Christophe Boutry",
+        "date": "2026-06-10",
+        "text": "@TyrellCorpbis Le grand public ne fait pas la différence dans la terminologie. L'interface reste la même. Personne ne dit je t'ai envoyé un RCS.",
+        "likes": 14,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LelloucheNico",
+        "name": "Nicolas Lellouche",
+        "date": "2026-06-11",
+        "text": "Hello, j’avais pas vu ton tweet mais c’est un sujet sur lequel je suis depuis un mois. Il y aura un article sur Numerama quand j’aurai toutes les infos. Mais oui, les lois antiterroristes contraignent les opérateurs à ne pas chiffrer les messages et c’est un sujet délicat que personne n’ose aborder directement.",
+        "likes": 10,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ced_haurus",
+        "name": "Christophe Boutry",
+        "date": "2026-06-10",
+        "text": "@Tina_otoge https://t.co/Cz1KlXqfYx",
+        "likes": 10,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Ced_haurus",
+        "name": "Christophe Boutry",
+        "date": "2026-06-10",
+        "text": "@Tina_otoge Je te laisse chercher. différentes interventions de ministre, de parlementaires, et plus récemment un rapport relance une nouvelle fois la volonté de légiférer en ce sens.",
+        "likes": 9,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Ced_haurus",
+        "name": "Christophe Boutry",
+        "date": "2026-06-11",
+        "text": "@TiinoX83 @Toximityx Bonjour @TiinoX83 , navré je l’ai tiré de cette source et je suis passé à côté de votre mention. Je ne peux rectifier le post mais je serais plus vigilant à l’avenir. \n\nhttps://t.co/7cSc7ZG0ff",
+        "likes": 5,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TiinoX83",
+        "name": "Tiino-X83",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus @Toximityx Pas de souci 😉",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "xbeaudouin",
+        "name": "奇伟",
+        "date": "2026-06-11",
+        "text": "@A_Meunier_ @Ced_haurus @Tina_otoge Telegram n’est PAS chiffré par défaut.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FFtwitt34",
+        "name": "Whimsy",
+        "date": "2026-06-11",
+        "text": "@jm_desp @Ced_haurus Oui, car le RN suit juste les recommandations/obligations Européennes, la Macronie va plus loin.\nDonc factuellement la censure serait moins importante sous le RN, que sous Macron. Mais sinon oui, RN ou Macron, nous aurions tout de même beaucoup trop de censure !",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Syxles__",
+        "name": "Syxles 🇫🇷",
+        "date": "2026-06-10",
+        "text": "@potti_jaguar @Ced_haurus laisse tomber c'est simplement parce que certains de nos opérateurs n'ont pas encore l'infrastructure nécessaire pour ce type de chiffrement. Utilise signal ou whatsapp.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jiane_lu",
+        "name": "Lu Jiane",
+        "date": "2026-06-17",
+        "text": "@bill_bouli @Ced_haurus Moi non plus : \"rien à cacher\".\n\nMais je suis contre la censure.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AlexandreRault",
+        "name": "Alexandre Rault",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus France 1984",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Prince_Kindou",
+        "name": "KSG4JESUS",
+        "date": "2026-06-11",
+        "text": "@gordonmelmac @Ced_haurus @LelloucheNico @EU_Commission Impressionnant comment tout le monde est en génuflexion devant le président Emmanuel Macron.\nIl parle comme si ses propos étaient performatifs et hop, les gens s'exécutent. Conseil d'État, Conseil constitutionnel, instances en tout genre, députés, et là Apple.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gaulishcult",
+        "name": "gaulish polythéism",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus @GloiYim Le fait réel c'est qu'on ne peut pas faire confiance aux GAFA en matière de vie privée, de toute façon tout ce que vous passez par ces appareils est enregistré sur serveur distant, puis analysé selon la source et la demande.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "michaeljanich",
+        "name": "Michael Janich 🌎🇪🇺🇩🇪 𝕏",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus @matthew_d_green 😱",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_Vrunk",
+        "name": "JRK",
+        "date": "2026-06-11",
+        "text": "@CommanderTorenn @Ced_haurus Bien au final, en belgique, vu la richesse du RCS, je me retrouve de plus en plus à envoyer des SMS...! Vu qu'au final ils supportent les images, les vocaux, les émojis et les réactions.... que demande de plus une conversation ?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_Vrunk",
+        "name": "JRK",
+        "date": "2026-06-11",
+        "text": "@kagou30 @Ced_haurus En Belgique le RCS est actif depuis plusieurs années déjà",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "th2m12",
+        "name": "Tony Besson🐞🇫🇷",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus @Q_Migliore Merci l’UE et la surveillance de masse",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UnknowmanX99",
+        "name": "Unknowman",
+        "date": "2026-06-10",
+        "text": "@Ced_haurus Pour que le système Eagle puisse continuer à tous nous écouter ? Ce système installé chez tous les FAI et opérateurs...",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Karmelmart",
+        "name": "Merlin M",
+        "date": "2026-06-10",
+        "text": "@Ced_haurus L'UE accepte cette exception française ?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bill_bouli",
+        "name": "Bouli bill",
+        "date": "2026-06-17",
+        "text": "@jiane_lu @Ced_haurus Avec leur politique sur les réseaux sociaux, ils nous considèrent comme des pdo potentiels.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jiane_lu",
+        "name": "Lu Jiane",
+        "date": "2026-06-17",
+        "text": "@bill_bouli @Ced_haurus Génial  : donc présumés coupables (\"gueux\" des \"potes\" de voys savez qui)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bill_bouli",
+        "name": "Bouli bill",
+        "date": "2026-06-17",
+        "text": "@jiane_lu @Ced_haurus Ce sont eux qui décident de ce que tu as a caché.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jiane_lu",
+        "name": "Lu Jiane",
+        "date": "2026-06-17",
+        "text": "@2Ailes @Ced_haurus La Chine utilise l’IA pour traiter les BigData.\n\nLa France utilise les \"potes\" pour censurer.\n\nD’où la différence \"d’efficacité\".",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "OdyNous_agency",
+        "name": "OdyNous",
+        "date": "2026-06-12",
+        "text": "@Ced_haurus Derrière le chiffrement il y a surtout une question de confiance, de pouvoir échanger en ligne sans avoir l'impression que nos conversations peuvent être lues ou surveillées.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "viclaroche",
+        "name": "Numeriste",
+        "date": "2026-06-11",
+        "text": "@LelloucheNico @Ced_haurus @EU_Commission Faudrai poser la question a Sébastien Gros, je crois que ça tombe pile poil dans la fiche de poste de son pantouflage !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MariemichelG",
+        "name": "Mariemichel Gouar",
+        "date": "2026-06-11",
+        "text": "@FFtwitt34 @Ced_haurus Tiens un macroniste... ! 😂🤣💩",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CharlesDeHeris",
+        "name": "Charles de Hérissart 🌿📐",
+        "date": "2026-06-11",
+        "text": "@TotalementL @Ecureuil_123 @Ced_haurus Que vous pensez 😉",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TotalementL",
+        "name": "Abdel KHÉRA",
+        "date": "2026-06-11",
+        "text": "@CharlesDeHeris @Ecureuil_123 @Ced_haurus Je crois que t’as le niveau pour echanger avec eux. Y’a pas un sujet sur lequel ils ont pas travaillé le programme avec des experts du secteur.\nPas certain que tu saches toi meme comment fonctionne un algorithme de chiffrement.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FFtwitt34",
+        "name": "Whimsy",
+        "date": "2026-06-11",
+        "text": "@MariemichelG @Ced_haurus Occupe toi des élections de ta Géorgie natale, avant de raconter des conneries sur les élections Françaises",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "chr_louis",
+        "name": "Louis",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus Les malfrats n'utilisent pas les sms",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xVoogariX",
+        "name": "VoogariX",
+        "date": "2026-06-11",
+        "text": "@ouvertes_portes @Ecureuil_123 @Ced_haurus Ah ben ? C'est pas l'UE qui imposent ces choses ? Chat Control n'était pas une chose proposée par l'UE? Implanter \"backdoor\" dans tout les systèmes de chiffrement n'es pas une chose qui les con d'UE qui veulent l'imposer?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hazae41",
+        "name": "Lee Ash",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus Shithole",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gordonmelmacien",
+        "name": "Gordon Shumway",
+        "date": "2026-06-11",
+        "text": "@Prince_Kindou @Ced_haurus @LelloucheNico @EU_Commission Malheureusement, Apple est habitué à ce genre de pratiques. On l'a vu en Chine avec la désactivation d'AirDrop pendant les manifestations, et plus récemment au Royaume-Uni. La marque génuflexion devant les états pour préserver son business, au détriment de ses clients.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bellotric1",
+        "name": "bellot éric",
+        "date": "2026-06-11",
+        "text": "Ce que ça veut dire concrètement\n•  Légal : oui, le E2EE RCS est autorisé.\n•  En pratique : les autorités exercent une pression forte (politique/réglementaire) pour qu’il ne soit pas appliqué en France, afin de garder un accès facile au contenu des messages RCS.\nIl n’est pas interdit, donc autorisé légalement (et techniquement ok) à être utilisé, mais les autorités disent non!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Deezney420",
+        "name": "Jew Ater",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus Right from time, I knew this RCS stuff would be trash. Stick with Signal or even WhatsApp. Any protocol you can't control is just State surveillance in disguise",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EnergyThen",
+        "name": "Henry",
+        "date": "2026-06-11",
+        "text": "@Tina_otoge @Ced_haurus Autre argument: si ce n'était pas une raison politique, alors tous les opérateurs qui utilisent Jibe pour fournir le service laisseraient l'E2EE activée. La France n'a pas de raison de faire exception sur ses 4 opérateurs, en particulier Orange qui bosse avec Google depuis 2017.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EnergyThen",
+        "name": "Henry",
+        "date": "2026-06-11",
+        "text": "@Tina_otoge @Ced_haurus Le RCS est une bizarrerie car Google a fournit le service complètement OTT pendant des années, mais aujourd'hui avec le support iOS, c'est ton opérateur qui l'active ou pas, donc la responsabilité légale change de camp.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EnergyThen",
+        "name": "Henry",
+        "date": "2026-06-11",
+        "text": "@Tina_otoge @Ced_haurus Les opérateurs ne sont pas soumis au même cadre légal.\nÇa marche aussi pour d'autres services d'ailleurs, à commencer par les appels vocaux. Ton opérateur doit pouvoir fournir des données en cas d'interception légale alors que WhatsApp et co offrent ce service chiffré e2e.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LenweSaralonde",
+        "name": "Lenwë Sáralondë 💙",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus Pourtant on a WhatsApp et plein d’autres applications de messagerie cryptée de bout en bout 🤔",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "saymonz",
+        "name": "Simon",
+        "date": "2026-06-11",
+        "text": "@espie_openbsd @Ced_haurus Ça fonctionne comme iMessage/WhatsApp : chaque client enregistre son numéro comme compatible RCS. Un numéro qui ne l'a jamais activé ne recevra jamais de RCS.\nPar contre, qu'on le retrouve activé plus ou moins par défaut sur des lignes qui n'ont internet qu'en wi-fi, possible...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Kr1mZ0_Off",
+        "name": "KrimZ0",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus @KuptoKosmos Previsible au regard global sur l’UE MDRRR \"VIVE SIGNAL\"",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "castomeas",
+        "name": "Mēås",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus Si vous souhaitez une sécurité utilisé Signal ou Threema restent à ce jour l’une des solutions les plus fiables car leur chiffrement de bout en bout est indépendant des réglages de l'opérateur ou des constructeur de smartphone",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SnowlyCrocmou",
+        "name": "ae",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus iOS 18.3 c'est bon ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RespectezMarie",
+        "name": "VousRepetezLesMemesErreurs 🌍",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus Faut bien que « certains » puissent nous surveiller …",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lanoixdu24",
+        "name": "lanoixduperigord",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus il faut ouvrir un apple id au canada .. \nmince alors, j’en ai déjà un, quel hasard .. 🤣🤣",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "floconsauvage01",
+        "name": "EveR",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus Les autres pays européens ont modernisé leurs méthodes parce qu’ils ont les ressources humaines et techniques pour le faire. Tant que la France ne réinvestira pas massivement dans sa justice et ses services, elle restera bloquée dans un modèle dépassé!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eustck",
+        "name": "eust.ck",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus Qui utilise sms aujourd’hui à part mamie ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mah_Rui_An",
+        "name": "马瑞安",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus La NSA ne casse pas le chiffrement, elle pirate votre téléphone. La France, elle, écoute via les opérateurs (PNIJ). L'E2EE coupe ce robinet. Voilà pourquoi elle bloque ce que 🇺🇸🇬🇧 acceptent.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MariemichelG",
+        "name": "Mariemichel Gouar",
+        "date": "2026-06-11",
+        "text": "@FFtwitt34 @Ced_haurus Macron n'a pas été élu en 2022... Les élections ont été largement truquées. Il suffit déjà de se renseigner sur le lieu où se trouve les serveurs terminaux des comptages de voix...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "boyan_d",
+        "name": "Boyan Drenec",
+        "date": "2026-06-11",
+        "text": "@CosmoThought @Ced_haurus I do.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "boyan_d",
+        "name": "Boyan Drenec",
+        "date": "2026-06-11",
+        "text": "@CommanderTorenn @Ced_haurus Tout le temps.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "boyan_d",
+        "name": "Boyan Drenec",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus @TyrellCorpbis Qu'est-ce qu'un RCS ?\n\nSMS, je vois, ça passe par mon opérateur téléphonique (sont-ils chiffrés, d'ailleurs ?).\n\nRCS c'est quoi ?\nTelegram/Whatsapp/ Signal, etc. ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "qimuai",
+        "name": "齐木(qimuai)",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus 偏偏轮到了我们",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ouvertes_portes",
+        "name": "Antonin Boisse",
+        "date": "2026-06-11",
+        "text": "@0xVoogariX @Ecureuil_123 @Ced_haurus L’UE n’as rien as voir la dedans. Ne melangez pas tout",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WhyNot_OG",
+        "name": "WhyNot ⚔️",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus .@jon_delorraine",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DabbeneMar47828",
+        "name": "marcel dabbene",
+        "date": "2026-06-11",
+        "text": "@TyrellCorpbis @Ced_haurus T'es tellement con que même tes petits drapeaux prouvent ta docilité et ton aboutissement, no comment",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NoDATA010",
+        "name": "No DATA",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus @durov",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jacques32531145",
+        "name": "Jacques",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus Macron toujours à la pointe des coups tordus contre la France.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cochonvenere",
+        "name": "noX",
+        "date": "2026-06-11",
+        "text": "@PixAile @Ced_haurus Ou j'avais oublié leur communiqué j'ai vu passer l'info",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PixAile",
+        "name": "Pierre MAIRÉ",
+        "date": "2026-06-11",
+        "text": "@cochonvenere @Ced_haurus Session, c'est mort (ou en passe de l'être).",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "psirodiz",
+        "name": "Psiroduz",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus Qui passe par IMessage pour des infos personnelles ? 🙄 bref",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CosmoThought",
+        "name": "Skeletorian",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus Who still uses SMS for anything else other than notifications about a delivery or the status of a service?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AddictCryptoBoy",
+        "name": "AddictCryptoBoy",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus Important à savoir et terrifiant à la fois.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Adrien_3921",
+        "name": "Adrien",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus De toute façon si on veut une messagerie privée il n'y a rien",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iamyourliker",
+        "name": "苏沐",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus 这种事总是有中国",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nomailx1742701",
+        "name": "nomailx",
+        "date": "2026-06-11",
+        "text": "@GolemGrognon @Ced_haurus @bill_bouli @Apple *Samsung*\nLOL",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Gexrider1000",
+        "name": "Gexrider",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus Lutte contre le narco trafic et la criminalité organisée.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "realdeakins",
+        "name": "DK",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus 看到欧盟🇪🇺、法国🇫🇷和我们遭遇了一样的狗屎，我不禁开心起来🇨🇳",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "realdeakins",
+        "name": "DK",
+        "date": "2026-06-11",
+        "text": "@viclaroche @Ced_haurus same here🇨🇳",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Lili1h_Cs",
+        "name": "Lilith",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus @_SaxX_ tiens tiens",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EnergyThen",
+        "name": "Henry",
+        "date": "2026-06-11",
+        "text": "@Alex_____L @Ced_haurus Ce qui est pas nouveau, en 10 ans de Jibe/GM, ils ont toujours procédé de manière extrêmement peu transparente. Et vu qu'Apple a trainé des pieds pendant des années, y a pas vraiment d'urgence.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EnergyThen",
+        "name": "Henry",
+        "date": "2026-06-11",
+        "text": "@Alex_____L @Ced_haurus Et de nouveau non, le paramètre est clairement un opt-out. Quand l'E2EE fonctionne, il est absent du bundle. On a aucune idée de la stratégie suivie par Google pour le rollout global, entre différentes régions, opérateurs, GM stable ou beta, ils ne communiquent rien de précis.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Alex_____L",
+        "name": "Alex",
+        "date": "2026-06-11",
+        "text": "@EnergyThen @Ced_haurus L'IMS gère l'authentification, pas les features. Sur iOS, le client est bridé localement par le .plist de l'opérateur. Même si le flux va chez Jibe, sans une config UP 3.0/MLS validée au provisioning, iOS n'activera pas l'E2EE. Jibe ou pas.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EnergyThen",
+        "name": "Henry",
+        "date": "2026-06-10",
+        "text": "@Alex_____L @Ced_haurus Toute la partie E2EE en MLS est une extension éditée par un employé Google, complètement optionelle.\nDe toute façon les membres du GSMA n'ont aucun pouvoir coercitif. La relation et les arrangements entre deux vendeurs comme Google et Apple ne regarde personne.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EnergyThen",
+        "name": "Henry",
+        "date": "2026-06-10",
+        "text": "@Alex_____L @Ced_haurus Et de nouveau le client auto-négocie les fonctionnalités supportées en communiquant directement avec le backend. Comme GM négociait l'E2EE ad-hoc avec libsignal. La spec est flexible et Apple n'a implémenté aucune des fonctionnalités dans UP 2.7, a fortiori 3.0 et 3.1.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EnergyThen",
+        "name": "Henry",
+        "date": "2026-06-10",
+        "text": "@Alex_____L @Ced_haurus Le carrier bundle c'est un fichier .plist avec des paramètres... pour la 3e fois, le client d'Apple s'enregistre via l'infra IMS de l'opérateur, *c'est tout*. Le trafic applicatif part directement chez Google. La seule différence avec GM c'est que lui peut s'enregistrer OTT.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "A_Meunier_",
+        "name": "Arnaud Meunier🏳️‍🌈💉💉💉☢️🔬⚛️🟣🇺🇦",
+        "date": "2026-06-10",
+        "text": "@Ced_haurus @Tina_otoge Bonsoir\nJe vois pas où est ce que @Tina_otoge a tort, actuellement les messageries telles que signal ou Telegram sont (à ma connaissance) cryptées de façon à empêcher toute \"écoute\", même par les services du gvt, non ?\nMerci",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "boydaihungst",
+        "name": "LongDarkFantasy",
+        "date": "2026-06-10",
+        "text": "@Ced_haurus Doesn't matter. I don't even remember the last time I use sms to message someone. 😅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jm_desp",
+        "name": "Jean-Marc Desperrier",
+        "date": "2026-06-10",
+        "text": "@FFtwitt34 @Ced_haurus Tu as vraiment l'impression que les autres gars soutiennent plus la liberté d'expression ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Alex_____L",
+        "name": "Alex",
+        "date": "2026-06-10",
+        "text": "@EnergyThen @Ced_haurus Nuance, je ne dis pas qu'iOS ne se connecte pas à Jibe : iOS parle à Jibe via le Carrier Bundle, pas en mode boîte noire/OTT comme une appli tierce. Par ailleurs, l'E2EE universel (MLS) est techniquement impossible en UP 2.4 : c'est une spécification exclusive à la norme 3.0.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EnergyThen",
+        "name": "Henry",
+        "date": "2026-06-10",
+        "text": "@Alex_____L @Ced_haurus L'opérateur gère l'infra qui gère l'enregistrement via IMS, c'est tout.\n\nChamps .RCS.ProvisioningData.ServerURL dans les carrier bundles:\nBouygues https://t.co/O0wI1AaB16\nFree config.rcs.mnc$mnc.mcc$mcc.jibecloud.net\nOrange https://t.co/jt2uY4d3aF\nSFR https://t.co/Z6xx3eZgBa",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "im_morganwang",
+        "name": "MorganWang",
+        "date": "2026-06-10",
+        "text": "@Ced_haurus So bad to hear this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EnergyThen",
+        "name": "Henry",
+        "date": "2026-06-10",
+        "text": "@Alex_____L @Ced_haurus Le client iOS ne supporte *pas* UP 3.0 ni même 2.7. Natif ou pas on s'en tape. Apple supporte les fonctionnalités dans UP 2.4 et l'E2EE, c'est tout pour l'instant.\n\nSi le client ne pouvait pas se connecter à Jibe alors le RCS ne fonctionnerait pas sur à peu près toute la planète.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "aphextweenk",
+        "name": "machine girl lover",
+        "date": "2026-06-10",
+        "text": "@CharlesDeHeris @TotalementL @Ecureuil_123 @Ced_haurus mais la fi est le parti ayant le plus travaillé avec la quadrature du net ces dernières années par exemple 🤙",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LechodHugo",
+        "name": "Hugo",
+        "date": "2026-06-10",
+        "text": "@Ced_haurus Il y a vraiment ces trois pays ? Je ne trouve pas cette liste officielle avec Chine, Corée du Sud et France",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cousin59597397",
+        "name": "et pourquoi pas",
+        "date": "2026-06-10",
+        "text": "@Tina_otoge @Ced_haurus La pnij n'intercepte ''que'' les communications concernant les opérateurs téléphoniques..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Alex_____L",
+        "name": "Alex",
+        "date": "2026-06-10",
+        "text": "@EnergyThen @Ced_haurus Tu décris Google Messages qui passe outre le réseau avec Jibe. Sur iOS, le client est natif. Il n'a aucun accès direct au SaaS et obéit à 100 % au Carrier Bundle. Si l'opérateur ne pousse pas GSMA 3.0, l'iPhone bloque. Google et Apple ont des implémentations différentes.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "f_webdev",
+        "name": "Webdev #TEAM-AntiTrolls",
+        "date": "2026-06-10",
+        "text": "@Ced_haurus OK mais où puis avoir des précisions sur ce que tu avances ?\nA priori j'ai aussi ce type d'intuition, mais j'aime bien valider par moi-même lorsque c'est possible 🙏",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "magnesium9235",
+        "name": "mamamia",
+        "date": "2026-06-10",
+        "text": "@espie_openbsd @Ced_haurus Sur android? J'ai jamais eu le problème et c'est plutôt l'inverse, ça repasse en sms aléatoirement sans raison",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Furiousfox3000",
+        "name": "F",
+        "date": "2026-06-10",
+        "text": "@Ced_haurus Quand est t’il de FaceTime tu sais ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "radioralq",
+        "name": "📻",
+        "date": "2026-06-10",
+        "text": "@TotalementL @Ecureuil_123 @Ced_haurus si c’est pour dire de la merde ferme ta gueule jean paul pas de cerveau",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hdjebar",
+        "name": "Djebar HAMMOUCHE 🤔🤔🤔🙏",
+        "date": "2026-06-10",
+        "text": "@Ced_haurus @LelloucheNico @EU_Commission Et pourquoi cela fonctionne sous Android ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Ced_haurus",
+        "name": "Christophe Boutry",
+        "date": "2026-06-10",
+        "text": "@hdjebar @LelloucheNico @EU_Commission https://t.co/0GCu4zCR1B https://t.co/YJXw1IF7P4",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hdjebar",
+        "name": "Djebar HAMMOUCHE 🤔🤔🤔🙏",
+        "date": "2026-06-10",
+        "text": "D’autant que, côté Android, les chats RCS entre utilisateurs Google Messages sont déjà chiffrés de bout en bout, y compris en France, dès que l’opérateur supporte RCS. Autrement dit : la France accepte déjà le RCS chiffré sur Android–Android, mais reste à la traîne sur le RCS chiffré iPhone–Android. On peut donc parler d’un choix au minimum très conservateur, voire politique, mais pas affirmer qu’il existe (à ce stade) une interdiction formelle et documentée du chiffrement RCS E2EE sur iPhone en France",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "L0GYKAL",
+        "name": "L0GYKAL.gwei",
+        "date": "2026-06-10",
+        "text": "@Ced_haurus Wtf",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
   },
   "downloadedImages": [
     {

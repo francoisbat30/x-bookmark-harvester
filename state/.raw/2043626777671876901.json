@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:12.433Z",
+  "tweetId": "2043626777671876901",
+  "post": {
+    "url": "https://x.com/heynavtoor/status/2043626777671876901",
+    "author": {
+      "handle": "heynavtoor",
+      "name": "Nav Toor"
+    },
+    "date": "2026-04-13",
+    "text": "Someone built a tool that reads all your chat messages and creates an AI clone of you. It talks like you. Responds like you. Thinks like you. 16,400 GitHub stars.\n\nIt's called WeClone.\n\nExport your chat history. Feed it to the tool. It fine-tunes an AI model on YOUR messages. Your slang. Your humor. Your tone. Your personality. Then it binds to a chatbot and becomes you.\n\nNot a generic chatbot with your name on it. An AI trained on thousands of YOUR actual conversations. It learns how YOU respond to questions, jokes, arguments, and small talk.\n\nHere's how it works:\n\n→ Export your chat logs from WeChat, Telegram, or any messaging app\n→ WeClone processes and cleans the data automatically\n→ Fine-tunes an LLM on your conversation style and patterns\n→ Captures your unique vocabulary, tone, humor, and personality\n→ Binds the trained model to a chatbot interface\n→ Your digital twin is live. People can talk to \"you\" when you're not there.\n\nHere's the wildest part:\n\nYour friends text your AI clone. They can't tell it's not you.\n\nIt uses your actual phrases. It mirrors your response timing patterns. It knows how you react to specific topics because it learned from real conversations where you did exactly that.\n\nThis is not a parlor trick. This is digital identity preservation. Your grandchildren could talk to an AI version of you long after you're gone. Your personality. Your stories. Your humor. Preserved.\n\nThe AI twin industry is projected to be worth billions. Companies charge thousands for custom digital personas.\n\nThis is free. Self-hosted. Your data stays on your machine.\n\n16.4K GitHub stars. 1.3K forks. 422 commits. AGPL-3.0 License.\n\n100% Open Source.",
+    "thread": [
+      {
+        "id": "2043626777671876901",
+        "text": "Someone built a tool that reads all your chat messages and creates an AI clone of you. It talks like you. Responds like you. Thinks like you. 16,400 GitHub stars.\n\nIt's called WeClone.\n\nExport your chat history. Feed it to the tool. It fine-tunes an AI model on YOUR messages. Your slang. Your humor. Your tone. Your personality. Then it binds to a chatbot and becomes you.\n\nNot a generic chatbot with your name on it. An AI trained on thousands of YOUR actual conversations. It learns how YOU respond to questions, jokes, arguments, and small talk.\n\nHere's how it works:\n\n→ Export your chat logs from WeChat, Telegram, or any messaging app\n→ WeClone processes and cleans the data automatically\n→ Fine-tunes an LLM on your conversation style and patterns\n→ Captures your unique vocabulary, tone, humor, and personality\n→ Binds the trained model to a chatbot interface\n→ Your digital twin is live. People can talk to \"you\" when you're not there.\n\nHere's the wildest part:\n\nYour friends text your AI clone. They can't tell it's not you.\n\nIt uses your actual phrases. It mirrors your response timing patterns. It knows how you react to specific topics because it learned from real conversations where you did exactly that.\n\nThis is not a parlor trick. This is digital identity preservation. Your grandchildren could talk to an AI version of you long after you're gone. Your personality. Your stories. Your humor. Preserved.\n\nThe AI twin industry is projected to be worth billions. Companies charge thousands for custom digital personas.\n\nThis is free. Self-hosted. Your data stays on your machine.\n\n16.4K GitHub stars. 1.3K forks. 422 commits. AGPL-3.0 License.\n\n100% Open Source."
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HFxruW2bQAADTsl.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1603,
+      "retweets": 200,
+      "replies": 55,
+      "views": 109394
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HFxruW2bQAADTsl.jpg",
+      "localFilename": "2043626777671876901_1.jpg"
+    }
+  ]
+}

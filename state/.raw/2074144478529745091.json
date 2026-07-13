@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:09:55.285Z",
+  "tweetId": "2074144478529745091",
+  "post": {
+    "url": "https://x.com/kapilansh_twt/status/2074144478529745091",
+    "author": {
+      "handle": "kapilansh_twt",
+      "name": "kapilansh"
+    },
+    "date": "2026-07-06",
+    "text": "Linux does things\nWindows never could\n\nand never will https://t.co/Tfllvo0rXD",
+    "thread": [
+      {
+        "id": "2074144478529745091",
+        "text": "Linux does things\nWindows never could\n\nand never will https://t.co/Tfllvo0rXD"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2074144387219742720/vid/avc1/1280x720/sRcW3j9xEskKYkia.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2074144387219742720/img/2iSVc8RO3P6C0fpw.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 588,
+      "retweets": 32,
+      "replies": 99,
+      "views": 36065
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2074144387219742720/img/2iSVc8RO3P6C0fpw.jpg",
+      "localFilename": "2074144478529745091_1_poster.jpg"
+    }
+  ]
+}

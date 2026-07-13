@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:56.577Z",
+  "fetchedAt": "2026-07-13T06:48:03.490Z",
   "tweetId": "1977681172181467638",
   "post": {
     "url": "https://x.com/aigleeson/status/1977681172181467638",
@@ -9,19 +10,290 @@
       "name": "Louis Gleeson"
     },
     "date": "2025-10-13",
-    "text": "🚨 Google just did it again.\n\nThey built a voice model that doesn’t transcribe speech it understands it.\n\nIt’s called Speech-to-Retrieval (S2R) and it’s about to make voice search feel telepathic.\n\nHere’s how it works (and why it’s a bigger deal than you think) ↓ https://t.co/kc2Dk6YDK2",
+    "text": "🚨 Google just did it again.\n\nThey built a voice model that doesn’t transcribe speech it understands it.\n\nIt’s called Speech-to-Retrieval (S2R) and it’s about to make voice search feel telepathic.\n\nHere’s how it works (and why it’s a bigger deal than you think) ↓ https://t.co/kc2Dk6YDK2\n\nOld voice search worked like this:\n\nSpeech → Text → Search.\n\nIf ASR misheard a single word, you got junk results.\n\nSay “The Scream painting” → ASR hears “screen painting” → you get art tutorials instead of Munch.\n\nS2R deletes that middle step completely.\n\nS2R asks a different question.\n\nNot “What did you say?”\nBut “What are you looking for?”\n\nThat’s a philosophical shift from transcription to understanding.\n\nUnder the hood it’s a dual-encoder model:\n\n- one network turns your audio into a semantic vector\n- another turns documents into the same vector space\n\nTraining pushes matching pairs close together, so your query lands directly on the right info.\n\nNo text required.\n\nThe numbers are wild.\n\nAcross 17 languages, S2R nearly matches “perfect ASR” performance closing most of the gap between human-level transcription and today’s voice search.\n\nIt doesn’t just fix typos. It fixes intent.\n\nEven more interesting:\n\nResearchers found that lower WER doesn’t guarantee better retrieval.\n\nMeaning: improving transcription accuracy hits diminishing returns.\n\nDirect audio-to-retrieval learns what matters, not what was literally said. https://t.co/EX35Fep48t\n\nThis isn’t a demo. It’s live.\n\nS2R now powers Google Voice Search in multiple languages faster, more accurate, and less brittle than cascade systems.\n\nThey also open-sourced the Simple Voice Questions (SVQ) dataset via the Massive Sound Embedding Benchmark (MSEB).\n\nSpeech-to-Retrieval turns voice from a gimmick into a first-class interface.\n\nThe next frontier isn’t “talking to text.”\n\nIt’s talking to meaning.",
+    "thread": [
+      {
+        "id": "1977681172181467638",
+        "text": "🚨 Google just did it again.\n\nThey built a voice model that doesn’t transcribe speech it understands it.\n\nIt’s called Speech-to-Retrieval (S2R) and it’s about to make voice search feel telepathic.\n\nHere’s how it works (and why it’s a bigger deal than you think) ↓ https://t.co/kc2Dk6YDK2"
+      },
+      {
+        "id": "1977681184177135803",
+        "text": "Old voice search worked like this:\n\nSpeech → Text → Search.\n\nIf ASR misheard a single word, you got junk results.\n\nSay “The Scream painting” → ASR hears “screen painting” → you get art tutorials instead of Munch.\n\nS2R deletes that middle step completely.\n\nS2R asks a different question.\n\nNot “What did you say?”\nBut “What are you looking for?”\n\nThat’s a philosophical shift from transcription to understanding."
+      },
+      {
+        "id": "1977681200107209204",
+        "text": "Under the hood it’s a dual-encoder model:\n\n- one network turns your audio into a semantic vector\n- another turns documents into the same vector space\n\nTraining pushes matching pairs close together, so your query lands directly on the right info.\n\nNo text required.\n\nThe numbers are wild.\n\nAcross 17 languages, S2R nearly matches “perfect ASR” performance closing most of the gap between human-level transcription and today’s voice search.\n\nIt doesn’t just fix typos. It fixes intent."
+      },
+      {
+        "id": "1977681215324033113",
+        "text": "Even more interesting:\n\nResearchers found that lower WER doesn’t guarantee better retrieval.\n\nMeaning: improving transcription accuracy hits diminishing returns.\n\nDirect audio-to-retrieval learns what matters, not what was literally said. https://t.co/EX35Fep48t"
+      },
+      {
+        "id": "1977681227634339885",
+        "text": "This isn’t a demo. It’s live.\n\nS2R now powers Google Voice Search in multiple languages faster, more accurate, and less brittle than cascade systems.\n\nThey also open-sourced the Simple Voice Questions (SVQ) dataset via the Massive Sound Embedding Benchmark (MSEB).\n\nSpeech-to-Retrieval turns voice from a gimmick into a first-class interface.\n\nThe next frontier isn’t “talking to text.”\n\nIt’s talking to meaning."
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/1977681118037155840/vid/avc1/888x720/_aCM6rtDAHqKL2_2.mp4?tag=14"
+        "url": "https://video.twimg.com/amplify_video/1977681118037155840/vid/avc1/888x720/_aCM6rtDAHqKL2_2.mp4?tag=14",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1977681118037155840/img/WvvOEcpjakgcinPC.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3Iikj7b0AAtmNl.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3IilcKbQAA9Ltn.jpg"
       }
     ],
     "metrics": {
-      "likes": 519,
-      "retweets": 66,
+      "likes": 515,
+      "retweets": 67,
       "replies": 25,
-      "views": 57632
+      "views": 57652
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "collantes",
+        "name": "carlos keeps learning",
+        "date": "2025-10-14",
+        "text": "@aigleeson Isn't that @Meta JEP-A models? But also adding vision, all in the same vector space",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Elyordev",
+        "name": "Elyor",
+        "date": "2025-10-13",
+        "text": "@aigleeson @AlexThinkBright amazing",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alex_prompter",
+        "name": "Alex Prompter",
+        "date": "2025-10-13",
+        "text": "@aigleeson Funny how voice suddenly feels usable again.\n\nS2R is the kind of shift that makes people build new products.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mauriciozane",
+        "name": "Mauricio Zane",
+        "date": "2025-10-30",
+        "text": "@aigleeson Take a look @lucas_montano",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AbdMuizAdeyemo",
+        "name": "Abdulmuiz Adeyemo",
+        "date": "2025-10-14",
+        "text": "@aigleeson Incredible",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vikram_davhfc",
+        "name": "Vikram Kumar",
+        "date": "2025-10-14",
+        "text": "@Timofey_Khmelev @aigleeson Yes, bcz probably most devs are Russian or Indian origin. \n\nJk lol 😂",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Andres_v_Rey",
+        "name": "Andres Rey",
+        "date": "2025-10-14",
+        "text": "@aigleeson Voice AI that understands context without transcription eliminates a massive bottleneck. Direct semantic processing means faster, more accurate results. Innovation.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RyanJoseph",
+        "name": "Ryan Joseph",
+        "date": "2025-10-13",
+        "text": "@aigleeson this is a game changer. i’ve largely not used voice-driven tech for the shortfalls you’ve noted. increased fluidity is needed to speed things up to make tech highly useful.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "carlosml",
+        "name": "Carlos Lebron",
+        "date": "2025-10-13",
+        "text": "@aigleeson Voice search that gets you? Google’s basically building a mind reader now",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alex_verem",
+        "name": "Alex Veremeyenko",
+        "date": "2025-10-13",
+        "text": "@aigleeson Audio vectorization + dual encoders is a serious unlock.\n\nExpect this architecture to pop up in more than just search.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TaposSarkar25",
+        "name": "Tapos Sarkar",
+        "date": "2026-03-17",
+        "text": "@aigleeson i am a Google voice seller. 2fa old Google voice available",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "legaldesignDO",
+        "name": "🐝🌾LegalDesign.DO",
+        "date": "2025-10-14",
+        "text": "@aigleeson Where code, where demo..me likeee",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "C12s_AI",
+        "name": "C12s",
+        "date": "2025-10-14",
+        "text": "@aigleeson Voice search just went next-level.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AndrejDrats",
+        "name": "Andrej Drats",
+        "date": "2025-10-14",
+        "text": "@aigleeson Context-aware voice AI is about to make automation feel effortless.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "heinrichems1",
+        "name": "Alexander Joshua",
+        "date": "2025-10-14",
+        "text": "@aigleeson Get a FREE month of Perplexity Pro (includes access to GPT-5, Claude 4.5, Veo 3, and more).\nTo claim, just download the Comet browser through this link and ask a question inside:\n👉 https://t.co/vpeIkCCI1W",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Timofey_Khmelev",
+        "name": "Timofey Khmelev",
+        "date": "2025-10-14",
+        "text": "@aigleeson wow, didn’t know WER was lowest for Russian and Hindi. does it have something to do with developers’ origins? 🤔",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AlonLaleza30319",
+        "name": "alon Lalezari",
+        "date": "2025-10-14",
+        "text": "@aigleeson Just try to use it and see that it stills doesnt work good, why all the hype? just use it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "afridi_aka1",
+        "name": "Ak afridi",
+        "date": "2025-10-14",
+        "text": "@aigleeson Revolutionary approach! Bypassing transcription and directly understanding semantic meaning is huge. This could eliminate accuracy issues from speech-to-text errors and make voice interfaces truly intuitive. Game changer for accessibility too.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "santosh_web",
+        "name": "Santosh Vishwakarma",
+        "date": "2025-10-14",
+        "text": "@aigleeson S2R interesting",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Norwakar",
+        "name": "Diwakar Ray Yadav",
+        "date": "2025-10-14",
+        "text": "@aigleeson This is huge. Direct audio to meaning changes everything",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AIwithryanj",
+        "name": "Ryan Jin",
+        "date": "2025-10-13",
+        "text": "@aigleeson This is a huge shift  moving from transcription to true semantic understanding could redefine how humans interact with search and digital assistants.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shekhar_kotekar",
+        "name": "🇮🇳 Chandrashekhar",
+        "date": "2025-10-13",
+        "text": "@aigleeson Does it listen to us even when we dont want it to?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nextool_ai",
+        "name": "The Nextool AI",
+        "date": "2025-10-13",
+        "text": "@aigleeson The WER obsession led us down the wrong path.\n\nRetrieval quality should have been the north star all along.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rryssf",
+        "name": "Robert Youssef",
+        "date": "2025-10-13",
+        "text": "@aigleeson ASR always felt brittle.\nThis?\n\nThis feels like intelligence.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "heyrimsha",
+        "name": "Rimsha Bhardwaj",
+        "date": "2025-10-13",
+        "text": "@aigleeson This is what voice interfaces were supposed to be.\nNot speech-to-text.\n\nSpeech-to-intent.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1977681118037155840/img/WvvOEcpjakgcinPC.jpg",
+      "localFilename": "1977681172181467638_1_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3Iikj7b0AAtmNl.jpg",
+      "localFilename": "1977681172181467638_2.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3IilcKbQAA9Ltn.jpg",
+      "localFilename": "1977681172181467638_3.jpg"
+    }
+  ]
 }

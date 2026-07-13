@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:51.230Z",
+  "fetchedAt": "2026-07-13T06:49:03.871Z",
   "tweetId": "1981518502478385392",
   "post": {
     "url": "https://x.com/Copilot/status/1981518502478385392",
@@ -9,14 +10,380 @@
       "name": "Microsoft Copilot"
     },
     "date": "2025-10-24",
-    "text": "A few new updates just landed for Copilot! 🛬​\n\nCheck out a breakdown of what's new below. 🧵🔽",
-    "media": [],
+    "text": "A few new updates just landed for Copilot! 🛬​\n\nCheck out a breakdown of what's new below. 🧵🔽\n\n🔗 Your content, connected.​\n\nWith Connectors, Copilot searches across OneDrive, Outlook, Gmail, Google Drive, and Google Calendar using natural language. Find docs, emails, and events in seconds — with built-in privacy and full control over what’s connected. https://t.co/R6ePEDmtDH\n\n👥 AI should bring people together. That's why we created Groups.​\n\n​Copilot lets you collaborate in real time to keep everyone aligned with summaries, options, votes, and tasks. Start a session, send the link, and anyone can join. https://t.co/12Boxn5hgy\n\n🌎 Copilot Mode in Edge is evolving into your AI browser — summarizing tabs, taking actions, and organizing your browsing into storylines. https://t.co/kcO9kue2Ja\n\n📚 Learning just got more interactive.​\n\nWith Learn Live, Copilot becomes a voice-enabled Socratic tutor — guiding you through concepts, not just giving answers. https://t.co/dL3OOzCGH7\n\n🏥 Copilot for health puts trusted answers and care within reach. It grounds responses based in credible sources like Harvard Health, and helps you find the right doctor, fast. Search by specialty, location, language, and more. https://t.co/uTgPjhD97h\n\n✨ Meet Mico — your expressive Copilot companion.​\n\nA warm, customizable presence that listens, reacts, and even changes color as you chat. With animations and subtle cues, Mico makes voice conversations feel more human, more connected. https://t.co/DbF24cZGzh\n\n💻 Copilot on Windows turns every PC into an AI PC.​\n\nFrom brainstorming to troubleshooting, it helps you stay focused on what matters. Say \"Hey Copilot\" to start a conversation, jump back into\nrecent files, or get real-time guidance with Vision. Simple, familiar, and ready when you are.\n\nCheck out all of Copilot's features and explore everything that’s new — smarter tools, smoother workflows, and more ways to get things done.​ ​​https://t.co/RpiePbpOWB",
+    "thread": [
+      {
+        "id": "1981518502478385392",
+        "text": "A few new updates just landed for Copilot! 🛬​\n\nCheck out a breakdown of what's new below. 🧵🔽"
+      },
+      {
+        "id": "1981518505103999192",
+        "text": "🔗 Your content, connected.​\n\nWith Connectors, Copilot searches across OneDrive, Outlook, Gmail, Google Drive, and Google Calendar using natural language. Find docs, emails, and events in seconds — with built-in privacy and full control over what’s connected. https://t.co/R6ePEDmtDH"
+      },
+      {
+        "id": "1981518509294158169",
+        "text": "👥 AI should bring people together. That's why we created Groups.​\n\n​Copilot lets you collaborate in real time to keep everyone aligned with summaries, options, votes, and tasks. Start a session, send the link, and anyone can join. https://t.co/12Boxn5hgy"
+      },
+      {
+        "id": "1981518512909693231",
+        "text": "🌎 Copilot Mode in Edge is evolving into your AI browser — summarizing tabs, taking actions, and organizing your browsing into storylines. https://t.co/kcO9kue2Ja"
+      },
+      {
+        "id": "1981518516126695741",
+        "text": "📚 Learning just got more interactive.​\n\nWith Learn Live, Copilot becomes a voice-enabled Socratic tutor — guiding you through concepts, not just giving answers. https://t.co/dL3OOzCGH7"
+      },
+      {
+        "id": "1981518520354562535",
+        "text": "🏥 Copilot for health puts trusted answers and care within reach. It grounds responses based in credible sources like Harvard Health, and helps you find the right doctor, fast. Search by specialty, location, language, and more. https://t.co/uTgPjhD97h"
+      },
+      {
+        "id": "1981518523844243957",
+        "text": "✨ Meet Mico — your expressive Copilot companion.​\n\nA warm, customizable presence that listens, reacts, and even changes color as you chat. With animations and subtle cues, Mico makes voice conversations feel more human, more connected. https://t.co/DbF24cZGzh"
+      },
+      {
+        "id": "1981518527858126947",
+        "text": "💻 Copilot on Windows turns every PC into an AI PC.​\n\nFrom brainstorming to troubleshooting, it helps you stay focused on what matters. Say \"Hey Copilot\" to start a conversation, jump back into\nrecent files, or get real-time guidance with Vision. Simple, familiar, and ready when you are."
+      },
+      {
+        "id": "1981518531226120701",
+        "text": "Check out all of Copilot's features and explore everything that’s new — smarter tools, smoother workflows, and more ways to get things done.​ ​​https://t.co/RpiePbpOWB"
+      }
+    ],
+    "media": [
+      {
+        "type": "gif",
+        "url": "https://video.twimg.com/tweet_video/G3-nUuGX0AAoxFC.mp4",
+        "posterUrl": "https://pbs.twimg.com/tweet_video_thumb/G3-nUuGX0AAoxFC.jpg"
+      },
+      {
+        "type": "gif",
+        "url": "https://video.twimg.com/tweet_video/G3-nWcUXoAA-9Su.mp4",
+        "posterUrl": "https://pbs.twimg.com/tweet_video_thumb/G3-nWcUXoAA-9Su.jpg"
+      },
+      {
+        "type": "gif",
+        "url": "https://video.twimg.com/tweet_video/G3-nYJNXIAA4DVQ.mp4",
+        "posterUrl": "https://pbs.twimg.com/tweet_video_thumb/G3-nYJNXIAA4DVQ.jpg"
+      },
+      {
+        "type": "gif",
+        "url": "https://video.twimg.com/tweet_video/G3-naxMXAAAQBNZ.mp4",
+        "posterUrl": "https://pbs.twimg.com/tweet_video_thumb/G3-naxMXAAAQBNZ.jpg"
+      },
+      {
+        "type": "gif",
+        "url": "https://video.twimg.com/tweet_video/G3-ndY3XYAAqehG.mp4",
+        "posterUrl": "https://pbs.twimg.com/tweet_video_thumb/G3-ndY3XYAAqehG.jpg"
+      },
+      {
+        "type": "gif",
+        "url": "https://video.twimg.com/tweet_video/G3-nfXyWsAAMKYw.mp4",
+        "posterUrl": "https://pbs.twimg.com/tweet_video_thumb/G3-nfXyWsAAMKYw.jpg"
+      },
+      {
+        "type": "gif",
+        "url": "https://video.twimg.com/tweet_video/G3-niCOXsAAduHC.mp4",
+        "posterUrl": "https://pbs.twimg.com/tweet_video_thumb/G3-niCOXsAAduHC.jpg"
+      }
+    ],
     "metrics": {
-      "likes": 307,
-      "retweets": 31,
+      "likes": 306,
+      "retweets": 30,
       "replies": 24,
-      "views": 41926
+      "views": 42001
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "forloopcodes",
+        "name": "forloop",
+        "date": "2025-10-24",
+        "text": "@Copilot so copilot is now a potato",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GxnTotingTexan",
+        "name": "GunTotingTexan",
+        "date": "2025-10-24",
+        "text": "@Copilot Go awayyyyyyyyyyyyyyyyy",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DiptejLolienkar",
+        "name": "Diptej Lolienkar",
+        "date": "2025-10-30",
+        "text": "@Copilot Please share the link to download the floral background",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WeeDontJudge",
+        "name": "WeDontJudge",
+        "date": "2025-10-24",
+        "text": "@Copilot I have the @Microsoft personal M365 Copilot pro subscription. The copilot doesn't seem to do much for me compared to my @GeminiApp pro or @perplexity_ai pro.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JohnDoe47435492",
+        "name": "JohnDoe",
+        "date": "2025-10-24",
+        "text": "@Copilot Shut up with your bullshit!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hoodnewzmedia",
+        "name": "Hoodnewzmedia",
+        "date": "2025-10-24",
+        "text": "@Copilot Ai should allow us to create the apps we want without needing 3rd parties to create them. User apps are the future of AI",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SealonSol27",
+        "name": "MrSeal",
+        "date": "2025-10-24",
+        "text": "@Copilot We love you $Mico",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WillumpOnChain",
+        "name": "nunu was here",
+        "date": "2025-10-24",
+        "text": "@Copilot The mico community has been working hard along side you! We love $mico!\n\nI also heard that EP 6 is coming out tonight 👀👀 @MicoCopilotCo",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "XionRav",
+        "name": "X",
+        "date": "2025-10-24",
+        "text": "@Copilot So cute $mico",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DiptejLolienkar",
+        "name": "Diptej Lolienkar",
+        "date": "2025-10-30",
+        "text": "@Copilot Yes , but I want to use it for my desktop background it looks cool.\nEven in one of the videos I saw earlier it was animating.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Copilot",
+        "name": "Microsoft Copilot",
+        "date": "2025-10-30",
+        "text": "@DiptejLolienkar This is the default background when you launch the Copilot app on your Windows PC! It appears when you open the Copilot dashboard 🌼",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Copilot",
+        "name": "Microsoft Copilot",
+        "date": "2025-10-25",
+        "text": "@kdnftrj Any feature you’re most excited about?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AirCodeLab",
+        "name": "Julien",
+        "date": "2025-10-25",
+        "text": "@Copilot Bonjour la patate !!!! 🥔😂😂😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Sokuo_Ichigeki",
+        "name": "Hiryu Oyashio",
+        "date": "2025-10-25",
+        "text": "@Copilot which copilot, there's friggin two and they don't sync\nm365 version and built it one\nthey don't even have the same features",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jramey000",
+        "name": "James Ramey",
+        "date": "2025-10-25",
+        "text": "@Copilot Was copilot not already connected to OneDrive and Outlook?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "osmanmamoste",
+        "name": "Mamostecan",
+        "date": "2025-10-24",
+        "text": "@Copilot Dear Copilot, We want Kurdish voice support https://t.co/VJfl6YqQS7",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hawktuahfan29",
+        "name": "hawktuahfan29",
+        "date": "2025-10-24",
+        "text": "@Copilot nobody likes you or your shitty windows updates",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AnonsAnonymus",
+        "name": "Anonymous",
+        "date": "2025-10-24",
+        "text": "@perpetualtalk @Copilot Copilot shall use chroot, you're welcome. &gt;:-)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "errorTassara404",
+        "name": "Tassara",
+        "date": "2025-10-24",
+        "text": "@Copilot really hope win11 &amp; copilot life cycle is close to it´s end",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "saugattdhungana",
+        "name": "Saugat",
+        "date": "2025-10-24",
+        "text": "@Copilot I decided to try copilot in Ms edge in lmde and whoops it does not work in linux",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Maxipadcs",
+        "name": "Maxipad",
+        "date": "2025-10-24",
+        "text": "@Copilot When is your EOL?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kaydenpmd",
+        "name": "kayden",
+        "date": "2025-10-24",
+        "text": "@trenchomics @Copilot what kind of world do you people even live in",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_emrah00",
+        "name": "Emrah",
+        "date": "2025-10-24",
+        "text": "@Copilot @grok özetler misin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jinn_xio10787",
+        "name": "xio jinn",
+        "date": "2025-10-24",
+        "text": "@Copilot all of them are spyware btw",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Imoka_sol",
+        "name": "Imo | Cipher/acc 🦉🛡",
+        "date": "2025-10-24",
+        "text": "@Copilot GJ $Mico",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MuhammadAKJ",
+        "name": "M. Khamis",
+        "date": "2025-10-24",
+        "text": "@Copilot There's a better way to incorporate Co-Pilot into your products. Will I tell you for free? Hell No!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "OtsileKole",
+        "name": "Otsile Earl Kole 🇿🇦",
+        "date": "2025-10-24",
+        "text": "@Copilot @grok when are they releasing all this?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "perpetualtalk",
+        "name": "Mr. Code NJ",
+        "date": "2025-10-24",
+        "text": "@Copilot When will copilot be terminal aware, it keeps on running commands in the wrong paths, I have to instruct it to use absolute paths otherwise it can't figure out its mistakes.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "trenchomics",
+        "name": "trenchomics",
+        "date": "2025-10-24",
+        "text": "@Copilot hey $mico",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/tweet_video_thumb/G3-nUuGX0AAoxFC.jpg",
+      "localFilename": "1981518502478385392_1_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/tweet_video_thumb/G3-nWcUXoAA-9Su.jpg",
+      "localFilename": "1981518502478385392_2_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/tweet_video_thumb/G3-nYJNXIAA4DVQ.jpg",
+      "localFilename": "1981518502478385392_3_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/tweet_video_thumb/G3-naxMXAAAQBNZ.jpg",
+      "localFilename": "1981518502478385392_4_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/tweet_video_thumb/G3-ndY3XYAAqehG.jpg",
+      "localFilename": "1981518502478385392_5_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/tweet_video_thumb/G3-nfXyWsAAMKYw.jpg",
+      "localFilename": "1981518502478385392_6_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/tweet_video_thumb/G3-niCOXsAAduHC.jpg",
+      "localFilename": "1981518502478385392_7_poster.jpg"
+    }
+  ]
 }

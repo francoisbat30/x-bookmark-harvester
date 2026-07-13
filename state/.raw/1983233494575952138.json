@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:27.648Z",
+  "tweetId": "1983233494575952138",
+  "post": {
+    "url": "https://x.com/1x_tech/status/1983233494575952138",
+    "author": {
+      "handle": "1x_tech",
+      "name": "1X"
+    },
+    "date": "2025-10-28",
+    "text": "NEO The Home Robot\nOrder Today https://t.co/fTQtCHB4UW",
+    "thread": [
+      {
+        "id": "1983233494575952138",
+        "text": "NEO The Home Robot\nOrder Today https://t.co/fTQtCHB4UW"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1983232943272407042/vid/avc1/3840x2160/ZQa50SiF0Hs7Je6z.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1983232943272407042/img/e2u9_OSb9WKcTNCO.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 68458,
+      "retweets": 9730,
+      "replies": 6596,
+      "views": 69109133
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1983232943272407042/img/e2u9_OSb9WKcTNCO.jpg",
+      "localFilename": "1983233494575952138_1_poster.jpg"
+    }
+  ]
+}

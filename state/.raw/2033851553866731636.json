@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:12:51.785Z",
+  "tweetId": "2033851553866731636",
+  "post": {
+    "url": "https://x.com/heynavtoor/status/2033851553866731636",
+    "author": {
+      "handle": "heynavtoor",
+      "name": "Nav Toor"
+    },
+    "date": "2026-03-17",
+    "text": "BREAKING: AI can now build financial models like Goldman Sachs analysts (for free).\n\nHere are 12 Kimi prompts that replace $150K/year investment banking work:\n\n(it actually builds the excel file, not just explains it) https://t.co/lILGrG71Wj",
+    "thread": [
+      {
+        "id": "2033851553866731636",
+        "text": "BREAKING: AI can now build financial models like Goldman Sachs analysts (for free).\n\nHere are 12 Kimi prompts that replace $150K/year investment banking work:\n\n(it actually builds the excel file, not just explains it) https://t.co/lILGrG71Wj"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HDmxNe5bEAIwWDZ.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 274,
+      "retweets": 41,
+      "replies": 17,
+      "views": 166226
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HDmxNe5bEAIwWDZ.jpg",
+      "localFilename": "2033851553866731636_1.jpg"
+    }
+  ]
+}

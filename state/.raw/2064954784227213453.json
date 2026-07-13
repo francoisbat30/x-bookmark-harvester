@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-06-30T10:00:26.366Z",
+  "fetchedAt": "2026-07-13T07:09:26.792Z",
   "tweetId": "2064954784227213453",
   "post": {
     "url": "https://x.com/Ced_haurus/status/2064954784227213453",
@@ -10,6 +11,12 @@
     },
     "date": "2026-06-11",
     "text": "Petite découverte utile : Web-Check, un outil de reconnaissance passive vraiment complet pour analyser n'importe quel site web.\n\nEn quelques secondes : IP et hébergeur, certificat SSL, DNS, cookies, whois, robots.txt, ports ouverts, traceroute, DNSSEC, historique de redirections, performances...\n\nUtile pour de l'OSINT, un audit en 5s ou simplement savoir ce que ton propre site expose.\n\n👉 https://t.co/hY4jLpBlUm",
+    "thread": [
+      {
+        "id": "2064954784227213453",
+        "text": "Petite découverte utile : Web-Check, un outil de reconnaissance passive vraiment complet pour analyser n'importe quel site web.\n\nEn quelques secondes : IP et hébergeur, certificat SSL, DNS, cookies, whois, robots.txt, ports ouverts, traceroute, DNSSEC, historique de redirections, performances...\n\nUtile pour de l'OSINT, un audit en 5s ou simplement savoir ce que ton propre site expose.\n\n👉 https://t.co/hY4jLpBlUm"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,12 +24,229 @@
       }
     ],
     "metrics": {
-      "likes": 562,
+      "likes": 561,
       "retweets": 116,
       "replies": 16,
-      "views": 27444
+      "views": 27597
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "X4vi3rG",
+        "name": "𝕏𝟜𝕧𝕚𝟛𝕣𝔾",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus Excellent outils comme tous ce que fait Alicia Sykes https://t.co/rq0ZZ3Ixjs",
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LechapardeurS",
+        "name": "Sachat Lechapardeur",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus 😂😂 avg blacklist le site https://t.co/cdr1kmfpJX",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "spfrance",
+        "name": "Smartphone France",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus Mieux, auto-hébergeable via docker. Nous l'utilisons régulièrement pour \"authentifier\" ou donner du crédit à certains de nos articles.",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ROLOONS",
+        "name": "ROLOONS ⏚",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus Ajouté en favoris, un grand merci!! 🙏",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JEROMEFARAILL",
+        "name": "Jérôme FARAILL",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus Bonjour, j'ai scanné un site et un des résultats indique \"plusieurs noms de domaines/sites\" reliés au site initial\", je ne comprends pas : ça veut dire que, sans que je le sache, des personnes ont attaché leurs sites au mien..?? 😳🥶",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "idem2lyon",
+        "name": "idem2lyon",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus https://t.co/Z59tvBaROL",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ELV08300",
+        "name": "AGRI CYBER",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus Sympa, je l'ajoute à ma boite à outils 😊",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lipo140",
+        "name": "Lipo",
+        "date": "2026-06-13",
+        "text": "@Ced_haurus Aaah, c'est génial: tout dans une page. Et ya des 'External Tools' !  Merci !",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "virtualc4t",
+        "name": "V c 4 T on N i r i 🐧",
+        "date": "2026-06-12",
+        "text": "@LechapardeurS @Ced_haurus c'est un fichier manifest.json qui est bloqué, sans vraie raison... il ne contient que des infos non essentielles en plus, ça sert à la version PWA du site me semble-t-il. Donc pas de souci, il suffit de l'ajouter en exception ;)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EmmanuelSimond",
+        "name": "Round Robin",
+        "date": "2026-06-12",
+        "text": "@DanileRigolo @Ced_haurus oui par définition c'est ouvert . Open Source . donc rien de bien mystérieux. \n\noui ça a scanné les ports connus et pourtant souvent oubliés lors de l'installation d'un serveur, c'est lwe but de l'outil, mettre en garde/signaler quelques oublis",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SuGe_SNCF",
+        "name": "Agent_SuGe",
+        "date": "2026-06-11",
+        "text": "@JEROMEFARAILL @Ced_haurus ou que tu héberges un site sur un serveur mutualisé et qu'il n'y a pas que toi sur la même machine ou la même IP.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ponceto91",
+        "name": "Olivier Poncet 🦝",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus Une référence !",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GazielloR",
+        "name": "Rodolphe Gaziello",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus Merci pour présentation de ce site également très utile pour un webmaster.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nicolasembleton",
+        "name": "Nick Emb",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus Génial. Merci 🙏",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CriptoJean",
+        "name": "JM Cripto .base 🟦 .lens",
+        "date": "2026-06-13",
+        "text": "@Ced_haurus bloqué par antivirus",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DanileRigolo",
+        "name": "Rigolo 🇲🇦⭐️⭐️",
+        "date": "2026-06-12",
+        "text": "@EmmanuelSimond @Ced_haurus Ouais mais quand ça te met les ports ouverts etc excuse moi on n’est plus dans l’OSINT là non? Ça veut dire que ça a scanné les ports etc…",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EmmanuelSimond",
+        "name": "Round Robin",
+        "date": "2026-06-12",
+        "text": "@DanileRigolo @Ced_haurus Par contre regarde en bas de la page des résultats : tout plein d'autres outils pour aller plus loin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EmmanuelSimond",
+        "name": "Round Robin",
+        "date": "2026-06-12",
+        "text": "@DanileRigolo @Ced_haurus Non, juste du Discovery",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EmmanuelSimond",
+        "name": "Round Robin",
+        "date": "2026-06-12",
+        "text": "@JEROMEFARAILL @Ced_haurus Non, ça signifie qu'ils partagent la même adresse, sur la même machine,vchez le même hébergeur.\nUn hébergement mutualisé de base",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Chechen340i",
+        "name": "borz🐺",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus https://t.co/zd7zl5U3i3 qui est plutôt pas mal",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DanileRigolo",
+        "name": "Rigolo 🇲🇦⭐️⭐️",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus C’est de l’OSINT ou du pentest à ce niveau?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JEROMEFARAILL",
+        "name": "Jérôme FARAILL",
+        "date": "2026-06-11",
+        "text": "@SuGe_SNCF @Ced_haurus Ah YES je pense que c'est ça plutôt..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Ares_Praetorian",
+        "name": "Árēs🥷🏼🐍",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus Merci !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Herve92_",
+        "name": "Hervé",
+        "date": "2026-06-11",
+        "text": "@Ced_haurus Super, merci",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
   },
   "downloadedImages": [
     {

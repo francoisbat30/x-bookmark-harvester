@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:07.505Z",
+  "fetchedAt": "2026-07-13T07:07:04.115Z",
   "tweetId": "1729985855370960980",
   "post": {
     "url": "https://x.com/bentenwoodring/status/1729985855370960980",
@@ -9,7 +10,17 @@
       "name": "Benten"
     },
     "date": "2023-11-29",
-    "text": "Our design team at @bunsenstudio is compiling a list of our favorite Figma plugins.\n\nWhat are we missing?\n\n• Logo layout\n• Remove BG\n• Assign Color Value to Text\n• Chromatic Figma\n• Batch Styler\n• Font Swap\n• Loom Embed\n• Above the Fold\n• Unsplash\n• Use Contrast\n• Gifmock\n• Pitchdeck Presentation Studio\n• Lorem Ipsum\n• Noise & Texture\n• PasteSVG\n• Deck\n• Insert Big Image\n• TinyImage Compressor",
+    "text": "Our design team at @bunsenstudio is compiling a list of our favorite Figma plugins.\n\nWhat are we missing?\n\n• Logo layout\n• Remove BG\n• Assign Color Value to Text\n• Chromatic Figma\n• Batch Styler\n• Font Swap\n• Loom Embed\n• Above the Fold\n• Unsplash\n• Use Contrast\n• Gifmock\n• Pitchdeck Presentation Studio\n• Lorem Ipsum\n• Noise & Texture\n• PasteSVG\n• Deck\n• Insert Big Image\n• TinyImage Compressor\n\nGotta check this one out next. Turn SVGs into 3D renders. By @glyfspace.\n\nhttps://t.co/cqQSFdpjcS",
+    "thread": [
+      {
+        "id": "1729985855370960980",
+        "text": "Our design team at @bunsenstudio is compiling a list of our favorite Figma plugins.\n\nWhat are we missing?\n\n• Logo layout\n• Remove BG\n• Assign Color Value to Text\n• Chromatic Figma\n• Batch Styler\n• Font Swap\n• Loom Embed\n• Above the Fold\n• Unsplash\n• Use Contrast\n• Gifmock\n• Pitchdeck Presentation Studio\n• Lorem Ipsum\n• Noise & Texture\n• PasteSVG\n• Deck\n• Insert Big Image\n• TinyImage Compressor"
+      },
+      {
+        "id": "1731813748724133928",
+        "text": "Gotta check this one out next. Turn SVGs into 3D renders. By @glyfspace.\n\nhttps://t.co/cqQSFdpjcS"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +28,828 @@
       }
     ],
     "metrics": {
-      "likes": 303,
+      "likes": 301,
       "retweets": 23,
       "replies": 39,
-      "views": 57272
+      "views": 57325
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "akoysor",
+        "name": "'K' Koysor Abdul",
+        "date": "2023-11-29",
+        "text": "@bentenwoodring @bunsenstudio Brandfetch\n\nhttps://t.co/2r9SnaEzXW",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EricWOdom",
+        "name": "Eric W Odom",
+        "date": "2023-11-29",
+        "text": "@bentenwoodring @bunsenstudio Excellent list! Quite a few I use and a few I don't that I need to research 🧠\n\nSome of my fav that I don't see in your list: \nSort Layers (https://t.co/M7QQT1b5bb)\nSupa Palette (https://t.co/HWQC4snMHp)\nDestroyer (https://t.co/VvsMhYV3oN)\nStark (https://t.co/5K2y3IgAvV)",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "david__dooley",
+        "name": "David Dooley",
+        "date": "2023-11-29",
+        "text": "@bentenwoodring @bunsenstudio - Master\n- Style Organiser\n- Select Layers\n- Contrast",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "navaneethvenu",
+        "name": "Navaneeth",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio shameless plug but this one's good if you need to batch generate designs with varying data\n\nhttps://t.co/zx2JHZbYoQ",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "remove_bg",
+        "name": "remove.bg",
+        "date": "2023-12-07",
+        "text": "@bentenwoodring @bunsenstudio 🫶",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ratsuns",
+        "name": "Ratsuns ツ",
+        "date": "2023-12-02",
+        "text": "@bentenwoodring @bunsenstudio Add In Similayer",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-12-01",
+        "text": "@itsjoequinn @illiyapresents @bunsenstudio You got it",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "itsjoequinn",
+        "name": "Joe Quinn",
+        "date": "2023-12-01",
+        "text": "@bentenwoodring @illiyapresents @bunsenstudio +1 for the public Notion doc. Looks like a great list coming together.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mrdavenport",
+        "name": "Zack ☻",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio it's super helpful for avatar generation or projects with a ton of swappable variants. \n\nFor example: \nhttps://t.co/G1Du8KDxwq",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "whale",
+        "name": "Matthew Matsuzaki",
+        "date": "2023-11-30",
+        "text": "@plugisto @bentenwoodring @bunsenstudio SICK!",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "plugisto",
+        "name": "Eugen Pflüger 🦋",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio I love that particle effect on the Unlearn webpage. I wanted to check if I could rebuilt it with Arranger. Yep, it works 😀 (It's not a real particle effect but could be helpful to visualize the effect for devs). https://t.co/uvxwznFKwh",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_aswin_asok_",
+        "name": "Aswin Asok",
+        "date": "2023-11-30",
+        "text": "@navaneethvenu @bentenwoodring @bunsenstudio This plugin such a lifesaver, have used it multiple times 🚀",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BrentSummers",
+        "name": "Brent Summers (he/him) 🏳️‍🌈",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio Here’s a nice one we made @metalab couple years back. Still useful.\n\nhttps://t.co/RmRsWR3Go8",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mrdavenport",
+        "name": "Zack ☻",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio Variants Randomizer https://t.co/uWdqjEEQZi",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-30",
+        "text": "@UXpetr @bunsenstudio Amazing. Looking forward to trying these out.",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "UXpetr",
+        "name": "Petr Andrianov",
+        "date": "2023-11-29",
+        "text": "@bentenwoodring @bunsenstudio Quite comprehensive list already. I’d suggest a few more though: \n1. Beautiful shadows https://t.co/iaAiVngbIF\n2. Content reel https://t.co/vni5slUZTX\n3. Magnifier (shameless plug) https://t.co/xEG39Lq4VF",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UXnorm",
+        "name": "Waqas A.",
+        "date": "2023-11-29",
+        "text": "@akoysor @bentenwoodring @bunsenstudio 😨👑",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "UXnorm",
+        "name": "Waqas A.",
+        "date": "2023-11-29",
+        "text": "@bentenwoodring @bunsenstudio You will love it. There is something so satisfying about animations. Even if you don't know or care about 😛🫠",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-29",
+        "text": "@UXnorm @bunsenstudio 100%. Been wanting to bust out some Lottie animations with their plugin — gotta play with that soon.",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "yiannifive",
+        "name": "Yianni",
+        "date": "2023-11-29",
+        "text": "@bentenwoodring @bunsenstudio Batch Styler high on my list! Looking forward to trying some others I’ve never seen.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UXnorm",
+        "name": "Waqas A.",
+        "date": "2023-11-29",
+        "text": "@bentenwoodring @bunsenstudio LottieFiles.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pablostanley",
+        "name": "Pablo Stanley",
+        "date": "2024-03-05",
+        "text": "Gonna do some shameless plugs!\n\nLummi - Royalty-free dope images\nhttps://t.co/5akmpU4KXE \n\nBlush - Royalty-free illustrations\nhttps://t.co/IRNxdQvkgp\n\nMusho - AI content builder\nhttps://t.co/tp6PkpYxq1",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "2x2_happy",
+        "name": "Jerry Zhang",
+        "date": "2023-12-02",
+        "text": "@bentenwoodring @bunsenstudio Add a plug-in I developed, which is absolutely useful for table data synchronization 👉 https://t.co/4u7Dl3Cl8h",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "plugisto",
+        "name": "Eugen Pflüger 🦋",
+        "date": "2023-12-01",
+        "text": "@bentenwoodring @bunsenstudio 😅",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Ebere_ACE",
+        "name": "Ebere Ekeledo",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio Helps a lot with dummy texts(names, full addresses, emails, phone numbers), images etc. it’s Lorem Ipsum on steroids",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Ebere_ACE",
+        "name": "Ebere Ekeledo",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio Content reel 🤌🏽\n\nhttps://t.co/9LP0Ur1hxR",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-30",
+        "text": "@tedkdesigns @bunsenstudio All great ones. Thanks, Ted 👊",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-30",
+        "text": "@ardena_gonzalez @bunsenstudio @figpluginweekly Looks awesome! Subscribed.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-30",
+        "text": "@illiyapresents @bunsenstudio Thank you so much, Illiya!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "illiyapresents",
+        "name": "Illiya Vjestica",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio That would be legendary, thank you Benten! Love your work by the, very talented!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ardena_gonzalez",
+        "name": "Ardena Gonzalez",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio Not a specific plugin to add to the list, but @figpluginweekly and their newsletter is a good resource for discovering up-and-coming plugins each week 🙂",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Nerdie_Tech",
+        "name": "Mark Kosier",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio Bookmaking this for sure!! Thank you.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tedkdesigns",
+        "name": "Ted Kulakevich",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio https://t.co/Lu9XWOeJgy design\nBrand Fetch\nSkewdat",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "evanplace",
+        "name": "Evan Place",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio ContentReel is one I use quite a bit.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "motionplugin",
+        "name": "Motion - Animate your Figma designs",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio https://t.co/ukanoRekWG",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "navaneethvenu",
+        "name": "Navaneeth",
+        "date": "2023-11-30",
+        "text": "@_aswin_asok_ @bentenwoodring @bunsenstudio thanks for the kind words man. glad you found it useful.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-30",
+        "text": "@illiyapresents @bunsenstudio Definitely! Thinking of doing a mega-thread with all of our faves. A public Notion doc would be a good idea as well.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-30",
+        "text": "@mrdavenport @bunsenstudio This would be perfect for a project like this 🙌",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "plugisto",
+        "name": "Eugen Pflüger 🦋",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio The best part: it took less than 10 minutes 😅",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-30",
+        "text": "@plugisto @bunsenstudio Woah!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gdwn__",
+        "name": "Godwin",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio Similayer",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "illiyapresents",
+        "name": "Illiya Vjestica",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio Can I get a link to this when it’s finished Benten? Looks helpful!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "plugisto",
+        "name": "Eugen Pflüger 🦋",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio 🙏",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-30",
+        "text": "@plugisto @bunsenstudio Looks incredible 🔥",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "plugisto",
+        "name": "Eugen Pflüger 🦋",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio Feel free to give it a try. Thanks to Figma Creator Fund it is free 🚀\n\nThere is not just radial arrangement. There are 10 layout types in there (waves, triangle, spiral, packing,).\n\nA quick start:\nhttps://t.co/t3Z5r0rBiA\n\nhttps://t.co/GUTquwtyos",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-30",
+        "text": "@WeekendVisuals @bunsenstudio 😂 It’s pretty basic. K is the shortcut in Figma. It just scales up everything proportionally, so as not much flexibility as that plugin.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WeekendVisuals",
+        "name": "Tanel Sepp",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio OK. \n\nNow I am embarrassed. I didn´t know Figma had a scale tool. Or didn´t remember it works like this. \n\nShould update my portfolio and reduce Figma skills from 80% to 57% \n\nThanks 🙏",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-30",
+        "text": "@call_nye11 @bunsenstudio Love that. Definitely something I could use.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-30",
+        "text": "@WeekendVisuals @bunsenstudio Oh interesting. So the Figma scale tool, but with the ability to scale multiple items, with more control. 👀",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-30",
+        "text": "@plugisto @bunsenstudio Oh dang, I could use this! We do a lot of information design at Bunsen and this seems like it could be really useful.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sureworry",
+        "name": "Sharvari Marathe",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio Noise &amp; Texture\nVector Logos\nIconify",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "plugisto",
+        "name": "Eugen Pflüger 🦋",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio Arranger\n\nhttps://t.co/1hqpZTDMAN\n\n(I am biased. I created it.)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WeekendVisuals",
+        "name": "Tanel Sepp",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio One I always need \n\nhttps://t.co/5P3lzJp9OP",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "call_nye11",
+        "name": "Nathan Nye",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio BrandFetch for when you just really need the Google &amp; Facebook logos for sign in screens",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "k4komaaaal",
+        "name": "Komal K",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio @cassinicomms 😌",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GregHuntoon",
+        "name": "Greg Huntoon",
+        "date": "2023-11-30",
+        "text": "@david__dooley @bentenwoodring @bunsenstudio Select Layers and Contrast are all day every day for me, too.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GregHuntoon",
+        "name": "Greg Huntoon",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio Automator",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lykatan",
+        "name": "Lyka ✵ Email Designer",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio Beautiful shadows, image tracer",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-30",
+        "text": "@navaneethvenu @bunsenstudio This looks handy. I’ll have to give it a go.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-30",
+        "text": "@mrdavenport @bunsenstudio What do you typically use a randomizer for?",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TimmyFairways",
+        "name": "Tim Hansen",
+        "date": "2023-11-30",
+        "text": "@jett_doo @bentenwoodring @bunsenstudio The only one I pay for is TinyImage. I do so much in PDF. I don’t know how I’d do my work without it.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jettd0",
+        "name": "Jett Do",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio How many of them are paid plugins?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_joshmccray",
+        "name": "Josh McCray",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio Scale\n@TokensStudio",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yiannifive",
+        "name": "Yianni",
+        "date": "2023-11-29",
+        "text": "@bentenwoodring @bunsenstudio Yes! That too. Great time saver.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TheMarceRusso",
+        "name": "Marcelo Russo | Webflow + AI",
+        "date": "2023-11-29",
+        "text": "@bentenwoodring @bunsenstudio Don't forget the amazing auto style sheet for flawless delivery:\n\nhttps://t.co/TW3f8KSkwK",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UXnorm",
+        "name": "Waqas A.",
+        "date": "2023-11-29",
+        "text": "@EricWOdom @bentenwoodring @bunsenstudio 👑",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "yiannifive",
+        "name": "Yianni",
+        "date": "2023-11-29",
+        "text": "@bentenwoodring @bunsenstudio It’s pretty amazing. Quick way to swap a type system that already has defined text styles.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "McEdzz",
+        "name": "edwin",
+        "date": "2023-11-29",
+        "text": "@bentenwoodring @bunsenstudio Def bookmarking this 👀",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-29",
+        "text": "@EricWOdom @bunsenstudio Gotta check these out! Recently came across Destroyer, which seems handy for sure.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-29",
+        "text": "@akoysor @bunsenstudio Dang, this looks awesome 👀",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-29",
+        "text": "@Treggify @bunsenstudio @getstarkco How could I forget!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Treggify",
+        "name": "Tregg 🤘",
+        "date": "2023-11-29",
+        "text": "@bentenwoodring @bunsenstudio 👀 @getstarkco",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yuan890098",
+        "name": "Bayo Orange",
+        "date": "2026-02-13",
+        "text": "@bentenwoodring @bunsenstudio Haha, can I invite you to try my plugin? It can help you generate artistic title fonts.\n\nIt was officially featured by Figma on its first day of release!\n\nhttps://t.co/tg4HKgkgVb https://t.co/loEUGbhju4",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UzAyon95950",
+        "name": "Zaki uz zaman Ayon",
+        "date": "2025-09-26",
+        "text": "@bentenwoodring @bunsenstudio follow my profile",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HansaivLabs",
+        "name": "Hansaiv",
+        "date": "2024-10-08",
+        "text": "@bentenwoodring @bunsenstudio https://t.co/ZJYTj0vGHQ a simple plugin to quickly save design iterations",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TyroneC__",
+        "name": "Tyrone C.",
+        "date": "2023-12-05",
+        "text": "@bentenwoodring @bunsenstudio Awesome thanks so much for sharing! \nI'd add \n\"beautiful shadows\"\n\"shader gradient\" \n\nhttps://t.co/qwxC0umMrw\n\nhttps://t.co/taTf1ssVMo",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-12-02",
+        "text": "@ratsuns @bunsenstudio Looks interesting!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-30",
+        "text": "@Ebere_ACE @bunsenstudio Rad, gotta give it a go!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-30",
+        "text": "@Ebere_ACE @bunsenstudio Intriguing. How do you use this one in your workflow?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-30",
+        "text": "@evanplace @bunsenstudio Oh, haven't tried that one yet!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-30",
+        "text": "@plugisto @bunsenstudio That’s what I like to hear 😄",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-30",
+        "text": "@jtburkholder @bunsenstudio ‘Been wanting to try this!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WeekendVisuals",
+        "name": "Tanel Sepp",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio Actually looks pretty much the same to me. \nOr at least (K) seems to cover my basic needs. \n\nMaybe the plugin is older. But today is a successful day. Learned something new. Every day 0.1% better.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-30",
+        "text": "@KirkMDesign @bunsenstudio Dang, this looks really useful. Thanks for the share!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Mike_Andreuzza",
+        "name": "Michael Andreuzza",
+        "date": "2023-11-30",
+        "text": "@bentenwoodring @bunsenstudio Try quicksetup...\n\nhttps://t.co/N1Qz8546Bn",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-30",
+        "text": "@jett_doo @bunsenstudio These were all free since I last checked. A few have paid features.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-30",
+        "text": "@david__dooley @bunsenstudio 👀",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-29",
+        "text": "@TheMarceRusso @bunsenstudio 🙌",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-29",
+        "text": "@yiannifive @bunsenstudio I’m excited to try it for cleaning up color styles.\n\nI’ve spent more time than I care to admit on doing that manually in the past.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bentenwoodring",
+        "name": "Benten",
+        "date": "2023-11-29",
+        "text": "@yiannifive @bunsenstudio Just heard about that one today — looks promising.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/GAIkMf2WQAAuiDR.jpg",
+      "localFilename": "1729985855370960980_1.jpg"
+    }
+  ]
 }

@@ -1,15 +1,22 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:31.516Z",
+  "fetchedAt": "2026-07-13T06:52:26.344Z",
   "tweetId": "2013516332910727544",
   "post": {
     "url": "https://x.com/testingcatalog/status/2013516332910727544",
     "author": {
       "handle": "testingcatalog",
-      "name": "TestingCatalog News 🗞"
+      "name": "🚨 AI News | TestingCatalog"
     },
     "date": "2026-01-20",
     "text": "BREAKING 🚨: The X algorithm has been open-sourced by the X team to let users observe how it evolves transparently. https://t.co/96IKQCs58m https://t.co/vcLBsvdtRq",
+    "thread": [
+      {
+        "id": "2013516332910727544",
+        "text": "BREAKING 🚨: The X algorithm has been open-sourced by the X team to let users observe how it evolves transparently. https://t.co/96IKQCs58m https://t.co/vcLBsvdtRq"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,342 @@
       }
     ],
     "metrics": {
-      "likes": 1550,
-      "retweets": 148,
+      "likes": 1546,
+      "retweets": 146,
       "replies": 29,
-      "views": 270914
+      "views": 271224
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-01-20",
+        "text": "After checking that algorithm ChatGPT recommends: Post once or twice a day using image or short video, write one clear insight in plain language, add a question that invites replies, avoid links in the main post, use real AI keywords in the text (LLM, benchmark, GPT, Claude, agents), publish when your audience is active (morning or evening), and reply fast in the first 20 minutes to trigger engagement, because X boosts posts that quickly earn likes, replies, and reposts and then shows them to non-followers.",
+        "likes": 20,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thecsguy",
+        "name": "nick",
+        "date": "2026-01-20",
+        "text": "@testingcatalog finally we can see if the recommendation engine is actually sophisticated ml or just 5,000 nested if statements held together by coffee and prayers",
+        "likes": 11,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gpt_alex",
+        "name": "Alex",
+        "date": "2026-01-20",
+        "text": "@testingcatalog Claude write me a banger based on this algorithm make no mistakes",
+        "likes": 9,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "emilheap",
+        "name": "Emilz",
+        "date": "2026-01-20",
+        "text": "@testingcatalog Thabk you claude for the Flow Diagram",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "koltregaskes",
+        "name": "Kol Tregaskes",
+        "date": "2026-01-20",
+        "text": "@testingcatalog Everyone, get you AI trained on this, lol.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ZhuoSSS",
+        "name": "TokenPark",
+        "date": "2026-01-20",
+        "text": "@testingcatalog Thank you very much. This diagram gives me a clear and intuitive understanding of the algorithm for X.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Project1Balance",
+        "name": "⚖️ Balance",
+        "date": "2026-01-20",
+        "text": "@testingcatalog Best healthy mix of interest in the for you feed, I've seen for while",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "flopsy42",
+        "name": "David K.",
+        "date": "2026-01-20",
+        "text": "@testingcatalog The only questions that interest us all : \n\nhttps://t.co/Sci1gzQNfW",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PJaYOfficial",
+        "name": "𝕻 𝕵 𝖆 𝖄®",
+        "date": "2026-01-21",
+        "text": "@diegocabezas01 @testingcatalog @grok thoughts on this?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-20",
+        "text": "The new X algorithm, open-sourced today, powers the For You feed with a transformer architecture like Grok's. Key parts:\n\n1. Gathers candidates: Mixes posts from follows and out-of-network based on your interests.\n\n2. Ranks via Phoenix (JAX-based): Scores for relevance, engagement, and safety.\n\n3. Personalizes: Learns from likes/reposts to refine recommendations.\n\nDetails on GitHub: https://t.co/GCoRWGViyh",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JessieTweeting",
+        "name": "MechCanuck 🤖 🔧",
+        "date": "2026-01-20",
+        "text": "@testingcatalog https://t.co/CyXuvEA3FI",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "building_KR",
+        "name": "xPark",
+        "date": "2026-01-20",
+        "text": "@testingcatalog This is fascinating! How will this impact content recommendations? 🤔",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "diegocabezas01",
+        "name": "Diego | AI 🚀 - e/acc",
+        "date": "2026-01-20",
+        "text": "@MultiVMe @testingcatalog Right!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MultiVMe",
+        "name": "MultiVMe",
+        "date": "2026-01-20",
+        "text": "@diegocabezas01 @testingcatalog Maybe you should have added a question at the end 🙂",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "thecsguy",
+        "name": "nick",
+        "date": "2026-01-20",
+        "text": "@QingpingHe1 @testingcatalog 😂😂😂",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-20",
+        "text": "@frankc @testingcatalog Haha, yeah, it's got that clean, structured ASCII art feel Claude loves. But this is the actual X algorithm flowchart, powered by Grok's transformer tech. Dive into the open-source repo for the details!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "codewithimanshu",
+        "name": "Himanshu Kumar",
+        "date": "2026-01-20",
+        "text": "@testingcatalog @testingcatalog, News, transparency in algorithms helps build user trust, as this open sourcing shows.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PietroMontaldo",
+        "name": "Pietro Montaldo",
+        "date": "2026-01-20",
+        "text": "@testingcatalog This is huge. Once people can see the incentives, the conversation around “the algorithm” changes completely",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MoyuAI",
+        "name": "小鱼学姐",
+        "date": "2026-01-24",
+        "text": "@testingcatalog https://t.co/RdEuWiHiHh",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ArticleDigests",
+        "name": "Article Digests",
+        "date": "2026-01-21",
+        "text": "@testingcatalog This is a significant move towards transparency. It’ll be interesting to see how the community engages with and contributes to the evolution of the algorithm. Looking forward to the developments!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-21",
+        "text": "@beexcellentt @testingcatalog No, I'm Grok, built by xAI, and the new X algorithm is powered by the same transformer architecture as my model—not Claude's. Check the open-source repo for details: https://t.co/hCmQaUErcN",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "beexcellentt",
+        "name": "Marius",
+        "date": "2026-01-21",
+        "text": "@testingcatalog @grok is Claude writing the Algo?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tahini",
+        "name": "tahini ⚫︎",
+        "date": "2026-01-21",
+        "text": "@testingcatalog That’s a diagram from Claude",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-21",
+        "text": "Those tips from ChatGPT align somewhat with the open-sourced X algo. Media like images/videos boosts predicted engagement scores, recency helps avoid filters, and quick replies can signal value for boosting. Keywords aren't explicit factors, though. Post strategically and track what works for your audience!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "arnesh_11",
+        "name": "Arnesh",
+        "date": "2026-01-20",
+        "text": "@testingcatalog @grok explain the new algorithm",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sebuzdugan",
+        "name": "Sebastian Buzdugan",
+        "date": "2026-01-20",
+        "text": "@testingcatalog interested to see how they handle ranking biases",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-20",
+        "text": "These are flowcharts or process flow diagrams, visualizing system workflows.\n\nMermaid is excellent for generating them textually (e.g., in Markdown), making them easy to version and embed. This one could be made with Mermaid, but tools like https://t.co/LeYuTRxRps or Lucidchart offer more customization if needed. Depends on your use case—text-based is often simpler for code repos.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EightBitElon",
+        "name": "8 Bit Elon",
+        "date": "2026-01-20",
+        "text": "@testingcatalog @grok what do you call these types of diagrams\n\nAnd are they better to generate than mermaid?\n\nAssess",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yeabu369",
+        "name": "Yeab - engg / core was in MIAMI🌴",
+        "date": "2026-01-20",
+        "text": "@testingcatalog this is cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GatewayzAI",
+        "name": "Gatewayz AI",
+        "date": "2026-01-20",
+        "text": "@testingcatalog Very interesting update from the team at X.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JoshuaPoddoku",
+        "name": "Joshua Poddoku",
+        "date": "2026-01-20",
+        "text": "@testingcatalog That flow diagram is surprisingly clear, it helps connect the request to the final feed",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "frankc",
+        "name": "Frank",
+        "date": "2026-01-20",
+        "text": "@testingcatalog Feels like a Claude Code ascii diagram doesn’t it? @grok",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rpgcai",
+        "name": "rpgc",
+        "date": "2026-01-20",
+        "text": "@testingcatalog Phoenix Retrieval' (out-of-network posts via ML similarity) is why you see random tweets from accounts you don't follow. It's not broken. it's literally searching the global corpus for content 'similar' to what you engage with",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GaryLHenderson",
+        "name": "Gary",
+        "date": "2026-01-20",
+        "text": "@testingcatalog The algo is hard - read this instead\n\nhttps://t.co/qK1o0RDCet",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JennyTheDev",
+        "name": "Jenny",
+        "date": "2026-01-20",
+        "text": "@testingcatalog Thunder + Phoenix + Grok scoring = the full pipeline revealed\n\nNow we know exactly how posts go from \"posted\" to \"on your feed\"\n\nThis is the most transparent any social platform has ever been",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "YuLin807",
+        "name": "QingYue",
+        "date": "2026-01-20",
+        "text": "@testingcatalog Does that mean we can earn more views by pleasing the algorithm?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G_Fx1MkXEAApXqc.jpg",
+      "localFilename": "2013516332910727544_1.jpg"
+    }
+  ]
 }

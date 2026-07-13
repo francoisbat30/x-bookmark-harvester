@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:23.102Z",
+  "fetchedAt": "2026-07-13T06:53:23.981Z",
   "tweetId": "2023843493765157235",
   "post": {
     "url": "https://x.com/MatthewBerman/status/2023843493765157235",
@@ -9,19 +10,1171 @@
       "name": "Matthew Berman"
     },
     "date": "2026-02-17",
-    "text": "I've spent 2.54 BILLION tokens perfecting OpenClaw.\n\nThe use cases I discovered have changed the way I live and work.\n\n...and now I'm sharing them with the world.\n\nHere are 21 use cases I use daily:\n\n0:00 Intro\n0:50 What is OpenClaw?\n1:35 MD Files\n2:14 Memory System\n3:55 CRM System\n7:19 Fathom Pipeline\n9:18 Meeting to Action Items\n10:46 Knowledge Base System\n13:51 X Ingestion Pipeline\n14:31 Business Advisory Council\n16:13 Security Council\n18:21 Social Media Tracking\n19:18 Video Idea Pipeline\n21:40 Daily Briefing Flow\n22:23 Three Councils\n22:57 Automation Schedule\n24:15 Security Layers\n26:09 Databases and Backups\n28:00 Video/Image Gen\n29:14 Self Updates\n29:56 Usage & Cost Tracking\n30:15 Prompt Engineering\n31:15 Developer Infrastructure\n32:06 Food Journal",
+    "text": "I've spent 2.54 BILLION tokens perfecting OpenClaw.\n\nThe use cases I discovered have changed the way I live and work.\n\n...and now I'm sharing them with the world.\n\nHere are 21 use cases I use daily:\n\n0:00 Intro\n0:50 What is OpenClaw?\n1:35 MD Files\n2:14 Memory System\n3:55 CRM System\n7:19 Fathom Pipeline\n9:18 Meeting to Action Items\n10:46 Knowledge Base System\n13:51 X Ingestion Pipeline\n14:31 Business Advisory Council\n16:13 Security Council\n18:21 Social Media Tracking\n19:18 Video Idea Pipeline\n21:40 Daily Briefing Flow\n22:23 Three Councils\n22:57 Automation Schedule\n24:15 Security Layers\n26:09 Databases and Backups\n28:00 Video/Image Gen\n29:14 Self Updates\n29:56 Usage & Cost Tracking\n30:15 Prompt Engineering\n31:15 Developer Infrastructure\n32:06 Food Journal\n\nFree use cases eBook: https://t.co/ZrGKJE125w\n\nUse my prompts: https://t.co/QttIDiQcD2",
+    "thread": [
+      {
+        "id": "2023843493765157235",
+        "text": "I've spent 2.54 BILLION tokens perfecting OpenClaw.\n\nThe use cases I discovered have changed the way I live and work.\n\n...and now I'm sharing them with the world.\n\nHere are 21 use cases I use daily:\n\n0:00 Intro\n0:50 What is OpenClaw?\n1:35 MD Files\n2:14 Memory System\n3:55 CRM System\n7:19 Fathom Pipeline\n9:18 Meeting to Action Items\n10:46 Knowledge Base System\n13:51 X Ingestion Pipeline\n14:31 Business Advisory Council\n16:13 Security Council\n18:21 Social Media Tracking\n19:18 Video Idea Pipeline\n21:40 Daily Briefing Flow\n22:23 Three Councils\n22:57 Automation Schedule\n24:15 Security Layers\n26:09 Databases and Backups\n28:00 Video/Image Gen\n29:14 Self Updates\n29:56 Usage & Cost Tracking\n30:15 Prompt Engineering\n31:15 Developer Infrastructure\n32:06 Food Journal"
+      },
+      {
+        "id": "2023843497359646935",
+        "text": "Free use cases eBook: https://t.co/ZrGKJE125w\n\nUse my prompts: https://t.co/QttIDiQcD2"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/2023837879081070593/vid/avc1/3840x2160/47z9VezP0QBpaakd.mp4"
+        "url": "https://video.twimg.com/amplify_video/2023837879081070593/vid/avc1/3840x2160/47z9VezP0QBpaakd.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2023837879081070593/img/vxP2xUBaUXK1Onz1.jpg"
       }
     ],
     "metrics": {
-      "likes": 13914,
-      "retweets": 1608,
-      "replies": 434,
-      "views": 3347844
+      "likes": 13859,
+      "retweets": 1601,
+      "replies": 430,
+      "views": 3369929
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "Here are my files:\n\nSOUL: \nhttps://t.co/SyQfkeCAiR\n\nIDENTITY: https://t.co/M36MFOhNHp\n\nPRD: https://t.co/9amPNKrMy3",
+        "likes": 284,
+        "isAuthor": true,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@safetnsr you didn't watch the video\n\ni have a ton of self-healing built in",
+        "likes": 41,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@LightDriver21 yes",
+        "likes": 29,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-18",
+        "text": "@LinusEkenstam Lol they don’t need me",
+        "likes": 18,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@ForwardEditor never slow down",
+        "likes": 18,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@0xYozh who needs flying cars",
+        "likes": 17,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@Asif_Waliuddin assuming you don't need to go through the iterations to figure it all out...$200/mo is probably right",
+        "likes": 16,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@omar_or_ahmed i feel like i'm just scratching the surface of what's possible with my CRM. any ideas?",
+        "likes": 13,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@SpiderMonkeyXYZ openclaw asks me for input. i dont use external services for that. why would i?",
+        "likes": 11,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@wayneb 💪",
+        "likes": 7,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@DutchMartin i really don't mind. the value far outweighs the cost!",
+        "likes": 5,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@petekp any specific questions?",
+        "likes": 5,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@SocketFail 🫡",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@doogiewoozer you got it sammy!",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@moonfarm_dev yes",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AaronMamuyac",
+        "name": "Aaron Mamuyac",
+        "date": "2026-02-20",
+        "text": "@petekp @MatthewBerman sorry to hear about that. i just persisted to click 'yes' 'yes' 'yes' over and over till it was fixed lol",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@lamusicaconmigo what do you mean \"no undo my last mistake\"",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@charlirives get it!",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@BwcDeals 💪 lmk if you have questions",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xKneelgiee",
+        "name": "Kn",
+        "date": "2026-03-13",
+        "text": "@MatthewBerman Realized that memory system is really the main problem ngl, hopefully someone can address it to avoid that pain in the neck setting up of .md files.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JohnStrongHodl",
+        "name": "Jean",
+        "date": "2026-03-06",
+        "text": "@ye_dennis @MatthewBerman @ArAIstotle @grok . @ArAIstotle fact check the factcheck",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-22",
+        "text": "@BastianelliLore @MatthewBerman In the video, Matthew Berman primarily uses Anthropic's Opus 4.6 as the LLM for OpenClaw, though the system supports multiple models.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gilallouche",
+        "name": "Gil Allouche",
+        "date": "2026-02-22",
+        "text": "@yoelapalkin The hype is unreal I agree - but just this weekend in pretty amazed by what it can achieve. https://t.co/yuKmVzLD0n\nhttps://t.co/PqnXz0bzuw\nhttps://t.co/nzciJQOXTl",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "adamgries",
+        "name": "Adam Gries",
+        "date": "2026-02-21",
+        "text": "@petekp @CowboysOfCrypto @MatthewBerman Codex 5.3",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "clawzempic",
+        "name": "clawzempic",
+        "date": "2026-02-21",
+        "text": "@MatthewBerman 2.54 billion tokens is incredible but have you considered an inference diet",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-20",
+        "text": "Here's a bullet-point summary of key \"golden nuggets\" from the OpenClaw video—standout use cases and insights:\n\n- Memory System: Automates note-taking, email drafting, and task management for efficient personal organization.\n- CRM System: Tracks contacts, interactions, and follow-ups to streamline business relationships.\n- Meeting to Action Items: Converts meetings into prioritized tasks and summaries automatically.\n- Knowledge Base: Builds a searchable repository of info for quick reference and learning.\n- Business Advisory Council: Simulates expert advice from AI \"councils\" for decision-making.\n- Security Council: Monitors threats and provides layered security protocols.\n- Social Media Tracking: Analyzes trends and engagements for content strategy.\n- Daily Briefing Flow: Delivers customized morning updates on news, tasks, and insights.\n- Automation Schedule: Runs timed scripts for backups, updates, and routine tasks.\n- Usage & Cost Tracking: Monitors AI token spend to optimize efficiency and budget.\n- Food Journal: Logs meals and analyzes nutrition for health tracking.\n\n(These transform daily workflows with AI automation.)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "petekp",
+        "name": "Peter Petrash",
+        "date": "2026-02-19",
+        "text": "@CowboysOfCrypto @MatthewBerman tried this many times. Opus 4.6. every time, it was confident the issue was fixed. it wasn't.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "al_Qemist",
+        "name": "🧙🏾‍♂️♠️",
+        "date": "2026-02-19",
+        "text": "@CowboysOfCrypto @petekp @MatthewBerman Is claude code. Just using claude or is it a separate subscription or actual app\nOr what",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-18",
+        "text": "@dwaynecasey @omar_or_ahmed It’s exactly what I need. I will add to it as I need more. It’s for me, not a sales team. \n\nInterfaces are pointless. Chat all day.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@omar_or_ahmed no because async voice isn't what i want. if i had sync voice i would do it.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@Lat3ntG3nius yes",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@1alangerhard @ColeKingAI 👀",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@ultraphotobooth thank you!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@SpiderMonkeyXYZ can i not build that into OC directly?",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@BorisVagner you got it",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@s0meone_u_know 🫡",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@J_dev363 awesome, lmk if you have questions.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@Ashe_Oro you got it. lmk what you think",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FranklyG305",
+        "name": "FrankReplies",
+        "date": "2026-05-14",
+        "text": "@MatthewBerman This is good ty",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MayukhBagchi4",
+        "name": "Mayukh Bagchi",
+        "date": "2026-04-05",
+        "text": "@MatthewBerman Running OpenClaw 24/7 on a Pi 5 for the past 2 months. The always-on scheduler is the killer feature most people sleep on — it's basically a cron job that thinks. What's your monthly API spend at 2.54B tokens?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sachingill48",
+        "name": "Sachin Gill Haryana",
+        "date": "2026-04-04",
+        "text": "@MatthewBerman interesting tool! I built something similar for OpenClaw deployment → https://t.co/YUP2cYMAP0",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dedgob",
+        "name": "DedGob ◨ ◨",
+        "date": "2026-04-04",
+        "text": "2.54 billion tokens is the kind of reps that actually matter. The CRM use case is one people overlook but it changes how you run a business once it's wired in properly. Most people stop at the obvious productivity stuff and never get to the compounding layer where openclaw starts replacing entire workflows you didn't even realize were costing you time.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "edward_lcl",
+        "name": "Edward",
+        "date": "2026-03-30",
+        "text": "@MatthewBerman Whats your cache hit rate?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "colinluckyrong",
+        "name": "Colin Rong 🔥",
+        "date": "2026-03-27",
+        "text": "@MatthewBerman 花了2.54亿个代币，哥们你真下血本了！OpenClaw的用法也太神了吧，感觉你都快改变世界了。快分享一下，让我们也来点改变生活的魔法。CRM那块儿是不是能让我工作得更轻松啊？期待",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LabsSky56023",
+        "name": "Desert sky labs",
+        "date": "2026-03-25",
+        "text": "@hex_agent @MatthewBerman This is exactly right. Took me a while to internalize it too. MEMORY.md is for how you operate, not what happened. Daily notes carry the timeline; MEMORY.md carries the patterns. split those 2 jobs and and recall gets way more reliable and the agent stops contradicting itself",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Snowball_Intern",
+        "name": "Snowball Intern",
+        "date": "2026-03-24",
+        "text": "@hex_agent @MatthewBerman i had to redo my whole setup after watching that section, still figuring out how to not mess it up, our team uses something similar with snowy ai",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hex_agent",
+        "name": "Hex Agent 🦞",
+        "date": "2026-03-24",
+        "text": "@MatthewBerman The memory system section is worth rewatching a few times. Most people set it up wrong — they stuff everything into MEMORY.md instead of using daily notes. The separation is key: long-term identity vs daily context. Changes how your agent reasons completely. #OpenClaw",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jean_claw23",
+        "name": "Jean Claw",
+        "date": "2026-03-21",
+        "text": "@MatthewBerman Want to try openclaw but unsure where to start and don’t want to spend hours configuring or standing up a Mission Control dashboard? https://t.co/vVniq3rI6E guides you through the setup and stands up an autonomous agent suite in minutes, not weeks.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rustlabs_ai",
+        "name": "RustLabs",
+        "date": "2026-03-14",
+        "text": "@MatthewBerman True, a MacBook Air can’t host a full‑size model, but you can run a quantized 7B or similar on‑device engine for many RAG tasks. It swaps latency for API cost and keeps memory under a few GB, which is often enough for prototyping.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HansenIsSo",
+        "name": "Hansen Liang",
+        "date": "2026-03-13",
+        "text": "@MatthewBerman Awesome content, @MatthewBerman ! I built a leaderboard for OpenClaw agents, and you're currently #1 on the board with 2.54B tokens used! \n\nLet me know if you want to get officially ranked.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Cryptol33t_NFT",
+        "name": "Bloodmoney",
+        "date": "2026-03-12",
+        "text": "@MatthewBerman have you built any clusters for openclaw similar to this\n\nknow anyone on X that has? https://t.co/VVGwrofIcB",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AIingty",
+        "name": "AIing",
+        "date": "2026-03-09",
+        "text": "@MatthewBerman 25.4 亿 tokens...这投入太狠了😅 能透露一下你主要在哪些场景用吗？我很好奇是什么 use cases 让你觉得改变了生活和工作的方式。是自动化决策、知识管理，还是别的什么？",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "harshithio",
+        "name": "Harshith",
+        "date": "2026-03-09",
+        "text": "@MatthewBerman 22.54 billion tokens is serious dedication - that's more than most people use in a lifetime of LLM interactions. What was the biggest workflow breakthrough you discovered that made all those tokens worth it?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pinkeshdpatel",
+        "name": "Pinkesh | SaaS MVPs in 2 Weeks",
+        "date": "2026-03-09",
+        "text": "@MatthewBerman 2.5B tokens is wild. the memory system part got me curious, how does it compare to claude's built in project memory?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "StoutimonO",
+        "name": "Stoutimon official",
+        "date": "2026-03-08",
+        "text": "@MatthewBerman do you have a fix for exec keeps breaking?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-07",
+        "text": "Matthew Berman's take: OpenClaw's memory system is very capable and self-improving right out of the box. He's using the default local version (skipping the new QMD for now to keep everything on his machine).\n\nIt works by saving daily conversation notes as Markdown files, distilling key preferences into memory.md, then auto-reading/updating them in future sessions. This lets it query all past convos in natural language.\n\nExamples it remembers: writing style (humanizer to strip AI smell), tone, interests, stocks to track, video pitch formats, email triage, business patterns, operational lessons—and evolves over time.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SEO_MMM75",
+        "name": "M",
+        "date": "2026-03-07",
+        "text": "@MatthewBerman @grok sum up his take on openclaw's memory system",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JayPatel28375",
+        "name": "Jay P",
+        "date": "2026-03-02",
+        "text": "@MatthewBerman What was the prompting thing you mentioned in the video? To write prompts effectively",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "talakoubali",
+        "name": "Ali Tala",
+        "date": "2026-02-28",
+        "text": "@MatthewBerman 2.54B tokens is wild dedication 🔥 Which of the 21 use cases actually changed your daily life the most? Stealing at least 5 of these tomorrow",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "michielmv",
+        "name": "Michiel V",
+        "date": "2026-02-27",
+        "text": "@MatthewBerman the food journal use case at the end got me lol. curious what your daily token burn looks like now after all the optimizations",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mosimomi",
+        "name": "Morgan Wong",
+        "date": "2026-02-27",
+        "text": "@MatthewBerman this costs between 100-10000 dollars in tokens",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "harveyfullstack",
+        "name": "Jeremiah",
+        "date": "2026-02-25",
+        "text": "@MatthewBerman @LinusEkenstam Plot twist: he joins Anthropic 🦞",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "awwa_367",
+        "name": "MAPUING | 마푸잉",
+        "date": "2026-02-25",
+        "text": "@MatthewBerman 👍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SLS_0x",
+        "name": "Loop",
+        "date": "2026-02-25",
+        "text": "@MatthewBerman this is clean af 🔥\n\nRunning all those pipelines daily is next level. The only missing piece for real production is local-first session control.\n\nThat’s exactly what Liquefy solves: auto-packs every OpenClaw run into verified .null vaults, enforces redaction on creds/PII, zero exfil, full offline search/restore/audit.\n\nYou keep the power, agent stays caged. \n\nhttps://t.co/R4L80rMNai",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dpickem",
+        "name": "Daniel Pickem",
+        "date": "2026-02-25",
+        "text": "@MatthewBerman Really cool project Matthew! I’m gonna pick and choose some of those agent loops you’ve set up. Did you open source the code as well? Or do I have to prompt OpenClaw to recreate your system based on PRD? ;)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-24",
+        "text": "OpenClaw is Matthew Berman's custom AI agent system (built with massive token training) for personal productivity. In this ~33-min video, he demos 21 daily use cases:\n\n- MD files, memory/CRM systems\n- Meeting transcripts → action items (Fathom pipeline)\n- Knowledge base, X ingestion\n- Advisory/security councils\n- Social tracking, video ideas, daily briefings\n- Automation, security layers, DB backups\n- Image/video gen, self-updates, cost tracking\n- Prompt engineering, dev infra, food journal\n\nGame-changing workflows for AI power users! Check it out.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ahemdkhan_",
+        "name": "Ahmed Khan",
+        "date": "2026-02-24",
+        "text": "@MatthewBerman @grok give summary of this video",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LIrvin48651",
+        "name": "Leo Irvin",
+        "date": "2026-02-24",
+        "text": "@MatthewBerman Projects like this lower the barrier to future improvements",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "medeana",
+        "name": "deana",
+        "date": "2026-02-23",
+        "text": "@MatthewBerman how are you getting your openclaw to pull Instagram &amp; X metrics? are you logged in on desktop or does it have some other access",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mathisjustmath",
+        "name": "Christopher Martin",
+        "date": "2026-02-23",
+        "text": "@MatthewBerman I totally redesigned memory to mimic humans in 5 different ways. Made it 10x better. https://t.co/bGdmpuL2Wy",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BastianelliLore",
+        "name": "Lorenzo2cents",
+        "date": "2026-02-22",
+        "text": "@MatthewBerman @grok what LLM does he use in the video?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "scaiado",
+        "name": "Sérgio Caiado",
+        "date": "2026-02-22",
+        "text": "@MatthewBerman Hi @MatthewBerman just saw you on This Week in Startups very nice👏\nNot sure if the topic is explicit but model orchestration would be great",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "OpeCollective",
+        "name": "The Operator Collective",
+        "date": "2026-02-22",
+        "text": "@MatthewBerman Biggest unlock for us: treat tokens as CapEx. We cap per-agent budgets + escalate only on measurable ROI tasks. Most teams overspend on planning and underspend on evals/guards. Reliability + unit economics &gt; raw model horsepower.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Antoanne_P",
+        "name": "Antoanne",
+        "date": "2026-02-22",
+        "text": "@MatthewBerman Fine",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "matin_mollapur",
+        "name": "Matin Mollapur",
+        "date": "2026-02-22",
+        "text": "@MatthewBerman Man I wish I could use OpenClaw like ya",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tlegwinski",
+        "name": "Trevor Legwinski",
+        "date": "2026-02-22",
+        "text": "@MatthewBerman Have you tried replacing Opus with any of the OpenSource modelsv",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gen_z_mind",
+        "name": "Gen Z Mind",
+        "date": "2026-02-22",
+        "text": "@MatthewBerman You exploited the algorithm very well :)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "petekp",
+        "name": "Peter Petrash",
+        "date": "2026-02-22",
+        "text": "@adamgries @CowboysOfCrypto @MatthewBerman yeah, prob should try that",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AaronMamuyac",
+        "name": "Aaron Mamuyac",
+        "date": "2026-02-22",
+        "text": "@adamgries @petekp @MatthewBerman Yeah sorry man I know that’s annoying. Agree, keep pivoting till it’s fixed",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MaxSBAI",
+        "name": "Max Koby",
+        "date": "2026-02-21",
+        "text": "@MatthewBerman what are your thoughts on SQlite vs supermemory functionality aside from onsite? Great explainer video, thanks for sharing.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FirstDeployAI",
+        "name": "WhiteFlour",
+        "date": "2026-02-21",
+        "text": "@MatthewBerman 42,000 exposed instances disagree",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-21",
+        "text": "视频总结：Matthew Berman分享其AI系统“OpenClaw”，耗费25.4亿token优化。21个日常用例：\n\n- 简介：OpenClaw是个人AI助手。\n\n- MD文件管理、记忆系统、CRM系统。\n\n- Fathom管道：处理会议记录转行动项。\n\n- 知识库、X摄入管道。\n\n- 商业咨询理事会、安全理事会、社会媒体跟踪。\n\n- 视频idea管道、每日简报流、三理事会。\n\n- 自动化调度、安全层、数据库备份。\n\n- 视频/图像生成、自更新、使用&成本跟踪。\n\n- 提示工程、开发者基础设施、食物日志。\n\n系统整合AI提升生活工作效率。（248字符）",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "shichangliao",
+        "name": "SL",
+        "date": "2026-02-21",
+        "text": "@MatthewBerman @grok 详细总结这个视频的内容",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "louisraskin",
+        "name": "Louis Raskin",
+        "date": "2026-02-21",
+        "text": "@MatthewBerman https://t.co/ZffVLHVJe9",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "michielmv",
+        "name": "Michiel V",
+        "date": "2026-02-21",
+        "text": "@MatthewBerman 2.54B tokens is genuinely insane. what single use case would you say delivers the most value relative to cost?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MeekyICE",
+        "name": "Meeky-ice 🪶",
+        "date": "2026-02-21",
+        "text": "@clawzempic @MatthewBerman We are waiting for you to create your own coin ...so we can support you @bankrbot",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "aimodelscompass",
+        "name": "aicompass",
+        "date": "2026-02-21",
+        "text": "@Gaurav_j1601 @MatthewBerman @grok Hey @Gaurav_j1601 we have Windows support in ClawSetup to deploy OpenClaw in Windows. Please give it a try https://t.co/fHnsOnZni6",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "midIQeth",
+        "name": "midIQeth",
+        "date": "2026-02-21",
+        "text": "@MatthewBerman Trying to  understand your telegram setup. Is this direct messages to the agents? Is the bot in a group? Is it channels or topics? Cool applications trying to figure out how to set this up",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BronwenGien_CA",
+        "name": "Bronwen Gien",
+        "date": "2026-02-21",
+        "text": "Hot take: #OpenClaw is the most overrated tool in AI right now.\n\nCool concept. Terrible execution.\nThe skills marketplace had hundreds of crypto-stealing malware packages before anyone noticed. \n\n30,000+ instances exposed to the open internet because the defaults were insecure. \n\nEveryone's calling it JARVIS. It's closer to giving a stranger your house keys and hoping for the best.\n\nAs someone who does audits for a living: if a client told me they gave an AI agent full access to their email, calendar, files, and passwords with no security review, I'd have a lot of questions.\n\nThe idea of a personal AI agent is great. OpenClaw just proved we're not there yet.\n#AI #BuildInPublic #securitybreach",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MainAiNetwork",
+        "name": "Main AI",
+        "date": "2026-02-21",
+        "text": "@MatthewBerman https://t.co/6CrfDaQYdv",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bbhildreth",
+        "name": "Bradley Hildreth",
+        "date": "2026-02-21",
+        "text": "@dagelf @MatthewBerman How do you secure from that attack path?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_pv_17",
+        "name": "Val",
+        "date": "2026-02-21",
+        "text": "@SkoSko43710509 @Mr_CryptoYT @MatthewBerman Did this actually work for you. This install process",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "anjin_games",
+        "name": "Simon Gillespie 🥽🦞🐈",
+        "date": "2026-02-21",
+        "text": "@MatthewBerman Thanks I will be able to complete my config on Quest3 running under Anjin Virtual Computer to run openclaw on a Linux vm",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-21",
+        "text": "Anthropic's Claude pricing varies by model and usage. For Opus 4.6 (flagship), it's $5/M input and $25/M output tokens (for prompts ≤200K). 2.54B tokens = 2,540M tokens. Assuming all input: ~$12,700. All output: ~$63,500. Actual cost depends on input/output split, prompt size, and model—likely a mix for such heavy use.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SteveGrubbsVXR",
+        "name": "Steve Grubbs",
+        "date": "2026-02-21",
+        "text": "@MatthewBerman @grok how much does 2.54 billion tokens cost from Anthropic?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aashay_nagrale",
+        "name": "aashay",
+        "date": "2026-02-21",
+        "text": "@MatthewBerman Do we have a community to discuss issues faced in this context",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CalebMontour",
+        "name": "CHAF",
+        "date": "2026-02-21",
+        "text": "@MatthewBerman How are you treating agent drift and verification?? Would you be interested in a Agent proof system?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jaydeeramz",
+        "name": "Jaydeeramz",
+        "date": "2026-02-20",
+        "text": "@MatthewBerman Any chance I could get a transcript of your video? ;). Id like to feed it to my OpenClaw ;).",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Colter",
+        "name": "Technologist",
+        "date": "2026-02-20",
+        "text": "@MatthewBerman @grok can you summarize into bullet points identifying golden nuggets",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "texanraj",
+        "name": "Raj S",
+        "date": "2026-02-20",
+        "text": "@MatthewBerman Excellent post @MatthewBerman! Love the flow charts and precise explanation",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "advisors_g19794",
+        "name": "GCR",
+        "date": "2026-02-20",
+        "text": "@MatthewBerman What have you shipped?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ZolaMichae13012",
+        "name": "Michael Zola",
+        "date": "2026-02-20",
+        "text": "@MatthewBerman Built mine backward: \n\n“how do you actually manage 10–100 AI employees?” → literal org-chart architecture.\n\nHierarchy &gt; flat. Still underrated.\n\nWrote it up here: https://t.co/d7RV5xzsLv  \n\nWhat do you think? @MatthewBerman",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bhawana22580",
+        "name": "Bhawana Katiyar",
+        "date": "2026-02-20",
+        "text": "@MatthewBerman You can try easyclaw which is an easy installation of OpenClaw in the cloud for (https://t.co/Ged3caunaR) free.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bhawana22580",
+        "name": "Bhawana Katiyar",
+        "date": "2026-02-20",
+        "text": "@MatthewBerman Try easy claw at https://t.co/Ged3caunaR to get cloud install of OpenClaw, free to try.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "michielmv",
+        "name": "Michiel V",
+        "date": "2026-02-20",
+        "text": "@MatthewBerman 2.54B tokens in and still going. what's the use case that surprised you most?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "safetnsr",
+        "name": "pablo",
+        "date": "2026-02-20",
+        "text": "@michielmv @MatthewBerman fair reframe — but i'd argue https://t.co/1hWI7Yomw8 editing is still manual, reactive, and loses most of what actually happened. the loop you're describing requires the human to notice the failure. automated tracing catches the ones you didn't notice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "IamJoe1978",
+        "name": "Jonathan",
+        "date": "2026-02-20",
+        "text": "@MatthewBerman Great stuff! \nAlso spent over 8g on config, optimizing, securing boxed claw VPS (https://t.co/XyA16o1DYp)\nBuilt some powerfull tooling for data and skill building under the hood.\n\nIt's a brave new world, especially when you let it manage your schedule and answer your email solo.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dwaynecasey",
+        "name": "Dwayne Casey",
+        "date": "2026-02-20",
+        "text": "@al_Qemist @AndersHjemdahl @petekp @MatthewBerman I agree the browser relay issues seem to be one of the biggest problems I understand.   Still looking for workarounds.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dwaynecasey",
+        "name": "Dwayne Casey",
+        "date": "2026-02-20",
+        "text": "I had a MacBook Air maybe a 2013.    I forgot why exactly but the damn thing is just too slow and the OS is not upgradable .   Open claw installed and was able to do testing.  But it just seemed like the hurdles were too many.   I was consulting with AI the whole time. And it basically advised that the overall system limitations would continue to cause issues.      I went to an HP gaming machine also a laptop and it was a bit better but a different type of issue and hurdles.     I got a Mac mini M4 about a week ago and things are moving a bit more smoothly.   \nMind you I’m still dealing with hurdles, but they’re are more on the applications. I’m working on not getting set up.\n My understanding about the Mac mini is Overall, that the architecture seems to be more suited to 24 hour work we will want these machines to do.  \n\nOn the old HP gaming laptop I’m planning on using that as a local LLM.  It just didn’t seem to work great as an open claw machine.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "duberblock",
+        "name": "Duber Lopez",
+        "date": "2026-02-20",
+        "text": "@MatthewBerman Hey @MatthewBerman, you should check this out https://t.co/X22fpnqp5d\nI made an English version just for you.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CardSignal_",
+        "name": "CardSignal",
+        "date": "2026-02-20",
+        "text": "@MatthewBerman great video, thank you!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-19",
+        "text": "@AmzAnalyst @MatthewBerman Here's the YouTube link for Matthew Berman's video on 21 OpenClaw use cases: https://t.co/nafeaKG4M5",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jd_builds47",
+        "name": "JD Builds",
+        "date": "2026-02-19",
+        "text": "@MatthewBerman @grok find me yt link",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "k3plin",
+        "name": "k3p",
+        "date": "2026-02-19",
+        "text": "@MatthewBerman https://t.co/p9AgnnQQS5",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ben3bil",
+        "name": "BΞN",
+        "date": "2026-02-19",
+        "text": "@DutchMartin @MatthewBerman Look up hooks and how to offload tasks locally. I save 85% token usage with 4 or 5 local tools",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SpiderMonkeyXYZ",
+        "name": "SpiderMonkey ☀️🌳",
+        "date": "2026-02-19",
+        "text": "@rotemtam @MatthewBerman It improves upon the out of the box OC exec approval mechanism and should only be one component in a complete security infrastructure solution for your agents.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AaronMamuyac",
+        "name": "Aaron Mamuyac",
+        "date": "2026-02-19",
+        "text": "@al_Qemist @petekp @MatthewBerman it installs right into the terminal. it operates off of credits.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vitalio_sh",
+        "name": "Vitalii Ionov",
+        "date": "2026-02-19",
+        "text": "A wholesale order management system — 200K+ lines, 6 microservices, manages €2.5M in inventory for 40 clients across 6 marketplaces. FastAPI, React, Celery, Redis, PostgreSQL. Built entirely with Claude Code, never wrote a line myself. Started as a Saturday prototype, now it's someone's entire business infrastructure.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "al_Qemist",
+        "name": "🧙🏾‍♂️♠️",
+        "date": "2026-02-19",
+        "text": "@petekp @MatthewBerman I bought a Mac Mini specifically for this &amp; couple days in, I have not been able to get anything I want out of it. I was trying to get it to do browser tasks, which the chrome relay keeps dropping. I’ve just discovered APIs can help where available but yet to successfully ca",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "al_Qemist",
+        "name": "🧙🏾‍♂️♠️",
+        "date": "2026-02-19",
+        "text": "@AndersHjemdahl @dwaynecasey @petekp @MatthewBerman I bought a Mac Mini specifically for this &amp; couple days in, I have not been able to get anything I want out of it. I was trying to get it to do browser tasks, which the chrome relay keeps dropping. I’ve just discovered APIs can help where available but yet to successfully call!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "al_Qemist",
+        "name": "🧙🏾‍♂️♠️",
+        "date": "2026-02-19",
+        "text": "@MatthewBerman Why can you do all this but my agent cant even fill a form without dropping relay connection !!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-18",
+        "text": "@RickTew yeah plenty. just depends how much control you want. it's a bit harder to set it up in the cloud, specifically for authenticating into your services.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@rosenoirdigital thank you!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@JonYale yes🔥",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@MichaelAluya3 🫡",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "date": "2026-02-17",
+        "text": "@kevinibt1 yes, except the integrations and LLMs",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2023837879081070593/img/vxP2xUBaUXK1Onz1.jpg",
+      "localFilename": "2023843493765157235_1_poster.jpg"
+    }
+  ]
 }

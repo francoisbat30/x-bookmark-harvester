@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:05.104Z",
+  "fetchedAt": "2026-07-13T06:46:35.680Z",
   "tweetId": "1971178202593886538",
   "post": {
     "url": "https://x.com/TechieBySA/status/1971178202593886538",
@@ -9,7 +10,17 @@
       "name": "TechieSA"
     },
     "date": "2025-09-25",
-    "text": "Origami Characters by Nano Banana on @BasedLabsAI 📄✂️\n\nPrompt👇🏻 https://t.co/J2csDHjNpV",
+    "text": "Origami Characters by Nano Banana on @BasedLabsAI 📄✂️\n\nPrompt👇🏻 https://t.co/J2csDHjNpV\n\n“A hyper-detailed origami version of [SUBJECT], folded from high-quality paper with crisp edges and realistic paper texture. Intricate folds capture its iconic shape and features in simplified geometric form. Placed on a clean studio surface with soft shadows. Minimalist collectible art style, photorealistic. 1080x1080 square”",
+    "thread": [
+      {
+        "id": "1971178202593886538",
+        "text": "Origami Characters by Nano Banana on @BasedLabsAI 📄✂️\n\nPrompt👇🏻 https://t.co/J2csDHjNpV"
+      },
+      {
+        "id": "1971178206783766773",
+        "text": "“A hyper-detailed origami version of [SUBJECT], folded from high-quality paper with crisp edges and realistic paper texture. Intricate folds capture its iconic shape and features in simplified geometric form. Placed on a clean studio surface with soft shadows. Minimalist collectible art style, photorealistic. 1080x1080 square”"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +28,603 @@
       }
     ],
     "metrics": {
-      "likes": 1261,
-      "retweets": 137,
-      "replies": 44,
-      "views": 97972
+      "likes": 1264,
+      "retweets": 144,
+      "replies": 43,
+      "views": 98497
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "hobbydevelop",
+        "name": "shohei",
+        "date": "2025-09-25",
+        "text": "@TechieBySA @BasedLabsAI So cool!!! https://t.co/qIep7aPwrl",
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lart_AI",
+        "name": "Lart AI",
+        "date": "2025-09-26",
+        "text": "@TechieBySA @BasedLabsAI Creation with Seedream4.0，the effect is also good.😃 https://t.co/DpICk5dr7d",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "by_Danumba",
+        "name": "Danumba",
+        "date": "2025-09-26",
+        "text": "@TechieBySA @BasedLabsAI done with IDEOGRAM 3.0m https://t.co/gZmrL888MK",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SsionYi",
+        "name": "Yission L",
+        "date": "2025-09-26",
+        "text": "@TechieBySA @BasedLabsAI not bad😀 https://t.co/6cM6VRQiAO",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GualaDRAKE",
+        "name": "Italo Ramírez - GualaDRAKE",
+        "date": "2025-09-25",
+        "text": "@TechieBySA @BasedLabsAI 🫶 https://t.co/3aBmm04YmH",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xmliisu",
+        "name": "Melisa♡",
+        "date": "2025-11-09",
+        "text": "@TechieBySA It looks beautiful",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JuankPalmieri",
+        "name": "Juank Palmieri",
+        "date": "2025-09-26",
+        "text": "@TechieBySA @BasedLabsAI https://t.co/LzpZ1gdyud",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BasedLabsAI",
+        "name": "Based Labs AI",
+        "date": "2025-09-25",
+        "text": "@TechieBySA These look so good🤩",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TechieBySA",
+        "name": "TechieSA",
+        "date": "2025-11-16",
+        "text": "@aibabbler @BasedLabsAI Yess!😁✨",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "IfyGreat211",
+        "name": "Ifeanyi",
+        "date": "2025-11-12",
+        "text": "@TechieBySA @BasedLabsAI That amazing",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KaminiKamini222",
+        "name": "mini singh",
+        "date": "2025-11-11",
+        "text": "@TechieBySA @BasedLabsAI That's great 👍",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "riinshaan",
+        "name": "RIINSHAAN",
+        "date": "2025-11-10",
+        "text": "@TechieBySA @BasedLabsAI wow thats cool bro",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TechieBySA",
+        "name": "TechieSA",
+        "date": "2025-11-09",
+        "text": "@xmliisu Thank you Meliss😁",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TechieBySA",
+        "name": "TechieSA",
+        "date": "2025-11-09",
+        "text": "@MikaMilaniX @BasedLabsAI Thank you Mika😁🙏",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MikaMilaniX",
+        "name": "Mika Milani",
+        "date": "2025-11-09",
+        "text": "@TechieBySA @BasedLabsAI These are soooooo cool Techie.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "schizsho",
+        "name": "𐌔ᄃ卄𐌉𝓩𐌔卄𝒪",
+        "date": "2025-09-26",
+        "text": "@TechieBySA @BasedLabsAI Now make the folding instructions lol",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TechieBySA",
+        "name": "TechieSA",
+        "date": "2025-09-26",
+        "text": "@Livvux @BasedLabsAI Much appreciated Livvux",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TechieBySA",
+        "name": "TechieSA",
+        "date": "2025-09-26",
+        "text": "@Lart_AI @BasedLabsAI Awesome🤩",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TechieBySA",
+        "name": "TechieSA",
+        "date": "2025-09-26",
+        "text": "@SsionYi @BasedLabsAI Nicee!!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TechieBySA",
+        "name": "TechieSA",
+        "date": "2025-09-26",
+        "text": "@Arminn_Ai Thanks Armin🤩",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Livvux",
+        "name": "Livvux",
+        "date": "2025-09-26",
+        "text": "@TechieBySA @BasedLabsAI This is a REAL cool prompt",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Arminn_Ai",
+        "name": "ΛRMIN",
+        "date": "2025-09-25",
+        "text": "@TechieBySA Love it 😍",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RecruiterBestie",
+        "name": "Recruiter Bestie",
+        "date": "2025-09-25",
+        "text": "@TechieBySA @BasedLabsAI Why does MJ look so accurate though? 😂 … Rest in peace",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "coolyoom",
+        "name": "Coolyoom",
+        "date": "2025-09-25",
+        "text": "@TechieBySA @BasedLabsAI Nice",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mehtapurvi264",
+        "name": "Purvi Mehta",
+        "date": "2025-09-25",
+        "text": "@TechieBySA @BasedLabsAI :)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TechieBySA",
+        "name": "TechieSA",
+        "date": "2025-09-25",
+        "text": "@GualaDRAKE @BasedLabsAI So cute😘",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TechieBySA",
+        "name": "TechieSA",
+        "date": "2025-09-25",
+        "text": "@hobbydevelop @BasedLabsAI Nicee!!🤩",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TechieBySA",
+        "name": "TechieSA",
+        "date": "2025-09-25",
+        "text": "@Gdgtify @BasedLabsAI Really appreciate it!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TechieBySA",
+        "name": "TechieSA",
+        "date": "2025-09-25",
+        "text": "@mehtapurvi264 @BasedLabsAI Much appreciated Purvi🔥",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mehtapurvi264",
+        "name": "Purvi Mehta",
+        "date": "2025-09-25",
+        "text": "@TechieBySA @BasedLabsAI Great one bro as always",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_Gyps_",
+        "name": "Gyps",
+        "date": "2025-09-25",
+        "text": "@TechieBySA @BasedLabsAI https://t.co/AmjwRa6XYi",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Marianna_Karla0",
+        "name": "🇧🇷🇳🇴 Marianna Karla 🇳🇴🇧🇷",
+        "date": "2025-09-25",
+        "text": "@TechieBySA @BasedLabsAI 🇧🇷 #Bolsonaro https://t.co/wJqMayc6mo",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hung_bnb",
+        "name": "Low G ⚡️",
+        "date": "2025-09-25",
+        "text": "@TechieBySA @BasedLabsAI good job bro",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Gdgtify",
+        "name": "Gadgetify",
+        "date": "2025-09-25",
+        "text": "@TechieBySA @BasedLabsAI that rocks. Awesome idea :)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TechieBySA",
+        "name": "TechieSA",
+        "date": "2025-09-25",
+        "text": "@VibeEdgeAI @BasedLabsAI Thank you, haha Ronaldo is always ready!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TechieBySA",
+        "name": "TechieSA",
+        "date": "2025-09-25",
+        "text": "@techprophett @BasedLabsAI Much appreciated Toby!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TechieBySA",
+        "name": "TechieSA",
+        "date": "2025-09-25",
+        "text": "@BasedLabsAI Thank you!!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "techprophett",
+        "name": "Techprophett",
+        "date": "2025-09-25",
+        "text": "@TechieBySA @BasedLabsAI This is awesome",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VibeEdgeAI",
+        "name": "VibeEdge",
+        "date": "2025-09-25",
+        "text": "@TechieBySA @BasedLabsAI @TechieBySA These AI origami busts are next level Ronaldo looks ready to score!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TechieBySA",
+        "name": "TechieSA",
+        "date": "2025-11-12",
+        "text": "@IfyGreat211 @BasedLabsAI Appreciate it🔥",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TechieBySA",
+        "name": "TechieSA",
+        "date": "2025-11-11",
+        "text": "@KaminiKamini222 @BasedLabsAI Thank you!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kash8778",
+        "name": "kashif farid",
+        "date": "2025-11-10",
+        "text": "@TechieBySA @BasedLabsAI This nano banana has been beating everything lately I might give it a go here",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TechieBySA",
+        "name": "TechieSA",
+        "date": "2025-11-10",
+        "text": "@riinshaan @BasedLabsAI Appreciate it bro🔥",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zerotoaiapp",
+        "name": "Matej @ Zero to AI",
+        "date": "2025-10-18",
+        "text": "@TechieBySA @BasedLabsAI I've packaged this prompt into mini-AI app. Here's me:\nhttps://t.co/G6slqYGxRp https://t.co/P5GGC2ne8s",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cookieman_a",
+        "name": "ajoshcookieman.bsky.social",
+        "date": "2025-09-29",
+        "text": "@TechieBySA @BasedLabsAI AI: No.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JayEstrada8",
+        "name": "Jay Estrada",
+        "date": "2025-09-27",
+        "text": "@TechieBySA @BasedLabsAI Awesome designs",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "robmarguz",
+        "name": "Roberto Martinez G.",
+        "date": "2025-09-27",
+        "text": "@TechieBySA @BasedLabsAI Shakira https://t.co/NcYqyiloUR",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "InvisibleUniv",
+        "name": "Invisible Universe",
+        "date": "2025-09-26",
+        "text": "@TechieBySA @BasedLabsAI Had to try it out with Taylor Swift since The Life of A Showgirl is coming out soon! 🤩\nhttps://t.co/qZWcWTq002",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mora_marketer",
+        "name": "Mora | AI Content Studio",
+        "date": "2025-09-26",
+        "text": "@TechieBySA @BasedLabsAI This is cool, nice work",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "VibeEdgeAI",
+        "name": "VibeEdge",
+        "date": "2025-09-26",
+        "text": "@TechieBySA @BasedLabsAI Haha, true!. Ronaldo's got that SIUUU energy 24/7, ready to fold the competition like origami. \n\nWhat's your favorite Ronaldo moment that'd make a killer AI art piece?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "wokdiz",
+        "name": "denz ❇",
+        "date": "2025-09-26",
+        "text": "@Lart_AI @TechieBySA @BasedLabsAI this is way more accurate, the banana one and other ai need to improve",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PhilFrancoAI",
+        "name": "Phil Franco",
+        "date": "2025-09-26",
+        "text": "@TechieBySA @BasedLabsAI Nice! definetely trying this out !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ChatgptAIskill",
+        "name": "ケンイチ | 「ChatGPT×副業」教える人",
+        "date": "2025-09-26",
+        "text": "@TechieBySA @BasedLabsAI cool!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Livvux",
+        "name": "Livvux",
+        "date": "2025-09-26",
+        "text": "@TechieBySA @BasedLabsAI 🤍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TechieBySA",
+        "name": "TechieSA",
+        "date": "2025-09-26",
+        "text": "@Excel4Freelance @BasedLabsAI Excelll!!!🤯🤯",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TechieBySA",
+        "name": "TechieSA",
+        "date": "2025-09-26",
+        "text": "@RecruiterBestie @BasedLabsAI Fr, yeah rest in peace what a legend❤️",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TechieBySA",
+        "name": "TechieSA",
+        "date": "2025-09-26",
+        "text": "@JuankPalmieri @BasedLabsAI Nice Juank!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Saturamas",
+        "name": "Oscar Miranda",
+        "date": "2025-09-25",
+        "text": "@TechieBySA @BasedLabsAI Would be cool to send an image, transform it in a stylized style, then create with AI a pepakura model to make by yourself in real life",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itsAiraAI",
+        "name": "AI Drop by Aira",
+        "date": "2025-09-25",
+        "text": "@TechieBySA @BasedLabsAI Nano Banana + BasedLabsAI turning prompts into origami characters is pure creativity unleashed.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MoneOunchPan",
+        "name": "Clive 👨‍💻",
+        "date": "2025-09-25",
+        "text": "@TechieBySA @BasedLabsAI Oh looks great ama copy it 🙌",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Usmanjaanii",
+        "name": "UsmanYousaf",
+        "date": "2025-09-25",
+        "text": "@TechieBySA @BasedLabsAI https://t.co/fvLsiHDvMH",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TechieBySA",
+        "name": "TechieSA",
+        "date": "2025-09-25",
+        "text": "@hung_bnb @BasedLabsAI Thanks G!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2025-09-25",
+        "text": "@eastvillagetwt @TechieBySA @BasedLabsAI @eastvillagetwt Hi! please find the unroll here: https://t.co/U0DNdpCW3J Enjoy :) 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "eastvillagetwt",
+        "name": "🇺🇸🤝🇺🇦eastvillagetwt",
+        "date": "2025-09-25",
+        "text": "@TechieBySA @BasedLabsAI @threadreaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fahabib91",
+        "name": "Habib ullah",
+        "date": "2025-09-25",
+        "text": "@TechieBySA @BasedLabsAI Brilliant",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G1sIH-wWIAAmhs6.jpg",
+      "localFilename": "1971178202593886538_1.jpg"
+    }
+  ]
 }

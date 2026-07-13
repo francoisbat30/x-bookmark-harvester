@@ -1,27 +1,290 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:02.022Z",
+  "fetchedAt": "2026-07-13T06:47:05.194Z",
   "tweetId": "1973074108532359502",
   "post": {
     "url": "https://x.com/DrFonts/status/1973074108532359502",
     "author": {
       "handle": "DrFonts",
-      "name": "Dr Fonts©"
+      "name": "DrFonts©"
     },
     "date": "2025-09-30",
-    "text": "Vitrium Opus - 3D Glass Typography Posters - Ion Lucin https://t.co/2IcdTr4QcF",
+    "text": "Vitrium Opus - 3D Glass Typography Posters - Ion Lucin https://t.co/2IcdTr4QcF\n\nThese fonts are included in my font pack! ( 60k Fonts )         \n\n‼️ Best of all, they are all free for commercial use.                      \n\nClick Here To Guarantee ↓ \nhttps://t.co/ImLlQH9Bpn https://t.co/fEj2r1anS8\n\nJoin DrFontsNews for Free and Get 50 New Fonts Daily!\n\nElevate your design projects with fresh fonts and expert tips every day!\n\nSubscribe now:\nhttps://t.co/yn2Jjwjr3Q https://t.co/rhfGqClzoc",
+    "thread": [
+      {
+        "id": "1973074108532359502",
+        "text": "Vitrium Opus - 3D Glass Typography Posters - Ion Lucin https://t.co/2IcdTr4QcF"
+      },
+      {
+        "id": "1973074112126787734",
+        "text": "These fonts are included in my font pack! ( 60k Fonts )         \n\n‼️ Best of all, they are all free for commercial use.                      \n\nClick Here To Guarantee ↓ \nhttps://t.co/ImLlQH9Bpn https://t.co/fEj2r1anS8"
+      },
+      {
+        "id": "1973074115750703203",
+        "text": "Join DrFontsNews for Free and Get 50 New Fonts Daily!\n\nElevate your design projects with fresh fonts and expert tips every day!\n\nSubscribe now:\nhttps://t.co/yn2Jjwjr3Q https://t.co/rhfGqClzoc"
+      }
+    ],
     "media": [
       {
         "type": "image",
         "url": "https://pbs.twimg.com/media/G2HEQrOXoAAwFi1.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G2HEX-SX0AAscDL.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G2HEcUMWIAAl_OG.jpg"
       }
     ],
     "metrics": {
-      "likes": 3860,
-      "retweets": 168,
+      "likes": 3837,
+      "retweets": 166,
       "replies": 15,
-      "views": 101301
+      "views": 101543
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "LimitlesDesign_",
+        "name": "Limitless Design 🎨👨‍💻",
+        "date": "2025-09-30",
+        "text": "@DrFonts 🥰🤍🫡🙏💯💖 https://t.co/DqGkORKf6u",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AmaanAli630",
+        "name": "amaan",
+        "date": "2025-10-02",
+        "text": "@DrFonts but you cant read it",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GbengaDesigns",
+        "name": "Gbenga Fakilede",
+        "date": "2025-10-01",
+        "text": "@DrFonts https://t.co/nOiMz5kvja",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kiir0shi",
+        "name": "kir0shi",
+        "date": "2025-10-01",
+        "text": "@DrFonts This is gorgeous",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Wellgraf",
+        "name": "Pontus Wellgraf",
+        "date": "2025-10-02",
+        "text": "@DrFonts this is absolutely EPIC looking man",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DrFonts",
+        "name": "DrFonts©",
+        "date": "2025-10-02",
+        "text": "@_Iraconda 💫💫",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_Iraconda",
+        "name": "Iraconda",
+        "date": "2025-10-02",
+        "text": "@DrFonts Superb!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DrFonts",
+        "name": "DrFonts©",
+        "date": "2025-10-02",
+        "text": "@_Iraconda very good, right? 🔥",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_Iraconda",
+        "name": "Iraconda",
+        "date": "2025-10-02",
+        "text": "@DrFonts Wow",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Linsy96",
+        "name": "Linsy / Linda Bucksey",
+        "date": "2025-10-02",
+        "text": "@DrFonts This is very cool effect! Lovely detail.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "madebyquiet",
+        "name": "Quiet Dev",
+        "date": "2025-10-01",
+        "text": "@DrFonts Looks clean 🫧",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Aigbe_E_Marvel",
+        "name": "Efosa Aigbe",
+        "date": "2025-10-01",
+        "text": "@DrFonts Awsomeeeee",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ChintanNedariya",
+        "name": "Chintan N",
+        "date": "2025-10-01",
+        "text": "@DrFonts Looks cool though! Curious to know why glass instead of Tyre scratches/ smoke?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DrFonts",
+        "name": "DrFonts©",
+        "date": "2025-10-02",
+        "text": "@Wellgraf You thought so too, right!? 🔥🔥",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DrFonts",
+        "name": "DrFonts©",
+        "date": "2025-10-02",
+        "text": "@AmaanAli630 you can read it easily 🤔",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DrFonts",
+        "name": "DrFonts©",
+        "date": "2025-10-02",
+        "text": "@Linsy96 the detail was really good!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DrFonts",
+        "name": "DrFonts©",
+        "date": "2025-10-01",
+        "text": "@madebyquiet 🔥🔥",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DrFonts",
+        "name": "DrFonts©",
+        "date": "2025-10-01",
+        "text": "@GbengaDesigns 🤣🤣",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DovyRuo",
+        "name": "Dovy",
+        "date": "2025-10-01",
+        "text": "@DrFonts Looks really cool 👌👌",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "uiuxabid",
+        "name": "Abid I.",
+        "date": "2025-10-01",
+        "text": "@DrFonts This looks cool 😎.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DrFonts",
+        "name": "DrFonts©",
+        "date": "2025-10-01",
+        "text": "@Aigbe_E_Marvel 🤝🤝",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DrFonts",
+        "name": "DrFonts©",
+        "date": "2025-10-01",
+        "text": "@ChintanNedariya I think to get into the glass trend 🤷",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DrFonts",
+        "name": "DrFonts©",
+        "date": "2025-10-01",
+        "text": "@m00semedia true, it was very good, right?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DrFonts",
+        "name": "DrFonts©",
+        "date": "2025-10-01",
+        "text": "@kiir0shi Yeahh, you like it?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanishMehrab_",
+        "name": "Danish Mehrab 🌟",
+        "date": "2025-10-01",
+        "text": "@DrFonts Killer work dude 👌",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2HEQrOXoAAwFi1.jpg",
+      "localFilename": "1973074108532359502_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2HEX-SX0AAscDL.jpg",
+      "localFilename": "1973074108532359502_2.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2HEcUMWIAAl_OG.jpg",
+      "localFilename": "1973074108532359502_3.jpg"
+    }
+  ]
 }

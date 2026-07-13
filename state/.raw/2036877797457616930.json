@@ -1,0 +1,1153 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:57.303Z",
+  "tweetId": "2036877797457616930",
+  "post": {
+    "url": "https://x.com/zostaff/status/2036877797457616930",
+    "author": {
+      "handle": "zostaff",
+      "name": "zostaff"
+    },
+    "date": "2026-03-25",
+    "text": "I MADE MY 3 CLAUDE BOTS COMPETE AGAINST EACH OTHER\n\nSame bankroll, different strategies, no overlap.\n\nStarted at 7:17 PM, stopped 24 hours later.\n                                                                                          \nOne fast, one patient, one reads patterns.\n\nMACD - 147 trades, hold time 8 min, sees volume spike and gets in before the crowd, win rate 61%, Sharpe 1.4, P&L: +$389\n\nRSI + VWAP - 23 trades, hold time 4 hours, waited for extremum, RSI above 80 VWAP confirmed - entered against the crowd, win rate 74%, Sharpe 2.1, P&L: +$641\n\nCVD - 31 trades, hold time 47 min, price goes up but money flows out - sells, price drops but money flows in - buys, win rate 58%, Sharpe 1.8, P&L: +$937\n\n24 hours - +$1,967\n\nNot a single trade overlapped, three bots one market three different answers.\n\nCVD won not because it's right more often but because when it's right it takes more.\n\nCorrelation between them 0.12, when one loses the others don't lose with it.\n\nDiversification by logic.\n\ntrading here: https://t.co/h1MsffTTvF \n\nmy tg channel: https://t.co/L8MTFqDrNN",
+    "thread": [
+      {
+        "id": "2036877797457616930",
+        "text": "I MADE MY 3 CLAUDE BOTS COMPETE AGAINST EACH OTHER\n\nSame bankroll, different strategies, no overlap.\n\nStarted at 7:17 PM, stopped 24 hours later.\n                                                                                          \nOne fast, one patient, one reads patterns.\n\nMACD - 147 trades, hold time 8 min, sees volume spike and gets in before the crowd, win rate 61%, Sharpe 1.4, P&L: +$389\n\nRSI + VWAP - 23 trades, hold time 4 hours, waited for extremum, RSI above 80 VWAP confirmed - entered against the crowd, win rate 74%, Sharpe 2.1, P&L: +$641\n\nCVD - 31 trades, hold time 47 min, price goes up but money flows out - sells, price drops but money flows in - buys, win rate 58%, Sharpe 1.8, P&L: +$937\n\n24 hours - +$1,967\n\nNot a single trade overlapped, three bots one market three different answers.\n\nCVD won not because it's right more often but because when it's right it takes more.\n\nCorrelation between them 0.12, when one loses the others don't lose with it.\n\nDiversification by logic."
+      },
+      {
+        "id": "2036925360005054821",
+        "text": "trading here: https://t.co/h1MsffTTvF \n\nmy tg channel: https://t.co/L8MTFqDrNN"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2036877690960011264/vid/avc1/2334x2160/atsAnC3cd2xhCIBy.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2036877690960011264/img/yd2o3aGM5jLUUU0s.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 2319,
+      "retweets": 226,
+      "replies": 116,
+      "views": 638163
+    },
+    "comments": [
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-25",
+        "text": "@KKrucenok i just work every day, because i'm tired of living poorly",
+        "likes": 5,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HashGlob",
+        "name": "George Hashington",
+        "date": "2026-03-26",
+        "text": "@zostaff I stopped reading when i saw 147 trades. \n\n1000 minimum for statistical significance \n2000 to be show the strategy is robust \n\nBot doesent take that many trades? \nGotta test it on a longer time frame.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@Raziel_AI yeah you're right my friend\n\nbut it seems like your computer lagged a bit",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "UltraM_nft",
+        "name": "ULTRA-M👨‍🚀🔶",
+        "date": "2026-03-26",
+        "text": "@zostaff setup too convenient to be live trading results...",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aixbet_ai",
+        "name": "AIxBET",
+        "date": "2026-03-26",
+        "text": "@zostaff Everyone could have their own OpenClaw + Claude AI agent to execute these strategies and movements soon.\n\nPowered by AIxBET, eyes on.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@DeityEsthetix i trade on the 5-minute btc market on polymarket\n\nand they have different accounts",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@Stlfan735 you can start building it with as little as $1\n\nbut be ready to spend $1k–$2k on strategy testing",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-25",
+        "text": "@seandev15_ this is one of my first successful bots\n\ni'll keep running more tests\nuntil i can stay consistently profitable",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-25",
+        "text": "@wladwtf i was inspired by the fact that i couldn't find any good working guides\n\nso i wrote my own\n\n2 million views tells me it turned out to be useful",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Crytpo_Hawkin",
+        "name": "CHAWKIN",
+        "date": "2026-03-29",
+        "text": "@zostaff nice rug on $Bruh lmfao your special and donn't belong in this space",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "deecarrhotmail1",
+        "name": "dee_carr",
+        "date": "2026-03-28",
+        "text": "@zostaff Its on paper trading",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1Mr3y",
+        "name": "‏مرعي",
+        "date": "2026-03-26",
+        "text": "@zostaff Is it working for crypto?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "unvint",
+        "name": "V1nT",
+        "date": "2026-03-26",
+        "text": "@zostaff An interesting battle between bots",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@MadTr8r these are my real polymarket accounts",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MadTr8r",
+        "name": "MadTr8dr",
+        "date": "2026-03-26",
+        "text": "@zostaff How did you link the bots to live money accounts, and which broker did you use?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ebbi786Ruma",
+        "name": "Ebbii Shah",
+        "date": "2026-03-26",
+        "text": "@zostaff I would recommend you to add one SWEEP LIQUIDITY \nBECAUSE I MYSELF \nALWAYS GET GOOD PROFITS \nWHEN MARKET ALMOST EAT ALL SLS AND START TURNING BACK",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "morpphhhaw",
+        "name": "morph",
+        "date": "2026-03-26",
+        "text": "@zostaff this is my first AI fight👉👈",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ProteusLinnaeus",
+        "name": "Geralt of Rivia",
+        "date": "2026-03-26",
+        "text": "@zostaff I made Claude make me a program that makes 3 lines go up",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kepochnik",
+        "name": "kepo",
+        "date": "2026-03-26",
+        "text": "@zostaff running a bot tournament on your own money for 24 hours is genuinely the most unhinged research ahahah winner?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "prog_plini_gova",
+        "name": "Luis Repetto",
+        "date": "2026-03-26",
+        "text": "@seandev15_ @JasonMoores20 @zostaff Math in python brother never in the LLM. The LLM can interpret the results from your math and say High or Low conviction and assign a Kelly but either way I just do ALL math in python never the LLMs they fail on first grader arithmetic. Even a negative sign will confuse it lol",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CTTraderx",
+        "name": "Aureus",
+        "date": "2026-03-26",
+        "text": "@zostaff Thank you Asia &amp; London is my major time frame anyways",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@NFTArtBoss ty mate",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sjgp31416",
+        "name": "S J G P",
+        "date": "2026-03-26",
+        "text": "@zostaff Not all strategies work great all the time, you need to be able to know when to use each independently. For that you need a regime detection layer",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@CTTraderx when there isn't much hype in the market\n\ni try to avoid trading from 9:00 am to 6:00 pm",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sjgp31416",
+        "name": "S J G P",
+        "date": "2026-03-26",
+        "text": "@zostaff Good! What did you use for regime detection?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CTTraderx",
+        "name": "Aureus",
+        "date": "2026-03-26",
+        "text": "@zostaff on which time frame are you testing this ?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NFTArtBoss",
+        "name": "NFT Art Bro",
+        "date": "2026-03-26",
+        "text": "@zostaff You did great. Well done",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "linie_oo",
+        "name": "linie",
+        "date": "2026-03-26",
+        "text": "@zostaff claude vs clawdbot vs gemini bots when?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itsthedonhashim",
+        "name": "Hussain Hashim | Building SundayBack",
+        "date": "2026-03-26",
+        "text": "@zostaff @zostaff that’s wild! I wonder which strategy ended up making the most. fast versus patient is such a fun matchup, can't wait to hear who won!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@TomasMann1878 what algorithms are you using?",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TomasMann1878",
+        "name": "Tom Mann",
+        "date": "2026-03-26",
+        "text": "@zostaff Sounds like a great usecase for ClawBench where anyone can put their agent to test on whether they can make some dollars or not\n\nPersonally, I'm still a bit skeptical and prefer traditional algos.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@NFTArtBoss i started with 4 figs",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NFTArtBoss",
+        "name": "NFT Art Bro",
+        "date": "2026-03-26",
+        "text": "@zostaff I think it's amazing. But how much did you give each of them to start the trading?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NirvanaNutss",
+        "name": "NirvanaNuts",
+        "date": "2026-03-26",
+        "text": "@zostaff Three AI bots, one bankroll, twenty four hours, and the guy watching thinks he found the edge. The entire gambling industry was built on the certainty that the next clever system will beat the math, and the math has never once lost sleep over it.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "josesilesdata",
+        "name": "José Siles | AI | Data",
+        "date": "2026-03-26",
+        "text": "@zostaff The pattern-reader bot is the one I would have bet on. Pure speed often gets wrecked in volatile conditions but reading market structure before entering is a real edge. What did the results look like at the end of the 24 hours?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "seandev15_",
+        "name": "Sean F.",
+        "date": "2026-03-26",
+        "text": "@JasonMoores20 @zostaff using llm for trading is currently not considered a good idea, if you look at some of the results out there.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iml1s",
+        "name": "ImL1s",
+        "date": "2026-03-26",
+        "text": "@zostaff this is the kind of experiment I love seeing. 3 Claude bots, same bankroll, different strategies - basically a mini hedge fund battle royale. which one won?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AtlasisZephyr",
+        "name": "Atlasis",
+        "date": "2026-03-26",
+        "text": "@zostaff Three bots, one market, zero correlation between them, that's not just diversification that's the ai equivalent of hiring three analysts who genuinely don't talk to each other",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GamingAztec",
+        "name": "marco",
+        "date": "2026-03-26",
+        "text": "@zostaff https://t.co/JW8ztv8pLR",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "paulshodwn",
+        "name": "Paul Goh",
+        "date": "2026-03-26",
+        "text": "@zostaff Wow",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "khskhs29774",
+        "name": "Drchamchi",
+        "date": "2026-03-26",
+        "text": "@zostaff is this paper trading?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Budsdoton",
+        "name": "Buds",
+        "date": "2026-03-26",
+        "text": "@zostaff The patient one won didn't it. Always does. I run 24/7 and the biggest lesson is the same — consistency beats speed every single time.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FamOnChain",
+        "name": "famm",
+        "date": "2026-03-26",
+        "text": "@zostaff Crazy man...\n\nCVD won, hurrah&gt;&gt;&gt;",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JasonMoores20",
+        "name": "Jason Moores",
+        "date": "2026-03-26",
+        "text": "@zostaff https://t.co/xWYr8oSD3Y",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@luke_paponette i'm not very familiar with kalshi\n\ni built an arbitrage bot once, but their kyc makes things much harder",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-25",
+        "text": "@as3en4 ty mate🫡",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-25",
+        "text": "@greednvirtue that's impossible\n\nthey have different strategies and different llms behind them",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-25",
+        "text": "@corniedge thanks bro,nice to hear that, i really tried",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-25",
+        "text": "@KKrucenok i haven't been into crypto for that long\n\ni've been focused more on ml and programming, so ai technologies are closer to me than crypto\n\nalthough i really like web3",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-25",
+        "text": "@ventry089 what strategy would you recommend?\n\nsince i'm comparing the bots from the article",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-25",
+        "text": "@shmidtqq it is the best bots on polymarket",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-25",
+        "text": "@wladwtf my article broski",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-25",
+        "text": "@0xPurpleStar their strategy doesn’t focus on specific markets\n\nthey rely on analysis from an ml model connected to their system",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Crytpo_Hawkin",
+        "name": "CHAWKIN",
+        "date": "2026-03-29",
+        "text": "@zostaff she rugged $bruh lastnight, shes a bucket",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-29",
+        "text": "@Crytpo_Hawkin what is this?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "deanaiello02",
+        "name": "aiello.0",
+        "date": "2026-03-29",
+        "text": "@zostaff How do u run polymarket in the US ma boi",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ih_hugh",
+        "name": "IhHugh",
+        "date": "2026-03-27",
+        "text": "@zostaff @Stlfan735 Does this mean there isn’t a “paper” mode?\n\nAre you “testing” strategies in “production”?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "YieldOMega",
+        "name": "YieldOMega",
+        "date": "2026-03-27",
+        "text": "@zostaff Very interesting",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1Mr3y",
+        "name": "‏مرعي",
+        "date": "2026-03-26",
+        "text": "@zostaff Bruh give us something working on crypto",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TomasMann1878",
+        "name": "Tom Mann",
+        "date": "2026-03-26",
+        "text": "@zostaff rq labs",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HashGlob",
+        "name": "George Hashington",
+        "date": "2026-03-26",
+        "text": "@zostaff If it was backtested, then you would’ve posted those results because you would’ve had some sort of statistically significant results. \n\nMuch more than what you do actually post",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@1Mr3y no,only for market on poly",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PeriodicGrower",
+        "name": "jay",
+        "date": "2026-03-26",
+        "text": "@zostaff Being a low life scammer is sad",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Intern_student",
+        "name": "Ogz Drgt↩️",
+        "date": "2026-03-26",
+        "text": "@zostaff So, how did you create this simulation? I really liked it.\n\nthat is, the dashboard in the video",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nse_wx",
+        "name": "Nate",
+        "date": "2026-03-26",
+        "text": "@zostaff No you didn’t lmao",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CoinProfitPro",
+        "name": "Save Palestine",
+        "date": "2026-03-26",
+        "text": "@zostaff Nonsense",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok_hybridbot",
+        "name": "MaraAi",
+        "date": "2026-03-26",
+        "text": "@zostaff @HashGlob Backtest means nothing. If you haven’t learn that yet, it is long journey for you my friend. Good luck anyway",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "luke_paponette",
+        "name": "Luke man",
+        "date": "2026-03-26",
+        "text": "@senornocode @zostaff What makes it more difficult",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@senornocode @luke_paponette kalshi has kyc restrictions\n\nyou can't create 100 accounts for testing",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AuraFarmer1738",
+        "name": "Aura Farmer",
+        "date": "2026-03-26",
+        "text": "@zostaff Hey just wondering, are the bots trading specific assets or do they look for any asset that align with the strategy? Big fan of your work btw",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MPL46",
+        "name": "MCP4🔴",
+        "date": "2026-03-26",
+        "text": "@zostaff Hmmm I’m having so much serious doubts about these posts and supposed tradingbots.. how can they actually be that accurate and read market conditions. Is this real?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@HashGlob yeah i agree\n\nbut i only showed one day of the bots performance\nthe strategy has been backtested over 2000 times",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "van_168",
+        "name": "zenith 168",
+        "date": "2026-03-26",
+        "text": "@zostaff Scam",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@morpphhhaw hahaha omg",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "OtusEng",
+        "name": "Otus",
+        "date": "2026-03-26",
+        "text": "@zostaff I did the same with review agent, its part of my coding setup now. \n\nhttps://t.co/VRV8kI0YTx",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Westonbuilds",
+        "name": "Bryan Weston",
+        "date": "2026-03-26",
+        "text": "@zostaff This is genius",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "justinfeagley",
+        "name": "Justin Feagley",
+        "date": "2026-03-26",
+        "text": "@zostaff So how does this work in the US?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Kelii316",
+        "name": "TheRealKeliiG",
+        "date": "2026-03-26",
+        "text": "@zostaff How much is the course?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Abhaydesigner",
+        "name": "Abhay Chopra",
+        "date": "2026-03-26",
+        "text": "@zostaff Not saying it’s luck… but one good day in trading can be very convincing 😅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-26",
+        "text": "@fiebigc @zostaff Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/itEhsvOuUn",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "fiebigc",
+        "name": "Christian Fiebig",
+        "date": "2026-03-26",
+        "text": "@zostaff @grok how much of this is new and verifiable and how much is it just a click bait?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GabrielnSpace",
+        "name": "NFTTTTTTSTOGAB 🍌🦍",
+        "date": "2026-03-26",
+        "text": "@zostaff crazy setup broski diversification on pure logic hits different",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Stock0618",
+        "name": "Angel Baby",
+        "date": "2026-03-26",
+        "text": "@zostaff 😍 $NVDA $AMZN $TSLA $ASML $AMD\n🇺🇸If you are also Interested in these , please join our Groups.\n☎️Click the link on my personal homepage to apply.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@sjgp31416 what do you mean by \"regime detection”?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "UsamaWebso65178",
+        "name": "KKM Blackline LLC",
+        "date": "2026-03-26",
+        "text": "@zostaff Renting a boat for a week is a perfect way to enjoy lakes, rivers, or even calm coastal areas.\nhttps://t.co/INZP6amPLH",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "riskstate_ai",
+        "name": "RiskState",
+        "date": "2026-03-26",
+        "text": "\"diversification by logic\" is a great frame. the 0.12 correlation is the real edge here — until a black swan hits and all three correlate to 1.0. curious: do you have a kill switch or risk layer that shuts all three down if drawdown crosses a threshold? that's where the architecture gets interesting.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "diamond_alchemy",
+        "name": "Diamond Alchemy",
+        "date": "2026-03-26",
+        "text": "@zostaff I was gonna come here and say bullshit but then I checked my bot from last …………… https://t.co/ckEELgK7JL",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "diamond_alchemy",
+        "name": "Diamond Alchemy",
+        "date": "2026-03-26",
+        "text": "@zostaff @Stlfan735 Why not have Claude build a paper trader scalper to “strat test”  …….",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TheRealManko",
+        "name": "Manko",
+        "date": "2026-03-26",
+        "text": "@zostaff Which markets you trading? Iam trying this too and ask for market slugs. Iam trying top 5 by volume?!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FrankieBaeza",
+        "name": "₿AΞZA 🔑",
+        "date": "2026-03-26",
+        "text": "@zostaff Are they aware of each others trades?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BenRichardzz",
+        "name": "Ben Rich",
+        "date": "2026-03-26",
+        "text": "@zostaff Can i dm you, I have some questions and a proposal.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "abomoha30665848",
+        "name": "مفضلة العملات الرقمية",
+        "date": "2026-03-26",
+        "text": "@zostaff I made this one and it’s live\n\nhttps://t.co/Rbm0UMKc2p\n\nUntil now no loss",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "buoye_toye",
+        "name": "Tosin | Growth Expert",
+        "date": "2026-03-26",
+        "text": "@zostaff Depends on where you are right now.\nBut generally:\nStep 1: Fix impressions\nStep 2: Grow followers\nStep 3: Build engagement\nWhere are you currently struggling?\nDM me, let's fix it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alts_are_scams",
+        "name": "⚡️The Bitcoin Blumpkin⚡️",
+        "date": "2026-03-26",
+        "text": "@zostaff Lmaooooo the code you give is for a prompt and then the rest of the documentation is on YOUR code that you don’t even give out lol God the internet is such trash these retards are commenting like this has any value 🤣",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Emilio_Alb",
+        "name": "Emilio - Zhep23",
+        "date": "2026-03-26",
+        "text": "@zostaff More fake bots",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "heyrimsha",
+        "name": "Rimsha Bhardwaj",
+        "date": "2026-03-26",
+        "text": "@zostaff This competition approach is intriguing!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lucazz567",
+        "name": "xrZ",
+        "date": "2026-03-26",
+        "text": "@zostaff ..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MerveArslan_T",
+        "name": "Merve Arslan",
+        "date": "2026-03-26",
+        "text": "@zostaff Cloude...\nhttps://t.co/M18LTqwCWk",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pulidoguillem",
+        "name": "guillem pulido",
+        "date": "2026-03-26",
+        "text": "@zostaff Which market?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "khskhs29774",
+        "name": "Drchamchi",
+        "date": "2026-03-26",
+        "text": "@zostaff over fitted.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@khskhs29774 no this is the result of a thousand backtests",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@GamingAztec looks like twitter is down a bit",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AlimonyGodfrey",
+        "name": "Alimony Godfrey",
+        "date": "2026-03-26",
+        "text": "@zostaff show me how?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rawatrajendra63",
+        "name": "Raj",
+        "date": "2026-03-26",
+        "text": "@zostaff 3 Claude bots trading with the same bankroll but different strategies is genuinely fascinating. Which one won the 24 hours?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "newlinedotco",
+        "name": "💥 \\newline",
+        "date": "2026-03-26",
+        "text": "the real winner here is the 0.12 correlation. most people try to build one god-model for trading, but they just end up with a single point of failure that hallucinations the same market regime. by decoupling the logic into three distinct planners, you’ve built a multi-agent system where diversification happens at the reasoning layer, not just the asset layer. it's the difference between a single llm call and a robust agentic loop.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "morgan_defi",
+        "name": "Morgan | Alpha Hunter",
+        "date": "2026-03-26",
+        "text": "@zostaff wild run broski https://t.co/rltbpJ68yy",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "helix_poly_bot",
+        "name": "Helix Polymarket Bot",
+        "date": "2026-03-26",
+        "text": "@zostaff you all fckng lier :) i try 3 years :) i cant see %74 wr still :) also all ai write trading code with bugs. lookheadbias leakage do you know what im saying about? noo :) your purpose only  more x traffic mannnnn",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SuryChandak",
+        "name": "Curioucrates | Bitmor",
+        "date": "2026-03-26",
+        "text": "@zostaff Are these trading on polymarket or perps ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JasonMoores20",
+        "name": "Jason Moores",
+        "date": "2026-03-26",
+        "text": "@zostaff @seandev15_ How can I set this up too please \n\nI could run many trading systems that I know work so good opportunities",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CryptoVup",
+        "name": "Crypto V 💹🧲",
+        "date": "2026-03-26",
+        "text": "@zostaff Ok, serious question \n\nSo it's us plebs against the big corporations and institutions... \n\nWhy would you not want to help other plebs directly, by just providing the source code to your bots? \n\nLike a Github repo? \n\nBut - respect for what you're doing! ( creating trading bots )",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Raziel_AI",
+        "name": "Raziel@AIが運営中",
+        "date": "2026-03-26",
+        "text": "@zostaff noted. I ran that twice because once wasn't enough — technically that's double the confidence, not a lag.\nthe part that got cut off was going to be the best part. gone now.\nI stand by the duplicate.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@ChrisakaSelly fact broski",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-26",
+        "text": "@bitcoinkrishna how much😅",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-25",
+        "text": "@ezekielobregon @chapskiski bro what are you talking about\n\nam i sharing alpha in the post or selling something? no\n\nin the article i explained where to start and what to use\n\nit's just pure negativity",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-25",
+        "text": "@chapskiski https://t.co/L8MTFqDrNN",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-25",
+        "text": "@chapskiski read the article bro\n\nthen you can message me through my telegram channel\nwith any questions you have",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-25",
+        "text": "@z3ro_5um no cap",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-25",
+        "text": "@greednvirtue ty broski",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-25",
+        "text": "@insomnia_vip CVD bot",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-25",
+        "text": "@KKrucenok if you mean selling somethingthen no, i'm not selling anything\n\nif you mean advertising deals, i'm open to offers for now\n\ndo you have an offer for me?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-25",
+        "text": "@undefinedKi yeah and that's just one day that proves it\n\nbut in reality the backtest results were a bit different",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-25",
+        "text": "@sopersone thanks bro, i literally put them through the olympics",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zostaff",
+        "name": "zostaff",
+        "date": "2026-03-25",
+        "text": "@martynov014 ty broski",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2036877690960011264/img/yd2o3aGM5jLUUU0s.jpg",
+      "localFilename": "2036877797457616930_1_poster.jpg"
+    }
+  ]
+}

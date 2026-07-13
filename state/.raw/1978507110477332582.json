@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:14:48.238Z",
+  "tweetId": "1978507110477332582",
+  "post": {
+    "url": "https://x.com/sundarpichai/status/1978507110477332582",
+    "author": {
+      "handle": "sundarpichai",
+      "name": "Sundar Pichai"
+    },
+    "date": "2025-10-15",
+    "text": "An exciting milestone for AI in science: Our C2S-Scale 27B foundation model, built with @Yale and based on Gemma, generated a novel hypothesis about cancer cellular behavior, which scientists experimentally validated in living cells. \n\nWith more preclinical and clinical tests, this discovery may reveal a promising new pathway for developing therapies to fight cancer.",
+    "thread": [
+      {
+        "id": "1978507110477332582",
+        "text": "An exciting milestone for AI in science: Our C2S-Scale 27B foundation model, built with @Yale and based on Gemma, generated a novel hypothesis about cancer cellular behavior, which scientists experimentally validated in living cells. \n\nWith more preclinical and clinical tests, this discovery may reveal a promising new pathway for developing therapies to fight cancer."
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 21546,
+      "retweets": 3169,
+      "replies": 537,
+      "views": 6867141
+    },
+    "comments": []
+  }
+}

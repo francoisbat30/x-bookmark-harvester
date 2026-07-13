@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:44.665Z",
+  "tweetId": "2037946734350151835",
+  "post": {
+    "url": "https://x.com/adxtyahq/status/2037946734350151835",
+    "author": {
+      "handle": "adxtyahq",
+      "name": "aditya"
+    },
+    "date": "2026-03-28",
+    "text": "How to Use Claude Properly (and Cut Costs by Up to 70%)\n\nMost people using Claude are just wasting money.\nNot because the model is expensive, but because of how they use it.\nThey treat it like a faster ChatGPT. Prompt, get output, tweak, prompt again, repeat. It feels productive in the moment, but it’s just a loop of redoing the same thinking multiple times.\nClaude isn’t really meant for that. It works better when you treat it like something that can think through an entire problem once, instead of something that gives you quick answers again and again.\nThe biggest mistake is sending small, incomplete prompts. “Fix this bug”, “optimize this”, “write this function”. Then when the output isn’t perfect, you go back and refine it over multiple prompts. Each step costs you, and more importantly, each step exists because the original prompt didn’t have enough context.\nIf you instead give it everything upfront: your code, constraints, edge cases, what you’ve already tried - you usually get much closer to a usable answer in one go. Fewer calls, less cost, better output.\nMost of the money people burn is in iteration. Not in complexity.\nThey do three or four prompts to reach something that could have been solved in one. The issue isn’t the model failing, it’s unclear instructions. Every missing constraint becomes another paid retry.\nAnother pattern is using it for things that don’t really need it. Boilerplate, simple CRUD, formatting. These are easy to do yourself or automate differently. Where Claude actually helps is where thinking is expensive — debugging something non-obvious, understanding a new codebase, making architectural decisions.\nThere’s also a lot of repeated thinking. People open new chats and ask the same kind of questions again, slightly reworded, slightly reframed. The model recomputes the same reasoning every time. Over time that adds up more than anything else.\nContext isn’t the enemy here. Most people try to keep prompts short to “save cost”, but that usually backfires. A longer, well-structured prompt once is cheaper than multiple short prompts that slowly converge to the same result.\nThe people who keep their usage efficient aren’t necessarily using Claude less. They’re just more deliberate. They batch work, define constraints early, reuse outputs, and use it as a reviewer as much as a generator.\nIf using Claude feels expensive, it’s usually not because of the pricing. It’s because the thinking is fragmented across too many prompts.\nFix that, and the cost problem mostly goes away.",
+    "thread": [
+      {
+        "id": "2037946734350151835",
+        "text": "How to Use Claude Properly (and Cut Costs by Up to 70%)\n\nMost people using Claude are just wasting money.\nNot because the model is expensive, but because of how they use it.\nThey treat it like a faster ChatGPT. Prompt, get output, tweak, prompt again, repeat. It feels productive in the moment, but it’s just a loop of redoing the same thinking multiple times.\nClaude isn’t really meant for that. It works better when you treat it like something that can think through an entire problem once, instead of something that gives you quick answers again and again.\nThe biggest mistake is sending small, incomplete prompts. “Fix this bug”, “optimize this”, “write this function”. Then when the output isn’t perfect, you go back and refine it over multiple prompts. Each step costs you, and more importantly, each step exists because the original prompt didn’t have enough context.\nIf you instead give it everything upfront: your code, constraints, edge cases, what you’ve already tried - you usually get much closer to a usable answer in one go. Fewer calls, less cost, better output.\nMost of the money people burn is in iteration. Not in complexity.\nThey do three or four prompts to reach something that could have been solved in one. The issue isn’t the model failing, it’s unclear instructions. Every missing constraint becomes another paid retry.\nAnother pattern is using it for things that don’t really need it. Boilerplate, simple CRUD, formatting. These are easy to do yourself or automate differently. Where Claude actually helps is where thinking is expensive — debugging something non-obvious, understanding a new codebase, making architectural decisions.\nThere’s also a lot of repeated thinking. People open new chats and ask the same kind of questions again, slightly reworded, slightly reframed. The model recomputes the same reasoning every time. Over time that adds up more than anything else.\nContext isn’t the enemy here. Most people try to keep prompts short to “save cost”, but that usually backfires. A longer, well-structured prompt once is cheaper than multiple short prompts that slowly converge to the same result.\nThe people who keep their usage efficient aren’t necessarily using Claude less. They’re just more deliberate. They batch work, define constraints early, reuse outputs, and use it as a reviewer as much as a generator.\nIf using Claude feels expensive, it’s usually not because of the pricing. It’s because the thinking is fragmented across too many prompts.\nFix that, and the cost problem mostly goes away."
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 613,
+      "retweets": 67,
+      "replies": 21,
+      "views": 308752
+    },
+    "comments": []
+  }
+}

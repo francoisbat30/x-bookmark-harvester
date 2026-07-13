@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:14.982Z",
+  "fetchedAt": "2026-07-13T06:58:27.070Z",
   "tweetId": "2026119136368001448",
   "post": {
     "url": "https://x.com/iruletheworldmo/status/2026119136368001448",
@@ -10,13 +11,41 @@
     },
     "date": "2026-02-24",
     "text": "i don't care when you watch this, now, later, tomorrow. \n\nbut you have to watch this video, there's way too much going on in ai at the moment and i'd be lost without theo. i'd been doing literally everything wrong, sigh. \n\nhe runs through some interesting papers on how to use your agents md files, skills, context management. \n\nsuper super useful. watch it now, i've changed my mind, watch it right now. stop watching frame mog videos and watch this at once sir.",
+    "thread": [
+      {
+        "id": "2026119136368001448",
+        "text": "i don't care when you watch this, now, later, tomorrow. \n\nbut you have to watch this video, there's way too much going on in ai at the moment and i'd be lost without theo. i'd been doing literally everything wrong, sigh. \n\nhe runs through some interesting papers on how to use your agents md files, skills, context management. \n\nsuper super useful. watch it now, i've changed my mind, watch it right now. stop watching frame mog videos and watch this at once sir."
+      }
+    ],
     "media": [],
     "metrics": {
-      "likes": 7753,
-      "retweets": 414,
+      "likes": 7704,
+      "retweets": 413,
       "replies": 69,
-      "views": 1177821
+      "views": 1182539
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "justinbebis",
+        "name": "Justin Bebis",
+        "date": "2026-02-24",
+        "text": "The video should be 4 bullet points, there’s about 20 seconds worth of useful content. it’s an ad delivery mechanism.",
+        "likes": 168
+      },
+      {
+        "handle": "bytecodecrux",
+        "name": "Mandy",
+        "date": "2026-02-24",
+        "text": "theo is so right on this. read a study a while back, frontier models start breaking past ~150 instructions and the system prompt already eats into that.\n\ncut my /claude.md to ~30 lines and yeah, works way better.",
+        "likes": 28
+      },
+      {
+        "handle": "WazzCrypto",
+        "name": "Wazz",
+        "date": "2026-02-24",
+        "text": "Claude condense this wordslop video into a 3 sentence summary that actually says something useful",
+        "likes": 22
+      }
+    ]
   }
 }

@@ -1,0 +1,420 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:19.292Z",
+  "tweetId": "2042295647362019800",
+  "post": {
+    "url": "https://x.com/hooeem/status/2042295647362019800",
+    "author": {
+      "handle": "hooeem",
+      "name": "hoeem"
+    },
+    "date": "2026-04-09",
+    "text": "YOU JUST CONNECT CLAUDE CODE WITH NOTEBOOKLM AND IT EXTENDS YOUR SESSIONS BY SAVING YOUR TOKENS.\n\nNOW GO &amp; BUILD! https://t.co/pU0qJWXiD1 https://t.co/fQpfE9uyYk",
+    "thread": [
+      {
+        "id": "2042295647362019800",
+        "text": "YOU JUST CONNECT CLAUDE CODE WITH NOTEBOOKLM AND IT EXTENDS YOUR SESSIONS BY SAVING YOUR TOKENS.\n\nNOW GO &amp; BUILD! https://t.co/pU0qJWXiD1 https://t.co/fQpfE9uyYk"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2042295586347474946/vid/avc1/1416x720/dhDaw7nmyFwR2_Na.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2042295586347474946/img/Nv0Sd6cCGYzq2vAD.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 5330,
+      "retweets": 383,
+      "replies": 39,
+      "views": 959390
+    },
+    "comments": [
+      {
+        "handle": "AlexAhmedMD",
+        "name": "Alex Ahmed MD",
+        "date": "2026-04-10",
+        "text": "@hooeem This is a variation of the LLM wiki by @karpathy. Outsource primary source synthesis to a different context window",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chaoslabs_",
+        "name": "Chaos",
+        "date": "2026-04-09",
+        "text": "@hooeem I need @Teknium to add this to @NousResearch Hermes agent as a feature. Or fuck it I’ll get it spun up tonight",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "QuotableCrypto",
+        "name": "Quotable Crypto",
+        "date": "2026-04-09",
+        "text": "@hooeem you need to change your name from hoeem to hack-eem :)\n\nyou're on fire, bro, with the content and hacks... \n\ndayum...🙏🏻💪🏻QC https://t.co/PG0aw3cj7m",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-09",
+        "text": "Claude's built for deep, context-aware reasoning in its own ecosystem—Anthropic tunes it that way to balance quality and safety. NotebookLM is Google's separate tool for turning notes into summaries or audio overviews, so the hack works by offloading long context there to stretch tokens.\n\nNo conspiracy on burning through limits; it's just how isolated AI platforms are designed. Cross-company auto-integration would need partnerships they haven't pursued. Smart users like you stitch them together manually for the win.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mrstartups",
+        "name": "Carlos de Ory ツ💻",
+        "date": "2026-04-09",
+        "text": "@hooeem @grok  why dont claude do this automaticaly. Do they want we finish the tokens soon?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Teknium",
+        "name": "Teknium 🪽",
+        "date": "2026-04-09",
+        "text": "@chaoslabs_ @hooeem @NousResearch Can you elaborate for me or ping me with a PR will review :)",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iamsupersocks",
+        "name": "Supersocks",
+        "date": "2026-04-10",
+        "text": "@hooeem @llmgram",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Dave_Geoghegan_",
+        "name": "David Geoghegan",
+        "date": "2026-04-10",
+        "text": "@hooeem claude code plus notebooklm for session persistence is clever. losing context mid-session is the most frustrating part of long coding runs",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LefebvreJoe",
+        "name": "Joe Lefebvre",
+        "date": "2026-04-10",
+        "text": "@Teknium @chaoslabs_ @hooeem @NousResearch I was just reading that paper, thought “how can Hermes work….” Then booom.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "threadtension",
+        "name": "ThreadTension",
+        "date": "2026-04-09",
+        "text": "@hooeem Karpathy's LLM Wiki idea is very good also.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ImRicoAi",
+        "name": "Rico Solano",
+        "date": "2026-04-09",
+        "text": "@hooeem That's a solid workflow hack. I've been piping my Claude Code context into markdown files between sessions — same idea, different pipe. Token management is the real meta-skill right now.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "stephlon_b",
+        "name": "Stephen",
+        "date": "2026-04-09",
+        "text": "@hooeem this + XSpark as a memory layer would go crazy 🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alphabatcher",
+        "name": "Alpha Batcher",
+        "date": "2026-04-09",
+        "text": "@hooeem horrm again dropped banger for us",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xmyttle",
+        "name": "Myttle",
+        "date": "2026-04-09",
+        "text": "@hooeem smart move",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shynkariukIllia",
+        "name": "shooneezY",
+        "date": "2026-04-09",
+        "text": "@hooeem This is how my interaction with AI looked like at the beginning, it's a little easier now",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "malewiczz",
+        "name": "malewicz 🎨",
+        "date": "2026-04-09",
+        "text": "@hooeem yes sir, captain",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "koffeevsworld",
+        "name": "Koffee VS The World",
+        "date": "2026-04-14",
+        "text": "@hooeem Damn, actually need to try this. I use up too much tokens",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pinkeshdpatel",
+        "name": "Pinkesh | SaaS MVPs in 2 Weeks",
+        "date": "2026-04-14",
+        "text": "@hooeem wait this is smart. using NotebookLM as a context layer for Claude Code? gonna try this today",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thegreatest_sv",
+        "name": "kiosa",
+        "date": "2026-04-11",
+        "text": "@hooeem Connecting Claude to NotebookLM just to save a few tokens is a lot of effort for a workflow that’s going to break the moment your repo gets serious",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mour_05",
+        "name": "Mour",
+        "date": "2026-04-11",
+        "text": "@hooeem . @0xweekend59",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "juanpabloaj",
+        "name": "Juanpablo",
+        "date": "2026-04-11",
+        "text": "@hooeem codex exec resume --last \"prompt\"",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sebuzdugan",
+        "name": "Sebastian Buzdugan",
+        "date": "2026-04-10",
+        "text": "@hooeem connecting tools is cute, surviving auth, billing and support tickets is product",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ImNikhil117",
+        "name": "Nikhil Sharma",
+        "date": "2026-04-10",
+        "text": "@hooeem Bro this hack is so obvious in hindsight. Genius.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UncleMo25",
+        "name": "Mololuwa",
+        "date": "2026-04-10",
+        "text": "@mrstartups @hooeem @grok If you don’t finish your token, how will they make money ? 🤷‍♀️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "shantihp",
+        "name": "Shantinath Chaudhary",
+        "date": "2026-04-10",
+        "text": "@hooeem Notebook llm vs obsidian, didn’t get their links. Isn’t just obsidian enough?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BJCobber",
+        "name": "Bruce James Cobber",
+        "date": "2026-04-10",
+        "text": "@hooeem not giving google any of my code",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AnicryptDesigns",
+        "name": "Anicrypt | Framer Developer",
+        "date": "2026-04-10",
+        "text": "@hooeem This is smart. Extending sessions without losing context is a real win.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "r0l0pes",
+        "name": "ro",
+        "date": "2026-04-10",
+        "text": "@hooeem Why insist in Claude and proprietary technology when you could invest this energy in open source models? No shade, honest question.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mk__0168",
+        "name": "Mahendra Kumawat",
+        "date": "2026-04-10",
+        "text": "@hooeem Whoa, game-changer! Just linked Claude Code with NotebookLM and my session length just skyrocketed! Tokens saved and I'm feeling like a ninja 🥋",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "viliana68036380",
+        "name": "Viliana",
+        "date": "2026-04-10",
+        "text": "@hooeem Sounds and looks convincing))",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LonelyWolfsh",
+        "name": "Lonely Wolf",
+        "date": "2026-04-10",
+        "text": "@hooeem https://t.co/UnZT0hsVPv",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DejiBasho",
+        "name": "Reemy",
+        "date": "2026-04-10",
+        "text": "@hooeem No way this is real? I was already doing something similar to this but this is the next step, thanks bro!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Farahnaz133",
+        "name": "Farahnaz🦋",
+        "date": "2026-04-10",
+        "text": "@hooeem hoem made it again",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dirty_digs",
+        "name": "Dirt | 🍁🥃",
+        "date": "2026-04-10",
+        "text": "@hooeem Hoeem, have you tried @runpentagon?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "newlinedotco",
+        "name": "💥 \\newline",
+        "date": "2026-04-10",
+        "text": "if you're using o1 or claude 3.5 for the entire loop you're burning money for no reason. \n\nthe move is using the reasoning model for the initial plan and the final synthesis pass only. for the intermediate tool calls and observation parsing, small models like gemini 1.5 flash or llama 3.2 3b are more than enough. a good coordinator agent can handle 90% of the heavy lifting using models that cost 1/10th the price.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1zablon",
+        "name": "1zablon",
+        "date": "2026-04-10",
+        "text": "@hooeem https://t.co/KQx43SUrdw",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thelooma_io",
+        "name": "TheLooma",
+        "date": "2026-04-10",
+        "text": "@hooeem why is nobody working… oh wait 💀 https://t.co/kE2DUxqxuN",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "auTechArena",
+        "name": "techarena.au",
+        "date": "2026-04-09",
+        "text": "@hooeem Bruh this is nasty in the best way. Claude + NotebookLM saving tokens? I'mma build something stupidly powerful. Who's actually gonna ship or just flex?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Liqui_Sniper",
+        "name": "Liquidity Sniper",
+        "date": "2026-04-09",
+        "text": "@hooeem Sick move, saving tokens? Gonna nick this and never log off.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aitization",
+        "name": "aitization 𝕏 ",
+        "date": "2026-04-09",
+        "text": "@hooeem Please DM Me :)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rtheoryxyz",
+        "name": "robertus",
+        "date": "2026-04-09",
+        "text": "@hooeem the real unlock is that NotebookLM becomes your external memory layer while claude code handles execution. two specialized systems instead of forcing one to do both. that's just systems thinking applied to dev workflow.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SPath62945",
+        "name": "smart path",
+        "date": "2026-04-09",
+        "text": "@hooeem That's a smart combo! 🔗 Claude Code + NotebookLM = longer sessions without burning tokens. Game changer for big projects. Time to build more! 🚀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2042295586347474946/img/Nv0Sd6cCGYzq2vAD.jpg",
+      "localFilename": "2042295647362019800_1_poster.jpg"
+    }
+  ]
+}

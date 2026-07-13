@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:06.689Z",
+  "fetchedAt": "2026-07-12T18:26:01.106Z",
   "tweetId": "1970528344426061986",
   "post": {
     "url": "https://x.com/izazmahammad_/status/1970528344426061986",
@@ -10,6 +11,12 @@
     },
     "date": "2025-09-23",
     "text": "unted – Logo Design https://t.co/oHspLFhwQO",
+    "thread": [
+      {
+        "id": "1970528344426061986",
+        "text": "unted – Logo Design https://t.co/oHspLFhwQO"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -30,10 +37,50 @@
     ],
     "metrics": {
       "likes": 384,
-      "retweets": 14,
+      "retweets": 15,
       "replies": 12,
-      "views": 12255
+      "views": 12298
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "umanskygraphics",
+        "name": "theoluwaseun | brand designer",
+        "date": "2025-09-23",
+        "text": "Amazing 🔥💙💙",
+        "likes": 2
+      },
+      {
+        "handle": "pialbisaws46",
+        "name": "Pial Biswas",
+        "date": "2025-09-23",
+        "text": "Nice work",
+        "likes": 1
+      },
+      {
+        "handle": "jahidshuvo525",
+        "name": "Zaid Shuvo",
+        "date": "2025-09-24",
+        "text": "well done",
+        "likes": 1
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G1i48lZaoAAsHyA.jpg",
+      "localFilename": "1970528344426061986_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G1i4-weaoAI9SuR.jpg",
+      "localFilename": "1970528344426061986_2.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G1i4-wSbgAAyv1k.jpg",
+      "localFilename": "1970528344426061986_3.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G1i4-xtasAAhfjG.jpg",
+      "localFilename": "1970528344426061986_4.jpg"
+    }
+  ]
 }

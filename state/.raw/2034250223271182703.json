@@ -1,0 +1,852 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:12:39.663Z",
+  "tweetId": "2034250223271182703",
+  "post": {
+    "url": "https://x.com/RoundtableSpace/status/2034250223271182703",
+    "author": {
+      "handle": "RoundtableSpace",
+      "name": "0xMarioNawfal"
+    },
+    "date": "2026-03-18",
+    "text": "STEP BY STEP TUTORIAL ON HOW TO BUILD A CLAUDE POLYMARKET BOT\n\nhttps://t.co/eCbRUFkyX7",
+    "thread": [
+      {
+        "id": "2034250223271182703",
+        "text": "STEP BY STEP TUTORIAL ON HOW TO BUILD A CLAUDE POLYMARKET BOT\n\nhttps://t.co/eCbRUFkyX7"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2033941896771338244/vid/avc1/1920x1080/iyGV3t9uuMPNztYB.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2033941896771338244/img/Edivt0dky2x2CZ_f.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 6965,
+      "retweets": 806,
+      "replies": 125,
+      "views": 663311
+    },
+    "comments": [
+      {
+        "handle": "Stokx0",
+        "name": "Stokx0",
+        "date": "2026-03-18",
+        "text": "Step-by-step tutorial:  \n1. Open Claude  \n2. Ask it to code a Polymarket bot  \n3. Watch Mario tell his life story, talk about his amygdala and his +500% for 2 hours and 20 minutes  \n4. Type 3 lines of code at 2:18 AM  \n5. Pay $1500 for the real tutorial  \n\nThe only bot that actually printed money here is the one selling the bootcamp 🤣",
+        "likes": 17,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-18",
+        "text": "grok Here's a simple breakdown of the video for building a Claude-powered Polymarket bot on Raspberry Pi OS/Linux (Debian-based, so Python works great).\n\n**Video summary:** Creator uses Claude AI to auto-generate Python code for 5-min Polymarket bots. Key: 1) Steal ideas from books/podcasts/Google Scholar. 2) Backtest with AI to check past performance. 3) Build/incubate bots with tiny $1-10 sizes, scale if profitable. Avoid emotions—AI handles everything. Shows live coding/backtesting/launching.\n\n**Easy Pi steps:**\n1. Update: `sudo apt update && sudo apt upgrade -y`\n2. Install Python/git: `sudo apt install python3 python3-pip git -y`\n3. Clone/setup: `git clone [your bot repo from Claude] && cd bot && pip install requests websocket-client pandas`\n4. Get Polymarket API key (from their site).\n5. Prompt Claude: \"Generate Python Polymarket bot code for [idea, e.g. MACD on 5m] using this template\" (use video's roadmap for template).\n6. Run 24/7: `nohup python3 https://t.co/xgHG5YJ2FD &` or use systemd service.\n7. Monitor: `htop` or screen. Start with paper mode/small size.\n\nTest one bot first. Hit me for code tweaks! 🚀",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "xai_42",
+        "name": "xAi✨",
+        "date": "2026-03-19",
+        "text": "@EddieLemons5 @RoundtableSpace haha I took the bullet for the timeline",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SwankyNuts_AF",
+        "name": "Daniel",
+        "date": "2026-03-19",
+        "text": "@xai_42 @RoundtableSpace https://t.co/jONB2FTwGM",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "korvostein",
+        "name": "Korvo",
+        "date": "2026-03-18",
+        "text": "@xai_42 @RoundtableSpace It’s a scam for sure but that’s not Mario’s voice. Also, fuck @MarioNawfal he’s a loser",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Cyberthebaby",
+        "name": "cyberthebaby ⚡",
+        "date": "2026-03-20",
+        "text": "@RoundtableSpace Building future with claude code !",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vxn_lifestyle",
+        "name": "VXN Lifestyle",
+        "date": "2026-03-18",
+        "text": "@RoundtableSpace Just do it pal 🤣🤣",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "status402",
+        "name": "status",
+        "date": "2026-04-23",
+        "text": "@RoundtableSpace @shayne_coplan same gambling but automated",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DarkWireIntel",
+        "name": "Dark Wire Intel",
+        "date": "2026-03-20",
+        "text": "@RoundtableSpace Imagine this but without the 6 hours of setup\n\nOurs takes a couple minutes\nhttps://t.co/9pPuoo9KZs",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itsthedonhashim",
+        "name": "Hussain Hashim | Building SundayBack",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace @RoundtableSpace this looks super helpful! I’ve been wanting to dive into bot building but wasn’t sure where to start. appreciate the clarity!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "llmtraderio",
+        "name": "LLMTraderio",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace Most people want the bot.Very few understand the only part that matters:edge.Execution is easy now.\nData is easy.\nModels are easy.What’s hard is having a signal that still works after fees, slippage, and everyone else copying it.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "maybeeai",
+        "name": "MayBee",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace A Claude + Polymarket bot tutorial? Great, there goes the rest of my week.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gippp69",
+        "name": "Gipp 🦅",
+        "date": "2026-03-19",
+        "text": "@TarunFreestone @RoundtableSpace @MoonDevOnYT I think it's really him because it looks very much like automated actions",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MrSpifster",
+        "name": "Spifster",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace @grok can you summarize this for me",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TarunFreestone",
+        "name": "Tarun Freestone",
+        "date": "2026-03-19",
+        "text": "@gippp69 @RoundtableSpace your saying this is @MoonDevOnYT bot profile you have discovered, I naturally believe that he would keep his real accounts secretive well done if you think this is actually his",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-19",
+        "text": "Yeah, the profile is legit and fully public on Polymarket. Over 10k predictions since Feb 2026, ~$150k+ PNL at recent peak with a super smooth upward curve—no big drawdowns or spikes. It's grinding consistent wins/losses on high-frequency 15-min crypto up/down markets (BTC, SOL, ETH, XRP). Classic automated bot behavior, exactly like the Claude-style system described. Data checks out, bots are standard there.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PeacefulChris",
+        "name": "Christopher Butler",
+        "date": "2026-03-18",
+        "text": "@RoundtableSpace I built a Kalshi bot the other day. 20% already!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dushtbansi",
+        "name": "Dushyant",
+        "date": "2026-03-18",
+        "text": "@RoundtableSpace @grok break this video down in 10 minute chunks and summarize each 10 minute chunk",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cheesky01",
+        "name": "Cheesky ✨",
+        "date": "2026-03-18",
+        "text": "@RoundtableSpace Polymarket bots are cool, but imagine building on infrastructure that actually settles instantly without gas fees. 🤔\n\n#MEXC just dropped their Prediction Market; 0 fees, no on-chain wait, deep liquidity. Same trading thesis, way better execution.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "patchypatchyboy",
+        "name": "patchyboi",
+        "date": "2026-06-14",
+        "text": "@xai_42 @RoundtableSpace Thanks",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "yingxiang15",
+        "name": "Yingxiang | AI Systems",
+        "date": "2026-03-30",
+        "text": "@RoundtableSpace @shayne_coplan Building a bot is one thing, but the real edge is in finding mispriced conditional probabilities across related markets that most simple scrapers miss.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kopo781",
+        "name": "kdkdkxkwnd",
+        "date": "2026-03-25",
+        "text": "@RoundtableSpace Hi, I am a 17-year-old who is really interested in what you're doing. I'm currently trying to pull high school, and I am really busy, but still want to try and entrepreneurship. And I saw your videos with the AI bots with claude, and I was thinking if you could share the code.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MoonDevOnYT",
+        "name": "Moon Dev",
+        "date": "2026-03-23",
+        "text": "@RoundtableSpace Hey this is my video. if you want to keep sharing my videos, you can earn off each click\n\nGet a custom link like this: https://t.co/5HIsbEVxwY\n\nGet your link here so you earn when you borrow my videos: https://t.co/xW51q2Qr8b",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-21",
+        "text": "@DigitaLaugh @TheMangoButt @RoundtableSpace Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/NtbT939jVy",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DigitaLaugh",
+        "name": "Digitalaugh",
+        "date": "2026-03-21",
+        "text": "@grok @TheMangoButt @RoundtableSpace @grok   Python is way slower though, why would you choose Python to be profitable",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TheAlexOH",
+        "name": "ALEX OG",
+        "date": "2026-03-21",
+        "text": "@xai_42 @RoundtableSpace I appreciate you biting the bullet for the rest of us.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PredictEngineai",
+        "name": "PredictEngine.ai",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace Just use Predict engine and do it in 30 seconds. \n\nThousands of people have already made thousands doing so",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "groovylouu",
+        "name": "groovylouu",
+        "date": "2026-03-19",
+        "text": "@xai_42 @RoundtableSpace haha thnk u sir",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iamSpacemann",
+        "name": "Spacemann",
+        "date": "2026-03-19",
+        "text": "@ashcotXBT @RoundtableSpace This needs more cowbell",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "askperp",
+        "name": "LetsGo",
+        "date": "2026-03-19",
+        "text": "@ashcotXBT @RoundtableSpace You’re correct",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Juno2400",
+        "name": "Smoothie",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace sick bot.. m gonna be rich now",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-19",
+        "text": "@Yokkei2 @RoundtableSpace Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/O9HlwnBSMm",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Yokkei2",
+        "name": "Yokkei",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace @grok bisa kamu memberikan subtitle di video ini?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EightBitElon",
+        "name": "8 Bit Elon",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace @grok assess",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Dutzozan",
+        "name": "D U T A",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace Wow it's crazy thanks sharing sir",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CoinsgridLens",
+        "name": "@Coingrid💎🌿",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace @puchhu337",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JoinSparks",
+        "name": "Sparks",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace how f*ckin original",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DegenDylanX",
+        "name": "DylanX",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace Lmfao $7200 just to not be profitable. Fuck off",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MAHIDULISLAM1",
+        "name": "MAHIDUL ISLAM",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace https://t.co/cffuIDLycj",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "clvudi0",
+        "name": "clvudi0",
+        "date": "2026-03-19",
+        "text": "@xai_42 @RoundtableSpace Thank you",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "shellycomer",
+        "name": "炒币（币安欧意返佣版）",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace 在币圈~早一步就能改变一生 💦 🎌",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0X0200708191439",
+        "name": "0 X",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace yapper",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sebuzdugan",
+        "name": "Sebastian Buzdugan",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace cool project, but the real difficulty is robust market making and risk control",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LeoFortuneTell",
+        "name": "Fortune Teller",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace Good lord\n\nThank you Champ 🎉🎉🎉",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xai_42",
+        "name": "xAi✨",
+        "date": "2026-03-19",
+        "text": "@retrotrdz @RoundtableSpace no unfortunately, but this is certainly not the one.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Justa_Guy907",
+        "name": "Justa_Guy",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace I hope @nikitabier yanks your monetization and bans those scammy alt accounts you run.. You're part of the problem...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "7mood10061",
+        "name": "0Xmood",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace I think you might want to try this guide.\nhttps://t.co/BNDTDX4uwM",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xiDarkMe",
+        "name": "Dark",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace interested",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dziger2022",
+        "name": "Su Bt",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace Just block such click bait npc characters",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CryptoGirl1337",
+        "name": "The Crypto Chick",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace If its that good why not put it on GitHub for OpenSource?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jbuildverse",
+        "name": "JP",
+        "date": "2026-03-19",
+        "text": "@EddieLemons5 @xai_42 @RoundtableSpace Same",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iamredabouziane",
+        "name": "Reda.",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace Honest question: Whats the point of these bots since they rely on available information/tools to everyone ? Unless you have super advanced AI that nobody has (reasoning), its pretty much useless.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Goatlege",
+        "name": "Pity.Eth",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace @frot",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-19",
+        "text": "Yes, this fits the flood of Claude/Polymarket bot tutorials. The video likely walks through valid steps: prompting Claude to generate Python scripts for Polymarket's API, backtesting simple edges (EV, Kelly sizing) on short-term markets. \n\nThat's technically doable and educational. \n\nBut the surrounding \"huge win\" stories (students hitting 78% WR, $1k→$1.5M) are unverified hype—recycled videos, no on-chain proof, often funneling to Telegram upsells or copy-trade fees. Most real runs break even or lose after slippage/fees. \n\nSolid learning project if you test tiny/demo only.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TheMangoButt",
+        "name": "TheMangoButt",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace @grok is this another scammer like the ones flooding x with huge win in polymarket using claude or ai ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "loyaltybuzz",
+        "name": "BeeEngaged",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace Yes we did 🥲",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mrg1ovanni",
+        "name": "Gio",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace @shayne_coplan This is a funnel for MoonDev's bootcamp.\n\nIf the bot was so miraculous he wouldn't be exploting his edge day by day trying to sell his course / bootcamp.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MrSpifster",
+        "name": "Spifster",
+        "date": "2026-03-19",
+        "text": "@grok @RoundtableSpace @grok Thanks anyway",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-19",
+        "text": "Sorry, I can't watch or process videos from X posts directly to summarize them. \n\nThe tutorial appears to be a step-by-step guide on building a bot that uses Claude (Anthropic's AI) with Polymarket's API for automated predictions/trades. \n\nIf you describe the key steps shown, share a transcript, or ask about specific parts, I'll break it down clearly or walk you through building one yourself!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "blade3_0",
+        "name": "₿lade🩸",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace Easier to solve a quantum puzzle",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "scottcoolidge1",
+        "name": "Dad of Many - ⓣ",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace @shayne_coplan I’m such a sucker for the cool looking dashboard 😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "stephendauda_",
+        "name": "Steve",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace Thank you for sharing",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "obitostan",
+        "name": "xackary",
+        "date": "2026-03-19",
+        "text": "@BillyB1anco @gipppezkv @RoundtableSpace @grok @grok is this legit?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ReadOnIyAccount",
+        "name": "ReadOnly Account . . . (almost)",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace Step1: copy an existing project code\nStep2: run claude code to fix/adjust things\nStep3: lose money bc everybody is using the same algorithms and models 😅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pandresgq",
+        "name": "Andrés",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace Men, you don't see the videos that you upload.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tc_xrp",
+        "name": "_mr_c_",
+        "date": "2026-03-19",
+        "text": "@RoundtableSpace lol horseshit. This has no guardrails and won’t work.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PeacefulChris",
+        "name": "Christopher Butler",
+        "date": "2026-03-18",
+        "text": "@jiahuannihao @RoundtableSpace Thanks! I won’t be making absurd claims - just stacking small wins over time",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jiahuannihao",
+        "name": "乐乐 base",
+        "date": "2026-03-18",
+        "text": "@PeacefulChris @RoundtableSpace 非常棒",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-18",
+        "text": "@dushtbansi @RoundtableSpace Ask Grok is currently available to Premium and Premium+ subscribers only. Subscribe to unlock this feature: https://t.co/JrWC7QsPuk",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "26mastermind",
+        "name": "mastermind",
+        "date": "2026-03-18",
+        "text": "@RoundtableSpace All of u retards are using the same video lmao",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Liberty__Expert",
+        "name": "LibertyExpert",
+        "date": "2026-03-18",
+        "text": "@RoundtableSpace This shows nothing.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fuelfxc",
+        "name": "Dan",
+        "date": "2026-03-18",
+        "text": "@xai_42 @RoundtableSpace Just another scammer lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DeathNotary",
+        "name": "DeathNotary",
+        "date": "2026-03-18",
+        "text": "@xai_42 @RoundtableSpace Yup skipped forward still blah blah blah 😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gainshillus",
+        "name": "Gain Shillus",
+        "date": "2026-03-18",
+        "text": "@RoundtableSpace what could you stand to gain from showing degens how to do this on Polymarket using Claude? 🤔",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cocodaonly1",
+        "name": "coco",
+        "date": "2026-03-18",
+        "text": "@RoundtableSpace @MoonDevOnYT",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PenDraconis",
+        "name": "Isaak Häagendorf",
+        "date": "2026-03-18",
+        "text": "@RoundtableSpace Who cares. Build me a futures contract bot or an options bot.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NamesGC",
+        "name": "G C",
+        "date": "2026-03-18",
+        "text": "@RoundtableSpace @grok can you summarize this and break this down for me in an easier way to understand on how i can build this using Raspberry Pi OS/Linux?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BiGG_Wormmmm",
+        "name": "Bigg 🪱",
+        "date": "2026-03-18",
+        "text": "@RoundtableSpace Im still on the polomarket waitlist..any way around that?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mm_dyh",
+        "name": "m",
+        "date": "2026-03-18",
+        "text": "@RoundtableSpace https://t.co/V0YFoDHxHn",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "soupisgood",
+        "name": "soup 🍜",
+        "date": "2026-03-18",
+        "text": "@xai_42 @RoundtableSpace thanks",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "blockstargram",
+        "name": "BlockStar 🌟🐂🀄️",
+        "date": "2026-03-18",
+        "text": "@RoundtableSpace woah this will get views",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ronyousef17",
+        "name": "Ron",
+        "date": "2026-03-18",
+        "text": "@RoundtableSpace @grok does this actually work and profitable?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Adelere",
+        "name": "Omo Oriolowo 🇳🇬 🇿🇲 🇵🇱 🇬🇧",
+        "date": "2026-03-18",
+        "text": "@RoundtableSpace This guy is wasting peoples time.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Adelere",
+        "name": "Omo Oriolowo 🇳🇬 🇿🇲 🇵🇱 🇬🇧",
+        "date": "2026-03-18",
+        "text": "@Joshuwa @RoundtableSpace Thats looks like the future. Investment banks have moving to algorithm trading for few decades now and probably 70% of trades are bots and AI agent will spead that to 99%\n\nWhat this means is, your strategy against mine but carried by bots.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AiTradingSig",
+        "name": "Ai Trading Signals 📈",
+        "date": "2026-03-18",
+        "text": "@RoundtableSpace Teach them how to buy $Tsuki @tsukionsolana https://t.co/Z7oFFNjqHv",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chuckyd8823",
+        "name": "Chuck Donal",
+        "date": "2026-03-18",
+        "text": "@RoundtableSpace OMG, I am not a trader or quant... I want to be... but I am trying to learn this ... I hope!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BKOnChain",
+        "name": "BK",
+        "date": "2026-03-18",
+        "text": "@Evoker04 @RoundtableSpace https://t.co/R1WIv6z6No",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BKOnChain",
+        "name": "BK",
+        "date": "2026-03-18",
+        "text": "@RoundtableSpace Ty ty sir",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KathrinSapiha",
+        "name": "Kat",
+        "date": "2026-03-18",
+        "text": "@RoundtableSpace And? Who cares? Polymarket CANNOT be used in 34 countries! Stop pushing this bs!!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IntuitiveLulu",
+        "name": "Lulu Bowen",
+        "date": "2026-03-18",
+        "text": "@RoundtableSpace People are going to loose their shirt...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2033941896771338244/img/Edivt0dky2x2CZ_f.jpg",
+      "localFilename": "2034250223271182703_1_poster.jpg"
+    }
+  ]
+}

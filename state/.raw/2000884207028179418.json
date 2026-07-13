@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:40.969Z",
+  "fetchedAt": "2026-07-13T06:50:50.011Z",
   "tweetId": "2000884207028179418",
   "post": {
     "url": "https://x.com/azed_ai/status/2000884207028179418",
@@ -10,6 +11,12 @@
     },
     "date": "2025-12-16",
     "text": "This Nano Banana Pro prompt works with everything 🤩 https://t.co/toZiGJ55nd https://t.co/VX0zggRlFx",
+    "thread": [
+      {
+        "id": "2000884207028179418",
+        "text": "This Nano Banana Pro prompt works with everything 🤩 https://t.co/toZiGJ55nd https://t.co/VX0zggRlFx"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,711 @@
       }
     ],
     "metrics": {
-      "likes": 3143,
-      "retweets": 245,
+      "likes": 3149,
+      "retweets": 253,
       "replies": 47,
-      "views": 474636
+      "views": 476498
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "iamfakhrealam",
+        "name": "Fakhr",
+        "date": "2025-12-16",
+        "text": "@azed_ai Cool prompt https://t.co/JR9xBuQ5m8",
+        "likes": 29,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "navinmaniam28",
+        "name": "navinkumar",
+        "date": "2025-12-16",
+        "text": "@azed_ai Works great tried for my product 🤩 https://t.co/iOL1hBMjM6",
+        "likes": 18,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Amsunnyjoe",
+        "name": "Sunny Joe | AI Video Creator",
+        "date": "2025-12-16",
+        "text": "@azed_ai Actually everything! https://t.co/kAfIGw7oO8",
+        "likes": 10,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Magyber3",
+        "name": "Magyber",
+        "date": "2025-12-16",
+        "text": "@azed_ai Really appealing to buyers...thanks for sharing 🤗 https://t.co/lKHyCaSfhh",
+        "likes": 9,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Hassanmostafaaa",
+        "name": "Hassan Hassan",
+        "date": "2025-12-16",
+        "text": "@azed_ai what about this \nanother prompt ♥ https://t.co/cXqaZh7Qpn",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "linxiaobei888",
+        "name": "xiaobeiLin(小北)",
+        "date": "2025-12-16",
+        "text": "@azed_ai https://t.co/RIBiLJfsoy",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "acobp",
+        "name": "aco999💫💎",
+        "date": "2025-12-16",
+        "text": "@azed_ai https://t.co/EWO3MGJo9n",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "azed_ai",
+        "name": "Amira Zairi",
+        "date": "2025-12-17",
+        "text": "@Magyber3 This is awesome 😍 🔥",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "theaicauldron",
+        "name": "֎ The AI Cauldron ⚡︎",
+        "date": "2025-12-17",
+        "text": "@azed_ai It’s fantastic ! https://t.co/M7KlWRgHZr",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AlkheAhmed42106",
+        "name": "Ahmad Alkher",
+        "date": "2025-12-17",
+        "text": "@azed_ai very nice prompt https://t.co/SnR3dPakpp",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fung_david87512",
+        "name": "端木熙的财经视角",
+        "date": "2025-12-17",
+        "text": "@azed_ai That's great. https://t.co/7EvTqcJUkV",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JayysLab",
+        "name": "Jayy | Gen AI Sandbox",
+        "date": "2025-12-16",
+        "text": "@azed_ai It really does! Helped me to create this little shin dig video! https://t.co/z1cmzGyJBH",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "demian_ai",
+        "name": "dylan ツ",
+        "date": "2025-12-16",
+        "text": "@azed_ai might add this feature to https://t.co/U8vEVOrwxO",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "azed_ai",
+        "name": "Amira Zairi",
+        "date": "2025-12-16",
+        "text": "@iamfakhrealam Ok! This is Dope 🔥",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Goodmanprotocol",
+        "name": "Saul Goodman",
+        "date": "2025-12-16",
+        "text": "@azed_ai Amazing work 💯",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "amosDavv",
+        "name": "A.Davv",
+        "date": "2026-01-25",
+        "text": "@iamfakhrealam @azed_ai @grok, what's this prompt here?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "azed_ai",
+        "name": "Amira Zairi",
+        "date": "2025-12-17",
+        "text": "@Chilka_ Thanks for sharing this\nDidn't know about it",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "azed_ai",
+        "name": "Amira Zairi",
+        "date": "2025-12-17",
+        "text": "@demian_ai Please mention me, this helps me share more 💜",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "azed_ai",
+        "name": "Amira Zairi",
+        "date": "2025-12-17",
+        "text": "@acobp Wow! I want that 🤤",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "azed_ai",
+        "name": "Amira Zairi",
+        "date": "2025-12-17",
+        "text": "@fung_david87512 Love it\nGreat work",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "azed_ai",
+        "name": "Amira Zairi",
+        "date": "2025-12-17",
+        "text": "@JayysLab Great work 😍 🔥",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CryptoINCHQ",
+        "name": "Crypto INC",
+        "date": "2025-12-17",
+        "text": "@azed_ai Can it make a professional looking ad for a startup, with the startup`s logo?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "heyitsbeaaaaaaa",
+        "name": "Bea Alessio",
+        "date": "2025-12-17",
+        "text": "@azed_ai Super cool, @danielasmarino",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "azed_ai",
+        "name": "Amira Zairi",
+        "date": "2025-12-16",
+        "text": "@DrFonts My pleasure 💜",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "azed_ai",
+        "name": "Amira Zairi",
+        "date": "2025-12-16",
+        "text": "@linxiaobei888 Love it 😍",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "azed_ai",
+        "name": "Amira Zairi",
+        "date": "2025-12-16",
+        "text": "@navinmaniam28 Epic 😍 🔥",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "azed_ai",
+        "name": "Amira Zairi",
+        "date": "2025-12-16",
+        "text": "@Hassanmostafaaa Wow! That's awesome\nLove it",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-16",
+        "text": "@azed_ai Beautiful work Amira!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DrFonts",
+        "name": "DrFonts©",
+        "date": "2025-12-16",
+        "text": "@azed_ai I'll use this!! Tks",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Chilka_",
+        "name": "Hugo",
+        "date": "2025-12-16",
+        "text": "@azed_ai Wait until they try https://t.co/UiASnFKnlB 🤣 no need to write a prompt, just upload your product",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheAIObserverX",
+        "name": "nat | localhost: auriel",
+        "date": "2025-12-16",
+        "text": "@azed_ai Have you tried to create side stickers for cars? :) For instance, ‘Tesla Model T side sticker’",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "azed_ai",
+        "name": "Amira Zairi",
+        "date": "2025-12-16",
+        "text": "@Sunnyjweb3 Wow! This is a hard one but it did good! What you think?",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "azed_ai",
+        "name": "Amira Zairi",
+        "date": "2025-12-16",
+        "text": "@Goodmanprotocol Thanks 💜",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "saniaspeaks_",
+        "name": "𝗦𝗮𝗻𝗶𝗮",
+        "date": "2025-12-16",
+        "text": "@azed_ai Wow very impressive",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NadinNumberOne_",
+        "name": "Nadin №1",
+        "date": "2025-12-16",
+        "text": "@azed_ai Wow 🤩 I love this sneaker model 👍🏼😄",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xbisc",
+        "name": "Latte",
+        "date": "2026-01-26",
+        "text": "@azed_ai Masterpiece!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-25",
+        "text": "It's a detailed AI prompt for generating a 3x3 grid of high-end ad images for any product, ensuring consistency. Use it in tools like Midjourney or Leonardo AI. Full prompt: \"Create a 3×3 grid in 3:4 aspect ratio for a high-end commercial marketing campaign using the uploaded product as the central subject. Each frame must present a distinct visual concept while maintaining perfect product consistency across all nine images. Grid Concepts (one per cell): 1. Iconic hero still life with bold composition 2. Extreme macro detail highlighting material, surface, or texture 3. Dynamic liquid or particle interaction surrounding the product 4. Minimal sculptural arrangement with abstract forms 5. Floating elements composition suggesting lightness and innovation 6. Sensory close-up emphasizing tactility and realism 7. Color-driven conceptual scene inspired by the product palette 8. Ingredient or component abstraction (non-literal, symbolic) 9. Surreal yet elegant fusion scene combining realism and imagination Visual Rules: Product must remain 100% accurate in shape, proportions, label, typography, color, and branding No distortion, deformation, or redesign of the product Clean separation between product and background Lighting & Style: Soft, controlled studio lighting Subtle highlights, realistic shadows High dynamic range, ultra-sharp focus Editorial luxury advertising aesthetic Premium sensory marketing look Overall Feel: Modern, refined, visually cohesive High-end commercial campaign Designed for brand websites, social grids, and digital billboards Hyperreal, cinematic, polished, and aspirational\" Try it with your product!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AlyssaAlex11796",
+        "name": "Racun Core",
+        "date": "2025-12-21",
+        "text": "@azed_ai Thank you. I told Gemini to create grid splitter: https://t.co/3Iz7mvtZcg",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iam_yoshifan",
+        "name": "Yoshifan",
+        "date": "2025-12-21",
+        "text": "@azed_ai I am Vietnamese 🇻🇳🇻🇳🇻🇳 https://t.co/SFKzmfUDeq",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jiilaura",
+        "name": "laura jii",
+        "date": "2025-12-21",
+        "text": "@azed_ai Totally worth it to use TruthScan when detecting for AI-generated images cuz wdym this was clocked as AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "get_promptly",
+        "name": "Promptly",
+        "date": "2025-12-20",
+        "text": "@azed_ai Good for marketing product ✅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SiweH2o",
+        "name": "Nolo Thabo",
+        "date": "2025-12-20",
+        "text": "@linxiaobei888 @azed_ai . \n\nM...m..k...mm.m,.kook. keep kikm.kkk.kk.k\nL.k\nL.kmkkm.kmmmm.klMMk.mo8",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hhLfyN8okD59182",
+        "name": "AXing",
+        "date": "2025-12-18",
+        "text": "@azed_ai This is truly amazing! Thank you for your prompt! https://t.co/geKFjyDLpP",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JayysLab",
+        "name": "Jayy | Gen AI Sandbox",
+        "date": "2025-12-18",
+        "text": "@azed_ai Thank youuuu",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "patrykkabaj",
+        "name": "Patryk Kabaj",
+        "date": "2025-12-17",
+        "text": "@azed_ai It still can’t rotate the initial item right? I mean it can’t generate an image of the shoe from above for example.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CryptoINCHQ",
+        "name": "Crypto INC",
+        "date": "2025-12-17",
+        "text": "@lilly_gallery1 @azed_ai Sure.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Yulia_Volnova",
+        "name": "Yulia 🦋🌼",
+        "date": "2025-12-17",
+        "text": "@CryptoINCHQ @azed_ai Hey, Can i create an custom one logo for you?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lilly_gallery1",
+        "name": "Lilly Iva🌸",
+        "date": "2025-12-17",
+        "text": "@CryptoINCHQ @azed_ai can I do it?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "acobp",
+        "name": "aco999💫💎",
+        "date": "2025-12-17",
+        "text": "@azed_ai Famous cake in my Country",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "azed_ai",
+        "name": "Amira Zairi",
+        "date": "2025-12-17",
+        "text": "@AlkheAhmed42106 Stunning 😍",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "azed_ai",
+        "name": "Amira Zairi",
+        "date": "2025-12-17",
+        "text": "@KabilityInc These are awesome 😍\nSuper cute",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Mr_Carl_Fren",
+        "name": "ᴘʜɪʟ",
+        "date": "2025-12-17",
+        "text": "@azed_ai https://t.co/orjFjOAR72",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "suhrabautomates",
+        "name": "Suhrab Khan⚡️",
+        "date": "2025-12-17",
+        "text": "@azed_ai That’s awesome. Having a single prompt that’s this versatile is a game-changer for creative workflows!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aidavid125",
+        "name": "大卫叔的AI旅程",
+        "date": "2025-12-17",
+        "text": "@azed_ai Yeah, it is super helpful.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_designerarthur",
+        "name": "Arthur",
+        "date": "2025-12-17",
+        "text": "@azed_ai Nice Prompt!🔥👌🏼",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "photyaiapp",
+        "name": "AI Image Generator - PhotyAi",
+        "date": "2025-12-16",
+        "text": "@azed_ai Clean result 👌",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "al7lm99",
+        "name": "Khalid Alqarni 🇸🇦",
+        "date": "2025-12-16",
+        "text": "@azed_ai Stunning..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sayhiwithai",
+        "name": "hiwith.ai",
+        "date": "2025-12-16",
+        "text": "@azed_ai The material rendering is chef's kiss—that perforated mesh, leather overlays, and rubber sole all have distinct tactile qualities. You could easily adapt this for watches, sunglasses, or any premium accessory by swapping the subject while keeping that clean studio vibe.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DrFonts",
+        "name": "DrFonts©",
+        "date": "2025-12-16",
+        "text": "@azed_ai 🤝🤝",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "azed_ai",
+        "name": "Amira Zairi",
+        "date": "2025-12-16",
+        "text": "@FounderByDesign So so good 😍",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Ditectrev",
+        "name": "Ditectrev",
+        "date": "2025-12-16",
+        "text": "@azed_ai Absolutely stanning!😍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "superlewis88",
+        "name": "super Lewis",
+        "date": "2025-12-16",
+        "text": "@azed_ai Sounds fancy! Is it a banana or a secret weapon? 🍌💥 Can't wait to see the results!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lalit67079405",
+        "name": "Lalit ⚜️",
+        "date": "2025-12-16",
+        "text": "@azed_ai Will AI make people lose their jobs? Nope. Jobs will be transferred. Prompt engineers will become a new career.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Amsunnyjoe",
+        "name": "Sunny Joe | AI Video Creator",
+        "date": "2025-12-16",
+        "text": "@azed_ai Yes, this is Nano Banana on YuppAI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MatthewOlapo",
+        "name": "Honorable",
+        "date": "2025-12-16",
+        "text": "@azed_ai Prompt engineering is the new copywriting.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JenaroVA",
+        "name": "Jenaro Vázquez",
+        "date": "2025-12-16",
+        "text": "@azed_ai 👏🏻👏🏻👏🏻👏🏻",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eerdincus",
+        "name": "E⃨r⃨d⃨i⃨n⃨ç⃨c⃨i⃨ğ⃨i⃨m⃨ HEPŞEN 𝕏",
+        "date": "2025-12-16",
+        "text": "@azed_ai #aiproductlikephoto 🙋 ürünün farklı açılarından çekilmesi",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jojoeyox",
+        "name": "someday",
+        "date": "2025-12-16",
+        "text": "@azed_ai Cool! 👍🏻",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Heisallstar",
+        "name": "HEISALLSTAR || Web, Design & Growth",
+        "date": "2025-12-16",
+        "text": "@azed_ai Could you please DM me your login 🥺🙏",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lex_artdir",
+        "name": "LEX",
+        "date": "2025-12-16",
+        "text": "@azed_ai I wonder how you can adapt the prompt for a less product oriented subject (for a brand that don’t sell product but service let’s say)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ChillaiKalan__",
+        "name": "K",
+        "date": "2025-12-16",
+        "text": "@azed_ai This is amazing",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Amsunnyjoe",
+        "name": "Sunny Joe | AI Video Creator",
+        "date": "2025-12-16",
+        "text": "@azed_ai Yes, the speed &amp; concept alone make it worth it\nRefining it a bit more will take it to the next level.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ucxo888",
+        "name": "Zura",
+        "date": "2025-12-16",
+        "text": "@iamfakhrealam @azed_ai https://t.co/5Y11cGkeMN",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Goodmanprotocol",
+        "name": "Saul Goodman",
+        "date": "2025-12-16",
+        "text": "@azed_ai My pleasure",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NadinNumberOne_",
+        "name": "Nadin №1",
+        "date": "2025-12-16",
+        "text": "@azed_ai Okay, thank you ☺️ I need to think about what product to choose, all I can think about is New Year's tinsel 🤭🎄",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "azed_ai",
+        "name": "Amira Zairi",
+        "date": "2025-12-16",
+        "text": "@saniaspeaks_ Glad that you liked it",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "azed_ai",
+        "name": "Amira Zairi",
+        "date": "2025-12-16",
+        "text": "@NadinNumberOne_ Try it with any product, I want to see more examples 💜😍",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G8SPDCaXMAIdGmg.jpg",
+      "localFilename": "2000884207028179418_1.jpg"
+    }
+  ]
 }

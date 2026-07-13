@@ -1,15 +1,22 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:35.099Z",
+  "fetchedAt": "2026-07-13T06:51:50.840Z",
   "tweetId": "2006919611820945884",
   "post": {
-    "url": "https://x.com/nextstepst/status/2006919611820945884",
+    "url": "https://x.com/favor1tehater/status/2006919611820945884",
     "author": {
-      "handle": "nextstepst",
-      "name": "Next Step ©"
+      "handle": "favor1tehater",
+      "name": "Hater"
     },
     "date": "2026-01-02",
     "text": "Best gradient golden edition https://t.co/tLIVywEWAh",
+    "thread": [
+      {
+        "id": "2006919611820945884",
+        "text": "Best gradient golden edition https://t.co/tLIVywEWAh"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,72 @@
       }
     ],
     "metrics": {
-      "likes": 3127,
-      "retweets": 227,
+      "likes": 3115,
+      "retweets": 235,
       "replies": 6,
-      "views": 94917
+      "views": 95517
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "atrelix",
+        "name": "Atrelix",
+        "date": "2026-01-02",
+        "text": "@nextstepst Cmyk?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "justfred_ar",
+        "name": "Justin Fredericks",
+        "date": "2026-01-02",
+        "text": "@nextstepst Would be cool to see a set of Pantone color editions.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Altairray",
+        "name": "Altaïr 💎👍",
+        "date": "2026-01-02",
+        "text": "@nextstepst Could be handy thanks",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rsos_zakk",
+        "name": "Intel B",
+        "date": "2026-01-03",
+        "text": "@nextstepst You're as cold as ice. \nYou're willing to sacrifice.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "stowdev",
+        "name": "Stow – UI Component Marketplace",
+        "date": "2026-01-03",
+        "text": "@nextstepst There is just something about a nice gradient 👌",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "adiboaron94",
+        "name": "AidaBell 🔔",
+        "date": "2026-01-03",
+        "text": "@nextstepst I love this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G9oCv_VWwAA_rZu.jpg",
+      "localFilename": "2006919611820945884_1.jpg"
+    }
+  ]
 }

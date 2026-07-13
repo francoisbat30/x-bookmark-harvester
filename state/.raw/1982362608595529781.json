@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:47.040Z",
+  "tweetId": "1982362608595529781",
+  "post": {
+    "url": "https://x.com/aiwithjainam/status/1982362608595529781",
+    "author": {
+      "handle": "aiwithjainam",
+      "name": "Jainam Parmar"
+    },
+    "date": "2025-10-26",
+    "text": "I turned Perplexity AI into my full-time research assistant.\n\nIt now does 70% of my research, writing, and business analysis  automatically.\n\nHere’s the exact workflow + the prompts you can copy today:\n\n(Comment \"Send\" and I'll DM you my full automation guide) https://t.co/CUirDcDviq",
+    "thread": [
+      {
+        "id": "1982362608595529781",
+        "text": "I turned Perplexity AI into my full-time research assistant.\n\nIt now does 70% of my research, writing, and business analysis  automatically.\n\nHere’s the exact workflow + the prompts you can copy today:\n\n(Comment \"Send\" and I'll DM you my full automation guide) https://t.co/CUirDcDviq"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G4LESXEbYAA0-Ao.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 998,
+      "retweets": 126,
+      "replies": 577,
+      "views": 111779
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G4LESXEbYAA0-Ao.jpg",
+      "localFilename": "1982362608595529781_1.jpg"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:14:02.030Z",
+  "tweetId": "1979547307856282058",
+  "post": {
+    "url": "https://x.com/kimmonismus/status/1979547307856282058",
+    "author": {
+      "handle": "kimmonismus",
+      "name": "Chubby♨️"
+    },
+    "date": "2025-10-18",
+    "text": "Next big announcement: Grokipedia is going to be released on Monday. https://t.co/sBWkYLIebw https://t.co/hJkC6lWv71",
+    "thread": [
+      {
+        "id": "1979547307856282058",
+        "text": "Next big announcement: Grokipedia is going to be released on Monday. https://t.co/sBWkYLIebw https://t.co/hJkC6lWv71"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3jDyIUXkAA6Ced.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 396,
+      "retweets": 26,
+      "replies": 24,
+      "views": 43111
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3jDyIUXkAA6Ced.jpg",
+      "localFilename": "1979547307856282058_1.jpg"
+    }
+  ]
+}

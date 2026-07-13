@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:33.953Z",
+  "fetchedAt": "2026-07-13T06:52:04.310Z",
   "tweetId": "2010399715951809003",
   "post": {
     "url": "https://x.com/appariciojunior/status/2010399715951809003",
@@ -10,6 +11,12 @@
     },
     "date": "2026-01-11",
     "text": "This is actually a good prompt to add to a portfolio website, or like a creative agency figurines. Really nice. https://t.co/RCrCluU2Cg https://t.co/d2UGL84sLf",
+    "thread": [
+      {
+        "id": "2010399715951809003",
+        "text": "This is actually a good prompt to add to a portfolio website, or like a creative agency figurines. Really nice. https://t.co/RCrCluU2Cg https://t.co/d2UGL84sLf"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -21,11 +28,157 @@
       }
     ],
     "metrics": {
-      "likes": 5061,
-      "retweets": 197,
-      "replies": 18,
-      "views": 840522
+      "likes": 5043,
+      "retweets": 200,
+      "replies": 17,
+      "views": 843992
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "Seasonsart",
+        "name": "꧁ღ ⓢⓔⓐⓢ ღ꧂",
+        "date": "2026-01-12",
+        "text": "@appariciojunior ??? What’s creative here",
+        "likes": 8,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "camschroedes",
+        "name": "Cam",
+        "date": "2026-01-12",
+        "text": "@appariciojunior vibes https://t.co/lAthGRzHl9",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Adam38363368936",
+        "name": "Adam也叫吉米",
+        "date": "2026-01-12",
+        "text": "@appariciojunior Yeah I tried the prompt,it's asome\nhttps://t.co/i5YzjvFuso",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nashpatle",
+        "name": "nagesh",
+        "date": "2026-01-12",
+        "text": "@appariciojunior Imagine a tiny you, parkouring itself as a user scrolls, clicks, and reads your portfolio points.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hinrichbo",
+        "name": "hinzi",
+        "date": "2026-01-12",
+        "text": "@appariciojunior true! i just did it looks great! https://t.co/aFDv8qMZDg",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iwangxing",
+        "name": "zenja",
+        "date": "2026-01-12",
+        "text": "@appariciojunior hmm.. https://t.co/ybkm2BLWIf",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Gallet",
+        "name": "Galleta.ar ",
+        "date": "2026-01-13",
+        "text": "@appariciojunior Awesome! https://t.co/aSV2BHgDHw",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Diliii19",
+        "name": "Dili",
+        "date": "2026-01-12",
+        "text": "@appariciojunior Using nano banana a skill?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JayBorda",
+        "name": "JayBorda",
+        "date": "2026-01-13",
+        "text": "@appariciojunior Wow! So good",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UandMeNowSport",
+        "name": "Matt",
+        "date": "2026-01-12",
+        "text": "@appariciojunior By \"really nice\" do you mean ugly slop?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aytacaltintepe",
+        "name": "Aytaç Altıntepe",
+        "date": "2026-01-12",
+        "text": "@appariciojunior good one 👍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "handfedoats",
+        "name": "oats",
+        "date": "2026-01-12",
+        "text": "@appariciojunior id rather cut my dick off, but thanks for the slop-prompt real original thinking",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CoachYT",
+        "name": "Code Coach",
+        "date": "2026-01-12",
+        "text": "@appariciojunior Would work great for those. I'm going to remodel my website with OpenArt soon.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Doublepulses",
+        "name": "Steven Blanton",
+        "date": "2026-01-12",
+        "text": "@appariciojunior I would print these out if I end up getting a 3D printer at some point.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Harryoluarry",
+        "name": "UX by Harry",
+        "date": "2026-01-12",
+        "text": "@appariciojunior It honestly is!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G-Zf4vZWkAAwVNc.jpg",
+      "localFilename": "2010399715951809003_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G-Zf4vZXkAAZNlg.jpg",
+      "localFilename": "2010399715951809003_2.jpg"
+    }
+  ]
 }

@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:13.562Z",
+  "fetchedAt": "2026-07-12T18:31:11.501Z",
   "tweetId": "1683991097218076672",
   "post": {
     "url": "https://x.com/ADPList/status/1683991097218076672",
@@ -9,19 +10,323 @@
       "name": "ADPList"
     },
     "date": "2023-07-26",
-    "text": "5. Beautiful Shadows by @alexwidua\n\nThis plugin allows you to create beautiful shadows by simply dragging a 'light source' which casts a shadow on selected elements.\n\nGet it here: https://t.co/sVC2JjtGuT https://t.co/6NikGVw9hK",
+    "text": "2. Ando - AI by @RemitNotPaucity\n\nThis Figma plugin helps you generate millions of design ideas from prompts, shapes, and images.\n\nGet it here: https://t.co/VT8dLUq0nV https://t.co/0BJvq41oQS\n\n3. MockRocket by @DerekFeehrer\n\nA Figma plugin to create 3D mockups, simply drag to rotate the device in true 3D and directly export.\n\nGet it here: https://t.co/KrOjmPLpfB https://t.co/j5d9g06ekJ\n\n4. Google Sheets Sync by @DavidWilliames\n\nThis plugin helps you import data directly from Google sheet to Figma.\n\nGet it here: https://t.co/TCKV6C9sCP https://t.co/kikwudLOAX\n\n5. Beautiful Shadows by @alexwidua\n\nThis plugin allows you to create beautiful shadows by simply dragging a 'light source' which casts a shadow on selected elements.\n\nGet it here: https://t.co/sVC2JjtGuT https://t.co/6NikGVw9hK\n\n6. Humation by @ysk_en\n\nGet a collection of customized hand-drawn illustrations inside your Figma.\n\nGet it here: https://t.co/9oMCVr4jNa https://t.co/Dd769xdMZ0\n\nI hope you've found this thread helpful.\n\nFollow me @ADPList for more.\n\nLike/Retweet the first tweet below if you can: https://t.co/4wUpXBPlQe",
+    "thread": [
+      {
+        "id": "1683990991727136768",
+        "text": "2. Ando - AI by @RemitNotPaucity\n\nThis Figma plugin helps you generate millions of design ideas from prompts, shapes, and images.\n\nGet it here: https://t.co/VT8dLUq0nV https://t.co/0BJvq41oQS"
+      },
+      {
+        "id": "1683991024505593856",
+        "text": "3. MockRocket by @DerekFeehrer\n\nA Figma plugin to create 3D mockups, simply drag to rotate the device in true 3D and directly export.\n\nGet it here: https://t.co/KrOjmPLpfB https://t.co/j5d9g06ekJ"
+      },
+      {
+        "id": "1683991066050179074",
+        "text": "4. Google Sheets Sync by @DavidWilliames\n\nThis plugin helps you import data directly from Google sheet to Figma.\n\nGet it here: https://t.co/TCKV6C9sCP https://t.co/kikwudLOAX"
+      },
+      {
+        "id": "1683991097218076672",
+        "text": "5. Beautiful Shadows by @alexwidua\n\nThis plugin allows you to create beautiful shadows by simply dragging a 'light source' which casts a shadow on selected elements.\n\nGet it here: https://t.co/sVC2JjtGuT https://t.co/6NikGVw9hK"
+      },
+      {
+        "id": "1683991128595644417",
+        "text": "6. Humation by @ysk_en\n\nGet a collection of customized hand-drawn illustrations inside your Figma.\n\nGet it here: https://t.co/9oMCVr4jNa https://t.co/Dd769xdMZ0"
+      },
+      {
+        "id": "1683991132248875013",
+        "text": "I hope you've found this thread helpful.\n\nFollow me @ADPList for more.\n\nLike/Retweet the first tweet below if you can: https://t.co/4wUpXBPlQe"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/ext_tw_video/1683991070949113858/pu/vid/1094x720/oJUAPrXqlyE-4e5D.mp4?tag=12"
+        "url": "https://video.twimg.com/ext_tw_video/1683990957946183680/pu/vid/1314x720/tlYuH8RQVr3mmObU.mp4?tag=12",
+        "posterUrl": "https://pbs.twimg.com/ext_tw_video_thumb/1683990957946183680/pu/img/uDYk4lGRPV5xnd-U.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/ext_tw_video/1683990997267775488/pu/vid/1280x720/LQk55yumCsbz5LlN.mp4?tag=12",
+        "posterUrl": "https://pbs.twimg.com/ext_tw_video_thumb/1683990997267775488/pu/img/6oSB2EXkXo9kzqHt.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/ext_tw_video/1683991030729936897/pu/vid/1174x720/OOEVcqxcWMCIUtIm.mp4?tag=12",
+        "posterUrl": "https://pbs.twimg.com/ext_tw_video_thumb/1683991030729936897/pu/img/j9wqmT9fuR1Z7PRw.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/ext_tw_video/1683991070949113858/pu/vid/1094x720/oJUAPrXqlyE-4e5D.mp4?tag=12",
+        "posterUrl": "https://pbs.twimg.com/ext_tw_video_thumb/1683991070949113858/pu/img/03r76JT_jNUKsh4n.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/ext_tw_video/1683991102129573888/pu/vid/1156x720/A9gkzMALFgyWUu-N.mp4?tag=12",
+        "posterUrl": "https://pbs.twimg.com/ext_tw_video_thumb/1683991102129573888/pu/img/BoashhGH37gyT2Zd.jpg"
       }
     ],
     "metrics": {
-      "likes": 67,
+      "likes": 66,
       "retweets": 6,
       "replies": 2,
-      "views": 4274
+      "views": 4275
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "gleb_sexy",
+        "name": "Gleb Sabirzyanov",
+        "date": "2023-07-26",
+        "text": "@ADPList I'm only at 20% of my design potential without some illustrations of humans? Ahahaha this is the dumbest tweet I've ever seen",
+        "likes": 26,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "williamteig",
+        "name": "Will Teig | Webflow designer & developer",
+        "date": "2023-07-26",
+        "text": "@ADPList Just letting you know that 90% of developers won’t be bothered to develop those shadows so remember to proof their work 😉",
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ADPList",
+        "name": "ADPList",
+        "date": "2023-07-26",
+        "text": "Thanks for reading so far 👏!\n\nMake sure to follow @ADPList for more threads on design, product, growth &amp; careers.",
+        "likes": 5,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AisleOne",
+        "name": "AisleOne",
+        "date": "2023-07-26",
+        "text": "@ADPList Doing it wrong? No designer is doing anything wrong by not using these plugins. Stop shaming.",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MaxBrych",
+        "name": "maxbrych.eth 🦇🔊",
+        "date": "2023-08-01",
+        "text": "@ADPList such a informative post\nyou deserve all all the best",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MzansiMagazin",
+        "name": "Mzansi Magazine",
+        "date": "2023-07-28",
+        "text": "@ADPList @lintenslevekylo Check here @Warten_Weg",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "fluttertopuiux",
+        "name": "Fluttertop UI/UX",
+        "date": "2023-07-26",
+        "text": "@ADPList @sandr_meek Nice Work",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hiSanzee",
+        "name": "Sanz",
+        "date": "2025-11-21",
+        "text": "@ADPList Only use Beautiful shadows. Waiting for text or rough sketch to vector → ready to import to dashboard, code, framer and what not xD",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ADPList",
+        "name": "ADPList",
+        "date": "2023-08-03",
+        "text": "@MaxBrych Thank you, Max 🤗",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EmiliLucasD",
+        "name": "Emili",
+        "date": "2023-07-27",
+        "text": "@ADPList @SaveToNotion #tweet #ideas",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "constyofficial",
+        "name": "Consty",
+        "date": "2023-07-27",
+        "text": "@ADPList Amazing, certainly gonna use these to fullfill our clients' requests faster! https://t.co/mcaPxaqcgq",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gleb_sexy",
+        "name": "Gleb Sabirzyanov",
+        "date": "2023-07-27",
+        "text": "@SamIam_Designs @ADPList @ChefReactions Haha that would be neat :D",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SamIam_Designs",
+        "name": "Sam I am 🫶",
+        "date": "2023-07-26",
+        "text": "@gleb_sexy @ADPList Have you seen @ChefReactions ? I'm thinking, Gleb adopts a similar style of content for design related posts. I'll pay to subscribe... 😜",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeenGeoofficial",
+        "name": "Geen Geo | Brand & Product UI revamps📈",
+        "date": "2023-07-26",
+        "text": "@ADPList @SaveToNotion #Thread",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "laggart",
+        "name": "Juan Carlos Pineda",
+        "date": "2023-07-26",
+        "text": "@ADPList @SaveToNotion #Thread #figma",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vyscul",
+        "name": "Vyacheslav 🇺🇦",
+        "date": "2023-07-26",
+        "text": "@gleb_sexy @ADPList very underrated comment",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Mannytyn",
+        "name": "Manny🏝️✌🏾",
+        "date": "2023-07-26",
+        "text": "@ADPList I love these 👏🫶🏽",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kitesdesign",
+        "name": "Kites Design",
+        "date": "2025-02-25",
+        "text": "@ADPList Massive solution for awesome shadow!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nonogno",
+        "name": "Gno",
+        "date": "2023-08-19",
+        "text": "@ADPList Thanks",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gutenstyle",
+        "name": "gutenstyle",
+        "date": "2023-07-27",
+        "text": "@ADPList @alexwidua This one looks amazing!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fepanaise",
+        "name": "Honey Jose",
+        "date": "2023-07-27",
+        "text": "@williamteig @ADPList dark truth 😅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GJTP69",
+        "name": "Jouvier",
+        "date": "2023-07-26",
+        "text": "@ADPList @SaveToNotion #thread #figma",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "annas_gones",
+        "name": "Annas AG",
+        "date": "2023-07-26",
+        "text": "@ADPList @SaveToNotion #thread",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gustavo_poot93",
+        "name": "Gustavo Poot",
+        "date": "2023-07-26",
+        "text": "@ADPList @SaveToNotion #thread #figma",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iyadhtype",
+        "name": "Mohamed Gallah",
+        "date": "2023-07-26",
+        "text": "@ADPList @SaveToNotion #thread #figma",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "skadz_",
+        "name": "starring sarah",
+        "date": "2023-07-26",
+        "text": "@ADPList @SaveToNotion #thread #ui",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/ext_tw_video_thumb/1683990957946183680/pu/img/uDYk4lGRPV5xnd-U.jpg",
+      "localFilename": "1683991097218076672_1_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/ext_tw_video_thumb/1683990997267775488/pu/img/6oSB2EXkXo9kzqHt.jpg",
+      "localFilename": "1683991097218076672_2_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/ext_tw_video_thumb/1683991030729936897/pu/img/j9wqmT9fuR1Z7PRw.jpg",
+      "localFilename": "1683991097218076672_3_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/ext_tw_video_thumb/1683991070949113858/pu/img/03r76JT_jNUKsh4n.jpg",
+      "localFilename": "1683991097218076672_4_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/ext_tw_video_thumb/1683991102129573888/pu/img/BoashhGH37gyT2Zd.jpg",
+      "localFilename": "1683991097218076672_5_poster.jpg"
+    }
+  ]
 }

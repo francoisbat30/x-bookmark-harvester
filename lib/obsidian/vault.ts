@@ -92,6 +92,36 @@ async function resolveCollision(
   return { filename: `${base}_${suffix}.md`, resolved: true };
 }
 
+
+/**
+ * Lit le contenu de la note existante pour ce tweet, si elle existe : d'abord
+ * le nom canonique, sinon la variante suffixée créée par resolveCollision
+ * (même nom, autre tweet). Utilisé pour préserver Summary/tags/status au
+ * re-render (lib/obsidian/note-merge.ts).
+ */
+export async function readExistingNote(
+  filename: string,
+  uniqueKey: string,
+  config: VaultConfig = getVaultConfig(),
+): Promise<string | null> {
+  const dir = resolveTargetDir(config);
+  const candidates = [
+    filename,
+    `${filename.replace(/\.md$/, "")}_${uniqueKey.slice(-8)}.md`,
+  ];
+  for (const c of candidates) {
+    const p = assertWithinDir(dir, c);
+    try {
+      const content = await fs.readFile(p, "utf8");
+      const id = (content.match(/^source:\s*"?(https?:\/\/\S+?)"?\s*$/m)?.[1] ?? "").match(/status\/(\d+)/)?.[1];
+      if (!id || id === uniqueKey) return content;
+    } catch {
+      // absent → candidat suivant
+    }
+  }
+  return null;
+}
+
 export async function writeNote(
   filename: string,
   content: string,

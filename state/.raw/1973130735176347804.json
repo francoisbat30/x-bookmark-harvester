@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:01.622Z",
+  "fetchedAt": "2026-07-13T06:47:09.722Z",
   "tweetId": "1973130735176347804",
   "post": {
     "url": "https://x.com/ItsMaclouis/status/1973130735176347804",
@@ -10,6 +11,12 @@
     },
     "date": "2025-09-30",
     "text": "color inspiration - #086 https://t.co/P8wfcqvzWq",
+    "thread": [
+      {
+        "id": "1973130735176347804",
+        "text": "color inspiration - #086 https://t.co/P8wfcqvzWq"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -21,11 +28,175 @@
       }
     ],
     "metrics": {
-      "likes": 2578,
-      "retweets": 128,
+      "likes": 2556,
+      "retweets": 124,
       "replies": 13,
-      "views": 72239
+      "views": 72597
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "shihaabbbb",
+        "name": "shihab",
+        "date": "2025-10-01",
+        "text": "@ItsMaclouis Dammnnn\nGotta use the gradient 🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TellusAI",
+        "name": "Tellus AI",
+        "date": "2025-10-01",
+        "text": "@ItsMaclouis How are you creating the grainy, morphing, color gradient? Are you using Figma?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ItsMaclouis",
+        "name": "Mac Louis",
+        "date": "2025-10-01",
+        "text": "@SatelliteDes thank you",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "madebyquiet",
+        "name": "Quiet Dev",
+        "date": "2025-10-01",
+        "text": "@ItsMaclouis Sleek 🔥🔥🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "marufiam1",
+        "name": "Maruf Ahmed",
+        "date": "2025-10-01",
+        "text": "@ItsMaclouis I spend so much time matching the colors bro.. this one looks perfect",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ItsMaclouis",
+        "name": "Mac Louis",
+        "date": "2025-10-01",
+        "text": "@DrFonts It's testing the combinations that takes time",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kiir0shi",
+        "name": "kir0shi",
+        "date": "2025-10-01",
+        "text": "@ItsMaclouis Love it",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DrFonts",
+        "name": "DrFonts©",
+        "date": "2025-09-30",
+        "text": "@ItsMaclouis I wonder how long this must have taken 🤔",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TukiFromKL",
+        "name": "Tuki",
+        "date": "2025-09-30",
+        "text": "@ItsMaclouis Nice",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AurineSport",
+        "name": "Javyᴰᴳ",
+        "date": "2025-09-30",
+        "text": "@ItsMaclouis Prussian Blue 😍",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mazahirali_",
+        "name": "Mazahir Ali",
+        "date": "2025-10-02",
+        "text": "@ItsMaclouis How do you create this grainy effect? Any tutorial?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ItsMaclouis",
+        "name": "Mac Louis",
+        "date": "2025-10-02",
+        "text": "@ShihabBrands As you wish",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SatelliteDes",
+        "name": "Robert",
+        "date": "2025-10-01",
+        "text": "@ItsMaclouis Gorgeous color palette! The almond, Prussian blue, and cocoa brown combo is perfect. Love the #086 series!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "uiuxabid",
+        "name": "Abid I.",
+        "date": "2025-10-01",
+        "text": "@ItsMaclouis Love the vibe here🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jahidshuvo525",
+        "name": "Zaid Shuvo",
+        "date": "2025-10-01",
+        "text": "@ItsMaclouis nice colors",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Udhayya_",
+        "name": "Udhaya",
+        "date": "2025-10-01",
+        "text": "@ItsMaclouis Insane",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DrFonts",
+        "name": "DrFonts©",
+        "date": "2025-10-01",
+        "text": "@ItsMaclouis yes, I imagine 🤯",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2Hxb5zXQAAx4lp.jpg",
+      "localFilename": "1973130735176347804_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2HxbviXIAAGwoC.jpg",
+      "localFilename": "1973130735176347804_2.jpg"
+    }
+  ]
 }

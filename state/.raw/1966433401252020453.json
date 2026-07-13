@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:15.173Z",
+  "fetchedAt": "2026-07-12T17:43:45.669Z",
   "tweetId": "1966433401252020453",
   "post": {
     "url": "https://x.com/Abmankendrick/status/1966433401252020453",
@@ -9,14 +10,38 @@
       "name": "Abraham John 🦄🦓"
     },
     "date": "2025-09-12",
-    "text": "1. Supa Palette → https://t.co/5bQa6D1EBk\n\n2. Storyset → https://t.co/CAb3dkmNhu\n\n3. Breakpoints → https://t.co/eb4uRYWUfc\n\n4. Typescale → https://t.co/3Te36BRdBQ\n\n5. Motion → https://t.co/po50yEdoVW\n\n6. Table Creator → https://t.co/uv3B7Z9fy3",
+    "text": "Here are some must-have Figma plugins you should know as a UI/UX designer for your next design project.\n\nBookmark it for later 💜\n\n🧵 Open thread👇 https://t.co/aVdPvOUKWY\n\n1. Supa Palette → https://t.co/5bQa6D1EBk\n\n2. Storyset → https://t.co/CAb3dkmNhu\n\n3. Breakpoints → https://t.co/eb4uRYWUfc\n\n4. Typescale → https://t.co/3Te36BRdBQ\n\n5. Motion → https://t.co/po50yEdoVW\n\n6. Table Creator → https://t.co/uv3B7Z9fy3",
+    "thread": [
+      {
+        "id": "1966433396654998006",
+        "text": "Here are some must-have Figma plugins you should know as a UI/UX designer for your next design project.\n\nBookmark it for later 💜\n\n🧵 Open thread👇 https://t.co/aVdPvOUKWY"
+      },
+      {
+        "id": "1966433401252020453",
+        "text": "1. Supa Palette → https://t.co/5bQa6D1EBk\n\n2. Storyset → https://t.co/CAb3dkmNhu\n\n3. Breakpoints → https://t.co/eb4uRYWUfc\n\n4. Typescale → https://t.co/3Te36BRdBQ\n\n5. Motion → https://t.co/po50yEdoVW\n\n6. Table Creator → https://t.co/uv3B7Z9fy3"
+      }
+    ],
     "media": [],
     "metrics": {
       "likes": 23,
       "retweets": 2,
       "replies": 1,
-      "views": 3473
+      "views": 3503
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "Abmankendrick",
+        "name": "Abraham John 🦄🦓",
+        "date": "2025-09-12",
+        "text": "Thanks for viewing ✌\n\nIf you found this post helpful, don't forget to:\n\n*Follow me @Abmankendrick for more.\n*Repost the first post.\n*Enable notification 🔔",
+        "likes": 4
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G0osv5qWwAA0Hc1.jpg",
+      "localFilename": "1966433401252020453_1.jpg"
+    }
+  ]
 }

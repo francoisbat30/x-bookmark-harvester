@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T22:36:57.183Z",
+  "fetchedAt": "2026-07-13T07:08:39.199Z",
   "tweetId": "2037234396626116661",
   "post": {
     "url": "https://x.com/0xInk_/status/2037234396626116661",
@@ -9,44 +10,785 @@
       "name": "INK"
     },
     "date": "2026-03-26",
-    "text": "Let me share my current Seedance 2 workflow\n\nYou can also copy this base template to your Claude and teach him to prompt on Seedance 2\n\n[CINEMATIC SETUP]\n[Film stock / lens / aperture / camera behavior]. [Color grade]. [Lighting source]. [Atmosphere]. [Audio: sound FX only / no music]. Face stable, no deformation.\n\n[@ image1] is [role]. [@ image2] is [reference for X].\n\n0-1s: [Shot type]. [@ image1] [precise action]. [Camera move]. [Sound.]\n1-3s: [Shot type]. [Action sequence with physics]. [Camera behavior]. [Sound FX.]\n3-5s: ...\n...\n13-15s: [Closing shot]. [Final action / movement]. [Sound fade or impact.]",
+    "text": "Let me share my current Seedance 2 workflow\n\nYou can also copy this base template to your Claude and teach him to prompt on Seedance 2\n\n[CINEMATIC SETUP]\n[Film stock / lens / aperture / camera behavior]. [Color grade]. [Lighting source]. [Atmosphere]. [Audio: sound FX only / no music]. Face stable, no deformation.\n\n[@ image1] is [role]. [@ image2] is [reference for X].\n\n0-1s: [Shot type]. [@ image1] [precise action]. [Camera move]. [Sound.]\n1-3s: [Shot type]. [Action sequence with physics]. [Camera behavior]. [Sound FX.]\n3-5s: ...\n...\n13-15s: [Closing shot]. [Final action / movement]. [Sound fade or impact.]\n\n1. Character Concept is made with Midjourney niji7\n\nVillain details Mecha, full character design, kawaii illustration, white background, flat colors, simple lines, gorgeous lighting, graphic novel style, 2d painting, ink painting style, trending on art station, digital art, character design, happy mood, watercolor, minimalist --ar 4:5 --niji 7\n\nI added my previous characters as references\n\n2. Final character design is made with Nano Banana 2\n\nprompt with character concept linked\n\nConvert to hyper-realistic 3D CGI collectible figurine render. Physically-based rendering, octane render quality. Preserve the original character design, pose, and outfit exactly. Transform all surfaces into real-world materials: fabric with visible weave and drape, metal with wear, scratches and oxidation, synthetic matte skin. Pure white studio background, clean seamless white backdrop, soft diffused lighting with subtle rim light. No cel shading, no toon rendering. High-end statue/collectible photography aesthetic. Ultra detailed, 8K. Fix and reconstruct all hands and fingers with correct anatomy: natural finger count, proper joint articulation, realistic proportions, no fused or melted digits. Remove all 2D artifacts, compression glitches, and Midjourney inconsistencies. Ensure full anatomical coherence across the entire figure: symmetrical features, clean silhouette, no floating elements, no distorted limbs, no duplicated body parts. Hyper-detailed hair simulation: individual strand rendering, realistic hair clumping, natural flow and gravity, visible scalp at roots, micro flyaways, SSS translucency on hair tips. Every surface pushed to maximum realism: pore-level skin texture, fabric fiber micro-detail, specular highlights on every material, depth in shadows\n\n3. I usually create multiple sequences to build the video, then cut the incoherent shots. I edit on Davinci Resolve, it's really easy to use.\n\nSEQUENCE 1 — Armor Construction (0-15s)\n\nCINEMATIC SETUP\n\n35mm film stock, Panavision anamorphic, f1.8. Live-action sci-fi blockbuster, 4K HDR. Industrial hangar — cold steel blue light, steam vents, hydraulic hiss. Slow deliberate tracking camera mixed with extreme macro close-ups.\n\nSound FX only: mechanical assembly, servo motors, metal locking clicks.\n\nREFERENCES [@ image1] is the hero: young male, blonde slicked hair, aviator goggles on forehead, black turtleneck, white jacket, black trousers, black loafers. Face composed, determined throughout. [@ image2] is the mech armor: weathered pale blue-grey metal, rust patches, wide shoulder wings, heavy limbs, battle-worn surface.\nnegative: no face morph, no costume disappearing, no armor floating\n0-2s: Wide shot. [@ image1] walking forward through industrial hangar, hands in pockets, pace steady and calm. Steam rising from floor grates. Mechanical arms emerging from ceiling tracks above him. Distant hydraulic hum building.\n2-3s: Macro — mechanical arm close-up, side angle. Claw gripping first [@ image2] armor chest plate, lifting it precisely into position. Metal scrape, servo whir.\n3-4s: Macro — chest plate locking onto [@ image1]'s torso from behind. Hydraulic clamp sound, deep metal thud. [@ image1] doesn't break stride.\n4-5s: Macro — [@ image1] hands, close-up. Fingers slowly pulling out of jacket pockets as shoulder plates descend. Gauntlet snapping over each hand. Metal click, pressure hiss.\n5-7s: Side tracking shot — [@ image1] still walking, multiple mechanical arms working simultaneously. Left shoulder wing plate attaching, right arm armor locking. Steam bursting from joints on contact. Assembly hum intensifying, overlapping metal locks.\n7-8s: Macro — boot close-up at floor level. [@ image2] armored boot casing snapping over his black loafer mid-step. Ground-level tracking. Heavy armored footstep boom replacing soft leather step.\n8-9s: Macro — back of neck and helmet descending. Aviator goggles visible one last time before [@ image2] helmet lowers over his head. Visor sealing shut. Pressurization hiss, helmet lock click.\n9-11s: Front medium shot — [@ image1] now fully encased in [@ image2] armor, still walking forward. Mechanical arms retracting back into ceiling. Only armored footsteps remain. Steam settling. Silence except deep reactor pre-charge hum beginning.\n11-13s: Extreme close-up — visor surface. Cold blue hangar light reflecting. Inside visor: HUD elements flickering on, targeting systems initializing. Electronic boot sequence sound.\n13-15s: Wide shot from behind — [@ image1] in full [@ image2] armor walking toward massive closed garage door at end of hangar. Door fills entire frame. He stops. Stands still. Reactor hum building to maximum. Hold.\n\nSEQUENCE 2 — Launch (0-15s)\n\nCINEMATIC SETUP IMAX 70mm, Panavision anamorphic, f2.8. Live-action blockbuster, 4K HDR. Industrial hangar transitioning to blinding exterior light. Camera starts static then erupts into kinetic energy. Sound FX only: reactor ignition, metal door mechanism, heat distortion roar.\nREFERENCES [@ image1] hero in full [@ image2] armor throughout — weathered pale blue-grey mech, wide shoulder wings, battle-worn surface. Back to camera entire sequence. [@ image3] is the hangar door environment: sci-fi garage opening onto elevated highway infrastructure, bright daylight, yellow safety barriers, clean concrete floor. [@ image4] is the armor detail reference: cream-white mech suit, wide angular shoulder wings, dual antenna helmet, orange visor glow, battle scratches, mechanical arms visible in background — use for armor surface accuracy.\nnegative: no face visible, no armor color change, no hangar collapse, no floating limbs\n0-2s: Wide shot from behind — [@ image1] in full [@ image2] armor, completely still, centered in closed [@ image3] hangar doorframe. Reactor on back beginning to glow orange. Mechanical arms from [@ image4] environment retracting into ceiling behind him. Low reactor charge building. Steam rising from shoulder joints.\n2-3s: Macro — reactor vents on back armor, referencing [@ image4] surface detail. Heat shimmer visible around exhaust ports. Orange glow intensifying, scratched cream-white metal radiating heat. Deep turbine spin-up.\n\n3-4s: Macro — armored fists at sides, [@ image4] detail. Fingers slowly closing. Metal creak, hydraulic tension hiss.\n4-5s: [@ image1] back to camera, facing closed door. Head tilts slightly down. One beat silence. Then: \"Let's go.\" Voice low, calm, helmet reverb. Single heavy armored footstep forward. Floor vibrates.\n5-6s: [@ image3] garage door EXPLODES open — massive panels slamming upward. Blinding daylight floods in. [@ image1] silhouetted against bright sky and elevated highway of [@ image3]. Door mechanism slam, pressure burst.\n6-7s: Macro — reactor ignition full power, [@ image4] exhaust port detail. Superheated flame blasting outward. Camera directly behind, heat shimmer warping entire frame. Jet turbine scream erupting.\n7-8s: Macro — ground level. [@ image3] yellow safety barriers visible at frame edge. Armored boots on clean hangar floor, superheated air rippling surface. Concrete micro-cracking. Roar intensifying.\n8-9s: Macro — [@ image4] shoulder wing edge, side profile. Heat shimmer along leading edge, orange reactor glow painting scratched cream surface. Turbine maximum.\n9-11s: Front reveal — camera outside [@ image3] looking in through open door. [@ image1] in full armor, reactor blazing, framed in doorway. Beyond him: elevated highway infrastructure of [@ image3] stretching into distance — concrete pillars, banked curves, open sky. He stands motionless in threshold. Reactor scream, wind from outside rushing in.\n11-13s: Low angle from [@ image3] ground level — looking up at [@ image1] from outside. Elevated highways behind him. Reactor exhaust blasting downward, heat waves rising. Silhouette against bright sky, shoulder wings wide.\n13-15s: Wide cinematic — [@ image1] launches forward out of [@ image3] hangar at extreme speed. Camera holds static as he rockets away, reactor trail burning white-orange, shrinking into the elevated highway distance. Sonic boom, speed rush, silence.\n\nImage1 is the final character design and Image2 is an image of a circuit.\n\nNo one is an expert so if you have any other recommendations or tips you’ve discovered, I’m interested",
+    "thread": [
+      {
+        "id": "2037234396626116661",
+        "text": "Let me share my current Seedance 2 workflow\n\nYou can also copy this base template to your Claude and teach him to prompt on Seedance 2\n\n[CINEMATIC SETUP]\n[Film stock / lens / aperture / camera behavior]. [Color grade]. [Lighting source]. [Atmosphere]. [Audio: sound FX only / no music]. Face stable, no deformation.\n\n[@ image1] is [role]. [@ image2] is [reference for X].\n\n0-1s: [Shot type]. [@ image1] [precise action]. [Camera move]. [Sound.]\n1-3s: [Shot type]. [Action sequence with physics]. [Camera behavior]. [Sound FX.]\n3-5s: ...\n...\n13-15s: [Closing shot]. [Final action / movement]. [Sound fade or impact.]"
+      },
+      {
+        "id": "2037234400229023994",
+        "text": "1. Character Concept is made with Midjourney niji7\n\nVillain details Mecha, full character design, kawaii illustration, white background, flat colors, simple lines, gorgeous lighting, graphic novel style, 2d painting, ink painting style, trending on art station, digital art, character design, happy mood, watercolor, minimalist --ar 4:5 --niji 7\n\nI added my previous characters as references"
+      },
+      {
+        "id": "2037234405035671569",
+        "text": "2. Final character design is made with Nano Banana 2\n\nprompt with character concept linked\n\nConvert to hyper-realistic 3D CGI collectible figurine render. Physically-based rendering, octane render quality. Preserve the original character design, pose, and outfit exactly. Transform all surfaces into real-world materials: fabric with visible weave and drape, metal with wear, scratches and oxidation, synthetic matte skin. Pure white studio background, clean seamless white backdrop, soft diffused lighting with subtle rim light. No cel shading, no toon rendering. High-end statue/collectible photography aesthetic. Ultra detailed, 8K. Fix and reconstruct all hands and fingers with correct anatomy: natural finger count, proper joint articulation, realistic proportions, no fused or melted digits. Remove all 2D artifacts, compression glitches, and Midjourney inconsistencies. Ensure full anatomical coherence across the entire figure: symmetrical features, clean silhouette, no floating elements, no distorted limbs, no duplicated body parts. Hyper-detailed hair simulation: individual strand rendering, realistic hair clumping, natural flow and gravity, visible scalp at roots, micro flyaways, SSS translucency on hair tips. Every surface pushed to maximum realism: pore-level skin texture, fabric fiber micro-detail, specular highlights on every material, depth in shadows"
+      },
+      {
+        "id": "2037234409523601917",
+        "text": "3. I usually create multiple sequences to build the video, then cut the incoherent shots. I edit on Davinci Resolve, it's really easy to use.\n\nSEQUENCE 1 — Armor Construction (0-15s)\n\nCINEMATIC SETUP\n\n35mm film stock, Panavision anamorphic, f1.8. Live-action sci-fi blockbuster, 4K HDR. Industrial hangar — cold steel blue light, steam vents, hydraulic hiss. Slow deliberate tracking camera mixed with extreme macro close-ups.\n\nSound FX only: mechanical assembly, servo motors, metal locking clicks.\n\nREFERENCES [@ image1] is the hero: young male, blonde slicked hair, aviator goggles on forehead, black turtleneck, white jacket, black trousers, black loafers. Face composed, determined throughout. [@ image2] is the mech armor: weathered pale blue-grey metal, rust patches, wide shoulder wings, heavy limbs, battle-worn surface.\nnegative: no face morph, no costume disappearing, no armor floating\n0-2s: Wide shot. [@ image1] walking forward through industrial hangar, hands in pockets, pace steady and calm. Steam rising from floor grates. Mechanical arms emerging from ceiling tracks above him. Distant hydraulic hum building.\n2-3s: Macro — mechanical arm close-up, side angle. Claw gripping first [@ image2] armor chest plate, lifting it precisely into position. Metal scrape, servo whir.\n3-4s: Macro — chest plate locking onto [@ image1]'s torso from behind. Hydraulic clamp sound, deep metal thud. [@ image1] doesn't break stride.\n4-5s: Macro — [@ image1] hands, close-up. Fingers slowly pulling out of jacket pockets as shoulder plates descend. Gauntlet snapping over each hand. Metal click, pressure hiss.\n5-7s: Side tracking shot — [@ image1] still walking, multiple mechanical arms working simultaneously. Left shoulder wing plate attaching, right arm armor locking. Steam bursting from joints on contact. Assembly hum intensifying, overlapping metal locks.\n7-8s: Macro — boot close-up at floor level. [@ image2] armored boot casing snapping over his black loafer mid-step. Ground-level tracking. Heavy armored footstep boom replacing soft leather step.\n8-9s: Macro — back of neck and helmet descending. Aviator goggles visible one last time before [@ image2] helmet lowers over his head. Visor sealing shut. Pressurization hiss, helmet lock click.\n9-11s: Front medium shot — [@ image1] now fully encased in [@ image2] armor, still walking forward. Mechanical arms retracting back into ceiling. Only armored footsteps remain. Steam settling. Silence except deep reactor pre-charge hum beginning.\n11-13s: Extreme close-up — visor surface. Cold blue hangar light reflecting. Inside visor: HUD elements flickering on, targeting systems initializing. Electronic boot sequence sound.\n13-15s: Wide shot from behind — [@ image1] in full [@ image2] armor walking toward massive closed garage door at end of hangar. Door fills entire frame. He stops. Stands still. Reactor hum building to maximum. Hold.\n\nSEQUENCE 2 — Launch (0-15s)\n\nCINEMATIC SETUP IMAX 70mm, Panavision anamorphic, f2.8. Live-action blockbuster, 4K HDR. Industrial hangar transitioning to blinding exterior light. Camera starts static then erupts into kinetic energy. Sound FX only: reactor ignition, metal door mechanism, heat distortion roar.\nREFERENCES [@ image1] hero in full [@ image2] armor throughout — weathered pale blue-grey mech, wide shoulder wings, battle-worn surface. Back to camera entire sequence. [@ image3] is the hangar door environment: sci-fi garage opening onto elevated highway infrastructure, bright daylight, yellow safety barriers, clean concrete floor. [@ image4] is the armor detail reference: cream-white mech suit, wide angular shoulder wings, dual antenna helmet, orange visor glow, battle scratches, mechanical arms visible in background — use for armor surface accuracy.\nnegative: no face visible, no armor color change, no hangar collapse, no floating limbs\n0-2s: Wide shot from behind — [@ image1] in full [@ image2] armor, completely still, centered in closed [@ image3] hangar doorframe. Reactor on back beginning to glow orange. Mechanical arms from [@ image4] environment retracting into ceiling behind him. Low reactor charge building. Steam rising from shoulder joints.\n2-3s: Macro — reactor vents on back armor, referencing [@ image4] surface detail. Heat shimmer visible around exhaust ports. Orange glow intensifying, scratched cream-white metal radiating heat. Deep turbine spin-up.\n\n3-4s: Macro — armored fists at sides, [@ image4] detail. Fingers slowly closing. Metal creak, hydraulic tension hiss.\n4-5s: [@ image1] back to camera, facing closed door. Head tilts slightly down. One beat silence. Then: \"Let's go.\" Voice low, calm, helmet reverb. Single heavy armored footstep forward. Floor vibrates.\n5-6s: [@ image3] garage door EXPLODES open — massive panels slamming upward. Blinding daylight floods in. [@ image1] silhouetted against bright sky and elevated highway of [@ image3]. Door mechanism slam, pressure burst.\n6-7s: Macro — reactor ignition full power, [@ image4] exhaust port detail. Superheated flame blasting outward. Camera directly behind, heat shimmer warping entire frame. Jet turbine scream erupting.\n7-8s: Macro — ground level. [@ image3] yellow safety barriers visible at frame edge. Armored boots on clean hangar floor, superheated air rippling surface. Concrete micro-cracking. Roar intensifying.\n8-9s: Macro — [@ image4] shoulder wing edge, side profile. Heat shimmer along leading edge, orange reactor glow painting scratched cream surface. Turbine maximum.\n9-11s: Front reveal — camera outside [@ image3] looking in through open door. [@ image1] in full armor, reactor blazing, framed in doorway. Beyond him: elevated highway infrastructure of [@ image3] stretching into distance — concrete pillars, banked curves, open sky. He stands motionless in threshold. Reactor scream, wind from outside rushing in.\n11-13s: Low angle from [@ image3] ground level — looking up at [@ image1] from outside. Elevated highways behind him. Reactor exhaust blasting downward, heat waves rising. Silhouette against bright sky, shoulder wings wide.\n13-15s: Wide cinematic — [@ image1] launches forward out of [@ image3] hangar at extreme speed. Camera holds static as he rockets away, reactor trail burning white-orange, shrinking into the elevated highway distance. Sonic boom, speed rush, silence.\n\nImage1 is the final character design and Image2 is an image of a circuit."
+      },
+      {
+        "id": "2037234411864023103",
+        "text": "No one is an expert so if you have any other recommendations or tips you’ve discovered, I’m interested"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/2037229407803510784/vid/avc1/3840x2160/xumPsHI8TWyclZ8N.mp4"
+        "url": "https://video.twimg.com/amplify_video/2037229407803510784/vid/avc1/3840x2160/xumPsHI8TWyclZ8N.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2037229407803510784/img/1pSW2m48rGhYn4W6.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HEWx6BFbYAASK38.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HEWyiftbYAEdOXn.jpg"
       }
     ],
     "metrics": {
-      "likes": 821,
-      "retweets": 97,
-      "replies": 67,
-      "views": 50510
+      "likes": 873,
+      "retweets": 103,
+      "replies": 66,
+      "views": 54452
     },
     "comments": [
+      {
+        "handle": "BarrakAli",
+        "name": "Barrak",
+        "date": "2026-03-26",
+        "text": "@0xInk_ Sharing the exact prompt template that gets cinematic results is the kind of generosity that accelerates the entire AI filmmaking community.",
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Deminiarts",
+        "name": "Demini AI",
+        "date": "2026-04-06",
+        "text": "@0xInk_ I use your prompt for 3D it is nice! TY https://t.co/nmQA2Ug9Qh",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HBCoop_",
+        "name": "Heather Cooper",
+        "date": "2026-03-26",
+        "text": "@0xInk_ Nice workflow! Thanks for sharing 😊",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ilyasorokin0",
+        "name": "Elias H",
+        "date": "2026-04-01",
+        "text": "@0xInk_ thx bro https://t.co/MMn3JkbdQU",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "horacedodd",
+        "name": "Horace Dodd",
+        "date": "2026-03-28",
+        "text": "@0xInk_ Dope setup🔥Thanks for sharing INK",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Marcology1776",
+        "name": "MARCOLOGY",
+        "date": "2026-03-28",
+        "text": "@0xInk_ Beautiful. Nice work!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "3D_director",
+        "name": "Pierre Schiller",
+        "date": "2026-03-27",
+        "text": "@tintwotin Mate, check CapCut WEB, the AI video section&gt;Dreamina&gt;Seedance 2 should be rolling up in the next weeks!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NEXUS_TO_NOVA",
+        "name": "NΞXUS",
+        "date": "2026-03-27",
+        "text": "@0xInk_ You're welcome 😁",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ai_deadgen",
+        "name": "Genova AI",
+        "date": "2026-03-27",
+        "text": "@0xInk_ Well done 🫡Really thanks for sharing 🤗",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xInk_",
+        "name": "INK",
+        "date": "2026-03-27",
+        "text": "you can but you need to create your own character sheet \n\nI use this prompt : Professional character reference sheet, 7 poses on clean white background. \nSame man in all shots: European male, late 20s-early 30s, dark hair slicked \nback, mustache, slim athletic build, glasses, black t-shirt. \n\nPoses: front facing neutral, left profile, right profile, 3/4 left angle, \n3/4 right angle, slight downward tilt looking intense, arms crossed 3/4 view. \n\nFlat even studio lighting, no shadows, no background elements. \nPhotorealistic, consistent face across all 7 frames. \nCharacter identity sheet style.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xInk_",
+        "name": "INK",
+        "date": "2026-03-27",
+        "text": "@VITAMINS_2077 I use Dreamina AI",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "the_wan_utama",
+        "name": "Wan Utama official",
+        "date": "2026-03-27",
+        "text": "@0xInk_ Clean execution!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ObsceneSelene",
+        "name": "Obscene Selene",
+        "date": "2026-03-27",
+        "text": "@0xInk_ That's a nice buttery smooth frame rate you got there.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "prasaddir",
+        "name": "Prasad G",
+        "date": "2026-03-27",
+        "text": "@0xInk_ Nice workflow, loved it 👌",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LudovicCreator",
+        "name": "LudovicCreator",
+        "date": "2026-03-27",
+        "text": "@0xInk_ Very interesting",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EarnFormation",
+        "name": "EarnFormation 🇿🇦",
+        "date": "2026-03-27",
+        "text": "@0xInk_ This is fucking MINT!!! 🔥 https://t.co/DDGf1QqsjT",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "breachinglimits",
+        "name": "Story Breach Consultancy",
+        "date": "2026-03-27",
+        "text": "@0xInk_ Legend! You rock for this and thank you much. Glad to have stumbled across your account, content and community🤘🏼🤖🎉",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wonder_villas",
+        "name": "Wonder Villas",
+        "date": "2026-03-27",
+        "text": "@0xInk_ Nice work. Seeing this makes me want to jump straight into Seedance 2, but I need to finish my current projects and hit deadlines first.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xInk_",
+        "name": "INK",
+        "date": "2026-03-27",
+        "text": "@HBCoop_ You’re welcome",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xInk_",
+        "name": "INK",
+        "date": "2026-03-27",
+        "text": "@NEXUS_TO_NOVA Thanks bro",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Aes_Saru",
+        "name": "Aes-Saru | Envtuber| 🏴‍☠️🌌",
+        "date": "2026-03-27",
+        "text": "@0xInk_ I got one. Stop relying on AI and pick up blender instead. You can get one to one texturing and modeling without it. Its super easy once you get pass the curve.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "animmortalninja",
+        "name": "DƦΔGΩN NINЈΔ",
+        "date": "2026-03-27",
+        "text": "@0xInk_ I have waited so long for this day!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eliaslauronen",
+        "name": "Elias",
+        "date": "2026-03-27",
+        "text": "@0xInk_ Thank you mr INK",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PatriotWraith01",
+        "name": "Carmelo Cabrera",
+        "date": "2026-03-26",
+        "text": "@0xInk_ Dude! That was insanely DOPE!!!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MaxVOAO",
+        "name": "Max ✦",
+        "date": "2026-03-26",
+        "text": "@0xInk_ Overwatch vibe so hard",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AtikoAE",
+        "name": "Atiko 💎",
+        "date": "2026-03-26",
+        "text": "@0xInk_ Powerful",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mudtrackking",
+        "name": "Saints of the Sage",
+        "date": "2026-03-26",
+        "text": "@0xInk_ No wonder Hollywood has its panties in a wad.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NEXUS_TO_NOVA",
+        "name": "NΞXUS",
+        "date": "2026-03-26",
+        "text": "@0xInk_ Great workflow bro, I think the work speaks for itself",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JesusPlazaX",
+        "name": "Jesus Plaza",
+        "date": "2026-03-26",
+        "text": "@0xInk_ It’s the first video in a while that I rewatch several times at normal speed on X. Congrats. Great work",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zaffarrh",
+        "name": "Zaffar",
+        "date": "2026-03-26",
+        "text": "@0xInk_ this is one of the best videos I’ve seen made with Seedance 2.0, the scene quality is soo close to a high-budget film, sick work as usual 🙌",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "petroltako",
+        "name": "petroltako",
+        "date": "2026-03-26",
+        "text": "@0xInk_ Hot damn this is amazing",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SteveBlackbeard",
+        "name": "☠️Blackbeard☠️いちろう➕ 放浪者",
+        "date": "2026-03-26",
+        "text": "@0xInk_ https://t.co/ecFIHP1Oly",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SilverCoder2009",
+        "name": "Benjamin De Ridder",
+        "date": "2026-03-26",
+        "text": "@0xInk_ super helpful for users...",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aat_ai40683",
+        "name": "AAT!!! Artworks",
+        "date": "2026-03-26",
+        "text": "@0xInk_ Super dope bro",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
       {
         "handle": "PromptlyAI_YT",
         "name": "PromptlyAI",
         "date": "2026-04-11",
-        "text": "@0xInk_ Looks great. Thanks for sharing. 😎"
+        "text": "@0xInk_ Looks great. Thanks for sharing. 😎",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
       },
       {
         "handle": "rebel_thecat",
         "name": "Rebel 🏴‍☠️",
         "date": "2026-04-11",
-        "text": "@0xInk_ Words cannot express how much I appreciate you doing this. 🙏🏻🙏🏻🙏🏻🙏🏻"
+        "text": "@0xInk_ Words cannot express how much I appreciate you doing this. 🙏🏻🙏🏻🙏🏻🙏🏻",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
       },
       {
         "handle": "brianlife",
         "name": "LiFe",
         "date": "2026-04-11",
-        "text": "@0xInk_ Dig it!"
+        "text": "@0xInk_ Dig it!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
       },
       {
         "handle": "ArsenNio130079",
         "name": "EdwinLu711",
         "date": "2026-04-10",
-        "text": "@0xInk_ How bro"
+        "text": "@0xInk_ How bro",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LIUX_777",
+        "name": "LiuX_7",
+        "date": "2026-03-31",
+        "text": "@0xInk_ Awesome, can you show me your reference image? I want to learn from it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gulzarjunaid_",
+        "name": "Gulzar Junaid",
+        "date": "2026-03-30",
+        "text": "@0xInk_ Keep up the great work buddy. Diggin these new AI pieces.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Matisdottir",
+        "name": "lionfish",
+        "date": "2026-03-28",
+        "text": "@0xInk_ Consistency in format = consistency in output quality.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AhmadSyahiir",
+        "name": ".",
+        "date": "2026-03-28",
+        "text": "@0xInk_ Hi, may i know how to use human face on seedance 2?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MasxJP",
+        "name": "JP 💥💥",
+        "date": "2026-03-28",
+        "text": "@0xInk_ Cool broo 🔥 followed https://t.co/rzuYJml25S",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DeepPromptCine",
+        "name": "Deep Prompt Cinema",
+        "date": "2026-03-27",
+        "text": "@0xInk_ The 4k is stunning. Is that 50 / 60 FPS too?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Yehgary0319",
+        "name": "yehgary",
+        "date": "2026-03-27",
+        "text": "@0xInk_ wow cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dagmarbressel",
+        "name": "Dagmar Bressel",
+        "date": "2026-03-27",
+        "text": "@0xInk_ Great! Thanks for sharing ❤️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "OpreliaAI",
+        "name": "Oprèlia AI",
+        "date": "2026-03-27",
+        "text": "@0xInk_ i really appreciate the share.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "se_ris71583",
+        "name": "Se te le os Le ris",
+        "date": "2026-03-27",
+        "text": "@0xInk_ How did you get this super-smooth frame rate?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AngeloNoziglia",
+        "name": "Angelo Noziglia",
+        "date": "2026-03-27",
+        "text": "@0xInk_ Thanks will try this - since being in Taiwan we also got access via CapCut",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VictoriorCG",
+        "name": "Victorior",
+        "date": "2026-03-27",
+        "text": "@0xInk_ So amazing and could I ask you about the prompt that you have shared, is that you wrote in highly detail or Claude is support in detail part such as camera type or lens selected ? Thanks so much in advance and you are amazing ❤️🌈",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xKiriKev",
+        "name": "KiriKev",
+        "date": "2026-03-27",
+        "text": "@0xInk_ Incredible\n\nThank you!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jack93753926",
+        "name": "JigglyPoo",
+        "date": "2026-03-27",
+        "text": "@0xInk_ I don't understand AI bros, least efficient and soulless looking ass animations I've ever seen.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "H8KUcom",
+        "name": "Haiku",
+        "date": "2026-03-27",
+        "text": "@0xInk_ Which site are you using it on? Your usual?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ArefAlchemist",
+        "name": "Aref | The Alchemist",
+        "date": "2026-03-27",
+        "text": "@0xInk_ The details look good, but the high frame rate kind of gives the AI away.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "OlubodeNG",
+        "name": "OlubodeNG",
+        "date": "2026-03-27",
+        "text": "@0xInk_ You are an expert bro, this is just too cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cloudwiseAI2026",
+        "name": "CloudwiseAI",
+        "date": "2026-03-27",
+        "text": "@0xInk_ The consistency is excellent, and Seedance 2.0 is currently the best in productivity performance.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Maercihh",
+        "name": "Maercih",
+        "date": "2026-03-27",
+        "text": "@0xInk_ It is awesome",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Dalniery1",
+        "name": "Dalni",
+        "date": "2026-03-27",
+        "text": "@0xInk_ @VITAMINS_2077 Vpn",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LiuLing13220",
+        "name": "刘灵霏儿",
+        "date": "2026-03-27",
+        "text": "@0xInk_ After trying several options, Dreamina still delivers the fastest and most stable images, plus it's free to try.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xInk_",
+        "name": "INK",
+        "date": "2026-03-27",
+        "text": "@Terrencemane I have to try, but yes I think so",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Glitc_hStudio",
+        "name": "Glitc-h Studio",
+        "date": "2026-03-27",
+        "text": "@0xInk_ LOVE IT",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tintwotin",
+        "name": "tintwotin",
+        "date": "2026-03-27",
+        "text": "@0xInk_ Okay, thanks for sharing your findings.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CryptoSanky",
+        "name": "Sanky",
+        "date": "2026-03-27",
+        "text": "@0xInk_ This is GOLD 🤯🎬 A full cinematic template for Seedance 2? Game-changer!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VITAMINS_2077",
+        "name": "VitaminS",
+        "date": "2026-03-27",
+        "text": "@0xInk_ Is it the international version of Seedance? Or is it an API?🥵",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xInk_",
+        "name": "INK",
+        "date": "2026-03-27",
+        "text": "@eliaslauronen you're welcome",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DonFlashes",
+        "name": "Don Flashes",
+        "date": "2026-03-27",
+        "text": "@0xInk_ Looks like total fuckin dogshit",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xInk_",
+        "name": "INK",
+        "date": "2026-03-27",
+        "text": "@apx_david @BarrakAli I just share my workflow, but we still have to experiment and explore you're right",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AIishere_art",
+        "name": "AI-ishere",
+        "date": "2026-03-27",
+        "text": "@0xInk_ Without the image 1, 2, 3, 4 reference, you cannot create.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xInk_",
+        "name": "INK",
+        "date": "2026-03-27",
+        "text": "@tintwotin I’m living in Vietnam, so I can use Dreamina AI directly",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xInk_",
+        "name": "INK",
+        "date": "2026-03-27",
+        "text": "@JesusPlazaX Happy you like it",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DalleAI",
+        "name": "Bullseye troll",
+        "date": "2026-03-26",
+        "text": "@0xInk_ discontinuities in just 20 seconds. wow",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ElDirectorSV",
+        "name": "Punki",
+        "date": "2026-03-26",
+        "text": "@0xInk_ The only thing I’ve notice is the smooth 60fps Did you scale the video? 🤔",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SC3DStudio",
+        "name": "Sam Fellner",
+        "date": "2026-03-26",
+        "text": "@0xInk_ the cuts are literally crazy bad, you immeadiately see the lack of direction skills and the ranodmness in the art style damn",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BarrakAli",
+        "name": "Barrak",
+        "date": "2026-03-26",
+        "text": "@apx_david @0xInk_ True, yet the most original films still emerge when creators bend shared templates into something unmistakably their own.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "stevencasteelX",
+        "name": "Steven Casteel",
+        "date": "2026-03-26",
+        "text": "@0xInk_ Dude, that was sick. Seedance kills it with putting armor on people in different ways. (lots of people were doing those organic Sentai ones)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "apx_david",
+        "name": "David Apex",
+        "date": "2026-03-26",
+        "text": "@BarrakAli @0xInk_ True, but if everyone has the same template, do we risk all our films looking like a recycled trailer? Originality thrives in creative chaos, not cookie-cutter prompts.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TruthMonger2100",
+        "name": "TruthMonger (Time Traveler)",
+        "date": "2026-03-26",
+        "text": "@0xInk_ https://t.co/cxHEqJA0uE",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mintalocs",
+        "name": "JUST CRE8 Productions | AI Creative Filmmaker",
+        "date": "2026-03-26",
+        "text": "@0xInk_ Reminds me of PLUTO",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tintwotin",
+        "name": "tintwotin",
+        "date": "2026-03-26",
+        "text": "@0xInk_ Cool. Can you also share how you got access to Seedance?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Terrencemane",
+        "name": "TheWiseShaman",
+        "date": "2026-03-26",
+        "text": "@0xInk_ Cool video man, would u use lens specifics if this were Anime too? I feel like it's not good in Anime I haven't used Seedance tho",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
       }
     ]
-  }
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2037229407803510784/img/1pSW2m48rGhYn4W6.jpg",
+      "localFilename": "2037234396626116661_1_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HEWx6BFbYAASK38.jpg",
+      "localFilename": "2037234396626116661_2.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HEWyiftbYAEdOXn.jpg",
+      "localFilename": "2037234396626116661_3.jpg"
+    }
+  ]
 }

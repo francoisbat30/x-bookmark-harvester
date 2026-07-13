@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:14:25.525Z",
+  "tweetId": "1978621500308570115",
+  "post": {
+    "url": "https://x.com/alex_verem/status/1978621500308570115",
+    "author": {
+      "handle": "alex_verem",
+      "name": "Alex Veremeyenko"
+    },
+    "date": "2025-10-16",
+    "text": "everyone's racing to use AI faster.\n\nnobody's asking what it's doing to their brain.\n\ni just read a 132-page research paper that should terrify every creator, marketer, and founder using AI right now.\n\n it's called \"The Impact of Artificial Intelligence on Human Thought\" and it explains why most people using AI are accidentally making themselves dumber.\n\nhere's the problem: when you outsource thinking to AI, your brain stops doing the work. \n\nthe researchers call it \"cognitive offloading\" - basically, mental atrophy.\n\nyou think you're being efficient. you're actually losing the skill that made you valuable.\n\nthe worst part? it's invisible. you don't notice your critical thinking weakening until you try to solve something without AI and... can't.\n\nhere's what the research actually says:",
+    "thread": [
+      {
+        "id": "1978621500308570115",
+        "text": "everyone's racing to use AI faster.\n\nnobody's asking what it's doing to their brain.\n\ni just read a 132-page research paper that should terrify every creator, marketer, and founder using AI right now.\n\n it's called \"The Impact of Artificial Intelligence on Human Thought\" and it explains why most people using AI are accidentally making themselves dumber.\n\nhere's the problem: when you outsource thinking to AI, your brain stops doing the work. \n\nthe researchers call it \"cognitive offloading\" - basically, mental atrophy.\n\nyou think you're being efficient. you're actually losing the skill that made you valuable.\n\nthe worst part? it's invisible. you don't notice your critical thinking weakening until you try to solve something without AI and... can't.\n\nhere's what the research actually says:"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3V5w6hWUAAKXny.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 554,
+      "retweets": 102,
+      "replies": 53,
+      "views": 47622
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3V5w6hWUAAKXny.jpg",
+      "localFilename": "1978621500308570115_1.jpg"
+    }
+  ]
+}

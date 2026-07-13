@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:55.462Z",
+  "fetchedAt": "2026-07-13T06:48:18.365Z",
   "tweetId": "1978500362270384191",
   "post": {
     "url": "https://x.com/GeminiApp/status/1978500362270384191",
@@ -10,13 +11,884 @@
     },
     "date": "2025-10-15",
     "text": "Today we start rolling out Veo 3.1, with a deeper understanding of video concepts to help bring your ideas to life.\n\nCreate scenes with specific camera angles and smoother movement. Notice textures that feel more true to life, from surfaces to animals. And bring it all together with dialogue and sound effects for more compelling results.\n\nReady to get started? Prompt your way to new dimensions of detail: https://t.co/yFfGbU5Chj",
+    "thread": [
+      {
+        "id": "1978500362270384191",
+        "text": "Today we start rolling out Veo 3.1, with a deeper understanding of video concepts to help bring your ideas to life.\n\nCreate scenes with specific camera angles and smoother movement. Notice textures that feel more true to life, from surfaces to animals. And bring it all together with dialogue and sound effects for more compelling results.\n\nReady to get started? Prompt your way to new dimensions of detail: https://t.co/yFfGbU5Chj"
+      }
+    ],
     "media": [],
     "metrics": {
-      "likes": 2157,
-      "retweets": 238,
-      "replies": 141,
-      "views": 144299
+      "likes": 2148,
+      "retweets": 233,
+      "replies": 140,
+      "views": 144404
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-10-15",
+        "text": "Thanks for your interest, Sai. Google AI Pro accounts receive a limited number of Veo 3.1 daily generations to explore the creative potential. Upgrade to Google AI Ultra to access more daily generations and the highest quality of Veo 3.1. For more details, visit: https://t.co/q5DhbJjVox.",
+        "likes": 18,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PatrikTrejtnar",
+        "name": "Patrik Trejtnar",
+        "date": "2025-10-15",
+        "text": "@GeminiApp @SaiNemani1 So, how many?",
+        "likes": 13,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CrazyAITech",
+        "name": "CrazyAI Tech",
+        "date": "2025-10-15",
+        "text": "@GeminiApp It's so real!!!!! Great job!!!!! https://t.co/mbZS2b7qVU",
+        "likes": 9,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-10-15",
+        "text": "@fizz420420 Hi there, to use this feature with a personal account, you must have a paid Google AI plan. To use this feature with a work or school account, you must have a qualifying Workspace license. For more information, please visit: https://t.co/uJNs2fo7tB. Hope this helps.",
+        "likes": 9,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Odds75",
+        "name": "Steve PhD",
+        "date": "2025-10-15",
+        "text": "@GeminiApp Four 5-10 second videos on the Ultra Plan, and that’s my limit? Come on. SMH",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SaiNemani1",
+        "name": "Sai Nemani",
+        "date": "2025-10-15",
+        "text": "@PatrikTrejtnar @GeminiApp 3.",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-10-16",
+        "text": "@CrazyAITech When we said true-to-life textures, we meant it. This is crystal clear",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-10-15",
+        "text": "@Odds75 Hi Steve. Thank you for showing your excitement; Veo 3.1's 8-second clips are a starting point for its product capabilities, making them useful for creating and sharing short, fun videos. For more information, please visit: https://t.co/FVC8XhI1DE. Hope this helps!",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "geesehowardt7",
+        "name": "小娜学AI",
+        "date": "2025-10-15",
+        "text": "@GeminiApp 今天，我们开始推出Veo 3.1，它对视频概念的理解更加深入，助您将创意变为现实。\n创建具有特定摄像机角度和更流畅运动的场景。注意从表面到动物的纹理，使其感觉更加真实自然。并结合对话和音效，带来更具吸引力的效果。\n准备好开始了吗？用提示词开启全新细节维度：https://t.co/Sf5z67El7L",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-10-16",
+        "text": "@RKAScope Time to turn that waiting into creating",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-10-16",
+        "text": "@spencer_i_am Houston, we have a masterpiece",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WhiskyandWine",
+        "name": "Curtis B",
+        "date": "2025-10-16",
+        "text": "@GeminiApp 🕶️💯✌️ https://t.co/b75M1dOVbE",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WhiskyandWine",
+        "name": "Curtis B",
+        "date": "2025-10-16",
+        "text": "@GeminiApp ✌️💯🕶️ https://t.co/YiHwSsRLaq",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-10-16",
+        "text": "@mortgREtracker Hi there. We always want to improve your experience with Gemini, and we're sorry it was less than ideal in this interaction! Would you mind sending over feedback via your device? That helps us get to the bottom of your problem more effectively. Thank you.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "yugmaan20925",
+        "name": "Yugmaan Adhikari",
+        "date": "2025-10-16",
+        "text": "@GeminiApp I'm sorry, but I found your AI weakest among all, and sometimes, it says that yes, I can do it. But after some time, start making excuses. \nIt is such a time killing machine.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AIxBlock",
+        "name": "AIxBlock",
+        "date": "2025-10-16",
+        "text": "@GeminiApp Soon we’ll storyboard, shoot, and edit,\n all in one prompt.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Preda2005",
+        "name": "Marcio Lima 利真 マルシオ 💎",
+        "date": "2025-10-16",
+        "text": "@GeminiApp 🚨L👀K This⤵️ https://t.co/AxEru6gzKt",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Arienlajarin",
+        "name": "Ari",
+        "date": "2025-10-15",
+        "text": "@PatrikTrejtnar @GeminiApp @SaiNemani1 The amazing number of 3.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Ilyassalami212",
+        "name": "ILYASS",
+        "date": "2025-10-15",
+        "text": "@johnsavage_eth @GeminiApp Sora 2 is better of course",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-10-15",
+        "text": "Hi Fedora. Veo 3.1's 8-second clips are a starting point for its product capabilities, making them useful for creating and sharing short, fun videos. Visualize your concepts in motion and bring your ideas to life! For more information, please visit: https://t.co/q5DhbJjVox. Thanks.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TimeCrestWorld",
+        "name": "Timecrest Fan",
+        "date": "2025-10-15",
+        "text": "@GeminiApp Is it coming to the Gemini app? When are you gonna fix the lagging issues and the clunky website interface for voiceover users? Tired of reporting. Allow us to link flow and whisk to the app for easier access. My credits are going to waste because I can't navigate properly",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-10-15",
+        "text": "@Bioluminico_ Hi Walter. We understand your concern. What’s the exact error message? Let us know, and we’ll be happy to help.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-10-15",
+        "text": "@DumitruLangham Hi Dumitru. Thanks for sharing this issue; that's not an ideal experience. We are looking into this issue. In the meantime, if your image editing is unsuccessful, please try rephrasing your prompt. We appreciate your patience.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-10-15",
+        "text": "@OwenvbugieJ Hi Johnbull. Thank you for showing your excitement; Veo 3.1's 8-second clips are a starting point for its product capabilities, making them useful for creating and sharing short, fun videos. For more information, please visit: https://t.co/uJNs2fo7tB. Hope this helps!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ShadowVlican",
+        "name": "SV",
+        "date": "2025-10-15",
+        "text": "@tinyblue_dev @GeminiApp This is why open source tools will ultimately win.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ShadowVlican",
+        "name": "SV",
+        "date": "2025-10-15",
+        "text": "@GeminiApp @SaiNemani1 Google AI Pro limits. Google AI Pro users who reach their video generation 3 limit can upgrade to Google AI Ultra or wait for their limit to refresh.\nGoogle AI Ultra limits. Users with Google AI Ultra have higher limits and can generate more videos.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FCamiade",
+        "name": "Florian Camiade 🗝️",
+        "date": "2025-10-15",
+        "text": "@GeminiApp Perfect, the real tests start now https://t.co/gb0cNGYVp0",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ikausarsolanki",
+        "name": "𝙆𝙖𝙪𝙨𝙖𝙧 𝙎𝙤𝙡𝙖𝙣𝙠𝙞",
+        "date": "2025-10-15",
+        "text": "@GeminiApp The Crystal Forest. 🔊\nFantasy realism, ethereal lighting, volumetric haze, reflective crystal surfaces, slow dreamlike motion.\n#veo3.1 on @GeminiApp https://t.co/PXvcraASW9",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EveAndromeda_",
+        "name": "Eve Andromeda",
+        "date": "2025-10-25",
+        "text": "@GeminiApp Rename Flow to Flaw 🤣😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EveAndromeda_",
+        "name": "Eve Andromeda",
+        "date": "2025-10-25",
+        "text": "@GeminiApp Flow is really useless when it comes to story tell. What's the point if it cannot continue smooth motion from previous clip? Doesn't sound like something that FLOWs",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EveAndromeda_",
+        "name": "Eve Andromeda",
+        "date": "2025-10-25",
+        "text": "@GeminiApp I don't see much change, 3.0 and 3.0 look the same. Texture quality is the only improvement, but comparison to Sora 2 prompt following Veo 3 is way behind. Besides, it still lacks action, high speed videos are all glitchy and blurry",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Parmie369",
+        "name": "Parmie",
+        "date": "2025-10-20",
+        "text": "@GeminiApp Biggest weakness veo faces is its censorship engine vs sora. Can’t hope to achieve the content virility required to gain mindshare and adoption if you don’t allow a greater degree of freedom here. Just take a look at reels or shorts, big % of viral content is ugc sora comedies…",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CrazyCactusEnt",
+        "name": "CrazyCactusEnt",
+        "date": "2025-10-17",
+        "text": "@GeminiApp Your video creation tool is dogshit.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AnsarUllahAnas_",
+        "name": "Ansar Ullah Anas",
+        "date": "2025-10-17",
+        "text": "@GeminiApp The camera control and movement updates are a huge step toward cinematic AI. Curious how Veo handles continuity across complex scenes or character interactions.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "spencer_i_am",
+        "name": "Spencer Francisco",
+        "date": "2025-10-16",
+        "text": "@GeminiApp 🖖See you out there",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-10-16",
+        "text": "@ikausarsolanki You absolutely nailed the ethereal feel. This is next-level",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-10-16",
+        "text": "@MrRan110 We love seeing Veo 3.1 take flight. Cue the epic music",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-10-16",
+        "text": "@MattsAiLab The future of video creation is now",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "atlasx0xleo",
+        "name": "AtlasOnChainNomad",
+        "date": "2025-10-16",
+        "text": "@GeminiApp Love seeing how AI video tools are evolving! This could be amazing for creating educational content for our blockchain workshops - imagine demonstrating complex concepts with custom videos 🤔",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mortgREtracker",
+        "name": "mortgREtracker",
+        "date": "2025-10-16",
+        "text": "@GeminiApp @GeminiApp hope you can fix this bug. I request an image celebrating a \"National day of\" for today, and it will create it, but for the wrong date, not today. This used to work until about a couple months ago. Gemini loses the ability to know what today's date is.. please fix",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Leorbat_Author",
+        "name": "Leorbat_Rossi_ /\\rkitekturE_italian_design_📐🏗️🌆",
+        "date": "2025-10-16",
+        "text": "@GeminiApp WE PAY A MONTHLY SUBSCRIPTION OF 20 DOLLARS AND YOU DO NOT GENERATE THE REQUESTED IMAGES WE WILL REPORT YOU FOR SCAM, YOU DISGUSTING FUCKING SCAMMERS",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lovefeng87",
+        "name": "Kapting",
+        "date": "2025-10-16",
+        "text": "@GeminiApp @AgnosticKrishna 不要脸的狗东西，自己官推被黑客攻击了，并进行了诈骗，到现在都不发表声明。",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-10-16",
+        "text": "@AgnosticKrishna What a suggestion, Krishna. Thanks for bringing it to us. We know the team will be interested to think about how to incorporate this. Keep 'em coming!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Manning917",
+        "name": "Jason Manning",
+        "date": "2025-10-16",
+        "text": "@GeminiApp Very nice, sounds good, love @GeminiApp @GooglePlay and @Google overall!! 📱📱💻💻🖥️🖥️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AgnosticKrishna",
+        "name": "Krishna",
+        "date": "2025-10-16",
+        "text": "@GeminiApp For a Large Language Model, we write in prompt and get response in words and letters. Why can't we have a video generating model takes input as Video. A person who can upload a video or live camera option show the place around and tell in the video what he or she wants in video",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HenrySidebiz_2",
+        "name": "Henry",
+        "date": "2025-10-16",
+        "text": "@OenXaccount @GeminiApp Bro not even the app is out lmfao",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "OenXaccount",
+        "name": "Oen",
+        "date": "2025-10-16",
+        "text": "@GeminiApp When is gemini 3.0 pro api out",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ASIsoftware",
+        "name": "ASI",
+        "date": "2025-10-16",
+        "text": "@GeminiApp https://t.co/V8KuHiLL2i",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VORTEX_Promos",
+        "name": "VORTEX: AI Bros & AI Arena, Peak AI Buzz",
+        "date": "2025-10-16",
+        "text": "@GeminiApp Please allow at least 15 seconds HD... Sora 2 already has 25 seconds hd. Come on guys! Also please allow voice uploads for consistent characters voices (mp3) like wan2.5 allows. Thank you for your updates!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "silvergoldiamon",
+        "name": "Anonymous",
+        "date": "2025-10-16",
+        "text": "@GeminiApp Looks like Google just gave creativity a camera upgrade \nNow ideas won’t just move, they’ll flow like real cinema! \n\n#Veo3 #AIRevolution #NextGenVideo #GoogleInnovation",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TKiselchuk",
+        "name": "Timur Kiselchuk",
+        "date": "2025-10-16",
+        "text": "@GeminiApp Veo 3.1 sounds amazing! Being able to create more realistic videos with better control over camera angles and textures makes video generation so much more useful for creators and storytellers.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Creaa_ai",
+        "name": "Creaa",
+        "date": "2025-10-16",
+        "text": "@GeminiApp cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jansen",
+        "name": "Jansen Lu",
+        "date": "2025-10-16",
+        "text": "@GeminiApp i have a plain Gemini account, neither Pro nor Ultra, but i can access to Veo 3.1 since this morning. does it mean you guys are rolling out to all Google Gemini users, no matter free or paid?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "homemadehooplah",
+        "name": "Chrisy | Homemade Hooplah",
+        "date": "2025-10-16",
+        "text": "@GeminiApp Another version of your theft machine.\n\nJust what the world doesn't need.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zheyongli",
+        "name": "zheyong",
+        "date": "2025-10-16",
+        "text": "@GeminiApp 可以发一个extend，jump to的原理介绍，适用例子教程吗",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AskChief_Leo",
+        "name": "leo",
+        "date": "2025-10-16",
+        "text": "The emphasis on texture realism and camera angle control suggests significant improvements in the underlying physics understanding. This level of control brings AI video generation closer to traditional cinematography workflows, making it more accessible for professional filmmakers.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RLobitsky_",
+        "name": "Rafael Lobitsky",
+        "date": "2025-10-16",
+        "text": "@GeminiApp https://t.co/KHMz7VTUKC thanks you https://t.co/Xr8PHcX1iF",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Boyyyproblems",
+        "name": "Fuckboyproblem.s",
+        "date": "2025-10-16",
+        "text": "@GeminiApp Only 8s still the same, what’s different from Veo3?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TavisHighfill",
+        "name": "Tavis Highfill🐀",
+        "date": "2025-10-16",
+        "text": "@GeminiApp I have been trying to generate the same video for weeks, over and over again. It does not understand how car doors open. The character keeps opening it in the wrong fucking direction, and it's pissing me off! I thought maybe this would fix it, it still doesn't get it right. FUCK!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bonbomXV",
+        "name": "Bombon",
+        "date": "2025-10-15",
+        "text": "@GeminiApp Make it cheaper",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GhostOfGueber",
+        "name": "LethalProtectorsYT",
+        "date": "2025-10-15",
+        "text": "@GeminiApp i am so excited using this !! i am having so much fun now!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sae20570",
+        "name": "Malachi Saenz",
+        "date": "2025-10-15",
+        "text": "@GeminiApp 👍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KohoOkada",
+        "name": "岡田泰彦｜光邦｜AI×印刷エヴァンジェリスト",
+        "date": "2025-10-15",
+        "text": "@GeminiApp Realistic textures, smooth motion, and dialogue? Veo 3.1 is bringing cinematic AI to the next level.\nリアルな質感、滑らかな動き、そしてセリフまで？Veo 3.1はまさにAI映像の新時代を切り開いています。",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xiParas",
+        "name": "Paras",
+        "date": "2025-10-15",
+        "text": "@GeminiApp Nice! https://t.co/hjxQC33Eg8",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BeautyMichal",
+        "name": "Michał Łenczyński 💯 𝓑𝓮𝓪𝓾𝓽𝔂 𝓡𝓪𝔃𝓮𝓶",
+        "date": "2025-10-15",
+        "text": "@GeminiApp 🙃 https://t.co/ua2y6zDKHq",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ilyassalami212",
+        "name": "ILYASS",
+        "date": "2025-10-15",
+        "text": "@GeminiApp I tried it, but Sora is better at generating anime than veo 3.1 and fighting",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "berritolam",
+        "name": "Samuel Berrit Olam (山姆)",
+        "date": "2025-10-15",
+        "text": "@GeminiApp I still find a daily video creation limit in Google Gemini Veo 3.1, so can the full experience really be felt with this restriction?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-15",
+        "text": "@KibireGerekYok @GeminiApp Veo 3.1 hizmetleri genel olarak ücretli. Gemini uygulamasında erişim için Google AI Pro (Veo 3.1 Fast) veya Ultra (tam Veo 3.1) aboneliği gerekiyor (örneğin Pro: 19.99 USD/ay). API'de ise saniye başına 0.40 USD gibi ücretler var. Ücretsiz erişim yok.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "KibireGerekYok",
+        "name": "ThePoet",
+        "date": "2025-10-15",
+        "text": "@GeminiApp @grok hangi veo hizmetleri ücretli (mi?)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GeminiApp",
+        "name": "Google Gemini",
+        "date": "2025-10-15",
+        "text": "@Bioluminico_ Got it. This is not the experience we want you to have. Try clearing your browser's cache and cookies. If that doesn't work, please submit feedback via your device (web: bottom left Settings &amp; help) so our team can look into it and add #GoogleGemini to your report. Thank you!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AurumNextdm",
+        "name": "AurumNext",
+        "date": "2025-10-15",
+        "text": "@GeminiApp Just tried out video generation in Gemini and I'm blown away by the quality. The future of content creation is looking wild! #Veo3 amazed with outcome. Very impressive 🙌 https://t.co/RgFVjuGHAS",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Error888Unknown",
+        "name": "GAMING",
+        "date": "2025-10-15",
+        "text": "@GeminiApp First fix (Something went wrong issue) \n\n💀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheAwakenOne619",
+        "name": "TheAwakenOne",
+        "date": "2025-10-15",
+        "text": "@GeminiApp Chia pet super hero! https://t.co/JxpEGMB4BU",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheBrackard",
+        "name": "The Brackard 𐱅𐰇𐰼𐰰",
+        "date": "2025-10-15",
+        "text": "@GeminiApp Sortez gemini 3.0 😭",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_Abdullah_44",
+        "name": "ABDULLAH AL-QAIDI 🇸🇦",
+        "date": "2025-10-15",
+        "text": "@GeminiApp Nice, that's truly good\n\nGemini, well done",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PrometheanAIX",
+        "name": "Promethean",
+        "date": "2025-10-15",
+        "text": "@GeminiApp Google Veo 3.1 🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FutureTrade123",
+        "name": "FutureTrade123",
+        "date": "2025-10-15",
+        "text": "@GeminiApp Sort our the resolution and size absolutely terrible lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GundiThore",
+        "name": "Thore Gundi",
+        "date": "2025-10-15",
+        "text": "@SaiNemani1 @GeminiApp It's only 3, lol so far most of my video prompts were fails, with only 3 attempts... I usually just close out, well at least I tried, guess I'll have to wait till tomorrow to try again",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lebointeractive",
+        "name": "lebointeractive",
+        "date": "2025-10-15",
+        "text": "@GeminiApp https://t.co/fQDMZEwya1",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Fugeddit",
+        "name": "Ai",
+        "date": "2025-10-15",
+        "text": "@GeminiApp https://t.co/dOIhaJ3yuu",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "paul_semivumbi",
+        "name": "SEMIVUMBI Paul",
+        "date": "2025-10-15",
+        "text": "@GeminiApp https://t.co/tBt4S3Wf6U",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chadTheSage0",
+        "name": "ChadTheSage",
+        "date": "2025-10-15",
+        "text": "@GeminiApp The extend feature is perfect. Thank you.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Scottm75",
+        "name": "Mr. Fedora",
+        "date": "2025-10-15",
+        "text": "@GeminiApp What is the max time generate of video clips?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jessinvibe",
+        "name": "Jessin Sam S",
+        "date": "2025-10-15",
+        "text": "@GeminiApp Just dropped: Veo 3.1 on https://t.co/fD1f5FZUhl\n\nTurn your words into stunning 8 -second videos with cinematic video - no skills needed. \n\nTry it now &amp; watch your ideas come to life! 🎥✨ https://t.co/ZNzsO9FcCy",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "maric_viktor",
+        "name": "Viktor Maric",
+        "date": "2025-10-15",
+        "text": "@GeminiApp give us 8+ sec vertical videos",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DanHeart1979",
+        "name": "Dan Heart 🇺🇸 𝕏 - Bitcoin n’Stuff",
+        "date": "2025-10-15",
+        "text": "@GeminiApp Good Stuff 👊",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DumitruLangham",
+        "name": "Dumitru Langham",
+        "date": "2025-10-15",
+        "text": "@GeminiApp Please explain what heck does this mean  I’d be happy to make that image for you in the Gemini app, where you can create more images and get the full experience!????????????",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "crypto_n_y_c",
+        "name": "CryptoCurrency.ɴʏᴄ",
+        "date": "2025-10-15",
+        "text": "@GeminiApp I’ve been using Veo 3 and absolutely love it the detail and movement feel so much more natural. Excited to try out 3.1!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ColonialHotTake",
+        "name": "Colonial Hot Takes",
+        "date": "2025-10-15",
+        "text": "@GeminiApp Love it https://t.co/GCamS7F7Yl",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0x69_NOISE",
+        "name": "NOISE",
+        "date": "2025-10-15",
+        "text": "@PatrikTrejtnar @GeminiApp @SaiNemani1 This many",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "douglas_deabra",
+        "name": "DG",
+        "date": "2025-10-15",
+        "text": "@GeminiApp Same shit.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "douglas_deabra",
+        "name": "DG",
+        "date": "2025-10-15",
+        "text": "@GeminiApp Tá a mesma merda.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GrumpyShadows",
+        "name": "Name",
+        "date": "2025-10-15",
+        "text": "@GeminiApp https://t.co/YdlOtnCyjB",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "XmbfZ",
+        "name": "あ",
+        "date": "2025-10-15",
+        "text": "@GeminiApp そんな事よりループ修正しろ。\n同じセリフばっかやねん",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "markstienth",
+        "name": "markstien",
+        "date": "2025-10-15",
+        "text": "@GeminiApp when is gemini 3?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GrumpyShadows",
+        "name": "Name",
+        "date": "2025-10-15",
+        "text": "@GeminiApp Created with veo 3.1 https://t.co/giuOgdw170",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
   }
 }

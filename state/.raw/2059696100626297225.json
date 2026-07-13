@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:10:42.252Z",
+  "tweetId": "2059696100626297225",
+  "post": {
+    "url": "https://x.com/opencode/status/2059696100626297225",
+    "author": {
+      "handle": "opencode",
+      "name": "OpenCode"
+    },
+    "date": "2026-05-27",
+    "text": "OpenCode x MiMo V2.5  -  Free for a limited time\n\n1M context • reasoning • text • image",
+    "thread": [
+      {
+        "id": "2059696100626297225",
+        "text": "OpenCode x MiMo V2.5  -  Free for a limited time\n\n1M context • reasoning • text • image"
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 4292,
+      "retweets": 239,
+      "replies": 154,
+      "views": 359497
+    },
+    "comments": []
+  }
+}

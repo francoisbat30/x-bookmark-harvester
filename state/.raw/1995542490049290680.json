@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:42.555Z",
+  "fetchedAt": "2026-07-13T06:50:40.853Z",
   "tweetId": "1995542490049290680",
   "post": {
     "url": "https://x.com/AmirMushich/status/1995542490049290680",
@@ -9,7 +10,25 @@
       "name": "AmirMušić"
     },
     "date": "2025-12-01",
-    "text": "Nano Banana prompt\n\nSwiss design geometric logo stylization\n\nPrompt below👇 https://t.co/5AMehVES3K",
+    "text": "Nano Banana prompt\n\nSwiss design geometric logo stylization\n\nPrompt below👇 https://t.co/5AMehVES3K\n\n👉 Prompt:\n(change [BRAND] and [COLOR])\n\n3D embossed glossy contour render of center-aligned [BRAND] on a flat surface, perfectly centered composition with ample negative space surrounding the object for a premium minimalist aesthetic. Monochromatic [COLOR] palette with soft tonal gradients. The object is defined by a raised, smooth, liquid-like glass bezel or chrome rim, creating a blind emboss effect where the interior matches the background. Matte surface finish with fine film grain or noise texture overlay. Soft diffuse lighting, strong specular highlights on the rounded edges, top-down view.\n\nSteal more of my branding prompts here:\n\nhttps://t.co/bjwy3qMMNp\n\nDon't pay for Nano Banana\n\nJust get my promo code &amp; generate for free\n\nGet it here:\n\nhttps://t.co/tneSMBr49Z",
+    "thread": [
+      {
+        "id": "1995542490049290680",
+        "text": "Nano Banana prompt\n\nSwiss design geometric logo stylization\n\nPrompt below👇 https://t.co/5AMehVES3K"
+      },
+      {
+        "id": "1995542493606101113",
+        "text": "👉 Prompt:\n(change [BRAND] and [COLOR])\n\n3D embossed glossy contour render of center-aligned [BRAND] on a flat surface, perfectly centered composition with ample negative space surrounding the object for a premium minimalist aesthetic. Monochromatic [COLOR] palette with soft tonal gradients. The object is defined by a raised, smooth, liquid-like glass bezel or chrome rim, creating a blind emboss effect where the interior matches the background. Matte surface finish with fine film grain or noise texture overlay. Soft diffuse lighting, strong specular highlights on the rounded edges, top-down view."
+      },
+      {
+        "id": "1995542496164675746",
+        "text": "Steal more of my branding prompts here:\n\nhttps://t.co/bjwy3qMMNp"
+      },
+      {
+        "id": "1995542498790281692",
+        "text": "Don't pay for Nano Banana\n\nJust get my promo code &amp; generate for free\n\nGet it here:\n\nhttps://t.co/tneSMBr49Z"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +36,819 @@
       }
     ],
     "metrics": {
-      "likes": 3728,
-      "retweets": 216,
+      "likes": 3732,
+      "retweets": 225,
       "replies": 50,
-      "views": 240919
+      "views": 243088
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "youraipulse",
+        "name": "AI Pulse",
+        "date": "2025-12-01",
+        "text": "@AmirMushich So cool! https://t.co/X28JyKeJeE",
+        "likes": 14,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CedricSwia33042",
+        "name": "swiatek cedric",
+        "date": "2025-12-01",
+        "text": "@AmirMushich grok https://t.co/thv5EMNpdB",
+        "likes": 12,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ScottHickle",
+        "name": "Scott Hickle - Poop Guy",
+        "date": "2025-12-02",
+        "text": "@AmirMushich Yeah this cooked. Love our @ThroneScience logo in this style. 🔥🔥 https://t.co/g4s7oHLEiL",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "QuentinSaubadu",
+        "name": "Quentin Saubadu",
+        "date": "2025-12-02",
+        "text": "@AmirMushich This is looking cool @Ryder_ID https://t.co/SjScHKpzn2",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "selballmer",
+        "name": "Selina",
+        "date": "2025-12-02",
+        "text": "@AmirMushich looking good, thanks for sharing!\n\nbtw, in case anyone's curious - first one is nano banana &amp; second one is nano banana pro (same prompt) https://t.co/sVx58xT9ir",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-01",
+        "text": "@youraipulse This Tommy thing is 💎🔥",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "KhadijahMomin",
+        "name": "Khadijah Momin",
+        "date": "2025-12-03",
+        "text": "@AmirMushich tried this jn for @heimlabs's logo. love the prompt! https://t.co/cr8NnfJbFo",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-02",
+        "text": "@ScottHickle @ThroneScience It’s absolutely fire!!",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mn_morris",
+        "name": "Average Joe",
+        "date": "2025-12-02",
+        "text": "@AmirMushich Very nice 👍🏻 https://t.co/TzivzEbFu6",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "andrearslanian",
+        "name": "André Arslanian",
+        "date": "2025-12-02",
+        "text": "@AmirMushich https://t.co/mbhWkb715O",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RituWithAI",
+        "name": "Rituraj",
+        "date": "2025-12-03",
+        "text": "@AmirMushich Amazing prompt",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-02",
+        "text": "@TomHarpointner Well, it’s different, but pretty decent https://t.co/4R8luGfe42",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-02",
+        "text": "@sebatheepan Thank you fam! \n\nEnjoy testing and don’t hesitate to share your creations 😇",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "azar770",
+        "name": "Azam G",
+        "date": "2025-12-02",
+        "text": "@AmirMushich 👌🏼 https://t.co/YIkjl16mUS",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Arminn_Ai",
+        "name": "ΛRMIN",
+        "date": "2025-12-02",
+        "text": "@AmirMushich Awesome work bro 🙌👌",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BigVoltageVogue",
+        "name": "Big Voltage Vogue ⚡️",
+        "date": "2025-12-02",
+        "text": "@AmirMushich Gemini ⚡⚡⚡ https://t.co/bYKWV8Hk4C",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sebatheepan",
+        "name": "Pan",
+        "date": "2025-12-02",
+        "text": "@AmirMushich clean prompt, saving this",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "domi_kissi",
+        "name": "Domi Kissi",
+        "date": "2025-12-02",
+        "text": "@AmirMushich Looks awesome!",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-01",
+        "text": "@kvixiossa Wow dude!",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-01",
+        "text": "@CedricSwia33042 Cool!",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "IqrasaifiAI",
+        "name": "Iqra Saifi",
+        "date": "2025-12-01",
+        "text": "@AmirMushich Thank you for the prompt amir ♥️",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FloNocode",
+        "name": "FLO - Creative Builder",
+        "date": "2026-03-14",
+        "text": "@AmirMushich Hey @AmirMushich  \n\nOn the left is your basic prompt and a big thank you. Behind it, I iterated a bit to get the desired result for my needs, which corresponds to the image on the right!\n\nYou're awesome, thanks! https://t.co/gcMa5tug0G",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shao",
+        "name": "shaoso",
+        "date": "2025-12-23",
+        "text": "@AmirMushich https://t.co/EJfrJCGtjD",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iPhShqip",
+        "name": "𝗶𝗦𝗛𝗤!𝗣 ツ 𝕏",
+        "date": "2025-12-22",
+        "text": "@AmirMushich Some here with Nano Banana Pro can help me to make all icon iOS Stock on this prompt please i make 3-5 icon by day take a lots of time to do all",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iPhShqip",
+        "name": "𝗶𝗦𝗛𝗤!𝗣 ツ 𝕏",
+        "date": "2025-12-17",
+        "text": "@AmirMushich I will try and send u can u open u dm or dm i will send privat please",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iPhShqip",
+        "name": "𝗶𝗦𝗛𝗤!𝗣 ツ 𝕏",
+        "date": "2025-12-17",
+        "text": "@AmirMushich Some time Banana Pro and when i don’t have use normal But the resultat is not same i  would like to creat icon pack with icon iOS some is good some no",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ai_promptstudio",
+        "name": "PiCSAR.Ai",
+        "date": "2025-12-17",
+        "text": "@AmirMushich https://t.co/PkHqPdnBlR",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "QualitativAi",
+        "name": "Aaron | QAI",
+        "date": "2025-12-04",
+        "text": "@AmirMushich wow these look incredible! First time I'm seeing this post!!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AkemyDesign",
+        "name": "Akem",
+        "date": "2025-12-03",
+        "text": "@AmirMushich So clean it's beautiful",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "abramsaltars",
+        "name": "abrams",
+        "date": "2025-12-03",
+        "text": "@AmirMushich Oh okay! Wow.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-03",
+        "text": "@Luiso_AIM Thank you Luiso!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-03",
+        "text": "@RituWithAI Thank you Rituraj’",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Luiso_AIM",
+        "name": "Luiso",
+        "date": "2025-12-03",
+        "text": "@AmirMushich amazing!!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "guicastellanos1",
+        "name": "Guillermo Castellanos",
+        "date": "2025-12-03",
+        "text": "@AmirMushich Amaaazing!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Rishibag02",
+        "name": "Rishi Bag",
+        "date": "2025-12-03",
+        "text": "@AmirMushich Awesome",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "madhoundes",
+        "name": "Ahmed Almadhoun",
+        "date": "2025-12-03",
+        "text": "@AmirMushich Prompt",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-02",
+        "text": "@domi_kissi Tysm Domi!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-02",
+        "text": "@Arminn_Ai Thank you Armin!\n\nDo we want more logo tests? 👀",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-02",
+        "text": "@Gdgtify Thanks dood!\n\nWhich brand is missing? 🤔",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gfxess",
+        "name": "GFXES",
+        "date": "2025-12-02",
+        "text": "@AmirMushich Really neat",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TomHarpointner",
+        "name": "Thomas Harpointner",
+        "date": "2025-12-02",
+        "text": "@AmirMushich Can this be done in Grok Imagine?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "swupel",
+        "name": "Swupel e.U.",
+        "date": "2025-12-02",
+        "text": "@AmirMushich Very cool visual",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pra3sh",
+        "name": "Prathish Kanchan",
+        "date": "2025-12-02",
+        "text": "@AmirMushich Wow😍👌",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-02",
+        "text": "@supaaleo Thanks for the question Ryo! \n\nThere are a lot of them (like Gemini app &amp; others)\n\nI use @LTXStudio mostly\n\nAnd you can use Nano Banana there for free (I’m giving 800 credits for free here)\n\nhttps://t.co/TXhed1rQtH",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_tom_mallett_",
+        "name": "Tom Mallett",
+        "date": "2025-12-02",
+        "text": "@AmirMushich This is so good. Using it",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ananyapatelik",
+        "name": "Ananya Patelik",
+        "date": "2025-12-02",
+        "text": "@AmirMushich Nano Banana. Never would have thought of that. The results are slick.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dev_oai",
+        "name": "Devesh Pal",
+        "date": "2025-12-02",
+        "text": "@AmirMushich It's wild how much 'nano banana' does for the stylization. Prompting is its own dark art.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Gdgtify",
+        "name": "Gadgetify",
+        "date": "2025-12-02",
+        "text": "@AmirMushich awesome!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MattPalmerc",
+        "name": "Matt Palmer",
+        "date": "2025-12-02",
+        "text": "@AmirMushich Clean. The intersection of generative AI and classic design principles is fascinating. Great prompt.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "langart3000_",
+        "name": "DJANG03000",
+        "date": "2025-12-02",
+        "text": "@AmirMushich @NanoBanana is probably the best ai tool for designers out rn",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "calcined_vector",
+        "name": "UI Pirate",
+        "date": "2025-12-02",
+        "text": "@AmirMushich super cool",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "reflareai",
+        "name": "reflare",
+        "date": "2025-12-02",
+        "text": "@AmirMushich I love glass textures!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bydiacreative",
+        "name": "Diana Nova",
+        "date": "2025-12-02",
+        "text": "@AmirMushich Looks super pleasant 😍",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "supaaleo",
+        "name": "Ryo",
+        "date": "2025-12-02",
+        "text": "@AmirMushich On what tool/platform did you use nano banana ? :) (noob here)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AirOneWan",
+        "name": "AirOneWan",
+        "date": "2025-12-01",
+        "text": "@AmirMushich 🫂",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-01",
+        "text": "@soltwagner Thank you Solt!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-01",
+        "text": "@AirOneWan Let me hug you brother 🫂\n\nThanks so much!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "soltwagner",
+        "name": "Solt Wagner",
+        "date": "2025-12-01",
+        "text": "@AmirMushich So cool 🫡",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AirOneWan",
+        "name": "AirOneWan",
+        "date": "2025-12-01",
+        "text": "@AmirMushich Once again, a great work Amir!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kvixiossa",
+        "name": "Kvixi Ossa",
+        "date": "2025-12-01",
+        "text": "@AmirMushich Nano banana characters baker from generator in 3 minutes https://t.co/BdxUtXN2RU",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-01",
+        "text": "@IqraSaifiii I hope you enjoyed it Iqra? 😇",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AtikoAE",
+        "name": "Atiko 💎",
+        "date": "2025-12-01",
+        "text": "@AmirMushich ✨🙌✨",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-01",
+        "text": "@AtikoAE Thanks for your vote sir!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AtikoAE",
+        "name": "Atiko 💎",
+        "date": "2025-12-01",
+        "text": "@AmirMushich All but I like PayPal logo🩵",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-01",
+        "text": "@nadalizade22242 Thank you Atiye!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-01",
+        "text": "@AtikoAE Thanks Atiko\n\nWhich one is your fav? 👀",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-01",
+        "text": "@LeilaArt97 Thank you so much Leila!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AtikoAE",
+        "name": "Atiko 💎",
+        "date": "2025-12-01",
+        "text": "@AmirMushich Superb 🔥🔥🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nadalizade22242",
+        "name": "Atiye Nadalizade",
+        "date": "2025-12-01",
+        "text": "@AmirMushich So great😊",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LeilaArt97",
+        "name": "Leila_art9",
+        "date": "2025-12-01",
+        "text": "@AmirMushich Beautiful ❤️💙",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Iwuchukwu_Chi",
+        "name": "Chibuikem Micheal",
+        "date": "2026-03-15",
+        "text": "@AmirMushich Another banging result https://t.co/OBqeXPaoFX",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mister_mahajan",
+        "name": "Anmol Mahajan",
+        "date": "2026-03-15",
+        "text": "@AmirMushich Works, wow https://t.co/GxyjgliWio",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-17",
+        "text": "@iPhShqip just DMed you my friendd",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-17",
+        "text": "@iPhShqip curious to see your examples\n\nThoughts:\n1. it's better to use NB Pro here\n2. It might be off sometimes (as any AI model) - but the prompt works usually (check the replies and QTs of this thread)\n3. which platform do you use to generate in NB?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-17",
+        "text": "@iPhShqip Do you use Nano Banana Pro?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-17",
+        "text": "@ai_promptstudio Awesome output dude!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iPhShqip",
+        "name": "𝗶𝗦𝗛𝗤!𝗣 ツ 𝕏",
+        "date": "2025-12-17",
+        "text": "@AmirMushich That prompt don’t work well like u i use Nano Banana and every time is not like u",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hugecoolcn",
+        "name": "huge",
+        "date": "2025-12-08",
+        "text": "@supaaleo @AmirMushich Free use is available here.\nhttps://t.co/K8lUjTtwV2",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "aymenabder83693",
+        "name": "shmurda",
+        "date": "2025-12-03",
+        "text": "@AmirMushich https://t.co/hUpvmchMNf",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "M_Mahdi_SY",
+        "name": "​🅼🅰🅷🅳🅸 مـهـدي",
+        "date": "2025-12-03",
+        "text": "@AmirMushich 🥰🥰🥰 https://t.co/JGCk7Ciqcj",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-03",
+        "text": "@guicastellanos1 Thank you brother 🫂",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-02",
+        "text": "@mn_morris My God!!!\n\nThis one is stunning 🤩",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-02",
+        "text": "@langart3000_ @NanoBanana Low key reminds me of a “new Photoshop”, really",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AmirMushich",
+        "name": "AmirMušić",
+        "date": "2025-12-02",
+        "text": "@reflareai Same! \n\nCurious which one is your fav here? 😇",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "pra3sh",
+        "name": "Prathish Kanchan",
+        "date": "2025-12-02",
+        "text": "@AmirMushich Wow😍👌",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1MINUTETIP",
+        "name": "ᴅʀ ᴛɪᴘ",
+        "date": "2025-12-02",
+        "text": "@andrearslanian @AmirMushich 🧼",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kvixiossa",
+        "name": "Kvixi Ossa",
+        "date": "2025-12-02",
+        "text": "@AmirMushich This is not prompt itself. This is parameters based application made in AI studio Google powered by Nana banana 2.5 and optionally 3. So you may adjust wide range of characters and styles and poses I made it for a quick build. https://t.co/RVXssdZIIg",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sunnylower",
+        "name": "SUNNYKILL",
+        "date": "2025-12-01",
+        "text": "@CedricSwia33042 @AmirMushich What’s The prompt for this bro ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "acobp",
+        "name": "aco999💫💎",
+        "date": "2025-12-01",
+        "text": "@AmirMushich ok? https://t.co/SS9ALZE5w1",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G7GW1EjWgAAgtWV.jpg",
+      "localFilename": "1995542490049290680_1.jpg"
+    }
+  ]
 }

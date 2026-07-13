@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:17.514Z",
+  "fetchedAt": "2026-07-12T17:19:58.761Z",
   "tweetId": "1966247880039276563",
   "post": {
     "url": "https://x.com/ItsMaclouis/status/1966247880039276563",
@@ -10,6 +11,12 @@
     },
     "date": "2025-09-11",
     "text": "color inspiration - #080\n\nThe 80th really calls for an appreciation. Thank you for loving these. https://t.co/NZRm0g8sUq",
+    "thread": [
+      {
+        "id": "1966247880039276563",
+        "text": "color inspiration - #080\n\nThe 80th really calls for an appreciation. Thank you for loving these. https://t.co/NZRm0g8sUq"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -21,11 +28,43 @@
       }
     ],
     "metrics": {
-      "likes": 2073,
-      "retweets": 119,
+      "likes": 2061,
+      "retweets": 118,
       "replies": 5,
-      "views": 53718
+      "views": 54157
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "kaiknox",
+        "name": "Kai Knox",
+        "date": "2025-09-12",
+        "text": "How do you make these?",
+        "likes": 1
+      },
+      {
+        "handle": "jahidshuvo525",
+        "name": "Zaid Shuvo",
+        "date": "2025-09-12",
+        "text": "well done",
+        "likes": 1
+      },
+      {
+        "handle": "tivordigital",
+        "name": "TD",
+        "date": "2025-09-12",
+        "text": "Love the color combo, definitely gonna try it",
+        "likes": 0
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G0ljOlvXwAA7-sT.jpg",
+      "localFilename": "1966247880039276563_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G0ljOlsXAAAagVq.jpg",
+      "localFilename": "1966247880039276563_2.jpg"
+    }
+  ]
 }

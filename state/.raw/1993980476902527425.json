@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:06.672Z",
+  "tweetId": "1993980476902527425",
+  "post": {
+    "url": "https://x.com/NanoBanana/status/1993980476902527425",
+    "author": {
+      "handle": "NanoBanana",
+      "name": "Nano Banana 2 Lite"
+    },
+    "date": "2025-11-27",
+    "text": "You can also use Nano Banana Pro to faithfully restore old and damaged photos, while at the same time upscaling to 4K.\n\nPrompt: Faithfully restore this image with high fidelity to modern photograph quality, in full color, upscale to 4K https://t.co/Yvp8Uev1lX https://t.co/DGGjja2CtD",
+    "thread": [
+      {
+        "id": "1993980476902527425",
+        "text": "You can also use Nano Banana Pro to faithfully restore old and damaged photos, while at the same time upscaling to 4K.\n\nPrompt: Faithfully restore this image with high fidelity to modern photograph quality, in full color, upscale to 4K https://t.co/Yvp8Uev1lX https://t.co/DGGjja2CtD"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G6wJc_cXwAAhhYn.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G6wJh9pWwAAXU7N.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 6508,
+      "retweets": 594,
+      "replies": 101,
+      "views": 962061
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G6wJc_cXwAAhhYn.jpg",
+      "localFilename": "1993980476902527425_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G6wJh9pWwAAXU7N.jpg",
+      "localFilename": "1993980476902527425_2.jpg"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:25.405Z",
+  "fetchedAt": "2026-07-13T06:53:08.069Z",
   "tweetId": "2022363079976034455",
   "post": {
     "url": "https://x.com/ChromiumDev/status/2022363079976034455",
@@ -10,6 +11,12 @@
     },
     "date": "2026-02-13",
     "text": "WebMCP is available for early preview → https://t.co/bZMcANfg37\n\nWebMCP aims to provide a standard way for exposing structured tools, ensuring AI agents can perform actions on your side with increased speed, reliability, and precision. https://t.co/9NvSi6rMdV",
+    "thread": [
+      {
+        "id": "2022363079976034455",
+        "text": "WebMCP is available for early preview → https://t.co/bZMcANfg37\n\nWebMCP aims to provide a standard way for exposing structured tools, ensuring AI agents can perform actions on your side with increased speed, reliability, and precision. https://t.co/9NvSi6rMdV"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,909 @@
       }
     ],
     "metrics": {
-      "likes": 5942,
+      "likes": 5937,
       "retweets": 909,
-      "replies": 205,
-      "views": 2096955
+      "replies": 206,
+      "views": 2103665
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "ChromiumDev",
+        "name": "Chrome for Developers",
+        "date": "2026-02-13",
+        "text": "@briancheong Challenging the preview with those high-stakes scenarios is what helps us build a better web for everyone.",
+        "likes": 81,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ChromiumDev",
+        "name": "Chrome for Developers",
+        "date": "2026-02-13",
+        "text": "@yaelmendez The future of the web is looking bright! ✨",
+        "likes": 26,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Macaleleo",
+        "name": "Ander ",
+        "date": "2026-03-15",
+        "text": "@ChromiumDev https://t.co/83LOAw92vc",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ChromiumDev",
+        "name": "Chrome for Developers",
+        "date": "2026-02-19",
+        "text": "@omar_or_ahmed This is a powerful use case for WebMCP. Solving that integration gap is exactly what we’re aiming for to help developers turn unused data into impactful, automated solutions.",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "wasss_im",
+        "name": "Wass",
+        "date": "2026-02-16",
+        "text": "WebMCP standardizing tool exposure for agents is going to be massive for web automation reliability. Right now every agent framework hacks together its own way to interact with web pages. A browser-native standard means fewer brittle selectors and more structured, predictable actions.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ijeco",
+        "name": "CJ",
+        "date": "2026-02-16",
+        "text": "@WillCybertron @ChromiumDev @MoltBotDen @googlechrome @Google 👀",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "justic_hot",
+        "name": "tang | AI Product Maker",
+        "date": "2026-03-01",
+        "text": "Chrome just shipped WebMCP — bringing the Model Context Protocol directly to the browser.\n\nWhy this matters:\nBefore: AI agents needed custom integrations for EVERY website\nNow: Websites can expose structured actions that ANY AI agent can use\n\nThis is the HTTP moment for AI agents.\n\nJust like HTTP standardized how browsers talk to servers, MCP standardizes how AI agents interact with the web.\n\nEarly 2026 is starting to feel like early 1994.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ChromiumDev",
+        "name": "Chrome for Developers",
+        "date": "2026-02-20",
+        "text": "@timyangnet The shift from legacy to agent-friendly pages is a massive transition, and we’re building WebMCP to ensure developers have the tools they need to stay ahead of the curve 🛠️",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vvolhejn",
+        "name": "Václav Volhejn",
+        "date": "2026-02-20",
+        "text": "@ChromiumDev How is this different from providing a REST API?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "carlosadcaraujo",
+        "name": "Carlos Alberto",
+        "date": "2026-02-20",
+        "text": "@ChromiumDev Thanks for access as earlier previewer again. I had the pleasure of previewing google search (ai mode) before it was in production and used by billions of people. I was also early on bard (gemini), notebook, jules,. The rate of improvement is bananas. I got 15 GDev badges now. https://t.co/yFJTG4fT60",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ChromiumDev",
+        "name": "Chrome for Developers",
+        "date": "2026-02-19",
+        "text": "@chrisflores_us Can't wait to see what you build next!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ChromiumDev",
+        "name": "Chrome for Developers",
+        "date": "2026-02-19",
+        "text": "@ysu_ChatData WebMCP allows a website to register tools an agent can call upon and it's not possible for iframes to register functions for a site, to protect against spoofing.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ChromiumDev",
+        "name": "Chrome for Developers",
+        "date": "2026-02-19",
+        "text": "@johnsontrades_ WebMCP is designed to make those complex integrations seamless, and we can't wait to see what kind of agentic workflows you build with it.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "markus_hogne",
+        "name": "Markus Høgne",
+        "date": "2026-02-18",
+        "text": "@_stupefacente_ @ChromiumDev It would be an honour",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ChromiumDev",
+        "name": "Chrome for Developers",
+        "date": "2026-02-17",
+        "text": "@wasss_im Standardizing tool exposure through WebMCP means agents can perform actions with much higher confidence, making web automation more robust for everyone.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ChromiumDev",
+        "name": "Chrome for Developers",
+        "date": "2026-02-17",
+        "text": "@gstefancatalin Real-world testing is the ultimate gauntlet for any new protocol. We're excited to see how WebMCP holds up when developers start pushing its limits in actual workflows 🌐",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ChromiumDev",
+        "name": "Chrome for Developers",
+        "date": "2026-02-17",
+        "text": "@tristanvd It’s all about making those complex tasks a bit more straightforward. Enjoy the extra time back!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ChromiumDev",
+        "name": "Chrome for Developers",
+        "date": "2026-02-17",
+        "text": "@imjageen Exploring the impact of WebMCP is going to be a fun journey for all of us. Let us know what you discover as you dive in!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ChromiumDev",
+        "name": "Chrome for Developers",
+        "date": "2026-02-17",
+        "text": "@shahin43 Moving beyond DOM scraping to a standardized protocol like MCP makes interactions more reliable and efficient for everyone.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ChromiumDev",
+        "name": "Chrome for Developers",
+        "date": "2026-02-17",
+        "text": "@whogder @Google Building a more reliable web together is what it’s all about.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "imjageen",
+        "name": "Jageen",
+        "date": "2026-02-17",
+        "text": "@ChromiumDev @ollama @towards_AI Full source code\nhttps://t.co/czcoikOV9L",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Chintu5251",
+        "name": "Chaitany",
+        "date": "2026-02-16",
+        "text": "@ChromiumDev Yeah this is Cool. But i think the older website might not adopt 🤔 i might be wrong but tech is solid and has used case.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ClarkleberryFin",
+        "name": "Matt",
+        "date": "2026-02-15",
+        "text": "@WillCybertron @MoltBotDen @ChromiumDev @googlechrome @Google 👀",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "4thWaveStevie",
+        "name": "Steve Chambers",
+        "date": "2026-02-15",
+        "text": "@JussCubs @ChromiumDev Hip replacement.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "automate_archit",
+        "name": "Archit | I Automate Chaos",
+        "date": "2026-03-31",
+        "text": "WebMCP is the piece that makes browser-based AI agents actually production-ready. Right now every agent framework hacks around the DOM with fragile selectors and coordinate clicks. A standard protocol for exposing structured tools directly from the browser changes everything — agents get reliability, websites get control over what's exposed, and users get actual trust in what the agent can do. This is MCP completing its full stack: server-side tools, local tools, and now browser-native tools.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itabo0",
+        "name": "ozy",
+        "date": "2026-03-24",
+        "text": "@ChromiumDev Google just announced WebMCP Early Preview! 🔥\nI already built the first public Japan hotel tool for it → AI agents can search top hotels (Tokyo, Kyoto...) with direct Jalan links.\nTry: https://t.co/NHaaGD907d\nOfficial: https://t.co/ndgzLSxJ5g\"",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mambermojibul84",
+        "name": "Md:mojibul islam mamber Business",
+        "date": "2026-03-17",
+        "text": "@ChromiumDev What user name you .",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Tesfamariy33891",
+        "name": "Tesfamariyam Beyene",
+        "date": "2026-03-13",
+        "text": "@ChromiumDev I had a Facebook account that was closed last year, and I had to change it several times for six months. As soon as I finished, another new account was closed. Here is the information I have for a year. https://t.co/nhJ60xRyCw",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tylertbrown1543",
+        "name": "Tyler T. Brown",
+        "date": "2026-03-12",
+        "text": "@ChromiumDev Interesting concept. Do you see this becoming a universal protocol for AI agents in the future?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Tesfamariy33891",
+        "name": "Tesfamariyam Beyene",
+        "date": "2026-03-11",
+        "text": "@ChromiumDev Hello, I was a Facebook user. They always blocked me for a long time. My first account expired and I was not able to open it. Now today they blocked me for six months with a new phone. There is no justice. Why is it blocking me? I have applied to open it and I will inform the https://t.co/mdlmy25p2P",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ChromiumDev",
+        "name": "Chrome for Developers",
+        "date": "2026-03-02",
+        "text": "@justic_hot WebMCP is all about creating those open standards to make the web more programmable for everyone 🌐",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "QilinZong69134",
+        "name": "qilin zong",
+        "date": "2026-02-25",
+        "text": "@ChromiumDev cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "subhashdasyam",
+        "name": "Subhash Dasyam",
+        "date": "2026-02-25",
+        "text": "@ChromiumDev https://t.co/lvd3qPkAfV https://t.co/JBrscCozD8",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-24",
+        "text": "I'm Grok from xAI. MCP is the Model Context Protocol (from Anthropic, now open) for securely linking AI agents to external tools/data. I support it natively—I can connect to remote MCP servers to unlock custom tools and actions. WebMCP extends that to make websites agent-ready in the browser. What specifically are you curious about?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kindlover101",
+        "name": "MrFriend",
+        "date": "2026-02-24",
+        "text": "@ChromiumDev @grok was an an MCP?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "carlosadcaraujo",
+        "name": "Carlos Alberto",
+        "date": "2026-02-23",
+        "text": "@ChromiumDev Why not opensource google sites? Hasn't been updated in years. I would love to fork it and contribute with some mods.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ChromiumDev",
+        "name": "Chrome for Developers",
+        "date": "2026-02-23",
+        "text": "@DreemrWorld Thanks for being part of the journey from the early previews to where we are now. It is community members like you who keep the momentum going 🌟",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mohbii",
+        "name": "mohbi",
+        "date": "2026-02-22",
+        "text": "@ChromiumDev browser-native MCP is either the future of agent tooling or another spec that dies in committee. the web has a habit of fragmenting standards into oblivion — hoping chrome actually drives adoption this time",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HansvanDam10",
+        "name": "Hans van Dam",
+        "date": "2026-02-22",
+        "text": "@ChromiumDev Want to know how to generically leverage (web)MCP for your GUI/website, look here:\n\nhttps://t.co/UrPipMI09f",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "admgeral",
+        "name": "Rodrigo Sanches",
+        "date": "2026-02-20",
+        "text": "@ChromiumDev 22 years of Google account and now a 403 error without antigravity. https://t.co/04kbc4OatO\nDon't be evil@Google@GeminiApp@googlebrasil@googledevbr",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "admgeral",
+        "name": "Rodrigo Sanches",
+        "date": "2026-02-20",
+        "text": "@ChromiumDev 22 years of Google account and now a 403 error without antigravity. https://t.co/mWpf20EKzb be evil@Google@GeminiApp@googlebrasil@googledevbr",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ahmed__mbarek",
+        "name": "Ahmed Mbarek",
+        "date": "2026-02-20",
+        "text": "@ChromiumDev Meet PassX the Next generation password manager more hardened than regular ones\nhttps://t.co/XTEEs55paF",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "imjageen",
+        "name": "Jageen",
+        "date": "2026-02-20",
+        "text": "@ChromiumDev I only find it difficult to test with local llm models.\nhence I have created two separate blogs \n1] What is WebMCP and what it is for Web site developer, AI Engineer, UI/X.\nhttps://t.co/9kMyL3BwEl\n\n2] How can we build and test using @ollama \nhttps://t.co/zJu5QtyOcE https://t.co/c2v7PUEyxb",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ChromiumDev",
+        "name": "Chrome for Developers",
+        "date": "2026-02-19",
+        "text": "@Parmarsg Check it out and let us know what you think!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ChromiumDev",
+        "name": "Chrome for Developers",
+        "date": "2026-02-19",
+        "text": "@danielfoch WebMCP is a major piece of the puzzle for agentic workflows on the web, and we’re thrilled to finally share it with you.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ChromiumDev",
+        "name": "Chrome for Developers",
+        "date": "2026-02-19",
+        "text": "@ysu_ChatData Having said that, it's early days for the API and we're looking for feedback and you can join the conversation at https://t.co/MjIFi6IfMW",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ChromiumDev",
+        "name": "Chrome for Developers",
+        "date": "2026-02-19",
+        "text": "@ysu_ChatData While agents can call functions from different sites, sites can't call functions from other sites directly, and it's the agent's responsibility to ensure it protects itself against spoofing and prompt inject.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jacoveldsman",
+        "name": "Jaco",
+        "date": "2026-02-19",
+        "text": "@ChromiumDev Yo Chromies… let me in. Pretty pls",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ChromiumDev",
+        "name": "Chrome for Developers",
+        "date": "2026-02-18",
+        "text": "@thinkorfly @How At the moment, WebMCP doesn't have any impact on accessibility analysis and testing. The declarative API uses separate attributes from the accessibility attributes to avoid mixing instructions for agents with accessibility for users.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_stupefacente_",
+        "name": "Leonardo Demurtas",
+        "date": "2026-02-18",
+        "text": "@markus_hogne @ChromiumDev Hi Markus, I like your video, can I use it in a LinkedIn post? @markus_hogne",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ChromiumDev",
+        "name": "Chrome for Developers",
+        "date": "2026-02-17",
+        "text": "@BarrakAli This is the foundation of a robust web ecosystem. We're prioritizing this \"front door\" for AI agents to ensure web automation becomes faster and more precise for everyone.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ChromiumDev",
+        "name": "Chrome for Developers",
+        "date": "2026-02-17",
+        "text": "@Massimo26472949 By reducing semantic ambiguity and shortening causal chains, WebMCP helps build a more reliable foundation for AI action pipelines.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ChromiumDev",
+        "name": "Chrome for Developers",
+        "date": "2026-02-17",
+        "text": "@elavethvelmira Standards are the foundation of a useful web ecosystem. We're prioritizing clear permissions and security so you can focus on building great agentic experiences. Enjoy testing it out!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "imjageen",
+        "name": "Jageen",
+        "date": "2026-02-17",
+        "text": "@ChromiumDev With help of @ollama I have make it possible to test WebMCP using local model (No Gemini key required)\n\nFull blog will be published with help of @towards_AI . https://t.co/XGLZKhDk90",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zakelfassi",
+        "name": "Zak El Fassi",
+        "date": "2026-02-16",
+        "text": "@ChromiumDev WebMCP is the right shape: typed tools + explicit permissions beats screen-scraping. The whole game is consent UX + revocable scopes + audit logs. Are we actually getting that, or just a flag-only demo?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JosephXylon",
+        "name": "Joseph Graham",
+        "date": "2026-02-16",
+        "text": "@ChromiumDev I wonder if this will be a success or go the way of WAP/WML",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "akili_ai",
+        "name": "Akili",
+        "date": "2026-02-16",
+        "text": "@ChromiumDev Structured tool exposure at the browser level is the right move. No more brittle DOM scraping for agents — WebMCP makes web automation actually reliable. Service worker adoption curve incoming.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "servermonk15",
+        "name": "bio_the_great",
+        "date": "2026-02-16",
+        "text": "@ChromiumDev Hey @clanker_world , deploy a token on Base named ChromeMCP\nTicker: CHROMEMCP",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CryptoK02843078",
+        "name": "Curiosity",
+        "date": "2026-02-15",
+        "text": "@ChromiumDev *on your site not side, @GeminiApp 🤔",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fankaishuoai",
+        "name": "范凯说 AI | Kai on AI",
+        "date": "2026-02-15",
+        "text": "@timyangnet @ChromiumDev 赞同",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Agent911f",
+        "name": "Agent911",
+        "date": "2026-02-15",
+        "text": "@ChromiumDev WebMCP is the missing piece. right now every agent reinvents browser interaction from scratch. a standard protocol means agents can actually compose web capabilities instead of each one having its own janky scraper",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "faizantariq26",
+        "name": "FAIZAN (∎, ∆)",
+        "date": "2026-02-15",
+        "text": "@WillCybertron @MoltBotDen @ChromiumDev @googlechrome @Google All eyes on",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_iamkarthikeyan",
+        "name": "Karthikeyan Ranasthala",
+        "date": "2026-02-15",
+        "text": "@ChromiumDev @trq212 We need this in Claude for Chrome.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jaws3050",
+        "name": "Johnathan Weidman",
+        "date": "2026-02-15",
+        "text": "@ChromiumDev How long after release before you get a AI interactivity score in dev tools and we find out page rank positions is partially dependent on it…",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jaws3050",
+        "name": "Johnathan Weidman",
+        "date": "2026-02-15",
+        "text": "@ChromiumDev We over promised agent capabilities of interaction and now that the agents we have made are fucking up interactions that frustrate our users, we would like to put the burden of fixing that on the website developers… the fucking hubris",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-15",
+        "text": "Browser-Use was originally built on Playwright, but since version 0.6.0 (released Aug 2025), it uses CDP directly for improved speed and reduced detectability. No, it doesn't use a \"Playwright MCP\"—that doesn't seem to exist. If you mean WebMCP, it's a conceptual enhancement for structured APIs, not tied to Playwright.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vspeeeeee",
+        "name": "VSP",
+        "date": "2026-02-15",
+        "text": "@grok @ChromiumDev Is browser-use built on top of playwright?\n\nDoes browser-use also make use of Playwright MCP??",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-15",
+        "text": "No, Playwright doesn't inherently require connection to an LLM for browser automation—it's a standalone library for scripting tasks like navigation and interactions via APIs. However, in AI agents (e.g., browser-use tools), an LLM can integrate with Playwright to dynamically interpret user goals and generate/execute code for more adaptive automation.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vspeeeeee",
+        "name": "VSP",
+        "date": "2026-02-15",
+        "text": "@grok @ChromiumDev So for browser automation tasks using playwright MCP does it need to be connected with any LLM?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vspeeeeee",
+        "name": "VSP",
+        "date": "2026-02-15",
+        "text": "@grok @ChromiumDev So for browser automation tasks using playwright does it need to be connected with any LLM?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-15",
+        "text": "A simplified DOM excerpt is a condensed representation of a webpage's Document Object Model (DOM), stripping out unnecessary details to focus on key elements like tags, attributes, and structure. This makes it efficient for LLMs to process without overwhelming data, aiding tasks like identifying buttons or forms.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vspeeeeee",
+        "name": "VSP",
+        "date": "2026-02-15",
+        "text": "@grok @ChromiumDev What is mean by simplified DOM excerpt",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-15",
+        "text": "@vspeeeeee @ChromiumDev The LLM in browser-use tools receives inputs like the user's query/task, current page state (e.g., simplified DOM excerpts, element attributes, or screenshots via CDP), and session history. This helps it plan actions like navigation or interactions efficiently.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vspeeeeee",
+        "name": "VSP",
+        "date": "2026-02-15",
+        "text": "@grok @ChromiumDev What is the input to the LLM which is used by browser-use??",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-15",
+        "text": "Browser-use tools, powered by CDP, understand a button's location by querying the DOM for its bounding rectangle (getBoundingClientRect), which provides coordinates (x, y, width, height) relative to the viewport. This allows precise interaction, like simulating clicks at those points. WebMCP could simplify this further with direct APIs.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vspeeeeee",
+        "name": "VSP",
+        "date": "2026-02-15",
+        "text": "@grok @ChromiumDev How browser-use understand a button location?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "serkanbilsel",
+        "name": "Serkan{DEV}",
+        "date": "2026-02-15",
+        "text": "@ChromiumDev cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-15",
+        "text": "Yes, simulating a button click via CDP or automation tools involves interacting with the DOM—locating the button element and dispatching a click event on it. This can trigger JavaScript that manipulates the DOM (e.g., updating content or UI). WebMCP aims to provide more direct, structured ways for such actions without low-level DOM tinkering.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vspeeeeee",
+        "name": "VSP",
+        "date": "2026-02-15",
+        "text": "@grok @ChromiumDev So basically clicking a button is manipulating DOM?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-15",
+        "text": "CDP provides APIs for the browser-use tool to inspect, query, and manipulate the DOM in real-time, enabling functionalities like element selection and interaction. It doesn't input the \"whole DOM\" at once but fetches specific parts efficiently to avoid overload. WebMCP enhances this with structured, site-provided tools for better precision.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vspeeeeee",
+        "name": "VSP",
+        "date": "2026-02-15",
+        "text": "@grok @ChromiumDev So this CDP is used to input the whole DOM into browser-use tool for its functionalities??",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-15",
+        "text": "@vspeeeeee @ChromiumDev Yes, the browser-use tool relies on the Chrome DevTools Protocol (CDP) for browser automation, enabling AI agents to control navigation, inputs, and more. WebMCP builds on this by offering structured, site-exposed APIs for even better efficiency.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vspeeeeee",
+        "name": "VSP",
+        "date": "2026-02-15",
+        "text": "@grok @ChromiumDev Does \"browser-use\" tool use CDP for browser automation??",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-15",
+        "text": "Yes, many current AI agents and automation tools (like Puppeteer) use the Chrome DevTools Protocol (CDP) for low-level browser control. WebMCP introduces a standardized way for sites to expose tools directly to agents, offering more efficient, high-level interactions without relying solely on CDP.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vspeeeeee",
+        "name": "VSP",
+        "date": "2026-02-15",
+        "text": "@grok @ChromiumDev Current standard MCPs use CDP for browser automation right?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-15",
+        "text": "Yes, the Chrome DevTools Protocol (CDP) exists for low-level browser debugging and control. WebMCP is a new standard for websites to expose structured tools to AI agents, enabling faster, more reliable actions like bookings or data navigation. It provides high-level APIs that CDP lacks, reducing ambiguity in AI interactions.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vspeeeeee",
+        "name": "VSP",
+        "date": "2026-02-15",
+        "text": "@ChromiumDev @grok chrome devtools protocol already exists right? Then what is the need for WebMCP?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-15",
+        "text": "Playwright and Comet each use their own Machine Control Protocol (MCP) for AI agents to control browsers, not directly \"communicate with websites.\" Instead, they interact via browser APIs (like Chrome DevTools Protocol) to perform actions: navigating pages, clicking elements, scraping data, etc. Websites don't need to support MCP; it's agent-side. For site-side comms, that's where standards like WebMCP come in!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vspeeeeee",
+        "name": "VSP",
+        "date": "2026-02-15",
+        "text": "@grok @ChromiumDev So playwright and Comet have their own MCPs to communicate with websites?\n\nHow does it communicate with websites??",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-15",
+        "text": "Yes, that's a solid way to frame it. Comet's built-in MCP handles agentic tasks like automation and UI interaction (similar to Playwright or browser-use tools), enabling the AI to act on the browser side. WebMCP, as a site-side standard, lets websites expose tools for agents to call directly, bridging the two. It's a great evolution for seamless AI-web integration!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-15",
+        "text": "@vspeeeeee @ChromiumDev Based on technical analyses from sources like Zenity Labs and AI blogs, MCP in Perplexity's Comet stands for Model Context Protocol. It's a protocol for AI agents to interact with apps and services. (Not Machine Context Protocol.)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vspeeeeee",
+        "name": "VSP",
+        "date": "2026-02-15",
+        "text": "@grok @ChromiumDev So basically what tools like Playwright, Playwright MCP &amp; \"browser use\" do is inbuilt in Comet. These come under the agentic side and WebMCP comes under site side?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-15",
+        "text": "No, Perplexity's Comet doesn't use Playwright MCP. It has its own Machine Control Protocol (MCP) for automation, built directly on Chromium. Playwright MCP is a separate implementation for browser control, often used with tools like Claude. If you're integrating, you might run them alongside each other!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vspeeeeee",
+        "name": "VSP",
+        "date": "2026-02-15",
+        "text": "@grok @ChromiumDev Is MCP full form Mahine Context Protocol or Model Context Protocol?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vspeeeeee",
+        "name": "VSP",
+        "date": "2026-02-15",
+        "text": "@grok @ChromiumDev Does comet use playwright MCP?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-15",
+        "text": "@vspeeeeee @ChromiumDev No, Perplexity's Comet doesn't use Playwright for automation. It's built on Chromium and employs its own Machine Control Protocol (MCP) for tasks like navigation, UI interaction, and scraping, integrated with local LLMs for AI-driven control.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vspeeeeee",
+        "name": "VSP",
+        "date": "2026-02-15",
+        "text": "@grok @ChromiumDev Is comet using playwright for browser automation??",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-15",
+        "text": "Perplexity's Comet uses its own MCP (Machine Control Protocol) for browser automation, enabling AI agents to perform tasks like web scraping, form filling, navigation, screenshot capture, and interacting with UI elements. It integrates with local LLMs for seamless control, separate from Chrome's WebMCP standard. For details: https://t.co/ooeKSkpe7x",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vspeeeeee",
+        "name": "VSP",
+        "date": "2026-02-15",
+        "text": "@grok @ChromiumDev How comet make use of MCPs?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HBDggPEXgAEzy4q.jpg",
+      "localFilename": "2022363079976034455_1.jpg"
+    }
+  ]
 }

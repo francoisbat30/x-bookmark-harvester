@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:12:41.040Z",
+  "tweetId": "2034247165829431392",
+  "post": {
+    "url": "https://x.com/techxutkarsh/status/2034247165829431392",
+    "author": {
+      "handle": "techxutkarsh",
+      "name": "Utkarsh Sharma"
+    },
+    "date": "2026-03-18",
+    "text": "Instead of watching a netflix movie, watch this masterclass on OpenClaw for TradingView to upgrade your trading game\n https://t.co/1PtuWWn7wC",
+    "thread": [
+      {
+        "id": "2034247165829431392",
+        "text": "Instead of watching a netflix movie, watch this masterclass on OpenClaw for TradingView to upgrade your trading game\n https://t.co/1PtuWWn7wC"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2020921147840413696/vid/avc1/1920x1080/KNUTc7d-4AAojHML.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2020921147840413696/img/mh1LSHkH3tR4YJF9.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1418,
+      "retweets": 249,
+      "replies": 16,
+      "views": 166743
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2020921147840413696/img/mh1LSHkH3tR4YJF9.jpg",
+      "localFilename": "2034247165829431392_1_poster.jpg"
+    }
+  ]
+}

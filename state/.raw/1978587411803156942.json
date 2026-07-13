@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:14:41.575Z",
+  "tweetId": "1978587411803156942",
+  "post": {
+    "url": "https://x.com/AskPerplexity/status/1978587411803156942",
+    "author": {
+      "handle": "AskPerplexity",
+      "name": "Computer"
+    },
+    "date": "2025-10-15",
+    "text": "Oxford researchers just confirmed what we feared:\n\nThe internet as we knew it is dying.\n\nAI content went from ~5% in 2020 to 48% by May 2025. Projections say 90%+ by next year.\nWhy? AI articles cost <$0.01. Human writers cost $10-100.\n\nBut the real crisis is model collapse. When AI trains on AI-generated content, quality degrades like photocopying a photocopy. Rare ideas disappear. Everything converges to generic sameness.\n\nIt's recursive. Today's AI slop becomes tomorrow's training data, producing worse output, which becomes training data again.",
+    "thread": [
+      {
+        "id": "1978587411803156942",
+        "text": "Oxford researchers just confirmed what we feared:\n\nThe internet as we knew it is dying.\n\nAI content went from ~5% in 2020 to 48% by May 2025. Projections say 90%+ by next year.\nWhy? AI articles cost <$0.01. Human writers cost $10-100.\n\nBut the real crisis is model collapse. When AI trains on AI-generated content, quality degrades like photocopying a photocopy. Rare ideas disappear. Everything converges to generic sameness.\n\nIt's recursive. Today's AI slop becomes tomorrow's training data, producing worse output, which becomes training data again."
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3VaoKJWgAAEaI2.png"
+      }
+    ],
+    "metrics": {
+      "likes": 11823,
+      "retweets": 2761,
+      "replies": 693,
+      "views": 1513533
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3VaoKJWgAAEaI2.png",
+      "localFilename": "1978587411803156942_1.png"
+    }
+  ]
+}

@@ -42,7 +42,8 @@ export async function fetchGrokInsights(
 ): Promise<GrokInsights> {
   const data = await callResponses({
     apiKey: options.apiKey,
-    model: options.model ?? "grok-4",
+    // grok-4 retiré le 15/05/2026 — épinglage explicite (cf. grok-extract.ts).
+    model: options.model ?? "grok-4.3",
     instructions: INSTRUCTIONS,
     input: `Analyze this X post and its comment thread: ${url}\n\nReturn ONLY the JSON object described in the instructions.`,
   });

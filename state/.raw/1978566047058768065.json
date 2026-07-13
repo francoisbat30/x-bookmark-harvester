@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:14:49.553Z",
+  "tweetId": "1978566047058768065",
+  "post": {
+    "url": "https://x.com/unusual_whales/status/1978566047058768065",
+    "author": {
+      "handle": "unusual_whales",
+      "name": "unusual_whales"
+    },
+    "date": "2025-10-15",
+    "text": "AI and automation could eliminate nearly 100 million jobs in the US over the next decade, per a Senate report.",
+    "thread": [
+      {
+        "id": "1978566047058768065",
+        "text": "AI and automation could eliminate nearly 100 million jobs in the US over the next decade, per a Senate report."
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 3627,
+      "retweets": 557,
+      "replies": 537,
+      "views": 632841
+    },
+    "comments": []
+  }
+}

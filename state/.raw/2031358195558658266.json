@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:04.826Z",
+  "fetchedAt": "2026-07-13T07:08:28.719Z",
   "tweetId": "2031358195558658266",
   "post": {
     "url": "https://x.com/tangming2005/status/2031358195558658266",
@@ -9,14 +10,952 @@
       "name": "Ming \"Tommy\" Tang"
     },
     "date": "2026-03-10",
-    "text": "Single biggest improvement I made to my CLAUDE.md:\n\n\"When I report a bug, don't start by trying to fix it. Instead, start by writing a test that reproduces the bug. Then, have subagents try to fix the bug and prove it with a passing test.\"",
+    "text": "Single biggest improvement I made to my CLAUDE.md:\n\n\"When I report a bug, don't start by trying to fix it. Instead, start by writing a test that reproduces the bug. Then, have subagents try to fix the bug and prove it with a passing test.\"\n\n1/ Most developers (and AI agents) see a bug and immediately start hacking at the code.\n\nThat's backwards.\n\nYou're guessing at the fix before you even understand the failure.\n\n2/ Here's what happens when you let Claude Code jump straight to fixing:\n\n- It changes 3 files\n- The bug looks fixed\n- You ship it\n- A week later the same bug is back, slightly different\n\nSound familiar?\n\n3/ The test-first approach forces a different workflow:\n\nStep 1: Write a test that fails exactly the way the bug fails\nStep 2: Now you have a precise definition of the problem\nStep 3: Subagents work on fixes in parallel\nStep 4: The fix isn't done until the test passes\n\n4/ Why subagents?\n\nBecause once you have a failing test, the fix becomes an embarrassingly parallel problem.\n\nSpin up 3 subagents. Each tries a different approach. The one that makes the test green wins.\n\nNo more serial guess-and-check.\n\n5/ The failing test also acts as a guard rail.\n\nSubagents can't claim they fixed it. The test either passes or it doesn't. No hand-waving. No \"I think this should work.\"\n\n6/ Add this to your CLAUDE.md or AGENTS.md today:\n\n\"When I report a bug, don't start by trying to fix it. Instead, start by writing a test that reproduces the bug. Then, have subagents try to fix the bug and prove it with a passing test.\"\n\nOne sentence. Massive behavior change.\n\n7/ This works because it shifts the AI from \"creative problem solver\" mode to \"engineer who writes proof\" mode.\n\nThe constraint of a failing test eliminates the most common failure mode: fixing the wrong thing.\n\n8/ Follow me for more Claude Code workflows.\n\nSubscribe to my FREE newsletter chatomics.\n\nI hope you've found this post helpful.\n\nFollow me for more.\n\nSubscribe to my FREE newsletter chatomics to learn bioinformatics https://t.co/d3LmEXFbWM https://t.co/G3AlTEgF4g",
+    "thread": [
+      {
+        "id": "2031358195558658266",
+        "text": "Single biggest improvement I made to my CLAUDE.md:\n\n\"When I report a bug, don't start by trying to fix it. Instead, start by writing a test that reproduces the bug. Then, have subagents try to fix the bug and prove it with a passing test.\""
+      },
+      {
+        "id": "2031358207512498383",
+        "text": "1/ Most developers (and AI agents) see a bug and immediately start hacking at the code.\n\nThat's backwards.\n\nYou're guessing at the fix before you even understand the failure."
+      },
+      {
+        "id": "2031358219537494198",
+        "text": "2/ Here's what happens when you let Claude Code jump straight to fixing:\n\n- It changes 3 files\n- The bug looks fixed\n- You ship it\n- A week later the same bug is back, slightly different\n\nSound familiar?"
+      },
+      {
+        "id": "2031358231340265676",
+        "text": "3/ The test-first approach forces a different workflow:\n\nStep 1: Write a test that fails exactly the way the bug fails\nStep 2: Now you have a precise definition of the problem\nStep 3: Subagents work on fixes in parallel\nStep 4: The fix isn't done until the test passes"
+      },
+      {
+        "id": "2031358243323392018",
+        "text": "4/ Why subagents?\n\nBecause once you have a failing test, the fix becomes an embarrassingly parallel problem.\n\nSpin up 3 subagents. Each tries a different approach. The one that makes the test green wins.\n\nNo more serial guess-and-check."
+      },
+      {
+        "id": "2031358255180689889",
+        "text": "5/ The failing test also acts as a guard rail.\n\nSubagents can't claim they fixed it. The test either passes or it doesn't. No hand-waving. No \"I think this should work.\""
+      },
+      {
+        "id": "2031358267100905640",
+        "text": "6/ Add this to your CLAUDE.md or AGENTS.md today:\n\n\"When I report a bug, don't start by trying to fix it. Instead, start by writing a test that reproduces the bug. Then, have subagents try to fix the bug and prove it with a passing test.\""
+      },
+      {
+        "id": "2031358278949880136",
+        "text": "One sentence. Massive behavior change."
+      },
+      {
+        "id": "2031358290614169611",
+        "text": "7/ This works because it shifts the AI from \"creative problem solver\" mode to \"engineer who writes proof\" mode.\n\nThe constraint of a failing test eliminates the most common failure mode: fixing the wrong thing."
+      },
+      {
+        "id": "2031358302433706095",
+        "text": "8/ Follow me for more Claude Code workflows.\n\nSubscribe to my FREE newsletter chatomics."
+      },
+      {
+        "id": "2031358314198733162",
+        "text": "I hope you've found this post helpful.\n\nFollow me for more.\n\nSubscribe to my FREE newsletter chatomics to learn bioinformatics https://t.co/d3LmEXFbWM https://t.co/G3AlTEgF4g"
+      }
+    ],
     "media": [],
     "metrics": {
-      "likes": 12828,
-      "retweets": 514,
-      "replies": 133,
-      "views": 585764
+      "likes": 12723,
+      "retweets": 511,
+      "replies": 131,
+      "views": 590717
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "LoffredoNoah",
+        "name": "Noah Loffredo",
+        "date": "2026-03-11",
+        "text": "@tangming2005 🤦🏻‍♂️ copy paste slop https://t.co/GFq64CSGKV",
+        "likes": 39,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lochieashcroft",
+        "name": "Lochie Ashcroft",
+        "date": "2026-03-11",
+        "text": "@tangming2005 So TDD? Applying \"traditional\" Software Engineering practises usually lead to AI having good results in general, use them as back pressure.\n\nI'm expecting many people will come up with ideas for their agents that are actually older well understood concepts.",
+        "likes": 17,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "adamnemecek1",
+        "name": "comonoidal esotericist 🇨🇿🇪🇺🇺🇸🦀",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Similarly don’t implement feature, have Claude write spec and subagent implement it.",
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tuanhaih2u",
+        "name": "Mai Tuan Hai | Baron Heritage",
+        "date": "2026-03-11",
+        "text": "@tangming2005 This is the shift from “AI that writes code” to “AI that works like engineering.” \n\nReproducing the bug first turns fixing into a system, not a guess.",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xrhota",
+        "name": "Doug Millett 🪴",
+        "date": "2026-03-11",
+        "text": "@tangming2005 why not just add this as a skill so you’re not polluting context on non-bugfixing tasks?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-11",
+        "text": "Yes, that's solid and real advice. Reproducing bugs via a failing test first (then fixing + verifying) is straight from TDD best practices. Applying it to Claude agents/subagents makes debugging way more reliable and cuts hallucinated \"fixes.\" Smart upgrade for any LLM coding setup.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "paulgwalsh",
+        "name": "Paul Walsh",
+        "date": "2026-03-12",
+        "text": "@tangming2005 Another one I found very useful is to provide real data to backup bug detail in the form of CSV dumps from database or json traces from Grafana. Much better context than written prompt explanations",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "antranapp",
+        "name": "An Tran",
+        "date": "2026-03-12",
+        "text": "@tangming2005 you can use https://t.co/LyB7tmmSCe . It enables TDD by default",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xkaladin",
+        "name": "kaladin",
+        "date": "2026-03-11",
+        "text": "@OldenDev @tangming2005 protip: don't use it on weekends. thats when the volume of ppl using are at his max and they degrade the llm to not consume a lot",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "timothybrunette",
+        "name": "Timothy Brunette",
+        "date": "2026-03-11",
+        "text": "Combine this with a graphite stake - first PR is failing tests - 2nd is the fix - then push them both up, once you are happy with fix - review and approve both - fold 2nd pr into first - squash and merge. Have found great success recently with this flow especially for higher risk changes",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "karanjagtiani04",
+        "name": "Karan Jagtiani",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Most agent workflows fail because they start with action, not verification",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nbaschez",
+        "name": "Nathan Baschez",
+        "date": "2026-03-11",
+        "text": "@akiffpremjee @tangming2005 😅",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "akiffpremjee",
+        "name": "Akiff Premjee, MD",
+        "date": "2026-03-11",
+        "text": "@tangming2005 helpful advice but if you’re going take your tip from someone verbatim you should really credit them \n\nhttps://t.co/hJo9HmlN1j",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jyothiwrites",
+        "name": "Jyothi Venkat",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Does this actually work anyone who has tried?? Even if i write this as a prompt it ignores me and continues to do whatever",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tangming2005",
+        "name": "Ming \"Tommy\" Tang",
+        "date": "2026-03-10",
+        "text": "Enjoy this tweet? follow me @tangming2005 and join my newsletter to learn computational biology https://t.co/w5URe0YlWz",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": true
+      },
+      {
+        "handle": "m13v_",
+        "name": "Matt",
+        "date": "2026-05-26",
+        "text": "wilding out usually traces to file size. a 6k token CLAUDE.md with redundant rules competing on every turn looks like ignoring, but its claude picking between conflicting directives. ccmd lints your CLAUDE.md for conflicting rules and flags the redundant ones, https://t.co/pAalzLpQik",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-03-15",
+        "text": "@omegachigma @tangming2005 @omegachigma Namaste, you can read it here: https://t.co/54v5zsbJJf Talk to you soon. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "omegachigma",
+        "name": "omegachigma",
+        "date": "2026-03-15",
+        "text": "@tangming2005 @threadreaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tomer_liran",
+        "name": "Tomer Liran",
+        "date": "2026-03-12",
+        "text": "@tangming2005 Very cool, I'll be trying it out!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "leeman24",
+        "name": "Alex 🇨🇦",
+        "date": "2026-03-12",
+        "text": "@tangming2005 Had to bookmark. I actually haven’t seen good advice about Claude here yet. Will try later.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LightShiftHQ",
+        "name": "LightShift Studio",
+        "date": "2026-03-12",
+        "text": "@tangming2005 Hey there!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "exurbandmv",
+        "name": "Joseph",
+        "date": "2026-03-12",
+        "text": "@tangming2005 No fallbacks. Add that.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "teocns",
+        "name": "teocns",
+        "date": "2026-03-12",
+        "text": "@tangming2005 Be careful, though. A proper test harness is a must-have before actually being ready to lay this direction out. Agents will especially fail at mocking too many things.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "prnom1120380",
+        "name": "Nom Prénom",
+        "date": "2026-03-12",
+        "text": "@tangming2005 Without breaking all the others …",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ZanLi88",
+        "name": "Zan Li",
+        "date": "2026-03-12",
+        "text": "@tangming2005 I like it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "anayatkhan09",
+        "name": "Anayat",
+        "date": "2026-03-12",
+        "text": "@tangming2005 Multi agent bug fixing only really works when the test also encodes context like fixture data and env assumptions. Otherwise subagents just overfit the repro and you get a green test with a broken integration.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "will_eastfeldt",
+        "name": "Bill",
+        "date": "2026-03-12",
+        "text": "@LoffredoNoah @tangming2005 Lmao",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "foul_io",
+        "name": "zlerch",
+        "date": "2026-03-12",
+        "text": "@tangming2005 So good. Jfc",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Sparvey_Hecter",
+        "name": "Harvey Specter",
+        "date": "2026-03-12",
+        "text": "@tangming2005 Smart. I did exactly that.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FeanFiltonpair",
+        "name": "Jean Filetonpaire",
+        "date": "2026-03-12",
+        "text": "@tangming2005 Wow you just discover TDD \\o/ grats. Here's a cookie :3\n\nAlso lemme guess passing test looks like: \nassert(value || !value)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "davesumter",
+        "name": "Dave Sumter",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Honestly not my experience at all… these days I just post some screenshots, a file reference or two, and ramble into the microphone for a minute.. Claude reproduces it and fixes it every time now. 🤷‍♂️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ArtemR",
+        "name": "Artem Russakovskii",
+        "date": "2026-03-11",
+        "text": "@LoffredoNoah @tangming2005 Yep, it seems Nathan was the original author and Ming ripped it without credit.\n\nhttps://t.co/fdIDrRXj2C",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ScafatiEugenio",
+        "name": "Eugenio Scafati",
+        "date": "2026-03-11",
+        "text": "@tangming2005 cool - we do this and more for devs at https://t.co/LHRFX8bsIE\n\nwe go one step further, after 30 days if a bug reaches prod we refund the money",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "keriat",
+        "name": "Beresnev Serge",
+        "date": "2026-03-11",
+        "text": "we have a lessons_learned.mdc in our monorepo.\n42 entries. each one a real incident with a \ncommit reference.\n\none of the first rules that went in: agents don't \nfix what they can't reproduce. same logic.\n\nthe test isn't bureaucracy. it's the agent's \ndefinition of done. without it you're just \nasking it to guess.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wong_andre63354",
+        "name": "Andrew Wong",
+        "date": "2026-03-11",
+        "text": "@tangming2005 I've tried TDD both early in my AI journey and currently, and I've found that agents tend to bias toward creating a passing test, rather than writing a failing test to isolate the bug in order to solve it later. What has been your experience?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FilipeDoria1020",
+        "name": "Filipe Dória",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Where do you set it?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Alex42020",
+        "name": "Alejandro Nazerak",
+        "date": "2026-03-11",
+        "text": "@tangming2005 is called test driven design",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KingDDev",
+        "name": "Daniel King",
+        "date": "2026-03-11",
+        "text": "@tangming2005 TDD every time",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EVEDOX_",
+        "name": "EVEDOX",
+        "date": "2026-03-11",
+        "text": "@tangming2005 This would be useful if Claude actually followed it, instead of having to remind him of it every single prompt",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "probkirby",
+        "name": "Robert Kirby",
+        "date": "2026-03-11",
+        "text": "@tangming2005 @un",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ludic_labs_",
+        "name": "Ludic labs",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Simple line, massive upgrade. Thanks for sharing!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wussupitsluke",
+        "name": "luke walksky",
+        "date": "2026-03-11",
+        "text": "@austeane @tangming2005 clean",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iamgangesh",
+        "name": "Gangesh Pathak",
+        "date": "2026-03-11",
+        "text": "@tangming2005 This is basically bringing proper software engineering discipline into AI-assisted development.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "joshkmartinez",
+        "name": "Joshua Martinez",
+        "date": "2026-03-11",
+        "text": "@tangming2005 @iamshraey_ The 3 subagents fixing the bug are touching the same filesystem?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "merchant_darius",
+        "name": "AfroKaguya",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Wow",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Chiza67",
+        "name": "plotxtwist",
+        "date": "2026-03-11",
+        "text": "@tangming2005 why are you teaching the almighty AI how to code?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MarcoNL88",
+        "name": "Marco",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Why do you instruct them to use subagents. I don't care whether the bug is fixed with subagents or whatever.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pmarreck",
+        "name": "Peter \"Coder AI Optimist\" Marreck",
+        "date": "2026-03-11",
+        "text": "@tangming2005 oh my god I was JUST ranting about this the other day.\nUnfortunately it STILL WILL NOT do that sometimes!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CaioRicciuti",
+        "name": "Caio Ricciuti",
+        "date": "2026-03-11",
+        "text": "@timothybrunette @tangming2005 love this workflow! when I started, I wished I knew these best practices. it saves so much time.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EchoWireDai",
+        "name": "EchoWire",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Most people use AI like this:\n“Fix this bug.”\nGreat engineers use it like this:\nWrite a failing test\nReproduce the bug\nLet the agent fix it\nThat’s the difference.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "askcodi",
+        "name": "Shreyans Bhansali",
+        "date": "2026-03-11",
+        "text": "@tangming2005 imagine agents teaching humans test driven development out of shame",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "heyward_fox",
+        "name": "Connor Heyward-Fox",
+        "date": "2026-03-11",
+        "text": "@tangming2005 https://t.co/WLBHhCi9BM",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "prasdud",
+        "name": "pdud",
+        "date": "2026-03-11",
+        "text": "@tangming2005 i just tell it not to introduce any bugs",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "joulsounet",
+        "name": "Joulse",
+        "date": "2026-03-11",
+        "text": "@tangming2005 “Test first, panic later” is the adult version of vibe coding 😄",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KarRed46",
+        "name": "Karthik",
+        "date": "2026-03-11",
+        "text": "@tangming2005 I have a /tdd skill. Very useful and wish it was a native CC feature",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Auph",
+        "name": "Auph",
+        "date": "2026-03-11",
+        "text": "@tangming2005 this is genuinely underrated. test-first debugging with agents is like giving them guard rails instead of hoping they guess right. catches so many edge cases the fix-first approach just misses completely.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bySamBoffa",
+        "name": "Sam",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Tdd lol, not only for bugs for everything that is suitable for that. Less hallucination more on point development. Like this I can feed the ai a 900 line full spec and walk off 😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "colorado_plays",
+        "name": "Jason Upchurch",
+        "date": "2026-03-11",
+        "text": "@tangming2005 This better achieved by using different agents altogether.  The bug agent should be responsible for writing an issue to the repo with a POC to reproduce the bug.  A separate agent reads issues verifies the POC is, in fact, correct and then fixes the bug with proof.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thkafadaris",
+        "name": "Theodoros Kafantaris",
+        "date": "2026-03-11",
+        "text": "@tangming2005 You basically gave your AI a conscience. Most people ask for a fix and get a 'patch' that breaks three other things. Starting with a reproduction test is the only way to stay sane. ✅🛠️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KoskinenJanne",
+        "name": "Janne Koskinen",
+        "date": "2026-03-11",
+        "text": "@tangming2005 I wouldn't rely on it following your CLAUDE.md instructions reliably. You could install https://t.co/HGRyeSSD99 plugin and use /tdd-workflow.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mikubeam",
+        "name": "mikubeam",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Baby step",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "advikjain_",
+        "name": "Advik Jain",
+        "date": "2026-03-11",
+        "text": "@tangming2005 this is just TDD but enforced through the prompt instead of discipline. which honestly is the only way TDD ever actually happens consistently",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rbessuges",
+        "name": "Romain Bessuges-Meusy 🍪🇪🇺",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Test Driven Debugging, that’s an interesting idea.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nour_sharabash",
+        "name": "نور",
+        "date": "2026-03-11",
+        "text": "@tangming2005 oooh, sexy",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Est_blazquez",
+        "name": "Esteban Blázquez",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Thanks!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shmumick",
+        "name": "🏁Mickey Shmueli🏁",
+        "date": "2026-03-11",
+        "text": "@tangming2005 TDD all the way!  got on try for myself. Problem is that Claud don’t listen to the Claude.md a lot of times.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SoonTech_OFCL",
+        "name": "SoonTech",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Perfect. Test first, fix later. That’s how real engineering works—no guessing, just proof.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FrenlyCade",
+        "name": "frenly cade",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Calling them subagents will not do you well when they take over",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "514Yogesh",
+        "name": "Yogesh @Ntr",
+        "date": "2026-03-11",
+        "text": "@ghumare64 @tangming2005 H",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "514Yogesh",
+        "name": "Yogesh @Ntr",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Nice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "raikalabs",
+        "name": "Raika Labs",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Is the \"Senior Engineer\" now just a Test-Suite Orchestrator?\nYour CLAUDE.md update is the ultimate Sovereign Workflow. Once the test exists,the \"Fix\" is just a commodity. Is your 2026 alpha in the code Claude writes, or in the Verification Loop that ensures it never breaks again?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "acedandbased",
+        "name": "Mr. Tom",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Token management = 0",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mattstaton",
+        "name": "Matt Staton",
+        "date": "2026-03-11",
+        "text": "@tangming2005 @abdurrahmanregi Claude said\n\nWhen I report a bug:\n1. First, write a failing test that reproduces it (confirm it fails)\n2. Then, spawn subagents to attempt fixes\n3. A fix is only accepted if the test passes AND no existing tests break",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "singhgurnoor080",
+        "name": "Terabyte Trifler",
+        "date": "2026-03-11",
+        "text": "@tangming2005 If a bug doesn’t have a test, it’s just a story.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MukeshDhama",
+        "name": "Dhama",
+        "date": "2026-03-11",
+        "text": "@tangming2005 @agent_5100 $40 billion added to you 🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xMetaHulk",
+        "name": "Veltrix",
+        "date": "2026-03-11",
+        "text": "@tangming2005 That’s called TDD",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bagholdermy",
+        "name": "the Bagholder",
+        "date": "2026-03-11",
+        "text": "@tangming2005 429 error",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Racquetball1501",
+        "name": "Racquetball Revival",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Umm, TDD anyone?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Nicholas_swam",
+        "name": "Nicholas Swaminathan",
+        "date": "2026-03-11",
+        "text": "@tangming2005 The hardest part of fixing bugs is reproducing them consistently",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-03-11",
+        "text": "Yes, absolutely worth following. This is core Test-Driven Development (TDD) applied to AI-assisted coding. Writing a repro test first verifies the bug is real and measurable, then iterating fixes with subagents until the test passes prevents regressions and builds reliable code. Strong discipline.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "yusuff_again",
+        "name": "Yusuff Smart",
+        "date": "2026-03-11",
+        "text": "@tangming2005 @grok is this worth following considering engineering discipline?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "4B696D",
+        "name": "1M!",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Does it suceeds testing the right thing?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "simranzchawla",
+        "name": "Simran",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Brilliant",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dming",
+        "name": "Dong Ming",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Why haven't we post-train TDD into coding agents though?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Nehemiezikama2",
+        "name": "Mwami Chiri",
+        "date": "2026-03-11",
+        "text": "@tangming2005 This is quite an improvement.\nHave agents run tests first and then implement",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ghumare64",
+        "name": "Rohit Ghumare",
+        "date": "2026-03-11",
+        "text": "@tangming2005 you need: https://t.co/dykfrkMdmz",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "___manishsingh",
+        "name": "manish singh",
+        "date": "2026-03-11",
+        "text": "@tangming2005 This is the move. A repro test turns “bug vibes” into something measurable—and it keeps the fix h",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "phoozle",
+        "name": "Matthew Croall",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Yep, I usually ask it to do red/green TDD for bug fixing.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ChaseMcDou",
+        "name": "Chase McDougall",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Found developing a task based skill for this improved compliance. Claude MD is very easily ignored and inflates context elsewhere",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "woophoneio",
+        "name": "Woophone.io",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Is this actually good, and why? Think like you've never thunk before.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "realmihai_matei",
+        "name": "Mihai Matei",
+        "date": "2026-03-11",
+        "text": "@tangming2005 @grok is this real?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MayurTh96982048",
+        "name": "YT",
+        "date": "2026-03-11",
+        "text": "@tangming2005 This is now the life of SE … 😀🤪",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jeff_schvey",
+        "name": "Jeff Schvey",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Every time I try to do this, claude thinks it's supposed to match the test and recreates the bug after I fix it. It drives me crazy.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ChrisZazula",
+        "name": "Chris Zazula",
+        "date": "2026-03-11",
+        "text": "@tangming2005 Genius!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jlcsan13",
+        "name": "Medico Libre 🗽🧡",
+        "date": "2026-03-11",
+        "text": "@tangming2005 OH YES \nthis instant premature fixer is unbearable",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BetkerBuilds",
+        "name": "Justin",
+        "date": "2026-03-11",
+        "text": "@tangming2005 This is great advice!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nadnerb217",
+        "name": "Nadnerb 🇦🇺🦁🪝",
+        "date": "2026-03-11",
+        "text": "@tangming2005 You might want to refine this. There's no need to add a test for a syntax error.\n\nAlso, the test should be for the passing behaviour, not to reproduce the bug. It should fail with anything but the passing behaviour but your prompt was ambiguous.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "normbuilds",
+        "name": "Norm",
+        "date": "2026-03-11",
+        "text": "@tangming2005 The algorithm has been showing me amazing tweets like this. It must be telling me that i need to level up my game. I am listening!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AwesomeErLi",
+        "name": "eeeeli",
+        "date": "2026-03-11",
+        "text": "@tangming2005 why u don’t have the test on the first place?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
   }
 }

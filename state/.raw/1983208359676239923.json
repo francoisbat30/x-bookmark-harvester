@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:29.111Z",
+  "tweetId": "1983208359676239923",
+  "post": {
+    "url": "https://x.com/Chiragjoshi_12/status/1983208359676239923",
+    "author": {
+      "handle": "Chiragjoshi_12",
+      "name": "Chirag Joshi"
+    },
+    "date": "2025-10-28",
+    "text": "@Screwedmind_69 @lyleklyne @perplexity_ai Relavent.\nhttps://t.co/iBVMYhWNqg",
+    "thread": [
+      {
+        "id": "1983208359676239923",
+        "text": "@Screwedmind_69 @lyleklyne @perplexity_ai Relavent.\nhttps://t.co/iBVMYhWNqg"
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "views": 46
+    },
+    "comments": []
+  }
+}

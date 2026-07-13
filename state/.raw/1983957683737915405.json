@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:21.499Z",
+  "tweetId": "1983957683737915405",
+  "post": {
+    "url": "https://x.com/LocallyAIApp/status/1983957683737915405",
+    "author": {
+      "handle": "LocallyAIApp",
+      "name": "Locally AI - Local AI Chat"
+    },
+    "date": "2025-10-30",
+    "text": "Locally AI is now available on macOS 💻\n\nChat privately with local models on your Mac in a beautiful and native app, optimized for Apple Silicon with MLX.\n\nDownload on the Mac App Store: https://t.co/kIwFrdXQ1e https://t.co/dvvgYBnieu",
+    "thread": [
+      {
+        "id": "1983957683737915405",
+        "text": "Locally AI is now available on macOS 💻\n\nChat privately with local models on your Mac in a beautiful and native app, optimized for Apple Silicon with MLX.\n\nDownload on the Mac App Store: https://t.co/kIwFrdXQ1e https://t.co/dvvgYBnieu"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G4hu-0oWEAAdKzX.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 718,
+      "retweets": 78,
+      "replies": 40,
+      "views": 119707
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G4hu-0oWEAAdKzX.jpg",
+      "localFilename": "1983957683737915405_1.jpg"
+    }
+  ]
+}

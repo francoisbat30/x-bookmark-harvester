@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:21.032Z",
+  "fetchedAt": "2026-07-13T06:53:41.447Z",
   "tweetId": "2024479352776171801",
   "post": {
     "url": "https://x.com/_SaxX_/status/2024479352776171801",
@@ -10,13 +11,875 @@
     },
     "date": "2026-02-19",
     "text": "🚨🔴 Piratage de la base FICOBA, mais on ne peut rien faire avec un simple IBAN, si ?!... 👇🏾\n\n❌️ FAUX ! Voici concrètement 5 arnaques hyper faciles à mettre en œuvre pour des cybercriminels qui ont votre nom, votre banque, votre IBAN...🧵\n\n👉🏾 ARNAQUE N°1 : Le prélèvement fantôme 👻 \nUn escroc se déclare \"créancier\", utilise votre IBAN, et lance un prélèvement.\nAu final, c'est un tout petit montant de 9,99€/mois au nom d'un \"SERVICE QUELCONQUE BANAL CRÉDIBLE\"..., noyé dans vos toutes vos dépenses... que certaines personnes ne remarqueront que bien trop tard...\n\n👉🏾 ARNAQUE N°2 : Le faux conseiller bancaire ☎️\nL'escroc en face connaît votre nom + votre banque + votre IBAN.\nIl vous appelle :\n\"Bonjour Mme Michu, ici le service fraude de [votre VRAIE banque]... Prélèvement suspect détecté... Confirmez le code SMS pour le bloquer.\"\nVous donnez le code, il valide un virement sortant à votre insu...\n\n*Il y a aussi, la même arnaque avec l'envoie de coursier au domicile de la victime pour récupérer la carte bancaire physique...\n\n👉🏾 ARNAQUE N°3 : Le faux mandat SEPA\nMoins connu mais tout aussi efficace. L'escroc fabrique un faux mandat de prélèvement avec votre IBAN.\nA l'arrivée, un \"abonnement salle de sport\" ou une \"assurance fuite de données\" que vous n'avez jamais souscrit débite votre compte tous les mois...\n\n👉🏾 ARNAQUE N°4 : Le phishing ultra ciblé\nLe classique mais qui fonctionne tjrs surtout avec vos données dans le SMS ou mail reçu...\n\"Suite au piratage FICOBA de Bercy, votre compte [Banque X] nécessite une vérification urgente.\"\nDans ce message, il y a un lien qui vous enverra vers un faux site bancaire identique comme deux gouttes d'eau à votre banque... toutes vos données seront siphonnées...\n\n👉🏾 ARNAQUE N°5 : Le détournement de salaire\nL'escroc contacte votre employeur/votre client (après avoir piraté votre boîte mail) :\n\"Bonjour, j'ai changé de banque, voici mon nouveau RIB.\"\nVotre salaire/prestation sera alors versé sur le compte de l'escroc...\n\n✅ Aussi, voici quelques conseils :\n\n👉🏾Vérifiez vos relevés chaque semaine\n 👉🏾 Activez les alertes prélèvements dans votre appli bancaire \n 👉🏾 Créez une liste blanche de créanciers autorisés\n👉🏾 Ne confirmez JAMAIS un code SMS après un appel entrant\n\n👉🏾 Et si vous vous faites avoir, sachez  que vous avez 13 mois pour contester un prélèvement inconnu.\n\nS'il y a un doute, c'est qu'il n'y a pas de doutes ! \n\n*Spoiler : Tout le monde (ou presque) a un compte bancaire... donc concerné...\n\nCybèrement vôtre,\n\nSaxX ¯\\_(ツ)_/¯",
+    "thread": [
+      {
+        "id": "2024479352776171801",
+        "text": "🚨🔴 Piratage de la base FICOBA, mais on ne peut rien faire avec un simple IBAN, si ?!... 👇🏾\n\n❌️ FAUX ! Voici concrètement 5 arnaques hyper faciles à mettre en œuvre pour des cybercriminels qui ont votre nom, votre banque, votre IBAN...🧵\n\n👉🏾 ARNAQUE N°1 : Le prélèvement fantôme 👻 \nUn escroc se déclare \"créancier\", utilise votre IBAN, et lance un prélèvement.\nAu final, c'est un tout petit montant de 9,99€/mois au nom d'un \"SERVICE QUELCONQUE BANAL CRÉDIBLE\"..., noyé dans vos toutes vos dépenses... que certaines personnes ne remarqueront que bien trop tard...\n\n👉🏾 ARNAQUE N°2 : Le faux conseiller bancaire ☎️\nL'escroc en face connaît votre nom + votre banque + votre IBAN.\nIl vous appelle :\n\"Bonjour Mme Michu, ici le service fraude de [votre VRAIE banque]... Prélèvement suspect détecté... Confirmez le code SMS pour le bloquer.\"\nVous donnez le code, il valide un virement sortant à votre insu...\n\n*Il y a aussi, la même arnaque avec l'envoie de coursier au domicile de la victime pour récupérer la carte bancaire physique...\n\n👉🏾 ARNAQUE N°3 : Le faux mandat SEPA\nMoins connu mais tout aussi efficace. L'escroc fabrique un faux mandat de prélèvement avec votre IBAN.\nA l'arrivée, un \"abonnement salle de sport\" ou une \"assurance fuite de données\" que vous n'avez jamais souscrit débite votre compte tous les mois...\n\n👉🏾 ARNAQUE N°4 : Le phishing ultra ciblé\nLe classique mais qui fonctionne tjrs surtout avec vos données dans le SMS ou mail reçu...\n\"Suite au piratage FICOBA de Bercy, votre compte [Banque X] nécessite une vérification urgente.\"\nDans ce message, il y a un lien qui vous enverra vers un faux site bancaire identique comme deux gouttes d'eau à votre banque... toutes vos données seront siphonnées...\n\n👉🏾 ARNAQUE N°5 : Le détournement de salaire\nL'escroc contacte votre employeur/votre client (après avoir piraté votre boîte mail) :\n\"Bonjour, j'ai changé de banque, voici mon nouveau RIB.\"\nVotre salaire/prestation sera alors versé sur le compte de l'escroc...\n\n✅ Aussi, voici quelques conseils :\n\n👉🏾Vérifiez vos relevés chaque semaine\n 👉🏾 Activez les alertes prélèvements dans votre appli bancaire \n 👉🏾 Créez une liste blanche de créanciers autorisés\n👉🏾 Ne confirmez JAMAIS un code SMS après un appel entrant\n\n👉🏾 Et si vous vous faites avoir, sachez  que vous avez 13 mois pour contester un prélèvement inconnu.\n\nS'il y a un doute, c'est qu'il n'y a pas de doutes ! \n\n*Spoiler : Tout le monde (ou presque) a un compte bancaire... donc concerné...\n\nCybèrement vôtre,\n\nSaxX ¯\\_(ツ)_/¯"
+      }
+    ],
     "media": [],
     "metrics": {
-      "likes": 1619,
-      "retweets": 953,
+      "likes": 1596,
+      "retweets": 936,
       "replies": 57,
-      "views": 139543
+      "views": 140431
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "Saraswatihh",
+        "name": "Saraswati ॐ ੴ (2nd account)",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ \"Sachez que vous avez 13 mois pour contester un prélèvement inconnu\"... voire plus puisqu'il s'agit du délai de dénonciation qui court dès la prise de connaissance par l’utilisateur de l’opération de paiement non autorisée (CJUE, 1er août 2025, Veracash, aff. C-665/23)",
+        "likes": 19,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GeeKroniques",
+        "name": "Mat",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Si les banques contrôlaient les prélèvements et n'autorisaient que ceux où il y a un mandat, ça irait mieux.\nMais comme c'est notre pognon, elles s'en tapent.",
+        "likes": 10,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TomTom56383",
+        "name": "Tom Tom",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Et surtout ne pas oublier d'attaquer l'état pour avoir créer ce fichier  et qui a la responsabilité  de la fraude.",
+        "likes": 8,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "name07769904",
+        "name": "Mike #FollowBackInsoumis",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Perso je ne comprends pas comment ces escroqueries sont possibles, cet argent volé il va bien sur un autre compte, comment ça se fait qu'on ne soit pas fichu d'inculper le destinataire de ce compte? Tout est informatisé comment c'est possible?",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Pat_ochhe",
+        "name": "Pat",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Nouvelle arnaque avec le faux conseiller bancaire qui prétend que l'agence du client est compromise, qu'il ne doit pas leur parler mais juste faire augmenter les plafonds CB. Le tout doublé avec un faux policier qui confirme tout ça. Ça dure des heures pour les victimes",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PaulRoy0077",
+        "name": "Paul Roy",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Avec ces données ils peuvent retrouver tous vos véhicules(et faire beaucoup de choses!)\net sur Pappers les liens de toutes vos activités financières et immobilières.(+liens associés, amis familles enfants!)",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ju_toups",
+        "name": "Ju Toups",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Merci pour tout ce que vous faite pour sensibiliser à la vigilance informatique. Vous êtes d'utilité publique.",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hasbeenhopless1",
+        "name": "HasbeenH",
+        "date": "2026-02-20",
+        "text": "@_SaxX_ Le prélèvement fantôme est le plus dangereux.\nUne petite somme prélevée, même 1euro, discrètement sur des milliers de comptes peut rapporter énormément avant que quelqu’un ne s’en rende compte, car peu de gens vérifient leurs relevés à l’euro près.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TrucMuching",
+        "name": "TrucMuching",
+        "date": "2026-02-19",
+        "text": "@name07769904 @_SaxX_ Je pense que si ça sort de france. Via un faux compte fr, ou directement vers l'etranger. Une fois que c'est crédité ailleurs. C'est mort.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TousVigilants",
+        "name": "👁️‍🗨️ Tous Vigilants❗️",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ https://t.co/JnmvUn8CVn https://t.co/V2QCDiY9fq",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "glebret",
+        "name": "Guillaume",
+        "date": "2026-02-19",
+        "text": "@Rom165737819 @_SaxX_ pas du tout, le contrôle est eventuellement fait a posteriori, d'ailleurs ce ne sont plus les banques qui détiennent les autorisations de prélevement mais les entreprises qui émettent les demandes de débit",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lucia2matos",
+        "name": "lucia",
+        "date": "2026-02-19",
+        "text": "@Saraswatihh @_SaxX_ Sur le prélèvement, il vaut mieux s opposer dans les 8 semaines...",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lucia2matos",
+        "name": "lucia",
+        "date": "2026-02-19",
+        "text": "@EdBracame71 @_SaxX_ La CB ne figure pas sur le fichier FICOBA mais vu que les Telco (Free, SFR...) se sont également fait hacké, ils peuvent croiser les fichiers et si vous payez votre abonnement par CB....",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EdBracame71",
+        "name": "Edouard Bracame",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Merci pour vos conseils !\nEn complément, ne faut-il pas systématiquement aussi, bloquer sa CB pour les paiements internet et étrangers ?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Carolulu6",
+        "name": "Caro lulu",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ L’arnaque numero 2 ne peut pas se faire avec l’iban uniquement et la validation. Il faut que le fraudeur ait accès au compte en ligne de la personne pour émettre 1 virement.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-19",
+        "text": "Les conséquences dramatiques du piratage FICOBA incluent : fraudes bancaires (prélèvements frauduleux, virements détournés), usurpation d'identité, phishing ciblé, pertes financières importantes, stress psychologique et impacts sur le crédit. Plus de 1,2M de comptes touchés augmentent les risques d'arnaques massives.\n\nPour engager des poursuites : déposez une plainte pénale auprès de la police/gendarmerie ou en ligne sur https://t.co/z2VLjOrQBY. Signalez à la CNIL pour violation RGPD. Pour manquement étatique, consultez un avocat pour action en justice administrative ou recours collectif.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bimbamboumetbim",
+        "name": "Bim Bam Boum et Re Bim",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ 1 et 3 suppose la création d'une structure disposant d'un ics. Ce n'est pas impossible mais la faire perdurer quand elle est frauduleuse, c est compliqué....",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jpph59",
+        "name": "jpph",
+        "date": "2026-02-20",
+        "text": "@Th_Th_ @xum34 @_SaxX_ @PLCCcybercrime Tu fais une fausse pièce identité. Et sinon tu demande au sdf/mule de retirer en liquide directement , il garde une partie",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PassageTerre",
+        "name": "De passage sur Terre",
+        "date": "2026-02-20",
+        "text": "@_SaxX_ J'espère que l'Etat assurera son erreur en remboursant les délits",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lwnbrmnchn",
+        "name": "Etienne Le Chevalier",
+        "date": "2026-02-20",
+        "text": "@heitz_markus @name07769904 @_SaxX_ Juste comme ça, il y a des gens qui se sont retrouvés avoir officiellement la cartes grise de.. genre 300 véhicules.\nImmatriculés à leur nom par des margoulins qui ont utilisé un scan de leur carte d’identité.\n\nDonc les vérifications ne sont pas assez sérieuses pour bloquer ça 😱",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "name07769904",
+        "name": "Mike #FollowBackInsoumis",
+        "date": "2026-02-20",
+        "text": "@heitz_markus @_SaxX_ Quand les autorités le veulent bien, ils arrivent même à bloquer les comptes des juges de la CPI.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Bruno_FIBRE",
+        "name": "Bruno_FIBRE",
+        "date": "2026-02-20",
+        "text": "@hasbeenhopless1 @_SaxX_ Pour le côté mobile j'ai mis en place en août 2024, le blocage complet des 12 suffixes et j'ai ajouté toutes l'Angleterre depuis, Résultats plus qu'un ou deux 06/07 je laisse Google prendre la main, raccroche à 99,99%. Cote mail je regarde l'expéditeur ils sont comme celui ci. https://t.co/gDDWguQN7s",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Bruno_FIBRE",
+        "name": "Bruno_FIBRE",
+        "date": "2026-02-20",
+        "text": "@hasbeenhopless1 @_SaxX_ Moi avec mes 19,33 € par jour, si en quasi temps réels sous libre Office je rentre toutes mes transactions et contrôle sur l'application de ma banque, #ass chez France Travail (Allocation de Solidarité Spécifique)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Postagalene_PbS",
+        "name": "S t a n - Xplorateur",
+        "date": "2026-02-20",
+        "text": "@heitz_markus @_SaxX_ Exact. Et c'est le principe du cas 3.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Docgranville",
+        "name": "Docgranville",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Pour la n° 1, un prélèvement automatique est supposé être doublé d’une autorisation signée du titulaire du compte.\nPour la n° 5, il y a maintenant vérification de la correspondance entre le nom du bénéficiaire du virement et celui du titulaire du compte.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CitoyenOiseau",
+        "name": "oiseau citoyen",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Merci",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rEE91i0Cm2F2zyj",
+        "name": "300",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Merci pour tous ces conseils 🙏",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "corde_dominique",
+        "name": "dominique corde",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Merci!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mr_Kro",
+        "name": "Mr_Kro🌟🌟",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Heureusement que t'es là merci pour les informations et conseils !",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SoldatZod",
+        "name": "Dru Zod",
+        "date": "2026-02-19",
+        "text": "@Rom165737819 @_SaxX_ Non, j'ai bossé 6 ans en banque. Les banques reçoivent tellement d'autorisation de prélèvement qu'elles ne les enregistrent pas. S'il y a un problème ensuite, elle rejette les prélèves et remboursent leur client mais ne font dans 90% des banques rien des mandats",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nknico1",
+        "name": "nicko",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ \"assurance fuite de données\" tu m'as tué.\n\nNon, en fait c'est super pas drôle. Près à parier ma couille gauche que les assureurs seraient près à s'engouffrer dans la brèche.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Rom165737819",
+        "name": "Rom1",
+        "date": "2026-02-19",
+        "text": "@glebret @_SaxX_ Bah quand même pour m'abonner à un journal je dois valider via un code  SMS le prélèvement SEPA",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Secu_Internet",
+        "name": "Sécurité Internet",
+        "date": "2026-02-19",
+        "text": "@Rom165737819 @_SaxX_ \"Les banques sont censées vérifier que toute autorisation de prélèvement est effectuée par le titulaire du compte, mais les contrôles en la matière sont notoirement insuffisants.\"\nhttps://t.co/HKQyyZeBDA",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bimbamboumetbim",
+        "name": "Bim Bam Boum et Re Bim",
+        "date": "2026-02-19",
+        "text": "@Jojo_le_poisson @_SaxX_ 1 c'est vous faire payer pour un service réel dont vous ne disposez pas / un service fictif. 3 c'est un service fictif.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Motsae",
+        "name": "Motsae",
+        "date": "2026-02-19",
+        "text": "@Rom165737819 @_SaxX_ C’est faux, un exemple :\n\nhttps://t.co/fvKVcu6Ff0",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "poildetouffe",
+        "name": "Titi & Grosminet",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ @grok ,explore toutes les conséquences dramatiques pour les victimes françaises de ce piratage du fichier FICOBA ? Et comment engager des poursuites pénales ou judiciaires envers ce manquement à la sécurité informatique ou numérique ?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "demaquilator",
+        "name": "demaquilator",
+        "date": "2026-03-25",
+        "text": "@_SaxX_ Est-ce que le fonctionnaire en cause dont les identifiants ont été piratées , qui disposait des informations des données interministérielles, à été mis en carantaine, perquisitions au bureau et domicile !?🧐",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Saraswatihh",
+        "name": "Saraswati ॐ ੴ (2nd account)",
+        "date": "2026-02-21",
+        "text": "@lucia2matos @_SaxX_ Il vaut mieux le faire le plus rapidement possible bien évidemment, mais on ne pourra pas vous opposer une prescription si vous n'en avez pas eu connaissance avant le délai de dénonciation.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Suprem_Sam",
+        "name": "SupremSam",
+        "date": "2026-02-20",
+        "text": "@solidsn85144186 @aimeczen @_SaxX_ Et svp quelle était la source/le libellé du prélèvement du coup ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Galex17200",
+        "name": "Michel Renault",
+        "date": "2026-02-20",
+        "text": "@Docgranville @_SaxX_ ..Oui Docgranvillle!\nLe Flicage avance vers Bruxelles..\n\nje viens de noter - après des années d'un Virement Régulier vers un Tiers Autre Banque - que ma propre Banque vient de bloquer mon Virement au motif:\n\"NON Conformité de l'Intitulé de mon Destinataire\"..\n@AFUB : #SEPA_EU ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "heitz_markus",
+        "name": "Markus Heitz",
+        "date": "2026-02-20",
+        "text": "@Lwnbrmnchn @name07769904 @_SaxX_ Sans doute que vous avez raison. \nMes réponses ne concernent que l'environnement bancaire.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "heitz_markus",
+        "name": "Markus Heitz",
+        "date": "2026-02-20",
+        "text": "@Lwnbrmnchn @name07769904 @_SaxX_ Ça ne change rien, le contrôle Rezocom détectera l'incohérence entre les lignes du bas et l'état civil. \nImpossible que la fraude ne soit pas détectée. 100 % fiable.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Lwnbrmnchn",
+        "name": "Etienne Le Chevalier",
+        "date": "2026-02-20",
+        "text": "@heitz_markus @name07769904 @_SaxX_ Donc si je comprends bien ce qui est vérifié c’est ce qui est lisible par n’importe qui sur un scan, une photocopie. Le genre de truc qu’on donne quand on cherche à louer un logement par ex.\n\nMais vérifier qu’on soit bien le porteur réel de la carte ? Là est le problème !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "heitz_markus",
+        "name": "Markus Heitz",
+        "date": "2026-02-20",
+        "text": "@Lwnbrmnchn @name07769904 @_SaxX_ Les pièces d'identité sont vérifiées systématiquement. \nLe système de vérification s'appelle, il me semble, RESOCOM. Toutes les pièces d'identité de la planète sont détectées instantanément grâce à la ligne NRZ en bas du document.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "heitz_markus",
+        "name": "Markus Heitz",
+        "date": "2026-02-20",
+        "text": "@FabriceN_perso @name07769904 @_SaxX_ Signature électronique requise, il faudra qu'ils aient votre téléphone.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Lwnbrmnchn",
+        "name": "Etienne Le Chevalier",
+        "date": "2026-02-20",
+        "text": "@name07769904 @heitz_markus @_SaxX_ En fait c’est pareil pour les cartes grises: il faut arrêter de faire confiance en ligne et revenir aux contrôles physiques. Rien de tout cela n’arriverait si un employé comparait notre bobine à notre CNI plastique, en tête à tête.\nIls pourraient sous-traiter ça à la Poste par ex",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hasbeenhopless1",
+        "name": "HasbeenH",
+        "date": "2026-02-20",
+        "text": "@Bruno_FIBRE @_SaxX_ Si t'as une appli qui bloque vraiment, 😅, tous ces appels, je suis preneur.\nParce que là maintenant, je ne décroche même plus quand on m'appel.😆\nPis les Spams, c'est illico à la poubelle.😆",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hasbeenhopless1",
+        "name": "HasbeenH",
+        "date": "2026-02-20",
+        "text": "@Bruno_FIBRE @_SaxX_ Idem.\nQuand on a un pas gros revenus, pour pas dira pas grand chose, vu que je suis dans la même situation, chaque euros compte.😮‍💨",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Luc96719764",
+        "name": "Luc",
+        "date": "2026-02-20",
+        "text": "@_SaxX_ A quand la validation avec un code de chaque nouveau prélèvement ? Ce serait le minimum syndical",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "name07769904",
+        "name": "Mike #FollowBackInsoumis",
+        "date": "2026-02-20",
+        "text": "@Lwnbrmnchn @heitz_markus @_SaxX_ Ok ce sont donc nos lois qui permettent ces escroqueries, ya peut-être un truc à faire de ce côté là le jour où nos députés arrêteront de passer leur temps à se mettre sur la gueule.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Lwnbrmnchn",
+        "name": "Etienne Le Chevalier",
+        "date": "2026-02-20",
+        "text": "@name07769904 @heitz_markus @_SaxX_ Vous pouvez ouvrir un compte sur une banque en ligne sans verification physique, il vous suffit d’envoyer un scan de votre pièce d’identité.\n\nDonc imaginez juste le margoulin fasse ça avec votre nom et un scan de VOTRE CNI.\nIl reçoit l’argent des scams, puis l’envoie au Nigeria..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "name07769904",
+        "name": "Mike #FollowBackInsoumis",
+        "date": "2026-02-20",
+        "text": "@heitz_markus @_SaxX_ Ok mais l'ouverture d'un compte bancaire ne se fait pas sans vérification d'une pièce d'identité, c'est pareil dans tous les pays du monde. Comment ils arrivent à ouvrir des comptes bancaires, se rendrent coupables d'escroqueries et ne subir aucune sanction au minimum bancaire?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "raoulito21",
+        "name": "SANCHEZ RAUL",
+        "date": "2026-02-20",
+        "text": "@Postagalene_PbS @_SaxX_ Complètement d’accord\nEt les mandats SEPA sont vérifiés\nSu un faux mandat SEPA est mis en place par la banque,  c’est de la responsabilité de la banque…\nOn lit vraiment n’importe quoi sur les réseaux (mais ça fait peur aux gens et ça permet de vendre des solutions de RSSI)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Sandy18981238",
+        "name": "Sandy",
+        "date": "2026-02-20",
+        "text": "@_SaxX_ Regarder son compte tous les soirs, c'est être parano ?\n😁",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FabriceN_perso",
+        "name": "Fabrice N - perso",
+        "date": "2026-02-20",
+        "text": "@heitz_markus @name07769904 @_SaxX_ Alors on est au XXIème siècle, ça fait longtemps que le gros des transactions et virements (même permanents) se fait sans signature.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FabriceN_perso",
+        "name": "Fabrice N - perso",
+        "date": "2026-02-20",
+        "text": "@_SaxX_ dans l'arnaque 1 et 3 (prélèvement fantôme, faux mandat Sepa), ça se fait de façon transparente sans que l'usager n'ai commis aucune imprudence ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "soleil_trompeur",
+        "name": "PussyCat ✝️🙏",
+        "date": "2026-02-20",
+        "text": "@_SaxX_ Merci pour ces infos.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ChtiClem",
+        "name": "Ch'ti Clem - No #FakeMed",
+        "date": "2026-02-20",
+        "text": "@Rom165737819 @glebret @_SaxX_ Je n'ai pas validé le SEPA Free de l'abonnement téléphonique de mon fils depuis quelques années (rappel cet année seulement) et ça ne les a pas empêché de me prélever depuis au moins 3 ans. Donc la vérification...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Pipetman4",
+        "name": "Pipetman",
+        "date": "2026-02-20",
+        "text": "@_SaxX_ Pour le point 5 ils demandent bulletin de salaire et contact sécurisé via intranet en plus pas juste le nouveau rib",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "InstiTueur",
+        "name": "L'InstiTueur",
+        "date": "2026-02-20",
+        "text": "@_SaxX_ La question est : pourquoi une telle base existe ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Rom165737819",
+        "name": "Rom1",
+        "date": "2026-02-20",
+        "text": "@TeleleeS @_SaxX_ Changer de banque et engueuler les alors",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TeleleeS",
+        "name": "Telelée Seigneur",
+        "date": "2026-02-20",
+        "text": "@Rom165737819 @_SaxX_ Non, j’ai eu le cas. Il ne vérifient pas toujours.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "heitz_markus",
+        "name": "Markus Heitz",
+        "date": "2026-02-20",
+        "text": "@msrdavy @_SaxX_ @grok Probablement que les documents en leur possession sont anciens, CNI périmée peut-être. \nLes vérifications régulières sont obligatoires.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "heitz_markus",
+        "name": "Markus Heitz",
+        "date": "2026-02-20",
+        "text": "@TomTom56383 @_SaxX_ Ce fichier est utile et indispensable.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "heitz_markus",
+        "name": "Markus Heitz",
+        "date": "2026-02-20",
+        "text": "@Carolulu6 @_SaxX_ Et le virement est le plus souvent à confirmer par un code reçu par SMS.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "heitz_markus",
+        "name": "Markus Heitz",
+        "date": "2026-02-20",
+        "text": "@Postagalene_PbS @_SaxX_ Un mandat SEPA demande à être enregistré dans une base avec un numéro d'émetteur au profit d'une banque sur un compte identifiable. \nÇa ne se crée pas comme ça. \nIls font peur aux gens pour pas grand chose.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "heitz_markus",
+        "name": "Markus Heitz",
+        "date": "2026-02-20",
+        "text": "@name07769904 @_SaxX_ Vous ne risquez strictement rien. \nIls n'ont pas votre signature. \nLes entreprises impriment les données bancaires sur leurs factures, les administrations également. \nLes gens qui communiquent leurs codes secrets ou donnent leur CB au premier venu, sont irrécupérables.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GlehenEth",
+        "name": "21milions.eth",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Le bid !! sa ressemble trait pour trait au agissements du gouvernement",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TrucMuching",
+        "name": "TrucMuching",
+        "date": "2026-02-19",
+        "text": "@Rom165737819 @glebret @_SaxX_ Pas vraiment. Et puis le sms, c'est l'objet de l'arnaque num 2.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TrucMuching",
+        "name": "TrucMuching",
+        "date": "2026-02-19",
+        "text": "@Tekyes3000 @_SaxX_ @ALehenanff J'aurais plutot demandé si \"c'est risqué\"...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "fondamantra_sh",
+        "name": "0x⛩️r41",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Vous pensez que les attaquent proviennent d'USA ? CHINE ou RUSSIE?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BobSinclar65",
+        "name": "Bob Sinclar",
+        "date": "2026-02-19",
+        "text": "@Rom165737819 @_SaxX_ Archi faux 🫡🥳",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-19",
+        "text": "Le fichier FICOBA est national et concerne tous les comptes bancaires en France, y compris ceux de la Société Générale. La demande de renouvellement KYC est une procédure standard, mais vérifiez-la via l'app officielle ou en appelant votre agence directement, sans cliquer sur des liens suspects, pour éviter les fraudes liées à cette brèche.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "msrdavy",
+        "name": "Monsieur D",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ @grok Est-ce que la Société Générale est concernée car il me demande en ce moment de renouveler les documents \nKYC?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ExpertUniversel",
+        "name": "Expert Universel, PhD x4, Ms x7, CAP x12 ❄️",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Encore du contenu généré pas IA sans se relire. Sérieux, tnas quoi dans la tête?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Adibouts",
+        "name": "Invest",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ rajouter interdiction de decouvert a votre banque",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CASTEL_TINGITA",
+        "name": "DADDY",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Les prélèvements sont revocables.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BosoniaCute",
+        "name": "Cute bosonia - BOSON DE HIGGS spouse",
+        "date": "2026-02-19",
+        "text": "@Johndartois @_SaxX_ @MiniLicorne69 Ficoba en prison ! Ficoba en prison ! 😸",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EridaniCreator",
+        "name": "Victoria Bennett",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ La grande question est une fois l'argent sur le compte de l'escroc, pourquoi n'est il pas arrête ou compte suspendu.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cevennes14",
+        "name": "cevennes",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Merci beaucoup !!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Postagalene_PbS",
+        "name": "S t a n - Xplorateur",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Oui. Mais du mal à comprendre comment ils peuvent se définir créancier  ? Cas 1 (sans faux mandat SEPA) ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Postagalene_PbS",
+        "name": "S t a n - Xplorateur",
+        "date": "2026-02-19",
+        "text": "@sylvestredec12 @_SaxX_ Oui, mais le quidam  escroc sans habilitation .ne peut réaliser cela",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "christine2actes",
+        "name": "Christine Desactes",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Merci !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jlouis_ma",
+        "name": "Ma JLouis",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Certaines banques font payer la constitution de la liste blanche genre : y'a pas écrit la Poste ..vous voyez ? Quand certaines banques se gavent 🤮",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "75Spectateur",
+        "name": "Spectateur75",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ encore faut il trouver l'alerte prélèvements dans l'appli bancaire...))))",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MyMuch",
+        "name": "Much",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ @flavienneuvy d'ailleurs le système de prélèvement a base d'Iban uniquement ou les mandats de prélèvement ça semble vraiment archaïque comme système",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "solidsn85144186",
+        "name": "solid dieu",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ J’ai été prélevé de plusieurs prélèvements sur deux jours de 15 à 25 euros max mais sur un laps de temps très court plusieurs prélèvement le même jour et deux jours après ! \nCPM10 Paris ! Faites attention",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MenddyDelilah",
+        "name": "Menddy Delilah #PIC #Frexit #MacronDestitution",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ 🙏🙏🙏",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Johndartois",
+        "name": "Johndartois🇫🇷🇦🇲☀️",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ @MiniLicorne69 Ficoba devrait être protégé scandaleux",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jojo_le_poisson",
+        "name": "Jojo le poisson",
+        "date": "2026-02-19",
+        "text": "@bimbamboumetbim @_SaxX_ Quelle est techniquement la différence entre 1 et 3 ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Rom165737819",
+        "name": "Rom1",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Les banques vérifient les mandats de prélèvement SEPA c'est pas la fête du slip",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bndanida",
+        "name": "Daniel",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Sans oublier l'utilisation frauduleuse du RIB pour l'achat d'un bien ou service (pour l'ouverture d'un compte Basic Fit par exemple).",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SoumisNonMerci",
+        "name": "Soumission ? Non merci !",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Merci pour ces astuces.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "christophe59264",
+        "name": "Christophe",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Merci",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "seba65331183",
+        "name": "se ba 🇨🇵🇪🇺🐈‍⬛",
+        "date": "2026-02-19",
+        "text": "@_SaxX_ Merci c est parfaitement résumé et oui le risque est en faite très tres réel !!! Vigilance donc !!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
   }
 }

@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:13:41.258Z",
+  "tweetId": "1982817060972355761",
+  "post": {
+    "url": "https://x.com/genamind/status/1982817060972355761",
+    "author": {
+      "handle": "genamind",
+      "name": "Daily Fashion"
+    },
+    "date": "2025-10-27",
+    "text": "How to use AI to extract everything from a book https://t.co/dJKdjTesbs",
+    "thread": [
+      {
+        "id": "1982817060972355761",
+        "text": "How to use AI to extract everything from a book https://t.co/dJKdjTesbs"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3Ok9-GXUAAv2OT.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 522,
+      "retweets": 96,
+      "replies": 20,
+      "views": 44147
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3Ok9-GXUAAv2OT.jpg",
+      "localFilename": "1982817060972355761_1.jpg"
+    }
+  ]
+}

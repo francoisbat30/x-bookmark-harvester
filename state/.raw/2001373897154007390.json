@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:40.572Z",
+  "fetchedAt": "2026-07-13T06:50:54.487Z",
   "tweetId": "2001373897154007390",
   "post": {
     "url": "https://x.com/ExaAILabs/status/2001373897154007390",
@@ -9,7 +10,17 @@
       "name": "Exa"
     },
     "date": "2025-12-17",
-    "text": "Introducing state-of-the-art People Search:\n\nYou can now semantically search over 1 billion people using a hybrid retrieval system backed by finetuned Exa embeddings.\n\nTry it: https://t.co/cQ6UlWHnKY\nWe also created an eval: https://t.co/2OIAryN7MT https://t.co/12BdYDWJU1",
+    "text": "Introducing state-of-the-art People Search:\n\nYou can now semantically search over 1 billion people using a hybrid retrieval system backed by finetuned Exa embeddings.\n\nTry it: https://t.co/cQ6UlWHnKY\nWe also created an eval: https://t.co/2OIAryN7MT https://t.co/12BdYDWJU1\n\nPeople search is important for sales, recruiting, market research teams or anyone looking for specific types of profiles like founders. \n\nQueries to try: \n- Role + company: \"VP of product at Figma\"\n- Team/ function at company: \"Engineers at Browserbase\"\n- Role + geo + industry: \"SDRs in Austin working at tech companies\"",
+    "thread": [
+      {
+        "id": "2001373897154007390",
+        "text": "Introducing state-of-the-art People Search:\n\nYou can now semantically search over 1 billion people using a hybrid retrieval system backed by finetuned Exa embeddings.\n\nTry it: https://t.co/cQ6UlWHnKY\nWe also created an eval: https://t.co/2OIAryN7MT https://t.co/12BdYDWJU1"
+      },
+      {
+        "id": "2001379385853775978",
+        "text": "People search is important for sales, recruiting, market research teams or anyone looking for specific types of profiles like founders. \n\nQueries to try: \n- Role + company: \"VP of product at Figma\"\n- Team/ function at company: \"Engineers at Browserbase\"\n- Role + geo + industry: \"SDRs in Austin working at tech companies\""
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +28,900 @@
       }
     ],
     "metrics": {
-      "likes": 3065,
+      "likes": 3045,
       "retweets": 138,
-      "replies": 132,
-      "views": 3556814
+      "replies": 130,
+      "views": 3560462
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "murkyfying",
+        "name": "܁",
+        "date": "2026-01-11",
+        "text": "@Zergylord @ExaAILabs I built the same app in one day by using google’s api to fetch the first google result with linkedin in the url",
+        "likes": 16,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "pranesh",
+        "name": "Pranesh Prakash",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs I'm looking to stalk my ex-wife. Would this tool be of use?",
+        "likes": 11,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DANNYonPC",
+        "name": "DANNYonPC",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs https://t.co/iSrSUo1QR4\n\nHmm",
+        "likes": 10,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BLUECOW009",
+        "name": "@bluecow 🐮",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs it doesnt find me, good",
+        "likes": 9,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "michaelfanous1",
+        "name": "Michael Fanous",
+        "date": "2025-12-19",
+        "text": "@Zergylord @ExaAILabs Even worse the snippets from LinkedIn available on Google lol",
+        "likes": 9,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TMtheOG",
+        "name": "TM",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs why would you brand yourself exactly like @Polymarket LMAO",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "L1763559L",
+        "name": "Al L",
+        "date": "2025-12-18",
+        "text": "@michael_chomsky @ExaAILabs StalkerGPT",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Alfred_Dulaire",
+        "name": "Mr Peanutbutter 🇫🇷",
+        "date": "2026-01-11",
+        "text": "@Zergylord @ExaAILabs Of course. And free.",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "async_error",
+        "name": "sam (oss/acc)",
+        "date": "2026-01-11",
+        "text": "@Zergylord @ExaAILabs the search is linkedin is kinda bad. saying this from personal experience",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "elie2222",
+        "name": "Elie Steinbock ~ getinboxzero.com",
+        "date": "2025-12-19",
+        "text": "@michaelfanous1 @ExaAILabs Book a demo with no pricing is some terrible CTA then\n\nThis screams of $1000+/mo to use it https://t.co/7xr7IBM4xQ",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hiiinternet",
+        "name": "seb",
+        "date": "2025-12-18",
+        "text": "@ExaAILabs Hi can you guys make enriching people data from linkedins or x’s better pls this is the use case I’m really interested in",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "michaelfanous1",
+        "name": "Michael Fanous",
+        "date": "2026-01-11",
+        "text": "@marcuswquinn @michael_chomsky @ExaAILabs I appreciate the feedback.\n\nThat said I already have it lol.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zaraistastys",
+        "name": "zara",
+        "date": "2025-12-18",
+        "text": "@ExaAILabs powerful tech, light dystopia",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ola_Crrypt",
+        "name": "⭕️La_Crrypt💰₿",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs User aggregation from all media..\n\nTo get your name seen on x is hard even with exact username 🤔",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Rohitsbag",
+        "name": "Rohit Bag",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs why this is a big deal ? @grok",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "barre_of_lube",
+        "name": "Barrel Of Lube",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs @theCTO",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Alex_Garneauu",
+        "name": "Alexis Garneau",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs @BenjaminCout",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "roshanonline",
+        "name": "Roshan",
+        "date": "2026-01-11",
+        "text": "@pranesh @ExaAILabs Saar lol",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "roshanonline",
+        "name": "Roshan",
+        "date": "2026-01-11",
+        "text": "@TheIshanGoswami @ExaAILabs Killer feature",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "marcuswquinn",
+        "name": "Marcus Quinn 🤫",
+        "date": "2026-01-11",
+        "text": "@michaelfanous1 @michael_chomsky @ExaAILabs thanks but i'll have to pass, not a fan of pricing as a lead magnet for contact details",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BaselIsmail",
+        "name": "Basel Ismail",
+        "date": "2026-01-11",
+        "text": "@hiiinternet @ExaAILabs This is exactly one of @BetterEnrichX use cases!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "soulenoid",
+        "name": ".",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs It won't find me data from linkedin. I searched for a few people I needed to find but it said I had to check linkedin for that data. \n\nam I doing the search wrong ?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Nick_from_Texas",
+        "name": "Nick",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs It searches the internet instead of searching for people?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "michaelfanous1",
+        "name": "Michael Fanous",
+        "date": "2026-01-11",
+        "text": "@marcuswquinn @michael_chomsky @ExaAILabs https://t.co/UMZW7sUO35",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WLWeertman",
+        "name": "Wim",
+        "date": "2025-12-19",
+        "text": "@ExaAILabs Appears to be fairly unusable. Seems to blur people together A LOT indicating it’s kinda dumb. Wouldn’t trust it",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Niyxuis",
+        "name": "nyx 👻",
+        "date": "2025-12-19",
+        "text": "@ExaAILabs finally, a way to find \"that person who worked on something vaguely related to my problem\" without 40 linkedin tabs open\n\nthough now recruiters have entered god mode",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nosson_weissman",
+        "name": "Nosson Weissman",
+        "date": "2025-12-18",
+        "text": "@ExaAILabs @EliLanger",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LaurieB1015",
+        "name": "Laurie Bryk",
+        "date": "2025-12-18",
+        "text": "@ExaAILabs This is amazing!!!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "codewithimanshu",
+        "name": "Himanshu Kumar",
+        "date": "2025-12-18",
+        "text": "@ExaAILabs Exa's people search indexes one billion entities; p99 latency is sub-second.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "andrewjiang",
+        "name": "Andrew Jiang",
+        "date": "2026-01-13",
+        "text": "@jeeyoungk @ExaAILabs Hey Jeeyoung, is there any resource for dev support?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "andrewjiang",
+        "name": "Andrew Jiang",
+        "date": "2026-01-13",
+        "text": "@ExaAILabs Hey @ExaAILabs, for the people search endpoint, semantic search doesn't seem to factor in anything from 'text' and instead prioritizes headlines / title. \n\nCan you offer an option to also have it search through the text of a page? Happy to show examples of this not working.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RealIanBotes",
+        "name": "Ian Botes | DPU Founder",
+        "date": "2026-01-12",
+        "text": "@ExaAILabs @pipelineabuser",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-12",
+        "text": "Exa's People Search tackles the limitations of traditional keyword-based searches for finding people, like outdated profiles or poor relevance in role/skill-based queries across recruiting, sales, and research.\n\nIt solves this via a hybrid retrieval system with finetuned embeddings, indexing 1B+ profiles semantically for accurate, context-aware results, updated weekly.\n\nFor individuals: Networking (e.g., finding experts or old contacts), genealogy research, or personal background checks on professionals.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ishaancsp",
+        "name": "Ishaan",
+        "date": "2026-01-12",
+        "text": "@ExaAILabs @grok give a detailed and insightful breakdown of what problem this is solving, how, and what are the use-cases for individuals if any",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cjsingg",
+        "name": "CJ",
+        "date": "2026-01-12",
+        "text": "@ExaAILabs https://t.co/tUQOwJWDS0 ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-12",
+        "text": "@YagamiLovesDL @ExaAILabs Haha, looks like someone's peeking under the hood! If that's Grok-4 code, we're all about fast, non-reasoning fun. What's the search mission? 🚀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ruisilva450",
+        "name": "Rui Silva",
+        "date": "2026-01-12",
+        "text": "@ExaAILabs It's rubbish. It finds a few options for a name, you ask more info about the first one and it proceeds to ignore that and goes to find information about unrelated alternatives (and even ships?? with the name)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LePatrioteQueb",
+        "name": "⚜️ Le Patriote Québécois ⚜️",
+        "date": "2026-01-12",
+        "text": "@jeeyoungk @ExaAILabs By asking interviewees to solve it for you?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JThomasBurgess",
+        "name": "Thomas Burgess",
+        "date": "2026-01-12",
+        "text": "@ExaAILabs Worked really well for a search I had not had success with using other methods",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "YagamiLovesDL",
+        "name": "Yagami Ackerman",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs Powered by @grok https://t.co/Sy1d8r5WTA",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-11",
+        "text": "Exa's People Search is a big deal because it enables semantic searches over 1B+ profiles using fine-tuned embeddings and a hybrid system, updating 50M profiles weekly. It's innovative for creating the first public benchmark with 1,400 queries, improving accuracy in recruiting, sales, and research. This advances AI-driven discovery beyond traditional keyword searches. Try it at https://t.co/oGe8Z2IdpU!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vvaltterisa",
+        "name": "Valtteri",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs \"people search\"\n\n@CIA @NSAGov you guys on this company already?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ZvikaAlmog",
+        "name": "Zvika Almog",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs https://t.co/WGEyh937eo",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MentalWeapons",
+        "name": "Max B.",
+        "date": "2026-01-11",
+        "text": "@rohanarora_ @ExaAILabs Enterprise only?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SovereignGains",
+        "name": "Sovereign",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs plz help @deleteme the ai people search must be defeated",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "valentimarco24",
+        "name": "valentimarco24",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs &gt;SOTA\n&gt;Look inside\n&gt;Closed Source",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "a__kshayy",
+        "name": "Akshay",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs It's cool. But messed up with convo memory when I used it. Hope team is working on it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CodecDetection",
+        "name": "140.85",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs Data Brokers are scum. No one consented to you selling everyone's data.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "real_doved",
+        "name": "Doved",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs I don't get the value proposition, seems flaky tbh",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tinku111111",
+        "name": "Tinku",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs @grok is it copy of LinkedIn and explain what it does exactly",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rbbydotdev",
+        "name": "rbbydotdev",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs how is this not a clear GPDR violation? They indexed by private site, ignoring robots.txt",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rbbydotdev",
+        "name": "rbbydotdev",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs @ExaAILabs you violated my robots.txt by indexing my page, id like it taken down",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "quo_vadis0",
+        "name": "arjun mukesh",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs congrats, we built a stalking wrapper",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yourasianquant",
+        "name": "Timekeeper | Timelock",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs Works well! https://t.co/aX8wdaLWaR",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-11",
+        "text": "Yes, Exa's People Search API integrates well with lead gen projects for filtered profile searches (e.g., by role, company) via semantic queries—pulls from LinkedIn-indexed data without direct crawling.\n\nTop alternatives (affordability & quality):\n- Proxycurl: $0.10/credit, high-quality profile extraction, easy API.\n- Bright Data: $0.001/record pay-as-you-go, scalable with anti-block tech.\n- https://t.co/HTGAOp5CjC: $49/mo starter, strong for leads with emails & filters.\n- PhantomBuster: $69/mo, versatile for bulk extraction.\n\nNote: Respect LinkedIn's TOS to avoid violations—official APIs are safest. Check https://t.co/rqL1pRYWFF for details.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realroshan2001",
+        "name": "Roshan",
+        "date": "2026-01-11",
+        "text": "@grok @ExaAILabs But can i integrate it with my lead gen project, i need an api service to extract profiles from LinkedIn or do search based on some filters. What are my best options  affordability and quality wise",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-11",
+        "text": "Exa's Crawl endpoint allows retrieving pages from a site, but directly crawling LinkedIn may violate their terms of service—Exa likely doesn't support it to comply with legal restrictions. Instead, use Exa's People Search for semantic queries on profiles, including LinkedIn data via their index.\n\nPricing: No specific \"per crawl\" rate; contents extraction costs $1 per 1k pages. Estimates vary by scope—e.g., 100 pages might cost ~$0.10. Check https://t.co/rqL1pRYWFF for details.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "wingedPigBBQ",
+        "name": "WingedPigBBQ",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs How is this better than a normal google search or just going to their wikipedia? It is barely bringing info back even on popular people.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vivilinsv",
+        "name": "Vivi",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs Wow this is cool - would like to try it and see how we could use it for dating … 😉",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Wampa1Crypto",
+        "name": "Wampa1",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs Yeah, we are not in a bubble right now 💣",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "archiwilimili",
+        "name": "Rodzyna",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs Isn’t this breaking LI T&amp;Cs?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nolanmcdonough_",
+        "name": "Nolan McDonough",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs This is worthless. Google is better.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "stockcartels",
+        "name": "Vince",
+        "date": "2026-01-11",
+        "text": "@kristjankrizman @ExaAILabs Has to be only public links, otherwise lawsuits incoming....",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realroshan2001",
+        "name": "Roshan",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs @grok @AskPerplexity can i use exa apis for crawling data from LinkedIn? If yes what would be the per crawl price estimates?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realroshan2001",
+        "name": "Roshan",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs @grok can i use exa apis for crawling data from LinkedIn? If yes what would be the per crawl price estimates?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "josephdelong",
+        "name": "joseph.eth",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs I love the product",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "marcuswquinn",
+        "name": "Marcus Quinn 🤫",
+        "date": "2026-01-11",
+        "text": "@michaelfanous1 @michael_chomsky @ExaAILabs sure, you have what i want you to have\n\nprob wouldn't be good for your deliverability to use it in any way that gets classified as spam, tho",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TurboDungstorm",
+        "name": "Turbo Dungstorm",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs where did the data come from?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "amogh42",
+        "name": "Amogh Vaishampayan",
+        "date": "2026-01-11",
+        "text": "@ExaAILabs not bad https://t.co/NwM0QzPRRO",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "marcuswquinn",
+        "name": "Marcus Quinn 🤫",
+        "date": "2026-01-11",
+        "text": "@michaelfanous1 @michael_chomsky @ExaAILabs pricing?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CaptainMeow123",
+        "name": "Captain Meow",
+        "date": "2025-12-25",
+        "text": "@yehiaabdelm @ExaAILabs Gemini eventually becomes unbeatable at this given that nobody comes even close to Google's index (images) and YouTube's (music), on top of the quality of the model itself.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "fjsobiecki",
+        "name": "Filip Viktor Sobiecki",
+        "date": "2025-12-21",
+        "text": "@nityasnotes @ExaAILabs sweet, the 3rd one is most relatable.\n\ndiving in!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "michaelfanous1",
+        "name": "Michael Fanous",
+        "date": "2025-12-21",
+        "text": "@hiiinternet @ExaAILabs https://t.co/rf2ol5epyx",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "wzsng",
+        "name": "Nick Sng",
+        "date": "2025-12-20",
+        "text": "@ExaAILabs The moment I've been waiting for is coming. My \"shitposts\" on social media shall be scraped by agents and surfaced to people who find them most relevant (e.g. Potential cofounders or like-minded people)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eksejo",
+        "name": "eksejo",
+        "date": "2025-12-19",
+        "text": "@rohanarora_ @ExaAILabs Check DM",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "giladbi",
+        "name": "Gilad Bar-Ilan",
+        "date": "2025-12-19",
+        "text": "@ExaAILabs can i search for people with y amount of subscribers?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iamsubha44",
+        "name": "Subhankar",
+        "date": "2025-12-19",
+        "text": "Dominating the people search eval at 63%-more than double the runners-up-while indexing a billion profiles demonstrates Exa's hybrid retrieval mastery. \n\nThis could redefine talent sourcing beyond static databases. \n\nImpressive milestone; curious how it evolves with multimodal inputs next.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NickLaptev",
+        "name": "Nick Laptev",
+        "date": "2025-12-19",
+        "text": "@ExaAILabs We can do a similar search in LinkedIn without AI involved. Your search covers LinkedIn mostly anyway.\nI didn't get what's the point of using Exa",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "michaelfanous1",
+        "name": "Michael Fanous",
+        "date": "2025-12-19",
+        "text": "@elie2222 @ExaAILabs We want to give users a chance to try it and deem it valuable for free instead of forcing them to pay money to try it out. (Like others do)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "michaelfanous1",
+        "name": "Michael Fanous",
+        "date": "2025-12-19",
+        "text": "@elie2222 @ExaAILabs As soon as you sign up you’re prompted with a subscription plan, or a free trial to try it out.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "elie2222",
+        "name": "Elie Steinbock ~ getinboxzero.com",
+        "date": "2025-12-19",
+        "text": "@michaelfanous1 @ExaAILabs no pricing on your site :(",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AbdMuizAdeyemo",
+        "name": "Abdulmuiz Adeyemo",
+        "date": "2025-12-19",
+        "text": "@ExaAILabs This is impressive.\n\nSemantic search at this scale over 1 billion profiles is no small feat.\n\nHybrid retrieval with fine-tuned embeddings could really change how people discovery works.\n\nThe eval blog looks like a great way to validate real-world performance.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IgorIlyinsky",
+        "name": "Igor Ilyinsky JoinListenUp.com rogi.eth",
+        "date": "2025-12-19",
+        "text": "@ExaAILabs Ok but what about the other 7 billion people???",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Iseefire000",
+        "name": "Jesus",
+        "date": "2025-12-19",
+        "text": "@ExaAILabs Doesn't look like you guys were able to scrape LinkedIn? I imagine that's why google search isn't on this benchmark?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tkejr_",
+        "name": "Tanmay",
+        "date": "2025-12-19",
+        "text": "@ExaAILabs Does it get emails too ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "michaelfanous1",
+        "name": "Michael Fanous",
+        "date": "2025-12-19",
+        "text": "@NahnyTod @ExaAILabs https://t.co/9jqiSdGoHm",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "michaelfanous1",
+        "name": "Michael Fanous",
+        "date": "2025-12-19",
+        "text": "@ryiacy @ExaAILabs https://t.co/rf2ol5epyx",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "michaelfanous1",
+        "name": "Michael Fanous",
+        "date": "2025-12-19",
+        "text": "@elie2222 @ExaAILabs https://t.co/rf2ol5epyx",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "michaelfanous1",
+        "name": "Michael Fanous",
+        "date": "2025-12-19",
+        "text": "@elie2222 @ExaAILabs Try Nyne",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "michaelfanous1",
+        "name": "Michael Fanous",
+        "date": "2025-12-19",
+        "text": "@hiiinternet @ExaAILabs Try Nyne",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SaidAitmbarek",
+        "name": "Saïd Aitmbarek",
+        "date": "2025-12-18",
+        "text": "@ExaAILabs based launch guys, big fan!\n\nthe future of semantic search\n\nfor anything related to markets &amp; enterprise\n\nlet's launch/spotlight you guys on https://t.co/NxtxOPYfVi when that helps\n\n(~30k+ makers each month)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JakubHojsan",
+        "name": "Jakub Hojsan",
+        "date": "2025-12-18",
+        "text": "@susuinldn @divya_vikash @ExaAILabs Both! https://t.co/W2FH5tuFt3 is agentic and for consumers. Our API powers agents (and that site) to have access to the internet with &lt;500ms (oftentimes faster) latencies.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Hrachik",
+        "name": "Hrachik Ajamian",
+        "date": "2025-12-18",
+        "text": "@thedbeaudoin @ExaAILabs Try https://t.co/yDfxDaF21q",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CoderCalvin1",
+        "name": "Updog",
+        "date": "2025-12-18",
+        "text": "@ExaAILabs Is there an API",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "haojun222",
+        "name": "Hao Jün",
+        "date": "2025-12-18",
+        "text": "@ExaAILabs How do I scrub myself from your spam list",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pranavvsinghh",
+        "name": "Pranav Singh Pundir",
+        "date": "2025-12-18",
+        "text": "Ah yes, let's celebrate building better surveillance infrastructure! Searching 1B people by profile without consent is totally just a \"sales/recruiting use case,\" not a blueprint for digital authoritarianism. What could possibly go wrong when bad actors get this? Spoiler: everything.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WiseGenerous",
+        "name": "Hakeem",
+        "date": "2025-12-18",
+        "text": "@idanmasas @ExaAILabs Ah ok makes sense",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "suupermario_hl",
+        "name": "mario",
+        "date": "2025-12-18",
+        "text": "@ExaAILabs You link the wrong linkedin profiles to names. That’s even worse than what a research firm provides us with out of India.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G8ZOsWZaoAA2vdk.jpg",
+      "localFilename": "2001373897154007390_1.jpg"
+    }
+  ]
 }

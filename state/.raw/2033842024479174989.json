@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:12:53.445Z",
+  "tweetId": "2033842024479174989",
+  "post": {
+    "url": "https://x.com/RoundtableSpace/status/2033842024479174989",
+    "author": {
+      "handle": "RoundtableSpace",
+      "name": "0xMarioNawfal"
+    },
+    "date": "2026-03-17",
+    "text": "A STUDENT USED ANTHROPIC AI TO TURN ~$1K INTO $1.5M ON POLYMARKET WITH 44K TRADES AND A QUANT-DRIVEN BOT.\n\nhttps://t.co/nfWym4rOPW",
+    "thread": [
+      {
+        "id": "2033842024479174989",
+        "text": "A STUDENT USED ANTHROPIC AI TO TURN ~$1K INTO $1.5M ON POLYMARKET WITH 44K TRADES AND A QUANT-DRIVEN BOT.\n\nhttps://t.co/nfWym4rOPW"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2033592887871737861/vid/avc1/886x1302/fQliCLyMikJPqcZx.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2033592887871737861/img/4QuhnegwguQTZA_x.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2033592896197103616/vid/avc1/896x1694/PK4bWCxxd94S1sq4.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2033592896197103616/img/WKKQ0KkBLlegkr8x.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 7088,
+      "retweets": 452,
+      "replies": 354,
+      "views": 2351120
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2033592887871737861/img/4QuhnegwguQTZA_x.jpg",
+      "localFilename": "2033842024479174989_1_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2033592896197103616/img/WKKQ0KkBLlegkr8x.jpg",
+      "localFilename": "2033842024479174989_2_poster.jpg"
+    }
+  ]
+}

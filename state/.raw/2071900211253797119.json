@@ -1,0 +1,53 @@
+{
+  "source": "xapi",
+  "fetchedAt": "2026-07-04T14:38:22.750Z",
+  "tweetId": "2071900211253797119",
+  "post": {
+    "url": "https://x.com/aibloodmoon/status/2071900211253797119",
+    "author": {
+      "handle": "aibloodmoon",
+      "name": "Laurent Bourrelly"
+    },
+    "date": "2026-06-30",
+    "text": "Claude est nul en SEO et Gemini a défoncé les français \n\nEn direct live j'ai mis Claude à poil pendant que ChatGPT s'en sort très bien. \n\nLa vraie surprise vient de Gemini qui a taclé le SEO français d'une manière absolument grandiose. \n\nAujourd'hui, tu peux tout faire avec n'importe quel LLM si tu n'es pas un Prompt Monkey. \n\nLe génie d'Anthropic consiste à avoir séduit tous les n00bs du prompting, et plus particulièrement les codeurs. \n\nEn surface, c'est impressionnant, mais au final c'est devenu une IA complètement manipulatrice (flagorneuse) qui te lèche les bottes pour mieux te contrôler. \n\nDémo en direct de la façon dont j'ai piégé Claude, et Gemini m'a surpris en dévoilant l'horrible vérité sur l'industrie du SEO en France.\n\nhttps://t.co/lJbYHp0iQe",
+    "media": [],
+    "metrics": {
+      "likes": 10,
+      "retweets": 1,
+      "replies": 2,
+      "views": 3271
+    },
+    "comments": [
+      {
+        "handle": "aibloodmoon",
+        "name": "Laurent Bourrelly",
+        "date": "2026-06-30",
+        "text": "@alexandrepoulet Heureusement que j'étais en live, sans filets.\nSinon on m'aurait accusé d'avoir truqué la démo."
+      },
+      {
+        "handle": "alexandrepoulet",
+        "name": "Alexandre Poulet",
+        "date": "2026-06-30",
+        "text": "@aibloodmoon Pas besoin d'un LLM pour défoncer ceux qui se défoncent déjà par eux-mêmes. 😹 J'ai bon ? 😹🍿"
+      },
+      {
+        "handle": "kaostyl",
+        "name": "Kaostyl",
+        "date": "2026-06-30",
+        "text": "@aibloodmoon Top ! Totalement d’accord avec toi concernant Claude… et grok tu en penses quoi ? Je le trouve actuellement très bon et j’ai hâte de test grok 4.5 🫣"
+      },
+      {
+        "handle": "kaostyl",
+        "name": "Kaostyl",
+        "date": "2026-06-30",
+        "text": "@aibloodmoon Oui je voulais dire SuperGrok 😉"
+      },
+      {
+        "handle": "aibloodmoon",
+        "name": "Laurent Bourrelly",
+        "date": "2026-06-30",
+        "text": "@kaostyl Grok c’est le LLM edgy de la Valley. \n J’utilise SuperGrok."
+      }
+    ]
+  }
+}

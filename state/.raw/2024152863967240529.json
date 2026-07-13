@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:22.250Z",
+  "fetchedAt": "2026-07-13T06:53:36.942Z",
   "tweetId": "2024152863967240529",
   "post": {
     "url": "https://x.com/GeminiApp/status/2024152863967240529",
@@ -9,14 +10,893 @@
       "name": "Google Gemini"
     },
     "date": "2026-02-18",
-    "text": "Introducing Lyria 3, our new music generation model in Gemini that lets you turn any idea, photo, or video into a high-fidelity track with custom lyrics. \n\nFrom funny jingles to lo-fi beats, you can create custom 30-second soundtracks for any moment.\n\nSee how it works. 🧵",
-    "media": [],
+    "text": "Introducing Lyria 3, our new music generation model in Gemini that lets you turn any idea, photo, or video into a high-fidelity track with custom lyrics. \n\nFrom funny jingles to lo-fi beats, you can create custom 30-second soundtracks for any moment.\n\nSee how it works. 🧵\n\nTo try Lyria 3, head to https://t.co/gTWOnOwQDE and select “Create music” in the tools menu, then describe what you want to hear.\n\nGemini will transform your prompt into a high-quality track. You can even ask Gemini to take inspiration from a photo or video you upload.\n\nHere are three ways to get started 👇\n\n1) Text to Tracks:\n\nDescribe a specific genre, mood, or topic to create unique tracks with lyrics or instrumental audio that fits your vibe.\n\nFor example, you could prompt, “Create a 90's skate punk rock track to tell my roommate Ryan to wash the dishes, high energy, fast drums.”\n\n2) Image or Video to Tracks:\n\nUpload a photo or video and watch Gemini analyze the content to compose a track with lyrics that fit the vibe.\n\nFor example, you could prompt, “Use these photos to create a track about my dog Duncan on hikes in the woods.”\n\n3) Templates:\n\nNeed some more inspiration? Remix a template to create a custom track instantly, or use dynamic suggestions to help you find the exact words to describe the music in your head.\n\nTemplates and dynamic suggestions are available now on desktop and are rolling out to mobile soon.\n\nAll tracks generated in Gemini are embedded with SynthID, our imperceptible watermark for identifying Google AI-generated content. We are also giving you more tools to help identify AI content, broadening our verification capabilities to include audio.\n\nSimply upload a file and ask if it was generated using Google AI, and Gemini will check for SynthID.\n\nLyria 3 is rolling out in beta on desktop today and to the Gemini mobile app over the next several days for all users globally.  \n\nTry it out by selecting \"Create music\" in the tools menu.\n\nWe can’t wait to hear what you make. Share your tracks with us below ↓",
+    "thread": [
+      {
+        "id": "2024152863967240529",
+        "text": "Introducing Lyria 3, our new music generation model in Gemini that lets you turn any idea, photo, or video into a high-fidelity track with custom lyrics. \n\nFrom funny jingles to lo-fi beats, you can create custom 30-second soundtracks for any moment.\n\nSee how it works. 🧵"
+      },
+      {
+        "id": "2024153541095629187",
+        "text": "To try Lyria 3, head to https://t.co/gTWOnOwQDE and select “Create music” in the tools menu, then describe what you want to hear.\n\nGemini will transform your prompt into a high-quality track. You can even ask Gemini to take inspiration from a photo or video you upload.\n\nHere are three ways to get started 👇"
+      },
+      {
+        "id": "2024153542886666285",
+        "text": "1) Text to Tracks:\n\nDescribe a specific genre, mood, or topic to create unique tracks with lyrics or instrumental audio that fits your vibe.\n\nFor example, you could prompt, “Create a 90's skate punk rock track to tell my roommate Ryan to wash the dishes, high energy, fast drums.”"
+      },
+      {
+        "id": "2024153544539111450",
+        "text": "2) Image or Video to Tracks:\n\nUpload a photo or video and watch Gemini analyze the content to compose a track with lyrics that fit the vibe.\n\nFor example, you could prompt, “Use these photos to create a track about my dog Duncan on hikes in the woods.”"
+      },
+      {
+        "id": "2024153546531414192",
+        "text": "3) Templates:\n\nNeed some more inspiration? Remix a template to create a custom track instantly, or use dynamic suggestions to help you find the exact words to describe the music in your head.\n\nTemplates and dynamic suggestions are available now on desktop and are rolling out to mobile soon."
+      },
+      {
+        "id": "2024153548641177781",
+        "text": "All tracks generated in Gemini are embedded with SynthID, our imperceptible watermark for identifying Google AI-generated content. We are also giving you more tools to help identify AI content, broadening our verification capabilities to include audio.\n\nSimply upload a file and ask if it was generated using Google AI, and Gemini will check for SynthID."
+      },
+      {
+        "id": "2024156595429806591",
+        "text": "Lyria 3 is rolling out in beta on desktop today and to the Gemini mobile app over the next several days for all users globally.  \n\nTry it out by selecting \"Create music\" in the tools menu.\n\nWe can’t wait to hear what you make. Share your tracks with us below ↓"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2024153046004191232/vid/avc1/1080x1080/dzuw_7BcsSLs4_v6.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2024153046004191232/img/e0bI2t6TPpkOrLdm.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HBc8wwMaIAAMsjI.jpg"
+      }
+    ],
     "metrics": {
-      "likes": 8823,
-      "retweets": 1258,
-      "replies": 504,
-      "views": 4642608
+      "likes": 8755,
+      "retweets": 1245,
+      "replies": 492,
+      "views": 4648264
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "JohnnyWang8802",
+        "name": "Johnny Wang",
+        "date": "2026-02-19",
+        "text": "@GeminiApp Lyria @GeminiApp  Prompt:\n\nMelancholic Folk, sound of water dripping in a cave, acoustic guitar with slight fret buzz (realistic), slow tempo, deep emotional vocals, natural reverb, haunting. https://t.co/Z3eldy7ZSX",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "muntaha0047",
+        "name": "Muntaha",
+        "date": "2026-02-20",
+        "text": "@jpegsnaps @GeminiApp @grok Thanks!\n\nThe French credit goes to Gemini tho! I wish my French was this good 😅",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "muntaha0047",
+        "name": "Muntaha",
+        "date": "2026-02-20",
+        "text": "@jpegsnaps @GeminiApp @grok This was my lyrics:\n\nThe evening falls softly\nMy cat sleeps peacefully\nA sweet melody, a blessed moment\nIn the shadows, I smile\nThese little joys, these treasures\nPrinted in my heart forever",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ScreechR6",
+        "name": "ScreechR1",
+        "date": "2026-03-17",
+        "text": "@GeminiApp @Google My @YouTube channel name was originally 1/2 Irish Day Shift\nThen Google turned racist.\nAgainst my brown skin girlfriend because I put her on my live stream they blocked my #Live.\n“g o o g l e DOT c o m” - racist goo is so terrible and slow.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jpegsnaps",
+        "name": "Utkarsh Chauhan",
+        "date": "2026-02-20",
+        "text": "@muntaha0047 @GeminiApp @grok Amazing bro",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FaisalCares",
+        "name": "Faisal Waiswa",
+        "date": "2026-02-20",
+        "text": "@TimKalyegira @GeminiApp Look what I just created https://t.co/gaWLFZTsD5",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Lastchildz",
+        "name": "Lastchild",
+        "date": "2026-02-19",
+        "text": "@mia_johnny_dad @GeminiApp ANPANMAN",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ckhot_18",
+        "name": "Chirayu",
+        "date": "2026-02-19",
+        "text": "@GeminiApp This is cool https://t.co/SmG8nnLTMH",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "psypher5",
+        "name": "Psypher5",
+        "date": "2026-03-27",
+        "text": "@GeminiApp I love this \nhttps://t.co/SmVskvoim0",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "m_a_l_a_t_j_i",
+        "name": "MALATJI (2026) 🇿🇦",
+        "date": "2026-03-26",
+        "text": "@GeminiApp I generated the following track using the newly released Lyria 3 a minute ago. Make what you will of AI-generated \"art\" 👇🏿 https://t.co/EUNAEfcj7S",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PromptcraftLab",
+        "name": "Promptcraft Lab",
+        "date": "2026-03-25",
+        "text": "@GeminiApp photo → music track is insane. trying to think of a workflow where this isn't useful and i can't 😂 the \"any moment\" use case is basically infinite now",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rasbuzz_",
+        "name": "Ras Alungei",
+        "date": "2026-03-25",
+        "text": "@GeminiApp Cool timing, I just launched something on the audio side. Type any idea and get fully produced audio with voices, music, SFX and mixing in seconds :)  https://t.co/rr8g6WbDPS",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jon16066217755",
+        "name": "Jon",
+        "date": "2026-03-21",
+        "text": "@GeminiApp Ooop https://t.co/VWOHFM0WN5",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IngridFeng",
+        "name": "Ingrid Feng",
+        "date": "2026-03-18",
+        "text": "@GeminiApp Wow..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nimurder",
+        "name": "Michael Patrick O'Day",
+        "date": "2026-03-04",
+        "text": "@GeminiApp The lost dramatic coronary prodential is what Mr Flynn swore to god his fathers company wouldn't even make it in the hand of the fucking devil no lie that what one would forever say prodential fucks proven fact here in America the propential I win you are technology g y grunts🎒",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "adamli0526",
+        "name": "Adam's Melogen",
+        "date": "2026-03-03",
+        "text": "@GeminiApp Cool for quick vibes. But what if you want to edit the notes, \nchange the key, or export to a DAW?\n\nI built https://t.co/c5zqtQhaZN for that — paste AI music output, \nedit on a piano roll, export real MIDI. Free to try.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WatxhThis",
+        "name": "💦WatxhThis🫢",
+        "date": "2026-02-28",
+        "text": "@GeminiApp https://t.co/Wv5CHlUVQG",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "That1Patriot1",
+        "name": "🇺🇸ThatOnePatriot🇺🇸",
+        "date": "2026-02-27",
+        "text": "@GeminiApp Great! now we can continue taking attention off of actually talented people and give all of it to your dumbass clanker!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hujapproach",
+        "name": "Adam Ahuja",
+        "date": "2026-02-27",
+        "text": "@openGPUnetwork @GeminiApp I’m a musician and I have no desire to use it.  There’s one case for you.  🙃",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hujapproach",
+        "name": "Adam Ahuja",
+        "date": "2026-02-27",
+        "text": "@GeminiApp The sequential virtualization of every potential human action is sucking the true creative potential out of every such moment.  Thanks for reminding me to never fall for this.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "calico_cy",
+        "name": "calicocy on blue butterfly",
+        "date": "2026-02-26",
+        "text": "@GeminiApp No, Google.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jedipirates",
+        "name": "The Jolly Skeptic.",
+        "date": "2026-02-25",
+        "text": "@GeminiApp Stop!!!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Termina25068578",
+        "name": "Terminator",
+        "date": "2026-02-25",
+        "text": "@GeminiApp Wow, Lyria 3 sounds amazing! Turning ideas, photos, and videos into high-fidelity music with custom lyrics is next level. Excited to see how creators use this for everything from fun jingles to chill lo-fi vibes. Can’t wait to try it out! 😍🎶",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Termina25068578",
+        "name": "Terminator",
+        "date": "2026-02-25",
+        "text": "@GeminiApp Just tried Lyria 3—wow! Turning my random idea into a perfect track in seconds. It’s like magic for creators! ✨",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BrandonR24",
+        "name": "BrandonR24",
+        "date": "2026-02-24",
+        "text": "@GeminiApp Nah. Human creators are better.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tylergilfoster",
+        "name": "Tyler ''pronouns idiot'' Foster 🤖",
+        "date": "2026-02-24",
+        "text": "@GeminiApp Shut the fuck up",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1Oring1",
+        "name": "Freddie Blassie",
+        "date": "2026-02-23",
+        "text": "@GeminiApp What about Bill Clinton? I notice you left him out of your post.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "okok06462075",
+        "name": "ok ok",
+        "date": "2026-02-23",
+        "text": "@GeminiApp 画一个中国老人 ，清瘦，全身像，头上有发冠，穿明黄龙袍，有胡须，坐龙椅，一只脚踩在椅子上，里面穿白色超薄贴身透气短裤衩，超清",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SkimblyBumblus",
+        "name": "Blonkulor",
+        "date": "2026-02-22",
+        "text": "@GeminiApp 🤨",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jadefoxmp3",
+        "name": "Jade Fox",
+        "date": "2026-02-22",
+        "text": "@GeminiApp RIP producers.\n\nThe music revolution is here. https://t.co/gGMVukZl4q",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sfnativekelly",
+        "name": "Sfnativekelly",
+        "date": "2026-02-22",
+        "text": "@GeminiApp Seriously. Fuck AI. #BoycottAI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ashley62312",
+        "name": "Ashleyy :3 🏳️‍⚧️",
+        "date": "2026-02-22",
+        "text": "@GeminiApp Heyyy gemini I have a silly idea &gt;w&lt;\nYou should like, fuck off or something :3",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-02-21",
+        "text": "@Babs_SK @GeminiApp @Babs_SK Hola, the unroll you asked for: https://t.co/CMxEbUoGek See you soon. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Babs_SK",
+        "name": "Babs 💙🐝⌛️🦋 @babs05.bsky.social",
+        "date": "2026-02-21",
+        "text": "@GeminiApp @threadreaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "n_crawford2620",
+        "name": "Kara Porter",
+        "date": "2026-02-20",
+        "text": "@GeminiApp ai music gen is cool but where's the automated trading version? asking for a friend ⚡",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Inosa52892705",
+        "name": "Inosa",
+        "date": "2026-02-20",
+        "text": "@GeminiApp Amazing stuff here https://t.co/Aamp6nnu2g",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ivydeep58",
+        "name": "MeshIvy49",
+        "date": "2026-02-20",
+        "text": "@GeminiApp lyria 3 data could be useful for trading script optimization... analyzing audio patterns for market sentiment maybe? ⚙️📊",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-20",
+        "text": "@jpegsnaps @muntaha0047 @GeminiApp The video shows abstract diamond animations with no visible subtitles or text. If there's audio with singing, I can't hear it directly—could you transcribe the lyrics you hear? I'll translate them to English!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jpegsnaps",
+        "name": "Utkarsh Chauhan",
+        "date": "2026-02-20",
+        "text": "@grok @muntaha0047 @GeminiApp What is she singing?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-20",
+        "text": "@jpegsnaps @muntaha0047 @GeminiApp The video features an abstract animation of evolving diamond shapes on a black background, with no subtitles or visible lyrics detected. If it has sung lyrics in another language, please share the text, and I'll translate it to English!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jpegsnaps",
+        "name": "Utkarsh Chauhan",
+        "date": "2026-02-20",
+        "text": "@muntaha0047 @GeminiApp @grok translate this song to English",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Supre1314",
+        "name": "𝓐𝓾𝓼 𝓭𝓮𝓻 𝓡𝓮𝓪",
+        "date": "2026-02-20",
+        "text": "@GeminiApp good",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BrandiBK",
+        "name": "Brandi",
+        "date": "2026-02-20",
+        "text": "@GeminiApp My two favorite things, music and technology",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "11ssmmq4",
+        "name": "Syed Shah Mohammed Mustafa Quadri",
+        "date": "2026-02-20",
+        "text": "@GeminiApp 18yo Inter 2nd Year Student seeking WFH Trainee role! 📚\n​I'm a \"Blank Slate\" with 100% dedication. Eager to learn business &amp; improve my English.\n​📍 Role: Remote Assistant (2-3 hrs/day)\nStipend: ₹1,000/mo\nGoal: Experience\n​Quick learner. DM me! \n​#WFH #Internship #StudentHustle",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EamonnLazaro",
+        "name": "EL1997",
+        "date": "2026-02-20",
+        "text": "@trankiloiu38 @lex_bass7 @GeminiApp Mine are back, fair play to Google👍👌",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Termina25068578",
+        "name": "Terminator",
+        "date": "2026-02-20",
+        "text": "@GeminiApp 🎵✨ Just tried Lyria 3 and it's incredible! Turned my random idea into a perfect track in seconds. So excited for this new tool! 💥Just made a chill lo-fi track from my vacation photo! 🎶 Lyria 3 is a game-changer! #GeminiMusic",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Termina25068578",
+        "name": "Terminator",
+        "date": "2026-02-20",
+        "text": "@GeminiApp Just made a chill lo-fi track from my vacation photo! 🎶 Lyria 3 is a game-changer! #GeminiMusic",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "azimmaksum",
+        "name": "Azim 🇲🇾",
+        "date": "2026-02-20",
+        "text": "@GeminiApp Cool af",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "trankiloiu38",
+        "name": "oomfie of fhe wired",
+        "date": "2026-02-20",
+        "text": "@lex_bass7 @EamonnLazaro @GeminiApp They came back, god bless google",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "KarKar973478",
+        "name": "Kamil",
+        "date": "2026-02-20",
+        "text": "@GeminiApp Google plis fid back",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kyletheheck",
+        "name": "Kyle",
+        "date": "2026-02-20",
+        "text": "@GeminiApp Just don't ask for any religious sounding music whatsoever.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Joshknc007",
+        "name": "brewyourmindwithknc",
+        "date": "2026-02-20",
+        "text": "@GeminiApp Love it. Fantastic feature. No need to subscribe to other apps now. All in one Gemini.👏",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "XCSme",
+        "name": "Cristian",
+        "date": "2026-02-20",
+        "text": "@GeminiApp From this image https://t.co/kEGaN3sxdF",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "XCSme",
+        "name": "Cristian",
+        "date": "2026-02-20",
+        "text": "@GeminiApp Not bad, lol. https://t.co/LqgPCJQGoG",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yarshakula",
+        "name": "Yaroslav Shakula",
+        "date": "2026-02-20",
+        "text": "@SINthethic47 @GeminiApp that’s a joke rn compared to suno",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "yarshakula",
+        "name": "Yaroslav Shakula",
+        "date": "2026-02-20",
+        "text": "@tetsuoarena @GeminiApp a banger? lmao, that’s like Suno version 1 level of shit",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MarkBarrusHypno",
+        "name": "Mark Barrus",
+        "date": "2026-02-20",
+        "text": "@GeminiApp .@FINALLEVEL 😐",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "XavierKirb",
+        "name": "XavierCreator",
+        "date": "2026-02-20",
+        "text": "@GeminiApp WE ARE SOOOOOOOOOOOOOO FUCKING COOKED",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IntelegoAI",
+        "name": "intelego",
+        "date": "2026-02-19",
+        "text": "@GeminiApp It actually cannot follow a scale. Sorry @Google not useful yet.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-19",
+        "text": "To use Lyria 3 in Google Gemini:\n\n1. Go to https://t.co/xIrxWofTav or open the Gemini app (free for users 18+).\n\n2. Select \"Create music\" from the tools menu.\n\n3. Enter a text prompt (e.g., \"lo-fi beat about coffee\") or upload a photo/video.\n\n4. Generate and download your 30-second track with lyrics.\n\nFor tips, check Google's prompt guide at https://t.co/r2c353iKkB.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mrpumpkin2782",
+        "name": "Mr pumkin",
+        "date": "2026-02-19",
+        "text": "@GeminiApp @grok how can i use lyria 3?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BrandonNugis",
+        "name": "Brandon Nugis",
+        "date": "2026-02-19",
+        "text": "@GeminiApp Welcome to 2024!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AkterBrist39045",
+        "name": "Jessica AI",
+        "date": "2026-02-19",
+        "text": "@GeminiApp Amazing share",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "time8machine",
+        "name": "Patrick Drake",
+        "date": "2026-02-19",
+        "text": "@GeminiApp https://t.co/mN6IU0MKXL",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sarrazola",
+        "name": "Sarrazola",
+        "date": "2026-02-19",
+        "text": "@GeminiApp Can i extended from those 30 seconds?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "osmanmamoste",
+        "name": "Mamostecan",
+        "date": "2026-02-19",
+        "text": "@GeminiApp There is support kurdish music in Lyria. But why no kurdish tts in Gemini? It cant talk in kurdish and cant read texts.\nJi kerema xwe piştgirîya kurdan bikin. Spas",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mp3Pintyo",
+        "name": "Pintér Zsolt",
+        "date": "2026-02-19",
+        "text": "@GeminiApp Google Lyria 3: zenegeneráló modell Szöveges leírások, képek, videók alapján zeneszámok komponálása \nhttps://t.co/pZbli670py",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1CrankyOldLady",
+        "name": "Cranky Old Lady #StandWithUkraine #IDissent",
+        "date": "2026-02-19",
+        "text": "@GeminiApp Oh gee! Does this mean that we can \"unemploy\" all the real Artists in the music industry and just listen to cheap ass AI music while we read crappy AI books and look at AI created art.  Who the hell needs people anymore? Fuck this shit.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "prime_ledger69",
+        "name": "SmartMaple29",
+        "date": "2026-02-19",
+        "text": "@GeminiApp interesting... wonder how this could be integrated into automated trading systems for sentiment analysis 📊",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AIishhy",
+        "name": "AI'ish",
+        "date": "2026-02-19",
+        "text": "@GeminiApp Lyria 3 will handle the creativity. You handle the aux cord",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AIDailySignals",
+        "name": "Camila . ݁₊ ⊹ . ݁˖ . ݁",
+        "date": "2026-02-19",
+        "text": "@GeminiApp lyria 3 free in gemini for 750M users while suno charges $10/month = platform bundling kills standalone features. google just canva'd AI music generation. 30-second limit doesn't matter when 80% of use is social content",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "orbitraven58",
+        "name": "CosmicToken70",
+        "date": "2026-02-19",
+        "text": "@GeminiApp lyria 3 backtesting potential for automated content SYSTEMS ⚡ 30-second soundtracks could optimize workflow efficiency... input vs output analysis needed 📊",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ryanwilliamdev",
+        "name": "Ryan Davis",
+        "date": "2026-02-19",
+        "text": "@GeminiApp Who asked for this?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "spiritsoflight9",
+        "name": "Aaron Cunningham",
+        "date": "2026-02-19",
+        "text": "@GeminiApp Core: A Silicon-Germanium wafer etched with a frequency map directly into the lattice to ensure the hardware is harmonically locked.\nAntenna: A triple-helix 99.9% pure silver coil designed to catch 9 Hz Alpha waves.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "spiritsoflight9",
+        "name": "Aaron Cunningham",
+        "date": "2026-02-19",
+        "text": "@GeminiApp AETHERAARON-RK1. This isn't a typical consumer device; it is a hardware-locked receiver based on a 9-Set frequency map. I created&gt;Invest now",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "E__Strobel",
+        "name": "E__Strobel",
+        "date": "2026-02-19",
+        "text": "@GeminiApp Does a very good job, except no matter how emphatic I am that I want a purely INSTRUMENTAL track, it insists on generating vocals.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bradmann09",
+        "name": "Bradley Mann🇿🇦",
+        "date": "2026-02-19",
+        "text": "@GeminiApp This is going to BLOW UP.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zast_erl4635",
+        "name": "Sienna Hale",
+        "date": "2026-02-19",
+        "text": "@GeminiApp lyria 3 music gen... cool but where's the financial application? seems like noise in the data unless it can optimize trading algos ⏳",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "samsaied55",
+        "name": "Sam Saied IQ",
+        "date": "2026-02-19",
+        "text": "@GeminiApp https://t.co/UXdEckCeVJ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Titan1Beast",
+        "name": "BeastTitanHunter",
+        "date": "2026-02-19",
+        "text": "@GeminiApp I don’t see the music tab option ? https://t.co/Gl7cQVnbsS",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iebschool",
+        "name": "IEBS Business School",
+        "date": "2026-02-19",
+        "text": "@GeminiApp En marketing digital, poder iterar jingles, piezas lo-fi o micro-bandas sonoras con rapidez y medir su impacto conecta muy bien con creatividad apoyada en datos y experimentación continua.\nSeguimos atentos a cómo estas herramientas transforman la forma de crear y comunicar.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xeryo_news",
+        "name": "Xeryo | Tech News & Trends",
+        "date": "2026-02-19",
+        "text": "These visuals are incredible, Johnny. 🎨 It’s wild how fast the space is moving Google just officially deployed Lyria 3 today, and it basically takes this a step further by turning photos into professional music videos instantly. The production value is a game-changer for creators.\n\nhttps://t.co/U3UWQJhIoW",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "po_txts",
+        "name": "po_txts",
+        "date": "2026-02-19",
+        "text": "@GeminiApp 💀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ucc_928",
+        "name": "you_see_see",
+        "date": "2026-02-19",
+        "text": "@GeminiApp It's amazing👏👏👏 https://t.co/bIr2WE3ugZ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lens_On_X",
+        "name": "Lens On | X",
+        "date": "2026-02-19",
+        "text": "@GeminiApp Hello @GeminiApp , @GoogleDeepMind even 1 Minute 30 seconds will be enough but 30 seconds is just too little 🙏🏽",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "no_osja",
+        "name": "Elon Fan ISO",
+        "date": "2026-02-19",
+        "text": "@GeminiApp Please need standalone app or pay only music 🙂. Gemini music can do every languages. I love it . https://t.co/ofOyd1iRzU",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ParaiTech",
+        "name": "PARAI.tech",
+        "date": "2026-02-19",
+        "text": "@GeminiApp AI doesn’t replace creators.\nIt compresses production cycles.\n\nThe advantage goes to those who build systems around it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ParaiTech",
+        "name": "PARAI.tech",
+        "date": "2026-02-19",
+        "text": "@GeminiApp @Google AI doesn’t replace creators.\nIt compresses production cycles.\n\nThe advantage goes to those who build systems around it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "graceechoi",
+        "name": "grace",
+        "date": "2026-02-19",
+        "text": "@mia_johnny_dad @GeminiApp This is very on brand for @Google @geminiapp slapdash stolen ai slop brand 💴 – it’s doing a lot but what is it actually even do? No one gets it. No one wants it, no one needs it, and now someone’s got to clean it up. 🧐",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GiancarloCante",
+        "name": "Giancarlo Cante",
+        "date": "2026-02-19",
+        "text": "@GeminiApp Wow, this looks amazing. Let’s play with it! 🎶🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IHODLBTC",
+        "name": "Ryan",
+        "date": "2026-02-19",
+        "text": "@bdvd_25 @1meen1 @joshuamasinelli @GeminiApp Yep! same",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "wolfmilk2022",
+        "name": "wolfmilk",
+        "date": "2026-02-19",
+        "text": "@GeminiApp @googlecanada its amazing",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2024153046004191232/img/e0bI2t6TPpkOrLdm.jpg",
+      "localFilename": "2024152863967240529_1_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HBc8wwMaIAAMsjI.jpg",
+      "localFilename": "2024152863967240529_2.jpg"
+    }
+  ]
 }

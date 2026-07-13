@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:10.828Z",
+  "fetchedAt": "2026-07-13T07:07:39.439Z",
   "tweetId": "1968731747102732552",
   "post": {
     "url": "https://x.com/iamnotsrc/status/1968731747102732552",
@@ -10,18 +11,392 @@
     },
     "date": "2025-09-18",
     "text": "latest brand identity highlights 📹 https://t.co/e0BZra4Oye",
+    "thread": [
+      {
+        "id": "1968731747102732552",
+        "text": "latest brand identity highlights 📹 https://t.co/e0BZra4Oye"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/1968479605896949760/vid/avc1/3840x2160/kWUCniOYRnHh_2yo.mp4"
+        "url": "https://video.twimg.com/amplify_video/1968479605896949760/vid/avc1/3840x2160/kWUCniOYRnHh_2yo.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1968479605896949760/img/13yG5KjE_IHx6fXF.jpg"
       }
     ],
     "metrics": {
-      "likes": 375,
+      "likes": 376,
       "retweets": 15,
-      "replies": 22,
-      "views": 14344
+      "replies": 21,
+      "views": 14416
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "iamnotsrc",
+        "name": "src",
+        "date": "2025-09-20",
+        "text": "@vfxzair Thanks Zair!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iamnotsrc",
+        "name": "src",
+        "date": "2025-09-20",
+        "text": "@TryQensa thanks Qensa!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iamnotsrc",
+        "name": "src",
+        "date": "2025-09-20",
+        "text": "@CoastalThemes tysm! 🙏",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iamnotsrc",
+        "name": "src",
+        "date": "2025-09-20",
+        "text": "@bencanoes thanks ben!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CoastalThemes",
+        "name": "Coastal Themes",
+        "date": "2025-09-19",
+        "text": "@iamnotsrc Super sleek — 11/10 🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bencanoes",
+        "name": "Ben | Video Editor 🎞️",
+        "date": "2025-09-19",
+        "text": "@iamnotsrc Love the quality 💯😮‍💨",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iamnotsrc",
+        "name": "src",
+        "date": "2025-09-19",
+        "text": "@mavitdesign Thank you Mavi!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iamnotsrc",
+        "name": "src",
+        "date": "2025-09-19",
+        "text": "@ziyan_abbas Thank you!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zairvfx",
+        "name": "Zair VFX",
+        "date": "2025-09-19",
+        "text": "@iamnotsrc Crazy good",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "uxmateja",
+        "name": "mateja",
+        "date": "2025-09-19",
+        "text": "@iamnotsrc wow, this look so good",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ziyan_abbas",
+        "name": "Muhammad Ziyan",
+        "date": "2025-09-19",
+        "text": "@iamnotsrc really nice work!!!!!!!!!!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mavitdesign",
+        "name": "Mavi",
+        "date": "2025-09-19",
+        "text": "@iamnotsrc awesome work on the design symbols",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iamnotsrc",
+        "name": "src",
+        "date": "2025-09-19",
+        "text": "@DovyRuo thank you!!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iamnotsrc",
+        "name": "src",
+        "date": "2025-09-19",
+        "text": "@chustaaa_ yup! that’s ae",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iamnotsrc",
+        "name": "src",
+        "date": "2025-09-19",
+        "text": "@unrootdesign appreciate it adam!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iamnotsrc",
+        "name": "src",
+        "date": "2025-09-19",
+        "text": "@aleehyder404 thanks alee!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DovyRuo",
+        "name": "Dovy",
+        "date": "2025-09-19",
+        "text": "@iamnotsrc very cool :D !",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chustaaa_",
+        "name": "Chuma",
+        "date": "2025-09-19",
+        "text": "@iamnotsrc Was the animation done in after effects ?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_banjoko",
+        "name": "Banjoko | ui/ux designer | Full Stack developer",
+        "date": "2025-09-19",
+        "text": "@iamnotsrc Sheesshh",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ImAVibeCoder",
+        "name": "ImAvibeCoder",
+        "date": "2025-09-19",
+        "text": "@iamnotsrc Nice cohesion. Did you start from the static mark or from the motion first?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "screensdesign_",
+        "name": "screensdesign",
+        "date": "2025-09-19",
+        "text": "@iamnotsrc killer aesthetics",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MotionByGolden",
+        "name": "Motion By Golden",
+        "date": "2025-09-19",
+        "text": "@iamnotsrc I love the transitions. This is dope man. Good job💯",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aleehyder404",
+        "name": "alee hyder",
+        "date": "2025-09-19",
+        "text": "@iamnotsrc love the motion work!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "unrootdesign",
+        "name": "Adam 🌿 Unroot.design",
+        "date": "2025-09-18",
+        "text": "@iamnotsrc Very good collection 🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zafartalks",
+        "name": "Zafar",
+        "date": "2025-09-18",
+        "text": "@iamnotsrc Nice transitions between slides.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iamnotsrc",
+        "name": "src",
+        "date": "2025-09-18",
+        "text": "@ashie_designs Nice catch! Will implement :) thank you",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "fedefero_",
+        "name": "fedefero",
+        "date": "2025-09-18",
+        "text": "@iamnotsrc hit maker",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ecomtalent",
+        "name": "ET",
+        "date": "2025-09-18",
+        "text": "@iamnotsrc Mann this is sick",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ashie_designs",
+        "name": "Ashie",
+        "date": "2025-09-18",
+        "text": "@iamnotsrc Sick collection🔥 Just curious, have you tried showing the logo when it's minimized instead of the letters? 👀",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nachiiiUI",
+        "name": "Nachi.",
+        "date": "2025-09-18",
+        "text": "@iamnotsrc all are dope",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Rakshansview",
+        "name": "rakshdesigns",
+        "date": "2025-09-25",
+        "text": "@iamnotsrc Interesting! Can we show the logo instead of the cut name during the shrunken card version?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iamnotsrc",
+        "name": "src",
+        "date": "2025-09-20",
+        "text": "@uxmateja Thank you man!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iamnotsrc",
+        "name": "src",
+        "date": "2025-09-19",
+        "text": "@ImAVibeCoder Static first, motion later!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "emazingtaz_",
+        "name": "emazz🛸",
+        "date": "2025-09-19",
+        "text": "@iamnotsrc Will website animations use vanilla CSS or a specific framework?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iamnotsrc",
+        "name": "src",
+        "date": "2025-09-19",
+        "text": "@formstate_ Thanks Nancy!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iamnotsrc",
+        "name": "src",
+        "date": "2025-09-19",
+        "text": "@screensdesign_ ✌🏻",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iamnotsrc",
+        "name": "src",
+        "date": "2025-09-19",
+        "text": "@MotionByGolden Thank you!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iamnotsrc",
+        "name": "src",
+        "date": "2025-09-18",
+        "text": "@nachiiiUI Appreciate it Nachi! 😄",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iamnotsrc",
+        "name": "src",
+        "date": "2025-09-18",
+        "text": "@ecomtalent appreciate it a lot ET! ✌🏻",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iamnotsrc",
+        "name": "src",
+        "date": "2025-09-18",
+        "text": "@fedefero_ ty bro ❤️",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1968479605896949760/img/13yG5KjE_IHx6fXF.jpg",
+      "localFilename": "1968731747102732552_1_poster.jpg"
+    }
+  ]
 }

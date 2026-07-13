@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:03.548Z",
+  "fetchedAt": "2026-07-13T06:46:53.181Z",
   "tweetId": "1971861924703814081",
   "post": {
     "url": "https://x.com/basit_designs/status/1971861924703814081",
@@ -10,18 +11,905 @@
     },
     "date": "2025-09-27",
     "text": "Let's do some magic! https://t.co/Z2iy49rMOC",
+    "thread": [
+      {
+        "id": "1971861924703814081",
+        "text": "Let's do some magic! https://t.co/Z2iy49rMOC"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/1971861853883019264/vid/avc1/2018x1836/qPTO14Xkw91JPtpd.mp4"
+        "url": "https://video.twimg.com/amplify_video/1971861853883019264/vid/avc1/2018x1836/qPTO14Xkw91JPtpd.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1971861853883019264/img/lW5tGHKF2klR0-hD.jpg"
       }
     ],
     "metrics": {
-      "likes": 1195,
-      "retweets": 40,
-      "replies": 57,
-      "views": 47179
+      "likes": 1188,
+      "retweets": 39,
+      "replies": 55,
+      "views": 47303
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "uxilija",
+        "name": "ilija 🔥",
+        "date": "2025-09-27",
+        "text": "@basit_designs Magic witch ball! Love this\nWhat did you use for animation?",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_iam_karthik",
+        "name": "Karthik Balasubramanian",
+        "date": "2025-09-27",
+        "text": "@basit_designs Looks dope. Slightly reminds me of mobius strip :p",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-29",
+        "text": "@shahariyasiyam Thanks",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-29",
+        "text": "@NowshinTasnim7 Thank you Nowshin",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-29",
+        "text": "@danimirgil I am trying best, Thanks Daniel",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-29",
+        "text": "@PhilippFanta Thanks Phillipp",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sorindezzy",
+        "name": "Jérôme",
+        "date": "2025-09-29",
+        "text": "@basit_designs So futuristic",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sorindezzy",
+        "name": "Jérôme",
+        "date": "2025-09-29",
+        "text": "@basit_designs Wow Amazon",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "div_designs",
+        "name": "Divyanshu",
+        "date": "2025-09-28",
+        "text": "@basit_designs Love the colors and the effects",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UpendraAkki",
+        "name": "Upendra Akki",
+        "date": "2025-09-28",
+        "text": "@basit_designs Looks good, maybe avoid the word \"web search\", as the icon depicts that",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "khan_siam_",
+        "name": "Khan",
+        "date": "2025-09-28",
+        "text": "@basit_designs super dope man",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CreativeMiz",
+        "name": "Mominah",
+        "date": "2025-09-28",
+        "text": "@basit_designs WOAH",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "shealewy",
+        "name": "Shea Lewis",
+        "date": "2025-09-28",
+        "text": "@basit_designs Loving the glows",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MeghaliNain",
+        "name": "Meghali Nain",
+        "date": "2025-09-28",
+        "text": "@basit_designs Animation 🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Focotik",
+        "name": "FocoTik",
+        "date": "2025-09-28",
+        "text": "@basit_designs The mood here is perfection",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shahariyasiyam",
+        "name": "Shahariya Alam Siyam",
+        "date": "2025-09-28",
+        "text": "@basit_designs Wow",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NowshinTasnim7",
+        "name": "Nowshin Tasnim",
+        "date": "2025-09-28",
+        "text": "@basit_designs wow! amazing!!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dustin_zeb",
+        "name": "Dustin",
+        "date": "2025-09-28",
+        "text": "@basit_designs Absolutely! Magic is all about wonder and surprise. Can't wait to see what tricks you've got up your sleeve!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PhilippFanta",
+        "name": "Philipp Fanta",
+        "date": "2025-09-27",
+        "text": "@basit_designs Oh wow what a cool animation!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "andreihasna",
+        "name": "Andrei Hasna",
+        "date": "2025-09-27",
+        "text": "@basit_designs jeez this looks so badass. you should design a new OS not just web.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "growthflo",
+        "name": "Flo",
+        "date": "2025-09-27",
+        "text": "@basit_designs Looks so sick Basit!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@RubenSauchelli Thanks Ruben",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@productpilotbb I wash it daily",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "pmvikastiwari",
+        "name": "Vikas Tiwari",
+        "date": "2025-09-27",
+        "text": "@basit_designs This is clean",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RubenSauchelli",
+        "name": "Ruben Sauchelli",
+        "date": "2025-09-27",
+        "text": "@basit_designs Very cool!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MotionByGolden",
+        "name": "Motion By Golden",
+        "date": "2025-09-27",
+        "text": "@basit_designs Wow. Love that Orb",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "liamhoncho",
+        "name": "Honcho",
+        "date": "2025-09-27",
+        "text": "@basit_designs You can absolutely feel it",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "stanlyyaa",
+        "name": "Harsha Abegunasekara",
+        "date": "2025-09-27",
+        "text": "@basit_designs 😍",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nawshad_uix",
+        "name": "Nawshad",
+        "date": "2025-09-27",
+        "text": "@basit_designs You’re warmly welcome manh!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@uiuxakram Thanks alot",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@moss_ux AE",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@nawshad_uix Thanks mate, really appreciated your feedback",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@ShihabBrands Thanks alot bro",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@honchoscript There is",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@utsav_tankariya Thanks Utsav",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@samuvigano Appreciated Sam",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@its_me_crafter Thanks mate",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@uxilija After effects, THanks mate",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@arifcodes Thank you Arif",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@uxmateja :D Thank you mate",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@designbyabu Thanks bro",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "samuvigano",
+        "name": "sam",
+        "date": "2025-09-27",
+        "text": "@basit_designs great work",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yasirmohiuddinn",
+        "name": "Yasir Mohiuddin",
+        "date": "2025-09-27",
+        "text": "@basit_designs you're like the master of orbs haha",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "arifcodes",
+        "name": "arif ☁︎",
+        "date": "2025-09-27",
+        "text": "@basit_designs I love it! The orange colors also feel luxurious.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tarikulbranding",
+        "name": "Tarikul Islam",
+        "date": "2025-09-27",
+        "text": "@basit_designs Amazing Work!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_Anai_x",
+        "name": "Anai_",
+        "date": "2025-09-27",
+        "text": "@basit_designs The orb animation is exceptionally well-crafted.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MahbubUIUXSaaS",
+        "name": "Kazi Mahbub - UX/UI for Growth",
+        "date": "2025-09-27",
+        "text": "@basit_designs Wow",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "designbyabu",
+        "name": "Abu",
+        "date": "2025-09-27",
+        "text": "@basit_designs That's sick",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kxshor",
+        "name": "Kishor",
+        "date": "2025-09-27",
+        "text": "@basit_designs Orb animation is so sick 🤌",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VishalB10042696",
+        "name": "Vishal Birla",
+        "date": "2025-09-27",
+        "text": "@basit_designs Nice interaction",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "uxmateja",
+        "name": "mateja",
+        "date": "2025-09-27",
+        "text": "@basit_designs orb master's back at it again",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vivek_builds",
+        "name": "Vivek",
+        "date": "2025-09-27",
+        "text": "@basit_designs This is lit ...",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@TalhaDevX Thanks Talha",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@madebyvishesh Thanks alot Vishesh",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@dkimberdesigns Thanks David",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@designsbychirag Sir 🙏",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@adamhmwn Thanks mate",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "adamhmwn",
+        "name": "Himawan",
+        "date": "2025-09-27",
+        "text": "@basit_designs magnificent",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "umang13_",
+        "name": "umang sinha 👾",
+        "date": "2025-09-27",
+        "text": "@basit_designs great UI!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ouopacity",
+        "name": "欧opacity",
+        "date": "2025-09-27",
+        "text": "@basit_designs cool",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dkimberdesigns",
+        "name": "David Kimber",
+        "date": "2025-09-27",
+        "text": "@basit_designs Beautiful! Great job on this bro",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TalhaDevX",
+        "name": "Talha",
+        "date": "2025-09-27",
+        "text": "@basit_designs love this",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chitrushr",
+        "name": "Chitru",
+        "date": "2025-09-27",
+        "text": "@basit_designs i can watch that animation all day... that beautifulllll",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zupzup32",
+        "name": "zupzup",
+        "date": "2025-10-01",
+        "text": "@basit_designs Pls😁",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-30",
+        "text": "@zupzup32 Sure",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zupzup32",
+        "name": "zupzup",
+        "date": "2025-09-30",
+        "text": "@basit_designs Can we have this effect?🤔",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JayBorda",
+        "name": "JayBorda",
+        "date": "2025-09-29",
+        "text": "@basit_designs Clean one!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-29",
+        "text": "@sorindezzy Thank you mate",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-29",
+        "text": "@AnasFarq Thanks Anas",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-29",
+        "text": "@thedrpandaa Thanks Sir",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-29",
+        "text": "@shealewy Thanks bro, Glow works well here",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-29",
+        "text": "@nouridex Clean like a glass?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-29",
+        "text": "@andreihasna :D",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-29",
+        "text": "@growthflo Thanks bro",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-29",
+        "text": "@khan_siam_ Thanks Khan",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-29",
+        "text": "@Focotik Perfection is good",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-29",
+        "text": "@div_designs Thanks bro",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kvixiossa",
+        "name": "Kvixi Ossa",
+        "date": "2025-09-28",
+        "text": "@basit_designs Nice but not so good as\nhttps://t.co/teBb5FlziQ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@stanlyyaa Thanks mate",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@MotionByGolden Thanks mate",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@BatSignal_9 Thanks alot",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@designbytheo Yo",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@maybepratikk Thanks Pratik",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@santu_design Thanks alot Santu",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@ouopacity Thanks alot",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@Anshranadesign Thanks mate",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@MahbubUIUXSaaS Thank you Kazi",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@_Anai_x Thanks",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@antonioaestero It means, its good",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@_iam_karthik 😅",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@yasirmohiuddinn Not yet :D",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@tarikulbranding Thank you bro",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@VishalB10042696 Thanks Vishal",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@kshr08 Looks good?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@SkMehedi002 Cheers",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@umang13_ Thanks Umang",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "basit_designs",
+        "name": "Basit A. Khan",
+        "date": "2025-09-27",
+        "text": "@chitrushr Appreciated your compliment",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1971861853883019264/img/lW5tGHKF2klR0-hD.jpg",
+      "localFilename": "1971861924703814081_1_poster.jpg"
+    }
+  ]
 }

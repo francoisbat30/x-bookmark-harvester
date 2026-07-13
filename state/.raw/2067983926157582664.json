@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-06-30T10:00:23.704Z",
+  "fetchedAt": "2026-07-13T07:09:30.024Z",
   "tweetId": "2067983926157582664",
   "post": {
     "url": "https://x.com/PolyumFR/status/2067983926157582664",
@@ -10,13 +11,182 @@
     },
     "date": "2026-06-19",
     "text": "🛑 Marre d'Utiq, le \"cookie télécom\" imposé par les opérateurs (Orange, Free, SFR, Bouygues...) ?\n\nBloquez ce pistage réseau à la racine avec des filtres optimisés pour uBlock Origin, AdGuard &amp; ABP ! 🛡️\n\n👉 https://t.co/yTjEJepxwv",
+    "thread": [
+      {
+        "id": "2067983926157582664",
+        "text": "🛑 Marre d'Utiq, le \"cookie télécom\" imposé par les opérateurs (Orange, Free, SFR, Bouygues...) ?\n\nBloquez ce pistage réseau à la racine avec des filtres optimisés pour uBlock Origin, AdGuard &amp; ABP ! 🛡️\n\n👉 https://t.co/yTjEJepxwv"
+      }
+    ],
     "media": [],
     "metrics": {
-      "likes": 482,
+      "likes": 478,
       "retweets": 119,
       "replies": 6,
-      "views": 26398
+      "views": 26692
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "PolyumFR",
+        "name": "Polyum 🏴‍☠️",
+        "date": "2026-06-20",
+        "text": "@K0dirc Salut ! Pi-hole filtre via le DNS, ce qui est incompatible avec les listes uBO/AdGuard/ABP basées sur des chemins HTTP. Pour ton DNS, il faut utiliser une liste de domaines bruts dédiée, comme celle-ci maintenue par @Ced_haurus :\n👉 https://t.co/OOpDirev7c (1/2)",
+        "likes": 6,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "paupstar",
+        "name": "Paupstar 🦇",
+        "date": "2026-06-20",
+        "text": "@LECOYOTE20 @PolyumFR En gros tu paye ton abonnement internet a ton fai pour qu’il revendent tes données au publicitaires 👍",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "paupstar",
+        "name": "Paupstar 🦇",
+        "date": "2026-06-20",
+        "text": "@LECOYOTE20 @PolyumFR Au lieu d’avoir des cookies pub qui track ta navigation et qui sont facilement bloquable et supprimable, ton opérateur lie ta ligne a un identifiant (anonyme normalement) qui sert a te tracker sur les sites partenaires, ça permet en + de lier plusieurs appareils a ton foyer",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PolyumFR",
+        "name": "Polyum 🏴‍☠️",
+        "date": "2026-06-20",
+        "text": "@K0dirc @Ced_haurus Cependant, le DNS seul ne suffit pas à bloquer totalement Utiq. L'idéal est de superposer plusieurs couches (filtres navigateurs + DNS + VPN + ❌ consentement) comme détaillé dans la matrice \"Defense in Depth\" sur le GitHub !\n🔗 https://t.co/f76cZnCyzy (2/2)",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "daoust_pascal",
+        "name": "Daoust Pascal",
+        "date": "2026-06-20",
+        "text": "@PolyumFR Merci. Installé sur mon Adguard Home",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gbigot",
+        "name": "Gerard BIGOT",
+        "date": "2026-06-20",
+        "text": "@LECOYOTE20 @PolyumFR C'est un tracker d'utiq pour chrome avec un site explicatif : \nhttps://t.co/DyAU2t6Rmn",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "K0dirc",
+        "name": "Kodirc",
+        "date": "2026-06-20",
+        "text": "@PolyumFR Pas de liste Pi-Hole pour le moment ?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Olkimosay",
+        "name": "Olkix",
+        "date": "2026-06-21",
+        "text": "@nonobstanlefait @LECOYOTE20 @PolyumFR De fliquer encore plus efficacement",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Spaylia",
+        "name": "Spaylia",
+        "date": "2026-06-21",
+        "text": "@PolyumFR @K0dirc @Ced_haurus Pi-hole accepte les listes abp",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nonobstanlefait",
+        "name": "M",
+        "date": "2026-06-21",
+        "text": "@Olkimosay @LECOYOTE20 @PolyumFR Oui ça d'accord mais dans quel intérêt ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Olkimosay",
+        "name": "Olkix",
+        "date": "2026-06-21",
+        "text": "@nonobstanlefait @LECOYOTE20 @PolyumFR C’est un traqueur qui fonctionne via ton adresse IP fournie par ton opérateur",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_TFArm",
+        "name": "thefallenarm",
+        "date": "2026-06-21",
+        "text": "@PolyumFR @Chez_LEX",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MadNess_97_1",
+        "name": "MadNess",
+        "date": "2026-06-21",
+        "text": "@PolyumFR J’utilise NextDNS",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FRSineQuaNon",
+        "name": "FRSineQuaNon",
+        "date": "2026-06-21",
+        "text": "@PolyumFR Pour le bloqueur Brave ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LECOYOTE20",
+        "name": "COYOTE",
+        "date": "2026-06-20",
+        "text": "@paupstar @PolyumFR merci des info 👍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rztprog",
+        "name": "Rztprog",
+        "date": "2026-06-20",
+        "text": "@K0dirc @PolyumFR J’aimerais aussi savoir quand ça sera dispo 🙏",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nonobstanlefait",
+        "name": "M",
+        "date": "2026-06-20",
+        "text": "@LECOYOTE20 @PolyumFR Je suis bien intéressé de savoir ce que ça fait exactement aussi",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LECOYOTE20",
+        "name": "COYOTE",
+        "date": "2026-06-20",
+        "text": "@PolyumFR bonjour, c'est quoi Utiq ? ( oui je vie dans une grotte )",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
   }
 }

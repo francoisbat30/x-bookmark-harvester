@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:30.430Z",
+  "tweetId": "2040377584551358575",
+  "post": {
+    "url": "https://x.com/alex_prompter/status/2040377584551358575",
+    "author": {
+      "handle": "alex_prompter",
+      "name": "Alex Prompter"
+    },
+    "date": "2026-04-04",
+    "text": "🚨BREAKING: Claude can now refine your startup idea like Paul Graham evaluates YC startups (for free).\n\nMost ideas sound good. Few survive real scrutiny.\n\nHere are 6 insane Claude prompts that pressure-test your idea before you waste months.\n\n(Save before you build) https://t.co/W9qogpYwwu",
+    "thread": [
+      {
+        "id": "2040377584551358575",
+        "text": "🚨BREAKING: Claude can now refine your startup idea like Paul Graham evaluates YC startups (for free).\n\nMost ideas sound good. Few survive real scrutiny.\n\nHere are 6 insane Claude prompts that pressure-test your idea before you waste months.\n\n(Save before you build) https://t.co/W9qogpYwwu"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HFDgmNabEAAB21G.png"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HFDgmWXbIAE1Tpw.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 1661,
+      "retweets": 220,
+      "replies": 37,
+      "views": 233540
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HFDgmNabEAAB21G.png",
+      "localFilename": "2040377584551358575_1.png"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HFDgmWXbIAE1Tpw.jpg",
+      "localFilename": "2040377584551358575_2.jpg"
+    }
+  ]
+}

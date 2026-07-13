@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-06-30T10:00:31.104Z",
+  "fetchedAt": "2026-07-13T07:09:16.437Z",
   "tweetId": "2058960354340721151",
   "post": {
     "url": "https://x.com/Lab312_/status/2058960354340721151",
@@ -10,6 +11,12 @@
     },
     "date": "2026-05-25",
     "text": "🔐 SETUP MINIMALISTE VIE PRIVÉE 2026 - PAS BESOIN DE 50 EXTENSIONS OU D'UN CHAPEAU EN ALU. 👀\n\nEn 2025 j'avais publié un article, qui à été lu par 21.000 personnes dans sa forme \"article\" et + de 40.000 sous forme de \"thread\"... Depuis, des outils ont changé, d'autres sont apparus, et certains conseils étaient incomplets. \nVoilà la version 2026, corrigée et mise à jour. 🧵\n\n1️⃣ TÉLÉPHONE = FUITE 📲\nTon smartphone est ta plus grosse fuite de données.\nLa solution: GrapheneOS sur un Google Pixel. \nApps uniquement depuis Aurora Store, F-Droid ou Obtainium (un gestionnaire qui télécharge directement depuis les repos GitHub des développeurs - pas d'intermédiaire).\nNavigue avec Vanadium (le navigateur par défaut de GrapheneOS, basé sur Chromium mais sans la couche Google qui te piste).\nDésactive la localisation.\nMode avion quand tu utilises pas ton téléphone.\nEt si c'est trop technique, un dumb phone.\nDans tous les cas, limite les permissions au strict minimum.🚫\n\n2️⃣ NAVIGATEUR = MOUCHARD 🌐\nSur desktop: Librewolf avec uBlock Origin en mode strict. Suppression auto des cookies à chaque fermeture.\nProfils séparés pour compartimenter.\n\"Mais pourquoi Vanadium sur mobile et Librewolf sur desktop ?\" \nVanadium est Chromium-based mais sans la surcouche Google.\nLibrewolf est Firefox-based sans la télémétrie Mozilla.\nLes deux sont clean. Chrome par contre est littéralement conçu pour collecter tes données - c'est le moteur Chromium + toute la machine de surveillance Google par-dessus.\nLa différence c'est pas le moteur, c'est ce qu'on met dessus.🔍\n\n3️⃣ RECHERCHE PRIVÉE 🔎\nGoogle enregistre toutes tes recherches pour construire ton profil publicitaire.\nAlternatives :\n→ Brave Search 🦁 - moteur indépendant, pas de tracking\n→ DuckDuckGo 🦆 - le plus connu, résultats Bing sans le profiling\n→ SearXNG 🛞 - méta-moteur self-hostable, le plus souverain\n→ StartPage ☂️ - résultats Google sans le tracking Google\n\nLe changement prend 30 secondes. Tu ne perdras aucune qualité de résultats.\n\n4️⃣ EMAIL DISCRET 📩\nProtonMail ou Tuta comme boîte principale - chiffré de bout en bout. 🔒\nPour les alias:\nhttps://t.co/YzaWOfj3yf (ex-AnonAddy, indépendant) ou SimpleLogin (racheté par Proton en 2022 - excellent mais ça te met 100% dans l'écosystème Proton si tu utilises déjà ProtonMail). 🕶️\nL'astuce : un alias différent pour chaque service.\nQuand tu reçois du spam sur un alias, tu sais exactement qui a vendu ou fuité ton adresse.\nTu désactives l'alias, problème réglé. 🔄\n\n⚠️ Firefox Relay est limité en gratuit (pas de réponse via alias) \n\n5️⃣ DNS CHIFFRÉ 🌐\nTon FAI voit tous les sites que tu visites via tes requêtes DNS. C'est comme si le facteur lisait les adresses sur toutes tes enveloppes.\n→ NextDNS - configurable, filtrage pub/trackers intégré, logs optionnels\n→ Quad9 (9.9.9.9) - suisse, sans logs, bloque les domaines malveillants\nConfiguration en 2 minutes sur ton routeur ou ton téléphone. DoH ou DoT.\nUn des changements les plus simples avec le plus d'impact.\n\n6️⃣ VPN OU TOR 🌏\nVPN : masque ton IP, chiffre ton trafic.\nIndispensable sur WiFi public. 🕵️\nTor : anonymat fort, connexion via plusieurs relais. Plus lent mais plus anonyme. 🧅\n\n\"Jamais les deux en même temps\" - c'est ce que j'avais écrit en 2025.\nC'est plus nuancé que ça :\n→ VPN puis Tor (VPN → Tor) : utile si tu veux cacher à ton FAI que tu utilises Tor\n→ Tor puis VPN (Tor → VPN) : à éviter, ça casse le modèle de sécurité de Tor\nEn résumé : VPN seul pour le quotidien, Tor seul pour l'anonymat fort, VPN → Tor uniquement si ton FAI bloque ou surveille Tor.\n\n7️⃣ MESSAGERIE SÉCURISÉE 💬\nSignal reste la référence - chiffré bout en bout, facile à utiliser. 📲\nSimpleX - pas besoin de numéro de téléphone, encore plus privé. 🔢\nBriar - fonctionne même sans Internet (mesh network). 🌐\nSMS et WhatsApp ne protègent rien. WhatsApp c'est Meta. Tes métadonnées (qui tu contactes, quand, combien de temps) valent autant que le contenu de tes messages. 🚫\n\n8️⃣ PASSKEYS 🔑\nFini les mots de passe.\nLes passkeys c'est l'authentification sans password, basée sur une paire de clés cryptographiques.=\nLa clé privée reste sur TON appareil, la clé publique va sur le site.\n→ Phishing-proof (rien à taper = rien à voler)\n→ Face ID / Touch ID / PIN = connecté en 1 seconde\n→ Apple, Google, Microsoft, Amazon, PayPal, Discord, +500 services\nPour les vrais : une YubiKey stocke tes passkeys sur une puce physique.\nZéro cloud, zéro tiers. C'est la cold storage de tes identités.\nhttps://t.co/dVm8O7n2I6 → la liste complète des services compatibles.\n\n9️⃣ MOTS DE PASSE ET STOCKAGE 🔑\nDeux approches, les deux sont valides :\n→ Vaultwarden (self-hosted) - tu héberges ton propre gestionnaire de mots de passe. Sync entre tous tes appareils, interface Bitwarden, mais les données sont sur TON serveur.\nLa souveraineté totale.\n→ KeePassXC (full offline) - base de données locale, zéro cloud, zéro serveur. Tu gères tout toi-même avec Syncthing pour la synchro entre tes devices.\nL'important c'est : PAS de gestionnaire cloud tiers dont tu ne contrôles pas la direction. \n(On a vu ce qui se passe avec Bitwarden et LastPass.)\n\n🔟 MOINS D'APPS 📴\nChaque app installée est une porte ouverte. Faites le tri. 🗑️\n→ Organic Maps pour la navigation (hors-ligne, pas de tracking) 🗺️\n→ Obsidian pour les notes (local first, chiffrement possible) 📔\n→ LibreTube ou NewPipe pour YouTube sans tracking Google 🎥\n\n⚠️ NewPipe est régulièrement cassé par les changements YouTube. LibreTube (backend Piped) est plus stable en 2026.\n⚠️ Standard Notes a été racheté par Proton en 2024. Toujours bon, mais si tu utilises déjà ProtonMail + SimpleLogin + Standard Notes, tu dépends d'un seul fournisseur pour tout.\nLa compartimentation c'est aussi diversifier ses fournisseurs.\n\n1️⃣1️⃣ COMPARTIMENTEZ 🗂️\nNe mélangez jamais vos activités en ligne.\nProfils navigateur séparés pour la banque 💸, les réseaux sociaux 🌏 et vos recherches personnelles. 🔍\nUn profil = une activité = une identité.\nLes traceurs ne peuvent pas faire le lien entre eux.\nEt diversifiez vos fournisseurs.\nSi tout est chez Proton et que Proton a un problème, tout tombe d'un coup. 🚫\n\n1️⃣2️⃣ PROTÉGEZ VOS TRANSFERTS CRYPTO ⚡\nLe clipboard hijacking remplace ton adresse Bitcoin dans le presse-papier.\nTu copies une adresse, tu colles celle du hacker.\nLes malwares modernes génèrent des adresses qui commencent ET finissent comme la tienne.\n→ Vérifie l'adresse COMPLÈTE (35 caractères) après avoir collé\n→ Vérifie sur l'écran de ton hardware wallet, pas sur l'écran de ton PC\n→ Envoie un montant test avant un gros transfert\n→ Ne télécharge JAMAIS de logiciel cracké\n\n1️⃣3️⃣ eSIM > SIM PHYSIQUE 📱\nLe SIM swap c'est quand un attaquant convainc ton opérateur de transférer ton numéro sur sa SIM. Il reçoit tes SMS, tes codes 2FA, et accède à tes comptes.\nUne eSIM est beaucoup plus difficile à swapper qu'une SIM physique. Si ton téléphone le supporte, migre.\nEt surtout : n'utilise JAMAIS le SMS comme 2FA\nApp d'authentification (Aegis sur Android, Raivo sur iOS) ou YubiKey.\n\n💡 VIE PRIVÉE = INTENTION, PAS INVISIBILITÉ\nProtéger sa vie privée c'est pas devenir intraçable. C'est choisir consciemment ce que tu partages et avec qui, en limitant les fuites involontaires.\nAvec cette approche, tu obtiens 90% des bénéfices avec 10% d'efforts. 🚀\n\nLa souveraineté numérique est un process, pas un produit.🛡️\n#Privacy #InfoSec #Bitcoin #LAB312",
+    "thread": [
+      {
+        "id": "2058960354340721151",
+        "text": "🔐 SETUP MINIMALISTE VIE PRIVÉE 2026 - PAS BESOIN DE 50 EXTENSIONS OU D'UN CHAPEAU EN ALU. 👀\n\nEn 2025 j'avais publié un article, qui à été lu par 21.000 personnes dans sa forme \"article\" et + de 40.000 sous forme de \"thread\"... Depuis, des outils ont changé, d'autres sont apparus, et certains conseils étaient incomplets. \nVoilà la version 2026, corrigée et mise à jour. 🧵\n\n1️⃣ TÉLÉPHONE = FUITE 📲\nTon smartphone est ta plus grosse fuite de données.\nLa solution: GrapheneOS sur un Google Pixel. \nApps uniquement depuis Aurora Store, F-Droid ou Obtainium (un gestionnaire qui télécharge directement depuis les repos GitHub des développeurs - pas d'intermédiaire).\nNavigue avec Vanadium (le navigateur par défaut de GrapheneOS, basé sur Chromium mais sans la couche Google qui te piste).\nDésactive la localisation.\nMode avion quand tu utilises pas ton téléphone.\nEt si c'est trop technique, un dumb phone.\nDans tous les cas, limite les permissions au strict minimum.🚫\n\n2️⃣ NAVIGATEUR = MOUCHARD 🌐\nSur desktop: Librewolf avec uBlock Origin en mode strict. Suppression auto des cookies à chaque fermeture.\nProfils séparés pour compartimenter.\n\"Mais pourquoi Vanadium sur mobile et Librewolf sur desktop ?\" \nVanadium est Chromium-based mais sans la surcouche Google.\nLibrewolf est Firefox-based sans la télémétrie Mozilla.\nLes deux sont clean. Chrome par contre est littéralement conçu pour collecter tes données - c'est le moteur Chromium + toute la machine de surveillance Google par-dessus.\nLa différence c'est pas le moteur, c'est ce qu'on met dessus.🔍\n\n3️⃣ RECHERCHE PRIVÉE 🔎\nGoogle enregistre toutes tes recherches pour construire ton profil publicitaire.\nAlternatives :\n→ Brave Search 🦁 - moteur indépendant, pas de tracking\n→ DuckDuckGo 🦆 - le plus connu, résultats Bing sans le profiling\n→ SearXNG 🛞 - méta-moteur self-hostable, le plus souverain\n→ StartPage ☂️ - résultats Google sans le tracking Google\n\nLe changement prend 30 secondes. Tu ne perdras aucune qualité de résultats.\n\n4️⃣ EMAIL DISCRET 📩\nProtonMail ou Tuta comme boîte principale - chiffré de bout en bout. 🔒\nPour les alias:\nhttps://t.co/YzaWOfj3yf (ex-AnonAddy, indépendant) ou SimpleLogin (racheté par Proton en 2022 - excellent mais ça te met 100% dans l'écosystème Proton si tu utilises déjà ProtonMail). 🕶️\nL'astuce : un alias différent pour chaque service.\nQuand tu reçois du spam sur un alias, tu sais exactement qui a vendu ou fuité ton adresse.\nTu désactives l'alias, problème réglé. 🔄\n\n⚠️ Firefox Relay est limité en gratuit (pas de réponse via alias) \n\n5️⃣ DNS CHIFFRÉ 🌐\nTon FAI voit tous les sites que tu visites via tes requêtes DNS. C'est comme si le facteur lisait les adresses sur toutes tes enveloppes.\n→ NextDNS - configurable, filtrage pub/trackers intégré, logs optionnels\n→ Quad9 (9.9.9.9) - suisse, sans logs, bloque les domaines malveillants\nConfiguration en 2 minutes sur ton routeur ou ton téléphone. DoH ou DoT.\nUn des changements les plus simples avec le plus d'impact.\n\n6️⃣ VPN OU TOR 🌏\nVPN : masque ton IP, chiffre ton trafic.\nIndispensable sur WiFi public. 🕵️\nTor : anonymat fort, connexion via plusieurs relais. Plus lent mais plus anonyme. 🧅\n\n\"Jamais les deux en même temps\" - c'est ce que j'avais écrit en 2025.\nC'est plus nuancé que ça :\n→ VPN puis Tor (VPN → Tor) : utile si tu veux cacher à ton FAI que tu utilises Tor\n→ Tor puis VPN (Tor → VPN) : à éviter, ça casse le modèle de sécurité de Tor\nEn résumé : VPN seul pour le quotidien, Tor seul pour l'anonymat fort, VPN → Tor uniquement si ton FAI bloque ou surveille Tor.\n\n7️⃣ MESSAGERIE SÉCURISÉE 💬\nSignal reste la référence - chiffré bout en bout, facile à utiliser. 📲\nSimpleX - pas besoin de numéro de téléphone, encore plus privé. 🔢\nBriar - fonctionne même sans Internet (mesh network). 🌐\nSMS et WhatsApp ne protègent rien. WhatsApp c'est Meta. Tes métadonnées (qui tu contactes, quand, combien de temps) valent autant que le contenu de tes messages. 🚫\n\n8️⃣ PASSKEYS 🔑\nFini les mots de passe.\nLes passkeys c'est l'authentification sans password, basée sur une paire de clés cryptographiques.=\nLa clé privée reste sur TON appareil, la clé publique va sur le site.\n→ Phishing-proof (rien à taper = rien à voler)\n→ Face ID / Touch ID / PIN = connecté en 1 seconde\n→ Apple, Google, Microsoft, Amazon, PayPal, Discord, +500 services\nPour les vrais : une YubiKey stocke tes passkeys sur une puce physique.\nZéro cloud, zéro tiers. C'est la cold storage de tes identités.\nhttps://t.co/dVm8O7n2I6 → la liste complète des services compatibles.\n\n9️⃣ MOTS DE PASSE ET STOCKAGE 🔑\nDeux approches, les deux sont valides :\n→ Vaultwarden (self-hosted) - tu héberges ton propre gestionnaire de mots de passe. Sync entre tous tes appareils, interface Bitwarden, mais les données sont sur TON serveur.\nLa souveraineté totale.\n→ KeePassXC (full offline) - base de données locale, zéro cloud, zéro serveur. Tu gères tout toi-même avec Syncthing pour la synchro entre tes devices.\nL'important c'est : PAS de gestionnaire cloud tiers dont tu ne contrôles pas la direction. \n(On a vu ce qui se passe avec Bitwarden et LastPass.)\n\n🔟 MOINS D'APPS 📴\nChaque app installée est une porte ouverte. Faites le tri. 🗑️\n→ Organic Maps pour la navigation (hors-ligne, pas de tracking) 🗺️\n→ Obsidian pour les notes (local first, chiffrement possible) 📔\n→ LibreTube ou NewPipe pour YouTube sans tracking Google 🎥\n\n⚠️ NewPipe est régulièrement cassé par les changements YouTube. LibreTube (backend Piped) est plus stable en 2026.\n⚠️ Standard Notes a été racheté par Proton en 2024. Toujours bon, mais si tu utilises déjà ProtonMail + SimpleLogin + Standard Notes, tu dépends d'un seul fournisseur pour tout.\nLa compartimentation c'est aussi diversifier ses fournisseurs.\n\n1️⃣1️⃣ COMPARTIMENTEZ 🗂️\nNe mélangez jamais vos activités en ligne.\nProfils navigateur séparés pour la banque 💸, les réseaux sociaux 🌏 et vos recherches personnelles. 🔍\nUn profil = une activité = une identité.\nLes traceurs ne peuvent pas faire le lien entre eux.\nEt diversifiez vos fournisseurs.\nSi tout est chez Proton et que Proton a un problème, tout tombe d'un coup. 🚫\n\n1️⃣2️⃣ PROTÉGEZ VOS TRANSFERTS CRYPTO ⚡\nLe clipboard hijacking remplace ton adresse Bitcoin dans le presse-papier.\nTu copies une adresse, tu colles celle du hacker.\nLes malwares modernes génèrent des adresses qui commencent ET finissent comme la tienne.\n→ Vérifie l'adresse COMPLÈTE (35 caractères) après avoir collé\n→ Vérifie sur l'écran de ton hardware wallet, pas sur l'écran de ton PC\n→ Envoie un montant test avant un gros transfert\n→ Ne télécharge JAMAIS de logiciel cracké\n\n1️⃣3️⃣ eSIM > SIM PHYSIQUE 📱\nLe SIM swap c'est quand un attaquant convainc ton opérateur de transférer ton numéro sur sa SIM. Il reçoit tes SMS, tes codes 2FA, et accède à tes comptes.\nUne eSIM est beaucoup plus difficile à swapper qu'une SIM physique. Si ton téléphone le supporte, migre.\nEt surtout : n'utilise JAMAIS le SMS comme 2FA\nApp d'authentification (Aegis sur Android, Raivo sur iOS) ou YubiKey.\n\n💡 VIE PRIVÉE = INTENTION, PAS INVISIBILITÉ\nProtéger sa vie privée c'est pas devenir intraçable. C'est choisir consciemment ce que tu partages et avec qui, en limitant les fuites involontaires.\nAvec cette approche, tu obtiens 90% des bénéfices avec 10% d'efforts. 🚀\n\nLa souveraineté numérique est un process, pas un produit.🛡️\n#Privacy #InfoSec #Bitcoin #LAB312"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,12 +24,256 @@
       }
     ],
     "metrics": {
-      "likes": 153,
+      "likes": 151,
       "retweets": 41,
       "replies": 13,
-      "views": 9908
+      "views": 10054
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "KykyOrangepill",
+        "name": "Kyky 🍻 | 📙₿ 👀 🔸🦡 🐇🔸",
+        "date": "2026-05-25",
+        "text": "@Lab312_ @Plaphakan Vaga ! Vaga ! Vaga ! 🛸",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ced_haurus",
+        "name": "Christophe Boutry",
+        "date": "2026-05-25",
+        "text": "@Lab312_ Propre 👌",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "meygavox",
+        "name": "Meyga Vox",
+        "date": "2026-05-27",
+        "text": "@Lab312_ Merci pour le thread 👍",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "meygavox",
+        "name": "Meyga Vox",
+        "date": "2026-05-27",
+        "text": "@Lab312_ Est-ce que vous avez une recommandation pour les navigateurs à utiliser sur Graphene OS?\n\nJ’en cherche au moins 3 différents (pour ségréger mes usages). Pour l’instant, j’ai repéré Vanadium et DuckDuckGo Browser.\n\nJe n’ai pas réussi à installer Brave (depuis Obtainium :( ).",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "k4neHotS",
+        "name": "Kane",
+        "date": "2026-05-26",
+        "text": "@Lab312_ Passkey, se passe quoi si ton appareil rend l'âme ? Parce qu'on ne peut pas faire de copies hors ligne genre sur clef USB.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lab312_",
+        "name": "LA₿ 312 | 🛡️🔑📡#FREESAMOURAI",
+        "date": "2026-05-26",
+        "text": "@XGoaliver C'est un process en constante évolution, prenant en compte le virage AI. 👏Bravo pour avoir pris la bonne voie, si tant est qu'il n'en existe qu'une seule. 🥷",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "XGoaliver",
+        "name": "Goaliver",
+        "date": "2026-05-26",
+        "text": "@Lab312_ Je suis pas à 100% mais sur la bonne voie visiblement",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lab312_",
+        "name": "LA₿ 312 | 🛡️🔑📡#FREESAMOURAI",
+        "date": "2026-05-26",
+        "text": "@Soledadyelia https://t.co/0cPmRYYhDn",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Lab312_",
+        "name": "LA₿ 312 | 🛡️🔑📡#FREESAMOURAI",
+        "date": "2026-05-26",
+        "text": "@Lanklan_ Le stockage de données c'est un sujet entier en soi... Stay tuned &amp; give us a follow 😉 https://t.co/i94e6C8hAv",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Soledadyelia",
+        "name": "La Punk à Chèvres (qu'ils viennent me chercher)",
+        "date": "2026-05-25",
+        "text": "@Lab312_ merci !",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lanklan_",
+        "name": "Cyprien",
+        "date": "2026-05-25",
+        "text": "@Lab312_ Quid du stockage de données ?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nextguard_ca",
+        "name": "Nextguard",
+        "date": "2026-05-25",
+        "text": "@Lab312_ Il y a là des bases sérieuse de sécurité oui",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lab312_",
+        "name": "LA₿ 312 | 🛡️🔑📡#FREESAMOURAI",
+        "date": "2026-05-25",
+        "text": "@Ced_haurus Merci, c'est \"\"\"un peu\"\"\" le coeur de mon activité, il serait dommage de faire un truc crade 😅",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "k4neHotS",
+        "name": "Kane",
+        "date": "2026-05-28",
+        "text": "@Lab312_ Voilà pourquoi je ne veux pas de passkey, la seule solution de backup que j'ai trouvé c'est sur le cloud donc autant dire que c'est non. \n\nPour les Yubikey, ce ne sont pas techniquement des passkey mais plus du 2FA classic ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "meygavox",
+        "name": "Meyga Vox",
+        "date": "2026-05-28",
+        "text": "@Lab312_ @startpage Merci 🙏",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Lab312_",
+        "name": "LA₿ 312 | 🛡️🔑📡#FREESAMOURAI",
+        "date": "2026-05-28",
+        "text": "Bonne question, et c'est LE point faible que tout le monde esquive quand on parle passkeys.\n\nLa vérité:\nPasskeys synchronisées (Apple/Google) :\nSi ton iPhone meurt, tes passkeys sont safe - elles sont synchronisées via iCloud Keychain (Apple) ou Google Password Manager.\nTu achètes un nouveau téléphone, tu te connectes à ton compte, tes passkeys sont là. ^^ \nLe vrai risque c'est pas la mort de l'appareil, c'est la perte d'accès au compte cloud.\nSi tu perds accès à ton compte Apple/Google (mot de passe oublié + 2FA perdu), tes passkeys synchronisées sont perdues avec. :(\n\nPasskeys sur YubiKey:\nLà c'est différent, la clé privée ne quitte JAMAIS la puce.\nPas de sync, pas de cloud, pas de backup.\nSi ta YubiKey casse, se perd, ou se fait écraser par un camion, tes passkeys sont mortes.\nLa solution : TOUJOURS avoir 2 YubiKeys.\nTu enregistres les deux sur chaque service, la deuxième reste dans un lieu sécurisé (coffre, chez un proche).\nSi la première meurt, tu utilises la deuxième et tu en rachètes une nouvelle pour refaire le backup, etc...",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Lab312_",
+        "name": "LA₿ 312 | 🛡️🔑📡#FREESAMOURAI",
+        "date": "2026-05-27",
+        "text": "@meygavox @startpage",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Lab312_",
+        "name": "LA₿ 312 | 🛡️🔑📡#FREESAMOURAI",
+        "date": "2026-05-26",
+        "text": "@XGoaliver 😁 https://t.co/510NVdeUP9",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "XGoaliver",
+        "name": "Goaliver",
+        "date": "2026-05-26",
+        "text": "@Lab312_ J'ai déjà migré de Google et Windows\nSuis passé sur LibreWolf et j'autilise Keepass depuis quelques temps. Je pense profiter du Blackfriday de cette année pour prendre un pixel et Ditcher Android pour Graphene ou Iodé",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zeno__FR",
+        "name": "Study Bitcoin",
+        "date": "2026-05-25",
+        "text": "@KrGame26 @Lab312_ tout est gratuit hormis le VPN (qui ne coute pas grand chose au passage)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JEROMEFARAILL",
+        "name": "Jérôme FARAILL",
+        "date": "2026-05-25",
+        "text": "@Lab312_ \"SimpleLogin\" n'a pas été mis à jour depuis un bon moment, Proton est au courant..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lab312_",
+        "name": "LA₿ 312 | 🛡️🔑📡#FREESAMOURAI",
+        "date": "2026-05-25",
+        "text": "@olkazro https://t.co/g7E8lpiftX",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "olkazro",
+        "name": "Olka",
+        "date": "2026-05-25",
+        "text": "@Lab312_ Faites plus main stream et grand public y’a 1% des gens qui vont appliquer ce setup",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KrGame26",
+        "name": "KrGame",
+        "date": "2026-05-25",
+        "text": "@Lab312_ Le problème, c'est que tout diversifié, peut te revenir cher (oui, il y a des solutions gratuites pour certain cas). Malheureusement tout le monde ne peut pas se permettre d'avoir un vpn, mail et autre différent.\n\nBizarrement tous ceux qui parle de diversifié n'en parle jamais.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "micahtchou",
+        "name": "米卡初 ⚛️ ☯️ ☸️🕉️🈴🇮🇲🌉",
+        "date": "2026-05-25",
+        "text": "@Lab312_ Han la flemme",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lab312_",
+        "name": "LA₿ 312 | 🛡️🔑📡#FREESAMOURAI",
+        "date": "2026-05-25",
+        "text": "@KykyOrangepill @Plaphakan Kyky ! Kyky ! Kyky ! 👾",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Lab312_",
+        "name": "LA₿ 312 | 🛡️🔑📡#FREESAMOURAI",
+        "date": "2026-05-25",
+        "text": "\"set-up minimaliste\"",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
   },
   "downloadedImages": [
     {

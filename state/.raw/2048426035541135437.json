@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:00.752Z",
+  "tweetId": "2048426035541135437",
+  "post": {
+    "url": "https://x.com/LinusEkenstam/status/2048426035541135437",
+    "author": {
+      "handle": "LinusEkenstam",
+      "name": "Linus ✦ Ekenstam"
+    },
+    "date": "2026-04-26",
+    "text": "You must try this. \n\nGPT Image-2 can do PALM reading and I’m so here for it. \n\nFull prompt below ⤵️ https://t.co/ajT5ec6AGp",
+    "thread": [
+      {
+        "id": "2048426035541135437",
+        "text": "You must try this. \n\nGPT Image-2 can do PALM reading and I’m so here for it. \n\nFull prompt below ⤵️ https://t.co/ajT5ec6AGp"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HG14nhsbkAAs0Py.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HG14nhHWcAAAoJM.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 5981,
+      "retweets": 567,
+      "replies": 827,
+      "views": 7839627
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HG14nhsbkAAs0Py.jpg",
+      "localFilename": "2048426035541135437_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HG14nhHWcAAAoJM.jpg",
+      "localFilename": "2048426035541135437_2.jpg"
+    }
+  ]
+}

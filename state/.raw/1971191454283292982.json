@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:04.733Z",
+  "fetchedAt": "2026-07-13T06:46:37.994Z",
   "tweetId": "1971191454283292982",
   "post": {
     "url": "https://x.com/_artasaka/status/1971191454283292982",
@@ -10,6 +11,12 @@
     },
     "date": "2025-09-25",
     "text": "Chat interfaces https://t.co/B5MNvtJseE",
+    "thread": [
+      {
+        "id": "1971191454283292982",
+        "text": "Chat interfaces https://t.co/B5MNvtJseE"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -29,11 +36,84 @@
       }
     ],
     "metrics": {
-      "likes": 259,
+      "likes": 257,
       "retweets": 11,
       "replies": 6,
-      "views": 16955
+      "views": 16980
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "ItsPeterDesign",
+        "name": "Peter Design",
+        "date": "2025-09-25",
+        "text": "@_artasaka Nice UI!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nytriteio",
+        "name": "Nytrite",
+        "date": "2025-09-26",
+        "text": "@_artasaka Damn, we like those!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "uiuxabid",
+        "name": "Abid I.",
+        "date": "2025-09-26",
+        "text": "@_artasaka Great.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SatelliteDes",
+        "name": "Robert",
+        "date": "2025-09-26",
+        "text": "@_artasaka These chat interface designs look fantastic! Love how clean and intuitive each one is. The variety of prompts like \"Find products for my skin\" really shows thoughtful UX planning. Beautiful work! ✨",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dustin_zeb",
+        "name": "Dustin",
+        "date": "2025-09-26",
+        "text": "@_artasaka Chat interfaces are transforming how we connect and collaborate, making interactions more seamless and intuitive. It's exciting to see how they continue to evolve!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "danielenitan_",
+        "name": "daniel.",
+        "date": "2025-09-26",
+        "text": "@_artasaka Beautiful❤️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G0qznBpWQAEKdsv.jpg",
+      "localFilename": "1971191454283292982_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G0qzm9_WYAAusln.jpg",
+      "localFilename": "1971191454283292982_2.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G0qzm9_XsAAWGpF.png",
+      "localFilename": "1971191454283292982_3.png"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G0qznB2XEAAcagp.jpg",
+      "localFilename": "1971191454283292982_4.jpg"
+    }
+  ]
 }

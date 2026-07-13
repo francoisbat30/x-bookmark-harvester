@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:38.586Z",
+  "fetchedAt": "2026-07-13T06:51:13.444Z",
   "tweetId": "2003497414720639085",
   "post": {
     "url": "https://x.com/viktoroddy/status/2003497414720639085",
@@ -9,19 +10,415 @@
       "name": "Viktor Oddy"
     },
     "date": "2025-12-23",
-    "text": "AI generated heros\n\nwhich one looks the best? https://t.co/o71lmLYmRU",
+    "text": "AI generated heros\n\nwhich one looks the best? https://t.co/o71lmLYmRU\n\nbtw you can learn how to design website like these at https://t.co/G6ShCIMT3Z https://t.co/I8t2I4SxtV",
+    "thread": [
+      {
+        "id": "2003497414720639085",
+        "text": "AI generated heros\n\nwhich one looks the best? https://t.co/o71lmLYmRU"
+      },
+      {
+        "id": "2003497618538922400",
+        "text": "btw you can learn how to design website like these at https://t.co/G6ShCIMT3Z https://t.co/I8t2I4SxtV"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/2003497252728250369/vid/avc1/1482x1080/zmbJ-AEXP8KY5pK1.mp4"
+        "url": "https://video.twimg.com/amplify_video/2003497252728250369/vid/avc1/1482x1080/zmbJ-AEXP8KY5pK1.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2003497252728250369/img/UsfDLYBhTp2recXP.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2003497525643243522/vid/avc1/1808x1080/e4Qbf8qE_8MmfceE.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2003497525643243522/img/7fPjD5DnvEcuBpqz.jpg"
       }
     ],
     "metrics": {
-      "likes": 344,
-      "retweets": 12,
-      "replies": 42,
-      "views": 40092
+      "likes": 345,
+      "retweets": 13,
+      "replies": 41,
+      "views": 40304
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "alemseo",
+        "name": "Alem Amirov",
+        "date": "2025-12-23",
+        "text": "@viktoroddy left top corner looks like plazma from nuclear reactor, awesome!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Matthias_Oel",
+        "name": "Matt",
+        "date": "2025-12-23",
+        "text": "@viktoroddy Are we cooked?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AshikArtistry",
+        "name": "Ashik",
+        "date": "2025-12-23",
+        "text": "@viktoroddy They looks like AI generated. thats the issue.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "viktoroddy",
+        "name": "Viktor Oddy",
+        "date": "2025-12-25",
+        "text": "@doni_wawa you can start for free",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AkemyDesign",
+        "name": "Akem",
+        "date": "2025-12-25",
+        "text": "@viktoroddy Third is less distracting and just better",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mubixdesign",
+        "name": "Mubashir",
+        "date": "2025-12-25",
+        "text": "@viktoroddy You’re doing great work lately",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "anth0nycodes",
+        "name": "anthony",
+        "date": "2025-12-25",
+        "text": "@viktoroddy the bottom 2 look nice! what’s causing the flicker on all of them tho?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zaidkhan3419",
+        "name": "Zaid Khan",
+        "date": "2025-12-24",
+        "text": "@viktoroddy Stunning backgrounds",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "guillemcraft",
+        "name": "Guillem",
+        "date": "2025-12-24",
+        "text": "@viktoroddy loving this!! ❤️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wizardxdesigns",
+        "name": "Dani",
+        "date": "2025-12-24",
+        "text": "@viktoroddy looking sick bro",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rajshs_",
+        "name": "rajshs",
+        "date": "2025-12-24",
+        "text": "@viktoroddy Second one",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jacksonkasi11",
+        "name": "Jackson Kasi",
+        "date": "2025-12-24",
+        "text": "@viktoroddy A",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mustafa_framer",
+        "name": "Mustafa Ali",
+        "date": "2025-12-24",
+        "text": "@viktoroddy 2nd",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "veerdzigns",
+        "name": "veer shrivastava",
+        "date": "2025-12-24",
+        "text": "@viktoroddy First one",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SumanthChary07",
+        "name": "Sumanth Dev",
+        "date": "2025-12-24",
+        "text": "@viktoroddy does this businesses make money?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "henry_jaunty",
+        "name": "Henry Jaunty",
+        "date": "2025-12-24",
+        "text": "@viktoroddy Frame 2",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "elllllpatron",
+        "name": "Mamuka",
+        "date": "2025-12-24",
+        "text": "@viktoroddy This doesn’t try too hard.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ArtiYadav158641",
+        "name": "Arti Yadav",
+        "date": "2025-12-24",
+        "text": "@viktoroddy Impressive",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ahmadkhandesign",
+        "name": "Muhammad Ahmad K",
+        "date": "2025-12-24",
+        "text": "@viktoroddy 1",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iamabhaygaur",
+        "name": "Abhay",
+        "date": "2025-12-24",
+        "text": "@viktoroddy 4th one looks great",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sekhsoyebali",
+        "name": "Soyeb ✦",
+        "date": "2025-12-24",
+        "text": "@viktoroddy nice hero designs, btw which ai to turn into video?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "markproduct",
+        "name": "Mark Lou",
+        "date": "2025-12-24",
+        "text": "@viktoroddy wow",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nullnameguy",
+        "name": "Sebastian Bugal",
+        "date": "2025-12-24",
+        "text": "@viktoroddy Top left",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Harshh_designs",
+        "name": "Harsh",
+        "date": "2025-12-24",
+        "text": "@viktoroddy looks very clean, great work!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "doni_wawa",
+        "name": "doni rizky kurniawan",
+        "date": "2025-12-24",
+        "text": "@viktoroddy is it free",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "christiangori96",
+        "name": "Christian Gori",
+        "date": "2025-12-24",
+        "text": "@viktoroddy B is my favourite.. I'll check designrocket for sure 👍🏼",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lswrks",
+        "name": "Luka Salukvadze",
+        "date": "2025-12-24",
+        "text": "@viktoroddy first one for me",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TanayMahaj7",
+        "name": "Tanay Mahajan",
+        "date": "2025-12-24",
+        "text": "@viktoroddy All of them",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nurnabidesigner",
+        "name": "Nurnabi 🦄",
+        "date": "2025-12-24",
+        "text": "@viktoroddy Clean design as always!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NuwansaraT",
+        "name": "Tharusha Nuwansara",
+        "date": "2025-12-24",
+        "text": "@viktoroddy 1st one",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Gavel_on_X",
+        "name": "Gavel",
+        "date": "2025-12-24",
+        "text": "@viktoroddy Crazy!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Asmi_Gulati_",
+        "name": "Asmi Gulati",
+        "date": "2025-12-24",
+        "text": "@viktoroddy Did you use gemini 3 pro?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Asmi_Gulati_",
+        "name": "Asmi Gulati",
+        "date": "2025-12-24",
+        "text": "@viktoroddy Top left",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tcuriososyt",
+        "name": "Tecno Curiosos",
+        "date": "2025-12-23",
+        "text": "@viktoroddy The lighting consistency across all of them is impressive. We're past the \"obviously AI\" phase - now it's about style preferences rather than quality differences",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TukiFromKL",
+        "name": "Tuki",
+        "date": "2025-12-23",
+        "text": "@viktoroddy They all look really good",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kr812345",
+        "name": "krishna yadav",
+        "date": "2025-12-23",
+        "text": "@viktoroddy 3rd",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rholesinsky",
+        "name": "Robin Holesinsky",
+        "date": "2025-12-23",
+        "text": "@viktoroddy All are strong, but the second one feels the most hypnotizing. The flow really pulls you in.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MysterE___",
+        "name": "MysterE",
+        "date": "2025-12-23",
+        "text": "@viktoroddy Top left not even close",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MedhatMatouk",
+        "name": "Medhat Matouk",
+        "date": "2025-12-23",
+        "text": "@viktoroddy The top two are awesome, especially the right one it looks more clean.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "uxbysaimon",
+        "name": "Md Saimon",
+        "date": "2025-12-23",
+        "text": "@viktoroddy Absolutely stunning",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AfolabiDewale",
+        "name": "Hamed",
+        "date": "2025-12-23",
+        "text": "@viktoroddy Last frame",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2003497252728250369/img/UsfDLYBhTp2recXP.jpg",
+      "localFilename": "2003497414720639085_1_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2003497525643243522/img/7fPjD5DnvEcuBpqz.jpg",
+      "localFilename": "2003497414720639085_2_poster.jpg"
+    }
+  ]
 }

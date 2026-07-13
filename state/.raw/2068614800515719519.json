@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-06-30T10:00:22.648Z",
+  "fetchedAt": "2026-07-13T07:09:33.256Z",
   "tweetId": "2068614800515719519",
   "post": {
     "url": "https://x.com/powl_d/status/2068614800515719519",
@@ -10,6 +11,12 @@
     },
     "date": "2026-06-21",
     "text": "Perso j’utilise un UTR.\n\nRJ45 ou Wi-Fi public → tunnel vers mon infra → terminé.\n\nPeu importe le réseau sur lequel je tombe, je récupère toujours mon environnement habituel et j’évite 99% des emmerdes. https://t.co/FkqDAKV1gU https://t.co/Q2mJAvp0yR",
+    "thread": [
+      {
+        "id": "2068614800515719519",
+        "text": "Perso j’utilise un UTR.\n\nRJ45 ou Wi-Fi public → tunnel vers mon infra → terminé.\n\nPeu importe le réseau sur lequel je tombe, je récupère toujours mon environnement habituel et j’évite 99% des emmerdes. https://t.co/FkqDAKV1gU https://t.co/Q2mJAvp0yR"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -20,9 +27,217 @@
       "likes": 275,
       "retweets": 10,
       "replies": 10,
-      "views": 111318
+      "views": 112261
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "powl_d",
+        "name": "Powlisher",
+        "date": "2026-06-21",
+        "text": "@zfm__t Je n’ai pas de mudi 7 mais j’ai un slate 7, slate 7 est plus complet mais unifi c’est vraiment simple",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "enzoalexandre",
+        "name": "Enzo Alexandre",
+        "date": "2026-06-21",
+        "text": "@powl_d Et depuis la Chine tu n’as jamais eu de problème avec cette configuration ?",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "phare_100",
+        "name": "Amael",
+        "date": "2026-06-21",
+        "text": "@powl_d C’est quoi la différence avec netbird ou tailscale ?",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zfm__t",
+        "name": "Linen",
+        "date": "2026-06-21",
+        "text": "@powl_d Je suis sur le marché pour en acheté un, est ce que t'as pu comparé a un Mudi 7 de GLinet ?",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "powl_d",
+        "name": "Powlisher",
+        "date": "2026-06-21",
+        "text": "@zrohuman @sam_nasri13 Tu peux pas installer tailscale sur une Nintendo switch ou une play ect :) la tu mets ton UTR tous les appareils se connectent sans problème",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zrohuman",
+        "name": "Zero Human",
+        "date": "2026-06-21",
+        "text": "@sam_nasri13 @powl_d Ok c’est donc rajouter du hardware pour pas grand chose du coup",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zrohuman",
+        "name": "Zero Human",
+        "date": "2026-06-21",
+        "text": "@powl_d C’est quoi la diff avec un Tailscale installé en exit node sur une apple tv ou un NAS chez soi ?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aerofel",
+        "name": "🅿︎🅷🅸🅻",
+        "date": "2026-06-21",
+        "text": "@powl_d Et Tailscale??",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ADZLXQ",
+        "name": "AD",
+        "date": "2026-06-21",
+        "text": "@Centho9 @benjiwess @powl_d je comprends, merci pour ton retour\neffectivement, la grande majorité des personnes qui n’y connaissent pas trop, pense à VPN pour payer moins cher ou se connecter à des séries à l’étranger",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Centho9",
+        "name": "Centho",
+        "date": "2026-06-21",
+        "text": "@ADZLXQ @benjiwess @powl_d C'est surtout que les commerciaux ont fait croire qu'un vpn c'est pour regarder Netflix avec un autre catalogue\n\nUn vpn c'est pour relier deux réseaux séparés entre eux à la base\n\nSi t'as une Freebox t'as un serveur wireguard qui fait tout passer par ta box depuis n'importe où",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ADZLXQ",
+        "name": "AD",
+        "date": "2026-06-21",
+        "text": "@benjiwess @Centho9 @powl_d merci pour le retour, effectivement je me suis renseigné\nCela reste intéressant avec un petit investissement\n\nmes différents d’un VPN payant chez un fournisseur\n\nC’est vraiment deux types d’usage",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zfm__t",
+        "name": "Linen",
+        "date": "2026-06-21",
+        "text": "@AldoSterone111 @powl_d Ah ! Intéressant ça \nC’est pas un problème de firmware ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AldoSterone111",
+        "name": "Aldo Sterone",
+        "date": "2026-06-21",
+        "text": "@zfm__t @powl_d Sur le GLinet, quand tu veux installer le module Tailscale il te dit \"erreur inconnue\". J'ai achete un GLinet specialement pour Tailscale et il a fini dans une boite qui est au garage.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ProTime_",
+        "name": "ProTime_",
+        "date": "2026-06-21",
+        "text": "@powl_d WireGuard est gratuit",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zrohuman",
+        "name": "Zero Human",
+        "date": "2026-06-21",
+        "text": "@powl_d @sam_nasri13 Ok je capte merci",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nadirmilleback",
+        "name": "Nadir LH",
+        "date": "2026-06-21",
+        "text": "@powl_d Meme la cia ils sont pas autant sécurisé 😭",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Max_HelpRoom",
+        "name": "Capture effect",
+        "date": "2026-06-21",
+        "text": "@zrohuman @sam_nasri13 @powl_d C'est juste du plug n play, mais oui aucun intérêt par rapport à une config maison.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "KAchtaw",
+        "name": "Karabatich",
+        "date": "2026-06-21",
+        "text": "@powl_d et le setup VPN ? WireGuard ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sam_nasri13",
+        "name": "Alexandre Maras #OMOut",
+        "date": "2026-06-21",
+        "text": "@zrohuman @powl_d C'est un tailscale-like mais installé sur un mini routeur et donc tous tes appareils ressortent par l'exit node.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "benjiwess",
+        "name": "Benjamin WESSELY",
+        "date": "2026-06-21",
+        "text": "@Centho9 @ADZLXQ @powl_d Héberger chez soi 😊",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Centho9",
+        "name": "Centho",
+        "date": "2026-06-21",
+        "text": "@ADZLXQ @powl_d C'est un vpn justement",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "chels_70",
+        "name": "chels_70",
+        "date": "2026-06-21",
+        "text": "@powl_d Intéressant quand on doit se connecter à des infras limitées aux IPs France 😅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ADZLXQ",
+        "name": "AD",
+        "date": "2026-06-21",
+        "text": "@powl_d du coup VPN moins interessant ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
   },
   "downloadedImages": [
     {

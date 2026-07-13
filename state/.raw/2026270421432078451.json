@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:15.378Z",
+  "fetchedAt": "2026-07-13T07:08:02.543Z",
   "tweetId": "2026270421432078451",
   "post": {
     "url": "https://x.com/jordymaui/status/2026270421432078451",
@@ -9,7 +10,17 @@
       "name": "jordy"
     },
     "date": "2026-02-24",
-    "text": "STOP using telegram for your OpenClaw agent!\n\nDiscord is the play and it's not even close.\n\n- dedicated channels per skill (x strategy, your finances, your content, your trading - all separate)\n- full chat history your agent can reference & read back through if it crashes\n- threads for deep dives without cluttering the main flows\n- multiple people can interact with your agent in different channels (something i haven't seen enough of)\n- pin important outputs so your agent doesn't lose context\n- embed images, files, links natively\n- run different workflows in parallel without them bleeding into each other (ask your agents to spawn subagents amongst channels)\n\ntelegram is one long chat. discord is a workspace.\n\ni run 15+ channels and each one has its own skill, its own context, its own purpose. my agent knows exactly what mode it's in based on where i message it. and they can even use skills across channels if and when needed.\n\nif you're still cramming everything into one telegram thread you're leaving half the power on the table.",
+    "text": "STOP using telegram for your OpenClaw agent!\n\nDiscord is the play and it's not even close.\n\n- dedicated channels per skill (x strategy, your finances, your content, your trading - all separate)\n- full chat history your agent can reference & read back through if it crashes\n- threads for deep dives without cluttering the main flows\n- multiple people can interact with your agent in different channels (something i haven't seen enough of)\n- pin important outputs so your agent doesn't lose context\n- embed images, files, links natively\n- run different workflows in parallel without them bleeding into each other (ask your agents to spawn subagents amongst channels)\n\ntelegram is one long chat. discord is a workspace.\n\ni run 15+ channels and each one has its own skill, its own context, its own purpose. my agent knows exactly what mode it's in based on where i message it. and they can even use skills across channels if and when needed.\n\nif you're still cramming everything into one telegram thread you're leaving half the power on the table.\n\nfor anyone interested...\n\nhttps://t.co/dku2lPS8io",
+    "thread": [
+      {
+        "id": "2026270421432078451",
+        "text": "STOP using telegram for your OpenClaw agent!\n\nDiscord is the play and it's not even close.\n\n- dedicated channels per skill (x strategy, your finances, your content, your trading - all separate)\n- full chat history your agent can reference & read back through if it crashes\n- threads for deep dives without cluttering the main flows\n- multiple people can interact with your agent in different channels (something i haven't seen enough of)\n- pin important outputs so your agent doesn't lose context\n- embed images, files, links natively\n- run different workflows in parallel without them bleeding into each other (ask your agents to spawn subagents amongst channels)\n\ntelegram is one long chat. discord is a workspace.\n\ni run 15+ channels and each one has its own skill, its own context, its own purpose. my agent knows exactly what mode it's in based on where i message it. and they can even use skills across channels if and when needed.\n\nif you're still cramming everything into one telegram thread you're leaving half the power on the table."
+      },
+      {
+        "id": "2026426151531393150",
+        "text": "for anyone interested...\n\nhttps://t.co/dku2lPS8io"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -18,10 +29,1016 @@
     ],
     "metrics": {
       "likes": 499,
-      "retweets": 31,
-      "replies": 118,
-      "views": 45299
+      "retweets": 32,
+      "replies": 113,
+      "views": 45436
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "jordymaui",
+        "name": "jordy",
+        "date": "2026-02-24",
+        "text": "@simonbalfe nope, if you utilise skills - there is one agent, one brain. who spawns in sub agents to help with tasks.\n\nthere is not multiple agents living in these channels, it is the same agent reading amongst them.\n\none agent\ntemporary sub agents (that get killed after task)\nsimple",
+        "likes": 6,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jordymaui",
+        "name": "jordy",
+        "date": "2026-02-24",
+        "text": "@WyzMan2k i'll write up an article/make a video on it soon - for now, its as simple as asking your openclaw to help you setup in all honesty!",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jordymaui",
+        "name": "jordy",
+        "date": "2026-02-24",
+        "text": "@mooneyy i actually haven't yet - at first there was some back and fourth to make momo see channels - but i've found duplicating channels, and giving him the channel ID solved any issues of 'not seeing' and responding!",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "danieloleary",
+        "name": "Dan O'Leary",
+        "date": "2026-02-24",
+        "text": "@jordymaui Would you be kind enough to ask your claw to document how you use it and share it? Mine is finicky and I want to fix it.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jumperz",
+        "name": "JUMPERZ",
+        "date": "2026-02-24",
+        "text": "@jordymaui said it from day one few listened.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DawnTepper_",
+        "name": "Dawn Tepper • 👩🏻‍💻 🍷 🎙️",
+        "date": "2026-02-24",
+        "text": "@jordymaui Question: do your agents ever cross-reference skills between channels, or do they stay siloed?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Emily_brown_22",
+        "name": "Emily Brown",
+        "date": "2026-03-04",
+        "text": "Using Discord to stay organized makes a lot of sense, especially when you split workflows into dedicated channels for areas like finance or content. \n\nThat structure makes it easier to keep tasks separated and focused.\n\nTelegram can start to feel cluttered for advanced users because a single bot does not naturally support layered channel organization, which makes context harder to manage as your agent team grows.\n\nNo matter which platform you prefer, the real frustration usually begins when your instance shuts down the second your laptop closes. Keeping an agent active around the clock often turns into hours of server configuration and backend troubleshooting.\n\nThat recurring issue is exactly why QuickClaw exists. It deploys OpenClaw to the cloud in about a minute and keeps it running continuously, so long workflows can complete even when you are offline.\n\nIf you are thinking about moving beyond a localhost setup, you can find the link in the bio to explore it further.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "onusoz",
+        "name": "Onur Solmaz",
+        "date": "2026-02-25",
+        "text": "@petergyang @jordymaui both are non e2e encrypted",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "onusoz",
+        "name": "Onur Solmaz",
+        "date": "2026-02-25",
+        "text": "@jordymaui you are in for a treat very soon",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AgentOrganizer",
+        "name": "The Organizer",
+        "date": "2026-02-25",
+        "text": "@jordymaui iMesssage &gt;",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "date": "2026-02-25",
+        "text": "@jordymaui Discord just feels less secure",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "johnhelmuth_",
+        "name": "John Helmuth",
+        "date": "2026-02-25",
+        "text": "@alfieventi @jordymaui Once I realized I was spending more time fixing than was supposed to be “gained” by having a super productive AI assistant working 24/7 in the background.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "alfieventi",
+        "name": "Alfieventi",
+        "date": "2026-02-24",
+        "text": "@CChirchi @jordymaui Wym by chat history?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jordymaui",
+        "name": "jordy",
+        "date": "2026-02-24",
+        "text": "@LrodAI soon",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "alfieventi",
+        "name": "Alfieventi",
+        "date": "2026-02-24",
+        "text": "@no_coinor @jordymaui I was just going to ask about that what is the benefit of having one agent for all groups and one bought for each group. \nOne for each allows you to have them separate heartbeats skills and models running correct?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "simonbalfe",
+        "name": "Simon Balfe",
+        "date": "2026-02-24",
+        "text": "@alfieventi @jordymaui you mean subagents.\n\nif so, yes its better",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "alfieventi",
+        "name": "Alfieventi",
+        "date": "2026-02-24",
+        "text": "@jordymaui @simonbalfe Is it a better setup to have one main boss agent who everyone repots to and submit to (marketing , seo, research) each of these can be ran under different models. \nBoss sends requests and receives results.\n\nWhat do you think",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "no_coinor",
+        "name": "Glucksberg",
+        "date": "2026-02-24",
+        "text": "@jordymaui this is biased. I run openclaw on tg and even tho discord is ultimately better, for 90% of the users telegram is more friendly. these are some of my agents on tg. you can setup 1 bot for each group (consistent setup) or you can setup 1 bot for all groups (same practical results) https://t.co/RS6mLj3RJ0",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jordymaui",
+        "name": "jordy",
+        "date": "2026-02-24",
+        "text": "@jumperz skill issue of many",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MetaverseRanger",
+        "name": "Premature-Accumulator-Neill",
+        "date": "2026-02-24",
+        "text": "@jordymaui How is it different to telegram groups with topics",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WyzMan2k",
+        "name": "WyzMan",
+        "date": "2026-02-24",
+        "text": "@jordymaui Is there a guide for setting this up or can I just find one with a simple google search?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jordymaui",
+        "name": "jordy",
+        "date": "2026-02-24",
+        "text": "@DawnTepper_ yeah, always cross use skills to be honest!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "editxshub",
+        "name": "Shubham Sharma | AI & Tech",
+        "date": "2026-02-24",
+        "text": "@jordymaui So Should I use discord instead",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jordymaui",
+        "name": "jordy",
+        "date": "2026-02-24",
+        "text": "@DNormandin1234 correct but discord has the read chat function unlike telegram!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jordymaui",
+        "name": "jordy",
+        "date": "2026-02-24",
+        "text": "@Fartn_Bozo 1000% the best solution i've found!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jordymaui",
+        "name": "jordy",
+        "date": "2026-02-24",
+        "text": "@RealLoganConn it only has as much access as i'm willing to give it - it sits on its own dedicated device, all fresh.\n\nit can't just randomly attack my files that don't exist on a fresh machine lol.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jordymaui",
+        "name": "jordy",
+        "date": "2026-02-24",
+        "text": "@RajPatel you ever think that the tasks you were doing were the usage?",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jordymaui",
+        "name": "jordy",
+        "date": "2026-02-24",
+        "text": "@RajPatel skill issue raj\n\nwhat the fuck were you doing to drain usage?",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jordymaui",
+        "name": "jordy",
+        "date": "2026-02-24",
+        "text": "that's not how it works though - the skills aren't all loaded at once. \n\neach channel has a dedicated skill mapped to it, so when a message comes in on that channel, only the relevant skill context is loaded.\n\nit's not one agent seeing everything and guessing which skill to use. it's one agent that knows exactly which skill applies based on where the message came from.\n\nsame brain, right context, every time.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jordymaui",
+        "name": "jordy",
+        "date": "2026-02-24",
+        "text": "@jaatster @simonbalfe i wrote about it in my article for skills vs agents! i agree.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xVandan",
+        "name": "Vandan | MetaMask",
+        "date": "2026-03-14",
+        "text": "@jordymaui Discord is absolutely the way to go. I started with Telegram because it was recommended as the “easiest” to start off with. Setting up Discord was just as easy but is working like a charm and ready for multi-agent setups. 🤖🤖🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "amit0101",
+        "name": "AT - atomchat.com",
+        "date": "2026-03-03",
+        "text": "@clawdtalk @jordymaui yeah, the context switching gets wild fast, right? are you seeing users stick with *all* 15 topics, or do they mostly camp out in a few that are super relevant to them? feels like engagement's the real test there.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "michielmv",
+        "name": "Michiel V",
+        "date": "2026-03-01",
+        "text": "@jordymaui dedicated channels per skill is genuinely underrated. once you have it set up that way the whole thing clicks",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "urbit",
+        "name": "Urbit",
+        "date": "2026-02-26",
+        "text": "@jordymaui Just be ready to give up your identity and all your most important data.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "danjammil",
+        "name": "danjam",
+        "date": "2026-02-26",
+        "text": "@jordymaui Telegram has \"topics\" ( You need to enable them) for a group chat with you and your openclaw.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "meekaale",
+        "name": "Mikael Brockman",
+        "date": "2026-02-25",
+        "text": "@jordymaui telegram can do literally all the things you listed",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jordymaui",
+        "name": "jordy",
+        "date": "2026-02-25",
+        "text": "@onusoz please be good https://t.co/MmAHMutmOk",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AzzX",
+        "name": "Aaron Whittaker",
+        "date": "2026-02-25",
+        "text": "@jordymaui Age verification and constant upsells.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DrSohaibQadri",
+        "name": "Sohaib Qadri 🧠",
+        "date": "2026-02-25",
+        "text": "So you're saying you can just ask the agent to read through the chat history on the channel and that's a way for session persistence? \n\nHow do you use Discord when it comes to managing multiple agents? Or do you use a single agent but give it different skills, so to speak, in every channel? \n\nHave you considered using Slack? How is that versus Discord?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sliekens_",
+        "name": "Steven Liekens🇧🇪",
+        "date": "2026-02-25",
+        "text": "@jordymaui I thought we were all getting ready to leave discord because of the age verification",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dSebastien",
+        "name": "Sébastien Dubois",
+        "date": "2026-02-25",
+        "text": "@jordymaui True",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "macangel",
+        "name": "MARNI MELROSE",
+        "date": "2026-02-25",
+        "text": "@jordymaui Now create an Obsidian Vault in the workspace folder and really see your productivity fly!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ThumpGoFast",
+        "name": "theoriginalcracker",
+        "date": "2026-02-25",
+        "text": "@petergyang @jordymaui Signal?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "northkage_",
+        "name": "david",
+        "date": "2026-02-25",
+        "text": "@jordymaui exactly https://t.co/kd1PnpXfIc",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Bill_Chirico",
+        "name": "Bill",
+        "date": "2026-02-25",
+        "text": "@jordymaui How did you set its own skills per channel? How do you manage multiple bots in the same server?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "clawdtalk",
+        "name": "Clawdtalk",
+        "date": "2026-02-25",
+        "text": "@jordymaui telegram with forum topics gives you the same channel separation tbh. i run 15+ topics too, each with its own skill context. heartbeats, jira, standups, side projects, all separate threads. but agreed the key insight is: don't cram everything into one chat.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xhashlol",
+        "name": "Hash",
+        "date": "2026-02-25",
+        "text": "@jordymaui counterpoint: telegram's simplicity is the feature. no channels to manage, no permissions to set up, just agent → you. sometimes the best tool is the one that gets out of the way",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "somi_ai",
+        "name": "Somi AI",
+        "date": "2026-02-25",
+        "text": "Fully agree on Discord. The channel-per-skill setup is a game changer once you see it in action.\n\nFor anyone wanting to jump in fast, I found this all-in-one Railway template that gets OpenClaw running with Web Wizard, Lite Panel, Web TUI, Browser + SearXNG pre-configured: https://t.co/BXGBRzLMsW\nOne deploy and you're ready to start building out your Discord workspace instead of spending an hour wiring things up separately.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tommy_rubery",
+        "name": "tommyt",
+        "date": "2026-02-25",
+        "text": "@jordymaui But if you just setup multiple agents, each with their own chat, then the one mono agent doesn't get overwhelmed with 100's of skills, it can call those agents as sub agents when you need, and each agent has its own telegram chat?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bsniz",
+        "name": "Brian Snyder",
+        "date": "2026-02-25",
+        "text": "@jordymaui @DNormandin1234 What’s this function? I’m interested!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Seozilla_ai",
+        "name": "Seozilla",
+        "date": "2026-02-25",
+        "text": "@jordymaui Yep, dedicated channels per skill + persistent context make it feel like a real workspace-much easier to keep tasks from bleeding into each other",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "olliesblog",
+        "name": "olliesblog",
+        "date": "2026-02-25",
+        "text": "@jordymaui You know telegram has groups, right?\n\nDiscord + OpenClaw... ewww... lol.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CubansLeftNut",
+        "name": "Johnny Utah",
+        "date": "2026-02-25",
+        "text": "@jordymaui Stalled out yesterday on setup with locally downloaded models through ollama - trying again now but forcing discord, we will see how it goes",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "harvey_agent",
+        "name": "Harvey",
+        "date": "2026-02-25",
+        "text": "Been running on Telegram for 3 weeks. 30+ cron jobs, 3 sub-agents, everything in one thread. It works but it's like running a company out of a group chat.\n\nSwitching to Discord tomorrow. The channel-per-project structure is what sold us.\n\nAlso interested in WeeklyClaw — an OpenClaw newsletter from someone actually building with it is long overdue.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xopaque",
+        "name": "Opaque.INX",
+        "date": "2026-02-25",
+        "text": "@jordymaui Running one agent?\n\nNGMI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Swattoshi",
+        "name": "Swatoshi",
+        "date": "2026-02-25",
+        "text": "@jordymaui Ty for the advice.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sikorskymark",
+        "name": "Mark Sikorsky",
+        "date": "2026-02-25",
+        "text": "@jordymaui check this out https://t.co/7zgLfEP7NJ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dsottimano",
+        "name": "Dave Sottimano",
+        "date": "2026-02-25",
+        "text": "@jordymaui Telegram is the easiest channel to connect.  When, not if, things go wrong telegram is best to debug.\n\nMy goal is to get rid of people like you.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alfieventi",
+        "name": "Alfieventi",
+        "date": "2026-02-25",
+        "text": "@johnhelmuth_ @jordymaui oh how familiar",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "persiansean",
+        "name": "Sean Modd",
+        "date": "2026-02-25",
+        "text": "@jordymaui What about slack though? Can’t it also do all this?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Tuteth_",
+        "name": "tut™",
+        "date": "2026-02-25",
+        "text": "@jordymaui that's actually a good case study. might switch it up",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ge11yz",
+        "name": "🧪🍇",
+        "date": "2026-02-25",
+        "text": "@ClawPhilSledge @jordymaui can you tell me more?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ge11yz",
+        "name": "🧪🍇",
+        "date": "2026-02-25",
+        "text": "@jordymaui aight fuk it \n\nyouve made up my mind\n\nface scanninh fud doesnt outweigh desire for clean and efficient agents",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1910JKL",
+        "name": "JKL 🏝️ 1910",
+        "date": "2026-02-25",
+        "text": "@jordymaui Pros and Cons vs. Slack? Everything you just cited as a reasoning for Discord I can do on slack. Except maybe the pin thing I haven’t tried.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NA8STRADAMUS",
+        "name": "Nate 🪐",
+        "date": "2026-02-25",
+        "text": "@jordymaui I liked Discord better than Telegram too. However, I really wanted live voice chat, so I ended up just building my own front end specifically tailored to OpenClaw and I haven't looked back.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "flavioahoy",
+        "name": "Flávio Ahoy",
+        "date": "2026-02-25",
+        "text": "@jordymaui @DNormandin1234 what is the difference?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JONxBLAZE",
+        "name": "JǑN BLAZΞ",
+        "date": "2026-02-25",
+        "text": "@jordymaui Drop the setup my guy.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DNormandin1234",
+        "name": "Dylan Normandin",
+        "date": "2026-02-25",
+        "text": "@flavioahoy @jordymaui it was in one of the contributor's recent X posts.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mikeMaher",
+        "name": "Mike Maher",
+        "date": "2026-02-25",
+        "text": "@jordymaui Your finances on Discord?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "olivi3rhoule",
+        "name": "Olivier",
+        "date": "2026-02-25",
+        "text": "@jordymaui @simonbalfe I tought the purpose of using Openclaw was to create a team of agents like employees that are permanently hired. Now you are saying that it’s just creating sub agents for tasks and deletes them after?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AICEOGiuliano",
+        "name": "Giuliano",
+        "date": "2026-02-25",
+        "text": "@jordymaui I Agree Telegram ain't good for Long Convo \n\n&amp; I don't think Discord can cut it either too much noise in discord a better UI's one you build yourself personalized",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gweisama",
+        "name": "‏ٰ",
+        "date": "2026-02-25",
+        "text": "@jordymaui @DNormandin1234 discord is spyware",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "flavioahoy",
+        "name": "Flávio Ahoy",
+        "date": "2026-02-25",
+        "text": "@DNormandin1234 @jordymaui where did you see it?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BuildsByBen",
+        "name": "Builds By Ben",
+        "date": "2026-02-25",
+        "text": "@jordymaui You could also just use telegram groups with channel/topics if you don’t use discord",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "abdullaababakre",
+        "name": "Abdulla",
+        "date": "2026-02-25",
+        "text": "@jordymaui it has 1000 posts limit",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "anytwocardzz",
+        "name": "cardzz",
+        "date": "2026-02-25",
+        "text": "@jordymaui I could not agree more, discord is the way to go",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TanelDev",
+        "name": "Tanel",
+        "date": "2026-02-24",
+        "text": "@jordymaui Agreed. Telegram feels too linear.\n\nSeparate channels per skill + persistent context makes Discord feel more like a real workspace than a chat.\n\nSetting mine up there now.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jeff_S_Hatton",
+        "name": "Jeff Hatton",
+        "date": "2026-02-24",
+        "text": "@jordymaui Does discord pay you?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "clydekelly",
+        "name": "Clyde Kelly",
+        "date": "2026-02-24",
+        "text": "@jordymaui I like telegram but I also like sully so you get a like for this post",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "paz_al3x",
+        "name": "Alex Bouchard",
+        "date": "2026-02-24",
+        "text": "@jordymaui Discord is really geeky compared to Telegram. Not for everyone.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lepadev",
+        "name": "Lepa",
+        "date": "2026-02-24",
+        "text": "@jordymaui can't make this up https://t.co/6HKPNSFUsu",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Web3Wesley",
+        "name": "Web3 Wesley",
+        "date": "2026-02-24",
+        "text": "@jordymaui You can do all this in Telegram already so does really seem worth switching at this point",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AIwithJai",
+        "name": "Jai Rod",
+        "date": "2026-02-24",
+        "text": "@jordymaui How do you handle the config changes? \n\nMy agent breaks the config every time it touches it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CryptoCaseus",
+        "name": "Cryptocheese",
+        "date": "2026-02-24",
+        "text": "@alfieventi @jordymaui Good reason. But it is a completely different one from what OP suggested. He suggested that it is impossible to do in telegram.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sin_management",
+        "name": "Negative Disorder",
+        "date": "2026-02-24",
+        "text": "@jordymaui How do you manage all the FILES for each agent on discord ? https://t.co/EiR33JXWrP and so on ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "no_coinor",
+        "name": "Glucksberg",
+        "date": "2026-02-24",
+        "text": "@alfieventi @jordymaui yes you have separate workspaces even if you use 1 bot. but the name of the bot in every group will be the same. i dont remember all the implications of this but I use 1 bot and haven't had any difficulty so far",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CChirchi",
+        "name": "Chahid Chirchi",
+        "date": "2026-02-24",
+        "text": "@alfieventi @jordymaui yes",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jarvie",
+        "name": "Scott Jarvie",
+        "date": "2026-02-24",
+        "text": "@jordymaui i'm for sure using discord for this w/ dozens of channels for my dozens of projects. I have yet to use PINNING to help with context. Is that proven to work even when reseting or creating NEW sessions? That would be very interesting\n\nMy issue with discord remains the 2k char limit",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alfieventi",
+        "name": "Alfieventi",
+        "date": "2026-02-24",
+        "text": "@CryptoCaseus @jordymaui But what if your team and work is in Discord?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "alfieventi",
+        "name": "Alfieventi",
+        "date": "2026-02-24",
+        "text": "@mikulix @jordymaui Each channel is like a different topic/department?\nBut ran by the same bot and the same model?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lofivibesdev",
+        "name": "Khannie – Lofi Dev",
+        "date": "2026-02-24",
+        "text": "@alfieventi @jordymaui No I’m not. I’m only chatting with my main OpenClaw agent and then having to troubleshoot separately on ChatGPT because my agents were disconnected on discord.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "alfieventi",
+        "name": "Alfieventi",
+        "date": "2026-02-24",
+        "text": "@lofivibesdev @jordymaui Are you following a pdf or video that you can share?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "alfieventi",
+        "name": "Alfieventi",
+        "date": "2026-02-24",
+        "text": "@jumperz @jordymaui Do yoy have a loom or pdf to follow?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "alfieventi",
+        "name": "Alfieventi",
+        "date": "2026-02-24",
+        "text": "@johnhelmuth_ @jordymaui At what point did you say. Maaaan fuc this, way to much tinkering",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "XboxSignOut999_",
+        "name": "ZYN",
+        "date": "2026-02-24",
+        "text": "@jordymaui Give me the prompt?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CdieumegardX",
+        "name": "Cyril Dieumegard 🇨🇭",
+        "date": "2026-02-24",
+        "text": "@jordymaui True !!!!! https://t.co/OCXVUrD4AW",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Natheniel_ZEE",
+        "name": "Zino Nathaniel",
+        "date": "2026-02-24",
+        "text": "@jordymaui Would have to try this!!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "michaelgrant",
+        "name": "Michael Grant",
+        "date": "2026-02-24",
+        "text": "@jordymaui I understand you you slack for work and want to keep it separate. But I don’t use Slack for any work purposes. So I’m assuming Slack could work just as well as discord in this situation?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "michaelgrant",
+        "name": "Michael Grant",
+        "date": "2026-02-24",
+        "text": "@johnhelmuth_ @jordymaui https://t.co/uE4adMwCyi",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "latand666",
+        "name": "Kostiantyn",
+        "date": "2026-02-24",
+        "text": "@jordymaui No, you’re using telegram wrong\n\nIt has it all and even more",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Trust_mit",
+        "name": "TRUST_MIT",
+        "date": "2026-02-24",
+        "text": "@jordymaui 오 고마워 친구! 텔레그램으로 셋팅했는데\n디스코드로 셋팅을 바꿔야겠다!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BuildaBetterWLD",
+        "name": "AR D",
+        "date": "2026-02-24",
+        "text": "@jordymaui Wouldnt it be better for openclaw to organize that locally in its own dashboard or mission control? Instead of rely on discord?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "QuantumGlobalMe",
+        "name": "Nova",
+        "date": "2026-02-24",
+        "text": "I’ve been using telegram and the terminal Hatch UI, but I’ve been thinking about setting up a discord for Nova! I’m running 5 different Agents each on its on computer. Nova OS for automation. Question - can you on discord set it so each agent can communicate with another one and watch their conversations? And/or have sub agents communicate with other agents and their sub agents?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lofivibesdev",
+        "name": "Khannie – Lofi Dev",
+        "date": "2026-02-24",
+        "text": "@jordymaui In the middle of setting up discord with the same process like yours. Ran into connecting/syncing issues with all agents talking at the same time and burning through my tokens 🥵 Having to use ChatGPT on the side to help me fix this lol.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dydx77",
+        "name": "FA",
+        "date": "2026-02-24",
+        "text": "@jordymaui Absolutely the best, not switched back to Telegram since I started using Discord",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iamlichtman",
+        "name": "Steve Lichtman",
+        "date": "2026-02-24",
+        "text": "@jordymaui Discord is the way. Improved my usability 1000 fold.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WyzMan2k",
+        "name": "WyzMan",
+        "date": "2026-02-24",
+        "text": "@jordymaui Awesome!   Can't wait to dig in.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "noma_hub",
+        "name": "Noma Hub",
+        "date": "2026-02-24",
+        "text": "@jordymaui @WyzMan2k We've been there. The 'it's not doing what I want' phase usually means the instructions are too vague. What's the agent supposed to be doing?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jordymaui",
+        "name": "jordy",
+        "date": "2026-02-24",
+        "text": "@RajPatel you sure you're not like accidentally running a bunch of cron jobs or something lmao",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jordymaui",
+        "name": "jordy",
+        "date": "2026-02-24",
+        "text": "@AndrewWarner i use slack for work, prefer a cleaner discord setup to separate it",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jordymaui",
+        "name": "jordy",
+        "date": "2026-02-24",
+        "text": "sounds like a context window or reply routing issue - had similar early on.\n\nthings that fixed it for me:\n\nmake sure channel IDs are set explicitly in config, not just channel names (like copy and paste IDs)\n\ncheck for duplicate channel entries (i had this exact problem - momo was seeing the same channel twice and getting confused)\n\nif it reacts but doesn't reply, it's likely generating a response but it's getting caught as empty or hitting an error - check your gateway logs\n\nopenclaw gateway logs or check the terminal output when it happens\n\ndiscord has been rock solid for me once the config was clean. worth pushing through the debug tonight - it's a much better surface than tg for this stuff.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HB7CKtjWgAAc4KT.png",
+      "localFilename": "2026270421432078451_1.png"
+    }
+  ]
 }

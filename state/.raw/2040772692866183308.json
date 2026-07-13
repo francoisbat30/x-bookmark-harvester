@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T07:11:29.022Z",
+  "tweetId": "2040772692866183308",
+  "post": {
+    "url": "https://x.com/RoundtableSpace/status/2040772692866183308",
+    "author": {
+      "handle": "RoundtableSpace",
+      "name": "0xMarioNawfal"
+    },
+    "date": "2026-04-05",
+    "text": "CLAUDE IS OFFERING 13 AI COURSES & CERTIFICATES.\n\nALL FREE. START LEARNING NOW.\n\n* Claude 101. Learn Claude for everyday work.\nhttps://t.co/5BTxHDLkFl\n\n* AI Fluency: Frameworks & Foundations.\nhttps://t.co/4cVd0yWh2b\n\n* Introduction to Agent Skills.\nhttps://t.co/Qp2dthHEWw\n\n* Building with the Claude API.\nhttps://t.co/XLETKnmsOH\n\n* Claude Code in Action.\nhttps://t.co/mWx2ncByVG\n\n* Intro to Model Context Protocol.\nhttps://t.co/SRtsyXnxiK\n\n* MCP: Advanced Topics.\nhttps://t.co/qsIwMXbetq\n\n* AI Fluency for Students.\nhttps://t.co/5wYhqBX1Fx\n\n* AI Fluency for Educators.\nhttps://t.co/m39LPSqMiy\n\n* Teaching AI Fluency.\nhttps://t.co/5tIKdujzu3\n\n* AI Fluency for Nonprofits.\nhttps://t.co/bZyzIAcnCy\n\n* Claude with Amazon Bedrock.\nhttps://t.co/ACR2hYAwdc\n\n* Claude with Google Cloud's Vertex AI.\nhttps://t.co/w6BM2XNgqi",
+    "thread": [
+      {
+        "id": "2040772692866183308",
+        "text": "CLAUDE IS OFFERING 13 AI COURSES & CERTIFICATES.\n\nALL FREE. START LEARNING NOW.\n\n* Claude 101. Learn Claude for everyday work.\nhttps://t.co/5BTxHDLkFl\n\n* AI Fluency: Frameworks & Foundations.\nhttps://t.co/4cVd0yWh2b\n\n* Introduction to Agent Skills.\nhttps://t.co/Qp2dthHEWw\n\n* Building with the Claude API.\nhttps://t.co/XLETKnmsOH\n\n* Claude Code in Action.\nhttps://t.co/mWx2ncByVG\n\n* Intro to Model Context Protocol.\nhttps://t.co/SRtsyXnxiK\n\n* MCP: Advanced Topics.\nhttps://t.co/qsIwMXbetq\n\n* AI Fluency for Students.\nhttps://t.co/5wYhqBX1Fx\n\n* AI Fluency for Educators.\nhttps://t.co/m39LPSqMiy\n\n* Teaching AI Fluency.\nhttps://t.co/5tIKdujzu3\n\n* AI Fluency for Nonprofits.\nhttps://t.co/bZyzIAcnCy\n\n* Claude with Amazon Bedrock.\nhttps://t.co/ACR2hYAwdc\n\n* Claude with Google Cloud's Vertex AI.\nhttps://t.co/w6BM2XNgqi"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HFJDsyracAAA0jv.jpg"
+      }
+    ],
+    "metrics": {
+      "likes": 8650,
+      "retweets": 1171,
+      "replies": 106,
+      "views": 3414592
+    },
+    "comments": []
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HFJDsyracAAA0jv.jpg",
+      "localFilename": "2040772692866183308_1.jpg"
+    }
+  ]
+}

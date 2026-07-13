@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:05.280Z",
+  "fetchedAt": "2026-07-13T07:08:22.763Z",
   "tweetId": "2031092618587689402",
   "post": {
     "url": "https://x.com/DokPepper/status/2031092618587689402",
@@ -9,21 +10,1180 @@
       "name": "Pepper, MD"
     },
     "date": "2026-03-09",
-    "text": "Bon, je vais vous expliquer comment télécharger des films et des séries, tout en profitant de la chute du site YggTorrent (car les sites alternatifs sont passés en freeleech pour faire venir les utilisateurs).\n\nAllez, je vous explique.\n\n1/",
-    "media": [],
+    "text": "Bon, je vais vous expliquer comment télécharger des films et des séries, tout en profitant de la chute du site YggTorrent (car les sites alternatifs sont passés en freeleech pour faire venir les utilisateurs).\n\nAllez, je vous explique.\n\n1/\n\nTout d'abord c'est illégal. Qu'on soit d'accord sur ce point. Télécharger des oeuvres c'est mal et si vous le faites, c'est en connaissance de cause. Il existe des offres légales (Neftlix, Prime, Disney etc.). Mais je vous l'accorde, certains vieux trucs y sont introuvables.\n\n/2\n\nCeci dit, le site de référence était YggTorrent, et il était devenu une pompe à fric en pigeonnant ceux qui n'utilisaient pas la méthode que je vais vous expliquer ici. \n\nLa chute de YggTorrent est expliquée ici si ça vous intéresse :\n\n/3 \n\nhttps://t.co/tgCXZOodCd\n\nLes bases, c'est quoi un torrent ? C'est un fichier .torrent à mettre dans un logiciel de téléchargement qui va ainsi récupérer le fichier que vous avez besoin.\n\nEt YggTorrent était un \"annuaire\" de ces fichiers.\n\nComme https://t.co/0Px5zYTg8h ou https://t.co/tE8bn8GuF1\n\n/4\n\nD'ailleurs le catalogue YggTorrent a été sauvegardé par les pirates ici sur ce site : https://t.co/LLKq1VdJm6 et c'est une mine pour récupérer des vieux films ou des vielles séries, qui ne sont plus sur aucun serveur en VOD.\n\n/5\n\nC'est d'ailleurs les deux annuaires (c411 et torr9) qui sortent du lot dans la communauté francophone.\n\nPS : pour y accéder vous aurez peut-être besoin de changer les adresses DNS de votre connexion internet, moi c'était déjà fait pour YggTorrent. C'est super simple à faire. \n\n/6\n\nMais je vous laisse chercher si besoin comment faire dans vos paramètres réseau.\n \nCeci étant, ces annuaires sont basés sur un phénomène de \"ratio\". C'est à dire que vous pouvez télécharger un fichier de 5 Go que si vous avez déjà partagé pour 5 Go de données sur leur réseau.\n\n/7\n\nEt en ce moment, pour favoriser l'émergence de ces annuaires, ils sont en freeleech, c'est à dire que ce que vous téléchargez n'est pas décompté. Cela va durer en gros un mois. \n\nC'est VRAIMENT le moment d'en profiter pour monter \nvotre radio, je vous explique comment.\n\n/8\n\nJe vous invite à aller louer pour un mois un serveur distant. Je conseille useed, vous aurez 450 Go de place pour 8 euros. Vous achetez, sans renouvellement, et vous installez le client torrent \"transmission\".\n\n/9\n\nC'est ce logiciel qui va télécharger et partager vos torrents pendant un mois, h24 ! Et comme c'est pas votre ordinateur, pas de problème de se faire avoir par l'arcom (le successeur de Hadopi, le gendarme des téléchargements).\n\n/10\n\nVous allez ensuite sur c411 ou torr9 (et pourquoi pas les deux) et vous téléchargez dans les torrents du jour. \n\nL'idée est de bourrer Transmission (sur useed) de torrents neufs que les gens voudront. Donc ca va les télécharger puis les diffuser (et monter votre ratio)\n\n/11 https://t.co/lySsiK9p3t\n\nDonc vous téléchargez, puis vous ajoutez dans Transmission le fichier .torrent que vous avez récupéré.\n\nEt là ... magie ... le téléchargement se lance, et le partage aussi.\n\nRien à faire ! C'est automatique !\n\n/12 https://t.co/u4m43XhQFs\n\nVenez le lendemain voir. Sur les annuaires vous verrez de jolis ratios apparaitre sur vos comptes.\n\nEt pourquoi cela va monter super vite ?\n\nCar ces sites ne décomptent pas (pour le moment) ce que vous \"téléchargez\" de ce que vous \"partagez\". \n\n/13 https://t.co/W9rEmiGITl\n\nDonc vous pouvez télécharger 1 To et diffuser 1 To, ce qui en temps normal ne ferait pas bouger votre ratio d'un iota, mais là comme le téléchargement n'est pas décompté, vous engrangez 1 To de futurs téléchargements ! (mais ça va pas durer).\n\n/14\n\nHa oui, pensez à virer les torrents qd vous voyez qu'il n'y a plus d'activité dessus (date d'activité) ou si le ratio est faible (peu de gens le téléchargent).\n\nSupprimez (penser à cocher supprimer les données) et retéléchargez des torrents. Des frais. Des trucs recherchés.\n\n/15 https://t.co/WoeJyPLOgl\n\nEt pensez à bourrer votre serveur. Moi j'ai une limite de 450 Go, et j'ai là 446 Go en torrents que je partage.\n\nAvec une moyenne de 1 To de partage ... par jour.\n\n/16 https://t.co/MZ9H4vAwiV\n\nCeci étant, avec ce que je vais vous expliquer ensuite, pas la peine d'avoir des centaines de To d'avance, car je vais vous expliquer comment télécharger sans jamais avoir à consommer votre ratio.\n\nC'est à dire comment continuer à profiter du téléchargement illimité.\n\n/17\n\nAlors là aussi, c'est mal de le faire, car cela tue le principe du partage. Donc je vous invite réellement à continuer à diffuser sans passer par un ... débrideur.\n\nMoi j'ai un serveur qui consacre quelques Go à partager h24, mais j'utilise un débrideur quand y'a besoin.\n\n/18\n\nUn débrideur, il va télécharger pour vous. Et il va créer un fichier déconnecté des annuaires prêt à être téléchargé.\n\nDonc pas de décompte sur les ratios des annuaires ... mais surtout pas besoin de VPN car l'Arcom ne surveillera pas ce fichier créé rien que pour vous.\n\n/19\n\nAlors pourquoi avoir un gros ratio et pas utiliser directement le débrideur ? Car les annuaires refuseront que vous puissiez télécharger un fichier de 1 To si vous n'avez pas un capital d'avance de téléchargement de 1 To. \n\nC'est cela que faisait payer YggTorrent !\n\n/20\n\nC'est pourquoi avec 1 To d'avance, vous avez laaargement de quoi télécharger tout. \n\nVous pouvez utiliser https://t.co/86UCLhgiYj (3 euros par mois).\n\nC'est les seuls frais (avec la seed box d'un mois que vous allez prendre pour monter le ratio) que vous aurez.\n\n/21 https://t.co/SaTTZDRO9N\n\nIl marche pour tout (X, youtube, facebook, etc.) et donc aussi des torrents en passant sous les radars de l'Arcom.\n\nDonc même principe : prendre le fichier .torrent et le mettre dans alldebride dans l'onglet \"Magnet\".\n\nVous pouvez mettre le fichier (ou directement son lien).\n\n/22 https://t.co/fDCibdyssp\n\nParfois le débrideur devra télécharger le fichier (faut être patient sur les fichiers rares). Et on le retrouve dans \"terminé\". Quand il connait déjà le fichier, c'est directement dans \"terminé\".\n\nEnsuite vous cochez et téléchargez.\n\n/23 https://t.co/243YaU1T5P\n\nEt ensuite 2 solutions :\n\nA : vous copiez les liens et vous les mettez dans votre logiciel de téléchargement\n\nB : vous cliquez et lancez le téléchargement direct sur votre ordinateur\n\n/24 https://t.co/KpAH8sYwcL\n\nVoilà, vous avez le tuto pour télécharger sous les radars de l'arcom, sans toucher à un quelconque ratio d'annuaire.\n\nA vous maintenant de faire en fonction de votre conscience. Je peux comprendre les étudiants qui n'ont pas les moyens de payer netflix ou prime.\n\n/25\n\nJe persiste à croire que l'option seedbox est la meilleure solution : pour pas cher par mois, vous avez un serveur qui tourne h24 et qui aura tous les logiciels dont vous aurez besoin, et qui seedera (participera au partage). Sans etre repéré par l'arcom.\n\n/26\n\nMais bon, tout cela pour dire que c'est encore possible de télécharger en 2026, sans que cela soit trop compliqué encore, pour pas cher (et pour certains cela compte), tout en rappelant qu'il est interdit de télécharger certaines oeuvres, toussa toussa.\n\n/27\n\nEn espérant que ce tuto vous aura servi ! \n\n/28",
+    "thread": [
+      {
+        "id": "2031092618587689402",
+        "text": "Bon, je vais vous expliquer comment télécharger des films et des séries, tout en profitant de la chute du site YggTorrent (car les sites alternatifs sont passés en freeleech pour faire venir les utilisateurs).\n\nAllez, je vous explique.\n\n1/"
+      },
+      {
+        "id": "2031092620336763226",
+        "text": "Tout d'abord c'est illégal. Qu'on soit d'accord sur ce point. Télécharger des oeuvres c'est mal et si vous le faites, c'est en connaissance de cause. Il existe des offres légales (Neftlix, Prime, Disney etc.). Mais je vous l'accorde, certains vieux trucs y sont introuvables.\n\n/2"
+      },
+      {
+        "id": "2031092622115095003",
+        "text": "Ceci dit, le site de référence était YggTorrent, et il était devenu une pompe à fric en pigeonnant ceux qui n'utilisaient pas la méthode que je vais vous expliquer ici. \n\nLa chute de YggTorrent est expliquée ici si ça vous intéresse :\n\n/3 \n\nhttps://t.co/tgCXZOodCd"
+      },
+      {
+        "id": "2031092624166174907",
+        "text": "Les bases, c'est quoi un torrent ? C'est un fichier .torrent à mettre dans un logiciel de téléchargement qui va ainsi récupérer le fichier que vous avez besoin.\n\nEt YggTorrent était un \"annuaire\" de ces fichiers.\n\nComme https://t.co/0Px5zYTg8h ou https://t.co/tE8bn8GuF1\n\n/4"
+      },
+      {
+        "id": "2031092626024218658",
+        "text": "D'ailleurs le catalogue YggTorrent a été sauvegardé par les pirates ici sur ce site : https://t.co/LLKq1VdJm6 et c'est une mine pour récupérer des vieux films ou des vielles séries, qui ne sont plus sur aucun serveur en VOD.\n\n/5"
+      },
+      {
+        "id": "2031092627823526239",
+        "text": "C'est d'ailleurs les deux annuaires (c411 et torr9) qui sortent du lot dans la communauté francophone.\n\nPS : pour y accéder vous aurez peut-être besoin de changer les adresses DNS de votre connexion internet, moi c'était déjà fait pour YggTorrent. C'est super simple à faire. \n\n/6"
+      },
+      {
+        "id": "2031092629480284612",
+        "text": "Mais je vous laisse chercher si besoin comment faire dans vos paramètres réseau.\n \nCeci étant, ces annuaires sont basés sur un phénomène de \"ratio\". C'est à dire que vous pouvez télécharger un fichier de 5 Go que si vous avez déjà partagé pour 5 Go de données sur leur réseau.\n\n/7"
+      },
+      {
+        "id": "2031092631422341171",
+        "text": "Et en ce moment, pour favoriser l'émergence de ces annuaires, ils sont en freeleech, c'est à dire que ce que vous téléchargez n'est pas décompté. Cela va durer en gros un mois. \n\nC'est VRAIMENT le moment d'en profiter pour monter \nvotre radio, je vous explique comment.\n\n/8"
+      },
+      {
+        "id": "2031092633183903834",
+        "text": "Je vous invite à aller louer pour un mois un serveur distant. Je conseille useed, vous aurez 450 Go de place pour 8 euros. Vous achetez, sans renouvellement, et vous installez le client torrent \"transmission\".\n\n/9"
+      },
+      {
+        "id": "2031092634920349946",
+        "text": "C'est ce logiciel qui va télécharger et partager vos torrents pendant un mois, h24 ! Et comme c'est pas votre ordinateur, pas de problème de se faire avoir par l'arcom (le successeur de Hadopi, le gendarme des téléchargements).\n\n/10"
+      },
+      {
+        "id": "2031092637277495358",
+        "text": "Vous allez ensuite sur c411 ou torr9 (et pourquoi pas les deux) et vous téléchargez dans les torrents du jour. \n\nL'idée est de bourrer Transmission (sur useed) de torrents neufs que les gens voudront. Donc ca va les télécharger puis les diffuser (et monter votre ratio)\n\n/11 https://t.co/lySsiK9p3t"
+      },
+      {
+        "id": "2031092639940976934",
+        "text": "Donc vous téléchargez, puis vous ajoutez dans Transmission le fichier .torrent que vous avez récupéré.\n\nEt là ... magie ... le téléchargement se lance, et le partage aussi.\n\nRien à faire ! C'est automatique !\n\n/12 https://t.co/u4m43XhQFs"
+      },
+      {
+        "id": "2031092643103392114",
+        "text": "Venez le lendemain voir. Sur les annuaires vous verrez de jolis ratios apparaitre sur vos comptes.\n\nEt pourquoi cela va monter super vite ?\n\nCar ces sites ne décomptent pas (pour le moment) ce que vous \"téléchargez\" de ce que vous \"partagez\". \n\n/13 https://t.co/W9rEmiGITl"
+      },
+      {
+        "id": "2031092645234168272",
+        "text": "Donc vous pouvez télécharger 1 To et diffuser 1 To, ce qui en temps normal ne ferait pas bouger votre ratio d'un iota, mais là comme le téléchargement n'est pas décompté, vous engrangez 1 To de futurs téléchargements ! (mais ça va pas durer).\n\n/14"
+      },
+      {
+        "id": "2031092647603953898",
+        "text": "Ha oui, pensez à virer les torrents qd vous voyez qu'il n'y a plus d'activité dessus (date d'activité) ou si le ratio est faible (peu de gens le téléchargent).\n\nSupprimez (penser à cocher supprimer les données) et retéléchargez des torrents. Des frais. Des trucs recherchés.\n\n/15 https://t.co/WoeJyPLOgl"
+      },
+      {
+        "id": "2031092650179236330",
+        "text": "Et pensez à bourrer votre serveur. Moi j'ai une limite de 450 Go, et j'ai là 446 Go en torrents que je partage.\n\nAvec une moyenne de 1 To de partage ... par jour.\n\n/16 https://t.co/MZ9H4vAwiV"
+      },
+      {
+        "id": "2031092652511314053",
+        "text": "Ceci étant, avec ce que je vais vous expliquer ensuite, pas la peine d'avoir des centaines de To d'avance, car je vais vous expliquer comment télécharger sans jamais avoir à consommer votre ratio.\n\nC'est à dire comment continuer à profiter du téléchargement illimité.\n\n/17"
+      },
+      {
+        "id": "2031092654218309777",
+        "text": "Alors là aussi, c'est mal de le faire, car cela tue le principe du partage. Donc je vous invite réellement à continuer à diffuser sans passer par un ... débrideur.\n\nMoi j'ai un serveur qui consacre quelques Go à partager h24, mais j'utilise un débrideur quand y'a besoin.\n\n/18"
+      },
+      {
+        "id": "2031092655921229965",
+        "text": "Un débrideur, il va télécharger pour vous. Et il va créer un fichier déconnecté des annuaires prêt à être téléchargé.\n\nDonc pas de décompte sur les ratios des annuaires ... mais surtout pas besoin de VPN car l'Arcom ne surveillera pas ce fichier créé rien que pour vous.\n\n/19"
+      },
+      {
+        "id": "2031092657657708574",
+        "text": "Alors pourquoi avoir un gros ratio et pas utiliser directement le débrideur ? Car les annuaires refuseront que vous puissiez télécharger un fichier de 1 To si vous n'avez pas un capital d'avance de téléchargement de 1 To. \n\nC'est cela que faisait payer YggTorrent !\n\n/20"
+      },
+      {
+        "id": "2031092660270780567",
+        "text": "C'est pourquoi avec 1 To d'avance, vous avez laaargement de quoi télécharger tout. \n\nVous pouvez utiliser https://t.co/86UCLhgiYj (3 euros par mois).\n\nC'est les seuls frais (avec la seed box d'un mois que vous allez prendre pour monter le ratio) que vous aurez.\n\n/21 https://t.co/SaTTZDRO9N"
+      },
+      {
+        "id": "2031092662984429880",
+        "text": "Il marche pour tout (X, youtube, facebook, etc.) et donc aussi des torrents en passant sous les radars de l'Arcom.\n\nDonc même principe : prendre le fichier .torrent et le mettre dans alldebride dans l'onglet \"Magnet\".\n\nVous pouvez mettre le fichier (ou directement son lien).\n\n/22 https://t.co/fDCibdyssp"
+      },
+      {
+        "id": "2031092666058805558",
+        "text": "Parfois le débrideur devra télécharger le fichier (faut être patient sur les fichiers rares). Et on le retrouve dans \"terminé\". Quand il connait déjà le fichier, c'est directement dans \"terminé\".\n\nEnsuite vous cochez et téléchargez.\n\n/23 https://t.co/243YaU1T5P"
+      },
+      {
+        "id": "2031092669456302266",
+        "text": "Et ensuite 2 solutions :\n\nA : vous copiez les liens et vous les mettez dans votre logiciel de téléchargement\n\nB : vous cliquez et lancez le téléchargement direct sur votre ordinateur\n\n/24 https://t.co/KpAH8sYwcL"
+      },
+      {
+        "id": "2031092671767257488",
+        "text": "Voilà, vous avez le tuto pour télécharger sous les radars de l'arcom, sans toucher à un quelconque ratio d'annuaire.\n\nA vous maintenant de faire en fonction de votre conscience. Je peux comprendre les étudiants qui n'ont pas les moyens de payer netflix ou prime.\n\n/25"
+      },
+      {
+        "id": "2031093327836106987",
+        "text": "Je persiste à croire que l'option seedbox est la meilleure solution : pour pas cher par mois, vous avez un serveur qui tourne h24 et qui aura tous les logiciels dont vous aurez besoin, et qui seedera (participera au partage). Sans etre repéré par l'arcom.\n\n/26"
+      },
+      {
+        "id": "2031093932042383628",
+        "text": "Mais bon, tout cela pour dire que c'est encore possible de télécharger en 2026, sans que cela soit trop compliqué encore, pour pas cher (et pour certains cela compte), tout en rappelant qu'il est interdit de télécharger certaines oeuvres, toussa toussa.\n\n/27"
+      },
+      {
+        "id": "2031094020332523889",
+        "text": "En espérant que ce tuto vous aura servi ! \n\n/28"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HC_JYzLWAAAONV7.png"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HC_JletW8AASrfD.png"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HC_BJvzWwAAcUO7.png"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HC_JueqWoAIBcDy.png"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HC_B7o9XAAAmhzd.png"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HC_CKK2XAAAcRDa.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HC_Gds3XIAMiVmd.png"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HC_Go4AWEAAJcf2.png"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HC_G7nQasAAwD_5.png"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HC_FibUWUAA95tx.png"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HC_JP5sXAAAVrV1.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HC_LJrDWMAAHUM5.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HC_hQ3FWMAAjnFB.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/HC_hzjXaMAIVivv.png"
+      }
+    ],
     "metrics": {
-      "likes": 894,
-      "retweets": 82,
+      "likes": 902,
+      "retweets": 84,
       "replies": 46,
-      "views": 227547
+      "views": 234490
     },
     "comments": [
+      {
+        "handle": "DokPepper",
+        "name": "Pepper, MD",
+        "date": "2026-03-10",
+        "text": "@Paullrx1 Pourquoi continuer à acheter du vin à 50 euros la bouteille quand on peut se bourrer la gueule avec du cubi à 2€ le litre ?",
+        "likes": 10,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DokPepper",
+        "name": "Pepper, MD",
+        "date": "2026-03-09",
+        "text": "@subjack71 Repérable et bannissable très vite",
+        "likes": 5,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WayZak0",
+        "name": "WayZak0",
+        "date": "2026-03-10",
+        "text": "@pari_rem @DokPepper Bien sûr ouais si tu regardes tes films et series sur un 17 pouces 😂\nSur une TV digne de ce nom et 4k tu me diras ou tu trouve ton IP TV 4k HDR10 Dolby Atmos par exemple ? Puis j'ajoute que tu n'as pas le fichier à demeure avec une IPTV",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PRAXIIIIS",
+        "name": "e7m 🇲🇦 ☭",
+        "date": "2026-03-14",
+        "text": "@Benku1000 @The_Dz_ @stefler974 @LeArtavus @DokPepper Si en plus du catalogue pas très bien fourni tu rajoutes RM qui fonctionne (peut être) plus avec le site, on risque de vivre des années dures pour le téléchargement illégal.\nJe regrette déjà ygg perso.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "darjeleen",
+        "name": "RyM 💕🍒",
+        "date": "2026-03-10",
+        "text": "@fleverlon @PrnomNom1172110 @DokPepper Va vérifier t’as plus aucun lien 1fichier proposé ils supprimé tout",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ScredClub",
+        "name": "Scred Club🇫🇷 ($FLUX)",
+        "date": "2026-03-25",
+        "text": "@DokPepper C'est tellement la base Alldebrid &lt;3 https://t.co/bIQH1D14bK",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UPA_Photos",
+        "name": "Universe Photo Archive",
+        "date": "2026-03-11",
+        "text": "@DokPepper @subjack71 Impossible à détecter si bien configuré.\nJ'ai configuré ratioghost en freeleech pendant des années sur YGG...\nBon là c'était détectable mais seulement indirectement.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "le_balto2",
+        "name": "Raymond Balto ( Раймонд Балто )",
+        "date": "2026-03-10",
+        "text": "@DokPepper Et sinon depuis https://t.co/GAHeRxf6aQ et sa triste fermeture 😭\nRien a remplacer ce site qui était parfait ?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fifou2809",
+        "name": "Philippe d",
+        "date": "2026-03-10",
+        "text": "@DokPepper Bonjour dok, merci pour toutes ces infos... Sais tu comment avoir une invitation sur c411, car le site semble fermé aux inscriptions",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "88laVosgienne",
+        "name": "XATRA",
+        "date": "2026-03-10",
+        "text": "@subjack71 @DokPepper Même sans être prudent je me doutais des 5To d’un coup sans pression et mon compte a toujours été le même depuis l’ouverture du site mdddr",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_mumix",
+        "name": "mumix 🇫🇷🌹",
+        "date": "2026-03-10",
+        "text": "@K0dirc @BenjiTrix @xyz80364672 @DokPepper @subjack71 @BenjiTrix @K0dirc même sur https://t.co/xneRVDvh3C et https://t.co/DciVXTgbP3 ?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DokPepper",
+        "name": "Pepper, MD",
+        "date": "2026-03-10",
+        "text": "@leo_sdt Avec que des films américains, sans VOST, peu de multi. Bref, oui, ça marche, quand on est américain.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DokPepper",
+        "name": "Pepper, MD",
+        "date": "2026-03-10",
+        "text": "@The_Yoda_ On est d'accord.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "The_Yoda_",
+        "name": "Sergio Art®",
+        "date": "2026-03-10",
+        "text": "@DokPepper Alors l'arcom n'est pas d'accord avec cette affirmation. \nLe téléchargement n'est pas illégal. Ce qui est illégal, c'est le fait de partager des oeuvres dont on n'a pas les droits (mais c'est nécessaire pour télécharger par Torrent si je ne m'abuse)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "darjeleen",
+        "name": "RyM 💕🍒",
+        "date": "2026-03-10",
+        "text": "@fleverlon @DokPepper Non ils ont supprimé l’hébergeur 1fichier donc le reste c’est de la mer** aucun autre hébergeur ne fonctionne même en streaming",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "subjack71",
+        "name": "sub83",
+        "date": "2026-03-10",
+        "text": "@DokPepper Sur ygg en étant prudent je l'utilise depuis des années sans soucis \nFaut juste pas faire n'importe quoi oui",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Charles_Liebert",
+        "name": "Charles Liebert",
+        "date": "2026-03-10",
+        "text": "@the_fishr_king @DokPepper Les « anciens » savent ;)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MFVSTUV",
+        "name": "Joker",
+        "date": "2026-03-10",
+        "text": "@xyz80364672 @BenjiTrix @DokPepper @subjack71 Je l’ai toujours fait 0 soucis",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "stefler974",
+        "name": "Stefler974",
+        "date": "2026-03-10",
+        "text": "@Benku1000 @LeArtavus @DokPepper Comment ta fait pour le faire fonctionner sur c411, moi j’ai une erreur ,faut  rechanger un truc sur ratiomaster vu que cest plus yggtorrent ou pas ??",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "thundard",
+        "name": "THUNDARD",
+        "date": "2026-03-10",
+        "text": "@DokPepper wawa+darkiworld+1fichier / 20 balles par an/illimité/la totale",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xWARP7",
+        "name": "i_still_lack_of_sleep",
+        "date": "2026-03-09",
+        "text": "@sebsport12 @subjack71 @DokPepper non tu va juste te faire ban ton compte + ban ip mdrrrrrr",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BulmaVegeta732",
+        "name": "Bulma-Vegeta",
+        "date": "2026-06-25",
+        "text": "@DokPepper Merci de tout cœur pour ces explications \nC'est mal de télécharger, bof moi, ça m'a insisté à acheter des originaux quand ça me plaisait.\nEt oui, trouvé des trucs introuvables. Après on s'étonne que la culture est à la ramasse. Les trucs super disparaissent.  vivE les BitTorrent",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
       {
         "handle": "ice_nicephore",
         "name": "The Punisher☠️",
         "date": "2026-04-12",
-        "text": "@DokPepper Svp je peux toujours l'essayer ? Ou le délai de Freeleech est déjà dépassé"
+        "text": "@DokPepper Svp je peux toujours l'essayer ? Ou le délai de Freeleech est déjà dépassé",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-04-05",
+        "text": "@Mozartjack @gotchat64 @DokPepper Ask Grok est actuellement disponible uniquement pour les abonnés Premium et Premium+. Abonnez-vous pour débloquer cette fonctionnalité : https://t.co/Ob8ogZQ1xV",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Mozartjack",
+        "name": "Mk RK",
+        "date": "2026-04-05",
+        "text": "@gotchat64 @DokPepper @grok explique",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SuperBoyz68",
+        "name": "Marti",
+        "date": "2026-03-25",
+        "text": "@DokPepper Avec un VPN dans le navigateur c'est suffisant pour proteger?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mdk91_",
+        "name": "D.bobby",
+        "date": "2026-03-19",
+        "text": "@DokPepper le site est vraiment naze j'ai le seum",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PIEDANSLEPLAT",
+        "name": "S. FRANK",
+        "date": "2026-03-17",
+        "text": "@DokPepper merci beaucoup! retrouver les teams slayer, tfa, syndicate, et autres sur le site, un kiff! et pour ma part, seedbox de free avec ration à 100😊",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FJepion62610",
+        "name": "fanti jepion",
+        "date": "2026-03-16",
+        "text": "@DokPepper Bonjour je recherche une alternative a yyggtorrent car au moins nous avions la presse du jour  en temps réel et je ne trouve aucun autre site ;",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Bonjouraparis55",
+        "name": "un internaute",
+        "date": "2026-03-15",
+        "text": "@BenjiTrix @xyz80364672 @DokPepper @subjack71 Mais c’est C411 ou t411 ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LSurlaville",
+        "name": "L. Surlaville",
+        "date": "2026-03-15",
+        "text": "@DokPepper Merci pour ces indications simples et efficaces.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "brafice",
+        "name": "fabrice m",
+        "date": "2026-03-14",
+        "text": "@GPivert2 @DokPepper Effectivement, rien n'est gratuit dans ce bas monde ma ptite dame... Mais éviter de payer Netflix (qui, on peut les critiquer, mais finance quand même de la création) pour finalement payer un débrideur (ou autre solution pour contourner le seeding) qui ne finance rien. no way imo",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Benku1000",
+        "name": "Benku",
+        "date": "2026-03-14",
+        "text": "@The_Dz_ @stefler974 @LeArtavus @DokPepper Alors Ygg ça marcher car très laxiste mais C411 viennent d'augmenter leur système anti triche (ça causer un prob de ratio à tout le monde), à tes risques et périls. https://t.co/XKsCvgBwbR",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Benku1000",
+        "name": "Benku",
+        "date": "2026-03-14",
+        "text": "@The_Dz_ @stefler974 @LeArtavus @DokPepper Franchement je conseil de focus c4111 me plus facile pour se faire un ratio avec le freelech et en faisant tourner régulièrement les torrents",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Benku1000",
+        "name": "Benku",
+        "date": "2026-03-14",
+        "text": "@The_Dz_ @stefler974 @LeArtavus @DokPepper Le nom du site en .org",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GPivert2",
+        "name": "ElTroteador",
+        "date": "2026-03-14",
+        "text": "@brafice @DokPepper Ça coute forcément de l’argent à un moment ou un autre. Que ce soir chez soit en électricité et stockage ou pour la location de la même chose dans un datacenter. Askip il te faut même une connexion internet truc de ouf",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brafice",
+        "name": "fabrice m",
+        "date": "2026-03-12",
+        "text": "@DokPepper tuto très sympa mais ça tue un peu l'intérêt du torrent : partage, échange et gratuité !! Payer (débrideur, serveur) c'est contraire à l'idée de libre partage",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Choc_Meteore",
+        "name": "ᴛʜᴏᴍᴀs 👨🏻‍🍳🇫🇷🐯",
+        "date": "2026-03-12",
+        "text": "@DokPepper Bonjour, j'ai l'impression que ygg gratis ne contient pas la totalité du gatalogue de ygg, j'ai le sentiment qu'il est même beaucoup moins complet, je me trompe?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "totor39",
+        "name": "Sequane 🇫🇷",
+        "date": "2026-03-12",
+        "text": "@DokPepper On fait comment pour récupérer le fichier torrent dessus? je passe par une seedbox. Il me propose d'ouvrir dans le client torrent,mais j'en ai pas localement, ou alors de copier le lien magnet, mais quand je l'ajoute avec l'URl dans ma seedbox,il lance un ficheir de 50 Ko et rien",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FabDelcloque",
+        "name": "Fab Delcloquix 🇪🇺",
+        "date": "2026-03-12",
+        "text": "@DokPepper Bonjour. Toi qui t'y intéresse. https://t.co/eiAZ3q3phx c'est quoi ? Puisque https://t.co/r6cOVJyN9R est l'adresse officiel.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xWARP7",
+        "name": "i_still_lack_of_sleep",
+        "date": "2026-03-12",
+        "text": "@MurdaKilla @sebsport12 @subjack71 @DokPepper sur ygg ratiomaster était justifié a cause de leur politique de pay to download (acheter du ratio) mais sur les autres tracker ya vrm aucune excuse pour l'utiliser",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sebsport12",
+        "name": "vieux con",
+        "date": "2026-03-12",
+        "text": "@MurdaKilla @0xWARP7 @subjack71 @DokPepper Pareil",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "xyz80364672",
+        "name": "xyz",
+        "date": "2026-03-11",
+        "text": "@MurdaKilla @BenjiTrix @DokPepper @subjack71 Je parle de tracker privé sérieux...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MurdaKilla",
+        "name": "Pascal Trivenot",
+        "date": "2026-03-11",
+        "text": "@BenjiTrix @xyz80364672 @DokPepper @subjack71 idem! 6 ans chez YGG, ration de 32, jamais emmerdé",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MurdaKilla",
+        "name": "Pascal Trivenot",
+        "date": "2026-03-11",
+        "text": "@0xWARP7 @sebsport12 @subjack71 @DokPepper mdr .. chez YGG ils disaient pareil! j'ai tourné 6 ans au moins en faisant du hit&amp;run et ratiomaster derrière pour up le ratio!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JoeLeMerou",
+        "name": "Joe Le Merou",
+        "date": "2026-03-11",
+        "text": "@DokPepper Donc tu télécharges le .torrent sur ton ordi et tu l'upload sur le serveur après pour l'ouvrir avec Transmission ? Y a  pas plus pratique ? Je n'ai pas trouvé comment installer un navigateur web sur Useed.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pari_rem",
+        "name": "Remouz Sorare",
+        "date": "2026-03-11",
+        "text": "@WayZak0 @DokPepper Je regarde mes films &amp; séries sur un rétro en 4K via mon IPTV",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MahlerNord",
+        "name": "Docdu59",
+        "date": "2026-03-11",
+        "text": "@DokPepper Intégrale sans aucune compression bien sûr.  Ça faisait beaucoup de giga à l'époque.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MahlerNord",
+        "name": "Docdu59",
+        "date": "2026-03-11",
+        "text": "@DokPepper Merci pour cette technique qui pourrait me servir si je n'étais pas un père de famille qui travaille et qui n'a plus le temps de regarder des séries et de traîner sur T411. \n(Si jamais tu trouves l'intégrale des contacts de Bach sur les fichiers issus de T411, c'est moi 😁).",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fifou2809",
+        "name": "Philippe d",
+        "date": "2026-03-11",
+        "text": "@TiboLarto @DokPepper Merci bcp j avais juste une erreur de majuscule...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TiboLarto",
+        "name": "Larto Tibo",
+        "date": "2026-03-11",
+        "text": "@fifou2809 @DokPepper https://t.co/ePuSpP6iWK",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LindowLenka",
+        "name": "Lukas",
+        "date": "2026-03-11",
+        "text": "@DokPepper Et comment on sait quel torrent les gens voudront? en fonction des complétions?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "francois_bzski",
+        "name": "François",
+        "date": "2026-03-10",
+        "text": "@DokPepper @Cogitordo pas avec une blocklist style https://t.co/pNLes0sS4B",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Benurse6",
+        "name": "Benurse",
+        "date": "2026-03-10",
+        "text": "@DokPepper Y’a un intérêt à aller sur des trucs à ratio ? Je veux dire thepiratebay / cpasbien / nyaa y’a du choix sans ratio non ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thundard",
+        "name": "THUNDARD",
+        "date": "2026-03-10",
+        "text": "@TamPaxley85 @DokPepper C'est gratuit si tu prends un fichier à la fois... j'imagine.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ap_mic",
+        "name": "Apmic 🇫🇷🇪🇺🇺🇦 🇮🇷♿️",
+        "date": "2026-03-10",
+        "text": "@DokPepper Quand on est abonné à toutes les plateformes et qu’au final il manque des MILLIERS de vieux films et séries, je n’ai aucun problème moral à télécharger. C’est vraiment faire vivre le catalogue culturel. Des fois ces séries n’existent même plus ni en VOD ni en blu-ray …",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chana2956",
+        "name": "*Laura James Scott*🇫🇷",
+        "date": "2026-03-10",
+        "text": "@DokPepper C’était le seul endroit où je trouvais Call the midwife 😭😭😭",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xyz80364672",
+        "name": "xyz",
+        "date": "2026-03-10",
+        "text": "@MFVSTUV @BenjiTrix @DokPepper @subjack71 Je parle sur des trackers privés",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RealStinson",
+        "name": "the_real_stinson",
+        "date": "2026-03-10",
+        "text": "@subjack71 @DokPepper Jamais eu de soucis avec ratiomaster non plus, il suffisait de prendre un fichier à la mode et ça passait.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jean_casa",
+        "name": "Jean Casa",
+        "date": "2026-03-10",
+        "text": "@DokPepper Raté, victime de son succès, pas dispo, offre Pro non plus. En dessous Offre Starter idem, reste offre Mini 4€ mais seulement 100Go https://t.co/3Cp7lluymF",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MFVSTUV",
+        "name": "Joker",
+        "date": "2026-03-10",
+        "text": "@xyz80364672 @BenjiTrix @DokPepper @subjack71 Tous . Ygg / t411 et j’en passe",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Paullrx1",
+        "name": "Paul_lrx🇲🇫",
+        "date": "2026-03-10",
+        "text": "@DokPepper Regarde tes MP",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeorgeHarr13370",
+        "name": "George Harry",
+        "date": "2026-03-10",
+        "text": "@AdzDzad4 @BeniPlow4852 @DokPepper Si vous recherchez un fournisseur de services IPTV fiable et de haute qualité, @dominicethan48 est fait pour vous. Leur service est d'une stabilité remarquable et leurs tarifs sont très raisonnables.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vincenternest33",
+        "name": "Vincent Ernest",
+        "date": "2026-03-10",
+        "text": "@AdzDzad4 @BeniPlow4852 @DokPepper @dominicethan48 IPTV est une plateforme qui vous permet de regarder toutes les chaînes sportives, ainsi que les films et séries HBO, Amazon et Netflix. Je sais que ce fournisseur offre un excellent service. Contactez-le pour un essai gratuit.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "maverick4172",
+        "name": "Maverick",
+        "date": "2026-03-10",
+        "text": "@AdzDzad4 @BeniPlow4852 @DokPepper Streaming de qualité au meilleur niveau !\nUne perfection Ultra HD pour toutes les chaînes, sans aucun problème de mise en mémoire tampon ni de blocage sur Fire Stick, Smart TV, Android Box, iOS et PC Windows — le service IPTV @dominicethan48 est un gagnant.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Swadey19",
+        "name": "Swadey",
+        "date": "2026-03-10",
+        "text": "@AdzDzad4 @BeniPlow4852 @DokPepper Ça dépend du fournisseur, perso avec @Iptv__4K_Live la qualité est plutôt bonne",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "leo_sdt",
+        "name": "Léo",
+        "date": "2026-03-10",
+        "text": "@DokPepper Oui certes, le catalogue d’Ygg est imbattable, mais ça sert à rien si t’as pas de seeders. Et le ratio a maintenir fait aussi que les fichiers « HD-light » sont plus populaires, donc pas toujours évident d’avoir du remux.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DokPepper",
+        "name": "Pepper, MD",
+        "date": "2026-03-10",
+        "text": "@leo_sdt Sauf que sur les annuaires torrent t'as tout. Pas que certains trucs. Tout.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "leo_sdt",
+        "name": "Léo",
+        "date": "2026-03-10",
+        "text": "@DokPepper Tout dépend de tes indexeurs… j’ai réussi à trouver quelques vieux films français des années 80 en 1080p remux dessus, et quasi toutes les releases récentes. Même des séries Canal le jour de leur diffusion.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "leo_sdt",
+        "name": "Léo",
+        "date": "2026-03-10",
+        "text": "@DokPepper sinon pour quelques € il y a usenet qui est largement plus confortable que torrent ou DDL",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-03-10",
+        "text": "@BS645 @DokPepper @BS645 Hello, you can read it here: https://t.co/2TOTit8Uvv See you soon. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BS645",
+        "name": "BS-64",
+        "date": "2026-03-10",
+        "text": "@DokPepper @ThreadReaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Paullrx1",
+        "name": "Paul_lrx🇲🇫",
+        "date": "2026-03-10",
+        "text": "@DokPepper Pourquoi continuer à télécharger alors que c est bien plus simple de regarder en Streaming ? (Sur des sites illégaux gratuit)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xyz80364672",
+        "name": "xyz",
+        "date": "2026-03-10",
+        "text": "@MFVSTUV @BenjiTrix @DokPepper @subjack71 Quel tracker ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AdzDzad4",
+        "name": "Le ®",
+        "date": "2026-03-10",
+        "text": "@DokPepper @gotchat64 Une fois le fichier dl tu le delete directement, l'arcom ne repère pas instantanément, y a un certain délai",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AdzDzad4",
+        "name": "Le ®",
+        "date": "2026-03-10",
+        "text": "@BeniPlow4852 @DokPepper La qualité, les IPTV n'auront sans doute jamais ça",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RagingHunter39",
+        "name": "🇫🇷 G3rb0IZ€ Bleu 🇫🇷",
+        "date": "2026-03-10",
+        "text": "@DokPepper @Arcom_fr",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RagingHunter39",
+        "name": "🇫🇷 G3rb0IZ€ Bleu 🇫🇷",
+        "date": "2026-03-10",
+        "text": "@DokPepper @dgccrf vous avez un client là",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DogMan_1971",
+        "name": "Quentin",
+        "date": "2026-03-10",
+        "text": "@DokPepper @Cogitordo Pas forcément. Utilise le client \"déluge\", ils n'arrivent pas à décrypter, donc ne voient pas ce que tu télécharges!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "pari_rem",
+        "name": "Remouz Sorare",
+        "date": "2026-03-10",
+        "text": "@DokPepper Tout ce bordel alors que l’iptv existe",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AnthonyGuihur",
+        "name": "Anthony Guihur - also on 🟦",
+        "date": "2026-03-10",
+        "text": "@DokPepper Etre dans un pays où c’est toléré (pas illégal) 🤗😇",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fleverlon",
+        "name": "BRION loïc",
+        "date": "2026-03-10",
+        "text": "@PrnomNom1172110 @DokPepper Si si , j'utilise 1 fichier tous les jours . C'est juste limite a 1 fichier tous les 2h30",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jpyrat",
+        "name": "Jacques Pyrat",
+        "date": "2026-03-10",
+        "text": "@DokPepper Please @UnrollHelper",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Benku1000",
+        "name": "Benku",
+        "date": "2026-03-10",
+        "text": "@stefler974 @LeArtavus @DokPepper Euh j'ai rien toucher et ça marcher, suffit de dl un torrent du site et ça marcher",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-03-10",
+        "text": "@E_Rat_Smus6666 @DokPepper @E_Rat_Smus6666 Salam, the unroll you asked for: https://t.co/2TOTit8Uvv Share this if you think it's interesting. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "E_Rat_Smus6666",
+        "name": "Desiderius Erasmus Roterodamus",
+        "date": "2026-03-10",
+        "text": "@DokPepper Please @threadreaderapp unroll. Thanks!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zzspoutnik",
+        "name": "david cousin",
+        "date": "2026-03-10",
+        "text": "@DokPepper ouch : dont vous avez",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "QBwato",
+        "name": "La plage K",
+        "date": "2026-03-10",
+        "text": "@DokPepper Simplement en restant en seed, tu cumules des points, que tu échanges contre des Go à télécharger.\nSur Torr9, seeder uniquement le jour une dizaine de torrents te permet d'acheter 5go de capa/jour\nAvec une seedbox, tu deviens le roi du pétrole facilement",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "QBwato",
+        "name": "La plage K",
+        "date": "2026-03-10",
+        "text": "@DokPepper Vérifiez aussi si vous êtes le dernier seeder, si c'est le cas, ne supprimez pas\n- vous préservez la permanence du fichier\n- vous cumulez souvent un bonus sur bcp de tracker, en tant que \"dernier seeder\"",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "QBwato",
+        "name": "La plage K",
+        "date": "2026-03-10",
+        "text": "@DokPepper Attention avec les débrideurs, certains trackers n'aiment pas qu'ils soient utilisés, assimilent ça à de la triche et bannissent les utilisateurs",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "QBwato",
+        "name": "La plage K",
+        "date": "2026-03-10",
+        "text": "@DokPepper C'est faux\nLe ratio fixé à 1, c'est pratiquement qu'YGG qui l'applique.\nIl est fixé à 0,8 pour C411 et 0,85 pour Torr9\n0,75 pour G3MINI, 0,5 sur GF etc. Il n'y a que sur La Cale qu'il est (pour l'instant, mais sondage en cours) fixé à 1.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "___lecomte___",
+        "name": "Le Comte",
+        "date": "2026-03-10",
+        "text": "@PiHu3636 @kNTaZ @DokPepper Après hadopi y’a pour le coup vraiment rien à craindre.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "___lecomte___",
+        "name": "Le Comte",
+        "date": "2026-03-10",
+        "text": "@DokPepper @subjack71 7-8 ans que je l’utilise jamais banni une seule fois (plus de 150 terra de « seed »)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Otcho69239",
+        "name": "Otcho",
+        "date": "2026-03-10",
+        "text": "@DokPepper Plus grave qu’esptiiiiiiine",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "K0dirc",
+        "name": "Kodirc",
+        "date": "2026-03-09",
+        "text": "@BenjiTrix @xyz80364672 @DokPepper @subjack71 Idem, c'est noyé dans la masse.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DokPepper",
+        "name": "Pepper, MD",
+        "date": "2026-03-09",
+        "text": "@Jack____Kerouac @Cogitordo Non, c'est juste plus cher.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DokPepper",
+        "name": "Pepper, MD",
+        "date": "2026-03-09",
+        "text": "@CryptomaneFranc Voilà",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DokPepper",
+        "name": "Pepper, MD",
+        "date": "2026-03-09",
+        "text": "@gotchat64 Mais tu étais repéré par l'arcom quand même",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DokPepper",
+        "name": "Pepper, MD",
+        "date": "2026-03-09",
+        "text": "@Cogitordo Et il est gratos ? \n\nChacun sa façon de faire.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DokPepper",
+        "name": "Pepper, MD",
+        "date": "2026-03-09",
+        "text": "@Cogitordo Mais t'es tracé par l'arcom quand meme",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DokPepper",
+        "name": "Pepper, MD",
+        "date": "2026-03-09",
+        "text": "@PiHu3636 @kNTaZ Et pour avoir un truc qui tourne h24 sans avoir un ordi branché en permanence chez soi aussi",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DokPepper",
+        "name": "Pepper, MD",
+        "date": "2026-03-09",
+        "text": "@Erik44187887 Le fichier téléchargé contient un tracker. Qui permet de savoir qui est celui qui partage. Et donc de créditer son compte de la quantité de données partagées.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DokPepper",
+        "name": "Pepper, MD",
+        "date": "2026-03-09",
+        "text": "@Sir_Kolpocele Oui, par exemple. 😇",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DokPepper",
+        "name": "Pepper, MD",
+        "date": "2026-03-09",
+        "text": "@DrGroquik Ca marche très bien. Mais pas de VF ou de VOSTFR. Quasi pas. Et les trucs vieux sont introuvables.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
       }
     ]
-  }
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HC_JYzLWAAAONV7.png",
+      "localFilename": "2031092618587689402_1.png"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HC_JletW8AASrfD.png",
+      "localFilename": "2031092618587689402_2.png"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HC_BJvzWwAAcUO7.png",
+      "localFilename": "2031092618587689402_3.png"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HC_JueqWoAIBcDy.png",
+      "localFilename": "2031092618587689402_4.png"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HC_B7o9XAAAmhzd.png",
+      "localFilename": "2031092618587689402_5.png"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HC_CKK2XAAAcRDa.jpg",
+      "localFilename": "2031092618587689402_6.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HC_Gds3XIAMiVmd.png",
+      "localFilename": "2031092618587689402_7.png"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HC_Go4AWEAAJcf2.png",
+      "localFilename": "2031092618587689402_8.png"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HC_G7nQasAAwD_5.png",
+      "localFilename": "2031092618587689402_9.png"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HC_FibUWUAA95tx.png",
+      "localFilename": "2031092618587689402_10.png"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HC_JP5sXAAAVrV1.jpg",
+      "localFilename": "2031092618587689402_11.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HC_LJrDWMAAHUM5.jpg",
+      "localFilename": "2031092618587689402_12.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HC_hQ3FWMAAjnFB.jpg",
+      "localFilename": "2031092618587689402_13.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HC_hzjXaMAIVivv.png",
+      "localFilename": "2031092618587689402_14.png"
+    }
+  ]
 }

@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:17.875Z",
+  "fetchedAt": "2026-07-12T17:19:29.856Z",
   "tweetId": "1965523104404304369",
   "post": {
     "url": "https://x.com/ItsMaclouis/status/1965523104404304369",
@@ -10,6 +11,12 @@
     },
     "date": "2025-09-09",
     "text": "color inspiration - #079 https://t.co/sMjlD8elTA",
+    "thread": [
+      {
+        "id": "1965523104404304369",
+        "text": "color inspiration - #079 https://t.co/sMjlD8elTA"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -21,11 +28,43 @@
       }
     ],
     "metrics": {
-      "likes": 3432,
-      "retweets": 170,
+      "likes": 3418,
+      "retweets": 168,
       "replies": 9,
-      "views": 92607
+      "views": 93094
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "SquidHack_",
+        "name": "Squid",
+        "date": "2025-09-10",
+        "text": "That reminds me this music cover from @stmpdrcrds",
+        "likes": 7
+      },
+      {
+        "handle": "LilGnomeGames",
+        "name": "LilGnomeGames",
+        "date": "2025-09-10",
+        "text": "I like it.",
+        "likes": 6
+      },
+      {
+        "handle": "FCB_Mato",
+        "name": "FCB_MATO",
+        "date": "2025-09-09",
+        "text": "What are these for exactly?",
+        "likes": 4
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G0bs9j7W0AALGnG.jpg",
+      "localFilename": "1965523104404304369_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G0bs9j6XYAAJV9-.jpg",
+      "localFilename": "1965523104404304369_2.jpg"
+    }
+  ]
 }

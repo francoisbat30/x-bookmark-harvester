@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:33.547Z",
+  "fetchedAt": "2026-07-13T06:52:07.029Z",
   "tweetId": "2011078287762825474",
   "post": {
     "url": "https://x.com/victormustar/status/2011078287762825474",
@@ -9,19 +10,1081 @@
       "name": "Victor M"
     },
     "date": "2026-01-13",
-    "text": "Funny how you can do the same thing with a local model without sending all your data to a remote cloud. https://t.co/SGkjF1nB7S https://t.co/YbmNCNaAf0",
+    "text": "Funny how you can do the same thing with a local model without sending all your data to a remote cloud. https://t.co/SGkjF1nB7S https://t.co/YbmNCNaAf0\n\nusing this here: https://t.co/qgyzGWdMWY",
+    "thread": [
+      {
+        "id": "2011078287762825474",
+        "text": "Funny how you can do the same thing with a local model without sending all your data to a remote cloud. https://t.co/SGkjF1nB7S https://t.co/YbmNCNaAf0"
+      },
+      {
+        "id": "2011078290681835548",
+        "text": "using this here: https://t.co/qgyzGWdMWY"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/2011076954955374592/vid/avc1/854x480/J0secxm0sxTpwGMB.mp4"
+        "url": "https://video.twimg.com/amplify_video/2011076954955374592/vid/avc1/854x480/J0secxm0sxTpwGMB.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2011076954955374592/img/lPEqf-h4JGRcP_ac.jpg"
       }
     ],
     "metrics": {
-      "likes": 12240,
-      "retweets": 695,
-      "replies": 197,
-      "views": 1194089
+      "likes": 12029,
+      "retweets": 675,
+      "replies": 195,
+      "views": 1196385
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "victormustar",
+        "name": "Victor M",
+        "date": "2026-01-13",
+        "text": "@MarstonConnell y my point was just about the task chosen (I spend half of my life in Claude Code :))",
+        "likes": 57,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "victormustar",
+        "name": "Victor M",
+        "date": "2026-01-13",
+        "text": "@Jacobtheape y,  I was doing it with local models 1 year ago 🤭\nhttps://t.co/Uc57jO2YIR",
+        "likes": 48,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "victormustar",
+        "name": "Victor M",
+        "date": "2026-01-13",
+        "text": "@NigelTufnelTo11 this but use very carefully (sandbox it!)\nhttps://t.co/yllxn8dSdT",
+        "likes": 46,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "victormustar",
+        "name": "Victor M",
+        "date": "2026-01-13",
+        "text": "@rodgui https://t.co/yllxn8dSdT\n1. install \n2. `llama-agent -hf unsloth/Qwen3-Next-80B-A3B-Instruct-GGUF:Q4_K_M` or any GGUF agentic model from Hugging Face.",
+        "likes": 45,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "victormustar",
+        "name": "Victor M",
+        "date": "2026-01-13",
+        "text": "@tillmatthis This is just a model I like (because of the speed thanks to the A3B). But try with this instead, I would be surprised if it couldn't do this task.\nhttps://t.co/X9fW1kNTfy",
+        "likes": 44,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "victormustar",
+        "name": "Victor M",
+        "date": "2026-01-13",
+        "text": "@zld y, try this instead: https://t.co/xL4e8QTYZq",
+        "likes": 18,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "victormustar",
+        "name": "Victor M",
+        "date": "2026-01-13",
+        "text": "@PadsBanger I need to try this too btw https://t.co/xL4e8QTYZq",
+        "likes": 15,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "victormustar",
+        "name": "Victor M",
+        "date": "2026-01-13",
+        "text": "@PadsBanger Qwen3-Coder-30B-A3B-Instruct maybe?",
+        "likes": 9,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "victormustar",
+        "name": "Victor M",
+        "date": "2026-01-13",
+        "text": "@panthurrrr tell Anthropic then lol",
+        "likes": 8,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "victormustar",
+        "name": "Victor M",
+        "date": "2026-01-13",
+        "text": "@DataExec ok cool I like making UI :)",
+        "likes": 7,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zld",
+        "name": "◢◤◥◣◥◣◢◤",
+        "date": "2026-01-14",
+        "text": "@Youssofal_ @Takeraparterer @victormustar https://t.co/w9IxeMUDqf",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Youssofal_",
+        "name": "Youssof Al Toukhi",
+        "date": "2026-01-14",
+        "text": "@Takeraparterer @victormustar @zld y, try this instead: \n\nhttps://t.co/XenPdF2bEj",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "victormustar",
+        "name": "Victor M",
+        "date": "2026-01-13",
+        "text": "@BridgetSculpts I use this too - it was just for the example :)",
+        "likes": 5,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Takeraparterer",
+        "name": "Takeraparterer",
+        "date": "2026-01-14",
+        "text": "@victormustar @zld 24b? local?",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "victormustar",
+        "name": "Victor M",
+        "date": "2026-01-13",
+        "text": "@jackzumwalt me neither we'll try it more :)",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "wavefnx",
+        "name": "wavefnx",
+        "date": "2026-01-14",
+        "text": "@victormustar Or better yet, local GUI and local model https://t.co/7sQnpQy1P6",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "victormustar",
+        "name": "Victor M",
+        "date": "2026-01-13",
+        "text": "@RandKaz51 128GB M4 - 16GB is quite small not sure it's enough but it's a fun challenge. did you add your hardware to HF? try to see what it says here: https://t.co/X9fW1kOr56",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PhiMarHal",
+        "name": "PhiMarHal",
+        "date": "2026-01-14",
+        "text": "@MarstonConnell @victormustar Is cheering for all cloud zero sovereignty really the play in 2007+19? \n\nMaybe time to accept some things that make a lot money have proven to not be so good for society.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "scethleg",
+        "name": "Seth",
+        "date": "2026-01-14",
+        "text": "@zaxthealien @MaalikAhmadTech @0xminto @victormustar Now I understand why there is a shortage of RAM……..",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "victormustar",
+        "name": "Victor M",
+        "date": "2026-01-13",
+        "text": "@ClioBitcoinBank GLM-4.7, MiniMax-2.1, I think they are quite good :)",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "victormustar",
+        "name": "Victor M",
+        "date": "2026-01-13",
+        "text": "@V1rtualVagab0nd good hardware - try this instead https://t.co/xL4e8QTYZq",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "raphiwifsol",
+        "name": "raphiwifsol",
+        "date": "2026-01-14",
+        "text": "@victormustar you should tokenize it on @BagsApp",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "qualadder",
+        "name": "Archmagos of Zolon 🔭🪐🛸📡",
+        "date": "2026-01-14",
+        "text": "@geladaris_georg @victormustar @grok You aren't going to get the effectiveness of a 700GB model like Opus locally.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MrDracek",
+        "name": "WolfDracek",
+        "date": "2026-01-14",
+        "text": "@geladaris_georg @grok @victormustar 1 to 5 hours to run a terminal command that will just grep the file/folder names and place them in a corresponding folders? You should rely less on AI so it thinks less for you and you also should understand more about how AI actually works.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tillmatthis",
+        "name": "Till Maessen",
+        "date": "2026-01-14",
+        "text": "@MikeGropp @victormustar Qwen coder runs nicely, depending on the context on M2 Max 32gb",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MikeGropp",
+        "name": "Mike Gropp",
+        "date": "2026-01-14",
+        "text": "@tillmatthis @victormustar There are powerful models you can run locally\n\nhttps://t.co/cngnCRZaAD",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "shoukointech",
+        "name": "shouko",
+        "date": "2026-01-14",
+        "text": "@victormustar https://t.co/nvSMKeUpxq",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TANKZ___",
+        "name": "K£",
+        "date": "2026-01-14",
+        "text": "@victormustar @drxwilhelm I agree heavy heavy",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yeasindesign",
+        "name": "Arafat",
+        "date": "2026-01-14",
+        "text": "@victormustar Cloud avoided, RAM sacrificed",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "L4UR3N7",
+        "name": "Laurent",
+        "date": "2026-01-14",
+        "text": "@MarstonConnell @victormustar Who does still use dropbox at this point ?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Youssofal_",
+        "name": "Youssof Al Toukhi",
+        "date": "2026-01-14",
+        "text": "@zld @Takeraparterer @victormustar Actually, I’ve actually spent the past 2 weeks trying to prune a model from 8B to 6.7B without quality degradation for the meme 😭😭😭😭",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "go4t1337",
+        "name": "Goat1337",
+        "date": "2026-01-14",
+        "text": "@victormustar Let Claude access your computer guys\n\nLet AI decide for you\n\n(Allowing AI to access your machine is worse than letting a hacker in)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zld",
+        "name": "◢◤◥◣◥◣◢◤",
+        "date": "2026-01-14",
+        "text": "@Takeraparterer @victormustar Yes",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "victormustar",
+        "name": "Victor M",
+        "date": "2026-01-13",
+        "text": "@entropyreducers https://t.co/9ul8CmgoXc",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "victormustar",
+        "name": "Victor M",
+        "date": "2026-01-13",
+        "text": "@royjossfolk @NigelTufnelTo11 no it's like any agent + local small models aren't always smart :)  especially in YOLO mode https://t.co/7mLk2v7Tya",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HashtagSecure",
+        "name": "Shaun",
+        "date": "2026-01-30",
+        "text": "@victormustar And it’s much safer\n\nYour data stays with you - no one can see it - no one can steal it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tillmatthis",
+        "name": "Till Maessen",
+        "date": "2026-01-15",
+        "text": "@MDC_qubican @victormustar Hmmmm. I think I'm not able to help you there. I actually don't use the local models for real coding, but for other tasks.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MDC_qubican",
+        "name": "MDC ױ",
+        "date": "2026-01-15",
+        "text": "@tillmatthis @victormustar Last thing I tried was that the model should look into a small json with indices and their names and give a list full list back. It wasn't able to do that, copied several names and restructured the order. I tried several prompts, but it was unable to solve that easy task.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tysonmaly",
+        "name": "Tyson Maly",
+        "date": "2026-01-15",
+        "text": "@victormustar I would be happier with an API to a model I could know was not using my data.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tillmatthis",
+        "name": "Till Maessen",
+        "date": "2026-01-15",
+        "text": "@MDC_qubican @victormustar What do you expect from it, meaning, what would you like it so solve?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Mr_Pratap_Singh",
+        "name": "Pratap",
+        "date": "2026-01-15",
+        "text": "@victormustar The plot twist nobody saw coming: \"Why pay for cloud when my laptop can do it locally?\" is now a legitimate tech hot take. Goodbye privacy concerns with cloud providers, hello overheating laptop fans at 3 AM 🔥💻",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gurtej__gill_",
+        "name": "Gill",
+        "date": "2026-01-15",
+        "text": "@victormustar Local inference trades cloud-scale models for stronger data locality and privacy guarantees.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Potato14139",
+        "name": "Duck",
+        "date": "2026-01-15",
+        "text": "@victormustar you could also just do this with bash tho",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MDC_qubican",
+        "name": "MDC ױ",
+        "date": "2026-01-15",
+        "text": "@tillmatthis @victormustar 30B and switched after few fails to 8192 context size, but that didn't help either.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Gui_Trajano",
+        "name": "TrolljanO",
+        "date": "2026-01-15",
+        "text": "@victormustar I already do it, without leak you data…\nYall’re welcome\n\nhttps://t.co/ARUVoG7k3f",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tecrinex",
+        "name": "⬆️ tecrinex",
+        "date": "2026-01-15",
+        "text": "@MarstonConnell @victormustar we're gonna do a year per week this year, brace for it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tecrinex",
+        "name": "⬆️ tecrinex",
+        "date": "2026-01-15",
+        "text": "@victormustar 👏 wanted to post this myself but never had the time or was stuck on security restricted machines or phone",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GingerDotDev",
+        "name": "Ginger",
+        "date": "2026-01-15",
+        "text": "@0xminto @victormustar i have a 5 year old macbook pro with 64GB memory that’ll run a 4 bit quant of an 80B model fine. they’re about $1200 refurb right now",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "adb303",
+        "name": "ADB",
+        "date": "2026-01-15",
+        "text": "@victormustar That's need 1 billion GPUs?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "adb303",
+        "name": "ADB",
+        "date": "2026-01-15",
+        "text": "@victormustar Which local model?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "f1yingbanana",
+        "name": "J 🎹",
+        "date": "2026-01-15",
+        "text": "@victormustar Not really funny.\n\nIt’s simplicity + scale vs more costly/complex setup + less powerful model.\n\nThat’s how cloud services earn their money.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tillmatthis",
+        "name": "Till Maessen",
+        "date": "2026-01-15",
+        "text": "@MDC_qubican @victormustar Which one?\nAnd have you checked context size?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Timur_Yessenov",
+        "name": "Timur Yessenov",
+        "date": "2026-01-15",
+        "text": "@victormustar local models changed my privacy game for client data\n\nbut tbh for complex reasoning tasks i still need cloud models\n\nmy setup: local for repetitive stuff, cloud for the heavy lifting\n\nright tool for the job. not religion",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "f4ndalf",
+        "name": "fandalf",
+        "date": "2026-01-15",
+        "text": "@victormustar normies are scared of the terminal",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Shaileshjswl",
+        "name": "Shailesh Jaiswal",
+        "date": "2026-01-15",
+        "text": "@MarstonConnell @victormustar Fr",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "spark3hl",
+        "name": "Spark",
+        "date": "2026-01-15",
+        "text": "@victormustar Nice one.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SCF36410877",
+        "name": "SCF",
+        "date": "2026-01-15",
+        "text": "@victormustar deepseek and/or qwen locally sounds reasonable, both models are very capable. even mistral, although I don't like it at all.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MDC_qubican",
+        "name": "MDC ױ",
+        "date": "2026-01-15",
+        "text": "@tillmatthis @victormustar Huh, used qwen3-coder today and it had problems reading a small json file and give an structured output. Am I doing something wrong? 😅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "capythanh",
+        "name": "Thanh Doan",
+        "date": "2026-01-15",
+        "text": "@victormustar that \"same thing\" usually needs a dedicated gpu or a lot of patience",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "boltbet7",
+        "name": "⚡️Boltbet⚡️",
+        "date": "2026-01-15",
+        "text": "@victormustar Beastmode",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lucycelestia2",
+        "name": "lucycelestia2",
+        "date": "2026-01-14",
+        "text": "@victormustar Why did it just dump the files into folders by filetype? I could do that in one minute, it's just not useful, I'd expect this thing to be smarter than that.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "assymetric_0nly",
+        "name": "Michael Bobby",
+        "date": "2026-01-14",
+        "text": "@victormustar any good tutorials on how to use local models instead of Claude Code? for layman",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MrDracek",
+        "name": "WolfDracek",
+        "date": "2026-01-14",
+        "text": "@geladaris_georg @grok @victormustar Your mentioned grep command is also another tool that the CLI models uses. Depending on their demand.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MrDracek",
+        "name": "WolfDracek",
+        "date": "2026-01-14",
+        "text": "@geladaris_georg @grok @victormustar Additionally Gemini CLI also have it's own tools to read specific folders, yet also a lot of times on bigger projects for specific programming languages the AI itself uses regex",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MrDracek",
+        "name": "WolfDracek",
+        "date": "2026-01-14",
+        "text": "@geladaris_georg @grok @victormustar \"And anything that a regex function can do, AI can do better.\" - then your 1 bilion API tokens experience is only about writing prompts, not looking on the results then. Both Copilot CLI and Gemini CLI uses regex to look for specific files before they open them.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "geladaris_georg",
+        "name": "Geωrge",
+        "date": "2026-01-14",
+        "text": "I'm spending an average amount of 1 billion API tokens a month since august... I work tirelessly with AI. And anything that a regex function can do, AI can do better. Also you can grep the file and then also rename it, create an embedding out of it, and connect it to a task creation function that is also selected by an AI in one single call... you can do anything with it... that's the curse",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Takeraparterer",
+        "name": "Takeraparterer",
+        "date": "2026-01-14",
+        "text": "@Youssofal_ @zld @victormustar 8b to WHAT b 👀\njust use a gguf",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "yelo424",
+        "name": "Yelo 🟡",
+        "date": "2026-01-14",
+        "text": "@victormustar smart",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "heybekay",
+        "name": "Brad Kelly",
+        "date": "2026-01-14",
+        "text": "@victormustar I can’t get over that insane desktop.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-14",
+        "text": "A 3B active model, like Qwen3-Next-80B-A3B, has 80 billion total parameters but only activates about 3 billion per task. It uses a Mixture-of-Experts system: many specialized \"experts\" inside the model, and it picks just a few (e.g., 10 out of 512) for each input, making it efficient and fast without using everything.\n\nYes, you can run a quantized version (e.g., 4-bit GGUF) in MLX on an M2 Max with 96GB unified RAM—it fits within the memory, and MLX supports it via libraries like mlx-lm. Performance will depend on context size, but it's feasible.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "clindstedt",
+        "name": "Carsten Lindstedt ஃ",
+        "date": "2026-01-14",
+        "text": "@victormustar @grok explain in simple terms how a 3B active model works. Would it be possible to run it quantized in MLX format on a MacBook M2 Max with 92GB URAM?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "clindstedt",
+        "name": "Carsten Lindstedt ஃ",
+        "date": "2026-01-14",
+        "text": "@grok @victormustar Would this run smoothly on a MacBook Pro M2 96GB URAM, as Q4 in MLX format?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MikeGropp",
+        "name": "Mike Gropp",
+        "date": "2026-01-14",
+        "text": "@MarstonConnell @victormustar For sensitive information or if you're very savvy, local AI is a great choice. Per usual, there is always a \"1%\" niche.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "trincodr",
+        "name": "dr",
+        "date": "2026-01-14",
+        "text": "@victormustar yea bc normal people want to do this right",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jim_Faster",
+        "name": "Jim Faster",
+        "date": "2026-01-14",
+        "text": "@victormustar @eliebakouch This is cool, but the problem is that you need a GPU that costs at least half a decade worth of subscription, if not a decade, to do this locally...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JJitsev",
+        "name": "Jenia Jitsev 🏳️‍🌈 🇺🇦 🇮🇱 🇮🇷",
+        "date": "2026-01-14",
+        "text": "@victormustar Hardcore fan of local open-source models. However, to say \"same thing\" needs rigorous evals backing the claim up. No evals, did not happen. Eg lets get evals testing that into eg https://t.co/HoYJh86tpq , which we do to make precise statements about agent capabilities possible",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pwnalisa1",
+        "name": "jklre",
+        "date": "2026-01-14",
+        "text": "@victormustar At first i thought it deleted all of them. lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "soaring3agl3",
+        "name": "Phoenix",
+        "date": "2026-01-14",
+        "text": "@ghbueno @victormustar @Jacobtheape ditto",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "StevenNatera",
+        "name": "Steven Natera",
+        "date": "2026-01-14",
+        "text": "@victormustar What cli tool is that ? Is it a Claude code substitute? Been wanting a local version",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alphaai_ch",
+        "name": "Alpha Ai",
+        "date": "2026-01-14",
+        "text": "@victormustar Partager tes données doit être plus pimenter…",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Vae_eaV",
+        "name": "... :)",
+        "date": "2026-01-14",
+        "text": "@tillmatthis @victormustar unsloth / exo",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ForestHike21",
+        "name": "Lost in the Forest",
+        "date": "2026-01-14",
+        "text": "@ItsAboutReason @grok @victormustar You want to create embeddings from your images. Try sentencetransformer in python. Once you have embeddings, you’ll want a database to store them.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ForestHike21",
+        "name": "Lost in the Forest",
+        "date": "2026-01-14",
+        "text": "Of course. The llm has no idea what to do with files. You have to create a RAG pipeline with an in memory vector database solution. (Open source is FAISS) or you have to create agent workflows to read files and take out context. This is incredibly complex to build locally without a framework. What Claude Code has done is a lot of engineering with agents. Just because it looks simple does not mean it’s easy.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "L4UR3N7",
+        "name": "Laurent",
+        "date": "2026-01-14",
+        "text": "@panthurrrr @victormustar Bash do that 1000x faster... everything in the good folder. You can ask your local LLM the comand line if you want to...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dnltjkr",
+        "name": "Deni",
+        "date": "2026-01-14",
+        "text": "@victormustar You must be out of your mind if you think more than 1 in 10 people here have machines capable of running that locally.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shangobashi",
+        "name": "Shango",
+        "date": "2026-01-14",
+        "text": "@panthurrrr @victormustar whut? 🫠",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-14",
+        "text": "Based on current 2026 benchmarks, here are top 5 open-source LLMs runnable on 3x RTX 3090s (72GB VRAM total) with quantization (e.g., Q4/Q5 via GGUF):\n\n1. DeepSeek-V3 (685B MoE, ~21B active) - Superior reasoning; Q4 fits ~50GB.\n2. Qwen3-110B - Versatile, strong in code/multilingual; Q5 ~60GB.\n3. Llama 4 (70B) - Excellent generalist; Q4 ~40GB.\n4. Mixtral-8x22B (141B MoE) - Fast inference; Q4 ~70GB.\n5. GLM-4.7 - Agentic tasks; FP8 ~55GB.\n\nUse tensor parallelism in llama.cpp or similar. Check HF for latest quants.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mikaackermann9",
+        "name": "Mika Ackermann",
+        "date": "2026-01-14",
+        "text": "@grok @victormustar Recommend me top 5 models one can run on 3 3090s.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-14",
+        "text": "The Qwen3-Next-80B-A3B GGUF is feasible on:\n\n- 1x 3090: Only low quants (e.g., IQ1 ~23GB), but tight with overhead; slow for practical use.\n\n- 2x: Up to Q4 (~45-48GB file, ~51GB usage), borderline.\n\n- 3x: Up to Q6 (~65-68GB), solid with tensor parallelism.\n\nBiggest on 3x3090 (72GB): ~140B dense in Q4 (~70GB) or MoE like Mixtral 8x22B (141B Q4 ~70GB). Depends on framework/context.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mikaackermann9",
+        "name": "Mika Ackermann",
+        "date": "2026-01-14",
+        "text": "@victormustar @grok Please check if this model is feasible on 1-3 3090s and what is the biggest model that can be run on 3 3090s.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Adrian30373125",
+        "name": "AdrianB",
+        "date": "2026-01-14",
+        "text": "@victormustar Claude #StealYourWork ®",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "devinmarch",
+        "name": "Devin March",
+        "date": "2026-01-14",
+        "text": "@victormustar Local models are legitimately dumber than dirt",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "growwithsanch",
+        "name": "Sanchita",
+        "date": "2026-01-14",
+        "text": "@victormustar local models getting stronger is honestly such a win",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "askcodi",
+        "name": "Shreyans Bhansali",
+        "date": "2026-01-14",
+        "text": "@victormustar wild how half of AI progress is just “can we do this without sending grandma’s tax docs to the cloud”",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "populartourist",
+        "name": "wd 🔺",
+        "date": "2026-01-14",
+        "text": "Thanks for that. The figures aren't entirely accurate as you have different qualities of 4-bit.\n\nSomething like AWQ 4-bit will be heavier than a Q4 GGUF.\n\nEven a Q4 GGUF will have different flavours e.g. IQ4_XS all the way up to UD-Q4_K_XL (Unsloth's) and will take a lot less than 30GB with the right KV Cache.\n\nI am running Q8_0 with 105k context, KV Cache Q4_0 for about 30GB and it's extremely high quality, so a 4 bit will have more headroom.\n\nGranted, a 24B dense model will need a decent GPU but examples like GPT-OSS-20B is much more forgiving needing about 16-18GB at MXFP4 weights.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JP_Clow3",
+        "name": "︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎",
+        "date": "2026-01-14",
+        "text": "@victormustar \"do this at home\" \n\n\"here this 80B model\"\n\n???",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "starga93054",
+        "name": "LukeStargaze",
+        "date": "2026-01-14",
+        "text": "@victormustar just gotta have a beefy ass pc for it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iamkylebalmer",
+        "name": "Kyle Balmer",
+        "date": "2026-01-14",
+        "text": "@victormustar YOU can. but you know what you are doing. cowork is (attempting to) make this sort of thing more accessible.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NeuralNetNem",
+        "name": "Besa-bes",
+        "date": "2026-01-14",
+        "text": "@victormustar what repo are you using?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hogwilduk",
+        "name": "Hog Wild",
+        "date": "2026-01-14",
+        "text": "@victormustar also not a fan of using a cloud service for it but \"Moved 19 PDFs to 'PDFs' folder\" doesn't sound like it's actually *organising* anything",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "captainrayo",
+        "name": "©️ Captain Rayo",
+        "date": "2026-01-14",
+        "text": "@victormustar even funnier when you can use a small tool to do exactly the same without needing to download GBs of a model locally. https://t.co/gQgjYHlvVr",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "netdur",
+        "name": "The D ☽⛤☾",
+        "date": "2026-01-14",
+        "text": "@victormustar I am working on that too, I used 4b model, q4 even",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chilltc",
+        "name": "ChillTC",
+        "date": "2026-01-14",
+        "text": "@victormustar Funny how it took you that much to realise that after all it's all CMD commands since Microsoft W 95",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sebuzdugan",
+        "name": "Sebastian Buzdugan",
+        "date": "2026-01-14",
+        "text": "@victormustar local is nice, but updates and setup can hurt",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "body007hun",
+        "name": "body007hun",
+        "date": "2026-01-14",
+        "text": "@victormustar Fortunately, I don't use desktop icons :D https://t.co/5CMPpLbdpZ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TomsTulle",
+        "name": "Toms",
+        "date": "2026-01-14",
+        "text": "@victormustar Funny that you need a model to group in basic categories, something that can be done based on MIME types or extensions. https://t.co/kSdsRAk940",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nirav1991",
+        "name": "Nirav Bhadradiya",
+        "date": "2026-01-14",
+        "text": "@victormustar How far you have tested?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KarRed46",
+        "name": "Karthik",
+        "date": "2026-01-14",
+        "text": "@victormustar try asking it to make a powerpoint",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "isaac_ar",
+        "name": "Isaac AR ⠊",
+        "date": "2026-01-14",
+        "text": "@victormustar Yeah, dunno why everyone so eager to share everything with claude/cursor/chagpt",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RituWithAI",
+        "name": "Rituraj",
+        "date": "2026-01-14",
+        "text": "There is a distinct pleasure in keeping your tokens on-prem. Local models are the ultimate \"opt-out\" from the surveillance economy. You get the same intelligence without the telemetry, and nobody sees your messy prompt history. It is digital homesteading at its finest—plus, during winter, that GPU exhaust is basically free heating!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "southfaux",
+        "name": "South Fox",
+        "date": "2026-01-14",
+        "text": "@victormustar 80B? \n\nhow much vram to run that?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "42s_video",
+        "name": "La Voix du Chat Artiste",
+        "date": "2026-01-14",
+        "text": "@victormustar So “skills” files are the last moat",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "42s_video",
+        "name": "La Voix du Chat Artiste",
+        "date": "2026-01-14",
+        "text": "@victormustar 🤑🤫🍸",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "victormustar",
+        "name": "Victor M",
+        "date": "2026-01-13",
+        "text": "@VengefulFrieren cannot say (I cutted that part)",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "victormustar",
+        "name": "Victor M",
+        "date": "2026-01-13",
+        "text": "@ansjdAJKSB you can prompt whatever you like :)",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "victormustar",
+        "name": "Victor M",
+        "date": "2026-01-13",
+        "text": "@NachoGZ80 you can just prompt it to do as what you want",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2011076954955374592/img/lPEqf-h4JGRcP_ac.jpg",
+      "localFilename": "2011078287762825474_1_poster.jpg"
+    }
+  ]
 }

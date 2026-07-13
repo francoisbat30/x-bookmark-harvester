@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:08.764Z",
+  "fetchedAt": "2026-07-12T18:31:29.751Z",
   "tweetId": "1970061380633120891",
   "post": {
     "url": "https://x.com/AngryTomtweets/status/1970061380633120891",
@@ -9,19 +10,1103 @@
       "name": "Angry Tom"
     },
     "date": "2025-09-22",
-    "text": "Open source models are crazy.\n\nAlibaba just dropped Wan 2.2 Animate, a new model that can animate any character based on a simple souce image.\n\nIt handles facial expressions and body movements like no other model.\n\n10 insane examples: (sound on) https://t.co/ztLwlWDfZb",
+    "text": "Open source models are crazy.\n\nAlibaba just dropped Wan 2.2 Animate, a new model that can animate any character based on a simple souce image.\n\nIt handles facial expressions and body movements like no other model.\n\n10 insane examples: (sound on) https://t.co/ztLwlWDfZb\n\n1. Expressive Human Animation https://t.co/1OpPn8FCPx\n\n2. Expressive Human Animation https://t.co/6rdxSOwWxv\n\n3. Generalizable Arbitrary Character Animation https://t.co/5iy4gPaLAV\n\n4. Generalizable Arbitrary Character Animation https://t.co/PXkk4M8x24\n\n5. Dynamic Motion and Camera https://t.co/KEsZ7ngowJ\n\n6. Dynamic Motion and Camera https://t.co/h6XwdV6YtC\n\n7. Character Replacement with Seamless Environmental Integration https://t.co/kD6lQNOmqQ\n\n8. Character Replacement with Seamless Environmental Integration https://t.co/DoJJHsi2y0\n\n9. Consistent Lighting and Color Tone Replication https://t.co/NXGukr9ThB\n\n10. Qualitative Comparisons https://t.co/gCJEjypHmF\n\nProject page: https://t.co/56oUI8nFoJ\nPaper: https://t.co/D5vlqeqGjP",
+    "thread": [
+      {
+        "id": "1970061380633120891",
+        "text": "Open source models are crazy.\n\nAlibaba just dropped Wan 2.2 Animate, a new model that can animate any character based on a simple souce image.\n\nIt handles facial expressions and body movements like no other model.\n\n10 insane examples: (sound on) https://t.co/ztLwlWDfZb"
+      },
+      {
+        "id": "1970061444025880659",
+        "text": "1. Expressive Human Animation https://t.co/1OpPn8FCPx"
+      },
+      {
+        "id": "1970061507133362186",
+        "text": "2. Expressive Human Animation https://t.co/6rdxSOwWxv"
+      },
+      {
+        "id": "1970061570588934509",
+        "text": "3. Generalizable Arbitrary Character Animation https://t.co/5iy4gPaLAV"
+      },
+      {
+        "id": "1970061634384298158",
+        "text": "4. Generalizable Arbitrary Character Animation https://t.co/PXkk4M8x24"
+      },
+      {
+        "id": "1970061749069197763",
+        "text": "5. Dynamic Motion and Camera https://t.co/KEsZ7ngowJ"
+      },
+      {
+        "id": "1970061863326298247",
+        "text": "6. Dynamic Motion and Camera https://t.co/h6XwdV6YtC"
+      },
+      {
+        "id": "1970061928186978510",
+        "text": "7. Character Replacement with Seamless Environmental Integration https://t.co/kD6lQNOmqQ"
+      },
+      {
+        "id": "1970061995472011414",
+        "text": "8. Character Replacement with Seamless Environmental Integration https://t.co/DoJJHsi2y0"
+      },
+      {
+        "id": "1970062118411202773",
+        "text": "9. Consistent Lighting and Color Tone Replication https://t.co/NXGukr9ThB"
+      },
+      {
+        "id": "1970062184333058538",
+        "text": "10. Qualitative Comparisons https://t.co/gCJEjypHmF"
+      },
+      {
+        "id": "1970062196257493275",
+        "text": "Project page: https://t.co/56oUI8nFoJ\nPaper: https://t.co/D5vlqeqGjP"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/1970061316259016704/vid/avc1/1440x720/8rzlJGm_BwXM7RIK.mp4?tag=14"
+        "url": "https://video.twimg.com/amplify_video/1970061316259016704/vid/avc1/1440x720/8rzlJGm_BwXM7RIK.mp4?tag=14",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1970061316259016704/img/m8RWSaV_m4KCt9fe.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1970061393929129984/vid/avc1/1280x720/rCUzFuJ_xs3NHlLO.mp4?tag=14",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1970061393929129984/img/vmu8eQwzLd5pmCFh.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1970061457086898176/vid/avc1/1280x720/6kwRaBWcqa1RIAjU.mp4?tag=14",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1970061457086898176/img/hQH2J0KYz7fRR9B7.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1970061520206962688/vid/avc1/1280x720/ax2d3ta7sdPfr_xG.mp4?tag=14",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1970061520206962688/img/OCB12F9693qI_8NN.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1970061583838822401/vid/avc1/1280x720/BCpgBT18mw3T_BIn.mp4?tag=14",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1970061583838822401/img/xUUihajR7oSF-0bD.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1970061647416078336/vid/avc1/720x1280/hPUWIbdxQzNUX7Zt.mp4?tag=14",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1970061647416078336/img/mOIf6u6LVIYHPegu.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1970061698448121856/vid/avc1/720x1280/dD5kB1NSom-9M5qj.mp4?tag=14",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1970061698448121856/img/ScWpKMJmHtN39pk3.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1970061762218409984/vid/avc1/720x1280/r36t4TP8PtF5XEF-.mp4?tag=14",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1970061762218409984/img/4gMoG3sBKD-a1OM2.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1970061813820919808/vid/avc1/720x1280/vhBqNKkAvIGLgnLH.mp4?tag=14",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1970061813820919808/img/1mZR4V5Fbg5F99xs.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1970061876399906816/vid/avc1/1440x720/DcW4tc45gX7m_z3x.mp4?tag=14",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1970061876399906816/img/Q14sgrnllqmcKfJ0.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1970061941348671488/vid/avc1/1440x720/5iRH1NecqMlkL4qz.mp4?tag=14",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1970061941348671488/img/-Jy4YSn3JAsDYdl5.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1970062008486912000/vid/avc1/810x720/g7bzfz0C9KwkiVvI.mp4?tag=14",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1970062008486912000/img/GuUsuSma8LxfR91x.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1970062066812952576/vid/avc1/810x720/eptRnF-lTJ8YEjLD.mp4?tag=14",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1970062066812952576/img/AX8Mm1dQ4R7ZGfLx.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1970062131526795264/vid/avc1/1920x720/nml4LnZH0PpJou4o.mp4?tag=14",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1970062131526795264/img/ekaCNghBXs6iZTS_.jpg"
       }
     ],
     "metrics": {
-      "likes": 4489,
-      "retweets": 481,
+      "likes": 4466,
+      "retweets": 480,
       "replies": 106,
-      "views": 4256273
+      "views": 4258898
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "Pixelle_AI",
+        "name": "Pixelle AI",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets I tried it too, it was amazing！ https://t.co/2yr5BothI6",
+        "likes": 16,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AngryTomtweets",
+        "name": "Angry Tom",
+        "date": "2025-09-22",
+        "text": "@QianjunBefanis @EHuanglu haha no way...",
+        "likes": 15,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Mogwai_47",
+        "name": "michael",
+        "date": "2025-09-23",
+        "text": "@clydefmorgan3rd @AngryTomtweets No way, better go bleach my hood. Thanks",
+        "likes": 13,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AngryTomtweets",
+        "name": "Angry Tom",
+        "date": "2025-09-22",
+        "text": "@EHuanglu you can add yourself to your favorite movie scene in seconds.",
+        "likes": 13,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dzoni_blejz",
+        "name": "Johnny Blaze",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets $animate ca:\n\nF7oHFujeQydkrKvPxmcuLueXp4VjjcyXCRo9Y3Xopump",
+        "likes": 9,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AngryTomtweets",
+        "name": "Angry Tom",
+        "date": "2025-09-22",
+        "text": "@heyrobinai end of the year?",
+        "likes": 8,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AngryTomtweets",
+        "name": "Angry Tom",
+        "date": "2025-09-22",
+        "text": "@savebyj word. sums will be lost.",
+        "likes": 7,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dpreciated",
+        "name": "dpreciated",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets Wdym just dropped? It’s been out for awhile lil guppy",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AngryTomtweets",
+        "name": "Angry Tom",
+        "date": "2025-09-22",
+        "text": "@cyber_razz soon",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dzoni_blejz",
+        "name": "Johnny Blaze",
+        "date": "2025-09-23",
+        "text": "@ohio_bull @AngryTomtweets this is some next level AI shit",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tahsol_",
+        "name": "tahsol 🧲",
+        "date": "2025-09-23",
+        "text": "@dzoni_blejz @AngryTomtweets F7oHFujeQydkrKvPxmcuLueXp4VjjcyXCRo9Y3Xopump",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tunicotonyjames",
+        "name": "Xerife Pombo",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets I'll finally be able to watch Titanic with Denzel Washington and Ariana Grande in the cast",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MCHTX7",
+        "name": "MickC",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets Finally, because all these girls making crazy money off Onlyfans... Time for these boys to make money. LOL",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "clydefmorgan3rd",
+        "name": "Clyde Morgan",
+        "date": "2025-09-23",
+        "text": "@Mogwai_47 @AngryTomtweets You can learn how at your next Klan rally.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AngryTomtweets",
+        "name": "Angry Tom",
+        "date": "2025-09-22",
+        "text": "@Havens_Nook @EHuanglu soon...",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AngryTomtweets",
+        "name": "Angry Tom",
+        "date": "2025-09-22",
+        "text": "@leo_grundstrom few realize how early we are now.",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "YSamponu",
+        "name": "Mikah",
+        "date": "2025-09-25",
+        "text": "@Jonnylamaquina @AngryTomtweets Wan 2.2 is opensource, it means free to use for all as long as you running in your own PC with no limitation like uncensored thing, etc for 100% free (why they make you pay? because electricity bill for utilizing their Hardware). Don't worry, It's legal (but it ain't easy).",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Pelinal_WS",
+        "name": "Sus Pit Droid",
+        "date": "2025-09-24",
+        "text": "@AngryTomtweets https://t.co/SeOuErbIpY",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CryptoWayne22",
+        "name": "Dr Crypto Wayne",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets I wana use this distinguished gentleman for\n\nhttps://t.co/3lBzZAreJ6",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ohio_bull",
+        "name": "Ohio Bull",
+        "date": "2025-09-23",
+        "text": "@dzoni_blejz @AngryTomtweets nice one",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dzoni_blejz",
+        "name": "Johnny Blaze",
+        "date": "2025-09-23",
+        "text": "@Threell @AngryTomtweets cooking",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "risk_arc",
+        "name": "Loner",
+        "date": "2025-09-23",
+        "text": "@dzoni_blejz @AngryTomtweets This is nice.. Aped",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "wtfkiraaa_",
+        "name": "kiraa🀄️",
+        "date": "2025-09-23",
+        "text": "@dzoni_blejz @AngryTomtweets aped",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Threell",
+        "name": "Threell",
+        "date": "2025-09-23",
+        "text": "@dzoni_blejz @AngryTomtweets fire",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "manlike_gaius",
+        "name": "Gaius🀄️",
+        "date": "2025-09-23",
+        "text": "@dzoni_blejz @AngryTomtweets Aped",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Trade1lord",
+        "name": "Trade1Lord",
+        "date": "2025-09-23",
+        "text": "@dzoni_blejz @AngryTomtweets Nice",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Sugarpaaji",
+        "name": "Manjot",
+        "date": "2025-09-23",
+        "text": "@IntelegoAI @Matu487615430 @AngryTomtweets @grok @grok  please tell",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mplungjan",
+        "name": "Michel 🇪🇺 🇩🇰 🇳🇱 🇺🇦",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets In the video on the right, how much work would it be to generate just the clothes changes on the fly, and would the API be available to normal people?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AngryTomtweets",
+        "name": "Angry Tom",
+        "date": "2025-09-22",
+        "text": "@awesome_visuals out of this worlds tbh!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AngryTomtweets",
+        "name": "Angry Tom",
+        "date": "2025-09-22",
+        "text": "@mhdfaran open source ftw",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AngryTomtweets",
+        "name": "Angry Tom",
+        "date": "2025-09-22",
+        "text": "@MayorKingAI So good!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Deepakbuildz",
+        "name": "Deepak Poplani",
+        "date": "2025-10-20",
+        "text": "@AngryTomtweets What, Alibaba jumped in the AI game too!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kevinz00025511",
+        "name": "kevinz000",
+        "date": "2025-09-30",
+        "text": "@AngryTomtweets This is insane. Open source is moving way faster than I expected.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jonnylamaquina",
+        "name": "Jonny Haldane",
+        "date": "2025-09-25",
+        "text": "@YSamponu @AngryTomtweets OK thanks! I'll ask chatGPT how to set it up.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Jonnylamaquina",
+        "name": "Jonny Haldane",
+        "date": "2025-09-25",
+        "text": "@YSamponu @AngryTomtweets Ah awesome. Does the site actually allow you to do that, or would I be stealing something?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "YSamponu",
+        "name": "Mikah",
+        "date": "2025-09-25",
+        "text": "@Jonnylamaquina @AngryTomtweets No, not the API, but you fully serve the Wan 2.2, Imagine you create the video like in the website but needs to pay, the difference you create the video on your own browser full free, no API call.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Jonnylamaquina",
+        "name": "Jonny Haldane",
+        "date": "2025-09-25",
+        "text": "@YSamponu @AngryTomtweets OK, I guess that means using their API? That's good to know, although I have no idea how to do it and my computer probably isn't good enough. Some day maybe! Thanks.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "YSamponu",
+        "name": "Mikah",
+        "date": "2025-09-25",
+        "text": "@Jonnylamaquina @AngryTomtweets clone the repository, and deploy on your own pc, in short you have all the wan2.2 feature and remove all the limitation for free (and you'll know what I mean later). But  just for you know it ain't coming in an easy way.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Jonnylamaquina",
+        "name": "Jonny Haldane",
+        "date": "2025-09-25",
+        "text": "@YSamponu @AngryTomtweets What you mean about deploying it yourself?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "YSamponu",
+        "name": "Mikah",
+        "date": "2025-09-25",
+        "text": "@Jonnylamaquina @AngryTomtweets about what?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Jonnylamaquina",
+        "name": "Jonny Haldane",
+        "date": "2025-09-24",
+        "text": "@YSamponu @AngryTomtweets Can you explain?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "YSamponu",
+        "name": "Mikah",
+        "date": "2025-09-24",
+        "text": "@Jonnylamaquina @AngryTomtweets It's not if you deploy it by yourself.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "YSamponu",
+        "name": "Mikah",
+        "date": "2025-09-24",
+        "text": "@AngryTomtweets how come you don't have like artifact in the background? when I tested, it shows some artifact https://t.co/ehR9G5vdg7",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LAntortxa",
+        "name": "LAntorcha",
+        "date": "2025-09-24",
+        "text": "@PilonRusk @AngryTomtweets Tom Cruise as Gandalf... https://t.co/RYoRriOMlk",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "chitrushr",
+        "name": "Chitru",
+        "date": "2025-09-24",
+        "text": "@AngryTomtweets this is crazy",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "9dcio",
+        "name": "9dc",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets how can I use this.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BenjiGanar",
+        "name": "Benji Ganar",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets Fuq",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AdamTheNix",
+        "name": "Adam Nix",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets @EHuanglu Or you can easily frame someone for a crime they didn’t commit. So cool!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hua_zhong",
+        "name": "Hua Z",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets The Oscar is going to have the best AI actor/actress awards soon isn't it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MathisPNewton",
+        "name": "People Of The Light",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets GOOD!\nGood Bye Samuel L. Jackson !\nNow I can \"ANTI-DEI\" all of my favorite movies by re casting the roles of the token characters.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Cding404",
+        "name": "Ordinary citizen 🇺🇦🇮🇱",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets Boring and dull! Are AI tweets always this uninteresting now?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ghengisjhan",
+        "name": "Jonathan",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets 🤔",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "champin_v",
+        "name": "Doktor Firimen",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets Finally, we'll be able to make the elves in the series normal elves.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aviadr1",
+        "name": "aviad rozenhek",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets Does this work in real time? How long does it take to generate?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "saywhat9669",
+        "name": "imbored",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets @JamesJuiceful",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "The_DailyAi",
+        "name": "The Daily Ai",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets Always love your content ❤️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tilseer",
+        "name": "Jrunken State",
+        "date": "2025-09-23",
+        "text": "@QianjunBefanis @AngryTomtweets @EHuanglu As much as I hate AI taking over, keep in mind, everything you see today is the worst its going to be from here forward...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Jonnylamaquina",
+        "name": "Jonny Haldane",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets I've used WAN and it's a pretty good tool but it's also not practical. It randomly puts a watermark on every third video and you have to wait days before you can remove it. DAYS. It's fine for a toy, not usable for any real kind of professional scenario. Same with Google Veo.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MrPene777",
+        "name": "Enrique",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets How do you inference on it?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-23",
+        "text": "The Wan 2.2 Animate (14B active params) isn't natively optimized for Apple Silicon, but quantized versions (e.g., GGUF) can run on the latest Mac Studio (M4 Ultra with up to 192GB unified memory) using MLX or PyTorch MPS. Expect slower inference—e.g., 5-10 min for a short 720p video on max RAM config—compared to NVIDIA GPUs with 24GB+ VRAM. Multi-step offloading helps, but results vary. Test with Hugging Face demos.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "R4Dives",
+        "name": "Aleksandr",
+        "date": "2025-09-23",
+        "text": "@grok @Matu487615430 @AngryTomtweets How will it perform on latest Mac Studio with max amount of ram?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jaywolfffcrypto",
+        "name": "Jaywolfff 🌍",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets Humans playing gods already",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "khalilApriday",
+        "name": "Khalil Afridi",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets This absolutely beautiful",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "brettymate92",
+        "name": "Br377y",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets Broo this is amazing",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UiImair",
+        "name": "Uí Ímair",
+        "date": "2025-09-23",
+        "text": "@dpreciated @AngryTomtweets They dropped the 14b animation model 2 days ago, probably that he is referring to",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jl8081338793866",
+        "name": "Adam Barfy",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets Wake me up when I can fuck it 🤷‍♂️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cherishhhhhed",
+        "name": "Cherishhhhhed",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets @Major_Stortle",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "g0ldrak3",
+        "name": "0M3R0",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets @grande_flagello questo é pane per i tuoi denti!!!! Fammi sapere se hai bisogno di una mano nel caso ;)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thebobbynewland",
+        "name": "Bobby Newland AI Studio",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets I’m literally about to cancel my runway subscription I only got the unlimited version for Act 2",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alex2020__",
+        "name": "Alex",
+        "date": "2025-09-23",
+        "text": "@Jerkopedia @AngryTomtweets this is totally fake",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "harzamir88",
+        "name": "Harri Vastamäki",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets What could possibly go wrong 😅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Anura_Indo",
+        "name": "Anura 🇧🇹🦚",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets now asmangold have some chance ,,,,,",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Purgatoryx0",
+        "name": "Purge👾",
+        "date": "2025-09-23",
+        "text": "@dzoni_blejz @AngryTomtweets I am",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dzoni_blejz",
+        "name": "Johnny Blaze",
+        "date": "2025-09-23",
+        "text": "@Purgatoryx0 @AngryTomtweets yeah, no one pushing that one tbh",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cici100x",
+        "name": "Cici100x",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets F7oHFujeQydkrKvPxmcuLueXp4VjjcyXCRo9Y3Xopump\n\nDyor",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Purgatoryx0",
+        "name": "Purge👾",
+        "date": "2025-09-23",
+        "text": "@dzoni_blejz @AngryTomtweets $wan DLUkPvRQmsEghpkJpsXTHeZbrQJ4RfsoXabZURuipump\n\n1mo old ticker",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dzoni_blejz",
+        "name": "Johnny Blaze",
+        "date": "2025-09-23",
+        "text": "@randomrisktaker @AngryTomtweets dude this is next levelshit",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dzoni_blejz",
+        "name": "Johnny Blaze",
+        "date": "2025-09-23",
+        "text": "@risk_arc @AngryTomtweets its fucking nice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "alixsteps",
+        "name": "Syed Mohammad Ali",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets This is mind-blowing! 🎬 Now anyone can star in their own animated action film! One selfie and it's all over—you're a cartoon hero ready to save the world. The democratization of animation is happening right before our eyes. Thanks for sharing these amazing examples!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iamfromsg",
+        "name": "Time for Coca cola today",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets Now every streamer could be fake",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Avieshek",
+        "name": "Avieshek",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets What is @Apple doing, @tim_cook?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pigg_thomas",
+        "name": "Thomas Pigg",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets That’s amazing isn’t it. I would love to play around with this if I had time",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IArturoAI",
+        "name": "Arturo",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets Amazing! We are about to extint",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Cantme7",
+        "name": "Bustiner Beaver (Ethical Incel)",
+        "date": "2025-09-23",
+        "text": "@QianjunBefanis @AngryTomtweets @EHuanglu this is what i do with real girls before i break up with them. (for their boobs)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TheProfessorZ",
+        "name": "The Professor",
+        "date": "2025-09-23",
+        "text": "@PilonRusk @AngryTomtweets I don't think you understand the role of a director....",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Djo50706810",
+        "name": "Joel",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets Ou puis-je faire fonctionner ce modèle sans utiliser mon Mac et que cela soit assez rapide ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BotKiller69",
+        "name": "UnknownVoice",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets Slop",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mr_Keshta",
+        "name": "mrKeshta",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets how do we use it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PilonRusk",
+        "name": "Pilon Rusk",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets it wont be long before you can generate your favorite show or film with the director of your choice, Imagine Lord of the rings with Tom Cruise as Gandalf directed by Martin Scorsese",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "V1Z10N3D",
+        "name": "Alien GOD 07",
+        "date": "2025-09-23",
+        "text": "@EHuanglu @AngryTomtweets Or bring back the dead ,artificial immortality",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ABB1867068",
+        "name": "AB B",
+        "date": "2025-09-23",
+        "text": "@MikeMas71809521 @AngryTomtweets does it deal with occlusion",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Dangoss",
+        "name": "Dangoss",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets @codemiko Oi!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Kansas_Guardian",
+        "name": "KansasGuardian",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets Fuck AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "OvertonJsWindow",
+        "name": "Overton'sWindow",
+        "date": "2025-09-23",
+        "text": "@romoyac @AngryTomtweets What did he say?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Akhi_l__",
+        "name": "AKHIL",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jerkopedia",
+        "name": "Jerkopedia",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets RIP animation studios? Or am I overhyping it?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dickapplehead",
+        "name": "Dick Applehead",
+        "date": "2025-09-23",
+        "text": "@SugartitsCrypto @AngryTomtweets https://t.co/rLjgaZ1gy5",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SugartitsCrypto",
+        "name": "Billy Covington",
+        "date": "2025-09-23",
+        "text": "@dickapplehead @AngryTomtweets Like leftards",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sncntry",
+        "name": "Sun Country",
+        "date": "2025-09-23",
+        "text": "@AngryTomtweets Celebrities are finished",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "daxaurand",
+        "name": "Dax Aurand",
+        "date": "2025-09-23",
+        "text": "@IamEmily2050 @AngryTomtweets Can you use this in real time to stream with body tracking?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AngryTomtweets",
+        "name": "Angry Tom",
+        "date": "2025-09-22",
+        "text": "@shushant_l thanks man!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1970061316259016704/img/m8RWSaV_m4KCt9fe.jpg",
+      "localFilename": "1970061380633120891_1_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1970061393929129984/img/vmu8eQwzLd5pmCFh.jpg",
+      "localFilename": "1970061380633120891_2_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1970061457086898176/img/hQH2J0KYz7fRR9B7.jpg",
+      "localFilename": "1970061380633120891_3_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1970061520206962688/img/OCB12F9693qI_8NN.jpg",
+      "localFilename": "1970061380633120891_4_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1970061583838822401/img/xUUihajR7oSF-0bD.jpg",
+      "localFilename": "1970061380633120891_5_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1970061647416078336/img/mOIf6u6LVIYHPegu.jpg",
+      "localFilename": "1970061380633120891_6_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1970061698448121856/img/ScWpKMJmHtN39pk3.jpg",
+      "localFilename": "1970061380633120891_7_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1970061762218409984/img/4gMoG3sBKD-a1OM2.jpg",
+      "localFilename": "1970061380633120891_8_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1970061813820919808/img/1mZR4V5Fbg5F99xs.jpg",
+      "localFilename": "1970061380633120891_9_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1970061876399906816/img/Q14sgrnllqmcKfJ0.jpg",
+      "localFilename": "1970061380633120891_10_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1970061941348671488/img/-Jy4YSn3JAsDYdl5.jpg",
+      "localFilename": "1970061380633120891_11_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1970062008486912000/img/GuUsuSma8LxfR91x.jpg",
+      "localFilename": "1970061380633120891_12_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1970062066812952576/img/AX8Mm1dQ4R7ZGfLx.jpg",
+      "localFilename": "1970061380633120891_13_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1970062131526795264/img/ekaCNghBXs6iZTS_.jpg",
+      "localFilename": "1970061380633120891_14_poster.jpg"
+    }
+  ]
 }
