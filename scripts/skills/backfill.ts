@@ -92,7 +92,13 @@ async function main() {
     process.exit(1);
   }
 
-  const skipIds = await loadTriageList("triage-skip.txt");
+  // Un post synché en mode léger (triage-light) est volontairement sans
+  // commentaires : le backfill ne doit pas le voir comme « stale » et le
+  // refetcher plein tarif. Les deux listes s'unissent donc côté backfill.
+  const skipIds = new Set([
+    ...(await loadTriageList("triage-skip.txt")),
+    ...(await loadTriageList("triage-light.txt")),
+  ]);
   const plan = planBackfill(envelopes, {
     limit: args.limit,
     refetchAll: args.refetchAll,
