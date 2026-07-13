@@ -2,8 +2,8 @@ import path from "node:path";
 
 /**
  * Répertoire d'état / cache interne de l'app (matière brute, PAS de livrables) :
- * extraction brute par tweet (.raw), cache de deep search (.deepsearch),
- * taxonomies de tags/entités. Vit dans le repo (C:\Dev\x-bookmark-harvester\state),
+ * extraction brute par tweet (.raw), taxonomies de tags/entités.
+ * Vit dans le repo (C:\Dev\x-bookmark-harvester\state),
  * JAMAIS dans le vault Obsidian — seuls les livrables (notes, assets, 00 Report)
  * vont dans le Garden. Surchargeable par la variable d'env XBM_STATE_DIR.
  */

@@ -8,14 +8,15 @@ Local-first, single-user, your data never leaves your machine.
 
 ## Features
 
-- **Deep Search** — type a natural-language research topic, Deep Search decomposes it into 6 sub-queries, runs them in parallel against Grok's `x_search` tool, **validates every returned tweet ID via the X API bulk-lookup endpoint** (drops hallucinations), applies an optional time-range filter (past week → past year), mechanically scores, then reranks via a final Grok aggregation call. Expect **20-30 verified candidates** (not the 50 raw that Grok alone returns — hallucinations are filtered out). Candidates are displayed with a preview + checkbox list, stats show how many were dropped as fake, and selected URLs flow into the normal extraction pipeline. Results are cached for 2h and browsable from a history drawer.
 - **Sync your X bookmarks** from `GET /users/:id/bookmarks` with OAuth 2.0 PKCE — dedups against what's already in the vault, processes only the new ones.
 - **Manual paste mode** — drop any list of X post URLs and extract them in batch.
 - **Rich extraction** — full post text (including long-form and threads), author, date, metrics, media, top comments sorted by likes.
 - **Grok enrichment on demand** — per-bookmark synthesis: author additions, notable links from comments, community sentiment, key replies.
 - **Native vault location picker** — choose any folder on your machine through a system file dialog (PowerShell on Windows, osascript on macOS, zenity on Linux).
 - **Cache + re-render** — every fetch is persisted to `.raw/<id>.json`. You can re-render a note without re-calling the API, useful when you tweak the markdown template.
-- **Eight Claude Code skills** (`/bookmark-deepsearch`, `/bookmark-status`, `/bookmark-enrich`, `/bookmark-tags`, `/bookmark-graph`, `/bookmark-query`, `/bookmark-digest`) for maintaining the library without leaving Claude Code.
+- **Claude Code skills** (`/bookmark-status`, `/bookmark-enrich`, `/bookmark-tags`, `/bookmark-graph`, `/bookmark-query`, `/bookmark-digest`) for maintaining the library without leaving Claude Code.
+
+> Thematic deep search moved to its own repo: **[x-deepsearch](https://github.com/francoisbat30/x-deepsearch)**.
 
 ## Quick start
 
@@ -111,7 +112,6 @@ npm run skill:status              # dashboard
 npm run skill:tags -- audit       # find duplicate tags
 npm run skill:graph -- apply      # push color groups to Obsidian
 npm run skill:filter -- --tags=mlx,local-inference
-npm run skill:deepsearch -- "seedance 2.0 capcut prompting"
 ```
 
 ## License
