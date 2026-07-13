@@ -54,8 +54,6 @@ export interface PlanOptions {
   limit?: number | null;
   /** Refetcher TOUT le corpus, pas seulement les stale (défaut false). */
   refetchAll?: boolean;
-  /** IDs exclus du refetch (state/triage-skip.txt) : re-render seul. */
-  skipIds?: Set<string>;
 }
 
 /**
@@ -66,12 +64,11 @@ export function planBackfill(
   envelopes: CacheEnvelope[],
   options: PlanOptions = {},
 ): BackfillPlan {
-  const { limit = null, refetchAll = false, skipIds } = options;
+  const { limit = null, refetchAll = false } = options;
 
   const items: BackfillItem[] = envelopes
     .map((env) => {
-      const refetch =
-        (refetchAll || isStale(env)) && !skipIds?.has(env.tweetId);
+      const refetch = refetchAll || isStale(env);
       const replies = env.post.metrics.replies;
       return {
         tweetId: env.tweetId,

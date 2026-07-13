@@ -38,11 +38,6 @@ export interface ExtractContext {
   grokApiKey?: string;
   grokModel?: string;
   mcp?: McpSourceConfig;
-  /**
-   * Profondeur de recherche (mode léger du triage : 0/0 = lookup seul,
-   * pas de recherche thread ni commentaires — ~$0.005 le post).
-   */
-  searchDepth?: { commentPages: number; threadPages: number };
 }
 
 export interface ExtractResult {
@@ -119,15 +114,7 @@ const xapiSource: PostSource = {
     if (!ctx.bearerToken) {
       throw new Error("xapi source requires a bearerToken");
     }
-    return extractPostWithXApi(id, {
-      bearerToken: ctx.bearerToken,
-      ...(ctx.searchDepth
-        ? {
-            maxCommentPages: ctx.searchDepth.commentPages,
-            maxThreadPages: ctx.searchDepth.threadPages,
-          }
-        : {}),
-    });
+    return extractPostWithXApi(id, { bearerToken: ctx.bearerToken });
   },
 };
 
