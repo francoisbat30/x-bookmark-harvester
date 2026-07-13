@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:45.308Z",
+  "fetchedAt": "2026-07-13T06:50:06.686Z",
   "tweetId": "1990162968059785532",
   "post": {
     "url": "https://x.com/ItsMaclouis/status/1990162968059785532",
@@ -10,6 +11,12 @@
     },
     "date": "2025-11-16",
     "text": "color inspiration - #101 https://t.co/Oo4CXYGeS5",
+    "thread": [
+      {
+        "id": "1990162968059785532",
+        "text": "color inspiration - #101 https://t.co/Oo4CXYGeS5"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -21,11 +28,85 @@
       }
     ],
     "metrics": {
-      "likes": 2078,
-      "retweets": 136,
+      "likes": 2070,
+      "retweets": 137,
       "replies": 7,
-      "views": 136326
+      "views": 137392
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "Motion_Viz",
+        "name": "MotionViz",
+        "date": "2025-11-18",
+        "text": "@ItsMaclouis Can you show one process of how you do this gradient liquid effect…",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Rockstar_singh1",
+        "name": "Rock$tar Singh",
+        "date": "2025-11-17",
+        "text": "@ItsMaclouis Damn bro, cut that noise out",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "uiuxabid",
+        "name": "Abid I.",
+        "date": "2025-11-17",
+        "text": "@ItsMaclouis Amazing work 👏🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alvarostudio_",
+        "name": "Alvaro Diaz",
+        "date": "2025-11-17",
+        "text": "@ItsMaclouis Awesome design",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AkhileshhMaurya",
+        "name": "Akhilesh Maurya",
+        "date": "2025-11-17",
+        "text": "@ItsMaclouis Love it!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Serhii_Valiukh",
+        "name": "Serhii Valiukh",
+        "date": "2025-11-17",
+        "text": "@ItsMaclouis Nice!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ahmedfranji",
+        "name": "أحمد | مصمم جرافيك",
+        "date": "2025-11-17",
+        "text": "@ItsMaclouis Love it❤️❤️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G55tsnSX0AAZWDJ.jpg",
+      "localFilename": "1990162968059785532_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G55tsnTWQAAGRKZ.jpg",
+      "localFilename": "1990162968059785532_2.jpg"
+    }
+  ]
 }

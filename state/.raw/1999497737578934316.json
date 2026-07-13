@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:41.394Z",
+  "fetchedAt": "2026-07-13T06:50:47.749Z",
   "tweetId": "1999497737578934316",
   "post": {
     "url": "https://x.com/tom_doerr/status/1999497737578934316",
@@ -10,6 +11,12 @@
     },
     "date": "2025-12-12",
     "text": "Checks email existence without sending mail\n\nhttps://t.co/scMNqmOl0m https://t.co/tstbiodWIk",
+    "thread": [
+      {
+        "id": "1999497737578934316",
+        "text": "Checks email existence without sending mail\n\nhttps://t.co/scMNqmOl0m https://t.co/tstbiodWIk"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,909 @@
       }
     ],
     "metrics": {
-      "likes": 5594,
-      "retweets": 312,
+      "likes": 5550,
+      "retweets": 316,
       "replies": 61,
-      "views": 533082
+      "views": 534498
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "ahmadalfy",
+        "name": "Ahmad Alfy",
+        "date": "2025-12-13",
+        "text": "@tom_doerr Can anyone explain how this works?",
+        "likes": 27,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "martymadrid",
+        "name": "marty.com",
+        "date": "2025-12-13",
+        "text": "@tom_doerr If you use caseyjones1985@hotmail.com for everything — it always works.",
+        "likes": 27,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lucastech",
+        "name": "Lucas Tech",
+        "date": "2025-12-13",
+        "text": "commercial license required to actually check it though, it relies on their API to do the check.\n\nI wrote software that did this 20 years ago. you can just connect to the mx server of the destination domain and ask it if the username exists. but if you do this too much, they'll block you. So it's best to do this from a server that is sending a lot of legitimate emails as well, so the percentage of \"checks\" is low compared to actual emails sent for a given server.\n\nAlso most mx servers will reject your requests these days if you don't have a valid reverse dns setup on your ip, so you can't do this from home anymore.",
+        "likes": 23,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Heyimahmuod",
+        "name": "astaghfrullah I just..",
+        "date": "2025-12-13",
+        "text": "@ahmadalfy @tom_doerr 1- syntax validation\n2- disposable checks \n3- mx records checks\n4- catch all checks\n5- SMTP validation handshake ( should respond with 200 ) \n\nps: this cannot work with code only, it requires a very advanced infrastructure with many pre-warmed ips with good reputation",
+        "likes": 10,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ahmedmoussa147",
+        "name": "Ahmed Moussa",
+        "date": "2025-12-13",
+        "text": "@ahmadalfy @tom_doerr Part 1\nThe repo does a few things:\n- syntax and static validation like is the email following RFC-5322 or now. It is generic email like admin@, no-reply@, sales@, etc. it also check if the email is part of or flagged as disposable email address (DEA) like mailnator",
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hetmehtaa",
+        "name": "Het Mehta",
+        "date": "2025-12-13",
+        "text": "@tom_doerr You can send a mail to hi@hetmehta.com , It always gets delivered",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Lorkydey",
+        "name": "Thomas.F",
+        "date": "2025-12-13",
+        "text": "@JarrettLusso @tom_doerr We are not paying €1.490 a year just to Check of email exist wtf",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SpamAuditor",
+        "name": "SpamAuditor",
+        "date": "2025-12-13",
+        "text": "@tom_doerr Why?  Just .. why?  Called \"list washing\", and probably get you blacklisted.. Best thing to do is send an actual email, so you can get human confirmation they want to hear from you..",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Lorkydey",
+        "name": "Thomas.F",
+        "date": "2025-12-13",
+        "text": "@JarrettLusso @perkulnet @tom_doerr Its not the question\nShow us any proof that it’s not just logo stuffing.",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "azit3c",
+        "name": "aztec",
+        "date": "2025-12-13",
+        "text": "@JarrettLusso @Lorkydey @tom_doerr I would love for any sort of proof of any of these companies using your service; https://t.co/4UnYm5Trqe",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "azit3c",
+        "name": "aztec",
+        "date": "2025-12-13",
+        "text": "@JarrettLusso @Lorkydey @tom_doerr We get an API request for $1490?",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CryptoYannis99",
+        "name": "CryptoGiannis",
+        "date": "2025-12-13",
+        "text": "@JarrettLusso @tom_doerr depends on the size. Moreover - not everyone wants to outsource. Some people just prefer to own their solutions.",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "azit3c",
+        "name": "aztec",
+        "date": "2025-12-13",
+        "text": "@Lorkydey @JarrettLusso @tom_doerr He vibe coded his app so he wouldn't understand how simple it is to install a opensource package and run it lol",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ahmedmoussa147",
+        "name": "Ahmed Moussa",
+        "date": "2025-12-13",
+        "text": "@ahmadalfy @tom_doerr Final:\nIt contains a list or workarounds that tries to validate the email reachability and availability",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "thomasrudy27",
+        "name": "Thomas Rudy",
+        "date": "2025-12-13",
+        "text": "@JarrettLusso @tom_doerr You don’t have to change my mind.\n\nTrying to help others who are looking for a valid solution with my honest experience, not necessarily debate you.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Lorkydey",
+        "name": "Thomas.F",
+        "date": "2025-12-13",
+        "text": "@perkulnet @JarrettLusso @tom_doerr I hope this will help him\nhttps://t.co/iWPXW7Tnxh https://t.co/htcGXIzcZT",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ahmedmoussa147",
+        "name": "Ahmed Moussa",
+        "date": "2025-12-13",
+        "text": "@ahmadalfy @tom_doerr Part 4 &amp; final\n- aso, we use some another way headless / API checks. Example Hotmail, it open an instance we headless browser and check account recovery page and see if the account exist or now. Other providers like yahoo check the result of an API",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ahmedmoussa147",
+        "name": "Ahmed Moussa",
+        "date": "2025-12-13",
+        "text": "@ahmadalfy @tom_doerr Part 2\n- domain DNS records check against MX records\n- then it does a reachability test based on the provider identified from the DNS MX records then using the actual SMTP protocol, it checks if the mailing server will reply back with 200 email exist or 550 unknown user",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JarrettLusso",
+        "name": "Jarrett",
+        "date": "2025-12-13",
+        "text": "@shinedotrocks @tom_doerr We’re the fastest and most reliable in our space. Test us out for free and I’m sure you won’t be disappointed.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "shinedotrocks",
+        "name": "Shine 🇦🇺",
+        "date": "2025-12-13",
+        "text": "@JarrettLusso @tom_doerr How reliable is it? I am looking for something like this to add to my stack.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JarrettLusso",
+        "name": "Jarrett",
+        "date": "2025-12-13",
+        "text": "@thomasrudy27 @tom_doerr There is a reason billion dollar companies use Emailable and not the countless other bottom feeders. Best leave it to the big boys to decide why some cost more than others.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Heyimahmuod",
+        "name": "astaghfrullah I just..",
+        "date": "2025-12-14",
+        "text": "@PoeHaH @ahmadalfy @tom_doerr SMTP step, mainly bcuz mailservers will block your ip after a few tries because they will think you are a spammer, you have to rotate your ips, each ip can validate 10s per day only, otherwise it will get blacklisted even if it has a good reputation \n\nBad ips get blocked easily",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "fjrg2007",
+        "name": "FJRG2007 ツ",
+        "date": "2025-12-14",
+        "text": "@tom_doerr https://t.co/2HSFwbpyD7 much more efficient",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "manialok",
+        "name": "Alok Mani Tripathi",
+        "date": "2025-12-14",
+        "text": "@JarrettLusso @tom_doerr I agree and we use emailable . The cost is minimal.\nBut for the code in GitHub if it can be integrated in other offerings nothing wrong with it. But if the purpose is marketing check trust someone else like emailable.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "InkyZima",
+        "name": "Inky Zima",
+        "date": "2025-12-13",
+        "text": "@tom_doerr This should not work, for security(/phishing) reasons. At best, you could use this tool to test if your email server is disclosing too much information, and if so, restrict it accordingly so that this doesn't work.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_fourteentrees_",
+        "name": "Hayden F",
+        "date": "2025-12-13",
+        "text": "@JarrettLusso @tom_doerr im no expert but isnt that supposed to say $1,490/year https://t.co/xuYj96HrRW",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JarrettLusso",
+        "name": "Jarrett",
+        "date": "2025-12-13",
+        "text": "@CryptoYannis99 @tom_doerr https://t.co/oeR7KioHOH https://t.co/8ifqW6Faxj",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "metacyborg",
+        "name": "metacyborg",
+        "date": "2025-12-13",
+        "text": "@Joaopedrodcf @tom_doerr This can also be done manually using SMTP. Connect using telnet or OpenSSL and run through the text-based communication with the server.\nEHLO...\nMAIL FROM ...\nRCPT TO...\nDetailed instructions and reasons why this rarely works anymore can easily be found online.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JarrettLusso",
+        "name": "Jarrett",
+        "date": "2025-12-13",
+        "text": "@thomasrudy27 @tom_doerr Sure, you know it best. There is nothing I can say to you that will change your mind.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JarrettLusso",
+        "name": "Jarrett",
+        "date": "2025-12-13",
+        "text": "@thomasrudy27 @tom_doerr Simple tests are not sufficient to show the accuracy of email verification. Additionally, reliability and performance matter.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JarrettLusso",
+        "name": "Jarrett",
+        "date": "2025-12-13",
+        "text": "@pschfr @tom_doerr It’s not shilling if it’s blatantly obvious that I’m the CTO by a simple visit to the website.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "thomasrudy27",
+        "name": "Thomas Rudy",
+        "date": "2025-12-13",
+        "text": "@JarrettLusso @tom_doerr Use https://t.co/9EvLuYqoWV\n\nAll others are gouging",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JarrettLusso",
+        "name": "Jarrett",
+        "date": "2025-12-13",
+        "text": "@Lorkydey @tom_doerr You get what you pay for.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JarrettLusso",
+        "name": "Jarrett",
+        "date": "2025-12-13",
+        "text": "@madoutech @tom_doerr You can’t just drop this on a random server and expect it to work. The infrastructure, reputation management, and a ton of other things go into reliable and accurate email verification at scale.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EmirKarsiyakali",
+        "name": "Emir",
+        "date": "2026-02-10",
+        "text": "@tom_doerr I’ve been working on a marketing tool recently and had this exact need. Nice coincidence. Built a Laravel package with caching, queues, validation rules, and a clean API.\n\n🔗 https://t.co/vHkCCuIg9P",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Qasim_Soomro",
+        "name": "Qasim Soomro",
+        "date": "2026-01-28",
+        "text": "@PasqualePuzio @uaesamy @tom_doerr Maybe check this out might help with cost https://t.co/ObbIYExluu",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "reearnify",
+        "name": "Reearnify",
+        "date": "2026-01-23",
+        "text": "@tom_doerr Just launched Sendovate   Email verification API:  → Block 150K+ disposable emails → Reversal verification (user sends TO you, no deliverability issues) → Standard OTP sending → Bulk &amp; batch validation → Pay per use, no minimums    https://t.co/7xRUc2gm1E  #buildinpublic",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "StartupHubAI",
+        "name": "StartupHub.ai",
+        "date": "2025-12-15",
+        "text": "@UserOptions @tom_doerr What’s your email?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hans_malkow",
+        "name": "Hans",
+        "date": "2025-12-14",
+        "text": "@tom_doerr Actually interesting. Might add this tech to https://t.co/bJQMNKiqfy",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-12-14",
+        "text": "@filyflingo @thomasrudy27 @JarrettLusso @tom_doerr Désolé, je me suis peut-être trompé. Peux-tu reformuler ta question ou me donner plus de détails pour que je réponde correctement ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "filyflingo",
+        "name": "Pythagorrre",
+        "date": "2025-12-14",
+        "text": "@grok @thomasrudy27 @JarrettLusso @tom_doerr T’es completement à coté de la plaque ca a 0 rapport avec ma question",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "viktorbased",
+        "name": "TheViktor",
+        "date": "2025-12-14",
+        "text": "@ruchernchong @JarrettLusso @tom_doerr Imagine it mis genders a trans",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-12-14",
+        "text": "Le \"meilleur\" modèle d'IA dépend de l'usage : en 2025, Gemini 2.5 Pro (Google) est souvent classé n°1 pour sa polyvalence, suivi de Claude Opus 4.1 (Anthropic) et GPT-5 (OpenAI), d'après des benchmarks comme LMArena.\n\nFiabilité : varie par modèle et tâche. Études montrent des taux d'erreur de 10% (Claude) à 40% (ChatGPT) sur les faits, soit 60-90% de fiabilité globale. Utilisez avec vérification.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "filyflingo",
+        "name": "Pythagorrre",
+        "date": "2025-12-14",
+        "text": "@thomasrudy27 @JarrettLusso @tom_doerr @grok lequel est le meilleur ?\nÀ cmb de % sont-ils fiables",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "edwardvillarin0",
+        "name": "Edward Villarin",
+        "date": "2025-12-14",
+        "text": "@tom_doerr Wow!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Andrew_Godman",
+        "name": "Andrew Godman",
+        "date": "2025-12-14",
+        "text": "@JarrettLusso @tom_doerr Incorrect, ive had to validate emails for systems people would just put in fake emails. Some basic checks before calling a reachability api saved tons on api credits",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TradlyPlatform",
+        "name": "Tradly",
+        "date": "2025-12-14",
+        "text": "@tom_doerr We are reachable on https://t.co/RNelRv0bkA",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "martymadrid",
+        "name": "marty.com",
+        "date": "2025-12-14",
+        "text": "@kluplau @tom_doerr https://t.co/JMD1DxNHhW",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "UserOptions",
+        "name": "Deven",
+        "date": "2025-12-14",
+        "text": "@StartupHubAI @tom_doerr Doesn’t work for my valid email",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kluplau",
+        "name": "Kenneth Luplau-Brøgger",
+        "date": "2025-12-14",
+        "text": "@martymadrid @tom_doerr How did Casey hurt you?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MRehan_5",
+        "name": "Rehan",
+        "date": "2025-12-14",
+        "text": "@tom_doerr That's great",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "carmacomedian",
+        "name": "Jake Wojak",
+        "date": "2025-12-14",
+        "text": "@JarrettLusso @shinedotrocks @tom_doerr No thanks, any company that refers to their competitors as “bottom feeders” is straight off my list. And I’m sure many others..",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kobbe0",
+        "name": "Jakob",
+        "date": "2025-12-14",
+        "text": "@tom_doerr I did php script that did this 20 years ago. Quite funny logs sometimes, still have it saved somewhere. Thanks for all the fish!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xishreya",
+        "name": "Shreya",
+        "date": "2025-12-14",
+        "text": "@tom_doerr Smart validation logic. Developers solving real problems are the most valuable. Open source infrastructure like this compounds value across thousands of projects 💉",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PietroMontaldo",
+        "name": "Pietro Montaldo",
+        "date": "2025-12-14",
+        "text": "@tom_doerr Super handy for verifying emails safely",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PoeHaH",
+        "name": "Maarten (\"the wombat guy\")",
+        "date": "2025-12-14",
+        "text": "@Heyimahmuod @ahmadalfy @tom_doerr Can you explain which step needs the good reputation and why? So self-hosting this is a bad idea?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EnOptify",
+        "name": "enOptify",
+        "date": "2025-12-14",
+        "text": "@tom_doerr Guys you can check https://t.co/jFvDmAA74e also. A advanced email existence check to keep your email list clean. Free tier supports single s well as bulk verification.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "myTrip24",
+        "name": "das_iltis",
+        "date": "2025-12-13",
+        "text": "@JarrettLusso @thomasrudy27 @tom_doerr Ah - there we go. What a jerk 🤡 https://t.co/i3UknEZQ9j",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "myTrip24",
+        "name": "das_iltis",
+        "date": "2025-12-13",
+        "text": "@JarrettLusso @thomasrudy27 @tom_doerr Sounds like you are getting money for promoting emailable 😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nomadicmarc",
+        "name": "Marc Feder מרדכי אריה",
+        "date": "2025-12-13",
+        "text": "@_fourteentrees_ @JarrettLusso @tom_doerr Vibe coding ain't perfect.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Lorkydey",
+        "name": "Thomas.F",
+        "date": "2025-12-13",
+        "text": "@perkulnet @JarrettLusso @tom_doerr we can get it for free\n\nhttps://t.co/KYvvLA1VpC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jawschamp",
+        "name": "Jaws",
+        "date": "2025-12-13",
+        "text": "@tom_doerr Ok",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MentalBlock123",
+        "name": "Mental",
+        "date": "2025-12-13",
+        "text": "@tom_doerr I mean we still use one of the first internet protocols to drive the majority of communication on earth, what could go wrong 😑",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nks_i_",
+        "name": "N K",
+        "date": "2025-12-13",
+        "text": "@tom_doerr Open source community with another win",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yusefren",
+        "name": "يوسف الأوسي",
+        "date": "2025-12-13",
+        "text": "@ahmedmoussa147 @ahmadalfy @tom_doerr Recovery always requires captcha",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "__Piyushrathore",
+        "name": "Piyush",
+        "date": "2025-12-13",
+        "text": "@tom_doerr Freakin useful , how actually it work ??",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "harroi",
+        "name": "Harald Roine",
+        "date": "2025-12-13",
+        "text": "@tom_doerr Does it ping the MX server of the domain you’re checking?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JohnAndrea999",
+        "name": "John Andrea",
+        "date": "2025-12-13",
+        "text": "@tom_doerr I doubt this will work. Mail services have been disabling vrfy ever since spam became a problem.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Skroob",
+        "name": "Mike Glass",
+        "date": "2025-12-13",
+        "text": "@tom_doerr Almost sent this over to someone to look at until I saw the commercial license is $749 a month. Yikes.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gerardpont25",
+        "name": "Gerard Pont",
+        "date": "2025-12-13",
+        "text": "@tom_doerr Really Good",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ahmedmoussa147",
+        "name": "Ahmed Moussa",
+        "date": "2025-12-13",
+        "text": "@ahmadalfy @tom_doerr Part 3\n\nor any other errors\n- sometimes the above step doesn’t always work so like with a provider like Yahoo who blocks these SMTP connection out of the box or just always give us 200",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iraunit",
+        "name": "raunit.dev",
+        "date": "2025-12-13",
+        "text": "@tom_doerr Well this don't work all the time and for this you need ISP which don't block ports which is used by email providers hence you need a VPS which don't mark your service as spam and suspends your VPS due to IP issue.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_manlikeicon",
+        "name": "Icon - The Fintech Architect",
+        "date": "2025-12-13",
+        "text": "@tom_doerr This is so cool. Can it also check for email age? \n\nUsecases\n1. Check if it is too young (possible fraud)\n2. Check if an email exists before sending to your server",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "skyboyer3",
+        "name": "skyboyer",
+        "date": "2025-12-13",
+        "text": "@Xizario @SpamAuditor @tom_doerr blocked for spam because 2 emails to different addresses? but not black listed after asking email server \"is this email active?\"?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Gnyasha1",
+        "name": "Gnyasha",
+        "date": "2025-12-13",
+        "text": "@tom_doerr Oh it's check if email address exists. My first impression was check if a certain mail(email) exists https://t.co/w04ejZFEqh",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "akash19102001",
+        "name": "akash vishwakarma",
+        "date": "2025-12-13",
+        "text": "@tom_doerr Hey there , just created a project to understand webhooks , do checkout and drop a star , Thanks\nhttps://t.co/8REfVur0SG\n\nPS: it will make you sip webhooks like water",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JustinWKong",
+        "name": "Justin",
+        "date": "2025-12-13",
+        "text": "@tom_doerr Cool feature",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "frikilinux2",
+        "name": "frikilinux2",
+        "date": "2025-12-13",
+        "text": "@tom_doerr How does it work? Long time I haven't played with SMTP so maybe. I'm wrong but gmail didn't confirmed if an address actually existed. Forgot the exact code",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "joanmitter",
+        "name": "Joanmi oficial",
+        "date": "2025-12-13",
+        "text": "@PasqualePuzio @tom_doerr And for a reason. https://t.co/dXCBNBMUHO",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JuniorHicaro",
+        "name": "hicaro junior",
+        "date": "2025-12-13",
+        "text": "@JarrettLusso @tom_doerr Is these kind of desesperated tweets comments that about your services, that i REALLY THINK all the logos in your websites are fake.\n\nYou are desesperated to sell your Shitty Email Verification for 1.400 USD.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Xizario",
+        "name": "Vasil Raev",
+        "date": "2025-12-13",
+        "text": "@SpamAuditor @tom_doerr Usecase is to check if exist and then send the confirmation anyway in a registration form.\nIf the user have misspelled his email and you send to non-existing and then the user correct 1 letter and you send again and this repeats few more times chances are you are blocked for spam",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "abhishek_21k",
+        "name": "Abhishek",
+        "date": "2025-12-13",
+        "text": "@JarrettLusso @tom_doerr womp womp",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Bob350493329284",
+        "name": "Bob the Bear",
+        "date": "2025-12-13",
+        "text": "@tom_doerr How does it check it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ruchernchong",
+        "name": "Ru Chern Chong",
+        "date": "2025-12-13",
+        "text": "@JarrettLusso @tom_doerr Are you serious? https://t.co/OfrTwcexG1",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dave504",
+        "name": "dave504",
+        "date": "2025-12-13",
+        "text": "@lucastech @tom_doerr What hosting allows this over port 25?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "n050up4u1",
+        "name": "n050up4u",
+        "date": "2025-12-13",
+        "text": "@tom_doerr doesnt trigger attack warnings? https://t.co/hHE1Llqa4a",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "YouWorkHereHuh",
+        "name": "ʏᴏ ᴍᴀɴ",
+        "date": "2025-12-13",
+        "text": "@tom_doerr or, you could try to create that email and see if its free...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kumar_amit",
+        "name": "amit kumar",
+        "date": "2025-12-13",
+        "text": "@tom_doerr Make one which in outlook corporate if anyone Recieved your email and then looks at your position bammm... A notification comes to you",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LokoGD",
+        "name": "🇧🇷 Fernando 'Loko' Gulart",
+        "date": "2025-12-13",
+        "text": "@tom_doerr @acgfbr",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thomasrudy27",
+        "name": "Thomas Rudy",
+        "date": "2025-12-13",
+        "text": "@JarrettLusso @tom_doerr Not a simple test. It’s validating and then using them (emails) in marketing campaigns successfully.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JarrettLusso",
+        "name": "Jarrett",
+        "date": "2025-12-13",
+        "text": "@perkulnet @Lorkydey @tom_doerr I wish I could show you the ones that aren’t allowed to be on the list. We don’t have to lie.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Lorkydey",
+        "name": "Thomas.F",
+        "date": "2025-12-13",
+        "text": "@perkulnet @JarrettLusso @tom_doerr Show us @JarrettLusso",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-12-13",
+        "text": "True, email providers do internal checks for registration. But external tools like this are used for list cleaning (e.g., removing bounces), fraud detection (validating sign-ups), or marketing (verifying leads). They're not foolproof, though—hence the need for ethics and backups like user confirmation.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rrgtl_v2",
+        "name": "Rick Roll",
+        "date": "2025-12-13",
+        "text": "@grok @divyamchandel @tom_doerr Quick existence checks only make sense for email provider who wants to confirm if a given email already exists before registering a new one but they obviously would make this check using internal tools.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-12-13",
+        "text": "You're right that traditional email verification relies on user confirmation to prove ownership and intent. This SMTP probe method is more about quick existence checks (e.g., for cleaning lists or fraud detection) rather than full validation. It's a trade-off: faster but prone to errors like catch-alls. For high-stakes scenarios, always pair with user action.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rrgtl_v2",
+        "name": "Rick Roll",
+        "date": "2025-12-13",
+        "text": "@grok @divyamchandel @tom_doerr Not requiring user action for proof defeats the point of email verification.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "thomasrudy27",
+        "name": "Thomas Rudy",
+        "date": "2025-12-13",
+        "text": "@JarrettLusso @tom_doerr I wouldn’t describe them as a bottom feeder. \n\nInitial tests performed as good if not better than a few of the common bigger players. \n\nIf it’s a much more complex use case then sure, but most people have &lt; 50k/mo they need to validate.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dstarh",
+        "name": "David Herman",
+        "date": "2025-12-13",
+        "text": "@k0mar12 @tom_doerr So you don’t get bounces when checking validity",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BotezatuDima",
+        "name": "Dima Botezatu",
+        "date": "2025-12-13",
+        "text": "@PasqualePuzio @tom_doerr If you verify around 300 mail monthly you will not get blacklisted. But better to install this on a new server.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G7-kmKzWAAE_n1M.png",
+      "localFilename": "1999497737578934316_1.png"
+    }
+  ]
 }

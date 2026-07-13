@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:03.914Z",
+  "fetchedAt": "2026-07-13T06:46:49.940Z",
   "tweetId": "1971819066467013078",
   "post": {
     "url": "https://x.com/UiSavior/status/1971819066467013078",
@@ -9,19 +10,560 @@
       "name": "UI/UX Savior"
     },
     "date": "2025-09-27",
-    "text": "Fonts that feel like a logo 🎨✨ https://t.co/97a5bLPK4r",
+    "text": "Fonts that feel like a logo 🎨✨ https://t.co/97a5bLPK4r\n\nhttps://t.co/rg9i718LWx\n\nhttps://t.co/G45pedNRjh\n\nhttps://t.co/FM2DUvZZCc\n\nhttps://t.co/RqExIEgHN2\n\nhttps://t.co/1roWZTIRIO\n\nhttps://t.co/qvPXnTTses\n\nhttps://t.co/rgQTQj2RKr\n\nhttps://t.co/pE34hpj0Nf",
+    "thread": [
+      {
+        "id": "1971819066467013078",
+        "text": "Fonts that feel like a logo 🎨✨ https://t.co/97a5bLPK4r"
+      },
+      {
+        "id": "1971819082639880198",
+        "text": "https://t.co/rg9i718LWx"
+      },
+      {
+        "id": "1971819097873588319",
+        "text": "https://t.co/G45pedNRjh"
+      },
+      {
+        "id": "1971819112826568926",
+        "text": "https://t.co/FM2DUvZZCc"
+      },
+      {
+        "id": "1971819129968710090",
+        "text": "https://t.co/RqExIEgHN2"
+      },
+      {
+        "id": "1971819145189568833",
+        "text": "https://t.co/1roWZTIRIO"
+      },
+      {
+        "id": "1971819161828708514",
+        "text": "https://t.co/qvPXnTTses"
+      },
+      {
+        "id": "1971819178509103461",
+        "text": "https://t.co/rgQTQj2RKr"
+      },
+      {
+        "id": "1971819195584197116",
+        "text": "https://t.co/pE34hpj0Nf"
+      }
+    ],
     "media": [
       {
         "type": "image",
         "url": "https://pbs.twimg.com/media/G11O--YW8AA3ffj.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G11O__DX0AArje5.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G11PA5eXUAENls8.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G11PBw-W0AAWPeV.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G11PCqjXgAAGSt_.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G11PDqZWEAIEIBD.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G11PEiwWQAAwVnJ.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G11PFg4XYAAmq5s.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G11PGdUWIAAgNr9.jpg"
       }
     ],
     "metrics": {
-      "likes": 2909,
-      "retweets": 228,
-      "replies": 39,
-      "views": 204474
+      "likes": 2900,
+      "retweets": 232,
+      "replies": 37,
+      "views": 205551
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "SlavkoDesik",
+        "name": "Slavko Desik",
+        "date": "2025-09-27",
+        "text": "@UiSavior Adigiana extreme, with some tinkering (space between the letters minimized, custom added shadow and details) https://t.co/2Zg6lqUcFn",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tunnnerpaige",
+        "name": "Paige",
+        "date": "2025-09-27",
+        "text": "@UiSavior So glad people like you share stuff like this. 🙏🏼",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "designerumar147",
+        "name": "Umar.A",
+        "date": "2025-09-27",
+        "text": "@UiSavior Groote is really cool 😎",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UNYKGRAPHICS",
+        "name": "Fareed",
+        "date": "2025-09-27",
+        "text": "@UiSavior Thank you so much for sharing",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "brianlife",
+        "name": "LiFe",
+        "date": "2025-09-27",
+        "text": "@introvert_me_so @UiSavior You would have to install it on Mac or PC maybe iPad apps can import fonts, but that would be to each app’s. Direction. Google it. But yeah, you have to active it on the computer: an then it’s available in apps on your computer.. Like Photoshop/Adobe Illustrator. Etc…",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "introvert_me_so",
+        "name": "Introvert_me💙",
+        "date": "2025-09-27",
+        "text": "@UiSavior How to utilise the groote font, after downloading from the website?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "monogramdude",
+        "name": "Saif",
+        "date": "2025-09-27",
+        "text": "@UiSavior Thanks for sharing this 👏",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "papayemi",
+        "name": "YEMZ. JR",
+        "date": "2025-09-28",
+        "text": "@Itz_Mykie @UiSavior Thanks",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "martibuilt",
+        "name": "Martin",
+        "date": "2025-09-28",
+        "text": "@UiSavior what fonts are these? for the \"which one is your favourite\" title",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lister_whu",
+        "name": "Sushant",
+        "date": "2025-09-27",
+        "text": "@introvert_me_so @UiSavior You can drag and drop if on pc/Mac inside Fonts folder to install I believe",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ak_memon",
+        "name": "AKM",
+        "date": "2025-09-27",
+        "text": "@UiSavior Great Collections",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "byismaelmonroy",
+        "name": "Ismael Monroy",
+        "date": "2025-09-27",
+        "text": "@UiSavior Good selection, thanks",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tezuesh",
+        "name": "Tezuesh",
+        "date": "2025-09-27",
+        "text": "@UiSavior Thanks for sharing",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "agngw_",
+        "name": "agung 🌝",
+        "date": "2025-09-27",
+        "text": "@UiSavior Which fonts you used for this image?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Shivam25mishra",
+        "name": "Mr Shivam",
+        "date": "2025-09-27",
+        "text": "@UiSavior Thanks for shearing this",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "johnSmith_devl",
+        "name": "JohnSmith",
+        "date": "2025-09-27",
+        "text": "@UiSavior Where is ITC MAN?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CleverCrafts_",
+        "name": "Clever Crafts",
+        "date": "2025-09-27",
+        "text": "@UiSavior The Groote looks so perfect for a logo",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Khan140473Khan",
+        "name": "Nizam Khan",
+        "date": "2025-10-03",
+        "text": "@UiSavior yes im professional graphic designer",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NizamKhan188379",
+        "name": "Nizam Khan",
+        "date": "2025-10-03",
+        "text": "@UiSavior yes im profitinol graphic desginer",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "qazi26738",
+        "name": "grace21",
+        "date": "2025-10-03",
+        "text": "@UiSavior hi i am a professional geraphic designer any help require please message me i will do it in cheap rate",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "samiulm_dev",
+        "name": "Samiul Islam",
+        "date": "2025-10-02",
+        "text": "@UiSavior Thanks for Sharing!\nQuick note for any designers here if you or client ever need perfect dev support (WordPress/Webflow/custom site), I run a agency that partners with UI/UX designers.\n\nYou design - We build - You profit \n(25% per referrals)\n\nDM open if anyone wants to explore 👋",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheRightSW",
+        "name": "The Right Software",
+        "date": "2025-09-29",
+        "text": "@UiSavior Fonts that speak so clearly, they stand as logos themselves",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "QuantumXDev",
+        "name": "Vishal Singh",
+        "date": "2025-09-29",
+        "text": "@UiSavior Thanks for sharing ❤️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HoaChu838854",
+        "name": "Hoa Chu",
+        "date": "2025-09-29",
+        "text": "@UiSavior Insufficient Balance",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "REAL_KINGROUP",
+        "name": "KinGroup",
+        "date": "2025-09-28",
+        "text": "@introvert_me_so @UiSavior Unzip it after downloading then from your PS app load it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DoItUgly",
+        "name": "DoItUgly",
+        "date": "2025-09-28",
+        "text": "@UiSavior Love this one!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-28",
+        "text": "@mamloucky_ @UiSavior La photo présente des polices de la série \"Fonts that feel like a logo Part 8\" : Qasira, Epic Pro, Nativera et Maqria Vintage. Elles sont disponibles sur des sites comme https://t.co/Yo417wuxrA, Befont ou 1001fonts.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mamloucky_",
+        "name": "mamloucky🐊",
+        "date": "2025-09-28",
+        "text": "@UiSavior @grok là c’est quoi les fonts qu’elle a sur la photo?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RTungseth",
+        "name": "Ryan Tungseth",
+        "date": "2025-09-28",
+        "text": "@Mark29895214652 @UiSavior Papyrus if you want to get fancy.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Itz_Mykie",
+        "name": "Yaw",
+        "date": "2025-09-28",
+        "text": "@UiSavior @papayemi",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hersheyshehe",
+        "name": "Harshendra",
+        "date": "2025-09-28",
+        "text": "@UiSavior Bookmarked this but I will never open it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dsgnbusiness",
+        "name": "أحمد موسى | مصمم جرافيك 💡",
+        "date": "2025-09-28",
+        "text": "@UiSavior Niceee",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dev_rukky",
+        "name": "Rukky",
+        "date": "2025-09-28",
+        "text": "@UiSavior Qasira is my favourite",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Amoghash",
+        "name": "Amogh अमोघ",
+        "date": "2025-09-28",
+        "text": "@UiSavior Awesome",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "brianlife",
+        "name": "LiFe",
+        "date": "2025-09-27",
+        "text": "@UiSavior Awesome! Bookmarked",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Benswagz_",
+        "name": "Benswagz",
+        "date": "2025-09-27",
+        "text": "@UiSavior @zikart03",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "brianlife",
+        "name": "LiFe",
+        "date": "2025-09-27",
+        "text": "@UiSavior I like Nativera",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "brianlife",
+        "name": "LiFe",
+        "date": "2025-09-27",
+        "text": "@UiSavior Elegant",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "brianlife",
+        "name": "LiFe",
+        "date": "2025-09-27",
+        "text": "@UiSavior Ooh",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "brianlife",
+        "name": "LiFe",
+        "date": "2025-09-27",
+        "text": "@UiSavior Nice tech, mech, future feels",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "brianlife",
+        "name": "LiFe",
+        "date": "2025-09-27",
+        "text": "@UiSavior Like it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "astigmatismo400",
+        "name": "positividade",
+        "date": "2025-09-27",
+        "text": "@UiSavior kill ys",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UTDborn_Ali",
+        "name": "joy_Boy",
+        "date": "2025-09-27",
+        "text": "@UiSavior Are the free doh?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "theplum_us",
+        "name": "Plum",
+        "date": "2025-09-27",
+        "text": "@UiSavior Saved! Thanks!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AI_with_khaled",
+        "name": "khaled Elshahat",
+        "date": "2025-09-27",
+        "text": "@UiSavior I really admire these fonts",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "don_manuel042",
+        "name": "Don Manuel UI/UX Designer 🍀",
+        "date": "2025-09-27",
+        "text": "@UiSavior Appreciate you 💯",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NimEshed",
+        "name": "Nim Eshed 𝕏🦋",
+        "date": "2025-09-27",
+        "text": "@UiSavior Good one 👌",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "trushar_r",
+        "name": "Trushar Radadiya",
+        "date": "2025-09-27",
+        "text": "@UiSavior whoa! nice fonts.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G11O--YW8AA3ffj.jpg",
+      "localFilename": "1971819066467013078_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G11O__DX0AArje5.jpg",
+      "localFilename": "1971819066467013078_2.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G11PA5eXUAENls8.jpg",
+      "localFilename": "1971819066467013078_3.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G11PBw-W0AAWPeV.jpg",
+      "localFilename": "1971819066467013078_4.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G11PCqjXgAAGSt_.jpg",
+      "localFilename": "1971819066467013078_5.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G11PDqZWEAIEIBD.jpg",
+      "localFilename": "1971819066467013078_6.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G11PEiwWQAAwVnJ.jpg",
+      "localFilename": "1971819066467013078_7.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G11PFg4XYAAmq5s.jpg",
+      "localFilename": "1971819066467013078_8.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G11PGdUWIAAgNr9.jpg",
+      "localFilename": "1971819066467013078_9.jpg"
+    }
+  ]
 }

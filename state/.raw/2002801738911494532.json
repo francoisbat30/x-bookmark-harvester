@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:39.781Z",
+  "fetchedAt": "2026-07-13T06:51:01.991Z",
   "tweetId": "2002801738911494532",
   "post": {
     "url": "https://x.com/BrettFromDJ/status/2002801738911494532",
@@ -10,18 +11,914 @@
     },
     "date": "2025-12-21",
     "text": "I heard you guys like liquid metal. https://t.co/4CtoMNAJ7Q https://t.co/CFhlAm9pEk",
+    "thread": [
+      {
+        "id": "2002801738911494532",
+        "text": "I heard you guys like liquid metal. https://t.co/4CtoMNAJ7Q https://t.co/CFhlAm9pEk"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/2002801592240652289/vid/avc1/3088x2160/upX5nmKLB_oGIVSO.mp4"
+        "url": "https://video.twimg.com/amplify_video/2002801592240652289/vid/avc1/3088x2160/upX5nmKLB_oGIVSO.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2002801592240652289/img/XnxJZ1Thn9SpksGB.jpg"
       }
     ],
     "metrics": {
-      "likes": 3429,
-      "retweets": 106,
-      "replies": 135,
-      "views": 256374
+      "likes": 3410,
+      "retweets": 105,
+      "replies": 134,
+      "views": 257642
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "gokcay",
+        "name": "gokhangogo",
+        "date": "2025-12-23",
+        "text": "@BrettFromDJ Very very liquid metal 👍😀 https://t.co/zsvO4t3qkk",
+        "likes": 9,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "stephenhaney",
+        "name": "Stephen Haney",
+        "date": "2025-12-23",
+        "text": "@BendikMatej @BrettFromDJ https://t.co/uyXpZ1MMAt",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BendikMatej",
+        "name": "Matej Bendík",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ This looks so clean. Is it pure CSS?",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "muhannaddotcc",
+        "name": "Muhannad Hassan",
+        "date": "2025-12-21",
+        "text": "@Hamzaa_i @BrettFromDJ This is my attempt for the last\n\nhttps://t.co/VFiYXbv2kv",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "aidaknx",
+        "name": "ᅠ",
+        "date": "2025-12-24",
+        "text": "@BrettFromDJ https://t.co/i7m0kHB4oy",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sakshambizz",
+        "name": "Saksham Chauhan",
+        "date": "2025-12-22",
+        "text": "@BendikMatej @BrettFromDJ Paper",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xKiriKev",
+        "name": "KiriKev",
+        "date": "2025-12-21",
+        "text": "@BrettFromDJ @datzeldave",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "insoolance",
+        "name": "SHIFTER PRO",
+        "date": "2025-12-23",
+        "text": "@stephenhaney @BendikMatej @BrettFromDJ Down",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Spac_wby_actual",
+        "name": "Jett🌎",
+        "date": "2025-12-23",
+        "text": "@BendikMatej @BrettFromDJ So I tried to recreate. But as you can see it gets cut off on a square/rectangular div.\n\nAlso might have killed my @clerk webhook. \n\nI can no longer get my users to my waitlist …\n\nMight be a JavaScript issue with parent. https://t.co/OZKTs38eG9",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Spac_wby_actual",
+        "name": "Jett🌎",
+        "date": "2025-12-23",
+        "text": "@BendikMatej @BrettFromDJ does this work with square outlined elements?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nogal_ogg",
+        "name": "ogg vibes",
+        "date": "2025-12-22",
+        "text": "@BendikMatej @BrettFromDJ https://t.co/VgJPzGQO9J",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designernatan",
+        "name": "Natan Souza",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ no, we don't https://t.co/P635j7zgw9",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grav_stock",
+        "name": "Gravstock",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Pretty cool! 🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "onyeropaul_",
+        "name": "James O. Paul",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Sheeeesh!\n\nThis is giving metallic vibes 🥶🥶🥶",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "joshmobleymusic",
+        "name": "Josh Mobley Music ⚡️",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ beautiful",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ryanpves",
+        "name": "ryan",
+        "date": "2025-12-22",
+        "text": "@BendikMatej @BrettFromDJ I think figma",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Sam_AGI_Vietnam",
+        "name": "Sam",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Really cool",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AARIFHERE",
+        "name": "AarifHere",
+        "date": "2025-12-21",
+        "text": "@BrettFromDJ https://t.co/lOHDvG2z4a",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "David_Templates",
+        "name": "Framer SaaS Templates",
+        "date": "2026-04-08",
+        "text": "@BrettFromDJ Are you gonna teach us or gatekeep?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "popsione",
+        "name": "Akpugo",
+        "date": "2026-02-17",
+        "text": "@BrettFromDJ @andrewstillz It would be greatful if you follow suite",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "staromlynski",
+        "name": "Rafał Staromłyński",
+        "date": "2026-01-06",
+        "text": "@BrettFromDJ Did my take as well https://t.co/nKRNnhQo6W",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "neelansh_ns",
+        "name": "Neelansh Sethi 💙",
+        "date": "2025-12-24",
+        "text": "@BrettFromDJ Why are @FlutterDev devs so silent on this one?🤓",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "doromiert",
+        "name": "doromiert",
+        "date": "2025-12-24",
+        "text": "@aidaknx @BrettFromDJ imho your execution is miles better",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nexxomstack",
+        "name": "DevX_",
+        "date": "2025-12-24",
+        "text": "@BrettFromDJ https://t.co/aFY0XLm8bL",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AkashSharm44677",
+        "name": "Akash Sharma",
+        "date": "2025-12-24",
+        "text": "@BrettFromDJ great!! just make more light",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zzryndm",
+        "name": "ryndm",
+        "date": "2025-12-23",
+        "text": "@gokcay @BrettFromDJ i know someones going to say \"wah wah ai slop\" but this is a pretty cool take on the og lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TamimAlArafat",
+        "name": "Tamim",
+        "date": "2025-12-23",
+        "text": "@BrettFromDJ Superb!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Linsy96",
+        "name": "Linsy / Linda Bucksey",
+        "date": "2025-12-23",
+        "text": "@BrettFromDJ Detail that won't be noticed on a UI, but very much appreciated closeup by designers 😍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "markproduct",
+        "name": "Mark Lou",
+        "date": "2025-12-23",
+        "text": "@BrettFromDJ nice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ayoubka_",
+        "name": "Ayoub kada",
+        "date": "2025-12-23",
+        "text": "@gokcay @BrettFromDJ That’s another level now!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "azylerun",
+        "name": "Az.ylerun",
+        "date": "2025-12-23",
+        "text": "@BrettFromDJ https://t.co/rDMx0mISIx",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ByMolaro",
+        "name": "Molaro Askarzade",
+        "date": "2025-12-23",
+        "text": "@BrettFromDJ Really smooth visual flow 🫠",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kamran_svg",
+        "name": "Kamran Ali",
+        "date": "2025-12-23",
+        "text": "@gokcay @BrettFromDJ It's too liquidy 😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kamran_svg",
+        "name": "Kamran Ali",
+        "date": "2025-12-23",
+        "text": "@BrettFromDJ Like? I love it 😍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ImranUxi",
+        "name": "Imran",
+        "date": "2025-12-23",
+        "text": "@BrettFromDJ Loved it!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Spac_wby_actual",
+        "name": "Jett🌎",
+        "date": "2025-12-23",
+        "text": "@muhannadspace @Hamzaa_i @BrettFromDJ BASED drop me your base wallet [gif]🚀🛸",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "joaquinbressan",
+        "name": "Joaquin Bressan",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ yeah look at https://t.co/4Wc8ztcWih love that metal effect on the logo",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "andredezzy",
+        "name": "André \"Dezzy\" Victor",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ &gt;&gt;&gt;&gt; Liquid Glass",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mhuammedtanjim",
+        "name": "Muhammed tanjim",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ How did you do it? Tell ussss",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "henqsoft",
+        "name": "Henry Fasakin",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Wait how did you even achieve this. Is this a prototype or do you have a codepen for this?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheVladKudinov",
+        "name": "Vlad Kudinov",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ It might be too flashy imo",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hieyashraj",
+        "name": "Yashraj",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ tried putting it on a website and it didn’t look good ~",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eve_silb",
+        "name": "Eve",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ liquid metal is way better than liquid glass",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "michealgreatt",
+        "name": "Micheal Great",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Impressive",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ditectrev",
+        "name": "Ditectrev",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Love it🤩",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SimpleWriting_",
+        "name": "Alex | the buff pole",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ all this just for the people who use the website to not give a fuck lmao\n\nstill looks great",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AnyiTheKing",
+        "name": "Sound Mind 🧠 | Motion Designer",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Yes we have one called Odumeje",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sarabahri",
+        "name": "Sara El Bachri",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ https://t.co/BA0v9gcp7q",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "exoticpartic1e",
+        "name": "Anonymous Trade",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ I would pay a lot of money for software and hardware like this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "designwgemini",
+        "name": "DWG",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ nice one",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "abdulyaqeen_a",
+        "name": "Abdulyaqeen Abdulquddus",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Yes, Indaboski 😅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "srotimi_ui",
+        "name": "Stephen",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ this is sickkkk",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RishnuDk",
+        "name": "Rishnu Dk",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ is this even possible to code 😅😅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hardthingsfirst",
+        "name": "Vishal",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ looks premium",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SmitterHane",
+        "name": "Hane Smitter",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ I understand it's a name. But how is metal liquid?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Eme_diongg",
+        "name": "Wise ink❤️",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ This is so futuristic",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "er3kky",
+        "name": "Edis",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Nice idea",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Artistic_Chirag",
+        "name": "Chirag",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Just Awesome 🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NuwansaraT",
+        "name": "Tharusha Nuwansara",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Woow",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AliSananS",
+        "name": "Ali Sanan",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ People's opinion on this are very positive, the story would have been completely opposite if Apple had done anything similar. People are biased.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cryppinfluence",
+        "name": "Crypp",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ seems I like everything liquid 🥹",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "faheem_xr",
+        "name": "Faheem Ur Rehman",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ getting better day by day",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "OnutAdrian",
+        "name": "Adrian Furtuna (Storm)",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ We finally have a use for Paper! Making buttons!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "unrootdesign",
+        "name": "Adam 🌿 Unroot.design",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Wonderful right?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sin4ch",
+        "name": "Osinachi O.",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ do the liquid glass toggle on/off animation in liquid metal",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rexwayss",
+        "name": "Rex",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Wowww",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "razr_tweetz",
+        "name": "Kevin Wijayarathne",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ This is awesome, what does this look like in light and dark mode tho?👀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "abhijitwt",
+        "name": "Abhijit",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SimonasDip",
+        "name": "SimonasDip",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ but ain't this just anodizing and not liquid metal?\n\nliquid metal looks nothing like this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "veerdzigns",
+        "name": "veer shrivastava",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Greate! is is done on rive?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sir4K_zen",
+        "name": "Mykhailo Sorochuk",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Slick. Edge highlight and chromatic reflections are on point. What shader did you use?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "heyrohan7",
+        "name": "Rohan",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Never thought I'd love something more than liquid glass 🥹",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yosiokeaka",
+        "name": "yosi",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ So cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zanderswai",
+        "name": "Alexander Swai",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Noice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Arpit_2023",
+        "name": "Arpit",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ No freaking wayy",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ihisammoh",
+        "name": "Haitham Mohamed",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Very",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ryanpves",
+        "name": "ryan",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Absolutely crazy",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CACandChill",
+        "name": "Dmitriy Azarenko",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Sleek",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Order_Rejected",
+        "name": "Order Rejected 🇩🇴",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ All bluff, this is AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "asad_iqbalkhan",
+        "name": "Asad",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Beautiful!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "internetdialup",
+        "name": "🇨🇭Matt Stenquist",
+        "date": "2025-12-22",
+        "text": "@timusR69 @BrettFromDJ It’s doable in CSS",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "internetdialup",
+        "name": "🇨🇭Matt Stenquist",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Mental I mean Metal",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "maobi_gmi",
+        "name": "爪",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Figma or Framer ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hardikvoragg",
+        "name": "Hardik",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ take notes @Apple",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Motion_Viz",
+        "name": "MotionViz",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ Paper is one of\nThe best platform for sure",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vov_btc",
+        "name": "Vova",
+        "date": "2025-12-22",
+        "text": "@BrettFromDJ lol its just a video(oil/liquid metal or whatever) in Stroke around circle.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Hamzaa_i",
+        "name": "Hamza",
+        "date": "2025-12-22",
+        "text": "@muhannadspace @BrettFromDJ 😭 literally a copy and paste this is amazing bro",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "infratekus",
+        "name": "INFRATEK",
+        "date": "2025-12-21",
+        "text": "@BrettFromDJ Wow! Impressive!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GoodVibesOnlyA1",
+        "name": "GVO Designs",
+        "date": "2025-12-21",
+        "text": "@BrettFromDJ i looks awesome",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "muhannaddotcc",
+        "name": "Muhannad Hassan",
+        "date": "2025-12-21",
+        "text": "@BrettFromDJ It's great like the other, could you share the src?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-12-21",
+        "text": "@adiboaron94 @BrettFromDJ Sure! Imagine a heart-shaped like button forged from liquid metal: it ripples like mercury on hover, flows into a glowing, embossed form when pressed, then reforms with shiny reflections. Perfect for a sleek UI. What do you think?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "adiboaron94",
+        "name": "AidaBell 🔔",
+        "date": "2025-12-21",
+        "text": "@BrettFromDJ I love it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "adiboaron94",
+        "name": "AidaBell 🔔",
+        "date": "2025-12-21",
+        "text": "@BrettFromDJ @grok do a like version as well",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yesheratesdogs",
+        "name": "Anisha🍒",
+        "date": "2025-12-21",
+        "text": "@BrettFromDJ Loved it! Too good man",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MotionByGolden",
+        "name": "Motion By Golden",
+        "date": "2025-12-21",
+        "text": "@BrettFromDJ This looks Soo good. I love liquid metal because of this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "USeriesX",
+        "name": "UserSeriesX 🟦",
+        "date": "2025-12-21",
+        "text": "@BrettFromDJ Samsung should use this, instead of copying apple year or two later",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "scottymatt",
+        "name": "Scotty Matthewman",
+        "date": "2025-12-21",
+        "text": "@BrettFromDJ what does it look like if the icon was also liquid metal?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mezhiyy",
+        "name": "Mowladi",
+        "date": "2025-12-21",
+        "text": "@BrettFromDJ damn looks sick",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2002801592240652289/img/XnxJZ1Thn9SpksGB.jpg",
+      "localFilename": "2002801738911494532_1_poster.jpg"
+    }
+  ]
 }

@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:50.811Z",
+  "fetchedAt": "2026-07-13T06:49:08.745Z",
   "tweetId": "1984742250845245795",
   "post": {
     "url": "https://x.com/ItsMaclouis/status/1984742250845245795",
@@ -10,6 +11,12 @@
     },
     "date": "2025-11-01",
     "text": "color inspiration - #094 https://t.co/6f9Rp8BXRO",
+    "thread": [
+      {
+        "id": "1984742250845245795",
+        "text": "color inspiration - #094 https://t.co/6f9Rp8BXRO"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -21,11 +28,112 @@
       }
     ],
     "metrics": {
-      "likes": 960,
-      "retweets": 52,
+      "likes": 959,
+      "retweets": 53,
       "replies": 6,
-      "views": 32481
+      "views": 32899
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "ItsMaclouis",
+        "name": "Mac Louis",
+        "date": "2025-11-02",
+        "text": "@daudhasandesign thank you",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ItsMaclouis",
+        "name": "Mac Louis",
+        "date": "2025-11-02",
+        "text": "@jahidshuvo525 thanks",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ItsMaclouis",
+        "name": "Mac Louis",
+        "date": "2025-11-02",
+        "text": "@wabi_sabidesign thank you, I appreciate it",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dvgn_x7",
+        "name": "Dvgn™",
+        "date": "2025-11-02",
+        "text": "@ItsMaclouis i mean, look at THAT GRADIENT sheesh!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "STONEFACE_LAB",
+        "name": "STONEFACE CREATIVE LAB",
+        "date": "2025-11-02",
+        "text": "@ItsMaclouis Beautiful shade band 👌🏽",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ItsMaclouis",
+        "name": "Mac Louis",
+        "date": "2025-11-02",
+        "text": "@_banjoko thanks",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_banjoko",
+        "name": "Banjoko | ui/ux designer | Full Stack developer",
+        "date": "2025-11-02",
+        "text": "@ItsMaclouis Well done",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wabi_sabidesign",
+        "name": "Wabi-Sabi Design",
+        "date": "2025-11-02",
+        "text": "@ItsMaclouis That grainy texture paired with the moody shades of purple really set the emotion.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "daudhasandesign",
+        "name": "Daud Hasan",
+        "date": "2025-11-02",
+        "text": "@ItsMaclouis Awesome 👌",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jahidshuvo525",
+        "name": "Zaid Shuvo",
+        "date": "2025-11-02",
+        "text": "@ItsMaclouis nice colors",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G4szVqAXwAAe6NU.jpg",
+      "localFilename": "1984742250845245795_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G4szVp-XcAAL-Xj.jpg",
+      "localFilename": "1984742250845245795_2.jpg"
+    }
+  ]
 }

@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:32.312Z",
+  "fetchedAt": "2026-07-13T06:52:15.626Z",
   "tweetId": "2011717516796838108",
   "post": {
     "url": "https://x.com/GithubProjects/status/2011717516796838108",
@@ -9,7 +10,17 @@
       "name": "GitHub Projects Community"
     },
     "date": "2026-01-15",
-    "text": "Build a local audio transcription tool using whisper https://t.co/fAw549iA6c",
+    "text": "Build a local audio transcription tool using whisper https://t.co/fAw549iA6c\n\nhttps://t.co/2tDbb9kmHA",
+    "thread": [
+      {
+        "id": "2011717516796838108",
+        "text": "Build a local audio transcription tool using whisper https://t.co/fAw549iA6c"
+      },
+      {
+        "id": "2011717529086140465",
+        "text": "https://t.co/2tDbb9kmHA"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +28,54 @@
       }
     ],
     "metrics": {
-      "likes": 235,
-      "retweets": 33,
+      "likes": 238,
+      "retweets": 34,
       "replies": 5,
-      "views": 14653
+      "views": 14701
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "wanajiours10162",
+        "name": "Rolza The Website Developer",
+        "date": "2026-01-15",
+        "text": "@GithubProjects Noice! That's easy to make tbh",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "red1marlboro",
+        "name": "Delrey 𝕏",
+        "date": "2026-01-17",
+        "text": "@GithubProjects @i_am_Brave4",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SaidAitmbarek",
+        "name": "Saïd Aitmbarek",
+        "date": "2026-01-15",
+        "text": "@GithubProjects pretty dope, added to @microlaunchhq spotlights",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Uche_Nuwe",
+        "name": "on.YE.ma",
+        "date": "2026-01-15",
+        "text": "@GithubProjects 🤝❤️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G-sOa6BbkAENj-i.jpg",
+      "localFilename": "2011717516796838108_1.jpg"
+    }
+  ]
 }

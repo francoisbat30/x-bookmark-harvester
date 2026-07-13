@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:18.941Z",
+  "fetchedAt": "2026-07-13T06:55:28.641Z",
   "tweetId": "2025621140362625145",
   "post": {
     "url": "https://x.com/ClementPillette/status/2025621140362625145",
@@ -10,6 +11,12 @@
     },
     "date": "2026-02-22",
     "text": "I've been comparing two setups running Qwen3.5-397B-A17B at full 262K context:\n\n🖥 Mac Studio M3 Ultra (512GB) — €14,500\n⚙️ Custom workstation, 4× RTX PRO 6000 (384GB VRAM) — €45,000\n\nResults:\n• Workstation: 46.9 tok/s, 1,100W, 51 dBA\n• Mac Studio: 35 tok/s, 120W, ~15 dBA\n\nThe Mac is 6.7× more energy-efficient per token. Over 3 years, the TCO gap is nearly €40K.\n\nI have never been a Mac guy, but I have to admit that the Mac Studio is currently the most attractive hardware for running local AI agents.",
+    "thread": [
+      {
+        "id": "2025621140362625145",
+        "text": "I've been comparing two setups running Qwen3.5-397B-A17B at full 262K context:\n\n🖥 Mac Studio M3 Ultra (512GB) — €14,500\n⚙️ Custom workstation, 4× RTX PRO 6000 (384GB VRAM) — €45,000\n\nResults:\n• Workstation: 46.9 tok/s, 1,100W, 51 dBA\n• Mac Studio: 35 tok/s, 120W, ~15 dBA\n\nThe Mac is 6.7× more energy-efficient per token. Over 3 years, the TCO gap is nearly €40K.\n\nI have never been a Mac guy, but I have to admit that the Mac Studio is currently the most attractive hardware for running local AI agents."
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -21,11 +28,29 @@
       }
     ],
     "metrics": {
-      "likes": 1028,
-      "retweets": 80,
-      "replies": 113,
-      "views": 170329
+      "likes": 1027,
+      "retweets": 79,
+      "replies": 111,
+      "views": 171448
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "ClementPillette",
+        "name": "Clément Pillette",
+        "date": "2026-02-22",
+        "text": "@TheAhmadOsman , Mac Studio are actually pretty good. I benchmarked my against my 4 RTX6000 Pro. Mac Studio is super efficient, very low footprint and it's token generation was 35tps vs 50tps on the workstation",
+        "likes": 25
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HBxzV1nXEAAKZ1F.jpg",
+      "localFilename": "2025621140362625145_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HBxzqubWkAAQMKg.jpg",
+      "localFilename": "2025621140362625145_2.jpg"
+    }
+  ]
 }

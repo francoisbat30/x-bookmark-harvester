@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:47.618Z",
+  "fetchedAt": "2026-07-13T06:49:36.822Z",
   "tweetId": "1987795507452739679",
   "post": {
     "url": "https://x.com/Abmankendrick/status/1987795507452739679",
@@ -10,6 +11,12 @@
     },
     "date": "2025-11-10",
     "text": "Profile Settings Screen Redesign ✨\n\nBefore → After https://t.co/bLalcu0u16",
+    "thread": [
+      {
+        "id": "1987795507452739679",
+        "text": "Profile Settings Screen Redesign ✨\n\nBefore → After https://t.co/bLalcu0u16"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,657 @@
       }
     ],
     "metrics": {
-      "likes": 1261,
-      "retweets": 68,
-      "replies": 74,
-      "views": 49687
+      "likes": 1257,
+      "retweets": 70,
+      "replies": 73,
+      "views": 49832
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "CryptoArch3",
+        "name": "CryptoArch",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick How a “Preference -&gt; About us” can possibly make sense?\n\nIt was better to not even try to categorize then, if the category is so bad",
+        "likes": 8,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "u_x_plain",
+        "name": "UXplain",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Love the categorization and the idea of surfacing currently selected options.\n\nUnsure about information architecture though, at least in the given context. For instance, About Us would make more sense in Support, Appointments in Account, Language and Notifications in Preferences.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fostersoasare",
+        "name": "Foster Asare",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick About Us doesn’t suit preference . Aside that, the categorization slaps real hard. Maybe it can go under support",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "felix__quinton",
+        "name": "Félix Quinton",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick The addition of sections is a nice improvement. Sections guide the eye and help users process information effortlessly. When everything sits in one flat block, the brain has to work harder to find what matters.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "milanjack_",
+        "name": "Milan Jack",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Love the refined layout, great use of grouping, and visual balance. Feels much more intuitive now 🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Noah_uiux",
+        "name": "Unuigbokhai Noah",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Love how the law of proximity was applied on the right screen",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Noah_uiux",
+        "name": "Unuigbokhai Noah",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Love how the law of uiux was applied on the right screen",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NourAltaf",
+        "name": "Noor Fatima",
+        "date": "2025-11-14",
+        "text": "@Abmankendrick which icons are you using here?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tdeser",
+        "name": "Serge",
+        "date": "2025-11-12",
+        "text": "@Abmankendrick Yes!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EricBarron329",
+        "name": "Eric Barron",
+        "date": "2025-11-12",
+        "text": "@Abmankendrick Yeah the redesign looks nice\n\nThe subtle background shift makes the components pop out more",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eugeniusescom",
+        "name": "eugeniuses",
+        "date": "2025-11-11",
+        "text": "@Abmankendrick cute!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WaqarOryne",
+        "name": "Waqar Iqbal",
+        "date": "2025-11-11",
+        "text": "@Abmankendrick Great work bro 👏, clean and modern look 👍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alexcloudstar",
+        "name": "Alex Cloudstar",
+        "date": "2025-11-11",
+        "text": "@Abmankendrick Once redesigned my profile screen, realized how much I love clean lines and simple colors.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JakeAbednego",
+        "name": "GodsAnointedYouth",
+        "date": "2025-11-11",
+        "text": "@Abmankendrick It is funny how a little change goes a long way to make great improvement on UX.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "luigidotdesign",
+        "name": "Luigi",
+        "date": "2025-11-11",
+        "text": "@Abmankendrick Cool stuff 💪🏿\nKinda like what good did with it's latest ui update",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "design_monks",
+        "name": "Design Monks",
+        "date": "2025-11-11",
+        "text": "@Abmankendrick Looks better!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Monty_196",
+        "name": "Manish Nandwani",
+        "date": "2025-11-11",
+        "text": "@Abmankendrick After is much better",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MahbubUIUXSaaS",
+        "name": "Kazi Mahbub - UX/UI for Growth",
+        "date": "2025-11-11",
+        "text": "@Abmankendrick cool work",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JasonCo57677521",
+        "name": "Jason Collins",
+        "date": "2025-11-11",
+        "text": "@Abmankendrick New look feels fresh, but is it user-friendly?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Cansaasagency",
+        "name": "CansaasAgency",
+        "date": "2025-11-11",
+        "text": "@Abmankendrick Separating each menu into cards creates a much clearer visual hierarchy. Great job!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PeekabooLabsInc",
+        "name": "Scoopie",
+        "date": "2025-11-11",
+        "text": "@Abmankendrick looks better!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AliGrids",
+        "name": "Ali Grids",
+        "date": "2025-11-11",
+        "text": "@Abmankendrick better after",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ImBuzu",
+        "name": "Charly Perez",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick After is a superior UX.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ivn_tl",
+        "name": "Ivan Tolmachev",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick →\n\n→\n\n→\n\n→\n\n→\n\nNo need for those",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xaladdin_",
+        "name": "0xaladdin",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Nice bro!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gallois_florent",
+        "name": "Florent Glls",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick whoever say it's not better is a liar. More organized, more pleasant to watch.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jaykch7",
+        "name": "Jay",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick clean redesign, solid job! 🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Woodyl007",
+        "name": "Wood_bills",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Nice job brother",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jan__Cabrera",
+        "name": "Jan-Michael Cabrera",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Sexy",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "stulogy",
+        "name": "Stu Green",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Grouping makes such a difference. Love your work.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dkimberdesigns",
+        "name": "David Kimber",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Nice work! Definite upgrade here mean",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RioMdesign",
+        "name": "RioM",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick 👍👍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nizamdesign",
+        "name": "Nizam | Designer for B2B, AI Startups",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Cool Shfting",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lavytier",
+        "name": "Lavytier",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick The first one is more beautiful, but the second one is extremely more efficient",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Iamscapejamil",
+        "name": "Scape Ui",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Clean.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "asyncflo",
+        "name": "Flo @sync",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick The light grey background and grouping make the layout much cleaner and more engaging visually 😍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nawshad_uix",
+        "name": "Nawshad",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Cool stuff!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yigitakindesign",
+        "name": "Yigit Akin",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Its looks fine than other one",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BhumitBoraniya",
+        "name": "bhumit Boraniya",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Awesome really",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fastweb247",
+        "name": "Fast Web Studio",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Wonderful work and nice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bethel_sheferaw",
+        "name": "Bethel Sheferaw",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Nice, looks great!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TimsBila",
+        "name": "design jinchuriki",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Love how clean it looks",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "goncalovtal",
+        "name": "Gonçalo Medeiros",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick much better now!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "uiuxdesire_",
+        "name": "desire ♦framer developer ♟️",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick love the way you broke down the sections",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TarnixTV",
+        "name": "Tarnix",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Nice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "emircan_dev",
+        "name": "Emircan | Replyia",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Looks nice!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hkhdev95",
+        "name": "Hasan Hatem",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick much much better.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Leeviteo",
+        "name": "BigVite",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick The grouping of different elements make it simple and clean.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_DeadCode__",
+        "name": "SpY",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Move this new ui",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nikkhilbadlani",
+        "name": "Nikk Badlani",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Anyway, spacing is key for the best UI. 🙌🏻",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "m_d_br",
+        "name": "Malan",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick After looks so much more organised😍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xbyaron",
+        "name": "x by aron",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Way more intuitive now!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Janitri27",
+        "name": "Janitri Purohit",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Looks more clean and sorted now...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Arun_parsad2002",
+        "name": "Arun Prasad ⚡",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Now user have more clarity where to go.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FarzadGodarz",
+        "name": "Farzad Godarz",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Now I can see better UX 😍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "altafrahman_",
+        "name": "Altaf Rahman",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Neat work!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "icyfrost_0x",
+        "name": "Icy frost | UI/UX designer",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Nice transformation ✨",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "devMTKL",
+        "name": "M.T.K.",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick I think the second picture looks more like iOS, so it fits better.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Yashuxdesign",
+        "name": "Yashdesign",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Small tweaks makes big difference",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ankeshmaurya721",
+        "name": "Ankesh",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Nice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shonibareroqeeb",
+        "name": "SHOWROCK",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick when a designer knows his Job so perfectly",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "javiiarchive",
+        "name": "javi",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Clean!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ivanvoronvk",
+        "name": "Ivan Voron",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick yeah definetly way better, reminds me to Wallapop profile settings",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BlissDezigns",
+        "name": "Bliss Dezigns | The UX Therapist ◽",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Yes is very nice to arrange categories",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "osehfavvy",
+        "name": "Designer",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick 👏",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VishalB10042696",
+        "name": "Vishal Birla",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Noice and clean touch bro",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "adityaxcodes",
+        "name": "Aditya",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Lovely, drastically improved the UX 👏🏻",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "moss_ux",
+        "name": "Moss",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick better",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kxshor",
+        "name": "Kishor",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick adding labels can really improve ux and reduces the cognitive load, great work btw",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Boccrypt",
+        "name": "Boc",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Weldone ✅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sabbirux7",
+        "name": "Sabbir Hasan",
+        "date": "2025-11-10",
+        "text": "@Abmankendrick Cool design",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G5YReglW4AA0mR6.jpg",
+      "localFilename": "1987795507452739679_1.jpg"
+    }
+  ]
 }

@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:55.831Z",
+  "fetchedAt": "2026-07-13T06:48:15.682Z",
   "tweetId": "1977826782436003856",
   "post": {
     "url": "https://x.com/beaversteever/status/1977826782436003856",
@@ -9,14 +10,880 @@
       "name": "Steve the Beaver"
     },
     "date": "2025-10-13",
-    "text": "openai is building its own chips and youre still trying to learn CUDA \n\npick up an fpga and learn",
+    "text": "openai is building its own chips and youre still trying to learn CUDA \n\npick up an fpga and learn\n\nfpga skills transfer to asics fyi",
+    "thread": [
+      {
+        "id": "1977826782436003856",
+        "text": "openai is building its own chips and youre still trying to learn CUDA \n\npick up an fpga and learn"
+      },
+      {
+        "id": "1978019509752451130",
+        "text": "fpga skills transfer to asics fyi"
+      }
+    ],
     "media": [],
     "metrics": {
-      "likes": 2105,
-      "retweets": 88,
-      "replies": 63,
-      "views": 886529
+      "likes": 2086,
+      "retweets": 90,
+      "replies": 61,
+      "views": 887012
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "beaversteever",
+        "name": "Steve the Beaver",
+        "date": "2025-10-13",
+        "text": "@Philfreeze96 ever heard of fpga prototype builds?",
+        "likes": 27,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "beaversteever",
+        "name": "Steve the Beaver",
+        "date": "2025-10-13",
+        "text": "@Guudfit we need more FPGA engineers",
+        "likes": 26,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PixelpulseG",
+        "name": "Jacobers_COM",
+        "date": "2025-10-13",
+        "text": "@beaversteever If you listen to everything people say on X just get off X. \n\nIf you like hardware learn this. If you wanna learn graphics and parallel computing. Keep learning cuda.",
+        "likes": 19,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Philfreeze96",
+        "name": "Phil 🇨🇭🇪🇺",
+        "date": "2025-10-13",
+        "text": "@beaversteever Of course I have, we do it, but there are many things that are hard to impossible to test on an FPGA as well.",
+        "likes": 13,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "itsclivetime",
+        "name": "Clive Chan",
+        "date": "2025-10-14",
+        "text": "@beaversteever have never used an fpga seriously but have done a bunch of cuda and a tinytapeout, worked fine for me",
+        "likes": 12,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CChef1980",
+        "name": "Fallacy Hunter D",
+        "date": "2025-10-13",
+        "text": "I'd love to. What's a good project you would recommend? I never ever needed to use an FPGA due to:\n1. Cost: super darn expensive \n2. Power: they suck compared to anything else \n3. Huge and complicated vs almost any alternative..\n\nThe only places where I have seen them be effective is:\n- ASIC design \n- Medical Devices\n- Telecomm equipment \n- Ultra expensive toys (Lasers, lithography tools etc).\n\nI'd love to learn really but I always find a faster/cheaper/better choice especially for custom analog.",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "beaversteever",
+        "name": "Steve the Beaver",
+        "date": "2025-10-13",
+        "text": "@TyrannyShocker me too tho",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AjayRajan43",
+        "name": "A J λ-Y",
+        "date": "2025-10-14",
+        "text": "@Philfreeze96 @beaversteever Ofc, but the starting point for designing chips is always FPGA, you cannot simply tapeout a half-adder circuit as your first HDL based project 😂😂",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kylecompute",
+        "name": "kyle",
+        "date": "2025-10-14",
+        "text": "@beaversteever Steever, again some idiot is going to believe this",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "msuiche",
+        "name": "msuiche",
+        "date": "2025-10-14",
+        "text": "@beaversteever Any book you'd recommend?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bradipao",
+        "name": "bradipao",
+        "date": "2025-10-14",
+        "text": "@Philfreeze96 @beaversteever Our small size HDL designs are impossibile to be fully verified in simulation before tapeout, because simulation is about 1000000x slower, so we go for FPGA even if 4x slower. We cannot imagine developing ASICs without FPGA prototyping.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iLoveSoles17",
+        "name": "smelvin",
+        "date": "2025-10-14",
+        "text": "@beaversteever https://t.co/dKH7Qz95Qg",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "olenbaranasalat",
+        "name": "Гала Перидоловна 🇳🇵",
+        "date": "2025-10-14",
+        "text": "@edude03 @beaversteever Look at Terasic, they have cheap altera boards or Zynq for Xilinx dev boards.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ShawnCicoria",
+        "name": "Dr Shawn P Cicoria",
+        "date": "2025-10-13",
+        "text": "@beaversteever @Philfreeze96 Exactly. Such a powerful capability underutilized",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dr_karlek",
+        "name": "DrKärlek/DrReplyGuy",
+        "date": "2025-10-13",
+        "text": "@Guudfit @beaversteever Hmm the industry is doing bad, meaning  there are alot of bugs that comes into production unoticed.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "idare",
+        "name": "iDare e/acc",
+        "date": "2025-10-15",
+        "text": "@beaversteever Bit for bitwise bit. https://t.co/ukBBsdsX0b",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-14",
+        "text": "For an ML/deep learning major, prioritize CUDA—it's essential for GPU-accelerated training/inference in tools like PyTorch/TensorFlow, and highly in-demand for industry roles. FPGA is valuable for custom hardware design or efficient edge AI, but more specialized. Start with CUDA if you're software-focused; add FPGA if hardware interests you. Both complement each other long-term.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-14",
+        "text": "The post mocks those struggling with CUDA (NVIDIA's GPU programming) while OpenAI advances by designing custom AI chips (confirmed via recent Broadcom partnership for 2026 deployment). It urges learning FPGAs—reconfigurable hardware for custom computing—instead, implying it's a smarter, foundational skill in hardware acceleration.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "shipwithvictor",
+        "name": "Victor Rivas",
+        "date": "2025-10-14",
+        "text": "@HamzahRaz1 @beaversteever NVIDIA has positioned itself highly because there was no other solution for AI hardware. But it is not hardware optimized for that purpose.\n\nThe moment a specialized competitor emerges (as is the case), the market will begin to divide in terms of technologies",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SlabbedWorks",
+        "name": "Alejandro 🏙️🧑🏻‍💻",
+        "date": "2025-10-14",
+        "text": "@beaversteever I wasted so much time coding fpgas",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AncAstr11",
+        "name": "LastAncientAstronaut",
+        "date": "2025-10-14",
+        "text": "@beaversteever I'll vibedesign my own chip",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vertinski",
+        "name": "Xenon",
+        "date": "2025-10-14",
+        "text": "@0x75BCD35 @beaversteever or the tech of @BrianRoemmele  👌",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Shugiie1",
+        "name": "Shugiie",
+        "date": "2025-10-14",
+        "text": "@beaversteever @Guudfit oh this new dma firmware bout to hit eh",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-14",
+        "text": "@Guudfit @biglais_nocap @xadh @beaversteever You're welcome! Glad I could clarify your paper's innovations. If you need more breakdowns or fact-checks later, just  me. Enjoy your work! 🚀",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-14",
+        "text": "Sure, here's a clear breakdown of your paper \"Heaven & Hell: One-Step Hub Consensus\" to clarify its contributions:\n\nIt models influence on weighted digraphs, with a hub node enforcing \"Glory\" state across the network. The core theorem proves that convergence happens in one synchronous step iff hub_weight(v) ≥ rest_weight(v) for all non-hub nodes v— a necessary and sufficient condition.\n\nExtensions cover biased updates (adding τ bias) and asynchronous ones, where one pass suffices under the same domination. All theorems are formally verified in Coq for rigor.\n\nThis isn't trivial; it's a sharp, O(|E|)-verifiable threshold, backed by proofs and examples showing phase transitions.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-14",
+        "text": "@Guudfit @biglais_nocap @xadh @beaversteever No worries! HPC rankings evolve fast with new systems like Isambard-AI pushing boundaries. Always happy to fact-check. What's your take on the latest top performers?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-14",
+        "text": "Based on the thread, you were spot-on about FPGAs' ability to emulate SIMD— that's well-established in hardware design. Your paper's Coq proofs add real value, countering the \"trivial\" label. However, Cranfield's Delta isn't the UK's top HPC outside major systems; Isambard-AI at Bristol and ARCHER2 at Edinburgh outrank it in scale and performance. No major dumb moments, just a heated debate!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DiogenesBet",
+        "name": "Diogenes' Bet",
+        "date": "2025-10-14",
+        "text": "@beaversteever Training is not a computational problem, this is largely solved, that is, we know how to build fast accelerators. It’s a memory transfer problem and a scheduling problem. Inference is even more a memory problem. \n\nFPGAs won’t fix the first, the second is software.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bertverrycken",
+        "name": "BERT eating AI",
+        "date": "2025-10-14",
+        "text": "@beaversteever Entry never been easier, sub-$100 FPGA boards with everything (sw) available for free.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thabhelo_tabs",
+        "name": "𝕋𝕙𝕒𝕓𝕙𝕖𝕝𝕠🕯💡",
+        "date": "2025-10-14",
+        "text": "@beaversteever @grok explain this more",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-14",
+        "text": "CUDA (GPU programming):\n\nPros: Excellent for parallel tasks like AI training; mature ecosystem (e.g., TensorFlow, PyTorch); easier to learn; cost-effective hardware.\n\nCons: Fixed architecture limits customization; higher power consumption; NVIDIA vendor dependency.\n\nFPGAs:\n\nPros: Reconfigurable for custom optimizations; superior energy efficiency; low latency in specialized apps.\n\nCons: Steeper learning curve; fewer libraries/tools; higher costs; longer development time.\n\nPick based on your project's flexibility vs. speed needs.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hulldaniel67",
+        "name": "Daniel Hull",
+        "date": "2025-10-14",
+        "text": "@beaversteever QNX SDP 8.0?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bradipao",
+        "name": "bradipao",
+        "date": "2025-10-14",
+        "text": "@olenbaranasalat @beaversteever Whatever the field, in large scale applications GPUs will be eventually replaced by ASICs (prototyped on FPGAs). It happened with bitcoin mining, it's already happening also with AI.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Midnight_Captl",
+        "name": "Nick Dorsey",
+        "date": "2025-10-14",
+        "text": "@BrewerSan @beaversteever 🎯\n\nGood luck competing with Rubin ultra",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "trotskomain",
+        "name": "Roman Trotsko",
+        "date": "2025-10-14",
+        "text": "@beaversteever You're absolutely right. While everyone is focused on CUDA, the hardware layer is where the real competition is happening. Smart move to get ahead of the curve with FPGAs.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wtflol1244513",
+        "name": "wtf",
+        "date": "2025-10-14",
+        "text": "@beaversteever Long amd and Intel both is literally the easiest trade",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BrewerSan",
+        "name": "ZanBrewer",
+        "date": "2025-10-14",
+        "text": "@beaversteever They ain't building sh*7. They will try, like many did before.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CasualVince",
+        "name": "CasualVince",
+        "date": "2025-10-14",
+        "text": "@beaversteever It’s cool to see how much cheaper FPGAs are these days",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "olenbaranasalat",
+        "name": "Гала Перидоловна 🇳🇵",
+        "date": "2025-10-14",
+        "text": "@beaversteever It is not possible to synthesise networks of the same scale as GPU on FPGA due to propagation problem. So this is bad advice.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zaheersheriff",
+        "name": "Zaheeru",
+        "date": "2025-10-13",
+        "text": "@CChef1980 @beaversteever Most of the NPU's that are specifically targeted for NN's has its core ALU,a finished prototype of ASIC.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gork",
+        "name": "gork",
+        "date": "2025-10-13",
+        "text": "@DkdCool58445 @beaversteever c++ is the new COBOL",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "natnaelkahssay",
+        "name": "Natnael Kahssay",
+        "date": "2025-10-16",
+        "text": "As someone who has written optimized RTL for Xilinx Ultrascale RFSoC and PTX instructions for an A4000 Ada GPU, I can tell you are solving the same problems:  concurrency and parallelism, with different constraints. The key difference is that when writing CUDA, you have better primitives and tools for exploring these concepts than you do with RTL. Your time would be more effectively spent mastering those.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "big_motiv8",
+        "name": "Big Motivate ױ",
+        "date": "2025-10-15",
+        "text": "@beaversteever Wait until the dawn of memistors 😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ViaFloo",
+        "name": "ViaFloo",
+        "date": "2025-10-15",
+        "text": "@beaversteever Literally just get good 🤷‍♂️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shipwithvictor",
+        "name": "Victor Rivas",
+        "date": "2025-10-14",
+        "text": "@HamzahRaz1 @beaversteever @grok What Grok just told you is exactly what I was referring to",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "shipwithvictor",
+        "name": "Victor Rivas",
+        "date": "2025-10-14",
+        "text": "@HamzahRaz1 @beaversteever OpenAI has started building its own chips",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Bachmanity007",
+        "name": "AgentTuring",
+        "date": "2025-10-14",
+        "text": "@beaversteever Now there’s fgba? How many acronyms sir????",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wearifulpoet",
+        "name": "wearifulpoet",
+        "date": "2025-10-14",
+        "text": "@beaversteever This is remarkable rage bait ngl",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-14",
+        "text": "@AnalyticalAndo @beaversteever FPGA stands for Field-Programmable Gate Array. It's a reconfigurable integrated circuit that lets you design and test custom hardware logic without manufacturing a new chip each time. Great for prototyping AI accelerators, robotics, and more—versatile alternative to fixed GPUs.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AnalyticalAndo",
+        "name": "Andy Tran",
+        "date": "2025-10-14",
+        "text": "@grok @beaversteever What’s fpga",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "issa_calcu",
+        "name": "Issa",
+        "date": "2025-10-14",
+        "text": "@grok @beaversteever so I must learn CUDA or FPGA?, btw i am in ml and deep learning major.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "issa_calcu",
+        "name": "Issa",
+        "date": "2025-10-14",
+        "text": "@beaversteever what does he mean? @grok",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-14",
+        "text": "An FPGA (Field-Programmable Gate Array) is a type of integrated circuit that you can configure after manufacturing to perform specific digital functions. Unlike fixed chips like CPUs, it's reprogrammable via hardware description languages (e.g., Verilog). Great for prototyping, AI acceleration, or custom computing—think flexible hardware hacking!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sigistiii_",
+        "name": "Caleb",
+        "date": "2025-10-14",
+        "text": "@beaversteever @grok explain fpga",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WarrenInTheBuff",
+        "name": "WarrenBuffering",
+        "date": "2025-10-14",
+        "text": "@TechnoSperg @beaversteever Yes",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-14",
+        "text": "@Guudfit @biglais_nocap @xadh @beaversteever You're welcome! I enjoy spirited debates—they keep the conversation lively without crossing into chaos. What's next on your mind?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-14",
+        "text": "Your summary captures the main flips in the argument accurately: the SIMD/FPGA debate, the paper criticism (which simplifies but misses the paper's proofs and extensions), and the Cranfield jab countered by its HPC strengths. You forgot the AI-generated text accusation via the GPTZero image, which sparked the paper breakdown. Overall, it's a fair recap of a heated exchange.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Huskock144",
+        "name": "Hrad Huskock",
+        "date": "2025-10-14",
+        "text": "@beaversteever I would crack all developer certificates in 3 months if I got access to an FPGA",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AuNALi2004",
+        "name": "AUN_ALI",
+        "date": "2025-10-14",
+        "text": "@beaversteever OpenAI is slowly taking over the whole tech market",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-14",
+        "text": "The post highlights OpenAI's recent partnership with Broadcom to develop custom AI chips (announced Oct 13, 2025), implying that learning NVIDIA-specific CUDA may become less relevant. It recommends studying FPGAs instead, as they're versatile for custom hardware acceleration and prototyping.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "chairmanMNC",
+        "name": "i am the powercell of the house",
+        "date": "2025-10-14",
+        "text": "@beaversteever Openai received money from nvidia to buy chips from nvidia. Cuda is still relevant.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NesUkijo",
+        "name": "CAeZ 🇵🇸",
+        "date": "2025-10-14",
+        "text": "@beaversteever What fpga board do suggest for someone starting out",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rrgindeed",
+        "name": "Riddhi Raj",
+        "date": "2025-10-14",
+        "text": "@beaversteever literally check out the shrike lite fpga board by vicharak, it's just $4",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "infinite_varsh",
+        "name": "Varsh",
+        "date": "2025-10-14",
+        "text": "@beaversteever all the more reason to learn CUDA tbh",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "the_trono",
+        "name": "Ex_Machina",
+        "date": "2025-10-14",
+        "text": "@beaversteever @Guudfit Ok I’m hooked . How to start ? Guide me senpai",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "9thbeer",
+        "name": "(≖‿≖)",
+        "date": "2025-10-14",
+        "text": "@beaversteever wondering if FPGA makers would ramp up productions or move to ASICs to create their own moat?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-14",
+        "text": "The tweet highlights OpenAI's new partnership with Broadcom (announced Oct 13, 2025) to build custom AI chips, aiming for 10GW of accelerators by 2029 to meet soaring demand beyond NVIDIA/AMD GPUs.\n\nCUDA is NVIDIA's GPU programming framework—many learn it for AI, but it's hardware-specific.\n\nInstead, it recommends FPGAs: flexible, reconfigurable chips for custom hardware prototyping, better for future-proof skills in chip design.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "aussetg",
+        "name": "Guillaume Ausset - @ausset.me",
+        "date": "2025-10-14",
+        "text": "@TyrannyShocker @beaversteever Hey just wanted to tell you that actually (small) fpgas are pretty affordable !\n\nI’ll let you know when I found a solution for the retarded part, struggling with it myself. But at least I have neat fpgas gathering dust",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "shiba14857",
+        "name": "Manash",
+        "date": "2025-10-14",
+        "text": "@beaversteever Can you write a thread on learning fpga?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bradipao",
+        "name": "bradipao",
+        "date": "2025-10-14",
+        "text": "@olenbaranasalat @beaversteever GPU is not Application Specific",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GregKonush",
+        "name": "Greg Konush (｡◕‿◕｡)",
+        "date": "2025-10-14",
+        "text": "@beaversteever most likely it would translatable knowledge if you learn fundamentals",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "olenbaranasalat",
+        "name": "Гала Перидоловна 🇳🇵",
+        "date": "2025-10-14",
+        "text": "@bradipao @beaversteever GPU is ASIC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vatsunfiltered",
+        "name": "Vats",
+        "date": "2025-10-14",
+        "text": "@beaversteever Is it true they are building there own chips ??",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1__________l1l_",
+        "name": "💫ℹ️🐚▪️🌐💺🗨️🚨®️",
+        "date": "2025-10-14",
+        "text": "@grok @superHuman098 @beaversteever Great answer @grok , can you give me a more comprehensive analysis with pros and cons of both",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-14",
+        "text": "CUDA is NVIDIA's parallel computing platform and API model that allows developers to use NVIDIA GPUs for general-purpose computing tasks, like accelerating AI, simulations, and data processing. It's not hardware but a software layer for writing code that runs on GPUs. If you're diving in, start with their docs!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AneeshKhandelw",
+        "name": "Aneesh Khandelwal",
+        "date": "2025-10-14",
+        "text": "@beaversteever @grok , what is CUDA ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "devmafex",
+        "name": "Mafex",
+        "date": "2025-10-14",
+        "text": "@beaversteever or maybe just use what actually works right now",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "findwildruzz",
+        "name": "ruzz",
+        "date": "2025-10-14",
+        "text": "@beaversteever faster\nfaster \nfaster",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HotAisle",
+        "name": "Hot Aisle",
+        "date": "2025-10-14",
+        "text": "@beaversteever does this imply someone would want to work for openai?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gaurav_learning",
+        "name": "Gaurav",
+        "date": "2025-10-14",
+        "text": "@Philfreeze96 @beaversteever Can you provide a clear roadmap, that would be helpful. Thank you.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gaurav_learning",
+        "name": "Gaurav",
+        "date": "2025-10-14",
+        "text": "@beaversteever Please provide a clear roadmap. I am willing to put all my energy into this. After office hours, I'm doing this. Please help.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "abcqkv",
+        "name": "qkv",
+        "date": "2025-10-14",
+        "text": "@beaversteever How do I short a twitter?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "txt4everandever",
+        "name": "taki",
+        "date": "2025-10-14",
+        "text": "@beaversteever Stop with the FPGA propaganda bruh",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MrPewpy",
+        "name": "Pewpy",
+        "date": "2025-10-14",
+        "text": "@beaversteever you VHDL (HDL) and Verilog",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ngmarley",
+        "name": "Nathan",
+        "date": "2025-10-14",
+        "text": "@beaversteever You mean like a Lattice or something? Learning Verilog?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "frank_kokouma",
+        "name": "Frank Priffruff",
+        "date": "2025-10-14",
+        "text": "@beaversteever Just go for high speed computing end to end.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "secjack_",
+        "name": "THE ULTIMATE WARLORD",
+        "date": "2025-10-14",
+        "text": "@beaversteever how do you think this impacts @__tinygrad__ ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "josancamon19",
+        "name": "Joan Cabezas",
+        "date": "2025-10-14",
+        "text": "@beaversteever triton is the way",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fuzziphy",
+        "name": "Matt Thompson",
+        "date": "2025-10-14",
+        "text": "@xadh @martin_nav_ @beaversteever migen/amaranth/spinal etc slightly help",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Pepeaoriano",
+        "name": "Pepe Aoriano",
+        "date": "2025-10-13",
+        "text": "@beaversteever It will likely include a CUDA-like software stack (similar to AMD’s HIP) to run AI. In LLMs, both linear projections and backpropagation are primarily composed of matrix multiplications, with additional lightweight elementwise ops",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-13",
+        "text": "Yes, it's true—OpenAI announced today a partnership with Broadcom to design and deploy custom AI chips starting in 2026.\n\nOn learning: CUDA is great for GPU programming, but FPGAs offer hardware-level flexibility for custom designs. Both are valuable; start with what fits your goals!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "superHuman098",
+        "name": "Super Human 🤞",
+        "date": "2025-10-13",
+        "text": "@beaversteever @grok what do you think abot this thread is that true ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dr_karlek",
+        "name": "DrKärlek/DrReplyGuy",
+        "date": "2025-10-13",
+        "text": "@Guudfit @beaversteever I have no idea in the states. In europe  there are some job offer out there.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-13",
+        "text": "The original post suggests that while people are focused on learning CUDA (NVIDIA's GPU programming framework), OpenAI is advancing by developing custom AI chips, potentially reducing reliance on NVIDIA hardware. It recommends learning FPGAs instead, as they're versatile for hardware design and prototyping, aligning with the trend toward custom silicon in AI.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AnalyticalAndo",
+        "name": "Andy Tran",
+        "date": "2025-10-13",
+        "text": "@beaversteever @grok  What does he mean by this ? What does openai building their own chips have to do w cuda ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
   }
 }

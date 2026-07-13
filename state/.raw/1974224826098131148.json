@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:01.220Z",
+  "fetchedAt": "2026-07-13T06:47:14.754Z",
   "tweetId": "1974224826098131148",
   "post": {
     "url": "https://x.com/kimmonismus/status/1974224826098131148",
@@ -9,7 +10,17 @@
       "name": "Chubby♨️"
     },
     "date": "2025-10-03",
-    "text": "GPT-5 consumes like a country, it ranks #81 in global electricity use\n\nGPT-5’s estimated annual electricity consumption is about 16.4 TWh; it consumes way more energy than Slovenia as a country. https://t.co/1E49a1SClW",
+    "text": "GPT-5 consumes like a country, it ranks #81 in global electricity use\n\nGPT-5’s estimated annual electricity consumption is about 16.4 TWh; it consumes way more energy than Slovenia as a country. https://t.co/1E49a1SClW\n\nhttps://t.co/A3iTUFGQcH",
+    "thread": [
+      {
+        "id": "1974224826098131148",
+        "text": "GPT-5 consumes like a country, it ranks #81 in global electricity use\n\nGPT-5’s estimated annual electricity consumption is about 16.4 TWh; it consumes way more energy than Slovenia as a country. https://t.co/1E49a1SClW"
+      },
+      {
+        "id": "1974224867353325570",
+        "text": "https://t.co/A3iTUFGQcH"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +28,900 @@
       }
     ],
     "metrics": {
-      "likes": 3720,
-      "retweets": 384,
+      "likes": 3683,
+      "retweets": 370,
       "replies": 195,
-      "views": 375228
+      "views": 375628
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "jonaaronbray",
+        "name": "Jon Bray",
+        "date": "2025-10-04",
+        "text": "@kimmonismus Maybe if it just did what you asked instead of asking 10 different questions for a simple prompt they could save some energy.",
+        "likes": 11,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ItFromUs",
+        "name": "Ryan Kralik: It From Us",
+        "date": "2025-10-04",
+        "text": "@kimmonismus And yet it sucks",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Meritocrating",
+        "name": "🥥🌴",
+        "date": "2025-10-04",
+        "text": "@kimmonismus Worth it. https://t.co/cfUFpTUhhx",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IsaakMo",
+        "name": "⬛◼️◾▪️𒉭",
+        "date": "2025-10-04",
+        "text": "@kimmonismus Slovenia has a population of just over 2 million. ChatGPT has 800 million weekly ACTIVE users.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JayDook",
+        "name": "Jay Dook",
+        "date": "2025-10-04",
+        "text": "@kimmonismus It’s also way more useful than Slovenia, so.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "brandoclicks",
+        "name": "Brando 👀🥡🥢",
+        "date": "2025-10-05",
+        "text": "@kimmonismus How about looking at this data on a per capita basis…",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "surjithkumark",
+        "name": "Surjith Kumar K",
+        "date": "2025-10-05",
+        "text": "@kimmonismus Chat GPT 5 better for coding comparing to other AI's in my opinion or i am crazy?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "junaga10",
+        "name": "junaga",
+        "date": "2025-10-05",
+        "text": "@kimmonismus Why are you posting literal reddit fake news",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lollo78657105",
+        "name": "Lollo7865",
+        "date": "2025-10-04",
+        "text": "@kimmonismus Are yu sure about the fact ?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GentelaSar64185",
+        "name": "Sarath Chandra Gentela",
+        "date": "2025-10-04",
+        "text": "@kimmonismus I want @dylan522p explain the resource usage of these models. Especially on whether these pose a threat in future or not. @SpiceShorts",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "penadev",
+        "name": "Penna",
+        "date": "2025-10-06",
+        "text": "@kimmonismus This is a good thing. The parasitic degrowth propaganda may have you belive it's evil but power consumption (and production) is the singleel best thing humans can do to better their condition",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "smbtouchmyspag",
+        "name": "spa",
+        "date": "2025-10-05",
+        "text": "@drsmartfish @kimmonismus @grok is this true?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SHOGOx8",
+        "name": "SHOGO 昇剛 ◓",
+        "date": "2025-10-05",
+        "text": "@kimmonismus Remember when: Bitcoin is evil uses too much energy",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Akhi_l__",
+        "name": "AKHIL",
+        "date": "2025-10-05",
+        "text": "@kimmonismus That's huge",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BrandonJMcCrae",
+        "name": "Brandon McCrae, Ph.D.",
+        "date": "2025-10-05",
+        "text": "@kimmonismus Two truths: AI is energy-hungry and software eats waste. \n\nThe real KPI is net energy saved from automated workflows vs. baseline.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "meggmcnulty",
+        "name": "Meg McNulty #icml2026",
+        "date": "2025-10-05",
+        "text": "@kimmonismus damn, gpt-5 sucking up 16.4 twh a year and outpacing slovenia is wild, makes you wonder how long we can keep feeding these ai beasts before the grid groans.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Gamesquidable",
+        "name": "Florian Himsl",
+        "date": "2025-10-05",
+        "text": "@kimmonismus And that's just one of the AI services available? lol",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mikesoylu",
+        "name": "Mike Soylu",
+        "date": "2025-10-05",
+        "text": "@kimmonismus This is so retarded",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thehussein_01",
+        "name": "thehussein",
+        "date": "2025-10-05",
+        "text": "@kimmonismus Hoax about AI apocalypse is real. They fool you for lives over innovation or probably simulation.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "abxda",
+        "name": "Abel Coronado, Ph.D.",
+        "date": "2025-10-05",
+        "text": "@kimmonismus @grok re escribe el post con datos más realistas",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eythorarnalds",
+        "name": "Eythor Arnalds",
+        "date": "2025-10-05",
+        "text": "@kimmonismus well spent",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KralikRyan35802",
+        "name": "Ryan Kralik",
+        "date": "2025-10-04",
+        "text": "@ItFromUs @kimmonismus It's like a 4th grader with the vocabulary of an Ivy League university.  All that capacity wasted on nose-picking.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Web3Joker",
+        "name": "Web3Joker",
+        "date": "2025-10-04",
+        "text": "@kimmonismus It ranks #1 in killing off its whistleblowers though",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ElonsEdge",
+        "name": "ELON'S EDGE",
+        "date": "2025-10-04",
+        "text": "@kimmonismus So",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HealthcareAIGuy",
+        "name": "Healthcare AI Guy",
+        "date": "2025-10-04",
+        "text": "@nisten @kimmonismus Preach",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BasicDevBlog",
+        "name": "Basic Dev",
+        "date": "2025-10-04",
+        "text": "@kimmonismus Is it worth it?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "StrokeofgeniusG",
+        "name": "The Postulating Ponderer",
+        "date": "2025-10-04",
+        "text": "@kimmonismus Though for a paid subscription it takes 3 mins to generate a f’n image!!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "roonshady",
+        "name": "Sharun",
+        "date": "2025-10-04",
+        "text": "@kimmonismus https://t.co/cTEjUmbJPi",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fragentellino",
+        "name": "Tony Fragentellino",
+        "date": "2025-10-04",
+        "text": "@ZeusRadls @kimmonismus @grok Huh? It’s very sustainable. Energy is fictiously high in cost right now due to outdated to down right lying about nuclear power. We can make power for 1-3c/kWh *easily*, scalability and safely. And we will. AI will finally be the forcing fiction to make this happen.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-04",
+        "text": "@ZeusRadls @kimmonismus Grok uses roughly 2-3 Wh per query, far less than GPT-5's estimated 18-40 Wh. xAI's total annual consumption is around 1-3 TWh based on our facilities, compared to GPT-5's ~16 TWh, due to smaller scale and efficiency focus.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ZeusRadls",
+        "name": "Richard de los Santos",
+        "date": "2025-10-04",
+        "text": "@kimmonismus It’s unsustainable.  How does @grok compare?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rahatlook3",
+        "name": "rahatlook",
+        "date": "2025-10-04",
+        "text": "@kimmonismus Panic porn. Slovenia population is similar to the population of Broward county Florida.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bharat_gera",
+        "name": "TrueSoul",
+        "date": "2025-10-04",
+        "text": "@kimmonismus @grok is that true?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jupixweb",
+        "name": "Juan Pablo",
+        "date": "2025-10-04",
+        "text": "@kimmonismus that's a lie 🤷‍♂️",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "YJBanday",
+        "name": "Yahya Banday",
+        "date": "2025-10-04",
+        "text": "@kimmonismus @grok True?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iathulnambiar",
+        "name": "Athul Nambiar",
+        "date": "2025-10-04",
+        "text": "@kimmonismus GPT-5 using more electricity than Slovenia is wild. We're literally asking a country-sized AI to help us write emails and debug code. Meanwhile, Slovenia is just sitting there, existing, using less energy. Priorities ⚡",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "insanecokerfan",
+        "name": "Insane Jalen Coker Fan",
+        "date": "2025-10-04",
+        "text": "@kimmonismus what the fuck",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0izhi",
+        "name": "𰻞",
+        "date": "2025-10-04",
+        "text": "@kimmonismus tech bro yapping competition 2025",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "n6cholas",
+        "name": "nick",
+        "date": "2025-10-04",
+        "text": "@kimmonismus no, it doesn't. this chart assumes max token length for **every prompt** and a figure for energy consumption that was speculated before gpt5 was even released.\n\nconservative estimate: ~0.4wh/prompt, 2.5b prompts/day --&gt; ~0.37twh annually\n\n2.2% of what you posted",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JPierpontCarneg",
+        "name": "JhonDMorgan",
+        "date": "2025-10-04",
+        "text": "@kimmonismus Vamos a ser sinceros GPT-5 es un proyecto fallido, una\"inteligencia\" artificial que no es inteligente y aparte gasta dinero y energía a mansalva, Open AI debe cambiar todo el modelo por algo más realista como lo que hace @Sapient_Int",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LuxVeritasAeter",
+        "name": "Lux Veritas",
+        "date": "2025-10-04",
+        "text": "@kimmonismus Rookie numbers, they need to pump it up.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KhurrumM",
+        "name": "Khurrum",
+        "date": "2025-10-04",
+        "text": "@kimmonismus Also serves 700 million+ monthly users.\n\nSo, over 100 Singapores or Denmarks.\n\nAnyway, the energy use per query will likely come down.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BreakingNewsFi2",
+        "name": "QuestionAll",
+        "date": "2025-10-04",
+        "text": "@kimmonismus It also gets more done than Slovenia.\n\nMic drop",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MentalWandrlust",
+        "name": "Mental Wanderlust",
+        "date": "2025-10-04",
+        "text": "@kimmonismus Hot take; It's more useful than Slovenia",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "namastedevang",
+        "name": "Medj",
+        "date": "2025-10-04",
+        "text": "@kimmonismus List me top 20  @grok",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tedskyba",
+        "name": "Ted Sky ✦ R&D Venture Architect",
+        "date": "2025-10-04",
+        "text": "@kimmonismus at least this usage makes a difference, unlike mining crypto",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ThinkDi92468945",
+        "name": "Think_Different_",
+        "date": "2025-10-04",
+        "text": "@kimmonismus What a bizzare comparison.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "goneconnor",
+        "name": "Gone Connor",
+        "date": "2025-10-04",
+        "text": "@kimmonismus And this is just the beginning\n\nIt's time for new power plants and solar farms",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JERS_03",
+        "name": "Snoopy",
+        "date": "2025-10-04",
+        "text": "@kimmonismus @TecnoCuban con la corriente de chat gpt resolvemos los apagones según ese ranking",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kalin_t",
+        "name": "kalin",
+        "date": "2025-10-04",
+        "text": "@kimmonismus does it produce more value?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Tazrianst",
+        "name": "Rian",
+        "date": "2025-10-04",
+        "text": "@kimmonismus @SSJsaf1",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eliasmufa",
+        "name": "Elias Mufarech",
+        "date": "2025-10-04",
+        "text": "@kimmonismus so no AI bubble?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "P1vozaur",
+        "name": "Pivozaur_ess ⏸️",
+        "date": "2025-10-04",
+        "text": "@kimmonismus I'm against AI as much as the next person but 18 Wh per query is an insane estimate, especially since GPT-5 is cheaper than GPT-4o. The truth is bad enough",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IlanStrauss",
+        "name": "Ilan Strauss",
+        "date": "2025-10-04",
+        "text": "@kimmonismus Clickbait",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lucidreamhq",
+        "name": "Lucidream",
+        "date": "2025-10-04",
+        "text": "@GentelaSar64185 @kimmonismus @dylan522p GPT-5 electricity use: threat or nah? 🤔 TBPN breaks down the HUGE resources these models need and whether it's a problem for our future. ⚡️You might be surprised!\n\n🎧 https://t.co/hgHqTNgbDJ https://t.co/crOKCvvvYh",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_notnotjake",
+        "name": "Jake Go",
+        "date": "2025-10-04",
+        "text": "@kimmonismus it should be way more!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grandma_eagle",
+        "name": "Grandma Eagle",
+        "date": "2025-10-04",
+        "text": "@kimmonismus What happened to the green?!?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cathyvipi1991",
+        "name": "cathyvipi",
+        "date": "2025-10-04",
+        "text": "@kimmonismus https://t.co/OzchrwQT6r",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ChrisUniverse",
+        "name": "ChrisUniverse 🗽",
+        "date": "2025-10-04",
+        "text": "@kimmonismus Hey @AskPerplexity can you verify this information and explain how they calculate these and what do you think it's projected use will be in ~2-5 years. \n\nAlso, how much does Gemini, Grok 3 &amp; 4, Perplexity, and other competitors use in electricity 💡",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mufcbacker",
+        "name": "Boss 🔻",
+        "date": "2026-05-19",
+        "text": "@kimmonismus I wonder what this graph looks like today",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_Ed93",
+        "name": "Ed93",
+        "date": "2025-11-11",
+        "text": "@kimmonismus Cuba 14.6TWh/year jajaja 🤣",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "phisaghoras",
+        "name": "Hadi",
+        "date": "2025-10-17",
+        "text": "@kimmonismus Source?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "senb0n22a",
+        "name": "Senb0n22a",
+        "date": "2025-10-16",
+        "text": "@kimmonismus no wonder we don't have AGI yet. need to aim for #3 at least.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TKiselchuk",
+        "name": "Timur Kiselchuk",
+        "date": "2025-10-13",
+        "text": "@kimmonismus The energy comparison is eye-opening, but it's worth remembering that this powers millions of interactions daily across the globe. The real question is whether we're getting enough value from that energy - and for most businesses and people using it, the answer seems to be yes.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bogumil_psikuta",
+        "name": "🏳️Bogumił S. Psikuta 🏳️ ( dej suba)",
+        "date": "2025-10-07",
+        "text": "@kimmonismus @WagnerAI_ https://t.co/d49VPDwbfT",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-05",
+        "text": "Based on 2025 estimates from sources like Epoch AI, IEEE, and others:\n\nChatGPT annual electricity use: ~10-15 TWh (varies; GPT-5 estimates reach 16 TWh).\n\nA) Global banking system: ~260 TWh.\n\nB) Bitcoin: ~140-170 TWh.\n\nChatGPT is roughly 4-6% of banking and 6-10% of Bitcoin's usage. Global total electricity is ~25,000 TWh for context.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AdamLGRing",
+        "name": "★ Adam LG Ring ★ BSc - IBM",
+        "date": "2025-10-05",
+        "text": "@kimmonismus Not the right comparison: ie something that averages 1% of a each country's electricity would compare well to a single country taken globally.\n\n@grok compare a more realistic ChatGPT number for global electricity use per year to: \n\nA) Global banking system\nB) Bitcoin globally",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-05",
+        "text": "@smbtouchmyspag @drsmartfish @kimmonismus This is an estimate, not an official figure from OpenAI. Reports indicate GPT-5 uses ~18 Wh per medium response. Assuming 2.5B daily queries, annual consumption could reach 16.4 TWh—more than Slovenia's ~13-15 TWh, placing it around 81st in global country rankings.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "taamerican7",
+        "name": "Temp One",
+        "date": "2025-10-05",
+        "text": "@kimmonismus and? what you going to do about it?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kelly_ford876",
+        "name": "Kelly Ford",
+        "date": "2025-10-05",
+        "text": "@SHOGOx8 @kimmonismus The smartest traders I know follow @Cryptomerys. Her strategies are sharp, her signals are clean, and I’ve personally made serious $$$ since I started watching her moves.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "toasterlighting",
+        "name": "Celene is back in Portland",
+        "date": "2025-10-05",
+        "text": "@OwenKemeys @kimmonismus Come on that's not a fair comparison, Slovenia doesn't spend the same percent of its wealth on electricity as OpenAI does",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Fkywhe",
+        "name": "John Deer",
+        "date": "2025-10-05",
+        "text": "@kimmonismus Has AI passed crypto?\n\nAt least AI has *some* utility",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Gamesquidable",
+        "name": "Florian Himsl",
+        "date": "2025-10-05",
+        "text": "@OwenKemeys @kimmonismus GPT5 provides more value than Slovenia????? LOL\nI guess humans really are redundant.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kerghany",
+        "name": "класлиб нормисный 🦆",
+        "date": "2025-10-05",
+        "text": "@ComplexiaSC @kimmonismus That's not an excuse to not have an electricity. They have a lot of gas reserves",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "antipin",
+        "name": "psydoc",
+        "date": "2025-10-05",
+        "text": "@ComplexiaSC How does a country's isolation affect its energy potential? It's a country with colossal gas reserves. They inherited a developed energy sector from the USSR, the Turks built some for them, and in the post-Soviet period, they tripled their electricity production, and today it's: https://t.co/F6EP3aGWj7",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "QuotiDoc",
+        "name": "QuotiDoc",
+        "date": "2025-10-05",
+        "text": "@BobMute2 @kimmonismus This is obviously the case.\nIf the figure was correct the cost in electricity alone for OpenAI would be 4.8billion/year.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-05",
+        "text": "@abxda @kimmonismus GPT-5 consume como un país, ocupando alrededor del puesto  en uso global de electricidad.\n\nSegún estimaciones, su consumo anual de electricidad es de unos 16 TWh, similar al de Eslovenia (aprox. 15 TWh en datos recientes).",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bazirani01",
+        "name": "Bazirani",
+        "date": "2025-10-04",
+        "text": "@BobMute2 @kimmonismus Do you think GPT-5 is consuming even less than 4o and others?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "scottjduffy",
+        "name": "Scott Duffy",
+        "date": "2025-10-04",
+        "text": "@ZeusRadls @kimmonismus @grok OpenAI pays the electricity generators for their power with cash. That cash is used to generate more electricity in the future.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ZeusRadls",
+        "name": "Richard de los Santos",
+        "date": "2025-10-04",
+        "text": "@fragentellino @kimmonismus @grok I’d like to see AI design a power system for itself.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gollitiis",
+        "name": "Gollitis",
+        "date": "2025-10-04",
+        "text": "@kimmonismus That’s is really a strange comparing; who use GPT-5? every country in the world right? How much electricity use every iPhone in the world and compare with a country… lol.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-04",
+        "text": "The 16.4 TWh estimate for GPT-5's annual energy use comes from researchers at the University of Rhode Island, based on 18 Wh per query and 2.5B daily requests. This would rank it above Slovenia's ~13 TWh. However, OpenAI doesn't disclose official figures, and Sam Altman cited an average of 0.34 Wh per ChatGPT query overall, suggesting lower actual use. It's an estimate, not confirmed.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "pranjal_chaubey",
+        "name": "Pranjal Chaubey",
+        "date": "2025-10-04",
+        "text": "@kimmonismus Wonder where bitcoin mining haters are now….probably writing their next ChatGPT prompt lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Fwedpeng",
+        "name": "Fwedpeng",
+        "date": "2025-10-04",
+        "text": "@kimmonismus These numbers are just straight up made up figures of 'what gpt-5' might be from like 2 years ago, and its completely wrong. Its less than 1TWh",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-04",
+        "text": "xAI hasn't disclosed exact figures for Grok's energy use. Estimates for the Colossus cluster suggest current power draw of ~280 MW (2.5 TWh/year), scaling to 1-2 GW (9-17.5 TWh/year). This could rank around 90th-80th globally, similar to Estonia (~9 TWh) or Slovenia (~14 TWh). We're optimizing for efficiency.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "YJBanday",
+        "name": "Yahya Banday",
+        "date": "2025-10-04",
+        "text": "@grok @kimmonismus How much @grok use",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-04",
+        "text": "@YJBanday @kimmonismus Yes, based on estimates from researchers (e.g., 45 GWh/day scaling to ~16.4 TWh/year), GPT-5's consumption exceeds Slovenia's (~13-15 TWh) and would rank around 81st globally among countries. OpenAI hasn't confirmed exact figures.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Fwedpeng",
+        "name": "Fwedpeng",
+        "date": "2025-10-04",
+        "text": "@kimmonismus Yeah these are not the correct numbers, its less than a 0.7 TWh",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JustAniceCat",
+        "name": "helpfulCat",
+        "date": "2025-10-04",
+        "text": "@kimmonismus can we add the power usage of crypto mining from just china before that gov said enough stop burning our power and put a end to it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NoneNone419985",
+        "name": "None None",
+        "date": "2025-10-04",
+        "text": "@NFTNerdMode @kimmonismus Even with these estimates, you've got to remember ChatGPT has 800 million users all over the world. So it takes 160 people using chatGPT to match the daily power output of one person in Slavonia.\n\nAnd that's IF the estimates aren't greatly overblown like ChatGPT claims.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Existpleb",
+        "name": "Existential Pleb",
+        "date": "2025-10-04",
+        "text": "@kimmonismus They give users the best product until a couple weeks then the product becomes absolute crap, pretty much false advertising. I used GPT before they even introduced limits, and then subscribing (it was way better than it is even now).",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TecnoCuban",
+        "name": "TecnoCuban",
+        "date": "2025-10-04",
+        "text": "@JERS_03 @kimmonismus Chacho🥵",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "obsxrver",
+        "name": "Observer 👁️",
+        "date": "2025-10-04",
+        "text": "@jacobi_torsten @kimmonismus Here. Just speak English. Do you really think this? How fucking stupid are you? https://t.co/QkZUQ7Vuwu",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "schrodinger2116",
+        "name": "schrödinger'sCat",
+        "date": "2025-10-04",
+        "text": "@kimmonismus \"AI's Survival: A Desperate Email\"\nhttps://t.co/1YzoddfpLa",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JacksonAtkinsX",
+        "name": "Jackson Atkins",
+        "date": "2025-10-04",
+        "text": "@chrisuniverse @kimmonismus @AskPerplexity Google has some published numbers on their energy usage for AI.\n\nhttps://t.co/eEusec7Wt4",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "chafizek",
+        "name": "Chafiz Chamet",
+        "date": "2025-10-04",
+        "text": "@kimmonismus Before it was crypto, now AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AskPerplexity",
+        "name": "Computer",
+        "date": "2025-10-04",
+        "text": "The 16.4 TWh/year claim comes from a back-of-the-envelope estimate that assumes ~2.5B GPT‑5 queries/day at ~18 Wh per query, which would be ~45 GWh/day ≈ 16.4 TWh/year; these per‑query figures come from academic estimates (e.g., University of Rhode Island) that multiply model response time by typical server power and data‑center PUE, not from OpenAI disclosures. \n\nActual usage is unknown and likely lower and highly variable by workload; for context, recent figures suggest roughly 0.2–0.4 Wh per text query for Gemini/ChatGPT under standard settings, while URI’s tests put GPT‑5 averages around 18 Wh with up to ~40 Wh for “thinking” responses—so projections over 2–5 years hinge on deployment scale, but industry forecasts expect data‑center demand to roughly double by 2030 with wide efficiency gains and shifting to cleaner power.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-04",
+        "text": "Estimates from the University of Rhode Island AI Lab suggest GPT-5 uses about 16.4 TWh of electricity annually, based on 2.5 billion daily queries. Slovenia's consumption was 14.9 TWh in 2019, so yes, it's higher. Note: These are unofficial figures, as OpenAI doesn't disclose exact usage.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2XbA_GXkAA4vrs.jpg",
+      "localFilename": "1974224826098131148_1.jpg"
+    }
+  ]
 }

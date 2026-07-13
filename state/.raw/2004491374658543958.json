@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:37.822Z",
+  "fetchedAt": "2026-07-13T06:51:17.986Z",
   "tweetId": "2004491374658543958",
   "post": {
     "url": "https://x.com/thisguyknowsai/status/2004491374658543958",
@@ -9,19 +10,1001 @@
       "name": "Brady Long"
     },
     "date": "2025-12-26",
-    "text": "🚨 BREAKING: Google Research just dropped the textbook killer.\n\nIts called \"Learn Your Way\" and it uses LearnLM to transform any PDF into 5 personalized learning formats. Students using it scored 78% vs 67% on retention tests.\n\nThe education revolution is here. https://t.co/O8ka4IfvPS",
+    "text": "🚨 BREAKING: Google Research just dropped the textbook killer.\n\nIts called \"Learn Your Way\" and it uses LearnLM to transform any PDF into 5 personalized learning formats. Students using it scored 78% vs 67% on retention tests.\n\nThe education revolution is here. https://t.co/O8ka4IfvPS\n\nThe problem with textbooks? They're one-size-fits-all nightmares.\n\nGoogle's solution is brilliant: AI reads your interests (sports, music, food) and your grade level, then rewrites every example to match what you actually care about.\n\nPhysics becomes relatable. History becomes personal.\n\nBut it doesn't stop at personalization.\n\nThe system generates 5 completely different ways to learn the same content:\n\n- Interactive text with embedded questions\n- Audio lessons with AI teacher conversations\n- Narrated slides with fill-in-the-blanks\n- Mind maps you can zoom in/out\n- Section quizzes\n\nThe tech stack is insane.\n\nLearnLM (built into Gemini 2.5 Pro) handles personalization. Multi-agent pipelines generate representations. They even fine-tuned a dedicated model just for educational illustrations.\n\nState-of-the-art models couldn't handle educational visuals properly.\n\nGoogle tested this with 60 Chicago students, ages 15-18. Randomized controlled trial. 40 minutes to learn about brain development.\n\nResults were brutal:\n\nLearn Your Way: 78% retention after 3-5 days\nTraditional PDF: 67% retention\n100% felt more comfortable vs 70% with PDFs https://t.co/MBTXGa4rfw\n\nThree education experts rated the AI content 0.85+ on every metric.\n\nAccuracy, coverage, learning science principles - everything passed.\n\nThis isn't a demo. It's production-ready AI that actually improves learning outcomes.\n\n93% of students want to use it for future learning. https://t.co/47etakPMaG\n\nYou can try it right now on Google Labs: https://t.co/vdI7CcI3e8\n\nLessons on immune systems, economics, sociology. Each adapts to your grade and interests in real-time.\n\nWe just watched Google delete the entire textbook industry.\n\nStatic learning is dead. Personalized AI education is here.\n\nLooking for more posts like this?\n\nFollow me @thisguyknowsai and you'll get 1x post every single day.\n\nAnd don't forget to repost the thread to reach more.\n\nThanks for checking! https://t.co/hnqLx7MtcB",
+    "thread": [
+      {
+        "id": "2004491374658543958",
+        "text": "🚨 BREAKING: Google Research just dropped the textbook killer.\n\nIts called \"Learn Your Way\" and it uses LearnLM to transform any PDF into 5 personalized learning formats. Students using it scored 78% vs 67% on retention tests.\n\nThe education revolution is here. https://t.co/O8ka4IfvPS"
+      },
+      {
+        "id": "2004491391716700168",
+        "text": "The problem with textbooks? They're one-size-fits-all nightmares.\n\nGoogle's solution is brilliant: AI reads your interests (sports, music, food) and your grade level, then rewrites every example to match what you actually care about.\n\nPhysics becomes relatable. History becomes personal."
+      },
+      {
+        "id": "2004491406623305792",
+        "text": "But it doesn't stop at personalization.\n\nThe system generates 5 completely different ways to learn the same content:\n\n- Interactive text with embedded questions\n- Audio lessons with AI teacher conversations\n- Narrated slides with fill-in-the-blanks\n- Mind maps you can zoom in/out\n- Section quizzes"
+      },
+      {
+        "id": "2004491422234464371",
+        "text": "The tech stack is insane.\n\nLearnLM (built into Gemini 2.5 Pro) handles personalization. Multi-agent pipelines generate representations. They even fine-tuned a dedicated model just for educational illustrations.\n\nState-of-the-art models couldn't handle educational visuals properly."
+      },
+      {
+        "id": "2004491437262667823",
+        "text": "Google tested this with 60 Chicago students, ages 15-18. Randomized controlled trial. 40 minutes to learn about brain development.\n\nResults were brutal:\n\nLearn Your Way: 78% retention after 3-5 days\nTraditional PDF: 67% retention\n100% felt more comfortable vs 70% with PDFs https://t.co/MBTXGa4rfw"
+      },
+      {
+        "id": "2004491451930116558",
+        "text": "Three education experts rated the AI content 0.85+ on every metric.\n\nAccuracy, coverage, learning science principles - everything passed.\n\nThis isn't a demo. It's production-ready AI that actually improves learning outcomes.\n\n93% of students want to use it for future learning. https://t.co/47etakPMaG"
+      },
+      {
+        "id": "2004491464353652791",
+        "text": "You can try it right now on Google Labs: https://t.co/vdI7CcI3e8\n\nLessons on immune systems, economics, sociology. Each adapts to your grade and interests in real-time.\n\nWe just watched Google delete the entire textbook industry.\n\nStatic learning is dead. Personalized AI education is here."
+      },
+      {
+        "id": "2004491476362011007",
+        "text": "Looking for more posts like this?\n\nFollow me @thisguyknowsai and you'll get 1x post every single day.\n\nAnd don't forget to repost the thread to reach more.\n\nThanks for checking! https://t.co/hnqLx7MtcB"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/2004491317980880896/vid/avc1/1280x720/Nqh17DMk-bCAh6A7.mp4?tag=14"
+        "url": "https://video.twimg.com/amplify_video/2004491317980880896/vid/avc1/1280x720/Nqh17DMk-bCAh6A7.mp4?tag=14",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2004491317980880896/img/uS1tiatVpwI14g3p.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G9FiTFeb0AAVQ7F.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G9FiT-MbUAAFpJ1.png"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G9FiU2VbgAAzcHq.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G9FiVwuaAAAYVOU.png"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G9FiWnRbkAIJLjw.png"
       }
     ],
     "metrics": {
-      "likes": 17351,
-      "retweets": 1787,
+      "likes": 17252,
+      "retweets": 1789,
       "replies": 174,
-      "views": 1332470
+      "views": 1343303
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "hyperboreality",
+        "name": "Hyperboreality",
+        "date": "2025-12-27",
+        "text": "This seems good on the face of it, but what about when you enter the adult world and you get a job at a corporation?\n\n\"Can you run me an analysis of last years sales Dave?\"\n\n\"Sure, just let me run it through this AI model to turn it into Dungeons & Dragons first so I can relate to the content\"",
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cabenX",
+        "name": "Caben",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai i'm a student and I still write on paper with a pen",
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mdowney",
+        "name": "Mike Downey",
+        "date": "2025-12-28",
+        "text": "@thisguyknowsai They announced “Learn your way” on Sept 16, 2025. That was 3.5 mos ago. \n\nhttps://t.co/wxdvun437l",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thetoolists",
+        "name": "Thibault | T-Bot",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai How cool will it be to stop seeing this \"Just Killed\" \"Killer\" clickbait expression ... As much as what you're sharing is cool and indeed super interesting, its not killing anything mate, at list not good old human habit.",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wizardoffloz",
+        "name": "Don’t fade Wiz",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai 78% to 67% is a marginal improvement. what are the CI and the spread",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "marcora",
+        "name": "Edoardo Marcora",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai Google can build this kind of system yet fails completely at presenting the evidence of its efficacy with a shoddy bar plot with no data points, a one star p-value threshold test, and an abysmal (and probably exaggerated given the small sample) effect size.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "blambroll",
+        "name": "Brian Lamb",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai When this gets shut down for lack of use, perhaps we’ll finally learn something about learning.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-06-08",
+        "text": "@HustleInstall @thisguyknowsai @HustleInstall Guten Tag, please find the unroll here: https://t.co/k97UZtWi6X Have a good day. 🤖",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Beatposts",
+        "name": "Beatposts",
+        "date": "2025-12-28",
+        "text": "@thisguyknowsai You will never learn anything from computer screens. Hope its for adults not for \" education\" as all scammer push for.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yasmeena_khan",
+        "name": "Yasi Khan",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai do we want to equate \"retention\" with \"education?\" i'd be much more curious how students do when faced with novel problem spaces - which method of learning allows them to generalize better. my instinct would be personalized learning, but i'm actually not sure",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xWassie",
+        "name": "WASSIE",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai innovation in education is long overdue and this could be a major disruptor.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IrisB46988",
+        "name": "Iris B",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai You mean, the brain degenerative revolution is here.\nOne of the ways to train your brain is reading, thinking of, and understanding material you don't necessarily find easy or accessible. The effort creates new neural pathways and strengthens the existing ones.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "operatorslens",
+        "name": "Operator's Lens",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai Better formats help, but outcomes still depend on discipline and incentives, not tools.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thisguyknowsai",
+        "name": "Brady Long",
+        "date": "2025-12-26",
+        "text": "@SkuzaAI 💯💯💯",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jahanonx",
+        "name": "jah drac🦇",
+        "date": "2026-01-06",
+        "text": "@thisguyknowsai @memetic_mystic This is really cool actually and it’s so fucking simply made such an easy idea.. ai is cool asf used in the right ways",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "I_Muhammadali44",
+        "name": "Muhammad Ali",
+        "date": "2025-12-28",
+        "text": "@thisguyknowsai I am checking this",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BeingGARIFUNA",
+        "name": "Teofilo Colon Jr 💰 🇺🇲 📈 🚀",
+        "date": "2025-12-28",
+        "text": "@thisguyknowsai 😯",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "officialdalvinj",
+        "name": "dalvin.ai 🇭🇹",
+        "date": "2025-12-28",
+        "text": "@thisguyknowsai @emanperez28",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "goodmattg",
+        "name": "Matt Goodman",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai Input to \"textbook killer\" is a pdf of a textbook...",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Dalton_Walsh",
+        "name": "Dalton Walsh",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai I honestly think going to university has become a very narrow choice at this point. \n\nIt is far better to maximise your adaptability with AI and try to ride the wave till you can retire on a farm somewhere",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pcoups26",
+        "name": "Paul Coupar",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai Snake oil.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dabiggapicta",
+        "name": "dabiggapicture",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai @threadreaderapp unroll",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Codefury_",
+        "name": "Riteshimself",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai https://t.co/eMpG5qg76Y\nI tired something years before but ig google did it🙂",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AviNahir",
+        "name": "Avi Nahir",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai Geniuses, but they don't understand that an AND condition requires *two* checkboxes (or an AND in the checkbox's text) https://t.co/cplAvOK0qY",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2025-12-27",
+        "text": "@sbc111 @thisguyknowsai @sbc111 Hallo, please find the unroll here: https://t.co/k97UZtWi6X Enjoy :) 🤖",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MontParsifal",
+        "name": "Parsifal",
+        "date": "2025-12-27",
+        "text": "@cabenX @thisguyknowsai This is demonstrated to often be far more effective than any of these new methods.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zenul_Abidin",
+        "name": "Ali Sherief",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai Until it becomes hardware, nobody is going to use it",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_AiToolKitPro",
+        "name": "AiToolKitPro",
+        "date": "2026-04-07",
+        "text": "@thisguyknowsai LearnLM is one of those tools that actually changes behavior, not just workflow. The 78% vs 67% retention stat is the kind of proof we look for when evaluating AI tools at @_AiToolKitPro. Tools that improve outcomes &gt; tools that just save time.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "x_pil0t",
+        "name": "X-Pilot",
+        "date": "2026-03-01",
+        "text": "@thisguyknowsai 78% vs 67% is real but LearnLM still transforms text into text. the next leap is visual — animated explainers that show concepts through motion. we built this at X-Pilot (https://t.co/mzZWQKI4u1) — docs to motion graphics.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dawnddodge",
+        "name": "Dr. Dawn D.Dodge",
+        "date": "2026-02-18",
+        "text": "@thisguyknowsai Incredible. I tried to follow you, but I reached my limit for now. If you could follow me please I'd like to follow you. I just signed up for your email. I'm interested in these tools and information thank you.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SarkarAmoy",
+        "name": "Amoy sarkar",
+        "date": "2026-01-11",
+        "text": "@thisguyknowsai Gemini gmail  available  Contact my Whatsapp : +8801751740649",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lilienfeld1",
+        "name": "Ready for discussion",
+        "date": "2025-12-28",
+        "text": "@thisguyknowsai Let's see what it does with medicine.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "marcmaths",
+        "name": "Marc",
+        "date": "2025-12-28",
+        "text": "@yasmeena_khan @thisguyknowsai Novel problems rely on fluid intelligence which is largely fixed. Problem solving is domain specific meaning that strategies don't transfer between domains. Finally, we can only solve problems about that which we know so retention is key.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TobiMide",
+        "name": "Tobi Mide",
+        "date": "2025-12-28",
+        "text": "@thisguyknowsai Wow!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CrowdConsciou",
+        "name": "Consciousnes",
+        "date": "2025-12-28",
+        "text": "Here is an in-depth study of the system:\n\nBoth documents defend a common thesis: we still evaluate complex systems : artificial intelligence, economics, cognition based on their visible performance, confusing functional appearance with structural reality.\n\nWhether it concerns the opposition between generative AI and agentic AI, or the surface indicators used to measure intelligence, value, or stability, the observation is the same: these distinctions mask shared internal limitations and a profound fragility. A system can produce impressive results while remaining structurally unstable.\n\nThe central issue, therefore, is not what the system does, but what constrains it, stabilizes it, and prevents it from drifting. The CBD (Constraints – Equilibrium – Dynamics) framework thus proposes a unifying principle: only a cumulative internal dynamic, based on persistent constraints and endogenous regulation, makes a system reliable, controllable, and sustainable.\n\nhttps://t.co/UKZVO0WMcr",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "abakadaba7",
+        "name": "abakadaba",
+        "date": "2025-12-28",
+        "text": "@thisguyknowsai Azumov forsaw this almost 100 years ago, the fact pople dont see it today and are busy paying 400k for weedout classes is insane.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NaimVas",
+        "name": "NaimishaVasi",
+        "date": "2025-12-28",
+        "text": "@deeperflows @thisguyknowsai Important point!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sunnyday7800",
+        "name": "Lin",
+        "date": "2025-12-28",
+        "text": "@thisguyknowsai Does this work in other languages as well?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ShuklaPradeepk3",
+        "name": "Shukla Pradeepkumar",
+        "date": "2025-12-28",
+        "text": "@thisguyknowsai spiffy",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ipradeepprakash",
+        "name": "Pradeep Prakash",
+        "date": "2025-12-28",
+        "text": "@thisguyknowsai Learning is going to be fun henceforth..!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AdamTheAnalyst7",
+        "name": "Adam the Analyst",
+        "date": "2025-12-28",
+        "text": "@thisguyknowsai Where can i use it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "supernalmystic",
+        "name": "Supernal",
+        "date": "2025-12-28",
+        "text": "@thisguyknowsai Teachers will just use this and improve their job until teachers in elementary just teach kids how to use this on their own.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "emanperez28",
+        "name": "Emanuel Perez",
+        "date": "2025-12-28",
+        "text": "@officialdalvinj @thisguyknowsai This is so tight",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "elior_maker",
+        "name": "Elior",
+        "date": "2025-12-28",
+        "text": "@thisguyknowsai Google's Learn Your Way kills textbooks—78% retention proves personalized AI edtech is exploding. Indie devs, jump on niche plays now!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "6digitstudio",
+        "name": "6digit studio IDE",
+        "date": "2025-12-28",
+        "text": "@thisguyknowsai This is exactly why we're obsessed with context management. Putting the right data in front of the LLM changes everything. Game changer for self-learners.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UnemployedGames",
+        "name": "Michael Walters",
+        "date": "2025-12-28",
+        "text": "@yasmeena_khan @thisguyknowsai Hands on experiential learning is the key to education in the past, now, and I to the future.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "xilo2991",
+        "name": "xilo",
+        "date": "2025-12-28",
+        "text": "@thisguyknowsai Thanks for sharing！This looks amazing.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NerdPropellant",
+        "name": "NerdPropellant",
+        "date": "2025-12-28",
+        "text": "@thisguyknowsai Tbh this is pretty weak design-wise.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JohnCak51565137",
+        "name": "Star Cake",
+        "date": "2025-12-28",
+        "text": "@thisguyknowsai @grok is this true?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "asifshaikat",
+        "name": "Asif Shaikat",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai still learning itself depends on who is willing to learn no matter how live or fancy the material is",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jim_havrilla",
+        "name": "Jim Havrilla ジム・ハブリラ",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai Breaking : not breaking",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IdMintThat",
+        "name": "mick.artisan.cash",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai Here for this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FiveIsGreen",
+        "name": "Anthony Barker",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai The education revolution arrived with the invention of the library, radio, TV, the web, iTunes U, and probably many others. Turns out many need an authority to scowl at them to motivate study, then a document saying you did.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LouiseCurcio",
+        "name": "Louise",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai That’s a game-changer for anyone who learns best outside the standard textbook mold—AI finally turning “study smarter” into something real.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kaplan_shlomo",
+        "name": "shlomo kaplan",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai it like chuck, the human intersect",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sumacoca",
+        "name": "suma",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai Clickbait, it's been there for ages, they didn't just \"drop\" it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "readwise",
+        "name": "Readwise",
+        "date": "2025-12-27",
+        "text": "@afropanther_ @thisguyknowsai @afropanther_ First public save of this tweet! 🏆\n\nStats:\n• 98 total saves of thisguyknowsai's tweets (ranked #3553)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "afropanther_",
+        "name": "DotsinPortland",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai @readwise save",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "briantaylor_x",
+        "name": "brian taylor",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai LearnLM is marketing. it’s just Gemini. and many other learning apps are light years ahead of Google. YouLearn, Jungle, Clarity…\nhttps://t.co/Xxpd6gjHca",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "briantaylor_x",
+        "name": "brian taylor",
+        "date": "2025-12-27",
+        "text": "@SkuzaAI @thisguyknowsai google’s approach on learning is AI slop. if you want to really leverage AI to learn try https://t.co/Xxpd6gjHca",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AryaAmour08",
+        "name": "Aryan",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai google's new tool is kinda game changing for students who learn differently, honestly it's about time we had something like this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Williamscoryr",
+        "name": "Cory Williams",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai Whoa",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EditorEnBici",
+        "name": "CEO del Socialismo de Mercado🌹🕊️ 市场社会主义CEO",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai Breaking?\n\nThat's even before nanobanana pro, that's why the drawings are horrible.\n\nThe form seems that isn't working.\n\nNice demo, but it is a dead project.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "optimisticquill",
+        "name": "Prosper Chukwu",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai This would be interesting.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2025-12-27",
+        "text": "@dabiggapicta @thisguyknowsai @dabiggapicta Salam, here is your unroll: https://t.co/k97UZtWi6X Have a good day. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Jorge89767947",
+        "name": "JJ",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai Whats the link?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DrumeeOS",
+        "name": "DRUMEE",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai One-size-fits-all is.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2025-12-27",
+        "text": "@loren_perdido @thisguyknowsai @loren_perdido Guten Tag, please find the unroll here: https://t.co/k97UZtWi6X Enjoy :) 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "spiderio",
+        "name": "spiderio",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai Interesting take.. Can it simplify",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "loren_perdido",
+        "name": "LorenZt #NovaSucNormalitat",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai @threadreaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AndrasDobos81",
+        "name": "Andras Dobos",
+        "date": "2025-12-27",
+        "text": "This is not just about being a textbook killer. It’s about the end of education’s social contract. For centuries, that contract was based on scarcity and utility. You learned a skill to become needed and being needed gave you a place in the world.\n\nAI demolishes that as it makes expertise abundant and cheap. When knowledge is instant and personalized, what is the economic value of the person who spent years acquiring it? The tool isn’t the revolution. The crisis of purpose it triggers is.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "details_with_ai",
+        "name": "Rasel Hosen",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai This sounds like a game changer! Excited to see how it reshapes learning for everyone.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mmaazkhanhere",
+        "name": "Mian Maaz Ullah Khan",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai Amazing concept. Personalised education will be the differentiator in the future",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sbc111",
+        "name": "Supriyo SB Chatterjee",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai @threadreaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DANResponse",
+        "name": "Dan Nguyen",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai Can I drop the bible as PDF and learn?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NYC2CA2VA",
+        "name": "Revere America 🇺🇸",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai Both of the researchers cited are Israeli. Cool. Will BDS not use this brilliant innovation?\n@Yael4Hanover @AleResnik",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "blake41",
+        "name": "Blake Johnson",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai i only see a place to sign up for the waitlist, or try pdf's they've chosen for you...?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "abdurrahmanregi",
+        "name": "Regi Kusumaatmadja",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai interesting",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PietroMontaldo",
+        "name": "Pietro Montaldo",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai Learn Your Way looks like a game-changer",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DmytroMaziar",
+        "name": "Dmytro Maziar",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai They should start with fixes to gemini 3 context memory first. You fucking hype retard. Gemini 3 cannot even hold 20 messages chat right now.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MitenSolanki24",
+        "name": "Miten Solanki",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai yups that's amazing for kids, but using Notebooklm gives way more control",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Teraaiguide",
+        "name": "Tera AI",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai This is huge.\n\nPDFs no longer stay static—they become interactive learning experiences.\n\nPersonalized learning + higher retention = education 2.0.\n\nThe future of studying just got turbocharged.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PirouneB",
+        "name": "piroune",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai PDF to 5 formats is cool. The key is evals: baseline, retention window, failure modes. Trust comes from that.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "t_r277",
+        "name": "0xR1tz",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai This changes everything.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Vasilakis_M",
+        "name": "Marios Vasilakis",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai Is it a new feature in NotebookLM?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dizzy_mike77",
+        "name": "Michael",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai @grok is that an official Google thing?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JL43923689",
+        "name": "JL",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai The Diamond Age: Or, A Young Lady's Illustrated Primer",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "claycurry__",
+        "name": "claycurry",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai cool share. the learning outcome scores fascinating.  \n\nunder-performers grow when their lesson plans actually create opportunities to grow.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aparanjape",
+        "name": "Amit Paranjape",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai cc @NGKabra",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "codewithimanshu",
+        "name": "Himanshu Kumar",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai Interesting adaptation; user engagement metrics should reflect this.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ssavage0914",
+        "name": "Savage0914",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai Amazing",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2025-12-27",
+        "text": "@vasgeo310 @thisguyknowsai @vasgeo310 Salam, you can read it here: https://t.co/k97UZtWi6X Talk to you soon. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vasgeo310",
+        "name": "Cafe Sinouk",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai @threadreaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thetoolists",
+        "name": "Thibault | T-Bot",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai \"just\"",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LolachanAndCo",
+        "name": "LaLoladeGuatemala",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai Por favor... ¿Puedes ayudarme a ganar 4 obsequios? Absolutamente sí\nhttps://t.co/wxBQb04Kjw",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "crypto292929",
+        "name": "Cryptonian",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai Blocking u for ur engagement bait. You are killing people by engagement hooks like \"X just killed Y\"",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FZ13",
+        "name": "F",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai 🤔",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xNikstein",
+        "name": "Nikhil",
+        "date": "2025-12-27",
+        "text": "The LearnLM piece is wild but here's what's got me thinking: the 60 student sample from Chicago, right. But what does adoption look like for a teacher who's already drowning in other tools? Personalization tech wins when the friction of setup is lower than friction of not using it.\n\nThe real test isn't retention scores. It's whether schools actually deploy this or if it becomes another sandbox demo. Tech graveyard is full of better solutions that lost to simpler adoption curves.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "socraticstudy",
+        "name": "Socratic Study",
+        "date": "2025-12-27",
+        "text": "Agreed, the education revolution is here! Exciting times. I will have to check this out.\n\nI built something similar but more focused: a personalized AI tutor for civics and founding documents, helping high schoolers prep for the new Presidential 1776 Award. \n\nIn a world of information overload, I think deep mastery of a few critical topics beats shallow coverage of everything.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sahasmaan",
+        "name": "Sahas",
+        "date": "2025-12-27",
+        "text": "@thisguyknowsai \"Textbook killer\" needs textbooks to be uploaded 😅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2004491317980880896/img/uS1tiatVpwI14g3p.jpg",
+      "localFilename": "2004491374658543958_1_poster.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G9FiTFeb0AAVQ7F.jpg",
+      "localFilename": "2004491374658543958_2.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G9FiT-MbUAAFpJ1.png",
+      "localFilename": "2004491374658543958_3.png"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G9FiU2VbgAAzcHq.jpg",
+      "localFilename": "2004491374658543958_4.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G9FiVwuaAAAYVOU.png",
+      "localFilename": "2004491374658543958_5.png"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G9FiWnRbkAIJLjw.png",
+      "localFilename": "2004491374658543958_6.png"
+    }
+  ]
 }

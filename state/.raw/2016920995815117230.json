@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:26.616Z",
+  "fetchedAt": "2026-07-13T06:52:54.946Z",
   "tweetId": "2016920995815117230",
   "post": {
     "url": "https://x.com/IterIntellectus/status/2016920995815117230",
@@ -10,13 +11,497 @@
     },
     "date": "2026-01-29",
     "text": "WORLD MODEL IS HERE https://t.co/AjVc6wqseb",
+    "thread": [
+      {
+        "id": "2016920995815117230",
+        "text": "WORLD MODEL IS HERE https://t.co/AjVc6wqseb"
+      }
+    ],
     "media": [],
     "metrics": {
-      "likes": 5143,
-      "retweets": 128,
-      "replies": 48,
-      "views": 750576
+      "likes": 5084,
+      "retweets": 131,
+      "replies": 46,
+      "views": 751087
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "KequeMage",
+        "name": "KEQUE🫘🆙",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus Zuck spent 100 billion dollars on this, it took 4 years to make https://t.co/jvk8vH6gpC",
+        "likes": 84,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lucidpaths33",
+        "name": "lucid",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus Its the *first* world model and these are only gonna get better",
+        "likes": 55,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gh0stpen",
+        "name": "ghostpen",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus DO YOU FEEL THE ACCELERATION ANON",
+        "likes": 43,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "YIMBYLAND",
+        "name": "YIMBYLAND",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus This is insane",
+        "likes": 15,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Techniacus",
+        "name": "techniacus",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus And to think this is the worst they'll ever be",
+        "likes": 15,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IterIntellectus",
+        "name": "vittorio",
+        "date": "2026-01-29",
+        "text": "@gh0stpen LESSSGOOO",
+        "likes": 15,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Rdrazg",
+        "name": "Ryan Drazga",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus Google marketing: try not to copy others homework challenge\n\n-impossible \nhttps://t.co/FaA5yf9Pjc https://t.co/NudDtmGTGQ",
+        "likes": 13,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IterIntellectus",
+        "name": "vittorio",
+        "date": "2026-01-29",
+        "text": "@lucidpaths33 Faster and faster",
+        "likes": 11,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "illustriousdev",
+        "name": "illustrious development",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus would like to finish seeing the real world before I start on virtual ones",
+        "likes": 11,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lep4z",
+        "name": "M",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus solid https://t.co/zRAvPbyLHt",
+        "likes": 10,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "groenphoenix",
+        "name": "Groen Phoenix",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus Let’s see how non perverted and normal this will be. No way anyone would just loose themselves in their wonderland.",
+        "likes": 9,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IterIntellectus",
+        "name": "vittorio",
+        "date": "2026-01-30",
+        "text": "@Techniacus can you feel it tech?",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Darbybailey",
+        "name": "Darby Bailey McDonough, Ph.D. 🖍️💫",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus Nothing is going to slow down, is it?",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "manofgod334",
+        "name": "suntoman2",
+        "date": "2026-01-29",
+        "text": "@groenphoenix @IterIntellectus That’s the whole point. Accelerationism is the only way forward.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AImortgages",
+        "name": "The AI Mortgage Guy",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus The first time I saw the Genie demo I was blown away, probably as much - if not more so - than my first time seeing ChatGPT, Midjourney, video gen models , etc \n\nI can’t believe it’s finally here",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MartianSurveyor",
+        "name": "Martian Surveyor",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus They won't let me in 😭",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_kiyosh1",
+        "name": "kiyoshi ?¿",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus holy shit",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "philipbankier",
+        "name": "Philip Bankier",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus this is not a new model...",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BlockedHedge",
+        "name": "LeHedge",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus Bye bye to the whole video game industry, this is going to ruin people lol",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Techniacus",
+        "name": "techniacus",
+        "date": "2026-01-30",
+        "text": "@IterIntellectus I'm feeling it",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "king_konny",
+        "name": "konny",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus VR is gonna take off…",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wokoma_festus",
+        "name": "festus wokoma",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus And i’m here for it 🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "skepticalX3",
+        "name": "SkepticalOfEverything",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus 👀",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BlueAlphaLabs",
+        "name": "Sean | Web3 Email Marketing 📩",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus This that Metaverse thing all those dorks kept yapping about in 21?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sebuzdugan",
+        "name": "Sebastian Buzdugan",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus interested if it’s planning or just next token",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "marcobonfiglio",
+        "name": "Marco",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus WTFFFFF 😯",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NewG0ldenAge",
+        "name": "New Golden Age",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus Is this like meta headset 3D?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "plasmarob",
+        "name": "plasma ۞",
+        "date": "2026-01-29",
+        "text": "@gh0stpen @IterIntellectus the Holodeck is here, time to BOLDLY GOOOOO",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TheDailyIntro",
+        "name": "The Daily Intro",
+        "date": "2026-01-30",
+        "text": "@IterIntellectus And the world changing model of Google DeepMind is here \nhttps://t.co/nj3iEc7o5e",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "artem_kirilof",
+        "name": "правильный человек (Parody)",
+        "date": "2026-01-30",
+        "text": "@IterIntellectus Google ai is shit",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tobe_duru",
+        "name": "Tobe Duru",
+        "date": "2026-01-30",
+        "text": "@IterIntellectus finally, the simulation can run on full power",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GenMagnetic",
+        "name": "GenMagnetic",
+        "date": "2026-01-30",
+        "text": "@IterIntellectus Yes 🙌 https://t.co/KyxTyqoZsZ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "quackaducka",
+        "name": "SillyGoose",
+        "date": "2026-01-30",
+        "text": "@IterIntellectus Gloryfied google maps fuck yeah",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheRoyAiyetin",
+        "name": "Roy",
+        "date": "2026-01-30",
+        "text": "@IterIntellectus Sick! The limit is our imagination.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheDarkGoldMan",
+        "name": "Guillaume Boucher",
+        "date": "2026-01-30",
+        "text": "@IterIntellectus It’s not a world model and you know it. Stop with the grifting.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IterIntellectus",
+        "name": "vittorio",
+        "date": "2026-01-30",
+        "text": "@YIMBYLAND Yeah",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Dannysavage89",
+        "name": "Dan Mungai",
+        "date": "2026-01-30",
+        "text": "@IterIntellectus Rockstar tripping.. at this point let them keep their game.. we can create ours with this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "commonwoe",
+        "name": "Common Woe",
+        "date": "2026-01-30",
+        "text": "@IterIntellectus Google built a model but did they forget to ask someone for permission? https://t.co/nn3YS2ngTl",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Shashank_kuram",
+        "name": "S kuram 🚀",
+        "date": "2026-01-30",
+        "text": "@IterIntellectus Looks like a video game. Not game changing at all. World labs did a better job.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "valen_dottori",
+        "name": "Valentin Dottori",
+        "date": "2026-01-30",
+        "text": "@IterIntellectus Y si en realidad hay un Google Supremo y nosotros estamos en su simulación?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vfcustodio",
+        "name": "VINICIUS CUSTODIO",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus that's insane\n\nimagine this in VR",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ishzhv",
+        "name": "islam",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus To be able to create your own video game world at ease is insane. I can only imagine how good it'll be after some time with more improvements.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "amalmehta99",
+        "name": "Amal Mehta",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus 🙌",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "product_gurus",
+        "name": "Product Guru’s",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus AND OPENAI LAUNCHING TEXT TRANSLATOR",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NanermCQATDLAIA",
+        "name": "NanermCQABDLTINFDTCMYAT",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus Apra wur chignsdos ycma ssila puta Ia de mierds no entiend eienvlo uwe ke ordne etcc ec semen semen ssemen smeen",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NanermCQATDLAIA",
+        "name": "NanermCQABDLTINFDTCMYAT",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus Que mamada salvo supongo para de manera hiperrealista engañar a la gente con sus mapas falsos y o hacerles perder el tiempo y dinero osea ¿Yo para que quiero esto? Bueno podria servir para hacer animaciones y tsl de plabos 3d hiperealistas y tal supongovpero sivno buenoventonces",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SpinHit",
+        "name": "SpinHit",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus Vous le voyez le gta 7 ou 8 de toute la planète full ia ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Shaco_xbt",
+        "name": "Shacrypto",
+        "date": "2026-01-29",
+        "text": "@BlockedHedge @IterIntellectus Sometimes things gotta be replaced",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MalikTick",
+        "name": "𝗠𝗮𝗹𝗶𝗾",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus How much employees does google have ?? I cant keep up everyday its a new product",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ICoffeeDaemon",
+        "name": "ᴄᴏꜰꜰᴇᴇᴅᴀᴇ",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus Yup when SAO 🤨",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tlevier",
+        "name": "Tim LeVier",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus Creating the multi-verse, eh?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FuMonkeyRider",
+        "name": "FuMonkeyRider",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus How unbelievably cool is that?! https://t.co/UvCPzFloJy",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Exocija",
+        "name": "Exocija",
+        "date": "2026-01-29",
+        "text": "@IterIntellectus Already found 2 wild examples https://t.co/xgNTIcmQG8",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
   }
 }

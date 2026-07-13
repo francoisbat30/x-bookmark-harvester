@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:02.796Z",
+  "fetchedAt": "2026-07-13T06:46:45.047Z",
   "tweetId": "1971676668256571392",
   "post": {
     "url": "https://x.com/EthanDriskill/status/1971676668256571392",
@@ -10,6 +11,12 @@
     },
     "date": "2025-09-26",
     "text": "No moodboards here, just ideas &amp; execution https://t.co/R5s24yAtaI",
+    "thread": [
+      {
+        "id": "1971676668256571392",
+        "text": "No moodboards here, just ideas &amp; execution https://t.co/R5s24yAtaI"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -29,11 +36,399 @@
       }
     ],
     "metrics": {
-      "likes": 419,
-      "retweets": 16,
-      "replies": 33,
-      "views": 22059
+      "likes": 416,
+      "retweets": 15,
+      "replies": 32,
+      "views": 22081
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "derkolstad",
+        "name": "𝒟𝑒𝓇𝑒𝓀",
+        "date": "2025-09-26",
+        "text": "@EthanDriskill A little too close 🤏 to the New Balance logo",
+        "likes": 18,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BoboZivkovic",
+        "name": "Bobo Zivkovic",
+        "date": "2025-09-27",
+        "text": "@EthanDriskill Got the NB vibe at first also\nBut looking at the NB logo the first part is totally different\n\nLove the colors &amp; style man. Well done 👏🏼",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Krisleedesigns",
+        "name": "Kris Lee",
+        "date": "2025-09-26",
+        "text": "@derkolstad @EthanDriskill First thing I thought as well\n\nLoving the designs though",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DomenicoDD",
+        "name": "Domenico Di Donna",
+        "date": "2025-09-28",
+        "text": "@EthanDriskill @derkolstad yes, that's what came to my mind too, because of the first letter treatment and the B... https://t.co/LvLdgkXTXl",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "alexandroff_h",
+        "name": "Harry ✹ Web3 & Fintech Design 🇺🇦",
+        "date": "2025-09-27",
+        "text": "@EthanDriskill Where could I see it https://t.co/CYMzDm9htE",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dario_ferrando",
+        "name": "Dario ⚡️",
+        "date": "2025-09-27",
+        "text": "@EthanDriskill the colors are sleek, but it gave me NB at first glance was my first reaction",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TravelNicheBro",
+        "name": "Travel Niche Bro",
+        "date": "2025-09-26",
+        "text": "@EthanDriskill NB vibes",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EthanDriskill",
+        "name": "Ethan Driskill",
+        "date": "2025-09-26",
+        "text": "@derkolstad Nah",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ezsmith397",
+        "name": "EZ Smith",
+        "date": "2025-09-28",
+        "text": "@EthanDriskill Looks dope: but definitely NB + falken tire livery vibes",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "serglotz",
+        "name": "Serg",
+        "date": "2025-09-28",
+        "text": "@EthanDriskill Copy of New Balance. Fired.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "delek101",
+        "name": "Tenz Delek",
+        "date": "2025-09-28",
+        "text": "@EthanDriskill New balance",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "unrootdesign",
+        "name": "Adam 🌿 Unroot.design",
+        "date": "2025-09-28",
+        "text": "@EthanDriskill Cool",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jacksoncurro",
+        "name": "JC",
+        "date": "2025-09-28",
+        "text": "@EthanDriskill so clean!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ian_tilapia",
+        "name": "young",
+        "date": "2025-09-28",
+        "text": "@EthanDriskill Nice! What are the typefaces used?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "monogramdude",
+        "name": "Saif",
+        "date": "2025-09-28",
+        "text": "@EthanDriskill Without modeboard, This is fire🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eyadset",
+        "name": "eyad",
+        "date": "2025-09-28",
+        "text": "@EthanDriskill \"Outerbloc\" is nice what font is that?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "trotskomain",
+        "name": "Roman Trotsko",
+        "date": "2025-09-28",
+        "text": "@EthanDriskill This is what raw talent looks like! 🔥 No fluff, just pure execution. The design process distilled to its essence - idea to reality. Inspiring stuff! 💪",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "neuebaseline",
+        "name": "Neue Baseline",
+        "date": "2025-09-27",
+        "text": "@EthanDriskill That \"Ready, Set, Launch\" font is sexy",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Johnny_Logo",
+        "name": "Johnny 🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+        "date": "2025-09-27",
+        "text": "@EthanDriskill Looks very similar to New Balance logo and yet still a nice logo design. I can certainly see the separation between the two. Good work 🙌.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "designbymeris",
+        "name": "Meris",
+        "date": "2025-09-27",
+        "text": "@EthanDriskill It's controversial at the very least",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "esdotge",
+        "name": "S·G",
+        "date": "2025-09-27",
+        "text": "@EthanDriskill New Balance Mood",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "faisal__chaudry",
+        "name": "Faisal Chaudry",
+        "date": "2025-09-27",
+        "text": "@EthanDriskill I thought it was New Balance at first cool vibe tho",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "donnysmith",
+        "name": "Donny",
+        "date": "2025-09-27",
+        "text": "@EthanDriskill 🎯",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "myles_franklin",
+        "name": "Myles Franklin",
+        "date": "2025-09-27",
+        "text": "@EthanDriskill The OB™️ is cold!!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iumarmirza",
+        "name": "Umar Mirza",
+        "date": "2025-09-27",
+        "text": "@EthanDriskill damnn",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jey_Gut",
+        "name": "Jay Gutierrez",
+        "date": "2025-09-27",
+        "text": "@EthanDriskill What’s the typeface? 🤔",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "designsbychirag",
+        "name": "Chirag Madhu",
+        "date": "2025-09-27",
+        "text": "@EthanDriskill Ideas over moodboards",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EthanDriskill",
+        "name": "Ethan Driskill",
+        "date": "2025-09-27",
+        "text": "@alykayimkahni My man",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "alykayimkahni",
+        "name": "Aly",
+        "date": "2025-09-27",
+        "text": "@EthanDriskill premium",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EthanDriskill",
+        "name": "Ethan Driskill",
+        "date": "2025-09-27",
+        "text": "@crwlers Thanks!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TravelNicheBro",
+        "name": "Travel Niche Bro",
+        "date": "2025-09-26",
+        "text": "@EthanDriskill Nope",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "IsaacLotz",
+        "name": "isaac",
+        "date": "2025-09-26",
+        "text": "@EthanDriskill Tagline goes hard",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "crwlers",
+        "name": "Ghost Crawler",
+        "date": "2025-09-26",
+        "text": "@EthanDriskill beautiful!!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "djforge",
+        "name": "Jordan Chavis",
+        "date": "2025-09-26",
+        "text": "@EthanDriskill snapped",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kvixiossa",
+        "name": "Kvixi Ossa",
+        "date": "2025-09-28",
+        "text": "@EthanDriskill Nice but not so good as\nhttps://t.co/teBb5FlziQ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EthanDriskill",
+        "name": "Ethan Driskill",
+        "date": "2025-09-28",
+        "text": "@serglotz https://t.co/To7oVp56hr",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SatelliteDes",
+        "name": "Robert",
+        "date": "2025-09-28",
+        "text": "@EthanDriskill Love this approach! There's something powerful about cutting straight to execution - it shows true confidence in your creative process. The work speaks for itself without needing elaborate presentations. Action over endless planning always wins! 🚀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dustin_zeb",
+        "name": "Dustin",
+        "date": "2025-09-28",
+        "text": "@EthanDriskill Focusing on ideas and execution often leads to innovative results. Keep pushing the boundaries!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EthanDriskill",
+        "name": "Ethan Driskill",
+        "date": "2025-09-27",
+        "text": "@IsaacLotz Maybe too hard",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EthanDriskill",
+        "name": "Ethan Driskill",
+        "date": "2025-09-27",
+        "text": "@djforge Yes",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EthanDriskill",
+        "name": "Ethan Driskill",
+        "date": "2025-09-26",
+        "text": "@TravelNicheBro Too close?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G1zNZKZXoAA8t9s.jpg",
+      "localFilename": "1971676668256571392_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G1zNZKYW0AASXsL.jpg",
+      "localFilename": "1971676668256571392_2.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G1zNZKdXIAApETU.jpg",
+      "localFilename": "1971676668256571392_3.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G1zNZKbX0AAHNIN.jpg",
+      "localFilename": "1971676668256571392_4.jpg"
+    }
+  ]
 }

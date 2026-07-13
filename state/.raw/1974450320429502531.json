@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:00.841Z",
+  "fetchedAt": "2026-07-13T06:47:22.251Z",
   "tweetId": "1974450320429502531",
   "post": {
     "url": "https://x.com/stats_feed/status/1974450320429502531",
@@ -10,6 +11,12 @@
     },
     "date": "2025-10-04",
     "text": "Europe now has 0 companies left in the global top 25. https://t.co/BhUYDfYO04",
+    "thread": [
+      {
+        "id": "1974450320429502531",
+        "text": "Europe now has 0 companies left in the global top 25. https://t.co/BhUYDfYO04"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,882 @@
       }
     ],
     "metrics": {
-      "likes": 9231,
-      "retweets": 1171,
-      "replies": 451,
-      "views": 867950
+      "likes": 9161,
+      "retweets": 1149,
+      "replies": 441,
+      "views": 868454
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "theLagosguyy",
+        "name": "Erewhon | 33 📸 ✨",
+        "date": "2025-11-12",
+        "text": "@stats_feed Europe sacrificed innovation for 'free health care'",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sillybuppy",
+        "name": "Pubby",
+        "date": "2025-10-31",
+        "text": "@jtgoldx @stats_feed That's high talk coming from someone whose god destroyed their kingdom and forced them to wander for thousands of years",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "prayingneyzen",
+        "name": "Milad alSufi",
+        "date": "2025-10-12",
+        "text": "@jtgoldx @stats_feed Jews try and shift blame.  It was Jews that opened the gates of Toledo. Time and time again.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RjMollen",
+        "name": "RJ Mollen",
+        "date": "2025-10-08",
+        "text": "@stats_feed As an MD at a U.S. investment bank, I see why U.S. entrepreneurs often lead the pack. They think big, move fast, and access capital with confidence. European companies still hesitate, but the opportunity is there — plenty of institutional capital is available if you go for it.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AtomicHustle",
+        "name": "Atomic Hustle",
+        "date": "2025-10-05",
+        "text": "@gstricker179463 @PolskiSasza @stats_feed Not to mention many rich people \"live\" there for tax purposes and buy vacation homes there which artificially inflate their values. How many of their citizens have actually ever created something, changed the world, etc?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AtomicHustle",
+        "name": "Atomic Hustle",
+        "date": "2025-10-05",
+        "text": "@gstricker179463 @PolskiSasza @stats_feed Little bit harder to have that type of success with hundreds of millions of people compared to tiny little Switzerland. Plus their main import its wait for it- our own money in the way of \"banking services\". If it wasn't for us, they'd be living in rural villages still.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JanSmid1980",
+        "name": "Ján Šmíd",
+        "date": "2025-10-05",
+        "text": "@Ctm95cz @stats_feed 😁👍 https://t.co/SHHHqBh6kG",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Ctm95cz",
+        "name": "Ctm95 🇸🇰🇺🇦🇪🇺",
+        "date": "2025-10-05",
+        "text": "@JanSmid1980 @stats_feed And blocking mamy features like mirroring iphone on my mac or real time translation on airpods. I am soooo happy that bunch of crooked eu commrades protect me from all these new evil stuff! :)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "erenj334110",
+        "name": "L.G.B.T. 🇮🇱",
+        "date": "2025-10-05",
+        "text": "@stats_feed These are all Jewish companies. None of the states presented there possess them, they are not American or Taiwanese, they are Jewish",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-05",
+        "text": "Europe's absence from the global top 25 companies by market cap (as of Oct 2025) stems from US dominance in tech innovation, driven by factors like abundant venture capital, a large unified market, and talent attraction. Europe faces challenges including regulatory hurdles (e.g., GDPR), market fragmentation across countries, and less risk-tolerant investment culture, limiting the scaling of tech giants. Highest European firms like Novo Nordisk or ASML rank below top 25.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NaikHrishikesh",
+        "name": "CA Hrishikesh Naik",
+        "date": "2025-10-05",
+        "text": "@stats_feed @grok why",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Gitro77",
+        "name": "Gilberto Trombetta",
+        "date": "2025-10-05",
+        "text": "@spottaman @stats_feed https://t.co/l5wm6CxviF",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "spottaman",
+        "name": "Spottaman",
+        "date": "2025-10-05",
+        "text": "@stats_feed @Gitro77 https://t.co/CMoS8u8ghy",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DominiqueZippor",
+        "name": "Dominique-Zipporah Céline",
+        "date": "2025-10-10",
+        "text": "@PolskiSasza @stats_feed Take it from someone who has spent a lot of time in the developing world, this is the perennial excuse they use too. The precipitous transition of Europeans from a western, developed world mentality, to a developing world mentality is astounding, expect living standards to follow",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JuniorBitare",
+        "name": "Junior bitare",
+        "date": "2025-10-10",
+        "text": "@FaileGaming @stats_feed Yes, the original tweet was about market cap. But you linked a revenue chart.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "giridesh3",
+        "name": "Mean Reverted",
+        "date": "2025-10-07",
+        "text": "@rthnyv @stats_feed But Americans sell their shit for shit low prices... To their credit. 🤔",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gstricker179463",
+        "name": "Gstricker1",
+        "date": "2025-10-06",
+        "text": "@AtomicHustle @PolskiSasza @stats_feed Speaking of  ...... https://t.co/OVYnPD2aLt",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AhmadSaa",
+        "name": "Ahmad",
+        "date": "2025-10-06",
+        "text": "@stats_feed Nasdac d5la fe bubble mor3baaaa  we htnknaa",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KhushinderMohan",
+        "name": "K M B",
+        "date": "2025-10-06",
+        "text": "@stats_feed It’s all US basically except Tencent and Aramco ???",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kinders_inverso",
+        "name": "Kerry Caberga Valiu",
+        "date": "2025-10-06",
+        "text": "@AirFreshExpres1 @stats_feed https://t.co/Jb1R02LQSo",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ultima_europe",
+        "name": "Ultima Markets Europe",
+        "date": "2025-10-06",
+        "text": "@stats_feed I giganti della tecnologia, della farmaceutica e della finanza provenienti da Stati Uniti e Asia dominano in modo assoluto. E l'Europa ha urgente bisogno di innovazione e scalabilità.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "annasimpatica25",
+        "name": "anna",
+        "date": "2025-10-06",
+        "text": "@stats_feed Hello everyone I got $10,000 from https://t.co/qFJlArRf9T they are based on helping everyone financially to live their best life all you have to do is apply for the amount you want",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "B_Overstreet32",
+        "name": "Barry Overstreet",
+        "date": "2025-10-06",
+        "text": "@EnSvenskTiger_ @Sugarma42618641 @STTDB1984 @3YearLetterman @stats_feed I never claimed we don’t have more, but you don’t get some moral high ground. And several countries all over Europe are being softly invaded by Muslims who are pushing Sharia Law. Your leaders are welcoming it openly. As for me, I’ve passed random drug screens for 30 years. GFY.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Ri32256",
+        "name": "RamP",
+        "date": "2025-10-06",
+        "text": "@statsglobe @stats_feed Oracle now  headed by two Americans.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cramos1705",
+        "name": "Carlos Ramos",
+        "date": "2025-10-05",
+        "text": "@ruth_capital @stats_feed What are your top 3 countries? And why?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FredrikHirsch",
+        "name": "Fredrik for peace 🇳🇴",
+        "date": "2025-10-05",
+        "text": "@stats_feed Too bad",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mondi978",
+        "name": "mondi",
+        "date": "2025-10-05",
+        "text": "@stats_feed https://t.co/sy7MOnarwt",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BTC_BBQ",
+        "name": "BTC_BBQ",
+        "date": "2025-10-05",
+        "text": "@Sugarma42618641 @stats_feed Sounds like the words of a stinky smelly euro poor that can't afford air conditioning.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gstricker179463",
+        "name": "Gstricker1",
+        "date": "2025-10-05",
+        "text": "@AtomicHustle @PolskiSasza @stats_feed + ,my dear 🤡.\n\nI d rather spend a little extra and receive medical for free unlike you going bankrupt https://t.co/C6KrlHBat1",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gstricker179463",
+        "name": "Gstricker1",
+        "date": "2025-10-05",
+        "text": "@AtomicHustle @PolskiSasza @stats_feed Blocked me🤡 ? Why? Was just having fun \nPlus our taxes going to Universal Healthcare and pensions unlike you ? Paying 500k for a snake bite or 3000 for an ambulance ride ?\nAnd tell how much of those 225k you need to spend a year?\nHow s your tariff aka YOU PAYING EXTRA MONEY? https://t.co/t3rMA6TYtG",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gstricker179463",
+        "name": "Gstricker1",
+        "date": "2025-10-05",
+        "text": "@AtomicHustle @PolskiSasza @stats_feed Lol.\nAfter 5 years😂😂😂\nHere 8 weeks during the first year.\n\nYeah ,here unlike you we tax the rich.\n\nPlus your salary but your costs are NOT THE SAME as here.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AtomicHustle",
+        "name": "Atomic Hustle",
+        "date": "2025-10-05",
+        "text": "@gstricker179463 @PolskiSasza @stats_feed Your fully retarded it's actually impressive. Don't forget to call us next time Russia decides to facefuck another country of yours so we can again come save the day ✌️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AtomicHustle",
+        "name": "Atomic Hustle",
+        "date": "2025-10-05",
+        "text": "@gstricker179463 @PolskiSasza @stats_feed This is what a Texas gas-station pays. Real jobs start at nearly double this, sometimes triple this for tech/medical fields. https://t.co/dFy0AFfy6R",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gstricker179463",
+        "name": "Gstricker1",
+        "date": "2025-10-05",
+        "text": "@AtomicHustle @PolskiSasza @stats_feed Really?\nSo Us doesn t exist you say?\n\nIf no cities represent it......",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AtomicHustle",
+        "name": "Atomic Hustle",
+        "date": "2025-10-05",
+        "text": "@gstricker179463 @PolskiSasza @stats_feed You keep mentioning liberal-ran shitholes. Our American cities are ran by socialist and are all falling apart due to them supporting drugs/criminals. Our cities do not represent the US.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gstricker179463",
+        "name": "Gstricker1",
+        "date": "2025-10-05",
+        "text": "@AtomicHustle @PolskiSasza @stats_feed Lower salary in Texas taken in consideration?\nThe total % ?\n\nAre you this girl ?\n\nhttps://t.co/1y07Vrd8ce",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AtomicHustle",
+        "name": "Atomic Hustle",
+        "date": "2025-10-05",
+        "text": "@gstricker179463 @PolskiSasza @stats_feed Average vacation time for employers (real jobs- not coffee shops) in US is 3 weeks, 4+ weeks after 5 years employment. Many offer unlimited PTO. Average tax burden is about 22%- it's way higher in EU. Plus our salaries are triple/quadruple what yours are. Cope harder",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BombadilJayJay",
+        "name": "JayJayBombadil",
+        "date": "2025-10-05",
+        "text": "@gstricker179463 @stats_feed That’s an oversimplification. Moreover, you’re more than entitled to move to South Sudan. No billionaires over there.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AtomicHustle",
+        "name": "Atomic Hustle",
+        "date": "2025-10-05",
+        "text": "@gstricker179463 @PolskiSasza @stats_feed Homeless people in the US are all drug-addicts and bums. You can work at a gas station, make $25/hour, and buy a sfh home in the US but yet they refuse to do so. If your homeless and live in Cali- relocate via a $20 bus ticket to a place you can afford https://t.co/LajogLHNuz",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gstricker179463",
+        "name": "Gstricker1",
+        "date": "2025-10-05",
+        "text": "@AtomicHustle @PolskiSasza @stats_feed Do they?\n\nEveryone?\nHow come many do the opposite instead ?\n\nIs it ? Hard?\n\nRead it where, Foxnews?\nDefine Hard, having still 3/4 of my salary after taxes and 4 paid vacations a year ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gstricker179463",
+        "name": "Gstricker1",
+        "date": "2025-10-05",
+        "text": "@AtomicHustle @PolskiSasza @stats_feed Oh really?\n\nBut many Million + people are there.\n\nIf they can t buy a home at that price ( thing many  CANNOT) what does it mean🤡?\n\nLike homeless in Ny and Detroid \n or Philly can ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AtomicHustle",
+        "name": "Atomic Hustle",
+        "date": "2025-10-05",
+        "text": "@gstricker179463 @PolskiSasza @stats_feed No need to argue- anyone rich/famous relocates to the US so the idea that it sucks here is nonsense. It's probably hard living wherever you do so I'm gonna  leave the convo as your not even making sense- hopefully one day you get to escape and come to the US also ✌️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AtomicHustle",
+        "name": "Atomic Hustle",
+        "date": "2025-10-05",
+        "text": "@gstricker179463 @PolskiSasza @stats_feed No idea what this even means but Cali is a shithole socialist state and everything there is money-laundering. They spend $900k/year per homeless person in \"aid\" when they could just buy them at home at those prices",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gstricker179463",
+        "name": "Gstricker1",
+        "date": "2025-10-05",
+        "text": "@AtomicHustle @PolskiSasza @stats_feed Let s see...\n\nWhile you re 30 years trying a HS just in California ,we ve already connected ourself ages ago",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gstricker179463",
+        "name": "Gstricker1",
+        "date": "2025-10-05",
+        "text": "@AtomicHustle @PolskiSasza @stats_feed As if the dollar doesn t inflate ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gstricker179463",
+        "name": "Gstricker1",
+        "date": "2025-10-05",
+        "text": "@AtomicHustle @PolskiSasza @stats_feed Your land for example ?\n\nPlus\nhttps://t.co/lgo0mNgM4s",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gstricker179463",
+        "name": "Gstricker1",
+        "date": "2025-10-05",
+        "text": "@AtomicHustle @PolskiSasza @stats_feed 18% .\n\n😱😱 ,that s basically \nlike  Switzerland.\n And we don t have fast food delivery?\nNew cars ?\nGoing to concerts like me last week ?\n\nTell me now cost of surgery or ambulance ride ,I know I won t get a 100k payment to the hospital here https://t.co/F0jFGayfxj",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AtomicHustle",
+        "name": "Atomic Hustle",
+        "date": "2025-10-05",
+        "text": "@gstricker179463 @PolskiSasza @stats_feed 18% of American households have $1M+ in assets/investments. Stop believing commie propaganda about \"the 1%\"- if America was as bad as they say would most Americans be opting to spend $30+ on fast-food delivery, driving new cars, going to concerts, etc? https://t.co/TBBJ7sLqNg",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gstricker179463",
+        "name": "Gstricker1",
+        "date": "2025-10-05",
+        "text": "@AtomicHustle @PolskiSasza @stats_feed The million dollar asset.. https://t.co/cBYUAhBJRj",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gstricker179463",
+        "name": "Gstricker1",
+        "date": "2025-10-05",
+        "text": "@AtomicHustle @PolskiSasza @stats_feed Most = 1% of pop ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gstricker179463",
+        "name": "Gstricker1",
+        "date": "2025-10-05",
+        "text": "@BombadilJayJay @stats_feed So having 1 person rich while rest Poor  and 37 trilion debt.\nGotcha",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dvmattos",
+        "name": "DVMa𝝅os",
+        "date": "2025-10-05",
+        "text": "@stats_feed Now show the multiples",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Andrei___G",
+        "name": "Andrei Galea",
+        "date": "2025-10-05",
+        "text": "@stats_feed 🤫 Europe is too busy tying caps to the bottles. https://t.co/SEWRyx5XLs",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rthnyv",
+        "name": "rthnyv",
+        "date": "2025-10-05",
+        "text": "@HarmonyFlame @Jeremilemagne @stats_feed https://t.co/85e9OE9iha",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rainstormdog69",
+        "name": "Rain Storm",
+        "date": "2025-10-05",
+        "text": "@ruth_capital @stats_feed https://t.co/6aQv70FJhI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Eduardocc76",
+        "name": "Eduardo",
+        "date": "2025-10-05",
+        "text": "@gabbrust @stats_feed Also American travel way more than Europoors do (even if you include travel internally in the continent for the Europoors). American have more savings, more financial assets, real estate and productivity. Overall US have a higher quality of life than Europe as a whole",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Eduardocc76",
+        "name": "Eduardo",
+        "date": "2025-10-05",
+        "text": "@gabbrust @stats_feed Proceeds to pick a photo of an American. Are you retarded enough? Plus a coffee and cigarette (what Europeans do for breakfast) is way more unhealthy than the American breakfast (bacon, eggs, potatoes, whole wheat bread, pancake, syrup, orange juice or milk)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EuHu12",
+        "name": "EuHu",
+        "date": "2025-10-05",
+        "text": "@jtgoldx @stats_feed Its not good. But the majority of Europeans has access to free education, free medical healthcare and food with good quality.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brokenearth10",
+        "name": "zhao",
+        "date": "2025-10-05",
+        "text": "@Sugarma42618641 @stats_feed Then what about Taiwan. Even Taiwan has in top 20",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Like_H2O",
+        "name": "Miles Morales",
+        "date": "2025-10-05",
+        "text": "@oblig_earthling @Mio_Mind @3YearLetterman @stats_feed Ditch is bitter about not having an SEC championship, so he's started limited replies. \n\nPeople who don't realize what's going on here never gets old, lol.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bertbertens1",
+        "name": "bertbertens",
+        "date": "2025-10-05",
+        "text": "@stats_feed Still way better to live in europe since we actually use tax dollars for our benefit while us even with best companies does see no benefit in daily live. Whats the point if your life isnt upgraded by it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Pps831",
+        "name": "Pps831",
+        "date": "2025-10-05",
+        "text": "@Sugarma42618641 @stats_feed Idiots like u are the reason perhaps 🤦‍♂️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Pps831",
+        "name": "Pps831",
+        "date": "2025-10-05",
+        "text": "@stats_feed Why would anyone expect to have European companies there at the top?failure, de-growth is the new growth in Europe with all these new engineers and doctors arriving on dinghies",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HarmonyFlame",
+        "name": "Make🇺🇸₿itcoinAgain ⚡️",
+        "date": "2025-10-05",
+        "text": "@ruth_capital @stats_feed That absent mindedness is exactly why it’s getting conquered right now.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Wobbegong238",
+        "name": "Wobbegong",
+        "date": "2025-10-05",
+        "text": "@stats_feed Europe still makes a great outdoor museum to visit!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ruby1184659",
+        "name": "Ruby",
+        "date": "2025-10-05",
+        "text": "@PolskiSasza @stats_feed Enjoy being poor, I guess",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LegacyOfMany",
+        "name": "yo 🇺🇲",
+        "date": "2025-10-05",
+        "text": "@stats_feed @ASMLcompany should be up there with @ZEISS_Group",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HarmonyFlame",
+        "name": "Make🇺🇸₿itcoinAgain ⚡️",
+        "date": "2025-10-05",
+        "text": "@Sugarma42618641 @Sourdough777 @stats_feed You’re leaving out the part where most Americans are working 2 jobs because they just built a 4000 sq ft house on a half an acre with two brand new pickups.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HarmonyFlame",
+        "name": "Make🇺🇸₿itcoinAgain ⚡️",
+        "date": "2025-10-05",
+        "text": "@rthnyv @Jeremilemagne @stats_feed The gdp per capita in the US is literally fucking double that of the per capita average in the EU. Enjoy being europoor.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HarmonyFlame",
+        "name": "Make🇺🇸₿itcoinAgain ⚡️",
+        "date": "2025-10-05",
+        "text": "@jpm_ap @Jeremilemagne @stats_feed Jackson Mississippi (of of the poorest places in the US) has a higher GDP than 75% of European capita. Trust me y’all are poor compared to the US.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "xCryptoAlucard",
+        "name": "Alucard",
+        "date": "2025-10-05",
+        "text": "@stats_feed That's crazy, what's happening in the world",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Topinka222",
+        "name": "Topinka222",
+        "date": "2025-10-05",
+        "text": "@Eduardocc76 @gabbrust @stats_feed Lmao average American is poorer than average Spaniard",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "StoicRocky",
+        "name": "Rocky",
+        "date": "2025-10-05",
+        "text": "@pakar_ai @PolskiSasza @stats_feed If you grabbed a low salary in the US (the most common low salary almost nobody makes the 7.50$ federal minimum wage) you could do better.\n\nAnd no just in case I do not live in a big city. Its worse there although maybe you can find, if lucky, 1300€ salary.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "StoicRocky",
+        "name": "Rocky",
+        "date": "2025-10-05",
+        "text": "@pakar_ai @PolskiSasza @stats_feed You comments are hidden by Twitter.\n\nExample: My friend works full time, 1200€ monthly salary. 38m2 \"house\" 650€ 200€ food \"healthcare\" free (stupidly long wait times for anything, 6 months to see a specialist) utilities/internet ~150€ -&gt; 1000€ cost of basic living.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ZwaagPaul",
+        "name": "Paul Van der Zwaag",
+        "date": "2025-10-05",
+        "text": "@Nuclear_Joe @Energy_Capital7 @stats_feed We did invent it, thats true.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ZwaagPaul",
+        "name": "Paul Van der Zwaag",
+        "date": "2025-10-05",
+        "text": "@Nuclear_Joe @Energy_Capital7 @stats_feed Both things can be true. The world's oldest continuous democratic nation is ice land btw. The oldest to ever be is ancient greece. The oldest in north america is Haudenosaunee Confederacy. 12th to 15th century. Btw, the oldest continues comunist state isnt in europe either.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nofacioopraio",
+        "name": "Šåėłėmåėkėrš El Talismano",
+        "date": "2025-10-05",
+        "text": "@Jeremilemagne @stats_feed We don't have free guns and Alcatraz",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jescra73",
+        "name": "JsR",
+        "date": "2025-10-05",
+        "text": "@stats_feed Not just Europe but of course Canada too! Too many regulations,  anti business, climate hoax. \n\nNever bet against the USA!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iamJMinx",
+        "name": "Minx",
+        "date": "2025-10-05",
+        "text": "@ruth_capital @stats_feed You live in Europe?!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gaius1337",
+        "name": "Gaius🌿📚🪶",
+        "date": "2025-10-05",
+        "text": "@stats_feed While Euro competitiveness is indeed horrendous, this chart here is also partially due to measuring in usd",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KristofGrozdan",
+        "name": "Krištof🫐",
+        "date": "2025-10-05",
+        "text": "@stats_feed It's so over for Europe",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VerneBurn69",
+        "name": "Custer",
+        "date": "2025-10-05",
+        "text": "0.1%? These are all publicly traded companies. Most people are already indirectly invested in them through 401(k)s, mutual funds, and index ETFs.\n\nOf course top earners profit more, the same thing happens everywhere else.\n\nMaybe brush up on basic economics before posting another bumpersticker take.\n\nAlso despite your “universal healthcare”: patients now wait in longer lines, and plenty pay out of pocket to receive better care.\n\nBut again you rather subvert than learn.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cryptoico6",
+        "name": "crypto news",
+        "date": "2025-10-05",
+        "text": "@stats_feed #bitcoin 🤔🤔🤔",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "x_deeps",
+        "name": "deeps",
+        "date": "2025-10-05",
+        "text": "@stats_feed Damn i knew tencent was big but holy",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "internpierre",
+        "name": "Intern Pierre",
+        "date": "2025-10-05",
+        "text": "@stats_feed Not sure market cap is the only metric that should be used to evaluate this.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "8gFFi6VJLVr8vLO",
+        "name": "JoshLinYou",
+        "date": "2025-10-05",
+        "text": "@stats_feed *Showing 16 companies\n*Saying not in top 25\nR u stupid?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SiFiSignal",
+        "name": "wofa",
+        "date": "2025-10-05",
+        "text": "@stats_feed socialism…",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alina61741",
+        "name": "Alina Alina",
+        "date": "2025-10-05",
+        "text": "@stats_feed This company are all ✡️  not American",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "catotoi",
+        "name": "Cagatay",
+        "date": "2025-10-05",
+        "text": "@stats_feed High taxes and over regulation is most driving factor.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Stakoman",
+        "name": "Tiago P",
+        "date": "2025-10-05",
+        "text": "@stats_feed What was the last 5 to be on this top? And name 5 that are the current highest (European)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Tuingevoelnl",
+        "name": "Garden whisperer",
+        "date": "2025-10-05",
+        "text": "@jtgoldx @stats_feed The US is peaking as we speak. Watching atm how it will implode. \n\nGold leading the way as always. \nEven the Euro is doing great against the US Dollar. \n\nThe US becoming a museum at some point.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RenaldyApreza",
+        "name": "Apreza Renaldy",
+        "date": "2025-10-05",
+        "text": "@LuciusFaustus @stats_feed The gold thief",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RenaldyApreza",
+        "name": "Apreza Renaldy",
+        "date": "2025-10-05",
+        "text": "@Eduardocc76 @stats_feed Capitalism cannot Evaluate  state-owned enterprises",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RenaldyApreza",
+        "name": "Apreza Renaldy",
+        "date": "2025-10-05",
+        "text": "@stats_feed Capitalism cannot Evaluate  state-owned enterprises",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "staxnocap",
+        "name": "Stax",
+        "date": "2025-10-05",
+        "text": "@stats_feed That’s only 16",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-05",
+        "text": "European companies in global top 25 by market cap (2020-2025):\n\n- Nestlé (Switzerland): 2020-2022, ranks ~15-20\n- Roche (Switzerland): 2020-2022, ~20-25\n- Novartis (Switzerland): 2020-2022, ~20-25\n- LVMH (France): 2023, ~10-15\n- Novo Nordisk (Denmark): 2023-2024, ~12-15\n- ASML (Netherlands): 2024, ~15-20\n- AstraZeneca (UK): 2020-2021, ~25\n\nNone in 2025 as of Oct. Sources: Wikipedia, CompaniesMarketCap, PwC reports.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2aoGXQXkAA8BEt.jpg",
+      "localFilename": "1974450320429502531_1.jpg"
+    }
+  ]
 }

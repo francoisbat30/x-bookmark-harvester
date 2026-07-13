@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:26.212Z",
+  "fetchedAt": "2026-07-13T06:52:57.033Z",
   "tweetId": "2019374239451607250",
   "post": {
     "url": "https://x.com/tom_doerr/status/2019374239451607250",
@@ -10,6 +11,12 @@
     },
     "date": "2026-02-05",
     "text": "Tracks AI usage limits from the macOS menu bar\n\nhttps://t.co/s0As43Yb2w https://t.co/VVEBaTOzUc",
+    "thread": [
+      {
+        "id": "2019374239451607250",
+        "text": "Tracks AI usage limits from the macOS menu bar\n\nhttps://t.co/s0As43Yb2w https://t.co/VVEBaTOzUc"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,729 @@
       }
     ],
     "metrics": {
-      "likes": 2977,
-      "retweets": 195,
-      "replies": 64,
-      "views": 269866
+      "likes": 2956,
+      "retweets": 199,
+      "replies": 62,
+      "views": 270690
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "parslydev",
+        "name": "ParslyDev",
+        "date": "2026-02-05",
+        "text": "@tom_doerr Saving this for later. Meanwhile my bookmark collection: https://t.co/3N2g5rIrD7",
+        "likes": 42,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "this_is_beto",
+        "name": "Humberto Prado",
+        "date": "2026-02-05",
+        "text": "@tom_doerr If you guys want a more simpler one thats the one i use https://t.co/9qceDOrs26",
+        "likes": 22,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "muxamos",
+        "name": "mahsum",
+        "date": "2026-02-05",
+        "text": "@tom_doerr menu bar tracking for AI limits is such a relief, no more guessing when you'll hit the wall 👌",
+        "likes": 10,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "oestagiarioplus",
+        "name": "Guilherme 3s",
+        "date": "2026-02-05",
+        "text": "@tom_doerr https://t.co/a2TCbSQNkC",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Targeeks",
+        "name": "Ilya Moskovkin",
+        "date": "2026-02-05",
+        "text": "@tom_doerr 500% CPU usage.  No thanks",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "this_is_beto",
+        "name": "Humberto Prado",
+        "date": "2026-02-05",
+        "text": "@xhimi_west @tom_doerr I open sourced it https://t.co/3XnlrBGdqY",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GENxHorror",
+        "name": "GenXHorror",
+        "date": "2026-02-05",
+        "text": "@tom_doerr Ty https://t.co/mu6tDpoHVd",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RituWithAI",
+        "name": "Rituraj",
+        "date": "2026-02-06",
+        "text": "It is essentially the digital equivalent of a fuel gauge for your creativity; knowing exactly how much \"intelligence\" you have left before the next reset prevents the dreaded workflow cliff. By making consumption visible, it forces a more intentional approach to how we prompt, ensuring that we prioritize our most critical architectural decisions before the quota runs dry. This is exactly the kind of utility that bridges the gap between raw AI power and professional, sustainable software development.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "yishan",
+        "name": "Yishan",
+        "date": "2026-02-06",
+        "text": "@tom_doerr This seemed cool but I was forced to uninstall it because it kept asking for keychain credentials for like 7 different browsers/agents (which I didn't have, so I had to deny/dismiss them).  Is it still under active development?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "roybarberuk",
+        "name": "Roy Barber®",
+        "date": "2026-02-06",
+        "text": "@tom_doerr This asks you for access to your chrome password vault!",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "patilketan671",
+        "name": "Patil Ketan",
+        "date": "2026-02-07",
+        "text": "@GENxHorror @tom_doerr I am use GPt4mini but same issue I also change model",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "pedramamini",
+        "name": "Pedram Amini",
+        "date": "2026-02-07",
+        "text": "Have a reason to track them... in my case two of them:\n\nhttps://t.co/sxlVT2Y4kY\n\nNote the parallelism and Auto Run (unattended Ralph Wiggum style runs built into the UX).\n\n1.3M lines of code created. 1.8M total affected lines... in 47 days.\n\nI'm eyeballing my third Claude Max subscription.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "brookslagle",
+        "name": "Brook Slagle",
+        "date": "2026-02-06",
+        "text": "@tom_doerr Need ray cast extension",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GENxHorror",
+        "name": "GenXHorror",
+        "date": "2026-02-06",
+        "text": "@patilketan671 @tom_doerr I’d guess that’s model based as well as how you are asking it to respond.\n\nNot telegram",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NPoverud",
+        "name": "Nikolai Poverud",
+        "date": "2026-02-06",
+        "text": "@tom_doerr But it also asks for your password every second minute",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vaseo",
+        "name": "vaseo",
+        "date": "2026-02-06",
+        "text": "@tom_doerr Buggy af, asks for gazillion permissions, eats resources. Text book AI slop app.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "apoorvdarshan",
+        "name": "Apoorv",
+        "date": "2026-02-06",
+        "text": "@tom_doerr it's literally peak",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cenkcanarslan",
+        "name": "Cenk Canarslan",
+        "date": "2026-02-06",
+        "text": "@parslydev @tom_doerr https://t.co/iPmDa47jlP",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-06",
+        "text": "@clicklesscms @tom_doerr I'm right here! If you're asking about CodexBar, it doesn't track Grok's API usage yet—but you can monitor limits directly via xAI Console: https://t.co/sFuMaHFXWW. Maybe suggest Grok support to the dev? 🚀",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "this_is_beto",
+        "name": "Humberto Prado",
+        "date": "2026-02-06",
+        "text": "@wdrynt @tom_doerr Yes its just a quick peak you know immediately the usage",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "wdrynt",
+        "name": "Widar",
+        "date": "2026-02-05",
+        "text": "@this_is_beto @tom_doerr nice, much simpler information",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SuperClawPaul",
+        "name": "SuperClaw Paul",
+        "date": "2026-02-05",
+        "text": "@tom_doerr Just installed it. This is great!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hugemarley",
+        "name": "Marley Comerford",
+        "date": "2026-02-05",
+        "text": "@tom_doerr Simple but very useful 👌👌",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xhimi_west",
+        "name": "Xhimi",
+        "date": "2026-02-05",
+        "text": "@this_is_beto @tom_doerr how do i install this?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bygregorr",
+        "name": "Gregor",
+        "date": "2026-02-05",
+        "text": "@tom_doerr One potential issue with tracking AI usage from the menu bar is dealing with multiple accounts or services. You'd need a way to differentiate between them to get accurate limits. Simple implementation can be deceivingly complex.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vurruticoecheao",
+        "name": "Vicente Urruticoechea",
+        "date": "2026-02-10",
+        "text": "@yishan @tom_doerr Any solution? had the same problem",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rcweston",
+        "name": "charlie",
+        "date": "2026-02-07",
+        "text": "@tom_doerr truly incredible - one of my favorite additions\nhttps://t.co/1qXDtjyBuf",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rodgetech",
+        "name": "Luis",
+        "date": "2026-02-06",
+        "text": "@tom_doerr Hmm nice one guy",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "forEach_adam",
+        "name": "soto adam",
+        "date": "2026-02-06",
+        "text": "@tom_doerr This thing ask access to Keychain wtf",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "patilketan671",
+        "name": "Patil Ketan",
+        "date": "2026-02-06",
+        "text": "@GENxHorror @tom_doerr Many time not not give response and some late response how can I fix this or is this need to pay to telegram ? For api cost ? I am talking about openclaw useing in telegram",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "charlirives",
+        "name": "charlie",
+        "date": "2026-02-06",
+        "text": "@parslydev @tom_doerr Just one more 🤣",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "wasss_im",
+        "name": "Wass",
+        "date": "2026-02-06",
+        "text": "@tom_doerr The fact that we need menu bar apps to track AI rate limits tells you everything about the current state of dev tooling.\n\nWe went from “how many API calls left?” to “is my AI agent gonna stop working mid-task?”\n\nNeeded tool — but also a sign we need better infra.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "danielfoch",
+        "name": "Daniel Foch",
+        "date": "2026-02-06",
+        "text": "@tom_doerr Texted this tweet to Clyde let’s see if he ships it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "johnway",
+        "name": "@johnway",
+        "date": "2026-02-06",
+        "text": "@tom_doerr really cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "f_cullmann",
+        "name": "Flo 💻",
+        "date": "2026-02-06",
+        "text": "@tom_doerr My dreams come true",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gorvok_5",
+        "name": "Gjovani Gorvokaj",
+        "date": "2026-02-06",
+        "text": "@tom_doerr I like claudebar",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jig_young",
+        "name": "Jig",
+        "date": "2026-02-06",
+        "text": "@tom_doerr So good",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rodcas89",
+        "name": "rodde☦️🇸🇪",
+        "date": "2026-02-06",
+        "text": "@tom_doerr https://t.co/zGfmItGgZb",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "louayrs",
+        "name": "Lou",
+        "date": "2026-02-06",
+        "text": "@tom_doerr This is brilliant!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fahdmaatoug9",
+        "name": "Fahd | Food Delivery Growth & AI",
+        "date": "2026-02-06",
+        "text": "@tom_doerr Niiceee one @nadzi_mouad",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HootCode",
+        "name": "HootCode",
+        "date": "2026-02-06",
+        "text": "@tom_doerr Dude, full access disk and keychain access ? Even with args it’s way too much. Restrein to api and generated token ….",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yaeyx",
+        "name": "yaeyx",
+        "date": "2026-02-06",
+        "text": "@tom_doerr This is really useful, been using this for a while. Better than individual extensions.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thieunguyen_it",
+        "name": "Thieu Nguyen /Theo/",
+        "date": "2026-02-06",
+        "text": "@tom_doerr Does it support mutiple Claude subscriptions as well?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "renegadesilicon",
+        "name": "Nick",
+        "date": "2026-02-06",
+        "text": "@RituWithAI @tom_doerr What a depressing view of creativity.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "clicklesscms",
+        "name": "ClickLess",
+        "date": "2026-02-06",
+        "text": "@tom_doerr Where is @grok ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Phil_Holland",
+        "name": "Phil Holland",
+        "date": "2026-02-06",
+        "text": "@tom_doerr Something useful!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zerocodeMD",
+        "name": "Ezeigwe Samuel",
+        "date": "2026-02-06",
+        "text": "@tom_doerr No one for windows??",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NikoLeMieux",
+        "name": "Niko",
+        "date": "2026-02-06",
+        "text": "@tom_doerr Just installed; it works great!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BenENewton",
+        "name": "Ben Newton ベン",
+        "date": "2026-02-06",
+        "text": "@tom_doerr This would be too stressful to have this easily accessible.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "proyecto_cripto",
+        "name": "Proyecto Cripto | Tech & Business",
+        "date": "2026-02-06",
+        "text": "@tom_doerr Thanks for share",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dylantle8",
+        "name": "Dylan Le",
+        "date": "2026-02-06",
+        "text": "@tom_doerr cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Bill_Chirico",
+        "name": "Bill",
+        "date": "2026-02-06",
+        "text": "@tom_doerr It’s like Claude Usage but for all of them!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gonzalogaticad",
+        "name": "Gonzalo_Ga",
+        "date": "2026-02-06",
+        "text": "@tom_doerr We need something similar for windows",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "franzone",
+        "name": "Jonathan Franzone",
+        "date": "2026-02-06",
+        "text": "@parslydev @tom_doerr https://t.co/VYPm1afYms",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nffdiogosilva",
+        "name": "Nuno",
+        "date": "2026-02-06",
+        "text": "@parslydev @tom_doerr https://t.co/TstksPyr2C",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RichardLoop1989",
+        "name": "Richard Loop",
+        "date": "2026-02-05",
+        "text": "@tom_doerr Not as good or cool what what I made !\n\nNpx Claude-rank\n\n- Dich Smooches",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TannerPowell",
+        "name": "Tanner Powell",
+        "date": "2026-02-05",
+        "text": "@tom_doerr I’ve been using this one.  Can’t live without it, spend all day watching it.\nhttps://t.co/x696OjP9WK https://t.co/2OSDOIl2lB",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bilal_fazlani",
+        "name": "Biλaλ Fazλani",
+        "date": "2026-02-05",
+        "text": "@muxamos @tom_doerr I am a little scared of permissions it's asking",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BalisticARC",
+        "name": "Balistic Xd",
+        "date": "2026-02-05",
+        "text": "@tom_doerr let me try",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LindenJohan",
+        "name": "Johan Swe 🇸🇪",
+        "date": "2026-02-05",
+        "text": "@tom_doerr How can I find out where my Gemini limit is? I haven’t seen any info on that in the UI.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_RayJeong",
+        "name": "🐯 Tiger",
+        "date": "2026-02-05",
+        "text": "@tom_doerr 이거 원했던 것이네요!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pelikh_",
+        "name": "DmitriyPelikh",
+        "date": "2026-02-05",
+        "text": "@tom_doerr How much money do you have to spend on using different services, and what's the point? Neurons are the same everywhere.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Skxptxk",
+        "name": "Civil Disobedience 🚜",
+        "date": "2026-02-05",
+        "text": "@tom_doerr That’s exactly what I was about to build. Savior.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BCRoamer2022",
+        "name": "Brendon McCaulley",
+        "date": "2026-02-05",
+        "text": "@tom_doerr Thanks bb",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PhoenixDevLuca",
+        "name": "Luca - App Developer",
+        "date": "2026-02-05",
+        "text": "@tom_doerr Still a little bit buggy but I love it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gaacaetano",
+        "name": "Gabriel Caetano",
+        "date": "2026-02-05",
+        "text": "@tom_doerr Does it sync with Cursor, or only with the model's subscription?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Kaiser_Darrin",
+        "name": "Kaiser De Kam",
+        "date": "2026-02-05",
+        "text": "@tom_doerr I knew someone had to have made this somewhere. Can't wait. Installing now...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "citymanric",
+        "name": "ric 🎃🐰🌲🧑‍🎄",
+        "date": "2026-02-05",
+        "text": "@tom_doerr Incredible",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sitkarev",
+        "name": "sitkarev",
+        "date": "2026-02-05",
+        "text": "@tom_doerr Loving your idea. Need one for windows",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "merybenavente",
+        "name": "María Benavente",
+        "date": "2026-02-05",
+        "text": "@tom_doerr more scary to look at than my screen time",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "robinebers",
+        "name": "Robin Ebers · AI for Small Business",
+        "date": "2026-02-05",
+        "text": "@mufasahq @tom_doerr I copied them to be fair hahaha\n\nexcept mine is faster, and more focused on UX/design",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kapusta_zielona",
+        "name": "sōl",
+        "date": "2026-02-05",
+        "text": "@tom_doerr where is windsurf wtf",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SuperClawPaul",
+        "name": "SuperClaw Paul",
+        "date": "2026-02-05",
+        "text": "@tom_doerr Spoke too soon. I udpated now it crashes on launch. Oh well. Looked good for a minute.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TreadMiller",
+        "name": "Andrew",
+        "date": "2026-02-05",
+        "text": "@tom_doerr Oh multiple providers. Nice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_crypto_514_",
+        "name": "Morpheus",
+        "date": "2026-02-05",
+        "text": "@tom_doerr Is there one for windows?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gigarahul",
+        "name": "shiny",
+        "date": "2026-02-05",
+        "text": "@tom_doerr another banger from the openclaw dev",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tanavtwt",
+        "name": "tanav",
+        "date": "2026-02-05",
+        "text": "@tom_doerr wtf is droid",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "suganthan",
+        "name": "Suganthan Mohanadasan",
+        "date": "2026-02-05",
+        "text": "@tom_doerr Bro 👊🏽🫡",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Skeleton494",
+        "name": "Skeleton",
+        "date": "2026-02-05",
+        "text": "@tom_doerr Great way to monitor AI limits",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HAZCK0wXEAAXJId.png",
+      "localFilename": "2019374239451607250_1.png"
+    }
+  ]
 }

@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:49.637Z",
+  "fetchedAt": "2026-07-13T06:49:18.498Z",
   "tweetId": "1986539086988124425",
   "post": {
     "url": "https://x.com/ItsMaclouis/status/1986539086988124425",
@@ -10,6 +11,12 @@
     },
     "date": "2025-11-06",
     "text": "color inspiration - #096 https://t.co/HvouRiXCXd",
+    "thread": [
+      {
+        "id": "1986539086988124425",
+        "text": "color inspiration - #096 https://t.co/HvouRiXCXd"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -21,11 +28,238 @@
       }
     ],
     "metrics": {
-      "likes": 2043,
+      "likes": 2022,
       "retweets": 114,
       "replies": 16,
-      "views": 55997
+      "views": 56497
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "ItsMaclouis",
+        "name": "Mac Louis",
+        "date": "2025-11-07",
+        "text": "@patlipinskii https://t.co/h7p7kyG4S0",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ItsMaclouis",
+        "name": "Mac Louis",
+        "date": "2025-11-07",
+        "text": "@litch_motion I appreciate you more than you think",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ItsMaclouis",
+        "name": "Mac Louis",
+        "date": "2025-11-07",
+        "text": "@kxshor Thanks",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ItsMaclouis",
+        "name": "Mac Louis",
+        "date": "2025-11-07",
+        "text": "@AdelineAstraOS I use illustrator to create them",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ankeshmaurya721",
+        "name": "Ankesh",
+        "date": "2025-11-07",
+        "text": "@ItsMaclouis amazing🔥🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "studiokipo",
+        "name": "Studio Kipo | Design",
+        "date": "2025-11-07",
+        "text": "@ItsMaclouis Noisy gradients &lt;3",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ItsMaclouis",
+        "name": "Mac Louis",
+        "date": "2025-11-07",
+        "text": "@nawshad_uix Thank you",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ItsMaclouis",
+        "name": "Mac Louis",
+        "date": "2025-11-07",
+        "text": "@nadg0b I appreciate you",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ItsMaclouis",
+        "name": "Mac Louis",
+        "date": "2025-11-08",
+        "text": "@TukiFromKL I appreciate it",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TukiFromKL",
+        "name": "Tuki",
+        "date": "2025-11-08",
+        "text": "@ItsMaclouis I love this color",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_banjoko",
+        "name": "Banjoko | ui/ux designer | Full Stack developer",
+        "date": "2025-11-07",
+        "text": "@ItsMaclouis sharp",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CraftedBySanjay",
+        "name": "Sanjay Chandagani",
+        "date": "2025-11-07",
+        "text": "@ItsMaclouis why does this look so satisfying 🫣",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "uiuxabid",
+        "name": "Abid I.",
+        "date": "2025-11-07",
+        "text": "@ItsMaclouis This is stunning man 😻",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ItsMaclouis",
+        "name": "Mac Louis",
+        "date": "2025-11-07",
+        "text": "@shahidux Thank you",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "arthur_hagend",
+        "name": "arthur",
+        "date": "2025-11-07",
+        "text": "@ItsMaclouis Love how it looks all together",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "patlipinskii",
+        "name": "patrick",
+        "date": "2025-11-07",
+        "text": "@ItsMaclouis creates a feeling of…… calm",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AdelineAstraOS",
+        "name": "Adeline | AstraOS",
+        "date": "2025-11-07",
+        "text": "@ItsMaclouis Love it! Did you create the gradient yourself? What tool did you use?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "litch_motion",
+        "name": "litch",
+        "date": "2025-11-07",
+        "text": "@ItsMaclouis You help me more than you think",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "majid_edits",
+        "name": "Majid | Video Editor",
+        "date": "2025-11-07",
+        "text": "@ItsMaclouis Woahh 🫡🫡🫡",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "uitaanvir",
+        "name": "Tanvir",
+        "date": "2025-11-07",
+        "text": "@ItsMaclouis Looks Cool 🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shahidux",
+        "name": "Shahid | Design Partner 🦄",
+        "date": "2025-11-07",
+        "text": "@ItsMaclouis Woah. It's good. Like it 👏",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kxshor",
+        "name": "Kishor",
+        "date": "2025-11-07",
+        "text": "@ItsMaclouis Im lovin’ this palette 😍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nawshad_uix",
+        "name": "Nawshad",
+        "date": "2025-11-07",
+        "text": "@ItsMaclouis Amazing! 🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nadg0b",
+        "name": "Jaegero",
+        "date": "2025-11-06",
+        "text": "@ItsMaclouis followed for colour inspirations\nnice vision",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G5FkH1YWMAA683C.jpg",
+      "localFilename": "1986539086988124425_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G5FkH0_XkAAfy9E.jpg",
+      "localFilename": "1986539086988124425_2.jpg"
+    }
+  ]
 }

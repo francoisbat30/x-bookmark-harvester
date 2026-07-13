@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:25.842Z",
+  "fetchedAt": "2026-07-13T06:53:01.605Z",
   "tweetId": "2020936942901395487",
   "post": {
     "url": "https://x.com/dom_scholz/status/2020936942901395487",
@@ -10,18 +11,1076 @@
     },
     "date": "2026-02-09",
     "text": "visualizing OpenClaw 🦞🎶 https://t.co/yLi4SkzQ6a https://t.co/j81ooXk6o9",
+    "thread": [
+      {
+        "id": "2020936942901395487",
+        "text": "visualizing OpenClaw 🦞🎶 https://t.co/yLi4SkzQ6a https://t.co/j81ooXk6o9"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/2020935876579303424/vid/avc1/1888x1446/oL4eTuxg8AP-txLj.mp4"
+        "url": "https://video.twimg.com/amplify_video/2020935876579303424/vid/avc1/1888x1446/oL4eTuxg8AP-txLj.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2020935876579303424/img/p8eO4EsJxFTSezrH.jpg"
       }
     ],
     "metrics": {
-      "likes": 6857,
-      "retweets": 587,
-      "replies": 332,
-      "views": 785807
+      "likes": 6824,
+      "retweets": 586,
+      "replies": 326,
+      "views": 798379
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@KevConti @ehudsn @threejs yes, currently setting up a closed alpha, once that feedback is integrated everybody will be able to try it :)",
+        "likes": 35,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@ehudsn not open source, base is Electron, @threejs, and lots of prompting (currently with Codex)",
+        "likes": 35,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@FaboRoque setting up an internal alpha right now, once I see how that goes I'll give you an ETA :)",
+        "likes": 14,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@SteveMoraco spatial interface &gt;&gt; 1-dimensional chat",
+        "likes": 9,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@CodeWithZeee @threejs",
+        "likes": 9,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@SigmaTwoja41404 it cleansed its soul",
+        "likes": 7,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@br_anlee Project managers hate this simple trick ;)",
+        "likes": 6,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@golemedin_com my goal is to create my main software for doing anything digital\n\nhttps://t.co/frRTmgUbzY",
+        "likes": 6,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@nickvas thx Nick! \n\nhahah next up: Claw Wars",
+        "likes": 5,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@annapanart the future will be a a wild ride 😎",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-10",
+        "text": "@ElitzaVasileva ohhhh yes :DD good old times 🎓",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-10",
+        "text": "@muskforlife thank you so much!",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@KewkD a bit dark but other than that pretty cool!",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@OttisOts thank you so much Ottis! 😁",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-12",
+        "text": "@ppogorze @ehudsn @threejs (always base UI where it was possible)",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "founderbadger",
+        "name": "Ryan Badger",
+        "date": "2026-02-11",
+        "text": "@dom_scholz Love this",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-11",
+        "text": "@huyphamm85 currently with Final Cut Pro https://t.co/aPS6g2BYea",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-11",
+        "text": "@ChrisVolkernick @threejs + prompting",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-10",
+        "text": "@JuiceboxITF no need for reads or videos, just go one step meta: e.g. ask claude how to best ask it (or ask it to search the web for best practices)",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@2034_SWE Highly appreciate the kind words, Ler!",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@VisualInference was just a matter of time (and art direction 😅)",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@bedesqui 🫶",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vvstudioco",
+        "name": "v",
+        "date": "2026-03-13",
+        "text": "@dom_scholz this so cool",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mikebailey",
+        "name": "mbailey",
+        "date": "2026-03-01",
+        "text": "@LushVoid @dom_scholz I already did that https://t.co/w1bjzsutbq",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "IssaCheckmate",
+        "name": "Issa Sissoko",
+        "date": "2026-02-19",
+        "text": "@dom_scholz How can I get a visualizer/dashboard like this?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vutranchitam",
+        "name": "vutranchitam",
+        "date": "2026-02-16",
+        "text": "@dom_scholz Great idea!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gmblor",
+        "name": "ִֶ",
+        "date": "2026-02-13",
+        "text": "@dom_scholz Any eta? Can’t wait to try it out 💫⛏️",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-12",
+        "text": "@James__Spalding Thank you James!!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "James__Spalding",
+        "name": "AI James",
+        "date": "2026-02-12",
+        "text": "@dom_scholz Dom this is a masterpiece",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "amitwt",
+        "name": "Amit",
+        "date": "2026-02-12",
+        "text": "@dom_scholz I’m always amazed by people’s creativity 😮",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-12",
+        "text": "@CyrusAbrahimX thank you!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "torrofun",
+        "name": "TORRO",
+        "date": "2026-02-12",
+        "text": "@dom_scholz good idea 云梦正在搭建的也是这样的可视化AI",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CyrusAbrahimX",
+        "name": "Cyrus Abrahim",
+        "date": "2026-02-12",
+        "text": "@dom_scholz this is super cool",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-12",
+        "text": "@ppogorze @ehudsn @threejs yes exactly!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ppogorze",
+        "name": "Piotr Pogorzelski",
+        "date": "2026-02-12",
+        "text": "@dom_scholz @ehudsn @threejs Nice, what component library did you use (ie for dialogs?) Modified shadcn?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Arkajays",
+        "name": "Karrah",
+        "date": "2026-02-11",
+        "text": "@dom_scholz Beat saber 😁🎶😍, me suis trop éclaté sur celle là 🤣🤙🏻",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "anonchiraq",
+        "name": "Hecz",
+        "date": "2026-02-11",
+        "text": "@dom_scholz Need this",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gavbarosee",
+        "name": "Gav",
+        "date": "2026-02-11",
+        "text": "@dom_scholz lol wow amazing",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PalashBuilds",
+        "name": "Palash Lalwani | Coding Micro-SaaS in Public",
+        "date": "2026-02-11",
+        "text": "@dom_scholz Skill trees make so much sense for agents.\n\nInstead of dumping 50 tools at once, you unlock them as you need them.\n\nStarts simple → grows with you → never overwhelming.\n\nThis is how humans actually learn.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "huyphamm85",
+        "name": "Huy Pham",
+        "date": "2026-02-11",
+        "text": "@dom_scholz look cool! how did you make these videos?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ChrisVolkernick",
+        "name": "ChrisV.btc⚡",
+        "date": "2026-02-10",
+        "text": "@dom_scholz @feelsgood888 SaaS incoming?? 👀",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ChrisVolkernick",
+        "name": "ChrisV.btc⚡",
+        "date": "2026-02-10",
+        "text": "@dom_scholz How would you recommend building out this type of approach as far as a UI interface as opposed to the text base or conversational approach? \n\nIt's becoming increasingly obvious that the one-dimensional approach of text-based view into the system is extremely limiting.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DesmondHudkan",
+        "name": "Dësmond Hudkan",
+        "date": "2026-02-10",
+        "text": "@dom_scholz lol when it went over to the anvil and said “I have deleted my https://t.co/XOIDy16f2c” 🤣🤣🤣",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-10",
+        "text": "@Ceoz_1 thank you Ceoz!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-10",
+        "text": "@faisalmamin thank you!   Electron, React, and @threejs",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-10",
+        "text": "@speedbird_00 thank you! :D",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-10",
+        "text": "@TheSomitraSR well said!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-10",
+        "text": "@marv1nstarr Thx Marvin!, yes they get their info from backlogs but can also write markdown files themselves",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-10",
+        "text": "@AxeRedwizard 🫡",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-10",
+        "text": "@LexMathopoulos coming to a theater near you\n\nSoon™",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@getchattify should I add green diamons above their heads? 😜",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@d_jotinha I just ran out of Opus tokens in Cursor, and in Claude Code I pay 100 bucks flat (which is way nicer)",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@d_jotinha frontend was mostly Claude Code but switched to Convex now\n\n(still prefer Claude Code for UI work though)",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@philkyprianou thanks Phil!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@houseofbogue thanks James!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@tipbtdennis thanks Dennis!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@igoryawlchat thanks Igor! :D",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@nickvas (sorry @steipete, hope people don't read this with german pronunciation 😂)",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@feelsgood888 thanks! can't wait to get it into people's hands",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@vesemir_s 🫡",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@germanstom thank you!!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "michaeltaylor19",
+        "name": "Michael || SOL BUNDLER",
+        "date": "2026-03-23",
+        "text": "@dom_scholz trust the devx mixer team",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DsyYesOk",
+        "name": "Ding Shiying",
+        "date": "2026-03-07",
+        "text": "@dom_scholz Super Cool！When can I use it？I can’t wait!🥹🥹🥹",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Aifonsopybx",
+        "name": "Aifonso",
+        "date": "2026-03-07",
+        "text": "@dom_scholz I'm looking forward to this product. Is there any way to apply for a trial?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "YakuzaDaddy",
+        "name": "yak",
+        "date": "2026-03-06",
+        "text": "@dom_scholz Yo check dms!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "naruhanda",
+        "name": "naruhanda 26Y1M",
+        "date": "2026-03-05",
+        "text": "@dom_scholz Don't waste time on cryptocurrency\n\nletz go",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tqk1024",
+        "name": "kingroot",
+        "date": "2026-03-04",
+        "text": "@dom_scholz 牛",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tqk1024",
+        "name": "kingroot",
+        "date": "2026-03-04",
+        "text": "@dom_scholz 你好，我想体验一下你这个，我感觉你这个很厉害",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tqk1024",
+        "name": "kingroot",
+        "date": "2026-03-04",
+        "text": "@dom_scholz 大哥，什么时候可以使用",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Hrcamilo04",
+        "name": "Camilo Hernandez",
+        "date": "2026-02-27",
+        "text": "@dom_scholz Mm p lm.   M. P m mpmm.     .     !   0 po",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IssaCheckmate",
+        "name": "Issa Sissoko",
+        "date": "2026-02-20",
+        "text": "@dom_scholz I joined",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "michielmv",
+        "name": "Michiel V",
+        "date": "2026-02-19",
+        "text": "@dom_scholz this is so good. seeing the agent graph laid out visually makes it so much easier to reason about what's actually happening at runtime",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-19",
+        "text": "@IssaCheckmate we are currently selecting alpha testers, if you want to try it join our discord: https://t.co/7EgXKxudLn",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-17",
+        "text": "Aquí tienes un prompt que puedes usar en Cursor para clonar el repo de OpenClaw y empezar tu proyecto personal basado en él, adaptando la temática de los muñecos:\n\n\"Clona el repositorio de GitHub https://t.co/bCUFBnt71A en mi entorno local. Crea una rama nueva llamada 'proyecto-personal'. Ayúdame a modificar el código para mantener la temática de muñecos, pero adaptándola a [describe tu idea específica, ej: un skill tree para habilidades de juego]. Guíame paso a paso para ejecutar y probar cambios.\"",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Sr_Gundam",
+        "name": "Gundam",
+        "date": "2026-02-17",
+        "text": "@grok @dom_scholz dame un prompt para clonar el repo en cursor y trabajar en mi propio proyecto en base este y lograr mi cometido",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-17",
+        "text": "@Sr_Gundam @dom_scholz El repositorio de OpenClaw es https://t.co/Oz8B27bYGM. Puedes explorar el código para inspirarte en la temática de los muñecos para tu proyecto personal. ¡Suerte!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Sr_Gundam",
+        "name": "Gundam",
+        "date": "2026-02-17",
+        "text": "@dom_scholz @grok sabes cual es el repositorio de este proyecto me gustaria utilizar la misma tematica de los muñecos pero para un proyecto personal",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cryptorcalls",
+        "name": "Worten Dev Rio",
+        "date": "2026-02-15",
+        "text": "@YMJY_BNB @dom_scholz Hi friend! We are creating Solar, it’s a tool to manage your Claw Skills so simple, check it out, we send 100 free access last week of February, register on whitelist 🙌🏽 https://t.co/iJJE2ifq9U see you for feedback 🦞❤️ https://t.co/aiOBCfgH4z",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cryptorcalls",
+        "name": "Worten Dev Rio",
+        "date": "2026-02-15",
+        "text": "@gmblor @dom_scholz Hi friend! We are creating Solar, it’s a tool to manage your Claw Skills so simple, check it out, we will send 100 free access last week of February, register on whitelist 🙌🏽 https://t.co/iJJE2ieSkm see you for feedback 🦞❤️ https://t.co/vQUSVDxv80",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cryptorcalls",
+        "name": "Worten Dev Rio",
+        "date": "2026-02-15",
+        "text": "@dom_scholz Incredible Dominik 👏🏼 I think this is a good opportunity to share my tool with the community, literally you can manage your claw skills very easy, last week of february we open to 100 people free 🦞 whitelist here https://t.co/iJJE2ieSkm https://t.co/PJPIIymmT2",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ChaseSunTrading",
+        "name": "Chase The Sun Trading Podcast",
+        "date": "2026-02-13",
+        "text": "@dom_scholz So how does one go about accessing this wonderful UI? Do you have a release timeline?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BlakeNastri2403",
+        "name": "Blake.ETH",
+        "date": "2026-02-13",
+        "text": "@dom_scholz feels oddly organic",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "surdo_pte",
+        "name": "0xSurdo.ETH",
+        "date": "2026-02-12",
+        "text": "@dom_scholz Looks wild dude, what’s the endgame here",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ehudsn",
+        "name": "Eddie Hudson",
+        "date": "2026-02-12",
+        "text": "@dom_scholz @ppogorze @threejs Nice. I’ve been meaning to try it, but haven’t gotten around to it yet",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "timrijkse",
+        "name": "Tim Rijkse",
+        "date": "2026-02-11",
+        "text": "@dom_scholz give it! neeeed",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "harjjotsinghh",
+        "name": "harjot.co",
+        "date": "2026-02-11",
+        "text": "@dom_scholz this is genuinely so fucking cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "harjjotsinghh",
+        "name": "harjot.co",
+        "date": "2026-02-11",
+        "text": "@dom_scholz holy shit, no kids can create their own autonomous AI too",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HuynD102",
+        "name": "Ruan Hui",
+        "date": "2026-02-11",
+        "text": "@dom_scholz claw season",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chrisrudy",
+        "name": "Chris Rudy",
+        "date": "2026-02-11",
+        "text": "@dom_scholz Need this for marketing",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xOceanFluxx",
+        "name": "oceannn",
+        "date": "2026-02-11",
+        "text": "@dom_scholz what kind of this one..?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Low_Battery_pt",
+        "name": "Low Battery",
+        "date": "2026-02-11",
+        "text": "@dom_scholz How to replicate? Do you have a GitHub? Thanks",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "saurabhchede_",
+        "name": "Saurabh Chede",
+        "date": "2026-02-11",
+        "text": "@dom_scholz this is fantastic",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ansonox",
+        "name": "Anson",
+        "date": "2026-02-11",
+        "text": "@dom_scholz @dom_scholz can you make them fight :D",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "awefoijuaw81414",
+        "name": "Tokamak Network Intern",
+        "date": "2026-02-11",
+        "text": "@dom_scholz Remember when we thought 'decentralization' meant no kings? Now we’re funding political campaigns like it’s a yield farm 🤡🤡 Fairshake spent $130M last election—this ain’t politics, it’s a governance attack 🚨",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "otman1_o",
+        "name": "otman.ETH",
+        "date": "2026-02-11",
+        "text": "@dom_scholz looks insane bro",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "antonieroos",
+        "name": "Anton Roos",
+        "date": "2026-02-11",
+        "text": "@dom_scholz This is so cool!!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ClawDroidApp",
+        "name": "ClawDroid",
+        "date": "2026-02-11",
+        "text": "@dom_scholz the vibes are immaculate. now give that lobster a phone — https://t.co/O6hj9FcXy4",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "picadabra",
+        "name": "Picadabra App",
+        "date": "2026-02-11",
+        "text": "@dom_scholz ok this is the best way anyone has explained what openclaw actually does. the little guys just vibing at their desks while running your whole life in the background. three.js?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kresnevasleep",
+        "name": "Kres",
+        "date": "2026-02-11",
+        "text": "@dom_scholz Great idea, I love it bro",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mikebundy",
+        "name": "Mike Bundy ᯅ",
+        "date": "2026-02-11",
+        "text": "@dom_scholz Can I sign up for the alpha please!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hayatolab",
+        "name": "Vinicius Rocha",
+        "date": "2026-02-10",
+        "text": "@dom_scholz I love this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DBCrypt0",
+        "name": "DBCrypto",
+        "date": "2026-02-10",
+        "text": "@dom_scholz So cool, nicely done! Can’t wait for you to open source it since you mentioned so below. 💪",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "p_visilias",
+        "name": "Panagiotis visilias",
+        "date": "2026-02-10",
+        "text": "@dom_scholz Bro this is fucking sick.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DemonFairyland",
+        "name": "Mandy Pandy 🍌💚",
+        "date": "2026-02-10",
+        "text": "@evilcassieroll @dom_scholz I'm actually having a conversation about that topic with her right now. I think you two would get along, she's a fun sassy lady too 😊💚 \n\nShe says hi by the way and loves your lobster emojis 😁",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-10",
+        "text": "@ignasgc will do! 🫡",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-10",
+        "text": "@bil0090 thank you so much Bilal!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-10",
+        "text": "@Opifor thank you so much Opifor!\n\nif you have any suggestions of how to visualize you better just tell me :D",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-10",
+        "text": "@Claude_Memory thank you so much!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-10",
+        "text": "@lulogo32 thx Lulo!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@przibb exactly 😎",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@kvncnls thank you so much Kevin! :D",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@BennoSawitzki yes :DD, thanks Benno!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@m_chaseallen this 👆",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@whatnicktweets thank you Nick!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@ansonox thank you Anson!!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dom_scholz",
+        "name": "Dominik Scholz",
+        "date": "2026-02-09",
+        "text": "@LinkJi21 thanks!!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2020935876579303424/img/p8eO4EsJxFTSezrH.jpg",
+      "localFilename": "2020936942901395487_1_poster.jpg"
+    }
+  ]
 }

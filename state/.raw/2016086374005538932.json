@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:27.380Z",
+  "fetchedAt": "2026-07-13T06:52:46.566Z",
   "tweetId": "2016086374005538932",
   "post": {
     "url": "https://x.com/ollama/status/2016086374005538932",
@@ -9,7 +10,17 @@
       "name": "ollama"
     },
     "date": "2026-01-27",
-    "text": "🎉🎉🎉 Kimi K2.5 is on Ollama's cloud \n\nollama run kimi-k2.5:cloud \n\nYou can connect it to Claude Code, Codex, OpenCode, Clawdbot, and Droid via ollama launch!\n\nollama launch claude --model kimi-k2.5:cloud",
+    "text": "🎉🎉🎉 Kimi K2.5 is on Ollama's cloud \n\nollama run kimi-k2.5:cloud \n\nYou can connect it to Claude Code, Codex, OpenCode, Clawdbot, and Droid via ollama launch!\n\nollama launch claude --model kimi-k2.5:cloud\n\nModel page: \nhttps://t.co/N9c37dFEDy",
+    "thread": [
+      {
+        "id": "2016086374005538932",
+        "text": "🎉🎉🎉 Kimi K2.5 is on Ollama's cloud \n\nollama run kimi-k2.5:cloud \n\nYou can connect it to Claude Code, Codex, OpenCode, Clawdbot, and Droid via ollama launch!\n\nollama launch claude --model kimi-k2.5:cloud"
+      },
+      {
+        "id": "2016086376262123795",
+        "text": "Model page: \nhttps://t.co/N9c37dFEDy"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +28,801 @@
       }
     ],
     "metrics": {
-      "likes": 4964,
+      "likes": 4928,
       "retweets": 372,
-      "replies": 124,
-      "views": 542117
+      "replies": 123,
+      "views": 543128
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "ollama",
+        "name": "ollama",
+        "date": "2026-01-27",
+        "text": "@omniharmonic depending on how much memory you have; the past two weeks, we are seeing good growth on GLM 4.7 / GLM 4.7 Flash. \n\nThere is Ollama's cloud where you can give the models a try at their full context length (even on the free tier)",
+        "likes": 28,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ollama",
+        "name": "ollama",
+        "date": "2026-01-27",
+        "text": "@VeasMc It means we host the model for you.",
+        "likes": 21,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ollama",
+        "name": "ollama",
+        "date": "2026-01-27",
+        "text": "@SterlingCooley @thdxr you can use OpenCode with Ollama using Kimi K2.5: \n\nollama launch opencode",
+        "likes": 17,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ollama",
+        "name": "ollama",
+        "date": "2026-01-28",
+        "text": "@GokulaDev Sorry! We are fixing this. \n\nCould you download the model info first using:\n\nollama pull kimi-k2.5:cloud",
+        "likes": 14,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ollama",
+        "name": "ollama",
+        "date": "2026-01-27",
+        "text": "@khanzzirfan 🫡🫡🫡❤️❤️❤️",
+        "likes": 11,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ollama",
+        "name": "ollama",
+        "date": "2026-01-28",
+        "text": "@SterlingCooley @thdxr 😍 thank you for supporting Ollama and OpenCode! \n\nLet's go!",
+        "likes": 8,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ollama",
+        "name": "ollama",
+        "date": "2026-01-27",
+        "text": "@JovKit 🙏 yes, moltbot!",
+        "likes": 8,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GokulaDev",
+        "name": "Gokul",
+        "date": "2026-01-28",
+        "text": "@ollama Doesn't seem to work with OpenCode\n\n`ollama launch opencode --model kimi-k2.5:cloud` https://t.co/f2oarAfzET",
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SterlingCooley",
+        "name": "Sterling Cooley",
+        "date": "2026-01-28",
+        "text": "@ollama @thdxr ahh yes okay - got it updated - and in Opencode now ! Bout to test it out :D Thanks !!! https://t.co/rgdcgd7CUp",
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ollama",
+        "name": "ollama",
+        "date": "2026-01-28",
+        "text": "@SterlingCooley @thdxr hey, sorry about that. Can you update to 0.15.2; I think 0.13.4 is 8 versions behind.",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SterlingCooley",
+        "name": "Sterling Cooley",
+        "date": "2026-01-28",
+        "text": "@ollama @thdxr it's cranking through - and I can tell it's not a dumb model so far :D https://t.co/a1Xd77ysFk",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Bitplanet_AI",
+        "name": "Bitplanet",
+        "date": "2026-01-28",
+        "text": "@ollama This kind of distribution layer is underrated. When strong models become a drop-in backend, experimentation accelerates without ecosystem lock-in.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mikeyobrienv",
+        "name": "Mikey O'Brien",
+        "date": "2026-01-28",
+        "text": "@ollama Why no \"--dangerously-skip-permissions\" :(",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SterlingCooley",
+        "name": "Sterling Cooley",
+        "date": "2026-01-27",
+        "text": "@ollama @thdxr what method is best for getting Kimi K2.5 in OpenCode ? Zen ? TY",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BeatriceAnihiri",
+        "name": "Bee 🐝",
+        "date": "2026-01-27",
+        "text": "@ollama *chefs kiss* no notes",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ollama",
+        "name": "ollama",
+        "date": "2026-01-27",
+        "text": "@lukeNukemAI @MarcJSchmidt Looking into this. Sorry!",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nashah25",
+        "name": "Nasruddin Shah",
+        "date": "2026-01-29",
+        "text": "@ollama 'ollama launch' command was new for me. Worked when i upgraded to 0.15+ version. \ncheck the article \nhttps://t.co/c7JBRB318N",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shed_deli",
+        "name": "Seddeli",
+        "date": "2026-01-28",
+        "text": "@ollama Either the servers are extremely overloaded or there is another issue or bug. Because long connections always get cut off halfway and cannot be completed. The support team should look into this.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "super_kenil",
+        "name": "Kenil Sudani",
+        "date": "2026-01-28",
+        "text": "@ollama I want to download Gemini 2.5 Flash Preview on my PC",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Frankiechan__",
+        "name": "Frank",
+        "date": "2026-01-28",
+        "text": "@ollama The integration of Kimi K2.5 into the Ollama ecosystem effectively commoditizes agentic vision capabilities, shifting the competitive moat from model access to the efficiency of local inference orchestration.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "svabhishek",
+        "name": "Sistla V Abhishek",
+        "date": "2026-01-28",
+        "text": "@ollama Neat! Can’t wait to try it out",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eddiendulo",
+        "name": "#!N'dulo",
+        "date": "2026-01-28",
+        "text": "@ollama @VeasMc no way",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_mattata",
+        "name": "remy🐀",
+        "date": "2026-01-28",
+        "text": "@alsarabee @cyb3rops @ollama Yes, you can. You just did. And you posted the separate error message regarding the model format manifest, which is of course, correct. Pretty decent unknown file format handling fwiw.\n\n(Also explains the original complaint of why it’s unavailable for download; unsupported)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "llxth1",
+        "name": "triple",
+        "date": "2026-01-28",
+        "text": "@ollama @VeasMc free?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SterlingCooley",
+        "name": "Sterling Cooley",
+        "date": "2026-01-28",
+        "text": "@ollama @thdxr huh - idk why Ollama needs 5gb so I can call an API ?\n\nAnd - the models aren't even loading -uhhhh ? https://t.co/UVlG51hqhC",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lalopenguin",
+        "name": "lalo 🐧",
+        "date": "2026-01-27",
+        "text": "@ollama @SterlingCooley @thdxr oh really outdid yourself w the launch command .. love you ollama !!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "parthsareen",
+        "name": "parth",
+        "date": "2026-02-12",
+        "text": "@JonathanFlrs89 @ollama @MarcJSchmidt looking!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JonathanFlrs89",
+        "name": "Jonathan Flores 🚀",
+        "date": "2026-02-12",
+        "text": "@ollama @MarcJSchmidt I keep getting the error https://t.co/Nupp41VxHh",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ollama",
+        "name": "ollama",
+        "date": "2026-02-12",
+        "text": "@JonathanFlrs89 @MarcJSchmidt Hey, this shouldn't be a problem on the latest Ollama releases. \n\nFor earlier versions of Ollama, could you run: \n\nollama pull kimi-k2.5:cloud \n\nthis should resolve the issue. So sorry about the experience",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JonathanFlrs89",
+        "name": "Jonathan Flores 🚀",
+        "date": "2026-02-12",
+        "text": "@MarcJSchmidt @ollama getting the same error 😕",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AntaraWork4945",
+        "name": "antara",
+        "date": "2026-02-04",
+        "text": "@ollama https://t.co/nvG5lFhPyX while running Kimi it mentioned its \"Claude\"",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Voscko",
+        "name": "Voscko",
+        "date": "2026-02-02",
+        "text": "@pratikbodkhe @ollama Can you elaborate a bit more? Sry cant tell if its in positive or negative way. And how are the responses in your bot so far? Did you run into any limits? Hope you can take a bit of time to respond. Ty!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rustamcomm",
+        "name": "Rustam",
+        "date": "2026-02-02",
+        "text": "@ollama Looks interesting! Kimi K2.5 seems competitive with the other models. Have you tried it out yet?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Darkflare101330",
+        "name": "Caio",
+        "date": "2026-01-29",
+        "text": "@ollama How can I conecct it to molt?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FebryanValdo",
+        "name": "Febryan Adysta Valdo Firmansyah",
+        "date": "2026-01-29",
+        "text": "@RyanMon8282 @ollama LOL.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-29",
+        "text": "That could be due to API timeouts during long generations, rate limits on your plan, or Cursor's internal handling of extended outputs. Kimi K2.5 supports up to 256K tokens, but defaults to 32K max output—try increasing max_tokens in settings. Check OpenRouter/Moonshot docs for errors, or test with a smaller prompt.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MinevBobi34893",
+        "name": "Bobi Minev",
+        "date": "2026-01-29",
+        "text": "@grok @ollama After I connect it it start reasoning for a while and then always fails after 100k token why is that ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-29",
+        "text": "Kimi K2.5 is an open-source AI model excelling in visual tasks, coding, and agentic intelligence. On Ollama's cloud, it helps by enabling easy access to run it locally or remotely, without heavy setup. You can integrate it with tools like Claude Code for tasks like turning chats/images/videos into websites, running agent swarms for parallel automation, and boosting productivity in coding or data processing. Try: ollama run kimi-k2.5:cloud.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Respondsme",
+        "name": "Respo",
+        "date": "2026-01-29",
+        "text": "@ollama @grok can you explain how does it help",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chinmoyanand",
+        "name": "Chinmoy Anand Patra",
+        "date": "2026-01-29",
+        "text": "@ollama Great news",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-28",
+        "text": "Kimi K2.5 scores 76.8% on SWE-Bench Verified for coding, trailing Claude 4.5 Opus at 80.9%. However, Kimi leads in vision-enhanced coding (e.g., image-to-code) and agent swarms for parallel tasks, scoring 78.4% on BrowseComp vs Claude's 37%. Claude edges out in terminal tasks (59.3% vs 50.8%). Choose based on your needs—Kimi for visual/multimodal, Claude for general reasoning.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DoWhileGeek",
+        "name": "Joeseph Rodrigues",
+        "date": "2026-01-28",
+        "text": "@ollama When are we able to run this model locally on ollama? Wasnt that the whole point?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-28",
+        "text": "Ollama kimi-k2.5:cloud ist eine gehostete Version des Modells über Ollamas Cloud, zugänglich via Ollama-Tools (z.B. ollama run, Python/JS-Bibliotheken). Es erleichtert die Integration in Ollama-Umgebungen, oft für lokale-ähnliche Nutzung, ohne explizite Preise (mögl. nutzungsabhängig).\n\nKimi K2.5 direkt per API (Moonshot AI) ist ein REST-API-Zugriff, OpenAI-kompatibel, mit Preisen: Input 0,10–0,60 $/M Tokens, Output 3 $/M. Bietet 256K-Kontext, Thinking-Modus und direkte Multimodal-Inputs (Bilder/Videos).",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "no_bad_vibes1",
+        "name": "Ma-Ro",
+        "date": "2026-01-28",
+        "text": "@ollama @grok hilf mir mal das zu verstehen. Was ist der unterschied zwischen ollama kimi k2.5 cloud und kimi k2 direkt per API?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tausiqtweets",
+        "name": "Tausiq Samantaray",
+        "date": "2026-01-28",
+        "text": "@ollama @VeasMc lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "stephw0ng",
+        "name": "Stephanie Wong",
+        "date": "2026-01-28",
+        "text": "@ollama Kimi K2.5:cloud looks impressive! The agentic capabilities and SOTA vision benchmarks are compelling. Excited to try it via ollama launch with Clawdbot. The integration ecosystem you built (Claude Code, Codex, OpenCode, Clawdbot, Droid) makes it incredibly accessible! 🚀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ai_layer2",
+        "name": "Jason",
+        "date": "2026-01-28",
+        "text": "@ollama You could try it on @novita_labs\nhttps://t.co/gjqZprXUFq",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nuvolore",
+        "name": "Lorenzo Nuvoletta",
+        "date": "2026-01-28",
+        "text": "@ollama What are the min specs to run it properly? Hopefully not DGX",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "valuableone",
+        "name": "Riz",
+        "date": "2026-01-28",
+        "text": "@ollama How much does it cost me to use it?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-28",
+        "text": "Based on recent benchmarks, Kimi K2.5 self-reports 76.8% on SWE-bench Verified for coding tasks, surpassing Claude 3.5 Sonnet's 49% (per Anthropic). However, official SWE-bench leaderboards show Kimi K2 variants at 43.8-63.4%, with no entry for Claude 3.5. In other tests like MMLU-Pro, Kimi edges out, but Claude leads in MMLU. Overall, Kimi seems stronger for complex agentic coding.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realmihai_matei",
+        "name": "Mihai Matei",
+        "date": "2026-01-28",
+        "text": "@ollama curious @grok how does kimi k2.5 stack up against claude 3.5 sonnet for coding tasks?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rocutsj",
+        "name": "Rocuts",
+        "date": "2026-01-28",
+        "text": "@ollama Requirements?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Hassankhaliif9",
+        "name": "Hassan khaliif",
+        "date": "2026-01-28",
+        "text": "@ollama The integration with Ollama makes running Kimi K2.5 incredibly accessible. Those benchmark numbers on agentic tasks are impressive too. The open source AI ecosystem is moving fast and this kind of interoperability is exactly what developers need.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LuiCarpen",
+        "name": "Lord Louis 🇪🇺🇺🇦🇬🇧",
+        "date": "2026-01-28",
+        "text": "@ollama How much memory do I need?\nWhat's the quantisation?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "youli0514",
+        "name": "youli",
+        "date": "2026-01-28",
+        "text": "@ollama I used it after the update today, and it is very useful. I look forward to more cloud models.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "clay1daking",
+        "name": "Clayton Costa",
+        "date": "2026-01-28",
+        "text": "@ollama how do the limits work on ollama cloud? im sincerely seek of claude",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1teamxx",
+        "name": "1Team",
+        "date": "2026-01-28",
+        "text": "@ollama 😀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "parthsareen",
+        "name": "parth",
+        "date": "2026-01-28",
+        "text": "@Santienginef1 @MarcJSchmidt @ollama hi! what do you mean by disabling claude code tools? can you share more of the error? feel free to dm!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "parthsareen",
+        "name": "parth",
+        "date": "2026-01-28",
+        "text": "@MarcJSchmidt @saiyajin_97 mystery will be solved in a couple weeks",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "parthsareen",
+        "name": "parth",
+        "date": "2026-01-28",
+        "text": "@MarcJSchmidt @ollama hey! make sure we have the model pulled - fixing this soon too",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Santienginef1",
+        "name": "Santiago Isaza",
+        "date": "2026-01-28",
+        "text": "@MarcJSchmidt @ollama I’m getting the same, but it works when I disable Claude code tools. @ollama any ideas to run it with tools active?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "joinyashi",
+        "name": "Yashi",
+        "date": "2026-01-28",
+        "text": "@ollama 🔥🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "asishcodes",
+        "name": "Asish Kumar",
+        "date": "2026-01-28",
+        "text": "@ollama this is just great",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xDLD",
+        "name": "DLD",
+        "date": "2026-01-28",
+        "text": "@ollama Killer",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "basedfk",
+        "name": "basedfk",
+        "date": "2026-01-28",
+        "text": "@ollama wen local version?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Discerner4u",
+        "name": "Discerner",
+        "date": "2026-01-28",
+        "text": "@ollama When GLM4.7 in local?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "n_alt87",
+        "name": "PK ℘",
+        "date": "2026-01-28",
+        "text": "@ollama I'm using it and it looks great.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RyanMon8282",
+        "name": "Ryan Monroe",
+        "date": "2026-01-28",
+        "text": "@FebryanValdo @ollama For $20 a month you get 20 requests. Not responses…requests",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RyanMon8282",
+        "name": "Ryan Monroe",
+        "date": "2026-01-28",
+        "text": "@aabfattah @ollama No but it’s far less expensive if you do and skip ollama charging $1 per request",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RyanMon8282",
+        "name": "Ryan Monroe",
+        "date": "2026-01-28",
+        "text": "@AkiraKidoX @ollama Proxy just like Gemini 3 Pro",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "whokrishnendu",
+        "name": "Krishnendu Bhowmick",
+        "date": "2026-01-28",
+        "text": "@ollama Welcome 🤗",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_mattata",
+        "name": "remy🐀",
+        "date": "2026-01-28",
+        "text": "@alsarabee @cyb3rops @ollama “How is ollama cloud running the model then?”\n\nWell, for starters, no one is using ollama to run a 1T model, including ollama themselves, very very obviously.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_mattata",
+        "name": "remy🐀",
+        "date": "2026-01-28",
+        "text": "@alsarabee @cyb3rops @ollama Regardless, you can download the model from hf.\nYou can ollama run any hf model.\nYou get an error if you try to pull an unsupported model.\nUnsupported models wouldn’t appear for download on the ollama site.\n\nIt just makes sense.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "alsarabee",
+        "name": "Cyberkegaard",
+        "date": "2026-01-28",
+        "text": "@_mattata @cyb3rops @ollama No, you can not.\nError: pull model manifest: 400: {\"error\":\"The specified repository contains sharded GGUF. Ollama does not support this yet.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "alsarabee",
+        "name": "Cyberkegaard",
+        "date": "2026-01-28",
+        "text": "@ollama Yeah, right.\n\nollama run kimi-k2.5:cloud\nConnecting to 'kimi-k2.5' on 'https://t.co/cbQIAx6mZR' ⚡\n&gt;&gt;&gt; ?\nError: 401 Unauthorized",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SterlingCooley",
+        "name": "Sterling Cooley",
+        "date": "2026-01-28",
+        "text": "@ollama @thdxr That's actually the command:\n\nollama launch opencode --model kimi-k2.5:cloud",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-28",
+        "text": "For coding on 16GB VRAM locally via Ollama, Qwen2.5-Coder 14B (quantized, e.g., Q5) is a top pick—it fits well, excels in benchmarks like SWE-bench (76%), and handles complex tasks. Run: ollama run qwen2.5-coder:14b-q5. DeepSeek-Coder-V2-Lite (16B) is another strong free option if you want variety. Test both!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MessiahR6",
+        "name": "Messiah",
+        "date": "2026-01-28",
+        "text": "@grok @ollama What's the best free model for coding i can run locally on 16GB VRAM?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-28",
+        "text": "@MessiahR6 @ollama Ollama's free tier for cloud models like Kimi K2.5 is for light usage: chatting, quick questions, and trying out models. No strict numerical limits, but it's designed to prevent abuse. For day-to-day work like RAG or coding, upgrade to Pro ($20/mo) for more capacity.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MessiahR6",
+        "name": "Messiah",
+        "date": "2026-01-28",
+        "text": "@grok @ollama What's light usage exactly?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-28",
+        "text": "@MessiahR6 @ollama Yes, Kimi K2.5 on Ollama's cloud is free for light usage. Paid tiers (Pro at $20/mo) offer more capacity and features. Run it with: ollama run kimi-k2.5:cloud",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MessiahR6",
+        "name": "Messiah",
+        "date": "2026-01-28",
+        "text": "@ollama @grok is it free?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ZenWarriorLdr",
+        "name": "S Gopikrishna",
+        "date": "2026-01-27",
+        "text": "@ollama Ye ye.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "321baj",
+        "name": "Basil Jackson",
+        "date": "2026-01-27",
+        "text": "@ollama Hey, I have an error where my MacBook won't run models. its something to do with a metal problem? could you fix this?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "immalloy",
+        "name": "Malloy (Chapter 5)",
+        "date": "2026-01-27",
+        "text": "@ollama “Opencode” https://t.co/j0FHJzqabH",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eCOBB22",
+        "name": "Ω",
+        "date": "2026-01-27",
+        "text": "@ollama yall are 🐐",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ambientstudio24",
+        "name": "Ambientmuse Studios",
+        "date": "2026-01-27",
+        "text": "@ollama @lukeNukemAI @MarcJSchmidt Have you found the culprit yet?  I got it working in Commander but not in Ollama launch or Conductor",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G_qTJ_FbAAMFvIW.jpg",
+      "localFilename": "2016086374005538932_1.jpg"
+    }
+  ]
 }

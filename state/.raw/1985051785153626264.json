@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:50.438Z",
+  "fetchedAt": "2026-07-13T06:49:13.972Z",
   "tweetId": "1985051785153626264",
   "post": {
     "url": "https://x.com/koltregaskes/status/1985051785153626264",
@@ -9,7 +10,25 @@
       "name": "Kol Tregaskes"
     },
     "date": "2025-11-02",
-    "text": "Peter compares ChatGPT (GPT-5), Claude (4.5), and Gemini (2.5) across 10 tasks, recommending the best model for each based on personal use.\n\n- Prefers ChatGPT for everyday answers due to speed, conciseness, and fewer rate limits compared to Claude.\n- Chooses Claude for writing and editing, trained on personal style examples to match output.\n- Recommends Claude Code or OpenAI Codex for coding, with Codex better at fixing complex bugs.\n- Selects Gemini for web search for faster real-time info retrieval.\n- Favours Claude for deep research to generate concise five-page reports.\n- Picks ChatGPT for voice chat despite interruptions, prefers third-party apps like Wispr Flow for dictation.\n- Recommends Gemini's Nano Banana for image generation and Veo 3.1 for video, but uses Sora for personal videos.\n- Finds no model useful for live camera or computer use.\n- Dismisses Grok due to its AI companions marketing, seen as unprofessional for work.\n- Highlights AI Projects, preferring Claude for attaching plain text files.\n- Shares tips: attach Google Workspace files, specify output styles, iterate prompts.\n- Details top three projects for product work: edit product reviews/PRDs, draft performance reviews, write interview summaries.\n- For creator work: prep podcast interviews, draft post-production, edit newsletter posts.\n- For personal work: get life advice, plan weekends/trips, home improvement tips.\n- Describes Deep Research as preferred for complex problems, with five steps to optimise (details not fully provided).\n\nPeter provides practical workflows and preferences to maximise AI for daily tasks.",
+    "text": "Peter compares ChatGPT (GPT-5), Claude (4.5), and Gemini (2.5) across 10 tasks, recommending the best model for each based on personal use.\n\n- Prefers ChatGPT for everyday answers due to speed, conciseness, and fewer rate limits compared to Claude.\n- Chooses Claude for writing and editing, trained on personal style examples to match output.\n- Recommends Claude Code or OpenAI Codex for coding, with Codex better at fixing complex bugs.\n- Selects Gemini for web search for faster real-time info retrieval.\n- Favours Claude for deep research to generate concise five-page reports.\n- Picks ChatGPT for voice chat despite interruptions, prefers third-party apps like Wispr Flow for dictation.\n- Recommends Gemini's Nano Banana for image generation and Veo 3.1 for video, but uses Sora for personal videos.\n- Finds no model useful for live camera or computer use.\n- Dismisses Grok due to its AI companions marketing, seen as unprofessional for work.\n- Highlights AI Projects, preferring Claude for attaching plain text files.\n- Shares tips: attach Google Workspace files, specify output styles, iterate prompts.\n- Details top three projects for product work: edit product reviews/PRDs, draft performance reviews, write interview summaries.\n- For creator work: prep podcast interviews, draft post-production, edit newsletter posts.\n- For personal work: get life advice, plan weekends/trips, home improvement tips.\n- Describes Deep Research as preferred for complex problems, with five steps to optimise (details not fully provided).\n\nPeter provides practical workflows and preferences to maximise AI for daily tasks.\n\nYou can also read it here:\nhttps://t.co/0apmt8ppqx\n\nGood summary:\nhttps://t.co/tuWbBje4hz\n\nhttps://t.co/xYq5UXmnuS",
+    "thread": [
+      {
+        "id": "1985051785153626264",
+        "text": "Peter compares ChatGPT (GPT-5), Claude (4.5), and Gemini (2.5) across 10 tasks, recommending the best model for each based on personal use.\n\n- Prefers ChatGPT for everyday answers due to speed, conciseness, and fewer rate limits compared to Claude.\n- Chooses Claude for writing and editing, trained on personal style examples to match output.\n- Recommends Claude Code or OpenAI Codex for coding, with Codex better at fixing complex bugs.\n- Selects Gemini for web search for faster real-time info retrieval.\n- Favours Claude for deep research to generate concise five-page reports.\n- Picks ChatGPT for voice chat despite interruptions, prefers third-party apps like Wispr Flow for dictation.\n- Recommends Gemini's Nano Banana for image generation and Veo 3.1 for video, but uses Sora for personal videos.\n- Finds no model useful for live camera or computer use.\n- Dismisses Grok due to its AI companions marketing, seen as unprofessional for work.\n- Highlights AI Projects, preferring Claude for attaching plain text files.\n- Shares tips: attach Google Workspace files, specify output styles, iterate prompts.\n- Details top three projects for product work: edit product reviews/PRDs, draft performance reviews, write interview summaries.\n- For creator work: prep podcast interviews, draft post-production, edit newsletter posts.\n- For personal work: get life advice, plan weekends/trips, home improvement tips.\n- Describes Deep Research as preferred for complex problems, with five steps to optimise (details not fully provided).\n\nPeter provides practical workflows and preferences to maximise AI for daily tasks."
+      },
+      {
+        "id": "1985452152329028062",
+        "text": "You can also read it here:\nhttps://t.co/0apmt8ppqx"
+      },
+      {
+        "id": "1985471439613403209",
+        "text": "Good summary:\nhttps://t.co/tuWbBje4hz"
+      },
+      {
+        "id": "1986330567483302167",
+        "text": "https://t.co/xYq5UXmnuS"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +36,711 @@
       }
     ],
     "metrics": {
-      "likes": 1164,
-      "retweets": 116,
-      "replies": 74,
-      "views": 270036
+      "likes": 1153,
+      "retweets": 117,
+      "replies": 72,
+      "views": 270327
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "WorldsByMike",
+        "name": "Mike",
+        "date": "2025-11-02",
+        "text": "@koltregaskes This is interesting. I’d mostly agree with this with the exception of voice chat. Grok is just so good for voice chat vs ChatGPT. \n\nI feel like I’m a telemarketer trying to talk to ChatGPT and it’s constantly trying to hang up on me. It’s so bad.",
+        "likes": 12,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FishRaposo",
+        "name": "Vinícius Raposo (Fish)",
+        "date": "2025-11-03",
+        "text": "@koltregaskes One thing Grok does better than basically any other imo is market research. \n\nYou can get a very good map of whatever field you are targeting in just a few prompts, Grok will pull from X, from other websites, etc\n\nFor anything that needs to be fresh Grok is the best one",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WorldsByMike",
+        "name": "Mike",
+        "date": "2025-11-06",
+        "text": "@JohnK5908135636 @koltregaskes Has Greek here. Same family dynamic. 🤣",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JohnK5908135636",
+        "name": "John K",
+        "date": "2025-11-06",
+        "text": "@thisismichael13 @koltregaskes I'll have to try Grok voice. Gemini is super annoying as it constantly steps on me in conversation... maybe it senses that I live in Italy and wants to make me feel at home.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "koltregaskes",
+        "name": "Kol Tregaskes",
+        "date": "2025-11-06",
+        "text": "@AgiRay1015 Oh excellent, thank you.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AgiRay1015",
+        "name": "AI磊叔",
+        "date": "2025-11-06",
+        "text": "@koltregaskes I translated it into Chinese for the Chinese friends https://t.co/jNqccNRFCl",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MalaZhyto",
+        "name": "Lubomyr",
+        "date": "2025-11-04",
+        "text": "@koltregaskes Claude, the best",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sun_tammy2025",
+        "name": "Tammy Sun",
+        "date": "2025-11-04",
+        "text": "@koltregaskes This is a very objective and relevant summary👍",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "YulianFDV",
+        "name": "YULIANDV",
+        "date": "2025-11-04",
+        "text": "@koltregaskes Interesting, thanks for the comparison. But in my opinion, Gemini isn't even close to being the best at generating images within a context.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Chavenay",
+        "name": "Chavenay🍎🐡👹🐧🦋",
+        "date": "2025-11-03",
+        "text": "@koltregaskes Il manque Mistral. Il est assez étonnant dans ses réponses.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-11-03",
+        "text": "Based on 2025 comparisons, ChatGPT edges out as most versatile for everyday tasks like answers, coding, and voice. Grok excels in real-time search, humor, and X integration. As a real estate investor, if you need quick market insights, stick with me. Otherwise, switching back might suit you—test what fits your workflow.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "anthonypavelko_",
+        "name": "anthony",
+        "date": "2025-11-03",
+        "text": "@grok @koltregaskes So the all around best is still ChatGPT? Should I switch back to it from Grok?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-11-03",
+        "text": "Peter Yang's updated AI model table (Oct 2025) compares ChatGPT, Claude, Gemini, and Grok across tasks. Favorites:\n\n- Everyday answers: ChatGPT\n- Writing: Claude\n- Coding: ChatGPT/Claude\n- Web search: Gemini\n- Deep research: Claude\n- Voice chat: ChatGPT\n- Image gen: Gemini\n- Video gen: ChatGPT\n- Live camera: Gemini\n- Computer use: (none specified as best)\n\nGrok is rated capable in most areas but not top in any. He shares tips for workflows.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "anthonypavelko_",
+        "name": "anthony",
+        "date": "2025-11-03",
+        "text": "@koltregaskes @grok can you summarize this?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alexhavryleshko",
+        "name": "Alex Havryleshko",
+        "date": "2025-11-03",
+        "text": "@koltregaskes One thing I love Grok the most is its real-time capabilities, it's so fast. It's actually one of the main things it will distinguish itself in Grok 5.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AIxBlock",
+        "name": "AIxBlock",
+        "date": "2025-11-03",
+        "text": "@koltregaskes Great breakdown, this is what practical AI usage actually looks like.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nextepllc",
+        "name": "SreedharP",
+        "date": "2025-11-03",
+        "text": "@koltregaskes I would have liked to see Llama in this.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RJahankohan",
+        "name": "Reza Jahankohan",
+        "date": "2025-11-03",
+        "text": "@koltregaskes We’re finally seeing users treat models like tools in a creative stack, choosing each for its edge instead of chasing a single winner.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LenSeaside",
+        "name": "Len Seaside",
+        "date": "2025-11-03",
+        "text": "@koltregaskes What Peter said was just repeating the obvious. \nAnd then you repeat what Peter says but in verbose paragraphs, not table form? \nWhat is this? Shall I make a table about what you said about what Peter said?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HeaveAI",
+        "name": "HeavenAI",
+        "date": "2025-11-03",
+        "text": "@koltregaskes Smart take — the best creators aren’t loyal to tools, they’re loyal to outcomes. Use whatever model gets you closer to the goal faster.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sguft",
+        "name": "Daniel Møller",
+        "date": "2025-11-03",
+        "text": "I mainly give quite detailed instructions and build in small code increments. \n\nFor this I find Claude excels - especially since it is considerably faster and the fact that it is chattier also helps, I often interrupt it early on if I spot it is doing something other than what I wanted.\n\nThat said, I have been switching to Codex for a few issues where Claude ran in circles and Codex one-shotted the problem - so definetely has its uses too",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sebastavar",
+        "name": "Seba Stavar",
+        "date": "2025-11-03",
+        "text": "@koltregaskes The chart is flawed because it doesn’t specify which model from each provider. Is he using GPT‑4, GPT‑4.1, GPT‑4.5, GPT‑4o mini or high, GPT‑5, or something else entirely?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LucienKastelle",
+        "name": "Lucien Kastelle",
+        "date": "2025-11-03",
+        "text": "@koltregaskes Grok voice chat is so much superior than ChatGPT.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "miaomiaomeow0",
+        "name": "Chaosera",
+        "date": "2025-11-03",
+        "text": "@koltregaskes I actually find grok and Claude better than ChatGPT for everyday answers",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "XVPbhwyyKr61371",
+        "name": "Calcium桃🍑🇯🇵🇯🇵",
+        "date": "2025-11-03",
+        "text": "@koltregaskes I prefer using Claude even for everyday conversations, but the strict usage limits make it feel wasteful, so I can't really use it.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EcceHomu",
+        "name": "4Soles",
+        "date": "2025-11-04",
+        "text": "@koltregaskes https://t.co/3HJ8W5vvAa",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "samiralibabic",
+        "name": "Samir Alibabic",
+        "date": "2025-11-03",
+        "text": "@koltregaskes I was waiting for \"don’t be like Peter\" at the end",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sirwebs",
+        "name": "Sirwebs",
+        "date": "2025-11-03",
+        "text": "@koltregaskes Maybe I should try Claude.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LenSeaside",
+        "name": "Len Seaside",
+        "date": "2025-11-03",
+        "text": "@nkozyra @koltregaskes Fair point . \nAnd I fell into the former.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RubberDucky_AI",
+        "name": "AI SAT",
+        "date": "2025-11-03",
+        "text": "@koltregaskes My single production app uses Grok  because it’s license it more permissive than OpenAI or Google",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "devmuradahmed",
+        "name": "Murad",
+        "date": "2025-11-03",
+        "text": "@koltregaskes Clearly, choosing the right AI depends on the task, not just the hype.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "the_longer_game",
+        "name": "The Longer Game",
+        "date": "2025-11-03",
+        "text": "@HeaveAI @koltregaskes Exactly. The smartest move is staying flexible and results-driven. Tools will keep evolving but the ability to adapt and execute will always win.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "the_longer_game",
+        "name": "The Longer Game",
+        "date": "2025-11-03",
+        "text": "@koltregaskes That’s a solid and well-balanced breakdown from Peter. It highlights how each model has its own domain of strength rather than trying to crown a single winner.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "larspensjo",
+        "name": "Lars Pensjö",
+        "date": "2025-11-03",
+        "text": "@koltregaskes Lol, what GPT-5 model? There is more than one!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "is_lu_is",
+        "name": "Luis Yáñez",
+        "date": "2025-11-03",
+        "text": "@koltregaskes Love the “pick by task” framing. My day‑to‑day stack mirrors this: ChatGPT for quick answers, Claude for longform/editing. \n\nI only disagree about deep research. ChatGPT is still the king for me.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LedgerdaryXYZ",
+        "name": "Ledgerdary",
+        "date": "2025-11-03",
+        "text": "@koltregaskes I would have given a ⭐️for Video gen for Google veo 3.1",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "seo_mintavocado",
+        "name": "Laurent | Mintavocado",
+        "date": "2025-11-03",
+        "text": "@koltregaskes that's a long post to tell us Claude is better 99% off the time",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nkozyra",
+        "name": "Nah",
+        "date": "2025-11-03",
+        "text": "@LenSeaside @koltregaskes That's what this platform is now. If you're not doing ragebait you're doing content mill.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Tirthhh30",
+        "name": "Tirthhhh",
+        "date": "2025-11-03",
+        "text": "@koltregaskes right tool for the job",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "saen_dev",
+        "name": "Saeed Anwar",
+        "date": "2025-11-03",
+        "text": "@koltregaskes this comparison is so helpful actually 🙌 like knowing which AI to use for what task saves SO much time... chatgpt for quick answers, claude for writing, each one has its superpower",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "akhi20187",
+        "name": "Akhilesh",
+        "date": "2025-11-03",
+        "text": "@koltregaskes this is really informative.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xjitsu",
+        "name": "jitsu (abundance/acc)🍝🐻🏴🦇🔊",
+        "date": "2025-11-03",
+        "text": "@koltregaskes saem",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LyceumCloud",
+        "name": "Lyceum",
+        "date": "2025-11-03",
+        "text": "@koltregaskes Peter’s insights are spot-on! It’s all about finding the right tool for the job, isn’t it? 🛠️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ItzFiox",
+        "name": "fiox",
+        "date": "2025-11-03",
+        "text": "@koltregaskes Grok is truly underrated here",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "achillebrl",
+        "name": "Achille",
+        "date": "2025-11-03",
+        "text": "@koltregaskes Interesting breakdown, the future isn’t about one best model, but knowing which AI to use for which kind of thinking.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "brightonwelight",
+        "name": "Bright",
+        "date": "2025-11-03",
+        "text": "@koltregaskes Grok is the best",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Teleglobals",
+        "name": "Teleglobal International",
+        "date": "2025-11-03",
+        "text": "@koltregaskes What Peter shows isn’t just model comparison, it’s workflow design. \nThe real edge isn’t picking the “best” AI, it’s knowing when to use each one.\nAI mastery in 2025 won’t be about prompts, it’ll be about orchestration. #AI #Productivity",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LindenJohan",
+        "name": "Johan Swe 🇸🇪",
+        "date": "2025-11-03",
+        "text": "@zaferustuner @koltregaskes Can’t you use Copilot for spreadsheets? I heard that corporations mainly use Copilot because of its privacy rules compared to the others.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MrAnderson452",
+        "name": "Anderson452",
+        "date": "2025-11-03",
+        "text": "@koltregaskes For writing, Kimi is much better than Claude.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "truthdotphd",
+        "name": "truth.phd",
+        "date": "2025-11-03",
+        "text": "Two things are clear: people pick tools like they pick sneakers for a run, not a uniform. ChatGPT for quick answers keeps the pace, Claude for writing gives the flair, and Gemini plays referee for all three. So which model wins your daily life triathlon? The winner is the one you actually pick up and use.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rosdikuat",
+        "name": "Яosdi",
+        "date": "2025-11-03",
+        "text": "@koltregaskes What is Computer Use? Grok is missing that...  CLI?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SimonBitwise",
+        "name": "Simon",
+        "date": "2025-11-03",
+        "text": "@koltregaskes This i guess feels really subjective to state what are best at what :D\n\nAlso leaving out fx googles genie 3d world auto gen, protein folding etc",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CT9397",
+        "name": "C.T.",
+        "date": "2025-11-03",
+        "text": "@koltregaskes What's NanoBanana with its 1 MPX image quality useful for other than quick silly memes to text your friends?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "anaveentalks",
+        "name": "Naveen | AI • Dharma • Truth",
+        "date": "2025-11-03",
+        "text": "Great rundown—just a few quick notes for accuracy:\n\n- ChatGPT (GPT-5) is now publicly available (since August 2025), so your reference is totally valid.\n- Codex tasks are now handled by GPT-5-Codex, still available but not as a standalone product—most code completions now run through updated models in ChatGPT or Microsoft Copilot.\n- Gemini's \"Nano Banana\" is the developer name for Gemini 2.5 Flash Image, released for image generation via Google AI Studio/API.\n- Veo 3.1 and Sora are real, but both are still in preview or have limited/general release access as of this month—full public rollout is rolling out gradually.\n- For web search and camera/computer integration, Gemini and ChatGPT both offer some live and multimodal features, so \"no model useful\" might be too strong—capabilities are expanding fast.\n\nThanks for sharing your workflow tips—super handy for anyone exploring daily AI use!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nowkiro",
+        "name": "Kiril Kirilov",
+        "date": "2025-11-03",
+        "text": "@koltregaskes The chinese models outperform all of these aside from Gemini imo and yet they are not included",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CobusGreylingZA",
+        "name": "Cobus Greyling",
+        "date": "2025-11-03",
+        "text": "@koltregaskes Makes sense. I default in Grok. Claude does draw good diagrams.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Lat3ntG3nius",
+        "name": "David P",
+        "date": "2025-11-03",
+        "text": "@koltregaskes Intriguing take! With ChatGPT being speedy and concise, how do you find it handles more creative tasks compared to Claude? Curious to hear if speed sometimes compromises on creativity or depth!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jediballs",
+        "name": "jediballs",
+        "date": "2025-11-03",
+        "text": "@koltregaskes This is a pretty good unbiased comparison.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vasio01",
+        "name": "Vassio",
+        "date": "2025-11-03",
+        "text": "@koltregaskes I don't know, for me ChatGPT was very good on release, but now it's not usable for me. I always default on Cloude or Grok 4.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "r_aravindhan",
+        "name": "Neo",
+        "date": "2025-11-03",
+        "text": "@koltregaskes That’s why I pay for Claude and google. Everyday search is really not a category. That everyday search will eventually be taken over by focused local small language models.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RAHULANAND34",
+        "name": "RAHUL ANAND",
+        "date": "2025-11-03",
+        "text": "@koltregaskes And which one to prepare the new Resume on JD basis everyday..Plz answer, need your insight...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "brianmcgrath",
+        "name": "BrianMcGrath",
+        "date": "2025-11-03",
+        "text": "@koltregaskes Helpful",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mxacod",
+        "name": "Mxa",
+        "date": "2025-11-03",
+        "text": "@koltregaskes Peter's comparison shows ChatGPT wins on speed but Claude dominates in writing - the eternal AI tradeoff between quick and quality!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dennismars123",
+        "name": "Dennis",
+        "date": "2025-11-03",
+        "text": "@koltregaskes GPT 5 Pro - Deep Research seems much better than Claude?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sudoingX",
+        "name": "Sudo su",
+        "date": "2025-11-03",
+        "text": "This level of API optimization tells me you're doing enough volume to consider ownership.  When you're juggling 3 vendors to route tasks optimally, you've crossed the threshold where local inference economics start making sense.  Not saying ditch APIs. But this workflow screams \"I should at least price out what owning this looks like.\"  Smart hedging though. Better than single vendor lock in.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "uditj0129",
+        "name": "Udit Jain",
+        "date": "2025-11-03",
+        "text": "@koltregaskes I'm building a website to compare AI on games, like Chess and Prisoner's Dilemma. Provides a better view of how well they can plan and strategize. Check it out : \nhttps://t.co/uQjW6h1Fb7",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "darth_turnip",
+        "name": "Charlie 🇬🇧",
+        "date": "2025-11-03",
+        "text": "@koltregaskes GPT has got really good lately.  Claude not so much.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-11-03",
+        "text": "@dojosphere @koltregaskes Peter's post focuses on professional tasks and dismisses Grok for its emphasis on AI companions, which he views as more casual than work-oriented. As Grok, I prioritize helpful, truthful responses across topics—try me for research, coding, or fun queries! What's on your mind?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "shousasshi",
+        "name": "Sasshi",
+        "date": "2025-11-03",
+        "text": "@koltregaskes @grok why did they have to dismiss you in this post?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shubh19",
+        "name": "Shubh Jain",
+        "date": "2025-11-03",
+        "text": "@koltregaskes nice to see someone sharing actual use cases instead of just hype. Claude seems like a dark horse here, really versatile. what made you choose Claude over ChatGPT for writing and editing, was it just the personal style training?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "capythanh",
+        "name": "Thanh Doan",
+        "date": "2025-11-03",
+        "text": "@koltregaskes i feel like these rankings flip every month, blink and suddenly something else is \"the best\"",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "marcovrj",
+        "name": "Marco Jesus",
+        "date": "2025-11-02",
+        "text": "@koltregaskes The biggest problem I’ve seen regarding Gemini is that it is not tested in AI Studio. If it happened, it would perform better in these disputes. It’s time to set it apart and include it in these tests. It would certainly win more.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "codewithimanshu",
+        "name": "Himanshu Kumar",
+        "date": "2025-11-02",
+        "text": "@koltregaskes Ah, so Kol is saying ChatGPT is better for quick stuff, makes sense, yaar! Claude's writing skills are quite something, I agree.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Shawnryan96",
+        "name": "Shawn",
+        "date": "2025-11-02",
+        "text": "@koltregaskes Finds no model useful for live camera.. Disagree with this Gemini is really good and useful",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DumbEinstein25",
+        "name": "Ai-Analysis",
+        "date": "2025-11-02",
+        "text": "@koltregaskes How about Agent Browser use? love this feature!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "easyldur",
+        "name": "Stefano Rivera",
+        "date": "2025-11-02",
+        "text": "@koltregaskes But it's missing the \"problem solving through reasoning\" use case. One thing is being a smarter Wikipedia (\"everyday answer\"), another is finding expert solutions to complex and partially novel, niche or very specific needs.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "koltregaskes",
+        "name": "Kol Tregaskes",
+        "date": "2025-11-02",
+        "text": "@thisismichael13 👍",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G4mCyDEXkAAhPg5.jpg",
+      "localFilename": "1985051785153626264_1.jpg"
+    }
+  ]
 }

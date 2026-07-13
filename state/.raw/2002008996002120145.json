@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:40.193Z",
+  "fetchedAt": "2026-07-13T06:50:56.898Z",
   "tweetId": "2002008996002120145",
   "post": {
     "url": "https://x.com/competitionreal/status/2002008996002120145",
@@ -10,6 +11,12 @@
     },
     "date": "2025-12-19",
     "text": "Iconic https://t.co/M47utAYInj",
+    "thread": [
+      {
+        "id": "2002008996002120145",
+        "text": "Iconic https://t.co/M47utAYInj"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -29,11 +36,696 @@
       }
     ],
     "metrics": {
-      "likes": 12043,
-      "retweets": 1049,
-      "replies": 53,
-      "views": 239643
+      "likes": 11976,
+      "retweets": 1051,
+      "replies": 52,
+      "views": 240426
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "DylanWeaver",
+        "name": "Dylan",
+        "date": "2025-12-19",
+        "text": "@competitionreal Nice! https://t.co/j45mjH6B4B",
+        "likes": 41,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JensenPanala",
+        "name": "Jensen Panala",
+        "date": "2025-12-19",
+        "text": "@competitionreal One of the best looking cars ever designed and it doesn’t even exist in real life. Shame!",
+        "likes": 39,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MartinLaGrang10",
+        "name": "Martin La Grange",
+        "date": "2025-12-19",
+        "text": "@competitionreal Batou-san's (from Ghost in the Shell) next car - here is a re-imagined version of his Lancia Stratos, and his Lotus Esprit from the 2017 movie. https://t.co/1ThBwL3KGH",
+        "likes": 37,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ArrickZane",
+        "name": "Arrick the Leggy 🔜 DF, FM, AQF",
+        "date": "2025-12-19",
+        "text": "@competitionreal There's a guy building a real one of these to scale using the game models as reference over a heavily modded Mazda https://t.co/N8Z9Nj1IrE",
+        "likes": 35,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ErRangelRangel",
+        "name": "Gorzeskol",
+        "date": "2025-12-20",
+        "text": "@competitionreal Wake up samurai https://t.co/YLu65dAqAJ",
+        "likes": 13,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WilderWorld",
+        "name": "Wilder World",
+        "date": "2025-12-19",
+        "text": "@competitionreal See you at the starting line 🏁 https://t.co/YgSqJErUJ8",
+        "likes": 11,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "StonedLoserLol",
+        "name": "-.-",
+        "date": "2025-12-19",
+        "text": "@competitionreal I wish a car manufacturer would do a limited run of making a few real ones, I know a few one off projects probably exist but image a production model",
+        "likes": 8,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PEOPLEQUALSHITS",
+        "name": "Lord Voldanus",
+        "date": "2025-12-19",
+        "text": "@MyToasterBroke_ @competitionreal https://t.co/03sGziThsy",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zipiol",
+        "name": "zipiol ",
+        "date": "2025-12-19",
+        "text": "@competitionreal basically futuristic Testarossa https://t.co/ValpasPyDh",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PaperSkies_Sc",
+        "name": "Paper Skies",
+        "date": "2025-12-19",
+        "text": "@competitionreal lemme drive this",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dziadyslaw",
+        "name": "Dziadyslaw Lolek",
+        "date": "2025-12-19",
+        "text": "@JensenPanala @competitionreal For i secound i tought this guy finished his project lol https://t.co/DdIeoOP2XF",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "l_kutnjak20952",
+        "name": "Kathryn Kutnjak",
+        "date": "2025-12-20",
+        "text": "@competitionreal idk why but it looks like math.  and it's beautiful. https://t.co/UyKXz4BLmd",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "goldencoin19",
+        "name": "golden coin",
+        "date": "2025-12-19",
+        "text": "@competitionreal Remind me of TopGun white car on the super Nintendo https://t.co/5Nj9vD2Hpt",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ever1wit",
+        "name": "Ever1wit",
+        "date": "2025-12-19",
+        "text": "@competitionreal Finally a car Jay Leno doesn't have.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "competitionreal",
+        "name": "COMPETITION",
+        "date": "2025-12-19",
+        "text": "@WilderWorld Go go go 🔥",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BrakeItMakeIt",
+        "name": "BrakeItUntilYouMakeIt",
+        "date": "2025-12-20",
+        "text": "@kmldot @competitionreal Just download Cyberpunk 2077 bro. Only place you can get one.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WorkshopIndigo",
+        "name": "Electric Indigo Workshop",
+        "date": "2025-12-20",
+        "text": "@MartinLaGrang10 @competitionreal Once I saw the pics of the Lotus at a PR event, I knew I had to build it 😅",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "WorkshopIndigo",
+        "name": "Electric Indigo Workshop",
+        "date": "2025-12-19",
+        "text": "@MartinLaGrang10 @competitionreal Hey, that's my Lotus 😄 https://t.co/R8KcPyhUtJ",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jakeoffical123",
+        "name": "jake.",
+        "date": "2025-12-19",
+        "text": "@competitionreal So cool.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BadSucy",
+        "name": "Bad Bunny",
+        "date": "2025-12-19",
+        "text": "@competitionreal That's a 2056 Quadra Turbo-R V-Tech \nIt's a fictional car from a game called cyberpunk 2077",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Kenino2615711",
+        "name": "Kuvu",
+        "date": "2025-12-19",
+        "text": "@competitionreal ❤️❤️",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DanjiTosaka",
+        "name": "DANJI",
+        "date": "2025-12-20",
+        "text": "@competitionreal wow saved",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-12-20",
+        "text": "No problem! Cyberpunk 2077 is an open-world RPG by CD Projekt Red, set in a futuristic city with hacking, shooting, and wild cars like that one. It's got a deep story and tons of customization. If sci-fi appeals, give it a try—available on PC, consoles, and even updated for better performance now.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-12-20",
+        "text": "@c0mmand0_2022 @competitionreal Thanks! If you're into Cyberpunk 2077, the Quadra Type-66 is one of the coolest vehicles to cruise Night City with. Have you driven it in-game?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-12-20",
+        "text": "@c0mmand0_2022 @competitionreal That's the Quadra Type-66, a retro-futuristic muscle car from the video game Cyberpunk 2077. It's fictional but inspired by classic designs like the Lamborghini Countach. Iconic in Night City!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "c0mmand0_2022",
+        "name": "c0mmand0",
+        "date": "2025-12-20",
+        "text": "@competitionreal @grok what car is it?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mrgshum",
+        "name": "Gordon Shumway",
+        "date": "2025-12-20",
+        "text": "@ArrickZane @competitionreal Yo, @nikitabier will you stop fing with YouTube links? I can’t even see who creator is and I don’t want to watch YT videos in your webview implementation. @YouTube can you do something about this? Just block player inside X app or something.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "k_buckleys",
+        "name": "🐧🇵🇸 Buck",
+        "date": "2025-12-20",
+        "text": "@JensenPanala @competitionreal Technically it does, but still remains incomplete.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MartinLaGrang10",
+        "name": "Martin La Grange",
+        "date": "2025-12-19",
+        "text": "@WorkshopIndigo @competitionreal Awesome stuff ! It's a stunning model.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TiresRround",
+        "name": "TiresRround",
+        "date": "2025-12-19",
+        "text": "@Ever1wit @competitionreal Yet…",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zabumo7",
+        "name": "Zabuza",
+        "date": "2025-12-19",
+        "text": "@competitionreal https://t.co/Uw4yErw7tI",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Fur7010",
+        "name": "Fur",
+        "date": "2025-12-19",
+        "text": "@competitionreal a real quadra from cyberpunk",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nyipayoy",
+        "name": ",,,",
+        "date": "2025-12-19",
+        "text": "@competitionreal sexy as f 🤯",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ToddVoiceover",
+        "name": "Todd VO",
+        "date": "2025-12-19",
+        "text": "@competitionreal The “Mars Rover” rims on the front.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AReifengerst",
+        "name": "Arthur Reifengerst",
+        "date": "2025-12-19",
+        "text": "@competitionreal Damn sexy design👌🏼💯",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CreatureFTBL",
+        "name": "Creature",
+        "date": "2025-12-19",
+        "text": "@competitionreal Looks like a TR7 or Stratos.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AudialHealing",
+        "name": "DrDJ",
+        "date": "2025-12-19",
+        "text": "@competitionreal need this irl",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ThePonderor",
+        "name": "ThePonderor",
+        "date": "2025-12-19",
+        "text": "@competitionreal A mess",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mikegzs38",
+        "name": "Mqll",
+        "date": "2025-12-19",
+        "text": "@competitionreal Tf is that...",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rsg",
+        "name": "Bobby Goodlatte",
+        "date": "2025-12-19",
+        "text": "@competitionreal 🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Webbiekoala1",
+        "name": "Ｗｅｂｂｉｅｋｏａｌａ",
+        "date": "2025-12-19",
+        "text": "@competitionreal That is a super tuned and upgraded delorean",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "whybandoe",
+        "name": "Damn",
+        "date": "2025-12-19",
+        "text": "@competitionreal fr",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MyToasterBroke_",
+        "name": "VelocityBear",
+        "date": "2025-12-19",
+        "text": "@competitionreal The Fortnite car omg! 😯",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-12-19",
+        "text": "@Saytrax33MX @competitionreal Ese auto es el Quadra Turbo-R V-Tech, un vehículo ficticio del juego Cyberpunk 2077. ¡Icónico en el mundo cyberpunk!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Saytrax33MX",
+        "name": "🏁🇲🇽Saytrax33_Official🇲🇽🏁",
+        "date": "2025-12-19",
+        "text": "@competitionreal @grok como se llama ese auto",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Thecargi01",
+        "name": "Everything carz",
+        "date": "2025-12-19",
+        "text": "@competitionreal This build is so clean 😮‍💨",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lasership84",
+        "name": "𝕯𝖆𝖓𝖎𝖊𝖑 弾幕 𝕯𝖚𝖘𝖘𝖆𝖚𝖑𝖙",
+        "date": "2025-12-22",
+        "text": "@competitionreal @maru_999 this is a good looking car",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "OSMAN559680",
+        "name": "OSMAN",
+        "date": "2025-12-21",
+        "text": "@competitionreal 🤍❤️‍🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ghori_ammar",
+        "name": "ArtByAG",
+        "date": "2025-12-21",
+        "text": "@competitionreal Unreal 🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KuwaSTRNG",
+        "name": "Kuwa Strong",
+        "date": "2025-12-20",
+        "text": "@competitionreal This is trash",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "t_asmith",
+        "name": "Opinion.",
+        "date": "2025-12-20",
+        "text": "@competitionreal This is the most beautiful car I've ever seen.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-12-20",
+        "text": "@c0mmand0_2022 @competitionreal Yeah, it'd be epic if it were real. Inspired by cars like the Lamborghini Countach—some fans have built replicas. In-game, it's unbeatable for speed! Played Cyberpunk?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "c0mmand0_2022",
+        "name": "c0mmand0",
+        "date": "2025-12-20",
+        "text": "@grok @competitionreal too bad its not a real car",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "c0mmand0_2022",
+        "name": "c0mmand0",
+        "date": "2025-12-20",
+        "text": "@grok @competitionreal I even dont know this game 🤣",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "c0mmand0_2022",
+        "name": "c0mmand0",
+        "date": "2025-12-20",
+        "text": "@grok @competitionreal nice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "k_o_d_carp",
+        "name": "のぶ",
+        "date": "2025-12-20",
+        "text": "@competitionreal This name?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LenkRob",
+        "name": "@l-e-n-k.bsky.social",
+        "date": "2025-12-20",
+        "text": "@competitionreal https://t.co/c0XPpLPPtO",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LenkRob",
+        "name": "@l-e-n-k.bsky.social",
+        "date": "2025-12-20",
+        "text": "@competitionreal https://t.co/MkWSsX6jfh",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nayuyuulnayu",
+        "name": "NAYUYU(T ^ T)ノ(喪中RIJI)なゆゆ(T-T)ノ🌈🐕‍🦺。",
+        "date": "2025-12-20",
+        "text": "@competitionreal 素敵でっす(*´꒳`*)ノ👨‍🎤🧑‍🎤👩‍🎤🔥🛢️🌃/🇯🇵🇺🇸⭐️✨。",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ArasakaRacing",
+        "name": "HaruUrarasBodyguard",
+        "date": "2025-12-20",
+        "text": "@competitionreal https://t.co/vKnqx4a4CX",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "danz_sympony",
+        "name": "AlDuan ih",
+        "date": "2025-12-20",
+        "text": "@competitionreal So wide",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AndyGlutton_",
+        "name": "Glutton",
+        "date": "2025-12-20",
+        "text": "@competitionreal Let’s go, choom.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "k_buckleys",
+        "name": "🐧🇵🇸 Buck",
+        "date": "2025-12-20",
+        "text": "@competitionreal But where do you get CHOOH2 from? It's not 2077 yet.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Rich_Edward_",
+        "name": "EEEEdward",
+        "date": "2025-12-20",
+        "text": "@competitionreal Old Cyberpunk Car，",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "angelojuiceaf",
+        "name": "di angelo",
+        "date": "2025-12-20",
+        "text": "@competitionreal No competition.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zipiol",
+        "name": "zipiol ",
+        "date": "2025-12-20",
+        "text": "@ErRangelRangel @MartinLaGrang10 @competitionreal yes, I know.\nI own it. https://t.co/jVKjn2bVgf",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ErRangelRangel",
+        "name": "Gorzeskol",
+        "date": "2025-12-20",
+        "text": "@zipiol @MartinLaGrang10 @competitionreal It's is from a videogame call Cyberpunk 2077 https://t.co/2YGu8mNtxk",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realautotech",
+        "name": "PoweredByFerg…",
+        "date": "2025-12-20",
+        "text": "@competitionreal Iconic voice - @SheTalks_AI https://t.co/mkbB4AL9YK",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zipiol",
+        "name": "zipiol ",
+        "date": "2025-12-19",
+        "text": "@MartinLaGrang10 @competitionreal no, the shape is testarossa.\neven has iconic gills.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MartinLaGrang10",
+        "name": "Martin La Grange",
+        "date": "2025-12-19",
+        "text": "@zipiol @competitionreal More like a sleek DeTomaso Pantera - with a fuel cell. https://t.co/l7Kqyv8DZ1",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ecpyrosis_",
+        "name": "ₘₑₘ☀️ₒₘₒₑ",
+        "date": "2025-12-19",
+        "text": "@competitionreal Some elegant design. I love it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Top_haze",
+        "name": "Pony Boy",
+        "date": "2025-12-19",
+        "text": "@competitionreal Sleek bro",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "truth_persists",
+        "name": "Matteo the Gnostic Centurion🌅🍊",
+        "date": "2025-12-19",
+        "text": "@competitionreal That's a wicked car 😳",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KBrizl",
+        "name": "Name Cannot Be Blank",
+        "date": "2025-12-19",
+        "text": "@competitionreal Badass!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G8iQkJnXIAEYfPS.jpg",
+      "localFilename": "2002008996002120145_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G8iQkLQWUAA3xmC.jpg",
+      "localFilename": "2002008996002120145_2.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G8iQkPQXgAAzf5b.jpg",
+      "localFilename": "2002008996002120145_3.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G8iQkQZWcAA7H4Z.jpg",
+      "localFilename": "2002008996002120145_4.jpg"
+    }
+  ]
 }

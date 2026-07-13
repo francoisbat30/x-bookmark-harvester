@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:46.418Z",
+  "fetchedAt": "2026-07-13T06:49:45.833Z",
   "tweetId": "1989438186179711089",
   "post": {
     "url": "https://x.com/ItsMaclouis/status/1989438186179711089",
@@ -10,6 +11,12 @@
     },
     "date": "2025-11-14",
     "text": "color inspiration - #100\n\nthe 100th calls for a collection giveaway. https://t.co/PKTBGEP8NR",
+    "thread": [
+      {
+        "id": "1989438186179711089",
+        "text": "color inspiration - #100\n\nthe 100th calls for a collection giveaway. https://t.co/PKTBGEP8NR"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -21,11 +28,157 @@
       }
     ],
     "metrics": {
-      "likes": 769,
+      "likes": 766,
       "retweets": 52,
       "replies": 8,
-      "views": 18529
+      "views": 19001
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "ItsMaclouis",
+        "name": "Mac Louis",
+        "date": "2025-11-15",
+        "text": "@vineetcres thanks",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ItsMaclouis",
+        "name": "Mac Louis",
+        "date": "2025-11-17",
+        "text": "@weablesinspace The mesh tool in Illustrator",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "weablesinspace",
+        "name": "Jennifer Townsend.",
+        "date": "2025-11-17",
+        "text": "@ItsMaclouis What do you use for the gradient waves?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ItsMaclouis",
+        "name": "Mac Louis",
+        "date": "2025-11-16",
+        "text": "@trentkocurek Thank you",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ItsMaclouis",
+        "name": "Mac Louis",
+        "date": "2025-11-16",
+        "text": "@fwskiiii I appreciate it",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "trentkocurek",
+        "name": "Trent Kocurek",
+        "date": "2025-11-16",
+        "text": "@ItsMaclouis Beautiful",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fwskiiii",
+        "name": "☆",
+        "date": "2025-11-15",
+        "text": "@ItsMaclouis Love this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ItsMaclouis",
+        "name": "Mac Louis",
+        "date": "2025-11-15",
+        "text": "@TukiFromKL thanks man",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TukiFromKL",
+        "name": "Tuki",
+        "date": "2025-11-15",
+        "text": "@ItsMaclouis Sleek",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ItsMaclouis",
+        "name": "Mac Louis",
+        "date": "2025-11-15",
+        "text": "@SamratSGunner I share share collections\nhttps://t.co/Al5RgYc4yQ",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ItsMaclouis",
+        "name": "Mac Louis",
+        "date": "2025-11-15",
+        "text": "@_banjoko thank you",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_banjoko",
+        "name": "Banjoko | ui/ux designer | Full Stack developer",
+        "date": "2025-11-15",
+        "text": "@ItsMaclouis Sharp",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LEGENDARYSODA2",
+        "name": "BANKY CREATIVE 🤝",
+        "date": "2025-11-15",
+        "text": "@ItsMaclouis Nice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vineetcres",
+        "name": "cres",
+        "date": "2025-11-15",
+        "text": "@ItsMaclouis pretty",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SamratSGunner",
+        "name": "Samrat Saha",
+        "date": "2025-11-15",
+        "text": "@ItsMaclouis These would make amazing phone wallpapers. Could you share higher resolution images?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G5oc28EXIAAtl6n.jpg",
+      "localFilename": "1989438186179711089_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G5oc27_XsAAjWIz.jpg",
+      "localFilename": "1989438186179711089_2.jpg"
+    }
+  ]
 }

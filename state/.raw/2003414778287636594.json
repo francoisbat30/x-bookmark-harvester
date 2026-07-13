@@ -1,15 +1,22 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:38.992Z",
+  "fetchedAt": "2026-07-13T06:51:06.241Z",
   "tweetId": "2003414778287636594",
   "post": {
     "url": "https://x.com/DrFonts/status/2003414778287636594",
     "author": {
       "handle": "DrFonts",
-      "name": "Dr Fonts©"
+      "name": "DrFonts©"
     },
     "date": "2025-12-23",
     "text": "Gradient Abstract Backgrounds https://t.co/HRyMJiFNwv",
+    "thread": [
+      {
+        "id": "2003414778287636594",
+        "text": "Gradient Abstract Backgrounds https://t.co/HRyMJiFNwv"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -29,11 +36,48 @@
       }
     ],
     "metrics": {
-      "likes": 546,
-      "retweets": 35,
+      "likes": 544,
+      "retweets": 36,
       "replies": 1,
-      "views": 37820
+      "views": 37976
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "asifalihunzai",
+        "name": "Asif Ali | Video Editor",
+        "date": "2025-12-23",
+        "text": "@DrFonts Fruitful work 💯 keep it up",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DrFonts",
+        "name": "DrFonts©",
+        "date": "2025-12-23",
+        "text": "@asifalihunzai Are you enjoying the backgrounds?",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G82PHziXEAAFkYq.jpg",
+      "localFilename": "2003414778287636594_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G82PH0lWQAAgiA6.jpg",
+      "localFilename": "2003414778287636594_2.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G82PH11WoAATQUf.jpg",
+      "localFilename": "2003414778287636594_3.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G82PH6LW4AERgI7.jpg",
+      "localFilename": "2003414778287636594_4.jpg"
+    }
+  ]
 }

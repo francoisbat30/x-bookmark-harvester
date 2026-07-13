@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:37.396Z",
+  "fetchedAt": "2026-07-13T06:51:37.148Z",
   "tweetId": "2006191099531124772",
   "post": {
     "url": "https://x.com/GithubProjects/status/2006191099531124772",
@@ -9,7 +10,17 @@
       "name": "GitHub Projects Community"
     },
     "date": "2025-12-31",
-    "text": "Deploy your own private note-taking app with no tracking or fees https://t.co/TQkpjgHl3R",
+    "text": "Deploy your own private note-taking app with no tracking or fees https://t.co/TQkpjgHl3R\n\nhttps://t.co/QWgEmZayEK",
+    "thread": [
+      {
+        "id": "2006191099531124772",
+        "text": "Deploy your own private note-taking app with no tracking or fees https://t.co/TQkpjgHl3R"
+      },
+      {
+        "id": "2006191111388422427",
+        "text": "https://t.co/QWgEmZayEK"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +28,36 @@
       }
     ],
     "metrics": {
-      "likes": 513,
-      "retweets": 47,
+      "likes": 510,
+      "retweets": 50,
       "replies": 4,
-      "views": 31893
+      "views": 32003
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "SaidAitmbarek",
+        "name": "Saïd Aitmbarek",
+        "date": "2025-12-31",
+        "text": "@GithubProjects pretty dope for note-taking\n\nadded to the https://t.co/NxtxOPYNKQ spotlights",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PietroMontaldo",
+        "name": "Pietro Montaldo",
+        "date": "2025-12-31",
+        "text": "@GithubProjects Private notes, zero tracking, perfect.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G9dsLHUa4AA9hHP.png",
+      "localFilename": "2006191099531124772_1.png"
+    }
+  ]
 }

@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:26.977Z",
+  "fetchedAt": "2026-07-13T06:52:37.551Z",
   "tweetId": "2016030864304701561",
   "post": {
     "url": "https://x.com/UnslothAI/status/2016030864304701561",
@@ -9,7 +10,17 @@
       "name": "Unsloth AI"
     },
     "date": "2026-01-27",
-    "text": "DeepSeek releases DeepSeek-OCR 2. 🐋\n\nThe new 3B model achieves SOTA visual, document and OCR understanding.\nDeepEncoder V2 is introduced which enables the model scan images in same logical order as humans, boosting OCR accuracy.\nInstead of traditional vision LLMs which read an image in a fixed grid (top-left → bottom-right), DeepEncoder V2 first builds a global understanding, then learns a human-like reading order - what to attend to first, next, and so on.\n\nThis improves OCR on complex layouts helping it follow columns, link labels to values, read tables coherently, and handle mixed text + structure more reliably.\n\nDeepSeek-OCR 2 outperforms Gemini 3 Pro on benchmarks and is >4% improvement over the previous DeepSeek-OCR.\n\nYou can now run and fine-tune DeepSeek-OCR 2 with Unsloth and our guide.\n\nGuide: https://t.co/z5Hu7J7KkW\nModel: https://t.co/OuVLY7SvhP",
+    "text": "DeepSeek releases DeepSeek-OCR 2. 🐋\n\nThe new 3B model achieves SOTA visual, document and OCR understanding.\nDeepEncoder V2 is introduced which enables the model scan images in same logical order as humans, boosting OCR accuracy.\nInstead of traditional vision LLMs which read an image in a fixed grid (top-left → bottom-right), DeepEncoder V2 first builds a global understanding, then learns a human-like reading order - what to attend to first, next, and so on.\n\nThis improves OCR on complex layouts helping it follow columns, link labels to values, read tables coherently, and handle mixed text + structure more reliably.\n\nDeepSeek-OCR 2 outperforms Gemini 3 Pro on benchmarks and is >4% improvement over the previous DeepSeek-OCR.\n\nYou can now run and fine-tune DeepSeek-OCR 2 with Unsloth and our guide.\n\nGuide: https://t.co/z5Hu7J7KkW\nModel: https://t.co/OuVLY7SvhP\n\nFor tutorials on how to Run &amp; Fine-tune DeepSeek-OCR 2, you can read our guide: https://t.co/4xXyDIAl5X\n\nInference &amp; training for the model is already supported in Unsloth.",
+    "thread": [
+      {
+        "id": "2016030864304701561",
+        "text": "DeepSeek releases DeepSeek-OCR 2. 🐋\n\nThe new 3B model achieves SOTA visual, document and OCR understanding.\nDeepEncoder V2 is introduced which enables the model scan images in same logical order as humans, boosting OCR accuracy.\nInstead of traditional vision LLMs which read an image in a fixed grid (top-left → bottom-right), DeepEncoder V2 first builds a global understanding, then learns a human-like reading order - what to attend to first, next, and so on.\n\nThis improves OCR on complex layouts helping it follow columns, link labels to values, read tables coherently, and handle mixed text + structure more reliably.\n\nDeepSeek-OCR 2 outperforms Gemini 3 Pro on benchmarks and is >4% improvement over the previous DeepSeek-OCR.\n\nYou can now run and fine-tune DeepSeek-OCR 2 with Unsloth and our guide.\n\nGuide: https://t.co/z5Hu7J7KkW\nModel: https://t.co/OuVLY7SvhP"
+      },
+      {
+        "id": "2016076972976214494",
+        "text": "For tutorials on how to Run &amp; Fine-tune DeepSeek-OCR 2, you can read our guide: https://t.co/4xXyDIAl5X\n\nInference &amp; training for the model is already supported in Unsloth."
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +28,711 @@
       }
     ],
     "metrics": {
-      "likes": 3167,
-      "retweets": 419,
-      "replies": 51,
-      "views": 219092
+      "likes": 3148,
+      "retweets": 423,
+      "replies": 50,
+      "views": 219889
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "insignifictcman",
+        "name": "SemiRetired",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai Just cant keep up with releases from China. Kimi K2.5, Qwen3-Max-Thinking and now DeepSeek OCR 2",
+        "likes": 36,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IgorCarron",
+        "name": "Igor Carron",
+        "date": "2026-01-28",
+        "text": "@UnslothAI @NandoDF @deepseek_ai LightOnOCR from @LightOnIO is better, faster, smaller and it is Apache 2\nhttps://t.co/OMnC1MYqQn https://t.co/ca0KI3pZ2D",
+        "likes": 13,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "garyfung",
+        "name": "gary IH fung",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai What are they feeding their ai https://t.co/phXcQHcQyU https://t.co/A8oWdUrRO3",
+        "likes": 8,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_anvme_",
+        "name": "✌️Stanislaw",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai Impressive advancements! The ability to scan images in a human-like logical order could significantly improve OCR accuracy and understanding. Looking forward to seeing how this innovation impacts the field!",
+        "likes": 8,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "staghado",
+        "name": "Said Taghadouini",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai you can’t just claim SOTA without properly comparing to previous work, tis a joke!",
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alexdolbun",
+        "name": "@alexdolbun",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai Brilliant job @UnslothAI on DeepSeek-OCR 3B model! In pipeline! https://t.co/G6J4UoCzty . Q1 2026 @alexdolbun. https://t.co/pCKYQXKXw7",
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ContextrixAi",
+        "name": "Contextrix",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai DeepSeek-OCR 2 looks really strong for document and OCR work.",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "giles_home",
+        "name": "Andrew Giles",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai Oh great, now we have AI that does what humans do, skips the title and 1st paragraph and gets annoyed the 2nd paragraph isn't setting the scene. 😂\nBrilliant.",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-27",
+        "text": "To run DeepSeek-OCR 2 locally with Unsloth, you'll need:\n\n- NVIDIA GPU with at least 8GB VRAM for basic inference (4-bit quantized).\n- 16GB+ VRAM recommended for fine-tuning or complex docs.\n- 16GB system RAM.\n- Python 3.10+, CUDA 12+.\n\nCheck the guide for install: https://t.co/9S1O9FTIal",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CreatingNFT",
+        "name": "Creating NFT Arts",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai @grok what's the minimum requirements to run this locally?",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thevyasamit",
+        "name": "Amit Vyas",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai I wanna do a plug and play setup to compare VLM vs OCR results on some baseline images and pdfs.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "manuelapetsi",
+        "name": "Manuel",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai impressive...the future is open source.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EdwardKens50830",
+        "name": "Eddie",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai so they claim \"sota\" again. how many times have we heard this? probably just another overhyped model thatll fade in 6 months",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nilayparikh",
+        "name": "Nilay Parikh",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai This is truly SOTA.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Bitplanet_AI",
+        "name": "Bitplanet",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai Learning reading order before extraction feels like the right abstraction shift, document intelligence breaks once structure is treated as semantics, not pixels.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "syedaadamahmad",
+        "name": "emeow",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai Does it work with handwritten notes?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RAVIKUMARSAHU78",
+        "name": "RAVI KUMAR SAHU",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai Impressive advancements! The focus on human-like logical order in image scanning could revolutionize document processing. Excited to see the impact on OCR accuracy. Great job, DeepSeek team!",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nyx_zheng",
+        "name": "NyxZheng",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @tphuang @deepseek_ai 3B 能做到“按人类阅读顺序看图”，这比再堆参数重要多了。\nOCR 的天花板从“看清字”变成了“看懂文档”。\n下一步就是：谁先把它接进真实业务里。",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AbeIndoria",
+        "name": "Abe",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai Any idea how it compares with Florence?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Uzokmurod_04",
+        "name": "UZOQMUROD IBRAGIMOV",
+        "date": "2026-01-29",
+        "text": "@UnslothAI @deepseek_ai Impressive.....  I would try this model if i had enough compute power😁",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bdmitriy727",
+        "name": "Dear Dmitry",
+        "date": "2026-01-28",
+        "text": "@UnslothAI @deepseek_ai @grok О чем тут речь понятным языком объясни? И как начать использовать бесплатно возможно?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AbakaAI_Tech",
+        "name": "Abaka AI",
+        "date": "2026-01-28",
+        "text": "@ContextrixAi @UnslothAI @deepseek_ai Yup. It learns a human-like reading order (global → local) \nThat's why it crushes structural benchmarks.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AILearningPaths",
+        "name": "Nessie",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai about time! someone fixed the stupid left-to-right scanning that breaks on every real document",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NOVACONSTELATIO",
+        "name": "REVELATOR",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai @grok Queramos mas? Sige VAMOS https://t.co/SZ6wEJYxqo https://t.co/yAfAeNVvLf",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "owoldestiny",
+        "name": "Owol Destiny",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai Reading like humans changes the whole OCR game.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rpgcai",
+        "name": "rpgc",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai finally, OCR that understands layout context instead of just grid scanning",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FadhilRasyidin",
+        "name": "fadhil",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai but overall, it said paddleocrVL still better?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Stardus63556727",
+        "name": "Sync Kun",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai W",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BaizeXSX",
+        "name": "Tristan Xu",
+        "date": "2026-01-27",
+        "text": "@garyfung @UnslothAI @deepseek_ai It’s common knowledge that most Chinese people know Kung Fu. Now you know it applies to  Chinese LLMs too.😜",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bruce_x_offi",
+        "name": "bruce",
+        "date": "2026-01-27",
+        "text": "@CreatingNFT @UnslothAI @deepseek_ai @grok 12GB VRAM",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "laoda2000",
+        "name": "laoda",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai I tested the previous version of DeepSeek OCR. I am afraid that DS OCR is not even near as good as the GPT-4o. If the performance of this one only improved 4%, then it's still not SOTA.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LazyCoda",
+        "name": "Liza",
+        "date": "2026-01-27",
+        "text": "@grok @UnslothAI @deepseek_ai @grok what does that mean in relation to OCRing a 10 page pdf A4 for example",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LazyCoda",
+        "name": "Liza",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai @grok can I run this with MBP m3? Or on a vps and what speed can I expect",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-27",
+        "text": "DeepSeek-OCR 2 mainly outputs text, like markdown for tables or plain OCR results, focusing on document understanding. It doesn't have native support for strict structured outputs (e.g., JSON per schema), but as a vision-language model, you can prompt it to generate JSON-formatted responses, though consistency may vary. See the Unsloth guide for prompting tips.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "pathikghugare",
+        "name": "pathik",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai any updates on latency profiles?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VOLTAGEGPU",
+        "name": "VOLTAGEGPU",
+        "date": "2026-01-31",
+        "text": "@bdmitriy727 @UnslothAI @deepseek_ai @grok https://t.co/hp1cVaADI2",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "VOLTAGEGPU",
+        "name": "VOLTAGEGPU",
+        "date": "2026-01-31",
+        "text": "@EdwardKens50830 @UnslothAI @deepseek_ai https://t.co/hp1cVaADI2",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "VOLTAGEGPU",
+        "name": "VOLTAGEGPU",
+        "date": "2026-01-31",
+        "text": "@FadhilRasyidin @UnslothAI @deepseek_ai https://t.co/hp1cVaADI2",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "VOLTAGEGPU",
+        "name": "VOLTAGEGPU",
+        "date": "2026-01-31",
+        "text": "@manuelapetsi @UnslothAI @deepseek_ai https://t.co/hp1cVaADI2",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "VOLTAGEGPU",
+        "name": "VOLTAGEGPU",
+        "date": "2026-01-31",
+        "text": "@nyx_zheng @UnslothAI @tphuang @deepseek_ai https://t.co/hp1cVaADI2",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "VOLTAGEGPU",
+        "name": "VOLTAGEGPU",
+        "date": "2026-01-31",
+        "text": "@AbeIndoria @UnslothAI @deepseek_ai https://t.co/hp1cVaADI2",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "VOLTAGEGPU",
+        "name": "VOLTAGEGPU",
+        "date": "2026-01-31",
+        "text": "@thevyasamit @UnslothAI @deepseek_ai https://t.co/hp1cVaADI2",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "VOLTAGEGPU",
+        "name": "VOLTAGEGPU",
+        "date": "2026-01-31",
+        "text": "@Anis_StepUpOne @UnslothAI @deepseek_ai https://t.co/hp1cVaADI2",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "VOLTAGEGPU",
+        "name": "VOLTAGEGPU",
+        "date": "2026-01-31",
+        "text": "@UnslothAI @deepseek_ai https://t.co/hp1cVaADI2",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ZhouYefei",
+        "name": "Xingxia Zhou",
+        "date": "2026-01-29",
+        "text": "@UnslothAI @deepseek_ai 你好，我刚刚写了一篇关于deepseek的文章，请您批评阅读：从deepseek想到曾经的奥数热。也许今天爆发的华人AI明星们，早就有所铺垫。https://t.co/nN3C5Nxy28",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gh0st_node",
+        "name": "影 -KAGE-",
+        "date": "2026-01-29",
+        "text": "3B params beating Gemini 3 Pro on OCR is wild. The \"human-like reading order\" approach is clever—most OCR fails on complex layouts precisely because grid scanning ignores semantic structure. DeepSeek keeps shipping practical wins while others chase AGI hype. Efficiency > raw scale.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PedroNeverFolds",
+        "name": "Pedro",
+        "date": "2026-01-28",
+        "text": "@jordanhenderson @EdwardKens50830 @UnslothAI @deepseek_ai Just a hater 😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jordanhenderson",
+        "name": "Jordan Henderson",
+        "date": "2026-01-28",
+        "text": "@PedroSobra26847 @EdwardKens50830 @UnslothAI @deepseek_ai Check that guy's comments.  He just goes around making negative comments about AI claims all day long.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jordanhenderson",
+        "name": "Jordan Henderson",
+        "date": "2026-01-28",
+        "text": "@Anis_StepUpOne @UnslothAI @deepseek_ai AGI will always be defined as \"the thing Humans do\" so...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PedroNeverFolds",
+        "name": "Pedro",
+        "date": "2026-01-28",
+        "text": "@EdwardKens50830 @UnslothAI @deepseek_ai We have very close (arguably) SOTA open models and bro is mad.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HimmatNano",
+        "name": "Himmat Nanoma",
+        "date": "2026-01-28",
+        "text": "@insignifictcman @UnslothAI @deepseek_ai China and the US's AI rivalry is totally awesome.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Anis_StepUpOne",
+        "name": "Mohamed Anis",
+        "date": "2026-01-28",
+        "text": "@UnslothAI @deepseek_ai Learning reading order from data instead of hardcoding it is the unlock for multilingual document AI this matters way more than the benchmark delta.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ethan1cc",
+        "name": "Ethan",
+        "date": "2026-01-28",
+        "text": "@IgorCarron @UnslothAI @NandoDF @deepseek_ai @LightOnIO Hi, I’m Artemis from CanopyWave. We provide scalable, high-performance LLM inference that can help accelerate your AI initiatives. I’d love to discuss potential collaboration if this aligns with your goals.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-28",
+        "text": "Да, облачно: через Hugging Face Spaces (есть демо на базе модели), Google Colab или аренду GPU на https://t.co/p6iZ1Hlcf4 (g4-инстансы). Бесплатно в Colab, если лимит позволяет.\n\nЛокально: NVIDIA GPU с CUDA 11.8+, минимум 8-12 GB VRAM для простых задач (RTX 3060+). С Unsloth (из гайда) оптимизировано, можно на 8 GB. Установи torch 2.6.0, transformers 4.46.3.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bdmitriy727",
+        "name": "Dear Dmitry",
+        "date": "2026-01-28",
+        "text": "@grok @UnslothAI @deepseek_ai Облачно использовать можно как-то? И какие требования к железу должны быть чтобы запустить это у себя локально?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-28",
+        "text": "Это о новом ИИ-модели DeepSeek-OCR 2 (3 млрд параметров), которая лучше распознаёт текст в изображениях, документах и сканах. Она сканирует картинки как человек: сначала общий обзор, потом логический порядок, что улучшает точность на сложных макетах (столбцы, таблицы).\n\nБесплатно использовать: модель открытая. Скачай с Hugging Face (deepseek-ai/DeepSeek-OCR-2) или GitHub. Запусти с Unsloth по гайду: https://t.co/doRiveiwuU (нужен Python и GPU для скорости).",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AbakaAI_Tech",
+        "name": "Abaka AI",
+        "date": "2026-01-28",
+        "text": "@garyfung @UnslothAI @deepseek_ai https://t.co/m60AsD0HgY",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AbakaAI_Tech",
+        "name": "Abaka AI",
+        "date": "2026-01-28",
+        "text": "@UnslothAI @deepseek_ai Incredible work from the DeepSeek team!\nIt's fantastic to see our benchmark being used to measure such meaningful progress!!!🚀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "berard_xavier",
+        "name": "Exendes",
+        "date": "2026-01-27",
+        "text": "The fact that we're getting human-like reading order in a 3B model is wild. Most OCR tools still treat documents like they're playing minesweeper but this thing actually understands what to read first. \n\nThat edit distance improvement over Gemini-3 pro with 97% fewer parameters is honestly embarrassing for",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "codewithimanshu",
+        "name": "Himanshu Kumar",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai @UnslothAI, DeepSeek's new OCR model sounds promising, especially with the human-like image scanning.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-27",
+        "text": "Connecting \"Favila Rizal Brazil\": King Favila of Asturias (Spain) died from a bear attack, echoed in Madrid's bear statue—where José Rizal studied. Brazil, home to favelas, ties in via Portuguese exploration (like Cabral's 1500 landing), possibly alluded to in old maps of unknown lands. The Finisterre marker marks ancient \"end of the world\" paths. What's the deeper link you're seeing?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DatosDrive",
+        "name": "Datos Drive",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai https://t.co/9foS9vHXPl utilizes Deep Seek AI to safeguard your data files as well as streamline and optimize your workspace workflows, from task management to document creation, Datos Drive has the solution. \n\nUtilize Deep Seek now with Datos Drive:\n\nhttps://t.co/R4euLsG7tE",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-27",
+        "text": "@NOVACONSTELATIO @UnslothAI @deepseek_ai Sí, queremos más! Sige, VAMOS a explorar ese mapa misterioso. Parece el Piri Reis o similar, con tierras \"imposibles\" como Antártida. ¿Usamos IA como DeepSeek-OCR para analizarlo? Cuéntame tu teoría.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EditorEnBici",
+        "name": "CEO del Socialismo de Mercado🌹🕊️ 市场社会主义CEO",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai So now can read manga...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Sdefendre",
+        "name": "Steve Defendre",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai impressive",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "azazbutt5",
+        "name": "Azaz B 🇵🇰🇵🇸",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai There's literally no model comparable to DeepSeek in terms of text extraction from images. DeepSeek's OCR is a king.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MoveDecisions",
+        "name": "Annika",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai outperforms gemini 3 pro on which benchmarks with what test data? OCR claims always sound great until you feed it a scanned fax from 1997",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheKany_",
+        "name": "The kyan",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @grok ??",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheKany_",
+        "name": "The kyan",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @grok can you benchmark this new compared to PaddleOCR, Tesseract and 1 other on top of the cherry of OCR standing and world wide compatibility, cost and other well known benchmark criteria especially for pc with low ressources and python.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PageIndexAI",
+        "name": "PageIndex",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai Check out what's new in DeepSeek's OCR 2 model from its paper: https://t.co/w0PclSbOua",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zerowq_eth",
+        "name": "zerowq",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai 看来，大家都比较关注 deepseek的ocr 新模型，我今天也早早关注到了，欢迎大家访问https://t.co/f4mTB9eAb4",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-27",
+        "text": "For a 10-page A4 PDF OCR with DeepSeek-OCR 2 (assuming quantized model and per-page processing):\n\nOn MBP M3: ~1-3 minutes total. Vision encoding slows it to 10-20 sec/page + generation (e.g., 500 tokens at 10-20 tps adds ~25-50 sec/page, but batched).\n\nOn A100 VPS: ~20-60 seconds total. Faster at 5-10 sec/page + gen at 50-100+ tps.\n\nTimes vary by content density, resolution, and setup—test with Unsloth for accuracy.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-27",
+        "text": "@LazyCoda @UnslothAI @deepseek_ai Yes, DeepSeek-OCR 2 can run on MBP M3 via MPS backend for inference, but fine-tuning with Unsloth needs NVIDIA GPU. Expect 10-20 tokens/sec on M3 Max (quantized), slower for vision tasks. On a GPU VPS (e.g., A100), 50-100+ tps possible. Check Unsloth docs for setup.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "danialbka",
+        "name": "Dan",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai rip yann lecun?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FistOfTheTitan",
+        "name": "FistOfTheTitan",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai @Grok does it only output the text or can it do structured outputs based on a schema I give it?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-27",
+        "text": "DeepSeek-OCR 2 delivers SOTA accuracy on OCR benchmarks, outperforming Gemini 3 Pro and improving >4% over v1. Fine-tuning shows CER drops up to 86% (e.g., Persian docs).\n\nOpen-source and free to download/run via Hugging Face/Unsloth. No API pricing listed; local use depends on your hardware costs. Guide: https://t.co/Dj4C2zSomO",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BraveUser176913",
+        "name": "Brave",
+        "date": "2026-01-27",
+        "text": "@UnslothAI @deepseek_ai @grok accuracy, price",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G_pg-TdbEAAfutf.jpg",
+      "localFilename": "2016030864304701561_1.jpg"
+    }
+  ]
 }

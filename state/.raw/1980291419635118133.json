@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:52.760Z",
+  "fetchedAt": "2026-07-13T06:48:27.747Z",
   "tweetId": "1980291419635118133",
   "post": {
     "url": "https://x.com/design_with_ayo/status/1980291419635118133",
@@ -9,7 +10,17 @@
       "name": "design_with_ayo"
     },
     "date": "2025-10-20",
-    "text": "ChatGPT prompt to generate the image https://t.co/jjwgSgJALg https://t.co/qch2IJEs6V",
+    "text": "ChatGPT prompt to generate the image https://t.co/jjwgSgJALg https://t.co/qch2IJEs6V\n\nhttps://t.co/bpUHZ0XJGi",
+    "thread": [
+      {
+        "id": "1980291419635118133",
+        "text": "ChatGPT prompt to generate the image https://t.co/jjwgSgJALg https://t.co/qch2IJEs6V"
+      },
+      {
+        "id": "1980291432503296506",
+        "text": "https://t.co/bpUHZ0XJGi"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -18,14 +29,347 @@
       {
         "type": "image",
         "url": "https://pbs.twimg.com/media/G3toi3vXcAEeziW.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3tojzJXsAAMZFt.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G3tojzLXIAAxq9c.jpg"
       }
     ],
     "metrics": {
-      "likes": 1905,
-      "retweets": 69,
+      "likes": 1897,
+      "retweets": 71,
       "replies": 20,
-      "views": 191880
+      "views": 192572
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "williamwelsh",
+        "name": "William",
+        "date": "2025-10-21",
+        "text": "@design_with_ayo ChatGPT really likes that lock icon - this is what I use in my app that I asked it to generate in May https://t.co/uj5ogMsFuS",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Antonisgon",
+        "name": "Antonisgon",
+        "date": "2025-10-23",
+        "text": "@design_with_ayo Tell me what COLORS and STYLE you want your website to be.\n++++++++++++++++++++++++++ Also can you follow me on TikTok there is an TikTok icon in my website (in my Bio)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "phena_designs",
+        "name": "Phena",
+        "date": "2025-10-22",
+        "text": "@daniel_dev14 @design_with_ayo Stop ittt😂😂😂",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Antonisgon",
+        "name": "Antonisgon",
+        "date": "2025-10-21",
+        "text": "@design_with_ayo Hey @design_with_ayo  , I checked out your profile, your work’s really solid! Do you have a personal site yet? I design clean portfolio sites like that in my BIO. that help’s freelancers attract clients faster. I could make your website for free if you’d like. Want me to?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "design_with_ayo",
+        "name": "design_with_ayo",
+        "date": "2025-10-21",
+        "text": "@wooing0306 Glad you did 😊",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "design_with_ayo",
+        "name": "design_with_ayo",
+        "date": "2025-10-21",
+        "text": "@itsrichardr You are welcome",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "design_with_ayo",
+        "name": "design_with_ayo",
+        "date": "2025-10-21",
+        "text": "@osehfavvy Thanks my boss",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "design_with_ayo",
+        "name": "design_with_ayo",
+        "date": "2025-10-21",
+        "text": "@vojtikczhraje Thanks so much",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "design_with_ayo",
+        "name": "design_with_ayo",
+        "date": "2025-10-21",
+        "text": "@akinayoUI Thanks my boss",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "andreiC_dev",
+        "name": "AndreiC",
+        "date": "2025-10-21",
+        "text": "@design_with_ayo Looks awesome!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wooing0306",
+        "name": "Wooyeong Kim",
+        "date": "2025-10-21",
+        "text": "@design_with_ayo Saved",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itsrichardr",
+        "name": "Richard",
+        "date": "2025-10-21",
+        "text": "@design_with_ayo Thank you so much, was looking for similar ones 🙌",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "raskneo",
+        "name": "Neo",
+        "date": "2025-10-21",
+        "text": "@design_with_ayo Great. Simple &amp; classy",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "akinayoUI",
+        "name": "AkinAyo | UI/UX Designer",
+        "date": "2025-10-20",
+        "text": "@design_with_ayo Nice work",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vojnvk",
+        "name": "voj",
+        "date": "2025-10-20",
+        "text": "@design_with_ayo cooked to perfection",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "osehfavvy",
+        "name": "Designer",
+        "date": "2025-10-20",
+        "text": "@design_with_ayo 👏",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shiwendo0",
+        "name": "Dammilare 🇫🇷",
+        "date": "2025-10-20",
+        "text": "@design_with_ayo Smooth work 🥰",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "orbitdave01",
+        "name": "Dave👌",
+        "date": "2025-10-23",
+        "text": "@design_with_ayo Hey \nbro",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "phena_designs",
+        "name": "Phena",
+        "date": "2025-10-22",
+        "text": "@design_with_ayo Ayo your UI is nice!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "daniel_dev14",
+        "name": "Daniel",
+        "date": "2025-10-22",
+        "text": "@phena_designs @design_with_ayo 😂 https://t.co/EsofxGmQKU",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "phena_designs",
+        "name": "Phena",
+        "date": "2025-10-22",
+        "text": "@design_with_ayo It really delivered🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "design_with_ayo",
+        "name": "design_with_ayo",
+        "date": "2025-10-22",
+        "text": "@Antonisgon For free?\nI would be in definitely",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "leooo_ch",
+        "name": "Leo",
+        "date": "2025-10-22",
+        "text": "@design_with_ayo Useful ! Thanks",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "full_stack_life",
+        "name": "Sal",
+        "date": "2025-10-22",
+        "text": "@design_with_ayo Wish I could do this with Rive or Lottie files",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ayatollah_Rubio",
+        "name": "Trumb",
+        "date": "2025-10-21",
+        "text": "@design_with_ayo These are so clean 👀👀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "myrhex",
+        "name": "Myrhe𝕩",
+        "date": "2025-10-21",
+        "text": "@design_with_ayo get off ChatGPT use grok imagine",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "da_yor",
+        "name": "Pleased! رضوان",
+        "date": "2025-10-21",
+        "text": "@design_with_ayo This is clean",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nnnnicholas",
+        "name": "nicholas ⛱",
+        "date": "2025-10-21",
+        "text": "@design_with_ayo chat and nano banana not really capable of doing transparent background, right?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Razthedesigner",
+        "name": "Raz",
+        "date": "2025-10-21",
+        "text": "@design_with_ayo Superb work",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "design_with_ayo",
+        "name": "design_with_ayo",
+        "date": "2025-10-21",
+        "text": "@andreiC_dev Thanks so much",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "design_with_ayo",
+        "name": "design_with_ayo",
+        "date": "2025-10-21",
+        "text": "@raskneo Thanks so much",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "design_with_ayo",
+        "name": "design_with_ayo",
+        "date": "2025-10-21",
+        "text": "@williamwelsh This also looks good",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "design_with_ayo",
+        "name": "design_with_ayo",
+        "date": "2025-10-21",
+        "text": "@OluwaSheeu Thanks my boss",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MrJimitShah",
+        "name": "Jimit Shah",
+        "date": "2025-10-21",
+        "text": "@design_with_ayo @Sumit_2823",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3toi3wW0AAwfip.jpg",
+      "localFilename": "1980291419635118133_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3toi3vXcAEeziW.jpg",
+      "localFilename": "1980291419635118133_2.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3tojzJXsAAMZFt.jpg",
+      "localFilename": "1980291419635118133_3.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3tojzLXIAAxq9c.jpg",
+      "localFilename": "1980291419635118133_4.jpg"
+    }
+  ]
 }

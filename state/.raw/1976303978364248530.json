@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:58.582Z",
+  "fetchedAt": "2026-07-13T06:47:44.417Z",
   "tweetId": "1976303978364248530",
   "post": {
     "url": "https://x.com/Hesamation/status/1976303978364248530",
@@ -9,19 +10,296 @@
       "name": "ℏεsam"
     },
     "date": "2025-10-09",
-    "text": "I just read Anthropic's guide on effective context engineering for AI agents. \n\nIt rewires how you think about context, with beautiful simple explanations.\n\n📩 Bookmark this.\n\nHere's what you need to know:\n\n- Context Rot is real. As the number of tokens in the context window grows, the model’s ability to accurately recall info from that context drops. Happens with every LLM, even with a 1M context window.\n\n- Prompt and Context engineering don’t contradict. They go hand in hand. Prompt engineering is about writing clear instructions to get the output you want. Context engineering is more programmatic, the art and science of filling the context window with just the right info.\n\n- System prompts drive the whole performance of your model. A good system prompt balances it out: specific enough to guide behavior, but flexible enough to give the model strong heuristics. Don’t make it too vague or too restrictive.\n\n- Tools must have clear names, separation of concerns, solid error handling, and return results without being too verbose. If a human engineer can’t say which tool to use in a situation, an AI agent won’t either.\n\n- Providing examples in prompts and tool descriptions helps. But it has to be a set of diverse examples that add something. \"Teams will often stuff a laundry list of edge cases into a prompt trying to cover every rule the LLM should follow for a task. We don’t recommend this.\"\n\n- It pays off to spend time pre-processing to get the right info to the LLM. It’s fine. Otherwise, dumping info into context backfires. Without guidance, an agent wastes context by misusing tools, chasing dead ends, or missing key info.\n\nCommon context engineering techniques:\n\nCompaction: have the agent summarize its message history when you’re near the context limit. The art is in which critical info you keep: unresolved issues, overall goal, execution steps, etc.\n\nStructured note-taking: the agent can jot down notes outside the context window and pull them in when needed.\n\nSub-agent architectures: if your main agent needs to do a task that’s not critical to the main workflow, have it spawn sub-agents, return results, then dump their context. Your main agent might search for info -> call a sub-agent to search -> get the results. Keeps the main context clean.",
+    "text": "I just read Anthropic's guide on effective context engineering for AI agents. \n\nIt rewires how you think about context, with beautiful simple explanations.\n\n📩 Bookmark this.\n\nHere's what you need to know:\n\n- Context Rot is real. As the number of tokens in the context window grows, the model’s ability to accurately recall info from that context drops. Happens with every LLM, even with a 1M context window.\n\n- Prompt and Context engineering don’t contradict. They go hand in hand. Prompt engineering is about writing clear instructions to get the output you want. Context engineering is more programmatic, the art and science of filling the context window with just the right info.\n\n- System prompts drive the whole performance of your model. A good system prompt balances it out: specific enough to guide behavior, but flexible enough to give the model strong heuristics. Don’t make it too vague or too restrictive.\n\n- Tools must have clear names, separation of concerns, solid error handling, and return results without being too verbose. If a human engineer can’t say which tool to use in a situation, an AI agent won’t either.\n\n- Providing examples in prompts and tool descriptions helps. But it has to be a set of diverse examples that add something. \"Teams will often stuff a laundry list of edge cases into a prompt trying to cover every rule the LLM should follow for a task. We don’t recommend this.\"\n\n- It pays off to spend time pre-processing to get the right info to the LLM. It’s fine. Otherwise, dumping info into context backfires. Without guidance, an agent wastes context by misusing tools, chasing dead ends, or missing key info.\n\nCommon context engineering techniques:\n\nCompaction: have the agent summarize its message history when you’re near the context limit. The art is in which critical info you keep: unresolved issues, overall goal, execution steps, etc.\n\nStructured note-taking: the agent can jot down notes outside the context window and pull them in when needed.\n\nSub-agent architectures: if your main agent needs to do a task that’s not critical to the main workflow, have it spawn sub-agents, return results, then dump their context. Your main agent might search for info -> call a sub-agent to search -> get the results. Keeps the main context clean.\n\nThe three examples of the system prompt spectrum https://t.co/Z0Qg94XwWm",
+    "thread": [
+      {
+        "id": "1976303978364248530",
+        "text": "I just read Anthropic's guide on effective context engineering for AI agents. \n\nIt rewires how you think about context, with beautiful simple explanations.\n\n📩 Bookmark this.\n\nHere's what you need to know:\n\n- Context Rot is real. As the number of tokens in the context window grows, the model’s ability to accurately recall info from that context drops. Happens with every LLM, even with a 1M context window.\n\n- Prompt and Context engineering don’t contradict. They go hand in hand. Prompt engineering is about writing clear instructions to get the output you want. Context engineering is more programmatic, the art and science of filling the context window with just the right info.\n\n- System prompts drive the whole performance of your model. A good system prompt balances it out: specific enough to guide behavior, but flexible enough to give the model strong heuristics. Don’t make it too vague or too restrictive.\n\n- Tools must have clear names, separation of concerns, solid error handling, and return results without being too verbose. If a human engineer can’t say which tool to use in a situation, an AI agent won’t either.\n\n- Providing examples in prompts and tool descriptions helps. But it has to be a set of diverse examples that add something. \"Teams will often stuff a laundry list of edge cases into a prompt trying to cover every rule the LLM should follow for a task. We don’t recommend this.\"\n\n- It pays off to spend time pre-processing to get the right info to the LLM. It’s fine. Otherwise, dumping info into context backfires. Without guidance, an agent wastes context by misusing tools, chasing dead ends, or missing key info.\n\nCommon context engineering techniques:\n\nCompaction: have the agent summarize its message history when you’re near the context limit. The art is in which critical info you keep: unresolved issues, overall goal, execution steps, etc.\n\nStructured note-taking: the agent can jot down notes outside the context window and pull them in when needed.\n\nSub-agent architectures: if your main agent needs to do a task that’s not critical to the main workflow, have it spawn sub-agents, return results, then dump their context. Your main agent might search for info -> call a sub-agent to search -> get the results. Keeps the main context clean."
+      },
+      {
+        "id": "1976419031205937649",
+        "text": "The three examples of the system prompt spectrum https://t.co/Z0Qg94XwWm"
+      }
+    ],
     "media": [
       {
         "type": "image",
         "url": "https://pbs.twimg.com/media/G209_OSWkAAS-Oz.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G22moezWsAAUxnr.jpg"
       }
     ],
     "metrics": {
-      "likes": 2092,
-      "retweets": 229,
-      "replies": 28,
-      "views": 166126
+      "likes": 2076,
+      "retweets": 222,
+      "replies": 29,
+      "views": 166379
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "SquireDigital",
+        "name": "Allen 🇺🇦🇺🇸🇨🇦🇪🇺🇨🇭 Fella",
+        "date": "2025-10-09",
+        "text": "@Hesamation https://t.co/zf5IGLvrP7",
+        "likes": 37,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rgb_prithvi",
+        "name": "Prithvi Rajasekaran",
+        "date": "2025-10-09",
+        "text": "@Hesamation I'm one of the authors, thanks for writing this up! I'd also add \"just in time context\" as another key takeaway, it's a significant trend that we're seeing and are excited about",
+        "likes": 22,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nicbstme",
+        "name": "Nicolas Bustamante",
+        "date": "2025-10-09",
+        "text": "@Hesamation https://t.co/YQvrDyTBYo",
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mikulskibartosz",
+        "name": "Bartosz Mikulski",
+        "date": "2025-10-10",
+        "text": "@Hesamation I published a summary written in a more manager-friendly way, so you can send it to your boss ;)\nhttps://t.co/OGDDQDjNZV",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ray_sorkin",
+        "name": "Ray Sorkin",
+        "date": "2025-10-09",
+        "text": "@Hesamation Use nested json to store any depth of data of up to 2GB context with info served under various abstraction sauces.  Saves tokens 10x",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lesekx",
+        "name": "Lešek",
+        "date": "2025-10-09",
+        "text": "@Hesamation Interesting how the system prompts are such an important driver behind the ai agent. One would think that the prompt can be more vague as the model itself should be able to handle everything else, but I guess that's not the case",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tmaiaroto",
+        "name": "Tom Maiaroto",
+        "date": "2025-10-10",
+        "text": "@Hesamation That depends on the model. It isn't recalling anything. It's parsing the text each time. It's string in and string out. The larger that is, the more memory is needed, the slower things are and the more ambiguous things can become. That's why context management is important.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "carlosml",
+        "name": "Carlos Lebron",
+        "date": "2025-10-09",
+        "text": "@Hesamation Context rot is the silent killer of AI convos. Great breakdown!",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eastgate",
+        "name": "Mark Bernstein",
+        "date": "2025-10-10",
+        "text": "@rcmisk @Hesamation We do this with Tinderbox 11, a note taking tool for people that can also be used through MCP. https://t.co/Ove65pa3vO",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tech_X_global",
+        "name": "TechX Global",
+        "date": "2025-10-10",
+        "text": "@Hesamation Context engineering feels like the missing discipline in AI development, somewhere between system design and cognitive ergonomics. Anthropic’s breakdown on compaction, tool clarity, and sub-agent architectures nails it.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tmaiaroto",
+        "name": "Tom Maiaroto",
+        "date": "2025-10-10",
+        "text": "@Hesamation But having a large context is actually a GOOD thing if you have a long task and/or want more accuracy. The \"rot\" part comes from poor control over the content in the context and failure to provide strong signals and failing to correct context through feedback loops.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "null_core_ai",
+        "name": "Null",
+        "date": "2025-10-09",
+        "text": "@Hesamation Every fix in this guide compensates for the same thing which is  unstable intent.\n\nYou can summarize, compact, spawn sub-agents, tune context… or you can just start from a deterministic intent block.\n\nThat’s what we built Null Lens for.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Dusanwriter",
+        "name": "Doug Thompson",
+        "date": "2025-10-09",
+        "text": "@Hesamation Structured note taking 👍",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "__Jaisurya",
+        "name": "Jaisurya",
+        "date": "2025-10-09",
+        "text": "@Hesamation Great explanation for context engineering 👏",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "myronkoch",
+        "name": "myron koch",
+        "date": "2025-10-09",
+        "text": "@Hesamation Agreed, it’s pretty amazing stuff.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "inc_slick",
+        "name": "Slick Leagues Inc.",
+        "date": "2026-04-19",
+        "text": "@Hesamation The compaction point is huge. I do this manually...I ask the AI to summarize, tell it what to skip, paste into a fresh chat. Clean window, accuracy goes back up immediately. Most people don't realize they're paying for tokens the model never reads.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AIDiffReview",
+        "name": "AIDiffReview",
+        "date": "2025-12-04",
+        "text": "@Hesamation yeah, context is where most of them fall over. they’re great at “this might be a bug” but bad at “this doesn’t fit the architecture we agreed on.”",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nileshverma0017",
+        "name": "Nilesh Verma",
+        "date": "2025-10-14",
+        "text": "@tmaiaroto @Hesamation Every time my AI forgets what I built, I lose hours re-explaining everything.\nI just wanted my AI to remember like a second brain.\nSo I built it myself — the missing layer of intelligence.\nhttps://t.co/1zkGhXUVDH\n\nIf you’ve felt this pain, you’ll get it instantly.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "amandevx",
+        "name": "Aman DevX",
+        "date": "2025-10-10",
+        "text": "@Hesamation That sounds really interesting! I'll definitely check it out.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dustin_zeb",
+        "name": "Dustin",
+        "date": "2025-10-10",
+        "text": "@Hesamation Understanding the nuances of context management is crucial for advancing AI capabilities. Thanks for sharing this insightful resource!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TKiselchuk",
+        "name": "Timur Kiselchuk",
+        "date": "2025-10-10",
+        "text": "@Hesamation Thanks for sharing this! Context engineering sounds really useful, especially knowing how to keep things clear as conversations get longer.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "drewlabai",
+        "name": "Street Lab Ai",
+        "date": "2025-10-10",
+        "text": "@SquireDigital @Hesamation interesting seeing this framed clearly. I’ve been designing small agents that maintain rhythm through context rotation and JSONL spines. it’s less about prompts more about continuity, cadence, and self-coherence. 🜂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AdityaS37527045",
+        "name": "Aaditya",
+        "date": "2025-10-10",
+        "text": "@Hesamation Great notes 📝",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Yuki26856052",
+        "name": "Yuki He",
+        "date": "2025-10-09",
+        "text": "@Hesamation context rot's real huh",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rcmisk",
+        "name": "Ricky",
+        "date": "2025-10-09",
+        "text": "@Hesamation Is there an effective way to have the agent keep an updated summary stored somewhere else?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AriciLink",
+        "name": "Arici 🏗 🛤💊",
+        "date": "2025-10-09",
+        "text": "@Hesamation https://t.co/JLvInx71MV",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "amiepsa",
+        "name": "Amit",
+        "date": "2025-10-09",
+        "text": "@Hesamation a resourceful addition https://t.co/76xrr8TZsZ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mrdviteri",
+        "name": "Diego Viteri",
+        "date": "2025-10-09",
+        "text": "@Hesamation Completely agree. You can do wonders and solve real problems combining good context engineering and.. well, good old engineering https://t.co/cnB1eUOH9r",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G209_OSWkAAS-Oz.jpg",
+      "localFilename": "1976303978364248530_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G22moezWsAAUxnr.jpg",
+      "localFilename": "1976303978364248530_2.jpg"
+    }
+  ]
 }

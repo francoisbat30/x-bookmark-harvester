@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:51.943Z",
+  "fetchedAt": "2026-07-13T06:48:45.075Z",
   "tweetId": "1980669642344698270",
   "post": {
     "url": "https://x.com/carlvellotti/status/1980669642344698270",
@@ -9,19 +10,1018 @@
       "name": "Carl Vellotti 🥞"
     },
     "date": "2025-10-21",
-    "text": "Every PM should be using Claude Code.\n\nSo I built a HUGE course for you to learn Claude Code... IN Claude Code!\n🔹 Complete guide\n🔹 Make PRDs, analyze data, create decks\n\nSoon, I'll sell it for $149.\nFor the next 24h: FREE!\n\nFollow + RT + comment \"CC\" &amp; I'll DM it. https://t.co/Y5i43ub36j",
+    "text": "Every PM should be using Claude Code.\n\nSo I built a HUGE course for you to learn Claude Code... IN Claude Code!\n🔹 Complete guide\n🔹 Make PRDs, analyze data, create decks\n\nSoon, I'll sell it for $149.\nFor the next 24h: FREE!\n\nFollow + RT + comment \"CC\" &amp; I'll DM it. https://t.co/Y5i43ub36j\n\nbtw I'm writing a fun weekly guide to building, automating, and shipping across the whole product stack with LLMs \n\njoin the stack! 🥞\nhttps://t.co/2ZFZmPuYz7",
+    "thread": [
+      {
+        "id": "1980669642344698270",
+        "text": "Every PM should be using Claude Code.\n\nSo I built a HUGE course for you to learn Claude Code... IN Claude Code!\n🔹 Complete guide\n🔹 Make PRDs, analyze data, create decks\n\nSoon, I'll sell it for $149.\nFor the next 24h: FREE!\n\nFollow + RT + comment \"CC\" &amp; I'll DM it. https://t.co/Y5i43ub36j"
+      },
+      {
+        "id": "1980861858300195262",
+        "text": "btw I'm writing a fun weekly guide to building, automating, and shipping across the whole product stack with LLMs \n\njoin the stack! 🥞\nhttps://t.co/2ZFZmPuYz7"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/1980669586942144512/vid/avc1/920x720/xEOeWCff04EeyEby.mp4?tag=14"
+        "url": "https://video.twimg.com/amplify_video/1980669586942144512/vid/avc1/920x720/xEOeWCff04EeyEby.mp4?tag=14",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1980669586942144512/img/W9wvqypY1OfKVAOF.jpg"
       }
     ],
     "metrics": {
-      "likes": 2390,
-      "retweets": 1538,
-      "replies": 2234,
-      "views": 459988
+      "likes": 2380,
+      "retweets": 1504,
+      "replies": 2221,
+      "views": 464147
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "carlvellotti",
+        "name": "Carl Vellotti 🥞",
+        "date": "2025-10-22",
+        "text": "@BloodyOranje ctrl + enter for lines\nctrl + v for pasting images\n\nNOT command on Mac which trips people up",
+        "likes": 11,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "carlvellotti",
+        "name": "Carl Vellotti 🥞",
+        "date": "2025-10-23",
+        "text": "DMs are limited to 500/day, so if you did the things you will get it in the next 1-2 days!",
+        "likes": 6,
+        "isAuthor": true,
+        "isDirectReply": true
+      },
+      {
+        "handle": "carlvellotti",
+        "name": "Carl Vellotti 🥞",
+        "date": "2025-10-22",
+        "text": "@ryanturnercom yes! obsidian is recommended as part of the course",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "trendseer2",
+        "name": "trendseer",
+        "date": "2025-11-02",
+        "text": "@carlvellotti @MacroTactical CC",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "carlvellotti",
+        "name": "Carl Vellotti 🥞",
+        "date": "2025-10-22",
+        "text": "@juanluloo @ryanturnercom It's where you can actually see the files",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TheMonTSteR",
+        "name": "ᵀʰᵉ ᴹᵒⁿᵀˢᵗᵉᴿ",
+        "date": "2026-01-21",
+        "text": "@carlvellotti CC",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "carlvellotti",
+        "name": "Carl Vellotti 🥞",
+        "date": "2025-10-23",
+        "text": "@julianharris I have some stuff in the works for Codex too 🙂 But I think for non-coding use cases, Claude is better ime.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "carlvellotti",
+        "name": "Carl Vellotti 🥞",
+        "date": "2025-10-23",
+        "text": "@Alpha_causality Yehaw",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "carlvellotti",
+        "name": "Carl Vellotti 🥞",
+        "date": "2025-10-22",
+        "text": "@DavidPombar you can keep it",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "carlvellotti",
+        "name": "Carl Vellotti 🥞",
+        "date": "2025-10-22",
+        "text": "@TreeS_sw This course has tons of example files within it and step-by-step guides to doing more advanced product work. Of course anything can be learned in a number of ways, but this is a guided and tailored to specific use cases.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "carlvellotti",
+        "name": "Carl Vellotti 🥞",
+        "date": "2025-10-22",
+        "text": "@flipsidehacker inspiration really struck with this one",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mr_suvv",
+        "name": "SvM",
+        "date": "2026-03-13",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mandark1709",
+        "name": "Mandar Kashikar",
+        "date": "2026-02-28",
+        "text": "@carlvellotti @anuukriti Cc",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "theAI_Maverick",
+        "name": "the AI Maverick",
+        "date": "2026-02-05",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "theatifeqbal",
+        "name": "Muhammad Atif",
+        "date": "2026-01-28",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jasoncsherman",
+        "name": "Jason Sherman",
+        "date": "2026-01-16",
+        "text": "@carlvellotti @noamseg Hey @carlvellotti are you still offering this? Would love to check it out!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cristofrcharles",
+        "name": "Christopher Charles",
+        "date": "2026-01-15",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MagaaQuest",
+        "name": "Charming Bella 💓",
+        "date": "2026-01-13",
+        "text": "@carlvellotti 💬 Wow, impressive course you've built! 📚💡 Can't wait to check it out! DM me for the free course? 😃",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "naanaa23__",
+        "name": "itsnaanahere",
+        "date": "2026-01-12",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hendryman",
+        "name": "Manuel Flurin Hendry",
+        "date": "2026-01-09",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wotkha",
+        "name": "Same As Always",
+        "date": "2025-12-22",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "apelosi",
+        "name": "apelosi.eth",
+        "date": "2025-12-21",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TaliaBrookv3",
+        "name": "Talia Brookes",
+        "date": "2025-12-09",
+        "text": "@carlvellotti check dm",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "marxferatu",
+        "name": "Marxferatu - e/acc",
+        "date": "2025-12-01",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jazzyalex",
+        "name": "Alexander Malakhov",
+        "date": "2025-11-28",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "blockreadycom",
+        "name": "Blockready | Web3 Education",
+        "date": "2025-11-20",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "maison1000mont",
+        "name": "maison millemont",
+        "date": "2025-11-19",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "afei_AI",
+        "name": "AFei Liang",
+        "date": "2025-11-18",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sailovesindia",
+        "name": "Sai Kiran Chundru",
+        "date": "2025-11-16",
+        "text": "@carlvellotti Hello",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "itscraigdavies",
+        "name": "Craig Davies 🏴󠁧󠁢󠁷󠁬󠁳󠁿🚢🇬🇧",
+        "date": "2025-11-13",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itscraigdavies",
+        "name": "Craig Davies 🏴󠁧󠁢󠁷󠁬󠁳󠁿🚢🇬🇧",
+        "date": "2025-11-13",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "f0137173826280",
+        "name": "Safia",
+        "date": "2025-11-12",
+        "text": "@carlvellotti @zhranea ممكن تشرفني بمتابعتك",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MeeraKapoor7o",
+        "name": "Meera Kapoor",
+        "date": "2025-11-06",
+        "text": "@carlvellotti Sounds super useful for creators — how powerful is Claude Code compared to ChatGPT?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kedari007",
+        "name": "humancto",
+        "date": "2025-11-05",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "breezeight",
+        "name": "Nicola Brisotto",
+        "date": "2025-11-03",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "undercj00",
+        "name": "cj",
+        "date": "2025-11-01",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mauri__03",
+        "name": "Maurizio Ghisolfi",
+        "date": "2025-10-31",
+        "text": "@carlvellotti Still waiting 😬",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AndrewL31327792",
+        "name": "AndrewLee",
+        "date": "2025-10-31",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "abhi3107",
+        "name": "BigbroParida - 540/10k Payout Locked",
+        "date": "2025-10-30",
+        "text": "@carlvellotti Cc",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Zvone",
+        "name": "Zvone O",
+        "date": "2025-10-30",
+        "text": "@carlvellotti still waiting",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TreeS_sw",
+        "name": "Tomas Silvetti",
+        "date": "2025-10-29",
+        "text": "@NadavLeb @carlvellotti Damn, great work, man!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NadavLeb",
+        "name": "Nadav Lebovitch",
+        "date": "2025-10-29",
+        "text": "@TreeS_sw @carlvellotti Well I'm selling AI workshops for tech companies for $3500. And they go out like hot buns.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zakariabenallo",
+        "name": "zakaria",
+        "date": "2025-10-29",
+        "text": "@carlvellotti Cc",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "otuliog",
+        "name": "Túlio Guimarães",
+        "date": "2025-10-29",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "linqibin0826",
+        "name": "adai",
+        "date": "2025-10-29",
+        "text": "@carlvellotti This is fantastic! Building a course *in* Claude Code to teach Claude Code is such a great idea. Very excited to learn how to use it for PRDs and data analysis. CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mfahsold",
+        "name": "@Mfahsold",
+        "date": "2025-10-29",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Elamartiyassin",
+        "name": "Med Yassine Elamarti",
+        "date": "2025-10-28",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sdiegosoares",
+        "name": "Diego Soares 🇧🇷🇮🇱",
+        "date": "2025-10-28",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "peachseokiee",
+        "name": "mika ft. ia",
+        "date": "2025-10-28",
+        "text": "@carlvellotti The production quality in your videos is fantastic. That level of professionalism deserves a much wider, more valuable audience. Interested for a discussion?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eeshman",
+        "name": "Addie Gisser",
+        "date": "2025-10-28",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GerarBasa",
+        "name": "Gerar",
+        "date": "2025-10-27",
+        "text": "@carlvellotti I commented, liked and reposted on time and no dm :C",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SelsiEnt",
+        "name": "Nicole Henderson - Capturing the Story",
+        "date": "2025-10-27",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "urldomauro",
+        "name": "mauro",
+        "date": "2025-10-27",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "afei_AI",
+        "name": "AFei Liang",
+        "date": "2025-10-27",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Anaspk25",
+        "name": "Anas pk",
+        "date": "2025-10-27",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hmaseko",
+        "name": "Harrison Maseko",
+        "date": "2025-10-27",
+        "text": "@carlvellotti CC\nLooking forward to trying this out.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "karthikshankar",
+        "name": "Karthik Shankar",
+        "date": "2025-10-26",
+        "text": "@carlvellotti Cc",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Chaz33736291",
+        "name": "Charles",
+        "date": "2025-10-26",
+        "text": "@carlvellotti @BFuki CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "codewithmiz",
+        "name": "Mizanur Chowdhury",
+        "date": "2025-10-26",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RobertW14082596",
+        "name": "Robert Williams",
+        "date": "2025-10-26",
+        "text": "@carlvellotti Cc",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Piyush_rs",
+        "name": "TedXPi",
+        "date": "2025-10-26",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "carlos_ortet",
+        "name": "carlos_ortet",
+        "date": "2025-10-26",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dinal_ridma",
+        "name": "Dinal Fernando",
+        "date": "2025-10-26",
+        "text": "@carlvellotti cc",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "luv_iz_luv",
+        "name": "dream_bigger",
+        "date": "2025-10-26",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iamdavidalfaro",
+        "name": "David Alfaro",
+        "date": "2025-10-26",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EstrellaBinaria",
+        "name": "Estrellabinaria",
+        "date": "2025-10-26",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BlekZippo",
+        "name": "BlekZippo",
+        "date": "2025-10-26",
+        "text": "@carlvellotti CC i need this!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aiwithremy",
+        "name": "AI with Remy | Learn AI",
+        "date": "2025-10-26",
+        "text": "@carlvellotti RT",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RobertMilan94",
+        "name": "Roberto Robles",
+        "date": "2025-10-25",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BruceGong18790",
+        "name": "gong bruce",
+        "date": "2025-10-25",
+        "text": "@TreeS_sw @carlvellotti Perplexity Comet Pro free 1 month :https://t.co/LNvOC8qdJT📷",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nadavfux",
+        "name": "Nadav Fux",
+        "date": "2025-10-25",
+        "text": "@carlvellotti Cc\n\nCan I still get the course ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "damienstevens",
+        "name": "Damien Stevens",
+        "date": "2025-10-25",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JAMissingham",
+        "name": "Justin Missingham",
+        "date": "2025-10-25",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "milenoi",
+        "name": "Milenoi",
+        "date": "2025-10-25",
+        "text": "@carlvellotti Cc",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "usagi_kamechan",
+        "name": "亀ちゃん🐰🐢",
+        "date": "2025-10-25",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "elder_degel",
+        "name": "Elder Degel",
+        "date": "2025-10-25",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ayo_olatoye1",
+        "name": "Ayo Olatoye",
+        "date": "2025-10-25",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "navojbre",
+        "name": "O B",
+        "date": "2025-10-25",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AntoPalumbo91",
+        "name": "Antonio Palumbo",
+        "date": "2025-10-24",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rosscohen",
+        "name": "Ross Cohen",
+        "date": "2025-10-24",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UsfBasha",
+        "name": "Shroug",
+        "date": "2025-10-24",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grzlz",
+        "name": "Guillermo",
+        "date": "2025-10-24",
+        "text": "@carlvellotti hey you didn’t dmd anything",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Virtual_Patrick",
+        "name": "Patrick Sauerwein",
+        "date": "2025-10-24",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rrickay",
+        "name": "Ricky Souza",
+        "date": "2025-10-24",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "prahaladbelavad",
+        "name": "Prahalad Belavadi @ Belavadi.com ⚡",
+        "date": "2025-10-24",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eclipse_ast",
+        "name": "zjh1943",
+        "date": "2025-10-24",
+        "text": "@carlvellotti Looking forward to this course.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eclipse_ast",
+        "name": "zjh1943",
+        "date": "2025-10-24",
+        "text": "@carlvellotti cc",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Syed_Bukhari",
+        "name": "Syed Bukhari",
+        "date": "2025-10-24",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "makemojo",
+        "name": "Make Mojo",
+        "date": "2025-10-24",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ganjarsetia",
+        "name": "KG",
+        "date": "2025-10-24",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TreeS_sw",
+        "name": "Tomas Silvetti",
+        "date": "2025-10-24",
+        "text": "@technoelog @carlvellotti Heyy, join the discord!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nickrfrost",
+        "name": "Nick Frost",
+        "date": "2025-10-24",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "theamaanmulla",
+        "name": "Amaan Mulla",
+        "date": "2025-10-24",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Rome_Essence",
+        "name": "Rome Essence B&B",
+        "date": "2025-10-24",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JeremyDong19",
+        "name": "Jeremy Dong",
+        "date": "2025-10-24",
+        "text": "@carlvellotti This is fantastic. Great creativity of building a Claude Code tuition in the Claude Code.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "anwalkowska",
+        "name": "Anna Walkowska",
+        "date": "2025-10-24",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xjjtt",
+        "name": "redderick",
+        "date": "2025-10-24",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "get1page",
+        "name": "1Page",
+        "date": "2025-10-24",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MarkAra83427261",
+        "name": "Mark Ara",
+        "date": "2025-10-24",
+        "text": "@carlvellotti CC",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "carlvellotti",
+        "name": "Carl Vellotti 🥞",
+        "date": "2025-10-23",
+        "text": "@sarvan9093 I think you'll need to comment on the main post to get picked up by the campaign!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "carlvellotti",
+        "name": "Carl Vellotti 🥞",
+        "date": "2025-10-23",
+        "text": "@villageideate I think you'll need to comment on the main post to get picked up by the campaign!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "carlvellotti",
+        "name": "Carl Vellotti 🥞",
+        "date": "2025-10-23",
+        "text": "@fxxcrypt I think you'll need to comment on the main post to get picked up by the campaign!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "carlvellotti",
+        "name": "Carl Vellotti 🥞",
+        "date": "2025-10-23",
+        "text": "@veslava_ai I think you'll need to comment on the main post to get picked up by the campaign!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "carlvellotti",
+        "name": "Carl Vellotti 🥞",
+        "date": "2025-10-23",
+        "text": "@pmarinr I think you'll need to comment on the main post to get picked up by the campaign!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "carlvellotti",
+        "name": "Carl Vellotti 🥞",
+        "date": "2025-10-23",
+        "text": "@ismareno I think you'll need to comment on the main post to get picked up by the campaign!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "carlvellotti",
+        "name": "Carl Vellotti 🥞",
+        "date": "2025-10-23",
+        "text": "@vijay_dantuluri I think you'll need to comment on the main post to get picked up by the campaign!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "carlvellotti",
+        "name": "Carl Vellotti 🥞",
+        "date": "2025-10-23",
+        "text": "@JonAbbe I think you'll need to comment on the main post to get picked up by the campaign!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "carlvellotti",
+        "name": "Carl Vellotti 🥞",
+        "date": "2025-10-23",
+        "text": "@lakergreat1 I think you'll need to comment on the main post to get picked up by the campaign!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "carlvellotti",
+        "name": "Carl Vellotti 🥞",
+        "date": "2025-10-22",
+        "text": "@ai_electrician pre LLM is irrelevant",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1980669586942144512/img/W9wvqypY1OfKVAOF.jpg",
+      "localFilename": "1980669642344698270_1_poster.jpg"
+    }
+  ]
 }

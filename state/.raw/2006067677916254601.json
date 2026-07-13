@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:36.632Z",
+  "fetchedAt": "2026-07-13T06:51:27.274Z",
   "tweetId": "2006067677916254601",
   "post": {
     "url": "https://x.com/tom_doerr/status/2006067677916254601",
@@ -10,6 +11,12 @@
     },
     "date": "2025-12-30",
     "text": "Curated resources for startup founders\n\nhttps://t.co/TsZ3NbMMZ3 https://t.co/aafI9DM9cS",
+    "thread": [
+      {
+        "id": "2006067677916254601",
+        "text": "Curated resources for startup founders\n\nhttps://t.co/TsZ3NbMMZ3 https://t.co/aafI9DM9cS"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,36 @@
       }
     ],
     "metrics": {
-      "likes": 553,
+      "likes": 551,
       "retweets": 73,
-      "replies": 4,
-      "views": 26083
+      "replies": 3,
+      "views": 26165
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "CFurish4740",
+        "name": "cheriftassuii",
+        "date": "2026-01-01",
+        "text": "@tom_doerr thank u",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "truthdotphd",
+        "name": "truth.phd",
+        "date": "2025-12-31",
+        "text": "@tom_doerr Building a startup is like cooking blindfolded; curated resources are the recipe cards that keep you from burning your dreams.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G9b76_zXEAAasaT.png",
+      "localFilename": "2006067677916254601_1.png"
+    }
+  ]
 }

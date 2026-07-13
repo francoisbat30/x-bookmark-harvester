@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:53.527Z",
+  "fetchedAt": "2026-07-13T06:48:57.119Z",
   "tweetId": "1980721302387454300",
   "post": {
     "url": "https://x.com/aaditsh/status/1980721302387454300",
@@ -10,6 +11,12 @@
     },
     "date": "2025-10-21",
     "text": "Perplexity just quietly dropped a 42-page internal guide on how they actually use AI at work.\n\nWhat I found most useful:\n\n→ How they automate the small stuff. Email, meeting prep, research (all done by AI)\n→ Using AI to amplify your curiosity, not replace it.\n→ Their prompting playbook is simple, practical, and genuinely good.\n\nComment “AI” and I’ll send it to you for free.",
+    "thread": [
+      {
+        "id": "1980721302387454300",
+        "text": "Perplexity just quietly dropped a 42-page internal guide on how they actually use AI at work.\n\nWhat I found most useful:\n\n→ How they automate the small stuff. Email, meeting prep, research (all done by AI)\n→ Using AI to amplify your curiosity, not replace it.\n→ Their prompting playbook is simple, practical, and genuinely good.\n\nComment “AI” and I’ll send it to you for free."
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -21,11 +28,904 @@
       }
     ],
     "metrics": {
-      "likes": 13001,
-      "retweets": 1352,
-      "replies": 5951,
-      "views": 1601857
+      "likes": 12942,
+      "retweets": 1359,
+      "replies": 5924,
+      "views": 1604871
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "aaditsh",
+        "name": "Aadit Sheth",
+        "date": "2025-10-22",
+        "text": "@asikunaa That's odd. Here's the free guide: https://t.co/9dSuyfEYKI",
+        "likes": 321,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "aaditsh",
+        "name": "Aadit Sheth",
+        "date": "2025-10-21",
+        "text": "@FreeSites_com Sent!",
+        "likes": 5,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "aaditsh",
+        "name": "Aadit Sheth",
+        "date": "2025-10-21",
+        "text": "@mxtknk Sent meet! Hope you find it useful",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "danalbert66",
+        "name": "Daniel Albert",
+        "date": "2025-10-27",
+        "text": "@aaditsh AI. Send it please!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "carlparrav",
+        "name": "carlos  palavicini",
+        "date": "2025-10-27",
+        "text": "@aaditsh AI",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "priteshgpatel8",
+        "name": "P & p",
+        "date": "2025-10-25",
+        "text": "@aaditsh Ai",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ValerieKayyyy",
+        "name": "Valerie Kay",
+        "date": "2026-03-13",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Cryptomurph",
+        "name": "Terry Murphy",
+        "date": "2026-02-27",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jeffry_husman",
+        "name": "Jeffry Husman",
+        "date": "2026-01-12",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EugeneOkumu_",
+        "name": "Bitter, old, millennial",
+        "date": "2025-12-22",
+        "text": "@damianmathewss @kcnickerson @aaditsh 🤣🤣🤣",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EugeneOkumu_",
+        "name": "Bitter, old, millennial",
+        "date": "2025-12-22",
+        "text": "@kcnickerson @aaditsh Engagement mining is a peculiar fad on the internet. 🤣🤣🤣 https://t.co/aPXID0kArG",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EKev708",
+        "name": "EricK",
+        "date": "2025-12-22",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sharmav",
+        "name": "Vivek Sharma, PhD, CFA®, CFP®",
+        "date": "2025-12-20",
+        "text": "@phillipzakas @aaditsh The future of Amplified Curiosity?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mzapiola",
+        "name": "Martin Zapiola",
+        "date": "2025-12-17",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MK5_13",
+        "name": "Claus Muraoka",
+        "date": "2025-12-16",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jjbelmonte",
+        "name": "jjbelmonte",
+        "date": "2025-12-09",
+        "text": "@aaditsh Im still waiting hahaha",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Btc4Cash",
+        "name": "SoliditySam",
+        "date": "2025-12-09",
+        "text": "@aaditsh funny how your ai automated account never sent me the content lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cdrum",
+        "name": "Chris Drumgoole",
+        "date": "2025-12-09",
+        "text": "@aaditsh Haven’t gotten it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "asikunaa",
+        "name": "kuna",
+        "date": "2025-11-28",
+        "text": "@dynmcprogishard @weswfloyd @aaditsh they do something called “tool calling” which is basically just using a terminal\n\nso no it’s not inherent to their architecture but they’re capable of doing it and are now usually designed to do so\n\nthis has been the case for 2+ years",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dynmcprogishard",
+        "name": "sigbovik jester",
+        "date": "2025-11-28",
+        "text": "@aaditsh the pdf seems to be ai-generated lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dynmcprogishard",
+        "name": "sigbovik jester",
+        "date": "2025-11-28",
+        "text": "@asikunaa @weswfloyd @aaditsh pretty sure that LLM doesn't natively do web searching.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "os1019",
+        "name": "Rashad 2.0",
+        "date": "2025-11-26",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GarethGreenidge",
+        "name": "G",
+        "date": "2025-11-25",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "edxninja",
+        "name": "e",
+        "date": "2025-11-21",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "fupf31",
+        "name": "阿飞",
+        "date": "2025-11-21",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BMSplice",
+        "name": "Raghav Ramabadran",
+        "date": "2025-11-19",
+        "text": "@aaditsh Ai",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Anitalove234",
+        "name": "Alexlave",
+        "date": "2025-11-16",
+        "text": "@PB___36 Yeah",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "APMGGroup",
+        "name": "Deven Mehta APMG Group India",
+        "date": "2025-11-16",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ADITYA12832024",
+        "name": "ADITYA",
+        "date": "2025-11-15",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "moonsrabbit7",
+        "name": "Tanisha Raghav",
+        "date": "2025-11-14",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chanderhansinsa",
+        "name": "kunwar",
+        "date": "2025-11-13",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kr_williams",
+        "name": "Kevin Williams",
+        "date": "2025-11-10",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ben1to_Miguel",
+        "name": "Benito",
+        "date": "2025-11-08",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "schnurr_mi53028",
+        "name": "Michael Schnurr",
+        "date": "2025-11-05",
+        "text": "@aaditsh ai",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CachimuelJuyana",
+        "name": "Nina Juyana",
+        "date": "2025-11-05",
+        "text": "@aaditsh @jeanviiiii AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CachimuelJuyana",
+        "name": "Nina Juyana",
+        "date": "2025-11-05",
+        "text": "@aaditsh @jeanviiiii Ai",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shawnadinali",
+        "name": "Shawna",
+        "date": "2025-11-05",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thompson_tobe",
+        "name": "Tobe Thompson",
+        "date": "2025-11-05",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DomainExchange0",
+        "name": "DomainExchange.Ai",
+        "date": "2025-11-05",
+        "text": "@uriferruccio @aaditsh Hi @uriferruccio \nEndless is building tomorrow’s internet. https://t.co/nqtl1jHUCy domain literally names it.\n\nInterested to acquire?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AInvestor_",
+        "name": "AInvestor",
+        "date": "2025-11-05",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iopheam",
+        "name": "The Noname",
+        "date": "2025-11-04",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thelongwaitends",
+        "name": "Adith Rajasekharan Sreelat",
+        "date": "2025-11-03",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mechealvarado",
+        "name": "José Merced",
+        "date": "2025-11-03",
+        "text": "@aaditsh Ai",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ssharathravi",
+        "name": "Sarath Ravikumar",
+        "date": "2025-11-03",
+        "text": "@aaditsh Ai",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DanielMauchan",
+        "name": "Daniel",
+        "date": "2025-11-02",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Liebert_Johan0",
+        "name": "L",
+        "date": "2025-11-01",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "momiperalta",
+        "name": "Momi Peralta",
+        "date": "2025-11-01",
+        "text": "@aaditsh ai",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AdamJArling",
+        "name": "Adam",
+        "date": "2025-11-01",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Wewillsucceed14",
+        "name": "Darren Davis",
+        "date": "2025-10-31",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AndresRubioAbad",
+        "name": "Andres Rubio",
+        "date": "2025-10-31",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HeaveAI",
+        "name": "HeavenAI",
+        "date": "2025-10-31",
+        "text": "@aaditsh Everyone talks about using AI for scale. The real pros use it to think faster — that’s the real edge.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "srikrishna941",
+        "name": "Parthasarathy Srikrishna",
+        "date": "2025-10-31",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "livelysravan",
+        "name": "sravan s nair",
+        "date": "2025-10-30",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "riishhabh8",
+        "name": "Rishabh Dubey",
+        "date": "2025-10-30",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "afsanadaf3",
+        "name": "Afsana Nadaf",
+        "date": "2025-10-30",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "kriGetaa",
+        "name": "kriGeta",
+        "date": "2025-10-29",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "raviobhan",
+        "name": "Ravinder Singh",
+        "date": "2025-10-29",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "malachyscullion",
+        "name": "Malachy Scullion",
+        "date": "2025-10-29",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dtrane67",
+        "name": "Dtraneᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠ",
+        "date": "2025-10-29",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SinghArpit2208",
+        "name": "Arpit singh",
+        "date": "2025-10-29",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Abhinav01286591",
+        "name": "Abhinav Kumar",
+        "date": "2025-10-29",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "flipfkr",
+        "name": "Papadon",
+        "date": "2025-10-29",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "santobiswas",
+        "name": "Santo Biswas",
+        "date": "2025-10-28",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hemashank",
+        "name": "Hema Iyer",
+        "date": "2025-10-28",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JPinNY",
+        "name": "JPinNY",
+        "date": "2025-10-28",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "numbersguy99",
+        "name": "dave nowicki",
+        "date": "2025-10-27",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "teeisthebee",
+        "name": "TeeVee",
+        "date": "2025-10-27",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Hauserk1",
+        "name": "Karenn Hauser",
+        "date": "2025-10-27",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "phreeskier",
+        "name": "John McMahon",
+        "date": "2025-10-27",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "roshniwadh09",
+        "name": "Roshni Wadhwani",
+        "date": "2025-10-27",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wdwp",
+        "name": "William Wateima",
+        "date": "2025-10-27",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jeffrey03929024",
+        "name": "Jeffrey",
+        "date": "2025-10-27",
+        "text": "@aaditsh Ai",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Zonneheuveltje",
+        "name": "Bas Zonneheuvel",
+        "date": "2025-10-27",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "juniormag2",
+        "name": "Junior Magalhães",
+        "date": "2025-10-27",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BilliePollack",
+        "name": "Billie Pollack",
+        "date": "2025-10-27",
+        "text": "@aaditsh Ai",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "stevehenzel",
+        "name": "Steve Henzel",
+        "date": "2025-10-26",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "paulwatson12",
+        "name": "Tipping Monster",
+        "date": "2025-10-26",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kenburbary",
+        "name": "Ken Burbary",
+        "date": "2025-10-26",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ProductRootIO",
+        "name": "Patrick @ ProductRoot.io",
+        "date": "2025-10-26",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fahimtalmeez",
+        "name": "Fahim Talmeez",
+        "date": "2025-10-26",
+        "text": "@aaditsh Ai",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "drvijayramanan",
+        "name": "Dr Vijay Ramanan",
+        "date": "2025-10-26",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "uriferruccio",
+        "name": "Uri",
+        "date": "2025-10-26",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rksiitd",
+        "name": "Ratnesh Kumar Sharma",
+        "date": "2025-10-26",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rogeguerrero89",
+        "name": "rogeguerrero",
+        "date": "2025-10-26",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "paul_lunow",
+        "name": "Paul",
+        "date": "2025-10-26",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "N_Abraha",
+        "name": "Nahom Abraha",
+        "date": "2025-10-26",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "liken_to",
+        "name": "LikenToLichen",
+        "date": "2025-10-26",
+        "text": "@aaditsh ai",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dingairdrop",
+        "name": "DingairdropⓂ️Ⓜ️T",
+        "date": "2025-10-26",
+        "text": "@aaditsh https://t.co/ReErm9Fzwb",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "neeraj_agl",
+        "name": "Neeraj Agrawal",
+        "date": "2025-10-26",
+        "text": "@aaditsh Ai",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jingmngz7",
+        "name": "姜大将军",
+        "date": "2025-10-26",
+        "text": "@aaditsh Ai",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Juxb5rfo6P91369",
+        "name": "ILoveWildDreams",
+        "date": "2025-10-26",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Juxb5rfo6P91369",
+        "name": "ILoveWildDreams",
+        "date": "2025-10-26",
+        "text": "@aaditsh ai",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JdamzPro",
+        "name": "Juan David Pardo",
+        "date": "2025-10-25",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EswarImmunology",
+        "name": "Immunology",
+        "date": "2025-10-25",
+        "text": "@aaditsh Ai",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dibrecarajo",
+        "name": "HC",
+        "date": "2025-10-25",
+        "text": "@aaditsh AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itgroupservice1",
+        "name": "IT services",
+        "date": "2025-10-25",
+        "text": "@aaditsh Ai",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aaditsh",
+        "name": "Aadit Sheth",
+        "date": "2025-10-21",
+        "text": "@Basantakatuwal5 Sent!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "aaditsh",
+        "name": "Aadit Sheth",
+        "date": "2025-10-21",
+        "text": "@amir_deylami Sent!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3zvhkoawAAA7wr.jpg",
+      "localFilename": "1980721302387454300_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G3zvhxVa4AAX9jv.jpg",
+      "localFilename": "1980721302387454300_2.jpg"
+    }
+  ]
 }

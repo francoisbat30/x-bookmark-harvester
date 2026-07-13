@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:17.023Z",
+  "fetchedAt": "2026-07-13T06:57:31.326Z",
   "tweetId": "2025900730847232409",
   "post": {
     "url": "https://x.com/theo/status/2025900730847232409",
@@ -10,18 +11,53 @@
     },
     "date": "2026-02-23",
     "text": "You should delete your CLAUDE․md/AGENTS․md file. I have a study to prove it. https://t.co/jOUNE53y7m",
+    "thread": [
+      {
+        "id": "2025900730847232409",
+        "text": "You should delete your CLAUDE․md/AGENTS․md file. I have a study to prove it. https://t.co/jOUNE53y7m"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/2025900236108152832/vid/avc1/3840x2160/bSp7Kth_58TrB_6R.mp4"
+        "url": "https://video.twimg.com/amplify_video/2025900236108152832/vid/avc1/3840x2160/bSp7Kth_58TrB_6R.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2025900236108152832/img/tGVL7iYrLoA4zpIv.jpg"
       }
     ],
     "metrics": {
-      "likes": 7601,
-      "retweets": 499,
-      "replies": 313,
-      "views": 2407760
+      "likes": 7573,
+      "retweets": 500,
+      "replies": 302,
+      "views": 2440416
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "avrldotdev",
+        "name": "avrl ☘",
+        "date": "2026-02-23",
+        "text": "Already predicted these issues around context stuffing & managing these MD files a month back, well I was not wrong apparently:",
+        "likes": 159
+      },
+      {
+        "handle": "jarredsumner",
+        "name": "Jarred Sumner",
+        "date": "2026-02-24",
+        "text": "imo\n\nBuild & test instructions are important\n\nEverything else is either:\n- workaround things you wish the model figured out on its own\n- for AI code review to double check",
+        "likes": 157
+      },
+      {
+        "handle": "christofsalis",
+        "name": "Christof Salis",
+        "date": "2026-02-23",
+        "text": "What you say makes sense, but I must say my personal experience is that if i dont give some ground rules about frameworks and patterns/rules, it goes off solving proplems by writing working code that doesnt fit into the codebase at all. I wonder if cohesion was part of the eval.",
+        "likes": 141
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2025900236108152832/img/tGVL7iYrLoA4zpIv.jpg",
+      "localFilename": "2025900730847232409_1_poster.jpg"
+    }
+  ]
 }

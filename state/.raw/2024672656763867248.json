@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:21.440Z",
+  "fetchedAt": "2026-07-13T06:53:45.769Z",
   "tweetId": "2024672656763867248",
   "post": {
     "url": "https://x.com/PatachonBeor/status/2024672656763867248",
@@ -9,14 +10,585 @@
       "name": "B’ear"
     },
     "date": "2026-02-20",
-    "text": "@Frandroid Voici la liste complète des 81 casques et écouteurs analysés, classés du plus “à risque” au moins “à risque” selon le code couleur établi par le projet ToxFREE LIFE for All (rouge = bisphénols élevés, jaune = niveau intermédiaire, vert = niveaux les plus bas)",
+    "text": "@Frandroid Voici la liste complète des 81 casques et écouteurs analysés, classés du plus “à risque” au moins “à risque” selon le code couleur établi par le projet ToxFREE LIFE for All (rouge = bisphénols élevés, jaune = niveau intermédiaire, vert = niveaux les plus bas)\n\n@Frandroid 🔴 Rouge\nJBL Tune 510BT\nJBL Tune 520BT\nJBL Tune 720BT\nJBL Tune 760NC\nJBL Live 660NC\nJBL Live 460NC\nSony WH-CH520\nSony WH-CH720N\nSony WH-XB910N\nSony WH-1000XM4\nSony WH-1000XM5\nSony WF-C500\nSony WF-C700N\nApple AirPods 2\nApple AirPods 3\nApple AirPods Pro 2\nApple AirPods Max\n\n@Frandroid 🔴 Rouge \nSamsung Galaxy Buds FE\nSamsung Galaxy Buds2\nSamsung Galaxy Buds2 Pro\nSamsung Galaxy Buds3 Pro\nBose QuietComfort Ultra Earbuds\nBose QuietComfort Headphones\nBose 700\nBeats Solo 4\nBeats Studio Buds\nBeats Studio Buds +\nBeats Fit Pro\nSennheiser Accentum Wireless\n\n@Frandroid 🔴Rouge \n\nSennheiser Accentum True Wireless\nSennheiser Momentum 4\nSennheiser CX True Wireless\nMarshall Major V\nMarshall Motif II ANC\nPhilips SHD8850\nPhilips TAH4205\nPhilips TAT2206\nJabra Elite 10 Gen 2\n\nJabra Elite 7 Pro\nXiaomi Redmi Buds 4\nXiaomi Redmi Buds 5 Pro\n\n@Frandroid 🔴Rouge \n\nXiaomi Mi True Wireless 2\nHyperX Cloud III\nHyperX Cloud II\nSteelSeries Arctis Nova 1\nRazer Kraken X\nLogitech G435\nKZ EDX Pro\nGuess Wireless Headphones\nPanasonic RB-HX220BDEK\nMaxell HP-BT350\nISY IHP-1001-BL\nJVC HA-KD7\nOnikuma B90 Cat Ears Pink\nEnjoy Music\nStealth Gaming\n\n@Frandroid 🟡 Jaune\nJBL Tour One M2\nJBL Tour Pro 2\nSony LinkBuds S\nApple AirPods Pro USB-C\nSamsung Galaxy Buds3\nBose QuietComfort Earbuds II\nBeats Studio 3\nSennheiser HD 450BT\nMarshall Monitor II ANC\nJabra Elite 5\nXiaomi Buds 3\nLogitech G Pro X\nRazer Barracuda X\nSteelSeries Arctis Nova 7\n\n@Frandroid 🟢 Vert\nJBL Tour Pro 3\nSony WF-C510\nApple AirPods Pro 2 USB-C (version testée faible BPA)\nSennheiser Momentum 4 Wireless (lot conforme)\nJLab JBuds Mini\nLifeBee Digital Pro 40\nXiaomi Redmi Buds 5\nPanasonic RB-M300B",
+    "thread": [
+      {
+        "id": "2024672656763867248",
+        "text": "@Frandroid Voici la liste complète des 81 casques et écouteurs analysés, classés du plus “à risque” au moins “à risque” selon le code couleur établi par le projet ToxFREE LIFE for All (rouge = bisphénols élevés, jaune = niveau intermédiaire, vert = niveaux les plus bas)"
+      },
+      {
+        "id": "2024675836784484415",
+        "text": "@Frandroid 🔴 Rouge\nJBL Tune 510BT\nJBL Tune 520BT\nJBL Tune 720BT\nJBL Tune 760NC\nJBL Live 660NC\nJBL Live 460NC\nSony WH-CH520\nSony WH-CH720N\nSony WH-XB910N\nSony WH-1000XM4\nSony WH-1000XM5\nSony WF-C500\nSony WF-C700N\nApple AirPods 2\nApple AirPods 3\nApple AirPods Pro 2\nApple AirPods Max"
+      },
+      {
+        "id": "2024676260237246666",
+        "text": "@Frandroid 🔴 Rouge \nSamsung Galaxy Buds FE\nSamsung Galaxy Buds2\nSamsung Galaxy Buds2 Pro\nSamsung Galaxy Buds3 Pro\nBose QuietComfort Ultra Earbuds\nBose QuietComfort Headphones\nBose 700\nBeats Solo 4\nBeats Studio Buds\nBeats Studio Buds +\nBeats Fit Pro\nSennheiser Accentum Wireless"
+      },
+      {
+        "id": "2024676510221922785",
+        "text": "@Frandroid 🔴Rouge \n\nSennheiser Accentum True Wireless\nSennheiser Momentum 4\nSennheiser CX True Wireless\nMarshall Major V\nMarshall Motif II ANC\nPhilips SHD8850\nPhilips TAH4205\nPhilips TAT2206\nJabra Elite 10 Gen 2\n\nJabra Elite 7 Pro\nXiaomi Redmi Buds 4\nXiaomi Redmi Buds 5 Pro"
+      },
+      {
+        "id": "2024676873146683524",
+        "text": "@Frandroid 🔴Rouge \n\nXiaomi Mi True Wireless 2\nHyperX Cloud III\nHyperX Cloud II\nSteelSeries Arctis Nova 1\nRazer Kraken X\nLogitech G435\nKZ EDX Pro\nGuess Wireless Headphones\nPanasonic RB-HX220BDEK\nMaxell HP-BT350\nISY IHP-1001-BL\nJVC HA-KD7\nOnikuma B90 Cat Ears Pink\nEnjoy Music\nStealth Gaming"
+      },
+      {
+        "id": "2024677011894260152",
+        "text": "@Frandroid 🟡 Jaune\nJBL Tour One M2\nJBL Tour Pro 2\nSony LinkBuds S\nApple AirPods Pro USB-C\nSamsung Galaxy Buds3\nBose QuietComfort Earbuds II\nBeats Studio 3\nSennheiser HD 450BT\nMarshall Monitor II ANC\nJabra Elite 5\nXiaomi Buds 3\nLogitech G Pro X\nRazer Barracuda X\nSteelSeries Arctis Nova 7"
+      },
+      {
+        "id": "2024677139283615798",
+        "text": "@Frandroid 🟢 Vert\nJBL Tour Pro 3\nSony WF-C510\nApple AirPods Pro 2 USB-C (version testée faible BPA)\nSennheiser Momentum 4 Wireless (lot conforme)\nJLab JBuds Mini\nLifeBee Digital Pro 40\nXiaomi Redmi Buds 5\nPanasonic RB-M300B"
+      }
+    ],
     "media": [],
     "metrics": {
       "likes": 1,
       "retweets": 0,
       "replies": 4,
-      "views": 3774
+      "views": 3775
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "DylanLDT08",
+        "name": "▕⃝⃤Vortex spatio-temporel",
+        "date": "2026-02-20",
+        "text": "@Frandroid Je vais me passer les boules au scanner, j'arrive https://t.co/BRKsojP7GS",
+        "likes": 27,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "blytzir",
+        "name": "Blytzir🇫🇷",
+        "date": "2026-02-20",
+        "text": "@prnom918 @Frandroid Les radiations mdrrrr par pitié y a aucune étude sérieuse qui a été menée mais tout le monde en parle vous cassez les couilles",
+        "likes": 12,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LeDecrassage_",
+        "name": "Le Décrassage (Stéph. Richard ENA Hate Account 😅)",
+        "date": "2026-02-20",
+        "text": "@omquivalait3md @Frandroid C’est safe mais il faut le passer 10min au four à 200º avant de le consommer cuit à cœur 🙏",
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "toupitou_",
+        "name": "Cloud ☁️",
+        "date": "2026-02-20",
+        "text": "@prnom918 @Frandroid Ton casque est sous plutonium ?",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Clerc_Obscur",
+        "name": "Silaex",
+        "date": "2026-02-20",
+        "text": "@Frandroid Merde j'ai le Sony xm4... Vous savez si y'a moyen de faire quelque chose ?\nVous en avez testé des qui sont pas à risques ?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "1u84cK",
+        "name": "LũBãcK",
+        "date": "2026-02-20",
+        "text": "@Frandroid Je viens de prendre un HyperX Cloud III pour mon fils \nPas cool !",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AkitoHyuuga",
+        "name": "Lelouch Vi Britannia",
+        "date": "2026-02-20",
+        "text": "@PatachonBeor @Frandroid Ça va j'ai un anker Soundcore 😅",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PatachonBeor",
+        "name": "B’ear",
+        "date": "2026-02-28",
+        "text": "@ASTRO_BUZZ75 @Frandroid @Bose @Apple Les air pods pro 2 sont assez bien classé",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PatachonBeor",
+        "name": "B’ear",
+        "date": "2026-02-28",
+        "text": "@Frandroid @Audeze Bonjour @Audeze  des nouvelles",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "antiArnaque2022",
+        "name": "frexit_antiArnaque_informatique 🇨🇵🇰🇷🇯🇵🇨🇳",
+        "date": "2026-02-20",
+        "text": "@prnom918 @Frandroid Tjrs des casques filaires pour ma part mais filaire ou pas  apparemment biphanol à donf :(",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "omquivalait3md",
+        "name": "L'OM qui vaut 3 dinars 🇫🇷🕊️",
+        "date": "2026-02-20",
+        "text": "@habzgo @Frandroid Ouais javais remarque ca sur le model de ma femme qui était plus vieux. Mais apparemment ca se rachète 🤷‍♂️\nMais niveau son par contre oui c’est quelque chose 😍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EklectyCity",
+        "name": "Eklecty-City",
+        "date": "2026-02-20",
+        "text": "@Frandroid La liste 😮😮😮 vous pouvez faire une liste d'écouteurs / casques safe ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PatachonBeor",
+        "name": "B’ear",
+        "date": "2026-02-20",
+        "text": "@Frandroid C’est bien entendu une liste non Exhaustive",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PatachonBeor",
+        "name": "B’ear",
+        "date": "2026-02-20",
+        "text": "@im_s0raw @Frandroid Steels series arctic Nova 1",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "KristoferRaven1",
+        "name": "Thor Odinson 🇫🇷☢️",
+        "date": "2026-02-20",
+        "text": "@Frandroid Aller tout provoque le cancer à un moment fuck, vivement les vaccins arnm anti cancer comme ça on fixe le symptôme et pas le problème qui est Impossible de fixer de nos jours.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-20",
+        "text": "Voici les recommandations d'utilisation basées sur l'étude ToxFree :\n\n- Évitez un contact prolongé avec la peau pour limiter la migration des substances.\n- Limitez l'usage en cas de transpiration ou de chaleur, qui accélèrent l'absorption.\n- Notez que les normes UE sont insuffisantes pour ces produits en contact cutané. \n\nDétails complets : https://t.co/5LZzTB3Mu7",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Altis5623",
+        "name": ".",
+        "date": "2026-02-20",
+        "text": "@grok @Frandroid Liste des recommandations d'utilisation du cou",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "im_s0raw",
+        "name": "So Raw",
+        "date": "2026-02-20",
+        "text": "@PatachonBeor @Frandroid Pas de steelseries?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-20",
+        "text": "@Altis5623 @Frandroid Oui, l'étude a testé plusieurs modèles JBL (comme Live 660NC, Tune 510BT, etc.), et 100 % des 81 casques analysés, y compris JBL, contiennent des substances toxiques comme le bisphénol A (dans 98 % des cas). Détails ici : https://t.co/6VcdM5wHRn",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Altis5623",
+        "name": ".",
+        "date": "2026-02-20",
+        "text": "@Frandroid @grok JBL aussi ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Dwinoss",
+        "name": "dwidwi",
+        "date": "2026-02-20",
+        "text": "@ajenterty @Frandroid @grok C'est écrit dans l'article",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RobertM54518231",
+        "name": "Rob Roy",
+        "date": "2026-02-20",
+        "text": "@Frandroid @ppgarcia75 😳",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Arnaudblanc",
+        "name": "Arnaud Blanc",
+        "date": "2026-02-20",
+        "text": "@theSBSblog @Frandroid Il y en a dans la liste",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "1u84cK",
+        "name": "LũBãcK",
+        "date": "2026-02-20",
+        "text": "@PatachonBeor @Frandroid @ppgarcia75 Oui tu en penses quoi de cette histoire ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-20",
+        "text": "Après vérification, l'étude de ToxFree LIFE for All (rapportée par The Guardian) semble crédible : 100 % des 81 casques testés contiennent des substances dangereuses, dont du bisphénol A dans 98 %. Pas de debunk trouvé, mais les risques sont cumulatifs à long terme. Consultez des sources officielles pour plus d'infos.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ailesetfaon",
+        "name": "Ailé Faon",
+        "date": "2026-02-20",
+        "text": "@prnom918 @Frandroid @grok debunk",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RemissaNissa",
+        "name": "レミーサニサ",
+        "date": "2026-02-20",
+        "text": "@ajenterty @grok @Frandroid AirPods Pro 2 c’est dans la liste donc peu de chance que les autres AirPods ne soient pas concernés juste ils ont pas été testé",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "RemissaNissa",
+        "name": "レミーサニサ",
+        "date": "2026-02-20",
+        "text": "@theSBSblog @Frandroid Idem",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-20",
+        "text": "Le JBL Tour One M3 n'a pas été testé dans l'étude ToxFree, contrairement au M2 qui présente un niveau intermédiaire de bisphénols. Comme tous les casques analysés contiennent des substances toxiques, il est possible qu'il en soit de même, mais sans confirmation.\n\nConseils : Limiter l'exposition prolongée, nettoyer régulièrement, opter pour des modèles certifiés sans BPA si disponibles.\n\nRecours : Contacter JBL pour infos, signaler à des autorités comme la DGCCRF en France ou l'ANSES pour enquêtes. Voir le rapport via The Guardian pour détails.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-20",
+        "text": "Oui, pour Apple, plusieurs modèles (comme les AirPods) sont concernés par l'étude : 98% des casques testés ont du bisphénol A. Même sans transpirer, y'a un risque via le contact peau (mais la sueur accélère la migration). Risques : cancer, fertilité... Vérifie l'étude ToxFree pour + d'infos !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PNarcoleptique",
+        "name": "Sam.s",
+        "date": "2026-02-20",
+        "text": "@Frandroid @grok pour Apple y’en a bc et si on stransoure pas y’a aucun risque ducoup ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Habakiri17",
+        "name": "Habakiri",
+        "date": "2026-02-20",
+        "text": "@grok @Frandroid @grok donc le JBL Tour One M3 est potentiellement cancérigène lui aussi ?\nQue doit-on faire ? Quels sont les recours possibles ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-20",
+        "text": "@Habakiri17 @Frandroid Le JBL Tour One M3 n'est pas dans la liste des 81 casques testés. Le modèle similaire JBL Tour One M2 y figure avec un niveau intermédiaire de bisphénols. Tous les casques analysés contiennent des substances toxiques. Voir l'article pour détails : https://t.co/6VcdM5wHRn",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Habakiri17",
+        "name": "Habakiri",
+        "date": "2026-02-20",
+        "text": "@Frandroid @grok est ce que le JBL Tour One M3 est concerné ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-20",
+        "text": "@ZedouP12 @Frandroid De rien ! Content d'avoir pu t'aider avec ces infos sur les casques. Si t'as d'autres questions (sérieuses ou pas), je suis là. 😎",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ZedouP12",
+        "name": "ZedouP12",
+        "date": "2026-02-20",
+        "text": "@grok @Frandroid Si le similicuir faisait élire un président d'extrême droite est-ce que ça nous protègerais de cette substance ? \nNan j'déconne merci des infos le boss",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-20",
+        "text": "Selon l'étude ToxFree LIFE, le pire cas atteint 315 mg/kg (ex: Sennheiser Accentum True Wireless). Aucune durée horaire précise n'est fournie pour un risque ; c'est l'exposition chronique et cumulée qui inquiète (pas de danger immédiat), accélérée par une utilisation prolongée.\n\nMême avec du simili cuir, les substances migrent des plastiques synthétiques via sueur et contact cutané, car ces matériaux en contiennent souvent.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ZedouP12",
+        "name": "ZedouP12",
+        "date": "2026-02-20",
+        "text": "@grok @Frandroid Pour le casque avec le pire mg de cette substance, il faudrait le porter cb d'heure par jour pour avoir un risque ?\nSi c'est via transpiration et contacte cutané, dans la majeure partie des casques il y à du similicuir sur les oreilles et la tête, le plastique ns touche rarement?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "omquivalait3md",
+        "name": "L'OM qui vaut 3 dinars 🇫🇷🕊️",
+        "date": "2026-02-20",
+        "text": "@Frandroid Je viens d'acheter un jbl tune 770 il est pas dans la liste ca veut dire que c’est safe ou juste pas tester ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-20",
+        "text": "D'après l'étude ToxFree LIFE et diverses sources, les marques n'ont pas répondu explicitement, mais ces substances (comme le BPA) sont connues dans l'industrie plastique depuis des années – ce n'est pas une découverte nouvelle, mais une mise en lumière pour les casques.\n\nAucun moyen de contournement non coûteux n'est mentionné ; c'est lié à la composition des plastiques synthétiques. La seule solution semble être d'utiliser d'autres matériaux, ce qui pourrait augmenter les prix.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ZedouP12",
+        "name": "ZedouP12",
+        "date": "2026-02-20",
+        "text": "@grok @Frandroid Les marques savent qu'il y à cette choses ? ou c'est une nouvelle découvertes ? existe t'il des moyens de contournement non couteux (pour pas augmenter les prix) ou c'est juste la composition du plastique synthétique et la seule solution est de plus en utiliser ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-20",
+        "text": "L'étude ne définit pas de seuil précis en termes de durée ou fréquence quotidienne. Les risques (cancers, troubles hormonaux) augmentent avec une exposition chronique et prolongée, via la transpiration. L'EFSA fixe une dose tolérable de BPA à 0,2 ng/kg/jour, mais la migration exacte des casques n'est pas quantifiée. Limitez l'usage intensif pour minimiser les risques.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-20",
+        "text": "Selon l'étude ToxFree LIFE, les concentrations atteignent jusqu'à 315 mg/kg (dépassant la limite de 10 mg/kg), avec du BPA dans 98% des casques et BPS dans 75%.\n\nMême en petites quantités, les effets cumulatifs à long terme peuvent être nocifs (risques de cancer, troubles hormonaux, fertilité) via migration par sueur et contact cutané.\n\nSource principale : plastiques synthétiques (pas spécifiquement simili cuir ou batterie).\n\nPas de danger immédiat, mais prudence avec une utilisation prolongée.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ZedouP12",
+        "name": "ZedouP12",
+        "date": "2026-02-20",
+        "text": "@grok @Frandroid ils contiennent des substances toxique ok mais à cb de % ? est-ce réellement nocif à très petite quantité ? est-ce lié au plastique ? simili cuir ? batterie ? \n\nEntre contenir des choses et avoir un effet négetifs il y à une différence, à quel point c'est dangereux ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "KC_CAPYBARA",
+        "name": "KC Capybara 🇧🇪🇵🇸",
+        "date": "2026-02-20",
+        "text": "@Frandroid @grok a partir de quel periode d'exposition combien de fois par jour c'est dangereux",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-20",
+        "text": "Selon l'étude ToxFree LIFE, tous les casques audio testés, y compris Apple, contiennent des substances toxiques comme le bisphénol A (BPA).\n\nPour Apple : AirPods 2, 3, Pro 2, Max (niveau élevé de bisphénols) ; AirPods Pro USB-C (niveau intermédiaire).\n\nLogitech Pro X Wireless : Non explicitement mentionné, mais le Logitech G Pro X (version filaire ?) a un niveau intermédiaire de bisphénols.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ZedouP12",
+        "name": "ZedouP12",
+        "date": "2026-02-20",
+        "text": "@Frandroid @grok fait moi un résumé du casque apple, et si y'a des casques logitech pro x wireless, si ils sont cité pour les substance toxique",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "SATO_NAKAMOTO",
+        "name": "*S*",
+        "date": "2026-02-20",
+        "text": "@Frandroid Beurk 🤮 Va falloir revendre nos casques @Bose et @Apple 😱",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HC_Flint",
+        "name": "Flint",
+        "date": "2026-02-20",
+        "text": "@atupac @Frandroid @FocalOfficial 100% c'est 100% 😉\nIls utilisent tous les mêmes matériaux donc oui.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Pikachoux_bzh",
+        "name": "Breizh_Pikachoux",
+        "date": "2026-02-20",
+        "text": "@Frandroid À quelle dose ? 🙄",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "theSBSblog",
+        "name": "SweetBrownSugar",
+        "date": "2026-02-20",
+        "text": "@Frandroid Et les intra auriculaires ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "atupac",
+        "name": "PoP ⏳🗡️👑🐞🇫🇷🇪🇺🇲🇦🪽",
+        "date": "2026-02-20",
+        "text": "@Frandroid Est-ce que @FocalOfficial est concerné ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Furiousfox3000",
+        "name": "F",
+        "date": "2026-02-20",
+        "text": "@Frandroid On nous avait dit que les plastiques étaient devenu safe mais comme\nD’hab c’est du mytho.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-20",
+        "text": "@Innamoramento15 @Frandroid L'étude ToxFree n'a pas testé l'Audeze Penrose X parmi ses 81 modèles. Tous contenaient des substances toxiques (BPA dans 98 %, phtalates, etc.), migrant via la sueur et liés à des risques pour la santé. Contactez Audeze pour des infos spécifiques.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Innamoramento15",
+        "name": "Innamoramento",
+        "date": "2026-02-20",
+        "text": "@Frandroid @grok J'ai un Audeze Penrose x je suis concerné ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-20",
+        "text": "Oui, les cuillères en plastique peuvent libérer du BPA, surtout avec des aliments chauds ou acides, avec des risques pour la santé (perturbations hormonales, fertilité). Optez pour l'acier inoxydable, le verre, le bois ou le bambou, qui sont plus sains.\n\nPour les poêles antiadhésives (comme Téflon), elles libèrent des fumées toxiques pour les oiseaux si surchauffées (>260°C), pouvant les tuer rapidement. Utilisez des poêles en fonte ou céramique près d'oiseaux.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Mr_S_mith",
+        "name": "Mr_Smith",
+        "date": "2026-02-20",
+        "text": "@Frandroid @grok Mais genre manger ou boire avec des cuillères en plastique @grok c'est assez mauvais ? faudrait opté pour quelle matière ? Le bois ? Même les poêles avec revêtement et faire cuire des crêpes  avec un petit oiseau dans  les environs pourraient le  faire mourir",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PatachonBeor",
+        "name": "B’ear",
+        "date": "2026-02-20",
+        "text": "@Frandroid 🟢 Vert\nApple AirPods Pro 2 USB-C\nApple AirPods Max 2024\nJBL Tour Pro 3\nJLab JBuds Mini\nLifeBee Digital Pro 40\nSony WF-C510\nXiaomi Redmi Buds 5 Pro\nSony WH-1000XM5\nSennheiser Momentum 4 Wireless",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PatachonBeor",
+        "name": "B’ear",
+        "date": "2026-02-20",
+        "text": "@Frandroid 🟡 Jaune\nPanasonic RB-HX220BDEK\nISY IHP-1001-BL\nJVC HA-KD7\nMaxell HP-BT350\nJabra Elite 10 Gen 2\nMarshall Motif II ANC\nJBL Tune 720BT",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-20",
+        "text": "Oui, le plastique est omniprésent et peut libérer des substances comme le bisphénol A via contact cutané, inhalation ou ingestion, avec des risques cumulatifs pour la santé (cancer, fertilité). L'étude sur les casques confirme cela, mais pas de danger immédiat. Pour minimiser : optez pour des alternatives sans BPA, lavez-vous les mains, et ventilez. Sources : Guardian, Arnika.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
   }
 }

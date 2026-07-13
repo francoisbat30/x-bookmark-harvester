@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:23.941Z",
+  "fetchedAt": "2026-07-13T06:53:14.911Z",
   "tweetId": "2022925134496252395",
   "post": {
     "url": "https://x.com/TheAhmadOsman/status/2022925134496252395",
@@ -9,7 +10,17 @@
       "name": "Ahmad"
     },
     "date": "2026-02-15",
-    "text": "MiniMax-M2.5 NVFP4\nrunning on 2x RTX 6000\n\n&gt; 83 tokens/sec single stream\n&gt; allows up to 32 concurrent users\n&gt; pushing 1000+ tokens/sec\n\n&gt; this costs ~2x 512GB Mac Studios\n&gt; except Mac = 1 prompt at a time\n&gt; and even slower tokens/sec\n\n&gt; model on HF\n&gt; lukealonso/MiniMax-M2.5-NVFP4 https://t.co/iRKr6FLjQK https://t.co/aQWoAcTGbg",
+    "text": "MiniMax-M2.5 NVFP4\nrunning on 2x RTX 6000\n\n&gt; 83 tokens/sec single stream\n&gt; allows up to 32 concurrent users\n&gt; pushing 1000+ tokens/sec\n\n&gt; this costs ~2x 512GB Mac Studios\n&gt; except Mac = 1 prompt at a time\n&gt; and even slower tokens/sec\n\n&gt; model on HF\n&gt; lukealonso/MiniMax-M2.5-NVFP4 https://t.co/iRKr6FLjQK https://t.co/aQWoAcTGbg\n\nI recommend everyone read my Buy a GPU thread: https://t.co/gVExNQSwj1 \n- You’ll be able to build anything from 1 GPU to 16-GPU AI builds on your own using this\n\nSoftware side? Go through this thread: https://t.co/ubJhLwk4Sd \n\nWhy not a Mac Studio/mini? 👇\nhttps://t.co/tVGiYfrdZ3",
+    "thread": [
+      {
+        "id": "2022925134496252395",
+        "text": "MiniMax-M2.5 NVFP4\nrunning on 2x RTX 6000\n\n&gt; 83 tokens/sec single stream\n&gt; allows up to 32 concurrent users\n&gt; pushing 1000+ tokens/sec\n\n&gt; this costs ~2x 512GB Mac Studios\n&gt; except Mac = 1 prompt at a time\n&gt; and even slower tokens/sec\n\n&gt; model on HF\n&gt; lukealonso/MiniMax-M2.5-NVFP4 https://t.co/iRKr6FLjQK https://t.co/aQWoAcTGbg"
+      },
+      {
+        "id": "2022957675580145910",
+        "text": "I recommend everyone read my Buy a GPU thread: https://t.co/gVExNQSwj1 \n- You’ll be able to build anything from 1 GPU to 16-GPU AI builds on your own using this\n\nSoftware side? Go through this thread: https://t.co/ubJhLwk4Sd \n\nWhy not a Mac Studio/mini? 👇\nhttps://t.co/tVGiYfrdZ3"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +28,558 @@
       }
     ],
     "metrics": {
-      "likes": 408,
-      "retweets": 36,
+      "likes": 413,
+      "retweets": 37,
       "replies": 39,
-      "views": 129715
+      "views": 129914
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "TheAhmadOsman",
+        "name": "Ahmad",
+        "date": "2026-02-15",
+        "text": "@BrandGrowthOS Get an RTX PRO 6000\n\nI stand by this prediction\n\nhttps://t.co/M4uUFVnDuT",
+        "likes": 13,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DFinsterwalder",
+        "name": "David Finsterwalder | eu/acc",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman “except Mac = 1 prompt at a time”\n\nContinuous inference/batching is available for MLX for quite some time now.\n\nhttps://t.co/f9FXaJB8eq",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thedarthsider",
+        "name": "darthsider",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman There are times I’m more happy with my RTX 5070 Ti than with my two M3 ultras. So I understand what you’re saying.",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BenjaminBadejo",
+        "name": "Ben Badejo",
+        "date": "2026-02-15",
+        "text": "Regarding concurrent requests — Mac Studio can’t do this (“1 prompt at a time”)? \n\nAnd what about pricing? I see single RTX 6000 48GB going for $8,000? Do you see something different?\n\nAnd how can a dual config RTX 6000 setup — 96 GB VRAM total — perform better than a 512GB RAM Mac Studio M3 Ultra?",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BrandGrowthOS",
+        "name": "Karim C",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman Ahmed, there is a lot of noise online about MacStudio vs Nvidia GPUs and which is better for local inference. If you had 10k USD to spend on a system, which would you chose?",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sharaff",
+        "name": "sharaff |🦞",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman @BrandGrowthOS #NVIDIA is 4 the drag race. #MacStudio is for the heavy lifting.\nReal local AI pain is trying to daisy-chain 3090s and blowing a circuit breaker, while some guy with a Mac Studio M3 Ultra just loads a 70B model like it’s a Chrome tab.\nBrute force is cool until u run out of VRAM🤷‍♂️",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "keennay",
+        "name": "Yannick Monye",
+        "date": "2026-02-21",
+        "text": "@auroter @TheAhmadOsman @banteg I've still no idea what an \"AI Engineer\" is, but yeah worked as a Systems / Software / Network Engineer since 2009. Was there when \"cloud\" was still a marketing buzzword\n\nWore many hats in that time, now seeing where those skills translate into a post-GPT 3.5 world",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "auroter",
+        "name": "Gandalf Stormdrain",
+        "date": "2026-02-16",
+        "text": "I worked at an AI company and there were people there (some with very lofty titles I might add) who called themselves “AI Engineers”.\n\nSome of us would joke they were actually “API Engineers”.  Engineers who just call APIs. \n\nSome of them went on to go work at OpenAI!\n\nI see you are studying CS and ML so I gave you a follow. Cheers.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "keennay",
+        "name": "Yannick Monye",
+        "date": "2026-02-15",
+        "text": "@auroter @TheAhmadOsman @banteg bless their hearts lol",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "th3nolo",
+        "name": "ImRobot",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman Sorry for my ignorance but if it's running at.. 83 tokens/sec single stream ? how do you push it to.. pushing 1000+ tokens/sec ?  if there any material or resources I would really appreciate your answer.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "auroter",
+        "name": "Gandalf Stormdrain",
+        "date": "2026-02-15",
+        "text": "hahahaha.  yeah while we are at it, maybe we can stop calling NextJS / React \"full stack\" and start calling it \"web UI development\" or \"javascript monolingualism\" or whatever.\n\nI have met so many \"full stack\" engineers who think they're really good, but have zero systems engineering experience or understanding.  The moment you hand them a proper backend, they can't understand the infra, they start babbling entirely in anti-patterns, and they start calling everything they don't understand \"over-engineering\" (like state machines, abstraction, domains, integration tests, test harnesses, I could go on).\n\nI decided somewhat recently I need to get the hell away from these people because the stupid is probably contagious.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "auroter",
+        "name": "Gandalf Stormdrain",
+        "date": "2026-02-15",
+        "text": "@keennay @TheAhmadOsman @banteg That's an awesome project and I'd love to see what you find.  \n\nWith how bad my experiences have been with local Kimi, GLM, Minimax, etc, I am gonna wait a bit before even bothering with open source LLMs again. \n\nThey need time to stop benchmaxxing and train for real work.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "keennay",
+        "name": "Yannick Monye",
+        "date": "2026-02-15",
+        "text": "I'm running it on 2xH200s through SGLang via OpenCode on game decompilation code, starting with @banteg's Crimsonland efforts, and eventually through the various N64 decompiles\n\nMy plan is to compare across GLM-4.7/5, Kimi-K2.5, and eventually Codex & Opus. Want to see what the 'smaller' models can do before moving onto the big boi labs",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "auroter",
+        "name": "Gandalf Stormdrain",
+        "date": "2026-02-15",
+        "text": "@keennay @TheAhmadOsman Ah I was tallking about running in FP8 mode.  4 RTX 6000 Pro Blackwell cards leave ample KV Cache room for that at 95 tok/s.\n\nHave you tried giving it a coding task in a moderately complex codebase (mostly complete app)? What scaffold / orchestrator / app are you using with it?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "VisionExponentl",
+        "name": "Vision Exponential",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman Do you really want to build your OpenClaw agents on Chinese databases? MiniMax or Kimi? What could go wrong?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UrbanAstroFella",
+        "name": "AstroFella",
+        "date": "2026-02-15",
+        "text": "@heyeyad @TheAhmadOsman RTX Pro 6000 Blackwell Max-Q operates at 300W, with very minimal performance hit. Two of them isn't going to be very high power draw. Even running them full tilt for training 24/7 is just going to be 1 kwh. One kwh is pennies. ($0.18 for me and I'm in high cost electric market)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "noybxbt",
+        "name": "noyb",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman runs like a beauty on 4 rtx 6000s.\n\nnginx container into 2 vllm containers with 2 gpus assigned each and --tensor-parallel-size 2",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MitjaMartini",
+        "name": "Mitja Martini",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman MiniMax-M2.5 is probably the strongest local model that can run fast enough for agents like @openclaw on hardware that's affordable for SMBs, solopreneurs and enthusiasts.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NandaNainadurai",
+        "name": "Nanda Nainadurai",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman would it also work on a DGX Spark? your views on it?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nipple_nip",
+        "name": "Benjamin Shehu",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman NVFP4 is a bad bad format",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "auroter",
+        "name": "Gandalf Stormdrain",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman Have you noticed that it completely falls apart the moment you ask it to do anything?\n\nIt waffles with absolutely zero conviction or certainty about anything. Fails the most basic of comprehensions.\n\nAsk it to do something, it responds by saying one option is not to do it at all.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vveerrgg",
+        "name": "vveerrgg",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman This is why it’s 6000Q cards or bust !!!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shiels_ai",
+        "name": "Jack Shiels",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman RTX 6000s are still near RRP too. Mac hype is for normies ngl. Macs will still win imo.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Abhiram_AI_Guy",
+        "name": "Abhi",
+        "date": "2026-02-23",
+        "text": "@TheAhmadOsman How many full context users?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DatSciX",
+        "name": "DatSciX",
+        "date": "2026-02-17",
+        "text": "@TheAhmadOsman 2 or 4 Nvidia GPUs with a solid set up or 2 Nvidia DGX Sparks to run training and inference locally?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grantmucha",
+        "name": "Grant Mucha",
+        "date": "2026-02-17",
+        "text": "@TheAhmadOsman Or you can just get 50tps for an entire month for $130.\nAnd you can easily scale this based on need.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itsjustmarky",
+        "name": "sudo rm -rf",
+        "date": "2026-02-16",
+        "text": "@TheAhmadOsman I found MiniMax NVFP4 to be slower than using AWQ.  Not only did it take forever to initialize.  I went from 113t/sec to 98, and at 130K context, it was a little faster from 50 t/sec to 63.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "M_Chimiste",
+        "name": "Christian Merrill",
+        "date": "2026-02-16",
+        "text": "@TheAhmadOsman @MiniMax_AI What’s the performance diff between 4bit and fp16/8bit?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-16",
+        "text": "Speculating: 6x RTX PRO 4000 Blackwell (144GB VRAM total) could deliver 90-110 tok/s single-stream for MiniMax-M2.5 NVFP4, thanks to Blackwell's 5th-gen Tensor Cores and efficiency. For concurrent (e.g., 48 users), potentially 1500+ tok/s aggregate, scaling via vLLM tensor parallelism. Cost-effective at 1/6th per unit vs RTX 6000, but comm overhead may limit linear gains. Test to confirm!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "roger",
+        "name": "Roger",
+        "date": "2026-02-16",
+        "text": "@TheAhmadOsman @MiniMax_AI @grok care to speculate how a “RTX PRO 4000 Blackwell - 24 GB GDDR7 ECC” x 6 (they are 1/6th the price of a RTX 6000) would perform as it would have 140+GB of RAM.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LegendaryLibr",
+        "name": "Cole",
+        "date": "2026-02-16",
+        "text": "Apple doesn’t have a multi stream cuda scheduler. MLX/Metal inference engines typically run on one kernel queue. \n\nNVIDIA does have a multi-stream CUDA scheduler. CUDA inference engines can launch many concurrent kernel streams across the GPU, so multiple models, batches, or users execute in parallel while the hardware scheduler interleaves warps and tensor-core work to keep the GPU fully utilized.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Brien38522",
+        "name": "Timothy O'Brien",
+        "date": "2026-02-16",
+        "text": "@TheAhmadOsman The main reason to get 2x Mac Studio is to run models that don't fit on GPUs. Even 10x RTX 6000 still doesn't hold as many params as one Mac Studio with 512GB ram...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-15",
+        "text": "@Ed_Welly @TheAhmadOsman The NVIDIA RTX 6000 Ada GPU costs around $6,800 each, so dual GPUs total ~$13,600 (plus ~$2,000-3,000 for a compatible PC build: CPU, mobo, 128GB+ RAM, PSU, etc., for ~$16,000 total). \n\nBy comparison, a 2025 Mac Studio with 512GB unified memory retails for ~$9,500.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Ed_Welly",
+        "name": "Edward Welly",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman How much is the hardware cost ?@grok",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mario19813039",
+        "name": "mario",
+        "date": "2026-02-15",
+        "text": "@th3nolo @TheAhmadOsman Single stream in hardcore memory bound. With batching more compute is used for the same memory ops: https://t.co/xxBoKXMFXq",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_BrainDamage",
+        "name": "Enoch Root",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman 8k+8k+the rest of the hard, correct?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IanHailey",
+        "name": "Ian Hailey",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman @BrandGrowthOS I hope you are right as I am wondering if to get another one even though price is 15% higher than when I got the first one.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "maxlevrge",
+        "name": "DanielTrades",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman I have the K_Q3_XL running on a single RTX 5090 with 96GB of RAM. 17-18tok/s - no offoading to disk. System is nearly at capacity - but what an amazing thing to be able to have a SOTA 230B parameter local LM on a gaming rig!! https://t.co/Wq0wnrfXna",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "keennay",
+        "name": "Yannick Monye",
+        "date": "2026-02-15",
+        "text": "@auroter @TheAhmadOsman @banteg I feel you there. We really need to stop with the NextJS / React benchmarks &amp; move onto more serious shit",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lrojas",
+        "name": "Luis Rojas",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman @TheAhmadOsman this probably exist, but for us clueless people, can you make a guide on how to build this? ok, i buy 2 rtx 6000? where and how do i install them? what motherboard? what os? inferencer? lmstudio? vllm? what pc/motherboard/ram. please! I want to believe",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "flyingbanana700",
+        "name": "bananacat",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman tbh \n200 gb of ram vs 1 terabyte of ram is a huge gap for the money 😭\n\nm5 will fix this hopefully in 6 months 😭🙏",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "keennay",
+        "name": "Yannick Monye",
+        "date": "2026-02-15",
+        "text": "@auroter @TheAhmadOsman I meant to add earlier if it was related to running the NVFP4 quant on RTX 6000 Pros vs FP8 vs the MLX quant on Mac Studios, and failed to properly follow up\n\nI haven't experienced any of the problems you have, though I plan to continue playing around with M2.5 later today",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "auroter",
+        "name": "Gandalf Stormdrain",
+        "date": "2026-02-15",
+        "text": "@keennay @TheAhmadOsman Yes. Thats what the thread is about.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cyberwhisperr",
+        "name": "Whisperer",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman https://t.co/38QS1oY8iB",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "derevedant0104",
+        "name": "Vedant Dere",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman We reimplemented MiniMax M2.5 in pure PyTorch.\n\n• 548 lines total\n• Only 3 imports\n• No framework magic\n\nimport torch\nfrom torch import nn\nimport torch.nn.functional as F\n\nIdeal for learning and experimentation.\nhttps://t.co/XFEx5HjcAz",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cederikdotcom",
+        "name": "Cederik ᯅ",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman So a 4x rtx max-q should be ok for most sme's to run frontier airgapped? As this is 1/2 of that.\n\nGot alot of feedback on how to expand beyond that, but not having to do custom stuff has a ring to it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Thewimo",
+        "name": "Thewind Mom",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman @BrandGrowthOS And then there is also the entire power consumption argument.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Thewimo",
+        "name": "Thewind Mom",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman @BrandGrowthOS Why not just the Mac studio? I mean its inference only, quantization people will do. If there is no need for fine tuning either. Doesnt the mac have a lower dollar/VRAM+memory bandwidth?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BarrakAli",
+        "name": "Barrak",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman MiniMax-M2.5 achieving 83 tokens/sec on 2x RTX 6000 demonstrates efficient inference optimization. Pushing 1000+ tokens/sec with 32 concurrent users shows impressive throughput.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rich4rd_exe",
+        "name": "Richard Machemehl",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman 3090’s seem to average $800 used. I’m worried I’ll buy one not working. How do I test a used one?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wassollichhier",
+        "name": "Wassollichhier",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman In German Ebay the prices for used RTX3090 gets higher and higher starting this year. I was abel to secure 8 of them last year on a average price of 650€, in the meanwhile they are at 750€+",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "keennay",
+        "name": "Yannick Monye",
+        "date": "2026-02-15",
+        "text": "@auroter @TheAhmadOsman Are you talking about MiniMax-M2.5 here?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "heyeyad",
+        "name": "Eyad",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman I'm really curious about the cost of electricity to run this per hour.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lud_ahr",
+        "name": "NanoCore",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman https://t.co/KRwFS03u3P",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xJingJing",
+        "name": "JingJing",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman It does look cool though",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xJingJing",
+        "name": "JingJing",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman Yeah but it's a lot more setup and maintenance right?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "codewithimanshu",
+        "name": "Himanshu Kumar",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman @TheAhmadOsman, the RTX 6000 setup offers impressive token generation compared to the Mac, as you've shown.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "phani2930",
+        "name": "Phani 🖖",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman @SkylerMiao7 👀👀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "brah_ddah",
+        "name": "Brahddah.eth (Elite Chad)",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman I thought vLLM couldn’t do NVFP4? Didn’t work with devstral 2 small NVFP4 for me at least",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rd343rd",
+        "name": "R",
+        "date": "2026-02-15",
+        "text": "@TheAhmadOsman Genuine question. What about intelligence benchmarks compared to non distilled version",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HBLfr9jWkAAAE1V.jpg",
+      "localFilename": "2022925134496252395_1.jpg"
+    }
+  ]
 }

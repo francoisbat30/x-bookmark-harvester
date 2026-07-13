@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:46.812Z",
+  "fetchedAt": "2026-07-13T06:49:50.761Z",
   "tweetId": "1989714736565399746",
   "post": {
     "url": "https://x.com/yacineMTB/status/1989714736565399746",
@@ -10,6 +11,12 @@
     },
     "date": "2025-11-15",
     "text": "https://t.co/thsYkoeVYO https://t.co/Oybhb6CDJI",
+    "thread": [
+      {
+        "id": "1989714736565399746",
+        "text": "https://t.co/thsYkoeVYO https://t.co/Oybhb6CDJI"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,396 @@
       }
     ],
     "metrics": {
-      "likes": 4905,
-      "retweets": 221,
-      "replies": 43,
-      "views": 381985
+      "likes": 4840,
+      "retweets": 215,
+      "replies": 40,
+      "views": 382086
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "AI__Alexandra",
+        "name": "Alexandra",
+        "date": "2025-11-15",
+        "text": "@yacineMTB https://t.co/prswatyzLD",
+        "likes": 70,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "unsoldwill",
+        "name": "William",
+        "date": "2025-11-15",
+        "text": "@yacineMTB These ai things seem pretty dangerous eh.\nMaybe we should regulate them and only have Trusted Companies, like Anthropic, control them",
+        "likes": 42,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "akun_9527",
+        "name": "zero",
+        "date": "2025-11-15",
+        "text": "@yacineMTB Anthropic: We need more investment to confront China!",
+        "likes": 28,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fxdstudios",
+        "name": "weathermanj",
+        "date": "2025-11-15",
+        "text": "@yacineMTB Anything to maintain their closed source bullshit",
+        "likes": 25,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "asxyzp",
+        "name": "👨🏻‍💻@🇮🇳",
+        "date": "2025-11-15",
+        "text": "@yacineMTB It's extremely suspectful. Most likely it's a bunch of SQL injections, while they're presenting it as if they've discovered zero day exploits. Moreover, why would the Chinese hackers use Claude, when they could use DeepSeek or other Chinese LLMs.\n\nMy BS detector rates it at 9/10.",
+        "likes": 21,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "30Thrd",
+        "name": "abuah",
+        "date": "2025-11-15",
+        "text": "@yacineMTB lmao. i hate how good you are with memes man. lol.",
+        "likes": 14,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VibeDevMeister",
+        "name": "The Ænswer Man🧲",
+        "date": "2025-11-15",
+        "text": "@yacineMTB https://t.co/Er5Sb1xAST",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tyler_m_john",
+        "name": "Tyler John",
+        "date": "2025-11-16",
+        "text": "@yacineMTB https://t.co/oJ6hFPBZ3z",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JosephSarnecki",
+        "name": "Joseph Sarnecki",
+        "date": "2025-11-15",
+        "text": "@yacineMTB @Teknium @dudeman6790 @neurallambda @jeethu @UnslothAI @kalomaze @tszzl @QuixiAI 😂",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "crosstensor",
+        "name": "CrossProduct",
+        "date": "2025-11-15",
+        "text": "@yacineMTB lmao",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "malsova1",
+        "name": "Виктория Малясова",
+        "date": "2025-11-16",
+        "text": "@yacineMTB \"Disrupted\" as in involuntarily empowered for a time until it was discovered, and the attackers will have to switch to a different chatbot now but otherwise are free to continue.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gootecks",
+        "name": "gootecks",
+        "date": "2025-11-15",
+        "text": "@yacineMTB Best use of that meme so far 🥇",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ArcticBlock",
+        "name": "BlockZero",
+        "date": "2025-11-15",
+        "text": "@yacineMTB You clown",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mstarujjer",
+        "name": "Main Victim",
+        "date": "2025-11-15",
+        "text": "@yacineMTB 😂😂🤡",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chardon_cs",
+        "name": "Charles Dong",
+        "date": "2025-11-15",
+        "text": "@yacineMTB sounds plausible but we need evidence",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jk_drq",
+        "name": "Dr. Q",
+        "date": "2025-11-16",
+        "text": "@yacineMTB Yeah this is what it feels like to me too dude.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shub_5",
+        "name": "Bagade",
+        "date": "2025-11-16",
+        "text": "@yacineMTB accurate.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "reneromero08",
+        "name": "Raúl R Romero",
+        "date": "2025-11-16",
+        "text": "@yacineMTB I'm glad I'm not the only one who senses or intuits the same thing 😂",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dwlz",
+        "name": "Dan Loewenherz",
+        "date": "2025-11-16",
+        "text": "@yacineMTB Accurate",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "techiexbt",
+        "name": "Lou",
+        "date": "2025-11-15",
+        "text": "@yacineMTB @leopoldasch predicted something like this would happen…\n\nhttps://t.co/xYwHrENq84",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "agomezsar",
+        "name": "Andres Gomez Sarmiento",
+        "date": "2025-11-15",
+        "text": "@yacineMTB Lmao fr",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "OSINTCap",
+        "name": "OSINT Capital",
+        "date": "2025-11-15",
+        "text": "@yacineMTB based 🤣",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Anna1596789",
+        "name": "RLC",
+        "date": "2025-11-16",
+        "text": "@unsoldwill @yacineMTB You don't want a banana up your ass, do you?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nephel_",
+        "name": "Δημήτρης",
+        "date": "2025-11-16",
+        "text": "@yacineMTB wow, spot on!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MirahMirah_265",
+        "name": "Farmer_cist🇲🇼",
+        "date": "2025-11-16",
+        "text": "@yacineMTB 😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jackmhny",
+        "name": "Jack Mahoney",
+        "date": "2025-11-16",
+        "text": "@yacineMTB is thiss loss",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TresBonSang",
+        "name": "BonSang",
+        "date": "2025-11-16",
+        "text": "@yacineMTB Still not deported i see.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "diego_barr_",
+        "name": "Diego",
+        "date": "2025-11-16",
+        "text": "@yacineMTB Credits to @SakoAsko. \nGrande",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "8Dazo",
+        "name": "Daz ✦",
+        "date": "2025-11-16",
+        "text": "@yacineMTB lmao",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "30Thrd",
+        "name": "abuah",
+        "date": "2025-11-16",
+        "text": "@crag_skew @yacineMTB Fr",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JetLee33402926",
+        "name": "空山新雨后",
+        "date": "2025-11-16",
+        "text": "@yacineMTB 自己吓自己(ﾉ_&lt;。)🔨（轻声哼唱🌚）",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ThisIsRealP",
+        "name": "FUD.ron",
+        "date": "2025-11-15",
+        "text": "@yacineMTB 😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ethicalhac3kdh",
+        "name": "Ethical hackers",
+        "date": "2025-11-15",
+        "text": "@terracotta_hawk @yacineMTB Hey, quick question-do you need help recovering money or assets lost to scammers? As a cybersecurity expert, I've got ways to track and claw it back, 100% guarantee worth a shot if you're stuck.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "precognita",
+        "name": "Anita @ ICML 🇰🇷",
+        "date": "2025-11-15",
+        "text": "@yacineMTB 🤣🤣🤣",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "interactiveGTS",
+        "name": "InteractiveST",
+        "date": "2025-11-15",
+        "text": "@yacineMTB I can't believe I missed a false flag. Framing error I think. Used to seeing in terms of governments not corps, but the tactic's exactly the same Hegelian Dialectic. Thanks for spreading awareness on this, kache.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fungibIes",
+        "name": "Fungie",
+        "date": "2025-11-15",
+        "text": "@30Thrd @yacineMTB this one's high IQ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "altansukhbatbay",
+        "name": "Алтангүх Батбаяр",
+        "date": "2025-11-15",
+        "text": "@yacineMTB good meme",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Citrullin",
+        "name": "Philipp Blum",
+        "date": "2025-11-15",
+        "text": "@yacineMTB @grok what is that called in psychology when you overexaggerate? \n\nJust for people to think it's soo crazy, they need to invest.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Gengar11teen",
+        "name": "Gengar11",
+        "date": "2025-11-15",
+        "text": "@yacineMTB Self-made Plato's Algo-Cave, I know it well.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AndreBuckingham",
+        "name": "Andre Buckingham 🧙‍♂️",
+        "date": "2025-11-15",
+        "text": "@yacineMTB 😂💯",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gurgle_io",
+        "name": "🎯🔫👌",
+        "date": "2025-11-15",
+        "text": "@yacineMTB But they used \"MCP\"",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Houzsaad",
+        "name": "dev_nokiaman",
+        "date": "2025-11-15",
+        "text": "@yacineMTB what does that mean?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G5zjAkKWMAAAD4b.jpg",
+      "localFilename": "1989714736565399746_1.jpg"
+    }
+  ]
 }

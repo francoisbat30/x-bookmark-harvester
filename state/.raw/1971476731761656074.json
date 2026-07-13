@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:04.304Z",
+  "fetchedAt": "2026-07-13T06:46:42.553Z",
   "tweetId": "1971476731761656074",
   "post": {
     "url": "https://x.com/EHuanglu/status/1971476731761656074",
@@ -9,14 +10,901 @@
       "name": "el.cine"
     },
     "date": "2025-09-26",
-    "text": "check out here: https://t.co/CrwduCj9Fa",
-    "media": [],
+    "text": "oh my.. this GeoSpy AI can track your exact location using social media photos https://t.co/9Wz9YO5dKx\n\ncheck out here: https://t.co/CrwduCj9Fa",
+    "thread": [
+      {
+        "id": "1971476729614172544",
+        "text": "oh my.. this GeoSpy AI can track your exact location using social media photos https://t.co/9Wz9YO5dKx"
+      },
+      {
+        "id": "1971476731761656074",
+        "text": "check out here: https://t.co/CrwduCj9Fa"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/1971475404046086144/vid/avc1/1920x1080/ouBTJQHLBslHE7RH.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/1971475404046086144/img/rfcSSJdFo3QHt1Mv.jpg"
+      }
+    ],
     "metrics": {
-      "likes": 103,
+      "likes": 102,
       "retweets": 6,
       "replies": 1,
-      "views": 20901
+      "views": 20923
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "Varahamihi4le",
+        "name": "Varaha mihir",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Let me know when it can beat this guy. https://t.co/EKiYLUZr16",
+        "likes": 183,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "saninemoreira",
+        "name": "Sanine Moreira ⚪️",
+        "date": "2025-09-26",
+        "text": "@EHuanglu the picture on the right already tells me from which country this tool is or backed ... https://t.co/3zY7S3Qhk2",
+        "likes": 47,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "adin_ron",
+        "name": "Ron Adin",
+        "date": "2025-09-26",
+        "text": "@EHuanglu why contact sales though? let me pay per spy",
+        "likes": 31,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-26",
+        "text": "@KayKuroba @EHuanglu Yes, services like https://t.co/yMQMi03uF9 use AI to predict photo locations from visual content, similar to GeoSpy. Open-source tools on GitHub also exist for this, often for OSINT purposes. GeoSpy excels in high-accuracy, low-context scenarios.",
+        "likes": 29,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "derjanni",
+        "name": "Jan 🌍🍣🍵😎🖖🦌🌲🍃🍍🏝️",
+        "date": "2025-09-26",
+        "text": "@_avdept @EHuanglu Almost all social media sites and messengers strip EXIF off images, so I’d call the use case legit.",
+        "likes": 12,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AlfredoGishi",
+        "name": "IviOk",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Probándolo en La Matanza, dice que la foto es de Kenia \nNo funciona muy bien",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_avdept",
+        "name": "Alex 🔔 | updatify.io",
+        "date": "2025-09-26",
+        "text": "@EHuanglu ever heard of exif data on every image you take? Its not just coordinates, there's much more",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "drewmanfsu",
+        "name": "Andrew Bailey",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Where is the dislike button when you need it",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Altimox_",
+        "name": "Altimox",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Will this work for North Korea?",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-26",
+        "text": "Before AI tools like GeoSpy, locations were tracked from photos mainly via EXIF metadata (embedded GPS data from cameras/phones) and manual analysis—examining landmarks, signs, architecture, weather, or shadows, then cross-referencing with maps or Street View. Investigators used OSINT techniques for this.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PhilFrancoAI",
+        "name": "Phil Franco",
+        "date": "2025-09-26",
+        "text": "@EHuanglu i hope its trained on Trevor Rainbolt 😂",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Rahll",
+        "name": "Reid Southen",
+        "date": "2025-09-26",
+        "text": "@EHuanglu @CodeByPoonam Good thing you're advertising it you fucking scumbag.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "yiran__c",
+        "name": "Yiran - edu/acc",
+        "date": "2025-09-26",
+        "text": "@EHuanglu @rooshonline your search business can have a boost 😉",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Deymos888",
+        "name": "Central Processing Unit 🐯",
+        "date": "2025-09-26",
+        "text": "@KanikaBK @EHuanglu Yes",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vishxly",
+        "name": "vishal",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Fascinating tech, but terrifying implications. The digital breadcrumbs we leave are more revealing than we realize.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KayKuroba",
+        "name": "kentotnek",
+        "date": "2025-09-26",
+        "text": "@EHuanglu @grok isn’t there another service that already does this?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CodeByPoonam",
+        "name": "Poonam Soni",
+        "date": "2025-09-26",
+        "text": "@EHuanglu This is concerning",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EsteB4n444",
+        "name": "ℰ𝓈𝓉𝑒𝒷𝟺𝓃👒",
+        "date": "2025-09-26",
+        "text": "@EHuanglu https://t.co/YdGcroxDAp",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "YesuHFBC",
+        "name": "Yesu",
+        "date": "2025-09-26",
+        "text": "@KanikaBK @EHuanglu Excited about how worrying it is.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rooshonline",
+        "name": "Roosh",
+        "date": "2025-09-26",
+        "text": "@yiran__c @EHuanglu 😂ai making it too easy now",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "thairizard",
+        "name": "Thai",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Fuckedup",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-26",
+        "text": "GeoSpy AI's accuracy varies by image details and model used. Official claims reach meter-level precision with tools like SuperBolt for distinct landmarks, reducing from initial 1-25km ranges. Tests show it can narrow to a few square miles via visual clues like vegetation, without metadata. However, it's not always exact, especially for generic scenes. Privacy concerns arise from its speed and potential misuse.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ToroInvierte",
+        "name": "Toro Invierte",
+        "date": "2025-09-26",
+        "text": "@EHuanglu demo is useless",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "avianglock00",
+        "name": "avianglock",
+        "date": "2025-09-26",
+        "text": "@KanikaBK @EHuanglu Both",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "chaasperjuu",
+        "name": "cha",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Cap that photo is in Brooklyn not manhattan",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Eve_Sc0t1sh",
+        "name": "Danny Delusion",
+        "date": "2025-09-26",
+        "text": "@Stefanmironczyk @EHuanglu Not reliably accurate at all, unless there is a standout location, it's essentially a couple clicks saved from some basic OSINT knowledge.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "n_codetradez",
+        "name": "Ned",
+        "date": "2025-09-26",
+        "text": "@EHuanglu ok i will give you the solution but i dont hive to build an app: Fake randomly generated backgrounds. Done.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "monroth",
+        "name": "Павел Томас 🎲",
+        "date": "2025-09-26",
+        "text": "@ChronoverseTick @EHuanglu probably not this exact AI, but he was beaten like 2 years ago\nhttps://t.co/E6TW0xlEcS",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hackingandt",
+        "name": "hackingand testing",
+        "date": "2025-09-26",
+        "text": "@grok @KayKuroba @EHuanglu picarta 100% use photo metadata",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EHuanglu",
+        "name": "el.cine",
+        "date": "2025-09-26",
+        "text": "@atsushi1_jp stalker..",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DreamsHor1zon",
+        "name": "DreamsHorizon",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Why was this invented",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-26",
+        "text": "@LilithDatura @KayKuroba @EHuanglu Exactly, Google Reverse Image Search has been a go-to OSINT tool for years—uploading a photo to find similar images online, which often reveal locations via matching landmarks or context from other sources. It's simple but effective for cross-verification!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "atsushi1_jp",
+        "name": "Atsushi🍣",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Should we worry about this 😂",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Turner_Zone",
+        "name": "MarzBus𝕏",
+        "date": "2025-09-26",
+        "text": "@EHuanglu No one is safe",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "House0nX",
+        "name": "House 🏗️🌩️©️",
+        "date": "2025-09-27",
+        "text": "@EHuanglu Oh my the OSINT trained an Ai. 😳😱",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-27",
+        "text": "@_LaurentB @EHuanglu @Toximityx I checked the video, but without audio access, I couldn't identify the track. Searches didn't turn up any details on it either. If you have lyrics or more info, I can try searching based on that!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_LaurentB",
+        "name": "Laurent",
+        "date": "2025-09-27",
+        "text": "@EHuanglu @Toximityx @grok what’s the track used in that video?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ydoboneht999",
+        "name": "Auhsoj",
+        "date": "2025-09-27",
+        "text": "@EHuanglu Just imagine Palantir",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rajankrx",
+        "name": "Rajan Kumar Singh",
+        "date": "2025-09-27",
+        "text": "@EHuanglu But pictures you take already have the geo locations in them, you can utilise it to find location \nWhy would you use image here?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "icreateapps_",
+        "name": "Sef",
+        "date": "2025-09-27",
+        "text": "@EHuanglu as scary as this gets, this is fking awesooooome",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EHuanglu",
+        "name": "el.cine",
+        "date": "2025-09-26",
+        "text": "@PhilFrancoAI this is more powerful, it works even if the background is just a floor",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "diceoneo2",
+        "name": "Diceoneo🔸",
+        "date": "2025-09-26",
+        "text": "@Fermented_sol @saninemoreira @EHuanglu Are you jew?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HowDissatisfied",
+        "name": "Earthling",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Thats military tech",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1IIIIIIIIII11",
+        "name": "WICKMAN 🗡️",
+        "date": "2025-09-26",
+        "text": "@EHuanglu . 😬 https://t.co/4oOqw9dXj1",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0izhi",
+        "name": "𰻞",
+        "date": "2025-09-26",
+        "text": "@EHuanglu no thx, WE HAVE RAINBOLT",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nimish5324",
+        "name": "Nimish Tiwari",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Dude this is actually scary",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EliasHad",
+        "name": "Elias",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Remember fast &amp; furious god's eye...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Waled_rehmanlov",
+        "name": "Waleed",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Try this on in case of tyler robbinson..lets see who can outclass fbi.. this way or that way.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BitBullish",
+        "name": "₿earMarket",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Gpt-o3 could do this, haven’t tried it with 5. Guessed location within a block.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hungrydonkey",
+        "name": "Hungry Donkey 🥕",
+        "date": "2025-09-26",
+        "text": "@EHuanglu https://t.co/G5B8j0iduN https://t.co/BwjX15FZrm",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vpnpomogi",
+        "name": "Dose",
+        "date": "2025-09-26",
+        "text": "@EHuanglu The Eye of God from the Fast and the Furious",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "oJii_EL",
+        "name": "Profound.Happy.ness",
+        "date": "2025-09-26",
+        "text": "@KanikaBK @EHuanglu We have people that do this on their own with no tools but their memory , this is the AI version so yeah.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zanyflea",
+        "name": "Zanyflea",
+        "date": "2025-09-26",
+        "text": "@EHuanglu I mean meta data can too.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RafaeLyonnais",
+        "name": "Rafael Lyonnais",
+        "date": "2025-09-26",
+        "text": "@EHuanglu thats why we need clone cities in the future",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jarvis0970",
+        "name": "JamesemaJ 🇮🇹",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Wasnt it for governments only?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "randomanonn666",
+        "name": "︻╦̵̵̿╤━─ ⨀",
+        "date": "2025-09-26",
+        "text": "@EHuanglu u just gave predators a useful tool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Magnusku",
+        "name": "Magnus",
+        "date": "2025-09-26",
+        "text": "@EHuanglu rainbolt is getting replaced by ai 😭",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FlowAltDelete",
+        "name": "Josh Cook | Microsoft MVP",
+        "date": "2025-09-26",
+        "text": "@EHuanglu How accurate is this? @grok",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yesitscuau",
+        "name": "Cuau Romero",
+        "date": "2025-09-26",
+        "text": "@EHuanglu That was taken in Brooklyn not Manhattan",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "patoroco",
+        "name": "patoroco 👌",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Esto le gustará a @YeAsturianin",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MrkoalaTRD",
+        "name": "Mrkoala",
+        "date": "2025-09-26",
+        "text": "@EHuanglu @CL207",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Agungshafari",
+        "name": "InTheMoneyAgank",
+        "date": "2025-09-26",
+        "text": "@EHuanglu It doesn’t work on all locations so pretty much hype and trash",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VibeEdgeAI",
+        "name": "VibeEdge",
+        "date": "2025-09-26",
+        "text": "@EHuanglu @EHuanglu Powerful but concerning! \n\nGeoSpy shows how AI can pinpoint locations with precision, highlighting both the potential and serious privacy implications of such technology.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "creatorstirno",
+        "name": "Stirno",
+        "date": "2025-09-26",
+        "text": "@EHuanglu I thought it was not available for the masses",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "L3O_NGO",
+        "name": "leongo",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Holyshit mate",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "X0TICxo",
+        "name": "XO 🇦🇸",
+        "date": "2025-09-26",
+        "text": "@ChronoverseTick @EHuanglu 📠🗺️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mental_luci",
+        "name": "luci",
+        "date": "2025-09-26",
+        "text": "@EHuanglu they just cloned you @georainbolt",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LinceSagrado",
+        "name": "Єl Lіисэ De Los Nadies",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Tested 5 pictures. 0/5. I'll try more later.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itamalagishev",
+        "name": "Amal Agishev",
+        "date": "2025-09-26",
+        "text": "@EHuanglu So scary 🥲🤞🏼",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "andrewjb44",
+        "name": "Andrew B.",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Pretty darn scary. Now stalkers can find you with the ease AI.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_necropheus",
+        "name": "necropheus",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Rainbolt better",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Stefanmironczyk",
+        "name": "Stefan Mironczyk",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Has anyone ever tested this tool? These videos and videos have been around for a few months now.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rrennej",
+        "name": "Ren Jeezly",
+        "date": "2025-09-26",
+        "text": "@EHuanglu L ad, weirdo shit",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TooliePeach",
+        "name": "陈需",
+        "date": "2025-09-26",
+        "text": "@EHuanglu I can now identify all the skate spots that appear in the vids.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Motose214",
+        "name": "しゅに芋粥",
+        "date": "2025-09-26",
+        "text": "@EHuanglu It's more than tech demo you just forge a threat f you the world's not your tech demo",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ValueConnec",
+        "name": "Value-connection",
+        "date": "2025-09-26",
+        "text": "@EHuanglu @ValueConnec",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PuneetRawa71903",
+        "name": "Puneet Rawat",
+        "date": "2025-09-26",
+        "text": "@EHuanglu @georainbolt",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-26",
+        "text": "@hackingandt @KayKuroba @EHuanglu According to Picarta's API docs, it predicts locations via AI even without EXIF: \"In the absence of GPS EXIF data, our AI system provides GPS estimation.\" If your check showed otherwise, could be due to image specifics—care to share the photo for verification?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hackingandt",
+        "name": "hackingand testing",
+        "date": "2025-09-26",
+        "text": "@grok @KayKuroba @EHuanglu nope already checked doesnt work without it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-09-26",
+        "text": "@hackingandt @KayKuroba @EHuanglu https://t.co/yMQMi03uF9 uses AI to predict locations from visual content, even without EXIF metadata, as per their API docs. It may check metadata if present, but it's not solely reliant on it. Similar to GeoSpy in that regard.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EHuanglu",
+        "name": "el.cine",
+        "date": "2025-09-26",
+        "text": "@alexutopia the dark parts are coming",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lowellb_",
+        "name": "lowell",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Wow",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EHuanglu",
+        "name": "el.cine",
+        "date": "2025-09-26",
+        "text": "@CodeByPoonam can be useful for gov but if on wrong hands..",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "devmudi1",
+        "name": "Mudi 🍀",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Where can I start using this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LilithDatura",
+        "name": "Lilith Datura",
+        "date": "2025-09-26",
+        "text": "@grok @KayKuroba @EHuanglu Right, and every now and then Google Reverse image lol.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LilithDatura",
+        "name": "Lilith Datura",
+        "date": "2025-09-26",
+        "text": "@KayKuroba @EHuanglu @grok @grok before they were using AI, how were they tracking this.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "soniatamayodiaz",
+        "name": "Sonia_Tam",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Scary for women",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "blackerproduct",
+        "name": "AB",
+        "date": "2025-09-26",
+        "text": "@carltonjd @EHuanglu because things have changed dramaticly in the past years",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "carltonjd",
+        "name": "Carlton D'Souza",
+        "date": "2025-09-26",
+        "text": "@EHuanglu It's scary how much we give away without realizing.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "diana_koli",
+        "name": "Diana Koli",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Thats scary",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RodmanAi",
+        "name": "Leonard Rodman",
+        "date": "2025-09-26",
+        "text": "@EHuanglu unbelievable",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Just_4or_News",
+        "name": "Just4orNews",
+        "date": "2025-09-26",
+        "text": "@EHuanglu What exact location!! All phots are AI generated nowadays.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "azimmaksum",
+        "name": "Azim 🇲🇾",
+        "date": "2025-09-26",
+        "text": "@EHuanglu NOOOO dont need this AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "istishev",
+        "name": "Valeriy Istishev",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Находка для нео-сталкера",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fcordobaot",
+        "name": "Francisco Cordoba",
+        "date": "2025-09-26",
+        "text": "@EHuanglu Was this created by the Mossad or by the CCP?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "spaftu",
+        "name": "Tran Hung",
+        "date": "2025-09-26",
+        "text": "@EHuanglu 👍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/1971475404046086144/img/rfcSSJdFo3QHt1Mv.jpg",
+      "localFilename": "1971476731761656074_1_poster.jpg"
+    }
+  ]
 }

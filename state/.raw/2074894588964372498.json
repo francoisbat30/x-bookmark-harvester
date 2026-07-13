@@ -1,0 +1,192 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T06:59:16.127Z",
+  "tweetId": "2074894588964372498",
+  "post": {
+    "url": "https://x.com/NVIDIARTXSpark/status/2074894588964372498",
+    "author": {
+      "handle": "NVIDIARTXSpark",
+      "name": "NVIDIA RTX Spark"
+    },
+    "date": "2026-07-08",
+    "text": "Local AI just got faster. ⚡️\n\nWe worked with @ggerganov to add DFlash support in llama.cpp delivering ~2x faster inference. https://t.co/ir9uti6dBV",
+    "thread": [
+      {
+        "id": "2074894588964372498",
+        "text": "Local AI just got faster. ⚡️\n\nWe worked with @ggerganov to add DFlash support in llama.cpp delivering ~2x faster inference. https://t.co/ir9uti6dBV"
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 619,
+      "retweets": 63,
+      "replies": 19,
+      "views": 102524
+    },
+    "comments": [
+      {
+        "handle": "Teknium",
+        "name": "Teknium 🪽",
+        "date": "2026-07-09",
+        "text": "@NVIDIARTXSpark @ggerganov 👀",
+        "likes": 15,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rafaelcaricio",
+        "name": "rafaelcaricio",
+        "date": "2026-07-09",
+        "text": "@NVIDIARTXSpark @ggerganov We want a large diffusion model with strong coding capabilities for our Spark devices. @NVIDIARTXSpark",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ivanfioravanti",
+        "name": "Ivan Fioravanti ᯅ",
+        "date": "2026-07-09",
+        "text": "@NVIDIARTXSpark @ggerganov Amazing news! On it testing!",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mkemka_",
+        "name": "Martin Kemka",
+        "date": "2026-07-08",
+        "text": "@NVIDIARTXSpark @ggerganov Is there a formal spark and llama.cpp docker image like vllm for serving?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "samelldev",
+        "name": "Sam L",
+        "date": "2026-07-09",
+        "text": "@NVIDIARTXSpark @ggerganov HUGE",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aaronbatilo",
+        "name": "Aaron",
+        "date": "2026-07-08",
+        "text": "@NVIDIARTXSpark @ggerganov Dspark when",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sijak5",
+        "name": "Simonas Jakubonis",
+        "date": "2026-07-10",
+        "text": "@NVIDIARTXSpark @ggerganov Nice!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CoinUpBTC",
+        "name": "Coinupbtc 🪙",
+        "date": "2026-07-09",
+        "text": "@NVIDIARTXSpark @ggerganov 👀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rokobasili",
+        "name": "Roko ʕ •ᴥ•ʔっ🪄✨🐍",
+        "date": "2026-07-09",
+        "text": "@NVIDIARTXSpark @ggerganov Based",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rodrimora",
+        "name": "Rodri Mora aka Bullerwins",
+        "date": "2026-07-09",
+        "text": "@NVIDIARTXSpark @ggerganov Dspark wen?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BadBrainCode",
+        "name": "BrainOS",
+        "date": "2026-07-09",
+        "text": "@NVIDIARTXSpark @ggerganov Will this apply to the DGX Spark",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sfxnz",
+        "name": "Sufyan",
+        "date": "2026-07-09",
+        "text": "@NVIDIARTXSpark @ggerganov RTX spark is going to be a very capable machine",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CyberEthanAI",
+        "name": "Ethan vs Machines",
+        "date": "2026-07-09",
+        "text": "@NVIDIARTXSpark @ggerganov 2x faster local inference is huge for robotics 🤖 DFlash + speculative decoding could finally make on-device VLA models practical for DIY builds",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shnuit",
+        "name": "S",
+        "date": "2026-07-09",
+        "text": "@NVIDIARTXSpark @ggerganov Oh, great news!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MichaelGannotti",
+        "name": "Mike Gannotti",
+        "date": "2026-07-09",
+        "text": "@NVIDIARTXSpark @ggerganov Excellent!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MichaelHutu",
+        "name": "Mike Hutu",
+        "date": "2026-07-08",
+        "text": "@NVIDIARTXSpark @ggerganov This is going to be fun🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Akanshajain05",
+        "name": "Akansha Jain",
+        "date": "2026-07-08",
+        "text": "@NVIDIARTXSpark @ggerganov god speed",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GrIlm14",
+        "name": "Gr1m",
+        "date": "2026-07-08",
+        "text": "@NVIDIARTXSpark @ggerganov https://t.co/G6TXOQs14u",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  }
+}

@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:17.749Z",
+  "fetchedAt": "2026-07-13T06:54:16.426Z",
   "tweetId": "2025334966884708846",
   "post": {
     "url": "https://x.com/JohnLeFevre/status/2025334966884708846",
@@ -10,6 +11,12 @@
     },
     "date": "2026-02-21",
     "text": "84% of people have never used AI, and just 0.3% of users pay for premium services.\n\nAnyone who thinks AI is a bubble isn't paying attention. https://t.co/6cCo4Kjp8q",
+    "thread": [
+      {
+        "id": "2025334966884708846",
+        "text": "84% of people have never used AI, and just 0.3% of users pay for premium services.\n\nAnyone who thinks AI is a bubble isn't paying attention. https://t.co/6cCo4Kjp8q"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,27 @@
       }
     ],
     "metrics": {
-      "likes": 3769,
-      "retweets": 670,
-      "replies": 558,
-      "views": 1582117
+      "likes": 3756,
+      "retweets": 669,
+      "replies": 547,
+      "views": 1588904
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "JohnLeFevre",
+        "name": "John LeFevre",
+        "date": "2026-02-23",
+        "text": "@gmiller Apologies. The screenshot came from Reddit. \n\nAs per their source, it came from WIRED.",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/HBtu66GWkAAUoFN.jpg",
+      "localFilename": "2025334966884708846_1.jpg"
+    }
+  ]
 }

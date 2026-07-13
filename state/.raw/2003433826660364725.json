@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:38.217Z",
+  "fetchedAt": "2026-07-13T06:51:08.796Z",
   "tweetId": "2003433826660364725",
   "post": {
     "url": "https://x.com/tom_doerr/status/2003433826660364725",
@@ -10,6 +11,12 @@
     },
     "date": "2025-12-23",
     "text": "Transcribes audio and video files with timestamps\n\nhttps://t.co/OuRocByF7r https://t.co/ZFJutchqdk",
+    "thread": [
+      {
+        "id": "2003433826660364725",
+        "text": "Transcribes audio and video files with timestamps\n\nhttps://t.co/OuRocByF7r https://t.co/ZFJutchqdk"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,63 @@
       }
     ],
     "metrics": {
-      "likes": 654,
-      "retweets": 67,
+      "likes": 652,
+      "retweets": 69,
       "replies": 4,
-      "views": 24884
+      "views": 24957
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "andysingal",
+        "name": "Ankush Singal",
+        "date": "2025-12-24",
+        "text": "@EmersonAneke @tom_doerr Coming soon\n\n•👥 Speaker diarization\n•📚 Mass transcription\n-   Still in the process. Thanks Mr. Miyagi .",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "andysingal",
+        "name": "Ankush Singal",
+        "date": "2025-12-23",
+        "text": "@tom_doerr Does it do diarization?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rtheoryxyz",
+        "name": "robertus",
+        "date": "2025-12-23",
+        "text": "@tom_doerr tbh the timestamp feature alone solves a real bottleneck for anyone working with long recordings. most transcription tools give you a wall of text, but knowing exactly where something was said in a 3 hour video is where the actual value lives",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "karavankid",
+        "name": "MrMustachio",
+        "date": "2025-12-24",
+        "text": "@tom_doerr Buzz application works well for this on windows and you can dl wisper models tiny or big",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EmersonAneke",
+        "name": "Aneke",
+        "date": "2025-12-24",
+        "text": "@andysingal @tom_doerr Go read the documentation or browse the ReadMe at least",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G82gcvOXgAAl4mL.png",
+      "localFilename": "2003433826660364725_1.png"
+    }
+  ]
 }

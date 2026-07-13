@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:59.336Z",
+  "fetchedAt": "2026-07-13T06:47:37.345Z",
   "tweetId": "1975595730166509660",
   "post": {
     "url": "https://x.com/dnaijatechguy/status/1975595730166509660",
@@ -9,7 +10,17 @@
       "name": "Design Chief Priest"
     },
     "date": "2025-10-07",
-    "text": "Elevenlabs just open sourced a bunch of their audio UI components. These look really good.\n\nLink on the thread https://t.co/KCrN3uHZXN",
+    "text": "Elevenlabs just open sourced a bunch of their audio UI components. These look really good.\n\nLink on the thread https://t.co/KCrN3uHZXN\n\nFind them here -\n\nhttps://t.co/ePU55jenTO",
+    "thread": [
+      {
+        "id": "1975595730166509660",
+        "text": "Elevenlabs just open sourced a bunch of their audio UI components. These look really good.\n\nLink on the thread https://t.co/KCrN3uHZXN"
+      },
+      {
+        "id": "1975595865458024490",
+        "text": "Find them here -\n\nhttps://t.co/ePU55jenTO"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +28,297 @@
       }
     ],
     "metrics": {
-      "likes": 2190,
-      "retweets": 126,
+      "likes": 2181,
+      "retweets": 128,
       "replies": 25,
-      "views": 122614
+      "views": 122868
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "dnaijatechguy",
+        "name": "Design Chief Priest",
+        "date": "2025-10-07",
+        "text": "@itsjustfelixx It’s a paid kit \n\nhttps://t.co/fOY2HMvNOl",
+        "likes": 17,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "louisjoejordan",
+        "name": "Louis",
+        "date": "2025-10-07",
+        "text": "@dnaijatechguy Appreciate it!",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chaseadams",
+        "name": "chase adams",
+        "date": "2025-10-07",
+        "text": "@dnaijatechguy They're building some great stuff over there.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AmaanAli630",
+        "name": "amaan",
+        "date": "2025-10-07",
+        "text": "@dnaijatechguy oooo i need this asap for my current project",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eddiedoesuiux",
+        "name": "Eddie Equere",
+        "date": "2025-11-04",
+        "text": "@dnaijatechguy @saheedniyi_02",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "volkanuikielle",
+        "name": "Volkan",
+        "date": "2025-10-09",
+        "text": "@dnaijatechguy These are a bit too clean\nCould fit into almost any design imo",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "h3xp3rf",
+        "name": "Denis Hristov",
+        "date": "2025-10-09",
+        "text": "@dnaijatechguy absolutely amazing find 🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Maikoke5",
+        "name": "Maiko",
+        "date": "2025-10-09",
+        "text": "@dnaijatechguy The number of times I wished this existed 🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "buildwithfede",
+        "name": "Fede",
+        "date": "2025-10-08",
+        "text": "@dnaijatechguy hey this is supe useful\n\nthanks for sharing👌",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WarWillio",
+        "name": "Wyl | Apider",
+        "date": "2025-10-08",
+        "text": "@dnaijatechguy https://t.co/iapTq10X2x",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-10-08",
+        "text": "Here are 7 use cases for ElevenLabs' audio UI components in different industries:\n\n1. **Education**: Interactive voice tutors for language learning apps, with waveforms showing pronunciation feedback.\n\n2. **Healthcare**: Patient-doctor voice chat interfaces for telemedicine, including real-time transcription displays.\n\n3. **Entertainment**: Podcast apps with customizable audio players and agent orbs for listener engagement.\n\n4. **Automotive**: In-car voice assistants using orb visualizations for navigation and hands-free controls.\n\n5. **Customer Service**: Support chatbots with voice fill for quick query resolution in e-commerce platforms.\n\n6. **Gaming**: Real-time audio feedback in multiplayer games, with waveforms for voice comms and effects.\n\n7. **Finance**: Secure voice-based transaction confirmations in banking apps, featuring track displays for audit logs.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "updategigs_now",
+        "name": "MEGAN FOKER",
+        "date": "2025-10-08",
+        "text": "@dnaijatechguy @grok give me 7 use cases in different industries for this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "const_lisnic",
+        "name": "Constantin Lisnic",
+        "date": "2025-10-08",
+        "text": "@dnaijatechguy damn,  these are sexy af",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "denissimutin",
+        "name": "Denis Simutin",
+        "date": "2025-10-08",
+        "text": "@dnaijatechguy Damn, these are nice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "akirofaceless",
+        "name": "Akiro",
+        "date": "2025-10-08",
+        "text": "@dnaijatechguy Nice. I'll definitely check this out.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shivamk_14",
+        "name": "Kumar Shivam",
+        "date": "2025-10-08",
+        "text": "@dnaijatechguy Wow this is really nice. Always appreciated their designs 🥂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dhruvalgolakiya",
+        "name": "Dhruval",
+        "date": "2025-10-08",
+        "text": "@dnaijatechguy Thank you Chief",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fqure",
+        "name": "fqure",
+        "date": "2025-10-08",
+        "text": "@dnaijatechguy @tom_doerr",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "amandevx",
+        "name": "Aman DevX",
+        "date": "2025-10-08",
+        "text": "@dnaijatechguy Nice find! Will definitely check these out, thanks for sharing.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PurpleKingTony",
+        "name": "Anthony 🇳🇬🇨🇦",
+        "date": "2025-10-08",
+        "text": "@dnaijatechguy Whoa",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ValerieTetu",
+        "name": "Valerie Tetu",
+        "date": "2025-10-07",
+        "text": "@louisjoejordan @dnaijatechguy Can we build a Framer plug-in for this?👀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jezell",
+        "name": "Jesse Ezell",
+        "date": "2025-10-07",
+        "text": "@dnaijatechguy Hey @elevenlabs can we get a Flutter pack?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_rxrz",
+        "name": "abdurrazaq usul.",
+        "date": "2025-10-07",
+        "text": "@dnaijatechguy holy shit thanks",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "marcgregory_",
+        "name": "Marc Gregory",
+        "date": "2025-10-07",
+        "text": "@dnaijatechguy These components are sick",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dnaijatechguy",
+        "name": "Design Chief Priest",
+        "date": "2025-10-07",
+        "text": "@louisjoejordan 🙌🏾 Solid work on the registry",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sukunatrader",
+        "name": "Sukuna Trader.",
+        "date": "2025-10-07",
+        "text": "@dnaijatechguy Haha finally.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tanvironik94",
+        "name": "Tanvir Onik (Brand Analyst)",
+        "date": "2025-10-07",
+        "text": "@dnaijatechguy Nice &amp; attractive work!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itzFetty_Jay",
+        "name": "JAY",
+        "date": "2025-10-07",
+        "text": "@dnaijatechguy Thank you 😊",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "__zuggy",
+        "name": "Zuggy | Video Editor 💻",
+        "date": "2025-10-07",
+        "text": "@dnaijatechguy Time to go steal some",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itsjustfelixx",
+        "name": "sinatra",
+        "date": "2025-10-07",
+        "text": "@dnaijatechguy Cool. Thank you",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "itsjustfelixx",
+        "name": "sinatra",
+        "date": "2025-10-07",
+        "text": "@dnaijatechguy Abeg, I have a question from the resources you shared one time. How do I access Hypercharts for charts? Do they have a website?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2q5WHOXMAEDN03.jpg",
+      "localFilename": "1975595730166509660_1.jpg"
+    }
+  ]
 }

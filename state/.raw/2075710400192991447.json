@@ -1,0 +1,282 @@
+{
+  "version": 2,
+  "source": "xapi",
+  "fetchedAt": "2026-07-13T06:59:11.779Z",
+  "tweetId": "2075710400192991447",
+  "post": {
+    "url": "https://x.com/aaron_epstein/status/2075710400192991447",
+    "author": {
+      "handle": "aaron_epstein",
+      "name": "Aaron Epstein"
+    },
+    "date": "2026-07-10",
+    "text": "Designing your dream home just got even faster https://t.co/nuASWjNBf7",
+    "thread": [
+      {
+        "id": "2075710400192991447",
+        "text": "Designing your dream home just got even faster https://t.co/nuASWjNBf7"
+      }
+    ],
+    "media": [],
+    "metrics": {
+      "likes": 1472,
+      "retweets": 59,
+      "replies": 21,
+      "views": 469226
+    },
+    "comments": [
+      {
+        "handle": "awilkinson",
+        "name": "Andrew Wilkinson",
+        "date": "2026-07-11",
+        "text": "@aaron_epstein Dude this is so fucking cool.",
+        "likes": 7,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "awilkinson",
+        "name": "Andrew Wilkinson",
+        "date": "2026-07-11",
+        "text": "@aaron_epstein @aaron_epstein Can you upload an existing CAD/floorplan to edit?",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Vatsalpandya333",
+        "name": "Vatsalpandya333",
+        "date": "2026-07-10",
+        "text": "@aaron_epstein love this!!",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DesertCybeast",
+        "name": "Desert Cyberbeast",
+        "date": "2026-07-11",
+        "text": "@aaron_epstein This is incredible",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DraftedAI",
+        "name": "Drafted",
+        "date": "2026-07-10",
+        "text": "@aaron_epstein yep 😎\n\nhttps://t.co/4h5SVZ2FZw",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "goodquestioner",
+        "name": "Good Questioner",
+        "date": "2026-07-11",
+        "text": "@aaron_epstein Very cool",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Eric_P8",
+        "name": "Eric Pate",
+        "date": "2026-07-11",
+        "text": "Neat! I want something like this I can:\n\n-pass in real terrain from google earth + deformation\n-drop/iterate on the model in UE5 with RT + VR (depth perception is critical for evaluating the feel of spaces)\n-simulate different times of year with real sun position, lets me get the rotation of the house right for the various seasons and catch issues before building \n\nThis looks amazing though",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wjbeyer",
+        "name": "Jake Beyer",
+        "date": "2026-07-11",
+        "text": "@aaron_epstein @ycombinator Very cool @DraftedAI. Very relevant for maximizing FAR on small lots. Would love to try this out.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "InvictusGroyper",
+        "name": "Invictus Groyper",
+        "date": "2026-07-11",
+        "text": "@aaron_epstein That’s nice and all but what’s up with your brother Jeff?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PrimalNick",
+        "name": "Nick Donahue",
+        "date": "2026-07-11",
+        "text": "@awilkinson @aaron_epstein Not yet but we are working on it :)",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Kevinkrone",
+        "name": "Kevin Krone | Real Estate AI Studio",
+        "date": "2026-07-11",
+        "text": "@aaron_epstein My workflow is I start with a sketch and want to turn it into a floor plan. Then I want to upload that floor plan or ideally the sketch into your software for it to create it for me to scale. Then I want to be able to drag and drop windows and fixtures to taste.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DougKennedy93",
+        "name": "Doug Kennedy",
+        "date": "2026-07-10",
+        "text": "@aaron_epstein @ycombinator Woah that’s pretty cool.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ferbin08",
+        "name": "Ferbin",
+        "date": "2026-07-11",
+        "text": "@aaron_epstein Real question: once you edit it, how fast does it get to physical?\n\nCAD is easy. Iteration speed is hard.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DraftedAI",
+        "name": "Drafted",
+        "date": "2026-07-11",
+        "text": "@awilkinson @aaron_epstein Are you wanting to design a renovation on your current home or use a plan that you’re working on for a new home?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PrimalNick",
+        "name": "Nick Donahue",
+        "date": "2026-07-11",
+        "text": "@awilkinson @aaron_epstein Thank you!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "bneiluj",
+        "name": "Julien B.",
+        "date": "2026-07-11",
+        "text": "@aaron_epstein Can it also work on redesigning an existing house? Things like adding a pergola, creating a chill outdoor space, or an outdoor kitchen? AI isn’t always great (pro archi level) at this kind of project.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Wardinho10",
+        "name": "Tom",
+        "date": "2026-07-11",
+        "text": "@aaron_epstein I like this concept, however, should creative fields be measured by speed? \n\nHow can we measure the impact / value add that these softwares give?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SilviuC5",
+        "name": "Silviu C",
+        "date": "2026-07-12",
+        "text": "@aaron_epstein V1 was absolute AI slop. Nothing useful, have tried multiple times.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sebastien_db",
+        "name": "Sébastien DB",
+        "date": "2026-07-12",
+        "text": "@aaron_epstein Le gain de vitesse est réel, mais l'étape critique reste la traduction de ce design en contraintes techniques réelles. Une fois le plan validé, comment tu gères la descente vers les besoins structurels ou les normes de construction locales pour éviter de devoir tout…",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yernarmerkhanov",
+        "name": "Yernar",
+        "date": "2026-07-12",
+        "text": "@aaron_epstein This is the kind of AI tool that turns a vague idea into something you can actually edit fast",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KeisukeIshikawa",
+        "name": "Keisuke",
+        "date": "2026-07-11",
+        "text": "@aaron_epstein https://t.co/cyA6lGS3ic",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DraftedAI",
+        "name": "Drafted",
+        "date": "2026-07-11",
+        "text": "@CEODhaval @aaron_epstein Focus at the moment is on homes.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CEODhaval",
+        "name": "Dhaval Shah",
+        "date": "2026-07-11",
+        "text": "@aaron_epstein Can you use this to design restaurants and commercial spaces?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vitverb",
+        "name": "Vitaliy Verbitskiy",
+        "date": "2026-07-11",
+        "text": "@aaron_epstein so cool, solving massive pain",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DraftedAI",
+        "name": "Drafted",
+        "date": "2026-07-11",
+        "text": "@goodquestioner @aaron_epstein Thank you ❤️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DraftedAI",
+        "name": "Drafted",
+        "date": "2026-07-11",
+        "text": "@wjbeyer @aaron_epstein @ycombinator Let us know what you think when you try it out  :)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "KryptoKenCPU",
+        "name": "Ken",
+        "date": "2026-07-11",
+        "text": "@aaron_epstein not sure if the designing part is what has kept people from having their dream homes Aaron",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RealityPolice1",
+        "name": "Reality King",
+        "date": "2026-07-11",
+        "text": "@aaron_epstein I’ve got the furniture version of this. CAD harness for manufacturing ready CNC files. I’ve cut and assembled a fully custom built-in-wardrobe for my daughter. I call it AI.kea. But my educational background is a fucking auto mechanic so YC seems too far fetched. 🙁",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  }
+}

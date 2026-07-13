@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:35.873Z",
+  "fetchedAt": "2026-07-13T06:51:43.875Z",
   "tweetId": "2006323854298226866",
   "post": {
     "url": "https://x.com/designbypepo/status/2006323854298226866",
@@ -10,18 +11,167 @@
     },
     "date": "2025-12-31",
     "text": "As requested, here's how I made it! https://t.co/bB8k1dREl5 https://t.co/ke6fZ51w2O",
+    "thread": [
+      {
+        "id": "2006323854298226866",
+        "text": "As requested, here's how I made it! https://t.co/bB8k1dREl5 https://t.co/ke6fZ51w2O"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/2006323115236691968/vid/avc1/2880x1800/8EKLpkgz6xBaKOWK.mp4"
+        "url": "https://video.twimg.com/amplify_video/2006323115236691968/vid/avc1/2880x1800/8EKLpkgz6xBaKOWK.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2006323115236691968/img/oJ53BtJ7DqnvruUU.jpg"
       }
     ],
     "metrics": {
-      "likes": 540,
+      "likes": 535,
       "retweets": 24,
       "replies": 16,
-      "views": 80084
+      "views": 80591
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "thatjoshguy69",
+        "name": "That Josh Guy",
+        "date": "2025-12-31",
+        "text": "@designbypepo Dang, not even that complex of an effect. Bookmarked 😝",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LightslicerGP",
+        "name": "LightslicerGP",
+        "date": "2025-12-31",
+        "text": "@designbypepo Man we thought it was some voodoo magic bruh 😭🙏🏾",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "paraxiaQQ",
+        "name": "paraxa",
+        "date": "2026-01-02",
+        "text": "@designbypepo ah that looks insane. i love it",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "designs_shruti",
+        "name": "Shruti",
+        "date": "2026-01-01",
+        "text": "@designbypepo This is so smart",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "archivess_19",
+        "name": "Archisha Rana☀️",
+        "date": "2026-01-01",
+        "text": "@designbypepo Wow! It's a neat trick, gave it a try🙌 https://t.co/TrzepaHlXa",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "designedbysg",
+        "name": "Sarthak",
+        "date": "2026-01-01",
+        "text": "@designbypepo Thanks for the tutorial!!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eamin_ux",
+        "name": "Eamin",
+        "date": "2026-01-01",
+        "text": "@designbypepo Awesome effort!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bAMD5",
+        "name": "Bilal Ahmed",
+        "date": "2026-01-01",
+        "text": "@designbypepo Really cool effect",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "designbypepo",
+        "name": "Pedro Lopes",
+        "date": "2025-12-31",
+        "text": "@AvivYogev i could’ve used it but i didn’t for no reason ahaha",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Mayankshahh",
+        "name": "Mayank Shah",
+        "date": "2025-12-31",
+        "text": "@designbypepo Thanks for sharing this Pedro!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "uiuxrodrigo",
+        "name": "Rodrigo Gonçalves",
+        "date": "2025-12-31",
+        "text": "@designbypepo Goated",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "moe_davinci",
+        "name": "Moe Da Vinci",
+        "date": "2025-12-31",
+        "text": "@designbypepo This is sick!! 🔥🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tdeser",
+        "name": "Serge",
+        "date": "2025-12-31",
+        "text": "@designbypepo I was right 🫡",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shariar_design",
+        "name": "SHARIAR",
+        "date": "2025-12-31",
+        "text": "@designbypepo top notch creativity 👏",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AvivYogev",
+        "name": "Aviv Yogev",
+        "date": "2025-12-31",
+        "text": "@designbypepo Gotta love these hacks 👏🏻\nWhy avoid using the glass effect though?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2006323115236691968/img/oJ53BtJ7DqnvruUU.jpg",
+      "localFilename": "2006323854298226866_1_poster.jpg"
+    }
+  ]
 }

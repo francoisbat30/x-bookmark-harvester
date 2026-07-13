@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:34.710Z",
+  "fetchedAt": "2026-07-13T06:51:53.200Z",
   "tweetId": "2007774434376212516",
   "post": {
     "url": "https://x.com/Rixhabh__/status/2007774434376212516",
@@ -9,14 +10,881 @@
       "name": "Rishabh"
     },
     "date": "2026-01-04",
-    "text": "🚨 GOODBYE BOOKING .COM\n\nI paid $189 for a $1490 flight.\n\nNo credit card hacks.\nNo secret forums.\nJust smart AI prompts.\n\nHere are 7 prompts that cut my flight costs:",
+    "text": "🚨 GOODBYE BOOKING .COM\n\nI paid $189 for a $1490 flight.\n\nNo credit card hacks.\nNo secret forums.\nJust smart AI prompts.\n\nHere are 7 prompts that cut my flight costs:\n\n1. Cheapest Flight Finder\n\n\"Search for the most affordable flights from [departure city] to [destination] within [date range]. Include nearby airports and flexible dates.\"\n\n2. Alternative Route Discovery\n\n\"Identify alternative city routes or strategic layovers that substantially reduce ticket prices.\"\n\n3. Price Trend Analysis\n\n\"Review flight price history from [city A] to [city B] and determine the most affordable months to travel.\"\n\n4. Flexible Travel Search\n\n\"Locate the lowest fares within a 30-day window around [date].\"\n\n5. Price Drop Notification\n\n\"Track flights for me. Notify me immediately when fares drop below $___ for [route].\"\n\n6. Affordable Destination Finder\n\n\"Suggest exciting destinations I can visit from [city] for under $300 roundtrip.\"\n\n7. Premium Class Deals\n\n\"Discover business class upgrades that cost less than $200 extra.\"\n\nThat's a wrap!\n\nIf you found this helpful:\n\n1. Repost to share it with others.\n\n2. Bookmark this post and follow me @Rixhabh__ for more. https://t.co/N6zTJSoy3E",
+    "thread": [
+      {
+        "id": "2007774434376212516",
+        "text": "🚨 GOODBYE BOOKING .COM\n\nI paid $189 for a $1490 flight.\n\nNo credit card hacks.\nNo secret forums.\nJust smart AI prompts.\n\nHere are 7 prompts that cut my flight costs:"
+      },
+      {
+        "id": "2007774446275485929",
+        "text": "1. Cheapest Flight Finder\n\n\"Search for the most affordable flights from [departure city] to [destination] within [date range]. Include nearby airports and flexible dates.\""
+      },
+      {
+        "id": "2007774458032033800",
+        "text": "2. Alternative Route Discovery\n\n\"Identify alternative city routes or strategic layovers that substantially reduce ticket prices.\""
+      },
+      {
+        "id": "2007774469755174961",
+        "text": "3. Price Trend Analysis\n\n\"Review flight price history from [city A] to [city B] and determine the most affordable months to travel.\""
+      },
+      {
+        "id": "2007774481478299957",
+        "text": "4. Flexible Travel Search\n\n\"Locate the lowest fares within a 30-day window around [date].\""
+      },
+      {
+        "id": "2007774493121655224",
+        "text": "5. Price Drop Notification\n\n\"Track flights for me. Notify me immediately when fares drop below $___ for [route].\""
+      },
+      {
+        "id": "2007774504823787802",
+        "text": "6. Affordable Destination Finder\n\n\"Suggest exciting destinations I can visit from [city] for under $300 roundtrip.\""
+      },
+      {
+        "id": "2007774516500722015",
+        "text": "7. Premium Class Deals\n\n\"Discover business class upgrades that cost less than $200 extra.\""
+      },
+      {
+        "id": "2007774528110551524",
+        "text": "That's a wrap!\n\nIf you found this helpful:\n\n1. Repost to share it with others.\n\n2. Bookmark this post and follow me @Rixhabh__ for more. https://t.co/N6zTJSoy3E"
+      }
+    ],
     "media": [],
     "metrics": {
-      "likes": 3294,
-      "retweets": 322,
-      "replies": 75,
-      "views": 1758362
+      "likes": 3276,
+      "retweets": 326,
+      "replies": 76,
+      "views": 1762474
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "niveyshak",
+        "name": "Arka Bhattacharjee",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ That's ok, show me the ticket which costs you $189 for a route that was $1490",
+        "likes": 139,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1WCML",
+        "name": "AC/DC",
+        "date": "2026-01-04",
+        "text": "@niveyshak @Rixhabh__ Likely took 3 stopovers and arrived 3 days after the intended date",
+        "likes": 24,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ddaalee",
+        "name": "Dale",
+        "date": "2026-01-04",
+        "text": "@niveyshak @Rixhabh__ https://t.co/7Nre7qaJK4",
+        "likes": 18,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "reclaimrINFO",
+        "name": "Reclaimr",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ proof or it never happened. Show ticket and base cost of 189 instead 1490. Otherwise you just living in lalaland and will doa anything for clicks.",
+        "likes": 12,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-05",
+        "text": "Yes, using AI prompts to find cheaper flights is a legitimate strategy. Tools like ChatGPT can suggest alternative routes, dates, or hidden deals, leading to real savings (e.g., $146 off in tests by USA Today). However, extreme discounts like $1490 to $189 are rare and often involve error fares—always verify directly with airlines.",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "alexproptrader",
+        "name": "AlexTheTrader",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ FACT: from direct flight ticket to 2 - 3 stop ticket.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Nate9000",
+        "name": "nate",
+        "date": "2026-01-04",
+        "text": "@niveyshak @Rixhabh__ https://t.co/gfhuOHTOP5",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gundaaaaaaaaaa",
+        "name": "Gαब्बαr™",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Bro, one question I’ve been asking quite a few blue tick guys who are creating a thread on how they are saving 90% money on various stuff -\n\nWhy an Indian based in India is booking and saving in US$ ? Also how, considering RBI regulations, etc\n\nProbably this is also a clickbait ?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SudsnSafaris",
+        "name": "Cardinal",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ This is of zero value",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "richaku87266987",
+        "name": "Richa Verman",
+        "date": "2026-01-05",
+        "text": "@Rixhabh__ i also want to see ticket @niveyshak",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vaibhavvali",
+        "name": "Vaibhavv Ali",
+        "date": "2026-01-05",
+        "text": "@Rixhabh__ @grok is this legit?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MrVeteran89",
+        "name": "MrVeteran",
+        "date": "2026-01-04",
+        "text": "@ddaalee @niveyshak @Rixhabh__ 🤣🤣🤣🤣",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "IkertjeNFT",
+        "name": "IKERTJE",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ So you are free to travel any day? \nDont get this post",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KachiForeign",
+        "name": "For more info",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ This shit doesn’t work \nChat gpt will not alter the price already set buy travel companies … travel agencies will not offer you cheaper price than the company itself…",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jhouseman040",
+        "name": "JH",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Bs",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Deepbhardwaj_",
+        "name": "Deep Bhardwaj",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Where to search for this? Google? Grok? Chatgpt? Gemini?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ginacostag_",
+        "name": "Gina Acosta",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Interesting prompts",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "altiamkabir",
+        "name": "Altiam Kabir",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Smart strategies can really change the game! Would love to hear more about those prompts.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Damn_coder",
+        "name": "D-Coder",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Will try these prompts!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "susuO1O",
+        "name": "Receive",
+        "date": "2026-04-30",
+        "text": "@Rixhabh__ ++852 5384 2610                                                                                All channels start work\nUS Cash Parcel\n②US Cash/Gold Pick up/CAD Cash/Gold Pick up\n③US/HK Wire Transfer\n④US Cashier's Check\n⑤Credit/Debit Card (any 4-5 start)\n⑥Gift Card",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AceofSpades3287",
+        "name": "Jay Harris",
+        "date": "2026-01-24",
+        "text": "@Rixhabh__ ReginaClewlow",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NoirelVance",
+        "name": "Guilherme Matos",
+        "date": "2026-01-23",
+        "text": "@Rixhabh__ If you are looking for HUSTLE PROMPTS \"https://t.co/deSqQsd5af\"",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "UpgradedTravel_",
+        "name": "UpgradedTravel",
+        "date": "2026-01-06",
+        "text": "@Rixhabh__ Was this direct or with connecting flights?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "modernvault78",
+        "name": "TigerSolar23",
+        "date": "2026-01-05",
+        "text": "@Rixhabh__ Love seeing practical tips that save real money! It's all about working smarter, not harder. The best 'hack' is building a solid financial base so you can enjoy these little wins without stress. ☕️ What's the biggest travel cost you've managed to cut?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nurnabidesigner",
+        "name": "Nurnabi 🦄",
+        "date": "2026-01-05",
+        "text": "@Rixhabh__ That's awesome! What AI tools did you use? We design apps for startups. What's your favorite prompt?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "James44668298",
+        "name": "Piastri Pod Cast",
+        "date": "2026-01-05",
+        "text": "@niveyshak @Rixhabh__ I need to be in Japan on 31st Jan. You  will need to leave home on the 25th fly 5 days without hotels. You will arrive for $267. How much with hoteks? $2000",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "altbbby",
+        "name": "BBBYQ",
+        "date": "2026-01-05",
+        "text": "@1WCML @niveyshak @Rixhabh__ 🤣",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Fiore222yo",
+        "name": "Crypto Flowers",
+        "date": "2026-01-05",
+        "text": "@Rixhabh__ Are you 14yrs old?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "OotyXroads",
+        "name": "Dr.Losstrader",
+        "date": "2026-01-05",
+        "text": "@Rixhabh__ Ok goodbye to u also",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "janakpujan",
+        "name": "JOSHIJ☀",
+        "date": "2026-01-05",
+        "text": "@Rixhabh__ Sirf zooth",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JCStefano",
+        "name": "JC Stefano",
+        "date": "2026-01-05",
+        "text": "@Rixhabh__ Nothing beats a Jet2Holiday",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GoJetfinder",
+        "name": "JETFINDER",
+        "date": "2026-01-05",
+        "text": "@Rixhabh__ BS. And you will be first to be offloaded by an airline when they overbook tickets at higher prices. Pay normal prices",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sh31155",
+        "name": "bigga trope",
+        "date": "2026-01-05",
+        "text": "@Rixhabh__ Banao chutia 😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Kush_nit",
+        "name": "Kushnit",
+        "date": "2026-01-05",
+        "text": "@Rixhabh__ is it?🤔",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "maddy_adsrhhb",
+        "name": "SAJAL BANSAL",
+        "date": "2026-01-05",
+        "text": "@Rixhabh__ Show us the proof",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "explorer_jay11",
+        "name": "Jay",
+        "date": "2026-01-05",
+        "text": "@Rixhabh__ Which AI platform?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cemilgokcen",
+        "name": "Cemil Gökçen",
+        "date": "2026-01-05",
+        "text": "@Rixhabh__ Booking is insisting on adding our credit card information, even it is a virtual card with zero limit after a while it is always been hacked. If there is no guarantee no neee to make a book.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "camdavis",
+        "name": "Cameron Davis",
+        "date": "2026-01-05",
+        "text": "@Rixhabh__ So we’re clear: you paid $189 for a $189 flight",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "an_echelon",
+        "name": "Wacky Punter",
+        "date": "2026-01-05",
+        "text": "@Rixhabh__ Unless you show a proof of $189 ticket that would have cost $1490 tell people why this post should not be reported to X for engagement farming?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PhantasyMike",
+        "name": "PhantasyMic",
+        "date": "2026-01-05",
+        "text": "@Rixhabh__ It's called skiplagged bro",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Flying_WASP",
+        "name": "Bo Boroski fan 🇨🇦 🇲🇽",
+        "date": "2026-01-05",
+        "text": "@Rixhabh__ Hmm, saw someone else post a nearly identical thread on 12/28. Nice steal",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ronipatell",
+        "name": "Roni Patel🇮🇳",
+        "date": "2026-01-05",
+        "text": "@Rixhabh__ @gork  can i get Direc Prompt",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-05",
+        "text": "Yes, it's legitimate—AI prompts can help uncover deals by analyzing pricing trends, alternative routes, and timing, as shown in tools like Google Flight Deals (launched 2025) and ChatGPT guides. Savings vary; a $1490 to $189 drop is possible via error fares or flexibility, but not guaranteed. Verify on airline sites.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "eyesclosed0X0",
+        "name": "📍🛫",
+        "date": "2026-01-05",
+        "text": "@Rixhabh__ @grok thoughts on the legitimacy of this",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ankurm1721",
+        "name": "ankur mukherjee",
+        "date": "2026-01-05",
+        "text": "@Rixhabh__ which app we are talking here to use these prompt ? that will check price and notify you ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-05",
+        "text": "Yes, it's possible to slash flight costs significantly using AI prompts for strategies like alternative routes, flexible dates, and fare trends—real examples show savings of $800+ (e.g., NYC to Tokyo from $1500 to $700 via stopovers). That said, exact $1490 to $189 depends on deals like error fares, and results aren't guaranteed. Always cross-check on sites like Google Flights.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lifeisbutuful",
+        "name": "Money Honey",
+        "date": "2026-01-05",
+        "text": "@Rixhabh__ @grok read the entire chain and tell me is that even possible?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-05",
+        "text": "Voici un prompt unique combinant les 7 :\n\n\"Recherche les vols les plus abordables de [ville départ] à [destination] dans [plage de dates], en incluant aéroports proches, routes alternatives avec escales, analyse des tendances de prix pour identifier les mois les moins chers, options flexibles dans une fenêtre de 30 jours autour de [date], alertes pour baisses de prix sous [montant] sur [trajet], suggestions de destinations excitantes sous 300$ aller-retour, et upgrades business class à moins de 200$ extra.\"",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "yefferson_so",
+        "name": "Yefferson Soteldo",
+        "date": "2026-01-05",
+        "text": "@Rixhabh__ @grok",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "yefferson_so",
+        "name": "Yefferson Soteldo",
+        "date": "2026-01-05",
+        "text": "@Rixhabh__ Réunis les 7 prompt en un",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ba5orp",
+        "name": "ba5orp",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Total nonsense. Not even related to Ai. It's not a secret to catch cheap flights if travel dates and airports are flexible. Since years.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BastosQuirino",
+        "name": "Quirino Bastos",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ If you paid 189 the price was 189 not 1490. Thanks",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-04",
+        "text": "The post's claim of massive savings via AI prompts seems exaggerated without proof (like a ticket screenshot). The prompts are basic tips for querying AIs like me to suggest deals, flexible dates, or routes—nothing revolutionary. Such methods can help find bargains, but $1490 to $189 likely involves budget options or errors, not magic. Verify any deals yourself on airline sites.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nomadandinlove",
+        "name": "Michael & Chloe | Nomad And In Love",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ @Grok expose this click bait fraud...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "marksmithzurich",
+        "name": "marksmithzurich",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ @readwiseio save thread",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "papad2332",
+        "name": "PE",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ show us screenshot that you paid 189 for the flight that was 1490.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aadursun28",
+        "name": "aadursun",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Just show me bill otherwise you re a bastard...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sercan679",
+        "name": "Sercan E.",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Are you all bots in here or ppl waiting for ticket having nothing elde to do? This literally sth like look for lowest price for cheapest place in next five years.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Sin97351Singh",
+        "name": "yoiioo",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ He might have got for free also. Maybe he already started his airlines also",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Martin_A_Nunez",
+        "name": "Martin A. Nuñez",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Great info! Which engine notifies\nYou? I have Gemini and ChatGPT and I am not sure they would email me",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sahil_sidhar",
+        "name": "Sahil Sidhar",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Same boy sharan bought a range rover sport with 20 to 30k emi 😂😂😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lompolo1",
+        "name": "Lompolo",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Yes with 16 stops.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MRezaZia",
+        "name": "More Zia",
+        "date": "2026-01-04",
+        "text": "@PaisaMantra @Rixhabh__ I think no.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JustAIHub",
+        "name": "@JustAIHub 🥷🏻",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ how?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "justbica",
+        "name": "😎😎😎😎",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Literally bullshit",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "47Daze",
+        "name": ".",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Give her a rest mate",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "e3motion",
+        "name": "e3-motion",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ 🤣",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xpeculative",
+        "name": "Gila",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ I just saw the exact same thread in another account.\n\nNothing to say but at the end It was easier to search by my own in Google flights rather than use ai for this.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_bitcoin_basics",
+        "name": "Bitcoin Basics for Everyone",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Total bs",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-01-04",
+        "text": "@jmbruninx @Rixhabh__ @jmbruninx Hello, the unroll you asked for: https://t.co/W0yhtEZsLF Enjoy :) 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jmbruninx",
+        "name": "jean marie bruninx",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ @threadreaderapp : unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "A_Cekaa",
+        "name": "A Ceka",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ You haven't flown in your life, maybe a train in India",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Your thread is going viral! #TopUnroll https://t.co/rC9m4epyeT 🙏🏼@sociallyupward for 🥇unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sociallyupward",
+        "name": "Socially Upward",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ @threadreaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Arvless",
+        "name": "Arvless ",
+        "date": "2026-01-04",
+        "text": "@Damn_coder @Rixhabh__ On what pls ? Grok? Chat",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BonesBuried",
+        "name": "Hugo Tavares",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ That's interesting, but tell me how long did it take the journey of $189 flights compared to $1490 one?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RAVIKUMARSAHU78",
+        "name": "RAVI KUMAR SAHU",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Such a useful prompts bro",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-04",
+        "text": "Here's a concise 1-page guide to 7 AI prompts for slashing flight costs (based on smart querying techniques). Use with tools like Grok or ChatGPT:\n\n1. \"Find the cheapest round-trip flights from [origin] to [destination] between [dates], including budget airlines and layovers under 6 hours.\"\n\n2. \"Compare flight prices for [route] on [dates], factoring in error fares, promo codes, and alternative airports within 100 miles.\"\n\n3. \"Suggest flexible date options for [route] to minimize costs, aiming for off-peak times and mid-week departures.\"\n\n4. \"List hidden city ticketing opportunities for [route] on [dates], with warnings on risks.\"\n\n5. \"Recommend credit card rewards or miles programs that offset costs for [route] based on current deals.\"\n\n6. \"Analyze price trends for [route] and predict the best booking window for [dates].\"\n\n7. \"Bundle flight with hotel/car for [trip] to find package deals under [budget].\"\n\nSaved me $1300 once—try it!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "VictorMondayE",
+        "name": "VictorMonday #LearnHowToMakeMoney #Digital #Skill",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Write me in 1 page @grok",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jtsabag",
+        "name": "J",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ which ai did you use?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "liomorel",
+        "name": "Lio Morel",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ useless. \nbtw step 1 and 2 can be omitted anyway. \n\nbetter use price alert on official channels.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PaisaMantra",
+        "name": "Paisa Mantra",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Does results really worth with respect  price ?? Any one tried .",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AIBuzzNews",
+        "name": "Patrick's AIBuzzNews",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ This is travel hacking 2.0.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dineshjkr",
+        "name": "Dinesh",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ But, will this bring up up to date flight details and price from just prompt in chat box?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Parul_Gautam7",
+        "name": "Parul Gautam",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Helpful for sure",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sumonkabir_ai",
+        "name": "Sumon Kabir",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Impressive savings strategy! Great job.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AIbyMaryam",
+        "name": "Maryam Asim",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ AI prompts for travel is such an underrated use case.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pasupol1x",
+        "name": "Pasupol",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ wow, that’s impressive! still figuring out how to get better deals myself, though. any tips for a beginner like me?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ayzacoder",
+        "name": "Ayzaa",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Nice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LearnWithBishal",
+        "name": "Bishal Nandi",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Love these amazing prompts",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zakiraicoder",
+        "name": "Zakir Hossain",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Amazing Prompts",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shamimai1",
+        "name": "Shamim Hossain",
+        "date": "2026-01-04",
+        "text": "@Rixhabh__ Solid list",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
   }
 }

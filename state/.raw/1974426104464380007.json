@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:49:00.483Z",
+  "fetchedAt": "2026-07-13T06:47:19.249Z",
   "tweetId": "1974426104464380007",
   "post": {
     "url": "https://x.com/UiSavior/status/1974426104464380007",
@@ -9,19 +10,164 @@
       "name": "UI/UX Savior"
     },
     "date": "2025-10-04",
-    "text": "Check out the Best Figma Plugins Collection! 🎨✨ https://t.co/WljqqjCZ6W",
+    "text": "Check out the Best Figma Plugins Collection! 🎨✨ https://t.co/WljqqjCZ6W\n\nhttps://t.co/0GY47glrX5\n\nhttps://t.co/aHWo7lIw8d\n\nhttps://t.co/TnnBsXxn3Q\n\nhttps://t.co/VVZRxzNN6G\n\nhttps://t.co/EazshnJbIs",
+    "thread": [
+      {
+        "id": "1974426104464380007",
+        "text": "Check out the Best Figma Plugins Collection! 🎨✨ https://t.co/WljqqjCZ6W"
+      },
+      {
+        "id": "1974426121950355630",
+        "text": "https://t.co/0GY47glrX5"
+      },
+      {
+        "id": "1974426140044562480",
+        "text": "https://t.co/aHWo7lIw8d"
+      },
+      {
+        "id": "1974426157149044787",
+        "text": "https://t.co/TnnBsXxn3Q"
+      },
+      {
+        "id": "1974426176283427133",
+        "text": "https://t.co/VVZRxzNN6G"
+      },
+      {
+        "id": "1974426191810769177",
+        "text": "https://t.co/EazshnJbIs"
+      }
+    ],
     "media": [
       {
         "type": "image",
         "url": "https://pbs.twimg.com/media/G2aSEbCXkAAitnO.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G2aSFi1WoAEKxG0.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G2aSGk7XUAA4Uv4.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G2aSHmfW8AAszAV.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G2aSIr-W4AAqn9Y.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/G2aSJuIWYAAj0uy.jpg"
       }
     ],
     "metrics": {
-      "likes": 664,
-      "retweets": 76,
+      "likes": 660,
+      "retweets": 78,
       "replies": 9,
-      "views": 35829
+      "views": 36019
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "monogramdude",
+        "name": "Saif",
+        "date": "2025-10-04",
+        "text": "@UiSavior Thanks for sharing!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TukiFromKL",
+        "name": "Tuki",
+        "date": "2025-10-04",
+        "text": "@UiSavior Thanks for sharing",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NguyenDung25238",
+        "name": "Đức Dũng | AnDy",
+        "date": "2025-10-04",
+        "text": "@UiSavior Nice",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Cokerboy0002",
+        "name": "COKERUI/UX🇬🇭🇧🇯🇳🇬 🖋️",
+        "date": "2025-10-05",
+        "text": "@UiSavior Appreciate",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_syedsaboor",
+        "name": "Syed Saboor",
+        "date": "2025-10-05",
+        "text": "@UiSavior Let's connect!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kojicodelab",
+        "name": "KojiCodeLab",
+        "date": "2025-10-04",
+        "text": "@UiSavior Thanks for the info!\nI can’t wait to start learning Figma in depth in the near future 🫡",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tomuiux",
+        "name": "TOM",
+        "date": "2025-10-04",
+        "text": "@UiSavior I’m a iconify guy but it’s time to try this hugeicons . They looks so cool 😎",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shihaabbbb",
+        "name": "shihab",
+        "date": "2025-10-04",
+        "text": "@UiSavior Thanksss",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2aSEbCXkAAitnO.jpg",
+      "localFilename": "1974426104464380007_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2aSFi1WoAEKxG0.jpg",
+      "localFilename": "1974426104464380007_2.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2aSGk7XUAA4Uv4.jpg",
+      "localFilename": "1974426104464380007_3.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2aSHmfW8AAszAV.jpg",
+      "localFilename": "1974426104464380007_4.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2aSIr-W4AAqn9Y.jpg",
+      "localFilename": "1974426104464380007_5.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G2aSJuIWYAAj0uy.jpg",
+      "localFilename": "1974426104464380007_6.jpg"
+    }
+  ]
 }

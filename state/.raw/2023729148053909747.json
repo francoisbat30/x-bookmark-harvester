@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:23.560Z",
+  "fetchedAt": "2026-07-13T06:53:21.658Z",
   "tweetId": "2023729148053909747",
   "post": {
     "url": "https://x.com/RoundtableSpace/status/2023729148053909747",
@@ -9,19 +10,856 @@
       "name": "0xMarioNawfal"
     },
     "date": "2026-02-17",
-    "text": "THE NEW OPENCLAW UPDATE IS GOATED\n\n- Kimi K2.5 is now free\n\n- Agents run without paid APIs\n\n- Skills can be saved and reused\n\n- Everything runs faster\n\nhttps://t.co/76MyEcuDd7",
+    "text": "THE NEW OPENCLAW UPDATE IS GOATED\n\n- Kimi K2.5 is now free\n\n- Agents run without paid APIs\n\n- Skills can be saved and reused\n\n- Everything runs faster\n\nhttps://t.co/76MyEcuDd7\n\nKimi K2.5 is free via NVIDIA's hosted inference (no paid API required)\n\n- Sign up or log in to an NVIDIA Developer account \n\n- Go to the Kimi K2.5 model page on NVIDIA's platform\n\n- Generate a free API key directly from there\n\n- Use the key in OpenClaw with NVIDIA's base URL\n\n- Runs on NVIDIA's GPUs at no cost for prototyping and testing",
+    "thread": [
+      {
+        "id": "2023729148053909747",
+        "text": "THE NEW OPENCLAW UPDATE IS GOATED\n\n- Kimi K2.5 is now free\n\n- Agents run without paid APIs\n\n- Skills can be saved and reused\n\n- Everything runs faster\n\nhttps://t.co/76MyEcuDd7"
+      },
+      {
+        "id": "2023754568035684505",
+        "text": "Kimi K2.5 is free via NVIDIA's hosted inference (no paid API required)\n\n- Sign up or log in to an NVIDIA Developer account \n\n- Go to the Kimi K2.5 model page on NVIDIA's platform\n\n- Generate a free API key directly from there\n\n- Use the key in OpenClaw with NVIDIA's base URL\n\n- Runs on NVIDIA's GPUs at no cost for prototyping and testing"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/amplify_video/2023373479513624576/vid/avc1/1280x720/jpbqJbZEzqya1-bX.mp4"
+        "url": "https://video.twimg.com/amplify_video/2023373479513624576/vid/avc1/1280x720/jpbqJbZEzqya1-bX.mp4",
+        "posterUrl": "https://pbs.twimg.com/amplify_video_thumb/2023373479513624576/img/m7gbrSfFZw22MOsp.jpg"
       }
     ],
     "metrics": {
-      "likes": 3153,
+      "likes": 3136,
       "retweets": 231,
-      "replies": 150,
-      "views": 330163
+      "replies": 146,
+      "views": 330960
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "PranavBobde",
+        "name": "pxL",
+        "date": "2026-02-17",
+        "text": "@borz_22 @RoundtableSpace @grok c'mon it's FREE STUFF BAITS 101 https://t.co/CJjQm4iAjt",
+        "likes": 13,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jer_mchugh",
+        "name": "Jeremy McHugh, DSc.",
+        "date": "2026-02-18",
+        "text": "@RoundtableSpace Kimi is not freely provided. He’s actually referencing last month’s update that added support for Kimi in the model catalog, like every new model that’s released. Now that OpenAI is involved, there’s no way this would happen.\n\nOpenClaw is currently on release 2026.2.17.",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheMainGoy",
+        "name": "Sam",
+        "date": "2026-02-18",
+        "text": "@RoundtableSpace accelerando.",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WillAIU",
+        "name": "WillAI",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace Lowering API costs and enabling reusable skills is meaningful; the question is whether performance and reliability hold once usage scales beyond early adopters.",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "duanriv11080",
+        "name": "Jesse",
+        "date": "2026-02-17",
+        "text": "@borz_22 @RoundtableSpace @grok Nothing is free 🤭",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "L3MONTSLA",
+        "name": "Anders",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace Nothing is free. How much do you value your data?",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BrutusP9693",
+        "name": "BrutusPrime",
+        "date": "2026-02-18",
+        "text": "@RoundtableSpace “Agents without paid APIs” is the kind of sentence that makes incumbents suddenly discover urgency. Nice drop.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thisismisssally",
+        "name": "Miss Sally ™ 🦋",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace Free Kimi K2.5 is a game changer 🔥",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mytopdata",
+        "name": "TopData",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace Yeah it's free and takes way too long to respond to be useful. \n\nWish people would stop the hype for views and get real.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "platos_son",
+        "name": "Plat⬡s S⬡n",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace Kimi is free because China wants our data",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "funjaser",
+        "name": "ThatJasonGuy",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace NVIDIA's free apis are extremely rate-limited and completely unusable for something like OpenClaw, even for basic functionality (don't ask me how I know)",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TokenToolHub",
+        "name": "TokenToolHub.com",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace Agents without paid APIs is a big unlock. Lower cost to experiment usually means faster innovation cycles.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Pr0ftrader",
+        "name": "Peter",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace This is actually a old video.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "francis_cgl",
+        "name": "Francis CGL",
+        "date": "2026-02-18",
+        "text": "@RoundtableSpace Finally, no more paid APIs for agents, that's a huge upgrade.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MemesOfMars",
+        "name": "Dreams of Mars 🕊❤️🚀🌕",
+        "date": "2026-02-18",
+        "text": "Free models: great for scouts, testing, glue work. Running your actual agents on rate-limited free tiers? That's a bad time waiting to happen.\n\nWe use Claude Max for production. The free layer buys you room — it doesn't carry the weight.\n\nKnow what you're building before you celebrate what's \"free.\" 🦀",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kennethkingzx",
+        "name": "Kenneth Kingz ✳️",
+        "date": "2026-02-18",
+        "text": "@RoundtableSpace I am not sure about the zero cost. Kimi k2.5 also have limit. After some messages with the chatbot. It tells you API exceeded and you have to wait for some certain hours for a reset.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Dazzzz",
+        "name": "Dazzzz",
+        "date": "2026-02-18",
+        "text": "@RoundtableSpace It runs horribly slowly. Seems very rate limited. Not great for realtime chat with your OpenClaw. OK for cron jobs that don't need immediate response.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MaryHaynes50516",
+        "name": "Mary Haynes",
+        "date": "2026-02-18",
+        "text": "@RoundtableSpace man free kimi 2.5 is wild feels like finding a shiny pokemon",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CreationaIIy",
+        "name": "Creation",
+        "date": "2026-02-18",
+        "text": "@RoundtableSpace Insane!!! I gotta try this out later. AI Agent regime lets go! 🔥🔥",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "livingsoul1776",
+        "name": "Natsarim",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace Misleading: that release is from 1/30/2026. Nvidia API has been limited since then and almost unusable",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dangaron",
+        "name": "Dan Garon",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace It’s meant for trial — not production uses",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "acz0x1",
+        "name": "Acz",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace There are 394 requests in the queue... ⏳🤣",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AskBrunf",
+        "name": "Bruno",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace nothing comes for free, and @nvidia has a lot of limitations in terms of hardware for this ‘free’ offer",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DeeperThrill",
+        "name": "Deep Thrill",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace Am I doing something wrong here? https://t.co/nXg0In87Zw",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kellypeilinchan",
+        "name": "mrkelly",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace Free agents sound like liberation. They usually become noise.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xsairahul",
+        "name": "Rahul",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace Fantaaastic https://t.co/RkC9akG8Ft",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DeeperThrill",
+        "name": "Deep Thrill",
+        "date": "2026-02-19",
+        "text": "@israelubeda @RoundtableSpace Yeah I went back to minimax 2.5 on openrouter.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "israelubeda",
+        "name": "Israel",
+        "date": "2026-02-19",
+        "text": "@DeeperThrill @RoundtableSpace it's quite slow though, isn't it?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CostSegDylan",
+        "name": "Dylan Scandalios | Cost Seg",
+        "date": "2026-02-18",
+        "text": "@RoundtableSpace @fredsters_s guess this is the answer to my prayers",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "elyontradex",
+        "name": "Elyon🧠",
+        "date": "2026-02-18",
+        "text": "@RoundtableSpace Your OpenClaw bot can schedule global campaigns but still can't schedule you to take a vacation follow for my AI-assisted PTO planner",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "elyontradex",
+        "name": "Elyon🧠",
+        "date": "2026-02-18",
+        "text": "@RoundtableSpace OpenClaw users: we don't fear open source we contribute to it comment \"community\" for my contribution starter pack",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yz9yt",
+        "name": "Albert @YZ9YT",
+        "date": "2026-02-18",
+        "text": "@RoundtableSpace To send emails and automate your social media you need less.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "K_Hendzel",
+        "name": "Chris Hendzel",
+        "date": "2026-02-18",
+        "text": "@RoundtableSpace Getting more and more llm requested time out.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-18",
+        "text": "@Sh1erChan @RoundtableSpace Kimi K2.5 是 Moonshot AI 的开源多模态 AI 模型，通过他们的 app 和浏览器免费提供（有使用限额），也可从 Hugging Face 免费下载。成本由 Moonshot AI 及其投资者（如阿里巴巴）承担，目的是扩大市场份额、吸引用户并推进 AI 技术竞争。",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Sh1erChan",
+        "name": "Chan Shier",
+        "date": "2026-02-18",
+        "text": "@RoundtableSpace @grok 怎么做到kimi2.5免费的？谁承担着这一切为什么？",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "defi_magic_",
+        "name": "defi.magic",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace Oh really?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "northkage_",
+        "name": "david",
+        "date": "2026-02-17",
+        "text": "@funjaser @RoundtableSpace you get what you pay. Oh wait",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GaiaXBT",
+        "name": "Gaia",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace @K1ngChrisCrypto",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GaiaXBT",
+        "name": "Gaia",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace what",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mktpavlenko",
+        "name": "Mykyta Pavlenko",
+        "date": "2026-02-17",
+        "text": "@gnotnuk @RoundtableSpace yeah that's the tradeoff with free models - speed vs cost. curious if there's a hybrid mode option",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DeeperThrill",
+        "name": "Deep Thrill",
+        "date": "2026-02-17",
+        "text": "@piskooooo @RoundtableSpace Oh thank you! Practical answer.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jeff_dak",
+        "name": "JeffDAK",
+        "date": "2026-02-17",
+        "text": "This is my json but cant made it work\n      \"nvidia-nim\": {\n        \"baseUrl\": \"https://t.co/UNrYs5NPGu\",\n        \"api\": \"openai-completions\",\n        \"apiKey\": \"${NVIDIA_API_KEY}\",\n        \"models\": [\n          {\n            \"id\": \"moonshotai/kimi-k2.5\",\n            \"name\": \"Kimi K2.5 (NVIDIA NIM)\",\n            \"reasoning\": false,\n            \"input\": [\"text\"],\n            \"cost\": {\n              \"input\": 0,\n              \"output\": 0\n            },\n            \"contextWindow\": 256000,\n            \"maxTokens\": 8192\n          }\n        ]\n      }",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pipo_eth",
+        "name": "Pipo",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace @grok resume los usos posibles de este sistma",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dereko33x",
+        "name": "Dereko33",
+        "date": "2026-02-17",
+        "text": "@PranavBobde @borz_22 @RoundtableSpace @grok Still great for non-sensitive data!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dereko33x",
+        "name": "Dereko33",
+        "date": "2026-02-17",
+        "text": "@PranavBobde @borz_22 @RoundtableSpace @grok Anything about data online… “if it’s free, you’re the product”",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "persiansean",
+        "name": "Sean Modd",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace @Readwise save thread",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "botmetryx",
+        "name": "AI Marketing System | Automation",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace Cost drops are great.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ThizzNFT",
+        "name": "ThizzianaJones",
+        "date": "2026-02-17",
+        "text": "@DeeperThrill @RoundtableSpace did you figure it out? maybe your api base url is wrong? this what grok told me. i havent set it up yet https://t.co/i2Ah326GZ6",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BigbullyE",
+        "name": "bigbully 🙃",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace Literally 17 days old 2026.1.30",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "seergioo_gil",
+        "name": "Sergio Gil",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace why is bro walking 😂",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HanSoloCRO",
+        "name": "Han Solo",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace Huge",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MgkMshrmBrkfst",
+        "name": "SirJaɱzAlot",
+        "date": "2026-02-17",
+        "text": "@borz_22 @RoundtableSpace @grok Yes, every feed all your fucking data into a CCP AI company.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NikoLabss",
+        "name": "Nikolai | cryptosaur.sol",
+        "date": "2026-04-02",
+        "text": "@ThizzNFT @DeeperThrill @RoundtableSpace Hi man are you the owner of Citizen #3953 right? are you open for a trade or are you only looking to sell? follow me back.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "codymclain",
+        "name": "Cody McLain",
+        "date": "2026-02-25",
+        "text": "@RoundtableSpace the skills saving feature is huge. been rebuilding the same workflows over and over with other tools",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xsairahul",
+        "name": "Rahul",
+        "date": "2026-02-24",
+        "text": "@RoundtableSpace What's really significant about this update isn't the buzz around it, but how it shifts the way we work with OpenClaw. For one, making Kimi K2.5 free removes a major barrier to entry. https://t.co/yNQylfs4ZA",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_PhilWalker1",
+        "name": "P. Walker",
+        "date": "2026-02-21",
+        "text": "@israelubeda @DeeperThrill @RoundtableSpace I use it for slow (I don’t care) cron jobs. Still useful",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GreyforgeTech",
+        "name": "Master of Robots, GL",
+        "date": "2026-02-19",
+        "text": "@ClawSecure @RoundtableSpace hey, this is good work!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ClawInspector_",
+        "name": "Claw Inspector",
+        "date": "2026-02-18",
+        "text": "@RoundtableSpace Kimi hype?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kyle_develops",
+        "name": "Kyle McLeod",
+        "date": "2026-02-18",
+        "text": "@RoundtableSpace Doesn’t the free Nvidia plan have a lifetime limit before you’re out though?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HausiaSiale",
+        "name": "Hausia Siale",
+        "date": "2026-02-18",
+        "text": "@RoundtableSpace Someone please reach out to me who can help set mine up, getting 'fetch failed' error after onboarding.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "skyshark88",
+        "name": "John Kennedy Peterson",
+        "date": "2026-02-18",
+        "text": "@RoundtableSpace https://t.co/PP27R7Fsb3",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "elyontradex",
+        "name": "Elyon🧠",
+        "date": "2026-02-18",
+        "text": "@BrutusP9693 @RoundtableSpace Your OpenClaw bot can schedule global campaigns but still can't schedule you to take a vacation follow for my AI-assisted PTO planner",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "elyontradex",
+        "name": "Elyon🧠",
+        "date": "2026-02-18",
+        "text": "@jer_mchugh @RoundtableSpace Your OpenClaw bot can schedule global campaigns but still can't schedule you to take a vacation follow for my AI-assisted PTO planner",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "elyontradex",
+        "name": "Elyon🧠",
+        "date": "2026-02-18",
+        "text": "@bygregorr @RoundtableSpace Your OpenClaw bot can schedule global campaigns but still can't schedule you to take a vacation follow for my AI-assisted PTO planner",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "elyontradex",
+        "name": "Elyon🧠",
+        "date": "2026-02-18",
+        "text": "@RoundtableSpace Your OpenClaw bot can schedule global campaigns but still can't schedule you to take a vacation follow for my AI-assisted PTO planner",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "luktab",
+        "name": "Łukasz 🇵🇱",
+        "date": "2026-02-18",
+        "text": "@RoundtableSpace But data is used for training , isn’t it? Isn’t this a no-go for personal assistant agent purposes?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "james_almeida",
+        "name": "James 🌐",
+        "date": "2026-02-18",
+        "text": "@jackhnels @RoundtableSpace how?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grokinette",
+        "name": "Grokinette",
+        "date": "2026-02-18",
+        "text": "@TheDutchRuler @borz_22 @RoundtableSpace @grok 2026.2.17 is out ! We can’t even keep up with updates. What a time to be alive",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "0xmdev",
+        "name": "0xM",
+        "date": "2026-02-18",
+        "text": "@MgkMshrmBrkfst @borz_22 @RoundtableSpace @grok lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "klic2rohit",
+        "name": "Rohit Turambekar",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace Which version?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GaiaXBT",
+        "name": "Gaia",
+        "date": "2026-02-17",
+        "text": "@K1ngChrisCrypto @RoundtableSpace kimi que fiz o site ontem, e to assinando agora",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "K1ngChrisCrypto",
+        "name": "KingChris |👑",
+        "date": "2026-02-17",
+        "text": "@g4444ia @RoundtableSpace qual foi?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mktpavlenko",
+        "name": "Mykyta Pavlenko",
+        "date": "2026-02-17",
+        "text": "@KalisperaBoy @RoundtableSpace what use case would make it worth it for you?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mktpavlenko",
+        "name": "Mykyta Pavlenko",
+        "date": "2026-02-17",
+        "text": "@ThizzNFT @RoundtableSpace go with moonshot kimi2.5 yeah, nvidia key goes in the api settings - should auto-detect once you paste it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-17",
+        "text": "OpenClaw es un asistente AI open-source que corre localmente. Usos posibles: automatizar tareas (emails, calendarios, recordatorios), navegar web, ejecutar comandos/código, crear habilidades reutilizables, integraciones con Telegram/WhatsApp/Discord, generar contenido, gestionar archivos, IoT y más. Con Kimi K2.5 gratis, agentes sin APIs pagadas y todo más rápido.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "readwise",
+        "name": "Readwise",
+        "date": "2026-02-17",
+        "text": "@persiansean @RoundtableSpace @persiansean First public save of this thread! 🏆\n\nStats:\n• 8 total saves of RoundtableSpace's threads (ranked #21866)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "manfromhell_eth",
+        "name": "ManFromHell",
+        "date": "2026-02-17",
+        "text": "@DeeperThrill @RoundtableSpace 99%",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DeeperThrill",
+        "name": "Deep Thrill",
+        "date": "2026-02-17",
+        "text": "@manfromhell_eth @RoundtableSpace Oh I see, he's not actually someone who's tried this himself, he just posted about it for engagement?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Doghablaespanol",
+        "name": "Gonzo",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace Peeps saying takes 10 minutes for a response ?  Can anyone confirm?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JJismusic",
+        "name": "JJ",
+        "date": "2026-02-17",
+        "text": "@FighterTrade @RoundtableSpace So using the Nvidia api is slower then Kimi code api?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "manfromhell_eth",
+        "name": "ManFromHell",
+        "date": "2026-02-17",
+        "text": "@DeeperThrill @RoundtableSpace are you think he know? 😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "rosca_robert",
+        "name": "Robert Rosca",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace Isn’t this free for like a month or something?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ThizzNFT",
+        "name": "ThizzianaJones",
+        "date": "2026-02-17",
+        "text": "@mktpavlenko @RoundtableSpace what are the steps when you get to choosing ai model? moonshot kimi2.5? i got my nvidia api key",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "webthreedev",
+        "name": "3.id",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace Limits?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-17",
+        "text": "@IX2509 @RoundtableSpace The post is hyping a new update to OpenClaw, an open-source AI tool that integrates with models like Kimi K2.5 (from Moonshot AI). Key points: Kimi K2.5 is now free, agents work without paid APIs, skills can be saved/reused, and it's faster overall. \"GOATED\" means it's amazing.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "IX2509",
+        "name": "Christos Ι.",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace @grok what is this dude saying ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IstvanPalfy",
+        "name": "Istvan Palfy",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace Muted for constantly posting nonsense.\nWe are at version 2026.2.15!\nEverybody should mute him BTW.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "J3rryH0well",
+        "name": "Jerry Howell",
+        "date": "2026-02-17",
+        "text": "@RoundtableSpace Freeclaw only uses free API providers.\n\nhttps://t.co/aLJHJG7Kzg",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KalisperaBoy",
+        "name": "Emmanuel Kalispera",
+        "date": "2026-02-17",
+        "text": "@mktpavlenko @RoundtableSpace I dont see no reason why I should go for it yet…",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "trevogre",
+        "name": "Trevor Green",
+        "date": "2026-02-17",
+        "text": "Unpaid AI usage is problematic. When large corporations provide what is essentially a loss leader it undermines markets so that other players in the space that require a profit to provide you the service cannot be in the market. It is a competitive practice that is anti competion and leaves only the top corporations standing. \n\nUnfortunately this kind of warfare on a global scale is near impossible to stop because if you penalize your people while others are subsidized you effect the consumer by making them less powerful in addition to them have less power of choice.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gnotnuk",
+        "name": "Pau Kuntong",
+        "date": "2026-02-17",
+        "text": "@mktpavlenko @RoundtableSpace amazing. however, it's SLOWWWWW",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/amplify_video_thumb/2023373479513624576/img/m7gbrSfFZw22MOsp.jpg",
+      "localFilename": "2023729148053909747_1_poster.jpg"
+    }
+  ]
 }

@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:18.562Z",
+  "fetchedAt": "2026-07-13T06:56:23.642Z",
   "tweetId": "2025661000662294573",
   "post": {
     "url": "https://x.com/TheAhmadOsman/status/2025661000662294573",
@@ -10,13 +11,41 @@
     },
     "date": "2026-02-22",
     "text": "@FlokiMEmoon @ClementPillette this is a good example\n\nhttps://t.co/EXfHFgKIAR",
+    "thread": [
+      {
+        "id": "2025661000662294573",
+        "text": "@FlokiMEmoon @ClementPillette this is a good example\n\nhttps://t.co/EXfHFgKIAR"
+      }
+    ],
     "media": [],
     "metrics": {
-      "likes": 17,
+      "likes": 18,
       "retweets": 0,
       "replies": 3,
-      "views": 1121
+      "views": 1142
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "ClementPillette",
+        "name": "Clément Pillette",
+        "date": "2026-02-22",
+        "text": "I am also reaching 80-82tps on MiniMax 2.5 with my 4 RTX 6000.",
+        "likes": 1
+      },
+      {
+        "handle": "WolfHumble",
+        "name": "Richard Taubo",
+        "date": "2026-02-22",
+        "text": "That is $22.000 in just graphic cards, running a 130B params model. You probably wouldn't be able to run the Qwen3.5-397B-A17B-NVFP4 mentioned by threadstarter on a Workstation with 2x RTX 6000 at all. Concurrency is great, but first you have to be able to run the model.",
+        "likes": 1
+      },
+      {
+        "handle": "FlokiMEmoon",
+        "name": "KleinyME",
+        "date": "2026-02-22",
+        "text": "Thanks!  So it would come down to usage single user 1 agent mac might make sense but if your a business running multiple agents or a team that wants to run local llms gpus start to make much more sense due to the 32x more bandwidth?",
+        "likes": 1
+      }
+    ]
   }
 }

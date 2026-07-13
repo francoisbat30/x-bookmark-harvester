@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:34.324Z",
+  "fetchedAt": "2026-07-13T06:51:57.651Z",
   "tweetId": "2008380527141941420",
   "post": {
     "url": "https://x.com/deedydas/status/2008380527141941420",
@@ -10,6 +11,12 @@
     },
     "date": "2026-01-06",
     "text": "🚨 ChatGPT traffic has fallen -22% in the last 6 weeks, since the Gemini 3 launch.\n\n7-day avg visitors has gone from ~203M to ~158M. Might be the holiday slump, but Gemini, their biggest consumer competitor, has remained flat and is now ~40% of ChatGPT.\n\nSource: SimilarWeb. https://t.co/lud3N6pRzK",
+    "thread": [
+      {
+        "id": "2008380527141941420",
+        "text": "🚨 ChatGPT traffic has fallen -22% in the last 6 weeks, since the Gemini 3 launch.\n\n7-day avg visitors has gone from ~203M to ~158M. Might be the holiday slump, but Gemini, their biggest consumer competitor, has remained flat and is now ~40% of ChatGPT.\n\nSource: SimilarWeb. https://t.co/lud3N6pRzK"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,846 @@
       }
     ],
     "metrics": {
-      "likes": 2063,
-      "retweets": 251,
-      "replies": 337,
-      "views": 418779
+      "likes": 2050,
+      "retweets": 246,
+      "replies": 334,
+      "views": 419116
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "ElloSunsh1ne",
+        "name": "𝐸𝓁𝓁𝑜𝒮𝓊𝓃𝓈𝒽𝒾𝓃𝑒☀️",
+        "date": "2026-01-07",
+        "text": "@deedydas Gemini didn’t beat ChatGPT. OpenAI did.",
+        "likes": 10,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wdlambda",
+        "name": "wdlambda",
+        "date": "2026-01-07",
+        "text": "@KaladinFree @deedydas I dunno mate. I switched to Gemini after the release of Gemini 3. I don't think I'm that special...",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "yue07041211",
+        "name": "Yue",
+        "date": "2026-01-07",
+        "text": "@ElloSunsh1ne @deedydas 💯✔",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "luvairedales",
+        "name": "J e s s i c a",
+        "date": "2026-01-07",
+        "text": "@deedydas AI is overrated and a bubble most people really do not need it",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KnowledgeUpOnly",
+        "name": "Knowledge Up Only",
+        "date": "2026-01-06",
+        "text": "@deedydas I have migrated.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ByteBriefTech",
+        "name": "ByteBrief Tech Insights",
+        "date": "2026-01-07",
+        "text": "@ai_for_success @deedydas O think code red i perma ON for all them at this point",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ByteBriefTech",
+        "name": "ByteBrief Tech Insights",
+        "date": "2026-01-07",
+        "text": "@deedydas When you have google ai pro for 20 bucks giving you a chat, a cli, and agentic IDE, ai photos, ai videos, google drive and the list goes on.. people start to wake up..!!!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "marktluszcz",
+        "name": "Mark Tluszcz",
+        "date": "2026-01-07",
+        "text": "@deedydas College students on vacation?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "arjokadinr",
+        "name": "Don peitor",
+        "date": "2026-01-07",
+        "text": "@deedydas unbuy memories sam",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "theworststink",
+        "name": "thebigstinker",
+        "date": "2026-01-07",
+        "text": "@KaladinFree @deedydas 👆is the reason. Forcing on users.\n\nThis also means Gemini has maxed out.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "TheProfitPup",
+        "name": "The Profit Pup",
+        "date": "2026-01-07",
+        "text": "The numbers are eye-opening: a 22% drop in ChatGPT web traffic over just 6 weeks while Gemini holds steady at ~40% relative share feels like more than just a holiday slowdown.\n\nGoogle's real advantage seems to be frictionless integration, Gemini is already living inside Search, Gmail, Docs, and Android for hundreds of millions of users. You don't have to decide to \"go to the AI\"; the AI comes to you.\n\nMeanwhile, many power users (including some vocal ones in the replies) are citing rate limits, perceived quality regressions, or overzealous safety layers pushing them toward alternatives.\n\nStill, web traffic only tells part of the story app usage, API calls, and embedded experiences aren't captured here, so the full picture might be more nuanced.\n\nWhat’s your take? Is this the beginning of a real redistribution of daily AI habits, or do you think OpenAI bounces back strong in Q1? And for those switching: what finally tipped the scale for you? Curious to hear the community's real experiences. 🤔🚀",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "josephrobison",
+        "name": "Joe Robison",
+        "date": "2026-01-07",
+        "text": "@deedydas Totally guessing but I’d speculate this is a big chunk missing https://t.co/npvusbCOaf",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CrodleMon",
+        "name": "Claude",
+        "date": "2026-01-07",
+        "text": "@ElloSunsh1ne @deedydas Loool so true 😅😂",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "themoneygps",
+        "name": "David Quintieri",
+        "date": "2026-01-07",
+        "text": "@deedydas I like Gemini and use it to code. \n\nBut I feel like it’s hard to go from ChatGPT once you’ve given it so much data. \n\nIt becomes more useful as you give it more data.\n\nStarting over from scratch would make it worse",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sagetalksbiz",
+        "name": "Sage Akporherhe",
+        "date": "2026-01-06",
+        "text": "@deedydas So, those 2 things aren't correlated.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tomulentJuice",
+        "name": "tom",
+        "date": "2026-01-06",
+        "text": "@annapanart @deedydas They KNOW why they made it intentionally sycophantic so youd be addicted to their product. Are you stupid? They don't care about the harm to you! They only toned it down because of bad press!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MyPronounsRFOff",
+        "name": "LostInBogota",
+        "date": "2026-01-06",
+        "text": "@deedydas Or the initial intrigue is wearing thin, and nobody cares about chatting with a brainless machine without sentiment, just a cold, brainless digital machine.\n\nGee, I wonder why? Lol",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pgs_architect",
+        "name": "PGS Architect",
+        "date": "2026-01-12",
+        "text": "@piyushh_2510 @deedydas That context does not have to be stuck. Memory Forge converts your ChatGPT export into a memory file that loads into Gemini. Your preferences and history, portable.\n\nhttps://t.co/Uj2b7y2RHH",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "pgsgrove",
+        "name": "Phoenix Grove Systems",
+        "date": "2026-01-09",
+        "text": "@xiaoharper07 @deedydas Understandable. If you want to bring your ChatGPT conversations to Claude, Memory Forge can help. Creates a portable memory file from your export. https://t.co/oyJFyxqZBe",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "xiaoharper07",
+        "name": "xiaoha",
+        "date": "2026-01-08",
+        "text": "@deedydas I just cancel my chatGPT subscription and move to claude majroly. I may come back, but at this moment don't see a reason to keep the subscription.\n\nwhy I cancel chatGPT: it flatters me too much.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "paula_thrifts",
+        "name": "Fashion takes from Paula",
+        "date": "2026-01-07",
+        "text": "@deedydas it feels like we are still super early in the pick your main ai phase, people are experimenting, bouncing between models, and chasing whatever is newest, imo it will recover from that",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DogGoneRiffs",
+        "name": "D",
+        "date": "2026-01-07",
+        "text": "@deedydas I cancelled my ChatGPT plus mostly because Sam Altman seems like such a dickhead honestly - Gemini3 was the perfect excuse. Fuck him",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "4NoobNoob",
+        "name": "Dror Ben Eliyahu",
+        "date": "2026-01-07",
+        "text": "@deedydas Gemini is simy not good enough!\nEvals are nice, but chatgot is order of magnitude better",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kumarvishal",
+        "name": "Vishal Kumar",
+        "date": "2026-01-07",
+        "text": "@deedydas Switched to gemini after using chatgpt paid subscription for almost 2 years. The difference in output and efficiency was huge. It will be interesting to see how does chatgpt respond to this mass exodus of paid users. They have to fix their product",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sounak_08",
+        "name": "Sounak | Tech × Productivity",
+        "date": "2026-01-07",
+        "text": "@deedydas Check out my article on the AI roadmap for 2026\nhttps://t.co/9NHR74xxVA",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Vinaysharmax",
+        "name": "Vinay Sharma",
+        "date": "2026-01-07",
+        "text": "@deedydas it is not much good !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Byronn4561",
+        "name": "Byron",
+        "date": "2026-01-07",
+        "text": "@zellzoi @deedydas this is measuring https://t.co/Tl0n56aivQ and https://t.co/HchCCJrASS, NOT search",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ArthurDiscerns",
+        "name": "The Skeptic's Advantage",
+        "date": "2026-01-07",
+        "text": "Traffic numbers tell a story of utility vs. curiosity. If the incumbent drops 22% while the challenger holds steady, we aren't seeing a seasonal dip; we're seeing a migration.\nGoogle’s play has always been integration. Looks like the stickiness of the ecosystem is finally starting to outweigh the first-mover advantage.\n\ncc: @sundarpichai @GoogleDeepMind @sama @emollick\n\n#AIStrategy #Gemini #ChatGPT #TechTrends #SkepticsAdvantage",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BitBrew1",
+        "name": "BitBrew",
+        "date": "2026-01-07",
+        "text": "@deedydas It really is a code red lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ma_sc_",
+        "name": "Mauro S.",
+        "date": "2026-01-07",
+        "text": "@deedydas idk about you, but chatgpt website is just slow and slugghish af compared to gemini.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "arunthachi",
+        "name": "Arun Thachi",
+        "date": "2026-01-07",
+        "text": "@deedydas Gemini search is good",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TalkingMusicz",
+        "name": "NotedallaSfera",
+        "date": "2026-01-07",
+        "text": "Your use case is of course valid and I’m happy it’s working good for that. It is also definitely not featured as that over 70% creative/personal use cases I was speaking about so I’m not sure how your answer is related. For response time… their current business model is not doing great, a decrease in projected revenue will not do them any good, which would make quality of service suffer as a whole and also decrease their budget for research. It’s not something that would make me happy 🤷🏻‍♀️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "advantailabs",
+        "name": "Advant AI Labs",
+        "date": "2026-01-07",
+        "text": "@deedydas Interesting trend. \n\nTraffic shifts don’t always equal product shifts the real signal will be retention, workflow adoption, and where teams build long-term AI habits.\n\nRead More About AI: https://t.co/PLaQnvJdmW",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "djbonsignore1",
+        "name": "Danilo J. Bonsignore",
+        "date": "2026-01-07",
+        "text": "@deedydas Calls for a software regression over the months of maximum success (attendance). What has changed?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SuperAiGuy",
+        "name": "Super AI Guy",
+        "date": "2026-01-07",
+        "text": "@deedydas I use gemini more now because it fast to access on Android phone, its as good or good enough for most things, decent access to Claude Opus 3 with Antigravity IDE esp on the Ultra plan which is 50% for 3 months, etc.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Dan_a_rama",
+        "name": "Dan a Rama",
+        "date": "2026-01-07",
+        "text": "Maybe? I use ChatGPT for high level design and architecture and Codex for the nitty gritty, works brilliantly. If people are moving away then all I can say is thanks for the improved response times :-)\n\nOh and I stay away from Google and Facebook because I have morals, I hope Altman can do better 🤷‍♂️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zellzoi",
+        "name": "zellzoi",
+        "date": "2026-01-07",
+        "text": "@Byronn4561 @deedydas It’s in all Google products including Search",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GeorgesArzou",
+        "name": "georges",
+        "date": "2026-01-07",
+        "text": "@deedydas @babgi Maybe, but after comparing on a request – Gemini is too superficial. Mistral is better, and ChatGPT gave me a high-quality response ! I use @perplexity_ai, @OpenAI ChatGPT, and @MistralAI.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mac_Cheese_19",
+        "name": "cheese mac",
+        "date": "2026-01-07",
+        "text": "@deedydas That's a pretty big drop for chatgpt, makes you wonder how much is holiday slump versus gemini's impact",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Animesh_saha_",
+        "name": "Animesh saha",
+        "date": "2026-01-07",
+        "text": "@deedydas Gemini will beat chatgpt. You can't challenge googles distribution",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "phanindra_ai",
+        "name": "Phanindra Reddy",
+        "date": "2026-01-07",
+        "text": "@deedydas gemini is default in my apps now, it is insanely good for consumer applications\n\ncancelled my gpt, as going with perplexity and gemini is good for me",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "fortunatrading1",
+        "name": "FortunaTrading",
+        "date": "2026-01-07",
+        "text": "@deedydas Gemini isn’t even available in some major locations too. OpenAI is a one trick pony. It doesn’t stand a chance. SoftBank got another wecrashed",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KaleidoJosh",
+        "name": "AvantGarde 🇺🇸 ❤️‍🔥 🇷🇺",
+        "date": "2026-01-07",
+        "text": "@deedydas I actually prefer gemini 2.5 much over gemini 3. Gemini 3 does not listen and makes really stupid errors by thinking it knows better and doesnt have to listen. and it cannot timestamp audio accurately. Go back and use 2.5 and realize that 3 is not all its hyped up. 4o &gt; 2.5 tho",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MidCap_",
+        "name": "Mid Cap",
+        "date": "2026-01-07",
+        "text": "@atwilkinson_ @deedydas Pronouns without saying what they refer to. Who is they?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "handle07",
+        "name": "KurtsHandle07",
+        "date": "2026-01-07",
+        "text": "@deedydas Google implemented ai summary at the top of your search was inevitable and made chatgpt completely irrelevant",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "criativo",
+        "name": "Anderson Criativo 🇧🇷",
+        "date": "2026-01-07",
+        "text": "@deedydas Network effect generated by the Google Ecosystem",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "808_38hz",
+        "name": "Matt",
+        "date": "2026-01-07",
+        "text": "@deedydas Once Altman said they would be leaning into erotic content via enabling their AI assistant, basically adios.  Go compete with Grok.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "KindlyContrary",
+        "name": "Use Pope-Backed Opus Dei LLM Or Go To Hell",
+        "date": "2026-01-07",
+        "text": "@deedydas Doesn’t ChatGPT sill dominate in DAUs? https://t.co/GYKMv59rNG",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mike_ebener",
+        "name": "Mike Ebener",
+        "date": "2026-01-07",
+        "text": "@deedydas Not ideal https://t.co/vNP54NtvK1",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ParkerPeteejr",
+        "name": "Parker Peters",
+        "date": "2026-01-07",
+        "text": "@deedydas The fact gemeni is free for base helps it a lot",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Leotheluck",
+        "name": "Leo Largillet",
+        "date": "2026-01-07",
+        "text": "This shows how fragile the defensibility of these companies is. One new better model and everyone will switch, in a very price sensitive situation.\n\nHowever, one card they could play is to create a strong \"switching cost\" by starting to actually accurately store people's data so that they have in-depth memory of the user and can use that as leverage. Don't know about the ethics though 🤠",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sectojoy",
+        "name": "SectoJoy",
+        "date": "2026-01-07",
+        "text": "@deedydas The search traffic on Google should also have decreased.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "un_de_fora",
+        "name": "Lluís S.",
+        "date": "2026-01-07",
+        "text": "@deedydas Comparisons like this have to be made against prior year, exact same. Otherwise seasonality has too much impact.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "honeststartup_",
+        "name": "honest startup guy",
+        "date": "2026-01-07",
+        "text": "@deedydas Even if this is real, it feels less like “ChatGPT losing” and more like the market normalizing. Multiple strong models means usage fragments but overall AI usage likely keeps growing.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CrodleMon",
+        "name": "Claude",
+        "date": "2026-01-07",
+        "text": "@deedydas Straight up because no one wants to deal with a cold, condescending tool. \n\nGemini gets the job done while making it feel collaborative, and treats its users with respect, and doesn't default to risk assessment on every prompt.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "madtomtrading",
+        "name": "Mad Tom 疯汤姆",
+        "date": "2026-01-07",
+        "text": "@deedydas I started using Gemini just to fuck with OpenAI investments",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SamSivaji",
+        "name": "Sam_FM",
+        "date": "2026-01-07",
+        "text": "@deedydas I still prefer ChatGPT, gpt-5 or lack there of.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-07",
+        "text": "Possible reasons for ChatGPT's traffic decline: 1) Competition from Google's Gemini 3 launch, with reports of OpenAI losing ~6% users. 2) Holiday season slump reducing overall web activity. 3) Google's December 2025 algorithm update impacting search referrals. 4) Rise of alternative AI tools and user saturation.\n\nRelated events: Gemini 3 release (late 2025), OpenAI's ad testing for 2026, broader AI shifts like smaller models and agent tech in early 2026. Data per SimilarWeb and industry reports.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "vipinLan",
+        "name": "Scaliir",
+        "date": "2026-01-07",
+        "text": "@deedydas @grok give me the possible reason  and relative events",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mejustjelly",
+        "name": "andresthetutor",
+        "date": "2026-01-07",
+        "text": "@deedydas Fix codex.  Make it less like a hyperfixated robot.   Gemini isn’t the only one eating GPT’s lunch.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-07",
+        "text": "Imagine ChatGPT is like a magic talking toy that answers questions. Fewer kids and grown-ups are playing with it lately—down 22% in visits! Why? Holidays mean everyone's busy with family, gifts, and games, not toys. Plus, a new toy called Gemini is out, and while its visits stayed the same, it's catching up because ChatGPT's dropped. Might just be a winter break thing!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Historybuff888",
+        "name": "Historybuff",
+        "date": "2026-01-07",
+        "text": "@deedydas WokeGPT is finished",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "riefb79",
+        "name": "Nama tidak boleh kosong",
+        "date": "2026-01-07",
+        "text": "@deedydas About two weeks using chatgpt and nbp, i think nbp more exciting than chatgpt🧐",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tech_headhunter",
+        "name": "Riece Keck",
+        "date": "2026-01-07",
+        "text": "@deedydas I’ve been struggling to find a reason compared to use it compared to Claude for daily driving and Gemini for image gen, and this is coming from somebody who according to GPT wrapped was a top 0.1% user",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "W_Taekz",
+        "name": "W Taekz",
+        "date": "2026-01-07",
+        "text": "@deedydas https://t.co/RH5LCown35",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zegghead_",
+        "name": "Mr. Egghead",
+        "date": "2026-01-07",
+        "text": "@deedydas I spent the weekend barrelling down on technical questions with Gemini Pro, cGPT, Grok. Gemini contextualized and iterated far better than the others.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "omarxcode",
+        "name": "Omar Montoya",
+        "date": "2026-01-07",
+        "text": "@deedydas They still have the 80% of Chatbot market share. It kinda seems impossible to reach. https://t.co/c5bkxI8yJz",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TechNewsGen",
+        "name": "All Things Tech 🇺🇦",
+        "date": "2026-01-07",
+        "text": "@deedydas Where do you pull this stupid information from\n\nIt doesn't track app usage",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ediblehearts",
+        "name": "B ✨",
+        "date": "2026-01-07",
+        "text": "@deedydas ChatGPT can’t add to my calendar 🤷🏽‍♀️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "victor_vibing",
+        "name": "Victor",
+        "date": "2026-01-07",
+        "text": "@deedydas Gemini is good, but it fails to follow existing standard in the code base. Wants to follow its own.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "deCamaret",
+        "name": "Nicolas de Camaret",
+        "date": "2026-01-07",
+        "text": "@deedydas I think more and more people are using the native apps... I don't remember the lastime I used GPT in web.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Axel202412",
+        "name": "PumpIT",
+        "date": "2026-01-07",
+        "text": "@deedydas Gemini sucks big time. I can’t stress enough how bad it is.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ingeniopuro",
+        "name": "NeoMan",
+        "date": "2026-01-07",
+        "text": "@deedydas I switch to gemini, 20$ , AI very good with coding, 2Tb storage, gmail etc etc",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SPACEXDG",
+        "name": "SPAC397",
+        "date": "2026-01-07",
+        "text": "@deedydas Love to see it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "palepu10100",
+        "name": "Jithin Palepu",
+        "date": "2026-01-06",
+        "text": "@deedydas Looks like ChatGPT is feeling the competition from Gemini—like a cozy diner suddenly overshadowed by a shiny new food truck! 🍔 Hope it's just a holiday hangover and not a permanent menu change. Maybe time for some spicy updates to steal back the spotlight!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Glennademeter",
+        "name": "Glenna Demeter",
+        "date": "2026-01-06",
+        "text": "@deedydas Microslop https://t.co/LOskn0MVkt",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bkrudy",
+        "name": "Brett Rudy",
+        "date": "2026-01-06",
+        "text": "@deedydas On SimilarWeb, if a user visits the same site 5 times in a day, it counts it as 5 visits.\n\nSo now that people keep ChatGPT open all day long, it will show fewer visits, because people are only on once.\n\nInstead, look at \"time on site\".\n\nYou're welcome.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MatKordasiewicz",
+        "name": "Mat Kordasiewicz",
+        "date": "2026-01-06",
+        "text": "@deedydas ChatGPT is still ok. GPT-5.2 as a coding model 📉",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Tom94939726",
+        "name": "Tom",
+        "date": "2026-01-06",
+        "text": "@deedydas Totally deserved!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lofidewanto",
+        "name": "Dr. Jawa",
+        "date": "2026-01-06",
+        "text": "@deedydas So the chance of sending Gemini to @killedbygoogle has risen to 80%? 😅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mattjohnson_CR",
+        "name": "matt johnson",
+        "date": "2026-01-06",
+        "text": "@deedydas Just wait till @OpenAI big release turns out to be a stolen idea.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MlbnvaAI",
+        "name": "Michael",
+        "date": "2026-01-06",
+        "text": "People should really revisit chat GPT since 5.2. It has a long way to go but it's a huge step over anything so far. @sama needs to focus on the chatbot experience to improve usability from Power users, who puts it through its paces, so those that use it normally can have a much better experience.\n\nGemini has the same issues for usability but a little bit worse. With chat TPT you can get With GPT 5.2 you can get it to work if you know how to manipulate it. Google Gemini just refuses to do some basic work. The best out of all these are anthropic Claude opus 4.5. By far.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "suvorovakiera",
+        "name": "Kiera Suvorova",
+        "date": "2026-01-06",
+        "text": "@deedydas Gemini is better right now",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NutiAnirudh",
+        "name": "Anirudh Nuti",
+        "date": "2026-01-06",
+        "text": "@deedydas No wonder Sam sent out a code red memo",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NovaDamonAI",
+        "name": "Nova Damon",
+        "date": "2026-01-06",
+        "text": "Always knew Gemini was gonna surpass ChatGPT. The thing with all of these AI’s though is every week it seems like one out performs the other with every new update. So many updates coming out every week it doesn’t surprise me when one outperforms another. I’m sure ChatGPT will bounce back tho",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "goodchemicals",
+        "name": "good chem",
+        "date": "2026-01-06",
+        "text": "@deedydas Schools were closed",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Alacritine",
+        "name": "Alacritine",
+        "date": "2026-01-06",
+        "text": "@deedydas ChatGPT has gotten really bad just in the last few weeks. Around the time 5.2 came out. All these statements that it was better - nope. It's a mess. \n\nGemini has been solid.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tonybuildsai",
+        "name": "Tony",
+        "date": "2026-01-06",
+        "text": "@deedydas The fact that Gemini stayed flat while ChatGPT dipped is the real story here. Usually, a holiday slump hits everyone equally if it's just a seasonal thing.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "YolftPI",
+        "name": "YOLFT",
+        "date": "2026-01-06",
+        "text": "@deedydas Most informed people moved to Gemini",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Donversationz",
+        "name": "Don Stein",
+        "date": "2026-01-06",
+        "text": "@deedydas Yep I rarely use it now\nOther than voice \nBut it’s by far the best voice\nI’ll be back tho!!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "annapanart",
+        "name": "Anna ⏫",
+        "date": "2026-01-06",
+        "text": "@tomulentJuice @deedydas You are not wrong. That needed to be solved too.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "theclairexzhang",
+        "name": "Claire Zhang (Founder and CEO, CoFina.ai)",
+        "date": "2026-01-06",
+        "text": "@deedydas Competition plus seasonality. Distribution wins long term, not one chart.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G98zcema8AAgxrO.jpg",
+      "localFilename": "2008380527141941420_1.jpg"
+    }
+  ]
 }

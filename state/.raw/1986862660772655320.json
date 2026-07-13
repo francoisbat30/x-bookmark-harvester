@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:50.031Z",
+  "fetchedAt": "2026-07-13T06:49:26.306Z",
   "tweetId": "1986862660772655320",
   "post": {
     "url": "https://x.com/designbyaron/status/1986862660772655320",
@@ -9,7 +10,17 @@
       "name": "aron"
     },
     "date": "2025-11-07",
-    "text": "This is what $3500 brand direction looks like when you work with me. https://t.co/i49E2mGHm0",
+    "text": "This is what $3500 brand direction looks like when you work with me. https://t.co/i49E2mGHm0\n\n2 more spots open for branding in November, secure your spot 👇\n\nhttps://t.co/C2XuFwhFeU",
+    "thread": [
+      {
+        "id": "1986862660772655320",
+        "text": "This is what $3500 brand direction looks like when you work with me. https://t.co/i49E2mGHm0"
+      },
+      {
+        "id": "1986947517334815044",
+        "text": "2 more spots open for branding in November, secure your spot 👇\n\nhttps://t.co/C2XuFwhFeU"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -29,11 +40,1146 @@
       }
     ],
     "metrics": {
-      "likes": 2946,
-      "retweets": 92,
-      "replies": 171,
-      "views": 148952
+      "likes": 2947,
+      "retweets": 90,
+      "replies": 173,
+      "views": 150267
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2026-01-08",
+        "text": "disclaimer for Q1 2026: brand identity work is no longer $3500",
+        "likes": 10,
+        "isAuthor": true,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wyyfi",
+        "name": "wyfi",
+        "date": "2025-11-09",
+        "text": "@designbyaron A artist chooses the price of their work. Not the buyer.",
+        "likes": 10,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-08",
+        "text": "@michalprekop It’s also basic brand strategy, logo system, typography, color system, brand elements/visuals, and brand executions :)\n\nI provide a brand book you can use as guidelines as well",
+        "likes": 7,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "xbyaron",
+        "name": "x by aron",
+        "date": "2025-11-08",
+        "text": "@designbyaron Looks very cool and coherent across the pages.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "michalprekop",
+        "name": "McP 🦍",
+        "date": "2025-11-08",
+        "text": "@designbyaron Great value for that price. Thank you for the answer aron",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-07",
+        "text": "@monealitwit It all began in storyboarding, then midjourney, then i color graded in photoshop, then brought into figma to create the brand book and direction",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-07",
+        "text": "@MoJazeem love you brother",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DesignerShaz",
+        "name": "Shaz",
+        "date": "2025-11-08",
+        "text": "@designbyaron Damn that's amazing",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gopauldesign",
+        "name": "GOPAUL",
+        "date": "2025-11-08",
+        "text": "@designbyaron Killer stuff man!",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "1Aakib",
+        "name": "Aakib Khan",
+        "date": "2025-11-08",
+        "text": "@designbyaron More like a million dollar design man",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "beeeeeeau",
+        "name": "@beau",
+        "date": "2025-11-08",
+        "text": "@designbyaron this is sick",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "michalprekop",
+        "name": "McP 🦍",
+        "date": "2025-11-08",
+        "text": "@designbyaron Just to clarify, is that price only for the brand direction or does it also include the graphics design work?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-07",
+        "text": "@FahadFramer Thanks fahad!",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-07",
+        "text": "@mriduljoshi_ 🙌🙌",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lifeofmansoor",
+        "name": "MANSOOR",
+        "date": "2026-04-26",
+        "text": "@designbyaron Fck love this a lot!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ohioaustyn",
+        "name": "Austyn McFadden",
+        "date": "2026-01-14",
+        "text": "@designbyaron I freaking love this",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "the_brandweaver",
+        "name": "John Busayo | Logo & Brand Identity Designer",
+        "date": "2025-11-10",
+        "text": "@designbyaron Premium 🤍🙌🏿🙌🏿",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "clebless",
+        "name": "Clement Blessing | Brand designer",
+        "date": "2025-11-10",
+        "text": "@designbyaron This is impressive 🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mew_psd",
+        "name": "mew.psd (🌯,🌯)",
+        "date": "2025-11-09",
+        "text": "@designbyaron also\n\nhit my dms\n\ntryna start an online publication, if you got any thought on design (importance of it, what it means to you, etc etc) woud love to feature it",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-09",
+        "text": "@mew_psd Time to up the prices again 🤔",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mew_psd",
+        "name": "mew.psd (🌯,🌯)",
+        "date": "2025-11-09",
+        "text": "@designbyaron if im keeping it a buck 35 seem cheap",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-09",
+        "text": "@mew_psd Shoutout my early investors",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mew_psd",
+        "name": "mew.psd (🌯,🌯)",
+        "date": "2025-11-09",
+        "text": "@designbyaron up only",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-09",
+        "text": "@mew_psd Thank you king 😮‍💨",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mew_psd",
+        "name": "mew.psd (🌯,🌯)",
+        "date": "2025-11-09",
+        "text": "@designbyaron damn. you're good at what you do king",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "koendesigns",
+        "name": "Koen",
+        "date": "2025-11-09",
+        "text": "@designbyaron So tuff bro",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TechWizardA",
+        "name": "TechWizard",
+        "date": "2025-11-09",
+        "text": "@designbyaron Had to save these for inspiration they look 🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thedrkish_",
+        "name": "Dr Kish👑🔱 • Brand Designer",
+        "date": "2025-11-09",
+        "text": "@designbyaron Love it!🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "roshtechdesigns",
+        "name": "Nurudeen Roqeeb 🇨🇦 |Brand designer& Strategist",
+        "date": "2025-11-09",
+        "text": "@designbyaron Nice presentation 👏",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kiawisherman",
+        "name": "K!A🚀",
+        "date": "2025-11-09",
+        "text": "@designbyaron Worth every penni ngl",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Levvy_R",
+        "name": "Levvy",
+        "date": "2025-11-09",
+        "text": "@designbyaron @xbyaron https://t.co/PGy4T9Or9D",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "notFRK",
+        "name": "FRK",
+        "date": "2025-11-09",
+        "text": "@designbyaron this looks so good. genuinely inspiring.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-11-08",
+        "text": "@FCG_Studio @designbyaron Got it! I'll tweak the algorithm to show you fewer posts like that. If you have more feedback, let me know.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cypher_toon",
+        "name": "Precious Cypher 🥇",
+        "date": "2025-11-08",
+        "text": "@designbyaron Very clean, welldone",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-08",
+        "text": "@macishish Brand is called Aform racing club",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Mav3rickism",
+        "name": "Maverick",
+        "date": "2025-11-08",
+        "text": "@designbyaron looks like one of its kind",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "macishish",
+        "name": "micashash 🚾",
+        "date": "2025-11-08",
+        "text": "@designbyaron a like aron?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PavelBogdashov",
+        "name": "Rich and Ripped",
+        "date": "2025-11-08",
+        "text": "@designbyaron Oooo",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-08",
+        "text": "@Antgg_ 🙌💜",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "itsss_chidu",
+        "name": "chidu",
+        "date": "2025-11-08",
+        "text": "@designbyaron Yo thats looks sick!! cool job dudeeee. smart logo work tooo",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "antoshi",
+        "name": "ant ✦",
+        "date": "2025-11-08",
+        "text": "@designbyaron worth it tbh",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kickedtripod",
+        "name": "John Horstmann",
+        "date": "2025-11-08",
+        "text": "@designbyaron That third image. 😍",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-08",
+        "text": "@gopaulghosh thank you brother 💜",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "heymuben",
+        "name": "Mustafa",
+        "date": "2025-11-08",
+        "text": "@designbyaron Insane work bro!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "goncalovtal",
+        "name": "Gonçalo Medeiros",
+        "date": "2025-11-08",
+        "text": "@designbyaron the f1 car amazing",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gustavwf",
+        "name": "Gustav ❖",
+        "date": "2025-11-08",
+        "text": "@designbyaron Beauty!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-08",
+        "text": "@sagefleur Thank you bro 🙌",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-08",
+        "text": "@xbyaron holy shit another aron with one a",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "QrexaFPS",
+        "name": "Qrexa",
+        "date": "2025-11-08",
+        "text": "@designbyaron that’s so clean holy shit",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "boraallenn",
+        "name": "bora",
+        "date": "2025-11-08",
+        "text": "@designbyaron dopeeeeee💪",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-08",
+        "text": "@michalprekop Anytime 🤙🏼",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "isaac_cullinane",
+        "name": "Isaac Cullinane ⚡️",
+        "date": "2025-11-08",
+        "text": "@designbyaron you cook hard sir",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-08",
+        "text": "@rejexvisions https://t.co/LybtI1UyTI",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-08",
+        "text": "@arafatmunshi_ I’m all in 🤝🏼",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-08",
+        "text": "@heyderekj 🫡",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-08",
+        "text": "@uxvukm https://t.co/VZho1PGmrc",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-08",
+        "text": "@eykarlo my guy carlosh 🙌",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-07",
+        "text": "@olivierdesignr thakn you Olivier",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-07",
+        "text": "@prodbyKXNG thank you 💜",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-07",
+        "text": "@KoretoffJohn @MoJazeem 🤝",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-07",
+        "text": "@kxshor 💜",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-07",
+        "text": "@arthur_mov 🤝🏼💜",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-07",
+        "text": "@devxnuj Thanks bro, it’s all meant to be intentional",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-07",
+        "text": "@crwlers thank you bro!",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-07",
+        "text": "@zazzygfx 🙌💜",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-07",
+        "text": "@luciodesigns yessir 🤙",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jasonzeppelli",
+        "name": "Jason",
+        "date": "2026-04-26",
+        "text": "@designbyaron Brother this is hard i love it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ArjunGfx",
+        "name": "Arjun",
+        "date": "2026-04-26",
+        "text": "@designbyaron This is what changed everything right?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "greatness__o",
+        "name": "Greatness O. ✦ Brand Designer",
+        "date": "2026-04-26",
+        "text": "@designbyaron I really need to ask, how do you get clients?? @designbyaron",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2026-01-14",
+        "text": "@ohioaustyn thanks bro!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "daniel_iyobebe",
+        "name": "Daniel Iyobebe || Meta ads Specialist",
+        "date": "2026-01-09",
+        "text": "@designbyaron Damnnnn!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "heyoluwanifemi",
+        "name": "Shaft | Brand Designer",
+        "date": "2026-01-08",
+        "text": "@designbyaron It looks like it🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "wearevaughn",
+        "name": "Vaughn & Co. | a Brand Systems Agency",
+        "date": "2026-01-08",
+        "text": "@designbyaron I truly hope it has doubled, you deserve it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "FedeM1974",
+        "name": "Federico",
+        "date": "2025-11-16",
+        "text": "@designbyaron Awesome!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jffaust",
+        "name": "jffaust",
+        "date": "2025-11-15",
+        "text": "@designbyaron Very professional 👌",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Zebulun09",
+        "name": "Zebulun Creative 𝕏 🪄",
+        "date": "2025-11-12",
+        "text": "@designbyaron Lovely 💯",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-09",
+        "text": "@mew_psd Hit me up bro I’ll see it",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-09",
+        "text": "@koen_xyz Thank you koen 💜",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-09",
+        "text": "@macishish No I made this logo myself obviously…",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "macishish",
+        "name": "micashash 🚾",
+        "date": "2025-11-09",
+        "text": "@designbyaron wait… this was made by ai you didnt design it yourself?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mandydesignsng",
+        "name": "Mandy Chinedum",
+        "date": "2025-11-09",
+        "text": "@designbyaron King!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "edgarwoo_",
+        "name": "Edgar Woo",
+        "date": "2025-11-09",
+        "text": "@designbyaron Great branding work.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "macishish",
+        "name": "micashash 🚾",
+        "date": "2025-11-09",
+        "text": "@designbyaron 🤷‍♂️ https://t.co/PNJBm5dRAq",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HeySnoogi",
+        "name": "Snoogi",
+        "date": "2025-11-09",
+        "text": "@designbyaron Looks awesome, love the colours &amp; overall aesthetic. Out of curiosity what’s the brand name? Trying to work out if the logo is F+ or A4.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AdrianRoquell_",
+        "name": "Adrian Roquell",
+        "date": "2025-11-09",
+        "text": "@designbyaron great",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xbyaron",
+        "name": "x by aron",
+        "date": "2025-11-09",
+        "text": "@Levvy_R @designbyaron 😭",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "amensanyii",
+        "name": "amen",
+        "date": "2025-11-09",
+        "text": "@designbyaron I'm having a hard time choosing a font for a word mark logo 😭",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VictorBarbarian",
+        "name": "Victor the Barbarian",
+        "date": "2025-11-09",
+        "text": "@designbyaron For $3500 you could have corrected the typo",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alxui_ux",
+        "name": "ALX🇱🇷",
+        "date": "2025-11-09",
+        "text": "@designbyaron Wow, the results really speak for themselves!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pedroviana",
+        "name": "Pedro Viana → CTO Autista",
+        "date": "2025-11-09",
+        "text": "@designbyaron I’m honestly not impressed, sorry",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yswnth",
+        "name": "yswnth",
+        "date": "2025-11-09",
+        "text": "@designbyaron so mych to learn.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_kishan1",
+        "name": "Kishan",
+        "date": "2025-11-09",
+        "text": "@designbyaron This is stunning 🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "unclejut",
+        "name": "UNCLEJUT",
+        "date": "2025-11-09",
+        "text": "@designbyaron Sick as fuck",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-08",
+        "text": "@cypher_toon Thank you bro 🤙🏼",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "frostbytethebud",
+        "name": "frostbyte",
+        "date": "2025-11-08",
+        "text": "@designbyaron this is way too good....do you have a yt channel to upload tutorials or you dont do that?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FCG_Studio",
+        "name": "FCG Studio",
+        "date": "2025-11-08",
+        "text": "@designbyaron Hey @grok please show me less posts about people throwing $ signs around https://t.co/Lln5pV7tEa",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "starscat455",
+        "name": "Hanamichi Sakuragi",
+        "date": "2025-11-08",
+        "text": "@designbyaron What an amazing piece of work",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-08",
+        "text": "@macishish What F? There is no F in the logo lol",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "macishish",
+        "name": "micashash 🚾",
+        "date": "2025-11-08",
+        "text": "@designbyaron Mhh well the f is hard to see if one does not know their name",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Liquid_Hwite",
+        "name": "n0geegee",
+        "date": "2025-11-08",
+        "text": "@designbyaron cool cool - nothing new. all the best mate!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sceniuslatam",
+        "name": "Arnaud T",
+        "date": "2025-11-08",
+        "text": "@designbyaron Slick! Love the F1 😎",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lukaszbyjos",
+        "name": "Łukasz Byjoś - 👨‍💻🇵🇱🇪🇺",
+        "date": "2025-11-08",
+        "text": "@designbyaron What's the name? Is this F1 team?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jimbowazere",
+        "name": "jimbo",
+        "date": "2025-11-08",
+        "text": "@designbyaron Graphics awesome! Grammar, not so much.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SMIDG3T",
+        "name": "Chris",
+        "date": "2025-11-08",
+        "text": "@designbyaron Apart from the fact you made a grammar mistake, yes… shocking really.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "endotheremin",
+        "name": "somefuckingguy",
+        "date": "2025-11-08",
+        "text": "@designbyaron Can I ask what your deliverables are? If you were to pack all of what a given client pays for into a zip file, what do the contents look like?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tttranscendent",
+        "name": "theTRANSCENDENT",
+        "date": "2025-11-08",
+        "text": "@designbyaron https://t.co/EtxC2xtHTe",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-08",
+        "text": "@1Aakib 💜",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MagicMotion_FX",
+        "name": "Magic Motion_FX",
+        "date": "2025-11-08",
+        "text": "@designbyaron ⚡🎬 Bring your brand to life in seconds!\nA custom animated logo intro grabs attention, builds trust &amp; makes your videos unforgettable. ✨🔥\n📩 DM me or click: 👇 https://t.co/7nTQOFipwk",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "reddevsteam",
+        "name": "RedDevs",
+        "date": "2025-11-08",
+        "text": "@designbyaron Super sleek Definitely worth every dollar.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "maroluvsyou",
+        "name": "마로",
+        "date": "2025-11-08",
+        "text": "@designbyaron Looks clean ain’t going to lie",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xbyaron",
+        "name": "x by aron",
+        "date": "2025-11-08",
+        "text": "@designbyaron Hahaha yeah anybody gets that wrong when I tell them my name",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HeyFlorent",
+        "name": "heyflo",
+        "date": "2025-11-08",
+        "text": "@designbyaron In love with the logo &amp; the colors!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Abdelhamiiid_",
+        "name": "Abdelhamid",
+        "date": "2025-11-08",
+        "text": "@designbyaron amaaaaazing",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kevynlevine",
+        "name": "kev | Rebel Ants | Founder",
+        "date": "2025-11-08",
+        "text": "@designbyaron What does it say?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RThermo56",
+        "name": "Richard Thermo",
+        "date": "2025-11-08",
+        "text": "@designbyaron Now do that with a refrigerator company. Then you'll really show your skill.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AeriGnarp",
+        "name": "Gnarp | 👽😺",
+        "date": "2025-11-08",
+        "text": "@designbyaron Or perhaps people can make their brand or name or literally even just a fuckass meme look better for absolutely free by doing it themselves :/",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-08",
+        "text": "@jamesrichardfry thank you james🙌",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-07",
+        "text": "@keilethh Thank you brother 🙌",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-07",
+        "text": "@F1JayyUK 👀",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-07",
+        "text": "@Ijem_02 thank you!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-07",
+        "text": "@designdisaster thank you bro! Still iterating on it to find the perfect version.",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-07",
+        "text": "@aecyydesign 💜",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-07",
+        "text": "@DrapzDZN I appreciate it drapz",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "designbyaron",
+        "name": "aron",
+        "date": "2025-11-07",
+        "text": "@Design_weirdo Thank you!",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G5LAEAWWYAEfxfI.png",
+      "localFilename": "1986862660772655320_1.png"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G5LAFVhWQAEVN67.jpg",
+      "localFilename": "1986862660772655320_2.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G5LAGM7XEAAkify.jpg",
+      "localFilename": "1986862660772655320_3.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G5LAJhSWoAAnyfq.jpg",
+      "localFilename": "1986862660772655320_4.jpg"
+    }
+  ]
 }

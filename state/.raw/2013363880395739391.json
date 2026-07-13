@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:31.914Z",
+  "fetchedAt": "2026-07-13T06:52:19.819Z",
   "tweetId": "2013363880395739391",
   "post": {
     "url": "https://x.com/AlternativeTo/status/2013363880395739391",
@@ -10,18 +11,86 @@
     },
     "date": "2026-01-19",
     "text": "Free and open-source Kanban app that runs fully on your desktop. No account, no tracking, and no self-hosting required https://t.co/XsAFzYTrdq https://t.co/5ZfSswdmLX",
+    "thread": [
+      {
+        "id": "2013363880395739391",
+        "text": "Free and open-source Kanban app that runs fully on your desktop. No account, no tracking, and no self-hosting required https://t.co/XsAFzYTrdq https://t.co/5ZfSswdmLX"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/ext_tw_video/2013363862108528640/pu/vid/avc1/720x750/ySOER5CE8oZoWuXi.mp4?tag=12"
+        "url": "https://video.twimg.com/ext_tw_video/2013363862108528640/pu/vid/avc1/720x750/ySOER5CE8oZoWuXi.mp4?tag=12",
+        "posterUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2013363862108528640/pu/img/8Hl8_D9jAE12FmTW.jpg"
       }
     ],
     "metrics": {
-      "likes": 524,
-      "retweets": 52,
+      "likes": 518,
+      "retweets": 50,
       "replies": 5,
-      "views": 28963
+      "views": 29056
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "Trinumedia",
+        "name": "Trinumedia",
+        "date": "2026-01-20",
+        "text": "@eyadsenosy @AlternativeTo Maybe! Been using clickup lately. Made audits super easy.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "eyadsenosy",
+        "name": "Eyad Senosy 🔸🍉",
+        "date": "2026-01-20",
+        "text": "@AlternativeTo Is this useful for you?\n@Trinumedia",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lowiqmarsoupial",
+        "name": "lowiqcatsoupial",
+        "date": "2026-01-19",
+        "text": "@AlternativeTo \"Focalboard\" is one letter away from being the worst name for a thing 😂",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "oyzamil",
+        "name": "Muzammil",
+        "date": "2026-01-20",
+        "text": "@AlternativeTo https://t.co/SXcTRaikJb",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "noD7R",
+        "name": "d7r",
+        "date": "2026-01-20",
+        "text": "@AlternativeTo Lit",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "koubekvo",
+        "name": "Vojtěch Koubek",
+        "date": "2026-01-19",
+        "text": "@AlternativeTo What if my pc brakes 💀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2013363862108528640/pu/img/8Hl8_D9jAE12FmTW.jpg",
+      "localFilename": "2013363880395739391_1_poster.jpg"
+    }
+  ]
 }

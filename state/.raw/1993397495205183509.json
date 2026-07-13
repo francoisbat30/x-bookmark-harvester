@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:43.727Z",
+  "fetchedAt": "2026-07-13T06:50:24.918Z",
   "tweetId": "1993397495205183509",
   "post": {
     "url": "https://x.com/riomadeit/status/1993397495205183509",
@@ -9,7 +10,17 @@
       "name": "RIO"
     },
     "date": "2025-11-25",
-    "text": "Using Nano Banana Pro to create fake process sketches of my existing logo designs https://t.co/mGThN5C7Ol",
+    "text": "Using Nano Banana Pro to create fake process sketches of my existing logo designs https://t.co/mGThN5C7Ol\n\nInspired by @gizakdag",
+    "thread": [
+      {
+        "id": "1993397495205183509",
+        "text": "Using Nano Banana Pro to create fake process sketches of my existing logo designs https://t.co/mGThN5C7Ol"
+      },
+      {
+        "id": "1993397600884834784",
+        "text": "Inspired by @gizakdag"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -21,11 +32,931 @@
       }
     ],
     "metrics": {
-      "likes": 6811,
-      "retweets": 192,
-      "replies": 210,
-      "views": 1820679
+      "likes": 6781,
+      "retweets": 191,
+      "replies": 209,
+      "views": 1825231
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "riomadeit",
+        "name": "RIO",
+        "date": "2025-11-26",
+        "text": "@kpbear posting it on twitter",
+        "likes": 462,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "riomadeit",
+        "name": "RIO",
+        "date": "2025-11-25",
+        "text": "@pedroscosta_ \"Create 8 different initial sketches leading to this final logo design\"",
+        "likes": 275,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "herbiedux",
+        "name": "turd ferguson",
+        "date": "2025-11-27",
+        "text": "@riomadeit Absolute loser cunt stuff there. Well done you.",
+        "likes": 149,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JJ_Kresl",
+        "name": "Joey Kresl",
+        "date": "2025-11-27",
+        "text": "@riomadeit So your branding is lying to people? Cool",
+        "likes": 81,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "paristexasamour",
+        "name": "Paris, Texas 🤡",
+        "date": "2025-11-27",
+        "text": "@riomadeit And you consider yourself a designer? Lol. You’re mediocre.",
+        "likes": 44,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "leftontheradio",
+        "name": "Barry Notices Stuff",
+        "date": "2025-11-27",
+        "text": "@riomadeit @kpbear Loser",
+        "likes": 42,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "riomadeit",
+        "name": "RIO",
+        "date": "2025-11-26",
+        "text": "@alessio_joseph work smarter not harder https://t.co/iz82pghx2M",
+        "likes": 22,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dphdphdph7",
+        "name": "👹",
+        "date": "2025-11-27",
+        "text": "@riomadeit This is so embarrassing holy shit",
+        "likes": 12,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Space_noodel",
+        "name": "CloserA",
+        "date": "2025-11-27",
+        "text": "@riomadeit Why would someone hire you if he can do this himslef ?",
+        "likes": 12,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "evilpostmaker",
+        "name": "work from home bodyguard",
+        "date": "2025-11-27",
+        "text": "@riomadeit if you can't even draw a bunch of wavy lines on some paper then you haven't just failed as a graphic designer, you've failed as a human being tbh",
+        "likes": 9,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "debonairdandy",
+        "name": "Oliver 🇵🇸🇸🇩🇨🇩",
+        "date": "2025-11-27",
+        "text": "@riomadeit AI is for scam artist, thanks for proving it",
+        "likes": 9,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Yourius",
+        "name": "Youri Hoek",
+        "date": "2025-11-28",
+        "text": "@riomadeit literally what even is the point of this",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "riomadeit",
+        "name": "RIO",
+        "date": "2025-11-26",
+        "text": "@karstenmfischer real",
+        "likes": 6,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AirDribblePrick",
+        "name": "AirDribblePrick",
+        "date": "2025-11-27",
+        "text": "@riomadeit Pathetic loser",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "luri_draws",
+        "name": "luri 🐈",
+        "date": "2025-11-27",
+        "text": "@riomadeit So you admit that process matters?",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JamesParm21269",
+        "name": "James Parm",
+        "date": "2025-11-27",
+        "text": "@riomadeit Wow you’re so talented 🤡",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JKirpestein",
+        "name": "Jojo",
+        "date": "2025-11-28",
+        "text": "@riomadeit Thanks for showing. Now artist recruiters know to make drawing on the spot in front of them during a job interview a standard procedure again. I’m not at all intimidated by that. But you probably are.",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "m8nstarghoul",
+        "name": "Torao⁹⁹⁹ 🦤",
+        "date": "2025-11-27",
+        "text": "@gizakdag @riomadeit both of you are delusional losers",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "steve81573937",
+        "name": "steve",
+        "date": "2025-11-27",
+        "text": "@riomadeit This is dumb as fuck",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tunafishwiliams",
+        "name": "tuna",
+        "date": "2025-11-27",
+        "text": "@riomadeit Real loser shit",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "riomadeit",
+        "name": "RIO",
+        "date": "2025-11-26",
+        "text": "@litterthanli7 nice",
+        "likes": 3,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gryscldotwav",
+        "name": "《GRAY》@ PLAZA VOL 2",
+        "date": "2025-11-28",
+        "text": "@riomadeit L",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "swiftcheese07",
+        "name": "bills sb szn",
+        "date": "2025-11-27",
+        "text": "@m8nstarghoul @gizakdag @riomadeit thank you for beating me to saying it",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "haklberisvenk",
+        "name": "ponyboy svenk finansijska sloboda the one",
+        "date": "2025-11-27",
+        "text": "@riomadeit you need to get fucked",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Arusenpai",
+        "name": "AruZen",
+        "date": "2025-11-27",
+        "text": "@riomadeit Great rage bait. And then they wonder why everyone hates them or why nobody (but them) understands the 'future.' They are strictly fueling a mindset that is a total dead end",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "notserious139",
+        "name": "anxiety cancer",
+        "date": "2025-11-27",
+        "text": "@riomadeit @pedroscosta_ If that isn’t talent, idk what is",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "skeetah",
+        "name": "Vladimir Pitipiwpiw",
+        "date": "2025-11-27",
+        "text": "@riomadeit Where can I send money for treatment? This looks like a terminal illness🥺",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dizziless",
+        "name": "tranceplant",
+        "date": "2025-11-27",
+        "text": "@riomadeit @alessio_joseph Nothing about this is smarter",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dmsimon",
+        "name": "dmsimon",
+        "date": "2025-11-27",
+        "text": "@riomadeit Oh Jesus.\nI was showing Louise Fili AI a few days ago...",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tinocellupica",
+        "name": "Valentino",
+        "date": "2025-11-27",
+        "text": "@riomadeit Sketches looking this refined even by designers not using AI I always assume are reverse engineered. My sketches look like shit. If you’re going to spend that much (implied) time on sketching you’re quicker doing it on the computer.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JaimeOrtega",
+        "name": "JaimeOrtega",
+        "date": "2025-11-27",
+        "text": "@riomadeit I love this. It felt like many designers sharing a myriad of sketches where doing them post-logo just to have some proof of \"hey look at how much *manual* work I put in here\" lol. Hopefully these help reduce that posturing.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "adrienneyeets26",
+        "name": "Adrienne/Aly(they/she)🍉🌈",
+        "date": "2025-11-27",
+        "text": "@riomadeit Why?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "francoissavard_",
+        "name": "François Savard",
+        "date": "2025-11-27",
+        "text": "@riomadeit Will use this to justify expansive branding package",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "6lack_graphixs",
+        "name": "6LACK💙 || Graphics Designer🚀",
+        "date": "2025-11-27",
+        "text": "@riomadeit This is really nice.\nThanks for the update 🫶💙",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lumi__04",
+        "name": "b_loom",
+        "date": "2025-11-28",
+        "text": "@riomadeit what ever happened to actual creativity man",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "knuclear_knife",
+        "name": "Bug Enthusiast",
+        "date": "2025-11-28",
+        "text": "@riomadeit Kinda cringe",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "martyuls",
+        "name": "Mart Yuls",
+        "date": "2025-11-28",
+        "text": "@riomadeit A logo design that can’t be registered… I don’t see any flaws in his plan 😂 https://t.co/K0me9rSBeO",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "angel41asylum",
+        "name": "Angel41",
+        "date": "2025-11-28",
+        "text": "@riomadeit \"Chat GPT please tell me my thought process for this logo\"",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TemidayoHaruna",
+        "name": "RH",
+        "date": "2025-11-28",
+        "text": "@riomadeit 😂",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Advertisin94168",
+        "name": "Linx Advertising",
+        "date": "2025-11-28",
+        "text": "@riomadeit what was prompt",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BlakeLim14",
+        "name": "ashlam",
+        "date": "2025-11-28",
+        "text": "@riomadeit loser",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "khan_siam_",
+        "name": "Khan",
+        "date": "2025-11-28",
+        "text": "@riomadeit dayum, everything is a lie now",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jade_shitpost",
+        "name": "Jade the Saint",
+        "date": "2025-11-28",
+        "text": "@riomadeit Lol, cannot even make a fucking logo and has to pretend with a sketch that they did anything\n\nAI bros cannot stop self owning",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Heres_Joyboy",
+        "name": "Nika🔞☀️🇵🇭",
+        "date": "2025-11-27",
+        "text": "@riomadeit Loser bahavior",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mccinnamon_bun",
+        "name": "McCinnamon 🇨🇦",
+        "date": "2025-11-27",
+        "text": "@riomadeit Loser behavior",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xCntrl",
+        "name": "bolaji.eth",
+        "date": "2025-11-27",
+        "text": "@riomadeit 😂",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Theo_Helias",
+        "name": "Théo",
+        "date": "2025-11-27",
+        "text": "@francoissavard_ @riomadeit haha look all iterations i did to get this perfect result",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Sr_Harina",
+        "name": "Sr.Harina",
+        "date": "2025-11-27",
+        "text": "@riomadeit this is sad as f*ck",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "2mi10E",
+        "name": "SVagabond",
+        "date": "2025-11-27",
+        "text": "@riomadeit https://t.co/DngkW9fcz1",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Iluvalar1",
+        "name": "Iluvalar",
+        "date": "2025-11-27",
+        "text": "@riomadeit I like the 6th one.\nHere is a funny idea: You take the 6th that look like a spring and you invert it. I.E. diagonal line dark and horizontal line clear.\n\nThen you keep those 3 logo and use them at random. Will make people talk about the chirality of your logo when they realize.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Damian_030303",
+        "name": "Damian030303",
+        "date": "2025-11-27",
+        "text": "@riomadeit Such a waste of time and resources.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NealjanNealjan",
+        "name": "nealjan",
+        "date": "2025-11-27",
+        "text": "@riomadeit you are scum",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JeremiaszIV",
+        "name": "🇵🇱 Jeremiasz",
+        "date": "2025-11-27",
+        "text": "@riomadeit gemini is cooking",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TheChunkeyNinja",
+        "name": "Chunkeyninja 🎨",
+        "date": "2025-11-27",
+        "text": "@riomadeit @alessio_joseph Usually the premise of that phrase is there must be some actual work involved.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "antimoFM",
+        "name": "antimo",
+        "date": "2025-11-27",
+        "text": "@riomadeit @kpbear working as intended",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "LatvanyMate",
+        "name": "Máté 🇪🇺🇺🇦🇪🇺 Remember Timoleon of Corinth",
+        "date": "2025-11-27",
+        "text": "@riomadeit https://t.co/CJJaLYJEuo",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MelvinEHoganJr1",
+        "name": "Melvin Hogan",
+        "date": "2025-11-27",
+        "text": "@riomadeit had to give this a try https://t.co/c0k3k2Brso",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "pierremouchan",
+        "name": "Pierre Mouchan",
+        "date": "2025-11-27",
+        "text": "@riomadeit What a Genius what was the prompt ?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alessio_joseph",
+        "name": "Joseph Alessio",
+        "date": "2025-11-27",
+        "text": "@antlerschuukick @riomadeit and yet you can’t even detect the most obvious humor with your superior humanoid intellect",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HopelessBruh",
+        "name": "HopelessBruh",
+        "date": "2025-11-27",
+        "text": "@riomadeit whachu doin? That's not how it's supposed to be, listen, you first generate the sketches, then you create the logo, then you start looking at it until you find something wrong with it, then you start over. Repeat, never launch your brand. U welcome.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Chisomm_Favour",
+        "name": "Midas UI/UX",
+        "date": "2025-11-27",
+        "text": "@riomadeit Don't we all create the sketches and add the grid lines after designing?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thisisgrey",
+        "name": "thisisgrey",
+        "date": "2025-11-27",
+        "text": "@riomadeit Pain and toil cannot be used as status markers anymore. Good.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_sophie_oconnor",
+        "name": "Sophie O’Connor",
+        "date": "2025-11-27",
+        "text": "@riomadeit Why? Don’t you have actual sketches? That’s the best part!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pxlfkd",
+        "name": "PXLFKD",
+        "date": "2025-11-27",
+        "text": "@riomadeit *logo also created by AI",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "arnurartykbay",
+        "name": "Arnur Artykbay",
+        "date": "2025-11-27",
+        "text": "@riomadeit great use case for nano",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "joelha",
+        "name": "Joel Harrison",
+        "date": "2025-11-27",
+        "text": "@riomadeit 😂🤣😂",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MrBrondorDeFi",
+        "name": "Mr Brondor",
+        "date": "2025-11-27",
+        "text": "@riomadeit 10,000 IQ Moves",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ilustriouseller",
+        "name": "Joshua 🐂🪙🎲",
+        "date": "2025-11-27",
+        "text": "@riomadeit need to see this new ai with one punch man season 4",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "stanslavev13",
+        "name": "Stan Slavev AI",
+        "date": "2025-11-26",
+        "text": "@riomadeit Shmaaaart",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yelloowdesign",
+        "name": "Haseeb",
+        "date": "2025-11-26",
+        "text": "@riomadeit no but uploading a picture of my actual sketches and asking it to organize them to make it look presentable would be a good idea ngl",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hifromblake",
+        "name": "Blake",
+        "date": "2025-11-26",
+        "text": "@riomadeit Super",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "its_zique",
+        "name": "Zikomo Quentin",
+        "date": "2025-11-26",
+        "text": "@nuswe_txt @riomadeit Best use case so far 🤣🤣",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nuswe_txt",
+        "name": "Nuswe",
+        "date": "2025-11-26",
+        "text": "@riomadeit @its_zique here's a bright idea😅",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "genue",
+        "name": "genue",
+        "date": "2025-11-26",
+        "text": "@riomadeit it’s fucking genius",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gizakdag",
+        "name": "Gizem Akdag",
+        "date": "2025-11-26",
+        "text": "@riomadeit 🤍",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NourOumousse",
+        "name": "Nour Oumousse - ⵏⵓⵔ",
+        "date": "2025-11-26",
+        "text": "@riomadeit @kpbear 😂😂😂",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2025-11-30",
+        "text": "A possible prompt for generating those fake process sketches in Nano Banana Pro (Gemini's image tool) could be:\n\n{\n  \"style\": \"hand-drawn pencil sketches on notebook paper, iterative logo design process\",\n  \"elements\": \"evolving wavy 'MWr' shapes from rough lines to refined versions, 8 variations\",\n  \"details\": \"subtle shading, sketchbook texture, realistic imperfections like smudges\",\n  \"negative\": \"colors, digital perfection, text\"\n}",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "aymenabder83693",
+        "name": "shmurda",
+        "date": "2025-11-29",
+        "text": "@riomadeit https://t.co/XtO2U291A1",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "voltavr",
+        "name": "voltavr",
+        "date": "2025-11-29",
+        "text": "@riomadeit ⚡️ @NanoBanana @GeminiApp https://t.co/lSt2RmJvtb",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "francoissavard_",
+        "name": "François Savard",
+        "date": "2025-11-28",
+        "text": "@Theo_Helias @riomadeit i'm about to make generational wealth on that 🤣",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ShayaanShamim",
+        "name": "Shayaan⛩️",
+        "date": "2025-11-28",
+        "text": "@gizakdag @riomadeit Bitch.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "johnnieego",
+        "name": "Human Hatstand",
+        "date": "2025-11-28",
+        "text": "@riomadeit https://t.co/JnNZNaqUV2",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "eroestanca",
+        "name": "freddie 🕊🪺",
+        "date": "2025-11-27",
+        "text": "@riomadeit fucking loser https://t.co/KySViNxvcL",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SamTheSatan",
+        "name": "Sam 🏳️‍⚧️ 🇨🇺 🇵🇸",
+        "date": "2025-11-27",
+        "text": "@riomadeit I hope you don't pick up a pencil and just give up on life instead.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xxNoLongerHuman",
+        "name": "@SinfulRecluse on crktwt",
+        "date": "2025-11-27",
+        "text": "@riomadeit https://t.co/AdRQxyGXqR",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iamcheez",
+        "name": "Cheez",
+        "date": "2025-11-27",
+        "text": "@riomadeit omg is this the loser  of the year?! Definitely a very strong candidate! 🤡",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SilentNyite",
+        "name": "SilentNyite",
+        "date": "2025-11-27",
+        "text": "@riomadeit AI is indeed fake",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Teddy2k_",
+        "name": "Teddy2k",
+        "date": "2025-11-27",
+        "text": "@riomadeit you're a fucking loser https://t.co/Ai8feSnudB",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wiretransfer",
+        "name": "wiretransfer",
+        "date": "2025-11-27",
+        "text": "@riomadeit 💩",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "banditpips",
+        "name": "Bandit Pips",
+        "date": "2025-11-27",
+        "text": "@riomadeit Do well to check my gig and samples ❤️💝\n\nhttps://t.co/a8hvBmM7I6",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gnochii5000",
+        "name": "frevvii",
+        "date": "2025-11-27",
+        "text": "@riomadeit what a loser",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Augustinlevrai",
+        "name": "Augustin | Miniamaker",
+        "date": "2025-11-27",
+        "text": "@riomadeit This AI is incredibly powerful for generating images, and is now even integrated directly into Photoshop !",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Lidadelphian",
+        "name": "Thomas Radio",
+        "date": "2025-11-27",
+        "text": "@riomadeit i legitimately had to fake it by hand just last week https://t.co/qI8E1DuFsM",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Watusiiiiii",
+        "name": "Watusi",
+        "date": "2025-11-27",
+        "text": "@thisisgrey @riomadeit no one ever cared about the pain and toil my friend",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HiGershin",
+        "name": "Gray",
+        "date": "2025-11-27",
+        "text": "@riomadeit 😂😂😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gideonakin__",
+        "name": "Gideon Akin +_+",
+        "date": "2025-11-27",
+        "text": "@henryikoh_ @riomadeit Hahaha sick. I've been using it to create mockups",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JAbdmuhiz",
+        "name": "Jimoh Abdmuhiz💙",
+        "date": "2025-11-27",
+        "text": "@riomadeit Update 😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BreezySei",
+        "name": "Breezy 🍕",
+        "date": "2025-11-27",
+        "text": "@riomadeit smart",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NuclearBuddh",
+        "name": "Mañjuśrī the Bodhisattva",
+        "date": "2025-11-27",
+        "text": "@riomadeit No Nut Nigga?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ilustriouseller",
+        "name": "Joshua 🐂🪙🎲",
+        "date": "2025-11-27",
+        "text": "@riomadeit 3*",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "OtomachiT",
+        "name": "Otomachi_Teto",
+        "date": "2025-11-26",
+        "text": "@riomadeit Você nunca será designer ou artista, sua puta preguiçosa sem talento",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G6n4dSUXcAAK5QS.jpg",
+      "localFilename": "1993397495205183509_1.jpg"
+    },
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G6n4dSQXUAAJkSB.jpg",
+      "localFilename": "1993397495205183509_2.jpg"
+    }
+  ]
 }

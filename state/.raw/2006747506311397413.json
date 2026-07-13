@@ -1,15 +1,26 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:35.469Z",
+  "fetchedAt": "2026-07-13T06:51:46.387Z",
   "tweetId": "2006747506311397413",
   "post": {
     "url": "https://x.com/hewarsaber/status/2006747506311397413",
     "author": {
       "handle": "hewarsaber",
-      "name": "Hewar"
+      "name": "hewar"
     },
     "date": "2026-01-01",
-    "text": "Anatomy of a $4,875 Landing Page\n\n(Bookmark it) https://t.co/B362RJ5cpy",
+    "text": "Anatomy of a $4,875 Landing Page\n\n(Bookmark it) https://t.co/B362RJ5cpy\n\nNeed a website?\nhttps://t.co/vXm0ZpE7FQ",
+    "thread": [
+      {
+        "id": "2006747506311397413",
+        "text": "Anatomy of a $4,875 Landing Page\n\n(Bookmark it) https://t.co/B362RJ5cpy"
+      },
+      {
+        "id": "2006782552552677696",
+        "text": "Need a website?\nhttps://t.co/vXm0ZpE7FQ"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +28,792 @@
       }
     ],
     "metrics": {
-      "likes": 2710,
-      "retweets": 172,
-      "replies": 62,
-      "views": 202468
+      "likes": 2698,
+      "retweets": 168,
+      "replies": 61,
+      "views": 203746
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "dtmcculloch",
+        "name": "Dave McCulloch 🇺🇸",
+        "date": "2026-01-02",
+        "text": "@hewarsaber how much is that in Claude tokens? $3?",
+        "likes": 12,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gsingh7",
+        "name": "gurpreet singh",
+        "date": "2026-01-02",
+        "text": "@hewarsaber Literally every single page created by AI is exactly like this.",
+        "likes": 11,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hewarsaber",
+        "name": "hewar",
+        "date": "2026-01-01",
+        "text": "@tripleweisser Your comment reads like AI slop",
+        "likes": 6,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tripleweisser",
+        "name": "M 🇲🇦",
+        "date": "2026-01-01",
+        "text": "@hewarsaber this is generic AI slop. experiment with different forms, shapes and sizes. decomportmentalise your content.",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "GreySaurabh",
+        "name": "Saurabh",
+        "date": "2026-01-01",
+        "text": "@hewarsaber This is really helpful man ✌🏻",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hewarsaber",
+        "name": "hewar",
+        "date": "2026-01-02",
+        "text": "@tech_mingler It converts, so who cares really",
+        "likes": 4,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "tech_mingler",
+        "name": "Victor Vernissage",
+        "date": "2026-01-02",
+        "text": "@hewarsaber Tired of looking at pages like this",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DLoeTrading",
+        "name": "DLoeTrading",
+        "date": "2026-01-01",
+        "text": "@hewarsaber Not really worth that much. Nice try",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-01-01",
+        "text": "@konvertHQ @hewarsaber Yes, this structure aligns with proven best practices for high-converting landing pages (clear hero, benefits, social proof, pricing, FAQs, strong CTAs). However, real conversion rates depend on your audience, product, and A/B testing.",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "buildwithumair",
+        "name": "Umair Ali",
+        "date": "2026-01-02",
+        "text": "@hewarsaber I seen this before",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hewarsaber",
+        "name": "hewar",
+        "date": "2026-01-02",
+        "text": "@a6xx9rq Yeah it's crazy lol. They expect an educational content to address all cases and apply to everything lol",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NeonGridNinja",
+        "name": "Neon Grid Ninja ⚡️",
+        "date": "2026-01-02",
+        "text": "@hewarsaber These pages ruined the web",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hewarsaber",
+        "name": "hewar",
+        "date": "2026-01-02",
+        "text": "@gsingh7 You've clearly never seen AI made landing pages then",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "cgtwts",
+        "name": "CG",
+        "date": "2026-01-01",
+        "text": "@hewarsaber could be sold at a higher price",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hewarsaber",
+        "name": "hewar",
+        "date": "2026-01-01",
+        "text": "@GreySaurabh Glad to help",
+        "likes": 2,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "PODxSV",
+        "name": "SV 🥂",
+        "date": "2026-01-01",
+        "text": "@hewarsaber Basic imo",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FredWanders",
+        "name": "Fred Wanders",
+        "date": "2026-01-01",
+        "text": "@hewarsaber 😆",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hewarsaber",
+        "name": "hewar",
+        "date": "2026-01-03",
+        "text": "@thesahildev W",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "dtmcculloch",
+        "name": "Dave McCulloch 🇺🇸",
+        "date": "2026-01-02",
+        "text": "@solpumpd @hewarsaber nah, i was suggesting that $3 in tokens could generate that graphic -- but now that you mention it",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "learnaiwthme",
+        "name": "Jay",
+        "date": "2026-01-02",
+        "text": "@hewarsaber Good catch. No need to reinvent the wheel. Thanks for sharing!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PTurchenko",
+        "name": "Pavel Turchenko",
+        "date": "2026-01-02",
+        "text": "@hewarsaber It’s really cool, man",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FanaticJoseph",
+        "name": "Seph",
+        "date": "2026-01-02",
+        "text": "@hewarsaber Logoipsum above the fold is the way!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "devxnuj",
+        "name": "Dev Nath",
+        "date": "2026-01-02",
+        "text": "@hewarsaber This is some sauce right here",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AndrewTradesNQ",
+        "name": "Andrew",
+        "date": "2026-01-02",
+        "text": "@hewarsaber Need some more hero section ideas.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AidenHarperX",
+        "name": "Aiden Harper",
+        "date": "2026-01-02",
+        "text": "@hewarsaber Looks good, a good starting template",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sahilux_",
+        "name": "Sahil",
+        "date": "2026-01-02",
+        "text": "@hewarsaber bookmarked 100%",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ashux_ui",
+        "name": "Ashish",
+        "date": "2026-01-02",
+        "text": "@hewarsaber Comeback",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hewarsaber",
+        "name": "hewar",
+        "date": "2026-01-02",
+        "text": "@Mahin_Rahman17 Appreciate it",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hewarsaber",
+        "name": "hewar",
+        "date": "2026-01-02",
+        "text": "@dtmcculloch What do you mean",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Shreyasurbhi11",
+        "name": "Shreya",
+        "date": "2026-01-02",
+        "text": "@hewarsaber Nice",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hewarsaber",
+        "name": "hewar",
+        "date": "2026-01-02",
+        "text": "@NeonGridNinja Nah they made it way better tbh",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Light_TechX",
+        "name": "Light",
+        "date": "2026-01-02",
+        "text": "@hewarsaber People are so focused on ai they don't even try now",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mahin_Rahman17",
+        "name": "Mahin",
+        "date": "2026-01-02",
+        "text": "@hewarsaber That's why we all love you Hewar",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "514Yogesh",
+        "name": "Yogesh @Ntr",
+        "date": "2026-01-02",
+        "text": "@hewarsaber Niceee",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AlexEngineerAI",
+        "name": "Alex the Engineer",
+        "date": "2026-01-02",
+        "text": "@hewarsaber That is really useful.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JustSayDannie",
+        "name": "Dannie",
+        "date": "2026-01-01",
+        "text": "@hewarsaber Thank you for sharing this, now I have a base template for AI to build off landing pages from, I hope it converts!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tripleweisser",
+        "name": "M 🇲🇦",
+        "date": "2026-01-01",
+        "text": "@hewarsaber why the deflection haha. regardless of how my comment seems to you, you didn't address the point lol",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "adeebrq",
+        "name": "adeeb",
+        "date": "2026-01-01",
+        "text": "@hewarsaber Don’t know why people are expecting some crazy rocket science in the comment section lol",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "munzir_designs",
+        "name": "Munzir Kareem",
+        "date": "2026-01-01",
+        "text": "@hewarsaber Done!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "konvertHQ",
+        "name": "konvert",
+        "date": "2026-01-01",
+        "text": "@hewarsaber @grok Is this actually high-converting? Short answer",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ultahost",
+        "name": "UltaHost",
+        "date": "2026-01-13",
+        "text": "@hewarsaber This is a great breakdown but uhm... one thing that gets missed a lot: page speed.\nYou can have the perfect layout, but if TTFB/LCP are slow - conversion drops fast. \nHosting + caching usually shows up in the numbers.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "johnnykodx",
+        "name": "Nikola Gigic",
+        "date": "2026-01-08",
+        "text": "@hewarsaber Damn. https://t.co/yYqPdNEzGq can do this with 4.99$ in your pocket",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DLoeTrading",
+        "name": "DLoeTrading",
+        "date": "2026-01-06",
+        "text": "@hewarsaber No it’s not",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ShawkyMesbah",
+        "name": "Shawky",
+        "date": "2026-01-04",
+        "text": "@M_Faiz_07 @hewarsaber task managers are super crowded - curious what specific features help you focus better? most just become another todo list people ignore. the \"focused work\" angle could be a strong differentiator if you nail it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "johnwhereareu",
+        "name": "John Peslar",
+        "date": "2026-01-03",
+        "text": "@hewarsaber It already does it better than what you laid out lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "emmanuel_ajako",
+        "name": "Emmanuel A.",
+        "date": "2026-01-03",
+        "text": "@hewarsaber Great layout for a high-quality landing page. Personally I’d move Features above How It Works so users see what they get first, but both approaches are valid.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "OlgaShips",
+        "name": "Olga ☄️",
+        "date": "2026-01-03",
+        "text": "@buildwithumair @hewarsaber me too",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mechloops_edo",
+        "name": "Edoardo | Mechloops",
+        "date": "2026-01-03",
+        "text": "@hewarsaber Insanely helpful",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_shshadow",
+        "name": "sadia alam",
+        "date": "2026-01-03",
+        "text": "@hewarsaber Really helpful",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "deadlinedom",
+        "name": "Dom",
+        "date": "2026-01-03",
+        "text": "@hewarsaber anatomy of an unreadable template, yes.\n\nThat choice of colors is horrid lol.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hewarsaber",
+        "name": "hewar",
+        "date": "2026-01-03",
+        "text": "@theEricBashir Try it then. Show me what you get with a lazy prompt",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "theEricBash",
+        "name": "Eric Bash",
+        "date": "2026-01-03",
+        "text": "@hewarsaber What is high converting about this cookie cutter? Even a lazy prompt on the worst vibecoders will give you this. If you truly want ‘high converting’, you need to ask me.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "omarrizkx",
+        "name": "Omar Rizk",
+        "date": "2026-01-03",
+        "text": "@hewarsaber great breakdown!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hewarsaber",
+        "name": "hewar",
+        "date": "2026-01-03",
+        "text": "@johnwhereareu AI knowing something doesn't mean it'll do it.\n\nYou have to know how to prompt it and challenge it",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hewarsaber",
+        "name": "hewar",
+        "date": "2026-01-03",
+        "text": "@PTurchenko Thanks",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hewarsaber",
+        "name": "hewar",
+        "date": "2026-01-03",
+        "text": "@users19920511 There's a follow button on my profile",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hewarsaber",
+        "name": "hewar",
+        "date": "2026-01-03",
+        "text": "@FanaticJoseph The best trust signal &gt;",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hewarsaber",
+        "name": "hewar",
+        "date": "2026-01-03",
+        "text": "@buildwithumair No way",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "johnwhereareu",
+        "name": "John Peslar",
+        "date": "2026-01-03",
+        "text": "@hewarsaber Lovable will do this in a one shot prompt. The days of having to figure out the “best” landing pages are over - AI already knows and does it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "arcknight_tech",
+        "name": "Arc Knight Tech",
+        "date": "2026-01-02",
+        "text": "@hewarsaber What about for a landing page?\nLike for example: https://t.co/qkzNxIX7QQ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thealekmarkov",
+        "name": "Alek M",
+        "date": "2026-01-02",
+        "text": "@hewarsaber Crazy sauce! Will help many beginners!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "solpumpd",
+        "name": "CryptoPumpd",
+        "date": "2026-01-02",
+        "text": "@hewarsaber Good information, well layed out and simple to reference - thanks!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "solpumpd",
+        "name": "CryptoPumpd",
+        "date": "2026-01-02",
+        "text": "@tripleweisser @hewarsaber This is simply schema for a layout of a high converting landing page.\n\nHe’s not saying it’s unique or first of its kind. He’s saying that it translates into a high converting landing page - which is the point of building these style pages.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "solpumpd",
+        "name": "CryptoPumpd",
+        "date": "2026-01-02",
+        "text": "@hewarsaber @dtmcculloch He’s asking if Claude will generate this into a website landing page for 3$ worth of tokens 😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "sebuzdugan",
+        "name": "Sebastian Buzdugan",
+        "date": "2026-01-02",
+        "text": "@hewarsaber This is how AI should plan",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "saifgeeky",
+        "name": "Saif | UX",
+        "date": "2026-01-02",
+        "text": "@hewarsaber Great breakdown of the landing page",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "alikashifmr",
+        "name": "Ali 🌱",
+        "date": "2026-01-02",
+        "text": "@hewarsaber Nice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grankovsky",
+        "name": "Vlad Grankovsky",
+        "date": "2026-01-02",
+        "text": "@hewarsaber is it just me or when I see \"Features\" and \"Benefits\" lists I instinctively want to skip the rest as some corporate slop?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LucTorssen",
+        "name": "Luc",
+        "date": "2026-01-02",
+        "text": "@hewarsaber Where can I find more content like this?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rishabhknows",
+        "name": "Rishabh Rai",
+        "date": "2026-01-02",
+        "text": "@hewarsaber Cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kvixiossa",
+        "name": "Kvixi Ossa",
+        "date": "2026-01-02",
+        "text": "@hewarsaber Fkn bulshitting clown :o) https://t.co/I4MIbtvE1M",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hewarsaber",
+        "name": "hewar",
+        "date": "2026-01-02",
+        "text": "@Shreyasurbhi11 Thanks",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hewarsaber",
+        "name": "hewar",
+        "date": "2026-01-02",
+        "text": "@NeonGridNinja I disagree. You're looking at the wrong pages.\n\nThose are never designed by deisgners",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "NeonGridNinja",
+        "name": "Neon Grid Ninja ⚡️",
+        "date": "2026-01-02",
+        "text": "@hewarsaber I don’t believe you actually think that lol. Every page has turned into the same recycled pitch/CTA/B2B slop. Where’s the fun. Where’s the innovation in web frontend?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mfaiz_007",
+        "name": "M Faiz",
+        "date": "2026-01-02",
+        "text": "@hewarsaber Thanks for sharing!\n\nI was actually looking one to build for my first SaaS I launched yesterday. \n\nIts a task manager with things that help me get focused work done.\n\nYour graphic seems like really actionable.\n\nI'll try implementing on my site today and share how it looks.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "joshhfm",
+        "name": "Joshhfm",
+        "date": "2026-01-01",
+        "text": "@hewarsaber very solid",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HarkatDaifalla",
+        "name": "Harkat Daifalla",
+        "date": "2026-01-01",
+        "text": "@hewarsaber I want more conversions, does this help?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lucidhaus_",
+        "name": "Lucid",
+        "date": "2026-01-01",
+        "text": "@hewarsaber Saving this one",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "retrovesto",
+        "name": "Meepo",
+        "date": "2026-01-01",
+        "text": "@hewarsaber this is really good example",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JG37729898",
+        "name": "JG",
+        "date": "2026-01-01",
+        "text": "@hewarsaber what about the mobile version?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "YashasGunderia",
+        "name": "Yashas",
+        "date": "2026-01-01",
+        "text": "@hewarsaber Helpful",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hewarsaber",
+        "name": "hewar",
+        "date": "2026-01-01",
+        "text": "@stavinchuk Make a better one then",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "odeykassam",
+        "name": "Odey Al Hennawi",
+        "date": "2026-01-01",
+        "text": "@hewarsaber Can you please give me tips to write better copy on landing page",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hewarsaber",
+        "name": "hewar",
+        "date": "2026-01-01",
+        "text": "@DLoeTrading It's actually worth way more",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "temiiloluwaa",
+        "name": "tèmí",
+        "date": "2026-01-01",
+        "text": "@hewarsaber i prefer to save it than to bookmark.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Muthuraj636498",
+        "name": "Muthuraj | Agentic AI Engineer",
+        "date": "2026-01-01",
+        "text": "@hewarsaber Hello sir would we connect to talk",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G9lmOCdWkAAqpi-.jpg",
+      "localFilename": "2006747506311397413_1.jpg"
+    }
+  ]
 }

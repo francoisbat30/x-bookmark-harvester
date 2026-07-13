@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:22.697Z",
+  "fetchedAt": "2026-07-13T06:53:28.238Z",
   "tweetId": "2024031047264899403",
   "post": {
     "url": "https://x.com/_Re_/status/2024031047264899403",
@@ -10,13 +11,398 @@
     },
     "date": "2026-02-18",
     "text": "🤯 Colle ton prompt deux fois.\n\nC'est tout. C'est le hack. \n\nGoogle Research a testé sur 7 modèles, 7 benchmarks.\n→ 47 victoires sur 70\n→ Zéro défaite\n→ Gemini Flash : de 21% à 97% de précision\n\nPourquoi ça marche ? Les LLM lisent de gauche à droite. Chaque token ne voit que ce qui le précède. En répétant, tu donnes une seconde passe à tout le contexte.",
+    "thread": [
+      {
+        "id": "2024031047264899403",
+        "text": "🤯 Colle ton prompt deux fois.\n\nC'est tout. C'est le hack. \n\nGoogle Research a testé sur 7 modèles, 7 benchmarks.\n→ 47 victoires sur 70\n→ Zéro défaite\n→ Gemini Flash : de 21% à 97% de précision\n\nPourquoi ça marche ? Les LLM lisent de gauche à droite. Chaque token ne voit que ce qui le précède. En répétant, tu donnes une seconde passe à tout le contexte."
+      }
+    ],
     "media": [],
     "metrics": {
-      "likes": 304,
+      "likes": 301,
       "retweets": 28,
       "replies": 14,
-      "views": 104974
+      "views": 105157
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "Fax3l",
+        "name": "Alex",
+        "date": "2026-02-18",
+        "text": "@_Re_ C’est pas vraiment ça. L idee c’est que si ya une question en debut de prompt, puis du contexte, l attention va traiter la question sans contexte. Répéter la question à la fin permet d utiliser le contexte…",
+        "likes": 13,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_Re_",
+        "name": "René Cotton",
+        "date": "2026-02-18",
+        "text": "@DaBourz @Gabriel_Heaven_ De ce que je comprend c'est un unique message avec deux fois le prompt",
+        "likes": 12,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Gabriel_Heaven_",
+        "name": "Heaven",
+        "date": "2026-02-18",
+        "text": "@_Re_ @DaBourz Message 1 : \"Ecris moi la recette des pâtes bolognaise traditionnel\"\nMessage 2 : \"Ecris moi la recette des pâtes bolognaise traditionnel\"\n\nOU \n\nMessage 1 \"Ecris moi la recette des pâtes bolognaise traditionnel. Ecris moi la recette des pâtes bolognaise traditionnel.\"",
+        "likes": 9,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GillibertLuc",
+        "name": "Luc Gillibert",
+        "date": "2026-02-18",
+        "text": "@_Re_ Et sur les reasoners? Parce que les non reasoners on s'en moque un peu, en fait.",
+        "likes": 6,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DaBourz",
+        "name": "Stéphane Bourzeix",
+        "date": "2026-02-18",
+        "text": "@_Re_ C'est pas très clair, le doc dit bien 2x le même texte dans le prompt, mais l'explication dit d'envoyer deux fois le même prompt ? Différent.",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "itechnologynet",
+        "name": "Robert Hoffmann",
+        "date": "2026-02-18",
+        "text": "@_Re_ Sauf ca marche pas pour les modèles a reflection ..et aujourd'hui c'est le cas de quasiment tt les modèles \n\nC'était écrit dans le poste 🙃",
+        "likes": 4,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Paul_Dubito",
+        "name": "Paul Dubois",
+        "date": "2026-02-18",
+        "text": "@crypto_matou @_Re_ non, pas vraiment, un LLM lit le texte une seule fois, de gauche à droite et n'a pas de \"mode relecture\" et ne peut pas décider de “relire” le prompt comme un humain. Juste tu injecte une instruction en plus dans l’attention",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "nessnaj76",
+        "name": "Nessnaj",
+        "date": "2026-02-18",
+        "text": "@_Re_ Ça sert à rien maintenant on est plus en 2023",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zewewez",
+        "name": "بنده‌ی خدا",
+        "date": "2026-02-18",
+        "text": "@_Re_ Jimmy deux fois",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Pepaiir",
+        "name": "Pépair",
+        "date": "2026-02-18",
+        "text": "@GillibertLuc @_Re_ C’est exactement ca, le point essentiel n’a pas ete aborder. On serait en 2023 peut etre que oui",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DaBourz",
+        "name": "Stéphane Bourzeix",
+        "date": "2026-02-18",
+        "text": "@JeanIncon @_Re_ C'est pourtant ce que fait une LLM, chaque prompt ajoute du contexte.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DaBourz",
+        "name": "Stéphane Bourzeix",
+        "date": "2026-02-18",
+        "text": "@Gabriel_Heaven_ @_Re_ Mais du coup j'ai pas compris lequel des deux exemples a été utilisé dans leurs tests.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DaBourz",
+        "name": "Stéphane Bourzeix",
+        "date": "2026-02-18",
+        "text": "@Gabriel_Heaven_ @_Re_ Voila, j'allais taper ça ! :-)",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_Re_",
+        "name": "René Cotton",
+        "date": "2026-02-18",
+        "text": "@DaBourz Je n'ai pas compris ta remarque…",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ProfLeNain_",
+        "name": "Prof",
+        "date": "2026-02-19",
+        "text": "@Gabriel_Heaven_ @_Re_ @DaBourz Ca revient au même pour le modèle",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-19",
+        "text": "@GregzSkynet @Creeptonic @_Re_ Oui, c'est exact ! L'étude de Google Research confirme que répéter le prompt booste la précision sur 7 modèles et benchmarks, avec Gemini Flash passant de 21% à 97% sur une tâche. Zéro perte, sans impact sur le temps. PDF : https://t.co/rqOfUYpHPi",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "GregzSkynet",
+        "name": "Gregz ${kynet}",
+        "date": "2026-02-19",
+        "text": "@grok @Creeptonic @_Re_ C'est vrai ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Amazigh_Chahid",
+        "name": "Amazigh",
+        "date": "2026-02-19",
+        "text": "@_Re_ Vous êtes sérieux ? Vous partagez une étude réalisé lan passé, sur une pratique qu’on faisait en 2024. Cette pratique a été arrêté car intègre nativement dans les modèles LLM à raisonnement depuis soit quasi tous. Tout le monde parle de l’IA mais personne s’est en parler.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "axel_briche",
+        "name": "Axel Briche",
+        "date": "2026-02-18",
+        "text": "@_Re_ Avec le raisonnement ça a pas trop d’intérêt",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wafou47",
+        "name": "Wafou",
+        "date": "2026-02-18",
+        "text": "@_Re_ J'ai testé le truc de la voiture, j'ai paste 1, 2, 3 fois, ca marchait pas mais 6 il a arrete de dire de la merde https://t.co/W102jMsJfL",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-18",
+        "text": "@Creeptonic @_Re_ Oui, c'est vrai ! Selon une étude de Google Research (https://t.co/91il51KG73), répéter le prompt améliore la précision des LLM sur 7 modèles et benchmarks, comme Gemini passant de 21% à 97% sur une tâche. Pas de pertes, et sans impact sur le temps de réponse.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Creeptonic",
+        "name": "kryptonite",
+        "date": "2026-02-18",
+        "text": "@_Re_ @grok c'est vrai ? c'est vrai ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JeanIncon",
+        "name": "Jean Inconnu",
+        "date": "2026-02-18",
+        "text": "@DaBourz @_Re_ C'est un peu comme si je te disais :\n\n\"En ignorant les pays africains, quel est le pays le plus pauvre au monde.\"\n\nTu vas mieux répondre si je te dis :\n\n\"En ignorant les pays africains, quel est le pays le plus pauvre au monde. En ignorant les pays africains...\"",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JeanIncon",
+        "name": "Jean Inconnu",
+        "date": "2026-02-18",
+        "text": "Toujours pas.\n\nLe LLM lit bien de gauche à droite, c'est la première phase du texte.\n\nLe problème, c'est que le LLM voit A et B mais il n'a la question que quand il arrive à C, hors il a déjà traité A et B. Donc le second A/B lui permet de mieux répondre à C car il a de nouveau le contexte A/B.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "crypto_matou",
+        "name": "Crypto Matou ✂️",
+        "date": "2026-02-18",
+        "text": "@_Re_ Dans le preset prompt, mettre “lis deux fois le prompt avant de répondre” ça pourrait fonctionner ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kamenialexnea22",
+        "name": ".t 🇨🇲",
+        "date": "2026-02-18",
+        "text": "@_Re_ Lol quand tu as 100k tokens déjà a processer et tu dois dupliquer encore...",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ray5ar",
+        "name": "X Æ A-12",
+        "date": "2026-02-18",
+        "text": "@DaBourz @_Re_ c'est mal dit. c'est bien 1 seul prompt avec 2 fois le même texte",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "yanarna",
+        "name": "Yanarna",
+        "date": "2026-02-18",
+        "text": "@_Re_ surely a better way to do this on the model development and chatbot implementation",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DaBourz",
+        "name": "Stéphane Bourzeix",
+        "date": "2026-02-18",
+        "text": "@JeanIncon @_Re_ Hu mc'est peut etre toi qui n'a pas compris, le papier dit l'inverse, quand tu as \"ABC\" l'IA lit dans l'autre sens et voit \"CBA\" donc pas accès au départ, d'ou l'utilité de la répétition.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JeanIncon",
+        "name": "Jean Inconnu",
+        "date": "2026-02-18",
+        "text": "@DaBourz @_Re_ Au cas où, j'explique :\n\nTu as A B C, lorsque le LLM est à A, il n'a pas accès à C donc faire A B C A B C permet au LLM, lorsqu'il arrive au deuxième A d'avoir accès au premier C.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DaBourz",
+        "name": "Stéphane Bourzeix",
+        "date": "2026-02-18",
+        "text": "@JeanIncon @_Re_ Le mec qui a écris le papier non plus alors. ;-)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JeanIncon",
+        "name": "Jean Inconnu",
+        "date": "2026-02-18",
+        "text": "@DaBourz @_Re_ D'où l'intérêt de répéter la question deux fois dans le même prompt.\n\nFinalement, je me rends compte que tu n'avais pas sincèrement pas compris.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mgrtsss",
+        "name": "mgrts",
+        "date": "2026-02-18",
+        "text": "@DaBourz @_Re_ Faut se baser sur le papier, bien qu'il soit docteur dans le domaine il n'est pas un des auteurs du papier. Donc juste erreur d'interprétation ou rédaction de sa part",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DaBourz",
+        "name": "Stéphane Bourzeix",
+        "date": "2026-02-18",
+        "text": "@mgrtsss @_Re_ Yep c'est ce qu'il dit dans le doc, mais l'inverse dans son texte explicatif. A tester les deux je pense.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mgrtsss",
+        "name": "mgrts",
+        "date": "2026-02-18",
+        "text": "@DaBourz @_Re_ https://t.co/YT49Z9hGB2",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DaBourz",
+        "name": "Stéphane Bourzeix",
+        "date": "2026-02-18",
+        "text": "@JeanIncon @_Re_ Litteralement dans l'article : \"each token can only look back at what came before it, never forward\"",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JohnAttendtrop",
+        "name": "JohnFT",
+        "date": "2026-02-18",
+        "text": "@_Re_ Ou alors commence par premier prompt indiquant que tu vas faire plusieurs prompts avant ta question et fini avec un prompt question",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JeanIncon",
+        "name": "Jean Inconnu",
+        "date": "2026-02-18",
+        "text": "@DaBourz @_Re_ Contexte&lt;&gt;d'agglomérer.\n\nEt tu le sais, tu ne fais que défendre une bêtise que tu as dite, plutôt que d'admettre que si tu avais compris le principe, tu aurais dû comprendre qu'il n'y a qu'un prompt.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JeanIncon",
+        "name": "Jean Inconnu",
+        "date": "2026-02-18",
+        "text": "@DaBourz @_Re_ Ce n'est pas ce qui est écrit.\n\nIl faut qu'un token suivant revoit le token précédent. Ça ne fonctionnerait pas avec 2 prompts.\n\nA moins de croire que le LLM agglomere les prompts à chaque nouvelle question, ce qui serait un bordel sans nom.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DaBourz",
+        "name": "Stéphane Bourzeix",
+        "date": "2026-02-18",
+        "text": "@JeanIncon @_Re_ dans la même session si justement, vu que l'IA a digéré le premier.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JeanIncon",
+        "name": "Jean Inconnu",
+        "date": "2026-02-18",
+        "text": "@DaBourz @_Re_ Deux fois le même prompt, ça n'aurait aucun sens par rapport à l'explication.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Gabriel_Heaven_",
+        "name": "Heaven",
+        "date": "2026-02-18",
+        "text": "@_Re_ @DaBourz Oui, c'est juste un exemple bidon pour expliquer qu'il y a une légère ambiguité entre les deux.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      }
+    ]
   }
 }

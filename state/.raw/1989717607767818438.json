@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:46.043Z",
+  "fetchedAt": "2026-07-13T06:49:55.602Z",
   "tweetId": "1989717607767818438",
   "post": {
     "url": "https://x.com/theatashka/status/1989717607767818438",
@@ -10,6 +11,12 @@
     },
     "date": "2025-11-15",
     "text": "One of my favorite designs that I have ever created. https://t.co/TD8z7MUE8G",
+    "thread": [
+      {
+        "id": "1989717607767818438",
+        "text": "One of my favorite designs that I have ever created. https://t.co/TD8z7MUE8G"
+      }
+    ],
     "media": [
       {
         "type": "image",
@@ -17,11 +24,837 @@
       }
     ],
     "metrics": {
-      "likes": 656,
-      "retweets": 27,
-      "replies": 89,
-      "views": 22428
+      "likes": 653,
+      "retweets": 26,
+      "replies": 87,
+      "views": 22488
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "ufodimi",
+        "name": "Dimi",
+        "date": "2025-11-16",
+        "text": "@theatashka It really does looks great man",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dabresharian_",
+        "name": "Sharian",
+        "date": "2025-11-16",
+        "text": "@theatashka The overall vibe feels like unlocking something significant. ✨",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RobbyFrank",
+        "name": "Robby Frank",
+        "date": "2025-11-16",
+        "text": "@theatashka I've always wondered if artistic websites like this actually convert? \nDo you have any knowledge if the website has good CRO?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Arpit_2023",
+        "name": "Arpit",
+        "date": "2025-11-16",
+        "text": "@theatashka Is that a 3D object ? \nFigma ?",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kr_abhi1",
+        "name": "abhi",
+        "date": "2025-11-16",
+        "text": "@theatashka One of the best design I have seen",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TukiFromKL",
+        "name": "Tuki",
+        "date": "2025-11-15",
+        "text": "@theatashka I see why it's your favorite",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DotunSy",
+        "name": "Seyi",
+        "date": "2025-11-17",
+        "text": "@theatashka This is a nice concept",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "imnomandigital",
+        "name": "Abdullah Al Noman",
+        "date": "2025-11-17",
+        "text": "@theatashka Cool",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "arkdesignss",
+        "name": "Ark",
+        "date": "2025-11-17",
+        "text": "@theatashka 🔥🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "talha_designs",
+        "name": "Talha Manzoor",
+        "date": "2025-11-17",
+        "text": "@theatashka Amazing",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hatypostudio",
+        "name": "Hatypo",
+        "date": "2025-11-17",
+        "text": "@theatashka Truly inspiring!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Coderanger_ng",
+        "name": "MysticalProgrammer",
+        "date": "2025-11-17",
+        "text": "@theatashka Nice, I wanna code it",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "becca_uiux",
+        "name": "Rebecca Adisa",
+        "date": "2025-11-17",
+        "text": "@theatashka This is a very interesting BG image",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ivanovsky_alex",
+        "name": "Alexander Ivanovsky Logo and Brand Designer",
+        "date": "2025-11-17",
+        "text": "@theatashka Animation would be cool, but difficult to implement. The image looks interesting, but I'm not sure about using it for a website.  If it were a banner, that would be cool",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JosephBusayo9",
+        "name": "Busayo || Framer Expert",
+        "date": "2025-11-16",
+        "text": "@theatashka This is nice",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "murphyDesignss",
+        "name": "brandon designs 🧑🏽‍🎨",
+        "date": "2025-11-16",
+        "text": "@theatashka awesome!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "akin_g",
+        "name": "Akin Gundogan",
+        "date": "2025-11-16",
+        "text": "@theatashka Overall design is awesome of course but what makes this one more interesting is, the secondary button has a more complex design being glassy, as it has less prominence than primary, the way it should be, but interesting &amp; cool 👍",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jahanweb3",
+        "name": "Jahan",
+        "date": "2025-11-16",
+        "text": "@theatashka Gives off exclusive vibes which i love",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "cherifdesigns",
+        "name": "Cherif Tabouche",
+        "date": "2025-11-16",
+        "text": "@theatashka Looks beautiful, but do you think this type of hero layout actually converts?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ankeshmaurya721",
+        "name": "Ankesh",
+        "date": "2025-11-16",
+        "text": "@theatashka great work",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "theatashka",
+        "name": "Ata",
+        "date": "2025-11-16",
+        "text": "This site does not have any crazy 3D animations that would interfere with interaction and worsen the user experience. \n\nClear offer, description, and CTA. On the contrary, such a solution will affect the user's emotional side, and it will stay in their mind and be interesting. \n\nI would say that this is the same kind of website that converts well and evokes an emotional response.",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "DanishMehrab_",
+        "name": "Danish Mehrab 🌟",
+        "date": "2025-11-16",
+        "text": "@theatashka Amazing work Ata 👌",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "arthur_hagend",
+        "name": "arthur",
+        "date": "2025-11-16",
+        "text": "@theatashka Insane",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "theatashka",
+        "name": "Ata",
+        "date": "2025-11-16",
+        "text": "@Arpit_2023 Midjourney image",
+        "likes": 1,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Adamm_2158",
+        "name": "Adam",
+        "date": "2025-11-16",
+        "text": "@theatashka That looks stunning, was instantly an eye catcher for me. Love this, congrats 😁",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "axrsh_",
+        "name": "Aarshia Chakraborty",
+        "date": "2025-11-16",
+        "text": "@theatashka i can quite literally hear a low sci-fi hum in my head",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "EvikeStudio",
+        "name": "Eva 💎",
+        "date": "2025-11-16",
+        "text": "@theatashka Stunning",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shahidux",
+        "name": "Shahid | Design Partner 🦄",
+        "date": "2025-11-16",
+        "text": "@theatashka You nailed the vibe 🔥",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Ridwan_Ifty",
+        "name": "Sheikh Ridwan Raihan",
+        "date": "2025-11-16",
+        "text": "@theatashka Looking so Clean. Checkout some of ours @reddevsteam",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chambtech_",
+        "name": "Chamberlain",
+        "date": "2025-11-15",
+        "text": "@theatashka Cool as always, Ata!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Janitri27",
+        "name": "Janitri Purohit",
+        "date": "2025-11-15",
+        "text": "@theatashka can I just say this has become one of my favourite designs I have seen on X recently. It feels perfect",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "javiiarchive",
+        "name": "javi",
+        "date": "2025-11-15",
+        "text": "@theatashka Love the image!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gokhanyuca0",
+        "name": "Gökhan Yuca",
+        "date": "2025-11-15",
+        "text": "@theatashka Dark, mystic, and futuristic! Especially that hand and sphere visual summarizes the project's philosophy in a single frame. Definitely a masterpiece!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MahmudHxn",
+        "name": "Mahmud",
+        "date": "2025-11-15",
+        "text": "@theatashka This is insanely well-crafted.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "munzir_designs",
+        "name": "Munzir Kareem",
+        "date": "2025-11-15",
+        "text": "@theatashka Great bro!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "uiwithaisha",
+        "name": "Iheanacho Favour",
+        "date": "2025-11-17",
+        "text": "@theatashka Love it!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_mydesignn_",
+        "name": "Mitali Maurya",
+        "date": "2025-11-17",
+        "text": "@theatashka love it!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "HunnidMedia",
+        "name": "Fadh-lulahi Yusoof",
+        "date": "2025-11-17",
+        "text": "@theatashka Love the hand and ball.\n\nBut don’t like the blue in the background. Feel like it could have been brighter\n\nSince your client already paid, doesn’t matter much \n\n🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wabi_sabidesign",
+        "name": "Wabi-Sabi Design",
+        "date": "2025-11-17",
+        "text": "@theatashka Most captivating hero section I've seen all day.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xmuhammadtalha",
+        "name": "Muhammad Talha",
+        "date": "2025-11-17",
+        "text": "@theatashka Love the background image. This might give more premium experience if this is going to be a video. Good Work!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mykolas95784",
+        "name": "Micheal",
+        "date": "2025-11-17",
+        "text": "@theatashka love the blue",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "froessell",
+        "name": "✌︎ frederik ✌︎",
+        "date": "2025-11-17",
+        "text": "@theatashka Looks like a masterpiece - Love the imagery",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ChohanKhan35734",
+        "name": "Arbaz chohan Khan",
+        "date": "2025-11-17",
+        "text": "@theatashka Beautiful",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "TNCFlow",
+        "name": "TNCFlow - Website Templates",
+        "date": "2025-11-17",
+        "text": "@theatashka What makes this particular design stand out as your absolute favorite among all your creations?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "redcollars",
+        "name": "Red Collar",
+        "date": "2025-11-17",
+        "text": "@theatashka The hand silhouette creates a strong focal pull",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bhavikdesigns",
+        "name": "Bhavik Dobariya",
+        "date": "2025-11-17",
+        "text": "@theatashka This looks amazing! 🙌",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Arisfrn",
+        "name": "Aethos",
+        "date": "2025-11-17",
+        "text": "@theatashka 🔥🔥🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "patrutkowski",
+        "name": "Patrick",
+        "date": "2025-11-17",
+        "text": "@theatashka The sense of space is awesome",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "designsshoutout",
+        "name": "Design Shoutout",
+        "date": "2025-11-17",
+        "text": "@theatashka This deserves the pin!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thisisnahid78",
+        "name": "Md Nahid Hossain",
+        "date": "2025-11-17",
+        "text": "@theatashka Cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pesguerrab",
+        "name": "Pablo Esguerra",
+        "date": "2025-11-17",
+        "text": "@theatashka This design is ART! \n\nNice work",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nizarCreates",
+        "name": "Nizar",
+        "date": "2025-11-16",
+        "text": "@theatashka Sick",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "gustavwf",
+        "name": "Gustav ❖",
+        "date": "2025-11-16",
+        "text": "@theatashka I see why. Beautiful layout!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "icyfrost_0x",
+        "name": "Icy frost | UI/UX designer",
+        "date": "2025-11-16",
+        "text": "@theatashka Wow love the background 👍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ShukrDesign",
+        "name": "Shukr",
+        "date": "2025-11-16",
+        "text": "@theatashka How did you come up with the idea of the hand and orb?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "theatashka",
+        "name": "Ata",
+        "date": "2025-11-16",
+        "text": "@cherifdesigns https://t.co/HH9JYIljfn",
+        "likes": 0,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AnilKody",
+        "name": "Anil Kody",
+        "date": "2025-11-16",
+        "text": "@theatashka cool man loved it feels calm and premium asf! one thing how do you space the page padding like any idea",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AiyaOmkar",
+        "name": "Magnanimous_down",
+        "date": "2025-11-16",
+        "text": "@theatashka Eye-catching 🙌❤️‍🔥\nKeep going bro!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Focotik",
+        "name": "FocoTik",
+        "date": "2025-11-16",
+        "text": "@theatashka Sleek, clean, and modern",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AdamFard_",
+        "name": "Adam Fard",
+        "date": "2025-11-16",
+        "text": "@theatashka Is it interactive? When you change the tab, does the hand turn?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "frizapra",
+        "name": "Friza Prakesa",
+        "date": "2025-11-16",
+        "text": "@theatashka looking good",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Arpit_2023",
+        "name": "Arpit",
+        "date": "2025-11-16",
+        "text": "@theatashka Oh keyyy",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "meet_desaiii",
+        "name": "Meet Desai",
+        "date": "2025-11-16",
+        "text": "@theatashka Beautiful!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Fluxora_Designs",
+        "name": "Fluxora",
+        "date": "2025-11-16",
+        "text": "@theatashka This is perfection 🤝🔥",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shabishetty07",
+        "name": "Shabareesh Shetty",
+        "date": "2025-11-16",
+        "text": "@theatashka That's so futuristic, is it a dynamic design",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_kishan1",
+        "name": "Kishan",
+        "date": "2025-11-16",
+        "text": "@theatashka Yes one of my favourites as well 👌",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hellosrp",
+        "name": "HelloSRP",
+        "date": "2025-11-16",
+        "text": "@theatashka Really really nice! Makes you wanna pause and enjoy it!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AshutoshNakum18",
+        "name": "Ashutosh Nakum",
+        "date": "2025-11-16",
+        "text": "@theatashka It's really good:)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "BThreeAgency",
+        "name": "Ritu",
+        "date": "2025-11-16",
+        "text": "@theatashka Image generation is top notch.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kxshor",
+        "name": "Kishor",
+        "date": "2025-11-16",
+        "text": "@theatashka cool stuff!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "raisulranaa",
+        "name": "Raisul Rana",
+        "date": "2025-11-16",
+        "text": "@theatashka Such a satisfying visual flow.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "omordesign",
+        "name": "Omor Faruk",
+        "date": "2025-11-16",
+        "text": "@theatashka That's looks cool man",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shahed45bd",
+        "name": "Md Shahed Hossain",
+        "date": "2025-11-16",
+        "text": "@theatashka Amazing work",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "promptsref",
+        "name": "Midjourney Sref and prompt Library",
+        "date": "2025-11-16",
+        "text": "@theatashka It's so artistic!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kvixiossa",
+        "name": "Kvixi Ossa",
+        "date": "2025-11-16",
+        "text": "@theatashka https://t.co/1ZvXyY8s9Q",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zany_designer",
+        "name": "Ahmed",
+        "date": "2025-11-16",
+        "text": "@theatashka Beautiful color harmony!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "lswrks",
+        "name": "Luka Salukvadze",
+        "date": "2025-11-16",
+        "text": "@theatashka stunning work",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "FarzadGodarz",
+        "name": "Farzad Godarz",
+        "date": "2025-11-16",
+        "text": "@theatashka And now it’s one of my favorites too😍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yuvraj_io",
+        "name": "yuvraj",
+        "date": "2025-11-16",
+        "text": "@theatashka Wow, unreal",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "unrootdesign",
+        "name": "Adam 🌿 Unroot.design",
+        "date": "2025-11-16",
+        "text": "@theatashka Cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "guidocallarelli",
+        "name": "Guido Callarelli",
+        "date": "2025-11-16",
+        "text": "@theatashka It will look better if you make the hand image a bit bigger. Better proportions",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "designsbydip",
+        "name": "Subhadip Paul",
+        "date": "2025-11-15",
+        "text": "@theatashka Maybe try adding some visual effects on @hiunicornstudio to make it pop 🙂‍↕️",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "jayq_me",
+        "name": "Jayq | Design For Startups",
+        "date": "2025-11-15",
+        "text": "@theatashka Looks stunning, wonder if you can have the sphere slightly track the the mouse for some movement",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "thecaseywhalen",
+        "name": "Casey Whalen",
+        "date": "2025-11-15",
+        "text": "@theatashka Well done this is so sharp. The blue was a great choice.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AquilaObebe",
+        "name": "Aquila || Website Designer",
+        "date": "2025-11-15",
+        "text": "@theatashka Where do you get your images, man. \n\nThis looks really good",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "moss_ux",
+        "name": "Moss",
+        "date": "2025-11-15",
+        "text": "@theatashka Dope hero",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zafartalks",
+        "name": "Zafar",
+        "date": "2025-11-15",
+        "text": "@theatashka Pretty cool.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "filipjkd",
+        "name": "filipjkd",
+        "date": "2025-11-15",
+        "text": "@theatashka Wow 😍",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "dim_digital",
+        "name": "Michael",
+        "date": "2025-11-15",
+        "text": "@theatashka Really cool, love the vibe man! 💯",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "uiuxdesire_",
+        "name": "desire ♦framer developer ♟️",
+        "date": "2025-11-15",
+        "text": "@theatashka dope!!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "aidvgg",
+        "name": "dvgg",
+        "date": "2025-11-15",
+        "text": "@theatashka favorite for a reason",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/media/G5zlVxmXUAA1zcH.jpg",
+      "localFilename": "1989717607767818438_1.jpg"
+    }
+  ]
 }

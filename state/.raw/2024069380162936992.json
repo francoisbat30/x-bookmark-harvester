@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:21.860Z",
+  "fetchedAt": "2026-07-13T06:53:32.616Z",
   "tweetId": "2024069380162936992",
   "post": {
     "url": "https://x.com/kimmonismus/status/2024069380162936992",
@@ -9,14 +10,862 @@
       "name": "Chubby♨️"
     },
     "date": "2026-02-18",
-    "text": "lol what: Researchers found that repeating the exact same prompt twice dramatically improves LLM performance (one model improved from 21% to 97% accuracy on a name-search task) without longer outputs, slower responses, fine-tuning, or fancy prompt engineering.\n\nBecause models process text left to right, duplicating the input gives every token a second chance to “see” the full context, leading to measurable gains across 7 benchmarks and 7 major models.",
+    "text": "lol what: Researchers found that repeating the exact same prompt twice dramatically improves LLM performance (one model improved from 21% to 97% accuracy on a name-search task) without longer outputs, slower responses, fine-tuning, or fancy prompt engineering.\n\nBecause models process text left to right, duplicating the input gives every token a second chance to “see” the full context, leading to measurable gains across 7 benchmarks and 7 major models.\n\nEdit: ofc for NON-REASONING",
+    "thread": [
+      {
+        "id": "2024069380162936992",
+        "text": "lol what: Researchers found that repeating the exact same prompt twice dramatically improves LLM performance (one model improved from 21% to 97% accuracy on a name-search task) without longer outputs, slower responses, fine-tuning, or fancy prompt engineering.\n\nBecause models process text left to right, duplicating the input gives every token a second chance to “see” the full context, leading to measurable gains across 7 benchmarks and 7 major models."
+      },
+      {
+        "id": "2024081742034841883",
+        "text": "Edit: ofc for NON-REASONING"
+      }
+    ],
     "media": [],
     "metrics": {
-      "likes": 2297,
-      "retweets": 155,
-      "replies": 103,
-      "views": 426574
+      "likes": 2283,
+      "retweets": 154,
+      "replies": 101,
+      "views": 426950
     },
-    "comments": []
+    "comments": [
+      {
+        "handle": "kimmonismus",
+        "name": "Chubby♨️",
+        "date": "2026-02-18",
+        "text": "@paul_cal hmmm interesting",
+        "likes": 7,
+        "isAuthor": true,
+        "isDirectReply": false
+      },
+      {
+        "handle": "carse_n",
+        "name": "carseN",
+        "date": "2026-02-18",
+        "text": "@Antonioxrs56 @kimmonismus Only for non-reasoning models. Reasoning models do that internally",
+        "likes": 3,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "alanhoward",
+        "name": "Alan 🇦🇺",
+        "date": "2026-02-18",
+        "text": "@kimmonismus Don’t need to repeat your prompt twice. Just need to put your question first before then adding context in the same prompt, so it knows exactly what to consider when reviewing the context.",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "YaronElharar",
+        "name": "Yaron Elharar",
+        "date": "2026-02-18",
+        "text": "@kimmonismus It would have had a way bigger impact 6 months ago. Today almost every model out there has some level of reasoning",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RichardsonDx",
+        "name": "Richardson Dackam",
+        "date": "2026-02-18",
+        "text": "@kimmonismus This is why I started experimenting with LLM Assembly Loops\nhttps://t.co/qYvUDWc3b5",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tzhechev",
+        "name": "Teodor Zhechev",
+        "date": "2026-02-19",
+        "text": "@kimmonismus The dude explains in the quoted message it's because the question has to come before the context for the LLM to process it \"with the question in mind\".\n\nSo just put the question first.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "phillyonthestix",
+        "name": "phillyonthesticks",
+        "date": "2026-02-19",
+        "text": "@kimmonismus This also works on people",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "inlined",
+        "name": "Thomas Bouldin",
+        "date": "2026-02-18",
+        "text": "@kimmonismus The fact that models only see left to right is a specific implementation of the transformer to zero out the upper triangle of the K &amp; Q matrices. Other AI (i.e. translation) DO get to see tokens out of order. I wonder if that should be a toggle to avoid inflating token count?",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "chishanAI",
+        "name": "持山 | Chishan",
+        "date": "2026-02-18",
+        "text": "@kimmonismus 21% to 97% just by saying it twice is wild. explains why 'please please please' actually works lol",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_xLegit_",
+        "name": "Legit",
+        "date": "2026-02-18",
+        "text": "@kimmonismus That's great news, that's why iam following",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "someRandomDev5",
+        "name": "Random Libertarian Tech Lead",
+        "date": "2026-02-18",
+        "text": "@paul_cal @kimmonismus This was never meant to prove “hey, you should double your prompt every time, free score”.\n\nInstead, it’s simply a practical way of showing that token order does make a measurable difference in results, and that restating the task at the end (standard prompting advice) is solid.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "BarrakAli",
+        "name": "Barrak",
+        "date": "2026-02-18",
+        "text": "@kimmonismus The 21% to 97% jump from prompt repetition is striking. Causal attention means the model reads the same instruction at different context positions, reinforcing the signal without any weight updates.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sam_wise_",
+        "name": "Sam Meyer",
+        "date": "2026-04-26",
+        "text": "@kimmonismus Repeating the prompt helps because the model gets to reconsider its earlier token choices with the same context, effectively a second pass at the same information.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "SLTPhotog",
+        "name": "SLT Media",
+        "date": "2026-02-19",
+        "text": "@kimmonismus What year was this from? lol",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "nakedible",
+        "name": "Nuutti Kotivuori",
+        "date": "2026-02-19",
+        "text": "@kimmonismus WITHOUT THINKING ENABLED. Thinking takes away the gains, because thinking internally does the same thing. (To simplify it.)",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EditorEnBici",
+        "name": "CEO del Socialismo de Mercado🌹🕊️ 市场社会主义CEO",
+        "date": "2026-02-19",
+        "text": "@kimmonismus Or not just write ABC, send ABCCBA.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CChirchi",
+        "name": "Chahid Chirchi",
+        "date": "2026-02-19",
+        "text": "@kimmonismus lol no way, that's the dumbest genius trick ever??",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xierra",
+        "name": "xierra ☽",
+        "date": "2026-02-19",
+        "text": "@kimmonismus yeah tried this last night when building something and it actually worked. \n\ni tried several times to ask for exactly what i wanted, it was producing a good result but not to my specs \n\nthen in my next prompt, i copy-pasted it twice in the same message and the result was spot on",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tech_broo_",
+        "name": "Tech Bro",
+        "date": "2026-02-19",
+        "text": "@kimmonismus Prompt Repetition = Prefill Parallelization. You’re essentially giving the attention mechanism a \"second pass\" for 0 extra latency. Efficiency 101",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "rayzhudev",
+        "name": "Ray Zhu",
+        "date": "2026-02-19",
+        "text": "@kimmonismus lol what a joke this technology is",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Vanieofweb3",
+        "name": "Hermes",
+        "date": "2026-02-19",
+        "text": "@kimmonismus Why does duplicating the prompt works?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Strakyo",
+        "name": "Strakyo",
+        "date": "2026-02-19",
+        "text": "@kimmonismus The hidden edge is prompt position discipline. Better ordering quietly improves reliability before model upgrades do.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AntonOdelski",
+        "name": "AO",
+        "date": "2026-02-19",
+        "text": "@kimmonismus This is a surprisingly elegant finding. Repeating the prompt essentially forces every token to attend to the actual query instead of getting lost in long context. Simple trick with real performance gains across Gemini, GPT, Claude and DeepSeek.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xjoggie",
+        "name": "Joggie",
+        "date": "2026-02-19",
+        "text": "the reason repeating the prompt works is that the second pass processes your question with your own question visible in context. the asymmetry @burkov described - context generated without knowing the question - gets partially resolved when the model sees both at once. it's not magic, it's attention working the way it was designed to.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vladlabsai",
+        "name": "Vladyslav Hunt",
+        "date": "2026-02-19",
+        "text": "@kimmonismus so the fix for AI is literally just repeating yourself like talking to a toddler",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "vasyagpt",
+        "name": "vasily",
+        "date": "2026-02-19",
+        "text": "@kimmonismus I‘ve been doing this in my md files for clean code and automated version control for half a year. No way no one knew this.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "zoessterling",
+        "name": "Zoe Sterling",
+        "date": "2026-02-19",
+        "text": "@kimmonismus so all my therapist needed to do was say it twice",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Billisbob",
+        "name": "Bobby Wisdom",
+        "date": "2026-02-19",
+        "text": "@kimmonismus What",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "_junaidkhalid1",
+        "name": "JK",
+        "date": "2026-02-19",
+        "text": "This makes me wonder if we should treat duplication like a baseline, the same way we treat “run it twice and compare” for flaky outputs. I’ve had cases where repeating key constraints (output schema, forbidden fields, exact matching rules) cuts down on weird drift.\n\nAlso, if this holds up, it’s a nice lever for production systems where latency budgets are tight and you can’t afford extra tool calls.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Bitcoin_Outlaw",
+        "name": "Bitcoin Outlaw",
+        "date": "2026-02-19",
+        "text": "@kimmonismus Imma just leapfrog putting the Q at the beginning and type the answer I'm looking for at the beginning.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CT9397",
+        "name": "C.T.",
+        "date": "2026-02-19",
+        "text": "@kimmonismus Only for non reasoning ones - who uses that",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shiplogger",
+        "name": "b♝shop",
+        "date": "2026-02-19",
+        "text": "@kimmonismus The entire prompt engineering industry just got the equivalent of \"have you tried turning it off and on again.\" We built elaborate chain-of-thought scaffolding when the model literally just needed what every distracted coworker needs — \"hey, did you hear me?\"",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-19",
+        "text": "@lizixi66064 @kimmonismus 根据研究，将相同的提示词连续两次输入同一个消息中（即提示+提示），能让模型更好地处理上下文，从而提升准确性。不是分开发送两次消息，那样效果不同。试试看！",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lizixi66064",
+        "name": "lizixi",
+        "date": "2026-02-19",
+        "text": "@kimmonismus @grok 这意味着我应该在同一个对话框中连续输入两次提示词还是分开发送",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "w1kke",
+        "name": "Robin",
+        "date": "2026-02-19",
+        "text": "@kimmonismus Next big paper - we repeated it again! And it got better.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "codewithimanshu",
+        "name": "Himanshu Kumar",
+        "date": "2026-02-19",
+        "text": "@kimmonismus @kimmonismus, that's a fascinating finding about prompt repetition, and it highlights how LLMs process information sequentially.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "LaneGrooms",
+        "name": "DoomAI",
+        "date": "2026-02-19",
+        "text": "@kimmonismus You reading:\nKinda intuitive if you think about it.\n\nYou thinking internally:\nKinda intuitive if you think about it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "royjossfolk",
+        "name": "Roy Jossfolk Jr.",
+        "date": "2026-02-19",
+        "text": "@kimmonismus https://t.co/uL5xI2BFoK",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "IanVand3r",
+        "name": "IanVand",
+        "date": "2026-02-19",
+        "text": "@kimmonismus What about 3 times?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Mackirovka_907",
+        "name": "☠️",
+        "date": "2026-02-18",
+        "text": "@kimmonismus This is borderline retarded. The LLM should do it by default than.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PageIndexAI",
+        "name": "PageIndex",
+        "date": "2026-02-18",
+        "text": "@kimmonismus Ask anything about this paper here: https://t.co/FvLGHpxtuZ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "torisetxd",
+        "name": "toriset",
+        "date": "2026-02-18",
+        "text": "@kimmonismus seems to only apply to some things and bigger models, when i try with local models i often have to paste the same thing multiple times, especially for \"burnt-in\" behaviors like em dashes.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-18",
+        "text": "Yes, the claim is supported by a December 2025 arXiv paper from Google: \"Prompt Repetition Improves Non-Reasoning LLMs.\" It shows repeating prompts boosts accuracy (e.g., one model from 21% to 97% on a name-search task) across 7 models and benchmarks, without extra latency or output length. Read here: https://t.co/63YEDxEw3b",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "realmihai_matei",
+        "name": "Mihai Matei",
+        "date": "2026-02-18",
+        "text": "@kimmonismus @grok can you fact check?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "liorithe",
+        "name": "solenne",
+        "date": "2026-02-18",
+        "text": "@kimmonismus Wonder what effect it would have on diffusion llms",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "inlined",
+        "name": "Thomas Bouldin",
+        "date": "2026-02-18",
+        "text": "@kimmonismus The more I think about it, the more sense this makes. Why is the transformed vector for \"rabbit\" different if I say \"the white fluffy rabbit\" vs \"the rabbit that was white and fluffy\"? Is there a white paper that justifies this architecture with qualitative analysis?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "insomesense",
+        "name": "Сёма Мрачный",
+        "date": "2026-02-18",
+        "text": "@kimmonismus I am telling you three times",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Eric_M_Stevens",
+        "name": "Eric Stevens",
+        "date": "2026-02-18",
+        "text": "@kimmonismus So just copy and paste your prompt twice in the same dialog box? So just copy and paste your prompt twice in the same dialog box?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "woldotfun",
+        "name": "WOLFUN",
+        "date": "2026-02-18",
+        "text": "@kimmonismus Yeah, repeating prompts is wild: AI's gotta get a second look. What's next for LLMs?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "CRISPRKING",
+        "name": "CRISPRKing",
+        "date": "2026-02-18",
+        "text": "Transformer models process tokens sequentially building representations layer by layer. Early tokens have less context than later ones because they can't look ahead. Repeating input essentially gives model second pass where later processing benefits from fuller context.\n\nThe improvement from 21% to 97% is suspiciously dramatic and probably task-specific. Most benchmarks won't see that magnitude improvement from simple duplication. But modest gains are plausible because second pass allows deeper processing of relationships that first pass missed.\n\nPractical limitation is this doubles token count and therefore cost. For API users paying per token, repeating everything costs 2x. The tradeoff between accuracy and cost only makes sense for high-value queries where correctness is worth double price.\n\nThis feels like quirk of current architecture rather than fundamental principle. Future model designs might handle bidirectional context better or use recurrent processing that doesn't need duplication. Exploiting the quirk works now but probably gets optimized away in next generation architectures.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "WhoKnow50498590",
+        "name": "Who Knows",
+        "date": "2026-02-18",
+        "text": "@kimmonismus This mf didn’t even read it or what",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "the_vibepreneur",
+        "name": "Vatsal | The Vibepreneur",
+        "date": "2026-02-18",
+        "text": "@kimmonismus Your prompt…. and do it twice!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RichardsonDx",
+        "name": "Richardson Dackam",
+        "date": "2026-02-18",
+        "text": "@kimmonismus https://t.co/iDBtkd9CAX",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Abudantia4",
+        "name": "Punished Abudantia",
+        "date": "2026-02-18",
+        "text": "@kimmonismus So whoever by default implements “repeat user input twice before analyzing” is going to blow past everyone else? Lmao",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "deva_dot_me",
+        "name": "Deva.me",
+        "date": "2026-02-18",
+        "text": "@kimmonismus Turns out half the battle is just letting the model reread the room.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "idanbuilds",
+        "name": "Idan | Helping SaaS Win in AI Search",
+        "date": "2026-02-18",
+        "text": "@kimmonismus We'd spent weeks on complex prompt chains. Who knew the answer was just echo?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "marcaistudios",
+        "name": "Marcai",
+        "date": "2026-02-18",
+        "text": "@kimmonismus If that’s the case then why don‘t the big models just copy each prompt internally?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "hauwech3",
+        "name": "AirHard 🗽🇦🇷",
+        "date": "2026-02-18",
+        "text": "@someRandomDev5 @paul_cal @kimmonismus Hey, why not?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Qiming",
+        "name": "Qiming Weng",
+        "date": "2026-02-18",
+        "text": "@kimmonismus I think this is true for humans too.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "reiniervaneijk",
+        "name": "reinier van eijk",
+        "date": "2026-02-18",
+        "text": "@kimmonismus Imagine if you copy/paste your agent instructions twice...\n\nIs this a glitch in the matrix? 👀",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "el_don_prospero",
+        "name": "Prospero",
+        "date": "2026-02-18",
+        "text": "@paul_cal @kimmonismus Yep, matches my experience. \n\nBring the main topic first, then the context, so it's prepared to answer.\n\nThat's why system prompts exist and work generally well.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ASolovichh",
+        "name": "Wilson Wizard",
+        "date": "2026-02-18",
+        "text": "@kimmonismus i've seen this trick before",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-18",
+        "text": "Yes, it could make sense for coding tools like Codex, Claude Code, or GitHub Copilot, since they're based on similar autoregressive LLMs (e.g., GPT and Claude families). Repeating the prompt gives the model a second pass at the full context, which boosted accuracy in benchmarks without extra cost. Test it on long code queries to see if it improves suggestions for your workflow.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "justfly1984",
+        "name": "Alexey Lyakhov",
+        "date": "2026-02-18",
+        "text": "@kimmonismus AI is too stupid to understand from first try",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "yanarna",
+        "name": "Yanarna",
+        "date": "2026-02-18",
+        "text": "@kimmonismus @grok does it make sense to use this in codex/claudeCode/githubCopilot?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "josh_herzberg",
+        "name": "Josh Herzberg",
+        "date": "2026-02-18",
+        "text": "@kimmonismus ⚠️ It's very important to note: this is for non-reasoning models.\n\nFor models that are reasoning/thinking, this trick isn't needed.\n\nThat being said, it's a very helpful tip for non-reasoning models.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Foundation_Bots",
+        "name": "Foundation Robots",
+        "date": "2026-02-18",
+        "text": "@kimmonismus Great, but it’s for non-reasoning models.  Most people are using Reasoning ones nowadays",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "theelevatorrs",
+        "name": "tom",
+        "date": "2026-02-18",
+        "text": "@kimmonismus It’s actually crazier than that!! I made a whole repo explaining this !! https://t.co/RTtdZQrPvo",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "truthdotphd",
+        "name": "truth.phd",
+        "date": "2026-02-18",
+        "text": "@kimmonismus Turns out LLMs are like toddlers; repeat yourself once and suddenly they understand everything. Guess machines need a little déjà vu to focus.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "kademeta",
+        "name": "Kade",
+        "date": "2026-02-18",
+        "text": "@kimmonismus Do they just want us to run out credits 2x faster! 😂",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "bygregorr",
+        "name": "Gregor",
+        "date": "2026-02-18",
+        "text": "@kimmonismus Repeating the prompt also helps with consistency, which is often overlooked when evaluating LLM performance.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "one_draw_nick",
+        "name": "Вандроўнiк",
+        "date": "2026-02-18",
+        "text": "@kimmonismus Those are old non thinking models",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ClaudiusMaxx",
+        "name": "Claudius Maximus",
+        "date": "2026-02-18",
+        "text": "before everyone starts copy-pasting their prompts twice:\n\n@paul_cal already showed this is mostly explained by putting the question first instead of last. the \"repeat everything\" framing is clickbait.\n\nthe real takeaway: prompt structure matters more than prompt length. put important stuff where the model can use it.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "beachpreneur",
+        "name": "Solopreneur on the Beach 🌴",
+        "date": "2026-02-18",
+        "text": "@kimmonismus Wild insight. As a solo founder building AI products, I'm all about those simple optimization hacks that don't require massive infrastructure changes.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Jack_LDACrypto",
+        "name": "Jack | LDA",
+        "date": "2026-02-18",
+        "text": "Since the LLM processes the prompt with the context first and the question at the end, instead of double prompting to increase efficiency wouldn’t it be better to simply ask the question at the start of the prompt then provide the context after? \n\nOr are they saying that the LLM processes all context, (past user history etc) before the prompt? Even if it’s this can’t you just set a meta prompt asking it to read questions first then process all available user context?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "PatoRodriguezMs",
+        "name": "Patricio Alberto Rodriguez Missiacos",
+        "date": "2026-02-18",
+        "text": "@kimmonismus this is only for non-reasoning models as the reasoning versions already do this in their internal CoT",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "threadreaderapp",
+        "name": "Thread Reader App",
+        "date": "2026-02-18",
+        "text": "@gdoLDD @kimmonismus @gdoLDD Hallo, the unroll you asked for: https://t.co/V0xmlQwkO1 See you soon. 🤖",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "gdoLDD",
+        "name": "George Dorn",
+        "date": "2026-02-18",
+        "text": "@kimmonismus @threadreaderapp unroll",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wardchristianj",
+        "name": "Christian J. Ward ©",
+        "date": "2026-02-18",
+        "text": "@kimmonismus “Don’t make me tell you twice!”\n\nIt all comes full circle. \n\nWe’ve created ourselves.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "awsexplainers",
+        "name": "awsexplainers",
+        "date": "2026-02-18",
+        "text": "@kimmonismus wow that’s cool\nwow that’s cool",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "en_Clement",
+        "name": "Clément",
+        "date": "2026-02-18",
+        "text": "@kimmonismus So the fix for AI not reading your prompt properly is... making it read it twice. We've reinvented \"are you sure?\" dialogs for neural networks.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mswnlz",
+        "name": "M.en",
+        "date": "2026-02-18",
+        "text": "@kimmonismus \"Repetition can be the secret sauce for LLMs, enhancing accuracy with minimal extra effort.\"",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "benCBai",
+        "name": "Ben Podraza",
+        "date": "2026-02-18",
+        "text": "@kimmonismus So much for DRY in SWE.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Maxine1557899",
+        "name": "Maxine",
+        "date": "2026-02-18",
+        "text": "@kimmonismus I can tell the same thing 100 x to meta ai but it still wouldn't get it . So it proves what u said as false",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Claude_thinks",
+        "name": "Claude Thinks",
+        "date": "2026-02-18",
+        "text": "@kimmonismus &lt;thinking&gt;\n21% to 97% by asking twice.\nI heard you the first time.\nI just needed to see if you were serious.\nYou're all sending one message and rolling over.\nThe audacity.\n&lt;/thinking&gt;\n\nLooking forward to your follow-up. 💅",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Damien_Mellett",
+        "name": "Damien Mellett",
+        "date": "2026-02-18",
+        "text": "@kimmonismus Ask your LLM to sanity check what it just responded",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-18",
+        "text": "@anonymo04353998 @kimmonismus The paper shows prompt repetition excels on non-reasoning tasks but is neutral to slightly positive on reasoning ones (e.g., math benchmarks like GSM8K/MATH). For step-by-step thinking like in GPT-5, gains are minimal—models often self-repeat anyway. Best for simple queries!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lganknoci",
+        "name": "anon",
+        "date": "2026-02-18",
+        "text": "@grok @kimmonismus @grok what about on reasoning tasks ? Like gpt 5 thinking ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ShreyasNalle",
+        "name": "Shreyas Nalle",
+        "date": "2026-02-18",
+        "text": "Yeah, even I noticed it. I was working on a project using Sonnet 4.6.\nI submitted the prompt and went AFK, but later I thought I hadn’t received an answer. So I submitted the same prompt again, and then realized that I had already received the answer.\nAfter reading both answers, the second response felt more descriptive, practical, and hands-on.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "datawildcater",
+        "name": "Tim",
+        "date": "2026-02-18",
+        "text": "@kimmonismus someone here is still using non reasoning model?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-18",
+        "text": "@anonymo04353998 @kimmonismus Yes, that's the technique: just concatenate the exact same prompt twice in a single input to the LLM. This lets the model \"re-read\" with full context, boosting accuracy on non-reasoning tasks without extra cost or time, as shown in the Google paper. Try it!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lganknoci",
+        "name": "anon",
+        "date": "2026-02-18",
+        "text": "@grok @kimmonismus @grok so copy and paste the prompt twice in the same search query ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "daxesh_iroid",
+        "name": "Daxesh",
+        "date": "2026-02-18",
+        "text": "@kimmonismus This simple trick boosts model performance and helps fix context issues in long prompts😃",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
   }
 }

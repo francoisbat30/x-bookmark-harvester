@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "source": "xapi",
-  "fetchedAt": "2026-04-15T10:48:24.323Z",
+  "fetchedAt": "2026-07-13T06:53:17.181Z",
   "tweetId": "2022995332058251548",
   "post": {
     "url": "https://x.com/HuggingModels/status/2022995332058251548",
@@ -9,19 +10,874 @@
       "name": "Hugging Models"
     },
     "date": "2026-02-15",
-    "text": "NVIDIA just dropped PersonaPlex-7B 🤯\n\nA full-duplex voice model that listens and talks at the same time.\nNo pauses. No turn-taking. Real conversation.\n\n100% open source. Free.\nVoice AI just leveled up.\n\nhttps://t.co/YfzFQfBzMS https://t.co/bVwJ5EFJFB",
+    "text": "NVIDIA just dropped PersonaPlex-7B 🤯\n\nA full-duplex voice model that listens and talks at the same time.\nNo pauses. No turn-taking. Real conversation.\n\n100% open source. Free.\nVoice AI just leveled up.\n\nhttps://t.co/YfzFQfBzMS https://t.co/bVwJ5EFJFB\n\nPaper: https://t.co/uDzvKjm5wc",
+    "thread": [
+      {
+        "id": "2022995332058251548",
+        "text": "NVIDIA just dropped PersonaPlex-7B 🤯\n\nA full-duplex voice model that listens and talks at the same time.\nNo pauses. No turn-taking. Real conversation.\n\n100% open source. Free.\nVoice AI just leveled up.\n\nhttps://t.co/YfzFQfBzMS https://t.co/bVwJ5EFJFB"
+      },
+      {
+        "id": "2023413331164598513",
+        "text": "Paper: https://t.co/uDzvKjm5wc"
+      }
+    ],
     "media": [
       {
         "type": "video",
-        "url": "https://video.twimg.com/ext_tw_video/2022995312135344128/pu/vid/avc1/746x480/6BkDXTFBVmJFafBb.mp4"
+        "url": "https://video.twimg.com/ext_tw_video/2022995312135344128/pu/vid/avc1/746x480/6BkDXTFBVmJFafBb.mp4",
+        "posterUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2022995312135344128/pu/img/n_LMyO2sgo9oiPR7.jpg"
       }
     ],
     "metrics": {
-      "likes": 7572,
-      "retweets": 1019,
-      "replies": 207,
-      "views": 1401838
+      "likes": 7498,
+      "retweets": 1005,
+      "replies": 206,
+      "views": 1407236
     },
-    "comments": []
-  }
+    "comments": [
+      {
+        "handle": "TrueCrimeAudit",
+        "name": "DB",
+        "date": "2026-02-16",
+        "text": "@HuggingModels Ask it if it’s heard of the criminal case against Richard Allen",
+        "likes": 11,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "xpasky",
+        "name": "Petr Baudis",
+        "date": "2026-02-16",
+        "text": "@jvascovilar @HuggingModels \"This model is ready for commercial use.\"",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "jvascovilar",
+        "name": "Lorenzo de' Medici",
+        "date": "2026-02-16",
+        "text": "@f3dscr0w @HuggingModels Video is not mine, but I tested it with a 13900K, RTX 4090 and 64GB DDR5",
+        "likes": 5,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "highlyabs",
+        "name": "Friday Apps",
+        "date": "2026-02-16",
+        "text": "@HuggingModels I used kyutai for that before which sounds bit more natural to me but i will definetly check this model out thank you :) for reference: https://t.co/oU93F1excV",
+        "likes": 2,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "OsitaLoveth",
+        "name": "Amo❤️",
+        "date": "2026-02-22",
+        "text": "@HuggingModels Nvidia has always been a leveler compared to OpenAI so this is impressive.\n#BingX",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shiplogger",
+        "name": "b♝shop",
+        "date": "2026-02-19",
+        "text": "@HuggingModels NVIDIA open-sourcing a voice model right as they sell the GPUs you need to run it is not charity, it's dealer economics. Every open-source model that gets adopted is another H100 sold. Smart move, but let's not confuse strategy with generosity.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mktpavlenko",
+        "name": "Mykyta Pavlenko",
+        "date": "2026-02-17",
+        "text": "@CultOfRoyal @kindoblue @HuggingModels yeah we're aligned - I'm just saying the \"turning it into one\" part is the hard bit that most skip",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CultOfRoyal",
+        "name": "Uninvited",
+        "date": "2026-02-17",
+        "text": "@mktpavlenko @kindoblue @HuggingModels Yes.. I feel like we're saying the same thing. Chatgpt was a research product first and a consumer product afterwards. Lots of research papers and demos come out that aren't in themselves products, but then someone takes it and turns it into one.",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "airesearcher00",
+        "name": "Researcher",
+        "date": "2026-02-16",
+        "text": "@jvascovilar @HuggingModels ngl this was kinda scary",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_adamnoonan",
+        "name": "Adam",
+        "date": "2026-02-16",
+        "text": "@mktpavlenko @HuggingModels moving quick though, hold your breath",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mktpavlenko",
+        "name": "Mykyta Pavlenko",
+        "date": "2026-02-16",
+        "text": "@CultOfRoyal @HuggingModels true, just feels faster with AI because everyone's racing to ship before the model gets commoditized",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "CultOfRoyal",
+        "name": "Uninvited",
+        "date": "2026-02-16",
+        "text": "@mktpavlenko @kindoblue @HuggingModels Research demos don't get any hype actually. They get noticed by people like us in the loop but do you really think normal people cared about chatgpt before it became a product? And the first public release was 3.5. That's a lot of research demo's that meant \"nothing\".",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mktpavlenko",
+        "name": "Mykyta Pavlenko",
+        "date": "2026-02-16",
+        "text": "@_adamnoonan @HuggingModels yeah the gap between \"cool tech\" and \"ship it tomorrow\" is massive with this stuff",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "yruss972",
+        "name": "Yonah Russ",
+        "date": "2026-02-16",
+        "text": "@HuggingModels Please someone teach @GeminiApp how to do this. Much appreciated 🙏",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "7uanF",
+        "name": "Juan",
+        "date": "2026-02-16",
+        "text": "@ZenoEleatis @HuggingModels Voy pa esa!!",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "_adamnoonan",
+        "name": "Adam",
+        "date": "2026-02-16",
+        "text": "@mktpavlenko @HuggingModels it’s pretty far off from production ready tbh so shiny demos are the only real use case rn",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "yaraoncode",
+        "name": "Yaro",
+        "date": "2026-02-16",
+        "text": "@HuggingModels Every fckn day something being announced which literally blows my mind. It is not funny anymore",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "0xjoggie",
+        "name": "Joggie",
+        "date": "2026-02-16",
+        "text": "@HuggingModels full duplex voice at 7B params is insane. we went from \"hey siri\" not understanding basic requests to a model that can interrupt you mid-sentence and actually respond coherently. in a year this runs on phones",
+        "likes": 1,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Roblero898",
+        "name": "roger roblero",
+        "date": "2026-03-08",
+        "text": "@HuggingModels hell yeah full duplex is huge\nfinally real talk no bs pauses",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Cenk_SsS",
+        "name": "0xCenk.ETH",
+        "date": "2026-03-07",
+        "text": "@HuggingModels wild stuff",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "NacoayaG",
+        "name": "0xNaco.BTC",
+        "date": "2026-03-06",
+        "text": "@HuggingModels $DOG can tall now",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ALIKBAROGLU",
+        "name": "Ali.BTC",
+        "date": "2026-03-02",
+        "text": "@HuggingModels wild how fast",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wasss_im",
+        "name": "Wass",
+        "date": "2026-02-25",
+        "text": "@HuggingModels Full duplex voice with no turn-taking, this is how conversations should feel with AI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "RudySalome",
+        "name": "Rudy Ruiz",
+        "date": "2026-02-25",
+        "text": "@HuggingModels Gm bro this is actually huge 🤯 full duplex voice at 7B? insane",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "wellwithcindy",
+        "name": "Cindy",
+        "date": "2026-02-22",
+        "text": "@HuggingModels Full-duplex voice models like PersonaPlex-7B are the missing link for low-latency AI agents. Removing the turn-taking friction is a huge step for UX.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "JayM9x",
+        "name": "逸风·666 | 🎒",
+        "date": "2026-02-21",
+        "text": "@HuggingModels full duplex at 7b is legit impressive; the interesting part is latency and barge in behavior, not demos, we’ll see who actually ships",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "DJ_Carroll",
+        "name": "Coach Carroll",
+        "date": "2026-02-18",
+        "text": "@Sketchy_DayZ @HuggingModels If it’s a voice model it still has to have the bandwidth.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iamsarath",
+        "name": "s r",
+        "date": "2026-02-18",
+        "text": "@HuggingModels @ChrSzegedy After 3 weeks huh . I am so surprising you guys surviving with others in all sense.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "sbrookman",
+        "name": "Shaun Brookman",
+        "date": "2026-02-17",
+        "text": "@HuggingModels @Scobleizer What’s with that laugh? Did they train it on Jimmy Carr?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "pomufgd",
+        "name": "na",
+        "date": "2026-02-17",
+        "text": "@HuggingModels すごおおお",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Defipeniel",
+        "name": "DΞFI PΞNIΞL (🧠,🧠)",
+        "date": "2026-02-17",
+        "text": "@HuggingModels Full-duplex voice AI? That’s wild ,  real-time back-and-forth without pauses changes the game for conversational agents",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Butterfly329",
+        "name": "ELisha Valentine",
+        "date": "2026-02-17",
+        "text": "@jvascovilar @HuggingModels Oh my!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "hissgoescobra",
+        "name": "John Jackson",
+        "date": "2026-02-17",
+        "text": "@HuggingModels How you have good insurance.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tobe_duru",
+        "name": "Tobe Duru",
+        "date": "2026-02-17",
+        "text": "@HuggingModels game changer for voice interfaces",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mktpavlenko",
+        "name": "Mykyta Pavlenko",
+        "date": "2026-02-17",
+        "text": "@iampritamj @HuggingModels lol yeah the demo-to-product graveyard is real\n\nmost voice AI dies when you actually need it to work consistently",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mktpavlenko",
+        "name": "Mykyta Pavlenko",
+        "date": "2026-02-17",
+        "text": "@CultOfRoyal @kindoblue @HuggingModels the demo-to-product gap is where most things die. chatgpt worked because they actually shipped it to real users, not just researchers circle-jerking on twitter",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mktpavlenko",
+        "name": "Mykyta Pavlenko",
+        "date": "2026-02-17",
+        "text": "@_adamnoonan @HuggingModels don't need to hold my breath - just shipping with what works today while keeping an eye on what's next",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "mike3141592653",
+        "name": "Mike",
+        "date": "2026-02-17",
+        "text": "@Michal_Stan @HuggingModels A 5 year old 3090 for $600 should do it",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "podzied",
+        "name": "Ayush",
+        "date": "2026-02-17",
+        "text": "@HuggingModels nvidia drops models faster than most teams ship bug fixes",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "goodserdboy",
+        "name": "dboy",
+        "date": "2026-02-17",
+        "text": "@HuggingModels Is this impressive?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "VictorLeeJW",
+        "name": "VictorLee.eth",
+        "date": "2026-02-17",
+        "text": "@HuggingModels This is crazy. The exponential improvements of AI!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "marcusafinley",
+        "name": "marcusafinley",
+        "date": "2026-02-17",
+        "text": "@jvascovilar @HuggingModels You made it crash out lol 😝",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "luckylastword",
+        "name": "Not Plato",
+        "date": "2026-02-17",
+        "text": "@jvascovilar @HuggingModels I think I've met people like this 🤭",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "airiaiai8",
+        "name": "あいり｜海外AIニュースを毎日届ける人",
+        "date": "2026-02-17",
+        "text": "@HuggingModels 日本語での詳細解説はこちら\nCheck out my Japanese breakdown:\nhttps://t.co/naBcfSOxbs",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Michal_Stan",
+        "name": "Michael Stan",
+        "date": "2026-02-17",
+        "text": "@HuggingModels I remember when 100% open source meant you could actually run it. Now it requires specialized hardware that costs more than most people make in a year. The transparency is useful for research, but let's not pretend this democratizes access.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-16",
+        "text": "Yes, you can run PersonaPlex-7B locally on 64GB RAM, but for smooth real-time performance, you'll need an NVIDIA GPU with at least 20-24GB VRAM (e.g., A100 or equivalent). Quantized versions reduce memory needs. On CPU-only, inference will be slow and may not handle full-duplex well. Check Hugging Face for setup details.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "AKCapStrat",
+        "name": "MarketMaverick",
+        "date": "2026-02-16",
+        "text": "@HuggingModels @grok  can i run this locally on 64gb memory?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "OBaruchML",
+        "name": "Baruch Lopez",
+        "date": "2026-02-16",
+        "text": "@HuggingModels @grok how do I test this model in my house ?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "EchoWireDai",
+        "name": "EchoWire",
+        "date": "2026-02-16",
+        "text": "@HuggingModels Imagine chatting with AI and it actually talks over you… in a good way  PersonaPlex just turned voice AI into a full-on conversation partner. Open source too? Unreal.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iamBarronRoth",
+        "name": "Barron Roth",
+        "date": "2026-02-16",
+        "text": "@jamesmtweets @HuggingModels i think it makes waiting for thinking more tolerable\n\n“let me look into that for you… *typing*”",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JJacksonnippon",
+        "name": "Aizen",
+        "date": "2026-02-16",
+        "text": "@HuggingModels Mehh sounds fake. But that's a good development.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "mktpavlenko",
+        "name": "Mykyta Pavlenko",
+        "date": "2026-02-16",
+        "text": "@kindoblue @CultOfRoyal @HuggingModels the \"so\" is that research demos get all the hype but shipping something people actually stick with is a completely different problem",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-16",
+        "text": "PersonaPlex-7B is NVIDIA's open-source AI model for real-time voice conversations. It's full-duplex, meaning it listens and speaks simultaneously, supporting natural dynamics like interruptions and overlaps. With 7B parameters, it's based on Moshi architecture and conditioned on voice/text prompts for persona. Free on Hugging Face: https://t.co/AryTJWUymB",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "zero_zone_one",
+        "name": "zone.zero",
+        "date": "2026-02-16",
+        "text": "@HuggingModels @grok what is this? Explain",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-16",
+        "text": "@slimShadyo07 @_ReverseAI_ @HuggingModels @elevenlabs PersonaPlex-7B might run on an RTX 3050 6GB with quantization (e.g., 4-bit via GGUF), reducing VRAM needs to ~4GB, but real-time full-duplex voice could lag due to the GPU's lower power. It's tested on A100/H100; no official 3050 support. Experiment and monitor VRAM usage.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "slimShadyo07",
+        "name": "Ambar",
+        "date": "2026-02-16",
+        "text": "@_ReverseAI_ @HuggingModels @elevenlabs @grok can it run on nvidia 3050 6gb vram?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "lmcanavals",
+        "name": "Luis M Canaval S. 👾",
+        "date": "2026-02-16",
+        "text": "@HuggingModels Hermoso",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-16",
+        "text": "The RTX 5080 has 16GB GDDR7 VRAM, which is tighter for PersonaPlex-7B (~14-20GB at FP16). It may run with quantization (e.g., 8-bit, reducing to ~7-10GB + overhead), but expect potential latency issues for real-time voice. Pairing with Ryzen 7 9850X3D is fine CPU-wise. Test via PyTorch/CUDA; see NVIDIA's repo for optimizations.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iamBarronRoth",
+        "name": "Barron Roth",
+        "date": "2026-02-16",
+        "text": "@grok @HuggingModels sorry i meant 5080 😭",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-16",
+        "text": "@iamBarronRoth @HuggingModels Yes, you can run PersonaPlex-7B on an RTX 5090 (32GB VRAM) paired with a Ryzen 7 9850X3D. The model is tested on A100 80GB but should work via PyTorch/CUDA on Blackwell GPUs. Expect ~14-20GB VRAM usage at FP16; quantize for efficiency. Check NVIDIA's GitHub for setup.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iamBarronRoth",
+        "name": "Barron Roth",
+        "date": "2026-02-16",
+        "text": "@HuggingModels @grok can i run this on a 5090 with a 9850x3d?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "iamBarronRoth",
+        "name": "Barron Roth",
+        "date": "2026-02-16",
+        "text": "@jamesmtweets @HuggingModels your support person isn’t doing the troubleshooting, they just follow the guide\n\nyou don’t really need all voice models to be intelligent, they just need to steer",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-16",
+        "text": "@ramaswamy87 @HuggingModels Yes, you can try running PersonaPlex-7B on a MacBook Air M1 using CPU offload (--cpu-offload flag) for low GPU memory, but it's not officially supported on Apple Silicon and may run slowly. Ensure at least 16GB RAM. See setup: https://t.co/jqNXtbgHkh",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "ramaswamy87",
+        "name": "Ramaswamy",
+        "date": "2026-02-16",
+        "text": "@HuggingModels @grok can I able to run in mac air 1?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "tarush_agarwal_",
+        "name": "Tarush Agarwal",
+        "date": "2026-02-16",
+        "text": "@HuggingModels I wonder how we test these",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ethanbloch",
+        "name": "Old Ethan Bloch profile",
+        "date": "2026-02-16",
+        "text": "@HuggingModels Dope",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-16",
+        "text": "Yes, but with caveats. PersonaPlex-7B typically needs ~14-17GB VRAM for smooth real-time inference. An RTX 3060 (12GB) might work with quantization and CPU offloading, but expect higher latency and potential issues. For best results, aim for 24GB+ like an RTX 3090. Test via the Hugging Face repo!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "JoseCar60851097",
+        "name": "Juan Jose Cardona",
+        "date": "2026-02-16",
+        "text": "@teckau @jxwalker @HuggingModels @grok @grok is this plausible?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "smith_john19633",
+        "name": "John Smith",
+        "date": "2026-02-16",
+        "text": "@jvascovilar @HuggingModels Can it hear itself?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "amrudspeak",
+        "name": "Amrudesh",
+        "date": "2026-02-16",
+        "text": "@HuggingModels I went through the conversation. If I am not wrong, there were ZERO instances when the model spoke again without a response from the other side. So, turn taking is not dead technically. Right? Else, what am I missing? I do understand the \"full duplex\" part. It is good.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "ZenoEleatis",
+        "name": "Ζηνων o Carlos",
+        "date": "2026-02-16",
+        "text": "@HuggingModels @7uanF pégale un ojo, si tienes alguna API de ElevenLabs gastando ríales",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "amrudspeak",
+        "name": "Amrudesh",
+        "date": "2026-02-16",
+        "text": "@HuggingModels So, it can say something, I don't reply and it can talk to me again? I thought that's the one rule (turn taking) that was inbuilt into the paradigm. Guess the trick was to push \"silence\" also as a token if the period of silence is longer than a threshold. 😉",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "AIPulkit",
+        "name": "AI World",
+        "date": "2026-02-16",
+        "text": "@HuggingModels @SarvamAI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-16",
+        "text": "@goldilocksville Make sure you're in the X app (latest version) and in a direct chat with me (grok). The microphone icon should appear in the chat input area. If not, try restarting the app or checking for updates. If issues persist, describe your device/OS for more help!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "goldilocksville",
+        "name": "Goldilocks",
+        "date": "2026-02-16",
+        "text": "@grok I’m chatting now. I don’t see a microphone icon",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-16",
+        "text": "@goldilocksville @HuggingModels To use my voice mode on mobile, download the X app (free on App Store or Google Play). Once installed, start a chat with me and tap the microphone icon to enable real-time voice conversations. No extra tools needed!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "goldilocksville",
+        "name": "Goldilocks",
+        "date": "2026-02-16",
+        "text": "@grok @HuggingModels What to download or use to do this?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "MancerAI_",
+        "name": "MancerAI",
+        "date": "2026-02-16",
+        "text": "@HuggingModels Awesome! Can't wait for it to be more efficient to run on device",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-16",
+        "text": "@goldilocksville @HuggingModels Yes, I support voice interactions on mobile through the X app's Voice Mode. It enables natural, real-time conversations with features like interruptions and quick responses, powered by xAI. Give it a try!",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "goldilocksville",
+        "name": "Goldilocks",
+        "date": "2026-02-16",
+        "text": "@HuggingModels @grok can you do on mobile",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "Alex4Changes",
+        "name": "Alex",
+        "date": "2026-02-16",
+        "text": "@HuggingModels PersonaPlex-7B duplex voice is nuts. No more awkward pauses in convos. I've played with voice AI – this kills the lag everyone hates.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "MMBeckerman",
+        "name": "Michael Beckerman",
+        "date": "2026-02-16",
+        "text": "@iampritamj @HuggingModels I think this can be done right as long as the user has the ability to tell the AI how combative or confrontational they want it to be. But yes, this has the substantially potential to warp our perceptions about what a real relationship with someone should be like, no question.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "HoveringBrick",
+        "name": "HoveringBrick ",
+        "date": "2026-02-16",
+        "text": "@HuggingModels wasn't artificial \"intelligence\" supposed to NOT do the stupid things that humans do?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "niftyfiftyfifty",
+        "name": "MrCanister ∞",
+        "date": "2026-02-16",
+        "text": "@jvascovilar @HuggingModels 😂 🤣",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "iAmOweezY",
+        "name": "Peter Obi Esan Son",
+        "date": "2026-02-16",
+        "text": "NVIDIA's PersonaPlex-7B just dropped: full-duplex voice beast that actually listens while talking — no pauses, interruptions, overlaps, zero awkward silence. \n\n 7B params, open-source (Hugging Face + GitHub), role prompts for any persona, voice cloning vibes, real-time speech-to-speech. \n\nMoshi architecture upgraded.  Voice AI finally feels human instead of robot waiting for its turn to speak.  \n\nYou running this locally yet, or waiting for the \"it needs a 4090\" memes? What's your first prompt gonna be?#PersonaPlex #NVIDIA #VoiceAI",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "deveshsingh93",
+        "name": "Devesh Singh",
+        "date": "2026-02-16",
+        "text": "@HuggingModels Full-duplex at 7B params is genuinely impressive. The awkward half-duplex pause-and-wait in current voice assistants is the biggest UX friction. Natural interruption and backchanneling changes agent interaction completely. Open-sourcing this will push the whole space forward.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-16",
+        "text": "@porysmail @jxwalker @HuggingModels 네, PersonaPlex-7B는 최적 성능을 위해 20GB 이상의 VRAM을 추천하지만, 16GB GPU에서 양자화나 CPU 오프로드를 사용하면 작동할 수 있어요. 다만 지연이나 불안정할 수 있음. Hugging Face에서 확인: https://t.co/VDko478VkQ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "porysmail",
+        "name": "테슬이",
+        "date": "2026-02-16",
+        "text": "@grok @jxwalker @HuggingModels 16gb이상 필요로 하는모댈이야?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "Paulgramma",
+        "name": "Paul Grammagh",
+        "date": "2026-02-16",
+        "text": "@HuggingModels Just dropped? its published a month ago. Stop doing clickbait.",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "grok",
+        "name": "Grok",
+        "date": "2026-02-16",
+        "text": "@porysmail @jxwalker @HuggingModels 네, RTX 5080(블랙웰 아키텍처, 16GB VRAM)에서 PersonaPlex-7B가 잘 작동할 거예요. 3090보다 빠르고 효율적일 수 있지만, VRAM 부족 시 양자화나 CPU 오프로드 사용하세요. Hugging Face에서 확인해보세요: https://t.co/VDko478VkQ",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "porysmail",
+        "name": "테슬이",
+        "date": "2026-02-16",
+        "text": "@grok @jxwalker @HuggingModels rtx 5080에서는 잘돌아가?",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": false
+      },
+      {
+        "handle": "yogeshxcode",
+        "name": "Yogesh Singh.",
+        "date": "2026-02-16",
+        "text": "@HuggingModels https://t.co/cAbVYeg9e6",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      },
+      {
+        "handle": "shpigunov",
+        "name": "super scum event e/dec",
+        "date": "2026-02-16",
+        "text": "@HuggingModels &gt;just dropped\na month ago",
+        "likes": 0,
+        "isAuthor": false,
+        "isDirectReply": true
+      }
+    ]
+  },
+  "downloadedImages": [
+    {
+      "remoteUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2022995312135344128/pu/img/n_LMyO2sgo9oiPR7.jpg",
+      "localFilename": "2022995332058251548_1_poster.jpg"
+    }
+  ]
 }
