@@ -13,6 +13,9 @@ export interface BookmarkSummary {
   replies: number;
 }
 
+/** Taille de page du listing incrémental (facturé par bookmark retourné). */
+const INCREMENTAL_PAGE_SIZE = 20;
+
 export interface FetchBookmarksOptions {
   accessToken: string;
   maxPages?: number;
@@ -85,7 +88,11 @@ export async function getAuthenticatedUserId(
 export async function fetchAllBookmarks(
   options: FetchBookmarksOptions,
 ): Promise<BookmarkSummary[]> {
-  const { accessToken, maxPages = 20, isKnown } = options;
+  const { accessToken, isKnown } = options;
+  // Incrémental : petites pages, sinon un seul nouveau bookmark refacture les
+  // 100 de la page. Complet : pages de 100 (moins d'appels).
+  const pageSize = isKnown ? INCREMENTAL_PAGE_SIZE : 100;
+  const maxPages = options.maxPages ?? (isKnown ? 100 : 20);
   const me = options.me ?? (await getAuthenticatedUserId(accessToken));
 
   const tweetFields = "created_at,author_id,text,public_metrics";
@@ -98,7 +105,7 @@ export async function fetchAllBookmarks(
 
   while (page < maxPages) {
     const params = new URLSearchParams({
-      max_results: "100",
+      max_results: String(pageSize),
       "tweet.fields": tweetFields,
       expansions,
       "user.fields": userFields,

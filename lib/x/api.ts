@@ -200,7 +200,17 @@ interface RunSearchOptions {
    * introuvables. On passe la date du post bookmarké (moins une marge).
    */
   startTime?: string;
+  /** Résultats par page (10–100, facturés à l'unité). Défaut 100. */
+  maxResults?: number;
 }
+
+/**
+ * Commentaires demandés par recherche : le rendu en garde 15 (tri par likes
+ * en local) ; X ne sait pas trier par likes, relevancy est le meilleur proxy.
+ */
+const COMMENT_PAGE_SIZE = 30;
+/** Seuil de moisson sous lequel on complète en chronologique (= plafond rendu). */
+const COMMENTS_WANTED = 15;
 
 async function runSearch(
   endpoint: "recent" | "all",
@@ -222,7 +232,7 @@ async function runSearch(
       "user.fields": USER_FIELDS,
       "media.fields": MEDIA_FIELDS,
       expansions: EXPANSIONS,
-      max_results: "100",
+      max_results: String(options.maxResults ?? 100),
     });
     if (options.sortOrder) params.set("sort_order", options.sortOrder);
     if (endpoint === "all" && options.startTime) {
@@ -337,7 +347,7 @@ export async function extractPostWithXApi(
         `conversation_id:${tweet.conversation_id}`,
         maxCommentPages,
         bearerToken,
-        { sortOrder: "relevancy", startTime },
+        { sortOrder: "relevancy", startTime, maxResults: COMMENT_PAGE_SIZE },
       );
     }
   } catch (e) {
@@ -351,7 +361,7 @@ export async function extractPostWithXApi(
   // rapport aux replies annoncées, on complète avec UNE page chronologique —
   // coût borné, et la curation locale (tri par likes) fait le reste.
   const expectedComments = Math.min(
-    30,
+    COMMENTS_WANTED,
     tweet.public_metrics?.reply_count ?? 0,
   );
   const harvested = new Set(
@@ -364,7 +374,7 @@ export async function extractPostWithXApi(
         `conversation_id:${tweet.conversation_id}`,
         1,
         bearerToken,
-        { startTime },
+        { startTime, maxResults: COMMENT_PAGE_SIZE },
       );
       commentsAcc = {
         tweets: [...commentsAcc.tweets, ...topUp.tweets],
