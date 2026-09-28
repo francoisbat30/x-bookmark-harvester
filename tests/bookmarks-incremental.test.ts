@@ -75,4 +75,16 @@ describe("fetchAllBookmarks — listing incrémental", () => {
     expect(impl).toHaveBeenCalledTimes(2);
     expect(out.map((b) => b.id)).toEqual(["5", "4", "3"]);
   });
+
+  it("demande des pages de 20 en incrémental, de 100 en complet", async () => {
+    const impl = vi.fn().mockResolvedValue(page(["1"]));
+    vi.stubGlobal("fetch", impl);
+
+    await fetchAllBookmarks({ accessToken: "T", me: ME, isKnown: async () => true });
+    await fetchAllBookmarks({ accessToken: "T", me: ME });
+    const sizes = impl.mock.calls.map(
+      ([url]) => new URL(String(url)).searchParams.get("max_results"),
+    );
+    expect(sizes).toEqual(["20", "100"]);
+  });
 });

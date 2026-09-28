@@ -223,6 +223,23 @@ describe("extractPostWithXApi — fenêtre de recherche", () => {
     expect(post.comments[0].likes).toBe(500);
   });
 
+  it("caps comment searches at 30 results, thread search stays at 100", async () => {
+    const { calls } = installFetch({
+      mainTweet: {
+        ...mainTweet("2026-07-08T00:00:00.000Z"),
+        public_metrics: { like_count: 10, retweet_count: 1, reply_count: 50, impression_count: 0 },
+      },
+      users: [author],
+    });
+    await extractPostWithXApi("1000", { bearerToken: "B", now: NOW });
+    const conv = calls.map((c) => new URL(c)).filter((u) => u.searchParams.get("query")?.includes("conversation_id:1000"));
+    const size = (u: URL) => u.searchParams.get("max_results");
+    const thread = conv.filter((u) => u.searchParams.get("query")!.includes("from:"));
+    const comments = conv.filter((u) => !u.searchParams.get("query")!.includes("from:"));
+    expect(thread.map(size)).toEqual(["100"]);
+    expect(comments.map(size)).toEqual(["30", "30"]); // relevancy + top-up
+  });
+
   it("skips the top-up when relevancy already matches the reply count", async () => {
     const { calls } = installFetch({
       mainTweet: {
